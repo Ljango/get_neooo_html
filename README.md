@@ -220,3 +220,44 @@ python import_data.py --subject 高中物理
 ```
 JSON 文件 -> [本项目] -> Neo4j <- [展示项目] <- 用户
 ```
+
+## 部署和访问
+
+### 本地访问
+
+```bash
+# 启动本地服务器（仅本机访问）
+cd static && python3 -m http.server 8888
+
+# 访问 http://localhost:8888
+```
+
+### 远端部署
+
+提供了多种部署方案，详见 [DEPLOY.md](DEPLOY.md)
+
+**快速启动（允许外部访问）：**
+```bash
+# 使用自定义启动脚本
+python3 src/start_server.py -p 8888
+
+# 或指定IP和端口
+python3 src/start_server.py -H 0.0.0.0 -p 8888
+```
+
+**后台运行：**
+```bash
+nohup python3 src/start_server.py -p 8888 > server.log 2>&1 &
+```
+
+**使用systemd（生产环境推荐）：**
+```bash
+# 参考 DEPLOY.md 中的systemd配置
+sudo systemctl start knowledge-graph
+```
+
+### 访问地址
+
+- **本地访问**: http://localhost:8888
+- **局域网访问**: http://<服务器IP>:8888
+- **公网访问**: http://<公网IP>:8888（需配置防火墙和安全组）
