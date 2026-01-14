@@ -1,0 +1,130 @@
+{
+  "title": "新教材-初中生物学苏教版七年级下册",
+  "xueduan": "初中",
+  "nianji": "七年级",
+  "xueke": "生物学",
+  "banben": "苏教版",
+  "ceci": "下册",
+  "is_new": true,
+  "chapters": [
+    {
+      "title": "第3单元 生物与环境",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第7章 生态系统",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "第1节 生态系统的构成",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第2节 食物链和食物网",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "第3节 生物圈",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第8章 生态系统的自我调节和生态安全",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "第1节 生态系统的自我调节",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第2节 生态安全",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第4单元 植物的生活",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第9章 绿色开花植物的生命周期",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "第1节 种子的萌发",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第2节 植物的生长",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "第3节 植物的繁殖",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第10章 植物的营养与物质运输",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "第1节 植物的营养器官",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第2节 生物圈中的水循环",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第11章 植物的光合作用和呼吸作用",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "第1节 植物的光合作用",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第2节 植物的呼吸作用",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "第3节 光合作用和呼吸作用原理的应用",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "第4节 植物在生物圈中的重要作用",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

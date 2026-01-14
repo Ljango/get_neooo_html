@@ -1,0 +1,232 @@
+{
+  "title": "小学数学西南大学版一年级下册",
+  "xueduan": "小学",
+  "nianji": "一年级",
+  "xueke": "数学",
+  "banben": "西南大学版",
+  "ceci": "下册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "一 100以内数的认识",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "数数 数的组成",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "写数 读数",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "数的顺序 大小比较",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "整理与复习",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "有趣的数",
+      "level": 1,
+      "index": 2
+    },
+    {
+      "title": "你知道吗 生活中的100（百）",
+      "level": 1,
+      "index": 3
+    },
+    {
+      "title": "二 位置",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "上和下",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "前和后",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "左和右",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "三 认识图形",
+      "level": 1,
+      "index": 5
+    },
+    {
+      "title": "图形拼组",
+      "level": 1,
+      "index": 6
+    },
+    {
+      "title": "四 100以内的加法和减法（一）",
+      "level": 1,
+      "index": 7,
+      "children": [
+        {
+          "title": "整十数加、减整十数的口算",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "两位数加减整十数、一位数的口算",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "两位数加、减两位数",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "整理与复习",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "五 认识人民币",
+      "level": 1,
+      "index": 8,
+      "children": [
+        {
+          "title": "认一认",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "换一换",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "你知道吗 五套人民币",
+      "level": 1,
+      "index": 9
+    },
+    {
+      "title": "六 认识钟表",
+      "level": 1,
+      "index": 10
+    },
+    {
+      "title": "你知道吗  计时工具的变化",
+      "level": 1,
+      "index": 11
+    },
+    {
+      "title": "七 100以内的加法和减法（二）",
+      "level": 1,
+      "index": 12,
+      "children": [
+        {
+          "title": "进位加法",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "两位数加一位数的进位加法",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "两位数加两位数的进位加法",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三个两位数连加",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "退位减法",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "两位数减一位数的退位减法",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "两位数减两位数的退位减法",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三个两位数连减",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "整理与复习",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "八 分类与整理",
+      "level": 1,
+      "index": 13
+    },
+    {
+      "title": "分一分",
+      "level": 1,
+      "index": 14
+    },
+    {
+      "title": "九 总复习",
+      "level": 1,
+      "index": 15,
+      "children": [
+        {
+          "title": "100以内数的认识与加减法",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "认识钟表、人民币",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "位置、认识图形",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "分类与整理",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    }
+  ]
+}

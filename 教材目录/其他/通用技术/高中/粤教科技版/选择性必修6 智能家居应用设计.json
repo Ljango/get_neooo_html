@@ -1,0 +1,288 @@
+{
+  "title": "高中通用技术粤教粤科版选择性必修6 智能家居应用设计",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "通用技术",
+  "banben": "粤教科技版",
+  "ceci": "选择性必修6 智能家居应用设计",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 智能家居架构与功能",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第一节 走进智能家居世界",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、丰富多彩的智能家居生活",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、智能家居生活与传统家居生活的比较",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第二节 智能家居的功能",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、智能家居系统的基本功能",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、智能家居系统的特性",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第三节 智能家居的架构",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、智能家居系统的分类",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、智能家居系统的架构",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、智能家居的相关技术标准",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第二章 智能家居与物联通信",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第一节 认识物联网",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、物联网的概念和特征",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、物联网的体系结构",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、物联网与智能家居",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第二节 传感器介绍",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、传感器工作原理",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、温湿度传感器",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、光传感器",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、烟雾传感器",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第三节 简易物联网设计",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、需求分析",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、简易设计",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、优化改进",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第三章 智能家居简易产品设计",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第一节 琳琅满目的智能家居产品",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、智能家居互联网设备",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、控制终端",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、传感器",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、受控设备",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第二节 产品方案设计",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、可行性分析",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、关键技术",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、产品方案",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第三节 产品方案实现",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、产品制作",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、产品测试",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第四章 智能家居系统设计与实现",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "第一节 确定需求",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、需求分析",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、功能规划",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第二节 方案设计与优化",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、方案设计",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、方案优化",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第三节 系统搭建与实现",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、智能电动窗帘的搭建与实现",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、智能家电系统的搭建与实现",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、智能安防报警系统的搭建与实现",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

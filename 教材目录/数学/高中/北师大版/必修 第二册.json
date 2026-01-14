@@ -1,0 +1,802 @@
+{
+  "title": "高中数学北师大版必修 第二册",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "数学",
+  "banben": "北师大版",
+  "ceci": "必修 第二册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 三角函数",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "1 周期变化",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "习题1-1",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "2 任意角",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "2.1 角的概念推广",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.2 象限角及其表示",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "习题1-2",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "3 弧度制",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "3.1 弧度概念",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "3.2 弧度与角度的换算",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "习题1-3",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "4 正弦函数和余弦函数的概念及其性质",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "4.1 单位圆与任意角的正弦函数、余弦函数定义",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "4.2 单位圆与正弦函数、余弦函数的基本性质",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "4.3 诱导公式与对称",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "4.4 诱导公式与旋转",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "习题1-4",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        },
+        {
+          "title": "5 正弦函数、余弦函数的图象与性质再认识",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "5.1 正弦函数的图象与性质再认识",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "5.2余弦函数的图象与性质再认识",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "习题1-5",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "6 函数y=Asin(ωx+φ)的性质与图象",
+          "level": 2,
+          "index": 6,
+          "children": [
+            {
+              "title": "6.1探究ω对y=sinωx的图象的影响",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "6.2探究φ对y=sin(x+φ)的图象的影响",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "6.3 探究A对y=Asin(ωx+φ)的图象的影响",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "习题1-6",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "信息技术应用   探究y=Asin(ωx+φ)的图象",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        },
+        {
+          "title": "7 正切函数",
+          "level": 2,
+          "index": 7,
+          "children": [
+            {
+              "title": "7.1 正切函数的定义",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "7.2 正切函数的诱导公式",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "7.3 正切函数的图象与性质",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "习题1-7",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "8 三角函数的简单应用",
+          "level": 2,
+          "index": 8,
+          "children": [
+            {
+              "title": "利用三角函数研究周期现象的简单实际问题",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "习题1-8",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "阅读材料  数学与音乐",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "本章小结",
+          "level": 2,
+          "index": 9
+        },
+        {
+          "title": "复习题一",
+          "level": 2,
+          "index": 10
+        }
+      ]
+    },
+    {
+      "title": "第二章 平面向量及其应用",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "1 从位移、速度、力到向量",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.1 位移、速度、力与向量的概念",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "1.2 向量的基本关系",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "习题2-1",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "阅读材料 向量的发展历史与符号由来",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "2 从位移的合成到向量的加减法",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "2.1 向量的加法",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.2 向量的减法",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "习题2-2",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "3 从速度的倍数到向量的数乘",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "3.1 向量的数乘运算",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "3.2 向量的数乘与向量共线的关系",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "习题2-3",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "4 平面向量基本定理及坐标表示",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "4.1 平面向量基本定理",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "4.2 平面向量及运算的坐标表示",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "习题2-4",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "5 从力的做功到向量的数量积",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "5.1 向量的数量积",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "5.2 向量数量积的坐标表示",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "5.3 利用数量积计算长度与角度",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "习题2-5",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "6 平面向量的应用",
+          "level": 2,
+          "index": 6,
+          "children": [
+            {
+              "title": "6.1 余弦定理与正弦定理",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "6.2 平面向量在几何、物理中的应用举例",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "习题2-6",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "本章小结",
+          "level": 2,
+          "index": 7
+        },
+        {
+          "title": "复习题二",
+          "level": 2,
+          "index": 8
+        }
+      ]
+    },
+    {
+      "title": "第三章 数学建模活动（二）",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "1 数学建模活动的准备",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.1 回顾：数学建模活动的过程",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "1.2 数学建模活动的设计与实施——测量建筑物的高度",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "1.3 尝试数学建模选题",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "习题3 -1",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "2 自主数学建模的开题交流",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "习题3-2",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第四章 三角恒等变换",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "1 同角三角函数的基本关系",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.1 基本关系式",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "1.2 由一个三角函数值求其他三角函数值",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "1.3 综合应用",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "习题4-1",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "2 两角和与差的三角函数公式",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "2.1 两角和与差的余弦公式及其应用",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.2 两角和与差的正弦、正切公式及其应用",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "2.3 三角函数的叠加及其应用",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "2.4 积化和差与和差化积公式",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "习题4-2",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        },
+        {
+          "title": "3 二倍角的三角函数公式",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "3.1 二倍角公式",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "3.2 半角公式",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "习题4-3",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "本章小结",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "复习题四",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第五章 复数",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "1 复数的概念及其几何意义",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.1 复数的概念",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "1.2 复数的几何意义",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "习题5-1",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "2 复数的四则运算",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "2.1 复数的加法与减法",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.2 复数的乘法与除法",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "*2.3 复数乘法几何意义初探",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "习题5-2",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "*§3 复数的三角表示",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "3.1 复数的三角表示式",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "3.2 复数乘除运算的几何意义",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "习题5-3",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "阅读材料 数系的扩充",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "本章小结",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "复习题五",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第六章 立体几何初步",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "1 基本立体图形",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.1 构成空间几何体的基本元素",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "1.2 简单多面体--棱柱、棱锥和棱台",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "1.3 简单旋转体--球、圆柱、圆锥和圆台",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "习题6-1",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "阅读材料  蜂窝猜想",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        },
+        {
+          "title": "2 直观图",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "画直观图",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "习题6-2",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "阅读材料 直观图的其他常用画法",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "3 空间点、直线、平面之间的位置关系",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "3.1 空间图形基本位置关系的认识",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "3.2 刻画空间点、线、面位置关系的公理",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "习题6-3",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "4 平行关系",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "4.1 直线与平面平行",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "4.2 平面与平面平行",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "习题6-4",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "5 垂直关系",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "5.1 直线与平面垂直",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "5.2 平面与平面垂直",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "习题6-5",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "5.1 直线与平面垂直",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "5.2 平面与平面垂直",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        },
+        {
+          "title": "6 简单几何体的再认识",
+          "level": 2,
+          "index": 6,
+          "children": [
+            {
+              "title": "6.1 柱、锥、台的侧面展开与面积",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "6.2 柱、锥、台的体积",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "6.3 球的表面积和体积",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "习题6-6",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "阅读材料一 祖暅原理",
+              "level": 3,
+              "index": 5
+            },
+            {
+              "title": "阅读材料二 几何学的发展",
+              "level": 3,
+              "index": 6
+            }
+          ]
+        },
+        {
+          "title": "本章小结",
+          "level": 2,
+          "index": 7
+        },
+        {
+          "title": "复习题六",
+          "level": 2,
+          "index": 8
+        }
+      ]
+    },
+    {
+      "title": "##附录 部分数学专业词汇中英文对照表",
+      "level": 1,
+      "index": 7
+    }
+  ]
+}

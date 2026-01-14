@@ -1,0 +1,429 @@
+{
+  "title": "小学数学冀教版二年级上册",
+  "xueduan": "小学",
+  "nianji": "二年级",
+  "xueke": "数学",
+  "banben": "冀教版",
+  "ceci": "上册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "一 观察物体（一）",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "从不同位置观察物体",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "从前面、侧面和上面观察几何体",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "二 加减混合运算",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "连加",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "加减混合运算",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "连减、认识小括号",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "综合应用",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "套圈游戏",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "综合与实践",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "三 表内乘法（一）",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "认识乘法",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "认识乘法和乘法算式",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "乘法算式和各部分名称",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "2～6的乘法口诀",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "1～3的乘法口诀",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "4的乘法口诀",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "5的乘法口诀",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "6的乘法口诀",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "整理与复习",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "复习2~6的乘法口诀",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "四 角的认识",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "认识角",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "认识直角、锐角和钝角",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "五 表内除法（一）",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "认识除法",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "平均分",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "初步认识除法算式和除号",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "认识除法各部分的名称",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "用2～6的乘法口诀求商",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "用口诀计算乘法和除法",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "用乘法口诀求商",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "提出问题，并解答",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "整理与复习",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "复习除法的意义和用乘法口诀求商",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "六 象形统计图和统计表",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "象形统计图和统计表",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "用不同的方式表示和整理简单数据",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "用画“正”字的方法整理数据",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "综合与实践",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "摸球游戏",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "七 表内乘法和除法（二）",
+      "level": 1,
+      "index": 7,
+      "children": [
+        {
+          "title": "7、8、9的乘法口诀",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "7的乘法口诀",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "用7的乘法口诀计算",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "8的乘法口诀",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "用8的乘法口诀计算",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "9的乘法口诀",
+              "level": 3,
+              "index": 5
+            },
+            {
+              "title": "用9的乘法口诀计算，认识乘法竖式",
+              "level": 3,
+              "index": 6
+            },
+            {
+              "title": "整理乘法口诀",
+              "level": 3,
+              "index": 7
+            }
+          ]
+        },
+        {
+          "title": "用7、8、9的乘法口诀求商",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "用7的乘法口诀求商",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "用8的乘法口诀求商",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "用9的乘法口诀求商",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "认识除法竖式",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "倍的认识",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "体会“倍”的意义",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "求一个数是另一个数的几倍",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "理解求一个数的几倍是多少用乘法计算",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "求一个数几倍的问题",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "整理与复习",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "系统复习和综合应用",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "游动物园",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "综合与实践",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "八 探索乐园",
+      "level": 1,
+      "index": 8,
+      "children": [
+        {
+          "title": "探索“3×3”方格中图形排列的规律",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "探索图中个数和数列的规律",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "整理与评价",
+      "level": 1,
+      "index": 9,
+      "children": [
+        {
+          "title": "知识与技能",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "复习题",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "问题与思考",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "复习题",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "自我评价",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "学生自我评价",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

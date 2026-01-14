@@ -1,0 +1,97 @@
+{
+  "title": "初中物理教科版九年级下册",
+  "xueduan": "初中",
+  "nianji": "九年级",
+  "xueke": "物理",
+  "banben": "教科版",
+  "ceci": "下册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第九章  家庭用电",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "1. 家用电器",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2. 家庭电路",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3. 安全用电与保护",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "4. 家庭生活自动化、智能化",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第十章  电磁波与信息技术",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "1. 神奇的电磁波",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2. 电磁波的应用",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3. 改变世界的信息技术",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第十一章  物理学与能源技术",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "1. 能量守恒定律",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2. 能量转化的方向性和效率",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3. 能源",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "4. 核能",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "5. 能源开发与可持续发展",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "专题课",
+      "level": 1,
+      "index": 4
+    }
+  ]
+}

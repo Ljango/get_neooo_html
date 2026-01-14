@@ -1,0 +1,431 @@
+{
+  "title": "初中（五•四学制）数学鲁教版七年级上册",
+  "xueduan": "初中（五•四学制）",
+  "nianji": "七年级",
+  "xueke": "数学",
+  "banben": "鲁教版",
+  "ceci": "上册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 三角形",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "1 认识三角形",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "三角形与它的内角",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "三角形按角分类",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三角形的三边关系",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "三角形的中线和角平分线",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "三角形的高",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        },
+        {
+          "title": "2 图形的全等",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3 探索三角形全等的条件",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "从三边探索三角形全等的条件",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "从两角及一边探索三角形全等的条件",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "从两边及一角探索三角形全等的条件",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "全等三角形判定条件的综合运用",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "4 三角形的尺规作图",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "5 利用三角形全等测距离",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "回顾与思考",
+          "level": 2,
+          "index": 6,
+          "children": [
+            {
+              "title": "三角形知识系统的建构",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "三角形中典型例题的解析",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第二章 轴对称",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "1 轴对称现象",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2 探索轴对称的性质",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3 简单的轴对称图形",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "线段的垂直平分线",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "角的平分线",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "等腰三角形",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "4 利用轴对称进行设计",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "回顾与思考",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "综合与实践 七巧板",
+          "level": 2,
+          "index": 6,
+          "children": [
+            {
+              "title": "七巧板——认识七巧板",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "七巧板——拼图",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第三章 勾股定理",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "1 探索勾股定理",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "探索勾股定理",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "验证勾股定理",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "2 一定是直角三角形吗",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3 勾股定理的应用举例",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "回顾与思考",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第四章 实数",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "1 无理数",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "无理数产生的实际背景",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "无理数",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "2 平方根",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "算术平方根",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "平方根",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "3 立方根",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "4 估算",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "5 用计算器开方",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "6 实数",
+          "level": 2,
+          "index": 6,
+          "children": [
+            {
+              "title": "实数",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "实数的比较和计算",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "回顾与思考",
+          "level": 2,
+          "index": 7
+        },
+        {
+          "title": "综合与实践 计算机运用与功能探索",
+          "level": 2,
+          "index": 8,
+          "children": [
+            {
+              "title": "计算机运用与功能探索——小组合作研究相关问题",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "计算机运用与功能探索——班内展示交流",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第五章 位置与坐标",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "1 确定位置",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2 平面直角坐标系",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "平面直角坐标系及其有关概念",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "平面坐标系中点与坐标的关系",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "平面直角坐标系的建立",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "3 轴对称与坐标变化",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "回顾与思考",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "位置与坐标知识系统的建构",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "位置与坐标中典型例题的解析",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第六章 一次函数",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "1 函数",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2 一次函数",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3 一次函数的图像",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "次函数y=kx的图象与性质",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "一次函数y=kx+b的图象",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "一次函数y=kx+b的性质",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "4 确定一次函数的表达式",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "5 一次函数的应用",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "一个一次函数图象的应用",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "两个一次函数图象的应用",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "回顾与思考",
+          "level": 2,
+          "index": 6
+        }
+      ]
+    }
+  ]
+}

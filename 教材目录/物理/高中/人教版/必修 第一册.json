@@ -1,0 +1,149 @@
+{
+  "title": "高中物理人教版高一必修 第一册",
+  "xueduan": "高中",
+  "nianji": "高一",
+  "xueke": "物理",
+  "banben": "人教版",
+  "ceci": "必修 第一册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "序言 物理学：研究物质及其运动规律的科学",
+      "level": 1,
+      "index": 1
+    },
+    {
+      "title": "第一章 运动的描述",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "1.质点 参考系",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2.时间 位移",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3.位置变化快慢的描述——速度",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "4.速度变化快慢的描述——加速度",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第二章 匀变速直线运动的研究",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "1.实验：探究小车速度随时间变化的规律",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2.匀变速直线运动的速度与时间的关系",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3.匀变速直线运动的位移与时间的关系",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "4.自由落体运动",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第三章 相互作用——力",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "1.重力与弹力",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2.摩擦力",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3.牛顿第三定律",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "4.力的合成和分解",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "5.共点力的平衡",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第四章 运动和力的关系",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "1.牛顿第一定律",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2.实验：探究加速度与力、质量的关系",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3.牛顿第二定律",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "4.力学单位制",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "5.牛顿运动定律的应用",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "6.超重和失重",
+          "level": 2,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "title": "课题研究",
+      "level": 1,
+      "index": 6
+    },
+    {
+      "title": "学生实验",
+      "level": 1,
+      "index": 7
+    }
+  ]
+}

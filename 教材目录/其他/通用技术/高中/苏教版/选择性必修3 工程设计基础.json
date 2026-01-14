@@ -1,0 +1,84 @@
+{
+  "title": "高中通用技术苏教版选择性必修3 工程设计基础",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "通用技术",
+  "banben": "苏教版",
+  "ceci": "选择性必修3 工程设计基础",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 认识工程",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "一、工程的发展与内涵",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "二、工程的价值与特性",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "三、工程师与团队建设",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第二章 工程的设计",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "一、工程设计的一般过程与基本要素",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "二、工程设计的分析方法与面向X的设计（DFX）",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "第三章 工程图样与建模",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "三、认识工程图样",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "四、工程的局部建模与仿真",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "第四章 工程的决策与管理",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "一、工程设计中的评价与决策",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "二、探究工程项目的规划、管理与评估",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    }
+  ]
+}

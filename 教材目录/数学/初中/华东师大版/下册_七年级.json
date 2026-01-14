@@ -1,0 +1,280 @@
+{
+  "title": "新教材-初中数学华东师大版七年级下册",
+  "xueduan": "初中",
+  "nianji": "七年级",
+  "xueke": "数学",
+  "banben": "华东师大版",
+  "ceci": "下册",
+  "is_new": true,
+  "chapters": [
+    {
+      "title": "第5章 一元一次方程",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "5.1从实际问题到方程",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "5.2解一元一次方程",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "1.等式的性质与方程的简单变形",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.解一元一次方程",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "5.3实践与探索",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "小结与复习",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第6章 一次方程组",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "6.1二元一次方程组和它的解",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "6.2二元一次方程组的解法",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "*6.3三元一次方程组及其解法",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "6.4实践与探索",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "小结与复习",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第7章 一元一次不等式",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "7.1认识不等式",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.不等式",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.不等式的解集",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "7.2不等式的基本性质",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "7.3解一元一次不等式",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "7.4解一元一次不等式组",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "小结与复习",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第8章 三角形",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "8.1与三角形有关的边和角",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.认识三角形",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.三角形的内角和与外角和",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.三角形的三边关系",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "8.2多边形的内角和与外角和",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "8.3用正多边形铺设地面",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "1.用相同的正多边形",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.用多种正多边形",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "小结与复习",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第9章 轴对称、平移与旋转",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "9.1轴对称",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.生活中的轴对称",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.轴对称的再认识",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.作轴对称图形",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "4.设计轴对称图案",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "9.2平移",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "1.图形的平移",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.平移的特征",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "9.3旋转",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "1.图形的旋转",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.旋转的特征",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.旋转对称图形",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "9.4中心对称",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "9.5图形的全等",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "小结与复习",
+          "level": 2,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "title": "项目学习3 体育比赛计分",
+      "level": 1,
+      "index": 6
+    },
+    {
+      "title": "项目学习4 生活中的密铺",
+      "level": 1,
+      "index": 7
+    }
+  ]
+}

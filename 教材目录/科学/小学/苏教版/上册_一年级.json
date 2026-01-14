@@ -1,0 +1,111 @@
+{
+  "title": "新教材-小学科学苏教版一年级上册",
+  "xueduan": "小学",
+  "nianji": "一年级",
+  "xueke": "科学",
+  "banben": "苏教版",
+  "ceci": "上册",
+  "is_new": true,
+  "chapters": [
+    {
+      "title": "1单元 走进科学",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "1 小小科学家",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2 小小工程师",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3 上好科学课",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "2单元 用感官观察",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "4 认识感官",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "5 借助工具观察",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "6 感官总动员",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "3单元 用大脑思考",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "7 事实与猜想",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "8 从猜想到验证",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "9 探究秋叶的秘密",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "4单元 用双手创造",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "10 自然物与人造物",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "11 人工世界",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "12 轮子的故事",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "专项学习",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "像工程师那样1",
+          "level": 2,
+          "index": 1
+        }
+      ]
+    }
+  ]
+}

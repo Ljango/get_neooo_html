@@ -1,0 +1,251 @@
+{
+  "title": "高中通用技术粤教粤科版选择性必修2 机器人设计与制作",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "通用技术",
+  "banben": "粤教科技版",
+  "ceci": "选择性必修2 机器人设计与制作",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 人与机器人",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第一节 什么是机器人",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 人与机器人的关系",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "第二章 机器人的传动机械",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第一节 机器人的机械部分",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、机械部分的组成",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、传动机械",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第二节 齿轮传动和平面连杆机构",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、齿轮传动机构",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、平面连杆机构",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第三节 机器人的机械设计",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、机器人的移动机构",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、机器人的手爪机构",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、机器人机械部分的搭建",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第三章 机器人的控制器",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第一节 单芯片微控制器",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、什么是微控制器",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、单片机的特点与应用",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、单片机的最小系统",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第二节 Arduino控制器平台",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、认识Arduino平台主要硬件",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、编写Arduino程序",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第三节 一体化控制器",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、认识一体化控制器硬件",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、编写控制器程序",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第四章 机器人感知与传感器",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "第一节 机器人的感知",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、机器感知与传感器",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、感知原理与方法",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第二节 机器人的传感器",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、常用传感器",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、传感器与接口电路",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、机器人传感器的安装与调试",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第三节 带感知机器人的设计与制作",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、传感器的选择与应用",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、带外界感知的轮式机器人的制作与编程",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第五章 机器人的控制与制作",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "第一节 机器人的路径规划和运动控制",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 机器人的控制与制作活动",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、自动循迹机器人的制作",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、自动返回机器人的制作",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、避障机器人的制作",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

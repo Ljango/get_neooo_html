@@ -1,0 +1,180 @@
+{
+  "title": "初中数学沪科技版九年级下册",
+  "xueduan": "初中",
+  "nianji": "九年级",
+  "xueke": "数学",
+  "banben": "沪科技版",
+  "ceci": "下册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第24章 圆",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "24.1 旋转",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "24.2 圆的基本性质",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "圆的定义",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "垂径定理",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "垂径定理的逆定理",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "圆心角、弧、弦、弦心距的关系",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "圆的确定",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        },
+        {
+          "title": "24.3 圆周角",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "圆周角定理及其推论",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "24.4 直线与圆的位置关系",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "直线与圆的三种位置关系",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "切线的定义及判定定理",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "切线长定理",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "24.5 三角形的内切圆",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "24.6 正多边形与圆",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "24.7 弧长与扇形面积",
+          "level": 2,
+          "index": 7
+        },
+        {
+          "title": "24.8 综合与实践 进球线路与最佳射门角",
+          "level": 2,
+          "index": 8
+        },
+        {
+          "title": "第24章 小结与评价",
+          "level": 2,
+          "index": 9
+        }
+      ]
+    },
+    {
+      "title": "第25章 投影与视图",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "25.1 投影",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "25.2 三视图",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第25章 小结与评价",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第26章 概率初步",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "26.1 随机事件",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "26.2 等可能情形下的概率计算",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "等可能情形下概率的特征",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "利用树状图、图表法求概率",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "26.3 用频率估计概率",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "26.4 综合与实践 概率在遗传学中的应用",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "第26章 小结与评价",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    }
+  ]
+}

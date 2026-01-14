@@ -1,0 +1,390 @@
+{
+  "title": "新教材-初中数学华东师大版七年级上册",
+  "xueduan": "初中",
+  "nianji": "七年级",
+  "xueke": "数学",
+  "banben": "华东师大版",
+  "ceci": "上册",
+  "is_new": true,
+  "chapters": [
+    {
+      "title": "第1章 有理数",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "1.1有理数的引入",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.正数和负数",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.有理数",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "1.2数轴",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "1.数轴",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.在数轴上比较数的大小",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "1.3相反数",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "1.4绝对值",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "1.5有理数的大小比较",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "1.6有理数的加法",
+          "level": 2,
+          "index": 6,
+          "children": [
+            {
+              "title": "1.有理数的加法法则",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.有理数加法的运算律",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "1.7有理数的减法",
+          "level": 2,
+          "index": 7
+        },
+        {
+          "title": "1.8有理数的加减混合运算",
+          "level": 2,
+          "index": 8,
+          "children": [
+            {
+              "title": "1.加减法统一成加法",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.加法运算律在加减混合运算中的应用",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "1.9有理数的乘法",
+          "level": 2,
+          "index": 9,
+          "children": [
+            {
+              "title": "1.有理数的乘法法则",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.有理数乘法的运算律",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "1.10有理数的除法",
+          "level": 2,
+          "index": 10
+        },
+        {
+          "title": "1.11有理数的乘方",
+          "level": 2,
+          "index": 11
+        },
+        {
+          "title": "1.12有理数的混合运算",
+          "level": 2,
+          "index": 12
+        },
+        {
+          "title": "1.13近似数",
+          "level": 2,
+          "index": 13
+        },
+        {
+          "title": "1.14用计算器进行计算",
+          "level": 2,
+          "index": 14
+        },
+        {
+          "title": "小结与复习",
+          "level": 2,
+          "index": 15
+        }
+      ]
+    },
+    {
+      "title": "第2章 整式及其加减",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "2.1列代数式",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.用字母表示数",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.代数式",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.列代数式",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "2.2代数式的值",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "2.3整式",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "1.单项式",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.多项式",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.升幂排列和降幂排列",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "2.4整式的加减",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "1.同类项",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.合并同类项",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.去括号和添括号",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "4.整式的加减",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "小结与复习",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第3章 图形的初步认识",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "3.1生活中的立体图形",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "3.2立体图形的视图",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "1.由立体图形到视图",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.由视图到立体图形",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "3.3立体图形的表面展开图",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "3.4平面图形",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "3.5最基本的图形——点和线",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "1.点和线",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.线段的长短比较",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "3.6角",
+          "level": 2,
+          "index": 6,
+          "children": [
+            {
+              "title": "1.角",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.角的比较和运算",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.余角和补角",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "小结与复习",
+          "level": 2,
+          "index": 7
+        }
+      ]
+    },
+    {
+      "title": "第4章 相交线和平行线",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "4.1相交线",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.对顶角",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.垂线",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.同位角、内错角、同旁内角",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "4.2平行线",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "1.平行线",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.平行线的判定",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.平行线的性质",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "小结与复习",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "项目学习1 比例的世界",
+      "level": 1,
+      "index": 5
+    },
+    {
+      "title": "项目学习2 包装中的智慧",
+      "level": 1,
+      "index": 6
+    }
+  ]
+}

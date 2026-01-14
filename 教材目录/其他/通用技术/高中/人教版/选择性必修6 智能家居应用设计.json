@@ -1,0 +1,119 @@
+{
+  "title": "高中通用技术人教版选择性必修6 智能家居应用设计",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "通用技术",
+  "banben": "人教版",
+  "ceci": "选择性必修6 智能家居应用设计",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第 1 章　智能家居架构与功能",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第 1 节  智能家居定义",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第 2 节  智能家居功能与分类",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第 3 节  智能家居与传统家居的比较",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "第 4 节  智能家居的控制与实现",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第 2 章　智能家居与物联通信",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第 1 节  物联网",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第 2 节  传感网络与组网技术 ",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第 3 节  物联网中的传感器",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "第 4 节  智能家居物联通信的实现途径",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第 3 章　智能家居简易产品设计",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第 1 节  继电器控制 LED 灯",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第 2 节  数字温湿度计",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第 3 节  人体感应灯 ",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "第 4 节  电动窗帘与智能窗帘 ",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第 4 章　智能家居系统设计与实现",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "第 1 节  智能家居系统的软硬件组成",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第 2 节  智能灯光控制系统",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第 3 节  数据采集系统",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "第 4 节  智能安防系统",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    }
+  ]
+}

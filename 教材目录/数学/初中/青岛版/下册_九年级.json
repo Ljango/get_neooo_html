@@ -1,0 +1,418 @@
+{
+  "title": "初中数学青岛版九年级下册",
+  "xueduan": "初中",
+  "nianji": "九年级",
+  "xueke": "数学",
+  "banben": "青岛版",
+  "ceci": "下册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第5章 对函数的再探索",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "5.1 函数与它的表示法",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "函数的三种表示法",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "函数的概念及自变量的取值范围",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "简单的分段函数",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "5.2 反比例函数",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "反比例函数",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "反比例图像和性质",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "应用反比例函数图像和性质解决数学问题",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "应用反比例函数解决实际问题",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "5.3 二次函数",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "5.4 二次函数的图象与性质",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "二次函数y=a x²的图象和性质",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二次函数y=a x²+k和y=a (x-h)²的图象与性质",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "二次函数y=a (x-h)²+k的图象与性质",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "推导二次函数y=a x²+bx+c图象的对称轴和顶点坐标公式",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "5.5 确定二次函数的表达式",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "5.6 二次函数的图象与一元二次方程",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "5.7 二次函数的应用",
+          "level": 2,
+          "index": 7,
+          "children": [
+            {
+              "title": "利用二次函数的性质确定函数最大值和最小值",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "应用二次函数解决实际问题",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "回顾与思考",
+          "level": 2,
+          "index": 8,
+          "children": [
+            {
+              "title": "二次函数知识系统的建构",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二次函数的典型例题的解析",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "综合与实践 实际问题与分段函数模型",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "实际问题与分段函数模型——观察与思考",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "实际问题与分段函数模型——交流与发现",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "第6章 事件的概率",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "6.1 随机事件",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "6.2 频数与频率",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "6.3 频数直方图",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "频数直方图的画法",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "从频数直方图中获取信息",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "6.4 随机现象的变化趋势",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "6.5 事件的概率",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "概率",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "用频率估计概率",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "6.6 简单的概率计算",
+          "level": 2,
+          "index": 6,
+          "children": [
+            {
+              "title": "特定情况下概率的计算公式",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "利用公式计算概率",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "将一些实际问题转化后，利用公式计算概率",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "6.7 利用树状图和列表计算概率",
+          "level": 2,
+          "index": 7,
+          "children": [
+            {
+              "title": "画树状图法和列表法",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "利用树状图或列表计算概率",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "回顾与总结",
+          "level": 2,
+          "index": 8,
+          "children": [
+            {
+              "title": "概率知识结构",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "有关概率的典型例题解析",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "综合与实践 质数的分布",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "质数的分布——“观察与思考”“实验与探究”",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "质数的分布——“交流与发现”",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "第7章 空间图形的初步认识",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "7.1 几种常见的几何体",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "7.2 直棱柱的侧面展开图",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "认识直棱柱",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "直棱柱的侧面展开图",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "7.3 圆柱的侧面展开图",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "圆柱的概念及侧面展开图",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "圆柱的侧面展开图的应用",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "7.4 圆锥的侧面展开图",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "圆锥的侧面展开图及有关计算",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "圆锥的侧面展开图的应用",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "回顾与总结",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第8章 投影与识图",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "8.1 中心投影",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "8.2 平行投影",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "平行投影",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "正投影",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "几何体的水平投影面和竖直投影面内的正投影",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "8.3 物体的三视图",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "简单几何体三视图的画法",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "简单组合体三视图的画法",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "根据视图和表面展开图想象实物模型",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "回顾与总结",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    }
+  ]
+}

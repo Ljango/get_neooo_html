@@ -1,0 +1,274 @@
+{
+  "title": "小学数学青岛版六年级下册",
+  "xueduan": "小学",
+  "nianji": "六年级",
+  "xueke": "数学",
+  "banben": "青岛版",
+  "ceci": "下册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "一、欢乐农家游——百分数（二）",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "信息窗一（百分数应用题1）",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "信息窗二（百分数应用题2）",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "信息窗三（纳税与折扣）",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "相关链接（利息）",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "二、冰淇淋盒有多大——圆柱和圆锥",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "信息窗一（圆柱和圆锥的认识）",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "信息窗二（圆柱的表面积）",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "信息窗三（圆柱的体积）",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "信息窗三（圆锥的体积）",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "综合与实践",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "立体的截面",
+          "level": 2,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "title": "三、啤酒生产中的数学——比例",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "信息窗一（比例的意义和基本性质）",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "信息窗二（正比例）",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "信息窗三（反比例）",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "信息窗四（用比例的知识解决问题）",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "四、快乐足球——比例尺",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "信息窗一（比例尺）",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "信息窗二（用比例尺解决问题1）",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "信息窗三（用比例尺解决问题2）",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "相关链接（图形的放大和缩小）",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "综合与实践",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "让校园绿起来",
+          "level": 2,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "title": "五、奥运奖牌——扇形统计图",
+      "level": 1,
+      "index": 7,
+      "children": [
+        {
+          "title": "信息窗一（扇形统计图）",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "信息窗二（统计图的选择与应用）",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "智慧广场",
+      "level": 1,
+      "index": 8,
+      "children": [
+        {
+          "title": "鸡兔同笼问题",
+          "level": 2,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "title": "回顾整理——总复习",
+      "level": 1,
+      "index": 9,
+      "children": [
+        {
+          "title": "知识与技能",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "数与代数",
+              "level": 3,
+              "index": 1,
+              "children": [
+                {
+                  "title": "数的认识",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "数的运算",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "量与计量",
+                  "level": 4,
+                  "index": 3
+                },
+                {
+                  "title": "比与比例",
+                  "level": 4,
+                  "index": 4
+                },
+                {
+                  "title": "式与方程",
+                  "level": 4,
+                  "index": 5
+                }
+              ]
+            },
+            {
+              "title": "图形与几何",
+              "level": 3,
+              "index": 2,
+              "children": [
+                {
+                  "title": "图形的认识与测量",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "图形的运动与位置",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            },
+            {
+              "title": "统计与概率",
+              "level": 3,
+              "index": 3,
+              "children": [
+                {
+                  "title": "统计",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "概率",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "策略与方法",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "策略与方法（一）（二）",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "策略与方法（三）",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "期末自我评价",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    }
+  ]
+}

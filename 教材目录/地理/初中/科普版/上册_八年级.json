@@ -1,0 +1,116 @@
+{
+  "title": "新教材-初中地理科普版八年级上册",
+  "xueduan": "初中",
+  "nianji": "八年级",
+  "xueke": "地理",
+  "banben": "科普版",
+  "ceci": "上册",
+  "is_new": true,
+  "chapters": [
+    {
+      "title": "单元一了解祖国的概况",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "专题一 疆域与行政区划",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "专题二 人口与民族",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "单元二 走进祖国的大自然",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "专题一 地形与地势",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "专题二 天气与气候",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "专题三 河流与湖泊",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "专题四 自然灾害及其防御",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "单元三 探寻祖国的自然资源",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "专题一 水资源及其保护",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "专题二 土地资源及其保护",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "专题三 矿产资源及其保护",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "专题四 海洋资源及其保护",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "单元四 认识祖国的产业特征",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "专题一 农业——国民经济的基础",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "专题二 工业——国民经济的支柱",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "专题三 交通运输业——国民经济的纽带",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "跨学科主题学习",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "编制二十四节气绘本",
+          "level": 2,
+          "index": 1
+        }
+      ]
+    }
+  ]
+}

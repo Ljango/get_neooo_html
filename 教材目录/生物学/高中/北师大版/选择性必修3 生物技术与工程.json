@@ -1,0 +1,192 @@
+{
+  "title": "高中生物学北师大版选择性必修3 生物技术与工程",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "生物学",
+  "banben": "北师大版",
+  "ceci": "选择性必修3 生物技术与工程",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第1章 发酵工程",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第一节  微生物纯培养物的获得",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节  微生物纯培养物的选择",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节  传统发酵技术",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "第四节  发酵工程的过程与原理",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "第五节  发酵工程的应用",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第2章 细胞工程",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第一节  植物细胞工程",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一  植物组织培养技术",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二  植物体细胞杂交技术",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三  植物细胞工程的应用",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第二节  动物细胞工程",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一  动物细胞培养技术",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二  动物细胞融合技术",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三  动物细胞核移植技术",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四  干细胞的研究与应用",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第三节  胚胎工程",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一  受精和早期胚胎的发育",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二  胚胎工程的技术手段",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第3章 基因工程",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第一节 基因工程的原理",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 基因工程的基本工具",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节  基因工程的操作程序",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一  目的基因的获得",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二  基因表达载体的构建",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三  目的基因导入受体细胞",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四  目的基因的表达及产物检测鉴定",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第四节 基因工程的应用",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "第五节 蛋白质工程",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第4章 生物技术的安全与伦理问题",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "第一节 转基因产品的安全性引发社会关注",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 禁止生殖性克隆人",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 生物武器对人类的威胁",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    }
+  ]
+}

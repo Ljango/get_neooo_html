@@ -1,0 +1,340 @@
+{
+  "title": "高中数学人教A版选择性必修 第三册",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "数学",
+  "banben": "人教A版",
+  "ceci": "选择性必修 第三册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第六章 计数原理",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "6.1 分类加法计数原理与分步乘法计数原理",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "6.2 排列与组合",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "6.2.1排列",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "6.2.2排列数",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "6.2.3组合",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "6.2.4组合数",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "6.3 二项式定理",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "6.3.1二项式定理",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "6.3.2二项式系数的性质",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "数学探究 杨辉三角的性质与应用",
+      "level": 1,
+      "index": 2
+    },
+    {
+      "title": "第七章 随机变量及其分布",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "7.1 条件概率与全概率公式",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "7.1.1条件概率",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "7.1.2全概率公式",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "7.2 离散型随机变量及其分布列",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "7.3 离散型随机变量的数字特征",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "7.3.1离散型随机变量的均值",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "7.3.2离散型随机变量的方差",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "7.4 二项分布与超几何分布",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "7.4.1二项分布",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "7.4.2超几何分布",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "7.5 正态分布",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "复习参考题七",
+          "level": 2,
+          "index": 7
+        }
+      ]
+    },
+    {
+      "title": "第八章 成对数据的统计分析",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "8.1 成对数据的统计相关性",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "8.1.1变量的相关关系",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "8.1.2样本相关系数",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "8.2 一元线性回归模型及其应用",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "8.2.1一元线性回归模型",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "8.2.2一元线性回归模型参数的最小二乘估计",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "8.3 列联表与独立性检验",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "8.3.1分类变量与列联表",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "8.3.2独立性检验",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "复习参考题八",
+      "level": 1,
+      "index": 5
+    },
+    {
+      "title": "数学建模 建立统计模型进行预测",
+      "level": 1,
+      "index": 6
+    },
+    {
+      "title": "高考复习",
+      "level": 1,
+      "index": 7,
+      "children": [
+        {
+          "title": "选填基础题的解题策略",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "选填综合题的解题方法",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "基础大题的风险归零",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "导数综合问题的解决的策略",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "解析几何问题的解决策略",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "高考数学复习（一）",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "高考数学复习（二）",
+          "level": 2,
+          "index": 7
+        },
+        {
+          "title": "高考数学复习（三）",
+          "level": 2,
+          "index": 8
+        },
+        {
+          "title": "高考数学复习（四）",
+          "level": 2,
+          "index": 9
+        },
+        {
+          "title": "高考数学复习（五）",
+          "level": 2,
+          "index": 10
+        },
+        {
+          "title": "高考数学复习（六）",
+          "level": 2,
+          "index": 11
+        },
+        {
+          "title": "合理设元与解三角形",
+          "level": 2,
+          "index": 12
+        },
+        {
+          "title": "高考数学复习（七）",
+          "level": 2,
+          "index": 13
+        },
+        {
+          "title": "适应性练习一",
+          "level": 2,
+          "index": 14
+        },
+        {
+          "title": "适应性练习二",
+          "level": 2,
+          "index": 15
+        },
+        {
+          "title": "适应性练习（三）",
+          "level": 2,
+          "index": 16
+        },
+        {
+          "title": "适应性练习（四）",
+          "level": 2,
+          "index": 17
+        },
+        {
+          "title": "高考数学适应性练习（五）",
+          "level": 2,
+          "index": 18
+        },
+        {
+          "title": "高考数学适应性练习（六）",
+          "level": 2,
+          "index": 19
+        },
+        {
+          "title": "高考数学适应性练习",
+          "level": 2,
+          "index": 20
+        },
+        {
+          "title": "高考数学备考方法谈",
+          "level": 2,
+          "index": 21
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "title": "小学数学西南大学版六年级下册",
+  "xueduan": "小学",
+  "nianji": "六年级",
+  "xueke": "数学",
+  "banben": "西南大学版",
+  "ceci": "下册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "一 百分数",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "百分数的意义",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "百分数和分数、小数的互化",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "问题解决",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一个数比一个数多（少）百分之几的问题解决",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "税（利）率的问题解决",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "整理与复习",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "综合与实践 有奖购书活动中数学问题",
+      "level": 1,
+      "index": 2
+    },
+    {
+      "title": "二 圆柱与圆锥",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "圆柱",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "圆柱的侧面积",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "圆柱的体积",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "圆锥",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "整理与复习",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "你知道吗 古老的几何",
+      "level": 1,
+      "index": 4
+    },
+    {
+      "title": "三 正比例和反比例",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "比例",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "正比例",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "反比例",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "整理与复习",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "四 扇形统计图",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "扇形统计图",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "统计综合应用",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "你知道吗 统计的产生和发展",
+      "level": 1,
+      "index": 7
+    },
+    {
+      "title": "综合与实践 农田收入测算",
+      "level": 1,
+      "index": 8
+    },
+    {
+      "title": "总复习",
+      "level": 1,
+      "index": 9,
+      "children": [
+        {
+          "title": "数与代数",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "数的认识",
+              "level": 3,
+              "index": 1,
+              "children": [
+                {
+                  "title": "数的认识（数的读写）",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "数的认识（数的性质与关系）",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "数的认识（因数、倍数）",
+                  "level": 4,
+                  "index": 3
+                }
+              ]
+            },
+            {
+              "title": "数的运算",
+              "level": 3,
+              "index": 2,
+              "children": [
+                {
+                  "title": "数的运算（四则运算复习）",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "数的运算（简便运算）",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            },
+            {
+              "title": "等式与方程",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "比和比例",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "问题解决",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        },
+        {
+          "title": "你知道吗 鸡兔同笼",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "图形与几何",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "平面图形及其周长、面积计算",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "位置与方向 图形的平移旋转",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "立体图形",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "统计与概率",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "统计与概率",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "综合与实践 王老师买新房",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "综合与实践  王老师买新房",
+      "level": 1,
+      "index": 10
+    }
+  ]
+}

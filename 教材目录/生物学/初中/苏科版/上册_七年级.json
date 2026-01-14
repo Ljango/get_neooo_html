@@ -1,0 +1,171 @@
+{
+  "title": "初中生物学苏科版七年级上册",
+  "xueduan": "初中",
+  "nianji": "七年级",
+  "xueke": "生物学",
+  "banben": "苏科版",
+  "ceci": "上册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第1单元 走进生命世界",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第1章 生物学——研究生命的科学",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "第1节 生物与生物学",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第2节 生物学的基本研究方法",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第2单元 我们生活的生物圈",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第2章 生物与环境",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "第1节 生物生存的环境",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第2节 环境影响生物的生存",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "第3节 生物对环境的影响",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "第4节 生物对环境的适应",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第3章 生态系统和生物圈",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "第1节 多种多样的生态系统",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第2节 生物生存的家园——生物圈",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第3单元 生物从环境中获取物质和能量",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第4章 绿色植物是有机物的生产者",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "第1节 植物的光合作用",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第2节 绿色植物的生长需要水和无机盐",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第5章 人体的物质和能量来源于食物",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "第1节 饮食与营养",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第2节 营养物质的作用",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "第3节 合理的膳食",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "第4节 人体对食物的消化和吸收",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第6章 生物之间的食物关系",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "第1节 食物链",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第2节 食物网",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第7章 能量的释放与呼吸",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "第1节 能量的释放和利用",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第2节 人体的呼吸",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

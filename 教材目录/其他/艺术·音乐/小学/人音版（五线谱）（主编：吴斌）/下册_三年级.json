@@ -1,0 +1,59 @@
+{
+  "title": "小学音乐人音版（五线谱）（主编：吴斌）三年级下册",
+  "xueduan": "小学",
+  "nianji": "三年级",
+  "xueke": "艺术·音乐",
+  "banben": "人音版（五线谱）（主编：吴斌）",
+  "ceci": "下册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第4课 春天的歌",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "聆听",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "杨柳青",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "春",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第5课 音乐会",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "演唱",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "嘹亮歌声",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "编创与活动",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    }
+  ]
+}

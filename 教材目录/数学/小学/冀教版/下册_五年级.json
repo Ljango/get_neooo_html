@@ -1,0 +1,455 @@
+{
+  "title": "小学数学冀教版五年级下册",
+  "xueduan": "小学",
+  "nianji": "五年级",
+  "xueke": "数学",
+  "banben": "冀教版",
+  "ceci": "下册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "一 图形的运动（二）",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "认识轴对称图形",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "画轴对称图形",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "认识图形的平移",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "认识图形的旋转方向",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "画旋转图形",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "设计图案",
+          "level": 2,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "title": "二 异分母分数加减法",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "真分数与假分数",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "真分数、假分数和带分数",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "假分数与带分数互化",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "分数的大小比较",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "异分母分数大小的比较",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "公倍数与最小公倍数",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "求两个数的最小公倍数",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "分数、小数互化",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "分数和小数互化",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "异分母分数加减法",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "异分母分数加法和减法",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "连加和简便计算",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "连减和加减混合运算",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "公交车上的数学",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "综合与实践",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "三 长方体和正方体",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "长方体和正方体的特征",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "长方体和正方体的平面展开图",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "长方体和正方体的表面积",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "简单实际问题",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "包装扑克",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "综合与实践",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "四 分数乘法",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "分数乘法",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "分数乘整数",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "求一个整数的几分之几",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "分数乘分数",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "混合运算",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "分数乘法问题",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "简便运算",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "倒数",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "认识倒数",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "练习",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "五 长方体和正方体的体积",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "体积和体积单位",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "体积和体积单位",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "长方体的体积",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "正方体的体积",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "体积单位之间的进率",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "应用问题",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "土石方问题",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "容积问题",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "练习",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "设计包装箱",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "综合与实践",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "六 分数除法",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "分数除法",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "分数除以整数",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "一个数除以分数",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "应用问题",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "简单分数除法问题",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "两步计算的分数除法问题",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "混合运算",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "分数四则混合运算",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "练习",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "七 折线统计图",
+      "level": 1,
+      "index": 7,
+      "children": [
+        {
+          "title": "认识单式折线统计图",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "读特殊单式折线统计图",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "复式折线统计图",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "读统计图",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "八 探索乐园",
+      "level": 1,
+      "index": 8,
+      "children": [
+        {
+          "title": "用集合图表示问题",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "比赛场次",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "整理与评价",
+      "level": 1,
+      "index": 9,
+      "children": [
+        {
+          "title": "知识与技能",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "复习题",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "问题与思考",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "复习题",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "自我评价",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "学生自我评价",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

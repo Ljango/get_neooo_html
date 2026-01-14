@@ -1,0 +1,266 @@
+[
+  {
+    "relationName": "themeContainsUnit",
+    "label": "包含单元 / containsUnit",
+    "source": "urn:jy:math:SB0201:OB06:theme:预备知识:th001",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0001"
+  },
+  {
+    "relationName": "unitBelongsToTheme",
+    "label": "归属主题 / belongsToTheme",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0001",
+    "target": "urn:jy:math:SB0201:OB06:theme:预备知识:th001"
+  },
+  {
+    "relationName": "themeContainsUnit",
+    "label": "包含单元 / containsUnit",
+    "source": "urn:jy:math:SB0201:OB06:theme:预备知识:th001",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0002"
+  },
+  {
+    "relationName": "unitBelongsToTheme",
+    "label": "归属主题 / belongsToTheme",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0002",
+    "target": "urn:jy:math:SB0201:OB06:theme:预备知识:th001"
+  },
+  {
+    "relationName": "themeContainsUnit",
+    "label": "包含单元 / containsUnit",
+    "source": "urn:jy:math:SB0201:OB06:theme:预备知识:th001",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0003"
+  },
+  {
+    "relationName": "unitBelongsToTheme",
+    "label": "归属主题 / belongsToTheme",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0003",
+    "target": "urn:jy:math:SB0201:OB06:theme:预备知识:th001"
+  },
+  {
+    "relationName": "themeContainsUnit",
+    "label": "包含单元 / containsUnit",
+    "source": "urn:jy:math:SB0201:OB06:theme:预备知识:th001",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0004"
+  },
+  {
+    "relationName": "unitBelongsToTheme",
+    "label": "归属主题 / belongsToTheme",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0004",
+    "target": "urn:jy:math:SB0201:OB06:theme:预备知识:th001"
+  },
+  {
+    "relationName": "themeContainsUnit",
+    "label": "包含单元 / containsUnit",
+    "source": "urn:jy:math:SB0201:OB06:theme:函数:th002",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0005"
+  },
+  {
+    "relationName": "unitBelongsToTheme",
+    "label": "归属主题 / belongsToTheme",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0005",
+    "target": "urn:jy:math:SB0201:OB06:theme:函数:th002"
+  },
+  {
+    "relationName": "themeContainsUnit",
+    "label": "包含单元 / containsUnit",
+    "source": "urn:jy:math:SB0201:OB06:theme:函数:th002",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0006"
+  },
+  {
+    "relationName": "unitBelongsToTheme",
+    "label": "归属主题 / belongsToTheme",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0006",
+    "target": "urn:jy:math:SB0201:OB06:theme:函数:th002"
+  },
+  {
+    "relationName": "themeContainsUnit",
+    "label": "包含单元 / containsUnit",
+    "source": "urn:jy:math:SB0201:OB06:theme:函数:th002",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0007"
+  },
+  {
+    "relationName": "unitBelongsToTheme",
+    "label": "归属主题 / belongsToTheme",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0007",
+    "target": "urn:jy:math:SB0201:OB06:theme:函数:th002"
+  },
+  {
+    "relationName": "themeContainsUnit",
+    "label": "包含单元 / containsUnit",
+    "source": "urn:jy:math:SB0201:OB06:theme:函数:th002",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0008"
+  },
+  {
+    "relationName": "unitBelongsToTheme",
+    "label": "归属主题 / belongsToTheme",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0008",
+    "target": "urn:jy:math:SB0201:OB06:theme:函数:th002"
+  },
+  {
+    "relationName": "themeContainsUnit",
+    "label": "包含单元 / containsUnit",
+    "source": "urn:jy:math:SB0201:OB06:theme:几何与代数:th003",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0009"
+  },
+  {
+    "relationName": "unitBelongsToTheme",
+    "label": "归属主题 / belongsToTheme",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0009",
+    "target": "urn:jy:math:SB0201:OB06:theme:几何与代数:th003"
+  },
+  {
+    "relationName": "themeContainsUnit",
+    "label": "包含单元 / containsUnit",
+    "source": "urn:jy:math:SB0201:OB06:theme:几何与代数:th003",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0010"
+  },
+  {
+    "relationName": "unitBelongsToTheme",
+    "label": "归属主题 / belongsToTheme",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0010",
+    "target": "urn:jy:math:SB0201:OB06:theme:几何与代数:th003"
+  },
+  {
+    "relationName": "themeContainsUnit",
+    "label": "包含单元 / containsUnit",
+    "source": "urn:jy:math:SB0201:OB06:theme:几何与代数:th003",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0011"
+  },
+  {
+    "relationName": "unitBelongsToTheme",
+    "label": "归属主题 / belongsToTheme",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0011",
+    "target": "urn:jy:math:SB0201:OB06:theme:几何与代数:th003"
+  },
+  {
+    "relationName": "themeContainsUnit",
+    "label": "包含单元 / containsUnit",
+    "source": "urn:jy:math:SB0201:OB06:theme:概率与统计:th004",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0012"
+  },
+  {
+    "relationName": "unitBelongsToTheme",
+    "label": "归属主题 / belongsToTheme",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0012",
+    "target": "urn:jy:math:SB0201:OB06:theme:概率与统计:th004"
+  },
+  {
+    "relationName": "themeContainsUnit",
+    "label": "包含单元 / containsUnit",
+    "source": "urn:jy:math:SB0201:OB06:theme:概率与统计:th004",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0013"
+  },
+  {
+    "relationName": "unitBelongsToTheme",
+    "label": "归属主题 / belongsToTheme",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0013",
+    "target": "urn:jy:math:SB0201:OB06:theme:概率与统计:th004"
+  },
+  {
+    "relationName": "themeContainsUnit",
+    "label": "包含单元 / containsUnit",
+    "source": "urn:jy:math:SB0201:OB06:theme:数学建模活动与数学探究活动:th005",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0014"
+  },
+  {
+    "relationName": "unitBelongsToTheme",
+    "label": "归属主题 / belongsToTheme",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0014",
+    "target": "urn:jy:math:SB0201:OB06:theme:数学建模活动与数学探究活动:th005"
+  },
+  {
+    "relationName": "themeContainsUnit",
+    "label": "包含单元 / containsUnit",
+    "source": "urn:jy:math:SB0201:OB06:theme:函数:th006",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0015"
+  },
+  {
+    "relationName": "unitBelongsToTheme",
+    "label": "归属主题 / belongsToTheme",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0015",
+    "target": "urn:jy:math:SB0201:OB06:theme:函数:th006"
+  },
+  {
+    "relationName": "themeContainsUnit",
+    "label": "包含单元 / containsUnit",
+    "source": "urn:jy:math:SB0201:OB06:theme:函数:th006",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0016"
+  },
+  {
+    "relationName": "unitBelongsToTheme",
+    "label": "归属主题 / belongsToTheme",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0016",
+    "target": "urn:jy:math:SB0201:OB06:theme:函数:th006"
+  },
+  {
+    "relationName": "themeContainsUnit",
+    "label": "包含单元 / containsUnit",
+    "source": "urn:jy:math:SB0201:OB06:theme:几何与代数:th007",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0017"
+  },
+  {
+    "relationName": "unitBelongsToTheme",
+    "label": "归属主题 / belongsToTheme",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0017",
+    "target": "urn:jy:math:SB0201:OB06:theme:几何与代数:th007"
+  },
+  {
+    "relationName": "themeContainsUnit",
+    "label": "包含单元 / containsUnit",
+    "source": "urn:jy:math:SB0201:OB06:theme:几何与代数:th007",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0018"
+  },
+  {
+    "relationName": "unitBelongsToTheme",
+    "label": "归属主题 / belongsToTheme",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0018",
+    "target": "urn:jy:math:SB0201:OB06:theme:几何与代数:th007"
+  },
+  {
+    "relationName": "themeContainsUnit",
+    "label": "包含单元 / containsUnit",
+    "source": "urn:jy:math:SB0201:OB06:theme:概率与统计:th008",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0019"
+  },
+  {
+    "relationName": "unitBelongsToTheme",
+    "label": "归属主题 / belongsToTheme",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0019",
+    "target": "urn:jy:math:SB0201:OB06:theme:概率与统计:th008"
+  },
+  {
+    "relationName": "themeContainsUnit",
+    "label": "包含单元 / containsUnit",
+    "source": "urn:jy:math:SB0201:OB06:theme:概率与统计:th008",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0020"
+  },
+  {
+    "relationName": "unitBelongsToTheme",
+    "label": "归属主题 / belongsToTheme",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0020",
+    "target": "urn:jy:math:SB0201:OB06:theme:概率与统计:th008"
+  },
+  {
+    "relationName": "themeContainsUnit",
+    "label": "包含单元 / containsUnit",
+    "source": "urn:jy:math:SB0201:OB06:theme:概率与统计:th008",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0021"
+  },
+  {
+    "relationName": "unitBelongsToTheme",
+    "label": "归属主题 / belongsToTheme",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0021",
+    "target": "urn:jy:math:SB0201:OB06:theme:概率与统计:th008"
+  },
+  {
+    "relationName": "themeContainsUnit",
+    "label": "包含单元 / containsUnit",
+    "source": "urn:jy:math:SB0201:OB06:theme:数学建模活动与数学探究活动:th009",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0022"
+  },
+  {
+    "relationName": "unitBelongsToTheme",
+    "label": "归属主题 / belongsToTheme",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0022",
+    "target": "urn:jy:math:SB0201:OB06:theme:数学建模活动与数学探究活动:th009"
+  }
+]

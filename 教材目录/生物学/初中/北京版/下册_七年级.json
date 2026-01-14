@@ -1,0 +1,153 @@
+{
+  "title": "初中生物学北京版七年级下册",
+  "xueduan": "初中",
+  "nianji": "七年级",
+  "xueke": "生物学",
+  "banben": "北京版",
+  "ceci": "下册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第五章 生物体内的物质运输",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第一节 植物体内的物质运输",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 人体内的物质运输",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "1.血液",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.血量血型",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.血管",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "4.心脏的结构",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "5.血液循环",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第六章 生物的呼吸",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第一节 人的呼吸",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.呼吸道的结构与功能",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.肺",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.肺的通气",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "4.气体交换",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第二节 绿色植物的呼吸",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 其他生物的呼吸",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "第四节 呼吸与呼吸作用",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第七章 生物的排泄",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第一节 代谢废物",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 尿液的形成和排出",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 汗液的排出",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第八章 生命活动的调节",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "第一节 神经系统的组成",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 神经调节的基本方式",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 感觉和感觉器官",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "第四节 激素调节",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    }
+  ]
+}

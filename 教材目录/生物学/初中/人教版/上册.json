@@ -1,0 +1,128 @@
+{
+  "title": "新教材-初中生物学人教版八年级上册",
+  "xueduan": "初中",
+  "nianji": "八年级",
+  "xueke": "生物学",
+  "banben": "人教版",
+  "ceci": "上册",
+  "is_new": true,
+  "chapters": [
+    {
+      "title": "第四单元  人体生理与健康（二）",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第六章  人体生命活动的调节",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "第一节  人体对外界环境的感知",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第二节  神经调节",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "第三节  神经系统支配下的运动",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "第四节  激素调节",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第七章  健康地生活",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "第一节  传染病及其预防",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第二节  免疫与免疫规划",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "第三节  用药与急救",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "第四节  选择健康的生活方式",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "综合实践项目  健康生活宣传展演",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第五单元  生物与环境",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第一章  生态系统",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "第一节  生物与环境的相互作用",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第二节  生态系统的结构和功能",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "第三节  生物圈",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "综合实践项目  设计并制作生态瓶",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第二章  生态安全",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "第一节  分析人类活动对生态环境的影响",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第二节  维护生态安全",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

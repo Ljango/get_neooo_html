@@ -1,0 +1,347 @@
+{
+  "title": "高中信息技术人教中图版必修1 数据与计算",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "信息技术",
+  "banben": "人教中图版",
+  "ceci": "必修1 数据与计算",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第1章 认识数据与大数据",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "主题学习项目：体质数据促健康",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "1.1 数据、信息与知识",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "1.1.1 感知数据",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "1.1.2 认识信息",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "1.1.3 理解知识",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "1.2 数字化与编码",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "1.2.1 数字化及其作用",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "1.2.2 二进制与数制转换",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "1.2.3 数据编码",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "1.2.4 数据压缩",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "1.3 数据科学与大数据",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "1.3.1 数据科学的兴起",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "1.3.2 大数据及其应用",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第2章 算法与程序实现",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "主题学习项目：编程控灯利出行",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2.1 解决问题的一般过程和用计算机解决问题",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "2.1.1 解决问题一般过程",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.1.2 用计算机解决问题的过程",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "2.2 算法的概念及描述",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "2.2.1 认识算法",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.2.2 描述算法",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "2.3 程序设计基本知识",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "2.3.1 数据类型",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.3.2 常量、变量及表达式",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "2.3.3程序语句",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "2.3.4 程序结构",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "2.4 常见算法的程序实现",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "2.4.1 基于解析算法的问题解决",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.4.2 基于枚举算法的问题解决",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "2.4.3 算法效率",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "2.4.4 程序的调试方法",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第3章 数据处理与应用",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "主题学习项目：用水分析助决策",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "3.1 数据处理的一般过程",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "3.1.1 数据采集",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "3.1.2 数据整理",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.1.3 数据分析",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "3.1.4 数据呈现",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "3.2 数据采集与整理",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "3.2.1 数据采集",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "3.2.2 数据整理",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.2.3 数据安全",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "3.3 数据分析与可视化",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "3.3.1 数据分析",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "3.3.2 数据可视化",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "3.4 数据分析报告与应用",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "3.4.1 数据分析报告",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "3.4.2 数据处理与问题解决",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第4章 走进智能时代",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "主题学习项目：智能交互益拓展",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "4.1 认识人工智能",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "4.1.1 人工智能的产生与发展",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "4.1.2 感受人工智能的魅力",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "4.2 利用智能工具解决问题",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "4.2.1 人工智能平台中的智能工具",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "4.2.2 编程调用平台中的智能工具",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "4.3 人工智能的应用与影响",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "4.3.1 人工智能的应用",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "4.3.2 人工智能的影响",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

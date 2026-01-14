@@ -1,0 +1,476 @@
+{
+  "title": "初中数学北京版七年级下册",
+  "xueduan": "初中",
+  "nianji": "七年级",
+  "xueke": "数学",
+  "banben": "北京版",
+  "ceci": "下册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第四章 一元一次不等式和一元一次不等式组",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "一 不等式与不等式的基本性质",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "4.1 不等式",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "4.2 不等式的基本性质",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "二 一元一次不等式",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "4.3 不等式的解集",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "4.4 一元一次不等式及其解法",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "三 一元一次不等式组",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "4.5 一元一次不等式组及其解法",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "总结与复习",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第五章 二元一次方程",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "一 二元一次方程和二元一次方程组",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "5.1 二元一次方程和它的解",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "5.2 二元一次方程组和它的解",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "二 二元一次方程组的解法",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "5.3 用代入消元法解二元一次方程组",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "5.4 用加减消元法解二元一次方程组",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "*5.5 三元一次方程组",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "5.6 二元一次方程组的应用",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "总结与复习",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第六章 整式的运算",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "一 整式的加减法",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "6.1 整式的加减法",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "二 整式的乘法",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "6.2 幂的运算",
+              "level": 3,
+              "index": 1,
+              "children": [
+                {
+                  "title": "同底数幂的乘法",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "幂的乘方",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "积的乘方",
+                  "level": 4,
+                  "index": 3
+                },
+                {
+                  "title": "幂的混合运算",
+                  "level": 4,
+                  "index": 4
+                }
+              ]
+            },
+            {
+              "title": "6.3 整式的乘法",
+              "level": 3,
+              "index": 2,
+              "children": [
+                {
+                  "title": "单项式与单项式相乘",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "单项式与多项式相乘",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "多项式与多项式相乘",
+                  "level": 4,
+                  "index": 3
+                },
+                {
+                  "title": "整式的乘法混合运算",
+                  "level": 4,
+                  "index": 4
+                },
+                {
+                  "title": "整式的乘法的应用",
+                  "level": 4,
+                  "index": 5
+                }
+              ]
+            },
+            {
+              "title": "6.4 乘法公式",
+              "level": 3,
+              "index": 3,
+              "children": [
+                {
+                  "title": "完全平方公式",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "完全平方公式的应用",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "平方差公式",
+                  "level": 4,
+                  "index": 3
+                },
+                {
+                  "title": "乘法公式的综合运用",
+                  "level": 4,
+                  "index": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "三 整式的除法",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "6.5 整式的除法",
+              "level": 3,
+              "index": 1,
+              "children": [
+                {
+                  "title": "同底数幂的除法",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "单项式除以单项式",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "多项式除以单项式",
+                  "level": 4,
+                  "index": 3
+                },
+                {
+                  "title": "阅读理解",
+                  "level": 4,
+                  "index": 4
+                },
+                {
+                  "title": "整式运算复习",
+                  "level": 4,
+                  "index": 5
+                },
+                {
+                  "title": "整式的运算拓展应用",
+                  "level": 4,
+                  "index": 6
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "总结与复习",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第七章 观察、猜想与证明",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "一 观察与实验",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "7.1 观察",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "7.2 实验",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "二 归纳与类比",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "7.3 归纳",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "7.4 类比",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "三 猜想与证明",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "7.5 猜想与证明",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "7.6 证明",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "四 简单几何图形中的推理",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "7.7 几种简单几何图形及其推理",
+              "level": 3,
+              "index": 1,
+              "children": [
+                {
+                  "title": "余角、补角",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "对顶角",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "平行线",
+                  "level": 4,
+                  "index": 3
+                },
+                {
+                  "title": "三线八角",
+                  "level": 4,
+                  "index": 4
+                },
+                {
+                  "title": "平行线的判定",
+                  "level": 4,
+                  "index": 5
+                },
+                {
+                  "title": "平行线的性质",
+                  "level": 4,
+                  "index": 6
+                },
+                {
+                  "title": "平行线的判定、性质的综合运用",
+                  "level": 4,
+                  "index": 7
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "总结与复习",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第八章 因式分解",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "8.1 因式分解",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "8.2 提公因式法",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "8.3 公式法",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "总结与复习",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第九章 数据的收集与表示",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "一 数据的收集、整理与表示",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "9.1 总体与样本",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "9.2 数据的收集与整理",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "9.3 数据的表示——扇形统计图",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "9.4 用计算机绘制统计图",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "二 平均数、众数和中位数",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "9.5 平均数",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "9.6 众数与中位数",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

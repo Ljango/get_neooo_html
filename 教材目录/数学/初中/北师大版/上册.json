@@ -1,0 +1,484 @@
+{
+  "title": "初中数学北师大版七年级上册",
+  "xueduan": "初中",
+  "nianji": "七年级",
+  "xueke": "数学",
+  "banben": "北师大版",
+  "ceci": "上册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 丰富的图形世界",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "1 生活中的立体图形",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2 展开与折叠",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "正方体的展开图",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "柱体、锥体的展开与折叠",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "3 截一个几何体",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "4 从三个方向看物体的形状",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "回顾与思考",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "复习题",
+          "level": 2,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "title": "第二章 有理数及其运算",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "1 有理数",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2 数轴",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3 绝对值",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "4 有理数的加法",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "有理数的加法法则",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "有理数的加法运算律",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "5 有理数的减法",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "6 有理数的加减混合运算",
+          "level": 2,
+          "index": 6,
+          "children": [
+            {
+              "title": "有理数的加减混合运算",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "有理数的加减混合运算运算律的应用",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "有理数的加减混合运算的实际应用",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "7 有理数的乘法",
+          "level": 2,
+          "index": 7,
+          "children": [
+            {
+              "title": "有理数的乘法法则",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "有理数乘法的运算律",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "8 有理数的除法",
+          "level": 2,
+          "index": 8
+        },
+        {
+          "title": "9 有理数的乘方",
+          "level": 2,
+          "index": 9,
+          "children": [
+            {
+              "title": "乘方的意义",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "有理数乘方的运算",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "10 科学记数法",
+          "level": 2,
+          "index": 10
+        },
+        {
+          "title": "11 有理数的混合运算",
+          "level": 2,
+          "index": 11
+        },
+        {
+          "title": "12 用计算器进行运算",
+          "level": 2,
+          "index": 12
+        },
+        {
+          "title": "回顾与思考",
+          "level": 2,
+          "index": 13
+        },
+        {
+          "title": "复习题",
+          "level": 2,
+          "index": 14
+        }
+      ]
+    },
+    {
+      "title": "第三章 整式及其加减",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "1 字母表示数",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2 代数式",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "代数式的意义",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "代数式求值",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "3 整式",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "4 整式的加减",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "合并同类项",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "去括号",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "整式的加减",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "5 探索与表达规律",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "探索数字与图形规律",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "借助运算规律解释现象",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "回顾与思考",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "复习题",
+          "level": 2,
+          "index": 7
+        }
+      ]
+    },
+    {
+      "title": "第四章 基本平面图形",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "1 线段、射线、直线",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2 比较线段的长短",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3 角",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "4 角的比较",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "5 多边形和圆的初步认识",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "回顾与思考",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "复习题",
+          "level": 2,
+          "index": 7
+        }
+      ]
+    },
+    {
+      "title": "第五章 一元一次方程",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "1 认识一元一次方程",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一元一次方程的认识",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "等式的基本性质",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "2 求解一元一次方程",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "移项解一元一次方程",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "去括号解一元一次方程",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "去分母解一元一次方程",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "3 应用一元一次方程—水箱变高了",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "4 应用一元一次方程—打折销售",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "5 应用一元一次方程—“希望工程”义演",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "6 应用一元一次方程—追赶小明",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "回顾与思考",
+          "level": 2,
+          "index": 7
+        },
+        {
+          "title": "复习题",
+          "level": 2,
+          "index": 8
+        }
+      ]
+    },
+    {
+      "title": "第六章 数据的收集与整理",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "1 数据的收集",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2 普查和抽样调查",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3 数据的表示",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "扇形统计图",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "频数直方图",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "绘制频数直方图",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "4 统计图的选择",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "统计图的选择",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "容易误导决策的统计图",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "回顾与思考",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "复习题",
+          "level": 2,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "title": "综合与实践",
+      "level": 1,
+      "index": 7,
+      "children": [
+        {
+          "title": "探寻神奇的幻方",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "关注人口老龄化",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "制作一个尽可能大的无盖长方体形盒子",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "总复习",
+      "level": 1,
+      "index": 8
+    }
+  ]
+}

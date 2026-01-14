@@ -1,0 +1,126 @@
+{
+  "title": "初中数学北京版九年级下册",
+  "xueduan": "初中",
+  "nianji": "九年级",
+  "xueke": "数学",
+  "banben": "北京版",
+  "ceci": "下册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第二十三章 图形的变化",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "23.1 平移变换",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "23.2 旋转变换",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "23.3 轴对称变换",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "23.4 位似变换",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "总结与复习",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第二十四章 投影、视图与展开图",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "24.1 中心投影与平行投影",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "24.2 基本几何体的三视图",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "24.3 基本几何体的平面展开图",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "总结与复习",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第二十五章 概率的求法与应用",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "25.1 求概率的方法",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "列举法",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "用频率估计",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "25.2 概率的简单应用",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "总结与复习",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第二十六章 综合运用数学知识解决实际问题",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "26.1 解决实际问题的一般思路",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "26.2 应用举例",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "总结与复习",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "title": "小学数学人教版五年级上册",
+  "xueduan": "小学",
+  "nianji": "五年级",
+  "xueke": "数学",
+  "banben": "人教版",
+  "ceci": "上册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "1　小数乘法",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "小数乘整数",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "小数乘小数",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "积的近似数",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "整数乘法运算定律推广到小数",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "解决问题",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "解决问题（估算）",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "解决问题（分段计费）",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "2　位置",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "确定位置",
+          "level": 2,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "title": "3　小数除法",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "除数是整数的小数除法",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "一个数除以小数",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "商的近似数",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "循环小数",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "用计算器探索规律",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "解决问题",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "整理和复习",
+          "level": 2,
+          "index": 7
+        }
+      ]
+    },
+    {
+      "title": "4　可能性",
+      "level": 1,
+      "index": 4
+    },
+    {
+      "title": "★掷一掷",
+      "level": 1,
+      "index": 5
+    },
+    {
+      "title": "5　简易方程",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "用字母表示数",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "用字母表示数（例1）",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "用字母表示数（例2）",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "用字母表示数（例3）",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "用字母表示数（例4）",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "用字母表示数（例5）",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        },
+        {
+          "title": "方程的意义",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "等式的性质",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "解方程",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "解方程（例1）",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "解方程（例2）",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "解方程（例3）",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "解方程（例4）",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "解方程（例5）",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        },
+        {
+          "title": "实际问题与方程",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "实际问题与方程（例6）",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "实际问题与方程（例7）",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "实际问题与方程（例8）",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "实际问题与方程（例9）",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "解决问题（例10）",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "整理和复习",
+          "level": 2,
+          "index": 7
+        }
+      ]
+    },
+    {
+      "title": "6　多边形的面积",
+      "level": 1,
+      "index": 7,
+      "children": [
+        {
+          "title": "平行四边形的面积",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "三角形的面积",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "梯形的面积",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "组合图形的面积",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "解决问题（不规则图形的面积）",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "整理和复习",
+          "level": 2,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "title": "7　数学广角──植树问题",
+      "level": 1,
+      "index": 8
+    },
+    {
+      "title": "8　总复习",
+      "level": 1,
+      "index": 9,
+      "children": [
+        {
+          "title": "小数乘除法",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "式与方程",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "多边形的面积及可能性",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "综合练习",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    }
+  ]
+}

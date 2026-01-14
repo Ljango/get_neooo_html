@@ -1,0 +1,447 @@
+{
+  "title": "高中信息技术粤教版选择性必修2 网络基础",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "信息技术",
+  "banben": "粤教版",
+  "ceci": "选择性必修2 网络基础",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 计算机网络概述",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "项目范例  分析校园网络的拓扑结构和硬件组成",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.1 认识计算机网络",
+              "level": 3,
+              "index": 1,
+              "children": [
+                {
+                  "title": "1.1.1 计算机网络",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "1.1.2 计算机网络的发展历史",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "1.1.3 计算机网络的分类和特征",
+                  "level": 4,
+                  "index": 3
+                },
+                {
+                  "title": "1.1.4 计算机网络的拓扑结构",
+                  "level": 4,
+                  "index": 4
+                }
+              ]
+            },
+            {
+              "title": "1.2 网络协议及其作用",
+              "level": 3,
+              "index": 2,
+              "children": [
+                {
+                  "title": "1.2.1 网络协议",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "1.2.2 TCP/IP协议的功能和作用",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "1.2.3 网络的重要意义",
+                  "level": 4,
+                  "index": 3
+                }
+              ]
+            },
+            {
+              "title": "1.3 网络的传输介质和基本设备",
+              "level": 3,
+              "index": 3,
+              "children": [
+                {
+                  "title": "1.3.1 网络的传输介质",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "1.3.2 网络的基本设备",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第二章 通信网络的组建与维护",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "项目范例 校园通信网络的组建与维护实验",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "2.1 组建简单的局域网",
+              "level": 3,
+              "index": 1,
+              "children": [
+                {
+                  "title": "2.1.1 网络操作系统",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "2.1.2 局域网的组建方案",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            },
+            {
+              "title": "2.2 IP地址及其配置",
+              "level": 3,
+              "index": 2,
+              "children": [
+                {
+                  "title": "2.2.1  IP地址",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "2.2.2 IP地址的静态和动态分配",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "2.2.3 IP地址查询及检测",
+                  "level": 4,
+                  "index": 3
+                }
+              ]
+            },
+            {
+              "title": "2.3 互联网接入技术",
+              "level": 3,
+              "index": 3,
+              "children": [
+                {
+                  "title": "2.3.1 有线接入技术",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "2.3.2 无线接入技术",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            },
+            {
+              "title": "2.4 常见的网络故障及排除",
+              "level": 3,
+              "index": 4,
+              "children": [
+                {
+                  "title": "2.4.1 网卡故障及排除",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "2.4.2 双绞线故障及排除",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "2.4.3 交换机故障及排除",
+                  "level": 4,
+                  "index": 3
+                },
+                {
+                  "title": "2.4.4 路由器故障及排除",
+                  "level": 4,
+                  "index": 4
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第三章 网络服务",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "项目范例  校园网络资源生成与分享方案设计",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "3.1 常见的网络服务",
+              "level": 3,
+              "index": 1,
+              "children": [
+                {
+                  "title": "3.1.1 Web服务",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "3.1.2 FTP服务",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "3.1.3 DNS服务",
+                  "level": 4,
+                  "index": 3
+                },
+                {
+                  "title": "3.1.4 DHCP 服务",
+                  "level": 4,
+                  "index": 4
+                },
+                {
+                  "title": "3.1.5 E- mail服务",
+                  "level": 4,
+                  "index": 5
+                },
+                {
+                  "title": "3.1.6 VPN 服务",
+                  "level": 4,
+                  "index": 6
+                }
+              ]
+            },
+            {
+              "title": "3.2 网络资源的类型与获取",
+              "level": 3,
+              "index": 2,
+              "children": [
+                {
+                  "title": "3.2.1 网络资源的类型",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "3.2.2 网络资源的获取",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            },
+            {
+              "title": "3.3 网络资源的生成与分享",
+              "level": 3,
+              "index": 3,
+              "children": [
+                {
+                  "title": "3.3.1 网络分享",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "3.3.2 网络资源的生成与分享方法",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第四章 网络信息安全",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "项目范例  校园网络资源生成与分享方案设计",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "4.1 网络信息安全和隐私保护的重要性",
+              "level": 3,
+              "index": 1,
+              "children": [
+                {
+                  "title": "4.1.1　网络信息安全",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "4.1.2　网络隐私保护",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            },
+            {
+              "title": "4.2 常用网络安全协议的作用",
+              "level": 3,
+              "index": 2,
+              "children": [
+                {
+                  "title": "4.2.1 网络安全协议",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "4.2.2 SSL协议",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "4.2.3 IPSec协议",
+                  "level": 4,
+                  "index": 3
+                }
+              ]
+            },
+            {
+              "title": "4.3 简易防火墙的设置及使用",
+              "level": 3,
+              "index": 3,
+              "children": [
+                {
+                  "title": "4.3.1 防火墙的原理与作用",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "4.3.2 防火墙的设置及使用",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            },
+            {
+              "title": "4.4 数据和终端设备的加密",
+              "level": 3,
+              "index": 4,
+              "children": [
+                {
+                  "title": "4.4.1 数据的加密",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "4.4.2　终端设备的加密",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第五章 物联网与“互联网+”",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "项目范例  调查物联网与“互联网﹢”对未来生活的影响",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "5.1 物联网及其发展历程",
+              "level": 3,
+              "index": 1,
+              "children": [
+                {
+                  "title": "5.1.1 物联网及其特征",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "5.1.2 物联网的发展历程",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "5.1.3 物联网的应用与影响",
+                  "level": 4,
+                  "index": 3
+                }
+              ]
+            },
+            {
+              "title": "5.2 识别技术与短距离通信技术",
+              "level": 3,
+              "index": 2,
+              "children": [
+                {
+                  "title": "5.2.1 识别技术及其应用",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "5.2.2 短距离无线通信技术及其应用",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            },
+            {
+              "title": "5.3 物联网的安全风险与防范策略",
+              "level": 3,
+              "index": 3,
+              "children": [
+                {
+                  "title": "5.3.1 安全风险",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "5.3.2 防范策略",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            },
+            {
+              "title": "5.4 “互联网+”及其应用",
+              "level": 3,
+              "index": 4,
+              "children": [
+                {
+                  "title": "5.4.1 “互联网+” 的特点",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "5.4.2 “互联网+”的应用与影响",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

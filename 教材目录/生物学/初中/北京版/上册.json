@@ -1,0 +1,94 @@
+{
+  "title": "初中生物学北京版七年级上册",
+  "xueduan": "初中",
+  "nianji": "七年级",
+  "xueke": "生物学",
+  "banben": "北京版",
+  "ceci": "上册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 认识生命",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第一节 认识我们身边的植物和动物",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 认识我们身边的其他生物",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 认识生物圈",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第二章 生物学的研究方法",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第一节 常用的生物学研究方法",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 中学生物学实验的常用工具",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "第三章 生物体的结构",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第一节 细胞",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 生物体",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "第四章 生物的营养",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "第一节 绿色植物的生活需要水和无机盐",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 绿色植物的光合作用",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 人和动物的营养",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "第四节 其他营养方式",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "title": "初中数学浙教版七年级上册",
+  "xueduan": "初中",
+  "nianji": "七年级",
+  "xueke": "数学",
+  "banben": "浙教版",
+  "ceci": "上册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第1章 有理数",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "1.1 从自然数到有理数",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "阅读材料 中国古代在数的发展方面的贡献",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "1.2 数轴",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "1.3 绝对值",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "1.4 有理数的大小比较",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第2章 有理数的运算",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "2.1 有理数的加法",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2.2 有理数的减法",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "2.3 有理数的乘法",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "2.4 有理数的除法",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "2.5 有理数的乘方",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "2.6 有理数的混合运算",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "2.7 近似数",
+          "level": 2,
+          "index": 7
+        }
+      ]
+    },
+    {
+      "title": "第3章 实数",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "3.1 平方根",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "3.2 实数",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "阅读材料 神奇的π",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "3.3 立方根",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "3.4 实数的运算",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第4章 代数式",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "4.1 用字母表示数",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "4.2 代数式",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "4.3 代数式的值",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "阅读材料 数学中的符号",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "4.4 整式",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "4.5 合并同类项",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "4.6 整式的加减",
+          "level": 2,
+          "index": 7
+        }
+      ]
+    },
+    {
+      "title": "第5章 一元一次方程",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "5.1 一元一次方程",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "5.2 等式的基本性质",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "5.3 一元一次方程的解法",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "5.4 一元一次方程的应用",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "一元一次方程的应用（例1-例6）",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "一元一次方程的应用（例7-例8）",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "阅读材料 丢番图",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "课题学习 问题解决的基本步骤",
+          "level": 2,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "title": "第6章 图形的初步知识",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "6.1 几何图形",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "6.2 线段、射线和直线",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "6.3 线段的长短比较",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "6.4 线段的和差",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "6.5 角与角的度量",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "6.6 角的大小比较",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "6.7 角的和差",
+          "level": 2,
+          "index": 7
+        },
+        {
+          "title": "6.8 余角和补角",
+          "level": 2,
+          "index": 8
+        },
+        {
+          "title": "6.9 直线的相交",
+          "level": 2,
+          "index": 9
+        },
+        {
+          "title": "阅读材料 初识“几何画板”",
+          "level": 2,
+          "index": 10
+        }
+      ]
+    }
+  ]
+}

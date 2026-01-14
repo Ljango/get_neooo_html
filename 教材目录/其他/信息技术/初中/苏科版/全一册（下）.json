@@ -1,0 +1,125 @@
+{
+  "title": "初中信息技术苏科版八年级全一册（下）",
+  "xueduan": "初中",
+  "nianji": "八年级",
+  "xueke": "信息技术",
+  "banben": "苏科版",
+  "ceci": "全一册（下）",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第3章 程序设计",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第1节 程序设计简介",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "计算机程序及其设计过程",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "认识Visual Basic",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "VB中的程序代码",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "面向对象程序设计",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第2节 程序基本知识",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "信息的输入、处理与输出",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "第3节 程序中的逻辑判断",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "综合实例",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "逻辑运算",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "条件语句",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第4节 程序中的循环",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "循环语句",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "VB中的定时器",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第5节 算法",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "算法的概念及其描述",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "算法实例",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第6节 结构化程序设计",
+          "level": 2,
+          "index": 6,
+          "children": [
+            {
+              "title": "定义通用过程（一）",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

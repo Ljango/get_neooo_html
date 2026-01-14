@@ -1,0 +1,369 @@
+{
+  "title": "高中通用技术豫科版选择性必修6 智能家居应用设计",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "通用技术",
+  "banben": "豫科版",
+  "ceci": "选择性必修6 智能家居应用设计",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 智能家居架构与功能",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第一节　走进智能家居",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、智能家居的含义",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、智能家居的基本特征",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、智能家居与传统家居的对比",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、生活中的家用智能产品",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第二节　智能家居系统架构",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、智能家居系统的组成",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、智能家居系统的控制方式",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第三节　智能家居的发展脉络",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、智能家居的起源与发展",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、智能家居的发展问题",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、智能家居的发展趋势",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第二章 智能家居与物联通信",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第一节　物联网的基础认知",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、物联网的定义",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、物联网的构成",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、物联网的应用",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第二节　常见的物联网通信技术",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、总线技术",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、电力线载波技术",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、无线组网技术",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第三节　物联网通信的技术实现",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、物联网传感器",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、物联网控制器",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、物联网云平台",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、物联网的框架设计",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第三章　智能家居简易产品设计",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第一节　灯光控制产品设计",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、声控LED 灯设计制作",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、功能拓展：光强自动检测功能",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第二节 家电控制产品设计",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、红外控制风扇设计制作",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、功能拓展：风速手动调节功能",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第三节　安防控制产品设计",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、烟雾报警器设计制作",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、功能拓展：远程监控烟雾浓度",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第四节　环境控制产品设计",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "一、远程控制空气加湿器设计制作",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、功能拓展：远程监控室内温湿度",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第四章　智能家居系统设计与实现",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "第一节　家庭智能照明系统设计",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、典型设备",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、需求调研",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、技术路线",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、设计方案",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第二节　家用电器控制系统",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、典型设备",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、需求调研",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、技术路线",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、 设计方案",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第三节　家庭安防报警系统",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、典型设备",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、需求调研",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、技术路线",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、设计方案",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第四节　家庭环境监控系统",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "一、典型设备",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、需求调研",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、技术路线",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、设计方案",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第五节　智能家居设计任务",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "一、项目说明",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、项目评价",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

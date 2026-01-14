@@ -1,0 +1,180 @@
+{
+  "title": "初中地理中图版（主编：钟作慈）七年级上册",
+  "xueduan": "初中",
+  "nianji": "七年级",
+  "xueke": "地理",
+  "banben": "中图版（主编：钟作慈）",
+  "ceci": "上册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 地球和地图",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第一节 地球和地球仪",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "地球的形状和大小，地球仪",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "纬线和纬度，经线和经度",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "在地球仪上确定某地点的经纬度",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "地球的自转和公转",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第二节 地图",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 地形图的判读",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第二章 中国的疆域和人口",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第一节 位置和疆域",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 行政区域",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 人口和民族",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第三章 中国的自然环境",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第一节 地形特征和主要地形区",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 气温、降水和气候特征",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "天气和气候，天气符号",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "气温和降水",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "冬夏气温状况",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "降水量的变化",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "气候特征",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        },
+        {
+          "title": "第三节 主要河流和湖泊",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "中国的水系分布",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "长江的源流概况及水文特征",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "长江的水文特征对社会经济发展的影响",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "黄河的源流概况及水文特征",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "黄河的贡献和危害",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        },
+        {
+          "title": "第四节 自然灾害",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第四章 中国的自然资源",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "第一节 自然资源",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 水资源",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 土地资源",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    }
+  ]
+}

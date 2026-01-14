@@ -1,0 +1,246 @@
+{
+  "title": "高中数学苏教版必修 第二册",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "数学",
+  "banben": "苏教版",
+  "ceci": "必修 第二册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第9章 平面向量",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "9.1 向量概念",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "9.2 向量运算",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "向量的加减法",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "向量的数乘",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "向量的数量积",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "9.3 向量基本定理及坐标表示",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "平面向量基本定理",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "向量坐标表示与运算",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "向量平行的坐标表示",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "9.4 向量应用",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "本章复习",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第10章 三角恒等变换",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "10.1 两角和与差的三角函数",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "两角和与差的余弦",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "两角和与差的正弦",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "两角和与差的正切",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "10.2 二倍角的三角函数",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "10.3 几个三角恒等式",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "本章复习",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第11章 解三角形",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "11.1 余弦定理",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "11.2 正弦定理",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "11.3 余弦定理、正弦定理的应用",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "本章复习",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第12章 复数",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "12.1 复数的概念",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "12.2 复数的运算",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "12.3 复数的几何意义",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "12.4 复数的三角形式",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第13章 立体几何初步",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "13.1 基本立体图形",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "13.2 基本图形位置关系",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "13.3 空间图形的表面积和体积",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第14章 统计",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "14.1 获取数据的基本途径及相关概念",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "14.2 抽样",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "14.3 统计图表",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "14.4 用样本估计总体",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第15章 概率",
+      "level": 1,
+      "index": 7,
+      "children": [
+        {
+          "title": "15.1 随机事件和样本空间",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "15.2 随机事件的概率",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "15.3 互斥事件和独立事件",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "title": "初中科学沪教版九年级上册",
+  "xueduan": "初中",
+  "nianji": "九年级",
+  "xueke": "科学",
+  "banben": "沪教版",
+  "ceci": "上册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "物质间的转化",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第一章  矿物与金属",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二童  酸、碱、盐",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三章  物质的转化与应用",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "本篇小结",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "生物体内外的物质、能量交换及转化",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第四童  生物体怎样获得营养",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第五章  生物体怎样获得能量",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第六章  物质在人体内的运输",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "本篇小结",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "生活中的能量及其转化",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第七章  电流与家庭电路",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第八章  电与磁",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "本篇小结",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    }
+  ]
+}

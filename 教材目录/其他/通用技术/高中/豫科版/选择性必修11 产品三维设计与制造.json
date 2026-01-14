@@ -1,0 +1,359 @@
+{
+  "title": "高中通用技术豫科版选择性必修11 产品三维设计与制造",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "通用技术",
+  "banben": "豫科版",
+  "ceci": "选择性必修11 产品三维设计与制造",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 三维模型设计",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第一节　三维产品设计",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、三维产品设计的类型",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、三维产品设计的流程",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、常用三维设计软件",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第二节　Inventor 产品结构设计",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、软件界面与常用操作",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、Inventor 数字模型建立",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第三节　Inventor 建模方法与工具",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、Inventor 建模方法",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、Inventor 建模工具",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第四节　Inventor 运动模拟",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "第五节　Inventor 的设计表达",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "一、表达视图",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、渲染输出",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、模型文件输出与保存",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第二章 三维打印原理",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第一节　三维打印技术的发展历程",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、三维打印技术的产生",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、三维打印技术的发展现状与未来",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第二节　三维打印技术原理",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、三维打印技术的工作流程",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、几种常见的三维打印技术",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第三节　三维打印的工艺过程和设备分类",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、三维打印的工艺过程",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、三维打印机的种类",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第四节　三维打印机的结构与操作",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "一、三维打印机的结构",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、三维打印机的操作",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第三章　三维打印技术的应用",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第一节　三维打印技术的应用",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、三维打印技术在工业制造中的应用",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、三维打印技术在医疗领域的应用",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、三维打印技术在建筑中的应用",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、三维打印技术与大众消费",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第二节　灯罩的三维设计与制作",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、产品研发的背景及意义",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、台灯产品设计调研",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、灯罩产品设计方案",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、灯罩产品三维建模",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "五、灯罩三维打印及后期处理",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        },
+        {
+          "title": "第三节　定制化骨科植入物",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、研发背景及意义",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、研发案例分析",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、设计与制作流程及方案",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、进一步思考与拓展",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第四节　可重构无人机创新平台",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "一、产品研发背景及意义",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、产品设计思路",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、基于无人机平台的探究",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、体验创新实践的过程",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第四章　 三维产品技术分析与实践",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "第一节　项目的设计要求",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、设计要求",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、无碳小车的测试流程",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第二节　设计中的技术准备",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、影响小车爬坡的主要因素",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、形成整体设计思路",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第三节　设计方案",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "第四节　设计、制作与技术分析",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "一、设计与制作的主要过程",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、对车体的设计分析",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

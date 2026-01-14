@@ -1,0 +1,175 @@
+{
+  "title": "初中物理北师大版（主编：闫金铎）八年级上册",
+  "xueduan": "初中",
+  "nianji": "八年级",
+  "xueke": "物理",
+  "banben": "北师大版（主编：闫金铎）",
+  "ceci": "上册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "走进物理世界",
+      "level": 1,
+      "index": 1
+    },
+    {
+      "title": "学习物理——从认识物质开始",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第一章 物态及其变化",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、物态变化　温度",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、熔化和凝固",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、汽化和液化",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、升华和凝华",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "五、生活和技术中的物态变化",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        },
+        {
+          "title": "第二章 物质世界的尺度、质量和密度",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、物体的尺度及其测量",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、物体的质量及其测量",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、学生实验：探究——物质的密度",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、新材料及其应用",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第三章 物质的简单运动",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、运动与静止",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、探究——比较物体运动的快慢",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "*三、平均速度与瞬时速度",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、平均速度的测量",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "有声有色的物质世界——声和光",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第四章 声现象",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、声音的产生与传播",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、乐音",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、噪声与环保",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、声现象在科技中的应用",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第五章 光现象",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、光的传播",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、光的反射",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、学生实验：探究——平面镜成像的特点",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、光的折射",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "五、物体的颜色",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

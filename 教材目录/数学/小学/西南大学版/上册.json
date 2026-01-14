@@ -1,0 +1,124 @@
+{
+  "title": "新教材-小学数学西南大学版一年级上册",
+  "xueduan": "小学",
+  "nianji": "一年级",
+  "xueke": "数学",
+  "banben": "西南大学版",
+  "ceci": "上册",
+  "is_new": true,
+  "chapters": [
+    {
+      "title": "综合与实践：我的幼儿园",
+      "level": 1,
+      "index": 1
+    },
+    {
+      "title": "第一单元 0-9的认识",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "认识0-9",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "比较",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第几",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "整理与复习",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第二单元  0-9的加减法",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "认识加法",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "认识减法",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "连加、连减与加减混合",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "整理与复习",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第三单元 认识立体图形",
+      "level": 1,
+      "index": 4
+    },
+    {
+      "title": "综合与实践：我的伙伴我的班",
+      "level": 1,
+      "index": 5
+    },
+    {
+      "title": "第四单元 10-20的认识",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "认识10~20",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "不进位加法和不退位减法",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "整理与复习",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第五单元 20以内的进位加法",
+      "level": 1,
+      "index": 7,
+      "children": [
+        {
+          "title": "进位加法",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "整理与复习",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "第六单元 总复习",
+      "level": 1,
+      "index": 8
+    }
+  ]
+}

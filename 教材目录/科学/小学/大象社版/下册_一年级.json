@@ -1,0 +1,109 @@
+{
+  "title": "新教材-小学科学大象社版一年级下册",
+  "xueduan": "小学",
+  "nianji": "一年级",
+  "xueke": "科学",
+  "banben": "大象社版",
+  "ceci": "下册",
+  "is_new": true,
+  "chapters": [
+    {
+      "title": "体验单元   冷热与温度",
+      "level": 1,
+      "index": 1
+    },
+    {
+      "title": "第一单元  水",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "1  做一个小水车",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2  运水比赛",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3  水的特征",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第二单元 空气",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "1  空瓶不空",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2  找空气",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3  空气的特征",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第三单元  认识身边的植物",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "1  认识小麦",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2  常见植物的特征",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3  识别植物",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第四单元  神奇的磁铁",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "1  磁铁能吸什么",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2  隔空吸铁",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3  磁铁游戏",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "反思单元  从肉眼到“天眼”",
+      "level": 1,
+      "index": 6
+    }
+  ]
+}

@@ -1,0 +1,400 @@
+{
+  "title": "初中数学华东师大版七年级下册",
+  "xueduan": "初中",
+  "nianji": "七年级",
+  "xueke": "数学",
+  "banben": "华东师大版",
+  "ceci": "下册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第6章 一元一次方程",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "6.1 从实际问题到方程",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "6.2 解一元一次方程",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "等式的性质与方程的简单变形",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "解一元一次方程",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "阅读材料 丢番图的墓志铭与方程",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "6.3 实践与探索",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "几何类应用问题",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "经济类应用问题",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "工程类应用问题",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "复习题",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第7章 一次方程组",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "7.1 二元一次方程组和它的解",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "7.2 二元一次方程组的解法",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "代入法解二元一次方程组",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "加减法解二元一次方程组",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "选用适当方法解二元一次方程组",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "*7.3 三元一次方程组及其解法",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "7.4 实践与探索",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "用二元一次方程组解决配套问题",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "用二元一次方程解决几何问题",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "阅读材料 鸡兔同笼",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "复习题",
+          "level": 2,
+          "index": 7
+        }
+      ]
+    },
+    {
+      "title": "第8章 一元一次不等式",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "8.1 认识不等式",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "8.2 解一元一次不等式",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "不等式的解集",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "不等式的简单变形",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "解一元一次不等式",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "8.3 一元一次不等式组",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一元一次不等式组",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "阅读材料 等号与不等号的由来",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "复习题",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "综合实践 球赛出线问题",
+          "level": 2,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "title": "第9章 多边形",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "9.1 三角形",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "认识三角形",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "三角形的内角和与外角和",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三角形的三边关系",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "9.2 多边形的内角和与外角和",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "多边形的内角和",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "多边形的外角和",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "9.3 用正多边形铺设地面",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "用相同的正多边形铺设地面",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "用多种正多边形铺设地面",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "复习题",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第10章 轴对称、平移与旋转",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "10.1 轴对称",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "生活中的轴对称",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "阅读材料 剪正五角星",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "轴对称的再认识",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "画轴对称图形",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "设计轴对称图案",
+              "level": 3,
+              "index": 5
+            },
+            {
+              "title": "阅读材料 Times and dates",
+              "level": 3,
+              "index": 6
+            }
+          ]
+        },
+        {
+          "title": "10.2 平移",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "图形的平移",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "平移的特征",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "10.3 旋转",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "图形的旋转",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "旋转的特征",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "旋转对称图形",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "阅读材料 古建筑中的旋转对称——从敦煌洞窟到欧洲教堂",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "10.4 中心对称",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "10.5 图形的全等",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "复习题",
+          "level": 2,
+          "index": 7
+        },
+        {
+          "title": "综合与实践 图案设计",
+          "level": 2,
+          "index": 8
+        }
+      ]
+    }
+  ]
+}

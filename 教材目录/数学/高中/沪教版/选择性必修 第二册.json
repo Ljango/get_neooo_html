@@ -1,0 +1,310 @@
+{
+  "title": "高中数学沪教版选择性必修 第二册",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "数学",
+  "banben": "沪教版",
+  "ceci": "选择性必修 第二册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第5章 导数及其应用",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "5.1 导数的概念及意义",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "5.1.1 导数的概念",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "5.1.2 导数的几何意义",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "5.2 导数的运算",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "5.2.1 基本初等函数的导数",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "5.2.2 导数的四则运算",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "5.2.3 简单复合函数的导数",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "5.3 导数的应用",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "5.3.1 利用导数研究函数的单调性",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "5.3.2 利用导数研究函数的极值",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "5.3.3 利用导数研究函数的最值",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "5.3.4 利用导数研究二次函数",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "5.3.5 利用导数解决实际问题",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第6章 计数原理",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "6.1 乘法原理与加法原理",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "6.1.1 乘法原理",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "6.1.2 加法原理",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "6.2 排列",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "6.2.1 排列的定义",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "6.2.2 排列数的计算",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "6.2.3 排列数的性质",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "6.3 组合",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "6.3.1 组合的定义",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "6.3.2 组合数的计算",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "6.3.3 组合数的性质",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "6.4 计数原理在古典概率中的应用",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "6.5 二项式定理",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "6.5.1 杨辉三角和二项式定理",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "6.5.2 二项式定理的应用——组合数的性质",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第7章 概率初步（续）",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "7.1 条件概率与相关公式",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "7.1.1 条件概率",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "7.1.2 全概率公式",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "*7.1.3 贝叶斯公式",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "7.2 随机变量的分布与特征",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "7.2.1 随机变量与分布",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "7.2.2 期望",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "7.2.3 方差",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "7.3 常用分布",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "7.3.1 二项分布",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "7.3.2 超几何分布",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "7.3.3 正态分布",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第8章 成对数据的统计分析",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "8.1 成对数据的相关分析",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "8.1.1 成对数据间的关系",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "8.1.2 相关系数",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "8.2 一元线性回归分析",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "8.2.1 一元线性回归分析的基本思想",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "8.2.2 一元线性回归分析的应用举例",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "8.3 2×2列联表",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "8.3.1 2×2列联表独立性检验",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "8.3.2 独立性检验的具体应用",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

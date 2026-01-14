@@ -1,0 +1,242 @@
+{
+  "title": "初中数学湘教版九年级上册",
+  "xueduan": "初中",
+  "nianji": "九年级",
+  "xueke": "数学",
+  "banben": "湘教版",
+  "ceci": "上册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第1章 反比例函数",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "1.1 反比例函数",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "1.2 反比例函数的图象与性质",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "1.3 反比例函数的应用",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "IT教室 用计算机绘制反比例函数的图象",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "小结与复习",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第2章 一元二次方程",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "2.1 一元二次方程",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2.2 一元二次方程的解法",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "2.2.1配方法",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.2.2公式法",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "2.2.3因式分解法",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "2.3 一元二次方程根的判别式",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "2.4 一元二次方程根与系数的关系",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "2.5 一元二次方程的应用",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "小结与复习",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "数学与文化 花剌子米与《代数学》",
+          "level": 2,
+          "index": 7
+        }
+      ]
+    },
+    {
+      "title": "第3章 图形的相似",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "3.1 比例线段",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "3.1.1比例的基本性质",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "3.1.2成比例线段",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "3.2 平行线分线段成比例",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3.3 相似图形",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "3.4 相似三角形的判定与性质",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "3.4.1相似三角形的判定",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "3.4.2相似三角形的性质",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "3.5 相似三角形的应用",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "3.6 位似",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "小结与复习",
+          "level": 2,
+          "index": 7
+        },
+        {
+          "title": "数学与文化 美妙的黄金分割",
+          "level": 2,
+          "index": 8
+        }
+      ]
+    },
+    {
+      "title": "第4章 锐角三角函数",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "4.1 正弦和余弦",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "4.2 正切",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "4.3 解直角三角形",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "4.4 解直角三角形的应用",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "IT教室 探究一个角的正弦值与余弦值之间的关系",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "小结与复习",
+          "level": 2,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "title": "综合与实践 测量物体的高度",
+      "level": 1,
+      "index": 5
+    },
+    {
+      "title": "第5章 用样本推断总体",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "5.1 总体平均数与方差的估计",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "5.2 统计的简单应用",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "小结与复习",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "综合与实践 如何估计鱼的数量",
+      "level": 1,
+      "index": 7
+    }
+  ]
+}

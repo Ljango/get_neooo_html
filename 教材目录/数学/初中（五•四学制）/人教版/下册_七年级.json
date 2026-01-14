@@ -1,0 +1,233 @@
+{
+  "title": "初中（五•四学制）数学人教版七年级下册",
+  "xueduan": "初中（五•四学制）",
+  "nianji": "七年级",
+  "xueke": "数学",
+  "banben": "人教版",
+  "ceci": "下册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第15章 二元一次方程组",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "15.1 二元一次方程组",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "15.2 消元——解二元一次方程组",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "15.3 二元一次方程组与实际问题",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "15.4 三元一次方程组的解法",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "阅读与思考  一次方程组的古今表示及解法",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "数学活动",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "title": "第16章 不等式与不等式组",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "16.1 不等式",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "阅读与思考 用求差法比较大小",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "16.2 一元一次不等式",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "16.3 一元一次不等式组",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "数学活动",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第17章 三角形",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "17.1 与三角形有关的线段",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "17.1.1三角形的边",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "17.1.2三角形的高、中线与角平分线",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "17.1.3三角形的稳定性",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "信息技术应用 画图找规律",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "17.2 与三角形有关的角",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "阅读与思考 为什么要证明",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "17.3 多边形及其内角和",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "数学活动",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第18章 全等三角形",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "18.1 全等三角形",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "18.2 三角形全等的判定",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "信息技术应用 探究三角形全等的条件",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "18.3 角的平分线的性质",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "数学活动",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第19章 数据的分析",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "19.1 数据的集中趋势",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "19.2 数据的波动程度",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "阅读与思考 数据波动程度的几种度量",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "19.3 课题学习 体质健康测试中的数据分析",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "数学活动",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    }
+  ]
+}

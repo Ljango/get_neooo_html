@@ -1,0 +1,318 @@
+{
+  "title": "小学数学苏教版六年级下册",
+  "xueduan": "小学",
+  "nianji": "六年级",
+  "xueke": "数学",
+  "banben": "苏教版",
+  "ceci": "下册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "一 扇形统计图",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "扇形统计图",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "选择统计图",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "练习一",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "二 圆柱和圆锥",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "圆柱和圆锥的认识",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "圆柱的表面积",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "练习二",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "圆柱的体积",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "练习三",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "圆锥的体积",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "练习四",
+          "level": 2,
+          "index": 7
+        },
+        {
+          "title": "整理与练习",
+          "level": 2,
+          "index": 8
+        }
+      ]
+    },
+    {
+      "title": "三 解决问题的策略",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "解决问题的策略",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "练习五",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "四 比例",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "放大与缩小",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "比例的意义",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "比例的基本性质",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "解比例",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "比例尺",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "比例尺的应用",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "★ 面积的变化",
+          "level": 2,
+          "index": 7
+        }
+      ]
+    },
+    {
+      "title": "五 确定位置",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "用方向和距离描述位置",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "在平面图上绘制物体的位置",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "描述行走的路线",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "六 正比例和反比例",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "正比例的意义",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "正比例图像",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "反比例的意义",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "练习十一",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "● 大树有多高",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "七 总复习",
+      "level": 1,
+      "index": 7,
+      "children": [
+        {
+          "title": "1.数与代数",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "整数、小数的认识",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "分数、百分数的认识",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "常见的量",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四则运算",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "四则混合运算",
+              "level": 3,
+              "index": 5
+            },
+            {
+              "title": "解决问题的策略",
+              "level": 3,
+              "index": 6
+            },
+            {
+              "title": "式与方程",
+              "level": 3,
+              "index": 7
+            },
+            {
+              "title": "正比例和反比例",
+              "level": 3,
+              "index": 8
+            }
+          ]
+        },
+        {
+          "title": "2.图形与几何",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "认识平面图形",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "平面图形的周长和面积",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "认识立体图形",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "立体图形的表面积和体积",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "图形的运动",
+              "level": 3,
+              "index": 5
+            },
+            {
+              "title": "图形与位置",
+              "level": 3,
+              "index": 6
+            }
+          ]
+        },
+        {
+          "title": "3.统计与可能性",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "统计",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "可能性",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "综合与实践",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "●制订旅游计划",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "●测绘平面图",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

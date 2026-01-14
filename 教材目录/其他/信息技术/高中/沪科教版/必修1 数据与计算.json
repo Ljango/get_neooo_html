@@ -1,0 +1,322 @@
+{
+  "title": "高中信息技术沪科教版必修1 数据与计算",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "信息技术",
+  "banben": "沪科教版",
+  "ceci": "必修1 数据与计算",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一单元 数据与信息",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "项目一 探秘鸟类研究——认识数据、信息与知识",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.采集鸟类活动的数据",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.处理数据、获取信息",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.利用大数据获取信息",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "知识链接",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "项目二 探究计算机中的数据表示——认识数据编码",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "1.从树牌号认识编码",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.了解数值数据和文本数据的编码",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.了解声音和图像的数字化",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "知识链接",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "单元挑战 认识并制作二维码",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "单元小结",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第二单元 数据处理与应用",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "项目三 调查中学生移动学习现状——经历数据处理的的一般过程",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.明确数据需求",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.采集数据",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.加工、分析和可视化数据",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "4.撰写报告，提出数据应用建议",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "知识链接",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        },
+        {
+          "title": "项目四 认识智能停车场中的数据处理——体验数据处理的方法和工具",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "1.探究停车引导中的数据处理",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.计算停车费",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.分析停车位使用数据",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "知识链接",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "单元挑战 采集与分析气象数据",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "单元小结",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第三单元 算法和程序设计",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "项目五 描述洗衣机的洗衣流程——了解算法及其基本控制结构",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.从洗衣流程认识算法",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.描述“洗涤算法”",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.分析洗衣流程的控制结构",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "知识链接",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "项目六 解决温标转换问题——认识程序和程序设计语言",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "1.体验程序设计的一般过程",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.了解程序的基本控制结构",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.优化程序，判断输入有效性",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "知识链接",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "项目七 用计算机计算圆周率——设计简单数值数据算法",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "1.设计算法实现用数学公式计算",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.设计算法实现用随机投点法计算",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "知识链接",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "项目八 分析历史气温数据——设计批量数据算法",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "1.用列表表示和计算平均气温",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.用模块化设计批量计算平均气温",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "知识链接",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "单元挑战 探究密码安全问题",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "单元小结",
+          "level": 2,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "title": "第四单元 人工智能初步",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "项目九 了解手写数字识别——体验人工智能",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.初识字符识别技术",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.了解机器学习中的数据采集与预处理",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.建立手写数字识别模型并进行验证",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "4.评估手写数字识别模型并开展应用",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "知识链接",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        },
+        {
+          "title": "单元挑战 尝试人工智能绘画",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "单元小结",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    }
+  ]
+}

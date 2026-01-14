@@ -1,0 +1,128 @@
+{
+  "title": "新教材-初中（五•四学制）生物学鲁科版七年级上册",
+  "xueduan": "初中（五•四学制）",
+  "nianji": "七年级",
+  "xueke": "生物学",
+  "banben": "鲁科版",
+  "ceci": "上册",
+  "is_new": true,
+  "chapters": [
+    {
+      "title": "第四单元 生物与环境",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第一章 生态系统",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "第一节 生物与环境的相互作用",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第二节 生态系统的结构和功能",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "综合实践项目 设计并制作生态瓶",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "第三节 生物圈是最大的生态系统",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第二章 生态安全",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "第一节 生态系统的自我调节",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第二节 人类活动对生态环境的影响",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "第三节 保护生物圈就是保护生态安全",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第五单元 植物的生活",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第一章 绿色开花植物的生命周期",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "第一节 种子的萌发",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "综合实践项目 栽培一种植物，探究所需的环境条件",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "第二节 植株的生长",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "第三节 开花和结果",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第二章 植物体内的物质与能量变化",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "第一节 水的利用与散失",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第二节 光合作用",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "第三节 呼吸作用",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "第四节 植物在生物圈中的作用",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

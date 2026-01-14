@@ -1,0 +1,257 @@
+{
+  "title": "小学数学人教版六年级上册",
+  "xueduan": "小学",
+  "nianji": "六年级",
+  "xueke": "数学",
+  "banben": "人教版",
+  "ceci": "上册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "1　分数乘法",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "分数乘整数",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "分数乘分数",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "分数乘小数",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "分数四则混合运算",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "整数乘法运算定律推广到分数",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "解决问题",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "整理和复习",
+          "level": 2,
+          "index": 7
+        }
+      ]
+    },
+    {
+      "title": "2　位置与方向（二）",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "用方向和距离描述位置（例1）",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "根据方向和距离确定点的位置（例2）",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "描述简单的路线图（例3）",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "3　分数除法",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "倒数的认识",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "分数除法",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "分数混合运算",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "解决问题",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "已知一个数的几分之几是多少，求这个数（例4）",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "已知比一个数多（少）几分之几的数是多少，求这个数（例5）",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "已知两个量的和（差），其中一个量是另一个量的几分之几，求这两个量（例6）",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "解决问题（利用抽象的“1”解决实际问题）",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "整理和复习",
+          "level": 2,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "title": "4　比",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "比的意义",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "比的基本性质",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "比的应用（按比分配）",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "5　圆",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "圆的认识",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "圆的周长",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "圆的面积",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "解决问题",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "扇形",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "整理和复习",
+          "level": 2,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "title": "★确定起跑线",
+      "level": 1,
+      "index": 6
+    },
+    {
+      "title": "6　百分数（一）",
+      "level": 1,
+      "index": 7,
+      "children": [
+        {
+          "title": "百分数的意义",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "百分数和分数、小数的互化",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "用百分数解决问题",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "求一个数比另一个数多（少）百分之几（例3）",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "求比一个数多百分之几的数是多少（例4）",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "求比一个数连续多（或）少百分之几的数是多少（例5）",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "整理和复习",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "7 扇形统计图",
+      "level": 1,
+      "index": 8
+    },
+    {
+      "title": "★节约用水",
+      "level": 1,
+      "index": 9
+    },
+    {
+      "title": "8 数学广角——数与形",
+      "level": 1,
+      "index": 10
+    },
+    {
+      "title": "9 总复习",
+      "level": 1,
+      "index": 11
+    }
+  ]
+}

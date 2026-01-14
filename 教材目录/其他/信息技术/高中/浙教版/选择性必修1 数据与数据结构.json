@@ -1,0 +1,133 @@
+{
+  "title": "高中信息技术浙教版选择性必修1 数据与数据结构",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "信息技术",
+  "banben": "浙教版",
+  "ceci": "选择性必修1 数据与数据结构",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 数据与数据的组织",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "1.1 数据",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "1.2 数据的组织",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "第二章 数组与链表",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "2.1 数组",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2.2 链表",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "第三章 字符串、队列和栈",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "3.1 字符串",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "3.2 队列",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3.3 栈",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第四章 树",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "4.1 树与二叉树",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "4.2 二叉树的基本操作",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "4.3 抽象数据类型",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第五章 数据结构与算法",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "5.1 数据结构与算法效率",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "5.2 迭代与递归",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "5.3 数据排序",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "5.4 数据查找",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第六章 大数据时代数据的组织",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "6.1 实时查询系统中数据的组织",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "6.2 POI数据的组织与应用",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    }
+  ]
+}

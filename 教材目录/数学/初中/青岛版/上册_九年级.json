@@ -1,0 +1,411 @@
+{
+  "title": "初中数学青岛版九年级上册",
+  "xueduan": "初中",
+  "nianji": "九年级",
+  "xueke": "数学",
+  "banben": "青岛版",
+  "ceci": "上册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第1章 图形的相似",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "1.1 相似多边形",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "1.2 怎样判定三角形相似",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "平行线截线段成比例",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "相似三角形的判定定理1",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "相似三角形的判定定理2",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "相似三角形的判定定理3",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "相似三角形的判定定理的应用",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        },
+        {
+          "title": "1.3 相似三角形的性质",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "1.4 图形的位似",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "位似图形",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "直角坐标系中的位似图形",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "回顾与总结",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "图形相似的知识结构",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "图形相似的典型例题的解析",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第2章 解直角三角形",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "2.1 锐角三角比",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2.2 30°，45°，60°角的三角比",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "2.3 用计算器求锐角三角比",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "2.4 解直角三角形",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "解直角三角形",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "利用解直角三角形解斜三角形",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "利用解直角三角形解决有关问题",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "2.5 解直角三角形的应用",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "回顾与总结",
+          "level": 2,
+          "index": 6,
+          "children": [
+            {
+              "title": "解直角三角形的知识结构",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "解直角三角形的典型例题的解析",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第3章 对圆的进一步认识",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "3.1 圆的对称性",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "圆的对称性——轴对称、*垂径定理",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "圆的对称性——中心对称、圆心角与其所对弧、弦关系定理",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "圆的对称性——圆心角与其所对弧的度数关系定理及有关",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "3.2 确定圆的条件",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "探究确定圆的条件",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "反证法",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "3.3 圆周角",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "圆周角定理及推论1",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "圆周角定理的推论2、3",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "园内接四边形",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "3.4 直线与圆的位置关系",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "直线和圆的位置关系",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "切线的判定定理",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "切线的性质定理",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "*切线长定理",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "3.5 三角形的内切圆",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "3.6 弧长及扇形面积的计算",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "3.7 正多边形与圆",
+          "level": 2,
+          "index": 7
+        },
+        {
+          "title": "回顾与思考",
+          "level": 2,
+          "index": 8,
+          "children": [
+            {
+              "title": "圆的知识系统的建构",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "有关圆的典型例题的解析",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第4章 一元二次方程",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "4.1 一元二次方程",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "认识一元二次方程",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "估计一元二次方程的根",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "4.2 用配方法解一元二次方程",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "用配方法解二次项系数是1的一元二次方程",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "用配方法解一元二次方程",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "4.3 用公式法解一元二次方程",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一元二次方程求根公式及其应用",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "在实数范围内用公式法解一元二次方程",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "4.4 用因式分解法解一元二次方程",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "4.5 一元二次方程根的判别式",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "4.6 一元二次方程根与系数的关系",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "4.7 一元二次方程的应用",
+          "level": 2,
+          "index": 7,
+          "children": [
+            {
+              "title": "一元二次方程的应用——面积和营销问题",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "一元二次方程的应用——利率问题",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "回顾与总结",
+          "level": 2,
+          "index": 8,
+          "children": [
+            {
+              "title": "一元二次方程的知识结构",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "一元二次方程有关的典型例题解析",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "综合与实践 黄金分割与五角星",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "黄金分割",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "正五边形和正五角星",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    }
+  ]
+}

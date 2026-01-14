@@ -1,0 +1,148 @@
+{
+  "title": "初中生物学北京版八年级上册",
+  "xueduan": "初中",
+  "nianji": "八年级",
+  "xueke": "生物学",
+  "banben": "北京版",
+  "ceci": "上册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第九章 动物的运动和行为",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第一节 动物的运动",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.运动形式",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.骨",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.关节",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "4.骨骼肌",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第二节 动物的行为",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "第十章 生物的生殖和发育",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第一节 人的生殖和发育",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 动物的生殖和发育",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 绿色开花植物的生殖和发育",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "1.开花和结果",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.种子的结构",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.种子的萌发",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "4.茎和叶的生长",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第四节 生物生殖的多种方式",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第十一章 生物的遗传和变异",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第一节 生物的性状表现",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 生物的性状遗传",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 人类的遗传",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "第四节 生物的变异",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第十二章 生命的起源和生物的进化",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "第一节 生命的起源",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 生物的进化",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 人类的起源与进化",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    }
+  ]
+}

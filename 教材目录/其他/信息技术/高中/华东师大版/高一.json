@@ -1,0 +1,57 @@
+{
+  "title": "高中信息技术华东师大版高一",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "信息技术",
+  "banben": "华东师大版",
+  "ceci": "高一",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第1章 信息与信息技术",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "1.1 信息概念",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "1.2　信息与数字化",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "第2章　信息技术工具——— 计算机",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "2.2　计算机软件系统",
+          "level": 2,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "title": "第3章　信息安全与道德规范",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "3.1　信息安全",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "3.2　计算机病毒及防治",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    }
+  ]
+}

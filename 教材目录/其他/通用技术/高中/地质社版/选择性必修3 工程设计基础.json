@@ -1,0 +1,302 @@
+{
+  "title": "高中通用技术地质社版选择性必修3 工程设计基础",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "通用技术",
+  "banben": "地质社版",
+  "ceci": "选择性必修3 工程设计基础",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 走进工程设计",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第一节 初识工程",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、工程的内涵",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、工程的演进",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、工程的特性",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、感受工程的魅力",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第二节 工程设计",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、工程设计的含义",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、工程设计要素",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、工程设计团队",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第三节 工程设计的一般过程",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、概念设计",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、实体设计",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、详细设计",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第二章 概念设计",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第一节 初始概念设计",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、需求识别与问题定义",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、信息收集",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、概念生成",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第二节 概念评价与决策",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、决策矩阵.",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、决策模型",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、决策树",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第三章 实体设计与详细设计",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第一节 实体设计",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、实体设计的基本过程",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、实体原型实现",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第二节 详细设计",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、详细设计的活动和决策",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、设计与制造信息交流",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第四章 工程设计建模与局部仿真",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "第一节 初识工程建模",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、建模的含义和意义",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、建模的类型",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第二节 计算机建模与详细设计",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、计算机建模任务",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、识读和绘制简单的工程样图",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第三节 局部仿真与测试",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、计算机仿真技术与仿真工具",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、工程测试与详细设计说明书编制",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第五章 工程管理",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "第一节 成本管理",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、成本管理的过程",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、运用WBS法估算成本",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第二节 时间管理",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、工程进度计划",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、甘特图",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、关键路径法",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第三节 质量管理",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、全面质量管理",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、质量管理的方法",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

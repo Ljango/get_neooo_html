@@ -1,0 +1,422 @@
+{
+  "title": "初中（五•四学制）数学鲁教版八年级上册",
+  "xueduan": "初中（五•四学制）",
+  "nianji": "八年级",
+  "xueke": "数学",
+  "banben": "鲁教版",
+  "ceci": "上册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 因式分解",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "1 因式分解",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2 提公因式法",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3 公式法",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "公式法——平方差公式",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "公式法——完全平方公式",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "公式法的灵活应用",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "回顾与思考",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第二章 分式与分式方程",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "1 认识分式",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "分式",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "分式的基本性质",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "2 分式的乘除法",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "分式的分子和分母是单项式的乘除",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "分式的分子和分母是多项式的乘除",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "3 分式的加减法",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "同分母分式的加减法",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "异分母分式的加减法",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "分式的化简求值",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "4 分式方程",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "分式方程",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "解分式方程",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "分式方程的应用",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "回顾与思考",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "分式与分式方程的知识系统的建构",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "分式与分式方程典型例题的解析",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第三章 数据的分析",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "1 平均数",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "算术平均数与加权平均数",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "加权平均数的应用",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "2 中位数与众数",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3 从统计图分析数据的集中趋势",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "4 数据的离散程度",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "回顾与思考",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "综合与实践",
+          "level": 2,
+          "index": 6,
+          "children": [
+            {
+              "title": "哪个城市夏天最热——研制调查方案",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "哪个城市夏天最热——交流数据得出结论",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第四章 图形的平移与旋转",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "1 图形的平移",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "图形的平移和它的性质",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "简单的平移画图",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "平面直角坐标系中的图形的平移",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "2 图形的旋转",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "图形的旋转和它的性质",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "简单的旋转画图",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "图形旋转性质的应用",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "3 中心对称",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "中心对称",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "中心对称图形",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "4 图形变化的简单应用",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "回顾与思考",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "图形平移与旋转的知识系统的建构",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "图形平移与旋转的典型例题的解析",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第五章 平行四边形",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "1 平行四边形的性质",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "平行四边形的性质——对称性、对边与对角",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "平行四边形的性质——对角线及平行四边形性质的综合应用",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "2 平行四边形的判定",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "平行四边形的判定——利用两组对边的关系",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "平行四边形的判定——利用一组对边的关系",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "平行四边形的判定——利用对角线的关系",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "3 三角形的中位线",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "三角形的中位线定理及其应用",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "证明三角形的中位线定理的逆命题",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "4 多边形的内角和与外角和",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "多边形的内角和",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "多边形的外角和",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "回顾与思考",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "平行四边形的知识系统的建构",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "平行四边形的典型例题的解析",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "复习题",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "综合与实践",
+          "level": 2,
+          "index": 7,
+          "children": [
+            {
+              "title": "平面图形的镶嵌",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

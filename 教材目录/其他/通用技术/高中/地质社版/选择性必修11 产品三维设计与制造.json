@@ -1,0 +1,249 @@
+{
+  "title": "高中通用技术地质社版选择性必修11 产品三维设计与制造",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "通用技术",
+  "banben": "地质社版",
+  "ceci": "选择性必修11 产品三维设计与制造",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 三维打印原理",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第一节 三维打印技术的发展",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、三维打印概念的形成",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、三维打印技术的发展历程",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、三维打印的应用领域",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第二节 三维打印工艺与材料",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、三维打印工艺原理",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、三维打印材料性质",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第三节 FDM桌面级三维打印机",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、影响三维打印机性能的主要因素",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、FDM 桌面级三维打印机",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、FDM 桌面级三维打印机的相关操作",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第二章 三维产品技术分析",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第一节 三维产品的技术要求",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、产品的技术问题概述",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、基于 FDM 的产品技术要求",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、三维切片软件与设置",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、三维打印常见问题的预防",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第二节 三维产品技术方案",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、三维打印技术应用方案",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、三维打印技术应用案例",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、三维打印后处理",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第三章 三维模型设计",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第一节 三维设计方法",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、三维设计的发展",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、几何形体的建模方法",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第二节 三维设计中的三维建模",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、利用基本体建模",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、实体建模",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、曲面建模",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、转换与组合",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第三节 逆向建模技术",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、三维激光扫描技术应用",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、影像逆向建模技术",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第四章 三维图样设计",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "第一节 产品的技术图样",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、工程特征的表达",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、装配设计",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第二节 图样技术应用",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、结合三维视图的图样表达",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、二维和三维剖视图",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、三维装配图",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

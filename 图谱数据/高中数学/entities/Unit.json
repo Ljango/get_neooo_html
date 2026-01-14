@@ -1,0 +1,246 @@
+{
+  "entities": [
+    {
+      "identifier": "urn:jy:math:SB0201:OB06:unit:un0001",
+      "title": "集合",
+      "description": "１\n集合\n集合是刻画一类事物的语言和工具。本单元的学习，可以帮助学生\n使用集合的语言简洁、准确地表述数学的研究对象，学会用数学的语言\n表达和交流，积累数学抽象的经验。\n内容包括：集合的概念与表示、集合的基本关系、集合的基本 运算。",
+      "subject": "SX0302",
+      "type": "Unit",
+      "applicableLevel": "OB0601",
+      "contentJson": {
+        "theme": "urn:jy:math:SB0201:OB06:theme:th001"
+      }
+    },
+    {
+      "identifier": "urn:jy:math:SB0201:OB06:unit:un0002",
+      "title": "常用逻辑用语",
+      "description": "２\n常用逻辑用语\n常用逻辑用语是数学语言的重要组成部分，是数学表达和交流的工\n具，是逻辑思维的基本语言。本单元的学习，可以帮助学生使用常用逻\n辑用语表达数学对象、进行数学推理，体会常用逻辑用语在表述数学内\n容和论证数学结论中的作用，提高交流的严谨性与准确性。\n内容包括：必要条件、充分条件、充要条件，全称量词与存在量 词，全称量词命题与存在量词命题的否定。",
+      "subject": "SX0302",
+      "type": "Unit",
+      "applicableLevel": "OB0601",
+      "contentJson": {
+        "theme": "urn:jy:math:SB0201:OB06:theme:th001"
+      }
+    },
+    {
+      "identifier": "urn:jy:math:SB0201:OB06:unit:un0003",
+      "title": "相等关系与不等关系",
+      "description": "３\n相等关系与不等关系\n相等关系、不等关系是数学中最基本的数量关系，是构建方程、不\n等式的基础。本单元的学习，可以帮助学生通过类比，理解等式和不等\n式的共性与差异，掌握基本不等式。\n内容包括：等式与不等式的性质、基本不等式。",
+      "subject": "SX0302",
+      "type": "Unit",
+      "applicableLevel": "OB0601",
+      "contentJson": {
+        "theme": "urn:jy:math:SB0201:OB06:theme:th001"
+      }
+    },
+    {
+      "identifier": "urn:jy:math:SB0201:OB06:unit:un0004",
+      "title": "从函数观点看一元二次方程和一元二次不等式",
+      "description": "４\n从函数观点看一元二次方程和一元二次不等式\n用函数理解方程和不等式是数学的基本思想方法。本单元的学习，\n可以帮助学生用一元二次函数认识一元二次方程和一元二次不等式。通\n过梳理初中数学的相关内容，理解函数、方程和不等式之间的联系，体\n会数学的整体性。\n内容包括：从函数观点看一元二次方程、从函数观点看一元二次不 等式。",
+      "subject": "SX0302",
+      "type": "Unit",
+      "applicableLevel": "OB0601",
+      "contentJson": {
+        "theme": "urn:jy:math:SB0201:OB06:theme:th001"
+      }
+    },
+    {
+      "identifier": "urn:jy:math:SB0201:OB06:unit:un0005",
+      "title": "函数概念与性质",
+      "description": "１\n函数概念与性质\n本单元的学习，可以帮助学生建立完整的函数概念，不仅把函数理\n解为刻画变量之间依赖关系的数学语言和工具，也把函数理解为实数集\n合之间的对应关系；能用代数运算和函数图象揭示函数的主要性质；在\n现实问题中，能利用函数构建模型，解决问题。\n内容包括：函数概念、函数性质、  函数的形成与发展 （标有的 内容均为选学内容，不作为考试要求）。",
+      "subject": "SX0302",
+      "type": "Unit",
+      "applicableLevel": "OB0601",
+      "contentJson": {
+        "theme": "urn:jy:math:SB0201:OB06:theme:th002"
+      }
+    },
+    {
+      "identifier": "urn:jy:math:SB0201:OB06:unit:un0006",
+      "title": "幂函数、指数函数、对数函数",
+      "description": "２ 、 、\n幂函数 指数函数 对数函数\n幂函数、指数函数与对数函数是最基本的、应用最广泛的函数，是\n进一步学习数学的基础。本单元的学习，可以帮助学生学会用函数图象\n和代数运算的方法研究这些函数的性质；理解这些函数中所蕴含的运算\n规律；运用这些函数建立模型，解决简单的实际问题，体会这些函数在\n解决实际问题中的作用。",
+      "subject": "SX0302",
+      "type": "Unit",
+      "applicableLevel": "OB0601",
+      "contentJson": {
+        "theme": "urn:jy:math:SB0201:OB06:theme:th002"
+      }
+    },
+    {
+      "identifier": "urn:jy:math:SB0201:OB06:unit:un0007",
+      "title": "三角函数",
+      "description": "３\n三角函数\n三角函数是一类最典型的周期函数。本单元的学习，可以帮助学生\n在用锐角三角函数刻画直角三角形中边角关系的基础上，借助单位圆建\n立一般三角函数的概念，体会引入弧度制的必要性；用几何直观和代数\n运算的方法研究三角函数的周期性、奇偶性 （对称性）、单调性和最大\n（小）值等性质；探索和研究三角函数之间的一些恒等关系；利用三角\n函数构建数学模型，解决实际问题。\n内容包括：角与弧度、三角函数概念和性质、同角三角函数的基本 关系式、三角恒等变换、三角函数应用。",
+      "subject": "SX0302",
+      "type": "Unit",
+      "applicableLevel": "OB0601",
+      "contentJson": {
+        "theme": "urn:jy:math:SB0201:OB06:theme:th002"
+      }
+    },
+    {
+      "identifier": "urn:jy:math:SB0201:OB06:unit:un0008",
+      "title": "函数应用",
+      "description": "４\n函数应用\n函数应用不仅体现在用函数解决数学问题，更重要的是用函数解决\n实际问题。本单元的学习，可以帮助学生掌握运用函数性质求方程近似\n解的基本方法 （二分法）；理解用函数构建数学模型的基本过程；运用\n模型思想发现和提出问题、分析和解决问题。\n内容包括：二分法与求方程近似解、函数与数学模型。",
+      "subject": "SX0302",
+      "type": "Unit",
+      "applicableLevel": "OB0601",
+      "contentJson": {
+        "theme": "urn:jy:math:SB0201:OB06:theme:th002"
+      }
+    },
+    {
+      "identifier": "urn:jy:math:SB0201:OB06:unit:un0009",
+      "title": "平面向量及其应用",
+      "description": "１\n平面向量及其应用\n向量理论具有深刻的数学内涵和丰富的物理背景。向量既是代数研\n究对象，也是几何研究对象，是沟通几何与代数的桥梁。向量是描述直\n线、曲线、平面、曲面以及高维空间数学问题的基本工具，是进一步学\n习和研究其他数学领域问题的基础，在解决实际问题中发挥重要作用。\n２ ４ （２０１７ ２０２５ ）\n普通高中数学课程标准 年版 年修订\n\n本单元的学习，可以帮助学生理解平面向量的几何意义和代数意义；掌\n握平面向量的概念、运算、向量基本定理以及向量的应用；用向量语\n言、方法表述和解决现实生活、数学和物理中的问题。\n内容包括：向量概念、向量运算、向量基本定理及坐标表示、向量 应用与解三角形。",
+      "subject": "SX0302",
+      "type": "Unit",
+      "applicableLevel": "OB0601",
+      "contentJson": {
+        "theme": "urn:jy:math:SB0201:OB06:theme:th003"
+      }
+    },
+    {
+      "identifier": "urn:jy:math:SB0201:OB06:unit:un0010",
+      "title": "复数",
+      "description": "２\n复数\n复数是一类重要的运算对象，有广泛的应用。本单元的学习，可以\n帮助学生通过方程求解等，理解引入复数的必要性，了解数系的扩充，\n掌握复数的表示、运算及其几何意义。\n内容包括：复数的概念、复数的运算、 复数的三角表示。 ",
+      "subject": "SX0302",
+      "type": "Unit",
+      "applicableLevel": "OB0601",
+      "contentJson": {
+        "theme": "urn:jy:math:SB0201:OB06:theme:th003"
+      }
+    },
+    {
+      "identifier": "urn:jy:math:SB0201:OB06:unit:un0011",
+      "title": "立体几何初步",
+      "description": "３\n立体几何初步\n立体几何研究现实世界中物体的形状、大小与位置关系。本单元的\n学习，可以帮助学生以长方体为载体，认识和理解空间点、直线、平面\n的位置关系；用数学语言表述有关平行、垂直的性质与判定，并对某些\n结论进行论证；了解一些简单几何体的表面积与体积的计算方法；运用\n直观感知、操作确认、推理论证、度量计算等认识和探索空间图形的性\n质，建立空间观念。\n２ ６ （２０１７ ２０２５ ）\n普通高中数学课程标准 年版 年修订",
+      "subject": "SX0302",
+      "type": "Unit",
+      "applicableLevel": "OB0601",
+      "contentJson": {
+        "theme": "urn:jy:math:SB0201:OB06:theme:th003"
+      }
+    },
+    {
+      "identifier": "urn:jy:math:SB0201:OB06:unit:un0012",
+      "title": "概率",
+      "description": "１\n概率\n本单元的学习，可以帮助学生结合具体实例，理解样本点、有限样\n本空间、随机事件，会计算古典概型中简单随机事件的概率，加深对随\n机现象的认识和理解。\n内容包括：随机事件与概率、随机事件的独立性。",
+      "subject": "SX0302",
+      "type": "Unit",
+      "applicableLevel": "OB0601",
+      "contentJson": {
+        "theme": "urn:jy:math:SB0201:OB06:theme:th004"
+      }
+    },
+    {
+      "identifier": "urn:jy:math:SB0201:OB06:unit:un0013",
+      "title": "统计",
+      "description": "２\n统计\n本单元的学习，可以帮助学生进一步学习数据收集和整理的方法、\n数据直观图表的表示方法、数据统计特征的刻画方法；通过具体实例，\n感悟在实际生活中进行科学决策的必要性和可能性；体会统计思维与确\n定性思维的差异、归纳推断与演绎证明的差异；通过实际操作、计算机\n模拟等活动，积累数据分析的经验。\n内容包括：获取数据的基本途径及相关概念、抽样、统计图表、用 样本估计总体。",
+      "subject": "SX0302",
+      "type": "Unit",
+      "applicableLevel": "OB0601",
+      "contentJson": {
+        "theme": "urn:jy:math:SB0201:OB06:theme:th004"
+      }
+    },
+    {
+      "identifier": "urn:jy:math:SB0201:OB06:unit:un0014",
+      "title": "数学建模活动与数学探究活动",
+      "description": "数学建模活动是对现实问题进行数学抽象，用数学语言表达问题、\n用数学方法构建模型解决问题的过程。主要包括：在实际情境中从数学\n的视角发现问题、提出问题，分析问题、建立模型，确定参数、计算求\n解，检验结果、改进模型，最终解决实际问题。数学建模活动是基于数\n学思维运用模型解决实际问题的一类综合实践活动，是高中阶段数学课\n程的重要内容。\n、 ３ ３\n五 课程内容\n数学建模活动的基本过程如下：\n\b\u001b \u0007\n\u0004\u001a\u001b\n\u0012 \u0006\n\u0017 \u0006\n\u0002\u0005\u0002\b\u001b\n\u0013\n\u0005\u0002\b\u001b\n\b\u001b\u0013\n数学探究活动是围绕某个具体的数学问题，开展自主探究、合作研\n究并最终解决问题的过程。具体表现为：发现和提出有意义的数学问\n题，猜测合理的数学结论，提出解决问题的思路和方案，通过自主探\n索、合作研究论证数学结论。数学探究活动是运用数学知识解决数学问\n题的一类综合实践活动，是高中阶段数学课程的重要内容。\n数学建模活动与数学探究活动以课题研究的形式开展。在必修课程\n中，要求学生完成其中的一个课题研究。",
+      "subject": "SX0302",
+      "type": "Unit",
+      "applicableLevel": "OB0601",
+      "contentJson": {
+        "theme": "urn:jy:math:SB0201:OB06:theme:th005"
+      }
+    },
+    {
+      "identifier": "urn:jy:math:SB0201:OB06:unit:un0015",
+      "title": "数列",
+      "description": "１\n数列\n本单元的学习，可以帮助学生通过对日常生活中实际问题的分析，\n了解数列的概念；探索并掌握等差数列和等比数列的变化规律，建立通\n项公式与前狀项和公式；能运用等差数列、等比数列解决简单的实际\n问题和数学问题，感受数学模型的现实意义与应用；了解等差数列与一\n３ ６ （２０１７ ２０２５ ）\n普通高中数学课程标准 年版 年修订\n\n元一次函数、等比数列与指数函数的联系，感受数列与函数的共性与差\n异，体会数学的整体性。\n内容包括：数列概念、等差数列、等比数列、数学归纳法。",
+      "subject": "SX0302",
+      "type": "Unit",
+      "applicableLevel": "OB0601",
+      "contentJson": {
+        "theme": "urn:jy:math:SB0201:OB06:theme:th006"
+      }
+    },
+    {
+      "identifier": "urn:jy:math:SB0201:OB06:unit:un0016",
+      "title": "一元函数导数及其应用",
+      "description": "２\n一元函数导数及其应用\n本单元的学习，可以帮助学生通过丰富的实际背景理解导数的概\n念，掌握导数的基本运算，运用导数研究函数的性质，并解决一些实际\n问题。\n、 ３ ７\n内容包括：导数概念及其意义、导数运算、导数在研究函数中的应 用、微积分的创立与发展。",
+      "subject": "SX0302",
+      "type": "Unit",
+      "applicableLevel": "OB0601",
+      "contentJson": {
+        "theme": "urn:jy:math:SB0201:OB06:theme:th006"
+      }
+    },
+    {
+      "identifier": "urn:jy:math:SB0201:OB06:unit:un0017",
+      "title": "空间向量与立体几何",
+      "description": "１\n空间向量与立体几何\n本单元的学习，可以帮助学生在学习平面向量的基础上，利用类比\n的方法理解空间向量的概念、运算、基本定理和应用，体会平面向量和\n空间向量的共性和差异；运用向量的方法研究空间基本图形的位置关系\n和度量关系，体会向量方法和综合几何方法的共性和差异；运用向量方\n法解决简单的数学问题和实际问题，感悟向量是研究几何问题的有效\n工具。\n内容包括：空间直角坐标系、空间向量及其运算、向量基本定理及 坐标表示、空间向量的应用。",
+      "subject": "SX0302",
+      "type": "Unit",
+      "applicableLevel": "OB0601",
+      "contentJson": {
+        "theme": "urn:jy:math:SB0201:OB06:theme:th007"
+      }
+    },
+    {
+      "identifier": "urn:jy:math:SB0201:OB06:unit:un0018",
+      "title": "平面解析几何",
+      "description": "２\n平面解析几何\n本单元的学习，可以帮助学生在平面直角坐标系中，认识直线、\n圆、椭圆、抛物线、双曲线的几何特征，建立它们的标准方程；运用代\n数方法进一步认识圆锥曲线的性质以及它们的位置关系；运用平面解析\n几何方法解决简单的数学问题和实际问题，感悟平面解析几何中蕴含的\n数学思想。\n内容包括：直线与方程、圆与方程、圆锥曲线与方程、平面解析 几何的形成与发展。",
+      "subject": "SX0302",
+      "type": "Unit",
+      "applicableLevel": "OB0601",
+      "contentJson": {
+        "theme": "urn:jy:math:SB0201:OB06:theme:th007"
+      }
+    },
+    {
+      "identifier": "urn:jy:math:SB0201:OB06:unit:un0019",
+      "title": "计数原理",
+      "description": "１\n计数原理\n分类加法计数原理和分步乘法计数原理是解决计数问题的基础，称\n为基本计数原理。本单元的学习，可以帮助学生理解两个基本计数原\n理，运用计数原理探索排列、组合、二项式定理等问题。\n内容包括：两个基本计数原理、排列与组合、二项式定理。",
+      "subject": "SX0302",
+      "type": "Unit",
+      "applicableLevel": "OB0601",
+      "contentJson": {
+        "theme": "urn:jy:math:SB0201:OB06:theme:th008"
+      }
+    },
+    {
+      "identifier": "urn:jy:math:SB0201:OB06:unit:un0020",
+      "title": "概率",
+      "description": "２\n概率\n本单元的学习，可以帮助学生了解条件概率，理解条件概率与独立\n性的关系，能进行简单计算；感悟离散型随机变量及其分布列的含义，\n知道可以通过随机变量更好地刻画随机现象；理解伯努利试验，掌握二\n项分布，了解超几何分布；感悟服从正态分布的随机变量，知道连续型\n随机变量；基于随机变量及其分布解决简单的实际问题。\n内容包括：随机事件的条件概率、离散型随机变量及其分布列、正 态分布。",
+      "subject": "SX0302",
+      "type": "Unit",
+      "applicableLevel": "OB0601",
+      "contentJson": {
+        "theme": "urn:jy:math:SB0201:OB06:theme:th008"
+      }
+    },
+    {
+      "identifier": "urn:jy:math:SB0201:OB06:unit:un0021",
+      "title": "统计",
+      "description": "３\n统计\n本单元的学习，可以帮助学生了解样本相关系数的统计含义，了解\n一元线性回归模型和２×２列联表，运用这些方法解决简单的实际问题。\n会利用统计软件进行数据分析。\n内容包括：成对数据的统计相关性、一元线性回归模型、２×２列 联表。",
+      "subject": "SX0302",
+      "type": "Unit",
+      "applicableLevel": "OB0601",
+      "contentJson": {
+        "theme": "urn:jy:math:SB0201:OB06:theme:th008"
+      }
+    },
+    {
+      "identifier": "urn:jy:math:SB0201:OB06:unit:un0022",
+      "title": "数学建模活动与数学探究活动",
+      "description": "数学建模活动与数学探究活动以课题研究的形式开展。在选择性必\n修课程中，要求学生完成一个课题研究，可以是数学建模的课题研究，\n也可以是数学探究的课题研究。课题可以是学生在学习必修课程时已完\n成课题的延续，或者是新的课题。\n内容包括：数列极限、函数极限、连续函数、导数与微分、定 积分。",
+      "subject": "SX0302",
+      "type": "Unit",
+      "applicableLevel": "OB0601",
+      "contentJson": {
+        "theme": "urn:jy:math:SB0201:OB06:theme:th009"
+      }
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "relations": [
+    {
+      "relationName": "literacyIsCoreValue",
+      "label": "是课程内容蕴含的核心价值观 / isCoreValue",
+      "source": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:01",
+      "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:01"
+    },
+    {
+      "relationName": "literacyIsCoreValue",
+      "label": "是课程内容蕴含的核心价值观 / isCoreValue",
+      "source": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:01",
+      "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:02"
+    },
+    {
+      "relationName": "literacyIsCoreValue",
+      "label": "是课程内容蕴含的核心价值观 / isCoreValue",
+      "source": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:01",
+      "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:03"
+    },
+    {
+      "relationName": "literacyIsCoreValue",
+      "label": "是课程内容蕴含的核心价值观 / isCoreValue",
+      "source": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:01",
+      "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:04"
+    },
+    {
+      "relationName": "literacyIsCoreValue",
+      "label": "是课程内容蕴含的核心价值观 / isCoreValue",
+      "source": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:01",
+      "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:05"
+    },
+    {
+      "relationName": "literacyIsCoreValue",
+      "label": "是课程内容蕴含的核心价值观 / isCoreValue",
+      "source": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:01",
+      "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:06"
+    },
+    {
+      "relationName": "literacyIsCoreValue",
+      "label": "是课程内容蕴含的核心价值观 / isCoreValue",
+      "source": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:01",
+      "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:07"
+    },
+    {
+      "relationName": "literacyIsCoreValue",
+      "label": "是课程内容蕴含的核心价值观 / isCoreValue",
+      "source": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:01",
+      "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:08"
+    },
+    {
+      "relationName": "literacyIsCoreValue",
+      "label": "是课程内容蕴含的核心价值观 / isCoreValue",
+      "source": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:01",
+      "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:09"
+    },
+    {
+      "relationName": "literacyIsCoreValue",
+      "label": "是课程内容蕴含的核心价值观 / isCoreValue",
+      "source": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:01",
+      "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:10"
+    },
+    {
+      "relationName": "literacyIsCoreValue",
+      "label": "是课程内容蕴含的核心价值观 / isCoreValue",
+      "source": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:01",
+      "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:11"
+    },
+    {
+      "relationName": "literacyIsCoreValue",
+      "label": "是课程内容蕴含的核心价值观 / isCoreValue",
+      "source": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:01",
+      "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:12"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:01",
+      "target": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:01"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:02",
+      "target": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:01"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:03",
+      "target": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:01"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:04",
+      "target": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:01"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:05",
+      "target": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:01"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:06",
+      "target": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:01"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:07",
+      "target": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:01"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:08",
+      "target": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:01"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:09",
+      "target": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:01"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:10",
+      "target": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:01"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:11",
+      "target": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:01"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:12",
+      "target": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:01"
+    }
+  ]
+}

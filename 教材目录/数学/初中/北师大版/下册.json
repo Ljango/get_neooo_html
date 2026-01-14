@@ -1,0 +1,489 @@
+{
+  "title": "初中数学北师大版八年级下册",
+  "xueduan": "初中",
+  "nianji": "八年级",
+  "xueke": "数学",
+  "banben": "北师大版",
+  "ceci": "下册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 三角形的证明",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "1. 等腰三角形",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "三角形全等和等腰三角形的性质",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "等腰三角形与等边三角形的性质",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "等腰三角形的判定与反证法",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "等边三角形的判定",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "2. 直角三角形",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "直角三角形的性质与判定",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "直角三角形全等的判定",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "3. 线段的垂直平分线",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "线段的垂直平分线",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "三角形中的垂直平分线",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "4. 角平分线",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "角平分线",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "三角形中的角平分线",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "回顾与思考",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "复习题",
+          "level": 2,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "title": "第二章 一元一次不等式与一元一次不等式组",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "1. 不等关系",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2. 不等式的基本性质",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3. 不等式的解集",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "4. 一元一次不等式",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "一元一次不等式的解法",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "一元一次不等式的应用",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "5. 一元一次不等式与一次函数",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "一元一次不等式与一次函数图象的关系",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "一元一次不等式与一次函数的综合应用",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "6. 一元一次不等式组",
+          "level": 2,
+          "index": 6,
+          "children": [
+            {
+              "title": "认识一元一次不等式组及其解",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "一元一次不等式组的解法",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "回顾与思考",
+          "level": 2,
+          "index": 7
+        },
+        {
+          "title": "复习题",
+          "level": 2,
+          "index": 8
+        }
+      ]
+    },
+    {
+      "title": "第三章 图形的平移与旋转",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "1. 图形的平移",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "图形的平移以及平移的性质",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "直角坐标系中图形的平移与坐标的变化",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "直角坐标系中图形的两次平移与坐标的变化",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "2. 图形的旋转",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "图形的旋转以及旋转的性质",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "图形的旋转作图",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "3. 中心对称",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "4. 简单的图案设计",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "回顾与思考",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "复习题",
+          "level": 2,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "title": "第四章 因式分解",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "1. 因式分解",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2. 提公因式法",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "公因式为单项式的提公因式法",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "公因式为多项式的提公因式法",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "3. 公式法",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "利用平方差公式进行因式分解",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "利用完全平方差公式进行因式分解",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "回顾与思考",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "复习题",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第五章 分式与分式方程",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "1. 认识分式",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "分式及分式的相关概念",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "分式的基本性质",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "2. 分式的乘除法",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3. 分式的加减法",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "同分母分式的加减法",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "异分母分式的加减法",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "分式加减的综合练习",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "4. 分式方程",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "认识分式方程",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "分式方程的解法",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "分式方程的应用",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "回顾与思考",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "复习题",
+          "level": 2,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "title": "第六章 平行四边形",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "1. 平行四边形的性质",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "平行四边形的边和角的性质",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "平行四边形的对角线的性质",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "2. 平行四边形的判定",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "平行四边形的判定一",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "平行四边形的判定二",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "平行四边形的判定的综合练习",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "3. 三角形的中位线",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "4. 多边形的内角和与外角和",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "多边形的内角和",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "多边形的外角和",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "回顾与思考",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "复习题",
+          "level": 2,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "title": "综合与实践",
+      "level": 1,
+      "index": 7,
+      "children": [
+        {
+          "title": "⊙ 生活中的“一次模型”",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "⊙ 平面图形的镶嵌",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    }
+  ]
+}

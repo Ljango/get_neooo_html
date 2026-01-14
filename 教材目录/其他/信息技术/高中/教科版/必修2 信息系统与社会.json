@@ -1,0 +1,141 @@
+{
+  "title": "高中信息技术教科版必修2 信息系统与社会",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "信息技术",
+  "banben": "教科版",
+  "ceci": "必修2 信息系统与社会",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第1单元 信息系统的组成与功能",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "1.1 信息系统的组成",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "1.2 信息系统的功能",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "第2单元 信息系统的集成",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "2.1 计算机系统的组成",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2.2 计算机系统互联",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "2.3 无线局域网的组建",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "2.4 基于物联网的信息系统",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "2.5 远程控制系统的组建",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "2.6 小型信息系统的组建",
+          "level": 2,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "title": "第3单元 信息系统的设计与开发",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "3.1 信息系统的设计",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "3.2 数据库的构建",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3.3 信息系统的数据输入",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "3.4 信息系统的数据处理",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "3.5 信息系统的数据呈现",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第4单元 信息系统的安全",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "4.1 信息系统安全风险",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "4.2 信息系统安全技术",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "4.3 信息系统安全管理",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第5单元 信息社会的建设",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "5.1 信息社会的伦理与道德",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "5.2 信息社会的法律与法规",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "5.3 信息社会的未来发展",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    }
+  ]
+}

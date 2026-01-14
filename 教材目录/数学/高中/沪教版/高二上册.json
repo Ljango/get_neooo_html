@@ -1,0 +1,54 @@
+{
+  "title": "高中数学沪教版高二上册",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "数学",
+  "banben": "沪教版",
+  "ceci": "高二上册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第7章 数列与数学归纳法",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "一 数列",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "7.1 数列",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "阅读材料",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "阅读材料",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第8章 平面向量的坐标表示",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "8.3 平面向量的分解定理",
+          "level": 2,
+          "index": 1
+        }
+      ]
+    }
+  ]
+}

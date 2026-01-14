@@ -1,0 +1,136 @@
+{
+  "title": "新教材-小学数学北京版二年级上册",
+  "xueduan": "小学",
+  "nianji": "二年级",
+  "xueke": "数学",
+  "banben": "北京版",
+  "ceci": "上册",
+  "is_new": true,
+  "chapters": [
+    {
+      "title": "第一单元 认识厘米和米",
+      "level": 1,
+      "index": 1
+    },
+    {
+      "title": "身上的“尺子”",
+      "level": 1,
+      "index": 2
+    },
+    {
+      "title": "第二单元  表内乘法（一）",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "1 乘法的初步认识",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2 2~5的乘法口诀",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "第三单元  调查与分类",
+      "level": 1,
+      "index": 4
+    },
+    {
+      "title": "第四单元  表内乘法（二）",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "1 6的乘法口口诀",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2 7的乘法口口诀",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3 8的乘法口口诀",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "4 9的乘法口口诀",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第五单元  表内除法",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "1 除法的初步认识",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2 用乘法口诀求商",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3 混合运算",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第六单元  倍的认识",
+      "level": 1,
+      "index": 7,
+      "children": [
+        {
+          "title": "1 倍的认识",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2 解决问题",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "数学连环画",
+      "level": 1,
+      "index": 8
+    },
+    {
+      "title": "第七单元  数学百花园",
+      "level": 1,
+      "index": 9,
+      "children": [
+        {
+          "title": "1 有趣的数",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2 九九消寒图",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "第八单元  总复习",
+      "level": 1,
+      "index": 10
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "title": "高中通用技术苏教版选择性必修2 机器人设计与制作",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "通用技术",
+  "banben": "苏教版",
+  "ceci": "选择性必修2 机器人设计与制作",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 走进机器人的世界",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "一、初探机器人的世界",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "二、探析机器人组成与工作过程",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "第二章 让机器人动起来",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "一、探析机械传动（一）",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "二、探析机械传动（二）",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "三、探究电子控制系统",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第三章 让机器人聪明起来",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "一、初探生活中的传感器",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "二、探索常见传感器分辨环境的奥秘",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "三、设计与制作自动识别环境机器人",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第四章 设计制作服务机器人",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "一、设计制作分拣搬运机器人",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "二、设计制作倒水机器人",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    }
+  ]
+}

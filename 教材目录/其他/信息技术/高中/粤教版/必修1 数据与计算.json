@@ -1,0 +1,466 @@
+{
+  "title": "高中信息技术粤教版必修1 数据与计算",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "信息技术",
+  "banben": "粤教版",
+  "ceci": "必修1 数据与计算",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 数据与信息",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "项目范例 体验庆祝国庆多媒体作品的数据与信息处理",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "１.１ 数据及其特征",
+              "level": 3,
+              "index": 1,
+              "children": [
+                {
+                  "title": "１.１.１ 数据",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "１.１.２ 数据的基本特征",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            },
+            {
+              "title": "１.２ 数据编码",
+              "level": 3,
+              "index": 2,
+              "children": [
+                {
+                  "title": "１.２.１ 模拟信号与数字信号",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "１.２.２ 编码的基本方式",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            },
+            {
+              "title": "１.３ 信息及其特征",
+              "level": 3,
+              "index": 3,
+              "children": [
+                {
+                  "title": "１.３.１ 信息",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "１.３.２ 信息的基本特征",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第二章 知识与数字化学习",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "项目范例 运用数字化工具探究数理知识",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "２.１ 知识与智慧",
+              "level": 3,
+              "index": 1,
+              "children": [
+                {
+                  "title": "２.１.１ 知识",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "２.１.２ 智慧",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            },
+            {
+              "title": "２.２ 数字化学习与创新",
+              "level": 3,
+              "index": 2,
+              "children": [
+                {
+                  "title": "２.２.１ 数字化工具与资源及其优势",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "２.２.２ 体验数字化创新学习过程",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第三章 算法基础",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "项目范例 设计从A市到B市耗时最少的旅行路线方案",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "３.１ 体验计算机解决问题的过程",
+              "level": 3,
+              "index": 1,
+              "children": [
+                {
+                  "title": "３.１.１ 人工解决问题的过程",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "３.１.２ 计算机解决问题的过程",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            },
+            {
+              "title": "３.２ 算法及其描述",
+              "level": 3,
+              "index": 2,
+              "children": [
+                {
+                  "title": "３.２.１ 算法",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "３.２.２ 算法的描述",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            },
+            {
+              "title": "３.３ 计算机程序与程序设计语言",
+              "level": 3,
+              "index": 3,
+              "children": [
+                {
+                  "title": "３.３.１ 计算机程序",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "３.３.２ 计算机程序设计语言",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第四章 程序设计基础",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "项目范例 设计购买纪念品的最佳方案",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "４.１ 程序设计语言的基础知识",
+              "level": 3,
+              "index": 1,
+              "children": [
+                {
+                  "title": "４.１.１ Ｐython的常量和变量",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "４.１.２ Ｐython的数据类型",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "４.１.３ Ｐython的运算符与表达式",
+                  "level": 4,
+                  "index": 3
+                },
+                {
+                  "title": "４.１.４ Ｐython的函数",
+                  "level": 4,
+                  "index": 4
+                }
+              ]
+            },
+            {
+              "title": "４.２ 运用顺序结构描述问题求解过程",
+              "level": 3,
+              "index": 2,
+              "children": [
+                {
+                  "title": "４.２.１ 数据的输入与输出",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "４.２.２ 顺序结构的应用",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            },
+            {
+              "title": "４.３ 运用选择结构描述问题求解过程",
+              "level": 3,
+              "index": 3,
+              "children": [
+                {
+                  "title": "４.３.１　if语句的应用",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "４.３.２　if…elif…else语句的应用",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            },
+            {
+              "title": "４.４ 运用循环结构描述问题求解过程",
+              "level": 3,
+              "index": 4,
+              "children": [
+                {
+                  "title": "４.４.１ for循环的应用",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "４.４.２ while循环的应用",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "４.４.３ 循环嵌套的应用",
+                  "level": 4,
+                  "index": 3
+                },
+                {
+                  "title": "４.４.４ 循环控制的应用",
+                  "level": 4,
+                  "index": 4
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第五章 数据处理和可视化表达",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "项目范例 网络购物平台客户行为数据分析和可视化表达",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "５.１ 认识大数据",
+              "level": 3,
+              "index": 1,
+              "children": [
+                {
+                  "title": "５.１.１ 大数据",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "５.１.２ 大数据的特征",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "５.１.３ 大数据对日常生活的影响",
+                  "level": 4,
+                  "index": 3
+                }
+              ]
+            },
+            {
+              "title": "５.２ 数据的采集",
+              "level": 3,
+              "index": 2,
+              "children": [
+                {
+                  "title": "５.２.１ 数据采集的方法和工具",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "５.２.２ 数据的存储和保护",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            },
+            {
+              "title": "５.３ 数据的分析",
+              "level": 3,
+              "index": 3,
+              "children": [
+                {
+                  "title": "５.３.１ 特征探索",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "５.３.２ 关联分析",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "５.３.３ 聚类分析",
+                  "level": 4,
+                  "index": 3
+                },
+                {
+                  "title": "５.３.４ 数据分类",
+                  "level": 4,
+                  "index": 4
+                }
+              ]
+            },
+            {
+              "title": "５.４ 数据的可视化表达",
+              "level": 3,
+              "index": 4,
+              "children": [
+                {
+                  "title": "５.４.１ 数据可视化表达的方式",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "５.４.２ 数据可视化表达的工具",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第六章 人工智能及其应用",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "项目范例 剖析空调企业智能客服机器人",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "６.１ 认识人工智能",
+              "level": 3,
+              "index": 1,
+              "children": [
+                {
+                  "title": "６.１.１ 人工智能",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "６.１.２ 剖析领域知识智能问答机器人",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "６.１.３ 人工智能的诞生与发展",
+                  "level": 4,
+                  "index": 3
+                }
+              ]
+            },
+            {
+              "title": "６.２ 人工智能的应用",
+              "level": 3,
+              "index": 2,
+              "children": [
+                {
+                  "title": "６.２.１ 智能制造",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "６.２.２ 智能家居",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "６.２.３ 智能教育",
+                  "level": 4,
+                  "index": 3
+                },
+                {
+                  "title": "６.２.４ 智能交通",
+                  "level": 4,
+                  "index": 4
+                },
+                {
+                  "title": "６.２.５ 智能安防",
+                  "level": 4,
+                  "index": 5
+                },
+                {
+                  "title": "６.２.６ 智能医疗",
+                  "level": 4,
+                  "index": 6
+                },
+                {
+                  "title": "６.２.７ 智能物流",
+                  "level": 4,
+                  "index": 7
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

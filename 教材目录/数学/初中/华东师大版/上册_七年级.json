@@ -1,0 +1,515 @@
+{
+  "title": "初中数学华东师大版七年级上册",
+  "xueduan": "初中",
+  "nianji": "七年级",
+  "xueke": "数学",
+  "banben": "华东师大版",
+  "ceci": "上册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第1章 走进数学世界",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "数学伴我们成长",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "人类离不开数学",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "人人都能学会数学",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "阅读材料 华罗庚的故事",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "阅读材料 幻方",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第2章 有理数",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "2.1 有理数",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "正数和负数",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "有理数",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "2.2 数轴",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "数轴",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "在数轴上比较数的大小",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "2.3 相反数",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "2.4 绝对值",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "2.5 有理数的大小比较",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "2.6 有理数的加法",
+          "level": 2,
+          "index": 6,
+          "children": [
+            {
+              "title": "有理数的加法法则",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "有理数加法的运算律",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "2.7 有理数的减法",
+          "level": 2,
+          "index": 7
+        },
+        {
+          "title": "2.8 有理数的加减混合运算",
+          "level": 2,
+          "index": 8,
+          "children": [
+            {
+              "title": "加减法统一成加法",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "加法运算律在加减混合运算中的应用",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "阅读材料 中国人最早使用负数——《九章算术》和我国古代的“正负术”",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "2.9 有理数的乘法",
+          "level": 2,
+          "index": 9,
+          "children": [
+            {
+              "title": "有理数的乘法法则",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "有理数乘法的运算律",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "2.10 有理数的除法",
+          "level": 2,
+          "index": 10
+        },
+        {
+          "title": "2.11 有理数的乘方",
+          "level": 2,
+          "index": 11,
+          "children": [
+            {
+              "title": "有理数的乘方",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "阅读材料 2的64次方有多大",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "2.12 科学记数法",
+          "level": 2,
+          "index": 12
+        },
+        {
+          "title": "2.13 有理数的混合运算",
+          "level": 2,
+          "index": 13
+        },
+        {
+          "title": "2.14 近似数",
+          "level": 2,
+          "index": 14
+        },
+        {
+          "title": "2.15 用计算器进行计算",
+          "level": 2,
+          "index": 15,
+          "children": [
+            {
+              "title": "用计算器进行计算",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "阅读材料 从结绳计数到计算器",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 16
+        },
+        {
+          "title": "复习题",
+          "level": 2,
+          "index": 17
+        }
+      ]
+    },
+    {
+      "title": "第3章 整式的加减",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "3.1 列代数式",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "用字母表示数",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "代数式",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "列代数式",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "3.2 代数式的值",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "代数式的值",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "阅读材料 有趣的“3x+1问题”",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "3.3 整式",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "单项式",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "多项式",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "升幂排列与降幂排列",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "3.4 整式的加减",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "同类项",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "合并同类项",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "去括号与添括号",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "整式的加减",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "阅读材料 用分离系数法进行整式的加减运算",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "复习题",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "综合与实践 身份证号码与学籍号",
+          "level": 2,
+          "index": 7
+        }
+      ]
+    },
+    {
+      "title": "第4章 图形的初步认识?",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "4.1 生活中的立体图形",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "4.2 立体图形的视图",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "由立体图形到视图",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "由视图到立体图形",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "4.3 立体图形的表面展开图",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "4.4 平面图形",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "平面图形",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "阅读材料 七巧板",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "4.5 最基本的图形——点和线",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "点和线",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "线段的长短比较",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "阅读材料 欧拉公式",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "4.6 角",
+          "level": 2,
+          "index": 6,
+          "children": [
+            {
+              "title": "角",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "角的比较和运算",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "余角和补角",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 7
+        },
+        {
+          "title": "复习题",
+          "level": 2,
+          "index": 8
+        },
+        {
+          "title": "综合与实践 制作包装盒",
+          "level": 2,
+          "index": 9
+        }
+      ]
+    },
+    {
+      "title": "第5章 相交线与平行线",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "5.1 相交线",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "对顶角",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "垂线",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "同位角、内错角、同旁内角",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "5.2 平行线",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "平行线",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "平行线的判定",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "平行线的性质",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "阅读材料 九树成行",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "复习题",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    }
+  ]
+}

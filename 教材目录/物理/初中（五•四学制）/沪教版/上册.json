@@ -1,0 +1,208 @@
+{
+  "title": "初中（五•四学制）物理沪教版九年级上册",
+  "xueduan": "初中（五•四学制）",
+  "nianji": "九年级",
+  "xueke": "物理",
+  "banben": "沪教版",
+  "ceci": "上册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第六章  压力与压强",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "6.1 密度",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "密度",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "测定物质的密度",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "密度的应用",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "6.2 压强",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "压力 压强",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "压强的应用",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "6.3 液体内部的压强",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "液体内部的压强",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "连通器",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "6.4 阿基米德原理",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "浮力",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "验证阿基米德原理",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "浮力产生原因及阿基米德原理的应用",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "*6.5 液体对压强的传递",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "6.6 大气压强",
+          "level": 2,
+          "index": 6,
+          "children": [
+            {
+              "title": "大气压强",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "大气压强的应用",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "*6.7 流体的压强和流速",
+          "level": 2,
+          "index": 7
+        }
+      ]
+    },
+    {
+      "title": "第七章 电路",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "7.1 电流 电压",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "电荷 电流",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "电源 电压",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "7.2 欧姆定律 电阻",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "探究导体中电流与电压的关系",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "欧姆定律 电阻",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "滑动变阻器",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "7.3 串联电路",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "探究串联电路的特点",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "用电流表、电压表测电阻",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "串联电路的应用",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "7.4 并联电路",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "探究并联电路的特点",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "并联电路的应用",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

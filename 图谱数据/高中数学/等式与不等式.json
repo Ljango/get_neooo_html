@@ -1,0 +1,173 @@
+{
+  "chapter": {
+    "title": "第二章 等式与不等式",
+    "level": 1,
+    "index": 2,
+    "nodeId": "2",
+    "keyPointLinks": {
+      "primary": [
+        {
+          "identifier": "urn:jy:math:SB0201:OB06:KeyPoint:kp00007",
+          "confidence": 0.88,
+          "reason": "本章主题为等式与不等式，核心落在等式/不等式性质与变形规则"
+        }
+      ]
+    },
+    "children": [
+      {
+        "title": "2.1 等式",
+        "level": 2,
+        "index": 1,
+        "nodeId": "2.1",
+        "keyPointLinks": {
+          "primary": [
+            {
+              "identifier": "urn:jy:math:SB0201:OB06:KeyPoint:kp00007",
+              "confidence": 0.85,
+              "reason": "等式变形与性质属于等式/不等式性质范畴"
+            }
+          ]
+        },
+        "children": [
+          {
+            "title": "2.1.1 等式的性质与方程的解集",
+            "level": 3,
+            "index": 1,
+            "nodeId": "2.1.1",
+            "keyPointLinks": {
+              "primary": [
+                {
+                  "identifier": "urn:jy:math:SB0201:OB06:KeyPoint:kp00007",
+                  "confidence": 0.9,
+                  "reason": "等式性质与方程等价变形是核心"
+                }
+              ]
+            }
+          },
+          {
+            "title": "2.1.2 一元二次方程的解集及其根与系数的关系",
+            "level": 3,
+            "index": 2,
+            "nodeId": "2.1.2",
+            "keyPointLinks": {
+              "primary": [
+                {
+                  "identifier": "urn:jy:math:SB0201:OB06:KeyPoint:kp00009",
+                  "confidence": 0.8,
+                  "reason": "用二次函数图像/零点理解方程根与实根个数"
+                }
+              ]
+            }
+          },
+          {
+            "title": "2.1.3 方程组的解集",
+            "level": 3,
+            "index": 3,
+            "nodeId": "2.1.3",
+            "keyPointLinks": {
+              "primary": [
+                {
+                  "identifier": "urn:jy:math:SB0201:OB06:KeyPoint:kp00007",
+                  "confidence": 0.72,
+                  "reason": "方程组求解依赖等式性质与等价变形"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "2.2 不等式",
+        "level": 2,
+        "index": 2,
+        "nodeId": "2.2",
+        "keyPointLinks": {
+          "primary": [
+            {
+              "identifier": "urn:jy:math:SB0201:OB06:KeyPoint:kp00007",
+              "confidence": 0.88,
+              "reason": "不等式概念与性质直接对应课标 KeyPoint"
+            }
+          ]
+        },
+        "children": [
+          {
+            "title": "2.2.1 不等式及其性质",
+            "level": 3,
+            "index": 1,
+            "nodeId": "2.2.1",
+            "keyPointLinks": {
+              "primary": [
+                {
+                  "identifier": "urn:jy:math:SB0201:OB06:KeyPoint:kp00007",
+                  "confidence": 0.95,
+                  "reason": "不等式概念与性质是核心要求"
+                }
+              ]
+            }
+          },
+          {
+            "title": "2.2.2 不等式的解集",
+            "level": 3,
+            "index": 2,
+            "nodeId": "2.2.2",
+            "keyPointLinks": {
+              "primary": [
+                {
+                  "identifier": "urn:jy:math:SB0201:OB06:KeyPoint:kp00007",
+                  "confidence": 0.78,
+                  "reason": "求解与变形依赖不等式性质与同向/反向规则等"
+                }
+              ]
+            }
+          },
+          {
+            "title": "2.2.3 一元二次不等式的解法",
+            "level": 3,
+            "index": 3,
+            "nodeId": "2.2.3",
+            "keyPointLinks": {
+              "primary": [
+                {
+                  "identifier": "urn:jy:math:SB0201:OB06:KeyPoint:kp00010",
+                  "confidence": 0.92,
+                  "reason": "借助一元二次函数图像求解并用集合表示解集"
+                }
+              ]
+            }
+          },
+          {
+            "title": "2.2.4 均值不等式及其应用",
+            "level": 3,
+            "index": 4,
+            "nodeId": "2.2.4",
+            "keyPointLinks": {
+              "primary": [
+                {
+                  "identifier": "urn:jy:math:SB0201:OB06:KeyPoint:kp00008",
+                  "confidence": 0.95,
+                  "reason": "基本不等式(AM-GM)与最值应用"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "本章小结",
+        "level": 2,
+        "index": 3,
+        "nodeId": "2.summary",
+        "keyPointLinks": {
+          "primary": [
+            {
+              "identifier": "urn:jy:math:SB0201:OB06:KeyPoint:kp00007",
+              "confidence": 0.85,
+              "reason": "回收本章核心：等式/不等式性质与方法"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

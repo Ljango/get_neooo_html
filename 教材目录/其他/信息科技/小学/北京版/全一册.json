@@ -1,0 +1,175 @@
+{
+  "title": "新教材-小学信息科技北京版五年级全一册",
+  "xueduan": "小学",
+  "nianji": "五年级",
+  "xueke": "信息科技",
+  "banben": "北京版",
+  "ceci": "全一册",
+  "is_new": true,
+  "chapters": [
+    {
+      "title": "第一单元 算法的描述 主题1算法无处不在",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "发现身边的算法",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "算法寻根",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "初窥人工智能中的算法",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第一单元 算法的描述 主题2 算法描述",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "说出你的算法",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "用流程图描述算法",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "第二单元 算法的执行 主题3 体验程序结构",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "初试图形化编程",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "使用顺序结构",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "认识选择结构",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "了解循环结构",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "按需选用程序结构",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第二单元 算法的执行 主题4 编制益智游戏程序",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "石头剪刀布",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "抢数游戏",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "汉诺塔",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "猜数游戏",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第二单元 算法的执行 主题5 体验经典算法",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "排序算法",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "鸡兔同笼",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "哥德巴赫猜想",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "斐波那契数列",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "辗转相除算法",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第三单元 算法的效率 主题6 比较算法执行效率",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "认识算法效率",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "认识数据规模的影响",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "跨学科主题学习 主题7 模拟科学实验",
+      "level": 1,
+      "index": 7,
+      "children": [
+        {
+          "title": "小孔成像",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "镜面反射",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    }
+  ]
+}

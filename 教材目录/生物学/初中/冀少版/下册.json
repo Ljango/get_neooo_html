@@ -1,0 +1,222 @@
+{
+  "title": "初中生物学冀少版八年级下册",
+  "xueduan": "初中",
+  "nianji": "八年级",
+  "xueke": "生物学",
+  "banben": "冀少版",
+  "ceci": "下册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第六单元 生物的繁衍和发展",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第一章 生物的繁殖",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "第一节 被子植物的生殖",
+              "level": 3,
+              "index": 1,
+              "children": [
+                {
+                  "title": "一、有性生殖",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "二、无性生殖",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            },
+            {
+              "title": "第二节 动物的生殖发育",
+              "level": 3,
+              "index": 2,
+              "children": [
+                {
+                  "title": "一、昆虫的生殖和发育",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "二、两栖类、鸟类的生殖和发育",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            },
+            {
+              "title": "第三节 人的生殖和胚胎发育",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第二章 生物的遗传和变异",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "第一节 遗传",
+              "level": 3,
+              "index": 1,
+              "children": [
+                {
+                  "title": "一、性状和性状的传递",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "二、遗传的物质基础",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "三、人的性别决定",
+                  "level": 4,
+                  "index": 3
+                }
+              ]
+            },
+            {
+              "title": "第二节 变异",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "第三节 遗传病与优生",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第三章 生命的起源与生物的进化",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "第一节 生命的起源",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第二节 生物的进化",
+              "level": 3,
+              "index": 2,
+              "children": [
+                {
+                  "title": "一、生物进化的历程",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "二、生物进化的原因",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            },
+            {
+              "title": "第三节 人类的起源",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第四章 现代生物技术",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第七单元 生物与环境",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第一章 生物与环境的关系",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "第一节 环境对生物的影响",
+              "level": 3,
+              "index": 1,
+              "children": [
+                {
+                  "title": "一、非生物因素对生物的影响",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "二、生物因素对生物的影响",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            },
+            {
+              "title": "第二节 生物对环境的适应和影响",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第二章 生态系统",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "第一节 生态系统的组成和类型",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第二节 食物链和食物网",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "第三节 生物圈",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第三章 人类与自然界的协调发展",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "第一节 合理利用自然资源",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第二节 保护生物多样性",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "第三节 保护生态环境",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

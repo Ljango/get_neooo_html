@@ -1,0 +1,456 @@
+{
+  "title": "高中通用技术地质社版选择性必修2 机器人设计与制作",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "通用技术",
+  "banben": "地质社版",
+  "ceci": "选择性必修2 机器人设计与制作",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 走进机器人世界",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第一节 机器人的发展历程",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、古人的梦想与早期机器人",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、机器人的由来与机器人三定律",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、丰富多彩的机器人世界",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第二节 机器人的主要技术构成",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、机器人的机械系统",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、机器人的控制系统",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、机器人的感知系统",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、机器人的设计与制作过程",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第二章 机器人的机械系统",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第一节 平面连杆传动机构及其分析",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、常见的平面连杆传动机构",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、平面连杆传动机构的应用",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、平面连杆传动机构的分析",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第二节 平面连杆传动机构的制作",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、制作平面连杆传动雨刮器",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、绘制平面连杆传动雨刮器的机构简图",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第三节 齿轮传动机构及其分析",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、常见的齿轮传动机构",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、齿轮传动机构的应用",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、齿轮传动机构的传动比计算",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第四节 齿轮传动机构的制作",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "一、齿轮传动机械爪组件",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、制作齿轮传动机械爪的步骤",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、调试齿轮传动机械爪",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第五节 提升装置的设计与制作",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "一、任务分析",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、方案设计",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、提升装置的制作",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、调试提升装置",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第三章 机器人的控制系统",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第一节 机器人的控制器",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、单片机",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、机器人控制电路",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、机器人控制器的外围电路",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第二节 机器人的控制程序",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、编程语言",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、配置图形化编程环境",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、常用的功能图块和函数",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第三节 机器人编程实践",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、机器人的DIO接口模块应用",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、机器人的前进、后退",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第四章 机器人的感知系统",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "第一节 常用的机器人传感器",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、触碰类传感器",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、光感类传感器",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、声感类传感器",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、机器人的高级感知",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第二节 传感器在机器人中的典型应用",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、开关功能",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、沿轨迹行走的功能",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、行走中避障的功能",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、状态反馈功能",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第三节 传感器的调试与监测",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、搭建传感器电路",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、通过串口监测传感器信息",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第四节 机器人传感器的功能实现",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "一、机器人的障碍物探测",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、机器人的加速、减速",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第五章 机器人的控制策略",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "第一节 顺序结构编程",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、顺序结构的概念",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、机器人运动——顺序结构实现",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第二节 分支结构编程",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、分支结构的概念",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、机器人避障——分支结构实现",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第三节 循环结构编程",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、循环结构的概念",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、机械爪抓取——循环结构实现",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第六章 机器人综合设计实践",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "第一节 机器人轨迹导航任务",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、机器人轨迹导航任务（1）",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、机器人轨迹导航任务（2）",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第二节 机器人搬运任务",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、任务分析",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、方案设计",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、机器人的控制策略",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、机器人的编程与测试",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

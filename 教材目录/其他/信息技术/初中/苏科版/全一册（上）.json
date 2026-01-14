@@ -1,0 +1,133 @@
+{
+  "title": "初中信息技术苏科版八年级全一册（上）",
+  "xueduan": "初中",
+  "nianji": "八年级",
+  "xueke": "信息技术",
+  "banben": "苏科版",
+  "ceci": "全一册（上）",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第1章 动画设计与制作",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第1节 动画基础知识",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "动画基本知识",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "第3节 制作Flash动画",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "形状补间",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "动画补间",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "简单动画制作",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "主题活动：我的第一个Flash作品",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "引导层",
+              "level": 3,
+              "index": 5
+            },
+            {
+              "title": "遮罩层",
+              "level": 3,
+              "index": 6
+            }
+          ]
+        },
+        {
+          "title": "第4节 体验交互动画",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "代码基础",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "简单交互动画制作",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "主题活动：健康生活",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第2章 走进网络世界",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第1节 网络改变生活",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "主题活动：我的网络生活",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "人工智能",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "搭建家庭网",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "云端学习",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "5G时代",
+              "level": 3,
+              "index": 5
+            },
+            {
+              "title": "网络是把双刃剑",
+              "level": 3,
+              "index": 6
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "title": "初中地理晋教版八年级下册",
+  "xueduan": "初中",
+  "nianji": "八年级",
+  "xueke": "地理",
+  "banben": "晋教版",
+  "ceci": "下册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第五章 我国的地域差异",
+      "level": 1,
+      "index": 1
+    },
+    {
+      "title": "第六章 省际区域",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "6.1 东北三省——辽阔富饶的“黑土地”",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "6.2 黄土高原——水土流失严重的地区",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "6.3 成渝地区——西部经济发展的引擎之一",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "6.4 长江三角洲地区——城市密集的地区域",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第七章 省级行政区域",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "7.1 北京——祖国的心脏",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "7.2 新疆——祖国面积最大的省级行政区域",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "7.3 台湾——祖国的宝岛",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "7.4 香港和澳门——祖国的特别行政区",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第八章 省内区域",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "8.1 西双版纳——晶莹剔透的“绿宝石”",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "8.2 河西走廊——沟通东西方的交通要道",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    }
+  ]
+}

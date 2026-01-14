@@ -1,0 +1,84 @@
+{
+  "title": "初中（五•四学制）美术鲁教版九年级上册",
+  "xueduan": "初中（五•四学制）",
+  "nianji": "九年级",
+  "xueke": "艺术·美术",
+  "banben": "鲁教版",
+  "ceci": "上册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一单元 神州风光览胜",
+      "level": 1,
+      "index": 1
+    },
+    {
+      "title": "第二单元 家乡美景入画图",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第1课 水色淋漓绘家乡",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第2课 斑斓色彩赋美景",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "第三单元 自然风光 浓缩案头",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第1课 古木虬枝见精神",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第2课 咫尺盆中览江山",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "第四单元 山川美景 诗情画意",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "第1课 勾皴点染绘山水",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第2课 诗书画印抒情意",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "第五单元 画家笔下的大自然",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "第1课 情景交融的中国山水画",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第2课 形色兼备的中外风景画",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    }
+  ]
+}

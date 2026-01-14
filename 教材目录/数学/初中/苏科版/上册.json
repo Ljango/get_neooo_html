@@ -1,0 +1,331 @@
+{
+  "title": "初中数学苏科版七年级上册",
+  "xueduan": "初中",
+  "nianji": "七年级",
+  "xueke": "数学",
+  "banben": "苏科版",
+  "ceci": "上册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第1章 数学与我们同行",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "1.1 生活 数学",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "1.2 活动 思考",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "第2章 有理数",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "2.1 正数与负数",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2.2 有理数和无理数",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "2.3 数轴",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "2.4 绝对值与相反数",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "2.5 有理数的加法与减法",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "有理数的加法运算",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "有理数的加法交换律与结合律",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "有理数的减法法则",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "有理数的加减混合运算",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "2.6 有理数的乘法与除法",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "2.7 有理数的乘方",
+          "level": 2,
+          "index": 7
+        },
+        {
+          "title": "2.8 有理数的混合运算",
+          "level": 2,
+          "index": 8
+        },
+        {
+          "title": "数学活动  算“24”",
+          "level": 2,
+          "index": 9
+        },
+        {
+          "title": "小结与思考",
+          "level": 2,
+          "index": 10
+        }
+      ]
+    },
+    {
+      "title": "第3章 代数式",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "3.1 字母表示数",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "3.2 代数式",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3.3 代数式的值",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "3.4 合并同类项",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "3.5 去括号",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "3.6 整式的加减",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "数学活动  月历中数学",
+          "level": 2,
+          "index": 7
+        },
+        {
+          "title": "小结与思考",
+          "level": 2,
+          "index": 8
+        }
+      ]
+    },
+    {
+      "title": "第4章 一元一次方程",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "4.1 从问题到方程",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "4.2 解一元一次方程",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "方程的解、等式的性质",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "移项",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "解需要去括号的方程",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "解需要去分母的方程",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "4.3 用一元一次方程解决问题",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "了解用方程解决问题的步骤与方法",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "用表格解决问题",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "用线形示意图解决问题",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "用线形示意图和表格共同解决问题",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "用圆形示意图解决问题",
+              "level": 3,
+              "index": 5
+            },
+            {
+              "title": "用柱状示意图解决问题",
+              "level": 3,
+              "index": 6
+            }
+          ]
+        },
+        {
+          "title": "数学活动  一元一次方程应用的调查",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "小结与思考",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第5章 走进图形世界",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "5.1 丰富的图形世界",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "5.2 图形的运动",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "5.3 展开与折叠",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "5.4 主视图、左视图、俯视图",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "数学活动  设计包装纸箱",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "小结与思考",
+          "level": 2,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "title": "第6章  平面图形的认识（一）",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "6.1 线段、射线、直线",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "6.2 角",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "6.3 余角、补角、对顶角",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "6.4 平行",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "6.5 垂直",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "数学活动  测量距离",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "小结与思考",
+          "level": 2,
+          "index": 7
+        }
+      ]
+    },
+    {
+      "title": "课题学习",
+      "level": 1,
+      "index": 7,
+      "children": [
+        {
+          "title": "制作无盖的长方体纸盒",
+          "level": 2,
+          "index": 1
+        }
+      ]
+    }
+  ]
+}

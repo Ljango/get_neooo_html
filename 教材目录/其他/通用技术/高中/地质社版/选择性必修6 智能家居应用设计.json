@@ -1,0 +1,232 @@
+{
+  "title": "高中通用技术地质社版选择性必修6 智能家居应用设计",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "通用技术",
+  "banben": "地质社版",
+  "ceci": "选择性必修6 智能家居应用设计",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 走进智能家居世界",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第一节 感受智能家居系统",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、什么是智能家居",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、智能家居系统的组成",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、智能家居的发展",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第二节 智能家居对人的需求的满足",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、智能家居的技术实现",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、智能家居中的人机交互模式",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、家庭生活中的场景化模式化",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、智能家居满足新的需求",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第二章 智能家居与物联通信",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第一节 智能家居与物联网",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、什么是物联网",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、智能家居物联网结构",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、物联网的关键技术",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、无线组网技术",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "五、有线组网技术",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        },
+        {
+          "title": "第二节 智能家居的感知技术",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、常见自动识别技术",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、传感器技术在智能家居中的应用",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第三章 智能家居简易产品设计",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第一节 智能鱼缸的硬件配置和程序设计",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、 Arduino单片机",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、基于单片机的智能鱼缸产品原型的设计与实现",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第二节 家庭智能门禁系统的设计与实现",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、家庭智能门禁系统需求分析",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、NFC门禁系统的设计与搭建",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第四章 智能家居系统设计与实现",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "第一节 需求分析及问题界定",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、了解用户需求",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、把用户需求转变为工程设计问题",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第二节 方案设计与实施",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、整体方案设计",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、方案的评价与决策",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、分系统的构建",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第三节 技术测试与验收评价",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、技术测试",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、系统优化",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、评估与验收",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "relationName": "academicQualityAlignedToCoreLiteracy",
+    "label":  "反映核心素养。",
+    "source": "urn:jy:physics:OB05:AcademicQuality:1",
+    "target": "urn:jy:physics:OB05:CoreLiteracy:1"
+  },
+  {
+    "relationName": "coreLiteracyManifestedByAcademicQuality",
+    "label": "要求学业质量。",
+    "source": "urn:jy:physics:OB05:CoreLiteracy:1",
+    "target": "urn:jy:physics:OB05:AcademicQuality:1"
+  },
+  {
+    "relationName": "academicQualityAlignedToCoreLiteracy",
+    "label":  "反映核心素养。",
+    "source": "urn:jy:physics:OB05:AcademicQuality:2",
+    "target": "urn:jy:physics:OB05:CoreLiteracy:2"
+  },
+  {
+    "relationName": "coreLiteracyManifestedByAcademicQuality",
+    "label": "要求学业质量。",
+    "source": "urn:jy:physics:OB05:CoreLiteracy:2",
+    "target": "urn:jy:physics:OB05:AcademicQuality:2"
+  },
+  {
+    "relationName": "academicQualityAlignedToCoreLiteracy",
+    "label":  "反映核心素养。",
+    "source": "urn:jy:physics:OB05:AcademicQuality:3",
+    "target": "urn:jy:physics:OB05:CoreLiteracy:3"
+  },
+  {
+    "relationName": "coreLiteracyManifestedByAcademicQuality",
+    "label": "要求学业质量。",
+    "source": "urn:jy:physics:OB05:CoreLiteracy:3",
+    "target": "urn:jy:physics:OB05:AcademicQuality:3"
+  },
+  {
+    "relationName": "academicQualityAlignedToCoreLiteracy",
+    "label":  "反映核心素养。",
+    "source": "urn:jy:physics:OB05:AcademicQuality:4",
+    "target": "urn:jy:physics:OB05:CoreLiteracy:4"
+  },
+  {
+    "relationName": "coreLiteracyManifestedByAcademicQuality",
+    "label":"要求学业质量。",
+    "source": "urn:jy:physics:OB05:CoreLiteracy:4",
+    "target": "urn:jy:physics:OB05:AcademicQuality:4"
+  }
+]

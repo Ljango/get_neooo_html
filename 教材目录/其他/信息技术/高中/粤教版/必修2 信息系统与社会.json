@@ -1,0 +1,406 @@
+{
+  "title": "高中信息技术粤教版必修2 信息系统与社会",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "信息技术",
+  "banben": "粤教版",
+  "ceci": "必修2 信息系统与社会",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 走进信息社会",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "项目范例 计算机技术发展及其影响的调查",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.1 信息社会及其特征",
+              "level": 3,
+              "index": 1,
+              "children": [
+                {
+                  "title": "1.1.1 信息社会",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "1.1.2 信息社会的特征",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            },
+            {
+              "title": "1.2 信息技术发展脉络与趋势",
+              "level": 3,
+              "index": 2,
+              "children": [
+                {
+                  "title": "1.2.1 信息技术发展脉络",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "1.2.2 信息技术发展趋势",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            },
+            {
+              "title": "1.3 信息技术的影响",
+              "level": 3,
+              "index": 3,
+              "children": [
+                {
+                  "title": "1.3.1 信息技术推动科技革新与进步",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "1.3.2 信息技术促进社会变革与发展",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "1.3.3 信息技术提升人们在信息社会的适应力与创造力",
+                  "level": 4,
+                  "index": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第二章 信息系统的组成与功能",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "项目范例 剖析网络订票系统",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "2.1 信息系统及其组成",
+              "level": 3,
+              "index": 1,
+              "children": [
+                {
+                  "title": "2.1.1 分析典型信息系统",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "2.1.2 信息系统的组成",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            },
+            {
+              "title": "2.2 信息系统的功能",
+              "level": 3,
+              "index": 2,
+              "children": [
+                {
+                  "title": "2.2.1 信息系统的输入功能",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "2.2.2 信息系统的处理功能",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "2.2.3 信息系统的存储功能",
+                  "level": 4,
+                  "index": 3
+                },
+                {
+                  "title": "2.2.4 信息系统的控制功能",
+                  "level": 4,
+                  "index": 4
+                },
+                {
+                  "title": "2.2.5 信息系统的传输与输出功能",
+                  "level": 4,
+                  "index": 5
+                }
+              ]
+            },
+            {
+              "title": "2.3 信息系统中的计算机和移动终端",
+              "level": 3,
+              "index": 3,
+              "children": [
+                {
+                  "title": "2.3.1 计算机和移动终端的作用",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "2.3.2 计算机的工作原理",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "2.3.3 移动终端的工作原理",
+                  "level": 4,
+                  "index": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第三章 信息系统的网络组建",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "项目范例 设计智能家居系统",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "3.1 信息系统与外部世界的连接方式",
+              "level": 3,
+              "index": 1,
+              "children": [
+                {
+                  "title": "3.1.1 信息系统与物联网",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "3.1.2 物联网中的传感与控制机制",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            },
+            {
+              "title": "3.2 计算机网络",
+              "level": 3,
+              "index": 2,
+              "children": [
+                {
+                  "title": "3.2.1 计算机网络在信息系统中的作用",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "3.2.2 数据传输",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "3.2.3 资源共享",
+                  "level": 4,
+                  "index": 3
+                },
+                {
+                  "title": "3.2.4 分布式处理",
+                  "level": 4,
+                  "index": 4
+                }
+              ]
+            },
+            {
+              "title": "3.3 组建小型无线网络",
+              "level": 3,
+              "index": 3,
+              "children": [
+                {
+                  "title": "3.3.1 无线网络的接入方式",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "3.3.2 无线网络的设备功能与选型",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "3.3.3 无线网络的组建与配置",
+                  "level": 4,
+                  "index": 3
+                },
+                {
+                  "title": "3.3.4 网络因素对信息系统的影响",
+                  "level": 4,
+                  "index": 4
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第四章 信息系统的软件与应用",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "项目范例 搭建网络学习管理系统",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "4.1 信息系统的工作过程",
+              "level": 3,
+              "index": 1,
+              "children": [
+                {
+                  "title": "4.1.1 信息系统的体系结构及其工作过程",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "4.1.2 信息系统的开发过程",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            },
+            {
+              "title": "4.2 信息系统的软件及其作用",
+              "level": 3,
+              "index": 2,
+              "children": [
+                {
+                  "title": "4.2.1 基础软件及其作用",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "4.2.2 应用软件及其设计过程",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "4.2.3 应用软件的开发工具和平台",
+                  "level": 4,
+                  "index": 3
+                }
+              ]
+            },
+            {
+              "title": "4.3 信息系统在社会应用中的优势及局限性",
+              "level": 3,
+              "index": 3,
+              "children": [
+                {
+                  "title": "4.3.1 信息系统在社会应用中的优势",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "4.3.2 信息系统在社会应用中的局限性",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第五章 信息系统的安全风险防范",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "项目范例 校园网络信息系统的安全风险防范",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "5.1 信息系统应用中的安全风险",
+              "level": 3,
+              "index": 1,
+              "children": [
+                {
+                  "title": "5.1.1 人为因素造成的信息安全风险",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "5.1.2 软硬件因素造成的信息安全风险",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "5.1.3 网络因素造成的信息安全风险",
+                  "level": 4,
+                  "index": 3
+                },
+                {
+                  "title": "5.1.4 数据因素造成的信息安全风险",
+                  "level": 4,
+                  "index": 4
+                }
+              ]
+            },
+            {
+              "title": "5.2 信息系统安全风险防范的技术和方法",
+              "level": 3,
+              "index": 2,
+              "children": [
+                {
+                  "title": "5.2.1 信息系统安全风险的重要术语",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "5.2.2 信息系统安全模型及安全策略",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "5.2.3 信息系统安全风险防范的常用技术",
+                  "level": 4,
+                  "index": 3
+                }
+              ]
+            },
+            {
+              "title": "5.3 合理使用信息系统",
+              "level": 3,
+              "index": 3,
+              "children": [
+                {
+                  "title": "5.3.1 树立信息安全意识",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "5.3.2 信息系统安全操作规范",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "5.3.3 信息社会的道德准则与法律法规",
+                  "level": 4,
+                  "index": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

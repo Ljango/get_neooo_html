@@ -1,0 +1,125 @@
+{
+  "title": "新教材-初中（五•四学制）生物学沪教版七年级上册",
+  "xueduan": "初中（五•四学制）",
+  "nianji": "七年级",
+  "xueke": "生物学",
+  "banben": "沪教版",
+  "ceci": "上册",
+  "is_new": true,
+  "chapters": [
+    {
+      "title": "序章 走进生命世界",
+      "level": 1,
+      "index": 1
+    },
+    {
+      "title": "第一单元 生物体的结构层次",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第1章 生物体的基本单位",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "第1节 细胞的基本结构",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第2节 细胞的生命活动和功能",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第2章 生物体的结构",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "第1节 细胞的分裂和分化",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第2节 生物体的构成",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第二单元 植物的生活",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第3章 绿色开花植物的生命周期",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "第1节 植物的种子",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第2节 植物的生长",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "第3节 植物的繁殖",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第4章 植物的物质运输与水循环",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "第1节 植物的物质运输",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第2节 植物与水循环",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第5章 植物的生命活动与碳氧平衡",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "第1节 植物的光合作用",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第2节 植物的呼吸作用",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "第3节 植物与碳氧平衡",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

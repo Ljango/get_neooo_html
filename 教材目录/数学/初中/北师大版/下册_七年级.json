@@ -1,0 +1,180 @@
+{
+  "title": "新教材-初中数学北师大版七年级下册",
+  "xueduan": "初中",
+  "nianji": "七年级",
+  "xueke": "数学",
+  "banben": "北师大版",
+  "ceci": "下册",
+  "is_new": true,
+  "chapters": [
+    {
+      "title": "第一章 整式的乘除",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "1 幂的乘除",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2 整式的乘法",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3 乘法公式",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "4 整式的除法",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第二章 相交线与平行线",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "1 两条直线的位置关系",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2 探索直线平行的条件",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3 平行线的性质",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第三章 概率初步",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "1 感受可能性",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2 频率的稳定性",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3 等可能事件的概率",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第四章 三角形",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "1 认识三角形",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2 全等三角形",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3 探索三角形全等的条件",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "4 利用三角形全等测距离",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "问题解决策略：特殊化",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第五章 图形的轴对称",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "1 轴对称及其性质",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2 简单的轴对称图形",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "问题解决策略：转化",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第六章 变量之间的关系",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "1 现实中的变量",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2 用表格表示变量之间的关系",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3 用关系式表示变量之间的关系",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "4 用图象表示变量之间的关系",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "综合与实践",
+      "level": 1,
+      "index": 7,
+      "children": [
+        {
+          "title": "设计自己的运算程序",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "制作万花筒",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    }
+  ]
+}

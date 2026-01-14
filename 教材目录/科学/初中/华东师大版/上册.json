@@ -1,0 +1,197 @@
+{
+  "title": "初中科学华东师大版七年级上册",
+  "xueduan": "初中",
+  "nianji": "七年级",
+  "xueke": "科学",
+  "banben": "华东师大版",
+  "ceci": "上册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "走近科学",
+      "level": 1,
+      "index": 1
+    },
+    {
+      "title": "第一章 地球上的生物",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第一节 艳丽多姿的生物",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 生物的基本特征",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "第二章 生物的主要类群",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第一节 动物的主要类群",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 植物的主要类群",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 细菌和真菌",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "第四节 生物的分类",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第三章 生物的多样性",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "第一节 生物物种的多样性",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 同种生物的差异性",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 保护生物多样性",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第四章 生物体的结构层次",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "第一节 生物体",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 细胞",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 组织、器官和系统",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第五章 地球",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "第一节 地球的形状和大小",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 地球仪和经纬网",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 地图和平面图",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第六章 变化的地形",
+      "level": 1,
+      "index": 7,
+      "children": [
+        {
+          "title": "第一节 火山与地震",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 海陆的变迁",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 千姿百态的地形",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第七章 地月系",
+      "level": 1,
+      "index": 8,
+      "children": [
+        {
+          "title": "第一节 地球的运动",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 昼夜与四季",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 月球与月相",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第八章 星空世界",
+      "level": 1,
+      "index": 9,
+      "children": [
+        {
+          "title": "第一节 观天认星",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 太阳",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 太阳系",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "第四节 银河系与河外星系",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "title": "新教材-初中生物学苏教版七年级上册",
+  "xueduan": "初中",
+  "nianji": "七年级",
+  "xueke": "生物学",
+  "banben": "苏教版",
+  "ceci": "上册",
+  "is_new": true,
+  "chapters": [
+    {
+      "title": "第1单元 生物体的结构层次",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第1章 认识细胞",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "第1节 走进生物学实验室",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第2节 动物细胞的结构与功能",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "第3节 植物细胞的结构与功能",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第2章 生物体的组成",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "第1节 细胞的分裂和分化",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第2节 单细胞生物",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "第3节 多细胞生物",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第2单元 生物的多样性",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第3章 形形色色的藻类和植物",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "第1节 藻类和苔藓植物、蕨类植物",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第2节 种子植物",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第4章 千姿百态的动物",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "第1节 无脊椎动物",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第2节 脊椎动物",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第5章 无处不在的微生物",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "第1节 真菌、细菌和病毒",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第2节 微生物和人类的关系",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第6章 生物的分类和多样性保护",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "第1节 生物的分类",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第2节 生物的多样性",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "第3节 生物资源的保护",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

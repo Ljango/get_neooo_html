@@ -1,0 +1,129 @@
+{
+  "title": "高中信息技术教科版选择性必修6 开源硬件项目设计",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "信息技术",
+  "banben": "教科版",
+  "ceci": "选择性必修6 开源硬件项目设计",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第1单元 初识开源硬件",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "1.1 开源运动与开源硬件",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "1.2 Arduino操作基础与开发流程",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "第2单元 实验模拟型项目设计",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "2.1 点亮LED",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2.2 控制蜂鸣器",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "2.3 按钮开关",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "2.4 声光检测",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "2.5 数码管显示",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "2.6 红外遥控",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "2.7 超声波测距",
+          "level": 2,
+          "index": 7
+        },
+        {
+          "title": "2.8 双电机控制",
+          "level": 2,
+          "index": 8
+        },
+        {
+          "title": "2.9 循线",
+          "level": 2,
+          "index": 9
+        }
+      ]
+    },
+    {
+      "title": "第3单元 科学探究型项目设计",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "3.1 水温监测",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "3.2 单摆监测",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3.3 电压检测",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第4单元 趣味交互型项目设计",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "4.1 造型切换",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "4.2 角色交互",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "4.3 坐标定位",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "4.4 侦测",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    }
+  ]
+}

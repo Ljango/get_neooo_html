@@ -1,0 +1,517 @@
+{
+  "title": "小学数学冀教版一年级上册",
+  "xueduan": "小学",
+  "nianji": "一年级",
+  "xueke": "数学",
+  "banben": "冀教版",
+  "ceci": "上册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "走进数学",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "师生交流课",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "了解学生数数情况",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "一 比一比",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "比较高矮和长短",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "比较大小和轻重",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "二 10以内数的认识",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "1～9",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "认、读、写5以内各数",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "6~9的认识和读、写",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "> = <",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "同样多、多些、少些",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "认识>、=、<等数学符号",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "0",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "0的认识和读写",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "10",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "10的认识和读写",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "顺序",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "几个和第几个（基数和序数）",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "10以内数的顺序和位置",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "三 认识图形(一）",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "长方体、正方体、圆柱和球的认识",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "搭积木",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "综合与实践",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "四 合与分",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "2~6各数的组成",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "7~9的组成和分解",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "10的组成和分解",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "五 10以内的加法和减法",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "5以内的加法和减法",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "加法的初步认识",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "同一个加法问题可以写出两个算式",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "减法的初步认识",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "6～10的加减法",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "6、7的加减法",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "8、9的加减法",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "10的加减法",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "0的加减法",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "有关0的加减法算式与计算",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "解决问题",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "动物乐园",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "整理与复习",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "整理加法表",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "整理减法表",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "有趣的数字",
+          "level": 2,
+          "index": 6,
+          "children": [
+            {
+              "title": "综合与实践",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "六 分类",
+      "level": 1,
+      "index": 7,
+      "children": [
+        {
+          "title": "根据给定的标准进行分类",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "根据自己选定的标准进行分类",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "七 11～20各数的认识",
+      "level": 1,
+      "index": 8,
+      "children": [
+        {
+          "title": "数、认、读、写11~20各数",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "11~20各数的组成",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "比较20以内数的大小",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "八 20以内的加法",
+      "level": 1,
+      "index": 9,
+      "children": [
+        {
+          "title": "不进位加法",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "十加几、十几加几",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "进位加法",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "9加几",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "8加几",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "7加几、6加几",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "连加",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "整理与复习",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "整理20以内进位加法",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "九 20以内的减法",
+      "level": 1,
+      "index": 10,
+      "children": [
+        {
+          "title": "不退位减法",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "十几减几",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "退位减法",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "11减几",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "12减几",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "13、14减几",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "15、16、17、18减几",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "连减、加减混合",
+          "level": 2,
+          "index": 7,
+          "children": [
+            {
+              "title": "连减",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "加减混合",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "整理与复习",
+          "level": 2,
+          "index": 8,
+          "children": [
+            {
+              "title": "整理减法表",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "玩扑克 做数学",
+          "level": 2,
+          "index": 9,
+          "children": [
+            {
+              "title": "综合与实践",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "十 探索乐园",
+      "level": 1,
+      "index": 11,
+      "children": [
+        {
+          "title": "简单事物中的规律",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "加法计算中的规律",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "整理与评价",
+      "level": 1,
+      "index": 12,
+      "children": [
+        {
+          "title": "知识与技能",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "复习题",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "问题与思考",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "复习题",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "自我评价",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "学生自我评价",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

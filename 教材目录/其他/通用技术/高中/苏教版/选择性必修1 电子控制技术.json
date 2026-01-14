@@ -1,0 +1,121 @@
+{
+  "title": "高中通用技术苏教版选择性必修1 电子控制技术",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "通用技术",
+  "banben": "苏教版",
+  "ceci": "选择性必修1 电子控制技术",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 电子控制概述",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "一、电子控制技术与电子控制系统",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "二、电子控制系统的组成和工作过程",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "三、开环电子控制系统和闭环电子控制系统",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第二章 电子控制系统信息的获取与转换",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "一、辨识常用传感器",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "二、传感器的应用",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "第三章 电子控制系统的信号处理",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "一、模拟信号与数字信号",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "二、初识模拟电路",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "三、走进数字电路",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "四、数字电路的仿真实验与应用",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第四章 电子控制系统的执行部分",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "一、执行部件",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "二、继电器的作用和类型",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "三、直流电磁继电器的构造、规格和工作原理",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第五章 电子控制系统的设计及其应用",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "一、简单功能电路的安装与调试",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "二、开环电子控制系统的设计和应用",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "三、闭环电子控制系统的设计和应用",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    }
+  ]
+}

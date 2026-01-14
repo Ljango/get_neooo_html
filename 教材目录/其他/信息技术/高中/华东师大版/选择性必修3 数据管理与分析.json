@@ -1,0 +1,126 @@
+{
+  "title": "高中信息技术华东师大版选择性必修3 数据管理与分析",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "信息技术",
+  "banben": "华东师大版",
+  "ceci": "选择性必修3 数据管理与分析",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 数据管理与分析初步",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "数据价值",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "数据管理与分析技术的重要性",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "数据管理与分析方案",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第二章 数据管理",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "数据分类与采集",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "数据模型设计",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "数据库系统与建立数据库",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "数据查询",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第三章 数据安全",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "数据安全威胁与数据安全策略",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "数据备份与还原的实现",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "第四章 数据分析",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "数据准备",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "平均分析法",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "分组分析法与对比分析法",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "数据可视化",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "相关分析法",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第五章 数据挖掘",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "数据挖掘过程",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "大数据时代下的数据管理与分析技术的发展",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    }
+  ]
+}

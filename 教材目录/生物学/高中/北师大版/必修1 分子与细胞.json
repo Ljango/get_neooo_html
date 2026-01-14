@@ -1,0 +1,223 @@
+{
+  "title": "高中生物学北师大版必修1 分子与细胞",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "生物学",
+  "banben": "北师大版",
+  "ceci": "必修1 分子与细胞",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第1章 认识细胞",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第一节 发现细胞",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 细胞的多样性与统一性",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "第2章 细胞的结构与功能",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第一节 质膜",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一 质膜的结构与功能",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二 物质进出细胞的方式",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第二节 细胞质",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一 叶绿体与线粒体",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二 其他细胞器",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第三节 细胞核",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "第四节 细胞骨架与内膜系统",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第3章 细胞的物质基础",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第一节 水与无机盐",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 糖类与脂质",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 蛋白质",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "第四节 核酸",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "第五节 元素与生物大分子",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第4章 细胞的代谢",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "第一节 酶",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一 酶的化学本质及作用",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二 酶的特性",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三 环境因素对酶活性的影响",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第二节 ATP",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 细胞呼吸",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一 细胞呼吸的类型",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二 细胞呼吸的过程",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三 影响细胞呼吸速率的因素",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第四节 光合作用",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "一 光反应",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二 碳反应",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三 影响光合作用的因素",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第5章 细胞的生命历程",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "第一节 细胞的增殖",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一 细胞周期",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二 细胞的分裂",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第二节 细胞的分化",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 细胞的衰老与死亡",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "title": "小学数学人教版四年级下册",
+  "xueduan": "小学",
+  "nianji": "四年级",
+  "xueke": "数学",
+  "banben": "人教版",
+  "ceci": "下册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "1 四则运算",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "加、减法的意义和各部分间的关系",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "乘、除法的意义和各部分间的关系",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "括号",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "解决问题",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "2 观察物体（二）",
+      "level": 1,
+      "index": 2
+    },
+    {
+      "title": "3 运算律",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "加法运算律",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "加法运算律的应用",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "乘法运算律",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "乘法运算律的应用",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "4 小数的意义和性质",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "小数的意义",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "小数的读法和写法",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "小数的性质",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "小数的大小比较",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "小数点移动引起小数大小的变化",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "解决问题",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "小数与单位换算",
+          "level": 2,
+          "index": 7
+        },
+        {
+          "title": "小数的近似数",
+          "level": 2,
+          "index": 8
+        },
+        {
+          "title": "整理和复习",
+          "level": 2,
+          "index": 9
+        }
+      ]
+    },
+    {
+      "title": "5 三角形",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "三角形的认识",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "三角形的特性",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "三角形的三边关系",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "三角形的分类",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "三角形的内角和",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "解决问题",
+          "level": 2,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "title": "6 小数的加法和减法",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "小数加减法",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "小数加减混合运算",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "整数加法运算律推广到小数",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "7 图形的运动（二）",
+      "level": 1,
+      "index": 7,
+      "children": [
+        {
+          "title": "轴对称",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "平移",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "8 平均数与条形统计图",
+      "level": 1,
+      "index": 8,
+      "children": [
+        {
+          "title": "平均数",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "复式条形统计图",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "★ 营养午餐",
+      "level": 1,
+      "index": 9
+    },
+    {
+      "title": "9 数学广角——鸡兔同笼",
+      "level": 1,
+      "index": 10
+    },
+    {
+      "title": "10 总复习",
+      "level": 1,
+      "index": 11,
+      "children": [
+        {
+          "title": "整数运算",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "认识小数及小数加减法",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "三角形",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "平均数与复式条形统计图",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "综合练习",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "title": "小学体育与健康人教版一年级下册",
+  "xueduan": "小学",
+  "nianji": "一年级",
+  "xueke": "体育与健康",
+  "banben": "人教版",
+  "ceci": "下册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "体育与健康基础知识",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "饮水有益健康",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "安全地进行游戏",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "健康饮食益处多",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "基本身体活动",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "走与游戏",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "两臂放在不同部位的前脚掌走与游戏",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "加快速度走与游戏",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "跑与游戏",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "自然直线快速跑与游戏",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "迎面接力跑",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "各种方式的接力跑与游戏",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "跳跃与游戏",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "跳单双圈",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "模仿动物跳",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "立定跳远",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "集体双脚连续向前跳",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "投掷与游戏",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "双手持轻物掷远",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "单手正对投掷方向将小垒球掷远",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "侧向投掷轻物",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "持轻物掷远",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "单手侧对投掷方向持沙包掷远",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        },
+        {
+          "title": "攀登、爬越、平衡与游戏",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "在体操凳上前进、后退、转身、单脚站立",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "在平衡木上双人对行换位",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "在平衡木上侧向行进、转身",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "体操类活动",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "队列和体操队形",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "三面转法",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "齐步走，立定",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "基本体操",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "幸福拍手操",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "技巧",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "仰卧推起成桥",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "前滚翻",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "劈叉",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "连续前滚翻",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "仿生",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        },
+        {
+          "title": "跳绳",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "原地两脚依次跳长绳",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "原地并脚跳长绳",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "两脚依次跳短绳",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "并脚跳短绳",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "韵律活动和舞蹈",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "小火车舞",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "儿童基本舞步",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "猜拳游戏舞",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "球类活动",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "小篮球游戏",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "原地拍球比多",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "原地多种姿势拍球",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "投球进筐游戏",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "投活动篮游戏",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "小足球游戏",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "直线运球游戏",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "踢球比准游戏",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "传球地滚球游戏",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "乒乓球游戏",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "击接墙面反弹球游戏",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "端球比稳游戏",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "颠球比多游戏",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "武术",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "武术基本动作",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "基本腿法",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "基本手型",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "基本手法",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "基本步型",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "民族民间体育活动",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "跳房子",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "踢毽子",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "盘踢毽子",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "跳皮筋",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "组合动作跳皮筋",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "体育游戏",
+      "level": 1,
+      "index": 7,
+      "children": [
+        {
+          "title": "冲过战壕",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "老鹰捉小鸡",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "投击活动目标",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "捕鱼",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "送鸡毛信",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "地滚球",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "小鸟飞飞",
+          "level": 2,
+          "index": 7
+        }
+      ]
+    },
+    {
+      "title": "发展体能练习",
+      "level": 1,
+      "index": 8,
+      "children": [
+        {
+          "title": "柔韧素质练习",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "坐位体前屈",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "握竿转肩",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "立位体前屈握脚踝",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "跪坐后躺下",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "灵敏素质练习",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "“8”字跑",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "title": "高中物理鲁科版必修 第一册",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "物理",
+  "banben": "鲁科版",
+  "ceci": "必修 第一册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "绪论 撩开物理学的神秘面纱",
+      "level": 1,
+      "index": 1
+    },
+    {
+      "title": "第1章 运动的描述",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第1节 空间和时间",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第2节 质点和位移",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第3节 速度",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "第4节 加速度",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第2章 匀变速直线运动",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第1节 速度变化规律",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第2节 位移变化规律",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "匀变速直线运动的位移—时间关系",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "匀变速直线运动的位移—速度关系",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第3节 实验中的误差和有效数字",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "第4节 科学测量：做直线运动物体的瞬时速度",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "第5节 自由落体运动",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第3章 相互作用",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "第1节 重力与重心",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第2节 科学探究：弹力",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "形变与弹力",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "探究弹簧弹力的大小与伸长量的关系、胡克定律",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第3节 摩擦力",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "滑动摩擦力",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "静摩擦力",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第4章 力与平衡",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "第1节 科学探究：力的合成",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第2节 力的分解",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第3节 共点力的平衡",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第5章 牛顿运动定律",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "第1节 牛顿第一运动定律",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第2节 科学探究：加速度与力、质量的关系",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "科学探究：加速度与力的关系",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "科学探究：加速度与质量的关系",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第3节 牛顿第二运动定律",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "第4节 牛顿第三运动定律",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "第5节 超重与失重",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    }
+  ]
+}

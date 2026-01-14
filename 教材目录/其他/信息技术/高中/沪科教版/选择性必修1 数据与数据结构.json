@@ -1,0 +1,354 @@
+{
+  "title": "高中信息技术沪科教版选择性必修1 数据与数据结构",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "信息技术",
+  "banben": "沪科教版",
+  "ceci": "选择性必修1 数据与数据结构",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一单元 走进数据时代",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "项目一 气象数据及其应用——认识数据的价值",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.从气象数据采集到天气预报",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.气象数据在社会各领域中的应用",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.气象数据，走向未来",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "4.数据时代的机遇和挑战",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "知识链接",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        },
+        {
+          "title": "单元挑战  完成网上购物数据初步分析",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "单元小结",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第二单元 初识数据结构",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "项目二 研究学校教学管理相关数据的组织处理——初识数据结构",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.从教学管理相关数据认识数据的逻辑结构",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.了解教学管理相关数据的存储结构",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.了解数据类型和抽象数据类型",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "知识链接",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "项目三 探索商品基本信息表的实现——线性表的应用",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "1.问题分析",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.设计算法",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.程序实现",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "知识链接",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "单元挑战  实现学校学生健康情况登记表的操作",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "单元小结",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第三单元 特殊的线性表",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "项目四 探索电子排队预订功能的实现——队列的应用",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.分析问题",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.设计算法",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.程序实现",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "知识链接",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "项目五 模拟实现软件的撤消功能——栈的应用",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "1.分析问题",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.设计算法",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.程序实现",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "知识链接",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "项目六 探究文本字符的处理——字符串的操作",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "1.实现文本字符的编辑",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.实现文本的查找",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.模拟实现文本函数的功能",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "知识链接",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "单元挑战  按解密规则提取情报",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "单元小结",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第四单元 二叉树",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "项目七 探究计算机中算术表达式的计算——了解二叉树及其基本操作",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.探究计算机中算术表达式的计算原理",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.探究为何二叉树能将算术表达式转换为后缀表达式",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.构建二叉树",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "知识链接",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "单元挑战  使用二叉树解简单背包问题",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "单元小结",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第五单元  排序与查找",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "项目八 模拟实现商品排序——常用排序算法及其比较",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.尝试使用插入排序法实现商品销量排序",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.尝试使用冒泡排序法实现商品销量排序",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.尝试使用选择排序法实现商品销量排序",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "4.比较三种排序方法",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "知识链接",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        },
+        {
+          "title": "项目九 实现查找指定商品——查找算法的应用及数据结构的选择",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "1.采用顺序查找法查找商品",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.体验使用二分查找法查找商品",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.采用索引查找法查找商品",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "4.分析查找算法与数据结构的关系",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "知识链接",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        },
+        {
+          "title": "单元挑战  使用二叉查找树查找学生成绩信息",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "单元小结",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    }
+  ]
+}

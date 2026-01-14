@@ -1,0 +1,332 @@
+{
+  "title": "高中通用技术豫科版选择性必修1 电子控制技术",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "通用技术",
+  "banben": "豫科版",
+  "ceci": "选择性必修1 电子控制技术",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 电子控制基础",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第一节　电子控制技术概述",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、什么是电子控制技术",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、电子控制技术大家庭",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、无处不在的电子控制技术",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第二节　电子元件与电路图",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、电子元件及其检测",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、电子电路入门",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、电子电路的实现",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第三节　电子制作入门",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、电路板组装",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、电子焊接",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第四节　电子工具软件与平台",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "一、虚拟电子实验室（台）与仿真软件",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、图形化电子设计软件—Fritzing",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、软、硬件协同的创客电子平台—Arduino",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第二章 电子控制的核心技术——数字电路与模拟电路",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第一节　数字信号与模拟信号",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、数字与模拟",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、数字化的真谛—“0”和“1”的世界",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、数字信号与模拟信号的优势与局限性",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、数字与模拟转换的作用与实现",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第二节　晶体二极管与晶体三极管",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、晶体二极管",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、晶体三极管",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、三极管的放大与开关应用",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第三节　数字电路的基本单元—门电路",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、基本门电路",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、基本门电路的复合—与非门和或非门",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第四节　数字集成电路及其应用",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "一、认识集成电路",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、集成门电路",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、数字电路应用设计",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第三章　电子控制的信息采集与执行——传感器与继电器",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第一节　传感器概述",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、电五官",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、传感器的作用",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、传感器的种类",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、传感器的发展趋势",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第二节　几种常用传感器",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、温度传感器",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、光传感器",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、声传感器",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第三节　继电器",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、继电器与电磁继电器",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、电磁继电器的主要技术参数与选择",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、电磁继电器模块制作",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第四章　电子控制系统及其应用",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "第一节　 开环电子控制装置的制作与调试",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、项目简介与电路原理",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、制作与调试",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第二节　闭环电子控制系统的制作与调试",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、项目简介与电路原理",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、制作与调试",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第三节　电子控制系统的组成与分析",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、电子控制系统的三大组成部分",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、用方框图分析电子控制系统",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

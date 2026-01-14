@@ -1,0 +1,712 @@
+{
+  "title": "高中数学北师大版必修 第一册",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "数学",
+  "banben": "北师大版",
+  "ceci": "必修 第一册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 预备知识",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "1 集合",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.1 集合的概念与表示",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "1.2 集合的基本关系",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "1.3 集合的基本运算",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "习题1-1",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "阅读材料 康托尔与集合论",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        },
+        {
+          "title": "2 常用逻辑用语",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "2.1 必要条件与充分条件",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.2 全称量词与存在量词",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "习题1-2",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "3 不等式",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "3.1 不等式的性质",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "3.2 基本不等式",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "习题1-3",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "阅读材料 弦图",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "4 一元二次函数与一元二次不等式",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "4.1 一元二次函数",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "4.2 一元二次不等式及其解法",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "4.3 一元二次不等式的应用",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "习题1-4",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "本章小结",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "复习题一",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "学习指导 数学文化",
+          "level": 2,
+          "index": 7
+        }
+      ]
+    },
+    {
+      "title": "第二章 函数",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "1 生活中的变量关系",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2 函数",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "2.1 函数概念",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.2 函数的表示法",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "习题2-2",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "阅读材料 函数概念的起源",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "3 函数的单调性和最值",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "4 函数的奇偶性与简单的幂函数",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "4.1 函数的奇偶性",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "4.2 简单幂函数的图象和性质",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "习题2-4",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "本章小结",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "复习题二",
+          "level": 2,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "title": "第三章 指数运算与指数函数",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "1 指数幂的拓展",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2 指数幂的运算性质",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "指数幂的几个运算性质",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "习题3-2",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "阅读材料 利用科学计算器计算函数值的近似值",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "3 指数函数",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "3.1 指数函数的概念",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "3.2 指数函数的图象和性质",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "习题3-3",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "本章小结",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "复习题三",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第四章 对数运算与对数函数",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "1 对数",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "对数的概念",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "习题4-1",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "阅读材料 对数的起源",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "2 对数的运算",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "2.1 对数的运算性质",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.2 换底公式",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "习题4-2",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "阅读材料 指数的换底公式",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "3 对数函数",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "3.1 对数函数的概念",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "3.2 对数函数y=log2x的图象和性质",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.3 对数函数y=logax的图象和性质",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "习题4-3",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "信息技术应用 参数a对函数y=logax图象的影响",
+              "level": 3,
+              "index": 5
+            },
+            {
+              "title": "阅读材料 数学软件GeoGebra",
+              "level": 3,
+              "index": 6
+            }
+          ]
+        },
+        {
+          "title": "4 指数函数、幂函数、对数函数增长的比较",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "*5 信息技术支持的函数研究",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "本章小结",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "复习题四",
+          "level": 2,
+          "index": 7
+        },
+        {
+          "title": "学习指导 利用信息技术学习数学",
+          "level": 2,
+          "index": 8
+        }
+      ]
+    },
+    {
+      "title": "第五章 函数应用",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "1 方程解的存在性及方程的近似解",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.1 利用函数性质判定方程解的存在性",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "1.2 利用二分法求方程的近似解",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "习题5-1",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "2 实际问题中的函数模型",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "2.1 实际问题的函数刻画",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.2 用函数模型解决实际问题",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "习题5-2",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "本章小结",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "复习题五",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第六章 统计",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "1 获取数据的途径",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.1 直接获取与间接获取数据",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "1.2 普查和抽查",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "1.3 总体和样本",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "习题 6-1",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "阅读材料  选举的预测",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        },
+        {
+          "title": "2 抽样的基本方法",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "2.1 简单随机抽样",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "信息技术应用  随机数的产生",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "2.2 分层随机抽样",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "习题 6-2",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "3 用样本估计总体分布",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "3.1 从频数到频率",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "3.2 频率分布直方图",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "习题6-3",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "4 用样本估计总体的数字特征",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "4.1 样本的数字特征",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "4.2 分层随机抽样的均值与方差",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "4.3 百分位数",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "习题6-4",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "本章小结",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "复习题六",
+          "level": 2,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "title": "第七章 概率",
+      "level": 1,
+      "index": 7,
+      "children": [
+        {
+          "title": "1 随机现象与随机事件",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.1 随机现象",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "1.2 样本空间",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "1.3 随机事件",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "1.4 随机事件的运算",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "习题7-1",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        },
+        {
+          "title": "2 古典概型",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "2.1 古典概型的概率计算公式",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.2 古典概型的应用",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "习题7-2",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "3 频率与概率",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "频率与概率的关系",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "习题7-3",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "阅读材料 布丰投针问题",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "4 事件的独立性",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "本章小结",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "复习题七",
+          "level": 2,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "title": "第八章 数学建模活动（一）",
+      "level": 1,
+      "index": 8,
+      "children": [
+        {
+          "title": "1 走近数学建模",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2 数学建模的主要步骤",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3 数学建模活动的主要过程",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "##附录 部分数学专业词汇中英文对照表",
+      "level": 1,
+      "index": 9
+    }
+  ]
+}

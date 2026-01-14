@@ -1,0 +1,565 @@
+{
+  "title": "高中地理人教版高一必修 第二册",
+  "xueduan": "高中",
+  "nianji": "高一",
+  "xueke": "地理",
+  "banben": "人教版",
+  "ceci": "必修 第二册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 人口",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第一节 人口分布",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 人口迁移",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 人口容量",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "问题研究 如何看待农民工现象",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第二章 乡村和城镇",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第一节 乡村和城镇空间结构",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 城镇化",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 地域文化与城乡景观",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "问题研究 从市中心到郊区，你选择住在哪里",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第三章 产业区位因素",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第一节 农业区位因素及其变化",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 工业区位因素及其变化",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 服务业区位因素及其变化",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "问题研究 实体商店何去何从",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第四章 交通运输布局与区域发展",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "第一节 区域发展对交通运输布局的影响",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 交通运输布局对区域发展的影响",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "问题研究 城市交通如何疏堵",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第五章 环境与发展",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "第一节 人类面临的主要环境问题",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 走向人地协调——可持续发展",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 中国国家发展战略举例",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "问题研究 低碳食品知多少",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "其他",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "中国地理（旧版人教版选修三）",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "中国分区地理——东北地区",
+              "level": 3,
+              "index": 1,
+              "children": [
+                {
+                  "title": "位置和自然特征",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "区域可持续发展之第一产业",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "区域发展之第二、三产业",
+                  "level": 4,
+                  "index": 3
+                },
+                {
+                  "title": "环境问题与治理",
+                  "level": 4,
+                  "index": 4
+                }
+              ]
+            },
+            {
+              "title": "中国分区地理——华北地区",
+              "level": 3,
+              "index": 2,
+              "children": [
+                {
+                  "title": "位置和自然特征",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "区域可持续发展之第一产业",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "区域发展之第二、三产业",
+                  "level": 4,
+                  "index": 3
+                },
+                {
+                  "title": "环境问题与治理",
+                  "level": 4,
+                  "index": 4
+                }
+              ]
+            },
+            {
+              "title": "中国分区—南方地区（长江中下游地区）",
+              "level": 3,
+              "index": 3,
+              "children": [
+                {
+                  "title": "位置和自然特征",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "区域发展之第一产业",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "区域发展之第二、三产业",
+                  "level": 4,
+                  "index": 3
+                },
+                {
+                  "title": "环境问题与治理",
+                  "level": 4,
+                  "index": 4
+                }
+              ]
+            },
+            {
+              "title": "中国分区—南方地区（南部沿海）",
+              "level": 3,
+              "index": 4,
+              "children": [
+                {
+                  "title": "位置和自然特征",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "区域发展之第一产业",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "区域发展之第二、三产业",
+                  "level": 4,
+                  "index": 3
+                },
+                {
+                  "title": "环境问题与治理",
+                  "level": 4,
+                  "index": 4
+                }
+              ]
+            },
+            {
+              "title": "中国分区—南方地区（西南地区）",
+              "level": 3,
+              "index": 5,
+              "children": [
+                {
+                  "title": "位置和自然特征",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "区域发展之第一产业",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "区域发展之第二、三产业",
+                  "level": 4,
+                  "index": 3
+                },
+                {
+                  "title": "环境问题与治理",
+                  "level": 4,
+                  "index": 4
+                }
+              ]
+            },
+            {
+              "title": "中国分区—西北地区",
+              "level": 3,
+              "index": 6,
+              "children": [
+                {
+                  "title": "位置和自然特征",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "区域发展",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            },
+            {
+              "title": "中国分区—青藏地区",
+              "level": 3,
+              "index": 7,
+              "children": [
+                {
+                  "title": "位置和自然特征",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "区域发展",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            },
+            {
+              "title": "中国疆域",
+              "level": 3,
+              "index": 8
+            },
+            {
+              "title": "中国人口",
+              "level": 3,
+              "index": 9
+            },
+            {
+              "title": "中国民族",
+              "level": 3,
+              "index": 10
+            },
+            {
+              "title": "本周内容回顾与作业讲解",
+              "level": 3,
+              "index": 11
+            },
+            {
+              "title": "中国地形地势",
+              "level": 3,
+              "index": 12
+            },
+            {
+              "title": "中国地形的地理意义",
+              "level": 3,
+              "index": 13
+            },
+            {
+              "title": "描述地形特征",
+              "level": 3,
+              "index": 14
+            },
+            {
+              "title": "中国地形习题课",
+              "level": 3,
+              "index": 15
+            },
+            {
+              "title": "我国温度带和干湿区的划分",
+              "level": 3,
+              "index": 16
+            },
+            {
+              "title": "中国气候的形成因素",
+              "level": 3,
+              "index": 17
+            },
+            {
+              "title": "气候对区域环境的影响——以西北地区为例",
+              "level": 3,
+              "index": 18
+            },
+            {
+              "title": "中国气候习题课",
+              "level": 3,
+              "index": 19
+            },
+            {
+              "title": "我国外流区主要河流和湖泊的特征",
+              "level": 3,
+              "index": 20
+            },
+            {
+              "title": "我国内流区主要河流和湖泊的特征",
+              "level": 3,
+              "index": 21
+            },
+            {
+              "title": "中国自然地理环境特征和区域差异",
+              "level": 3,
+              "index": 22
+            },
+            {
+              "title": "中国水环境习题课",
+              "level": 3,
+              "index": 23
+            },
+            {
+              "title": "中国社会经济的区域特征与差异",
+              "level": 3,
+              "index": 24
+            }
+          ]
+        },
+        {
+          "title": "旅游地理（旧版人教版选修三）",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "现代旅游的特点及其对区域发展的意义",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "旅游资源的分类和特性",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "旅游地理习题课",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "旅游资源开发条件的评价",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "我国的旅游资源",
+              "level": 3,
+              "index": 5
+            },
+            {
+              "title": "旅游景观的审美特征和观赏方法",
+              "level": 3,
+              "index": 6
+            },
+            {
+              "title": "旅游资源评价探究课",
+              "level": 3,
+              "index": 7
+            },
+            {
+              "title": "中外旅游景观欣赏",
+              "level": 3,
+              "index": 8
+            },
+            {
+              "title": "旅游规划",
+              "level": 3,
+              "index": 9
+            },
+            {
+              "title": "旅游活动设计",
+              "level": 3,
+              "index": 10
+            },
+            {
+              "title": "旅游开发与环境保护",
+              "level": 3,
+              "index": 11
+            }
+          ]
+        },
+        {
+          "title": "世界地理（旧版人教版选修三）",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "世界海洋与陆地",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "世界海洋与陆地习题课",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "世界特殊气候区域及其成因",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "世界区域地形特征及影响",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "世界气候及地形习题课",
+              "level": 3,
+              "index": 5
+            },
+            {
+              "title": "气候对地理环境的影响",
+              "level": 3,
+              "index": 6
+            }
+          ]
+        },
+        {
+          "title": "高考复习",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "气候专题（上）",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "高中地理知识点串讲",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "高考地理复习（一）",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "高考地理复习（二）",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "高考地理复习（三）",
+              "level": 3,
+              "index": 5
+            },
+            {
+              "title": "强化知识重组精准区域认知",
+              "level": 3,
+              "index": 6
+            },
+            {
+              "title": "深度关联概念参透热点问题",
+              "level": 3,
+              "index": 7
+            },
+            {
+              "title": "成因类试题的复习备考",
+              "level": 3,
+              "index": 8
+            },
+            {
+              "title": "过程类试题的复习备考",
+              "level": 3,
+              "index": 9
+            },
+            {
+              "title": "综合题的备考策略",
+              "level": 3,
+              "index": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

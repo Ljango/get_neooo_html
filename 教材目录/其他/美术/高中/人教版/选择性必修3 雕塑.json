@@ -1,0 +1,55 @@
+{
+  "title": "高中美术人教版选择性必修3 雕塑",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "美术",
+  "banben": "人教版",
+  "ceci": "选择性必修3 雕塑",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "雕塑概述",
+      "level": 1,
+      "index": 1
+    },
+    {
+      "title": "第一单元 雕塑的技法与实践（一）",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第1课 抟土造人——泥塑",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第2课 凿石刻木——石雕 木雕",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第3课 精雕细琢——石膏浮雕刻制",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第二单元 雕塑的技法与实践（二）",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第1课 雕塑中的铸（筑）造与锻造",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第2课 雕塑中的构成与连接",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    }
+  ]
+}

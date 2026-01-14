@@ -1,0 +1,313 @@
+{
+  "title": "初中数学北京版八年级下册",
+  "xueduan": "初中",
+  "nianji": "八年级",
+  "xueke": "数学",
+  "banben": "北京版",
+  "ceci": "下册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第十四章 一次函数",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "函数和函数的图象",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "14.1 函数",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "14.2 函数的表示",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "14.3 函数图象的画法",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "一次函数",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "14.4 一次函数",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "14.5 一次函数的图象",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "14.6 一次函数的性质",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "14.7 一次函数的应用",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "总结与复习",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第十五章 四边形",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "多边形",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "15.1 多边形",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "平行四边形",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "15.2 平行四边形和特殊的平行四边形",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "15.3 平行四边形的性质与判定",
+              "level": 3,
+              "index": 2,
+              "children": [
+                {
+                  "title": "平行四边形的性质",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "平行四边形的判定",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "平行四边形的性质与判定的应用",
+                  "level": 4,
+                  "index": 3
+                }
+              ]
+            },
+            {
+              "title": "15.4 特殊的平行四边形的性质与判定",
+              "level": 3,
+              "index": 3,
+              "children": [
+                {
+                  "title": "矩形的性质",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "菱形的性质",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "正方形的性质",
+                  "level": 4,
+                  "index": 3
+                },
+                {
+                  "title": "矩形的判定",
+                  "level": 4,
+                  "index": 4
+                },
+                {
+                  "title": "菱形的判定",
+                  "level": 4,
+                  "index": 5
+                },
+                {
+                  "title": "正方形的判定",
+                  "level": 4,
+                  "index": 6
+                },
+                {
+                  "title": "特殊的平行四边形的性质与判定的应用",
+                  "level": 4,
+                  "index": 7
+                }
+              ]
+            },
+            {
+              "title": "15.5 三角形中位线定理",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "中心对称图形",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "15.6 中心对称图形",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "总结与复习",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第十六章 一元二次方程",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "一元二次方程和它的解法",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "16.1 一元二次方程",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "16.2 一元二次方程的解法",
+              "level": 3,
+              "index": 2,
+              "children": [
+                {
+                  "title": "开平方法解一元二次方程",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "配方法解一元二次方程",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "用配方法推导一元二次方程的求根公式",
+                  "level": 4,
+                  "index": 3
+                },
+                {
+                  "title": "公式法解一元二次方程",
+                  "level": 4,
+                  "index": 4
+                },
+                {
+                  "title": "一元二次方程根的判别式",
+                  "level": 4,
+                  "index": 5
+                },
+                {
+                  "title": "因式分解法解一元二次方程",
+                  "level": 4,
+                  "index": 6
+                },
+                {
+                  "title": "选择恰当的方法解一元二次方程",
+                  "level": 4,
+                  "index": 7
+                },
+                {
+                  "title": "一元二次方程的解法的综合运用",
+                  "level": 4,
+                  "index": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "一元二次方程的应用",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "16.3 列方程解应用题",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "总结与复习",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第十七章 方差与频数分布",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "数据的波动",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "17.1 方差",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "17.2 用科学计算器计算方差",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "数据的分布",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "17.3 频数分布表与频数分布图",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "总结与复习",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    }
+  ]
+}

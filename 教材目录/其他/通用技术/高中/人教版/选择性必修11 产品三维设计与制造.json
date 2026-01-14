@@ -1,0 +1,84 @@
+{
+  "title": "高中通用技术人教版选择性必修11 产品三维设计与制造",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "通用技术",
+  "banben": "人教版",
+  "ceci": "选择性必修11 产品三维设计与制造",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 三维打印原理",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第 1 节 三维打印技术概述",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第 2 节 三维打印机的操作",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "第二章 三维打印产品技术分析",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第 1 节 三维打印产品设计制造方案",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第 2 节 三维打印产品设计分析与打印分析",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "第三章 三维模型设计",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第 1 节 简单模型设计",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第 2 节 模型测试与优化",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第 3 节 组合模型设计与切片",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第四章 三维打印技术应用",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "第 1 节 组合结构的产品制造",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第 2 节 三维扫描与打印",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    }
+  ]
+}

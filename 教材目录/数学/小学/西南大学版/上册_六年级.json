@@ -1,0 +1,222 @@
+{
+  "title": "小学数学西南大学版六年级上册",
+  "xueduan": "小学",
+  "nianji": "六年级",
+  "xueke": "数学",
+  "banben": "西南大学版",
+  "ceci": "上册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "一 分数乘法",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "分数的乘法",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "问题解决",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "二 圆",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "圆的认识",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "圆的周长",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "圆的面积",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "圆的面积公式推导",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "圆的面积公式应用",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "整理与复习",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "你知道吗 我国古代杰出的数学家——祖冲之",
+      "level": 1,
+      "index": 3
+    },
+    {
+      "title": "综合与实践  读故事 学数学",
+      "level": 1,
+      "index": 4
+    },
+    {
+      "title": "三 分数除法",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "分数除法",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "问题解决",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "探索规律",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "整理与复习",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "四 比和按比例分配",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "比的意义和性质",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "问题解决",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "整理与复习",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "你知道吗 巧用借“1”法",
+      "level": 1,
+      "index": 7
+    },
+    {
+      "title": "综合与实践  修晒坝的经费预算",
+      "level": 1,
+      "index": 8
+    },
+    {
+      "title": "五 图形变化和确定位置",
+      "level": 1,
+      "index": 9,
+      "children": [
+        {
+          "title": "图形放大或缩小",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "比例尺",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "确定物体的位置",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "综合与实践 绘制校园平面图",
+      "level": 1,
+      "index": 10
+    },
+    {
+      "title": "六 分数混合运算",
+      "level": 1,
+      "index": 11,
+      "children": [
+        {
+          "title": "分数混合运算",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "问题解决",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "七 负数的初步认识",
+      "level": 1,
+      "index": 12
+    },
+    {
+      "title": "你知道吗 最早使用负数的国家",
+      "level": 1,
+      "index": 13
+    },
+    {
+      "title": "八 可能性",
+      "level": 1,
+      "index": 14
+    },
+    {
+      "title": "九 总复习",
+      "level": 1,
+      "index": 15,
+      "children": [
+        {
+          "title": "分数乘法、分数除法、分数混合运算",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "圆",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "比和按比例分配",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "负数的初步认识 可能性",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    }
+  ]
+}

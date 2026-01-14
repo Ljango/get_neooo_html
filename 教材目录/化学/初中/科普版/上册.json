@@ -1,0 +1,170 @@
+{
+  "title": "新教材-初中化学科普版九年级上册",
+  "xueduan": "初中",
+  "nianji": "九年级",
+  "xueke": "化学",
+  "banben": "科普版",
+  "ceci": "上册",
+  "is_new": true,
+  "chapters": [
+    {
+      "title": "单元1  走进化学世界",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "课题1 丰富多彩的物质世界",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "课题2 化学通过实验研究物质",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "课题3 化学服务于人类社会发展",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "单元2  探析空气之谜",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "课题1 空气组成的探究",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "课题2 氧气的性质与应用",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "课题3 空气资源的保护 ",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "单元3 初探物质构成",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "课题1 探秘微观粒子特性",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "课题2 认识原子结构",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "课题3 物质组成的表示",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "单元4  再探燃烧与燃料",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "课题1 燃烧与灭火",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "课题2 化学反应中的能量变化",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "课题3 化石燃料的综合利用与新能源开发",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "单元5  表征化学反应",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "课题1 化学反应是有条件的",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "课题2 质量守恒定律",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "课题3 化学方程式及其应用",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "单元6  探秘碳的世界",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "课题1 神秘的碳家族",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "课题2 二氧化碳的性质与应用",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "课题3 碳循环与碳中和",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "学生实验",
+      "level": 1,
+      "index": 7,
+      "children": [
+        {
+          "title": "实验1 实验基本操作",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "实验2 氧气的实验室制取与性质",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "实验3 燃烧条件的探究",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "实验4 二氧化碳的实验室制取与性质",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    }
+  ]
+}

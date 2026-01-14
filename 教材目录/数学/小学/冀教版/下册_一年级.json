@@ -1,0 +1,446 @@
+{
+  "title": "小学数学冀教版一年级下册",
+  "xueduan": "小学",
+  "nianji": "一年级",
+  "xueke": "数学",
+  "banben": "冀教版",
+  "ceci": "下册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "一 位置",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "左右",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "左、右的认识",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "前后",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "前、后的认识",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "上下",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "上、下的认识",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "二 认识钟表",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "认识整时",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "认识大约几时",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "认识半时",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "生活中的钟表",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "综合与实践",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "三 100以内数的认识",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "数100以内的数",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "估数与数数",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "100以内数的组成",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "数位、数的读写",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "100以内数的顺序",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "用符号表示两个数的大小",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "用语言描述两个数的大小",
+          "level": 2,
+          "index": 7
+        },
+        {
+          "title": "整理与复习",
+          "level": 2,
+          "index": 8,
+          "children": [
+            {
+              "title": "100以内数的组成、读法、写法、大小比较",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "数字开花",
+          "level": 2,
+          "index": 9,
+          "children": [
+            {
+              "title": "综合与实践",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "四 认识人民币",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "元、角、分的关系",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "元、角、分的简单计算",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "商品价格调查",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "综合与实践",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "五 100以内的加法和减法（一）",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "整十数加一位数和相应的减法",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "两位数加、减整十数",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "整十数加、减整十数",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "两位数加整十数",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "两位数减整十数",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "两位数加一位数",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "两位数加一位数（不进位）",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "两位数加一位数（进位）",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "两位数加一位数（口算）",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "两位数减一位数",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "两位数减一位数（不退位）",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "两位数减一位数（退位）",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "两位数减一位数（口算）",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "求一个数比另一个数多几",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "求两数相差多少",
+              "level": 3,
+              "index": 5
+            },
+            {
+              "title": "提问题，并解答",
+              "level": 3,
+              "index": 6
+            },
+            {
+              "title": "游戏中的数学",
+              "level": 3,
+              "index": 7
+            }
+          ]
+        },
+        {
+          "title": "整理与复习",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "复习100以内的加减法",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "六 认识图形(二）",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "长方形、正方形的认识",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "三角形、圆的认识",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "折、剪、拼图形",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "七 100以内的加法和减法（二）",
+      "level": 1,
+      "index": 7,
+      "children": [
+        {
+          "title": "两位数加两位数",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "两位数加两位数（不进位）（1课时）",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "两位数加两位数（进位）（1课时）",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "两位数加两位数（估计和的十位是几）",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "两位数减两位数（口算）（1课时）",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "两位数减两位数",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "两位数减两位数（不退位）",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "两位数减两位数（退位）",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "两位数减两位数（估计差的十位是几）",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "两位数减两位数（口算）",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "两位数加减两位数综合运用",
+              "level": 3,
+              "index": 5
+            },
+            {
+              "title": "复习100以内数的加减法",
+              "level": 3,
+              "index": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "八 探索乐园",
+      "level": 1,
+      "index": 8,
+      "children": [
+        {
+          "title": "发现具体情境和事物中的规律",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "数图结合问题",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "整理与评价",
+      "level": 1,
+      "index": 9,
+      "children": [
+        {
+          "title": "知识与技能",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "复习题",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "问题与思考",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "复习题",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "自我评价",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "学生自我评价",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

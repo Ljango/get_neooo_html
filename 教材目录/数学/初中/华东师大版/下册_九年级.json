@@ -1,0 +1,263 @@
+{
+  "title": "初中数学华东师大版九年级下册",
+  "xueduan": "初中",
+  "nianji": "九年级",
+  "xueke": "数学",
+  "banben": "华东师大版",
+  "ceci": "下册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第26章 二次函数",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "26.1 二次函数",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "26.2 二次函数的图象与性质",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "二次函数y=ax²的图象与性质",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二次函数y=ax²＋bx+c的图象与性质",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "求二次函数的关系式",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "阅读材料 生活中的抛物线",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "26.3 实践与探索",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "复习题",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第27章 圆",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "27.1 圆的认识",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "圆的基本元素",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "圆的对称性",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "圆周角",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "27.2 与圆有关的位置关系",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "点与圆的位置关系",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "直线与圆的位置关系",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "切线",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "阅读材料 圆与圆的位置关系",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "27.3 圆中的计算问题",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "弧长和扇形的面积",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "圆锥的侧面积和全面积",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "阅读材料 古希腊人对大地的测量",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "27.4 正多边形和圆",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "正多边形和圆",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "阅读材料 圆周率 π",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "阅读材料 Can You Draw These Patterns",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "复习题",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "综合与实践 硬币滚动中的数学",
+          "level": 2,
+          "index": 7
+        }
+      ]
+    },
+    {
+      "title": "第28章 样本与总体",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "28.1 抽样调查的意义",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "普查和抽样调查",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "这样选择样本合适吗",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "阅读材料 API与AQI",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "28.2 用样本估计总体",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "简单随机抽样",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "简单随机抽样调查可靠吗",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "阅读材料 漫谈收视率",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "28.3 借助调查做决策",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "借助调查做决策",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "容易误导读者的统计图",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "复习题",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "综合与实践 改进我们的课桌椅",
+          "level": 2,
+          "index": 6
+        }
+      ]
+    }
+  ]
+}

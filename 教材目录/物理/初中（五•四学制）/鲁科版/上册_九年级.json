@@ -1,0 +1,264 @@
+{
+  "title": "初中（五•四学制）物理鲁科版九年级上册",
+  "xueduan": "初中（五•四学制）",
+  "nianji": "九年级",
+  "xueke": "物理",
+  "banben": "鲁科版",
+  "ceci": "上册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第十一章 电流和电路",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第一节 电荷 摩擦起电",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "静电现象 电荷间的作用规律",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "摩擦起电的原因 静电的应用和防护",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第二节 电流和电路",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "电流 电路的构成",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "通路、断路和短路 电路图",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第三节 串联和并联",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "第四节 电流的测量",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "第五节 探究串、并联电路中电流的规律",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "探究串联电路中电流的规律",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "探究并联电路中电流的规律",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第十二章 电压和电阻",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第一节 电压",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "电源与电压",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "电压表 用电压表测电压",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第二节 探究串、并联电路中电压的规律",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 电阻",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "导体与绝缘体 电阻",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "决定电阻大小的因素",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第四节 变阻器",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第十三章 欧姆定律",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第一节 探究电流与电压、电阻的关系",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "探究电流与电压的关系",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "探究电流与电阻的关系",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第二节 欧姆定律及其应用",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 测量电阻",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "第四节 电阻的串联与并联",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "*第四节 电阻的串联与并联",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第十四章 电功率",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "第一节 电能",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 电功",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 电功率",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "电流做功的快慢 电功率的测量",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "额定电压 额定功率",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第四节 测量小灯泡的电功率",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "第五节 焦耳定律",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "电流的热效应",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "焦耳定律 电热的利用和防止",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第十五章 安全用电",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "第一节 家庭电路",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 探究家庭电路中电流过大的原因",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "过载与电流过大",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "短路与电流过大 保险丝的作用",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第三节 防止触电",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    }
+  ]
+}

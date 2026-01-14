@@ -1,0 +1,229 @@
+{
+  "title": "高中通用技术粤教粤科版选择性必修11 产品三维设计与制造",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "通用技术",
+  "banben": "粤教科技版",
+  "ceci": "选择性必修11 产品三维设计与制造",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 三维打印原理",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第一节 认识三维打印",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、走进生活中的三维打印",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、三维打印的发展历史",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第二节 三维打印技术的基本原理",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、概念和原理",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、特点和优势",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、三维打印的流程",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、常用的三维打印机",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第二章 三维产品技术分析",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第一节 三维打印的技术类型",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、光固化立体成型",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、熔融沉积成型",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第二节 三维打印的材料",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、材料的类型",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、材料的特点和应用",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第三节 三维打印的制造方案",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、成型工艺的选择",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、产品的设计要求",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、设计你的三维打印制造方案",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第三章 三维模型设计",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第一节 认识三维建模",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、三维数字模型的文件格式",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、三维数字模型的获取方式",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第二节 软件建模",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、认识建模软件",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、三维模型分析",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、实践案例：设计创意水杯模型",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第三节 模型切片处理",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、认识切片软件",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、切片分层与文件格式转换",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第四章 三维打印技术应用",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "第一节 三维打印的应用实践",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、哨子的制作实践",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、台灯的制作实践",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第二节 三维打印的应用现状与技术延伸",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、三维打印在各领域的应用",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、三维打印技术的延伸",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

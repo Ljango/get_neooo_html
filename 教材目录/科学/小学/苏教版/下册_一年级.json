@@ -1,0 +1,111 @@
+{
+  "title": "新教材-小学科学苏教版一年级下册",
+  "xueduan": "小学",
+  "nianji": "一年级",
+  "xueke": "科学",
+  "banben": "苏教版",
+  "ceci": "下册",
+  "is_new": true,
+  "chapters": [
+    {
+      "title": "1单元 石头与泥土",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "1 捡石头",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2 玩沙子",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3 捏泥巴",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "2单元 水",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "4 水是什么样的",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "5 玩转小水轮",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "6 盐和糖哪儿去了",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "3单元 空气",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "7 找空气",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "8 这里面有空气吗",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "9 玩空气",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "4单元 动物与植物",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "10 形形色色的动物",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "11 多姿多彩的植物",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "12 动物与植物",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "专项学习",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "像科学家那样",
+          "level": 2,
+          "index": 1
+        }
+      ]
+    }
+  ]
+}

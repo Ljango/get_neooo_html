@@ -1,0 +1,129 @@
+{
+  "title": "高中通用技术人教版选择性必修2",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "通用技术",
+  "banben": "人教版",
+  "ceci": "选择性必修2",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章  机器人结构与传动机械",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第 1 节  机器人三定律",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第 2 节  机器人的基本构成",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第 3 节  机器人的自由度",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "第 4 节  机械传动机构",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "课外实践：循迹机器人小车组装—基本结构 ",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第二章  机器人感知与传感器",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第 1 节  机器人感知系统",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第 2 节  传感器的原理和种类",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第 3 节  传感器的任务",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "课外实践：循迹机器人小车制作—传感器的应用",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第三章  机器人控制器",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第 1 节  控制器基本原理",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第 2 节  控制器使用实例",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第 3 节  控制器编程",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "第 4 节  控制器通信接口",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "课外实践：循迹机器人小车制作—电机驱动",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第四章  机器人控制策略",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "第 1 节  路径规划和运动控制的概念和功能",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第 2 节  路径规划和运动控制的设计方法",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第 3 节  机器人控制策略实例",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "课外实践：循迹机器人小车制作—控制",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    }
+  ]
+}

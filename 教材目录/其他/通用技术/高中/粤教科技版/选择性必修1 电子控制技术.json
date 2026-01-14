@@ -1,0 +1,357 @@
+{
+  "title": "高中通用技术粤教科技版选择性必修1 电子控制技术",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "通用技术",
+  "banben": "粤教科技版",
+  "ceci": "选择性必修1 电子控制技术",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 电子控制系统初探",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第一节 电子控制概述",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 电子控制系统的基本组成",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 电子控制系统的优点",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第二章 电子元器件",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第一节 电阻器、电容器及电感器",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、电阻器",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、电容器",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、电感器",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第二节 晶体二极管和晶体三极管",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、晶体二极管的基本特性及应用",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、晶体三极管结构和类型",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、晶体三极管的特性曲线",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第三节 电子电路图的识读与焊接",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、识读电子电路图的基本方法",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、电路的焊接方法",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、焊接技术的发展趋势",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第三章 模拟电路与数字电路",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第一节 模拟信号与数字信号",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、模拟信号",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、数字信号",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、模数转换与数模转换",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第二节 模拟电路",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 基本数字逻辑电路",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、与门",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、或门",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、非门",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、与非门、或非门",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "五、虚拟电子工作台",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        },
+        {
+          "title": "第四节 数字集成电路及其应用",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "一、晶体三极管的开关特性",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、数字集成电路的应用",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第四章 传感器与继电器",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "第一节 认识常见的传感器",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、什么是传感器",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、传感器在电子控制中的作用",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、认识传感器",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第二节 传感器及其应用",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、温度传感器的应用",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、光传感器的应用",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、其他传感器及其应用",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第三节 传感器的发展趋势",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "第四节 认识继电器",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "一、电路控制与继电器",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、电子控制系统中常用的继电器",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第五节 直流电磁继电器",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "一、直流电磁继电器的结构及工作原理",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、干簧继电器的结构和工作原理",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、继电器的型号及其技术参数",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、电磁继电器的选用",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第五章 电子控制系统及其应用",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "第一节 电子控制系统",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、开环电子控制系统",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、闭环电子控制系统",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第二节 设计实例分析",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、电子控制系统设计的一般原则",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、电子控制系统设计的一般过程",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、恒温控制箱的设计和制作",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第三节 设计的改进",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "第四节 综合活动",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "一、设计与制作",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、领略现代电子控制系统",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

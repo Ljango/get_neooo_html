@@ -1,0 +1,390 @@
+{
+  "entities": [
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:chapter:ch001",
+      "title": "第一章 集合与常用逻辑用语",
+      "type": "Chapter",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 1,
+      "index": 1
+    },
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:section:sec001",
+      "title": "1.1 集合",
+      "type": "Section",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 2,
+      "index": 1,
+      "parentChapter": "urn:jy:textbook:renjiao_B:chapter:ch001"
+    },
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:subsection:ssec001",
+      "title": "1.1.1 集合及其表示方法",
+      "type": "SubSection",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 3,
+      "index": 1,
+      "parentSection": "urn:jy:textbook:renjiao_B:section:sec001"
+    },
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:subsection:ssec002",
+      "title": "1.1.2 集合的基本关系",
+      "type": "SubSection",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 3,
+      "index": 2,
+      "parentSection": "urn:jy:textbook:renjiao_B:section:sec001"
+    },
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:subsection:ssec003",
+      "title": "1.1.3 集合的基本运算",
+      "type": "SubSection",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 3,
+      "index": 3,
+      "parentSection": "urn:jy:textbook:renjiao_B:section:sec001"
+    },
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:section:sec002",
+      "title": "1.2 常用逻辑用语",
+      "type": "Section",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 2,
+      "index": 2,
+      "parentChapter": "urn:jy:textbook:renjiao_B:chapter:ch001"
+    },
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:subsection:ssec004",
+      "title": "1.2.1 命题与量词",
+      "type": "SubSection",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 3,
+      "index": 1,
+      "parentSection": "urn:jy:textbook:renjiao_B:section:sec002"
+    },
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:subsection:ssec005",
+      "title": "1.2.2 全称量词命题与存在量词命题的否定",
+      "type": "SubSection",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 3,
+      "index": 2,
+      "parentSection": "urn:jy:textbook:renjiao_B:section:sec002"
+    },
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:subsection:ssec006",
+      "title": "1.2.3 充分条件、必要条件",
+      "type": "SubSection",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 3,
+      "index": 3,
+      "parentSection": "urn:jy:textbook:renjiao_B:section:sec002"
+    },
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:section:sec003",
+      "title": "本章小结",
+      "type": "Section",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 2,
+      "index": 3,
+      "parentChapter": "urn:jy:textbook:renjiao_B:chapter:ch001"
+    },
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:chapter:ch002",
+      "title": "第二章 等式与不等式",
+      "type": "Chapter",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 1,
+      "index": 2
+    },
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:section:sec004",
+      "title": "2.1 等式",
+      "type": "Section",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 2,
+      "index": 1,
+      "parentChapter": "urn:jy:textbook:renjiao_B:chapter:ch002"
+    },
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:subsection:ssec007",
+      "title": "2.1.1 等式的性质与方程的解集",
+      "type": "SubSection",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 3,
+      "index": 1,
+      "parentSection": "urn:jy:textbook:renjiao_B:section:sec004"
+    },
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:subsection:ssec008",
+      "title": "2.1.2 一元二次方程的解集及其根与系数的关系",
+      "type": "SubSection",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 3,
+      "index": 2,
+      "parentSection": "urn:jy:textbook:renjiao_B:section:sec004"
+    },
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:subsection:ssec009",
+      "title": "2.1.3 方程组的解集",
+      "type": "SubSection",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 3,
+      "index": 3,
+      "parentSection": "urn:jy:textbook:renjiao_B:section:sec004"
+    },
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:section:sec005",
+      "title": "2.2 不等式",
+      "type": "Section",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 2,
+      "index": 2,
+      "parentChapter": "urn:jy:textbook:renjiao_B:chapter:ch002"
+    },
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:subsection:ssec010",
+      "title": "2.2.1 不等式及其性质",
+      "type": "SubSection",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 3,
+      "index": 1,
+      "parentSection": "urn:jy:textbook:renjiao_B:section:sec005"
+    },
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:subsection:ssec011",
+      "title": "2.2.2 不等式的解集",
+      "type": "SubSection",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 3,
+      "index": 2,
+      "parentSection": "urn:jy:textbook:renjiao_B:section:sec005"
+    },
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:subsection:ssec012",
+      "title": "2.2.3 一元二次不等式的解法",
+      "type": "SubSection",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 3,
+      "index": 3,
+      "parentSection": "urn:jy:textbook:renjiao_B:section:sec005"
+    },
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:subsection:ssec013",
+      "title": "2.2.4 均值不等式及其应用",
+      "type": "SubSection",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 3,
+      "index": 4,
+      "parentSection": "urn:jy:textbook:renjiao_B:section:sec005"
+    },
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:section:sec006",
+      "title": "本章小结",
+      "type": "Section",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 2,
+      "index": 3,
+      "parentChapter": "urn:jy:textbook:renjiao_B:chapter:ch002"
+    },
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:chapter:ch003",
+      "title": "第三章 函数",
+      "type": "Chapter",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 1,
+      "index": 3
+    },
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:section:sec007",
+      "title": "3.1 函数的概念与性质",
+      "type": "Section",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 2,
+      "index": 1,
+      "parentChapter": "urn:jy:textbook:renjiao_B:chapter:ch003"
+    },
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:subsection:ssec014",
+      "title": "3.1.1 函数及其表示方法",
+      "type": "SubSection",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 3,
+      "index": 1,
+      "parentSection": "urn:jy:textbook:renjiao_B:section:sec007"
+    },
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:subsection:ssec015",
+      "title": "3.1.2 函数的单调性",
+      "type": "SubSection",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 3,
+      "index": 2,
+      "parentSection": "urn:jy:textbook:renjiao_B:section:sec007"
+    },
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:subsection:ssec016",
+      "title": "3.1.3 函数的奇偶性",
+      "type": "SubSection",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 3,
+      "index": 3,
+      "parentSection": "urn:jy:textbook:renjiao_B:section:sec007"
+    },
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:section:sec008",
+      "title": "3.2 函数与方程、不等式之间的关系",
+      "type": "Section",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 2,
+      "index": 2,
+      "parentChapter": "urn:jy:textbook:renjiao_B:chapter:ch003"
+    },
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:section:sec009",
+      "title": "3.3 函数的应用(一)",
+      "type": "Section",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 2,
+      "index": 3,
+      "parentChapter": "urn:jy:textbook:renjiao_B:chapter:ch003"
+    },
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:section:sec010",
+      "title": "3.4 数学建模活动:决定苹果的最佳出售时间点",
+      "type": "Section",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 2,
+      "index": 4,
+      "parentChapter": "urn:jy:textbook:renjiao_B:chapter:ch003"
+    },
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:section:sec011",
+      "title": "本章小结",
+      "type": "Section",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 2,
+      "index": 5,
+      "parentChapter": "urn:jy:textbook:renjiao_B:chapter:ch003"
+    },
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:chapter:ch004",
+      "title": "本书拓展阅读目录",
+      "type": "Chapter",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 1,
+      "index": 4
+    },
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:section:sec012",
+      "title": "罗素悖论与第三次数学危机",
+      "type": "Section",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 2,
+      "index": 1,
+      "parentChapter": "urn:jy:textbook:renjiao_B:chapter:ch004"
+    },
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:section:sec013",
+      "title": "数学中的猜想",
+      "type": "Section",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 2,
+      "index": 2,
+      "parentChapter": "urn:jy:textbook:renjiao_B:chapter:ch004"
+    },
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:section:sec014",
+      "title": "自主招生中的充分条件与必要条件",
+      "type": "Section",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 2,
+      "index": 3,
+      "parentChapter": "urn:jy:textbook:renjiao_B:chapter:ch004"
+    },
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:section:sec015",
+      "title": "《九章算术》中的代数成就简介",
+      "type": "Section",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 2,
+      "index": 4,
+      "parentChapter": "urn:jy:textbook:renjiao_B:chapter:ch004"
+    },
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:section:sec016",
+      "title": "函数定义的演变过程简介",
+      "type": "Section",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 2,
+      "index": 5,
+      "parentChapter": "urn:jy:textbook:renjiao_B:chapter:ch004"
+    },
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:section:sec017",
+      "title": "物理中的变化率",
+      "type": "Section",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 2,
+      "index": 6,
+      "parentChapter": "urn:jy:textbook:renjiao_B:chapter:ch004"
+    },
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:section:sec018",
+      "title": "付出与收获的关系",
+      "type": "Section",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 2,
+      "index": 7,
+      "parentChapter": "urn:jy:textbook:renjiao_B:chapter:ch004"
+    },
+    {
+      "identifier": "urn:jy:textbook:renjiao_B:section:sec019",
+      "title": "二分法在搜索中的应用",
+      "type": "Section",
+      "book": "高中数学人教版（B版）（主编：高存明）必修 第一册",
+      "bookId": "renjiao_B",
+      "level": 2,
+      "index": 8,
+      "parentChapter": "urn:jy:textbook:renjiao_B:chapter:ch004"
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "title": "高中通用技术人教版选择性必修1",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "通用技术",
+  "banben": "人教版",
+  "ceci": "选择性必修1",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章  电子控制概述",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第 1 节  控制技术的发展",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.1  控制技术的发展",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "1.2  电子控制技术",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "1.3  电子控制系统",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第 2 节  现代控制技术的特点",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "2.1  电子化",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.2  网络化",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "2.3  智能化",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第 3 节  电子控制技术改变现代生活",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "3.1  从门锁演变看控制技术",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "3.2  电子控制技术对生活的改变",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第 4 节  常用电子元器件的识别及焊接",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "4.1  电子元器件的分类",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "4.2  电子元器件的认识",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "4.3  电路与电路符号",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "4.4  电路板焊接",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第二章  模拟电路与数字电路",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第 1 节  模拟信号和数字信号",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.1  模拟信号和数字信号的特性",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "1.2  模拟信号和数字信号之间的转换",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第 2 节  常用晶体管的基本原理和应用",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "2.1  晶体二极管的应用",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.2  晶体三极管",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第 3 节  晶体三极管的开关特性及其应用",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "3.1  晶体三极管的开关特性",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "3.2  常见的数字集成电路类型",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第 4 节  数字电路中的基本组合逻辑电路",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "4.1  逻辑代数的三种基本运算 ",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "4.2  基本门电路",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "4.3  常用组合逻辑电路",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第 5 节  典型电路应用举例",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "5.1  简易声光报警电路",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "5.2  火情报警器",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第三章  传感器与继电器",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第 1 节  传感器的发展趋势",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.1  传感器的发展趋势",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "1.2  认识传感器",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第 2 节  传感器的特性及分类",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "2.1  传感器的一般特性",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.2  传感器的分类",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第 3 节  常见传感器的应用",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "3.1  温度传感器的应用",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "3.2  光敏传感器的应用",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.3  磁敏传感器的应用",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第 4 节  继电器的应用",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "4.1  继电器的作用与分类",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "4.2  电磁继电器的结构与工作原理",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "4.3  直流电磁继电器的规格",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "4.4  直流电磁继电器的应用",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第四章  电子控制系统",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "第 1 节  电子控制系统",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.1  认识电子控制系统",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "1.2  开环电子控制系统",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "1.3  闭环电子控制系统",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第 2 节  开环电子控制系统设计",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "2.1  利用面包板搭建、焊接电路",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.2  开环电子控制系统示例",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第 3 节  闭环电子控制系统设计",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "3.1  开源微控制器平台介绍",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "3.2  闭环电子控制系统示例",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

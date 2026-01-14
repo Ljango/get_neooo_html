@@ -1,0 +1,348 @@
+{
+  "title": "高中数学湘教版必修 第二册",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "数学",
+  "banben": "湘教版",
+  "ceci": "必修 第二册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 平面向量及其应用",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "1.1向量",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "1.2向量的加法",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "1.3向量的数乘",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "1.4向量的分解与坐标表示",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "1.4.1向量分解及坐标表示",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "1.4.2向量线性运算的坐标表示",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "1.5向量的数量积",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "1.5.1数量积的定义及计算",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "1.5.2数量积的坐标表示及其计算",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "1.6解三角形",
+          "level": 2,
+          "index": 6,
+          "children": [
+            {
+              "title": "1.6.1余弦定理",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "1.6.2正弦定理",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "1.6.3解三角形应用举例",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "1.7平面向量的应用举例",
+          "level": 2,
+          "index": 7
+        },
+        {
+          "title": "小结与复习",
+          "level": 2,
+          "index": 8
+        }
+      ]
+    },
+    {
+      "title": "第二章 三角恒等变换",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "2.1两角和与差的三角函数",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "2.1.1两角和与差的余弦公式",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.1.2两角和与差的正弦公式",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "2.1.3两角和与差的正切公式",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "2.2二倍角的三角函数",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "2.3简单的三角恒等变换",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "小结与复习",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第三章 复数",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "3.1复数的概念",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "3.2复数的四则运算",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3.3复数的几何表示",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "*3.4复数的三角表示",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "小结与复习",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第四章 立体几何初步",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "4.1空间的几何体",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "4.1.1几类简单几何体",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "4.1.2空间几何体的直观图",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "4.2平面",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "4.3直线与直线、直线与平面的位置关系",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "4.3.1空间中直线与直线的位置关系",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "4.3.2空间中直线与平面的位置关系",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "4.4平面与平面的位置关系",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "4.4.1平面与平面平行",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "4.4.2平面与平面垂直",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "4.5几种简单几何体的表面积和体积",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "4.5.1几种简单几何体的表面积",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "4.5.2几种简单几何体的体积",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "小结与复习",
+          "level": 2,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "title": "第五章 概率",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "5.1随机事件与样本空间",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "5.1.1随机事件",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "5.1.2事件的运算",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "5.2概率与运算",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "5.2.1古典概型",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "5.2.2概率的运算",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "5.3用频率估计概率",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "5.4随机事件的独立性",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "小结与复习",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第六章 数学建模",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "6.1走进异彩纷呈的数学建模世界",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "6.2数学建模——从自然走向理性之路",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "6.3数学建模案例（一）：最佳视角",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "6.4数学建模案例（二）：曼哈顿距离",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "6.5数学建模案例（三）：人数估计",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    }
+  ]
+}

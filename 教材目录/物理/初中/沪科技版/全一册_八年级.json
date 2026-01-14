@@ -1,0 +1,385 @@
+{
+  "title": "新教材-初中物理沪科技版八年级全一册",
+  "xueduan": "初中",
+  "nianji": "八年级",
+  "xueke": "物理",
+  "banben": "沪科技版",
+  "ceci": "全一册",
+  "is_new": true,
+  "chapters": [
+    {
+      "title": "绪论 打开物理世界的大门",
+      "level": 1,
+      "index": 1
+    },
+    {
+      "title": "第一章 运动的世界",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第一节 动与静",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 快与慢",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 测量：长度与时间",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "第四节 测量：物体运动的速度",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "实践 设计一个研学旅行方案",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第二章 声的世界",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第一节 声音的产生与传播",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 声音的特性",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 超声波与次声波",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "第四节 噪声控制与健康生活",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "实践 举办“创意与炫酷”音乐会",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第三章 光的世界",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "第一节 探究：光的反射定律",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 探究：平面镜成像的特点",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 光的折射",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "第四节 光的色散",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "实践 创作七彩梦幻般的彩虹",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第四章 神奇的透镜",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "第一节 凸透镜与凹透镜",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 探究：凸透镜成像的规律",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 神奇的“眼睛”",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "实践 探究森林火情缘由",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第五章 质量与密度",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "第一节 质量",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 测量：物体的质量",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 密度",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "第四节 测量：固体和液体的密度",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "实践 制作水油沙漏",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第六章 熟悉而陌生的力",
+      "level": 1,
+      "index": 7,
+      "children": [
+        {
+          "title": "第一节 力及其描述",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 测量：用弹簧测力计测量力",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 来自地球的力",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "第四节 探究：滑动摩擦力大小与哪些因素有关",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "实践 创作飞天科幻故事",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第七章 力与运动",
+      "level": 1,
+      "index": 8,
+      "children": [
+        {
+          "title": "第一节 牛顿第一定律",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 力的合成",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 二力平衡",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "实践 调研桥梁建筑中的力平衡",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第八章 压强",
+      "level": 1,
+      "index": 9,
+      "children": [
+        {
+          "title": "第一节 压力的作用效果",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 探究：液体压强与哪些因素有关",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 空气的“力量”",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "第四节 流体压强与流速的关系",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "实践 制作能升空的飞机模型",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第九章 浮力",
+      "level": 1,
+      "index": 10,
+      "children": [
+        {
+          "title": "第一节 认识浮力",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 探究：浮力大小与哪些因素有关",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 阿基米德原理",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "第四节 物体的浮与沉",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "实践 调研我国造船与航海方面的成就",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第十章 功与机械能",
+      "level": 1,
+      "index": 11,
+      "children": [
+        {
+          "title": "第一节 机械功",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 功率",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 动能和势能",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "第四节 机械能转化及其应用",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "实践 探究游乐设施中的功与能",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第十一章 简单机械",
+      "level": 1,
+      "index": 12,
+      "children": [
+        {
+          "title": "第一节 探究：杠杆的平衡条件",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 滑轮及其应用",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 机械效率",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "实践 制作“龙骨水车”模型",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第十二章 小粒子与大宇宙",
+      "level": 1,
+      "index": 13,
+      "children": [
+        {
+          "title": "第一节 走进微观",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 看不见的运动",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第三节 探索宇宙",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "第四节 跨学科：弘扬科学家精神",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "实践 追寻人类探索宇宙的进展",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    }
+  ]
+}

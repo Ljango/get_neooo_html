@@ -1,0 +1,480 @@
+{
+  "title": "初中数学北师大版七年级下册",
+  "xueduan": "初中",
+  "nianji": "七年级",
+  "xueke": "数学",
+  "banben": "北师大版",
+  "ceci": "下册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 整式的乘除",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "1 同底数幂的乘法",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2 幂的乘方与积的乘方",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "幂的乘方",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "积的乘方",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "3 同底数幂的除法",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "同底数幂的除法",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "用科学记数法表示较小的数",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "4 整式的乘法",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "单项式乘以单项式",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "单项式乘以多单项式",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "多项式乘以多项式",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "5 平方差公式",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "平方差公式的认识",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "平方差公式的应用",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "6 完全平方公式",
+          "level": 2,
+          "index": 6,
+          "children": [
+            {
+              "title": "完全平方公式的认识",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "完全平方公式的应用",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "7 整式的除法",
+          "level": 2,
+          "index": 7,
+          "children": [
+            {
+              "title": "单项式除以单项式",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "多项式除以单项式",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "回顾与思考",
+          "level": 2,
+          "index": 8
+        },
+        {
+          "title": "复习题",
+          "level": 2,
+          "index": 9
+        }
+      ]
+    },
+    {
+      "title": "第二章 相交线与平行线",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "1 两条直线的位置关系",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "对顶角、余角和补角",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "垂直",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "2 探索直线平行的条件",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "利用同位角判断两直线平行",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "利用内错角、同旁内角判断两直线平行",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "3 平行线的性质",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "平行线的性质探究",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "平行线的性质综合应用",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "4 用尺规作角",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "回顾与思考",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "复习题",
+          "level": 2,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "title": "第三章 变量之间的关系",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "1 用表格表示的变量间关系",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2 用关系式表示的变量间关系",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3 用图象表示的变量间关系",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "曲线型图象表示的变量间关系",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "折线型图象表示的变量间关系",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "回顾与思考",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "复习题",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第四章 三角形",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "1 认识三角形",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "三角形的内角和",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "三角形的三边关系",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三角形的中线、角平分线",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "三角形的高",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "2 图形的全等",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3 探索三角形全等的条件",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "“边边边”判定",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "“角边角”“角角边”判定",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "“边角边”判定",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "4 用尺规作三角形",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "5 利用三角形全等测距离",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "回顾与思考",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "复习题",
+          "level": 2,
+          "index": 7
+        }
+      ]
+    },
+    {
+      "title": "第五章 生活中的轴对称",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "1 轴对称现象",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2 探索轴对称的性质",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3 简单的轴对称图形",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "等腰三角形的轴对称性",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "线段的轴对称性",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "角的轴对称性",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "4 利用轴对称进行设计",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "回顾与思考",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "复习题",
+          "level": 2,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "title": "第六章 概率初步",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "1 感受可能性",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2 频率的稳定性",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "非等可能事件频率的稳定性",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "等可能事件频率的稳定性",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "3 等可能事件的概率",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "等可能事件的概率计算",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "可化为等可能事件的概率计算",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "面积相等的几何概率问题",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "可化为面积相等的几何概率问题",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "回顾与思考",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "复习题",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "综合与实践",
+      "level": 1,
+      "index": 7,
+      "children": [
+        {
+          "title": "设计自己的运算程序",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "七巧板",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "总复习",
+      "level": 1,
+      "index": 8
+    }
+  ]
+}

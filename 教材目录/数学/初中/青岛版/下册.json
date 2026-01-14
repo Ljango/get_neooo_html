@@ -1,0 +1,479 @@
+{
+  "title": "初中数学青岛版七年级下册",
+  "xueduan": "初中",
+  "nianji": "七年级",
+  "xueke": "数学",
+  "banben": "青岛版",
+  "ceci": "下册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第8章 角",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "8.1 角的表示",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "8.2 角的比较",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "8.3 角的度量",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "角的度量与计算",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "余角、补角及其性质",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "8.4 对顶角",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "8.5 垂直",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "回顾与总结",
+          "level": 2,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "title": "第9章 平行线",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "9.1 同位角、内错角、同旁内角",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "9.2 平行线和它的画法",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "9.3 平行线的性质",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "9.4 平行线的判定",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "探索平行线的判定方法",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "平行线判定方法的应用",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "回顾与总结",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第10章 一次方程组",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "10.1 认识二元一次方程组",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "10.2 二元一次方程组的解法",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "代入消元法解二元一次方程组",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "加减消元法解二元一次方程组",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "*10.3 三元一次方程组",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "10.4 列方程组解应用题",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "二元一次方程组的应用（1）",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二元一次方程组的应用（2）",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "二元一次方程组的应用（3）",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "回顾与总结",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "一次方程组知识结构",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "一次方程组中典型例题的解析",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第11章 整式的乘除",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "11.1 同底数幂的乘法",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "11.2 积的乘方与幂的乘方",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "积的乘方",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "幂的乘方",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "11.3 单项式的乘法",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "单项式乘以单项式",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "单项式乘以多项式",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "11.4 多项式乘多项式",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "11.5 同底数幂的除法",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "11.6 零指数幂与负整数指数幂",
+          "level": 2,
+          "index": 6,
+          "children": [
+            {
+              "title": "零指数幂",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "负整数指数幂",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "含有零指数幂与负整数指数幂的运算",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "用科学记数法表示绝对值小于1的数",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "回顾与总结",
+          "level": 2,
+          "index": 7,
+          "children": [
+            {
+              "title": "整式的乘除知识结构",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "整式的乘除中典型例题的解析",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第12章 乘法公式与因式分解",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "12.1 平方差公式",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "12.2 完全平方公式",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "完全平方公式的探索与简单应用",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "乘法公式的综合应用",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "12.3 用提公因式法进行因式分解",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "12.4 用公式法进行因式分解",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "用一种公式进行因式分解",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "综合运用提公因式法和公式法进行因式分解",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "回顾与总结",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第13章 平面图形的认识",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "13.1 三角形",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "三角形有关概念",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "三角形的三边关系",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三角形的三条重要线段",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "三角形的外角和它的性质",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "13.2 多边形",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "多边形有关概念",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "多边形的内角和与外角和",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "13.3 圆",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "圆的有关概念",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "多边形的内角和与外角和",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "回顾与总结",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "平面图形基本知识结构",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "平面图形基本知识中典型例题的解析",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "综合与实践 多边形的密铺",
+      "level": 1,
+      "index": 7,
+      "children": [
+        {
+          "title": "用同种等边的正多边形与全等的四边形和三角形的密铺",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "用多种等边的正多边形的密铺",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "第14章 位置与坐标",
+      "level": 1,
+      "index": 8,
+      "children": [
+        {
+          "title": "14.1 用有序数对表示位置",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "14.2 平面直角坐标系",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "14.3 直角坐标系中的图形",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "根据各点确定坐标坐标并进行有关计算",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "建立适合的平面直角坐标系确定点的坐标",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "14.4 用方向和距离描述两个物体的相对位置",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "回顾与总结",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    }
+  ]
+}

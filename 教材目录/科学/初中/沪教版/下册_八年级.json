@@ -1,0 +1,94 @@
+{
+  "title": "初中科学沪教版八年级下册",
+  "xueduan": "初中",
+  "nianji": "八年级",
+  "xueke": "科学",
+  "banben": "沪教版",
+  "ceci": "下册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "力与运动",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第一章  力",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二章  简单机械和功",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "本篇小结",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "生物体的运动与控制",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第三章  生物的运动",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第四章  神经调节与激素调节",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "生命的延续",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第五章  植物的繁殖",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第六章  动物的繁殖",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "本篇小结",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "天气与气候",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "第七章  天气",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第八章  气候",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "本篇小结",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "title": "初中（五•四学制）化学人教版八年级全一册",
+  "xueduan": "初中（五•四学制）",
+  "nianji": "八年级",
+  "xueke": "化学",
+  "banben": "人教版",
+  "ceci": "全一册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "绪言 化学使世界变得更加绚丽多彩",
+      "level": 1,
+      "index": 1
+    },
+    {
+      "title": "第一单元 走进化学世界",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "课题1 物质的变化和性质",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "课题2 化学是一门以实验为基础的科学",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "课题3 走进化学实验室",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第二单元 我们周围的空气",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "课题1 空气",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "课题2 氧气",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "课题3 制取氧气",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "实验活动1 氧气的实验室制取与性质",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第三单元 物质构成的奥秘",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "课题1 分子和原子",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "课题2 原子的结构",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "原子的构成",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "原子核外电子的排布",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "离子及离子的形成",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "相对原子质量",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "课题3 元素",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第四单元 自然界的水",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "课题1 爱护水资源",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "课题2 水的净化",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "课题3 水的组成",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "课题4 化学式与化合价",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第五单元 化学方程式",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "课题1 质量守恒定律",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "课题2 如何正确书写化学方程式",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "课题3 利用化学方程式的简单计算",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第六单元 碳和碳的氧化物",
+      "level": 1,
+      "index": 7,
+      "children": [
+        {
+          "title": "课题1 金刚石、石墨和C60 ",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "课题2 二氧化碳制取的研究",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "课题3 二氧化碳和一氧化碳",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "实验活动2 二氧化碳的实验室制取与性质",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第七单元 燃料及其利用",
+      "level": 1,
+      "index": 8,
+      "children": [
+        {
+          "title": "课题1 燃烧和灭火",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "课题2 燃料的合理利用与开发",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "实验活动3 燃烧的条件",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    }
+  ]
+}

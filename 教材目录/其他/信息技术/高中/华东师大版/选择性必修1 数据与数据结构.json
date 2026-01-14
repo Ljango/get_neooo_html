@@ -1,0 +1,161 @@
+{
+  "title": "高中信息技术华东师大版选择性必修1 数据与数据结构",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "信息技术",
+  "banben": "华东师大版",
+  "ceci": "选择性必修1 数据与数据结构",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 引言",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "数据",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "数据结构",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "第二章 数据类型",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "基本类型",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "常用类型",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "组合类型",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "抽象类型",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第三章 基础数据结构",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "线性表及其实现的基本考虑",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "顺序表及链表的实现",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "线性表在数据流检测问题中的应用",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "线性表的数组实现、性能分析",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "栈与栈的基本操作",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "栈的实现与应用",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "队列及队列的实现",
+          "level": 2,
+          "index": 7
+        },
+        {
+          "title": "队列的应用",
+          "level": 2,
+          "index": 8
+        }
+      ]
+    },
+    {
+      "title": "第四章 常用数据结构",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "二叉树与二叉树的实",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "二叉树、遍历与递归",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "二叉树的应用",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "什么是图",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "图的实现",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "图的应用",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "哈希表",
+          "level": 2,
+          "index": 7
+        }
+      ]
+    },
+    {
+      "title": "第五章 数据结构应用",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "排序",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "查找",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    }
+  ]
+}

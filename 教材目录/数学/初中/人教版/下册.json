@@ -1,0 +1,284 @@
+{
+  "title": "新教材-初中数学人教版七年级下册",
+  "xueduan": "初中",
+  "nianji": "七年级",
+  "xueke": "数学",
+  "banben": "人教版",
+  "ceci": "下册",
+  "is_new": true,
+  "chapters": [
+    {
+      "title": "第七章 相交线与平行线",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "7.1 相交线",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "7.1.1两条直线相交",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "7.1.2两条直线垂直",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "7.1.3两条直线被第三条直线所截",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "7.2 平行线",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "7.2.1平行线的概念",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "7.2.2平行线的判定",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "7.2.3平行线的性质",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "7.3 定义、命题、定理",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "7.4 平移",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第八章 实数",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "8.1 平方根",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "8.2 立方根",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "8.3 实数及其简单运算",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第九章 平面直角坐标系",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "9.1 用坐标描述平面内点的位置",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "9.1.1 平面直角坐标系的概念",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "9.1.2 用坐标描述简单几何图形",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "9.2 坐标方法的简单应用",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "9.2.1 用坐标表示地理位置",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "9.2.2 用坐标表示平移",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第十章 二元一次方程组",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "10.1 二元一次方程组的概念",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "10.2 消元——解二元一次方程组",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "10.2.1 代入消元法",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "10.2.2 加减消元法",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "10.3 实际问题与二元一次方程组",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "*10.4 三元一次方程组的解法",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第十一章 不等式与不等式组",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "11.1 不等式",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "11.1.1 不等式及其解集",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "11.1.2 不等式的性质",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "11.2 一元一次不等式",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "11.3 一元一次不等式组",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第十二章 数据的收集、整理与描述",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "12.1 统计调查",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "12.1.1 全面调查",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "12.1.2 抽样调查",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "12.2 用统计图描述数据",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "12.2.1 扇形图、条形图和折线图",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "12.2.2 直方图",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "12.2.3 趋势图",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    }
+  ]
+}

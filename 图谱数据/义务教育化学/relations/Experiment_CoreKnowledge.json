@@ -1,0 +1,143 @@
+{
+  "relations": [
+    {
+      "relationName": "experimentEmbodiesCoreKnowledge",
+      "label": "实验体现核心知识 / embodiesCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:experiment:l1",
+      "target": "urn:jy:chemistry:SB0402:OB03:core-knowledge:l2"
+    },
+    {
+      "relationName": "experimentEmbodiesCoreKnowledge",
+      "label": "实验体现核心知识 / embodiesCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:experiment:l1",
+      "target": "urn:jy:chemistry:SB0402:OB03:core-knowledge:l4"
+    },
+
+    {
+      "relationName": "experimentEmbodiesCoreKnowledge",
+      "label": "实验体现核心知识 / embodiesCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:experiment:l2",
+      "target": "urn:jy:chemistry:SB0402:OB03:core-knowledge:l2"
+    },
+    {
+      "relationName": "experimentEmbodiesCoreKnowledge",
+      "label": "实验体现核心知识 / embodiesCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:experiment:l2",
+      "target": "urn:jy:chemistry:SB0402:OB03:core-knowledge:l3"
+    },
+
+    {
+      "relationName": "experimentEmbodiesCoreKnowledge",
+      "label": "实验体现核心知识 / embodiesCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:experiment:l3",
+      "target": "urn:jy:chemistry:SB0402:OB03:core-knowledge:l2"
+    },
+    {
+      "relationName": "experimentEmbodiesCoreKnowledge",
+      "label": "实验体现核心知识 / embodiesCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:experiment:l3",
+      "target": "urn:jy:chemistry:SB0402:OB03:core-knowledge:l3"
+    },
+    {
+      "relationName": "experimentEmbodiesCoreKnowledge",
+      "label": "实验体现核心知识 / embodiesCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:experiment:l3",
+      "target": "urn:jy:chemistry:SB0402:OB03:core-knowledge:l6"
+    },
+
+    {
+      "relationName": "experimentEmbodiesCoreKnowledge",
+      "label": "实验体现核心知识 / embodiesCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:experiment:l4",
+      "target": "urn:jy:chemistry:SB0402:OB03:core-knowledge:l2"
+    },
+    {
+      "relationName": "experimentEmbodiesCoreKnowledge",
+      "label": "实验体现核心知识 / embodiesCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:experiment:l4",
+      "target": "urn:jy:chemistry:SB0402:OB03:core-knowledge:l5"
+    },
+
+    {
+      "relationName": "experimentEmbodiesCoreKnowledge",
+      "label": "实验体现核心知识 / embodiesCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:experiment:l5",
+      "target": "urn:jy:chemistry:SB0402:OB03:core-knowledge:l2"
+    },
+    {
+      "relationName": "experimentEmbodiesCoreKnowledge",
+      "label": "实验体现核心知识 / embodiesCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:experiment:l5",
+      "target": "urn:jy:chemistry:SB0402:OB03:core-knowledge:l6"
+    },
+
+    {
+      "relationName": "experimentEmbodiesCoreKnowledge",
+      "label": "实验体现核心知识 / embodiesCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:experiment:l6",
+      "target": "urn:jy:chemistry:SB0402:OB03:core-knowledge:l2"
+    },
+    {
+      "relationName": "experimentEmbodiesCoreKnowledge",
+      "label": "实验体现核心知识 / embodiesCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:experiment:l6",
+      "target": "urn:jy:chemistry:SB0402:OB03:core-knowledge:l4"
+    },
+
+    {
+      "relationName": "experimentEmbodiesCoreKnowledge",
+      "label": "实验体现核心知识 / embodiesCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:experiment:l7",
+      "target": "urn:jy:chemistry:SB0402:OB03:core-knowledge:l1"
+    },
+    {
+      "relationName": "experimentEmbodiesCoreKnowledge",
+      "label": "实验体现核心知识 / embodiesCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:experiment:l7",
+      "target": "urn:jy:chemistry:SB0402:OB03:core-knowledge:l2"
+    },
+    {
+      "relationName": "experimentEmbodiesCoreKnowledge",
+      "label": "实验体现核心知识 / embodiesCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:experiment:l7",
+      "target": "urn:jy:chemistry:SB0402:OB03:core-knowledge:l4"
+    },
+    {
+      "relationName": "experimentEmbodiesCoreKnowledge",
+      "label": "实验体现核心知识 / embodiesCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:experiment:l7",
+      "target": "urn:jy:chemistry:SB0402:OB03:core-knowledge:l7"
+    },
+    {
+      "relationName": "experimentEmbodiesCoreKnowledge",
+      "label": "实验体现核心知识 / embodiesCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:experiment:l7",
+      "target": "urn:jy:chemistry:SB0402:OB03:core-knowledge:l8"
+    },
+    {
+      "relationName": "experimentEmbodiesCoreKnowledge",
+      "label": "实验体现核心知识 / embodiesCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:experiment:l7",
+      "target": "urn:jy:chemistry:SB0402:OB03:core-knowledge:l9"
+    },
+
+    {
+      "relationName": "experimentEmbodiesCoreKnowledge",
+      "label": "实验体现核心知识 / embodiesCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:experiment:l8",
+      "target": "urn:jy:chemistry:SB0402:OB03:core-knowledge:l1"
+    },
+    {
+      "relationName": "experimentEmbodiesCoreKnowledge",
+      "label": "实验体现核心知识 / embodiesCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:experiment:l8",
+      "target": "urn:jy:chemistry:SB0402:OB03:core-knowledge:l2"
+    },
+    {
+      "relationName": "experimentEmbodiesCoreKnowledge",
+      "label": "实验体现核心知识 / embodiesCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:experiment:l8",
+      "target": "urn:jy:chemistry:SB0402:OB03:core-knowledge:l10"
+    }
+  ]
+}

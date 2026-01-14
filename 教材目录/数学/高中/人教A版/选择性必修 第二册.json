@@ -1,0 +1,180 @@
+{
+  "title": "高中数学人教A版选择性必修 第二册",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "数学",
+  "banben": "人教A版",
+  "ceci": "选择性必修 第二册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第四章 数列",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "4.1 数列的概念",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "阅读与思考 斐波那契数列",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "4.2 等差数列",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "4.2.1等差数列的概念",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "4.2.2等差数列的前n项和公式",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "4.3 等比数列",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "4.3.1等比数列的概念",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "4.3.2等比数列的前n项和公式",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "阅读与思考 中国古代数学家求数列和的方法",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "合情推理和演绎推理",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "直接证明与间接证明",
+          "level": 2,
+          "index": 7
+        },
+        {
+          "title": "4.4*数学归纳法",
+          "level": 2,
+          "index": 8
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 9
+        },
+        {
+          "title": "复习参考题4",
+          "level": 2,
+          "index": 10
+        }
+      ]
+    },
+    {
+      "title": "第五章 一元函数的导数及其应用",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "5.1 导数的概念及其意义",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "5.1.1变化率问题",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "5.1.2导数的概念及其几何意义",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "5.2 导数的运算",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "5.2.1基本初等函数的导数",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "5.2.2导数的四则运算法则",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "5.2.3简单复合函数的导数",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "探究与发现 牛顿法——用导数方法求方程的近似解",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "5.3 导数在研究函数中的应用",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "5.3.1函数的单调性",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "5.3.2函数的极值与最大（小）值",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "信息技术应用 图形技术与函数性质",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "文献阅读与数学写作* 微积分的创立与发展",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 7
+        },
+        {
+          "title": "复习参考题5",
+          "level": 2,
+          "index": 8
+        }
+      ]
+    }
+  ]
+}

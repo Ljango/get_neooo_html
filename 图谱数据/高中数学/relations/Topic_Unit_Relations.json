@@ -1,0 +1,974 @@
+[
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00001",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0015"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0015",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00001"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00001",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0016"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0016",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00001"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00001",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0005"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0005",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00001"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00002",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0009"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0009",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00002"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00002",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0017"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0017",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00002"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00002",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0011"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0011",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00002"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00002",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0018"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0018",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00002"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00003",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0012"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0012",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00003"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00003",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0020"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0020",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00003"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00003",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0013"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0013",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00003"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00003",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0021"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0021",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00003"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00003",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0019"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0019",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00003"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00004",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0012"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0012",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00004"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00004",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0020"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0020",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00004"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00004",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0013"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0013",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00004"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00004",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0021"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0021",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00004"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00004",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0019"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0019",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00004"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00005",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0014"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0014",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00005"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00005",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0022"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0022",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00005"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00005",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0008"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0008",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00005"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00005",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0006"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0006",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00005"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00005",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0007"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0007",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00005"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00005",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0018"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0018",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00005"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00006",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0002"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0002",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00006"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00006",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0001"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0001",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00006"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00007",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0014"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0014",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00007"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00007",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0022"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0022",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00007"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00007",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0008"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0008",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00007"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00007",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0013"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0013",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00007"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00007",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0021"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0021",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00007"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00007",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0012"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0012",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00007"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00007",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0020"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0020",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00007"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00008",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0013"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0013",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00008"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00008",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0021"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0021",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00008"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00008",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0012"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0012",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00008"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00008",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0020"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0020",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00008"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00008",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0014"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0014",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00008"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00008",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0022"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0022",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00008"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00009",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0007"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0007",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00009"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00009",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0009"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0009",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00009"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00009",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0005"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0005",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00009"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00010",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0007"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0007",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00010"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00010",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0015"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0015",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00010"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00011",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0009"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0009",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00011"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00011",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0018"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0018",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00011"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00011",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0011"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0011",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00011"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00012",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0008"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0008",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00012"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00012",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0007"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0007",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00012"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00012",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0013"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0013",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00012"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00012",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0021"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0021",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00012"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00012",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0014"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0014",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00012"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00012",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0022"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0022",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00012"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00013",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0015"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0015",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00013"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00013",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0009"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0009",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00013"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00014",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0008"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0008",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00014"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00014",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0013"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0013",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00014"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00014",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0021"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0021",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00014"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00014",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0014"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0014",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00014"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00014",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0022"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0022",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00014"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00015",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0013"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0013",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00015"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00015",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0021"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0021",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00015"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00015",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0011"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0011",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00015"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00015",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0014"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0014",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00015"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00015",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0022"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0022",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00015"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00016",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0015"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0015",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00016"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00016",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0016"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0016",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00016"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00016",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0018"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0018",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00016"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00016",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0017"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0017",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00016"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00016",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0012"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0012",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00016"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00016",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0020"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0020",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00016"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00016",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0013"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0013",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00016"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00016",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0021"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0021",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00016"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00016",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0019"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0019",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00016"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00017",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0018"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0018",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00017"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00017",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0017"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0017",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00017"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00017",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0009"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0009",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00017"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00018",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0012"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0012",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00018"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00018",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0020"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0020",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00018"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00018",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0013"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0013",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00018"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00018",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0021"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0021",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00018"
+  },
+  {
+    "relationName": "topicInvolvesUnit",
+    "label": "涉及 / involves",
+    "source": "urn:jy:math:SB0201:OB06:topic:tp00018",
+    "target": "urn:jy:math:SB0201:OB06:unit:un0019"
+  },
+  {
+    "relationName": "unitSupportsTopic",
+    "label": "支撑 / supports",
+    "source": "urn:jy:math:SB0201:OB06:unit:un0019",
+    "target": "urn:jy:math:SB0201:OB06:topic:tp00018"
+  }
+]

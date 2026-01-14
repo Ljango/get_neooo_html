@@ -1,0 +1,114 @@
+{
+  "title": "初中科学沪教版七年级上册",
+  "xueduan": "初中",
+  "nianji": "七年级",
+  "xueke": "科学",
+  "banben": "沪教版",
+  "ceci": "上册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "走进科学",
+      "level": 1,
+      "index": 1
+    },
+    {
+      "title": "我们的校园",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第一章  认识新的学习环境",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二章  校园平面图",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "本篇小结",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "我们周围的生物",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第三章  显微镜下的生物",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第四章  走进植物世界",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第五章  探索动物世界",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "本篇小结",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "我们周围的物质和变化",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "第六章  初识物质和变化",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第七章  地球运动和四季星空",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第八章  认识我们自身的变化",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "本篇小结",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "我们怎样认识周围的事物",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "第九童  我们怎样看到物休",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第十章  我们怎样听到声音",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "本篇小结",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    }
+  ]
+}

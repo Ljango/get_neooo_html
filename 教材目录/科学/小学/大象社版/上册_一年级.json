@@ -1,0 +1,109 @@
+{
+  "title": "新教材-小学科学大象社版一年级上册",
+  "xueduan": "小学",
+  "nianji": "一年级",
+  "xueke": "科学",
+  "banben": "大象社版",
+  "ceci": "上册",
+  "is_new": true,
+  "chapters": [
+    {
+      "title": "体验单元   画蚂蚁",
+      "level": 1,
+      "index": 1
+    },
+    {
+      "title": "第一单元  感官兄弟",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "1  辨别真假水果",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2  感官的本领",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3  水果分享会",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第二单元  观察常见的动物",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "1  观察兔子",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2  常见的动物",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3  我喜欢的动物",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第三单元  我在哪里",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "1  前后左右",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2  东南西北",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3  太阳的位置变化",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第四单元  多变的月亮",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "1  月亮什么样",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2  月亮“变脸”",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3  白天和夜晚",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "反思单元  竺可桢的观察日记",
+      "level": 1,
+      "index": 6
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "title": "高中信息技术教科版选择性必修3 数据管理与分析",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "信息技术",
+  "banben": "教科版",
+  "ceci": "选择性必修3 数据管理与分析",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第1单元 数据世界与问题解决",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "1.1 认识数据管理与分析的重要性",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "1.2 需求分析与整体解决方案的制订",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "第2单元 数据的收集与整理",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "2.1 数据的收集",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2.2 认识噪声数据",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "2.3 数据的结构化",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第3单元 数据的管理",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "3.1 数据库的初识与剖析",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "3.2 数据库的设计与创建",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3.3 数据库的操作与应用",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第4单元 数据的分析与可视化",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "4.1 数据分析方法",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "4.2 数据分析工具",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "4.3 数据可视化",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第5单元 数据安全",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "5.1 数据丢失与泄露的风险",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "5.2 数据备份与恢复",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "第6单元 初识数据仓库与数据挖掘",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "6.1 数据库和数据仓库",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "6.2 初识数据挖掘",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "6.3 数据挖掘的应用",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    }
+  ]
+}

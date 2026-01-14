@@ -1,0 +1,425 @@
+{
+  "title": "高中数学湘教版必修 第一册",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "数学",
+  "banben": "湘教版",
+  "ceci": "必修 第一册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 集合与逻辑",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "1.1 集合",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.1.1集合",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "1.1.2子集和补集",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "1.1.3集合的交与并",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "1.2 常用逻辑用语",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "1.2.1命题",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "1.2.2充分条件和必要条件",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "1.2.3全称量词和存在量词",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "小结与复习",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第二章 一元二次函数、方程和不等式",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "2.1 相等关系与不等关系",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "2.1.1等式与不等式",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.1.2基本不等式",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "2.1.3基本不等式的应用",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "2.2从函数观点看一元二次方程",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "2.3 一元二次不等式",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "2.3.1一元二次不等式及其解法",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.3.2一元二次不等式的应用",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "小结与复习",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第三章 函数的概念与性质",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "3.1 函数",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "3.1.1对函数概念的再认识",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "3.1.2表示函数的方法",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.1.3简单的分段函数",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "3.2 函数的基本性质",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "3.2.1函数的单调性与最值",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "3.2.2函数的奇偶性",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "小结与复习",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第四章 幂函数、指数函数和对数函数",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "4.1 实数指数幂和幂函数",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "4.1.1有理数指数幂",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "4.1.2无理数指数幂",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "4.1.3幂函数",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "4.2 指数函数",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "4.2.1指数爆炸和指数衰减",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "4.2.2指数函数的图象与性质",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "4.3 对数函数",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "4.3.1对数的概念",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "4.3.2对数的运算法则",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "4.3.3对数函数的图象与性质",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "4.4 函数与方程",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "4.4.1方程的根与函数的零点",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "4.4.2计算函数零点的二分法",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "4.5 函数模型及其应用",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "4.5.1几种函数增长快慢的比较",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "4.5.2形形色色的函数模型",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "小结与复习",
+          "level": 2,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "title": "第五章 三角函数",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "5.1 任意角与弧度制",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "5.1.1角的概念的推广",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "5.1.2弧度制",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "5.2 任意角的三角函数",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "5.2.1任意角三角函数的定义",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "5.2.2同角三角函数的基本关系",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "5.2.3诱导公式",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "5.3 三角函数的图象与性质",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "5.3.1正弦函数、余弦函数的图象与性质",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "5.3.2正切函数的图象与性质",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "5.4函数y=Asin(ωx+φ)的图象与性质",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "5.5三角函数模型的简单应用",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "小结与复习",
+          "level": 2,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "title": "第六章 统计学初步",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "6.1获取数据的途径及统计概念",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "6.2 抽样",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "6.2.1简单随机抽样",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "6.2.2分层抽样",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "6.3统计图表",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "6.4 用样本估计总体",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "6.4.1用样本估计总体的集中趋势",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "6.4.2用样本估计总体的离散程度",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "6.4.3用频率分布直方图估计总体分布",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "6.4.4百分位数",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "小结与复习",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    }
+  ]
+}

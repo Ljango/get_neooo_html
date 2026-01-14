@@ -1,0 +1,510 @@
+{
+  "title": "初中数学华东师大版八年级上册",
+  "xueduan": "初中",
+  "nianji": "八年级",
+  "xueke": "数学",
+  "banben": "华东师大版",
+  "ceci": "上册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第11章 数的开方",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "11.1 平方根与立方根",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "平方根",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "立方根",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "11.2 实数",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "实数的概念与分类",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "实数的运算",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "阅读材料 为什么说根号2不是有理数",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "根号5的算法",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "复习题",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第12章 整式的乘除",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "12.1 幂的运算",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "同底数幂的乘法",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "幂的乘方",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "积的乘方",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "同底数幂的除法",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "12.2 整式的乘法",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "单项式与单项式相乘",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "单项式与多项式相乘",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "多项式与多项式相乘",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "12.3 乘法公式",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "平方差公式",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "完全平方公式",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "阅读材料 贾宪三角",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "12.4 整式的除法",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "单项式除以单项式",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "多项式除以单项式",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "12.5 因式分解",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "用提公因式法进行因式分解",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "用平方差公式进行因式分解",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "用完全平方公式进行因式分解",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "复习题",
+          "level": 2,
+          "index": 7
+        },
+        {
+          "title": "综合与实践 面积与代数恒等式",
+          "level": 2,
+          "index": 8
+        }
+      ]
+    },
+    {
+      "title": "第13章 全等三角形",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "13.1 命题、定理与证明",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "命题",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "定理与证明",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "13.2 三角形全等的判定",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "全等三角形",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "全等三角形的判定条件",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "边角边",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "角边角",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "边边边",
+              "level": 3,
+              "index": 5
+            },
+            {
+              "title": "斜边直角边",
+              "level": 3,
+              "index": 6
+            },
+            {
+              "title": "阅读材料 图形中的“裂缝”",
+              "level": 3,
+              "index": 7
+            }
+          ]
+        },
+        {
+          "title": "13.3 等腰三角形",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "等腰三角形的性质",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "等腰三角形的判定",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "13.4 尺规作图",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "作一条线段等于已知线段",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "作一个角等于已知角",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "作已知角的平分线",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "经过一已知点作已知直线的垂线",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "作已知线段的垂直平分线",
+              "level": 3,
+              "index": 5
+            },
+            {
+              "title": "阅读材料 由尺规作图产生的三大难题",
+              "level": 3,
+              "index": 6
+            }
+          ]
+        },
+        {
+          "title": "13.5 逆命题与逆定理",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "互逆命题与互逆定理",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "线段垂直平分线",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "角平分线",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "阅读材料 《几何原本》",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "复习题",
+          "level": 2,
+          "index": 7
+        }
+      ]
+    },
+    {
+      "title": "第14章 勾股定理",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "14.1 勾股定理",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "直角三角形三边的关系",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "直角三角形的判定",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "反证法",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "阅读材料 勾股定理史话",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "美丽的勾股树",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        },
+        {
+          "title": "14.2 勾股定理的应用",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "勾股定理的应用",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "阅读材料 勾股定理的“无字证明”",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "复习题",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第15章 数据的收集与表示",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "15.1 数据的收集",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "数据有用吗",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "数据的收集",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "阅读材料 谁是《红楼梦》的作者",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "15.2 数据的表示",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "扇形统计图",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "利用统计图表传递信息",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "阅读材料 计算机帮我们画统计图",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "复习题",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "综合与实践 叶子的特征",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "数学实验附图",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "方格图",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "格点图",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    }
+  ]
+}

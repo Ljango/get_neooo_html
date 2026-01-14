@@ -1,0 +1,384 @@
+{
+  "title": "高中信息技术粤教版选择性必修3 数据管理与分析",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "信息技术",
+  "banben": "粤教版",
+  "ceci": "选择性必修3 数据管理与分析",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 数据管理与分析应用概述",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "项目范例  中学生膳食和运动习惯的数据管理与分析调查",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.1 数据管理与分析技术",
+              "level": 3,
+              "index": 1,
+              "children": [
+                {
+                  "title": "1.1.1 数据管理技术与方法",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "1.1.2 数据分析技术与方法",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            },
+            {
+              "title": "1.2 数据管理与分析的重要性及应用价值",
+              "level": 3,
+              "index": 2,
+              "children": [
+                {
+                  "title": "1.2.1 数据管理与分析的重要性",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "1.2.2 数据管理与分析的应用价值",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第二章 需求分析与数据建模",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "项目范例  中学生体质健康数据管理系统的需求分析与数据建模",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "2.1 项目需求分析与解决方案",
+              "level": 3,
+              "index": 1,
+              "children": [
+                {
+                  "title": "2.1.1 项目需求分析.",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "2.1.2 项目解决方案",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            },
+            {
+              "title": "2.2 数据的采集与分类",
+              "level": 3,
+              "index": 2,
+              "children": [
+                {
+                  "title": "2.2.1 数据采集的途径",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "2.2.2 数据的分类",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            },
+            {
+              "title": "2.3 建立关系数据模型",
+              "level": 3,
+              "index": 3,
+              "children": [
+                {
+                  "title": "2.3.1 概念模型与E- R方法",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "2.3.2 从概念模型到关系数据模型的转换",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第三章 数据管理",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "项目范例  中学生体质健康数据管理系统的需求分析与数据建模",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "3.1 关系数据库的建立",
+              "level": 3,
+              "index": 1,
+              "children": [
+                {
+                  "title": "3.1.1 创建数据库和数据表",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "3.1.2 修改表的结构",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "3.1.3 建立表之间的联系",
+                  "level": 4,
+                  "index": 3
+                },
+                {
+                  "title": "3.1.4 数据库事务的处理",
+                  "level": 4,
+                  "index": 4
+                }
+              ]
+            },
+            {
+              "title": "3.2 数据的查询",
+              "level": 3,
+              "index": 2,
+              "children": [
+                {
+                  "title": "3.2.1 数据库基本的查询方法",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "3.2.2 使用结构化查询语言SQL查询数据",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            },
+            {
+              "title": "3.3 数据的备份与恢复",
+              "level": 3,
+              "index": 3,
+              "children": [
+                {
+                  "title": "3.3.1 数据丢失的风险及原因",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "3.3.2 常见的数据备份与恢复方法",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第四章 数据分析",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "项目范例  中学生体质健康数据管理系统的数据分析",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "4.1 数据分析概述",
+              "level": 3,
+              "index": 1,
+              "children": [
+                {
+                  "title": "4.1.1 数据分析的方法",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "4.1.2 数据分析的工具",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "4.1.3 数据导入",
+                  "level": 4,
+                  "index": 3
+                },
+                {
+                  "title": "4.1.4 数据导出",
+                  "level": 4,
+                  "index": 4
+                }
+              ]
+            },
+            {
+              "title": "4.2 数据处理",
+              "level": 3,
+              "index": 2,
+              "children": [
+                {
+                  "title": "4.2.1 数据清洗",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "4.2.2 数据的合并",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "4.2.3 数据的计算",
+                  "level": 4,
+                  "index": 3
+                },
+                {
+                  "title": "4.2.4 数据分组",
+                  "level": 4,
+                  "index": 4
+                }
+              ]
+            },
+            {
+              "title": "4.3 描述性分析",
+              "level": 3,
+              "index": 3,
+              "children": [
+                {
+                  "title": "4.3.1 基本统计",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "4.3.2 平均值分析法",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "4.3.3 分组分析法",
+                  "level": 4,
+                  "index": 3
+                },
+                {
+                  "title": "4.3.4 对比分析法",
+                  "level": 4,
+                  "index": 4
+                },
+                {
+                  "title": "4.3.5 交叉分析法",
+                  "level": 4,
+                  "index": 5
+                },
+                {
+                  "title": "4.3.6 相关分析",
+                  "level": 4,
+                  "index": 6
+                },
+                {
+                  "title": "4.3.7 常用的数据分析方法对比",
+                  "level": 4,
+                  "index": 7
+                }
+              ]
+            },
+            {
+              "title": "4.4 数据的可视化表达",
+              "level": 3,
+              "index": 4,
+              "children": [
+                {
+                  "title": "4.4.1 常用图形的绘制",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "4.4.2 数据可视化实例1——回归分析",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "4.4.3 数据可视化实例2——聚类分析",
+                  "level": 4,
+                  "index": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第五章 数据管理与分析的发展趋势",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "项目范例  体验电子商务数据的管理与分析新技术应用..",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "5.1 数据管理与分析的新发展",
+              "level": 3,
+              "index": 1,
+              "children": [
+                {
+                  "title": "5.1.1 数据的多样性与应用场景",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "5.1.2 数据管理技术新进展",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "5.1.3 数据分析技术新进展",
+                  "level": 4,
+                  "index": 3
+                }
+              ]
+            },
+            {
+              "title": "5.2 数据挖掘与大数据的意义",
+              "level": 3,
+              "index": 2,
+              "children": [
+                {
+                  "title": "5.2.1 数据挖掘的意义",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "5.2.2 大数据的意义",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

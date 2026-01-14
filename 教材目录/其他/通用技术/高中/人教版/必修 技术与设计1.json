@@ -1,0 +1,328 @@
+{
+  "title": "高中通用技术人教版必修 技术与设计1",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "通用技术",
+  "banben": "人教版",
+  "ceci": "必修 技术与设计1",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 技术及其性质",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第1节 走进技术",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.1 现代技术",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "1.2 技术的体系结构",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "1.3 技术的产生和发展",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第2节 技术的性质",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "2.1 技术的基本性质",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.2 技术的其他性质",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第3节 技术的应用",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "3.1 技术与设计",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "3.2 技术与自然",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.3 技术与社会",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第二章 技术设计及表达",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第1节 技术设计的一般过程",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.1 发现与明确问题",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "1.2 构思设计方案",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "1.3 表达设计意图",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "1.4 制作原型或模型",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "1.5 编写设计说明",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        },
+        {
+          "title": "第2节 技术设计原则、分析与优化",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "2.1 设计原则",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.2 设计分析",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "2.3 设计优化",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第3节 技术设计的表达",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "3.1 简单图样识读",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "3.2 草图",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.3 三视图",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "3.4 计算机辅助制图",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第三章 工艺及方案实现",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第1节 方案实现的材料",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.1 材料及分类",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "1.2 材料的性能",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "1.3 材料的选择与规划",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "1.4 常见材料的连接",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第2节 工艺技术基础",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "2.1 金属加工技术",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.2 木工技术",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "2.3 电子电工技术",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "2.4 数字化加工设备",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第3节 技术产品的组装与调试",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "3.1 技术产品的组装",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "3.2 技术产品的调试",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第四章 技术交流与评价",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "第1节 技术交流",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.1 技术交流的意义",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "1.2 技术交流的语言",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "1.3 技术交流的内容",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第2节 技术标准及试验",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "2.1 技术标准",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.2 技术试验",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "2.3 试验数据记录与分析",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "2.4 试验报告",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第3节 技术评价",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "3.1 技术的功用性与可靠性评价",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "3.2 技术的创新性与文化性评价",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.3 技术的知识产权与保护评价",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "3.4 评价报告",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

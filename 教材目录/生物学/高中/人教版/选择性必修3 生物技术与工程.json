@@ -1,0 +1,356 @@
+{
+  "title": "高中生物学人教版选择性必修3 生物技术与工程",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "生物学",
+  "banben": "人教版",
+  "ceci": "选择性必修3 生物技术与工程",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "科学家访谈 生物科技创造美好未来——与杨焕明院士一席谈",
+      "level": 1,
+      "index": 1
+    },
+    {
+      "title": "第1章 发酵工程",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "科技探索之路 从传统发酵技术到发酵工程",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第1节 传统发酵技术的应用",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "探究・实践 制作传统发酵食品",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "第2节 微生物的培养技术及应用",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "一 微生物的基本培养技术",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "探究・实践 酵母菌的纯培养",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "拓展视野 微生物菌种的高通量筛选",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "二 微生物的选择培养和计数",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "探究・实践 土壤中分解尿素的细菌的分离与计数",
+              "level": 3,
+              "index": 5
+            },
+            {
+              "title": "与生物学有关的职业 发酵工程制药工",
+              "level": 3,
+              "index": 6
+            }
+          ]
+        },
+        {
+          "title": "第3节 发酵工程及其应用",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第2章 细胞工程",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "科技探索之路 细胞工程的发展历程",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第1节 植物细胞工程",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一 植物细胞工程的基本技术",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "探究・实践 菊花的组织培养",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "二 植物细胞工程的应用",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第2节 动物细胞工程",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一 动物细胞培养",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二 动物细胞融合技术与单克隆抗体",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "与生物学有关的职业 细胞培养工程师",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "三 动物体细胞核移植技术和克隆动物",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第3节 胚胎工程",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "一 胚胎工程的理论基础",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二 胚胎工程技术及其应用",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第3章 基因工程",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "科技探索之路 基因工程的诞生和发展",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第1节 重组DNA技术的基本工具",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "探究・实践 DNA的粗提取与鉴定",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "第2节 基因工程的基本操作程序",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "探究・实践 DNA 片段的扩增及电泳鉴定",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "拓展视野 历史不能忘记中国科学家对PCR的贡献",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "第3节 基因工程的应用",
+          "level": 2,
+          "index": 7
+        },
+        {
+          "title": "第4节 蛋白质工程的原理和应用",
+          "level": 2,
+          "index": 8
+        }
+      ]
+    },
+    {
+      "title": "第4章 生物技术的安全性与伦理问题",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "科技探索之路 生物技术发展与社会进步",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第1节 转基因产品的安全性",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第2节 关注生殖性克隆人",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "第3节 禁止生物武器",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "综合专题",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "细胞的物质基础",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "细胞的结构和功能",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "细胞的物质运输",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "酶专题",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "细胞分化、衰老、死亡和植物细胞工程",
+              "level": 3,
+              "index": 5
+            },
+            {
+              "title": "细胞增殖、癌变和动物细胞培养",
+              "level": 3,
+              "index": 6
+            },
+            {
+              "title": "单克隆抗体和免疫",
+              "level": 3,
+              "index": 7
+            },
+            {
+              "title": "细胞的物质基础和结构基础习题课",
+              "level": 3,
+              "index": 8
+            },
+            {
+              "title": "细胞的物质运输和酶专题习题课",
+              "level": 3,
+              "index": 9
+            },
+            {
+              "title": "细胞与细胞工程习题课",
+              "level": 3,
+              "index": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "高考复习",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "生物学核心素养中的科学探究（上）",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "生物学核心素养中的科学探究（中）",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "生物学核心素养中的科学探究（下）",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "高考生物复习（一）",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "高考生物复习（二）",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "高考生物复习（三）",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "高考生物复习（四）—— 生物学核心素养中的生命观念（2）",
+          "level": 2,
+          "index": 7
+        },
+        {
+          "title": "生物学核心素养中的科学思维（1）",
+          "level": 2,
+          "index": 8
+        },
+        {
+          "title": "生物学核心素养中的生命观念（3）",
+          "level": 2,
+          "index": 9
+        },
+        {
+          "title": "科学方法提高复习效率",
+          "level": 2,
+          "index": 10
+        },
+        {
+          "title": "领会学科思想和掌握学科方法",
+          "level": 2,
+          "index": 11
+        },
+        {
+          "title": "生物学中的内环境稳态及其调节机制",
+          "level": 2,
+          "index": 12
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "title": "高中信息技术粤教版选择性必修6 开源硬件项目设计",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "信息技术",
+  "banben": "粤教版",
+  "ceci": "选择性必修6 开源硬件项目设计",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 认识开源硬件项目",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "项目范例  体验Arduino开发平台",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.1 开源硬件的特征及发展历程",
+              "level": 3,
+              "index": 1,
+              "children": [
+                {
+                  "title": "1.1.1 开源硬件",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "1.1.2 开源硬件的特征",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "1.1.3 开源硬件的发展历程",
+                  "level": 4,
+                  "index": 3
+                }
+              ]
+            },
+            {
+              "title": "1.2 利用开源硬件进行创新",
+              "level": 3,
+              "index": 2,
+              "children": [
+                {
+                  "title": "1.2.1 开源硬件的设计和开发创新",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "1.2.2 开源硬件的应用",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "1.2.3 开源硬件对信息技术创新的意义",
+                  "level": 4,
+                  "index": 3
+                }
+              ]
+            },
+            {
+              "title": "1.3 开源硬件系统的组成及开发环境",
+              "level": 3,
+              "index": 3,
+              "children": [
+                {
+                  "title": "1.3.1 开源硬件项目",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "1.3.2 开源硬件系统的一般组成",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "1.3.3 开源硬件项目的开发平台",
+                  "level": 4,
+                  "index": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第二章 开源硬件项目的开发流程与方案设计",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "项目范例  基于开源硬件的感应灯开发规划",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "2.1 开源硬件项目开发的基本流程",
+              "level": 3,
+              "index": 1,
+              "children": [
+                {
+                  "title": "2.1.1 创意",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "2.1.2 设计",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "2.1.3 制作",
+                  "level": 4,
+                  "index": 3
+                },
+                {
+                  "title": "2.1.4 测试",
+                  "level": 4,
+                  "index": 4
+                },
+                {
+                  "title": "2.1.5 运行",
+                  "level": 4,
+                  "index": 5
+                }
+              ]
+            },
+            {
+              "title": "2.2 开源硬件项目开发的创意策划",
+              "level": 3,
+              "index": 2,
+              "children": [
+                {
+                  "title": "2.2.1 项目选题的策划",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "2.2.2 项目构思的创意策划",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            },
+            {
+              "title": "2.3 开源硬件项目开发的方案设计",
+              "level": 3,
+              "index": 3,
+              "children": [
+                {
+                  "title": "2.3.1 项目功能需求分析",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "2.3.2 项目功能组件设计",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "2.3.3 项目元器件选型",
+                  "level": 4,
+                  "index": 3
+                },
+                {
+                  "title": "2.3.4 项目设计图样绘制",
+                  "level": 4,
+                  "index": 4
+                },
+                {
+                  "title": "2.3.5 项目技术方案制订",
+                  "level": 4,
+                  "index": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第三章 开源硬件项目的制作",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "项目范例  基于开源硬件的感应灯制作",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "3.1 项目作品的硬件搭建",
+              "level": 3,
+              "index": 1,
+              "children": [
+                {
+                  "title": "3.1.1 硬件搭建的器材",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "3.1.2 硬件搭建的步骤",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "3.1.3 硬件搭建的安全防护",
+                  "level": 4,
+                  "index": 3
+                }
+              ]
+            },
+            {
+              "title": "3.2 项目作品的程序设计",
+              "level": 3,
+              "index": 2,
+              "children": [
+                {
+                  "title": "3.2.1 用图形化编程工具编程",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "3.2.2 用文本代码编程工具编程",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            },
+            {
+              "title": "3.3 项目作品的功能测试与运行",
+              "level": 3,
+              "index": 3,
+              "children": [
+                {
+                  "title": "3.3.1 项目作品的功能测试",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "3.3.2 项目作品的系统调试",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "3.3.3 项目作品的运行",
+                  "level": 4,
+                  "index": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第四章 开源硬件项目输入输出组件及综合应用项目开发",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "项目范例  基于开源硬件的教室空气质量监测仪开发",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "4.1 开发板的I/O信号控制",
+              "level": 3,
+              "index": 1,
+              "children": [
+                {
+                  "title": "4.1.1 开发板的I/O信号类型",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "4.1.2 开发板的数字和模拟引脚",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "4.1.3 开发板信号处理的程序函数",
+                  "level": 4,
+                  "index": 3
+                },
+                {
+                  "title": "4.1.4 开发板串口使用",
+                  "level": 4,
+                  "index": 4
+                }
+              ]
+            },
+            {
+              "title": "4.2 开源硬件项目的输入组件",
+              "level": 3,
+              "index": 2,
+              "children": [
+                {
+                  "title": "4.2.1 传感器",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "4.2.2 环境检测类传感器常见模块",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "4.2.3 物理测量类传感器常见模块",
+                  "level": 4,
+                  "index": 3
+                }
+              ]
+            },
+            {
+              "title": "4.3 开源硬件项目的输出组件",
+              "level": 3,
+              "index": 3,
+              "children": [
+                {
+                  "title": "4.3.1 执行器组件常见模块",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "4.3.2 显示组件常见模块",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            },
+            {
+              "title": "4.4 综合应用项目开发",
+              "level": 3,
+              "index": 4,
+              "children": [
+                {
+                  "title": "4.4.1 教室空气质量监测仪项目的创意策划",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "4.4.2 教室空气质量监测仪项目的技术方案设计",
+                  "level": 4,
+                  "index": 2
+                },
+                {
+                  "title": "4.4.3 教室空气质量监测仪项目的程序设计",
+                  "level": 4,
+                  "index": 3
+                },
+                {
+                  "title": "4.4.4 教室空气质量监测仪项目的调试和运行",
+                  "level": 4,
+                  "index": 4
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第五章 知识分享与知识产权",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "项目范例  教室空气质量监测仪的开源许可证与知识分享",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "5.1 知识分享与开源精神",
+              "level": 3,
+              "index": 1,
+              "children": [
+                {
+                  "title": "5.1.1 知识分享背景下的开源精神",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "5.1.2 互联网常用知识分享平台",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            },
+            {
+              "title": "5.2 开放源代码与知识产权",
+              "level": 3,
+              "index": 2,
+              "children": [
+                {
+                  "title": "5.2.1 知识产权及其历史",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "5.2.2 常见的开源许可证",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

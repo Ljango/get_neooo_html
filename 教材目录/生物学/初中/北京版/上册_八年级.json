@@ -1,0 +1,94 @@
+{
+  "title": "新教材-初中生物学北京版八年级上册",
+  "xueduan": "初中",
+  "nianji": "八年级",
+  "xueke": "生物学",
+  "banben": "北京版",
+  "ceci": "上册",
+  "is_new": true,
+  "chapters": [
+    {
+      "title": "第4单元 生物的遗传与进化",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第1 章 生物的生殖和发育",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "第1 节 绿色开花植物的生殖和发育",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第2 节 人的生殖和发育",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "第3 节 动物的生殖和发育",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "第4 节 生物生殖的多种方式",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第2 章 生物的遗传和变异",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "第1 节 生物的性状",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第2 节 生物的遗传",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "第3 节 人类的遗传",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "第4 节 生物的变异",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第3 章 生命的起源和生物的进化",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "第1 节 生命的起源",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第2 节 生物的进化",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "第3 节 人类的起源与进化",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

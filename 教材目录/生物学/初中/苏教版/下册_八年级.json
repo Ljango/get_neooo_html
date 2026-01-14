@@ -1,0 +1,140 @@
+{
+  "title": "新教材-初中生物学苏教版八年级下册",
+  "xueduan": "初中",
+  "nianji": "八年级",
+  "xueke": "生物学",
+  "banben": "苏教版",
+  "ceci": "下册",
+  "is_new": true,
+  "chapters": [
+    {
+      "title": "第5单元 人体生理与健康",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第17章 传染病和免疫",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "第1节 人体的免疫功能",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第2节 传染病的传播和控制",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第18章 健康生活",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "第1节 癌症和心血管疾病",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第2节 健康的生活方式",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "第3节 常用的急救方法",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第6单元 遗传与进化",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第19章 生物的生殖",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "第1节 生物的无性生殖",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第2节 生物的有性生殖",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第20章 生物的遗传和变异",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "第1节 生物的遗传物质",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第2节 生物性状的决定",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "第3节 人的性别决定",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "第4节 生物的变异",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "第5节 杂交育种与转基因育种",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        },
+        {
+          "title": "第21章 生命起源和生物进化",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "第1节 生命起源的探索",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第2节 生物进化的证据",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "第3节 生物进化的理论",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "第4节 人类的起源与进化",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

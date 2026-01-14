@@ -1,0 +1,242 @@
+{
+  "title": "高中化学沪科技版必修 第二册",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "化学",
+  "banben": "沪科技版",
+  "ceci": "必修 第二册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第5章 金属及其化合物",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第1节 金属的性质",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "金属的物理性质和金属元素的原子结构",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "金属的化学性质",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "金属的冶炼",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第2节 重要的金属化合物",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "氧化物和过氧化物",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "氢氧化物",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "盐",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第3节 化学变化中的能量变化",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "吸热反应和放热反应",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "化学能与电能的转化",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "本章复习",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "项目学习活动：如何测定菠菜中铁元素的含量",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第6章 化学反应速率和化学平衡",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第1节 化学反应速率",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "化学反应速率",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "影响化学反应速率的因素",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第2节 化学平衡",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "可逆反应和化学平衡",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "化学平衡的移动",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第3节 化工生产",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "工业制硫酸的反应原理和生产过程",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "硫酸工业中热能的合理利用和三废处理",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "本章复习",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第7章 常见的有机化合物",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第1节 饱和烃",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "甲烷",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "烷烃",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第2节 不饱和烃",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "石油化工和煤化工",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "不饱和烃中碳原子的成键特点",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "乙烯的性质",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第3节 乙醇和乙酸",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "乙醇",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "乙酸",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第4节 糖、油脂和蛋白质",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "糖",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "油脂和蛋白质",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "本章复习",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "项目学习活动：如何利用数据库探究有机分子的空间结构",
+          "level": 2,
+          "index": 6
+        }
+      ]
+    }
+  ]
+}

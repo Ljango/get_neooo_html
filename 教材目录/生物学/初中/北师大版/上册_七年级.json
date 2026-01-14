@@ -1,0 +1,181 @@
+{
+  "title": "新教材-初中生物学北师大版七年级上册",
+  "xueduan": "初中",
+  "nianji": "七年级",
+  "xueke": "生物学",
+  "banben": "北师大版",
+  "ceci": "上册",
+  "is_new": true,
+  "chapters": [
+    {
+      "title": "走进生命世界",
+      "level": 1,
+      "index": 1
+    },
+    {
+      "title": "第1单元 探索生命奥秘",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第1章 认识生物和生物学",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "第1节 形形色色的生物",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第2节 生物学是探索生命的科学",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "第3节 生物学研究的基本方法",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第2单元 生物体的结构",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第2章 细胞",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "第1节 细胞的基本结构和功能",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第2节 细胞是生命活动的单位",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第2单元 生物体的结构",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "第3章 生物体的结构层次",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "第1节 细胞通过分裂而增殖",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第2节 细胞分化形成组织",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "第3节 生物体的器官、系统",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第3单元 植物的生活",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "第4章 绿色开花植物的生活方式",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "第1节 光合作用",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第2节 呼吸作用",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "第3节 吸收作用",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "第4节 运输作用",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "第5节 蒸腾作用",
+              "level": 3,
+              "index": 5
+            },
+            {
+              "title": "第6节 植物在生物圈中的作用",
+              "level": 3,
+              "index": 6
+            }
+          ]
+        },
+        {
+          "title": "第5章 绿色开花植物的生活史",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "第1节 种子萌发形成幼苗",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "第2节 营养器官的生长",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "第3节 生殖器官的生长",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "跨学科实践活动",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "活动一 栽培番茄，观察并描绘其一生的变化",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "活动二 无土栽培一种植物",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    }
+  ]
+}

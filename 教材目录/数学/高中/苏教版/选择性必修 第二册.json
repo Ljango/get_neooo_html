@@ -1,0 +1,99 @@
+{
+  "title": "高中数学苏教版选择性必修 第二册",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "数学",
+  "banben": "苏教版",
+  "ceci": "选择性必修 第二册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第6章 空间向量与立体几何",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "6.1 空间向量及其运算",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "6.2 空间向量的坐标表示",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "6.3 空间向量的应用",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第7章 计数原理",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "7.1 两个基本计数原理",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "7.2 排列",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "7.3 组合",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "7.4 二项式定理",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第8章 概率",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "8.1 条件概率",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "8.2 离散型随机变量及其分布列",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "8.3 正态分布",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第9章 统计",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "9.1 线性回归分析",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "9.2 独立性检验",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    }
+  ]
+}

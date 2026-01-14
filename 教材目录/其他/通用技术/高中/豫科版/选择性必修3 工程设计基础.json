@@ -1,0 +1,382 @@
+{
+  "title": "高中通用技术豫科版选择性必修3 工程设计基础",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "通用技术",
+  "banben": "豫科版",
+  "ceci": "选择性必修3 工程设计基础",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章  工程设计概述",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第一节　无所不在的工程",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、工程的定义",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、工程的分类",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、工程的发展",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、工程的特性",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "五、工程对人类生存和生活的影响",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        },
+        {
+          "title": "第二节　工程设计",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、什么是工程设计",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、工程设计的重要性",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、工程设计的重点",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、工程设计的各项技术要素",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第三节　工程师",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、工程师的工作标准",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、工程师的特点和职业要求",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、工程团队的重要性",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、工程团队的建设",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第四节　如何获得设计对象的工程特性",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "一、标杆分析法",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、逆向工程法",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、质量功能配置",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第二章  工程设计过程",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第一节　面向X 的工程设计方法",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、面向制造的设计",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、面向装配的设计",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、面向环境保护的设计",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第二节　工程设计中的评价指标",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、工程设计的标准化",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、工程设计的安全性",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、工程的可靠性",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、工程的经济性",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第三节　工程材料",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、工程材料概述",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、金属材料",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、非金属材料",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、复合材料",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第四节　工程设计一般过程",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "一、概念设计",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、方案设计",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、详细设计",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第三章　工程设计建模",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第一节　工程设计建模概述",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、建模的概念",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、工程建模的重要性",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、建模技术在工程设计中的应用",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、工程设计模型的类型",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第二节　识读和绘制简单的工程图样",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、识读简单的工程图",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、绘制工程图",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第三节　计算机建模和仿真",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、软件建模的优越性",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、常用的建模软件",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、简易工程建模",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第四章　 工程决策与管理",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "第一节　工程评价与决策",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、决策的基本知识",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、决策模型",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第二节　工程管理方法",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、甘特图",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、关键路径法",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、成本估算法",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第三节　工程管理",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、工程管理的内容",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、工程项目进度管理",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、工程项目质量管理",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、职业健康安全和环境管理",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "五、工程项目竣工验收管理",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

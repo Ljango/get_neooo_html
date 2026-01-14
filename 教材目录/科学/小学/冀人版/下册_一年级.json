@@ -1,0 +1,121 @@
+{
+  "title": "小学科学冀人版一年级下册",
+  "xueduan": "小学",
+  "nianji": "一年级",
+  "xueke": "科学",
+  "banben": "冀人版",
+  "ceci": "下册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第1单元 水和空气",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "1 认识水",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2 糖到哪里去了",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3 水里的沙",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "4 认识空气",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第2单元 太阳和月亮",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "5 太阳与方向",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "6 太阳的光和热",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "7 太阳与生活",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "8 月亮圆了",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第3单元 天气与生活",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "9 多样的天气",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "10 天气与动植物",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "11 天气与生活",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第4单元 科技与生活",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "12 身边的科技产品",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "13 科技产品与生活",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "14 圆珠笔",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第5单元 科学擂台",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "15 科学擂台——制作太阳能热水器",
+          "level": 2,
+          "index": 1
+        }
+      ]
+    }
+  ]
+}

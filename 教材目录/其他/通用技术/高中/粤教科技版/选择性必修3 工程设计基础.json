@@ -1,0 +1,328 @@
+{
+  "title": "高中通用技术粤教粤科版选择性必修3 工程设计基础",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "通用技术",
+  "banben": "粤教科技版",
+  "ceci": "选择性必修3 工程设计基础",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 工程设计概述",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第一节 了解工程",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、工程的含义与种类",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、工程的特性",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、工程的价值和文化内涵",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第二节 工程发展史",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、工程发展简史",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、现代工程的领域范围",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、典型工程领域的发展历程",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第三节 工程师的职业",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、工程师是怎样的一个群体",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、工程师的伦理规范",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、著名工程师",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、工程团队的建立",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第二章 工程设计一般过程",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第一节 工程设计概述",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、工程设计的定义",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、工程设计的重要性",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、工程设计过程",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第二节 需求分析和目标定义",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、问题的描述——需求目标定义",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、明确性能需求——建立树状目标图",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第三节 获取工程特性",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、明确设计对象功能结构",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、获取设计对象的工程特性",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、标杆分析法与逆向工程法",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、质量功能配置（QFD）",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "第四节 概念化设计",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "一、工程设计过程中要考量的各种要素",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、概念方案设计",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、编制工程设计任务书",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、面向X的设计",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第三章 工程设计建模",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第一节 工程设计建模简析",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、工程设计建模概述",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、计算机三维建模简介",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第二节 工程图",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、认识工程图",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、制图标准",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、了解公差",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第三节 工程设计体验",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "一、任务要求",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、材料选择",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、总体方案设计与三维建模",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、实物模型制作",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "五、工程设计中的仿真",
+              "level": 3,
+              "index": 5
+            },
+            {
+              "title": "六、工程设计文件",
+              "level": 3,
+              "index": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第四章 工程决策与管理",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "第一节 设计方案评估和决策",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、对设计方案的初步评估",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、工程决策模型的要素和类型",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、层次分析法与决策树",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第二节 工程管理",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、工程设计过程中的项目管理",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、质量管理与质量控制",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、时间管理",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "四、成本估算",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

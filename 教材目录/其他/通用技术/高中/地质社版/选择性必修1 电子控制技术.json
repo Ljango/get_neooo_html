@@ -1,0 +1,217 @@
+{
+  "title": "高中通用技术地质社版选择性必修1 电子控制技术",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "通用技术",
+  "banben": "地质社版",
+  "ceci": "选择性必修1 电子控制技术",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 电子控制系统概述",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第一节 电子控制技术及其应用",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、电子控制技术及其发展历程",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、电子控制技术及其应用",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "第二节 电子控制系统的结构与组成",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、开环电子控制系统的结构与组成",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、闭环电子控制系统的结构与组成",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第二章 电子控制系统中的模拟电子技术",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第一节 模拟电路基础",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、什么是模拟信号",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、常用的电子元器件",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、电子装接技术基础",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第二节 电子控制系统中的放大电路",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、基本放大电路",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、基本共发射极放大电路的特性曲线",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第三章 电子控制系统中的数字电子技术",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第一节 数字电路基础",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、什么是数字信号",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、基本逻辑门电路",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、组合逻辑电路",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第二节 电子控制系统中的数字集成电路",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、什么是集成电路",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、常用数字集成电路的类型及其封装形式",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、数字集成电路的简单应用",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第四章 电子控制系统中的传感器与继电器",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "第一节 认识传感器",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "一、奇妙的传感器",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、传感器的作用",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、常见的传感器及其应用",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "第二节 电子控制系统中的执行器件——继电器",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "一、继电器的作用和种类",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "二、电磁继电器和无触点继电器",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三、继电器的选择与使用",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第五章 电子控制系统的设计与制作",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "第一节 开环电子控制系统的设计与制作",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二节 闭环电子控制系统的设计与制作",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    }
+  ]
+}

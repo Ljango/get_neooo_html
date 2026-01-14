@@ -1,0 +1,337 @@
+{
+  "title": "高中信息技术沪科教版选择性必修3 数据管理与分析",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "信息技术",
+  "banben": "沪科教版",
+  "ceci": "选择性必修3 数据管理与分析",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一单元 初识数据管理与分析",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "项目一 探究交通数据的管理与分析——认识数据资源与价值",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.采集路口交通数据",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.管理交通数据",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.分析交通数据",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "4.了解交通数据资源及其价值",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "知识链接",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        },
+        {
+          "title": "项目二 了解网络购物数据的管理与分析——经历数据管理与分析的流程",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "1.分析业务需求",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.管理网上商店订单数据",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.分析订单数据",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "4.完成科学决策",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "5.评价、优化整体方案",
+              "level": 3,
+              "index": 5
+            },
+            {
+              "title": "知识链接",
+              "level": 3,
+              "index": 6
+            }
+          ]
+        },
+        {
+          "title": "单元挑战  调查校园数据管理现状",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "单元小结",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第二单元 数据管理",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "项目三 了解健身数据的采集与分类——认识数据的结构化",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.采集会员健身数据",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.分类存储会员健身数据",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.认识噪声数据",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "知识链接",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "项目四 建立简易网上书店数据库——了解关系数据库的建立",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "1.分析数据库设计需求",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.建立实体集和联系",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.建立数据模型",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "4.创建数据库",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "知识链接",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        },
+        {
+          "title": "项目五 管理网上书店数据库——使用结构化查询语言",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "1.添加数据",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.查询数据",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.更新数据",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "4.删除数据",
+              "level": 3,
+              "index": 4
+            },
+            {
+              "title": "知识链接",
+              "level": 3,
+              "index": 5
+            }
+          ]
+        },
+        {
+          "title": "单元挑战  建立年级作业评价数据库",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "单元小结",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第三单元 数据分析",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "项目六 分析城市交通拥堵状况——了解常用的数据分析方法",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.了解城市道路交通拥堵状况",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.分析造成城市道路交通拥堵的相关因素",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "知识链接",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "项目七 揭示网上书店图书销售情况——分析、呈现并解释数据",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "1.分析并呈现网上书店图书销售情况",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.发现用户数据的相关性",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "知识链接",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "项目八 探索网上书店图书推荐——认识数据挖掘的重要意义",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "1.了解数据管理与分析技术的新发展",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.挖掘用户阅读兴趣",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.用协同过滤推荐方法推荐图书",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "知识链接",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "单元挑战  分析在线社交平台用户情况",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "单元小结",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第四单元 数据备份与数据安全",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "项目九 探秘网上书店数据库系统容灾方案——应对数据丢失风险",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "1.了解数据丢失风险",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "2.备份网上书店数据",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "3.优化数据丢失防范方案",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "知识链接",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "单元挑战  探索 MySQL 数据库的实时备份",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "单元小结",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    }
+  ]
+}

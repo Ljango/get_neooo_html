@@ -1,0 +1,259 @@
+{
+  "title": "小学数学北京版三年级下册",
+  "xueduan": "小学",
+  "nianji": "三年级",
+  "xueke": "数学",
+  "banben": "北京版",
+  "ceci": "下册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "一 年、月、日",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "年、月、日",
+          "level": 2,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "title": "闰年",
+      "level": 1,
+      "index": 2
+    },
+    {
+      "title": "二 乘法",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "口算乘法",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "笔算乘法",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "乘法估算",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "整理与复习",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "三 吨的认识",
+      "level": 1,
+      "index": 4
+    },
+    {
+      "title": "四 解决问题",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "连乘问题",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "连除问题",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "乘除混合问题",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "整理与复习",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "五 长方形和正方形的面积",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "面积和面积单位",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "长方形和正方形的面积",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "面积单位间的进率",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "探索规律",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "整理与复习",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "围绿地",
+      "level": 1,
+      "index": 7
+    },
+    {
+      "title": "六 分数的初步认识",
+      "level": 1,
+      "index": 8,
+      "children": [
+        {
+          "title": "分数的初步认识",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "简单的分数加减法",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "整理与复习",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "七 小数的初步认识",
+      "level": 1,
+      "index": 9,
+      "children": [
+        {
+          "title": "小数的初步认识",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "小数比大小",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "简单的小数加减法",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "整理与复习",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "八 认识方向",
+      "level": 1,
+      "index": 10,
+      "children": [
+        {
+          "title": "认识地图上的东、南、西、北",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "认识东南、东北、西南、西北",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "九 整理数据",
+      "level": 1,
+      "index": 11
+    },
+    {
+      "title": "十 数学百花园",
+      "level": 1,
+      "index": 12,
+      "children": [
+        {
+          "title": "比较",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "合理安排时间",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "十一 总复习",
+      "level": 1,
+      "index": 13,
+      "children": [
+        {
+          "title": "年、月、日",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "乘法",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "吨的认识",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "解决问题",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "长方形和正方形的面积",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "分数、小数的初步认识",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "认识方向",
+          "level": 2,
+          "index": 7
+        },
+        {
+          "title": "整理数据",
+          "level": 2,
+          "index": 8
+        }
+      ]
+    }
+  ]
+}

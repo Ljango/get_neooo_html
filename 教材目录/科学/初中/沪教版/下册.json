@@ -1,0 +1,109 @@
+{
+  "title": "初中科学沪教版七年级下册",
+  "xueduan": "初中",
+  "nianji": "七年级",
+  "xueke": "科学",
+  "banben": "沪教版",
+  "ceci": "下册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "阳光",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "第一章  光和热的源泉",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第二章  万物生长靠太阳",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "本篇小结",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "空气",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "第三章  了解空气",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第四章  空气质量",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第五章  空气与生命",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "本篇小结",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "水",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "第六章  水的组成与变化",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第七章  水是很好的溶剂",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "第八章  水与生命",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "本篇小结",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "土壤",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "第九章  什么样的土壤好",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "第十章  土壤与生命",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "本篇小结",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    }
+  ]
+}

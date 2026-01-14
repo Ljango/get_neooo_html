@@ -1,0 +1,267 @@
+{
+  "title": "新教材-初中数学人教版八年级上册",
+  "xueduan": "初中",
+  "nianji": "八年级",
+  "xueke": "数学",
+  "banben": "人教版",
+  "ceci": "上册",
+  "is_new": true,
+  "chapters": [
+    {
+      "title": "第十三章 三角形",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "13.1 三角形的概念",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "13.2 与三角形有关的线段",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "13.3 三角形的内角与外角",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "阅读与思考 为什么要证明",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "数学活动",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "综合与实践 确定匀质薄板的重心位置",
+      "level": 1,
+      "index": 2
+    },
+    {
+      "title": "第十四章 全等三角形",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "14.1 全等三角形及其性质",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "14.2 三角形全等的判定",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "信息技术应用 探究三角形全等的条件",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "14.3 角的平分线",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "图说数学史 公理化方法",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "数学活动",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第十五章 轴对称",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "15.1 图形的轴对称",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "15.2 画轴对称的图形",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "15.3 等腰三角形",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "探究与发现 三角形中边与角之间的不等关系",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "数学活动",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "综合与实践 最短路径问题",
+      "level": 1,
+      "index": 5
+    },
+    {
+      "title": "第十六章 整式的乘法",
+      "level": 1,
+      "index": 6,
+      "children": [
+        {
+          "title": "16.1 幂的运算",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "16.2 整式的乘法",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "16.3 乘法公式",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "阅读与思考 杨辉三角",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "数学活动",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "title": "第十七章 因式分解",
+      "level": 1,
+      "index": 7,
+      "children": [
+        {
+          "title": "17.1 用提公因式法分解因式",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "17.2 用公式法分解因式",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "阅读与思考 x²+(p+q)x+pq型式子的因式分解",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "数学活动",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第十八章 分式",
+      "level": 1,
+      "index": 8,
+      "children": [
+        {
+          "title": "18.1 分式及其基本性质",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "18.2 分式的乘法与除法",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "18.3 分式的加法与减法",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "阅读与思考 容器中的水能倒完吗",
+              "level": 3,
+              "index": 1
+            }
+          ]
+        },
+        {
+          "title": "18.4 整数指数幂",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "18.5 分式方程",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "数学活动",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 7
+        }
+      ]
+    }
+  ]
+}

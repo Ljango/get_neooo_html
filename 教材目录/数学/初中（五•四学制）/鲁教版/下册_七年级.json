@@ -1,0 +1,425 @@
+{
+  "title": "初中（五•四学制）数学鲁教版七年级下册",
+  "xueduan": "初中（五•四学制）",
+  "nianji": "七年级",
+  "xueke": "数学",
+  "banben": "鲁教版",
+  "ceci": "下册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第七章 二元一次方程组",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "1 二元一次方程组",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2 解二元一次方程组",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "代入消元法解二元一次方程组",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "加减消元法解二元一次方程组",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "3 二元一次方程组的应用",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "4 二元一次方程与一次函数",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "*5 三元一次方程组",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "三元一次方程组及其解法",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "三元一次方程组的应用",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "回顾与思考",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "综合与实践 哪一款“套餐”更合适",
+          "level": 2,
+          "index": 7
+        }
+      ]
+    },
+    {
+      "title": "第八章 平行线的有关证明",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "1 定义与命题",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "定义与命题",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "命题的分类和结构",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "2 证明的必要性",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3 基本事实与定理",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "4 平行线的判定定理",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "5 平行线的性质定理",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "6 三角形内角和定理",
+          "level": 2,
+          "index": 6,
+          "children": [
+            {
+              "title": "三角形内角和定理",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "三角形外角定理",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "三角形内角和与外角定理的应用",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "回顾与思考",
+          "level": 2,
+          "index": 7,
+          "children": [
+            {
+              "title": "有关证明的知识系统的建构",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "有关证明中典型例题的解析",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第九章 概率初步",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "1 感受可能性",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2 频率的稳定性",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "抛掷图钉",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "抛掷硬币",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "3 等可能事件的概率",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "摸球活动中的概率",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "图形面积中的概率",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "回顾与思考",
+          "level": 2,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "title": "第十章 三角形的有关证明",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "1 全等三角形",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "全等三角形判定的基本事实和定理",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "全等三角形判定和性质的运用",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "2 等腰三角形",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "等腰三角形的性质和判定",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "等腰三角形性质的应用",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "探究等边三角形的性质和判定定理",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "反证法",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "3 直角三角形",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "勾股定理和它的逆定理的证明",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "证明直角三角形全等的“斜边、直角边”定理",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "4 线段的垂直平分线",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "线段的垂直平分线的性质和判定定理",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "线段的垂直平分线性质和判定定理的应用",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "5 角平分线",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "角平分线的性质和判定定理",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "角平分线性质和判定定理的应用",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "回顾与思考",
+          "level": 2,
+          "index": 6,
+          "children": [
+            {
+              "title": "三角形有关证明的知识系统的建构",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "三角形有关证明中典型例题的解析",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第十一章 一元一次不等式与一元一次不等式组",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "1 不等关系",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2 不等式的基本性质",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3 不等式的解集",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "4 一元一次不等式",
+          "level": 2,
+          "index": 4,
+          "children": [
+            {
+              "title": "一元一次不等式",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "一元一次不等式的应用",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "5 一元一次不等式与一次函数",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "6 一元一次不等式组",
+          "level": 2,
+          "index": 6,
+          "children": [
+            {
+              "title": "一元一次不等式组",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "一元一次不等式组的特定解",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "回顾与思考",
+          "level": 2,
+          "index": 7,
+          "children": [
+            {
+              "title": "一元一次不等式（组）的知识系统的建构",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "一元一次不等式（组）典型例题的解析",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "综合与实践 生活中的“一次模型”",
+          "level": 2,
+          "index": 8,
+          "children": [
+            {
+              "title": "生活中的“一次模型”——发现",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "生活中的“一次模型”——交流与分享",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

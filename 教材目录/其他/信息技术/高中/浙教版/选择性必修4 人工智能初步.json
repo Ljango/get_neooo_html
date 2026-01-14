@@ -1,0 +1,156 @@
+{
+  "title": "高中信息技术浙教版选择性必修4 人工智能初步",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "信息技术",
+  "banben": "浙教版",
+  "ceci": "选择性必修4 人工智能初步",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第一章 智能之路：历史与发展",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "1.1 人工智能的起源",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "1.2 人工智能的现状与发展",
+          "level": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "title": "第二章 智能之源：算法与模型",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "2.1 类脑计算",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2.2 逻辑推理",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "2.3 基于搜索的问题求解",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "2.4 决策树",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "2.5 回归分析",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "2.6 贝叶斯分析",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "2.7 神经网络学习",
+          "level": 2,
+          "index": 7
+        },
+        {
+          "title": "2.8 混合增强智能",
+          "level": 2,
+          "index": 8
+        }
+      ]
+    },
+    {
+      "title": "第三章 智能之力：赋能之术",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "3.1 对数据进行挖掘：知识挖掘",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "3.2 对数据进行学习：模式识别",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3.3 对数据进行合成：创意智能",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "title": "第四章 智能之用：服务社会",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "4.1 “智能＋X”推动社会进步",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "4.2 自然语言理解：机器翻译",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "4.3 智能模拟：人机博弈",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "4.4 智能控制：无人驾驶车系统",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "4.5 混合智能：脑机接口",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "4.6 人工智能发展对社会的潜在影响",
+          "level": 2,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "title": "第五章 智能之基：伦理与安全",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "5.1 概述",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "5.2 人工智能伦理",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "5.3 人工智能安全",
+          "level": 2,
+          "index": 3
+        }
+      ]
+    }
+  ]
+}

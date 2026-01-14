@@ -1,0 +1,132 @@
+{
+  "title": "高中数学鄂教版选择性必修 第三册",
+  "xueduan": "高中",
+  "nianji": "",
+  "xueke": "数学",
+  "banben": "鄂教版",
+  "ceci": "选择性必修 第三册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第1章 计数原理",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "1.1 基本计数原理",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "1.2 排列",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "1.3 组合",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "1.4 二项式定理",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "阅读与讨论：从航天飞机发动机的设计与测试谈起",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "思考与实践",
+          "level": 2,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "title": "第2章 概率",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "2.1 随机事件的条件概率",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "2.2 离散型随机变量及其分布列",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "2.3 离散型随机变量的数字特征",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "2.4 正态分布",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "阅读与讨论：谈谈小概率事件",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "思考与实践",
+          "level": 2,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "title": "第3章 统计",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "3.1 成对数据的统计相关性",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "阅读与讨论：散点图的制作",
+          "level": 2,
+          "index": 2
+        },
+        {
+          "title": "3.2 一元线性回归",
+          "level": 2,
+          "index": 3
+        },
+        {
+          "title": "阅读与讨论：最小二乘估计推导及线性相关关系判断",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "课题学习：可线性化的回归问题",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "3.3 2×2列联表",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "阅读与讨论：2×3列联表的独立性检验",
+          "level": 2,
+          "index": 7
+        },
+        {
+          "title": "思考与实践",
+          "level": 2,
+          "index": 8
+        }
+      ]
+    }
+  ]
+}

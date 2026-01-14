@@ -1,0 +1,476 @@
+{
+  "title": "初中数学人教版八年级上册",
+  "xueduan": "初中",
+  "nianji": "八年级",
+  "xueke": "数学",
+  "banben": "人教版",
+  "ceci": "上册",
+  "is_new": false,
+  "chapters": [
+    {
+      "title": "第十一章　三角形",
+      "level": 1,
+      "index": 1,
+      "children": [
+        {
+          "title": "11.1 与三角形有关的线段",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "11.1.1三角形的边",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "11.1.2三角形的高、中线与角平分线",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "11.1.3三角形的稳定性",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "11.2 与三角形有关的角",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "11.2.1三角形的内角",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "11.2.2三角形的外角",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "11.3 多边形及其内角和",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "11.3.1 多边形",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "11.3.2 多边形的内角和",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "数学活动",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "构建知识体系",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "习题训练",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "复习题11",
+          "level": 2,
+          "index": 6
+        },
+        {
+          "title": "测试",
+          "level": 2,
+          "index": 7
+        }
+      ]
+    },
+    {
+      "title": "第十二章　全等三角形",
+      "level": 1,
+      "index": 2,
+      "children": [
+        {
+          "title": "12.1 全等三角形",
+          "level": 2,
+          "index": 1
+        },
+        {
+          "title": "12.2 三角形全等的判定",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "三角形全等的判定",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "直角三角形全等的判定",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "12.3 角的平分线的性质",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "探究角的平分线的性质",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "角的平分线性质的应用",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "数学活动",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "构建知识体系",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "习题训练",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "复习题12",
+          "level": 2,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "title": "第十三章　轴对称",
+      "level": 1,
+      "index": 3,
+      "children": [
+        {
+          "title": "13.1 轴对称",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "13.1.1轴对称",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "13.1.2线段的垂直平分线的性质",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "13.2 画轴对称图形",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "作轴对称图形",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "用坐标表示轴对称",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "13.3 等腰三角形",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "13.3.1等腰三角形",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "13.3.2等边三角形",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "实验与探究  三角形中边与角之间的不等关系",
+              "level": 3,
+              "index": 3
+            }
+          ]
+        },
+        {
+          "title": "13.4 课题学习　最短路径问题",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "数学活动",
+          "level": 2,
+          "index": 5
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 6,
+          "children": [
+            {
+              "title": "构建知识体系",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "习题训练",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "复习题13",
+          "level": 2,
+          "index": 7
+        }
+      ]
+    },
+    {
+      "title": "第十四章　整式的乘法与因式分解",
+      "level": 1,
+      "index": 4,
+      "children": [
+        {
+          "title": "14.1 整式的乘法",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "14.1.1同底数幂的乘法",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "14.1.2幂的乘方",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "14.1.3积的乘方",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "14.1.4整式的乘法",
+              "level": 3,
+              "index": 4,
+              "children": [
+                {
+                  "title": "整式的乘法",
+                  "level": 4,
+                  "index": 1
+                },
+                {
+                  "title": "整式的除法",
+                  "level": 4,
+                  "index": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "14.2 乘法公式",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "14.2.1平方差公式",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "14.2.2完全平方公式",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "14.3 因式分解",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "14.3.1提公因式法",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "14.3.2公式法",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "数学活动",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "构建知识体系",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "习题训练",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "复习题14",
+          "level": 2,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "title": "第十五章　分式",
+      "level": 1,
+      "index": 5,
+      "children": [
+        {
+          "title": "15.1 分式",
+          "level": 2,
+          "index": 1,
+          "children": [
+            {
+              "title": "15.1.1从分数到分式",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "15.1.2分式的基本性质",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "15.2 分式的运算",
+          "level": 2,
+          "index": 2,
+          "children": [
+            {
+              "title": "15.2.1分式的乘除",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "15.2.2分式的加减",
+              "level": 3,
+              "index": 2
+            },
+            {
+              "title": "15.2.3整数指数幂",
+              "level": 3,
+              "index": 3
+            },
+            {
+              "title": "阅读与思考  容器中的水能倒完吗",
+              "level": 3,
+              "index": 4
+            }
+          ]
+        },
+        {
+          "title": "15.3 分式方程",
+          "level": 2,
+          "index": 3,
+          "children": [
+            {
+              "title": "15.3.1分式方程的解法",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "15.3.2分式方程的应用",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "数学活动",
+          "level": 2,
+          "index": 4
+        },
+        {
+          "title": "小结",
+          "level": 2,
+          "index": 5,
+          "children": [
+            {
+              "title": "构建知识体系",
+              "level": 3,
+              "index": 1
+            },
+            {
+              "title": "习题训练",
+              "level": 3,
+              "index": 2
+            }
+          ]
+        },
+        {
+          "title": "复习题15",
+          "level": 2,
+          "index": 6
+        }
+      ]
+    }
+  ]
+}
