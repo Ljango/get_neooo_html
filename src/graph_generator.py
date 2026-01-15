@@ -20,7 +20,7 @@ STATIC_ROOT = PROJECT_ROOT / "static"
 class GraphGenerator:
     """统一图谱生成器"""
     
-    # 实体类型配置
+    # 实体类型配置（统一的平铺字典）
     ENTITY_TYPE_CONFIG = {
         # 高中数学
         "CourseModule": {"label": "课程模块", "color": "#e74c3c", "size": 24},
@@ -31,6 +31,7 @@ class GraphGenerator:
         "KeyPoint": {"label": "知识点", "color": "#2ecc71", "size": 14},
         "AcademicQuality": {"label": "学业质量", "color": "#1abc9c", "size": 14},
         "CoreLiteracy": {"label": "核心素养", "color": "#16a085", "size": 14},
+        
         # 义务物理
         "ThemeL1": {"label": "一级主题", "color": "#e67e22", "size": 22},
         "ThemeL2": {"label": "二级主题", "color": "#f39c12", "size": 18},
@@ -39,23 +40,34 @@ class GraphGenerator:
         "ExampleProblem": {"label": "示例问题", "color": "#9b59b6", "size": 14},
         "ActivitySuggestion": {"label": "活动建议", "color": "#e74c3c", "size": 14},
         "CourseTarget": {"label": "课程目标", "color": "#16a085", "size": 16},
+        
+        # 高中物理
+        "Example": {"label": "示例", "color": "#9b59b6", "size": 14},
+        "Experiment": {"label": "实验", "color": "#3498db", "size": 14},
+        
         # 义务教育化学
         "LearningTheme": {"label": "学习主题", "color": "#e67e22", "size": 20},
         "Conception": {"label": "概念", "color": "#3498db", "size": 16},
         "CoreKnowledge": {"label": "核心知识", "color": "#2ecc71", "size": 16},
-        "Experiment": {"label": "实验", "color": "#9b59b6", "size": 14},
         "Method": {"label": "方法", "color": "#f39c12", "size": 14},
         "Attitude": {"label": "态度", "color": "#1abc9c", "size": 14},
         "Interdisciplinary": {"label": "跨学科", "color": "#e74c3c", "size": 14},
+        
         # 义教地理
+        "LearningThemeL1": {"label": "一级学习主题", "color": "#e67e22", "size": 22},
         "LearningThemeL2": {"label": "二级学习主题", "color": "#f39c12", "size": 18},
         "LearningThemeL3": {"label": "三级学习主题", "color": "#f1c40f", "size": 16},
+        
+        # 高中化学
+        "CourseMoudle": {"label": "课程模块", "color": "#e74c3c", "size": 24},
+        "CourseSeries": {"label": "课程系列", "color": "#9b59b6", "size": 20},
+        "CourseType": {"label": "课程类型", "color": "#8e44ad", "size": 22},
+        
         # 教材相关
         "Chapter": {"label": "章", "color": "#ff7675", "size": 16},
         "Section": {"label": "节", "color": "#74b9ff", "size": 14},
         "SubSection": {"label": "小节", "color": "#a29bfe", "size": 12},
     }
-    
     def __init__(self, subject_path: str):
         """
         初始化图谱生成器

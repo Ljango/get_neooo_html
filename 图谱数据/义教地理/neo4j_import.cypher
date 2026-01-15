@@ -1,12 +1,12 @@
 // =====================================================
 // 义教地理课标图谱 - Neo4j导入脚本
-// 生成时间: 2026-01-14T18:45:08.128985
+// 生成时间: 2026-01-15T15:54:17.975472
 // =====================================================
 
 // 创建约束和索引
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:LearningThemeL2) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:CoreLiteracy) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:LearningTheme) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:CoreLiteracy) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:LearningThemeL2) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:LearningThemeL3) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:CourseTarget) REQUIRE n.identifier IS UNIQUE;
 
@@ -105,6 +105,126 @@ SET n += {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL1:05", title: 
 // 导入关系
 // =====================================================
 
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL1:01"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:01"})
+MERGE (source)-[r:themeL1OrganizesL2]->(target)
+SET r.label = "以自然环境系统及其要素发展、演变过程对人类活动的影响为线索组织 / organizesL2";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:01"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL1:01"})
+MERGE (source)-[r:themeL2BelongsToL1]->(target)
+SET r.label = "描述地球的宇宙环境 / belongsToL1";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL1:01"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:02"})
+MERGE (source)-[r:themeL1OrganizesL2]->(target)
+SET r.label = "以自然环境系统及其要素发展、演变过程对人类活动的影响为线索组织 / organizesL2";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:02"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL1:01"})
+MERGE (source)-[r:themeL2BelongsToL1]->(target)
+SET r.label = "描述探月工程、火星探测以及空间站建设等人类太空探索的进展与意义 / belongsToL1";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL1:02"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:03"})
+MERGE (source)-[r:themeL1OrganizesL2]->(target)
+SET r.label = "以自然环境系统及其要素发展、演变过程对人类活动的影响为线索组织 / organizesL2";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:03"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL1:02"})
+MERGE (source)-[r:themeL2BelongsToL1]->(target)
+SET r.label = "演示地球的自转运动 / belongsToL1";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL1:02"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:04"})
+MERGE (source)-[r:themeL1OrganizesL2]->(target)
+SET r.label = "以自然环境系统及其要素发展、演变过程对人类活动的影响为线索组织 / organizesL2";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:04"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL1:02"})
+MERGE (source)-[r:themeL2BelongsToL1]->(target)
+SET r.label = "演示地球的公转运动 / belongsToL1";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL1:03"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:05"})
+MERGE (source)-[r:themeL1OrganizesL2]->(target)
+SET r.label = "以认识自然地理要素及其与人类活动的关系为线索组织 / organizesL2";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:05"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL1:03"})
+MERGE (source)-[r:themeL2BelongsToL1]->(target)
+SET r.label = "描述世界海陆分布状况 / belongsToL1";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL1:03"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:06"})
+MERGE (source)-[r:themeL1OrganizesL2]->(target)
+SET r.label = "以基本社会经济活动的空间特点为线索组织 / organizesL2";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:06"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL1:03"})
+MERGE (source)-[r:themeL2BelongsToL1]->(target)
+SET r.label = "描述并简要归纳世界人口数量变化和人口空间分布特点 / belongsToL1";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL1:04"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:07"})
+MERGE (source)-[r:themeL1OrganizesL2]->(target)
+SET r.label = "以认识区域地理条件、区域特征和发展方向为线索组织 / organizesL2";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:07"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL1:04"})
+MERGE (source)-[r:themeL2BelongsToL1]->(target)
+SET r.label = "描述某大洲的地理位置 / belongsToL1";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL1:04"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:08"})
+MERGE (source)-[r:themeL1OrganizesL2]->(target)
+SET r.label = "以认识区域地理条件、区域特征和发展方向为线索组织 / organizesL2";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:08"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL1:04"})
+MERGE (source)-[r:themeL2BelongsToL1]->(target)
+SET r.label = "描述某地区的地理位置 / belongsToL1";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL1:04"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:09"})
+MERGE (source)-[r:themeL1OrganizesL2]->(target)
+SET r.label = "以认识区域地理条件、区域特征和发展方向为线索组织 / organizesL2";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:09"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL1:04"})
+MERGE (source)-[r:themeL2BelongsToL1]->(target)
+SET r.label = "说出某国家的地理位置 / belongsToL1";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL1:05"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:10"})
+MERGE (source)-[r:themeL1OrganizesL2]->(target)
+SET r.label = "以认识区域地理条件、区域特征和发展方向为线索组织 / organizesL2";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:10"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL1:05"})
+MERGE (source)-[r:themeL2BelongsToL1]->(target)
+SET r.label = "描述中国的地理位置与疆域特征 / belongsToL1";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL1:05"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:11"})
+MERGE (source)-[r:themeL1OrganizesL2]->(target)
+SET r.label = "以认识区域地理条件、区域特征和发展方向为线索组织 / organizesL2";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:11"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL1:05"})
+MERGE (source)-[r:themeL2BelongsToL1]->(target)
+SET r.label = "说出某区域的地理位置和自然地理特征 / belongsToL1";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL1:05"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:12"})
+MERGE (source)-[r:themeL1OrganizesL2]->(target)
+SET r.label = "以认识区域地理条件、区域特征和发展方向为线索组织 / organizesL2";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:12"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL1:05"})
+MERGE (source)-[r:themeL2BelongsToL1]->(target)
+SET r.label = "描述家乡典型的自然与人文地理事物和现象 / belongsToL1";
+
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:01"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL1:01"})
 MERGE (source)-[r:literacyIsCoreValue]->(target)
@@ -304,6 +424,106 @@ MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL1:05"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:04"})
 MERGE (source)-[r:themeCultivatesLiteracy]->(target)
 SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:05"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL3:01"})
+MERGE (source)-[r:themeL2OrganizesL3]->(target)
+SET r.label = "以认识自然地理要素及其与人类活动的关系为线索组织 / organizesL3";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL3:01"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:05"})
+MERGE (source)-[r:themeL3BelongsToL2]->(target)
+SET r.label = "是自然环境的学习内容 / belongsToL2";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:05"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL3:02"})
+MERGE (source)-[r:themeL2OrganizesL3]->(target)
+SET r.label = "以认识自然地理要素及其与人类活动的关系为线索组织 / organizesL3";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL3:02"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:05"})
+MERGE (source)-[r:themeL3BelongsToL2]->(target)
+SET r.label = "是自然环境的学习内容 / belongsToL2";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:06"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL3:03"})
+MERGE (source)-[r:themeL2OrganizesL3]->(target)
+SET r.label = "以基本社会经济活动的空间特点为线索组织 / organizesL3";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL3:03"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:06"})
+MERGE (source)-[r:themeL3BelongsToL2]->(target)
+SET r.label = "是人文环境的学习内容 / belongsToL2";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:06"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL3:04"})
+MERGE (source)-[r:themeL2OrganizesL3]->(target)
+SET r.label = "以基本社会经济活动的空间特点为线索组织 / organizesL3";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL3:04"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:06"})
+MERGE (source)-[r:themeL3BelongsToL2]->(target)
+SET r.label = "是人文环境的学习内容 / belongsToL2";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:01"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL3:01"})
+MERGE (source)-[r:literacyGuidesTheme]->(target)
+SET r.label = "培养 / guidesTheme";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL3:01"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:01"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "有助于学生形成 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:01"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL3:02"})
+MERGE (source)-[r:literacyGuidesTheme]->(target)
+SET r.label = "培养 / guidesTheme";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL3:02"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:01"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "树立绿色发展、共同发展、人地协调发展的观念 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:02"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL3:01"})
+MERGE (source)-[r:literacyGuidesTheme]->(target)
+SET r.label = "培养 / guidesTheme";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL3:01"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:02"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "有助于学生形成系统、动态、辩证的思维方式 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:03"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL3:03"})
+MERGE (source)-[r:literacyGuidesTheme]->(target)
+SET r.label = "培养 / guidesTheme";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL3:03"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:03"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "有助于学生建立地理空间观念 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:04"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL3:01"})
+MERGE (source)-[r:literacyGuidesTheme]->(target)
+SET r.label = "培养 / guidesTheme";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL3:01"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:04"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "有助于学生在真实或模拟环境中通过地理实践活动 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:01"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL3:04"})
+MERGE (source)-[r:literacyGuidesTheme]->(target)
+SET r.label = "培养 / guidesTheme";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL3:04"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:01"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "说明加强国际合作的重要意义 / cultivatesLiteracy";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:01"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:01"})
@@ -422,5 +642,365 @@ SET r.label = "培育核心素养 / cultivatesLiteracy";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:12"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:01"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:02"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:01"})
+MERGE (source)-[r:literacyIsCultivatedByCourse]->(target)
+SET r.label = "是地理课程要培育的核心素养 / isCultivatedByCourse";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:01"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:02"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:02"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:02"})
+MERGE (source)-[r:literacyIsCultivatedByCourse]->(target)
+SET r.label = "是地理课程要培育的核心素养 / isCultivatedByCourse";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:02"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:02"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:02"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:03"})
+MERGE (source)-[r:literacyIsCultivatedByCourse]->(target)
+SET r.label = "是地理课程要培育的核心素养 / isCultivatedByCourse";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:03"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:02"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:02"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:04"})
+MERGE (source)-[r:literacyIsCultivatedByCourse]->(target)
+SET r.label = "是地理课程要培育的核心素养 / isCultivatedByCourse";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:04"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:02"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:02"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:05"})
+MERGE (source)-[r:literacyIsCultivatedByCourse]->(target)
+SET r.label = "是地理课程要培育的核心素养 / isCultivatedByCourse";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:05"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:02"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:02"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:06"})
+MERGE (source)-[r:literacyIsCultivatedByCourse]->(target)
+SET r.label = "是地理课程要培育的核心素养 / isCultivatedByCourse";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:06"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:02"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:02"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:07"})
+MERGE (source)-[r:literacyIsCultivatedByCourse]->(target)
+SET r.label = "是地理课程要培育的核心素养 / isCultivatedByCourse";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:07"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:02"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:02"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:08"})
+MERGE (source)-[r:literacyIsCultivatedByCourse]->(target)
+SET r.label = "是地理课程要培育的核心素养 / isCultivatedByCourse";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:08"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:02"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:02"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:09"})
+MERGE (source)-[r:literacyIsCultivatedByCourse]->(target)
+SET r.label = "是地理课程要培育的核心素养 / isCultivatedByCourse";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:09"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:02"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:02"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:10"})
+MERGE (source)-[r:literacyIsCultivatedByCourse]->(target)
+SET r.label = "是地理课程要培育的核心素养 / isCultivatedByCourse";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:10"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:02"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:02"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:11"})
+MERGE (source)-[r:literacyIsCultivatedByCourse]->(target)
+SET r.label = "是地理课程要培育的核心素养 / isCultivatedByCourse";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:11"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:02"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:02"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:12"})
+MERGE (source)-[r:literacyIsCultivatedByCourse]->(target)
+SET r.label = "是地理课程要培育的核心素养 / isCultivatedByCourse";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:12"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:02"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:03"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:01"})
+MERGE (source)-[r:literacyIsCultivatedByCourse]->(target)
+SET r.label = "是地理课程要培育的核心素养 / isCultivatedByCourse";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:01"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:03"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:03"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:02"})
+MERGE (source)-[r:literacyIsCultivatedByCourse]->(target)
+SET r.label = "是地理课程要培育的核心素养 / isCultivatedByCourse";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:02"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:03"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:03"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:03"})
+MERGE (source)-[r:literacyIsCultivatedByCourse]->(target)
+SET r.label = "是地理课程要培育的核心素养 / isCultivatedByCourse";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:03"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:03"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:03"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:04"})
+MERGE (source)-[r:literacyIsCultivatedByCourse]->(target)
+SET r.label = "是地理课程要培育的核心素养 / isCultivatedByCourse";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:04"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:03"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:03"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:05"})
+MERGE (source)-[r:literacyIsCultivatedByCourse]->(target)
+SET r.label = "是地理课程要培育的核心素养 / isCultivatedByCourse";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:05"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:03"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:03"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:06"})
+MERGE (source)-[r:literacyIsCultivatedByCourse]->(target)
+SET r.label = "是地理课程要培育的核心素养 / isCultivatedByCourse";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:06"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:03"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:03"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:07"})
+MERGE (source)-[r:literacyIsCultivatedByCourse]->(target)
+SET r.label = "是地理课程要培育的核心素养 / isCultivatedByCourse";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:07"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:03"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:03"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:08"})
+MERGE (source)-[r:literacyIsCultivatedByCourse]->(target)
+SET r.label = "是地理课程要培育的核心素养 / isCultivatedByCourse";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:08"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:03"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:03"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:09"})
+MERGE (source)-[r:literacyIsCultivatedByCourse]->(target)
+SET r.label = "是地理课程要培育的核心素养 / isCultivatedByCourse";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:09"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:03"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:03"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:10"})
+MERGE (source)-[r:literacyIsCultivatedByCourse]->(target)
+SET r.label = "是地理课程要培育的核心素养 / isCultivatedByCourse";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:10"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:03"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:03"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:11"})
+MERGE (source)-[r:literacyIsCultivatedByCourse]->(target)
+SET r.label = "是地理课程要培育的核心素养 / isCultivatedByCourse";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:11"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:03"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:03"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:12"})
+MERGE (source)-[r:literacyIsCultivatedByCourse]->(target)
+SET r.label = "是地理课程要培育的核心素养 / isCultivatedByCourse";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:12"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:03"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:04"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:01"})
+MERGE (source)-[r:literacyIsPracticedInCourse]->(target)
+SET r.label = "在分析和解决地理实践中遇到问题时具备 / isPracticedInCourse";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:01"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:04"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:04"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:02"})
+MERGE (source)-[r:literacyIsPracticedInCourse]->(target)
+SET r.label = "在分析和解决地理实践中遇到问题时具备 / isPracticedInCourse";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:02"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:04"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:04"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:03"})
+MERGE (source)-[r:literacyIsPracticedInCourse]->(target)
+SET r.label = "在分析和解决地理实践中遇到问题时具备 / isPracticedInCourse";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:03"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:04"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:04"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:04"})
+MERGE (source)-[r:literacyIsPracticedInCourse]->(target)
+SET r.label = "在分析和解决地理实践中遇到问题时具备 / isPracticedInCourse";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:04"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:04"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:04"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:05"})
+MERGE (source)-[r:literacyIsPracticedInCourse]->(target)
+SET r.label = "在分析和解决地理实践中遇到问题时具备 / isPracticedInCourse";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:05"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:04"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:04"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:06"})
+MERGE (source)-[r:literacyIsPracticedInCourse]->(target)
+SET r.label = "在分析和解决地理实践中遇到问题时具备 / isPracticedInCourse";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:06"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:04"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:04"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:07"})
+MERGE (source)-[r:literacyIsPracticedInCourse]->(target)
+SET r.label = "在分析和解决地理实践中遇到问题时具备 / isPracticedInCourse";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:07"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:04"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:04"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:08"})
+MERGE (source)-[r:literacyIsPracticedInCourse]->(target)
+SET r.label = "在分析和解决地理实践中遇到问题时具备 / isPracticedInCourse";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:08"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:04"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:04"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:09"})
+MERGE (source)-[r:literacyIsPracticedInCourse]->(target)
+SET r.label = "在分析和解决地理实践中遇到问题时具备 / isPracticedInCourse";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:09"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:04"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:04"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:10"})
+MERGE (source)-[r:literacyIsPracticedInCourse]->(target)
+SET r.label = "在分析和解决地理实践中遇到问题时具备 / isPracticedInCourse";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:10"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:04"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:04"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:11"})
+MERGE (source)-[r:literacyIsPracticedInCourse]->(target)
+SET r.label = "在分析和解决地理实践中遇到问题时具备 / isPracticedInCourse";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:11"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:04"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:04"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:12"})
+MERGE (source)-[r:literacyIsPracticedInCourse]->(target)
+SET r.label = "在分析和解决地理实践中遇到问题时具备 / isPracticedInCourse";
+
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB03:LearningThemeL2:12"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB03:CoreLiteracy:04"})
 MERGE (source)-[r:themeCultivatesLiteracy]->(target)
 SET r.label = "培育核心素养 / cultivatesLiteracy";
