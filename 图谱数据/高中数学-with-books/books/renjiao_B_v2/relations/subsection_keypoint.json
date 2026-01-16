@@ -1,0 +1,2006 @@
+[
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:1",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00001"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00001",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:1"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:2",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00001"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00001",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:2"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:2",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00002"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00002",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:2"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:2",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00003"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00003",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:2"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:2",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00019"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00019",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:2"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:2",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00032"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00032",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:2"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:3",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00001"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00001",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:3"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:3",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00002"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00002",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:3"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:3",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00003"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00003",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:3"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:4",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00006"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00006",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:4"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:5",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00005"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00005",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:5"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:5",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00006"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00006",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:5"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:6",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00004"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00004",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:6"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:7",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00007"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00007",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:7"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:7",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00055"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00055",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:7"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:8",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00009"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00009",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:8"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:9",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00055"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00055",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:9"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:10",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00007"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00007",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:10"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:10",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00008"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00008",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:10"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:11",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00007"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00007",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:11"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:11",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00008"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00008",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:11"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:12",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00007"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00007",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:12"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:12",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00008"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00008",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:12"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:12",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00010"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00010",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:12"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:13",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00008"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00008",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:13"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:14",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00014"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00014",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:14"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:15",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00013"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00013",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:15"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:16",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00013"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00013",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:16"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:17",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00051"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00051",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:17"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:18",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00016"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00016",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:18"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:19",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00016"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00016",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:19"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:19",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00047"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00047",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:19"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:20",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00047"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00047",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:20"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:21",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00016"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00016",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:21"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:22",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00064"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00064",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:22"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:23",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00064"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00064",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:23"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:24",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00064"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00064",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:24"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:25",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00039"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00039",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:25"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:26",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00034"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00034",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:26"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:27",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00030"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00030",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:27"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:29",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00034"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00034",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:29"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:30",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00034"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00034",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:30"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:30",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00035"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00035",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:30"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:30",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00061"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00061",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:30"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:31",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00001"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00001",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:31"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:31",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00024"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00024",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:31"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:31",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00028"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00028",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:31"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:31",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00053"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00053",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:31"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:32",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00053"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00053",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:32"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:33",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00053"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00053",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:33"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:34",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00024"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00024",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:34"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:35",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00051"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00051",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:35"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:35",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00053"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00053",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:35"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:36",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00026"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00026",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:36"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:36",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00052"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00052",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:36"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:37",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00051"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00051",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:37"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:38",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00051"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00051",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:38"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:40",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00017"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00017",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:40"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:41",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00013"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00013",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:41"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:41",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00018"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00018",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:41"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:41",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00019"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00019",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:41"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:41",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00021"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00021",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:41"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:42",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00018"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00018",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:42"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:42",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00019"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00019",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:42"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:42",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00021"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00021",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:42"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:43",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00002"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00002",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:43"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:43",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00018"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00018",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:43"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:43",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00019"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00019",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:43"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:43",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00021"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00021",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:43"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:45",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00013"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00013",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:45"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:45",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00018"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00018",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:45"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:45",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00019"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00019",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:45"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:45",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00021"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00021",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:45"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:46",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00007"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00007",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:46"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:47",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00007"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00007",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:47"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:48",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00007"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00007",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:48"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:49",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00007"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00007",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:49"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:50",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00018"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00018",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:50"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:50",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00019"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00019",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:50"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:50",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00021"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00021",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:50"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:51",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00024"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00024",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:51"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:51",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00028"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00028",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:51"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:52",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00029"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00029",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:52"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:53",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00051"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00051",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:53"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:57",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00020"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00020",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:57"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:57",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00021"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00021",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:57"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:58",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00060"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00060",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:58"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:59",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00060"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00060",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:59"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:60",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00001"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00001",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:60"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:60",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00028"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00028",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:60"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:60",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00029"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00029",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:60"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:61",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00028"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00028",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:61"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:61",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00029"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00029",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:61"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:61",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00030"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00030",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:61"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:62",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00028"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00028",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:62"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:62",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00029"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00029",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:62"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:63",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00028"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00028",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:63"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:63",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00029"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00029",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:63"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:64",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00033"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00033",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:64"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:65",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00002"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00002",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:65"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:69",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00033"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00033",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:69"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:70",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00054"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00054",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:70"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:71",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00054"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00054",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:71"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:72",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00057"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00057",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:72"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:73",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00054"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00054",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:73"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:74",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00057"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00057",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:74"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:75",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00051"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00051",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:75"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:75",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00053"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00053",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:75"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:76",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00026"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00026",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:76"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:76",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00051"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00051",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:76"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:76",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00052"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00052",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:76"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:76",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00053"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00053",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:76"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:77",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00050"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00050",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:77"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:77",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00051"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00051",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:77"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:77",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00053"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00053",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:77"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:78",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00051"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00051",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:78"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:78",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00053"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00053",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:78"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:79",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00051"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00051",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:79"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:79",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00053"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00053",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:79"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:80",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00054"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00054",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:80"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:82",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00050"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00050",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:82"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:83",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00017"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00017",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:83"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:84",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00054"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00054",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:84"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:85",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00032"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00032",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:85"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:86",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00054"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00054",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:86"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:87",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00055"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00055",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:87"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:88",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00055"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00055",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:88"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:89",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00032"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00032",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:89"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:89",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00054"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00054",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:89"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:90",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00032"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00032",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:90"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:91",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00055"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00055",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:91"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:92",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00033"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00033",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:92"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:93",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00056"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00056",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:93"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:94",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00033"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00033",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:94"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:95",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00055"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00055",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:95"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:96",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00033"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00033",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:96"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:97",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00058"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00058",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:97"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:98",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00059"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00059",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:98"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:99",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00059"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00059",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:99"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:100",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00061"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00061",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:100"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:101",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00034"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00034",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:101"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:102",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00061"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00061",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:102"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:103",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00035"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00035",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:103"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:103",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00061"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00061",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:103"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:103",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00062"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00062",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:103"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:104",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00062"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00062",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:104"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:105",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00060"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00060",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:105"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:106",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00062"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00062",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:106"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:107",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00062"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00062",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:107"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:108",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00065"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00065",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:108"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:109",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00035"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00035",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:109"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:110",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00001"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00001",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:110"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:110",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00028"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00028",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:110"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:110",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00042"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00042",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:110"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:111",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00042"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00042",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:111"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:112",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00042"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00042",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:112"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:112",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00043"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00043",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:112"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:113",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00043"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00043",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:113"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:114",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00042"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00042",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:114"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:114",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00043"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00043",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:114"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:115",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00042"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00042",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:115"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:116",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00013"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00013",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:116"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:117",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00046"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00046",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:117"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:118",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00019"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00019",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:118"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:119",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00021"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00021",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:119"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:120",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00023"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00023",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:120"
+  },
+  {
+    "relationName": "subsectionHasKeyPoint",
+    "label": "包含知识点 / hasKeyPoint",
+    "source": "urn:jy:math:SB0201:OB06:Subsection:121",
+    "target": "urn:jy:math:SB0201:OB06:KeyPoint:kp00023"
+  },
+  {
+    "relationName": "keyPointBelongsToSubsection",
+    "label": "属于小节 / belongsToSubsection",
+    "source": "urn:jy:math:SB0201:OB06:KeyPoint:kp00023",
+    "target": "urn:jy:math:SB0201:OB06:Subsection:121"
+  }
+]

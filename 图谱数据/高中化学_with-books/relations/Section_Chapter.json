@@ -1,0 +1,604 @@
+{
+  "relations": [
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l1",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l1"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l1",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l1"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l2",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l1"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l1",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l2"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l3",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l1"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l1",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l3"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l4",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l2"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l2",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l4"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l5",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l2"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l2",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l5"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l6",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l2"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l2",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l6"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l7",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l3"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l3",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l7"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l8",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l3"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l3",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l8"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l9",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l3"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l3",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l9"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l10",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l4"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l4",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l10"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l11",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l4"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l4",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l11"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l12",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l4"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l4",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l12"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l13",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l5"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l5",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l13"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l14",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l5"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l5",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l14"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l15",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l5"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l5",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l15"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l16",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l6"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l6",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l16"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l17",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l6"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l6",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l17"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l18",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l6"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l6",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l18"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l19",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l8"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l8",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l19"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l20",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l8"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l8",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l20"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l21",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l8"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l8",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l21"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l22",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l8"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l8",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l22"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l23",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l9"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l9",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l23"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l24",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l9"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l9",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l24"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l25",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l9"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l9",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l25"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l26",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l9"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l9",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l26"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l27",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l10"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l10",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l27"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l28",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l10"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l10",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l28"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l29",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l10"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l10",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l29"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l30",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l10"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l10",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l30"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l31",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l11"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l11",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l31"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l32",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l11"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l11",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l32"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l33",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l11"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l11",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l33"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l34",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l12"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l12",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l34"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l35",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l12"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l12",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l35"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l36",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l12"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l12",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l36"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l37",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l12"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l12",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l37"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l38",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l13"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l13",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l38"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l39",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l13"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l13",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l39"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l40",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l13"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l13",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l40"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l41",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l14"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l14",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l41"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l42",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l14"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l14",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l42"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l43",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l14"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l14",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l43"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l44",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l15"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l15",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l44"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l45",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l15"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l15",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l45"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l46",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l15"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l15",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l46"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l47",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l15"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l15",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l47"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l48",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l16"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l16",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l48"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l49",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l16"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l16",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l49"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "节隶属章节 / belongsToChapter",
+      "source": "urn:jy:chemistry:SB0402:OB06:Section:l50",
+      "target": "urn:jy:chemistry:SB0402:OB06:Chapter:l16"
+    },
+    {
+      "relationName": "ChapterIncludesSection",
+      "label": "章节包含节 / includesSection",
+      "source": "urn:jy:chemistry:SB0402:OB06:Chapter:l16",
+      "target": "urn:jy:chemistry:SB0402:OB06:Section:l50"
+    }
+  ]
+}

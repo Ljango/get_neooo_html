@@ -1,14 +1,14 @@
 // =====================================================
 // 义教地理课标图谱 - Neo4j导入脚本
-// 生成时间: 2026-01-15T15:54:17.975472
+// 生成时间: 2026-01-16T14:45:30.759675
 // =====================================================
 
 // 创建约束和索引
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:LearningTheme) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:CoreLiteracy) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:LearningThemeL2) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:LearningThemeL3) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:LearningThemeL2) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:CoreLiteracy) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:CourseTarget) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:LearningTheme) REQUIRE n.identifier IS UNIQUE;
 
 // =====================================================
 // 导入实体
