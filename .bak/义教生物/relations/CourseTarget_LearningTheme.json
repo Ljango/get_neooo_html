@@ -1,0 +1,24 @@
+{
+    "relations": [
+      {
+        "relationName": "courseTargetRelatesTheme",
+        "label": "获得生物体的结构层次、生物的多样性、生物与环境、植物的生活、人体生理与健康、遗传与进化等方面的基础知识",
+        "source": "urn:jy:biology:SB0403:OB03:CourseTarget:l1",
+        "target": "urn:jy:biology:SB0403:OB03:LearningTheme:l1"
+    
+      },
+      {
+        "relationName": "courseTargetRelatesTheme",
+        "label": "获得生物体的结构层次、生物的多样性、生物与环境、植物的生活、人体生理与健康、遗传与进化等方面的基础知识",
+        "source": "urn:jy:biology:SB0403:OB03:CourseTarget:l1",
+        "target": "urn:jy:biology:SB0403:OB03:LearningTheme:l2"
+      },
+      {
+        "relationName": "courseTargetRelatesTheme",
+        "label": "获得生物体的结构层次、生物的多样性、生物与环境、植物的生活、人体生理与健康、遗传与进化等方面的基础知识",
+        "source": "urn:jy:biology:SB0403:OB03:CourseTarget:l1",
+        "target": "urn:jy:biology:SB0403:OB03:LearningTheme:l3"
+      }
+    ]
+  }
+  

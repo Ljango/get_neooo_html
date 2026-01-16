@@ -1,0 +1,23 @@
+{
+    "relations": [
+      {
+        "relationName": "courseModuleContainsTarget",
+        "label": "必修课程包含目标要求：认识生物学在人与自然和谐共生，促进科技发展、社会进步等方面的重要贡献。",
+        "source": "urn:jy:biology:SB0403:OB06:CourseModule:l1",
+        "target": "urn:jy:biology:SB0403:OB06:CourseTarget:l1"
+      },
+      {
+        "relationName": "courseModuleContainsTarget",
+        "label": "选择性必修课程包含目标要求：树立生命观念，运用这些观念解释生命现象，探索生命规律。",
+        "source": "urn:jy:biology:SB0403:OB06:CourseModule:l2",
+        "target": "urn:jy:biology:SB0403:OB06:CourseTarget:l1"
+      },
+      {
+        "relationName": "courseModuleContainsTarget",
+        "label": "选修课程包含目标要求：形成科学思维的习惯，运用生物学知识、证据和逻辑对社会性科学议题进行思考或展开论证。",
+        "source": "urn:jy:biology:SB0403:OB06:CourseModule:l3",
+        "target": "urn:jy:biology:SB0403:OB06:CourseTarget:l1"
+      }
+    ]
+  }
+  

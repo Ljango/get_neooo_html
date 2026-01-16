@@ -1,0 +1,224 @@
+{
+    "relations": [
+      {
+        "relationName": "literacyRefinesConception",
+        "label": "是生物学概念、原理、规律的提炼和升华",
+        "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l1",
+        "target": "urn:jy:biology:SB0403:OB03:Conception:l1"
+      },
+      {
+        "relationName": "literacyRefinesConception",
+        "label": "是生物学概念、原理、规律的提炼和升华",
+        "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l1",
+        "target": "urn:jy:biology:SB0403:OB03:Conception:l2"
+      },
+      {
+        "relationName": "literacyRefinesConception",
+        "label": "是生物学概念、原理、规律的提炼和升华",
+        "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l1",
+        "target": "urn:jy:biology:SB0403:OB03:Conception:l3"
+      },
+      {
+        "relationName": "literacyRefinesConception",
+        "label": "是生物学概念、原理、规律的提炼和升华",
+        "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l1",
+        "target": "urn:jy:biology:SB0403:OB03:Conception:l4"
+      },
+      {
+        "relationName": "literacyRefinesConception",
+        "label": "是生物学概念、原理、规律的提炼和升华",
+        "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l1",
+        "target": "urn:jy:biology:SB0403:OB03:Conception:l5"
+      },
+      {
+        "relationName": "literacyRefinesConception",
+        "label": "是生物学概念、原理、规律的提炼和升华",
+        "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l1",
+        "target": "urn:jy:biology:SB0403:OB03:Conception:l6"
+      },
+      {
+        "relationName": "literacyRefinesConception",
+        "label": "是生物学概念、原理、规律的提炼和升华",
+        "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l1",
+        "target": "urn:jy:biology:SB0403:OB03:Conception:l7"
+      },
+      {
+        "relationName": "literacyRefinesConception",
+        "label": "是生物学概念、原理、规律的提炼和升华",
+        "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l1",
+        "target": "urn:jy:biology:SB0403:OB03:Conception:l8"
+      },
+      {
+        "relationName": "literacyRefinesConception",
+        "label": "是生物学概念、原理、规律的提炼和升华",
+        "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l1",
+        "target": "urn:jy:biology:SB0403:OB03:Conception:l9"
+      },
+  
+      {
+        "relationName": "literacyUsesConception",
+        "label": "探讨、阐释生命现象及规律",
+        "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l2",
+        "target": "urn:jy:biology:SB0403:OB03:Conception:l1"
+      },
+      {
+        "relationName": "literacyUsesConception",
+        "label": "探讨、阐释生命现象及规律",
+        "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l2",
+        "target": "urn:jy:biology:SB0403:OB03:Conception:l2"
+      },
+      {
+        "relationName": "literacyUsesConception",
+        "label": "探讨、阐释生命现象及规律",
+        "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l2",
+        "target": "urn:jy:biology:SB0403:OB03:Conception:l3"
+      },
+      {
+        "relationName": "literacyUsesConception",
+        "label": "探讨、阐释生命现象及规律",
+        "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l2",
+        "target": "urn:jy:biology:SB0403:OB03:Conception:l4"
+      },
+      {
+        "relationName": "literacyUsesConception",
+        "label": "探讨、阐释生命现象及规律",
+        "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l2",
+        "target": "urn:jy:biology:SB0403:OB03:Conception:l5"
+      },
+      {
+        "relationName": "literacyUsesConception",
+        "label": "探讨、阐释生命现象及规律",
+        "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l2",
+        "target": "urn:jy:biology:SB0403:OB03:Conception:l6"
+      },
+      {
+        "relationName": "literacyUsesConception",
+        "label": "探讨、阐释生命现象及规律",
+        "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l2",
+        "target": "urn:jy:biology:SB0403:OB03:Conception:l7"
+      },
+      {
+        "relationName": "literacyUsesConception",
+        "label": "探讨、阐释生命现象及规律",
+        "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l2",
+        "target": "urn:jy:biology:SB0403:OB03:Conception:l8"
+      },
+      {
+        "relationName": "literacyUsesConception",
+        "label": "探讨、阐释生命现象及规律",
+        "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l2",
+        "target": "urn:jy:biology:SB0403:OB03:Conception:l9"
+      },
+  
+      {
+        "relationName": "literacyInvestigatesConception",
+        "label": "发现现实世界中的生物学问题",
+        "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l3",
+        "target": "urn:jy:biology:SB0403:OB03:Conception:l1"
+      },
+      {
+        "relationName": "literacyInvestigatesConception",
+        "label": "发现现实世界中的生物学问题",
+        "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l3",
+        "target": "urn:jy:biology:SB0403:OB03:Conception:l2"
+      },
+      {
+        "relationName": "literacyInvestigatesConception",
+        "label": "发现现实世界中的生物学问题",
+        "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l3",
+        "target": "urn:jy:biology:SB0403:OB03:Conception:l3"
+      },
+      {
+        "relationName": "literacyInvestigatesConception",
+        "label": "发现现实世界中的生物学问题",
+        "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l3",
+        "target": "urn:jy:biology:SB0403:OB03:Conception:l4"
+      },
+      {
+        "relationName": "literacyInvestigatesConception",
+        "label": "发现现实世界中的生物学问题",
+        "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l3",
+        "target": "urn:jy:biology:SB0403:OB03:Conception:l5"
+      },
+      {
+        "relationName": "literacyInvestigatesConception",
+        "label": "发现现实世界中的生物学问题",
+        "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l3",
+        "target": "urn:jy:biology:SB0403:OB03:Conception:l6"
+      },
+      {
+        "relationName": "literacyInvestigatesConception",
+        "label": "发现现实世界中的生物学问题",
+        "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l3",
+        "target": "urn:jy:biology:SB0403:OB03:Conception:l7"
+      },
+      {
+        "relationName": "literacyInvestigatesConception",
+        "label": "发现现实世界中的生物学问题",
+        "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l3",
+        "target": "urn:jy:biology:SB0403:OB03:Conception:l8"
+      },
+      {
+        "relationName": "literacyInvestigatesConception",
+        "label": "发现现实世界中的生物学问题",
+        "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l3",
+        "target": "urn:jy:biology:SB0403:OB03:Conception:l9"
+      },
+  
+      {
+        "relationName": "literacyAppliesConception",
+        "label": "积极运用生物学的知识和方法",
+        "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l4",
+        "target": "urn:jy:biology:SB0403:OB03:Conception:l1"
+      },
+      {
+        "relationName": "literacyAppliesConception",
+        "label": "积极运用生物学的知识和方法",
+        "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l4",
+        "target": "urn:jy:biology:SB0403:OB03:Conception:l2"
+      },
+      {
+        "relationName": "literacyAppliesConception",
+        "label": "积极运用生物学的知识和方法",
+        "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l4",
+        "target": "urn:jy:biology:SB0403:OB03:Conception:l3"
+      },
+      {
+        "relationName": "literacyAppliesConception",
+        "label": "积极运用生物学的知识和方法",
+        "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l4",
+        "target": "urn:jy:biology:SB0403:OB03:Conception:l4"
+      },
+      {
+        "relationName": "literacyAppliesConception",
+        "label": "积极运用生物学的知识和方法",
+        "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l4",
+        "target": "urn:jy:biology:SB0403:OB03:Conception:l5"
+      },
+      {
+        "relationName": "literacyAppliesConception",
+        "label": "积极运用生物学的知识和方法",
+        "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l4",
+        "target": "urn:jy:biology:SB0403:OB03:Conception:l6"
+      },
+      {
+        "relationName": "literacyAppliesConception",
+        "label": "积极运用生物学的知识和方法",
+        "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l4",
+        "target": "urn:jy:biology:SB0403:OB03:Conception:l7"
+      },
+      {
+        "relationName": "literacyAppliesConception",
+        "label": "积极运用生物学的知识和方法",
+        "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l4",
+        "target": "urn:jy:biology:SB0403:OB03:Conception:l8"
+      },
+      {
+        "relationName": "literacyAppliesConception",
+        "label": "积极运用生物学的知识和方法",
+        "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l4",
+        "target": "urn:jy:biology:SB0403:OB03:Conception:l9"
+      }
+    ]
+  }
+  

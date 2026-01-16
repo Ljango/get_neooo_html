@@ -1,0 +1,125 @@
+{
+    "relations": [
+    {
+    "relationName": "courseModuleContainsModule",
+    "label": "必修课程包括模块1 分子与细胞",
+    "source": "urn:jy:biology:SB0403:OB06:CourseModule:l1",
+    "target": "urn:jy:biology:SB0403:OB06:Module:l1"
+    },
+    {
+    "relationName": "courseModuleContainsModule",
+    "label": "必修课程包括模块2 遗传与进化",
+    "source": "urn:jy:biology:SB0403:OB06:CourseModule:l1",
+    "target": "urn:jy:biology:SB0403:OB06:Module:l2"
+    },
+    {
+    "relationName": "courseModuleContainsModule",
+    "label": "必修课程包括模块3 生物技术与工程",
+    "source": "urn:jy:biology:SB0403:OB06:CourseModule:l1",
+    "target": "urn:jy:biology:SB0403:OB06:Module:l3"
+    },
+    {
+    "relationName": "courseModuleContainsModule",
+    "label": "选择性必修课程包括模块4 稳态与调节",
+    "source": "urn:jy:biology:SB0403:OB06:CourseModule:l2",
+    "target": "urn:jy:biology:SB0403:OB06:Module:l4"
+    },
+    {
+    "relationName": "courseModuleContainsModule",
+    "label": "选择性必修课程包括模块5 生物与环境",
+    "source": "urn:jy:biology:SB0403:OB06:CourseModule:l2",
+    "target": "urn:jy:biology:SB0403:OB06:Module:l5"
+    },
+    {
+    "relationName": "courseModuleContainsModule",
+    "label": "“健康生活”模块属于课程模块3",
+    "source": "urn:jy:biology:SB0403:OB06:Module:l6",
+    "target": "urn:jy:biology:SB0403:OB06:CourseModule:l3"
+    },
+    {
+    "relationName": "courseModuleContainsModule",
+    "label": "“急救措施”模块属于课程模块3",
+    "source": "urn:jy:biology:SB0403:OB06:Module:l7",
+    "target": "urn:jy:biology:SB0403:OB06:CourseModule:l3"
+    },
+    {
+    "relationName": "courseModuleContainsModule",
+    "label": "“传染病与防控”模块属于课程模块3",
+    "source": "urn:jy:biology:SB0403:OB06:Module:l8",
+    "target": "urn:jy:biology:SB0403:OB06:CourseModule:l3"
+    },
+    {
+    "relationName": "courseModuleContainsModule",
+    "label": "“社会热点中的生物学问题”模块属于课程模块3",
+    "source": "urn:jy:biology:SB0403:OB06:Module:l9",
+    "target": "urn:jy:biology:SB0403:OB06:CourseModule:l3"
+    },
+    {
+    "relationName": "courseModuleContainsModule",
+    "label": "“动物福利”模块属于课程模块3",
+    "source": "urn:jy:biology:SB0403:OB06:Module:l10",
+    "target": "urn:jy:biology:SB0403:OB06:CourseModule:l3"
+    },
+    {
+    "relationName": "courseModuleContainsModule",
+    "label": "“外来生物入侵与防控”模块属于课程模块3",
+    "source": "urn:jy:biology:SB0403:OB06:Module:l11",
+    "target": "urn:jy:biology:SB0403:OB06:CourseModule:l3"
+    },
+    {
+    "relationName": "courseModuleContainsModule",
+    "label": "“地方特色动植物研究”模块属于课程模块3",
+    "source": "urn:jy:biology:SB0403:OB06:Module:l12",
+    "target": "urn:jy:biology:SB0403:OB06:CourseModule:l3"
+    },
+    {
+    "relationName": "courseModuleContainsModule",
+    "label": "“生物制药”模块属于课程模块3",
+    "source": "urn:jy:biology:SB0403:OB06:Module:l13",
+    "target": "urn:jy:biology:SB0403:OB06:CourseModule:l3"
+    },
+    {
+    "relationName": "courseModuleContainsModule",
+    "label": "“海洋生物学”模块属于课程模块3",
+    "source": "urn:jy:biology:SB0403:OB06:Module:l14",
+    "target": "urn:jy:biology:SB0403:OB06:CourseModule:l3"
+    },
+    {
+    "relationName": "courseModuleContainsModule",
+    "label": "“食品安全与检疫”模块属于课程模块3",
+    "source": "urn:jy:biology:SB0403:OB06:Module:l15",
+    "target": "urn:jy:biology:SB0403:OB06:CourseModule:l3"
+    },
+    {
+    "relationName": "courseModuleContainsModule",
+    "label": "“职业病与防控”模块属于课程模块3",
+    "source": "urn:jy:biology:SB0403:OB06:Module:l16",
+    "target": "urn:jy:biology:SB0403:OB06:CourseModule:l3"
+    },
+    {
+    "relationName": "courseModuleContainsModule",
+    "label": "“园艺与景观生态学”模块属于课程模块3",
+    "source": "urn:jy:biology:SB0403:OB06:Module:l17",
+    "target": "urn:jy:biology:SB0403:OB06:CourseModule:l3"
+    },
+    {
+    "relationName": "courseModuleContainsModule",
+    "label": "“环境友好与经济作物”模块属于课程模块3",
+    "source": "urn:jy:biology:SB0403:OB06:Module:l18",
+    "target": "urn:jy:biology:SB0403:OB06:CourseModule:l3"
+    },
+    {
+    "relationName": "courseModuleContainsModule",
+    "label": "“生物资源开发与利用”模块属于课程模块3",
+    "source": "urn:jy:biology:SB0403:OB06:Module:l19",
+    "target": "urn:jy:biology:SB0403:OB06:CourseModule:l3"
+    },
+    {
+    "relationName": "courseModuleContainsModule",
+    "label": "“本地受胁物种保护”模块属于课程模块3",
+    "source": "urn:jy:biology:SB0403:OB06:Module:l20",
+    "target": "urn:jy:biology:SB0403:OB06:CourseModule:l3"
+    }
+    ]
+  }
+  

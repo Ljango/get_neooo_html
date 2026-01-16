@@ -1,0 +1,71 @@
+{
+    "relations": [
+      {
+        "relationName": "conceptionContainsSubConception",
+        "label": "概念1 细胞是生物体结构与生命活动的基本单位包含子概念1 细胞由多种多样的分子组成",
+        "source": "urn:jy:biology:SB0403:OB06:Conception:l1",
+        "target": "urn:jy:biology:SB0403:OB06:SubConception:l1"
+      },
+      {
+        "relationName": "conceptionContainsSubConception",
+        "label": "概念1 细胞是生物体结构与生命活动的基本单位包含子概念2 细胞各部分结构既分工又合作",
+        "source": "urn:jy:biology:SB0403:OB06:Conception:l1",
+        "target": "urn:jy:biology:SB0403:OB06:SubConception:l2"
+      },
+      {
+        "relationName": "conceptionContainsSubConception",
+        "label": "概念1 细胞是生物体结构与生命活动的基本单位包含子概念3 各种细胞具有相似的基本结构",
+        "source": "urn:jy:biology:SB0403:OB06:Conception:l1",
+        "target": "urn:jy:biology:SB0403:OB06:SubConception:l3"
+      },
+      {
+        "relationName": "conceptionContainsSubConception",
+        "label": "概念2 细胞需要能量和营养物质维持生存并通过分裂实现增殖包含子概念4 物质通过被动运输、主动运输等方式进出细胞",
+        "source": "urn:jy:biology:SB0403:OB06:Conception:l2",
+        "target": "urn:jy:biology:SB0403:OB06:SubConception:l4"
+      },
+      {
+        "relationName": "conceptionContainsSubConception",
+        "label": "概念2 细胞需要能量和营养物质维持生存并通过分裂实现增殖包含子概念5 细胞的功能绝大多数基于化学反应",
+        "source": "urn:jy:biology:SB0403:OB06:Conception:l2",
+        "target": "urn:jy:biology:SB0403:OB06:SubConception:l5"
+      },
+      {
+        "relationName": "conceptionContainsSubConception",
+        "label": "概念2 细胞需要能量和营养物质维持生存并通过分裂实现增殖包含子概念6 细胞会经历生长、增殖、分化、衰老和死亡等生命进程",
+        "source": "urn:jy:biology:SB0403:OB06:Conception:l2",
+        "target": "urn:jy:biology:SB0403:OB06:SubConception:l6"
+      },
+      {
+        "relationName": "conceptionContainsSubConception",
+        "label": "概念3 遗传信息控制生物性状，并代代相传包含子概念7 亲代传递给子代的遗传信息主要编码在DNA分子上",
+        "source": "urn:jy:biology:SB0403:OB06:Conception:l3",
+        "target": "urn:jy:biology:SB0403:OB06:SubConception:l7"
+      },
+      {
+        "relationName": "conceptionContainsSubConception",
+        "label": "概念3 遗传信息控制生物性状，并代代相传包含子概念8 有性生殖中基因的分离和重组使双亲后代的基因组合有多种可能",
+        "source": "urn:jy:biology:SB0403:OB06:Conception:l3",
+        "target": "urn:jy:biology:SB0403:OB06:SubConception:l8"
+      },
+      {
+        "relationName": "conceptionContainsSubConception",
+        "label": "概念3 遗传信息控制生物性状，并代代相传包含子概念9 由基因突变、染色体变异和基因重组引起的变异是可以遗传的",
+        "source": "urn:jy:biology:SB0403:OB06:Conception:l3",
+        "target": "urn:jy:biology:SB0403:OB06:SubConception:l9"
+      },
+      {
+        "relationName": "conceptionContainsSubConception",
+        "label": "概念4 生物的多样性和适应性是进化的结果包含子概念10 地球上的现存物种丰富多样，它们来自共同祖先",
+        "source": "urn:jy:biology:SB0403:OB06:Conception:l4",
+        "target": "urn:jy:biology:SB0403:OB06:SubConception:l10"
+      },
+      {
+        "relationName": "conceptionContainsSubConception",
+        "label": "概念4 生物的多样性和适应性是进化的结果包含子概念11 适应是自然选择的结果",
+        "source": "urn:jy:biology:SB0403:OB06:Conception:l4",
+        "target": "urn:jy:biology:SB0403:OB06:SubConception:l11"
+      }
+    ]
+  }
+  

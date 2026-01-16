@@ -1,0 +1,53 @@
+{
+    "relations": [
+      {
+        "relationName": "coreLiteracyRelatesToConception",
+        "label": "生命观念通过生物学概念的理解与升华形成",
+        "source": "urn:jy:biology:SB0403:OB06:CoreLiteracy:l1",
+        "target": "urn:jy:biology:SB0403:OB06:Conception:l1"
+      },
+      {
+        "relationName": "coreLiteracyRelatesToConception",
+        "label": "科学思维通过分析生物学概念形成思维能力",
+        "source": "urn:jy:biology:SB0403:OB06:CoreLiteracy:l4",
+        "target": "urn:jy:biology:SB0403:OB06:Conception:l2"
+      },
+      {
+        "relationName": "coreLiteracyRelatesToConception",
+        "label": "科学探究通过对生物学现象的理解与研究进行",
+        "source": "urn:jy:biology:SB0403:OB06:CoreLiteracy:l7",
+        "target": "urn:jy:biology:SB0403:OB06:Conception:l3"
+      },
+      {
+        "relationName": "coreLiteracyRelatesToConception",
+        "label": "社会责任通过生物学知识与社会问题的关联形成",
+        "source": "urn:jy:biology:SB0403:OB06:CoreLiteracy:l10",
+        "target": "urn:jy:biology:SB0403:OB06:Conception:l4"
+      },
+      {
+        "relationName": "coreLiteracyRelatesToConception",
+        "label": "生命观念通过细胞概念的理解形成",
+        "source": "urn:jy:biology:SB0403:OB06:CoreLiteracy:l1",
+        "target": "urn:jy:biology:SB0403:OB06:Conception:l5"
+      },
+      {
+        "relationName": "coreLiteracyRelatesToConception",
+        "label": "科学探究通过细胞工程与细胞生长的概念的应用进行",
+        "source": "urn:jy:biology:SB0403:OB06:CoreLiteracy:l7",
+        "target": "urn:jy:biology:SB0403:OB06:Conception:l6"
+      },
+      {
+        "relationName": "coreLiteracyRelatesToConception",
+        "label": "社会责任通过基因工程与伦理问题的讨论形成",
+        "source": "urn:jy:biology:SB0403:OB06:CoreLiteracy:l10",
+        "target": "urn:jy:biology:SB0403:OB06:Conception:l9"
+      },
+      {
+        "relationName": "coreLiteracyRelatesToConception",
+        "label": "科学思维通过环境保护与生物多样性的理解形成",
+        "source": "urn:jy:biology:SB0403:OB06:CoreLiteracy:l4",
+        "target": "urn:jy:biology:SB0403:OB06:Conception:l10"
+      }
+    ]
+  }
+  

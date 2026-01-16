@@ -22,30 +22,30 @@ class GraphGenerator:
     
     # 实体类型配置（统一的平铺字典）
     ENTITY_TYPE_CONFIG = {
-        # 高中数学
+        # 通用实体类型
         "CourseModule": {"label": "课程模块", "color": "#e74c3c", "size": 24},
+        "CourseTarget": {"label": "课程目标", "color": "#16a085", "size": 16},
+        "AcademicQuality": {"label": "学业质量", "color": "#1abc9c", "size": 14},
+        "CoreLiteracy": {"label": "核心素养", "color": "#16a085", "size": 14},
+        
+        # 高中数学
         "Theme": {"label": "主题", "color": "#e67e22", "size": 20},
         "Topic": {"label": "主题内容", "color": "#f39c12", "size": 18},
         "Domain": {"label": "领域", "color": "#9b59b6", "size": 18},
         "Unit": {"label": "单元", "color": "#3498db", "size": 16},
         "KeyPoint": {"label": "知识点", "color": "#2ecc71", "size": 14},
-        "AcademicQuality": {"label": "学业质量", "color": "#1abc9c", "size": 14},
-        "CoreLiteracy": {"label": "核心素养", "color": "#16a085", "size": 14},
         
-        # 义务物理
+        # 物理（义教/高中）
         "ThemeL1": {"label": "一级主题", "color": "#e67e22", "size": 22},
         "ThemeL2": {"label": "二级主题", "color": "#f39c12", "size": 18},
         "ThemeL3": {"label": "三级主题", "color": "#f1c40f", "size": 16},
         "Experiments": {"label": "实验", "color": "#3498db", "size": 14},
-        "ExampleProblem": {"label": "示例问题", "color": "#9b59b6", "size": 14},
-        "ActivitySuggestion": {"label": "活动建议", "color": "#e74c3c", "size": 14},
-        "CourseTarget": {"label": "课程目标", "color": "#16a085", "size": 16},
-        
-        # 高中物理
-        "Example": {"label": "示例", "color": "#9b59b6", "size": 14},
         "Experiment": {"label": "实验", "color": "#3498db", "size": 14},
+        "ExampleProblem": {"label": "示例问题", "color": "#9b59b6", "size": 14},
+        "Example": {"label": "示例", "color": "#9b59b6", "size": 14},
+        "ActivitySuggestion": {"label": "活动建议", "color": "#e74c3c", "size": 14},
         
-        # 义务教育化学
+        # 化学（义教/高中）
         "LearningTheme": {"label": "学习主题", "color": "#e67e22", "size": 20},
         "Conception": {"label": "概念", "color": "#3498db", "size": 16},
         "CoreKnowledge": {"label": "核心知识", "color": "#2ecc71", "size": 16},
@@ -58,10 +58,14 @@ class GraphGenerator:
         "LearningThemeL2": {"label": "二级学习主题", "color": "#f39c12", "size": 18},
         "LearningThemeL3": {"label": "三级学习主题", "color": "#f1c40f", "size": 16},
         
-        # 高中化学
+        # 高中化学（旧配置兼容）
         "CourseMoudle": {"label": "课程模块", "color": "#e74c3c", "size": 24},
         "CourseSeries": {"label": "课程系列", "color": "#9b59b6", "size": 20},
         "CourseType": {"label": "课程类型", "color": "#8e44ad", "size": 22},
+        
+        # 生物（义教/高中）
+        "Module": {"label": "模块", "color": "#27ae60", "size": 18},
+        "SubConception": {"label": "子概念", "color": "#5dade2", "size": 14},
         
         # 教材相关
         "Chapter": {"label": "章", "color": "#ff7675", "size": 16},
@@ -112,15 +116,37 @@ class GraphGenerator:
         full_path = self.subject_path / "books" / book_path
         print(f"📖 挂载教材数据: {book_path}")
         
+        # 支持两种格式：
+        # 1. 单个文件格式：entities.json 和 relations.json
+        # 2. 目录格式：entities/ 和 relations/ 目录下的多个文件
         entities_file = full_path / "entities.json"
         relations_file = full_path / "relations.json"
+        entities_dir = full_path / "entities"
+        relations_dir = full_path / "relations"
         
+        entity_count_before = len(self.entities)
+        relation_count_before = len(self.relations)
+        
+        # 加载实体
         if entities_file.exists():
             self._load_entity_file(entities_file)
+        elif entities_dir.exists():
+            # 加载目录下所有实体文件
+            for entity_file in entities_dir.glob("*.json"):
+                self._load_entity_file(entity_file)
         
+        # 加载关系
         if relations_file.exists():
             self._load_relation_file(relations_file)
+        elif relations_dir.exists():
+            # 加载目录下所有关系文件
+            for relation_file in relations_dir.glob("*.json"):
+                self._load_relation_file(relation_file)
+        
+        entity_added = len(self.entities) - entity_count_before
+        relation_added = len(self.relations) - relation_count_before
             
+        print(f"   ✓ 新增 {entity_added} 个实体, {relation_added} 条关系")
         print(f"   ✓ 当前共 {len(self.entities)} 个实体, {len(self.relations)} 条关系")
         return self
     

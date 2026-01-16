@@ -1,0 +1,35 @@
+{
+    "relations": [
+      {
+        "relationName": "moduleContainsConception",
+        "label": "模块1 分子与细胞包含概念1 细胞是生物体结构与生命活动的基本单位",
+        "source": "urn:jy:biology:SB0403:OB06:Module:l1",
+        "target": "urn:jy:biology:SB0403:OB06:Conception:l1"
+      },
+      {
+        "relationName": "moduleContainsConception",
+        "label": "模块1 分子与细胞包含概念2 细胞需要能量和营养物质维持生存，并通过分裂实现增殖",
+        "source": "urn:jy:biology:SB0403:OB06:Module:l1",
+        "target": "urn:jy:biology:SB0403:OB06:Conception:l2"
+      },
+      {
+        "relationName": "moduleContainsConception",
+        "label": "模块2 遗传与进化包含概念3 遗传信息控制生物性状，并代代相传",
+        "source": "urn:jy:biology:SB0403:OB06:Module:l2",
+        "target": "urn:jy:biology:SB0403:OB06:Conception:l3"
+      },
+      {
+        "relationName": "moduleContainsConception",
+        "label": "模块2 遗传与进化包含概念4 生物的多样性和适应性是进化的结果",
+        "source": "urn:jy:biology:SB0403:OB06:Module:l2",
+        "target": "urn:jy:biology:SB0403:OB06:Conception:l4"
+      },
+      {
+        "relationName": "moduleContainsConception",
+        "label": "模块3 生物技术与工程包含概念5 基因工程赋予生物新的遗传特性",
+        "source": "urn:jy:biology:SB0403:OB06:Module:l5",
+        "target": "urn:jy:biology:SB0403:OB06:Conception:l9"
+      }
+    ]
+  }
+  

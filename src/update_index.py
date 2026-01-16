@@ -14,10 +14,11 @@ INDEX_FILE = STATIC_ROOT / "index.html"
 
 # 学科映射配置
 SUBJECT_CONFIG = {
+    # 高中学科
     "高中数学": {
         "icon": "📐",
         "display_name": "高中数学",
-        "files": ["高中数学_课标.html", "高中数学_人教B版.html"],
+        "files": ["高中数学_课标.html", "高中数学_人教B版.html", "高中数学_人教B版_v2.html"],
         "color": "#2ecc71"
     },
     "高中物理": {
@@ -32,23 +33,36 @@ SUBJECT_CONFIG = {
         "files": ["高中化学_课标.html"],
         "color": "#8e44ad"
     },
-    "义务物理": {
+    "高中生物": {
+        "icon": "🧬",
+        "display_name": "高中生物",
+        "files": ["高中生物_课标.html"],
+        "color": "#27ae60"
+    },
+    # 义教学科
+    "义教物理": {
         "icon": "⚡",
-        "display_name": "义务教育物理",
-        "files": ["义务物理_课标.html"],
+        "display_name": "义教物理",
+        "files": ["义教物理_课标.html", "义教物理_89全一册.html", "义务物理_课标.html"],
         "color": "#e74c3c"
     },
-    "义务教育化学": {
+    "义教化学": {
         "icon": "🧪",
-        "display_name": "义务教育化学",
-        "files": ["义务教育化学_课标.html"],
+        "display_name": "义教化学",
+        "files": ["义教化学_课标.html"],
         "color": "#f39c12"
     },
     "义教地理": {
         "icon": "🌍",
-        "display_name": "义务教育地理",
+        "display_name": "义教地理",
         "files": ["义教地理_课标.html"],
-        "color": "#27ae60"
+        "color": "#1abc9c"
+    },
+    "义教生物": {
+        "icon": "🌱",
+        "display_name": "义教生物",
+        "files": ["义教生物_课标.html"],
+        "color": "#16a085"
     }
 }
 
@@ -115,7 +129,41 @@ def scan_static_files():
 
 
 def generate_index_html(subject_files, unknown_files):
-    """生成index.html内容"""
+    """生成index.html内容 - 按学科分组，高中和义教并排显示"""
+    
+    # 学科映射配置（学科名 -> (高中配置, 义教配置)）
+    SUBJECT_GROUPING = {
+        "数学": {
+            "icon": "📐",
+            "highschool": ("高中数学", "#2ecc71"),
+            "yijiao": None,  # 义教数学暂未单独列出
+            "color": "#2ecc71"
+        },
+        "物理": {
+            "icon": "⚡",
+            "highschool": ("高中物理", "#3498db"),
+            "yijiao": ("义教物理", "#e74c3c"),
+            "color": "#3498db"
+        },
+        "化学": {
+            "icon": "⚗️",
+            "highschool": ("高中化学", "#8e44ad"),
+            "yijiao": ("义教化学", "#f39c12"),
+            "color": "#8e44ad"
+        },
+        "生物": {
+            "icon": "🧬",
+            "highschool": ("高中生物", "#27ae60"),
+            "yijiao": ("义教生物", "#16a085"),
+            "color": "#27ae60"
+        },
+        "地理": {
+            "icon": "🌍",
+            "highschool": None,  # 高中地理暂未单独列出
+            "yijiao": ("义教地理", "#1abc9c"),
+            "color": "#1abc9c"
+        }
+    }
     
     html_parts = []
     
@@ -227,6 +275,55 @@ def generate_index_html(subject_files, unknown_files):
             margin-bottom: 24px;
             padding-bottom: 12px;
             border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        /* 学科分组布局 - 高中和义教并排 */
+        .subject-group {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+            margin-bottom: 48px;
+        }
+        
+        @media (max-width: 768px) {
+            .subject-group {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .subject-column {
+            background: rgba(255, 255, 255, 0.02);
+            border-radius: 12px;
+            padding: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        
+        .subject-column-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 16px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .subject-column-header .icon {
+            font-size: 1.2rem;
+        }
+        
+        .subject-column-header h3 {
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: #fff;
+        }
+        
+        .subject-column-header .count {
+            margin-left: auto;
+            font-size: 0.75rem;
+            color: #666;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 2px 8px;
+            border-radius: 8px;
         }
         
         .subject-header .icon {
@@ -463,24 +560,52 @@ def generate_index_html(subject_files, unknown_files):
     
     <main>""")
     
-    # 生成各学科section（按顺序：高中 -> 义教）
-    for subject in ["高中数学", "高中物理", "高中化学", "义务物理", "义务教育化学", "义教地理"]:
-        if subject not in subject_files:
-            continue
-            
-        config = SUBJECT_CONFIG[subject]
-        files = subject_files[subject]
+    # 按学科分组生成HTML（高中和义教并排）
+    SUBJECT_GROUPING = {
+        "数学": {
+            "icon": "📐",
+            "highschool": ("高中数学", "#2ecc71"),
+            "yijiao": None,
+        },
+        "物理": {
+            "icon": "⚡",
+            "highschool": ("高中物理", "#3498db"),
+            "yijiao": ("义教物理", "#e74c3c"),
+        },
+        "化学": {
+            "icon": "⚗️",
+            "highschool": ("高中化学", "#8e44ad"),
+            "yijiao": ("义教化学", "#f39c12"),
+        },
+        "生物": {
+            "icon": "🧬",
+            "highschool": ("高中生物", "#27ae60"),
+            "yijiao": ("义教生物", "#16a085"),
+        },
+        "地理": {
+            "icon": "🌍",
+            "highschool": None,
+            "yijiao": ("义教地理", "#1abc9c"),
+        }
+    }
+    
+    def generate_subject_column(subject_key, subject_name, color, icon):
+        """生成单个学科列（高中或义教）"""
+        if subject_key not in subject_files:
+            return ""
         
-        display_name = config.get('display_name', subject)
-        html_parts.append(f"""
-        <!-- {subject} -->
-        <section class="subject-section" data-subject="{subject}">
-            <div class="subject-header">
-                <span class="icon">{config['icon']}</span>
-                <h2>{display_name}</h2>
-                <span class="count">{len(files)} 个图谱</span>
-            </div>
-            <div class="graph-grid">""")
+        files = subject_files[subject_key]
+        config = SUBJECT_CONFIG.get(subject_key, {})
+        display_name = config.get('display_name', subject_name)
+        
+        html = f"""
+            <div class="subject-column">
+                <div class="subject-column-header">
+                    <span class="icon">{icon}</span>
+                    <h3>{display_name}</h3>
+                    <span class="count">{len(files)} 个</span>
+                </div>
+                <div class="graph-grid">"""
         
         for html_file in files:
             info = get_file_info(html_file)
@@ -501,23 +626,52 @@ def generate_index_html(subject_files, unknown_files):
             if not title:
                 title = html_file.stem.replace("_", " · ")
             
-            html_parts.append(f"""
-                <a href="{html_file.name}" class="graph-card" style="--accent-color: {config['color']}">
-                    <span class="type-badge {badge_type}">{badge_label}</span>
-                    <h3>{title}</h3>
-                    <p class="description">{info['description']}</p>
-                    <div class="stats">
-                        <span class="stat-item">📊 {info['entity_count']}个实体</span>
-                        <span class="stat-item">🔗 {info['relation_count']}条关系</span>
-                    </div>
-                    <span class="arrow">→</span>
-                </a>""")
+            html += f"""
+                    <a href="{html_file.name}" class="graph-card" style="--accent-color: {color}">
+                        <span class="type-badge {badge_type}">{badge_label}</span>
+                        <h3>{title}</h3>
+                        <p class="description">{info['description']}</p>
+                        <div class="stats">
+                            <span class="stat-item">📊 {info['entity_count']}个实体</span>
+                            <span class="stat-item">🔗 {info['relation_count']}条关系</span>
+                        </div>
+                        <span class="arrow">→</span>
+                    </a>"""
         
-        html_parts.append("""
-                <div class="graph-card add-card" onclick="alert('请运行 src/generate_subject_graphs.py 生成新的图谱')">
-                    <span class="plus">+</span>
-                    <span>添加新图谱</span>
+        html += """
                 </div>
+            </div>"""
+        return html
+    
+    # 按学科分组生成
+    for subject_name, grouping in SUBJECT_GROUPING.items():
+        hs_key, hs_color = grouping["highschool"] if grouping["highschool"] else (None, None)
+        yj_key, yj_color = grouping["yijiao"] if grouping["yijiao"] else (None, None)
+        
+        # 如果高中和义教都有，或者只有一个，才显示这个学科组
+        if (hs_key and hs_key in subject_files) or (yj_key and yj_key in subject_files):
+            html_parts.append(f"""
+        <!-- {subject_name}学科 -->
+        <section class="subject-section" data-subject="{subject_name}">
+            <div class="subject-header">
+                <span class="icon">{grouping['icon']}</span>
+                <h2>{subject_name}</h2>
+            </div>
+            <div class="subject-group">""")
+            
+            # 高中列
+            if hs_key and hs_key in subject_files:
+                html_parts.append(generate_subject_column(hs_key, f"高中{subject_name}", hs_color, grouping['icon']))
+            else:
+                html_parts.append('<div class="subject-column"></div>')
+            
+            # 义教列
+            if yj_key and yj_key in subject_files:
+                html_parts.append(generate_subject_column(yj_key, f"义教{subject_name}", yj_color, grouping['icon']))
+            else:
+                html_parts.append('<div class="subject-column"></div>')
+            
+            html_parts.append("""
             </div>
         </section>""")
     
