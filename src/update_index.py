@@ -40,6 +40,12 @@ SUBJECT_CONFIG = {
         "color": "#27ae60"
     },
     # 义教学科
+    "义教数学": {
+        "icon": "📐",
+        "display_name": "义教数学",
+        "files": ["义教数学_课标.html"],
+        "color": "#f39c12"
+    },
     "义教物理": {
         "icon": "⚡",
         "display_name": "义教物理",
@@ -50,7 +56,7 @@ SUBJECT_CONFIG = {
         "icon": "🧪",
         "display_name": "义教化学",
         "files": ["义教化学_课标.html"],
-        "color": "#f39c12"
+        "color": "#9b59b6"
     },
     "义教地理": {
         "icon": "🌍",
@@ -136,7 +142,7 @@ def generate_index_html(subject_files, unknown_files):
         "数学": {
             "icon": "📐",
             "highschool": ("高中数学", "#2ecc71"),
-            "yijiao": None,  # 义教数学暂未单独列出
+            "yijiao": ("义教数学", "#f39c12"),
             "color": "#2ecc71"
         },
         "物理": {
@@ -565,7 +571,7 @@ def generate_index_html(subject_files, unknown_files):
         "数学": {
             "icon": "📐",
             "highschool": ("高中数学", "#2ecc71"),
-            "yijiao": None,
+            "yijiao": ("义教数学", "#f39c12"),
         },
         "物理": {
             "icon": "⚡",

@@ -1,0 +1,1300 @@
+{
+    "entities": [
+        {
+            "type": "Chapter",
+            "identifier": "urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch1",
+            "title": "第一章 有理数",
+            "description": "第四学段·数与式·教材章节",
+            "subject": "SX0302",
+            "applicableLevel": "S4",
+            "contentJson": {
+                "textVersion": "初中_七年级_数学_人教版_上册",
+                "Grade": "七上",
+                "Sections": [
+                    {
+                        "title": "1.1 正数和负数",
+                        "identifier": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch1:sec1-1",
+                        "contentJson": {
+                            "extendSection": "阅读与思考 用正负数表示允许偏差"
+                        }
+                    },
+                    {
+                        "title": "1.2 有理数及其大小比较",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch1:sec1-2",
+                        "contentJson": {
+                            "extendSection": "图说数学史 漫漫长路识负数"
+                        }
+                    },
+                    {
+                        "title": "第一章 数学活动",
+                        "identifier": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch1:sec1-3",
+                        "type": "Other"
+                    },
+                    {
+                        "title": "第一章 小结",
+                        "identifier": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch1:sec1-4",
+                        "type": "Other"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Chapter",
+            "identifier": "urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch2",
+            "title": "第二章 有理数的运算",
+            "description": "第四学段·数与式·教材章节",
+            "subject": "SX0302",
+            "applicableLevel": "S4",
+            "contentJson": {
+                "textVersion": "初中_七年级_数学_人教版_上册",
+                "Grade": "七上",
+                "Sections": [
+                    {
+                        "title": "2.1 有理数的加法与减法",
+                        "identifier": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch2:sec2-1",
+                        "contentJson": {
+                            "extendSection": "阅读与思考 我国古代的正负数加减运算法则———正负术"
+                        }
+                    },
+                    {
+                        "title": "2.2 有理数的乘法与除法",
+                        "identifier": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch2:sec2-2",
+                        "contentJson": {
+                            "extendSection": "探究与发现 从数系扩充看有理数乘法法则"
+                        }
+                    },
+                    {
+                        "title": "2.3 有理数的乘方",
+                        "identifier": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch2:sec2-3"
+                    },
+                    {
+                        "title": "第二章 数学活动",
+                        "identifier": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch2:sec2-4",
+                        "type": "Other"
+                    },
+                    {
+                        "title": "第二章 小结",
+                        "identifier": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch2:sec2-5",
+                        "type": "Other"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Chapter",
+            "identifier": "urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch3",
+            "title": "综合与实践 进位制的认识与探究",
+            "description": "第四学段·综合与实践·进位制的认识与探究",
+            "subject": "SX0302",
+            "applicableLevel": "S4",
+            "contentJson": {
+                "textVersion": "初中_七年级_数学_人教版_上册",
+                "Grade": "七上",
+                "preChapter": "urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch2",
+                "nextChapter": "urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch3"
+            }
+        },
+        {
+            "type": "Chapter",
+            "identifier": "urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch3",
+            "title": "第三章 代数式",
+            "description": "第四学段·数与式·教材章节",
+            "subject": "SX0302",
+            "applicableLevel": "S4",
+            "contentJson": {
+                "textVersion": "初中_七年级_数学_人教版_上册",
+                "Grade": "七上",
+                "Sections": [
+                    {
+                        "title": "3.1 用字母表示数",
+                        "identifier": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch3:sec3-1",
+                        "contentJson": {
+                            "extendSection": "阅读与思考 数字１与字母Ｘ的对话"
+                        }
+                    },
+                    {
+                        "title": "3.2 代数式的值",
+                        "identifier": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch3:sec3-2"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Chapter",
+            "identifier": "urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch4",
+            "title": "第四章 整式的加减",
+            "description": "第四学段·数与式·教材章节",
+            "subject": "SX0302",
+            "applicableLevel": "S4",
+            "contentJson": {
+                "textVersion": "初中_七年级_数学_人教版_上册",
+                "Grade": "七上",
+                "Sections": [
+                    {
+                        "title": "4.1 整式",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch4:sec4-1"
+                    },
+                    {
+                        "title": "4.2 整式的加减",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch4:sec4-2"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Chapter",
+            "identifier": "urn:jy:math:2022:chapter:s4:na:equations-inequalities:G7A:ch5",
+            "title": "第五章 一元一次方程",
+            "description": "第四学段·方程与不等式·教材章节",
+            "subject": "SX0302",
+            "applicableLevel": "S4",
+            "contentJson": {
+                "textVersion": "初中_七年级_数学_人教版_上册",
+                "Grade": "七上",
+                "Sections": [
+                    {
+                        "title": "5.1 从算式到方程",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:na:equations-inequalities:G7A:ch5:sec5-1"
+                    },
+                    {
+                        "title": "5.2 解一元一次方程",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:na:equations-inequalities:G7A:ch5:sec5-2"
+                    },
+                    {
+                        "title": "5.3 实际问题与一元一次方程",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:na:equations-inequalities:G7A:ch5:sec5-3"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Chapter",
+            "identifier": "urn:jy:math:2022:chapter:s4:sg:properties:G7A:ch6",
+            "title": "第六章 几何图形初步",
+            "description": "第四学段·图形的性质·教材章节",
+            "subject": "SX0302",
+            "applicableLevel": "S4",
+            "contentJson": {
+                "textVersion": "初中_七年级_数学_人教版_上册",
+                "Grade": "七上",
+                "Sections": [
+                    {
+                        "title": "6.1 几何图形",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G7A:ch6:sec6-1"
+                    },
+                    {
+                        "title": "6.2 直线、射线、线段",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G7A:ch6:sec6-2"
+                    },
+                    {
+                        "title": "6.3 角",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G7A:ch6:sec6-3"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Chapter",
+            "identifier": "urn:jy:math:2022:chapter:s4:sg:properties:G7A:chX:1",
+            "title": "综合与实践 设计学校田径运动会比赛场地",
+            "description": "第四学段·图形的性质·教材章节",
+            "subject": "SX0302",
+            "applicableLevel": "S4",
+            "contentJson": {
+                "textVersion": "初中_七年级_数学_人教版_上册",
+                "Grade": "七上",
+                "preChapter": "urn:jy:math:2022:chapter:s4:sg:properties:G7A:ch6",
+                "nextChapter": "urn:jy:math:2022:chapter:s4:sg:properties:G7B:ch7"
+            }
+        },
+        {
+            "type": "Chapter",
+            "identifier": "urn:jy:math:2022:chapter:s4:sg:properties:G7B:ch7",
+            "title": "第七章 相交线与平行线",
+            "description": "第四学段·图形的性质/图形的变化·教材章节",
+            "subject": "SX0302",
+            "applicableLevel": "S4",
+            "contentJson": {
+                "textVersion": "初中_七年级_数学_人教版_下册",
+                "Grade": "七下",
+                "Sections": [
+                    {
+                        "title": "7.1 相交线",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G7B:ch7:sec7-1"
+                    },
+                    {
+                        "title": "7.2 平行线",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G7B:ch7:sec7-2"
+                    },
+                    {
+                        "title": "7.3 定义、命题、定理",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G7B:ch7:sec7-3"
+                    },
+                    {
+                        "title": "7.4 平移",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G7B:ch7:sec7-4"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Chapter",
+            "identifier": "urn:jy:math:2022:chapter:s4:na:expressions:G7B:ch8",
+            "title": "第八章 实数",
+            "description": "第四学段·数与式·教材章节",
+            "subject": "SX0302",
+            "applicableLevel": "S4",
+            "contentJson": {
+                "textVersion": "初中_七年级_数学_人教版_下册",
+                "Grade": "七下",
+                "Sections": [
+                    {
+                        "title": "8.1 平方根",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:na:expressions:G7B:ch8:sec8-1"
+                    },
+                    {
+                        "title": "8.2 立方根",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:na:expressions:G7B:ch8:sec8-2"
+                    },
+                    {
+                        "title": "8.3 实数及其简单运算",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:na:expressions:G7B:ch8:sec8-3"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Chapter",
+            "identifier": "urn:jy:math:2022:chapter:s4:sg:coordinates:G7B:ch9",
+            "title": "第九章 平面直角坐标系",
+            "description": "第四学段·图形与坐标·教材章节",
+            "subject": "SX0302",
+            "applicableLevel": "S4",
+            "contentJson": {
+                "textVersion": "初中_七年级_数学_人教版_下册",
+                "Grade": "七下",
+                "Sections": [
+                    {
+                        "title": "9.1 用坐标描述平面内点的位置",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:coordinates:G7B:ch9:sec9-1"
+                    },
+                    {
+                        "title": "9.2 坐标方法的简单应用",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:coordinates:G7B:ch9:sec9-2"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Chapter",
+            "identifier": "urn:jy:math:2022:chapter:s4:na:equations-inequalities:G7B:ch10",
+            "title": "第十章 二元一次方程组",
+            "description": "第四学段·方程与不等式·教材章节",
+            "subject": "SX0302",
+            "applicableLevel": "S4",
+            "contentJson": {
+                "textVersion": "初中_七年级_数学_人教版_下册",
+                "Grade": "七下",
+                "Sections": [
+                    {
+                        "title": "10.1 二元一次方程组的概念",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:na:equations-inequalities:G7B:ch10:sec10-1"
+                    },
+                    {
+                        "title": "10.2 消元——解二元一次方程组",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:na:equations-inequalities:G7B:ch10:sec10-2"
+                    },
+                    {
+                        "title": "10.3 实际问题与二元一次方程组",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:na:equations-inequalities:G7B:ch10:sec10-3"
+                    },
+                    {
+                        "title": "10.4 三元一次方程组的解法",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:na:equations-inequalities:G7B:ch10:sec10-4"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Chapter",
+            "identifier": "urn:jy:math:2022:chapter:s4:na:equations-inequalities:G7B:ch11",
+            "title": "第十一章 不等式与不等式组",
+            "description": "第四学段·方程与不等式·教材章节",
+            "subject": "SX0302",
+            "applicableLevel": "S4",
+            "contentJson": {
+                "textVersion": "初中_七年级_数学_人教版_下册",
+                "Grade": "七下",
+                "Sections": [
+                    {
+                        "title": "11.1 不等式",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:na:equations-inequalities:G7B:ch11:sec11-1"
+                    },
+                    {
+                        "title": "11.2 一元一次不等式",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:na:equations-inequalities:G7B:ch11:sec11-2"
+                    },
+                    {
+                        "title": "11.3 一元一次不等式组",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:na:equations-inequalities:G7B:ch11:sec11-3"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Chapter",
+            "identifier": "urn:jy:math:2022:chapter:s4:na:equations-inequalities:G7B:chX:1",
+            "title": "综合与实践 低碳生活",
+            "description": "第四学段·方程与不等式·教材章节",
+            "subject": "SX0302",
+            "applicableLevel": "S4",
+            "contentJson": {
+                "textVersion": "初中_七年级_数学_人教版_下册",
+                "Grade": "七下",
+                "preChapter": "urn:jy:math:2022:chapter:s4:na:equations-inequalities:G7B:ch11",
+                "nextChapter": "urn:jy:math:2022:chapter:s4:sp:sampling-data-analysis:G7B:ch12"
+            }
+        },
+        {
+            "type": "Chapter",
+            "identifier": "urn:jy:math:2022:chapter:s4:sp:sampling-data-analysis:G7B:ch12",
+            "title": "第十二章 数据的收集、整理与描述",
+            "description": "第四学段·抽样与数据分析·教材章节",
+            "subject": "SX0302",
+            "applicableLevel": "S4",
+            "contentJson": {
+                "textVersion": "初中_七年级_数学_人教版_下册",
+                "Grade": "七下",
+                "Sections": [
+                    {
+                        "title": "12.1 统计调查",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:sp:sampling-data-analysis:G7B:ch12:sec12-1"
+                    },
+                    {
+                        "title": "12.2 用统计图描述数据",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:sp:sampling-data-analysis:G7B:ch12:sec12-2"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Chapter",
+            "identifier": "urn:jy:math:2022:chapter:s4:sp:sampling-data-analysis:G7B:chX:1",
+            "title": "综合与实践 白昼时长规律的探究",
+            "description": "第四学段·抽样与数据分析·教材章节",
+            "subject": "SX0302",
+            "applicableLevel": "S4",
+            "contentJson": {
+                "textVersion": "初中_七年级_数学_人教版_下册",
+                "Grade": "七下",
+                "preChapter": "urn:jy:math:2022:chapter:s4:sp:sampling-data-analysis:G7B:ch12",
+                "nextChapter": "urn:jy:math:2022:chapter:s4:sg:properties:G8A:ch13"
+            }
+        },
+
+        {
+            "type": "Chapter",
+            "identifier": "urn:jy:math:2022:chapter:s4:sg:properties:G8A:ch13",
+            "title": "第十三章 三角形",
+            "description": "第四学段·图形的性质·教材章节",
+            "subject": "SX0302",
+            "applicableLevel": "S4",
+            "contentJson": {
+                "textVersion": "初中_八年级_数学_人教版_上册",
+                "Grade": "八上",
+                "Sections": [
+                    {
+                        "title": "13.1 三角形的概念",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G8A:ch13:sec13-1"
+                    },
+                    {
+                        "title": "13.2 与三角形有关的线段",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G8A:ch13:sec13-2"
+                    },
+                    {
+                        "title": "13.3 三角形的内角与外角",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G8A:ch13:sec13-3"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Chapter",
+            "identifier": "urn:jy:math:2022:chapter:s4:sg:properties:G8A:chX:1",
+            "title": "综合与实践 确定匀质薄板的重心位置",
+            "description": "第四学段·图形的性质·教材章节",
+            "subject": "SX0302",
+            "applicableLevel": "S4",
+            "contentJson": {
+                "textVersion": "初中_八年级_数学_人教版_上册",
+                "Grade": "八上",
+                "preChapter": "urn:jy:math:2022:chapter:s4:sg:properties:G8A:ch13",
+                "nextChapter": "urn:jy:math:2022:chapter:s4:sg:properties:G8A:ch14"
+            }
+        },
+        {
+            "type": "Chapter",
+            "identifier": "urn:jy:math:2022:chapter:s4:sg:properties:G8A:ch14",
+            "title": "第十四章 全等三角形",
+            "description": "第四学段·图形的性质·教材章节",
+            "subject": "SX0302",
+            "applicableLevel": "S4",
+            "contentJson": {
+                "textVersion": "初中_八年级_数学_人教版_上册",
+                "Grade": "八上",
+                "Sections": [
+                    {
+                        "title": "14.1 全等三角形及其性质",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G8A:ch14:sec14-1"
+                    },
+                    {
+                        "title": "14.2 三角形全等的判定",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G8A:ch14:sec14-2"
+                    },
+                    {
+                        "title": "14.3 角的平分线",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G8A:ch14:sec14-3"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Chapter",
+            "identifier": "urn:jy:math:2022:chapter:s4:sg:transformations:G8A:ch15",
+            "title": "第十五章 轴对称",
+            "description": "第四学段·图形的性质/图形的变化·教材章节",
+            "subject": "SX0302",
+            "applicableLevel": "S4",
+            "contentJson": {
+                "textVersion": "初中_八年级_数学_人教版_上册",
+                "Grade": "八上",
+                "Sections": [
+                    {
+                        "title": "15.1 图形的轴对称",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:transformations:G8A:ch15:sec15-1"
+                    },
+                    {
+                        "title": "15.2 画轴对称的图形",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:transformations:G8A:ch15:sec15-2"
+                    },
+                    {
+                        "title": "15.3 等腰三角形",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:transformations:G8A:ch15:sec15-3"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Chapter",
+            "identifier": "urn:jy:math:2022:chapter:s4:sg:transformations:G8A:chX:1",
+            "title": "综合与实践 最短路径问题",
+            "description": "第四学段·图形的性质/图形的变化·教材章节",
+            "subject": "SX0302",
+            "applicableLevel": "S4",
+            "contentJson": {
+                "textVersion": "初中_八年级_数学_人教版_上册",
+                "Grade": "八上",
+                "preChapter": "urn:jy:math:2022:chapter:s4:sg:transformations:G8A:ch15",
+                "nextChapter": "urn:jy:math:2022:chapter:s4:na:expressions:G8A:ch16"
+            }
+        },
+        {
+            "type": "Chapter",
+            "identifier": "urn:jy:math:2022:chapter:s4:na:expressions:G8A:ch16",
+            "title": "第十六章 整式的乘法",
+            "description": "第四学段·数与式·教材章节",
+            "subject": "SX0302",
+            "applicableLevel": "S4",
+            "contentJson": {
+                "textVersion": "初中_八年级_数学_人教版_上册",
+                "Grade": "八上",
+                "Sections": [
+                    {
+                        "title": "16.1 幂的运算",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:na:expressions:G8A:ch16:sec16-1"
+                    },
+                    {
+                        "title": "16.2 整式的乘法",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:na:expressions:G8A:ch16:sec16-2"
+                    },
+                    {
+                        "title": "16.3 乘法公式",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:na:expressions:G8A:ch16:sec16-3"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Chapter",
+            "identifier": "urn:jy:math:2022:chapter:s4:na:expressions:G8A:ch17",
+            "title": "第十七章 因式分解",
+            "description": "第四学段·数与式·教材章节",
+            "subject": "SX0302",
+            "applicableLevel": "S4",
+            "contentJson": {
+                "textVersion": "初中_八年级_数学_人教版_上册",
+                "Grade": "八上",
+                "Sections": [
+                    {
+                        "title": "17.1 用提公因式法分解因式",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:na:expressions:G8A:ch17:sec17-1"
+                    },
+                    {
+                        "title": "17.2 用公式法分解因式",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:na:expressions:G8A:ch17:sec17-2"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Chapter",
+            "identifier": "urn:jy:math:2022:chapter:s4:na:expressions:G8A:ch18",
+            "title": "第十八章 分式",
+            "description": "第四学段·数与式/方程与不等式·教材章节",
+            "subject": "SX0302",
+            "applicableLevel": "S4",
+            "contentJson": {
+                "textVersion": "初中_八年级_数学_人教版_上册",
+                "Grade": "八上",
+                "Sections": [
+                    {
+                        "title": "18.1 分式及其基本性质",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:na:expressions:G8A:ch18:sec18-1"
+                    },
+                    {
+                        "title": "18.2 分式的乘法与除法",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:na:expressions:G8A:ch18:sec18-2"
+                    },
+                    {
+                        "title": "18.3 分式的加法与减法",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:na:expressions:G8A:ch18:sec18-3"
+                    },
+                    {
+                        "title": "18.4 整数指数幂",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:na:expressions:G8A:ch18:sec18-4"
+                    },
+                    {
+                        "title": "18.5 分式方程",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:na:expressions:G8A:ch18:sec18-5"
+                    }
+                ]
+            }
+        },
+        {
+            "identifier": "urn:jy:math:2022:chapter:s4:na:expressions:G8B:ch16",
+            "title": "第十六章 二次根式",
+            "description": "第四学段·数与式·教材章节",
+            "subject": "SX0302",
+            "applicableLevel": "S4",
+            "type": "Chapter",
+            "contentJson": {
+                "textVersion": "初中_八年级_数学_人教版_下册",
+                "Grade": "八下",
+                "Sections": [
+                    {
+                        "title": "16.1 二次根式",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:na:expressions:G8B:ch16:sec16-1"
+                    },
+                    {
+                        "title": "16.2 二次根式的乘除",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:na:expressions:G8B:ch16:sec16-2"
+                    },
+                    {
+                        "title": "16.3 二次根式的加减",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:na:expressions:G8B:ch16:sec16-3"
+                    },
+                    {
+                        "title": "第十六章 数学活动",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:na:expressions:G8B:ch16:sec16-4"
+                    },
+                    {
+                        "title": "第十六章 小结",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:na:expressions:G8B:ch16:sec16-5"
+                    },
+                    {
+                        "title": "第十六章 复习题16",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:na:expressions:G8B:ch16:sec16-6"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Chapter",
+            "identifier": "urn:jy:math:2022:chapter:s4:sg:properties:G8B:ch17",
+            "title": "第十七章 勾股定理",
+            "description": "第四学段·图形的性质·教材章节",
+            "subject": "SX0302",
+            "applicableLevel": "S4",
+            "contentJson": {
+                "textVersion": "初中_八年级_数学_人教版_下册",
+                "Grade": "八下",
+                "Sections": [
+                    {
+                        "title": "17.1 勾股定理",
+                        "type": "Section",
+                        "contentJson": {
+                            "extendSection": "阅读与思考 勾股定理的证明"
+                        },
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G8B:ch17:sec17-1"
+                    },
+                    {
+                        "title": "17.2 勾股定理的逆定理",
+                        "type": "Section",
+                        "contentJson": {
+                            "extendSection": "阅读与思考 费马大定理"
+                        },
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G8B:ch17:sec17-2"
+                    },
+                    {
+                        "title": "第十七章 数学活动",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G8B:ch17:sec17-3"
+                    },
+                    {
+                        "title": "第十七章 小结",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G8B:ch17:sec17-4"
+                    },
+                    {
+                        "title": "第十七章 复习题17",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G8B:ch17:sec17-5"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Chapter",
+            "identifier": "urn:jy:math:2022:chapter:s4:sg:properties:G8B:ch18",
+            "title": "第十八章 平行四边形",
+            "description": "第四学段·图形的性质·教材章节",
+            "subject": "SX0302",
+            "applicableLevel": "S4",
+            "contentJson": {
+                "textVersion": "初中_八年级_数学_人教版_下册",
+                "Grade": "八下",
+                "Sections": [
+                    {
+                        "title": "18.1 平行四边形",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G8B:ch18:sec18-1"
+                    },
+                    {
+                        "title": "18.2 特殊的平行四边形",
+                        "type": "Section",
+                        "contentJson": {
+                            "extendSection": "实验与探究 丰富多彩的正方形"
+                        },
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G8B:ch18:sec18-2"
+                    },
+                    {
+                        "title": "第十八章 数学活动",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G8B:ch18:sec18-3"
+                    },
+                    {
+                        "title": "第十八章 小结",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G8B:ch18:sec18-4"
+                    },
+                    {
+                        "title": "第十八章 复习题18",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G8B:ch18:sec18-5"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Chapter",
+            "identifier": "urn:jy:math:2022:chapter:s4:na:functions:G8B:ch19",
+            "title": "第十九章 一次函数",
+            "description": "第四学段·函数·教材章节",
+            "subject": "SX0302",
+            "applicableLevel": "S4",
+            "contentJson": {
+                "textVersion": "初中_八年级_数学_人教版_下册",
+                "Grade": "八下",
+                "Sections": [
+                    {
+                        "title": "19.1 函数",
+                        "type": "Section",
+                        "contentJson": {
+                            "extendSection": "阅读与思考 科学家如何测算岩石的年龄"
+                        },
+                        "identifier": "urn:jy:math:2022:section:s4:na:functions:G8B:ch19:sec19-1"
+                    },
+                    {
+                        "title": "19.2 一次函数",
+                        "type": "Section",
+                        "contentJson": {
+                            "extendSection": "信息技术应用 用计算机画函数图象"
+                        },
+                        "identifier": "urn:jy:math:2022:section:s4:na:functions:G8B:ch19:sec19-2"
+                    },
+                    {
+                        "title": "14.3 课题学习 选择方案",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:na:functions:G8B:ch19:sec19-3"
+                    },
+                    {
+                        "title": "第十九章 数学活动",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:na:functions:G8B:ch19:sec19-4"
+                    },
+                    {
+                        "title": "第十九章 小结",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:na:functions:G8B:ch19:sec19-5"
+                    },
+                    {
+                        "title": "第十九章 复习题19",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:na:functions:G8B:ch19:sec19-6"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Chapter",
+            "identifier": "urn:jy:math:2022:chapter:s4:sp:sampling-data-analysis:G8B:ch20",
+            "title": "第二十章 数据的分析",
+            "description": "第四学段·抽样与数据分析·教材章节",
+            "subject": "SX0302",
+            "applicableLevel": "S4",
+            "contentJson": {
+                "textVersion": "初中_八年级_数学_人教版_下册",
+                "Grade": "八下",
+                "Sections": [
+                    {
+                        "title": "20.1 数据的集中趋势",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:sp:sampling-data-analysis:G8B:ch20:sec20-1"
+                    },
+                    {
+                        "title": "20.2 数据的波动程度",
+                        "type": "Section",
+                        "contentJson": {
+                            "extendSection": "阅读与思考 数据波动程度的几种度量"
+                        },
+                        "identifier": "urn:jy:math:2022:section:s4:sp:sampling-data-analysis:G8B:ch20:sec20-2"
+                    },
+                    {
+                        "title": "20.3 课题学习 体质健康测试中的数据分析",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:sp:sampling-data-analysis:G8B:ch20:sec20-3"
+                    },
+                    {
+                        "title": "第二十章 数学活动",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:sp:sampling-data-analysis:G8B:ch20:sec20-4"
+                    },
+                    {
+                        "title": "第二十章 小结",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:sp:sampling-data-analysis:G8B:ch20:sec20-5"
+                    },
+                    {
+                        "title": "第二十章 复习题20",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:sp:sampling-data-analysis:G8B:ch20:sec20-6"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Chapter",
+            "identifier": "urn:jy:math:2022:chapter:s4:na:equations-inequalities:G9A:ch21",
+            "title": "第二十一章 一元二次方程",
+            "description": "第四学段·方程与不等式·教材章节",
+            "subject": "SX0302",
+            "applicableLevel": "S4",
+            "contentJson": {
+                "textVersion": "初中_九年级_数学_人教版_上册",
+                "Grade": "九上",
+                "Sections": [
+                    {
+                        "title": "21.1 一元二次方程",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:na:equations-inequalities:G9A:ch21:sec21-1"
+                    },
+                    {
+                        "title": "21.2 解一元二次方程",
+                        "type": "Section",
+                        "contentJson": {
+                            "extendSection": "阅读与思考 黄金分割数"
+                        },
+                        "identifier": "urn:jy:math:2022:section:s4:na:equations-inequalities:G9A:ch21:sec21-2"
+                    },
+                    {
+                        "title": "21.3 实际问题与一元二次方程",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:na:equations-inequalities:G9A:ch21:sec21-3"
+                    },
+                    {
+                        "title": "第二十一章 数学活动",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:na:equations-inequalities:G9A:ch21:sec21-4"
+                    },
+                    {
+                        "title": "第二十一章 小结",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:na:equations-inequalities:G9A:ch21:sec21-5"
+                    },
+                    {
+                        "title": "第二十一章 复习题21",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:na:equations-inequalities:G9A:ch21:sec21-6"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Chapter",
+            "identifier": "urn:jy:math:2022:chapter:s4:na:functions:G9A:ch22",
+            "title": "第二十二章 二次函数",
+            "description": "第四学段·函数·教材章节",
+            "subject": "SX0302",
+            "applicableLevel": "S4",
+            "contentJson": {
+                "textVersion": "初中_九年级_数学_人教版_上册",
+                "Grade": "九上",
+                "Sections": [
+                    {
+                        "title": "22.1 二次函数的图象和性质",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:na:functions:G9A:ch22:sec22-1"
+                    },
+                    {
+                        "title": "22.2 二次函数与一元二次方程",
+                        "type": "Section",
+                        "contentJson": {
+                            "extendSection": "信息技术应用 探索干净函数的性质"
+                        },
+                        "identifier": "urn:jy:math:2022:section:s4:na:functions:G9A:ch22:sec22-2"
+                    },
+                    {
+                        "title": "22.3 实际问题与二次函数",
+                        "type": "Section",
+                        "contentJson": {
+                            "extendSection": "阅读与思考 推测滑行距离与滑行时间的关系"
+                        },
+                        "identifier": "urn:jy:math:2022:section:s4:na:functions:G9A:ch22:sec22-3"
+                    },
+                    {
+                        "title": "第二十二章 数学活动",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:na:functions:G9A:ch22:sec22-4"
+                    },
+                    {
+                        "title": "第二十二章 小结",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:na:functions:G9A:ch22:sec22-5"
+                    },
+                    {
+                        "title": "第二十二章 复习题22",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:na:functions:G9A:ch22:sec22-6"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Chapter",
+            "identifier": "urn:jy:math:2022:chapter:s4:sg:transformations:G9A:ch23",
+            "title": "第二十三章 旋转",
+            "description": "第四学段·图形的变化·教材章节",
+            "subject": "SX0302",
+            "applicableLevel": "S4",
+            "contentJson": {
+                "textVersion": "初中_九年级_数学_人教版_上册",
+                "Grade": "九上",
+                "Sections": [
+                    {
+                        "title": "23.1 图形的旋转",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:transformations:G9A:ch23:sec23-1"
+                    },
+                    {
+                        "title": "23.2 中心对称",
+                        "type": "Section",
+                        "contentJson": {
+                            "extendSection": "信息技术应用 探索旋转的性质"
+                        },
+                        "identifier": "urn:jy:math:2022:section:s4:sg:transformations:G9A:ch23:sec23-2"
+                    },
+                    {
+                        "title": "23.3 课题学习　图案设计",
+                        "type": "Section",
+                        "contentJson": {
+                            "extendSection": "阅读与思考 旋转对称"
+                        },
+                        "identifier": "urn:jy:math:2022:section:s4:sg:transformations:G9A:ch23:sec23-3"
+                    },
+                    {
+                        "title": "第二十三章 数学活动",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:transformations:G9A:ch23:sec23-4"
+                    },
+                    {
+                        "title": "第二十三章 小结",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:transformations:G9A:ch23:sec23-5"
+                    },
+                    {
+                        "title": "第二十三章 复习题23",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:transformations:G9A:ch23:sec23-6"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Chapter",
+            "identifier": "urn:jy:math:2022:chapter:s4:sg:properties:G9A:ch24",
+            "title": "第二十四章 圆",
+            "description": "第四学段·图形的性质·教材章节",
+            "subject": "SX0302",
+            "applicableLevel": "S4",
+            "contentJson": {
+                "textVersion": "初中_九年级_数学_人教版_上册",
+                "Grade": "九上",
+                "Sections": [
+                    {
+                        "title": "24.1 圆的有关性质",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G9A:ch24:sec24-1"
+                    },
+                    {
+                        "title": "24.2 点和圆、直线和圆的位置关系",
+                        "type": "Section",
+                        "contentJson": {
+                            "extendSection": "实验与探究 圆和圆的位置关系"
+                        },
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G9A:ch24:sec24-2"
+                    },
+                    {
+                        "title": "24.3 正多边形和圆",
+                        "type": "Section",
+                        "contentJson": {
+                            "extendSection": "阅读与思考 圆周率π"
+                        },
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G9A:ch24:sec24-3"
+                    },
+                    {
+                        "title": "24.4 弧长和扇形面积",
+                        "type": "Section",
+                        "contentJson": {
+                            "extendSection": "实验与探究 设计跑道"
+                        },
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G9A:ch24:sec24-4"
+                    },
+                    {
+                        "title": "第二十四章 数学活动",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G9A:ch24:sec24-5"
+                    },
+                    {
+                        "title": "第二十四章 小结",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G9A:ch24:sec24-6"
+                    },
+                    {
+                        "title": "第二十四章 复习题24",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G9A:ch24:sec24-7"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Chapter",
+            "identifier": "urn:jy:math:2022:chapter:s4:sp:probability:G9A:ch25",
+            "title": "第二十五章 概率初步",
+            "description": "第四学段·随机事件的概率·教材章节",
+            "subject": "SX0302",
+            "applicableLevel": "S4",
+            "contentJson": {
+                "textVersion": "初中_九年级_数学_人教版_上册",
+                "Grade": "九上",
+                "Sections": [
+                    {
+                        "title": "25.1 随机事件与概率",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:sp:probability:G9A:ch25:sec25-1"
+                    },
+                    {
+                        "title": "25.2 用列举法求概率",
+                        "type": "Section",
+                        "contentJson": {
+                            "extendSection": "阅读与思考 概率与中奖"
+                        },
+                        "identifier": "urn:jy:math:2022:section:s4:sp:probability:G9A:ch25:sec25-2"
+                    },
+                    {
+                        "title": "25.3 用频率估计概率",
+                        "type": "Section",
+                        "contentJson": {
+                            "extendSection": "实验与探究 π的估计"
+                        },
+                        "identifier": "urn:jy:math:2022:section:s4:sp:probability:G9A:ch25:sec25-3"
+                    },
+                    {
+                        "title": "第二十五章 数学活动",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:sp:probability:G9A:ch25:sec25-4"
+                    },
+                    {
+                        "title": "第二十五章 小结",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:sp:probability:G9A:ch25:sec25-5"
+                    },
+                    {
+                        "title": "第二十五章 复习题25",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:sp:probability:G9A:ch25:sec25-6"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Chapter",
+            "identifier": "urn:jy:math:2022:chapter:s4:na:functions:G9B:ch26",
+            "title": "第二十六章 反比例函数",
+            "description": "第四学段·函数·教材章节",
+            "subject": "SX0302",
+            "applicableLevel": "S4",
+            "contentJson": {
+                "textVersion": "初中_九年级_数学_人教版_下册",
+                "Grade": "九下",
+                "Sections": [
+                    {
+                        "title": "26.1 反比例函数",
+                        "type": "Section",
+                        "contentJson": {
+                            "extendSection": "信息技术应用 探索反比例函数的性质"
+                        },
+                        "identifier": "urn:jy:math:2022:section:s4:na:functions:G9B:ch26:sec26-1"
+                    },
+                    {
+                        "title": "26.2 实际问题与反比例函数",
+                        "type": "Section",
+                        "contentJson": {
+                            "extendSection": "阅读与思考 生活中的反比例关系"
+                        },
+                        "identifier": "urn:jy:math:2022:section:s4:na:functions:G9B:ch26:sec26-2"
+                    },
+                    {
+                        "title": "第二十六章 数学活动",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:na:functions:G9B:ch26:sec26-3"
+                    },
+                    {
+                        "title": "第二十六章 小结",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:na:functions:G9B:ch26:sec26-4"
+                    },
+                    {
+                        "title": "第二十六章 复习题26",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:na:functions:G9B:ch26:sec26-5"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Chapter",
+            "identifier": "urn:jy:math:2022:chapter:s4:sg:properties:G9B:ch27",
+            "title": "第二十七章 相似",
+            "description": "第四学段·图形的性质/图形的变化·教材章节",
+            "subject": "SX0302",
+            "applicableLevel": "S4",
+            "contentJson": {
+                "textVersion": "初中_九年级_数学_人教版_下册",
+                "Grade": "九下",
+                "Sections": [
+                    {
+                        "title": "27.1 图形的相似",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G9B:ch27:sec27-1"
+                    },
+                    {
+                        "title": "27.2 相似三角形",
+                        "type": "Section",
+                        "contentJson": {
+                            "extendSection": "观察与猜想 奇妙的分形图形"
+                        },
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G9B:ch27:sec27-2"
+                    },
+                    {
+                        "title": "27.3 位似",
+                        "type": "Section",
+                        "contentJson": {
+                            "extendSection": "信息技术应用 探索位似的性质"
+                        },
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G9B:ch27:sec27-3"
+                    },
+                    {
+                        "title": "第二十七章 数学活动",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G9B:ch27:sec27-4"
+                    },
+                    {
+                        "title": "第二十七章 小结",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G9B:ch27:sec27-5"
+                    },
+                    {
+                        "title": "第二十七章 复习题27",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G9B:ch27:sec27-6"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Chapter",
+            "identifier": "urn:jy:math:2022:chapter:s4:na:functions:G9B:ch28",
+            "title": "第二十八章 锐角三角函数",
+            "description": "第四学段·函数·教材章节",
+            "subject": "SX0302",
+            "applicableLevel": "S4",
+            "contentJson": {
+                "textVersion": "初中_九年级_数学_人教版_下册",
+                "Grade": "九下",
+                "Sections": [
+                    {
+                        "title": "28.1 锐角三角函数",
+                        "type": "Section",
+                        "contentJson": {
+                            "extendSection": "阅读与思考 一张古老的“三角函数表”"
+                        },
+                        "identifier": "urn:jy:math:2022:section:s4:na:functions:G9B:ch28:sec28-1"
+                    },
+                    {
+                        "title": "28.2 解直角三角形及其应用",
+                        "type": "Section",
+                        "contentJson": {
+                            "extendSection": "阅读与思考 山坡的高度"
+                        },
+                        "identifier": "urn:jy:math:2022:section:s4:na:functions:G9B:ch28:sec28-2"
+                    },
+                    {
+                        "title": "第二十八章 数学活动",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:na:functions:G9B:ch28:sec28-3"
+                    },
+                    {
+                        "title": "第二十八章 小结",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:na:functions:G9B:ch28:sec28-4"
+                    },
+                    {
+                        "title": "第二十八章 复习题28",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:na:functions:G9B:ch28:sec28-5"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Chapter",
+            "identifier": "urn:jy:math:2022:chapter:s4:sg:properties:G9B:ch29",
+            "title": "第二十九章 投影与视图",
+            "description": "第四学段·图形的性质·教材章节",
+            "subject": "SX0302",
+            "applicableLevel": "S4",
+            "contentJson": {
+                "textVersion": "初中_九年级_数学_人教版_下册",
+                "Grade": "九下",
+                "Sections": [
+                    {
+                        "title": "29.1 投影",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G9B:ch29:sec29-1"
+                    },
+                    {
+                        "title": "29.2 三视图",
+                        "type": "Section",
+                        "contentJson": {
+                            "extendSection": "阅读与思考 视图的产生与应用"
+                        },
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G9B:ch29:sec29-2"
+                    },
+                    {
+                        "title": "29.3 课题学习 制作立体模型",
+                        "type": "Section",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G9B:ch29:sec29-3"
+                    },
+                    {
+                        "title": "第二十九章 数学活动",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G9B:ch29:sec29-4"
+                    },
+                    {
+                        "title": "第二十九章 小结",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G9B:ch29:sec29-5"
+                    },
+                    {
+                        "title": "第二十九章 复习题29",
+                        "type": "Other",
+                        "identifier": "urn:jy:math:2022:section:s4:sg:properties:G9B:ch29:sec29-6"
+                    }
+                ]
+            }
+        }
+    ]
+}

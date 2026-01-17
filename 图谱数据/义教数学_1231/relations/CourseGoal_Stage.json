@@ -1,0 +1,28 @@
+{
+  "relations": [
+    {
+      "relationName": "coursegoalCoversStage",
+      "label": "覆盖学段 / coversStage",
+      "source": "urn:jy:math:2022:course-goal",
+      "target": "urn:jy:math:2022:stage:1-2"
+    },
+    {
+      "relationName": "coursegoalCoversStage",
+      "label": "覆盖学段 / coversStage",
+      "source": "urn:jy:math:2022:course-goal",
+      "target": "urn:jy:math:2022:stage:3-4"
+    },
+    {
+      "relationName": "coursegoalCoversStage",
+      "label": "覆盖学段 / coversStage",
+      "source": "urn:jy:math:2022:course-goal",
+      "target": "urn:jy:math:2022:stage:5-6"
+    },
+    {
+      "relationName": "coursegoalCoversStage",
+      "label": "覆盖学段 / coversStage",
+      "source": "urn:jy:math:2022:course-goal",
+      "target": "urn:jy:math:2022:stage:7-9"
+    }
+  ]
+}

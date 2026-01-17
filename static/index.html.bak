@@ -402,7 +402,7 @@
                 <div class="subject-column-header">
                     <span class="icon">📐</span>
                     <h3>高中数学</h3>
-                    <span class="count">2 个</span>
+                    <span class="count">3 个</span>
                 </div>
                 <div class="graph-grid">
                     <a href="高中数学_人教B版.html" class="graph-card" style="--accent-color: #2ecc71">
@@ -422,6 +422,16 @@
                         <div class="stats">
                             <span class="stat-item">📊 159个实体</span>
                             <span class="stat-item">🔗 2039条关系</span>
+                        </div>
+                        <span class="arrow">→</span>
+                    </a>
+                    <a href="高中数学_人教B版_v2.html" class="graph-card" style="--accent-color: #2ecc71">
+                        <span class="type-badge mixed">课标+教材</span>
+                        <h3>高中数学 · 人教B版（v2）</h3>
+                        <p class="description">知识图谱可视化</p>
+                        <div class="stats">
+                            <span class="stat-item">📊 159个实体</span>
+                            <span class="stat-item">🔗 2743条关系</span>
                         </div>
                         <span class="arrow">→</span>
                     </a>
@@ -464,19 +474,9 @@
                 <div class="subject-column-header">
                     <span class="icon">⚡</span>
                     <h3>义教物理</h3>
-                    <span class="count">3 个</span>
+                    <span class="count">2 个</span>
                 </div>
                 <div class="graph-grid">
-                    <a href="义务物理_课标.html" class="graph-card" style="--accent-color: #e74c3c">
-                        <span class="type-badge curriculum">课程标准</span>
-                        <h3>义务教育物理课标</h3>
-                        <p class="description">知识图谱可视化</p>
-                        <div class="stats">
-                            <span class="stat-item">📊 765个实体</span>
-                            <span class="stat-item">🔗 528条关系</span>
-                        </div>
-                        <span class="arrow">→</span>
-                    </a>
                     <a href="义教物理_课标.html" class="graph-card" style="--accent-color: #e74c3c">
                         <span class="type-badge curriculum">课程标准</span>
                         <h3>义教物理课标</h3>
@@ -633,6 +633,29 @@
                     </a>
                 </div>
             </div>
+
+            </div>
+        </section>
+
+        <!-- 其他 -->
+        <section class="subject-section" data-subject="其他">
+            <div class="subject-header">
+                <span class="icon">📁</span>
+                <h2>其他图谱</h2>
+                <span class="count">1 个图谱</span>
+            </div>
+            <div class="graph-grid">
+
+                <a href="义教数学_课标.html" class="graph-card" style="--accent-color: #95a5a6">
+                    <span class="type-badge curriculum">图谱</span>
+                    <h3>义教数学课标图谱</h3>
+                    <p class="description">知识图谱可视化</p>
+                    <div class="stats">
+                        <span class="stat-item">📊 51个实体</span>
+                        <span class="stat-item">🔗 3561条关系</span>
+                    </div>
+                    <span class="arrow">→</span>
+                </a>
 
             </div>
         </section>

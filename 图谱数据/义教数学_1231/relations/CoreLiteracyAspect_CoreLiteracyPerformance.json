@@ -1,0 +1,46 @@
+{
+  "relations": [
+    {
+      "relationName": "aspectHasPerformance",
+      "label": "包含表现 / hasPerformance",
+      "source": "urn:jy:math:2022:core-literacy:1",
+      "target": "urn:jy:math:2022:perf:s1:number-sense"
+    },
+    {
+      "relationName": "aspectHasPerformance",
+      "label": "包含表现 / hasPerformance",
+      "source": "urn:jy:math:2022:core-literacy:1",
+      "target": "urn:jy:math:2022:perf:s1:symbol-awareness"
+    },
+    {
+      "relationName": "aspectHasPerformance",
+      "label": "包含表现 / hasPerformance",
+      "source": "urn:jy:math:2022:core-literacy:2",
+      "target": "urn:jy:math:2022:perf:s1:reasoning-awareness"
+    },
+    {
+      "relationName": "aspectHasPerformance",
+      "label": "包含表现 / hasPerformance",
+      "source": "urn:jy:math:2022:core-literacy:2",
+      "target": "urn:jy:math:2022:perf:s4:reasoning"
+    },
+    {
+      "relationName": "aspectHasPerformance",
+      "label": "包含表现 / hasPerformance",
+      "source": "urn:jy:math:2022:core-literacy:2",
+      "target": "urn:jy:math:2022:perf:s4:abstract"
+    },
+    {
+      "relationName": "aspectHasPerformance",
+      "label": "包含表现 / hasPerformance",
+      "source": "urn:jy:math:2022:core-literacy:3",
+      "target": "urn:jy:math:2022:perf:s1:data-awareness"
+    },
+    {
+      "relationName": "aspectHasPerformance",
+      "label": "包含表现 / hasPerformance",
+      "source": "urn:jy:math:2022:core-literacy:3",
+      "target": "urn:jy:math:2022:perf:s4:data-conception"
+    }
+  ]
+}

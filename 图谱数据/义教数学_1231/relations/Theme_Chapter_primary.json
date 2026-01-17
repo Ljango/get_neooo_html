@@ -1,0 +1,698 @@
+{
+    "meta": {
+      "themeCount": 16,
+      "chapterCount": 112,
+      "relationCount": 112,
+      "notes": [
+        "已按‘章节所属学段(applicableLevel) -> 同学段主题’挂载；综合与实践/活动类章节挂载到 urn:jy:math:2022:theme:integration-practice（其 contentJson.originalStageLevels 覆盖 S1-S4）。",
+        "发现你提供的章节中《数量间的加减关系》出现两条（chapter_num=6 与 7）。为满足你标注的总数 112，本关系表仅挂载后者 urn:jy:math:2022:chapter:f702c3a2e925；若两条都需保留，可再加一条 relation 指向 urn:jy:math:2022:chapter:8ae2bb64a67e（届时章节/关系数将变为 113）。",
+        "S1 未单独提供‘图形的位置与运动’主题，因此《图形的运动（一）》按 S1 图形的认识与测量主题挂载，以避免跨学段挂载。"
+      ]
+    },
+    "relations": [
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s2:sg:position-motion",
+        "target": "urn:jy:math:2022:chapter:e1cb490e0368"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s2:na:number-operations",
+        "target": "urn:jy:math:2022:chapter:616e73e78c01"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s2:sp:collect-organize-express",
+        "target": "urn:jy:math:2022:chapter:d9d576f0323b"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s2:na:number-operations",
+        "target": "urn:jy:math:2022:chapter:f3f8284dd0fc"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s2:sg:recognition-measurement",
+        "target": "urn:jy:math:2022:chapter:9890f65af8e1"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s2:sg:recognition-measurement",
+        "target": "urn:jy:math:2022:chapter:c4fc088684e9"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:integration-practice",
+        "target": "urn:jy:math:2022:chapter:8606134b1dc6"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s2:na:number-operations",
+        "target": "urn:jy:math:2022:chapter:39ea2d1cd3e7"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:integration-practice",
+        "target": "urn:jy:math:2022:chapter:260c8404f2f5"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:integration-practice",
+        "target": "urn:jy:math:2022:chapter:1daf2d5eeb96"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:integration-practice",
+        "target": "urn:jy:math:2022:chapter:05b4790aa86a"
+      },
+  
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s1:sp:data-categorization",
+        "target": "urn:jy:math:2022:chapter:704477bbf47c"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s1:na:number-operations",
+        "target": "urn:jy:math:2022:chapter:78cb8d301886"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s1:sg:recognition-measurement",
+        "target": "urn:jy:math:2022:chapter:c1e54e413da3"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s1:na:number-operations",
+        "target": "urn:jy:math:2022:chapter:ca6fa2cc1a52"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s1:na:number-operations",
+        "target": "urn:jy:math:2022:chapter:3c97d46c638a"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s1:na:number-operations",
+        "target": "urn:jy:math:2022:chapter:a50c2f4bca8f"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:integration-practice",
+        "target": "urn:jy:math:2022:chapter:b00c49d2076c"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s1:na:number-operations",
+        "target": "urn:jy:math:2022:chapter:f78e25b7f211"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s1:sg:recognition-measurement",
+        "target": "urn:jy:math:2022:chapter:cbd79c82700d"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:integration-practice",
+        "target": "urn:jy:math:2022:chapter:626a43ec0f15"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:integration-practice",
+        "target": "urn:jy:math:2022:chapter:9ae8cbb3c416"
+      },
+  
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s2:sg:position-motion",
+        "target": "urn:jy:math:2022:chapter:9b707c4d07cf"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s2:na:number-operations",
+        "target": "urn:jy:math:2022:chapter:bbabbbd8e0b7"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s2:sg:recognition-measurement",
+        "target": "urn:jy:math:2022:chapter:aba6e75dd203"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:integration-practice",
+        "target": "urn:jy:math:2022:chapter:c0e127e24bca"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s2:na:number-operations",
+        "target": "urn:jy:math:2022:chapter:610990b045e1"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:integration-practice",
+        "target": "urn:jy:math:2022:chapter:858b75207be3"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s2:sg:recognition-measurement",
+        "target": "urn:jy:math:2022:chapter:9237f22c3bb7"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s2:na:number-operations",
+        "target": "urn:jy:math:2022:chapter:5c275c387d7d"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:integration-practice",
+        "target": "urn:jy:math:2022:chapter:d3609bae9d9a"
+      },
+  
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s1:sp:data-categorization",
+        "target": "urn:jy:math:2022:chapter:db428639cd37"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s1:na:number-operations",
+        "target": "urn:jy:math:2022:chapter:55e2da6f1f7d"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s1:na:number-operations",
+        "target": "urn:jy:math:2022:chapter:3c4887753f8b"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:integration-practice",
+        "target": "urn:jy:math:2022:chapter:4b7055a49f0b"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s1:sg:recognition-measurement",
+        "target": "urn:jy:math:2022:chapter:1d5669abec40"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s1:sg:recognition-measurement",
+        "target": "urn:jy:math:2022:chapter:8b04fe1f6d3a"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:integration-practice",
+        "target": "urn:jy:math:2022:chapter:f7d8918c0dd6"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:integration-practice",
+        "target": "urn:jy:math:2022:chapter:df3b8285690e"
+      },
+  
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s3:na:number-operations",
+        "target": "urn:jy:math:2022:chapter:027a813e5ec5"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s3:sp:collect-organize-express",
+        "target": "urn:jy:math:2022:chapter:6f2f7c55ffc5"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s3:sp:collect-organize-express",
+        "target": "urn:jy:math:2022:chapter:906a693d27ff"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s3:sg:recognition-measurement",
+        "target": "urn:jy:math:2022:chapter:3fc6c40d2521"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:integration-practice",
+        "target": "urn:jy:math:2022:chapter:50b5929d63d8"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s3:na:quantitative-relations",
+        "target": "urn:jy:math:2022:chapter:9faba01f239e"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:integration-practice",
+        "target": "urn:jy:math:2022:chapter:54e46f938a54"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:integration-practice",
+        "target": "urn:jy:math:2022:chapter:fa82adc8c729"
+      },
+  
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s3:na:number-operations",
+        "target": "urn:jy:math:2022:chapter:1a3a3aa81668"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s3:sg:position-motion",
+        "target": "urn:jy:math:2022:chapter:1816b882108b"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s3:na:number-operations",
+        "target": "urn:jy:math:2022:chapter:a3332f949e06"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s3:na:quantitative-relations",
+        "target": "urn:jy:math:2022:chapter:85dae5498cfb"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s3:sg:recognition-measurement",
+        "target": "urn:jy:math:2022:chapter:1a1517678706"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:integration-practice",
+        "target": "urn:jy:math:2022:chapter:b0a58c6b2014"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s3:sp:collect-organize-express",
+        "target": "urn:jy:math:2022:chapter:f528bc637a8d"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s3:sp:collect-organize-express",
+        "target": "urn:jy:math:2022:chapter:0ee8f1b692b3"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:integration-practice",
+        "target": "urn:jy:math:2022:chapter:60f1b1c9b1d6"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:integration-practice",
+        "target": "urn:jy:math:2022:chapter:cbf2d587e830"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:integration-practice",
+        "target": "urn:jy:math:2022:chapter:8dae31588712"
+      },
+  
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s3:sg:position-motion",
+        "target": "urn:jy:math:2022:chapter:64befad179b7"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s3:na:number-operations",
+        "target": "urn:jy:math:2022:chapter:cd3e734d0ec8"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s3:sg:recognition-measurement",
+        "target": "urn:jy:math:2022:chapter:45a83415f3e6"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s3:sg:recognition-measurement",
+        "target": "urn:jy:math:2022:chapter:017b4a875edd"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s3:na:number-operations",
+        "target": "urn:jy:math:2022:chapter:72b2fcaa999e"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s3:sg:position-motion",
+        "target": "urn:jy:math:2022:chapter:e3126ef5699a"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s3:na:number-operations",
+        "target": "urn:jy:math:2022:chapter:ac5f9854579d"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:integration-practice",
+        "target": "urn:jy:math:2022:chapter:fc2002253fba"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s3:sp:collect-organize-express",
+        "target": "urn:jy:math:2022:chapter:ff471917df32"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:integration-practice",
+        "target": "urn:jy:math:2022:chapter:6b32be1c9ec5"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:integration-practice",
+        "target": "urn:jy:math:2022:chapter:04d8e02922a9"
+      },
+  
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s1:na:number-operations",
+        "target": "urn:jy:math:2022:chapter:57747f4941d4"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s1:na:number-operations",
+        "target": "urn:jy:math:2022:chapter:c387af552b1b"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s1:sg:recognition-measurement",
+        "target": "urn:jy:math:2022:chapter:b74a343630de"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s1:na:number-operations",
+        "target": "urn:jy:math:2022:chapter:b75c96426cce"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s1:na:number-operations",
+        "target": "urn:jy:math:2022:chapter:5f9ee3fa5d5e"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:integration-practice",
+        "target": "urn:jy:math:2022:chapter:a0c8f32bcfd5"
+      },
+  
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s1:sg:recognition-measurement",
+        "target": "urn:jy:math:2022:chapter:d71f82f59fb4"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s1:na:number-operations",
+        "target": "urn:jy:math:2022:chapter:1f682dd4655e"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s1:na:number-operations",
+        "target": "urn:jy:math:2022:chapter:d1498aebf369"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s1:na:number-operations",
+        "target": "urn:jy:math:2022:chapter:94d21aec03c9"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s1:na:number-operations",
+        "target": "urn:jy:math:2022:chapter:60ccb51a541a"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s1:na:quantitative-relations",
+        "target": "urn:jy:math:2022:chapter:f702c3a2e925"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:integration-practice",
+        "target": "urn:jy:math:2022:chapter:1adba890f479"
+      },
+  
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s3:na:number-operations",
+        "target": "urn:jy:math:2022:chapter:a91ebfbe8405"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s3:sg:position-motion",
+        "target": "urn:jy:math:2022:chapter:7c1fdde85b16"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s3:na:number-operations",
+        "target": "urn:jy:math:2022:chapter:f83d6bfafc31"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s3:sp:random-possibility",
+        "target": "urn:jy:math:2022:chapter:f272c4913532"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s3:sp:random-possibility",
+        "target": "urn:jy:math:2022:chapter:0044f7398e98"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s3:na:quantitative-relations",
+        "target": "urn:jy:math:2022:chapter:f14f89e86792"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s3:sg:recognition-measurement",
+        "target": "urn:jy:math:2022:chapter:dd0953182c32"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:integration-practice",
+        "target": "urn:jy:math:2022:chapter:59355a32155e"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:integration-practice",
+        "target": "urn:jy:math:2022:chapter:23a4746fea7f"
+      },
+  
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s2:na:number-operations",
+        "target": "urn:jy:math:2022:chapter:24f85e03d78a"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s2:sg:position-motion",
+        "target": "urn:jy:math:2022:chapter:9786b24aa3f0"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s2:na:number-operations",
+        "target": "urn:jy:math:2022:chapter:d7d448770b87"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s2:na:number-operations",
+        "target": "urn:jy:math:2022:chapter:4ebd066fe3d6"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s2:sg:recognition-measurement",
+        "target": "urn:jy:math:2022:chapter:ba2a99d56165"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s2:na:number-operations",
+        "target": "urn:jy:math:2022:chapter:a941a7ed70d5"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s2:sg:position-motion",
+        "target": "urn:jy:math:2022:chapter:8a45a9b9ba89"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s2:sp:collect-organize-express",
+        "target": "urn:jy:math:2022:chapter:d24e1aa0b0c2"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:integration-practice",
+        "target": "urn:jy:math:2022:chapter:0ab993960138"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:integration-practice",
+        "target": "urn:jy:math:2022:chapter:306cac342df4"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:integration-practice",
+        "target": "urn:jy:math:2022:chapter:b82e6b0c5db6"
+      },
+  
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s2:na:number-operations",
+        "target": "urn:jy:math:2022:chapter:366bcc2b0e67"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:integration-practice",
+        "target": "urn:jy:math:2022:chapter:a310ed524dfb"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s2:sg:recognition-measurement",
+        "target": "urn:jy:math:2022:chapter:ad5e6f195593"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s2:sg:recognition-measurement",
+        "target": "urn:jy:math:2022:chapter:f9aa2d35b35f"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s2:na:number-operations",
+        "target": "urn:jy:math:2022:chapter:a85bfd9b1830"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s2:sg:recognition-measurement",
+        "target": "urn:jy:math:2022:chapter:4028f78132c1"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s2:na:number-operations",
+        "target": "urn:jy:math:2022:chapter:edb25ec96575"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:s2:sp:collect-organize-express",
+        "target": "urn:jy:math:2022:chapter:382bdfe7a728"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:integration-practice",
+        "target": "urn:jy:math:2022:chapter:654be99abb97"
+      },
+      {
+        "type": "Relation",
+        "relationName": "theme_has_chapter",
+        "source": "urn:jy:math:2022:theme:integration-practice",
+        "target": "urn:jy:math:2022:chapter:a9f4f74fd1fe"
+      }
+    ]
+  }
+  

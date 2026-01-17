@@ -141,6 +141,16 @@ def generate_biology_graph():
     )
 
 
+def generate_math_graph():
+    """生成义教数学图谱"""
+    generate_graph(
+        subject_dir="义教数学_1231",
+        output_name="义教数学_课标",
+        title="义教数学课标图谱",
+        description="义务教育阶段数学课程标准完整知识结构"
+    )
+
+
 def main():
     """主函数 - 生成所有学科图谱"""
     print("="*60)
@@ -159,6 +169,7 @@ def main():
     generate_chemistry_graph()
     generate_geography_graph()
     generate_biology_graph()
+    generate_math_graph()
     
     print("\n" + "="*60)
     print("🎉 所有图谱生成完成！")
