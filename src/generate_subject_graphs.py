@@ -6,10 +6,7 @@
 """
 
 from graph_generator import GraphGenerator
-from pathlib import Path
-
-PROJECT_ROOT = Path(__file__).parent.parent
-DATA_ROOT = PROJECT_ROOT / "图谱数据"
+from config import PROJECT_ROOT, DATA_ROOT
 
 
 def generate_graph(subject_dir: str, output_name: str, title: str, description: str):

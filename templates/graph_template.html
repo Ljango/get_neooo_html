@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>高中数学 · 人教B版</title>
+    <title>{title}</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <style>
         * {
@@ -368,8 +368,8 @@
     <div class="container">
         <!-- 侧边栏 -->
         <aside class="sidebar">
-            <h1>📚 高中数学 · 人教B版</h1>
-            <p class="description">课标+教材混合图谱 | 可拖拽/缩放 | 点击查看详情</p>
+            <h1>📚 {title}</h1>
+            <p class="description">{description} | 可拖拽/缩放 | 点击查看详情</p>
             <div class="stats">
                 实体: <span id="node-count">0</span> (可见 <span id="visible-nodes">0</span>) · 
                 关系: <span id="link-count">0</span> (可见 <span id="visible-links">0</span>)
@@ -429,179 +429,8 @@
     
     <script>
         // ========== 配置和数据 ==========
-        const ENTITY_TYPE_CONFIG = {
-  "CourseModule": {
-    "label": "课程模块",
-    "color": "#e74c3c",
-    "size": 24
-  },
-  "CourseTarget": {
-    "label": "课程目标",
-    "color": "#16a085",
-    "size": 16
-  },
-  "AcademicQuality": {
-    "label": "学业质量",
-    "color": "#1abc9c",
-    "size": 14
-  },
-  "CoreLiteracy": {
-    "label": "核心素养",
-    "color": "#16a085",
-    "size": 14
-  },
-  "Theme": {
-    "label": "主题",
-    "color": "#e67e22",
-    "size": 20
-  },
-  "Topic": {
-    "label": "主题内容",
-    "color": "#f39c12",
-    "size": 18
-  },
-  "Domain": {
-    "label": "领域",
-    "color": "#9b59b6",
-    "size": 18
-  },
-  "Unit": {
-    "label": "单元",
-    "color": "#3498db",
-    "size": 16
-  },
-  "KeyPoint": {
-    "label": "知识点",
-    "color": "#2ecc71",
-    "size": 14
-  },
-  "ThemeL1": {
-    "label": "一级主题",
-    "color": "#e67e22",
-    "size": 22
-  },
-  "ThemeL2": {
-    "label": "二级主题",
-    "color": "#f39c12",
-    "size": 18
-  },
-  "ThemeL3": {
-    "label": "三级主题",
-    "color": "#f1c40f",
-    "size": 16
-  },
-  "Experiments": {
-    "label": "实验",
-    "color": "#3498db",
-    "size": 14
-  },
-  "Experiment": {
-    "label": "实验",
-    "color": "#3498db",
-    "size": 14
-  },
-  "ExampleProblem": {
-    "label": "示例问题",
-    "color": "#9b59b6",
-    "size": 14
-  },
-  "Example": {
-    "label": "示例",
-    "color": "#9b59b6",
-    "size": 14
-  },
-  "ActivitySuggestion": {
-    "label": "活动建议",
-    "color": "#e74c3c",
-    "size": 14
-  },
-  "LearningTheme": {
-    "label": "学习主题",
-    "color": "#e67e22",
-    "size": 20
-  },
-  "Conception": {
-    "label": "概念",
-    "color": "#3498db",
-    "size": 16
-  },
-  "CoreKnowledge": {
-    "label": "核心知识",
-    "color": "#2ecc71",
-    "size": 16
-  },
-  "Method": {
-    "label": "方法",
-    "color": "#f39c12",
-    "size": 14
-  },
-  "Attitude": {
-    "label": "态度",
-    "color": "#1abc9c",
-    "size": 14
-  },
-  "Interdisciplinary": {
-    "label": "跨学科",
-    "color": "#e74c3c",
-    "size": 14
-  },
-  "LearningThemeL1": {
-    "label": "一级学习主题",
-    "color": "#e67e22",
-    "size": 22
-  },
-  "LearningThemeL2": {
-    "label": "二级学习主题",
-    "color": "#f39c12",
-    "size": 18
-  },
-  "LearningThemeL3": {
-    "label": "三级学习主题",
-    "color": "#f1c40f",
-    "size": 16
-  },
-  "CourseMoudle": {
-    "label": "课程模块",
-    "color": "#e74c3c",
-    "size": 24
-  },
-  "CourseSeries": {
-    "label": "课程系列",
-    "color": "#9b59b6",
-    "size": 20
-  },
-  "CourseType": {
-    "label": "课程类型",
-    "color": "#8e44ad",
-    "size": 22
-  },
-  "Module": {
-    "label": "模块",
-    "color": "#27ae60",
-    "size": 18
-  },
-  "SubConception": {
-    "label": "子概念",
-    "color": "#5dade2",
-    "size": 14
-  },
-  "Chapter": {
-    "label": "章",
-    "color": "#ff7675",
-    "size": 16
-  },
-  "Section": {
-    "label": "节",
-    "color": "#74b9ff",
-    "size": 14
-  },
-  "SubSection": {
-    "label": "小节",
-    "color": "#a29bfe",
-    "size": 12
-  }
-};
-        const graphData = {"nodes": [], "links": [], "entityTypes": [], "relationTypes": []};
+        const ENTITY_TYPE_CONFIG = {entity_type_config_js};
+        const graphData = {graph_data_js};
         
         // ========== 状态管理 ==========
         const state = {

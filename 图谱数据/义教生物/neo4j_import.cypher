@@ -1,15 +1,15 @@
 // =====================================================
 // 义教生物课标图谱 - Neo4j导入脚本
-// 生成时间: 2026-01-16T14:45:30.763910
+// 生成时间: 2026-01-18T17:41:24.639223
 // =====================================================
 
 // 创建约束和索引
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:AcademicQuality) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:Conception) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:SubConception) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:LearningTheme) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:CoreLiteracy) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:CourseTarget) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:LearningTheme) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:SubConception) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:AcademicQuality) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Conception) REQUIRE n.identifier IS UNIQUE;
 
 // =====================================================
 // 导入实体

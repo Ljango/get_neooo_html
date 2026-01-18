@@ -10,8 +10,7 @@ import argparse
 import os
 from pathlib import Path
 
-PROJECT_ROOT = Path(__file__).parent.parent
-STATIC_ROOT = PROJECT_ROOT / "static"
+from config import PROJECT_ROOT, STATIC_ROOT, DEFAULT_PORT, DEFAULT_HOST
 
 
 class CustomHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
@@ -30,15 +29,19 @@ class CustomHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
         print(f"[{self.log_date_time_string()}] {format % args}")
 
 
-def start_server(port=8888, host='0.0.0.0', directory=None):
+def start_server(port=None, host=None, directory=None):
     """
     启动HTTP服务器
     
     Args:
-        port: 端口号，默认8888
-        host: 监听地址，默认0.0.0.0（允许外部访问）
+        port: 端口号，默认从config读取
+        host: 监听地址，默认从config读取
         directory: 服务目录，默认static目录
     """
+    if port is None:
+        port = DEFAULT_PORT
+    if host is None:
+        host = DEFAULT_HOST
     if directory is None:
         directory = STATIC_ROOT
     
@@ -66,10 +69,10 @@ def start_server(port=8888, host='0.0.0.0', directory=None):
 
 def main():
     parser = argparse.ArgumentParser(description='启动知识图谱可视化服务器')
-    parser.add_argument('-p', '--port', type=int, default=8888,
-                       help='端口号 (默认: 8888)')
-    parser.add_argument('-H', '--host', type=str, default='0.0.0.0',
-                       help='监听地址 (默认: 0.0.0.0，允许外部访问)')
+    parser.add_argument('-p', '--port', type=int, default=DEFAULT_PORT,
+                       help=f'端口号 (默认: {DEFAULT_PORT})')
+    parser.add_argument('-H', '--host', type=str, default=DEFAULT_HOST,
+                       help=f'监听地址 (默认: {DEFAULT_HOST}，允许外部访问)')
     parser.add_argument('-d', '--directory', type=str, default=None,
                        help='服务目录 (默认: static目录)')
     

@@ -1,19 +1,19 @@
 // =====================================================
 // 义教数学课标图谱 - Neo4j导入脚本
-// 生成时间: 2026-01-17T14:31:22.800583
+// 生成时间: 2026-01-18T17:48:45.582690
 // =====================================================
 
 // 创建约束和索引
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:CourseGoal) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:LearningDomain) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:CoreLiteracyAspect) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:Theme) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:problem) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:Stage) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:CoreLiteracyPerformance) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:LearningDomain) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:problem) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Knowledge_Point) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:CoreLiteracyAspect) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:CourseGoal) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:Chapter) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:Section) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:Knowledge_Point) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Theme) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:CoreLiteracyPerformance) REQUIRE n.identifier IS UNIQUE;
 
 // =====================================================
 // 导入实体
