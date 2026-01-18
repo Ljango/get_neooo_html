@@ -24,7 +24,7 @@ if lsof -Pi :$PORT -sTCP:LISTEN -t >/dev/null 2>&1 ; then
     exit 1
 fi
 
-# 启动服务器
+# 启动服务器（使用统一管理工具）
 echo "🚀 启动服务器..."
 echo "📁 目录: $SCRIPT_DIR/static"
 echo "🌍 端口: $PORT"
@@ -33,4 +33,4 @@ echo ""
 echo "按 Ctrl+C 停止服务器"
 echo "=========================================="
 
-python3 src/start_server.py -p $PORT
+python3 manage.py serve --host 0.0.0.0 --port $PORT

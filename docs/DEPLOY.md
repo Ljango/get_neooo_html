@@ -10,11 +10,11 @@
 # 进入项目目录
 cd /path/to/get_neooo_html
 
-# 使用自定义启动脚本（推荐）
-python3 src/start_server.py -p 8888
+# 使用统一管理工具（推荐）
+python3 manage.py serve --host 0.0.0.0 --port 8888
 
-# 或使用Python内置服务器
-cd static && python3 -m http.server 8888 --bind 0.0.0.0
+# 或使用快速部署脚本
+./deploy.sh 8888
 ```
 
 ### 2. 配置防火墙
@@ -33,20 +33,20 @@ sudo firewall-cmd --permanent --add-port=8888/tcp
 sudo firewall-cmd --reload
 ```
 
-**云服务器（阿里云/腾讯云/ AWS等）:**
+**云服务器（阿里云/腾讯云/AWS等）:**
 - 在控制台的安全组中添加入站规则，开放8888端口
 
 ### 3. 后台运行（使用nohup）
 
 ```bash
 # 后台运行并保存日志
-nohup python3 src/start_server.py -p 8888 > server.log 2>&1 &
+nohup python3 manage.py serve --host 0.0.0.0 --port 8888 > server.log 2>&1 &
 
 # 查看进程
-ps aux | grep start_server
+ps aux | grep manage.py
 
 # 停止服务
-pkill -f start_server.py
+pkill -f "manage.py serve"
 ```
 
 ### 4. 使用systemd（推荐生产环境）
@@ -62,7 +62,7 @@ After=network.target
 Type=simple
 User=your_username
 WorkingDirectory=/path/to/get_neooo_html
-ExecStart=/usr/bin/python3 /path/to/get_neooo_html/src/start_server.py -p 8888
+ExecStart=/usr/bin/python3 /path/to/get_neooo_html/manage.py serve --host 0.0.0.0 --port 8888
 Restart=always
 RestartSec=10
 
@@ -204,7 +204,7 @@ COPY . .
 
 EXPOSE 8888
 
-CMD ["python3", "src/start_server.py", "-p", "8888"]
+CMD ["python3", "manage.py", "serve", "--host", "0.0.0.0", "--port", "8888"]
 ```
 
 ### 2. 构建和运行
@@ -235,6 +235,7 @@ services:
       - "8888:8888"
     volumes:
       - ./static:/app/static
+      - ./图谱数据:/app/图谱数据
     restart: unless-stopped
 ```
 
@@ -287,7 +288,7 @@ gzip_types text/html text/css application/javascript application/json;
 
 1. 检查防火墙是否开放端口
 2. 检查服务器安全组规则
-3. 检查服务是否运行: `ps aux | grep python`
+3. 检查服务是否运行: `ps aux | grep manage.py`
 4. 检查端口是否被占用: `netstat -tulpn | grep 8888`
 
 ### 查看日志
@@ -308,16 +309,14 @@ sudo journalctl -u knowledge-graph -f
 
 ## 快速启动脚本
 
-创建 `deploy.sh`:
+项目已包含 `deploy.sh` 快速部署脚本：
 
-```bash
-#!/bin/bash
-cd "$(dirname "$0")"
-python3 src/start_server.py -p 8888
-```
-
-使用：
 ```bash
 chmod +x deploy.sh
-./deploy.sh
+./deploy.sh 8888
 ```
+
+该脚本会：
+1. 检查Python环境
+2. 检查端口占用
+3. 启动服务器（使用 `manage.py serve`）

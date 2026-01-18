@@ -76,35 +76,40 @@ ENTITY_TYPE_CONFIG = {
 }
 
 # ========== 学科配置 ==========
+# neo4j_label: 导入Neo4j时的学科分类标签（用于区分不同学科的数据）
 SUBJECT_CONFIG = {
     # 高中学科
     "高中数学": {
         "icon": "📐",
         "display_name": "高中数学",
         "data_dir": "高中数学-with-books",
-        "files": ["高中数学_课标.html", "高中数学_人教B版.html", "高中数学_人教B版_v2.html"],
-        "color": "#2ecc71"
+        "files": ["高中数学_课标.html", "高中数学_人教B版_v2.html"],
+        "color": "#2ecc71",
+        "neo4j_label": "GaoZhongShuXue"  # 高中数学
     },
     "高中物理": {
         "icon": "⚛️",
         "display_name": "高中物理",
         "data_dir": "高中物理-with-books",
         "files": ["高中物理_课标.html"],
-        "color": "#3498db"
+        "color": "#3498db",
+        "neo4j_label": "GaoZhongWuLi"  # 高中物理
     },
     "高中化学": {
         "icon": "⚗️",
         "display_name": "高中化学",
         "data_dir": "高中化学_with-books",
         "files": ["高中化学_课标.html"],
-        "color": "#8e44ad"
+        "color": "#8e44ad",
+        "neo4j_label": "GaoZhongHuaXue"  # 高中化学
     },
     "高中生物": {
         "icon": "🧬",
         "display_name": "高中生物",
         "data_dir": "高中生物",
         "files": ["高中生物_课标.html"],
-        "color": "#27ae60"
+        "color": "#27ae60",
+        "neo4j_label": "GaoZhongShengWu"  # 高中生物
     },
     # 义教学科
     "义教数学": {
@@ -112,35 +117,40 @@ SUBJECT_CONFIG = {
         "display_name": "义教数学",
         "data_dir": "义教数学_1231",
         "files": ["义教数学_课标.html"],
-        "color": "#f39c12"
+        "color": "#f39c12",
+        "neo4j_label": "YiJiaoShuXue"  # 义教数学
     },
     "义教物理": {
         "icon": "⚡",
         "display_name": "义教物理",
         "data_dir": "义务物理-with-books",
         "files": ["义教物理_课标.html", "义教物理_89全一册.html"],
-        "color": "#e74c3c"
+        "color": "#e74c3c",
+        "neo4j_label": "YiJiaoWuLi"  # 义教物理
     },
     "义教化学": {
         "icon": "🧪",
         "display_name": "义教化学",
         "data_dir": "义教化学-with-books",
         "files": ["义教化学_课标.html"],
-        "color": "#9b59b6"
+        "color": "#9b59b6",
+        "neo4j_label": "YiJiaoHuaXue"  # 义教化学
     },
     "义教地理": {
         "icon": "🌍",
         "display_name": "义教地理",
         "data_dir": "义教地理",
         "files": ["义教地理_课标.html"],
-        "color": "#1abc9c"
+        "color": "#1abc9c",
+        "neo4j_label": "YiJiaoDiLi"  # 义教地理
     },
     "义教生物": {
         "icon": "🌱",
         "display_name": "义教生物",
         "data_dir": "义教生物",
         "files": ["义教生物_课标.html"],
-        "color": "#16a085"
+        "color": "#16a085",
+        "neo4j_label": "YiJiaoShengWu"  # 义教生物
     }
 }
 
