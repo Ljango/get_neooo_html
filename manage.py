@@ -128,6 +128,96 @@ def import_all_to_neo4j(env_file: str = '.env', clear_first: bool = False):
         print(f"❌ 导入失败: {e}")
 
 
+def sync_subject(subject_name: str):
+    """同步指定学科：生成HTML + 更新索引（一步到位）"""
+    print("="*60)
+    print(f"🔄 开始同步学科: {subject_name}")
+    print("="*60)
+    
+    # 步骤1: 检查配置
+    if subject_name not in SUBJECT_CONFIG:
+        print(f"❌ 未找到学科配置: {subject_name}")
+        print(f"\n💡 提示: 请先在 src/config.py 的 SUBJECT_CONFIG 中添加该学科配置")
+        print(f"可用学科: {', '.join(SUBJECT_CONFIG.keys())}")
+        return False
+    
+    config = SUBJECT_CONFIG[subject_name]
+    data_dir_name = config.get("data_dir")
+    
+    if not data_dir_name:
+        print(f"❌ 学科 {subject_name} 未配置数据目录")
+        return False
+    
+    # 步骤2: 检查数据目录
+    data_dir_path = DATA_ROOT / data_dir_name
+    if not data_dir_path.exists():
+        print(f"❌ 数据目录不存在: {data_dir_path}")
+        return False
+    
+    print(f"\n📁 数据目录: {data_dir_path}")
+    
+    # 步骤3: 自动修复关系文件命名（- 转 _）
+    relations_dir = data_dir_path / "relations"
+    if relations_dir.exists():
+        renamed_count = 0
+        for rel_file in relations_dir.glob("*.json"):
+            if '-' in rel_file.stem and rel_file.stem.count('_') < rel_file.stem.count('-'):
+                new_name = rel_file.name.replace('-', '_')
+                new_path = rel_file.parent / new_name
+                if not new_path.exists():
+                    rel_file.rename(new_path)
+                    renamed_count += 1
+        
+        if renamed_count > 0:
+            print(f"🔧 已自动修复 {renamed_count} 个关系文件命名")
+    
+    # 步骤4: 生成HTML图谱
+    print(f"\n📊 正在生成HTML图谱...")
+    try:
+        generate_subject(subject_name)
+    except Exception as e:
+        print(f"❌ HTML生成失败: {e}")
+        return False
+    
+    # 步骤5: 更新index.html
+    print(f"\n🔄 正在更新导航页面...")
+    try:
+        update_index_main()
+    except Exception as e:
+        print(f"❌ 索引更新失败: {e}")
+        return False
+    
+    print("\n" + "="*60)
+    print(f"✅ {subject_name} 同步完成!")
+    print("="*60)
+    print(f"\n💡 接下来可以:")
+    print(f"   1. 运行服务器: python3 manage.py serve")
+    print(f"   2. 导入Neo4j: python3 manage.py import --subject {subject_name}")
+    
+    return True
+
+
+def sync_all():
+    """同步所有已配置的学科（一步到位）"""
+    print("="*60)
+    print("🔄 开始同步所有学科")
+    print("="*60)
+    
+    success_count = 0
+    fail_count = 0
+    
+    for subject_name in SUBJECT_CONFIG.keys():
+        print(f"\n{'='*60}")
+        if sync_subject(subject_name):
+            success_count += 1
+        else:
+            fail_count += 1
+    
+    print("\n" + "="*60)
+    print(f"📊 同步完成: ✅ 成功 {success_count} 个, ❌ 失败 {fail_count} 个")
+    print("="*60)
+
+
 def main():
     parser = argparse.ArgumentParser(
         description='知识图谱管理工具',

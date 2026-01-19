@@ -1,0 +1,112 @@
+{
+  "relations": [
+    {
+      "relationName": "ChapterCoversLearningThemeL2",
+      "label": "章节涵盖二级主题 / coversLearningThemeL2",
+      "source": "urn:jy:geography:SB0308:OB03:Chapter:03",
+      "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:12"
+    },
+    {
+      "relationName": "LearningThemeL2CoveredByChapter",
+      "label": "二级主题被章节涵盖 / coveredByChapter",
+      "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:12",
+      "target": "urn:jy:geography:SB0308:OB03:Chapter:03"
+    },
+    {
+      "relationName": "ChapterCoversLearningThemeL2",
+      "label": "章节涵盖二级主题 / coversLearningThemeL2",
+      "source": "urn:jy:geography:SB0308:OB03:Chapter:07",
+      "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:06"
+    },
+    {
+      "relationName": "LearningThemeL2CoveredByChapter",
+      "label": "二级主题被章节涵盖 / coveredByChapter",
+      "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:06",
+      "target": "urn:jy:geography:SB0308:OB03:Chapter:07"
+    },
+    {
+      "relationName": "ChapterCoversLearningThemeL2",
+      "label": "章节涵盖二级主题 / coversLearningThemeL2",
+      "source": "urn:jy:geography:SB0308:OB03:Chapter:08",
+      "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:06"
+    },
+    {
+      "relationName": "LearningThemeL2CoveredByChapter",
+      "label": "二级主题被章节涵盖 / coveredByChapter",
+      "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:06",
+      "target": "urn:jy:geography:SB0308:OB03:Chapter:08"
+    },
+    {
+      "relationName": "ChapterCoversLearningThemeL2",
+      "label": "章节涵盖二级主题 / coversLearningThemeL2",
+      "source": "urn:jy:geography:SB0308:OB03:Chapter:13",
+      "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:08"
+    },
+    {
+      "relationName": "LearningThemeL2CoveredByChapter",
+      "label": "二级主题被章节涵盖 / coveredByChapter",
+      "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:08",
+      "target": "urn:jy:geography:SB0308:OB03:Chapter:13"
+    },
+    {
+      "relationName": "ChapterCoversLearningThemeL2",
+      "label": "章节涵盖二级主题 / coversLearningThemeL2",
+      "source": "urn:jy:geography:SB0308:OB03:Chapter:16",
+      "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:10"
+    },
+    {
+      "relationName": "LearningThemeL2CoveredByChapter",
+      "label": "二级主题被章节涵盖 / coveredByChapter",
+      "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:10",
+      "target": "urn:jy:geography:SB0308:OB03:Chapter:16"
+    },
+    {
+      "relationName": "ChapterCoversLearningThemeL2",
+      "label": "章节涵盖二级主题 / coversLearningThemeL2",
+      "source": "urn:jy:geography:SB0308:OB03:Chapter:18",
+      "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:10"
+    },
+    {
+      "relationName": "LearningThemeL2CoveredByChapter",
+      "label": "二级主题被章节涵盖 / coveredByChapter",
+      "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:10",
+      "target": "urn:jy:geography:SB0308:OB03:Chapter:18"
+    },
+    {
+      "relationName": "ChapterCoversLearningThemeL2",
+      "label": "章节涵盖二级主题 / coversLearningThemeL2",
+      "source": "urn:jy:geography:SB0308:OB03:Chapter:21",
+      "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:11"
+    },
+    {
+      "relationName": "LearningThemeL2CoveredByChapter",
+      "label": "二级主题被章节涵盖 / coveredByChapter",
+      "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:11",
+      "target": "urn:jy:geography:SB0308:OB03:Chapter:21"
+    },
+    {
+      "relationName": "ChapterCoversLearningThemeL2",
+      "label": "章节涵盖二级主题 / coversLearningThemeL2",
+      "source": "urn:jy:geography:SB0308:OB03:Chapter:26",
+      "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:10"
+    },
+    {
+      "relationName": "LearningThemeL2CoveredByChapter",
+      "label": "二级主题被章节涵盖 / coveredByChapter",
+      "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:10",
+      "target": "urn:jy:geography:SB0308:OB03:Chapter:26"
+    },
+    {
+      "relationName": "ChapterCoversLearningThemeL2",
+      "label": "章节涵盖二级主题 / coversLearningThemeL2",
+      "source": "urn:jy:geography:SB0308:OB03:Chapter:26",
+      "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:06"
+    },
+    {
+      "relationName": "LearningThemeL2CoveredByChapter",
+      "label": "二级主题被章节涵盖 / coveredByChapter",
+      "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:06",
+      "target": "urn:jy:geography:SB0308:OB03:Chapter:26"
+    }
+  ]
+}

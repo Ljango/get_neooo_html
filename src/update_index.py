@@ -5,6 +5,7 @@
 """
 
 import re
+import json
 from pathlib import Path
 from collections import defaultdict
 
@@ -31,12 +32,31 @@ def get_file_info(html_file: Path):
         desc_match = re.search(r'<meta name="description" content="(.*?)"', content)
         description = desc_match.group(1) if desc_match else "知识图谱可视化"
         
-        # 提取实体和关系数量（从JavaScript数据中）
-        entity_match = re.search(r'"nodes":\s*\[(.*?)\]', content, re.DOTALL)
-        relation_match = re.search(r'"links":\s*\[(.*?)\]', content, re.DOTALL)
+        # 提取实体和关系数量（通过JSON解析graphData）
+        entity_count = 0
+        relation_count = 0
         
-        entity_count = len(entity_match.group(1).split('{')) - 1 if entity_match else 0
-        relation_count = len(relation_match.group(1).split('{')) - 1 if relation_match else 0
+        # 尝试找到 const graphData = {...}; 并解析JSON
+        graph_match = re.search(r'const graphData = ({.*?});', content, re.DOTALL)
+        if graph_match:
+            try:
+                graph_data = json.loads(graph_match.group(1))
+                entity_count = len(graph_data.get('nodes', []))
+                relation_count = len(graph_data.get('links', []))
+            except json.JSONDecodeError:
+                # JSON解析失败，使用备用方法
+                pass
+        
+        # 如果JSON解析失败，尝试备用方法（统计"id":出现次数）
+        if entity_count == 0:
+            # 统计nodes数组中的对象数量（通过统计顶层"id":的出现次数）
+            entity_match = re.search(r'"nodes":\s*\[([^\]]*(?:\{[^\}]*"id"[^\}]*\}[^\]]*)*)\]', content)
+            if entity_match:
+                entity_count = len(re.findall(r'\{"id":', entity_match.group(0)))
+            
+            relation_match = re.search(r'"links":\s*\[([^\]]*(?:\{[^\}]*"source"[^\}]*\}[^\]]*)*)\]', content)
+            if relation_match:
+                relation_count = len(re.findall(r'\{"source":', relation_match.group(0)))
         
         return {
             "title": title,
@@ -106,7 +126,14 @@ def generate_index_html(subject_files, unknown_files):
             "icon": "🌍",
             "highschool": None,  # 高中地理暂未单独列出
             "yijiao": ("义教地理", "#1abc9c"),
+            "chuzhong": ("初中地理", "#16a085"),  # 初中地理
             "color": "#1abc9c"
+        },
+        "政治": {
+            "icon": "🏛️",
+            "highschool": ("高中政治", "#c0392b"),
+            "yijiao": None,
+            "color": "#c0392b"
         }
     }
     
@@ -531,6 +558,12 @@ def generate_index_html(subject_files, unknown_files):
             "icon": "🌍",
             "highschool": None,
             "yijiao": ("义教地理", "#1abc9c"),
+            "chuzhong": ("初中地理", "#16a085"),
+        },
+        "政治": {
+            "icon": "🏛️",
+            "highschool": ("高中政治", "#c0392b"),
+            "yijiao": None,
         }
     }
     
@@ -588,13 +621,75 @@ def generate_index_html(subject_files, unknown_files):
             </div>"""
         return html
     
+    def generate_subject_column_merged(subject_key1, subject_key2, subject_name, color, icon, all_files):
+        """生成合并的学科列（用于同时显示义教和初中）"""
+        config1 = SUBJECT_CONFIG.get(subject_key1, {})
+        config2 = SUBJECT_CONFIG.get(subject_key2, {})
+        display_name = subject_name
+        
+        html = f"""
+            <div class="subject-column">
+                <div class="subject-column-header">
+                    <span class="icon">{icon}</span>
+                    <h3>{display_name}</h3>
+                    <span class="count">{len(all_files)} 个</span>
+                </div>
+                <div class="graph-grid">"""
+        
+        for html_file in all_files:
+            info = get_file_info(html_file)
+            
+            # 确定类型和颜色
+            if subject_key1 in html_file.name:
+                file_color = config1.get('color', color)
+            elif subject_key2 in html_file.name:
+                file_color = config2.get('color', color)
+            else:
+                file_color = color
+            
+            # 确定类型
+            if "人教" in html_file.name or "教材" in html_file.name:
+                badge_type = "mixed"
+                badge_label = "课标+教材"
+            elif "课标" in html_file.name:
+                badge_type = "curriculum"
+                badge_label = "课程标准"
+            else:
+                badge_type = "curriculum"
+                badge_label = "图谱"
+            
+            # 生成标题
+            title = info["title"].replace("知识图谱", "").replace("图谱", "").strip()
+            if not title:
+                title = html_file.stem.replace("_", " · ")
+            
+            html += f"""
+                    <a href="{html_file.name}" class="graph-card" style="--accent-color: {file_color}">
+                        <span class="type-badge {badge_type}">{badge_label}</span>
+                        <h3>{title}</h3>
+                        <p class="description">{info['description']}</p>
+                        <div class="stats">
+                            <span class="stat-item">📊 {info['entity_count']}个实体</span>
+                            <span class="stat-item">🔗 {info['relation_count']}条关系</span>
+                        </div>
+                        <span class="arrow">→</span>
+                    </a>"""
+        
+        html += """
+                </div>
+            </div>"""
+        return html
+    
     # 按学科分组生成
     for subject_name, grouping in SUBJECT_GROUPING.items():
         hs_key, hs_color = grouping["highschool"] if grouping["highschool"] else (None, None)
         yj_key, yj_color = grouping["yijiao"] if grouping["yijiao"] else (None, None)
+        cz_key, cz_color = grouping.get("chuzhong", (None, None)) if isinstance(grouping.get("chuzhong"), tuple) else (None, None)
         
-        # 如果高中和义教都有，或者只有一个，才显示这个学科组
-        if (hs_key and hs_key in subject_files) or (yj_key and yj_key in subject_files):
+        # 如果高中、义教或初中有数据，才显示这个学科组
+        has_data = (hs_key and hs_key in subject_files) or (yj_key and yj_key in subject_files) or (cz_key and cz_key in subject_files)
+        
+        if has_data:
             html_parts.append(f"""
         <!-- {subject_name}学科 -->
         <section class="subject-section" data-subject="{subject_name}">
@@ -610,9 +705,23 @@ def generate_index_html(subject_files, unknown_files):
             else:
                 html_parts.append('<div class="subject-column"></div>')
             
-            # 义教列
+            # 义教/初中列
+            # 对于地理学科，如果同时有义教和初中，合并显示在义教列中
+            # 对于其他学科，优先显示义教，如果没有则显示初中
             if yj_key and yj_key in subject_files:
-                html_parts.append(generate_subject_column(yj_key, f"义教{subject_name}", yj_color, grouping['icon']))
+                # 如果同时有初中地理，合并显示
+                if subject_name == "地理" and cz_key and cz_key in subject_files:
+                    # 合并显示义教和初中地理
+                    yj_files = subject_files[yj_key]
+                    cz_files = subject_files[cz_key]
+                    all_files = yj_files + cz_files
+                    html_parts.append(generate_subject_column_merged(
+                        yj_key, cz_key, "义教/初中地理", yj_color, grouping['icon'], all_files
+                    ))
+                else:
+                    html_parts.append(generate_subject_column(yj_key, f"义教{subject_name}", yj_color, grouping['icon']))
+            elif cz_key and cz_key in subject_files:
+                html_parts.append(generate_subject_column(cz_key, f"初中{subject_name}", cz_color, grouping['icon']))
             else:
                 html_parts.append('<div class="subject-column"></div>')
             

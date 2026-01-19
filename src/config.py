@@ -19,6 +19,7 @@ ENTITY_TYPE_CONFIG = {
     # 通用实体类型
     "CourseModule": {"label": "课程模块", "color": "#e74c3c", "size": 24},
     "CourseTarget": {"label": "课程目标", "color": "#16a085", "size": 16},
+    "CourseStructure": {"label": "课程结构", "color": "#e67e22", "size": 22},
     "AcademicQuality": {"label": "学业质量", "color": "#1abc9c", "size": 14},
     "CoreLiteracy": {"label": "核心素养", "color": "#16a085", "size": 14},
     
@@ -111,6 +112,14 @@ SUBJECT_CONFIG = {
         "color": "#27ae60",
         "neo4j_label": "GaoZhongShengWu"  # 高中生物
     },
+    "高中政治": {
+        "icon": "🏛️",
+        "display_name": "高中政治",
+        "data_dir": "高中政治",
+        "files": ["高中政治_课标.html"],
+        "color": "#c0392b",
+        "neo4j_label": "GaoZhongZhengZhi"  # 高中政治
+    },
     # 义教学科
     "义教数学": {
         "icon": "📐",
@@ -139,18 +148,34 @@ SUBJECT_CONFIG = {
     "义教地理": {
         "icon": "🌍",
         "display_name": "义教地理",
-        "data_dir": "义教地理",
+        "data_dir": "义教地理-with-books-v2",
         "files": ["义教地理_课标.html"],
         "color": "#1abc9c",
         "neo4j_label": "YiJiaoDiLi"  # 义教地理
     },
+    "初中地理": {
+        "icon": "🗺️",
+        "display_name": "初中地理",
+        "data_dir": "初中地理-with-books",
+        "files": ["初中地理_课标.html"],
+        "color": "#16a085",
+        "neo4j_label": "ChuZhongDiLi"  # 初中地理
+    },
     "义教生物": {
         "icon": "🌱",
         "display_name": "义教生物",
-        "data_dir": "义教生物",
+        "data_dir": "义教生物-with-books-v2",
         "files": ["义教生物_课标.html"],
         "color": "#16a085",
         "neo4j_label": "YiJiaoShengWu"  # 义教生物
+    },
+    "义教道法": {
+        "icon": "⚖️",
+        "display_name": "义教道法",
+        "data_dir": "义教道法",
+        "files": ["义教道法_课标.html"],
+        "color": "#d63031",
+        "neo4j_label": "YiJiaoDaoFa"  # 义教道德与法治
     }
 }
 

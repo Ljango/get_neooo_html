@@ -1,0 +1,724 @@
+{
+    "relations": [
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l1",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l1"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l1",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l2"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l2",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l3"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l2",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l4"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l2",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l5"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l2",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l6"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l3",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l7"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l3",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l8"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l3",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l9"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l3",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l10"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l3",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l11"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l4",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l12"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l4",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l13"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l5",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l14"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l5",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l15"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l6",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l16"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l6",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l17"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l6",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l18"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l6",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l19"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l6",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l20"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l7",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l21"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l7",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l22"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l8",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l23"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l8",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l24"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l8",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l25"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l9",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l26"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l9",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l27"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l9",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l28"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l9",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l29"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l11",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l30"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l11",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l31"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l12",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l32"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l12",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l33"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l12",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l34"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l13",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l35"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l13",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l36"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l14",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l37"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l14",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l38"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l14",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l39"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l15",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l40"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l15",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l41"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l15",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l42"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l15",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l43"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l15",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l44"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l15",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l45"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l15",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l46"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l15",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l47"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l15",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l48"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l15",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l49"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l18",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l50"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l18",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l51"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l18",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l52"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l18",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l53"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l18",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l54"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l18",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l55"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l19",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l56"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l19",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l57"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l20",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l58"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l20",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l59"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l20",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l60"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l20",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l61"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l20",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l62"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l20",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l63"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l20",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l64"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l21",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l65"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l21",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l66"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l22",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l67"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l22",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l68"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l22",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l69"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l25",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l70"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l25",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l71"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l25",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l72"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l25",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l73"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l25",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l74"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l25",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l75"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l25",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l76"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l26",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l77"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l26",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l78"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l26",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l79"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l26",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l80"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l26",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l81"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l26",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l82"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l26",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l83"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l27",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l84"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l27",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l85"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l27",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l86"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l27",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l87"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l27",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l88"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l28",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l89"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l28",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l90"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l28",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l91"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l29",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l92"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l29",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l93"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l29",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l94"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l30",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l95"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l30",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l96"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l30",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l97"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l30",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l98"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l31",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l99"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l32",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l100"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l32",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l101"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l33",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l102"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l33",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l103"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l33",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l104"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l33",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l105"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l34",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l106"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l34",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l107"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l34",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l108"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l34",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l109"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l34",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l110"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l35",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l111"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l35",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l112"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l35",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l113"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l36",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l114"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l37",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l115"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l37",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l116"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l37",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l117"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l38",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l118"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l39",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l119"
+        },
+        {
+            "relationName": "chapter_contains_section",
+            "label": "包含",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l39",
+            "target": "urn:jy:biology:SB0403:OB03:Section:l120"
+        }
+    ]
+}

@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>知识图谱 · 导航中心</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #0c0c1e 0%, #1a1a2e 50%, #16213e 100%);
+            color: #e0e0e0;
+            overflow-x: hidden;
+        }
+        
+        /* 背景装饰 */
+        .bg-decoration {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: -1;
+        }
+        
+        .bg-circle {
+            position: absolute;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(52, 152, 219, 0.1) 0%, transparent 70%);
+        }
+        
+        .bg-circle:nth-child(1) {
+            width: 600px;
+            height: 600px;
+            top: -200px;
+            right: -100px;
+        }
+        
+        .bg-circle:nth-child(2) {
+            width: 400px;
+            height: 400px;
+            bottom: -100px;
+            left: -100px;
+            background: radial-gradient(circle, rgba(46, 204, 113, 0.1) 0%, transparent 70%);
+        }
+        
+        .bg-circle:nth-child(3) {
+            width: 300px;
+            height: 300px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: radial-gradient(circle, rgba(155, 89, 182, 0.08) 0%, transparent 70%);
+        }
+        
+        /* 头部 */
+        header {
+            padding: 60px 40px 40px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            background: linear-gradient(135deg, #fff 0%, #3498db 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        header p {
+            font-size: 1.1rem;
+            color: #888;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        
+        /* 主内容 */
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 40px 60px;
+        }
+        
+        /* 学科分类 */
+        .subject-section {
+            margin-bottom: 48px;
+        }
+        
+        .subject-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 24px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        /* 学科分组布局 - 高中和义教并排 */
+        .subject-group {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+            margin-bottom: 48px;
+        }
+        
+        @media (max-width: 768px) {
+            .subject-group {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .subject-column {
+            background: rgba(255, 255, 255, 0.02);
+            border-radius: 12px;
+            padding: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        
+        .subject-column-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 16px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .subject-column-header .icon {
+            font-size: 1.2rem;
+        }
+        
+        .subject-column-header h3 {
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: #fff;
+        }
+        
+        .subject-column-header .count {
+            margin-left: auto;
+            font-size: 0.75rem;
+            color: #666;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 2px 8px;
+            border-radius: 8px;
+        }
+        
+        .subject-header .icon {
+            font-size: 1.5rem;
+        }
+        
+        .subject-header h2 {
+            font-size: 1.4rem;
+            font-weight: 500;
+            color: #fff;
+        }
+        
+        .subject-header .count {
+            margin-left: auto;
+            font-size: 0.85rem;
+            color: #666;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 4px 12px;
+            border-radius: 12px;
+        }
+        
+        /* 图谱卡片网格 */
+        .graph-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        
+        .graph-card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 16px;
+            padding: 24px;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .graph-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-color, #3498db), transparent);
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        
+        .graph-card:hover {
+            background: rgba(255, 255, 255, 0.06);
+            border-color: rgba(255, 255, 255, 0.15);
+            transform: translateY(-4px);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+        }
+        
+        .graph-card:hover::before {
+            opacity: 1;
+        }
+        
+        .graph-card .type-badge {
+            display: inline-block;
+            font-size: 0.7rem;
+            padding: 4px 10px;
+            border-radius: 12px;
+            margin-bottom: 12px;
+            font-weight: 500;
+        }
+        
+        .graph-card .type-badge.curriculum {
+            background: rgba(46, 204, 113, 0.2);
+            color: #2ecc71;
+        }
+        
+        .graph-card .type-badge.textbook {
+            background: rgba(52, 152, 219, 0.2);
+            color: #3498db;
+        }
+        
+        .graph-card .type-badge.mixed {
+            background: rgba(155, 89, 182, 0.2);
+            color: #9b59b6;
+        }
+        
+        .graph-card h3 {
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin-bottom: 8px;
+            color: #fff;
+        }
+        
+        .graph-card .description {
+            font-size: 0.85rem;
+            color: #888;
+            line-height: 1.5;
+            margin-bottom: 16px;
+        }
+        
+        .graph-card .stats {
+            display: flex;
+            gap: 16px;
+            font-size: 0.8rem;
+            color: #666;
+        }
+        
+        .graph-card .stat-item {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        
+        .graph-card .arrow {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            font-size: 1.2rem;
+            color: #444;
+            transition: all 0.3s;
+        }
+        
+        .graph-card:hover .arrow {
+            color: #3498db;
+            transform: translateX(4px);
+        }
+        
+        /* 添加新图谱卡片 */
+        .add-card {
+            background: transparent;
+            border: 2px dashed rgba(255, 255, 255, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 180px;
+            cursor: pointer;
+        }
+        
+        .add-card:hover {
+            border-color: rgba(52, 152, 219, 0.4);
+            background: rgba(52, 152, 219, 0.05);
+        }
+        
+        .add-card .plus {
+            font-size: 2rem;
+            color: #444;
+            margin-bottom: 8px;
+            transition: color 0.3s;
+        }
+        
+        .add-card:hover .plus {
+            color: #3498db;
+        }
+        
+        .add-card span {
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        /* 底部 */
+        footer {
+            text-align: center;
+            padding: 40px;
+            color: #555;
+            font-size: 0.85rem;
+        }
+        
+        footer a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+        
+        /* 搜索栏 */
+        .search-bar {
+            max-width: 500px;
+            margin: 32px auto;
+            position: relative;
+        }
+        
+        .search-bar input {
+            width: 100%;
+            padding: 14px 20px 14px 48px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            color: #fff;
+            font-size: 1rem;
+            transition: all 0.3s;
+        }
+        
+        .search-bar input:focus {
+            outline: none;
+            border-color: #3498db;
+            background: rgba(255, 255, 255, 0.08);
+        }
+        
+        .search-bar input::placeholder {
+            color: #555;
+        }
+        
+        .search-bar .search-icon {
+            position: absolute;
+            left: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #555;
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- 背景装饰 -->
+    <div class="bg-decoration">
+        <div class="bg-circle"></div>
+        <div class="bg-circle"></div>
+        <div class="bg-circle"></div>
+    </div>
+    
+    <header>
+        <h1>📚 知识图谱导航中心</h1>
+        <p>探索课程标准与教材的知识关联，通过可视化图谱理解知识结构</p>
+        
+        <div class="search-bar">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="search-input" placeholder="搜索图谱...">
+        </div>
+    </header>
+    
+    <main>
+
+        <!-- 数学学科 -->
+        <section class="subject-section" data-subject="数学">
+            <div class="subject-header">
+                <span class="icon">📐</span>
+                <h2>数学</h2>
+            </div>
+            <div class="subject-group">
+
+            <div class="subject-column">
+                <div class="subject-column-header">
+                    <span class="icon">📐</span>
+                    <h3>高中数学</h3>
+                    <span class="count">2 个</span>
+                </div>
+                <div class="graph-grid">
+                    <a href="高中数学_课标.html" class="graph-card" style="--accent-color: #2ecc71">
+                        <span class="type-badge curriculum">课程标准</span>
+                        <h3>高中数学课标</h3>
+                        <p class="description">知识图谱可视化</p>
+                        <div class="stats">
+                            <span class="stat-item">📊 159个实体</span>
+                            <span class="stat-item">🔗 2039条关系</span>
+                        </div>
+                        <span class="arrow">→</span>
+                    </a>
+                    <a href="高中数学_人教B版_v2.html" class="graph-card" style="--accent-color: #2ecc71">
+                        <span class="type-badge mixed">课标+教材</span>
+                        <h3>高中数学 · 人教B版（v2）</h3>
+                        <p class="description">知识图谱可视化</p>
+                        <div class="stats">
+                            <span class="stat-item">📊 159个实体</span>
+                            <span class="stat-item">🔗 2743条关系</span>
+                        </div>
+                        <span class="arrow">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="subject-column">
+                <div class="subject-column-header">
+                    <span class="icon">📐</span>
+                    <h3>义教数学</h3>
+                    <span class="count">1 个</span>
+                </div>
+                <div class="graph-grid">
+                    <a href="义教数学_课标.html" class="graph-card" style="--accent-color: #f39c12">
+                        <span class="type-badge curriculum">课程标准</span>
+                        <h3>义教数学课标</h3>
+                        <p class="description">知识图谱可视化</p>
+                        <div class="stats">
+                            <span class="stat-item">📊 51个实体</span>
+                            <span class="stat-item">🔗 3561条关系</span>
+                        </div>
+                        <span class="arrow">→</span>
+                    </a>
+                </div>
+            </div>
+
+            </div>
+        </section>
+
+        <!-- 物理学科 -->
+        <section class="subject-section" data-subject="物理">
+            <div class="subject-header">
+                <span class="icon">⚡</span>
+                <h2>物理</h2>
+            </div>
+            <div class="subject-group">
+
+            <div class="subject-column">
+                <div class="subject-column-header">
+                    <span class="icon">⚡</span>
+                    <h3>高中物理</h3>
+                    <span class="count">1 个</span>
+                </div>
+                <div class="graph-grid">
+                    <a href="高中物理_课标.html" class="graph-card" style="--accent-color: #3498db">
+                        <span class="type-badge curriculum">课程标准</span>
+                        <h3>高中物理课标</h3>
+                        <p class="description">知识图谱可视化</p>
+                        <div class="stats">
+                            <span class="stat-item">📊 1161个实体</span>
+                            <span class="stat-item">🔗 1674条关系</span>
+                        </div>
+                        <span class="arrow">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="subject-column">
+                <div class="subject-column-header">
+                    <span class="icon">⚡</span>
+                    <h3>义教物理</h3>
+                    <span class="count">2 个</span>
+                </div>
+                <div class="graph-grid">
+                    <a href="义教物理_课标.html" class="graph-card" style="--accent-color: #e74c3c">
+                        <span class="type-badge curriculum">课程标准</span>
+                        <h3>义教物理课标</h3>
+                        <p class="description">知识图谱可视化</p>
+                        <div class="stats">
+                            <span class="stat-item">📊 1122个实体</span>
+                            <span class="stat-item">🔗 1128条关系</span>
+                        </div>
+                        <span class="arrow">→</span>
+                    </a>
+                    <a href="义教物理_89全一册.html" class="graph-card" style="--accent-color: #e74c3c">
+                        <span class="type-badge curriculum">图谱</span>
+                        <h3>义教物理课标（8、9全一册）</h3>
+                        <p class="description">知识图谱可视化</p>
+                        <div class="stats">
+                            <span class="stat-item">📊 1122个实体</span>
+                            <span class="stat-item">🔗 1200条关系</span>
+                        </div>
+                        <span class="arrow">→</span>
+                    </a>
+                </div>
+            </div>
+
+            </div>
+        </section>
+
+        <!-- 化学学科 -->
+        <section class="subject-section" data-subject="化学">
+            <div class="subject-header">
+                <span class="icon">⚗️</span>
+                <h2>化学</h2>
+            </div>
+            <div class="subject-group">
+
+            <div class="subject-column">
+                <div class="subject-column-header">
+                    <span class="icon">⚗️</span>
+                    <h3>高中化学</h3>
+                    <span class="count">1 个</span>
+                </div>
+                <div class="graph-grid">
+                    <a href="高中化学_课标.html" class="graph-card" style="--accent-color: #8e44ad">
+                        <span class="type-badge curriculum">课程标准</span>
+                        <h3>高中化学课标</h3>
+                        <p class="description">知识图谱可视化</p>
+                        <div class="stats">
+                            <span class="stat-item">📊 1058个实体</span>
+                            <span class="stat-item">🔗 1840条关系</span>
+                        </div>
+                        <span class="arrow">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="subject-column">
+                <div class="subject-column-header">
+                    <span class="icon">⚗️</span>
+                    <h3>义教化学</h3>
+                    <span class="count">1 个</span>
+                </div>
+                <div class="graph-grid">
+                    <a href="义教化学_课标.html" class="graph-card" style="--accent-color: #f39c12">
+                        <span class="type-badge curriculum">课程标准</span>
+                        <h3>义教化学课标</h3>
+                        <p class="description">知识图谱可视化</p>
+                        <div class="stats">
+                            <span class="stat-item">📊 331个实体</span>
+                            <span class="stat-item">🔗 471条关系</span>
+                        </div>
+                        <span class="arrow">→</span>
+                    </a>
+                </div>
+            </div>
+
+            </div>
+        </section>
+
+        <!-- 生物学科 -->
+        <section class="subject-section" data-subject="生物">
+            <div class="subject-header">
+                <span class="icon">🧬</span>
+                <h2>生物</h2>
+            </div>
+            <div class="subject-group">
+
+            <div class="subject-column">
+                <div class="subject-column-header">
+                    <span class="icon">🧬</span>
+                    <h3>高中生物</h3>
+                    <span class="count">1 个</span>
+                </div>
+                <div class="graph-grid">
+                    <a href="高中生物_课标.html" class="graph-card" style="--accent-color: #27ae60">
+                        <span class="type-badge curriculum">课程标准</span>
+                        <h3>高中生物课标</h3>
+                        <p class="description">知识图谱可视化</p>
+                        <div class="stats">
+                            <span class="stat-item">📊 265个实体</span>
+                            <span class="stat-item">🔗 212条关系</span>
+                        </div>
+                        <span class="arrow">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="subject-column">
+                <div class="subject-column-header">
+                    <span class="icon">🧬</span>
+                    <h3>义教生物</h3>
+                    <span class="count">1 个</span>
+                </div>
+                <div class="graph-grid">
+                    <a href="义教生物_课标.html" class="graph-card" style="--accent-color: #16a085">
+                        <span class="type-badge curriculum">课程标准</span>
+                        <h3>义教生物课标</h3>
+                        <p class="description">知识图谱可视化</p>
+                        <div class="stats">
+                            <span class="stat-item">📊 617个实体</span>
+                            <span class="stat-item">🔗 309条关系</span>
+                        </div>
+                        <span class="arrow">→</span>
+                    </a>
+                </div>
+            </div>
+
+            </div>
+        </section>
+
+        <!-- 地理学科 -->
+        <section class="subject-section" data-subject="地理">
+            <div class="subject-header">
+                <span class="icon">🌍</span>
+                <h2>地理</h2>
+            </div>
+            <div class="subject-group">
+<div class="subject-column"></div>
+
+            <div class="subject-column">
+                <div class="subject-column-header">
+                    <span class="icon">🌍</span>
+                    <h3>义教/初中地理</h3>
+                    <span class="count">2 个</span>
+                </div>
+                <div class="graph-grid">
+                    <a href="义教地理_课标.html" class="graph-card" style="--accent-color: #1abc9c">
+                        <span class="type-badge curriculum">课程标准</span>
+                        <h3>义教地理课标</h3>
+                        <p class="description">知识图谱可视化</p>
+                        <div class="stats">
+                            <span class="stat-item">📊 372个实体</span>
+                            <span class="stat-item">🔗 618条关系</span>
+                        </div>
+                        <span class="arrow">→</span>
+                    </a>
+                    <a href="初中地理_课标.html" class="graph-card" style="--accent-color: #16a085">
+                        <span class="type-badge curriculum">课程标准</span>
+                        <h3>初中地理课标</h3>
+                        <p class="description">知识图谱可视化</p>
+                        <div class="stats">
+                            <span class="stat-item">📊 276个实体</span>
+                            <span class="stat-item">🔗 422条关系</span>
+                        </div>
+                        <span class="arrow">→</span>
+                    </a>
+                </div>
+            </div>
+
+            </div>
+        </section>
+
+        <!-- 政治学科 -->
+        <section class="subject-section" data-subject="政治">
+            <div class="subject-header">
+                <span class="icon">🏛️</span>
+                <h2>政治</h2>
+            </div>
+            <div class="subject-group">
+
+            <div class="subject-column">
+                <div class="subject-column-header">
+                    <span class="icon">🏛️</span>
+                    <h3>高中政治</h3>
+                    <span class="count">1 个</span>
+                </div>
+                <div class="graph-grid">
+                    <a href="高中政治_课标.html" class="graph-card" style="--accent-color: #c0392b">
+                        <span class="type-badge curriculum">课程标准</span>
+                        <h3>高中政治课标</h3>
+                        <p class="description">知识图谱可视化</p>
+                        <div class="stats">
+                            <span class="stat-item">📊 720个实体</span>
+                            <span class="stat-item">🔗 828条关系</span>
+                        </div>
+                        <span class="arrow">→</span>
+                    </a>
+                </div>
+            </div>
+<div class="subject-column"></div>
+
+            </div>
+        </section>
+
+        <!-- 其他 -->
+        <section class="subject-section" data-subject="其他">
+            <div class="subject-header">
+                <span class="icon">📁</span>
+                <h2>其他图谱</h2>
+                <span class="count">1 个图谱</span>
+            </div>
+            <div class="graph-grid">
+
+                <a href="高中数学_人教B版.html" class="graph-card" style="--accent-color: #95a5a6">
+                    <span class="type-badge curriculum">图谱</span>
+                    <h3>高中数学 · 人教B版</h3>
+                    <p class="description">知识图谱可视化</p>
+                    <div class="stats">
+                        <span class="stat-item">📊 0个实体</span>
+                        <span class="stat-item">🔗 0条关系</span>
+                    </div>
+                    <span class="arrow">→</span>
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+    
+    <footer>
+        <p>知识图谱可视化系统 · 基于 D3.js 构建</p>
+        <p style="margin-top: 8px;">
+            <a href="https://github.com" target="_blank">项目文档</a> · 
+            <a href="#" onclick="alert('请配置 .env 文件后运行 src/neo4j_importer.py')">导入Neo4j</a>
+        </p>
+    </footer>
+    
+    <script>
+        // 搜索功能
+        const searchInput = document.getElementById('search-input');
+        const cards = document.querySelectorAll('.graph-card:not(.add-card)');
+        const sections = document.querySelectorAll('.subject-section');
+        
+        searchInput.addEventListener('input', (e) => {
+            const term = e.target.value.toLowerCase();
+            
+            cards.forEach(card => {
+                const title = card.querySelector('h3')?.textContent.toLowerCase() || '';
+                const desc = card.querySelector('.description')?.textContent.toLowerCase() || '';
+                const match = title.includes(term) || desc.includes(term);
+                card.style.display = match ? '' : 'none';
+            });
+            
+            // 隐藏空的分类
+            sections.forEach(section => {
+                const visibleCards = section.querySelectorAll('.graph-card:not(.add-card):not([style*="display: none"])');
+                section.style.display = visibleCards.length > 0 || !term ? '' : 'none';
+            });
+        });
+    </script>
+</body>
+</html>
