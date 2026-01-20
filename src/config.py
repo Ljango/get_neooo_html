@@ -115,10 +115,18 @@ SUBJECT_CONFIG = {
     "高中政治": {
         "icon": "🏛️",
         "display_name": "高中政治",
-        "data_dir": "高中政治",
+        "data_dir": "高中政治-with-books-v2",
         "files": ["高中政治_课标.html"],
         "color": "#c0392b",
         "neo4j_label": "GaoZhongZhengZhi"  # 高中政治
+    },
+    "高中地理": {
+        "icon": "🗺️",
+        "display_name": "高中地理",
+        "data_dir": "高中地理-with-books",
+        "files": ["高中地理_课标.html"],
+        "color": "#3498db",
+        "neo4j_label": "GaoZhongDiLi"  # 高中地理
     },
     # 义教学科
     "义教数学": {
@@ -172,10 +180,26 @@ SUBJECT_CONFIG = {
     "义教道法": {
         "icon": "⚖️",
         "display_name": "义教道法",
-        "data_dir": "义教道法",
+        "data_dir": "义务教育道德与法治",
         "files": ["义教道法_课标.html"],
         "color": "#d63031",
         "neo4j_label": "YiJiaoDaoFa"  # 义教道德与法治
+    },
+    "义教历史": {
+        "icon": "📜",
+        "display_name": "义教历史",
+        "data_dir": "义务教育历史",
+        "files": ["义教历史_课标.html"],
+        "color": "#8e44ad",
+        "neo4j_label": "YiJiaoLiShi"  # 义教历史
+    },
+    "高中历史": {
+        "icon": "🏛️",
+        "display_name": "高中历史",
+        "data_dir": "高中历史",
+        "files": ["高中历史_课标.html"],
+        "color": "#6c5ce7",
+        "neo4j_label": "GaoZhongLiShi"  # 高中历史
     }
 }
 

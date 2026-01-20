@@ -1,0 +1,57 @@
+[
+    {
+      "relationName": "basedOnCoreLiteracy",
+      "label": "学业质量基于核心素养(唯物史观)",
+      "source": "urn:jy:history:SB0307:OB03:AcademicQuality:OB0301",
+      "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:1:OB03",
+      "evidence": {
+        "CoreLiteracy": "唯物史观",
+        "academicquality": "学业质量(7~9年级)",
+        "note": "依据《义务教育历史课程标准》五（二）学业质量描述：能够初步从物质生产活动是人类生存和人类社会发展的基础……运用唯物史观作出合理的解释与简要评价。（唯物史观……）"
+      }
+    },
+    {
+      "relationName": "basedOnCoreLiteracy",
+      "label": "学业质量基于核心素养(时空观念)",
+      "source": "urn:jy:history:SB0307:OB03:AcademicQuality:OB0301",
+      "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:2:OB03",
+      "evidence": {
+        "CoreLiteracy": "时空观念",
+        "academicquality": "学业质量(7~9年级)",
+        "note": "依据《义务教育历史课程标准》五（二）学业质量描述：能够运用记录历史年代的基本方式，掌握识读历史地图的基本方法，将重要历史事件、人物、现象置于正确的时间和空间之中。（时空观念）"
+      }
+    },
+    {
+      "relationName": "basedOnCoreLiteracy",
+      "label": "学业质量基于核心素养(史料实证)",
+      "source": "urn:jy:history:SB0307:OB03:AcademicQuality:OB0301",
+      "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:3:OB03",
+      "evidence": {
+        "CoreLiteracy": "史料实证",
+        "academicquality": "学业质量(7~9年级)",
+        "note": "依据《义务教育历史课程标准》五（二）学业质量描述：能够准确理解教材和教学活动中所提供的可信史料……能够尝试运用这些史料对重要史事进行简要说明……（史料实证……）"
+      }
+    },
+    {
+      "relationName": "basedOnCoreLiteracy",
+      "label": "学业质量基于核心素养(历史解释)",
+      "source": "urn:jy:history:SB0307:OB03:AcademicQuality:OB0301",
+      "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:4:OB03",
+      "evidence": {
+        "CoreLiteracy": "历史解释",
+        "academicquality": "学业质量(7~9年级)",
+        "note": "依据《义务教育历史课程标准》五（二）学业质量描述：能够尝试运用这些史料对重要史事进行简要说明，有理有据地表达自己的看法……（……历史解释……）"
+      }
+    },
+    {
+      "relationName": "basedOnCoreLiteracy",
+      "label": "学业质量基于核心素养(家国情怀)",
+      "source": "urn:jy:history:SB0307:OB03:AcademicQuality:OB0301",
+      "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:5:OB03",
+      "evidence": {
+        "CoreLiteracy": "家国情怀",
+        "academicquality": "学业质量(7~9年级)",
+        "note": "依据《义务教育历史课程标准》五（二）学业质量描述：能够……有理有据地表达自己的看法，表现出正确的价值判断和人文情怀。（……家国情怀）"
+      }
+    }
+]

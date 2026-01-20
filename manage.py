@@ -267,6 +267,12 @@ def main():
     serve_parser.add_argument('-H', '--host', type=str, default='0.0.0.0',
                             help='监听地址 (默认: 0.0.0.0)')
     
+    # 同步命令（一步到位更新）
+    sync_parser = subparsers.add_parser('sync', help='同步学科数据（生成HTML + 更新索引）')
+    sync_group = sync_parser.add_mutually_exclusive_group(required=True)
+    sync_group.add_argument('--all', action='store_true', help='同步所有学科')
+    sync_group.add_argument('--subject', type=str, help='同步指定学科')
+    
     args = parser.parse_args()
     
     if not args.command:
@@ -294,6 +300,12 @@ def main():
     
     elif args.command == 'serve':
         start_server(port=args.port, host=args.host)
+    
+    elif args.command == 'sync':
+        if args.all:
+            sync_all()
+        elif args.subject:
+            sync_subject(args.subject)
 
 
 if __name__ == "__main__":

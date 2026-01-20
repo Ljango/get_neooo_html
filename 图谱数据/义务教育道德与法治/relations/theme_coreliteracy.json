@@ -1,0 +1,736 @@
+{
+  "relations": [
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH01",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL02"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL02",
+      "target": "urn:jy:dwfz:SB0309:theme:TH01"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH01",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL04"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL04",
+      "target": "urn:jy:dwfz:SB0309:theme:TH01"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH01",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL05"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL05",
+      "target": "urn:jy:dwfz:SB0309:theme:TH01"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH02",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL01"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL01",
+      "target": "urn:jy:dwfz:SB0309:theme:TH02"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH02",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL02"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL02",
+      "target": "urn:jy:dwfz:SB0309:theme:TH02"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH02",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL04"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL04",
+      "target": "urn:jy:dwfz:SB0309:theme:TH02"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH02",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL05"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL05",
+      "target": "urn:jy:dwfz:SB0309:theme:TH02"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH03",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL02"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL02",
+      "target": "urn:jy:dwfz:SB0309:theme:TH03"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH03",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL04"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL04",
+      "target": "urn:jy:dwfz:SB0309:theme:TH03"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH03",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL05"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL05",
+      "target": "urn:jy:dwfz:SB0309:theme:TH03"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH04",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL01"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL01",
+      "target": "urn:jy:dwfz:SB0309:theme:TH04"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH04",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL03"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL03",
+      "target": "urn:jy:dwfz:SB0309:theme:TH04"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH04",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL05"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL05",
+      "target": "urn:jy:dwfz:SB0309:theme:TH04"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH05",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL01"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL01",
+      "target": "urn:jy:dwfz:SB0309:theme:TH05"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH05",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL02"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL02",
+      "target": "urn:jy:dwfz:SB0309:theme:TH05"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH05",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL05"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL05",
+      "target": "urn:jy:dwfz:SB0309:theme:TH05"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH06",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL01"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL01",
+      "target": "urn:jy:dwfz:SB0309:theme:TH06"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH06",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL05"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL05",
+      "target": "urn:jy:dwfz:SB0309:theme:TH06"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH07",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL01"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL01",
+      "target": "urn:jy:dwfz:SB0309:theme:TH07"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH07",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL02"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL02",
+      "target": "urn:jy:dwfz:SB0309:theme:TH07"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH07",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL04"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL04",
+      "target": "urn:jy:dwfz:SB0309:theme:TH07"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH08",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL01"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL01",
+      "target": "urn:jy:dwfz:SB0309:theme:TH08"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH08",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL05"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL05",
+      "target": "urn:jy:dwfz:SB0309:theme:TH08"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH09",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL01"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL01",
+      "target": "urn:jy:dwfz:SB0309:theme:TH09"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH09",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL02"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL02",
+      "target": "urn:jy:dwfz:SB0309:theme:TH09"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH09",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL03"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL03",
+      "target": "urn:jy:dwfz:SB0309:theme:TH09"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH09",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL05"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL05",
+      "target": "urn:jy:dwfz:SB0309:theme:TH09"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH10",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL01"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL01",
+      "target": "urn:jy:dwfz:SB0309:theme:TH10"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH10",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL03"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL03",
+      "target": "urn:jy:dwfz:SB0309:theme:TH10"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH10",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL05"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL05",
+      "target": "urn:jy:dwfz:SB0309:theme:TH10"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH11",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL01"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL01",
+      "target": "urn:jy:dwfz:SB0309:theme:TH11"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH11",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL03"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL03",
+      "target": "urn:jy:dwfz:SB0309:theme:TH11"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH11",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL05"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL05",
+      "target": "urn:jy:dwfz:SB0309:theme:TH11"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH12",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL01"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL01",
+      "target": "urn:jy:dwfz:SB0309:theme:TH12"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH12",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL03"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL03",
+      "target": "urn:jy:dwfz:SB0309:theme:TH12"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH12",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL05"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL05",
+      "target": "urn:jy:dwfz:SB0309:theme:TH12"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH13",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL01"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL01",
+      "target": "urn:jy:dwfz:SB0309:theme:TH13"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH13",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL02"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL02",
+      "target": "urn:jy:dwfz:SB0309:theme:TH13"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH13",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL04"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL04",
+      "target": "urn:jy:dwfz:SB0309:theme:TH13"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH13",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL05"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL05",
+      "target": "urn:jy:dwfz:SB0309:theme:TH13"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH14",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL01"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL01",
+      "target": "urn:jy:dwfz:SB0309:theme:TH14"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH14",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL02"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL02",
+      "target": "urn:jy:dwfz:SB0309:theme:TH14"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH14",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL04"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL04",
+      "target": "urn:jy:dwfz:SB0309:theme:TH14"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH14",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL05"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL05",
+      "target": "urn:jy:dwfz:SB0309:theme:TH14"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH15",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL01"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL01",
+      "target": "urn:jy:dwfz:SB0309:theme:TH15"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH15",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL04"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL04",
+      "target": "urn:jy:dwfz:SB0309:theme:TH15"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH15",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL05"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL05",
+      "target": "urn:jy:dwfz:SB0309:theme:TH15"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH16",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL01"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL01",
+      "target": "urn:jy:dwfz:SB0309:theme:TH16"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH16",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL05"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL05",
+      "target": "urn:jy:dwfz:SB0309:theme:TH16"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH17",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL01"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL01",
+      "target": "urn:jy:dwfz:SB0309:theme:TH17"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH17",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL02"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL02",
+      "target": "urn:jy:dwfz:SB0309:theme:TH17"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH17",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL05"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL05",
+      "target": "urn:jy:dwfz:SB0309:theme:TH17"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH18",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL01"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL01",
+      "target": "urn:jy:dwfz:SB0309:theme:TH18"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH18",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL04"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL04",
+      "target": "urn:jy:dwfz:SB0309:theme:TH18"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH18",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL05"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL05",
+      "target": "urn:jy:dwfz:SB0309:theme:TH18"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH19",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL01"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL01",
+      "target": "urn:jy:dwfz:SB0309:theme:TH19"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH19",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL02"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL02",
+      "target": "urn:jy:dwfz:SB0309:theme:TH19"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH19",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL04"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL04",
+      "target": "urn:jy:dwfz:SB0309:theme:TH19"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH19",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL05"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL05",
+      "target": "urn:jy:dwfz:SB0309:theme:TH19"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH20",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL01"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL01",
+      "target": "urn:jy:dwfz:SB0309:theme:TH20"
+    },
+    {
+      "relationName": "themeHasCoreLiteracy",
+      "label": "包含核心素养 / hasCoreLiteracy",
+      "source": "urn:jy:dwfz:SB0309:theme:TH20",
+      "target": "urn:jy:dwfz:SB0309:coreliteracy:CL05"
+    },
+    {
+      "relationName": "coreLiteracyBelongsToTheme",
+      "label": "属于主题 / belongsToTheme",
+      "source": "urn:jy:dwfz:SB0309:coreliteracy:CL05",
+      "target": "urn:jy:dwfz:SB0309:theme:TH20"
+    }
+  ]
+}

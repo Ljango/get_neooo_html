@@ -32,7 +32,15 @@ class GraphGenerator:
         """
         self.subject_path = DATA_ROOT / subject_path
         self.entities_path = self.subject_path / "entities"
-        self.relations_path = self.subject_path / "relations"
+        
+        # 自动检测关系目录（支持 relations 或 relation）
+        if (self.subject_path / "relations").exists():
+            self.relations_path = self.subject_path / "relations"
+        elif (self.subject_path / "relation").exists():
+            self.relations_path = self.subject_path / "relation"
+        else:
+            self.relations_path = self.subject_path / "relations"  # 默认
+            
         self.ENTITY_TYPE_CONFIG = ENTITY_TYPE_CONFIG
         
         # 数据存储

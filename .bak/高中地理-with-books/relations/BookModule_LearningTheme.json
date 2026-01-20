@@ -1,0 +1,1492 @@
+{
+    "relations": [
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:01",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:001"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "运用资料 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:001",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:01"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:01",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:002"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "运用示意图 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:002",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:01"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:01",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:003"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "运用地质年代表 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:003",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:01"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:01",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:004"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "通过野外观察 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:004",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:01"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:01",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:005"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "运用图表 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:005",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:01"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:01",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:006"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "运用示意图 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:006",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:01"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:01",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:007"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "运用示意图 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:007",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:01"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:01",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:008"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "运用图表 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:008",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:01"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:01",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:009"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "通过野外观察 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:009",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:01"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:01",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:010"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "通过野外观察 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:010",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:01"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:01",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:011"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "运用资料 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:011",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:01"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:01",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:012"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "通过探究 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:012",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:01"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:02",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:013"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "运用资料 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:013",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:02"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:02",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:014"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "结合实例 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:014",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:02"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:02",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:015"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "结合实例 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:015",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:02"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:02",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:016"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "运用资料 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:016",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:02"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:02",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:017"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "结合实例 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:017",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:02"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:02",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:018"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "结合实例 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:018",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:02"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:02",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:019"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "运用专题地图 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:019",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:02"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:02",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:020"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "结合实例 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:020",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:02"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:02",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:021"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "运用资料 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:021",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:02"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:02",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:022"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "运用资料 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:022",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:02"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:02",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:023"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "通过探究 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:023",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:02"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:03",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:024"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "结合实例 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:024",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:03"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:03",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:025"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "运用示意图 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:025",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:03"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:03",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:026"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "结合实例 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:026",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:03"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:03",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:027"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "运用示意图 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:027",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:03"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:03",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:028"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "运用示意图 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:028",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:03"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:03",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:029"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "绘制示意图 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:029",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:03"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:03",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:030"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "运用世界洋流分布图 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:030",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:03"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:03",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:031"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "运用图表 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:031",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:03"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:03",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:032"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "运用图表 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:032",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:03"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:06",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:050"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "在星图、天球仪上 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:050",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:06"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:06",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:051"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "了解 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:051",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:06"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:06",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:052"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "简述 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:052",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:06"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:06",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:053"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "运用太阳系模式图 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:053",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:06"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:06",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:054"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "运用图表、软件等资料 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:054",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:06"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:06",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:055"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "观察并描述 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:055",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:06"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:06",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:056"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "绘制 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:056",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:06"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:06",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:057"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "运用图表等资料 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:057",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:06"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:06",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:058"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "观察并运用图表等资料 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:058",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:06"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:06",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:059"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "简述 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:059",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:06"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:07",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:060"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "运用图片资料 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:060",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:07"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:07",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:061"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "观察海底地形图 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:061",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:07"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:07",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:062"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "说明 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:062",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:07"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:07",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:063"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "解释 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:063",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:07"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:07",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:064"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "说明 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:064",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:07"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:07",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:065"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "举例说明 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:065",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:07"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:07",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:066"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "举例说明 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:066",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:07"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:07",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:067"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "说明 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:067",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:07"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:07",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:068"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "结合实例 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:068",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:07"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:07",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:069"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "根据《联合国海洋法公约》 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:069",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:07"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:07",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:070"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "结合近些年发生的海洋争端事件 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:070",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:07"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:08",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:071"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "说明 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:071",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:08"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:08",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:072"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "解释 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:072",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:08"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:08",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:073"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "分析 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:073",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:08"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:08",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:074"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "举例说明 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:074",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:08"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:08",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:075"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "举例说明 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:075",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:08"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:08",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:076"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "运用图表资料 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:076",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:08"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:08",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:077"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "结合实例 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:077",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:08"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:08",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:078"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "结合实例 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:078",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:08"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:08",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:079"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "以地震等自然灾害为例 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:079",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:08"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:08",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:080"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "说明 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:080",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:08"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:09",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:081"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "简要说明 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:081",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:09"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:09",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:082"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "运用资料 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:082",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:09"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:09",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:083"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "运用资料 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:083",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:09"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:09",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:084"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "学会 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:084",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:09"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:09",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:085"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "针对某一具体区域 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:085",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:09"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:09",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:086"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "结合实例 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:086",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:09"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:09",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:087"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "解释 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:087",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:09"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:09",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:088"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "结合资料 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:088",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:09"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:09",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:089"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "运用资料 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:089",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:09"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:09",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:090"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "解释 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:090",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:09"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:09",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:091"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "学会 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:091",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:09"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:09",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:092"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "结合实例 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:092",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:09"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:10",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:093"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "描述 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:093",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:10"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:10",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:094"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "举例说明 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:094",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:10"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:10",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:095"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "区别 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:095",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:10"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:10",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:096"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "结合实例 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:096",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:10"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:10",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:097"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "结合实例 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:097",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:10"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:10",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:098"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "结合实例 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:098",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:10"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:10",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:099"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "举例说明 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:099",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:10"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:10",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:100"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "结合实例 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:100",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:10"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:10",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:101"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "举例说明 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:101",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:10"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:11",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:102"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "举例说明 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:102",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:11"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:11",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:103"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "举例说明 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:103",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:11"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:11",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:104"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "结合实例 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:104",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:11"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:11",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:105"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "运用资料 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:105",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:11"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:11",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:106"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "举例说明 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:106",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:11"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:11",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:107"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "举例说明 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:107",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:11"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:11",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:108"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "运用资料 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:108",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:11"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:11",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:109"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "结合实例 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:109",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:11"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:11",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:110"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "结合实例 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:110",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:11"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:11",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:111"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "运用资料 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:111",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:11"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:12",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:112"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "解释 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:112",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:12"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:12",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:113"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "说明 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:113",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:12"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:12",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:114"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "结合首都选址实例 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:114",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:12"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:12",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:115"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "结合实例 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:115",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:12"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:12",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:116"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "解释 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:116",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:12"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:12",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:117"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "结合实例 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:117",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:12"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:12",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:118"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "描述 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:118",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:12"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:12",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:119"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "结合实例 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:119",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:12"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:12",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:120"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "结合实例 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:120",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:12"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:12",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:121"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "结合实例 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:121",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:12"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:13",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:122"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "描述 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:122",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:13"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:13",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:123"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "解释 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:123",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:13"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:13",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:124"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "了解 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:124",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:13"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:13",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:125"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "解释 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:125",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:13"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:13",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:126"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "学会 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:126",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:13"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:13",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:127"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "学会 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:127",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:13"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:13",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:128"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "解释 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:128",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:13"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:13",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:129"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "说明 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:129",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:13"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:13",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:130"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "解释 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:130",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:13"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:13",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:131"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "学会 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:131",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:13"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:14",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:132"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "学会 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:132",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:14"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:14",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:133"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "运用 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:133",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:14"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:14",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:134"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "阅读 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:134",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:14"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:14",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:135"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "观察 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:135",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:14"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:14",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:136"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "学会 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:136",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:14"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:14",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:137"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "识别 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:137",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:14"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:14",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:138"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "在野外观察 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:138",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:14"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:14",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:139"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "学会 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:139",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:14"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:14",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:140"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "学会 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:140",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:14"
+        },
+        {
+            "relationName": "bookModuleIncludesTheme",
+            "label": "主要包括 / includesTheme",
+            "source": "urn:jy:Geography:SB0308:OB06:BookModule:14",
+            "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:141"
+        },
+        {
+            "relationName": "themeBelongsToBookModule",
+            "label": "学会 / belongsToBookModule",
+            "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:141",
+            "target": "urn:jy:Geography:SB0308:OB06:BookModule:14"
+        }
+    ]
+}

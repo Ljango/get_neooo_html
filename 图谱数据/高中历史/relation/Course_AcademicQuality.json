@@ -1,0 +1,46 @@
+[
+    {
+      "relationName": "correspondsToQualityLevel",
+      "label": "必修课程对应学业质量水平2",
+      "source": "urn:jy:history:SB0307:OB06:Course:1:OB06",
+      "target": "urn:jy:history:SB0307:OB06:AcademicQuality:2:OB06",
+      "evidence": {
+        "course": "必修课程",
+        "academicquality": "水平2",
+        "note": "依据《普通高中历史课程标准》六（三）学业质量标准的应用：历史学科学业质量水平2是学生高中毕业应当达到的要求，也是学业水平考试合格等级的划定依据；七（二）学业水平考试建议：历史学科合格性考试范围为必修课程内容与相关要求。"
+      }
+    },
+    {
+      "relationName": "correspondsToQualityLevel",
+      "label": "选择性必修课程对应学业质量水平4",
+      "source": "urn:jy:history:SB0307:OB06:Course:2:OB06",
+      "target": "urn:jy:history:SB0307:OB06:AcademicQuality:4:OB06",
+      "evidence": {
+        "course": "选择性必修课程",
+        "academicquality": "水平4",
+        "note": "依据《普通高中历史课程标准》六（三）学业质量标准的应用：水平4是学业水平等级性考试命题的最高参照标准；七（二）学业水平考试建议：等级性考试范围为必修课程内容与选择性必修课程内容。"
+      }
+    },
+    {
+      "relationName": "isBasisForCourseAssessment",
+      "label": "学业质量水平2是必修课程考核依据",
+      "source": "urn:jy:history:SB0307:OB06:AcademicQuality:2:OB06",
+      "target": "urn:jy:history:SB0307:OB06:Course:1:OB06",
+      "evidence": {
+        "course": "必修课程",
+        "academicquality": "水平2",
+        "note": "依据《普通高中历史课程标准》六（三）：学业质量水平2是学业水平考试合格等级的划定依据（对应必修课程）。"
+      }
+    },
+    {
+      "relationName": "isBasisForCourseAssessment",
+      "label": "学业质量水平4是选择性必修课程考核依据",
+      "source": "urn:jy:history:SB0307:OB06:AcademicQuality:4:OB06",
+      "target": "urn:jy:history:SB0307:OB06:Course:2:OB06",
+      "evidence": {
+        "course": "选择性必修课程",
+        "academicquality": "水平4",
+        "note": "依据《普通高中历史课程标准》六（三）：水平4是学业水平等级性考试命题的最高参照标准（对应选择性必修课程及必修课程）。"
+      }
+    }
+  ]

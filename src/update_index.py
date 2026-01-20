@@ -124,7 +124,7 @@ def generate_index_html(subject_files, unknown_files):
         },
         "地理": {
             "icon": "🌍",
-            "highschool": None,  # 高中地理暂未单独列出
+            "highschool": ("高中地理", "#3498db"),
             "yijiao": ("义教地理", "#1abc9c"),
             "chuzhong": ("初中地理", "#16a085"),  # 初中地理
             "color": "#1abc9c"
@@ -132,8 +132,14 @@ def generate_index_html(subject_files, unknown_files):
         "政治": {
             "icon": "🏛️",
             "highschool": ("高中政治", "#c0392b"),
-            "yijiao": None,
+            "yijiao": ("义教道法", "#d63031"),
             "color": "#c0392b"
+        },
+        "历史": {
+            "icon": "📜",
+            "highschool": ("高中历史", "#6c5ce7"),
+            "yijiao": ("义教历史", "#8e44ad"),
+            "color": "#6c5ce7"
         }
     }
     
@@ -532,40 +538,7 @@ def generate_index_html(subject_files, unknown_files):
     
     <main>""")
     
-    # 按学科分组生成HTML（高中和义教并排）
-    SUBJECT_GROUPING = {
-        "数学": {
-            "icon": "📐",
-            "highschool": ("高中数学", "#2ecc71"),
-            "yijiao": ("义教数学", "#f39c12"),
-        },
-        "物理": {
-            "icon": "⚡",
-            "highschool": ("高中物理", "#3498db"),
-            "yijiao": ("义教物理", "#e74c3c"),
-        },
-        "化学": {
-            "icon": "⚗️",
-            "highschool": ("高中化学", "#8e44ad"),
-            "yijiao": ("义教化学", "#f39c12"),
-        },
-        "生物": {
-            "icon": "🧬",
-            "highschool": ("高中生物", "#27ae60"),
-            "yijiao": ("义教生物", "#16a085"),
-        },
-        "地理": {
-            "icon": "🌍",
-            "highschool": None,
-            "yijiao": ("义教地理", "#1abc9c"),
-            "chuzhong": ("初中地理", "#16a085"),
-        },
-        "政治": {
-            "icon": "🏛️",
-            "highschool": ("高中政治", "#c0392b"),
-            "yijiao": None,
-        }
-    }
+    # 使用统一的学科分组配置（与文件顶部的SUBJECT_GROUPING一致）
     
     def generate_subject_column(subject_key, subject_name, color, icon):
         """生成单个学科列（高中或义教）"""
