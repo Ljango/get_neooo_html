@@ -107,7 +107,7 @@ SUBJECT_CONFIG = {
     "高中生物": {
         "icon": "🧬",
         "display_name": "高中生物",
-        "data_dir": "高中生物",
+        "data_dir": "高中生物-with-books",
         "files": ["高中生物_课标.html"],
         "color": "#27ae60",
         "neo4j_label": "GaoZhongShengWu"  # 高中生物
@@ -132,7 +132,7 @@ SUBJECT_CONFIG = {
     "义教数学": {
         "icon": "📐",
         "display_name": "义教数学",
-        "data_dir": "义教数学_1231",
+        "data_dir": "义教数学_1231-with-books",
         "files": ["义教数学_课标.html"],
         "color": "#f39c12",
         "neo4j_label": "YiJiaoShuXue"  # 义教数学
@@ -180,7 +180,7 @@ SUBJECT_CONFIG = {
     "义教道法": {
         "icon": "⚖️",
         "display_name": "义教道法",
-        "data_dir": "义务教育道德与法治",
+        "data_dir": "义教道法-with-books",
         "files": ["义教道法_课标.html"],
         "color": "#d63031",
         "neo4j_label": "YiJiaoDaoFa"  # 义教道德与法治

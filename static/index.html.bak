@@ -386,6 +386,21 @@
             <span class="search-icon">🔍</span>
             <input type="text" id="search-input" placeholder="搜索图谱...">
         </div>
+        
+        <div style="margin-top: 20px; text-align: center;">
+            <a href="chapter_query.html" style="
+                display: inline-block;
+                padding: 10px 20px;
+                background: linear-gradient(135deg, #3498db, #2980b9);
+                color: white;
+                text-decoration: none;
+                border-radius: 8px;
+                font-weight: 500;
+                transition: all 0.3s;
+            " onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 12px rgba(52,152,219,0.3)'" onmouseout="this.style.transform=''; this.style.boxShadow=''">
+                🔍 章节知识图谱查询
+            </a>
+        </div>
     </header>
     
     <main>
@@ -655,7 +670,7 @@
                         <p class="description">知识图谱可视化</p>
                         <div class="stats">
                             <span class="stat-item">📊 124个实体</span>
-                            <span class="stat-item">🔗 618条关系</span>
+                            <span class="stat-item">🔗 626条关系</span>
                         </div>
                         <span class="arrow">→</span>
                     </a>
