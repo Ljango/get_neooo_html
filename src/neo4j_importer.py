@@ -50,7 +50,14 @@ class Neo4jImporter:
         
         self.data_dir = DATA_ROOT / data_dir
         self.entities_dir = self.data_dir / "entities"
-        self.relations_dir = self.data_dir / "relations"
+        
+        # 自动检测关系目录（支持 relations 或 relation）
+        if (self.data_dir / "relations").exists():
+            self.relations_dir = self.data_dir / "relations"
+        elif (self.data_dir / "relation").exists():
+            self.relations_dir = self.data_dir / "relation"
+        else:
+            self.relations_dir = self.data_dir / "relations"  # 默认
         
         # 加载环境变量
         env_path = PROJECT_ROOT / env_file

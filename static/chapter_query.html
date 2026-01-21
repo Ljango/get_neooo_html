@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>章节知识图谱查询</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #0c0c1e 0%, #1a1a2e 50%, #16213e 100%);
+            color: #e0e0e0;
+            min-height: 100vh;
+        }
+        
+        /* 顶部导航 */
+        .header {
+            padding: 15px 20px;
+            background: rgba(20, 20, 40, 0.95);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .header h1 {
+            font-size: 1.3rem;
+            color: #fff;
+        }
+        
+        .header a {
+            color: #3498db;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        
+        .header .controls {
+            display: flex;
+            gap: 15px;
+            margin-left: auto;
+            align-items: center;
+        }
+        
+        .header select {
+            padding: 8px 12px;
+            border-radius: 6px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            background: rgba(255, 255, 255, 0.05);
+            color: #fff;
+            font-size: 0.9rem;
+            min-width: 150px;
+        }
+        
+        .header select option {
+            background: #1a1a2e;
+        }
+        
+        .header .status {
+            font-size: 0.85rem;
+            color: #888;
+        }
+        
+        .header .status.connected {
+            color: #2ecc71;
+        }
+        
+        .header .status.error {
+            color: #e74c3c;
+        }
+        
+        /* 主体布局 */
+        .main-container {
+            display: flex;
+            height: calc(100vh - 60px);
+        }
+        
+        /* 左侧章节列表 */
+        .chapter-panel {
+            width: 280px;
+            background: rgba(20, 20, 40, 0.95);
+            border-right: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .chapter-panel-header {
+            padding: 15px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .chapter-panel-header h3 {
+            font-size: 0.95rem;
+            color: #aaa;
+            margin-bottom: 10px;
+        }
+        
+        .chapter-filter {
+            width: 100%;
+            padding: 8px 10px;
+            border-radius: 6px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            background: rgba(255, 255, 255, 0.05);
+            color: #fff;
+            font-size: 0.85rem;
+        }
+        
+        .chapter-list {
+            flex: 1;
+            overflow-y: auto;
+            padding: 10px;
+        }
+        
+        .chapter-item {
+            padding: 10px 12px;
+            margin: 4px 0;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s;
+            border-left: 3px solid transparent;
+            font-size: 0.9rem;
+            background: rgba(255, 255, 255, 0.02);
+        }
+        
+        .chapter-item:hover {
+            background: rgba(52, 152, 219, 0.1);
+            border-left-color: #3498db;
+        }
+        
+        .chapter-item.selected {
+            background: rgba(52, 152, 219, 0.2);
+            border-left-color: #3498db;
+        }
+        
+        .chapter-item.queried {
+            background: rgba(46, 204, 113, 0.1);
+            border-left-color: #2ecc71;
+        }
+        
+        .chapter-item .chapter-title {
+            color: #fff;
+            margin-bottom: 2px;
+        }
+        
+        .chapter-item .chapter-meta {
+            font-size: 0.75rem;
+            color: #666;
+        }
+        
+        .chapter-actions {
+            padding: 10px 15px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            gap: 10px;
+        }
+        
+        .chapter-actions button {
+            flex: 1;
+            padding: 8px;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 0.85rem;
+            transition: all 0.2s;
+        }
+        
+        .chapter-actions .btn-primary {
+            background: linear-gradient(135deg, #3498db, #2980b9);
+            color: white;
+        }
+        
+        .chapter-actions .btn-primary:hover {
+            background: linear-gradient(135deg, #2980b9, #21618c);
+        }
+        
+        .chapter-actions .btn-secondary {
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+        }
+        
+        /* 右侧图谱展示区 */
+        .graph-panel {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        
+        .graph-panel-header {
+            padding: 10px 15px;
+            background: rgba(20, 20, 40, 0.5);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .graph-panel-header h3 {
+            font-size: 0.95rem;
+            color: #aaa;
+        }
+        
+        .view-toggle {
+            display: flex;
+            gap: 5px;
+        }
+        
+        .view-toggle button {
+            padding: 5px 10px;
+            border-radius: 4px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            background: transparent;
+            color: #888;
+            cursor: pointer;
+            font-size: 0.8rem;
+        }
+        
+        .view-toggle button.active {
+            background: rgba(52, 152, 219, 0.2);
+            border-color: #3498db;
+            color: #3498db;
+        }
+        
+        /* 双列网格布局 */
+        .graph-grid {
+            flex: 1;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            padding: 15px;
+            overflow-y: auto;
+        }
+        
+        .graph-grid.single-view {
+            grid-template-columns: 1fr;
+        }
+        
+        .graph-card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            min-height: 300px;
+            transition: all 0.3s;
+        }
+        
+        .graph-card:hover {
+            border-color: rgba(52, 152, 219, 0.5);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        }
+        
+        .graph-card.expanded {
+            position: fixed;
+            top: 80px;
+            left: 300px;
+            right: 20px;
+            bottom: 20px;
+            z-index: 100;
+            min-height: auto;
+        }
+        
+        .graph-card-header {
+            padding: 12px 15px;
+            background: rgba(0, 0, 0, 0.2);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        
+        .graph-card-header .title {
+            font-size: 0.95rem;
+            color: #fff;
+            font-weight: 500;
+        }
+        
+        .graph-card-header .stats {
+            display: flex;
+            gap: 15px;
+            font-size: 0.8rem;
+            color: #888;
+        }
+        
+        .graph-card-header .close-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: #888;
+            cursor: pointer;
+            font-size: 1.2rem;
+            padding: 5px;
+        }
+        
+        .graph-card.expanded .close-btn {
+            display: block;
+        }
+        
+        .graph-card-body {
+            flex: 1;
+            position: relative;
+        }
+        
+        .graph-card-body svg {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .graph-card-footer {
+            padding: 8px 12px;
+            background: rgba(0, 0, 0, 0.1);
+            display: flex;
+            gap: 8px;
+        }
+        
+        .graph-card-footer button {
+            padding: 5px 10px;
+            border-radius: 4px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            background: transparent;
+            color: #888;
+            cursor: pointer;
+            font-size: 0.75rem;
+            transition: all 0.2s;
+        }
+        
+        .graph-card-footer button:hover {
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+        }
+        
+        /* 空状态 */
+        .empty-state {
+            grid-column: 1 / -1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 60px;
+            color: #666;
+        }
+        
+        .empty-state .icon {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+        
+        .empty-state p {
+            font-size: 0.95rem;
+        }
+        
+        /* 加载状态 */
+        .loading-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #3498db;
+            font-size: 0.9rem;
+        }
+        
+        /* 节点样式 */
+        .node circle {
+            stroke: #fff;
+            stroke-width: 1.5px;
+            cursor: pointer;
+        }
+        
+        .node text {
+            font-size: 9px;
+            fill: #fff;
+            pointer-events: none;
+            text-shadow: 0 0 3px rgba(0,0,0,0.8);
+        }
+        
+        .link {
+            stroke: rgba(255, 255, 255, 0.2);
+            stroke-width: 1px;
+        }
+        
+        /* 遮罩层 */
+        .overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 99;
+        }
+        
+        .overlay.active {
+            display: block;
+        }
+
+        /* Toast提示 */
+        .toast {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            padding: 12px 24px;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            z-index: 1000;
+            display: none;
+        }
+        
+        .toast.show {
+            display: block;
+        }
+        
+        .toast.error {
+            background: rgba(231, 76, 60, 0.9);
+        }
+        
+        .toast.success {
+            background: rgba(46, 204, 113, 0.9);
+        }
+    </style>
+</head>
+<body>
+    <!-- 顶部导航 -->
+    <header class="header">
+        <h1>🔍 章节知识图谱查询</h1>
+        <a href="index.html">← 返回首页</a>
+        <div class="controls">
+            <select id="subject-select">
+                <option value="">选择学科...</option>
+            </select>
+            <span id="api-status" class="status">⚪ 检查API状态...</span>
+        </div>
+    </header>
+    
+    <!-- 主体 -->
+    <div class="main-container">
+        <!-- 左侧章节列表 -->
+        <aside class="chapter-panel">
+            <div class="chapter-panel-header">
+                <h3>📚 章节列表</h3>
+                <input type="text" class="chapter-filter" placeholder="搜索章节..." id="chapter-filter">
+            </div>
+            <div class="chapter-list" id="chapter-list">
+                <div class="empty-state" style="padding: 40px 20px;">
+                    <div class="icon">📋</div>
+                    <p>请先选择学科</p>
+                </div>
+            </div>
+            <div class="chapter-actions">
+                <button class="btn-primary" id="query-selected" disabled>查询选中章节</button>
+                <button class="btn-secondary" id="clear-all">清空</button>
+            </div>
+        </aside>
+        
+        <!-- 右侧图谱区 -->
+        <main class="graph-panel">
+            <div class="graph-panel-header">
+                <h3>📊 知识子图 <span id="graph-count">(0)</span></h3>
+                <div class="view-toggle">
+                    <button class="active" data-view="grid">双列视图</button>
+                    <button data-view="single">单列视图</button>
+                </div>
+            </div>
+            <div class="graph-grid" id="graph-grid">
+                <div class="empty-state">
+                    <div class="icon">🔍</div>
+                    <p>选择章节并点击"查询选中章节"查看知识子图</p>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <!-- 遮罩层 -->
+    <div class="overlay" id="overlay"></div>
+    
+    <!-- Toast提示 -->
+    <div class="toast" id="toast"></div>
+    
+    <script>
+        // ========== 配置 ==========
+        const API_BASE = 'http://localhost:8889/api';
+        
+        // 学科配置（内嵌，不依赖API）
+        const SUBJECTS = [
+            { name: "高中数学", icon: "📐", label: "GaoZhongShuXue", color: "#2ecc71" },
+            { name: "高中物理", icon: "⚛️", label: "GaoZhongWuLi", color: "#3498db" },
+            { name: "高中化学", icon: "⚗️", label: "GaoZhongHuaXue", color: "#8e44ad" },
+            { name: "高中生物", icon: "🧬", label: "GaoZhongShengWu", color: "#27ae60" },
+            { name: "高中政治", icon: "🏛️", label: "GaoZhongZhengZhi", color: "#c0392b" },
+            { name: "高中地理", icon: "🗺️", label: "GaoZhongDiLi", color: "#3498db" },
+            { name: "高中历史", icon: "🏛️", label: "GaoZhongLiShi", color: "#6c5ce7" },
+            { name: "义教数学", icon: "📐", label: "YiJiaoShuXue", color: "#f39c12" },
+            { name: "义教物理", icon: "⚡", label: "YiJiaoWuLi", color: "#e74c3c" },
+            { name: "义教化学", icon: "🧪", label: "YiJiaoHuaXue", color: "#9b59b6" },
+            { name: "义教地理", icon: "🌍", label: "YiJiaoDiLi", color: "#1abc9c" },
+            { name: "初中地理", icon: "🗺️", label: "ChuZhongDiLi", color: "#16a085" },
+            { name: "义教生物", icon: "🌱", label: "YiJiaoShengWu", color: "#16a085" },
+            { name: "义教道法", icon: "⚖️", label: "YiJiaoDaoFa", color: "#d63031" },
+            { name: "义教历史", icon: "📜", label: "YiJiaoLiShi", color: "#8e44ad" }
+        ];
+        
+        // ========== 状态 ==========
+        let currentSubject = null;
+        let chapters = [];
+        let selectedChapters = new Set();
+        let queriedGraphs = new Map(); // chapterId -> graphData
+        let apiAvailable = false;
+        
+        // ========== 工具函数 ==========
+        function showToast(message, type = '') {
+            const toast = document.getElementById('toast');
+            toast.textContent = message;
+            toast.className = 'toast show ' + type;
+            setTimeout(() => {
+                toast.className = 'toast';
+            }, 3000);
+        }
+        
+        function updateApiStatus(available, message) {
+            const status = document.getElementById('api-status');
+            apiAvailable = available;
+            if (available) {
+                status.className = 'status connected';
+                status.textContent = '🟢 API已连接';
+            } else {
+                status.className = 'status error';
+                status.textContent = '🔴 ' + message;
+            }
+        }
+        
+        // ========== 初始化 ==========
+        function init() {
+            // 初始化学科下拉框
+            const subjectSelect = document.getElementById('subject-select');
+            SUBJECTS.forEach(subject => {
+                const option = document.createElement('option');
+                option.value = subject.name;
+                option.textContent = `${subject.icon} ${subject.name}`;
+                subjectSelect.appendChild(option);
+            });
+            
+            // 检查API状态
+            checkApiStatus();
+            
+            // 绑定事件
+            subjectSelect.addEventListener('change', onSubjectChange);
+            document.getElementById('chapter-filter').addEventListener('input', onFilterChange);
+            document.getElementById('query-selected').addEventListener('click', querySelectedChapters);
+            document.getElementById('clear-all').addEventListener('click', clearAll);
+            document.getElementById('overlay').addEventListener('click', closeExpanded);
+            
+            // 视图切换
+            document.querySelectorAll('.view-toggle button').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    document.querySelectorAll('.view-toggle button').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    const grid = document.getElementById('graph-grid');
+                    if (btn.dataset.view === 'single') {
+                        grid.classList.add('single-view');
+                    } else {
+                        grid.classList.remove('single-view');
+                    }
+                });
+            });
+        }
+        
+        // 检查API状态
+        async function checkApiStatus() {
+            try {
+                const response = await fetch(`${API_BASE}/subjects`, { 
+                    method: 'GET',
+                    signal: AbortSignal.timeout(3000) 
+                });
+                if (response.ok) {
+                    updateApiStatus(true, '');
+                } else {
+                    updateApiStatus(false, 'API响应错误');
+                }
+            } catch (error) {
+                updateApiStatus(false, 'API未启动');
+                console.log('API未启动，请运行: python3 manage.py api');
+            }
+        }
+        
+        // 学科切换
+        async function onSubjectChange(e) {
+            const subjectName = e.target.value;
+            if (!subjectName) {
+                currentSubject = null;
+                chapters = [];
+                renderChapterList();
+                return;
+            }
+            
+            currentSubject = SUBJECTS.find(s => s.name === subjectName);
+            
+            if (!apiAvailable) {
+                showToast('请先启动API服务: python3 manage.py api', 'error');
+                return;
+            }
+            
+            // 先获取节点类型
+            try {
+                const typeResponse = await fetch(`${API_BASE}/node_types?subject=${encodeURIComponent(subjectName)}`);
+                const typeData = await typeResponse.json();
+                
+                if (typeData.node_types && typeData.node_types.length > 0) {
+                    console.log('节点类型:', typeData.node_types);
+                }
+            } catch (error) {
+                console.log('获取节点类型失败:', error);
+            }
+            
+            // 加载章节
+            try {
+                const response = await fetch(`${API_BASE}/chapters?subject=${encodeURIComponent(subjectName)}`);
+                const data = await response.json();
+                
+                if (data.error) {
+                    showToast(data.error, 'error');
+                    chapters = [];
+                } else if (data.message) {
+                    showToast(data.message, 'error');
+                    chapters = [];
+                } else {
+                    chapters = data.chapters || [];
+                    const nodeType = data.node_type || 'Chapter';
+                    showToast(`已加载 ${chapters.length} 个${nodeType}`, 'success');
+                }
+            } catch (error) {
+                showToast('加载章节失败: ' + error.message, 'error');
+                chapters = [];
+            }
+            
+            selectedChapters.clear();
+            renderChapterList();
+            updateQueryButton();
+        }
+        
+        // 筛选章节
+        function onFilterChange(e) {
+            const keyword = e.target.value.toLowerCase();
+            document.querySelectorAll('.chapter-item').forEach(item => {
+                const title = item.querySelector('.chapter-title').textContent.toLowerCase();
+                item.style.display = title.includes(keyword) ? '' : 'none';
+            });
+        }
+        
+        // 渲染章节列表
+        function renderChapterList() {
+            const container = document.getElementById('chapter-list');
+            
+            if (chapters.length === 0) {
+                container.innerHTML = `
+                    <div class="empty-state" style="padding: 40px 20px;">
+                        <div class="icon">📋</div>
+                        <p>${currentSubject ? '暂无章节数据' : '请先选择学科'}</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            container.innerHTML = chapters.map((chapter, index) => `
+                <div class="chapter-item ${selectedChapters.has(chapter.id) ? 'selected' : ''} ${queriedGraphs.has(chapter.id) ? 'queried' : ''}" 
+                     data-id="${chapter.id}" data-index="${index}">
+                    <div class="chapter-title">${chapter.title}</div>
+                    <div class="chapter-meta">${queriedGraphs.has(chapter.id) ? '✓ 已查询' : ''}</div>
+                </div>
+            `).join('');
+            
+            // 绑定点击事件
+            container.querySelectorAll('.chapter-item').forEach(item => {
+                item.addEventListener('click', () => {
+                    const id = item.dataset.id;
+                    if (selectedChapters.has(id)) {
+                        selectedChapters.delete(id);
+                        item.classList.remove('selected');
+                    } else {
+                        selectedChapters.add(id);
+                        item.classList.add('selected');
+                    }
+                    updateQueryButton();
+                });
+            });
+        }
+        
+        // 更新查询按钮状态
+        function updateQueryButton() {
+            const btn = document.getElementById('query-selected');
+            btn.disabled = selectedChapters.size === 0 || !apiAvailable;
+            btn.textContent = selectedChapters.size > 0 
+                ? `查询选中章节 (${selectedChapters.size})` 
+                : '查询选中章节';
+        }
+        
+        // 查询选中的章节
+        async function querySelectedChapters() {
+            if (selectedChapters.size === 0 || !currentSubject) return;
+            
+            const chaptersToQuery = Array.from(selectedChapters);
+            
+            for (const chapterId of chaptersToQuery) {
+                if (!queriedGraphs.has(chapterId)) {
+                    await queryChapterSubgraph(chapterId);
+                }
+            }
+            
+            renderChapterList();
+            renderGraphGrid();
+        }
+        
+        // 查询单个章节子图
+        async function queryChapterSubgraph(chapterId) {
+            const chapter = chapters.find(c => c.id === chapterId);
+            if (!chapter) return;
+            
+            try {
+                const response = await fetch(
+                    `${API_BASE}/query/subgraph?subject=${encodeURIComponent(currentSubject.name)}&chapter_id=${encodeURIComponent(chapterId)}`
+                );
+                const data = await response.json();
+                
+                if (data.error) {
+                    showToast(`${chapter.title}: ${data.error}`, 'error');
+                    return;
+                }
+                
+                queriedGraphs.set(chapterId, {
+                    chapter: chapter,
+                    data: data,
+                    subject: currentSubject
+                });
+                
+            } catch (error) {
+                showToast(`查询失败: ${error.message}`, 'error');
+            }
+        }
+        
+        // 渲染图谱网格
+        function renderGraphGrid() {
+            const container = document.getElementById('graph-grid');
+            document.getElementById('graph-count').textContent = `(${queriedGraphs.size})`;
+            
+            if (queriedGraphs.size === 0) {
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <div class="icon">🔍</div>
+                        <p>选择章节并点击"查询选中章节"查看知识子图</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            container.innerHTML = '';
+            
+            queriedGraphs.forEach((graphInfo, chapterId) => {
+                const card = createGraphCard(chapterId, graphInfo);
+                container.appendChild(card);
+            });
+        }
+        
+        // 创建图谱卡片
+        function createGraphCard(chapterId, graphInfo) {
+            const card = document.createElement('div');
+            card.className = 'graph-card';
+            card.dataset.id = chapterId;
+            
+            const { chapter, data, subject } = graphInfo;
+            
+            card.innerHTML = `
+                <div class="graph-card-header">
+                    <span class="title">${chapter.title}</span>
+                    <div class="stats">
+                        <span>📊 ${data.node_count}节点</span>
+                        <span>🔗 ${data.relationship_count}关系</span>
+                    </div>
+                    <button class="close-btn" onclick="closeCard('${chapterId}')">&times;</button>
+                </div>
+                <div class="graph-card-body" id="graph-body-${chapterId}">
+                </div>
+                <div class="graph-card-footer">
+                    <button onclick="expandCard('${chapterId}')">🔍 放大</button>
+                    <button onclick="removeCard('${chapterId}')">✕ 移除</button>
+                    <button onclick="queryLongestPath('${chapterId}')">📏 最长路径</button>
+                </div>
+            `;
+            
+            // 渲染图谱
+            setTimeout(() => {
+                renderMiniGraph(chapterId, data, subject);
+            }, 100);
+            
+            return card;
+        }
+        
+        // 渲染迷你图谱
+        function renderMiniGraph(chapterId, data, subject) {
+            const container = document.getElementById(`graph-body-${chapterId}`);
+            if (!container) return;
+            
+            const width = container.clientWidth || 300;
+            const height = container.clientHeight || 200;
+            
+            const svg = d3.select(container)
+                .append('svg')
+                .attr('width', '100%')
+                .attr('height', '100%')
+                .attr('viewBox', `0 0 ${width} ${height}`);
+            
+            const g = svg.append('g');
+            
+            // 添加缩放
+            const zoom = d3.zoom()
+                .scaleExtent([0.2, 4])
+                .on('zoom', (event) => {
+                    g.attr('transform', event.transform);
+                });
+            svg.call(zoom);
+            
+            // 准备数据
+            const nodes = data.nodes.map(n => ({
+                ...n,
+                id: n.id,
+                name: n.title || n.name || n.identifier || '未命名'
+            }));
+            
+            const nodeMap = new Map(nodes.map(n => [n.id, n]));
+            
+            const links = data.relationships
+                .filter(r => nodeMap.has(r.start) && nodeMap.has(r.end))
+                .map(r => ({
+                    source: r.start,
+                    target: r.end,
+                    type: r.type
+                }));
+            
+            // 力导向图
+            const simulation = d3.forceSimulation(nodes)
+                .force('link', d3.forceLink(links).id(d => d.id).distance(40))
+                .force('charge', d3.forceManyBody().strength(-80))
+                .force('center', d3.forceCenter(width / 2, height / 2))
+                .force('collision', d3.forceCollide().radius(15));
+            
+            // 绘制连线
+            const link = g.append('g')
+                .selectAll('line')
+                .data(links)
+                .enter().append('line')
+                .attr('class', 'link');
+            
+            // 绘制节点
+            const node = g.append('g')
+                .selectAll('g')
+                .data(nodes)
+                .enter().append('g')
+                .attr('class', 'node')
+                .call(d3.drag()
+                    .on('start', (event) => {
+                        if (!event.active) simulation.alphaTarget(0.3).restart();
+                        event.subject.fx = event.subject.x;
+                        event.subject.fy = event.subject.y;
+                    })
+                    .on('drag', (event) => {
+                        event.subject.fx = event.x;
+                        event.subject.fy = event.y;
+                    })
+                    .on('end', (event) => {
+                        if (!event.active) simulation.alphaTarget(0);
+                        event.subject.fx = null;
+                        event.subject.fy = null;
+                    }));
+            
+            node.append('circle')
+                .attr('r', d => Math.min(8, 4 + (d.name.length / 5)))
+                .attr('fill', subject.color);
+            
+            node.append('title')
+                .text(d => d.name);
+            
+            // 更新位置
+            simulation.on('tick', () => {
+                link
+                    .attr('x1', d => d.source.x)
+                    .attr('y1', d => d.source.y)
+                    .attr('x2', d => d.target.x)
+                    .attr('y2', d => d.target.y);
+                
+                node.attr('transform', d => `translate(${d.x},${d.y})`);
+            });
+            
+            // 50帧后停止
+            setTimeout(() => simulation.stop(), 2000);
+        }
+        
+        // 放大卡片
+        function expandCard(chapterId) {
+            const card = document.querySelector(`.graph-card[data-id="${chapterId}"]`);
+            if (card) {
+                card.classList.add('expanded');
+                document.getElementById('overlay').classList.add('active');
+                
+                // 重新渲染更大的图
+                const graphInfo = queriedGraphs.get(chapterId);
+                if (graphInfo) {
+                    const container = document.getElementById(`graph-body-${chapterId}`);
+                    container.innerHTML = '';
+                    setTimeout(() => {
+                        renderMiniGraph(chapterId, graphInfo.data, graphInfo.subject);
+                    }, 100);
+                }
+            }
+        }
+        
+        // 关闭放大
+        function closeExpanded() {
+            document.querySelectorAll('.graph-card.expanded').forEach(card => {
+                card.classList.remove('expanded');
+            });
+            document.getElementById('overlay').classList.remove('active');
+        }
+        
+        function closeCard(chapterId) {
+            closeExpanded();
+        }
+        
+        // 移除卡片
+        function removeCard(chapterId) {
+            queriedGraphs.delete(chapterId);
+            selectedChapters.delete(chapterId);
+            renderChapterList();
+            renderGraphGrid();
+        }
+        
+        // 清空所有
+        function clearAll() {
+            queriedGraphs.clear();
+            selectedChapters.clear();
+            renderChapterList();
+            renderGraphGrid();
+            updateQueryButton();
+        }
+        
+        // 查询最长路径
+        async function queryLongestPath(chapterId) {
+            if (!currentSubject) return;
+            
+            const chapter = chapters.find(c => c.id === chapterId);
+            
+            try {
+                const response = await fetch(
+                    `${API_BASE}/query/longest_path?subject=${encodeURIComponent(currentSubject.name)}&chapter_id=${encodeURIComponent(chapterId)}`
+                );
+                const data = await response.json();
+                
+                if (data.error) {
+                    showToast(data.error, 'error');
+                    return;
+                }
+                
+                if (data.paths && data.paths.length > 0) {
+                    const longestPath = data.paths[0];
+                    const pathStr = longestPath.nodes.map(n => n.title).join(' → ');
+                    showToast(`最长路径(${longestPath.length}步): ${pathStr.substring(0, 100)}...`, 'success');
+                } else {
+                    showToast('未找到路径', 'error');
+                }
+                
+            } catch (error) {
+                showToast('查询失败: ' + error.message, 'error');
+            }
+        }
+        
+        // 启动
+        init();
+    </script>
+</body>
+</html>

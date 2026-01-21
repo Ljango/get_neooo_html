@@ -1,0 +1,134 @@
+[
+  {
+    "relationName": "rel_theme_part_of_domain_cn",
+    "label": "中国古代史_属于_中国历史主线",
+    "source": "urn:jy:history:SB0307:OB03:Theme:1:OB03",
+    "target": "urn:jy:history:SB0307:OB03:Domain:1:OB03",
+    "evidence": {
+      "Domain": "中国历史内容包括：古代：统一多民族国家的形成与发展；近代：争取民族独立、人民解放的历程；现代：社会主义现代化的建设。",
+      "Theme": "中国古代史始于中国境内早期人类活动，止于1840年鸦片战争，重点叙述5000多年中华文明的演进，以及统一多民族国家的起源、建立、巩固和发展的历程。",
+      "note": "逻辑关系：【中国古代史】是【中国历史】主线在时间维度上的首要组成部分，确立了统一多民族国家形成与发展的历史基调，是该主线的起始阶段。"
+    }
+  },
+  {
+    "relationName": "rel_theme_part_of_domain_cn",
+    "label": "中国近代史_属于_中国历史主线",
+    "source": "urn:jy:history:SB0307:OB03:Theme:2:OB03",
+    "target": "urn:jy:history:SB0307:OB03:Domain:1:OB03",
+    "evidence": {
+      "Domain": "中国历史内容包括：古代：统一多民族国家的形成与发展；近代：争取民族独立、人民解放的历程；现代：社会主义现代化的建设。",
+      "Theme": "中国近代史始于1840年鸦片战争，止于1949年中华人民共和国成立，重点叙述列强侵略中国...最终由中国共产党团结带领全国各族人民实现了民族独立、人民解放...。",
+      "note": "逻辑关系：【中国近代史】是【中国历史】主线的承接阶段，对应主线描述中“争取民族独立、人民解放的历程”，体现了中国历史从古代向现代转型的关键变革。"
+    }
+  },
+  {
+    "relationName": "rel_theme_part_of_domain_cn",
+    "label": "中国现代史_属于_中国历史主线",
+    "source": "urn:jy:history:SB0307:OB03:Theme:3:OB03",
+    "target": "urn:jy:history:SB0307:OB03:Domain:1:OB03",
+    "evidence": {
+      "Domain": "中国历史内容包括：古代：统一多民族国家的形成与发展；近代：争取民族独立、人民解放的历程；现代：社会主义现代化的建设。",
+      "Theme": "中国现代史自中华人民共和国成立至今，叙述全国各族人民在中国共产党领导下...建设社会主义现代化国家、开创中国特色社会主义新时代的历程。",
+      "note": "逻辑关系：【中国现代史】是【中国历史】主线的现实阶段，直接对应主线中“社会主义现代化的建设”这一核心任务，体现了中华民族从站起来到强起来的飞跃。"
+    }
+  },
+  {
+    "relationName": "rel_theme_part_of_domain_world",
+    "label": "世界古代史_属于_世界历史主线",
+    "source": "urn:jy:history:SB0307:OB03:Theme:4:OB03",
+    "target": "urn:jy:history:SB0307:OB03:Domain:2:OB03",
+    "evidence": {
+      "Domain": "世界历史内容包括：古代：区域文明的多元发展；近代：资本主义发展、社会主义运动和民族解放运动；现代：战争与革命、和平与发展。",
+      "Theme": "世界古代史主要叙述人类早期文明的起源与发展，重点阐述世界各区域文明的多元发展及其相互影响。",
+      "note": "逻辑关系：【世界古代史】构成了【世界历史】主线的源头，其核心内容“区域文明的多元发展”直接定义了该主线在古代阶段的特征。"
+    }
+  },
+  {
+    "relationName": "rel_theme_part_of_domain_world",
+    "label": "世界近代史_属于_世界历史主线",
+    "source": "urn:jy:history:SB0307:OB03:Theme:5:OB03",
+    "target": "urn:jy:history:SB0307:OB03:Domain:2:OB03",
+    "evidence": {
+      "Domain": "世界历史内容包括：古代：区域文明的多元发展；近代：资本主义发展、社会主义运动和民族解放运动；现代：战争与革命、和平与发展。",
+      "Theme": "世界近代史主要叙述资本主义的形成与发展，社会主义运动与民族解放运动兴起和发展的历程，重点阐释近代世界历史发展的主要线索。",
+      "note": "逻辑关系：【世界近代史】是【世界历史】主线的发展阶段，通过资本主义、社会主义和民族解放运动三条线索，支撑起主线中关于近代世界演变的描述。"
+    }
+  },
+  {
+    "relationName": "rel_theme_part_of_domain_world",
+    "label": "世界现代史_属于_世界历史主线",
+    "source": "urn:jy:history:SB0307:OB03:Theme:6:OB03",
+    "target": "urn:jy:history:SB0307:OB03:Domain:2:OB03",
+    "evidence": {
+      "Domain": "世界历史内容包括：古代：区域文明的多元发展；近代：资本主义发展、社会主义运动和民族解放运动；现代：战争与革命、和平与发展。",
+      "Theme": "世界现代史主要叙述20世纪以来战争与革命、和平与发展并存的历史进程，重点阐释当代世界的基本特征及其发展趋势。",
+      "note": "逻辑关系：【世界现代史】是【世界历史】主线的当今形态，其内容完全覆盖了主线中“战争与革命、和平与发展”的主题，展现了世界走向整体的历史趋势。"
+    }
+  },
+  {
+    "relationName": "rel_theme_supports_domain_interdisciplinary",
+    "label": "中国古代史_支撑_跨学科主题学习主线",
+    "source": "urn:jy:history:SB0307:OB03:Theme:1:OB03",
+    "target": "urn:jy:history:SB0307:OB03:Domain:3:OB03",
+    "evidence": {
+      "Domain": "跨学科主题学习：围绕“人类社会的不断演进”等主题，综合运用历史与相关学科知识与方法开展探究...",
+      "Theme": "（七）跨学科主题学习...跨学科主题学习活动各个主题涉及的内容，都来自中国历史和世界历史六个板块...课程内容中的前六个板块是历史学习的基础。",
+      "note": "逻辑关系：【中国古代史】为【跨学科主题学习】提供了必要的内容基础（如“古代典籍中的中华优秀传统文化”主题），跨学科学习是对该主题内容的综合运用与拓展。"
+    }
+  },
+  {
+    "relationName": "rel_theme_supports_domain_interdisciplinary",
+    "label": "中国近代史_支撑_跨学科主题学习主线",
+    "source": "urn:jy:history:SB0307:OB03:Theme:2:OB03",
+    "target": "urn:jy:history:SB0307:OB03:Domain:3:OB03",
+    "evidence": {
+      "Domain": "跨学科主题学习：围绕“人类社会的不断演进”等主题，综合运用历史与相关学科知识与方法开展探究...",
+      "Theme": "（七）跨学科主题学习...跨学科主题学习活动各个主题涉及的内容，都来自中国历史和世界历史六个板块...例如‘探寻红色文化的历史基因’主题。",
+      "note": "逻辑关系：【中国近代史】中的革命历程和红色文化资源，是【跨学科主题学习】中“探寻红色文化的历史基因”等特定主题的核心素材来源，支撑了主线的实践性学习。"
+    }
+  },
+  {
+    "relationName": "rel_theme_supports_domain_interdisciplinary",
+    "label": "中国现代史_支撑_跨学科主题学习主线",
+    "source": "urn:jy:history:SB0307:OB03:Theme:3:OB03",
+    "target": "urn:jy:history:SB0307:OB03:Domain:3:OB03",
+    "evidence": {
+      "Domain": "跨学科主题学习：围绕“人类社会的不断演进”等主题，综合运用历史与相关学科知识与方法开展探究...",
+      "Theme": "（七）跨学科主题学习...跨学科主题学习活动各个主题涉及的内容，都来自中国历史和世界历史六个板块...例如‘在身边发现历史’主题。",
+      "note": "逻辑关系：【中国现代史】关于社会主义建设和改革开放的成就，为【跨学科主题学习】（如社会调查、家乡变化等主题）提供了现实素材和探究背景。"
+    }
+  },
+  {
+    "relationName": "rel_theme_supports_domain_interdisciplinary",
+    "label": "世界古代史_支撑_跨学科主题学习主线",
+    "source": "urn:jy:history:SB0307:OB03:Theme:4:OB03",
+    "target": "urn:jy:history:SB0307:OB03:Domain:3:OB03",
+    "evidence": {
+      "Domain": "跨学科主题学习：围绕“人类社会的不断演进”等主题，综合运用历史与相关学科知识与方法开展探究...",
+      "Theme": "（七）跨学科主题学习...跨学科主题学习活动各个主题涉及的内容，都来自中国历史和世界历史六个板块...例如‘历史上的中外文化交流’。",
+      "note": "逻辑关系：【世界古代史】中的多元文明及其交流，为【跨学科主题学习】中关于文明比较、文化交流等宏大叙事提供了早期的历史事实支撑。"
+    }
+  },
+  {
+    "relationName": "rel_theme_supports_domain_interdisciplinary",
+    "label": "世界近代史_支撑_跨学科主题学习主线",
+    "source": "urn:jy:history:SB0307:OB03:Theme:5:OB03",
+    "target": "urn:jy:history:SB0307:OB03:Domain:3:OB03",
+    "evidence": {
+      "Domain": "跨学科主题学习：围绕“人类社会的不断演进”等主题，综合运用历史与相关学科知识与方法开展探究...",
+      "Theme": "（七）跨学科主题学习...跨学科主题学习活动各个主题涉及的内容，都来自中国历史和世界历史六个板块...例如‘生态环境与社会发展’。",
+      "note": "逻辑关系：【世界近代史】中工业革命带来的环境变化等内容，是【跨学科主题学习】中探讨“生态环境与社会发展”等现实问题的重要历史依据。"
+    }
+  },
+  {
+    "relationName": "rel_theme_supports_domain_interdisciplinary",
+    "label": "世界现代史_支撑_跨学科主题学习主线",
+    "source": "urn:jy:history:SB0307:OB03:Theme:6:OB03",
+    "target": "urn:jy:history:SB0307:OB03:Domain:3:OB03",
+    "evidence": {
+      "Domain": "跨学科主题学习：围绕“人类社会的不断演进”等主题，综合运用历史与相关学科知识与方法开展探究...",
+      "Theme": "（七）跨学科主题学习...跨学科主题学习活动各个主题涉及的内容，都来自中国历史和世界历史六个板块...例如‘历史地图上的世界格局’。",
+      "note": "逻辑关系：【世界现代史】中的国际格局演变和全球化趋势，为【跨学科主题学习】中关于世界格局分析、和平与发展等主题提供了直接的探究对象。"
+    }
+  }
+]

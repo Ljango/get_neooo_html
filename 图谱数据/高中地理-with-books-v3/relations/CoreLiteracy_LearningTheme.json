@@ -1,0 +1,1432 @@
+{
+  "relations": [
+    {
+      "relationName": "literacyEmbodiedInTheme",
+      "label": "蕴含 / embodiedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:01",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:001"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "培育 / cultivates",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:001",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:01"
+    },
+    {
+      "relationName": "literacyEmbodiedInTheme",
+      "label": "蕴含 / embodiedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:02",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:011"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "树立观念 / establishesConcept",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:011",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:02"
+    },
+    {
+      "relationName": "literacyEmbodiedInTheme",
+      "label": "蕴含 / embodiedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:03",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:022"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "树立理念 / establishesPhilosophy",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:022",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:03"
+    },
+    {
+      "relationName": "literacyRequiredByTheme",
+      "label": "需要 / requiredBy",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:04",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:004"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "增强意识与能力 / enhancesAwarenessAndAbility",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:004",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:04"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "应用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:05",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:006"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "解释现象 / explainsPhenomena",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:006",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:05"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "应用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:06",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:007"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "说明过程及意义 / illustratesProcessAndSignificance",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:007",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:06"
+    },
+    {
+      "relationName": "literacyFosteredByTheme",
+      "label": "助于理解 / helpsUnderstand",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:07",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:002"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "说明结构 / illustratesStructure",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:002",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:07"
+    },
+    {
+      "relationName": "literacyGuidesTheme",
+      "label": "统领 / guides",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:08",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:013"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "描述特点与说明因素 / describesCharacteristicsAndExplainsFactors",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:013",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:08"
+    },
+    {
+      "relationName": "literacyGuidesTheme",
+      "label": "统领 / guides",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:09",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:014"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "解释结构与说明意义 / explainsStructureAndSignificance",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:014",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:09"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:004"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "通过野外观察 / throughFieldObservation",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:004",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:11",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:009"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "通过野外观察或运用标本 / throughFieldObservationOrSpecimens",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:009",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:11"
+    },
+    {
+      "relationName": "literacyGoalOfTheme",
+      "label": "作为目标 / asGoal",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:12",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:012"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "通过探究了解应用 / throughInquiryToUnderstandApplication",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:012",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:12"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:01",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:024"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "说明意义 / illustratesSignificance",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:024",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:01"
+    },
+    {
+      "relationName": "literacyGuidesTheme",
+      "label": "统领 / guides",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:02",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:026"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "解释影响并说明关系 / explainsImpactAndRelation",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:026",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:02"
+    },
+    {
+      "relationName": "literacyEmbodiedInTheme",
+      "label": "蕴含 / embodiedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:03",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:032"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "分析整体性和差异性 / analyzesHolismAndDifferentiation",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:032",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:03"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "应用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:04",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:025"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "说明过程 / illustratesProcess",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:025",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:04"
+    },
+    {
+      "relationName": "literacyRequiredByTheme",
+      "label": "需要 / requiredBy",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:05",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:027"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "分析天气系统并解释现象 / analyzesWeatherSystemsAndExplainsPhenomena",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:027",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:05"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "应用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:06",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:028"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "说明分布并分析作用 / illustratesDistributionAndAnalyzesEffect",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:028",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:06"
+    },
+    {
+      "relationName": "literacyFosteredByTheme",
+      "label": "助于理解 / helpsUnderstand",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:07",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:033"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "说明含义及类型 / illustratesMeaningAndTypes",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:033",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:07"
+    },
+    {
+      "relationName": "literacyGuidesTheme",
+      "label": "统领 / guides",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:08",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:034"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "比较异同并说明意义 / comparesSimilaritiesAndDifferencesAndExplainsSignificance",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:034",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:08"
+    },
+    {
+      "relationName": "literacyEmbodiedInTheme",
+      "label": "蕴含 / embodiedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:09",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:035"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "说明辐射功能 / illustratesRadiationFunction",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:035",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:09"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:029"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "绘制示意图解释关系 / drawsDiagramToExplainRelationships",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:029",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:11",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:030"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "说明规律并举例说明影响 / illustratesPatternAndExamplesImpact",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:030",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:11"
+    },
+    {
+      "relationName": "literacyGoalOfTheme",
+      "label": "作为目标 / asGoal",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:12",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:031"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "分析影响并解释现象 / analyzesImpactAndExplainsPhenomena",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:031",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:12"
+    },
+    {
+      "relationName": "literacyEmbodiedInTheme",
+      "label": "蕴含 / embodiedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:01",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:042"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "说明关系 / illustratesRelationship",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:042",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:01"
+    },
+    {
+      "relationName": "literacyGuidesTheme",
+      "label": "统领 / guides",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:02",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:046"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "分析影响并说明重要性 / analyzesImpactAndExplainsImportance",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:046",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:02"
+    },
+    {
+      "relationName": "literacyEmbodiedInTheme",
+      "label": "蕴含 / embodiedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:03",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:049"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "说明关系 / illustratesRelationship",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:049",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:03"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "应用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:04",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:043"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "分析分布特点及现状 / analyzesDistributionAndCurrentSituation",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:043",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:04"
+    },
+    {
+      "relationName": "literacyRequiredByTheme",
+      "label": "需要 / requiredBy",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:05",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:044"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "描述分布并说明现状与关系 / describesDistributionAndExplainsCurrentSituationAndRelationship",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:044",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:05"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "应用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:06",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:045"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "说明影响 / illustratesImpact",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:045",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:06"
+    },
+    {
+      "relationName": "literacyFosteredByTheme",
+      "label": "助于理解 / helpsUnderstand",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:07",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:033"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "说明含义及类型 / illustratesMeaningAndTypes",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:033",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:07"
+    },
+    {
+      "relationName": "literacyGuidesTheme",
+      "label": "统领 / guides",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:08",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:038"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "说明问题及措施 / illustratesProblemsAndMeasures",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:038",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:08"
+    },
+    {
+      "relationName": "literacyEmbodiedInTheme",
+      "label": "蕴含 / embodiedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:09",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:039"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "说明影响 / illustratesImpact",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:039",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:09"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:047"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "说明意义 / illustratesSignificance",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:047",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:11",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:048"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "说明影响 / illustratesImpact",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:048",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:11"
+    },
+    {
+      "relationName": "literacyGoalOfTheme",
+      "label": "作为目标 / asGoal",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:12",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:041"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "说明意义 / illustratesSignificance",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:041",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:12"
+    },
+    {
+      "relationName": "literacyEmbodiedInTheme",
+      "label": "蕴含 / embodiedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:01",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:050"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "认识主要星座 / recognizeMajorConstellations",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:050",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:01"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:02",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:055"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "观察并描述现象并解释成因 / observeAndDescribePhenomenaAndExplainCauses",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:055",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:02"
+    },
+    {
+      "relationName": "literacyEmbodiedInTheme",
+      "label": "蕴含 / embodiedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:03",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:059"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "简述假说并描述组分 / brieflyDescribeHypothesisAndComponents",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:059",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:03"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "应用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:04",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:053"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "描述结构和运动特征 / describeStructureAndMotionFeatures",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:053",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:04"
+    },
+    {
+      "relationName": "literacyRequiredByTheme",
+      "label": "需要 / requiredBy",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:05",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:056"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "绘制结构图并说明活动及影响 / drawStructureDiagramAndExplainActivityAndImpact",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:056",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:05"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "应用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:06",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:057"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "描述概况并说明演化过程 / describeOverviewAndExplainEvolution",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:057",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:06"
+    },
+    {
+      "relationName": "literacyFosteredByTheme",
+      "label": "助于理解 / helpsUnderstand",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:07",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:060"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "说明主要类型及地形变化特点 / illustrateMainTypesAndTopographicChanges",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:060",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:07"
+    },
+    {
+      "relationName": "literacyGuidesTheme",
+      "label": "统领 / guides",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:08",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:061"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "分析海底地形特点和形成过程 / analyzeSeabedTopographyAndFormationProcess",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:061",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:08"
+    },
+    {
+      "relationName": "literacyEmbodiedInTheme",
+      "label": "蕴含 / embodiedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:09",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:063"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "解释相互作用关系并说明影响 / explainInteractionAndImpact",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:063",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:09"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:066"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "举例说明灾害及成因与举措 / exampleDisastersCausesAndMeasures",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:066",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:11",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:067"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "说明形成及危害与对策 / explainFormationHarmAndCountermeasures",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:067",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:11"
+    },
+    {
+      "relationName": "literacyGoalOfTheme",
+      "label": "作为目标 / asGoal",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:12",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:070"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "说明维护国家领土主权和海洋权益的重要性 / illustrateImportanceOfSovereigntyAndMaritimeRights",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:070",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:12"
+    },
+    {
+      "relationName": "literacyEmbodiedInTheme",
+      "label": "蕴含 / embodiedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:01",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:071"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "说明类型及影响 / illustrateTypesAndImpact",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:071",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:01"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:02",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:072"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "解释成因与危害 / explainCausesAndHazards",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:072",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:02"
+    },
+    {
+      "relationName": "literacyEmbodiedInTheme",
+      "label": "蕴含 / embodiedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:03",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:075"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "举例说明人类活动的影响 / exampleHumanActivityImpact",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:075",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:03"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "应用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:04",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:076"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "说明空间分布并比较差异 / illustrateSpatialDistributionAndCompareDifferences",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:076",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:04"
+    },
+    {
+      "relationName": "literacyRequiredByTheme",
+      "label": "需要 / requiredBy",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:05",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:077"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "说明环境特点 / illustrateEnvironmentalFeatures",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:077",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:05"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "应用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:06",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:080"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "说明地理信息技术在自然灾害中的运用 / illustrateGISApplicationInNaturalDisasters",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:080",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:06"
+    },
+    {
+      "relationName": "literacyFosteredByTheme",
+      "label": "助于理解 / helpsUnderstand",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:07",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:081"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "简要说明元素循环过程及影响 / brieflyExplainElementCycleAndImpact",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:081",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:07"
+    },
+    {
+      "relationName": "literacyGuidesTheme",
+      "label": "统领 / guides",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:08",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:082"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "说明全球主要环境问题与措施及成效 / illustrateGlobalEnvironmentalIssuesMeasuresAndEffectiveness",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:082",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:08"
+    },
+    {
+      "relationName": "literacyEmbodiedInTheme",
+      "label": "蕴含 / embodiedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:09",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:083"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "说明中国水资源概况和水环境污染及治理成效 / illustrateChinaWaterResourcesAndPollutionControl",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:083",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:09"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:084"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "学会水质采样方法及方案设计 / learnWaterSamplingMethodsAndDesign",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:084",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:11",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:085"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "设计水资源保护方案 / designWaterResourceProtectionPlan",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:085",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:11"
+    },
+    {
+      "relationName": "literacyGoalOfTheme",
+      "label": "作为目标 / asGoal",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:12",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:086"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "说明全球变暖影响及把握战略意义 / illustrateGlobalWarmingImpactAndGraspStrategicSignificance",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:086",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:12"
+    },
+    {
+      "relationName": "literacyEmbodiedInTheme",
+      "label": "蕴含 / embodiedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:01",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:087"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "解释机理并说明危害及防治措施 / explainMechanismAndHazardsAndControlMeasures",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:087",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:01"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:02",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:088"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "分析分布特征与成因并说明治理措施及成效 / analyzeDistributionAndCausesAndControlMeasures",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:088",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:02"
+    },
+    {
+      "relationName": "literacyEmbodiedInTheme",
+      "label": "蕴含 / embodiedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:03",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:090"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "解释成因和特点并说明类型及修复成效 / explainCausesAndCharacteristicsAndTypesAndRestoration",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:090",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:03"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "应用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:04",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:091"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "学会土壤样品采集方法及方案设计 / learnSoilSamplingMethodsAndDesign",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:091",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:04"
+    },
+    {
+      "relationName": "literacyRequiredByTheme",
+      "label": "需要 / requiredBy",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:05",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:092"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "说明环境管理的基本内容和主要手段 / illustrateEnvironmentalManagementContentAndMeans",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:092",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:05"
+    },
+    {
+      "relationName": "literacyEmbodiedInTheme",
+      "label": "蕴含 / embodiedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:01",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:093"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "描述旅游资源分类和内涵 / describeTourismResourceClassificationAndConnotation",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:093",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:01"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:02",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:094"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "举例说明旅游资源的成因和价值 / exampleTourismResourceCausesAndValue",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:094",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:02"
+    },
+    {
+      "relationName": "literacyEmbodiedInTheme",
+      "label": "蕴含 / embodiedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:03",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:095"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "区别自然遗产和文化遗产并说明保护方式和意义 / distinguishNaturalAndCulturalHeritageAndProtection",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:095",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:03"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "应用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:04",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:096"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "评价旅游资源开发条件 / evaluateTourismResourceDevelopmentConditions",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:096",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:04"
+    },
+    {
+      "relationName": "literacyRequiredByTheme",
+      "label": "需要 / requiredBy",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:05",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:097"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "分析旅游目的地和旅游客源地关系 / analyzeTourismDestinationAndSourceRelationship",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:097",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:05"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "应用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:06",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:098"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "分析旅游业对区域经济、社会、文化发展的带动作用 / analyzeTourismDrivingEffectOnRegionalDevelopment",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:098",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:06"
+    },
+    {
+      "relationName": "literacyFosteredByTheme",
+      "label": "助于理解 / helpsUnderstand",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:07",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:099"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "举例说明旅游开发过程中的环境保护措施 / exampleEnvironmentalProtectionMeasuresInTourismDevelopment",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:099",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:07"
+    },
+    {
+      "relationName": "literacyGuidesTheme",
+      "label": "统领 / guides",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:08",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:100"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "设计旅游方案 / designTourismPlan",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:100",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:08"
+    },
+    {
+      "relationName": "literacyEmbodiedInTheme",
+      "label": "蕴含 / embodiedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:09",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:101"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "举例说明自然地理条件与旅游安全的关系及安全措施 / exampleRelationshipBetweenPhysicalGeographyAndTourismSafety",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:101",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:09"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:100"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "设计旅游方案 / designTourismPlan",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:100",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:11",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:101"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "举例说明自然地理条件与旅游安全的关系及安全措施 / exampleRelationshipBetweenPhysicalGeographyAndTourismSafety",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:101",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:11"
+    },
+    {
+      "relationName": "literacyGoalOfTheme",
+      "label": "作为目标 / asGoal",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:12",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:095"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "区别自然遗产和文化遗产并说明保护方式和意义 / distinguishNaturalAndCulturalHeritageAndProtection",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:095",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:12"
+    },
+    {
+      "relationName": "literacyGuidesTheme",
+      "label": "统领 / guides",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:08",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:102"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "举例说明 / example",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:102",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:08"
+    },
+    {
+      "relationName": "literacyGuidesTheme",
+      "label": "统领 / guides",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:08",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:103"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "举例说明 / example",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:103",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:08"
+    },
+    {
+      "relationName": "literacyGuidesTheme",
+      "label": "统领 / guides",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:08",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:104"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "分析 / analyze",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:104",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:08"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:104"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "分析 / analyze",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:104",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10"
+    },
+    {
+      "relationName": "literacyGuidesTheme",
+      "label": "统领 / guides",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:08",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:105"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "阐述 / elaborate",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:105",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:08"
+    },
+    {
+      "relationName": "literacyGuidesTheme",
+      "label": "统领 / guides",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:08",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:106"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "举例说明 / example",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:106",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:08"
+    },
+    {
+      "relationName": "literacyGuidesTheme",
+      "label": "统领 / guides",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:08",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:107"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "举例说明 / example",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:107",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:08"
+    },
+    {
+      "relationName": "literacyGuidesTheme",
+      "label": "统领 / guides",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:08",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:108"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "说明 / illustrate",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:108",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:08"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:108"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "说明 / illustrate",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:108",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10"
+    },
+    {
+      "relationName": "literacyGuidesTheme",
+      "label": "统领 / guides",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:08",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:109"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "说明 / illustrate",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:109",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:08"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:109"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "说明 / illustrate",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:109",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10"
+    },
+    {
+      "relationName": "literacyGuidesTheme",
+      "label": "统领 / guides",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:08",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:110"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "评价 / evaluate",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:110",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:08"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:110"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "评价 / evaluate",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:110",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10"
+    },
+    {
+      "relationName": "literacyGuidesTheme",
+      "label": "统领 / guides",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:08",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:111"
+    },
+    {
+      "relationName": "themeCultivatesLiteracy",
+      "label": "说明 / illustrate",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:111",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:08"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:111"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "说明 / illustrate",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:111",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:04",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:122"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "描述 / describe",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:122",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:04"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:122"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "描述 / describe",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:122",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:04",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:123"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "解释并说明 / explainAndIllustrate",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:123",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:04"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:123"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "解释并说明 / explainAndIllustrate",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:123",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:124"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "了解并说出 / understandAndState",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:124",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:125"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "解释并学会 / explainAndLearn",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:125",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:04",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:126"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "学会并分析 / learnAndAnalyze",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:126",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:04"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:126"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "学会并分析 / learnAndAnalyze",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:126",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:04",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:127"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "学会使用 / learnToUse",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:127",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:04"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:127"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "学会使用 / learnToUse",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:127",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:04",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:128"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "解释并说明 / explainAndIllustrate",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:128",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:04"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:128"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "解释并说明 / explainAndIllustrate",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:128",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:04",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:129"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "说明并判读 / illustrateAndInterpret",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:129",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:04"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:129"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "说明并判读 / illustrateAndInterpret",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:129",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:04",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:130"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "解释并说出 / explainAndState",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:130",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:04"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:130"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "解释并说出 / explainAndState",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:130",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:131"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "学会运用 / learnToApply",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:131",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:132"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "学会运用并设计 / learnToApplyAndDesign",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:132",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:133"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "运用并获取 / applyAndAcquire",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:133",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:134"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "阅读并识别 / readAndIdentify",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:134",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:135"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "观察并绘制 / observeAndDraw",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:135",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:136"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "学会并采集 / learnAndCollect",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:136",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:137"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "识别并认识 / identifyAndUnderstand",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:137",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:138"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "观察并推断 / observeAndInfer",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:138",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:139"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "学会收集并观察 / learnToCollectAndObserve",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:139",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:140"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "学会并进行 / learnAndConduct",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:140",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10"
+    },
+    {
+      "relationName": "literacyAppliedInTheme",
+      "label": "运用于 / appliedIn",
+      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10",
+      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:141"
+    },
+    {
+      "relationName": "themeDevelopsLiteracy",
+      "label": "学会撰写并进行 / learnToWriteAndConduct",
+      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:141",
+      "target": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10"
+    }
+  ]
+}

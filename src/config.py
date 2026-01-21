@@ -99,7 +99,7 @@ SUBJECT_CONFIG = {
     "高中化学": {
         "icon": "⚗️",
         "display_name": "高中化学",
-        "data_dir": "高中化学_with-books",
+        "data_dir": "高中化学-with-books",
         "files": ["高中化学_课标.html"],
         "color": "#8e44ad",
         "neo4j_label": "GaoZhongHuaXue"  # 高中化学
@@ -123,7 +123,7 @@ SUBJECT_CONFIG = {
     "高中地理": {
         "icon": "🗺️",
         "display_name": "高中地理",
-        "data_dir": "高中地理-with-books",
+        "data_dir": "高中地理-with-books-v3",
         "files": ["高中地理_课标.html"],
         "color": "#3498db",
         "neo4j_label": "GaoZhongDiLi"  # 高中地理
@@ -156,7 +156,7 @@ SUBJECT_CONFIG = {
     "义教地理": {
         "icon": "🌍",
         "display_name": "义教地理",
-        "data_dir": "义教地理-with-books-v2",
+        "data_dir": "义教地理-with-books-v3",
         "files": ["义教地理_课标.html"],
         "color": "#1abc9c",
         "neo4j_label": "YiJiaoDiLi"  # 义教地理
@@ -188,7 +188,7 @@ SUBJECT_CONFIG = {
     "义教历史": {
         "icon": "📜",
         "display_name": "义教历史",
-        "data_dir": "义务教育历史",
+        "data_dir": "义教历史-with-books",
         "files": ["义教历史_课标.html"],
         "color": "#8e44ad",
         "neo4j_label": "YiJiaoLiShi"  # 义教历史
@@ -196,7 +196,7 @@ SUBJECT_CONFIG = {
     "高中历史": {
         "icon": "🏛️",
         "display_name": "高中历史",
-        "data_dir": "高中历史",
+        "data_dir": "高中历史-with-books",
         "files": ["高中历史_课标.html"],
         "color": "#6c5ce7",
         "neo4j_label": "GaoZhongLiShi"  # 高中历史

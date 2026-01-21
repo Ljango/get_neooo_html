@@ -267,6 +267,15 @@ def main():
     serve_parser.add_argument('-H', '--host', type=str, default='0.0.0.0',
                             help='监听地址 (默认: 0.0.0.0)')
     
+    # 启动Neo4j查询API服务命令
+    api_parser = subparsers.add_parser('api', help='启动Neo4j查询API服务器')
+    api_parser.add_argument('-p', '--port', type=int, default=8889,
+                           help='端口号 (默认: 8889)')
+    api_parser.add_argument('-H', '--host', type=str, default='0.0.0.0',
+                           help='监听地址 (默认: 0.0.0.0)')
+    api_parser.add_argument('--env', type=str, default='.env',
+                           help='环境配置文件 (默认: .env)')
+    
     # 同步命令（一步到位更新）
     sync_parser = subparsers.add_parser('sync', help='同步学科数据（生成HTML + 更新索引）')
     sync_group = sync_parser.add_mutually_exclusive_group(required=True)
@@ -306,6 +315,14 @@ def main():
             sync_all()
         elif args.subject:
             sync_subject(args.subject)
+    
+    elif args.command == 'api':
+        try:
+            from neo4j_query_api import start_api_server
+            start_api_server(port=args.port, host=args.host, env_file=args.env)
+        except ImportError as e:
+            print(f"❌ 无法启动API服务器: {e}")
+            print("请确保已安装依赖: pip install neo4j python-dotenv")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,167 @@
+[
+  {
+    "relationName": "rel_domain_cultivates_literacy",
+    "label": "中国历史_培养_唯物史观",
+    "source": "urn:jy:history:SB0307:OB03:Domain:1:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:1:OB03",
+    "evidence": {
+      "Domain": "中国历史内容包括：古代...近代...现代...",
+      "CoreLiteracy": "唯物史观是揭示人类社会历史客观基础及发展规律的科学的历史观和方法论。",
+      "note": "逻辑关系：通过中国历史（如“能够通过了解中国古代历史发展的具体史实...运用唯物史观作出合理的解释与简要评价”），培养学生运用生产力与生产关系、人民群众创造历史等唯物史观观点分析历史问题的能力。"
+    }
+  },
+  {
+    "relationName": "rel_domain_cultivates_literacy",
+    "label": "中国历史_培养_时空观念",
+    "source": "urn:jy:history:SB0307:OB03:Domain:1:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:2:OB03",
+    "evidence": {
+      "Domain": "中国历史内容包括：古代...近代...现代...",
+      "CoreLiteracy": "时空观念是在特定的时间联系和空间联系中对事物进行观察、分析的意识和思维方式。",
+      "note": "逻辑关系：中国历史的学习要求学生“将重要历史事件、人物、现象置于正确的时间和空间之中”，如“以中国的疆域为例，能够从古今联系与变化的角度，对其进行简要论述”，从而确立时空观念。"
+    }
+  },
+  {
+    "relationName": "rel_domain_cultivates_literacy",
+    "label": "中国历史_培养_史料实证",
+    "source": "urn:jy:history:SB0307:OB03:Domain:1:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:3:OB03",
+    "evidence": {
+      "Domain": "中国历史内容包括：古代...近代...现代...",
+      "CoreLiteracy": "史料实证是指对获取的史料进行辨析，并运用可信史料努力重现历史真实的态度与方法。",
+      "note": "逻辑关系：在学业质量标准中，明确要求学生“能够准确理解教材和教学活动中所提供的可信史料...尝试运用这些史料对重要史事进行简要说明”，这贯穿于中国历史的学习中。"
+    }
+  },
+  {
+    "relationName": "rel_domain_cultivates_literacy",
+    "label": "中国历史_培养_历史解释",
+    "source": "urn:jy:history:SB0307:OB03:Domain:1:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:4:OB03",
+    "evidence": {
+      "Domain": "中国历史内容包括：古代...近代...现代...",
+      "CoreLiteracy": "历史解释是指以史料为依据，客观地认识和评判历史的态度和方法。",
+      "note": "逻辑关系：学业质量标准要求学生通过中国历史的学习，“了解历史发展的重要史事和各种联系...简要说明不同历史时期的时代特征...并在自己的叙述中加以体现”，这正是历史解释能力的体现。"
+    }
+  },
+  {
+    "relationName": "rel_domain_cultivates_literacy",
+    "label": "中国历史_培养_家国情怀",
+    "source": "urn:jy:history:SB0307:OB03:Domain:1:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:5:OB03",
+    "evidence": {
+      "Domain": "中国历史内容包括：古代...近代...现代...",
+      "CoreLiteracy": "家国情怀是学习和探究历史应具有的人文追求与社会责任。",
+      "note": "逻辑关系：通过中国历史学习，如“通过我国改革开放以来... 增进爱祖国、爱家乡的情感，铸牢中华民族共同体意识... 坚定中国特色社会主义道路自信”，直接指向家国情怀的培育。"
+    }
+  },
+  {
+    "relationName": "rel_domain_cultivates_literacy",
+    "label": "世界历史_培养_唯物史观",
+    "source": "urn:jy:history:SB0307:OB03:Domain:2:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:1:OB03",
+    "evidence": {
+      "Domain": "世界历史内容包括：古代...近代...现代...",
+      "CoreLiteracy": "唯物史观是揭示人类社会历史客观基础及发展规律的科学的历史观和方法论。",
+      "note": "逻辑关系：在学业质量标准中，要求学生“能够通过学习世界历史... 知道资本主义、社会主义和殖民地半殖民地民族解放运动的发展”，理解社会形态演变规律，体现唯物史观的指导。"
+    }
+  },
+  {
+    "relationName": "rel_domain_cultivates_literacy",
+    "label": "世界历史_培养_时空观念",
+    "source": "urn:jy:history:SB0307:OB03:Domain:2:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:2:OB03",
+    "evidence": {
+      "Domain": "世界历史内容包括：古代...近代...现代...",
+      "CoreLiteracy": "时空观念是在特定的时间联系和空间联系中对事物进行观察、分析的意识和思维方式。",
+      "note": "逻辑关系：学习世界历史需要“了解世界文明的多元性、差异性及其发展的不平衡性，了解世界历史的形成过程”，这要求学生在宏阔的世界时空框架下考察历史。"
+    }
+  },
+  {
+    "relationName": "rel_domain_cultivates_literacy",
+    "label": "世界历史_培养_史料实证",
+    "source": "urn:jy:history:SB0307:OB03:Domain:2:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:3:OB03",
+    "evidence": {
+      "Domain": "世界历史内容包括：古代...近代...现代...",
+      "CoreLiteracy": "史料实证是指对获取的史料进行辨析，并运用可信史料努力重现历史真实的态度与方法。",
+      "note": "逻辑关系：学业质量标准明确指出，通过学习世界历史，要达成包括“史料实证”在内的核心素养要求，运用史料认识世界历史的进程。"
+    }
+  },
+  {
+    "relationName": "rel_domain_cultivates_literacy",
+    "label": "世界历史_培养_历史解释",
+    "source": "urn:jy:history:SB0307:OB03:Domain:2:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:4:OB03",
+    "evidence": {
+      "Domain": "世界历史内容包括：古代...近代...现代...",
+      "CoreLiteracy": "历史解释是指以史料为依据，客观地认识和评判历史的态度和方法。",
+      "note": "逻辑关系：学生需“初步理解和平、发展、合作、共赢是不可阻挡的历史潮流”，这属于对世界历史发展趋势的理性解释和评判。"
+    }
+  },
+  {
+    "relationName": "rel_domain_cultivates_literacy",
+    "label": "世界历史_培养_家国情怀",
+    "source": "urn:jy:history:SB0307:OB03:Domain:2:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:5:OB03",
+    "evidence": {
+      "Domain": "世界历史内容包括：古代...近代...现代...",
+      "CoreLiteracy": "家国情怀是学习和探究历史应具有的人文追求与社会责任...具有国际视野...",
+      "note": "逻辑关系：通过世界历史学习，学生应“初步具有国际视野和全球意识... 形成构建人类命运共同体的意识”，这是家国情怀在国际层面的延伸。"
+    }
+  },
+  {
+    "relationName": "rel_domain_cultivates_literacy",
+    "label": "跨学科主题学习_培养_唯物史观",
+    "source": "urn:jy:history:SB0307:OB03:Domain:3:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:1:OB03",
+    "evidence": {
+      "Domain": "跨学科主题学习：围绕“人类社会的不断演进”等主题...",
+      "CoreLiteracy": "唯物史观...人类对历史的认识是由表及里、逐渐深化的...",
+      "note": "逻辑关系：在“跨学科主题学习”板块（如“中华英雄谱”活动），明确提出“进一步培育唯物史观... 等素养”，要求学生在综合探究中运用唯物史观指导实践。"
+    }
+  },
+  {
+    "relationName": "rel_domain_cultivates_literacy",
+    "label": "跨学科主题学习_培养_时空观念",
+    "source": "urn:jy:history:SB0307:OB03:Domain:3:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:2:OB03",
+    "evidence": {
+      "Domain": "跨学科主题学习... 综合运用历史与相关学科知识与方法...",
+      "CoreLiteracy": "时空观念... 在义务教育阶段，要求学生学会在具体的时空条件下考察历史。",
+      "note": "逻辑关系：跨学科主题如“历史地图上的世界格局”，直接旨在“加强时空观念... 等核心素养”，通过识读不同时期的地图比较世界格局变化。"
+    }
+  },
+  {
+    "relationName": "rel_domain_cultivates_literacy",
+    "label": "跨学科主题学习_培养_史料实证",
+    "source": "urn:jy:history:SB0307:OB03:Domain:3:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:3:OB03",
+    "evidence": {
+      "Domain": "跨学科主题学习... 开展深入探究、解决问题的综合实践活动。",
+      "CoreLiteracy": "史料实证... 运用可信史料努力重现历史真实...",
+      "note": "逻辑关系：主题如“在身边发现历史”，要求学生“搜集身边的... 物品资料”，进行史料研习，从而在实践中提升史料实证素养。"
+    }
+  },
+  {
+    "relationName": "rel_domain_cultivates_literacy",
+    "label": "跨学科主题学习_培养_历史解释",
+    "source": "urn:jy:history:SB0307:OB03:Domain:3:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:4:OB03",
+    "evidence": {
+      "Domain": "跨学科主题学习... 形成跨学科理解与解决问题的能力。",
+      "CoreLiteracy": "历史解释... 初步学会有理有据地表达自己对历史的看法。",
+      "note": "逻辑关系：在主题如“历史上的中外文化交流”中，学生需要“对中外文化交流进行梳理和研究”，形成自己的理解和解释，培育历史解释素养。"
+    }
+  },
+  {
+    "relationName": "rel_domain_cultivates_literacy",
+    "label": "跨学科主题学习_培养_家国情怀",
+    "source": "urn:jy:history:SB0307:OB03:Domain:3:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:5:OB03",
+    "evidence": {
+      "Domain": "跨学科主题学习... 将培育学生的正确价值观、必备品格和关键能力有机融合。",
+      "CoreLiteracy": "家国情怀... 形成对家乡、国家和中华民族的认同...",
+      "note": "逻辑关系：主题如“探寻红色文化的历史基因”，旨在“体认革命精神，弘扬革命传统，传承红色基因”，直接指向家国情怀的培育。"
+    }
+  }
+]
