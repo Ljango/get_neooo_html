@@ -213,7 +213,7 @@ SUBJECT_CONFIG = {
     "高中英语": {
         "icon": "🔤",
         "display_name": "高中英语",
-        "data_dir": "高中英语",
+        "data_dir": "高中英语-with-books-v2",
         "files": ["高中英语_课标.html"],
         "color": "#e84393",
         "neo4j_label": "GaoZhongYingYu"  # 高中英语

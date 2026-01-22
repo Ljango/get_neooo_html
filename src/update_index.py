@@ -107,7 +107,7 @@ def generate_index_html(subject_files, unknown_files):
         "物理": {
             "icon": "⚡",
             "highschool": ("高中物理", "#3498db"),
-            "yijiao": ("义教物理", "#e74c3c"),
+            "yijiao": [("义教物理8上下9全册", "#e74c3c"), ("义教物理89全册", "#e74c3c")],
             "color": "#3498db"
         },
         "化学": {
@@ -668,11 +668,31 @@ def generate_index_html(subject_files, unknown_files):
     # 按学科分组生成
     for subject_name, grouping in SUBJECT_GROUPING.items():
         hs_key, hs_color = grouping["highschool"] if grouping["highschool"] else (None, None)
-        yj_key, yj_color = grouping["yijiao"] if grouping["yijiao"] else (None, None)
+        
+        # 支持yijiao为列表或元组
+        yj_config = grouping.get("yijiao")
+        if isinstance(yj_config, list):
+            # 多个义教版本
+            yj_keys = [item[0] for item in yj_config]
+            yj_colors = [item[1] for item in yj_config]
+            yj_key = None
+            yj_color = None
+        elif yj_config:
+            # 单个义教版本
+            yj_key, yj_color = yj_config
+            yj_keys = [yj_key]
+            yj_colors = [yj_color]
+        else:
+            yj_key = None
+            yj_color = None
+            yj_keys = []
+            yj_colors = []
+        
         cz_key, cz_color = grouping.get("chuzhong", (None, None)) if isinstance(grouping.get("chuzhong"), tuple) else (None, None)
         
         # 如果高中、义教或初中有数据，才显示这个学科组
-        has_data = (hs_key and hs_key in subject_files) or (yj_key and yj_key in subject_files) or (cz_key and cz_key in subject_files)
+        has_yijiao_data = any(k and k in subject_files for k in yj_keys)
+        has_data = (hs_key and hs_key in subject_files) or has_yijiao_data or (cz_key and cz_key in subject_files)
         
         if has_data:
             html_parts.append(f"""
@@ -691,9 +711,13 @@ def generate_index_html(subject_files, unknown_files):
                 html_parts.append('<div class="subject-column"></div>')
             
             # 义教/初中列
-            # 对于地理学科，如果同时有义教和初中，合并显示在义教列中
-            # 对于其他学科，优先显示义教，如果没有则显示初中
-            if yj_key and yj_key in subject_files:
+            # 如果yijiao是列表（多个版本），为每个版本生成列
+            if len(yj_keys) > 1 and has_yijiao_data:
+                # 多个义教版本，每个生成一列
+                for yj_k, yj_c in zip(yj_keys, yj_colors):
+                    if yj_k and yj_k in subject_files:
+                        html_parts.append(generate_subject_column(yj_k, f"义教{subject_name}", yj_c, grouping['icon']))
+            elif yj_key and yj_key in subject_files:
                 # 如果同时有初中地理，合并显示
                 if subject_name == "地理" and cz_key and cz_key in subject_files:
                     # 合并显示义教和初中地理

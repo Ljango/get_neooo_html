@@ -1,0 +1,794 @@
+[
+  {
+    "relationName": "knowledgeSupportsSubsection",
+    "label": "语言知识支撑小节 / Linguistic Knowledge supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:10",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:1",
+    "evidence": {
+      "mdEvidence": "和实际教学中，出于表达意义的需要，可能会出现少量超出本阶段语法内容要求的现象，对这些语法现象，有必要帮助学生理解。 # 4. 语篇知识 # 【内容要求】 语篇是人们在具体语境中，为实现某种交际目的而使用的有意义的语言单位，包括口语语篇和书面语篇，是语言实际运用的常见形式。在使用语言的过程中，语言使用者不仅需要运用语音、词汇和语法知识，也需要语篇知识。语篇知识主要涉及语言的组织和使用方式，有助于学生理解和建构连贯、合理的语言篇章。 语篇中各要素之间存在复杂的关系，如句与句、段与",
+      "mappingRule": "基于小节标题判定：Reading Lifestyles -> 语篇知识（必修）。",
+      "note": "语篇知识（必修） -> Reading Lifestyles"
+    }
+  },
+  {
+    "relationName": "subsectionRequiresKnowledge",
+    "label": "小节需要语言知识 / Subsection requires Linguistic Knowledge",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:1",
+    "target": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:10",
+    "evidence": {
+      "mdEvidence": "和实际教学中，出于表达意义的需要，可能会出现少量超出本阶段语法内容要求的现象，对这些语法现象，有必要帮助学生理解。 # 4. 语篇知识 # 【内容要求】 语篇是人们在具体语境中，为实现某种交际目的而使用的有意义的语言单位，包括口语语篇和书面语篇，是语言实际运用的常见形式。在使用语言的过程中，语言使用者不仅需要运用语音、词汇和语法知识，也需要语篇知识。语篇知识主要涉及语言的组织和使用方式，有助于学生理解和建构连贯、合理的语言篇章。 语篇中各要素之间存在复杂的关系，如句与句、段与",
+      "mappingRule": "基于小节标题判定：Reading Lifestyles -> 语篇知识（必修）。",
+      "note": "Reading Lifestyles -> 语篇知识（必修）"
+    }
+  },
+  {
+    "relationName": "knowledgeSupportsSubsection",
+    "label": "语言知识支撑小节 / Linguistic Knowledge supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:7",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:2",
+    "evidence": {
+      "mdEvidence": ".运用所学的语法知识，理解口语和书面语篇的基本意义，描述真实和想象世界中的人和物、情景和事件，简单地表达观点、意图和情感态度，在生活中进行一般性的人际交流；3.在语篇中理解和使用过去将来时态；4.在语篇中理解和使用现在进行和现在完成时态的被动语态；5.在语篇中理解和使用动词不定式作句子中的定语和结果状语；6.在语篇中理解和使用动词-ing形式作句子中的定语、状语和补语；7.在语篇中理解和使用动词-ed形式作句子中的定语、状语和补语；8.在语篇中理解和使用由关系代词that、which、who、whom、whose和",
+      "mappingRule": "基于小节标题判定：Focus on Language:Infinitives -> 语法知识（必修）。",
+      "note": "语法知识（必修） -> Focus on Language:Infinitives"
+    }
+  },
+  {
+    "relationName": "subsectionRequiresKnowledge",
+    "label": "小节需要语言知识 / Subsection requires Linguistic Knowledge",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:2",
+    "target": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:7",
+    "evidence": {
+      "mdEvidence": ".运用所学的语法知识，理解口语和书面语篇的基本意义，描述真实和想象世界中的人和物、情景和事件，简单地表达观点、意图和情感态度，在生活中进行一般性的人际交流；3.在语篇中理解和使用过去将来时态；4.在语篇中理解和使用现在进行和现在完成时态的被动语态；5.在语篇中理解和使用动词不定式作句子中的定语和结果状语；6.在语篇中理解和使用动词-ing形式作句子中的定语、状语和补语；7.在语篇中理解和使用动词-ed形式作句子中的定语、状语和补语；8.在语篇中理解和使用由关系代词that、which、who、whom、whose和",
+      "mappingRule": "基于小节标题判定：Focus on Language:Infinitives -> 语法知识（必修）。",
+      "note": "Focus on Language:Infinitives -> 语法知识（必修）"
+    }
+  },
+  {
+    "relationName": "knowledgeSupportsSubsection",
+    "label": "语言知识支撑小节 / Linguistic Knowledge supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:4",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:3",
+    "evidence": {
+      "mdEvidence": "选择性必修和选修（提高类）阶段，可以通过英文诗歌朗诵、戏剧表演、影视配音等活动提高学生发音的准确性和表达的流畅性。 # 2. 词汇知识 # 【内容要求】 词是语言的建构材料，也是最小的能够独立运用的语言单位。任何 词都是通过一定的句法关系和语义关系与其他词建立起一定联系，并在语境中传递信息。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的词汇知识内容要求如表5所示： 表 5 词汇知识内容要求 <table><tr><td>课程类别</td><td>内容要求</td",
+      "mappingRule": "基于小节标题判定：1 Teatime -> 词汇知识（必修）。",
+      "note": "词汇知识（必修） -> 1 Teatime"
+    }
+  },
+  {
+    "relationName": "subsectionRequiresKnowledge",
+    "label": "小节需要语言知识 / Subsection requires Linguistic Knowledge",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:3",
+    "target": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:4",
+    "evidence": {
+      "mdEvidence": "选择性必修和选修（提高类）阶段，可以通过英文诗歌朗诵、戏剧表演、影视配音等活动提高学生发音的准确性和表达的流畅性。 # 2. 词汇知识 # 【内容要求】 词是语言的建构材料，也是最小的能够独立运用的语言单位。任何 词都是通过一定的句法关系和语义关系与其他词建立起一定联系，并在语境中传递信息。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的词汇知识内容要求如表5所示： 表 5 词汇知识内容要求 <table><tr><td>课程类别</td><td>内容要求</td",
+      "mappingRule": "基于小节标题判定：1 Teatime -> 词汇知识（必修）。",
+      "note": "1 Teatime -> 词汇知识（必修）"
+    }
+  },
+  {
+    "relationName": "knowledgeSupportsSubsection",
+    "label": "语言知识支撑小节 / Linguistic Knowledge supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:4",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:4",
+    "evidence": {
+      "mdEvidence": "选择性必修和选修（提高类）阶段，可以通过英文诗歌朗诵、戏剧表演、影视配音等活动提高学生发音的准确性和表达的流畅性。 # 2. 词汇知识 # 【内容要求】 词是语言的建构材料，也是最小的能够独立运用的语言单位。任何 词都是通过一定的句法关系和语义关系与其他词建立起一定联系，并在语境中传递信息。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的词汇知识内容要求如表5所示： 表 5 词汇知识内容要求 <table><tr><td>课程类别</td><td>内容要求</td",
+      "mappingRule": "基于小节标题判定：2 City or Country? -> 词汇知识（必修）。",
+      "note": "词汇知识（必修） -> 2 City or Country?"
+    }
+  },
+  {
+    "relationName": "subsectionRequiresKnowledge",
+    "label": "小节需要语言知识 / Subsection requires Linguistic Knowledge",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:4",
+    "target": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:4",
+    "evidence": {
+      "mdEvidence": "选择性必修和选修（提高类）阶段，可以通过英文诗歌朗诵、戏剧表演、影视配音等活动提高学生发音的准确性和表达的流畅性。 # 2. 词汇知识 # 【内容要求】 词是语言的建构材料，也是最小的能够独立运用的语言单位。任何 词都是通过一定的句法关系和语义关系与其他词建立起一定联系，并在语境中传递信息。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的词汇知识内容要求如表5所示： 表 5 词汇知识内容要求 <table><tr><td>课程类别</td><td>内容要求</td",
+      "mappingRule": "基于小节标题判定：2 City or Country? -> 词汇知识（必修）。",
+      "note": "2 City or Country? -> 词汇知识（必修）"
+    }
+  },
+  {
+    "relationName": "knowledgeSupportsSubsection",
+    "label": "语言知识支撑小节 / Linguistic Knowledge supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:10",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:5",
+    "evidence": {
+      "mdEvidence": "和实际教学中，出于表达意义的需要，可能会出现少量超出本阶段语法内容要求的现象，对这些语法现象，有必要帮助学生理解。 # 4. 语篇知识 # 【内容要求】 语篇是人们在具体语境中，为实现某种交际目的而使用的有意义的语言单位，包括口语语篇和书面语篇，是语言实际运用的常见形式。在使用语言的过程中，语言使用者不仅需要运用语音、词汇和语法知识，也需要语篇知识。语篇知识主要涉及语言的组织和使用方式，有助于学生理解和建构连贯、合理的语言篇章。 语篇中各要素之间存在复杂的关系，如句与句、段与",
+      "mappingRule": "基于小节标题判定：Reading The Underdog -> 语篇知识（必修）。",
+      "note": "语篇知识（必修） -> Reading The Underdog"
+    }
+  },
+  {
+    "relationName": "subsectionRequiresKnowledge",
+    "label": "小节需要语言知识 / Subsection requires Linguistic Knowledge",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:5",
+    "target": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:10",
+    "evidence": {
+      "mdEvidence": "和实际教学中，出于表达意义的需要，可能会出现少量超出本阶段语法内容要求的现象，对这些语法现象，有必要帮助学生理解。 # 4. 语篇知识 # 【内容要求】 语篇是人们在具体语境中，为实现某种交际目的而使用的有意义的语言单位，包括口语语篇和书面语篇，是语言实际运用的常见形式。在使用语言的过程中，语言使用者不仅需要运用语音、词汇和语法知识，也需要语篇知识。语篇知识主要涉及语言的组织和使用方式，有助于学生理解和建构连贯、合理的语言篇章。 语篇中各要素之间存在复杂的关系，如句与句、段与",
+      "mappingRule": "基于小节标题判定：Reading The Underdog -> 语篇知识（必修）。",
+      "note": "Reading The Underdog -> 语篇知识（必修）"
+    }
+  },
+  {
+    "relationName": "knowledgeSupportsSubsection",
+    "label": "语言知识支撑小节 / Linguistic Knowledge supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:7",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:6",
+    "evidence": {
+      "mdEvidence": ".运用所学的语法知识，理解口语和书面语篇的基本意义，描述真实和想象世界中的人和物、情景和事件，简单地表达观点、意图和情感态度，在生活中进行一般性的人际交流；3.在语篇中理解和使用过去将来时态；4.在语篇中理解和使用现在进行和现在完成时态的被动语态；5.在语篇中理解和使用动词不定式作句子中的定语和结果状语；6.在语篇中理解和使用动词-ing形式作句子中的定语、状语和补语；7.在语篇中理解和使用动词-ed形式作句子中的定语、状语和补语；8.在语篇中理解和使用由关系代词that、which、who、whom、whose和",
+      "mappingRule": "基于小节标题判定：Focus on Language:Relative Clauses(1) -> 语法知识（必修）。",
+      "note": "语法知识（必修） -> Focus on Language:Relative Clauses(1)"
+    }
+  },
+  {
+    "relationName": "subsectionRequiresKnowledge",
+    "label": "小节需要语言知识 / Subsection requires Linguistic Knowledge",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:6",
+    "target": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:7",
+    "evidence": {
+      "mdEvidence": ".运用所学的语法知识，理解口语和书面语篇的基本意义，描述真实和想象世界中的人和物、情景和事件，简单地表达观点、意图和情感态度，在生活中进行一般性的人际交流；3.在语篇中理解和使用过去将来时态；4.在语篇中理解和使用现在进行和现在完成时态的被动语态；5.在语篇中理解和使用动词不定式作句子中的定语和结果状语；6.在语篇中理解和使用动词-ing形式作句子中的定语、状语和补语；7.在语篇中理解和使用动词-ed形式作句子中的定语、状语和补语；8.在语篇中理解和使用由关系代词that、which、who、whom、whose和",
+      "mappingRule": "基于小节标题判定：Focus on Language:Relative Clauses(1) -> 语法知识（必修）。",
+      "note": "Focus on Language:Relative Clauses(1) -> 语法知识（必修）"
+    }
+  },
+  {
+    "relationName": "knowledgeSupportsSubsection",
+    "label": "语言知识支撑小节 / Linguistic Knowledge supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:4",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:7",
+    "evidence": {
+      "mdEvidence": "选择性必修和选修（提高类）阶段，可以通过英文诗歌朗诵、戏剧表演、影视配音等活动提高学生发音的准确性和表达的流畅性。 # 2. 词汇知识 # 【内容要求】 词是语言的建构材料，也是最小的能够独立运用的语言单位。任何 词都是通过一定的句法关系和语义关系与其他词建立起一定联系，并在语境中传递信息。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的词汇知识内容要求如表5所示： 表 5 词汇知识内容要求 <table><tr><td>课程类别</td><td>内容要求</td",
+      "mappingRule": "基于小节标题判定：1 Martial Arts -> 词汇知识（必修）。",
+      "note": "词汇知识（必修） -> 1 Martial Arts"
+    }
+  },
+  {
+    "relationName": "subsectionRequiresKnowledge",
+    "label": "小节需要语言知识 / Subsection requires Linguistic Knowledge",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:7",
+    "target": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:4",
+    "evidence": {
+      "mdEvidence": "选择性必修和选修（提高类）阶段，可以通过英文诗歌朗诵、戏剧表演、影视配音等活动提高学生发音的准确性和表达的流畅性。 # 2. 词汇知识 # 【内容要求】 词是语言的建构材料，也是最小的能够独立运用的语言单位。任何 词都是通过一定的句法关系和语义关系与其他词建立起一定联系，并在语境中传递信息。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的词汇知识内容要求如表5所示： 表 5 词汇知识内容要求 <table><tr><td>课程类别</td><td>内容要求</td",
+      "mappingRule": "基于小节标题判定：1 Martial Arts -> 词汇知识（必修）。",
+      "note": "1 Martial Arts -> 词汇知识（必修）"
+    }
+  },
+  {
+    "relationName": "knowledgeSupportsSubsection",
+    "label": "语言知识支撑小节 / Linguistic Knowledge supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:4",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:8",
+    "evidence": {
+      "mdEvidence": "选择性必修和选修（提高类）阶段，可以通过英文诗歌朗诵、戏剧表演、影视配音等活动提高学生发音的准确性和表达的流畅性。 # 2. 词汇知识 # 【内容要求】 词是语言的建构材料，也是最小的能够独立运用的语言单位。任何 词都是通过一定的句法关系和语义关系与其他词建立起一定联系，并在语境中传递信息。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的词汇知识内容要求如表5所示： 表 5 词汇知识内容要求 <table><tr><td>课程类别</td><td>内容要求</td",
+      "mappingRule": "基于小节标题判定：2 Getting Fit -> 词汇知识（必修）。",
+      "note": "词汇知识（必修） -> 2 Getting Fit"
+    }
+  },
+  {
+    "relationName": "subsectionRequiresKnowledge",
+    "label": "小节需要语言知识 / Subsection requires Linguistic Knowledge",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:8",
+    "target": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:4",
+    "evidence": {
+      "mdEvidence": "选择性必修和选修（提高类）阶段，可以通过英文诗歌朗诵、戏剧表演、影视配音等活动提高学生发音的准确性和表达的流畅性。 # 2. 词汇知识 # 【内容要求】 词是语言的建构材料，也是最小的能够独立运用的语言单位。任何 词都是通过一定的句法关系和语义关系与其他词建立起一定联系，并在语境中传递信息。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的词汇知识内容要求如表5所示： 表 5 词汇知识内容要求 <table><tr><td>课程类别</td><td>内容要求</td",
+      "mappingRule": "基于小节标题判定：2 Getting Fit -> 词汇知识（必修）。",
+      "note": "2 Getting Fit -> 词汇知识（必修）"
+    }
+  },
+  {
+    "relationName": "knowledgeSupportsSubsection",
+    "label": "语言知识支撑小节 / Linguistic Knowledge supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:10",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:9",
+    "evidence": {
+      "mdEvidence": "和实际教学中，出于表达意义的需要，可能会出现少量超出本阶段语法内容要求的现象，对这些语法现象，有必要帮助学生理解。 # 4. 语篇知识 # 【内容要求】 语篇是人们在具体语境中，为实现某种交际目的而使用的有意义的语言单位，包括口语语篇和书面语篇，是语言实际运用的常见形式。在使用语言的过程中，语言使用者不仅需要运用语音、词汇和语法知识，也需要语篇知识。语篇知识主要涉及语言的组织和使用方式，有助于学生理解和建构连贯、合理的语言篇章。 语篇中各要素之间存在复杂的关系，如句与句、段与",
+      "mappingRule": "基于小节标题判定：Reading Spring Festival -> 语篇知识（必修）。",
+      "note": "语篇知识（必修） -> Reading Spring Festival"
+    }
+  },
+  {
+    "relationName": "subsectionRequiresKnowledge",
+    "label": "小节需要语言知识 / Subsection requires Linguistic Knowledge",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:9",
+    "target": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:10",
+    "evidence": {
+      "mdEvidence": "和实际教学中，出于表达意义的需要，可能会出现少量超出本阶段语法内容要求的现象，对这些语法现象，有必要帮助学生理解。 # 4. 语篇知识 # 【内容要求】 语篇是人们在具体语境中，为实现某种交际目的而使用的有意义的语言单位，包括口语语篇和书面语篇，是语言实际运用的常见形式。在使用语言的过程中，语言使用者不仅需要运用语音、词汇和语法知识，也需要语篇知识。语篇知识主要涉及语言的组织和使用方式，有助于学生理解和建构连贯、合理的语言篇章。 语篇中各要素之间存在复杂的关系，如句与句、段与",
+      "mappingRule": "基于小节标题判定：Reading Spring Festival -> 语篇知识（必修）。",
+      "note": "Reading Spring Festival -> 语篇知识（必修）"
+    }
+  },
+  {
+    "relationName": "knowledgeSupportsSubsection",
+    "label": "语言知识支撑小节 / Linguistic Knowledge supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:7",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:10",
+    "evidence": {
+      "mdEvidence": ".运用所学的语法知识，理解口语和书面语篇的基本意义，描述真实和想象世界中的人和物、情景和事件，简单地表达观点、意图和情感态度，在生活中进行一般性的人际交流；3.在语篇中理解和使用过去将来时态；4.在语篇中理解和使用现在进行和现在完成时态的被动语态；5.在语篇中理解和使用动词不定式作句子中的定语和结果状语；6.在语篇中理解和使用动词-ing形式作句子中的定语、状语和补语；7.在语篇中理解和使用动词-ed形式作句子中的定语、状语和补语；8.在语篇中理解和使用由关系代词that、which、who、whom、whose和",
+      "mappingRule": "基于小节标题判定：Focus on Language:The Passive -> 语法知识（必修）。",
+      "note": "语法知识（必修） -> Focus on Language:The Passive"
+    }
+  },
+  {
+    "relationName": "subsectionRequiresKnowledge",
+    "label": "小节需要语言知识 / Subsection requires Linguistic Knowledge",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:10",
+    "target": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:7",
+    "evidence": {
+      "mdEvidence": ".运用所学的语法知识，理解口语和书面语篇的基本意义，描述真实和想象世界中的人和物、情景和事件，简单地表达观点、意图和情感态度，在生活中进行一般性的人际交流；3.在语篇中理解和使用过去将来时态；4.在语篇中理解和使用现在进行和现在完成时态的被动语态；5.在语篇中理解和使用动词不定式作句子中的定语和结果状语；6.在语篇中理解和使用动词-ing形式作句子中的定语、状语和补语；7.在语篇中理解和使用动词-ed形式作句子中的定语、状语和补语；8.在语篇中理解和使用由关系代词that、which、who、whom、whose和",
+      "mappingRule": "基于小节标题判定：Focus on Language:The Passive -> 语法知识（必修）。",
+      "note": "Focus on Language:The Passive -> 语法知识（必修）"
+    }
+  },
+  {
+    "relationName": "knowledgeSupportsSubsection",
+    "label": "语言知识支撑小节 / Linguistic Knowledge supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:4",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:11",
+    "evidence": {
+      "mdEvidence": "选择性必修和选修（提高类）阶段，可以通过英文诗歌朗诵、戏剧表演、影视配音等活动提高学生发音的准确性和表达的流畅性。 # 2. 词汇知识 # 【内容要求】 词是语言的建构材料，也是最小的能够独立运用的语言单位。任何 词都是通过一定的句法关系和语义关系与其他词建立起一定联系，并在语境中传递信息。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的词汇知识内容要求如表5所示： 表 5 词汇知识内容要求 <table><tr><td>课程类别</td><td>内容要求</td",
+      "mappingRule": "基于小节标题判定：1 Festival Menu -> 词汇知识（必修）。",
+      "note": "词汇知识（必修） -> 1 Festival Menu"
+    }
+  },
+  {
+    "relationName": "subsectionRequiresKnowledge",
+    "label": "小节需要语言知识 / Subsection requires Linguistic Knowledge",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:11",
+    "target": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:4",
+    "evidence": {
+      "mdEvidence": "选择性必修和选修（提高类）阶段，可以通过英文诗歌朗诵、戏剧表演、影视配音等活动提高学生发音的准确性和表达的流畅性。 # 2. 词汇知识 # 【内容要求】 词是语言的建构材料，也是最小的能够独立运用的语言单位。任何 词都是通过一定的句法关系和语义关系与其他词建立起一定联系，并在语境中传递信息。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的词汇知识内容要求如表5所示： 表 5 词汇知识内容要求 <table><tr><td>课程类别</td><td>内容要求</td",
+      "mappingRule": "基于小节标题判定：1 Festival Menu -> 词汇知识（必修）。",
+      "note": "1 Festival Menu -> 词汇知识（必修）"
+    }
+  },
+  {
+    "relationName": "knowledgeSupportsSubsection",
+    "label": "语言知识支撑小节 / Linguistic Knowledge supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:4",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:12",
+    "evidence": {
+      "mdEvidence": "选择性必修和选修（提高类）阶段，可以通过英文诗歌朗诵、戏剧表演、影视配音等活动提高学生发音的准确性和表达的流畅性。 # 2. 词汇知识 # 【内容要求】 词是语言的建构材料，也是最小的能够独立运用的语言单位。任何 词都是通过一定的句法关系和语义关系与其他词建立起一定联系，并在语境中传递信息。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的词汇知识内容要求如表5所示： 表 5 词汇知识内容要求 <table><tr><td>课程类别</td><td>内容要求</td",
+      "mappingRule": "基于小节标题判定：2 The Un-birthday Gift -> 词汇知识（必修）。",
+      "note": "词汇知识（必修） -> 2 The Un-birthday Gift"
+    }
+  },
+  {
+    "relationName": "subsectionRequiresKnowledge",
+    "label": "小节需要语言知识 / Subsection requires Linguistic Knowledge",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:12",
+    "target": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:4",
+    "evidence": {
+      "mdEvidence": "选择性必修和选修（提高类）阶段，可以通过英文诗歌朗诵、戏剧表演、影视配音等活动提高学生发音的准确性和表达的流畅性。 # 2. 词汇知识 # 【内容要求】 词是语言的建构材料，也是最小的能够独立运用的语言单位。任何 词都是通过一定的句法关系和语义关系与其他词建立起一定联系，并在语境中传递信息。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的词汇知识内容要求如表5所示： 表 5 词汇知识内容要求 <table><tr><td>课程类别</td><td>内容要求</td",
+      "mappingRule": "基于小节标题判定：2 The Un-birthday Gift -> 词汇知识（必修）。",
+      "note": "2 The Un-birthday Gift -> 词汇知识（必修）"
+    }
+  },
+  {
+    "relationName": "knowledgeSupportsSubsection",
+    "label": "语言知识支撑小节 / Linguistic Knowledge supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:10",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:13",
+    "evidence": {
+      "mdEvidence": "和实际教学中，出于表达意义的需要，可能会出现少量超出本阶段语法内容要求的现象，对这些语法现象，有必要帮助学生理解。 # 4. 语篇知识 # 【内容要求】 语篇是人们在具体语境中，为实现某种交际目的而使用的有意义的语言单位，包括口语语篇和书面语篇，是语言实际运用的常见形式。在使用语言的过程中，语言使用者不仅需要运用语音、词汇和语法知识，也需要语篇知识。语篇知识主要涉及语言的组织和使用方式，有助于学生理解和建构连贯、合理的语言篇章。 语篇中各要素之间存在复杂的关系，如句与句、段与",
+      "mappingRule": "基于小节标题判定：Reading Avatars -> 语篇知识（必修）。",
+      "note": "语篇知识（必修） -> Reading Avatars"
+    }
+  },
+  {
+    "relationName": "subsectionRequiresKnowledge",
+    "label": "小节需要语言知识 / Subsection requires Linguistic Knowledge",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:13",
+    "target": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:10",
+    "evidence": {
+      "mdEvidence": "和实际教学中，出于表达意义的需要，可能会出现少量超出本阶段语法内容要求的现象，对这些语法现象，有必要帮助学生理解。 # 4. 语篇知识 # 【内容要求】 语篇是人们在具体语境中，为实现某种交际目的而使用的有意义的语言单位，包括口语语篇和书面语篇，是语言实际运用的常见形式。在使用语言的过程中，语言使用者不仅需要运用语音、词汇和语法知识，也需要语篇知识。语篇知识主要涉及语言的组织和使用方式，有助于学生理解和建构连贯、合理的语言篇章。 语篇中各要素之间存在复杂的关系，如句与句、段与",
+      "mappingRule": "基于小节标题判定：Reading Avatars -> 语篇知识（必修）。",
+      "note": "Reading Avatars -> 语篇知识（必修）"
+    }
+  },
+  {
+    "relationName": "knowledgeSupportsSubsection",
+    "label": "语言知识支撑小节 / Linguistic Knowledge supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:7",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:14",
+    "evidence": {
+      "mdEvidence": ".运用所学的语法知识，理解口语和书面语篇的基本意义，描述真实和想象世界中的人和物、情景和事件，简单地表达观点、意图和情感态度，在生活中进行一般性的人际交流；3.在语篇中理解和使用过去将来时态；4.在语篇中理解和使用现在进行和现在完成时态的被动语态；5.在语篇中理解和使用动词不定式作句子中的定语和结果状语；6.在语篇中理解和使用动词-ing形式作句子中的定语、状语和补语；7.在语篇中理解和使用动词-ed形式作句子中的定语、状语和补语；8.在语篇中理解和使用由关系代词that、which、who、whom、whose和",
+      "mappingRule": "基于小节标题判定：Focus on Language: Past Future -> 语法知识（必修）。",
+      "note": "语法知识（必修） -> Focus on Language: Past Future"
+    }
+  },
+  {
+    "relationName": "subsectionRequiresKnowledge",
+    "label": "小节需要语言知识 / Subsection requires Linguistic Knowledge",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:14",
+    "target": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:7",
+    "evidence": {
+      "mdEvidence": ".运用所学的语法知识，理解口语和书面语篇的基本意义，描述真实和想象世界中的人和物、情景和事件，简单地表达观点、意图和情感态度，在生活中进行一般性的人际交流；3.在语篇中理解和使用过去将来时态；4.在语篇中理解和使用现在进行和现在完成时态的被动语态；5.在语篇中理解和使用动词不定式作句子中的定语和结果状语；6.在语篇中理解和使用动词-ing形式作句子中的定语、状语和补语；7.在语篇中理解和使用动词-ed形式作句子中的定语、状语和补语；8.在语篇中理解和使用由关系代词that、which、who、whom、whose和",
+      "mappingRule": "基于小节标题判定：Focus on Language: Past Future -> 语法知识（必修）。",
+      "note": "Focus on Language: Past Future -> 语法知识（必修）"
+    }
+  },
+  {
+    "relationName": "knowledgeSupportsSubsection",
+    "label": "语言知识支撑小节 / Linguistic Knowledge supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:4",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:15",
+    "evidence": {
+      "mdEvidence": "选择性必修和选修（提高类）阶段，可以通过英文诗歌朗诵、戏剧表演、影视配音等活动提高学生发音的准确性和表达的流畅性。 # 2. 词汇知识 # 【内容要求】 词是语言的建构材料，也是最小的能够独立运用的语言单位。任何 词都是通过一定的句法关系和语义关系与其他词建立起一定联系，并在语境中传递信息。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的词汇知识内容要求如表5所示： 表 5 词汇知识内容要求 <table><tr><td>课程类别</td><td>内容要求</td",
+      "mappingRule": "基于小节标题判定：1 Digitising Ancient Art -> 词汇知识（必修）。",
+      "note": "词汇知识（必修） -> 1 Digitising Ancient Art"
+    }
+  },
+  {
+    "relationName": "subsectionRequiresKnowledge",
+    "label": "小节需要语言知识 / Subsection requires Linguistic Knowledge",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:15",
+    "target": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:4",
+    "evidence": {
+      "mdEvidence": "选择性必修和选修（提高类）阶段，可以通过英文诗歌朗诵、戏剧表演、影视配音等活动提高学生发音的准确性和表达的流畅性。 # 2. 词汇知识 # 【内容要求】 词是语言的建构材料，也是最小的能够独立运用的语言单位。任何 词都是通过一定的句法关系和语义关系与其他词建立起一定联系，并在语境中传递信息。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的词汇知识内容要求如表5所示： 表 5 词汇知识内容要求 <table><tr><td>课程类别</td><td>内容要求</td",
+      "mappingRule": "基于小节标题判定：1 Digitising Ancient Art -> 词汇知识（必修）。",
+      "note": "1 Digitising Ancient Art -> 词汇知识（必修）"
+    }
+  },
+  {
+    "relationName": "knowledgeSupportsSubsection",
+    "label": "语言知识支撑小节 / Linguistic Knowledge supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:4",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:16",
+    "evidence": {
+      "mdEvidence": "选择性必修和选修（提高类）阶段，可以通过英文诗歌朗诵、戏剧表演、影视配音等活动提高学生发音的准确性和表达的流畅性。 # 2. 词汇知识 # 【内容要求】 词是语言的建构材料，也是最小的能够独立运用的语言单位。任何 词都是通过一定的句法关系和语义关系与其他词建立起一定联系，并在语境中传递信息。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的词汇知识内容要求如表5所示： 表 5 词汇知识内容要求 <table><tr><td>课程类别</td><td>内容要求</td",
+      "mappingRule": "基于小节标题判定：2 Wearable Technology -> 词汇知识（必修）。",
+      "note": "词汇知识（必修） -> 2 Wearable Technology"
+    }
+  },
+  {
+    "relationName": "subsectionRequiresKnowledge",
+    "label": "小节需要语言知识 / Subsection requires Linguistic Knowledge",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:16",
+    "target": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:4",
+    "evidence": {
+      "mdEvidence": "选择性必修和选修（提高类）阶段，可以通过英文诗歌朗诵、戏剧表演、影视配音等活动提高学生发音的准确性和表达的流畅性。 # 2. 词汇知识 # 【内容要求】 词是语言的建构材料，也是最小的能够独立运用的语言单位。任何 词都是通过一定的句法关系和语义关系与其他词建立起一定联系，并在语境中传递信息。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的词汇知识内容要求如表5所示： 表 5 词汇知识内容要求 <table><tr><td>课程类别</td><td>内容要求</td",
+      "mappingRule": "基于小节标题判定：2 Wearable Technology -> 词汇知识（必修）。",
+      "note": "2 Wearable Technology -> 词汇知识（必修）"
+    }
+  },
+  {
+    "relationName": "knowledgeSupportsSubsection",
+    "label": "语言知识支撑小节 / Linguistic Knowledge supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:10",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:17",
+    "evidence": {
+      "mdEvidence": "和实际教学中，出于表达意义的需要，可能会出现少量超出本阶段语法内容要求的现象，对这些语法现象，有必要帮助学生理解。 # 4. 语篇知识 # 【内容要求】 语篇是人们在具体语境中，为实现某种交际目的而使用的有意义的语言单位，包括口语语篇和书面语篇，是语言实际运用的常见形式。在使用语言的过程中，语言使用者不仅需要运用语音、词汇和语法知识，也需要语篇知识。语篇知识主要涉及语言的组织和使用方式，有助于学生理解和建构连贯、合理的语言篇章。 语篇中各要素之间存在复杂的关系，如句与句、段与",
+      "mappingRule": "基于小节标题判定：Reading A Sea Story -> 语篇知识（必修）。",
+      "note": "语篇知识（必修） -> Reading A Sea Story"
+    }
+  },
+  {
+    "relationName": "subsectionRequiresKnowledge",
+    "label": "小节需要语言知识 / Subsection requires Linguistic Knowledge",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:17",
+    "target": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:10",
+    "evidence": {
+      "mdEvidence": "和实际教学中，出于表达意义的需要，可能会出现少量超出本阶段语法内容要求的现象，对这些语法现象，有必要帮助学生理解。 # 4. 语篇知识 # 【内容要求】 语篇是人们在具体语境中，为实现某种交际目的而使用的有意义的语言单位，包括口语语篇和书面语篇，是语言实际运用的常见形式。在使用语言的过程中，语言使用者不仅需要运用语音、词汇和语法知识，也需要语篇知识。语篇知识主要涉及语言的组织和使用方式，有助于学生理解和建构连贯、合理的语言篇章。 语篇中各要素之间存在复杂的关系，如句与句、段与",
+      "mappingRule": "基于小节标题判定：Reading A Sea Story -> 语篇知识（必修）。",
+      "note": "Reading A Sea Story -> 语篇知识（必修）"
+    }
+  },
+  {
+    "relationName": "knowledgeSupportsSubsection",
+    "label": "语言知识支撑小节 / Linguistic Knowledge supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:7",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:18",
+    "evidence": {
+      "mdEvidence": ".运用所学的语法知识，理解口语和书面语篇的基本意义，描述真实和想象世界中的人和物、情景和事件，简单地表达观点、意图和情感态度，在生活中进行一般性的人际交流；3.在语篇中理解和使用过去将来时态；4.在语篇中理解和使用现在进行和现在完成时态的被动语态；5.在语篇中理解和使用动词不定式作句子中的定语和结果状语；6.在语篇中理解和使用动词-ing形式作句子中的定语、状语和补语；7.在语篇中理解和使用动词-ed形式作句子中的定语、状语和补语；8.在语篇中理解和使用由关系代词that、which、who、whom、whose和",
+      "mappingRule": "基于小节标题判定：Focus on Language: Relative Clauses(2) -> 语法知识（必修）。",
+      "note": "语法知识（必修） -> Focus on Language: Relative Clauses(2)"
+    }
+  },
+  {
+    "relationName": "subsectionRequiresKnowledge",
+    "label": "小节需要语言知识 / Subsection requires Linguistic Knowledge",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:18",
+    "target": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:7",
+    "evidence": {
+      "mdEvidence": ".运用所学的语法知识，理解口语和书面语篇的基本意义，描述真实和想象世界中的人和物、情景和事件，简单地表达观点、意图和情感态度，在生活中进行一般性的人际交流；3.在语篇中理解和使用过去将来时态；4.在语篇中理解和使用现在进行和现在完成时态的被动语态；5.在语篇中理解和使用动词不定式作句子中的定语和结果状语；6.在语篇中理解和使用动词-ing形式作句子中的定语、状语和补语；7.在语篇中理解和使用动词-ed形式作句子中的定语、状语和补语；8.在语篇中理解和使用由关系代词that、which、who、whom、whose和",
+      "mappingRule": "基于小节标题判定：Focus on Language: Relative Clauses(2) -> 语法知识（必修）。",
+      "note": "Focus on Language: Relative Clauses(2) -> 语法知识（必修）"
+    }
+  },
+  {
+    "relationName": "knowledgeSupportsSubsection",
+    "label": "语言知识支撑小节 / Linguistic Knowledge supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:4",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:19",
+    "evidence": {
+      "mdEvidence": "选择性必修和选修（提高类）阶段，可以通过英文诗歌朗诵、戏剧表演、影视配音等活动提高学生发音的准确性和表达的流畅性。 # 2. 词汇知识 # 【内容要求】 词是语言的建构材料，也是最小的能够独立运用的语言单位。任何 词都是通过一定的句法关系和语义关系与其他词建立起一定联系，并在语境中传递信息。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的词汇知识内容要求如表5所示： 表 5 词汇知识内容要求 <table><tr><td>课程类别</td><td>内容要求</td",
+      "mappingRule": "基于小节标题判定：1 New Zealand -> 词汇知识（必修）。",
+      "note": "词汇知识（必修） -> 1 New Zealand"
+    }
+  },
+  {
+    "relationName": "subsectionRequiresKnowledge",
+    "label": "小节需要语言知识 / Subsection requires Linguistic Knowledge",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:19",
+    "target": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:4",
+    "evidence": {
+      "mdEvidence": "选择性必修和选修（提高类）阶段，可以通过英文诗歌朗诵、戏剧表演、影视配音等活动提高学生发音的准确性和表达的流畅性。 # 2. 词汇知识 # 【内容要求】 词是语言的建构材料，也是最小的能够独立运用的语言单位。任何 词都是通过一定的句法关系和语义关系与其他词建立起一定联系，并在语境中传递信息。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的词汇知识内容要求如表5所示： 表 5 词汇知识内容要求 <table><tr><td>课程类别</td><td>内容要求</td",
+      "mappingRule": "基于小节标题判定：1 New Zealand -> 词汇知识（必修）。",
+      "note": "1 New Zealand -> 词汇知识（必修）"
+    }
+  },
+  {
+    "relationName": "knowledgeSupportsSubsection",
+    "label": "语言知识支撑小节 / Linguistic Knowledge supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:4",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:20",
+    "evidence": {
+      "mdEvidence": "选择性必修和选修（提高类）阶段，可以通过英文诗歌朗诵、戏剧表演、影视配音等活动提高学生发音的准确性和表达的流畅性。 # 2. 词汇知识 # 【内容要求】 词是语言的建构材料，也是最小的能够独立运用的语言单位。任何 词都是通过一定的句法关系和语义关系与其他词建立起一定联系，并在语境中传递信息。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的词汇知识内容要求如表5所示： 表 5 词汇知识内容要求 <table><tr><td>课程类别</td><td>内容要求</td",
+      "mappingRule": "基于小节标题判定：2 Nature Films -> 词汇知识（必修）。",
+      "note": "词汇知识（必修） -> 2 Nature Films"
+    }
+  },
+  {
+    "relationName": "subsectionRequiresKnowledge",
+    "label": "小节需要语言知识 / Subsection requires Linguistic Knowledge",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:20",
+    "target": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:4",
+    "evidence": {
+      "mdEvidence": "选择性必修和选修（提高类）阶段，可以通过英文诗歌朗诵、戏剧表演、影视配音等活动提高学生发音的准确性和表达的流畅性。 # 2. 词汇知识 # 【内容要求】 词是语言的建构材料，也是最小的能够独立运用的语言单位。任何 词都是通过一定的句法关系和语义关系与其他词建立起一定联系，并在语境中传递信息。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的词汇知识内容要求如表5所示： 表 5 词汇知识内容要求 <table><tr><td>课程类别</td><td>内容要求</td",
+      "mappingRule": "基于小节标题判定：2 Nature Films -> 词汇知识（必修）。",
+      "note": "2 Nature Films -> 词汇知识（必修）"
+    }
+  },
+  {
+    "relationName": "knowledgeSupportsSubsection",
+    "label": "语言知识支撑小节 / Linguistic Knowledge supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:10",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:21",
+    "evidence": {
+      "mdEvidence": "和实际教学中，出于表达意义的需要，可能会出现少量超出本阶段语法内容要求的现象，对这些语法现象，有必要帮助学生理解。 # 4. 语篇知识 # 【内容要求】 语篇是人们在具体语境中，为实现某种交际目的而使用的有意义的语言单位，包括口语语篇和书面语篇，是语言实际运用的常见形式。在使用语言的过程中，语言使用者不仅需要运用语音、词汇和语法知识，也需要语篇知识。语篇知识主要涉及语言的组织和使用方式，有助于学生理解和建构连贯、合理的语言篇章。 语篇中各要素之间存在复杂的关系，如句与句、段与",
+      "mappingRule": "基于小节标题判定：Reading A Medical Pioneer -> 语篇知识（必修）。",
+      "note": "语篇知识（必修） -> Reading A Medical Pioneer"
+    }
+  },
+  {
+    "relationName": "subsectionRequiresKnowledge",
+    "label": "小节需要语言知识 / Subsection requires Linguistic Knowledge",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:21",
+    "target": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:10",
+    "evidence": {
+      "mdEvidence": "和实际教学中，出于表达意义的需要，可能会出现少量超出本阶段语法内容要求的现象，对这些语法现象，有必要帮助学生理解。 # 4. 语篇知识 # 【内容要求】 语篇是人们在具体语境中，为实现某种交际目的而使用的有意义的语言单位，包括口语语篇和书面语篇，是语言实际运用的常见形式。在使用语言的过程中，语言使用者不仅需要运用语音、词汇和语法知识，也需要语篇知识。语篇知识主要涉及语言的组织和使用方式，有助于学生理解和建构连贯、合理的语言篇章。 语篇中各要素之间存在复杂的关系，如句与句、段与",
+      "mappingRule": "基于小节标题判定：Reading A Medical Pioneer -> 语篇知识（必修）。",
+      "note": "Reading A Medical Pioneer -> 语篇知识（必修）"
+    }
+  },
+  {
+    "relationName": "knowledgeSupportsSubsection",
+    "label": "语言知识支撑小节 / Linguistic Knowledge supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:7",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:22",
+    "evidence": {
+      "mdEvidence": ".运用所学的语法知识，理解口语和书面语篇的基本意义，描述真实和想象世界中的人和物、情景和事件，简单地表达观点、意图和情感态度，在生活中进行一般性的人际交流；3.在语篇中理解和使用过去将来时态；4.在语篇中理解和使用现在进行和现在完成时态的被动语态；5.在语篇中理解和使用动词不定式作句子中的定语和结果状语；6.在语篇中理解和使用动词-ing形式作句子中的定语、状语和补语；7.在语篇中理解和使用动词-ed形式作句子中的定语、状语和补语；8.在语篇中理解和使用由关系代词that、which、who、whom、whose和",
+      "mappingRule": "基于小节标题判定：Focus on Language: Relative Clauses(3) -> 语法知识（必修）。",
+      "note": "语法知识（必修） -> Focus on Language: Relative Clauses(3)"
+    }
+  },
+  {
+    "relationName": "subsectionRequiresKnowledge",
+    "label": "小节需要语言知识 / Subsection requires Linguistic Knowledge",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:22",
+    "target": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:7",
+    "evidence": {
+      "mdEvidence": ".运用所学的语法知识，理解口语和书面语篇的基本意义，描述真实和想象世界中的人和物、情景和事件，简单地表达观点、意图和情感态度，在生活中进行一般性的人际交流；3.在语篇中理解和使用过去将来时态；4.在语篇中理解和使用现在进行和现在完成时态的被动语态；5.在语篇中理解和使用动词不定式作句子中的定语和结果状语；6.在语篇中理解和使用动词-ing形式作句子中的定语、状语和补语；7.在语篇中理解和使用动词-ed形式作句子中的定语、状语和补语；8.在语篇中理解和使用由关系代词that、which、who、whom、whose和",
+      "mappingRule": "基于小节标题判定：Focus on Language: Relative Clauses(3) -> 语法知识（必修）。",
+      "note": "Focus on Language: Relative Clauses(3) -> 语法知识（必修）"
+    }
+  },
+  {
+    "relationName": "knowledgeSupportsSubsection",
+    "label": "语言知识支撑小节 / Linguistic Knowledge supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:4",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:23",
+    "evidence": {
+      "mdEvidence": "选择性必修和选修（提高类）阶段，可以通过英文诗歌朗诵、戏剧表演、影视配音等活动提高学生发音的准确性和表达的流畅性。 # 2. 词汇知识 # 【内容要求】 词是语言的建构材料，也是最小的能够独立运用的语言单位。任何 词都是通过一定的句法关系和语义关系与其他词建立起一定联系，并在语境中传递信息。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的词汇知识内容要求如表5所示： 表 5 词汇知识内容要求 <table><tr><td>课程类别</td><td>内容要求</td",
+      "mappingRule": "基于小节标题判定：1 Space Heroes -> 词汇知识（必修）。",
+      "note": "词汇知识（必修） -> 1 Space Heroes"
+    }
+  },
+  {
+    "relationName": "subsectionRequiresKnowledge",
+    "label": "小节需要语言知识 / Subsection requires Linguistic Knowledge",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:23",
+    "target": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:4",
+    "evidence": {
+      "mdEvidence": "选择性必修和选修（提高类）阶段，可以通过英文诗歌朗诵、戏剧表演、影视配音等活动提高学生发音的准确性和表达的流畅性。 # 2. 词汇知识 # 【内容要求】 词是语言的建构材料，也是最小的能够独立运用的语言单位。任何 词都是通过一定的句法关系和语义关系与其他词建立起一定联系，并在语境中传递信息。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的词汇知识内容要求如表5所示： 表 5 词汇知识内容要求 <table><tr><td>课程类别</td><td>内容要求</td",
+      "mappingRule": "基于小节标题判定：1 Space Heroes -> 词汇知识（必修）。",
+      "note": "1 Space Heroes -> 词汇知识（必修）"
+    }
+  },
+  {
+    "relationName": "knowledgeSupportsSubsection",
+    "label": "语言知识支撑小节 / Linguistic Knowledge supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:4",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:24",
+    "evidence": {
+      "mdEvidence": "选择性必修和选修（提高类）阶段，可以通过英文诗歌朗诵、戏剧表演、影视配音等活动提高学生发音的准确性和表达的流畅性。 # 2. 词汇知识 # 【内容要求】 词是语言的建构材料，也是最小的能够独立运用的语言单位。任何 词都是通过一定的句法关系和语义关系与其他词建立起一定联系，并在语境中传递信息。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的词汇知识内容要求如表5所示： 表 5 词汇知识内容要求 <table><tr><td>课程类别</td><td>内容要求</td",
+      "mappingRule": "基于小节标题判定：2 Anne Frank and Her Diary -> 词汇知识（必修）。",
+      "note": "词汇知识（必修） -> 2 Anne Frank and Her Diary"
+    }
+  },
+  {
+    "relationName": "subsectionRequiresKnowledge",
+    "label": "小节需要语言知识 / Subsection requires Linguistic Knowledge",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:24",
+    "target": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:4",
+    "evidence": {
+      "mdEvidence": "选择性必修和选修（提高类）阶段，可以通过英文诗歌朗诵、戏剧表演、影视配音等活动提高学生发音的准确性和表达的流畅性。 # 2. 词汇知识 # 【内容要求】 词是语言的建构材料，也是最小的能够独立运用的语言单位。任何 词都是通过一定的句法关系和语义关系与其他词建立起一定联系，并在语境中传递信息。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的词汇知识内容要求如表5所示： 表 5 词汇知识内容要求 <table><tr><td>课程类别</td><td>内容要求</td",
+      "mappingRule": "基于小节标题判定：2 Anne Frank and Her Diary -> 词汇知识（必修）。",
+      "note": "2 Anne Frank and Her Diary -> 词汇知识（必修）"
+    }
+  },
+  {
+    "relationName": "knowledgeSupportsSubsection",
+    "label": "语言知识支撑小节 / Linguistic Knowledge supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:10",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:25",
+    "evidence": {
+      "mdEvidence": "和实际教学中，出于表达意义的需要，可能会出现少量超出本阶段语法内容要求的现象，对这些语法现象，有必要帮助学生理解。 # 4. 语篇知识 # 【内容要求】 语篇是人们在具体语境中，为实现某种交际目的而使用的有意义的语言单位，包括口语语篇和书面语篇，是语言实际运用的常见形式。在使用语言的过程中，语言使用者不仅需要运用语音、词汇和语法知识，也需要语篇知识。语篇知识主要涉及语言的组织和使用方式，有助于学生理解和建构连贯、合理的语言篇章。 语篇中各要素之间存在复杂的关系，如句与句、段与",
+      "mappingRule": "基于小节标题判定：Reading Masterpieces -> 语篇知识（必修）。",
+      "note": "语篇知识（必修） -> Reading Masterpieces"
+    }
+  },
+  {
+    "relationName": "subsectionRequiresKnowledge",
+    "label": "小节需要语言知识 / Subsection requires Linguistic Knowledge",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:25",
+    "target": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:10",
+    "evidence": {
+      "mdEvidence": "和实际教学中，出于表达意义的需要，可能会出现少量超出本阶段语法内容要求的现象，对这些语法现象，有必要帮助学生理解。 # 4. 语篇知识 # 【内容要求】 语篇是人们在具体语境中，为实现某种交际目的而使用的有意义的语言单位，包括口语语篇和书面语篇，是语言实际运用的常见形式。在使用语言的过程中，语言使用者不仅需要运用语音、词汇和语法知识，也需要语篇知识。语篇知识主要涉及语言的组织和使用方式，有助于学生理解和建构连贯、合理的语言篇章。 语篇中各要素之间存在复杂的关系，如句与句、段与",
+      "mappingRule": "基于小节标题判定：Reading Masterpieces -> 语篇知识（必修）。",
+      "note": "Reading Masterpieces -> 语篇知识（必修）"
+    }
+  },
+  {
+    "relationName": "knowledgeSupportsSubsection",
+    "label": "语言知识支撑小节 / Linguistic Knowledge supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:7",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:26",
+    "evidence": {
+      "mdEvidence": ".运用所学的语法知识，理解口语和书面语篇的基本意义，描述真实和想象世界中的人和物、情景和事件，简单地表达观点、意图和情感态度，在生活中进行一般性的人际交流；3.在语篇中理解和使用过去将来时态；4.在语篇中理解和使用现在进行和现在完成时态的被动语态；5.在语篇中理解和使用动词不定式作句子中的定语和结果状语；6.在语篇中理解和使用动词-ing形式作句子中的定语、状语和补语；7.在语篇中理解和使用动词-ed形式作句子中的定语、状语和补语；8.在语篇中理解和使用由关系代词that、which、who、whom、whose和",
+      "mappingRule": "基于小节标题判定：Focus on Language:Noun Clauses -> 语法知识（必修）。",
+      "note": "语法知识（必修） -> Focus on Language:Noun Clauses"
+    }
+  },
+  {
+    "relationName": "subsectionRequiresKnowledge",
+    "label": "小节需要语言知识 / Subsection requires Linguistic Knowledge",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:26",
+    "target": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:7",
+    "evidence": {
+      "mdEvidence": ".运用所学的语法知识，理解口语和书面语篇的基本意义，描述真实和想象世界中的人和物、情景和事件，简单地表达观点、意图和情感态度，在生活中进行一般性的人际交流；3.在语篇中理解和使用过去将来时态；4.在语篇中理解和使用现在进行和现在完成时态的被动语态；5.在语篇中理解和使用动词不定式作句子中的定语和结果状语；6.在语篇中理解和使用动词-ing形式作句子中的定语、状语和补语；7.在语篇中理解和使用动词-ed形式作句子中的定语、状语和补语；8.在语篇中理解和使用由关系代词that、which、who、whom、whose和",
+      "mappingRule": "基于小节标题判定：Focus on Language:Noun Clauses -> 语法知识（必修）。",
+      "note": "Focus on Language:Noun Clauses -> 语法知识（必修）"
+    }
+  },
+  {
+    "relationName": "knowledgeSupportsSubsection",
+    "label": "语言知识支撑小节 / Linguistic Knowledge supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:4",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:27",
+    "evidence": {
+      "mdEvidence": "选择性必修和选修（提高类）阶段，可以通过英文诗歌朗诵、戏剧表演、影视配音等活动提高学生发音的准确性和表达的流畅性。 # 2. 词汇知识 # 【内容要求】 词是语言的建构材料，也是最小的能够独立运用的语言单位。任何 词都是通过一定的句法关系和语义关系与其他词建立起一定联系，并在语境中传递信息。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的词汇知识内容要求如表5所示： 表 5 词汇知识内容要求 <table><tr><td>课程类别</td><td>内容要求</td",
+      "mappingRule": "基于小节标题判定：1 East Meets West -> 词汇知识（必修）。",
+      "note": "词汇知识（必修） -> 1 East Meets West"
+    }
+  },
+  {
+    "relationName": "subsectionRequiresKnowledge",
+    "label": "小节需要语言知识 / Subsection requires Linguistic Knowledge",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:27",
+    "target": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:4",
+    "evidence": {
+      "mdEvidence": "选择性必修和选修（提高类）阶段，可以通过英文诗歌朗诵、戏剧表演、影视配音等活动提高学生发音的准确性和表达的流畅性。 # 2. 词汇知识 # 【内容要求】 词是语言的建构材料，也是最小的能够独立运用的语言单位。任何 词都是通过一定的句法关系和语义关系与其他词建立起一定联系，并在语境中传递信息。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的词汇知识内容要求如表5所示： 表 5 词汇知识内容要求 <table><tr><td>课程类别</td><td>内容要求</td",
+      "mappingRule": "基于小节标题判定：1 East Meets West -> 词汇知识（必修）。",
+      "note": "1 East Meets West -> 词汇知识（必修）"
+    }
+  },
+  {
+    "relationName": "knowledgeSupportsSubsection",
+    "label": "语言知识支撑小节 / Linguistic Knowledge supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:4",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:28",
+    "evidence": {
+      "mdEvidence": "选择性必修和选修（提高类）阶段，可以通过英文诗歌朗诵、戏剧表演、影视配音等活动提高学生发音的准确性和表达的流畅性。 # 2. 词汇知识 # 【内容要求】 词是语言的建构材料，也是最小的能够独立运用的语言单位。任何 词都是通过一定的句法关系和语义关系与其他词建立起一定联系，并在语境中传递信息。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的词汇知识内容要求如表5所示： 表 5 词汇知识内容要求 <table><tr><td>课程类别</td><td>内容要求</td",
+      "mappingRule": "基于小节标题判定：2 Graffiti:From Vandalism to Street Art -> 词汇知识（必修）。",
+      "note": "词汇知识（必修） -> 2 Graffiti:From Vandalism to Street Art"
+    }
+  },
+  {
+    "relationName": "subsectionRequiresKnowledge",
+    "label": "小节需要语言知识 / Subsection requires Linguistic Knowledge",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:28",
+    "target": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:4",
+    "evidence": {
+      "mdEvidence": "选择性必修和选修（提高类）阶段，可以通过英文诗歌朗诵、戏剧表演、影视配音等活动提高学生发音的准确性和表达的流畅性。 # 2. 词汇知识 # 【内容要求】 词是语言的建构材料，也是最小的能够独立运用的语言单位。任何 词都是通过一定的句法关系和语义关系与其他词建立起一定联系，并在语境中传递信息。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的词汇知识内容要求如表5所示： 表 5 词汇知识内容要求 <table><tr><td>课程类别</td><td>内容要求</td",
+      "mappingRule": "基于小节标题判定：2 Graffiti:From Vandalism to Street Art -> 词汇知识（必修）。",
+      "note": "2 Graffiti:From Vandalism to Street Art -> 词汇知识（必修）"
+    }
+  },
+  {
+    "relationName": "knowledgeSupportsSubsection",
+    "label": "语言知识支撑小节 / Linguistic Knowledge supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:10",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:29",
+    "evidence": {
+      "mdEvidence": "和实际教学中，出于表达意义的需要，可能会出现少量超出本阶段语法内容要求的现象，对这些语法现象，有必要帮助学生理解。 # 4. 语篇知识 # 【内容要求】 语篇是人们在具体语境中，为实现某种交际目的而使用的有意义的语言单位，包括口语语篇和书面语篇，是语言实际运用的常见形式。在使用语言的过程中，语言使用者不仅需要运用语音、词汇和语法知识，也需要语篇知识。语篇知识主要涉及语言的组织和使用方式，有助于学生理解和建构连贯、合理的语言篇章。 语篇中各要素之间存在复杂的关系，如句与句、段与",
+      "mappingRule": "基于小节标题判定：Reading Roots and Shoots -> 语篇知识（必修）。",
+      "note": "语篇知识（必修） -> Reading Roots and Shoots"
+    }
+  },
+  {
+    "relationName": "subsectionRequiresKnowledge",
+    "label": "小节需要语言知识 / Subsection requires Linguistic Knowledge",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:29",
+    "target": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:10",
+    "evidence": {
+      "mdEvidence": "和实际教学中，出于表达意义的需要，可能会出现少量超出本阶段语法内容要求的现象，对这些语法现象，有必要帮助学生理解。 # 4. 语篇知识 # 【内容要求】 语篇是人们在具体语境中，为实现某种交际目的而使用的有意义的语言单位，包括口语语篇和书面语篇，是语言实际运用的常见形式。在使用语言的过程中，语言使用者不仅需要运用语音、词汇和语法知识，也需要语篇知识。语篇知识主要涉及语言的组织和使用方式，有助于学生理解和建构连贯、合理的语言篇章。 语篇中各要素之间存在复杂的关系，如句与句、段与",
+      "mappingRule": "基于小节标题判定：Reading Roots and Shoots -> 语篇知识（必修）。",
+      "note": "Reading Roots and Shoots -> 语篇知识（必修）"
+    }
+  },
+  {
+    "relationName": "knowledgeSupportsSubsection",
+    "label": "语言知识支撑小节 / Linguistic Knowledge supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:7",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:30",
+    "evidence": {
+      "mdEvidence": ".运用所学的语法知识，理解口语和书面语篇的基本意义，描述真实和想象世界中的人和物、情景和事件，简单地表达观点、意图和情感态度，在生活中进行一般性的人际交流；3.在语篇中理解和使用过去将来时态；4.在语篇中理解和使用现在进行和现在完成时态的被动语态；5.在语篇中理解和使用动词不定式作句子中的定语和结果状语；6.在语篇中理解和使用动词-ing形式作句子中的定语、状语和补语；7.在语篇中理解和使用动词-ed形式作句子中的定语、状语和补语；8.在语篇中理解和使用由关系代词that、which、who、whom、whose和",
+      "mappingRule": "基于小节标题判定：Focus on Language:Verb-ing and -ed Forms -> 语法知识（必修）。",
+      "note": "语法知识（必修） -> Focus on Language:Verb-ing and -ed Forms"
+    }
+  },
+  {
+    "relationName": "subsectionRequiresKnowledge",
+    "label": "小节需要语言知识 / Subsection requires Linguistic Knowledge",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:30",
+    "target": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:7",
+    "evidence": {
+      "mdEvidence": ".运用所学的语法知识，理解口语和书面语篇的基本意义，描述真实和想象世界中的人和物、情景和事件，简单地表达观点、意图和情感态度，在生活中进行一般性的人际交流；3.在语篇中理解和使用过去将来时态；4.在语篇中理解和使用现在进行和现在完成时态的被动语态；5.在语篇中理解和使用动词不定式作句子中的定语和结果状语；6.在语篇中理解和使用动词-ing形式作句子中的定语、状语和补语；7.在语篇中理解和使用动词-ed形式作句子中的定语、状语和补语；8.在语篇中理解和使用由关系代词that、which、who、whom、whose和",
+      "mappingRule": "基于小节标题判定：Focus on Language:Verb-ing and -ed Forms -> 语法知识（必修）。",
+      "note": "Focus on Language:Verb-ing and -ed Forms -> 语法知识（必修）"
+    }
+  },
+  {
+    "relationName": "knowledgeSupportsSubsection",
+    "label": "语言知识支撑小节 / Linguistic Knowledge supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:4",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:31",
+    "evidence": {
+      "mdEvidence": "选择性必修和选修（提高类）阶段，可以通过英文诗歌朗诵、戏剧表演、影视配音等活动提高学生发音的准确性和表达的流畅性。 # 2. 词汇知识 # 【内容要求】 词是语言的建构材料，也是最小的能够独立运用的语言单位。任何 词都是通过一定的句法关系和语义关系与其他词建立起一定联系，并在语境中传递信息。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的词汇知识内容要求如表5所示： 表 5 词汇知识内容要求 <table><tr><td>课程类别</td><td>内容要求</td",
+      "mappingRule": "基于小节标题判定：1 Recycling -> 词汇知识（必修）。",
+      "note": "词汇知识（必修） -> 1 Recycling"
+    }
+  },
+  {
+    "relationName": "subsectionRequiresKnowledge",
+    "label": "小节需要语言知识 / Subsection requires Linguistic Knowledge",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:31",
+    "target": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:4",
+    "evidence": {
+      "mdEvidence": "选择性必修和选修（提高类）阶段，可以通过英文诗歌朗诵、戏剧表演、影视配音等活动提高学生发音的准确性和表达的流畅性。 # 2. 词汇知识 # 【内容要求】 词是语言的建构材料，也是最小的能够独立运用的语言单位。任何 词都是通过一定的句法关系和语义关系与其他词建立起一定联系，并在语境中传递信息。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的词汇知识内容要求如表5所示： 表 5 词汇知识内容要求 <table><tr><td>课程类别</td><td>内容要求</td",
+      "mappingRule": "基于小节标题判定：1 Recycling -> 词汇知识（必修）。",
+      "note": "1 Recycling -> 词汇知识（必修）"
+    }
+  },
+  {
+    "relationName": "knowledgeSupportsSubsection",
+    "label": "语言知识支撑小节 / Linguistic Knowledge supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:4",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:32",
+    "evidence": {
+      "mdEvidence": "选择性必修和选修（提高类）阶段，可以通过英文诗歌朗诵、戏剧表演、影视配音等活动提高学生发音的准确性和表达的流畅性。 # 2. 词汇知识 # 【内容要求】 词是语言的建构材料，也是最小的能够独立运用的语言单位。任何 词都是通过一定的句法关系和语义关系与其他词建立起一定联系，并在语境中传递信息。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的词汇知识内容要求如表5所示： 表 5 词汇知识内容要求 <table><tr><td>课程类别</td><td>内容要求</td",
+      "mappingRule": "基于小节标题判定：2 The Environment:A Local and Global Issue -> 词汇知识（必修）。",
+      "note": "词汇知识（必修） -> 2 The Environment:A Local and Global Issue"
+    }
+  },
+  {
+    "relationName": "subsectionRequiresKnowledge",
+    "label": "小节需要语言知识 / Subsection requires Linguistic Knowledge",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:32",
+    "target": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:4",
+    "evidence": {
+      "mdEvidence": "选择性必修和选修（提高类）阶段，可以通过英文诗歌朗诵、戏剧表演、影视配音等活动提高学生发音的准确性和表达的流畅性。 # 2. 词汇知识 # 【内容要求】 词是语言的建构材料，也是最小的能够独立运用的语言单位。任何 词都是通过一定的句法关系和语义关系与其他词建立起一定联系，并在语境中传递信息。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的词汇知识内容要求如表5所示： 表 5 词汇知识内容要求 <table><tr><td>课程类别</td><td>内容要求</td",
+      "mappingRule": "基于小节标题判定：2 The Environment:A Local and Global Issue -> 词汇知识（必修）。",
+      "note": "2 The Environment:A Local and Global Issue -> 词汇知识（必修）"
+    }
+  },
+  {
+    "relationName": "knowledgeSupportsSubsection",
+    "label": "语言知识支撑小节 / Linguistic Knowledge supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:10",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:33",
+    "evidence": {
+      "mdEvidence": "和实际教学中，出于表达意义的需要，可能会出现少量超出本阶段语法内容要求的现象，对这些语法现象，有必要帮助学生理解。 # 4. 语篇知识 # 【内容要求】 语篇是人们在具体语境中，为实现某种交际目的而使用的有意义的语言单位，包括口语语篇和书面语篇，是语言实际运用的常见形式。在使用语言的过程中，语言使用者不仅需要运用语音、词汇和语法知识，也需要语篇知识。语篇知识主要涉及语言的组织和使用方式，有助于学生理解和建构连贯、合理的语言篇章。 语篇中各要素之间存在复杂的关系，如句与句、段与",
+      "mappingRule": "基于小节标题判定：Reading Active Learning -> 语篇知识（必修）。",
+      "note": "语篇知识（必修） -> Reading Active Learning"
+    }
+  },
+  {
+    "relationName": "subsectionRequiresKnowledge",
+    "label": "小节需要语言知识 / Subsection requires Linguistic Knowledge",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:33",
+    "target": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:10",
+    "evidence": {
+      "mdEvidence": "和实际教学中，出于表达意义的需要，可能会出现少量超出本阶段语法内容要求的现象，对这些语法现象，有必要帮助学生理解。 # 4. 语篇知识 # 【内容要求】 语篇是人们在具体语境中，为实现某种交际目的而使用的有意义的语言单位，包括口语语篇和书面语篇，是语言实际运用的常见形式。在使用语言的过程中，语言使用者不仅需要运用语音、词汇和语法知识，也需要语篇知识。语篇知识主要涉及语言的组织和使用方式，有助于学生理解和建构连贯、合理的语言篇章。 语篇中各要素之间存在复杂的关系，如句与句、段与",
+      "mappingRule": "基于小节标题判定：Reading Active Learning -> 语篇知识（必修）。",
+      "note": "Reading Active Learning -> 语篇知识（必修）"
+    }
+  },
+  {
+    "relationName": "knowledgeSupportsSubsection",
+    "label": "语言知识支撑小节 / Linguistic Knowledge supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:7",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:34",
+    "evidence": {
+      "mdEvidence": ".运用所学的语法知识，理解口语和书面语篇的基本意义，描述真实和想象世界中的人和物、情景和事件，简单地表达观点、意图和情感态度，在生活中进行一般性的人际交流；3.在语篇中理解和使用过去将来时态；4.在语篇中理解和使用现在进行和现在完成时态的被动语态；5.在语篇中理解和使用动词不定式作句子中的定语和结果状语；6.在语篇中理解和使用动词-ing形式作句子中的定语、状语和补语；7.在语篇中理解和使用动词-ed形式作句子中的定语、状语和补语；8.在语篇中理解和使用由关系代词that、which、who、whom、whose和",
+      "mappingRule": "基于小节标题判定：Focus on Language:Verbs Followed by Verb-ing Form or Infinitive -> 语法知识（必修）。",
+      "note": "语法知识（必修） -> Focus on Language:Verbs Followed by Verb-ing Form or Infinitive"
+    }
+  },
+  {
+    "relationName": "subsectionRequiresKnowledge",
+    "label": "小节需要语言知识 / Subsection requires Linguistic Knowledge",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:34",
+    "target": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:7",
+    "evidence": {
+      "mdEvidence": ".运用所学的语法知识，理解口语和书面语篇的基本意义，描述真实和想象世界中的人和物、情景和事件，简单地表达观点、意图和情感态度，在生活中进行一般性的人际交流；3.在语篇中理解和使用过去将来时态；4.在语篇中理解和使用现在进行和现在完成时态的被动语态；5.在语篇中理解和使用动词不定式作句子中的定语和结果状语；6.在语篇中理解和使用动词-ing形式作句子中的定语、状语和补语；7.在语篇中理解和使用动词-ed形式作句子中的定语、状语和补语；8.在语篇中理解和使用由关系代词that、which、who、whom、whose和",
+      "mappingRule": "基于小节标题判定：Focus on Language:Verbs Followed by Verb-ing Form or Infinitive -> 语法知识（必修）。",
+      "note": "Focus on Language:Verbs Followed by Verb-ing Form or Infinitive -> 语法知识（必修）"
+    }
+  },
+  {
+    "relationName": "knowledgeSupportsSubsection",
+    "label": "语言知识支撑小节 / Linguistic Knowledge supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:4",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:35",
+    "evidence": {
+      "mdEvidence": "选择性必修和选修（提高类）阶段，可以通过英文诗歌朗诵、戏剧表演、影视配音等活动提高学生发音的准确性和表达的流畅性。 # 2. 词汇知识 # 【内容要求】 词是语言的建构材料，也是最小的能够独立运用的语言单位。任何 词都是通过一定的句法关系和语义关系与其他词建立起一定联系，并在语境中传递信息。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的词汇知识内容要求如表5所示： 表 5 词汇知识内容要求 <table><tr><td>课程类别</td><td>内容要求</td",
+      "mappingRule": "基于小节标题判定：1 Studying Abroad -> 词汇知识（必修）。",
+      "note": "词汇知识（必修） -> 1 Studying Abroad"
+    }
+  },
+  {
+    "relationName": "subsectionRequiresKnowledge",
+    "label": "小节需要语言知识 / Subsection requires Linguistic Knowledge",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:35",
+    "target": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:4",
+    "evidence": {
+      "mdEvidence": "选择性必修和选修（提高类）阶段，可以通过英文诗歌朗诵、戏剧表演、影视配音等活动提高学生发音的准确性和表达的流畅性。 # 2. 词汇知识 # 【内容要求】 词是语言的建构材料，也是最小的能够独立运用的语言单位。任何 词都是通过一定的句法关系和语义关系与其他词建立起一定联系，并在语境中传递信息。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的词汇知识内容要求如表5所示： 表 5 词汇知识内容要求 <table><tr><td>课程类别</td><td>内容要求</td",
+      "mappingRule": "基于小节标题判定：1 Studying Abroad -> 词汇知识（必修）。",
+      "note": "1 Studying Abroad -> 词汇知识（必修）"
+    }
+  },
+  {
+    "relationName": "knowledgeSupportsSubsection",
+    "label": "语言知识支撑小节 / Linguistic Knowledge supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:4",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:36",
+    "evidence": {
+      "mdEvidence": "选择性必修和选修（提高类）阶段，可以通过英文诗歌朗诵、戏剧表演、影视配音等活动提高学生发音的准确性和表达的流畅性。 # 2. 词汇知识 # 【内容要求】 词是语言的建构材料，也是最小的能够独立运用的语言单位。任何 词都是通过一定的句法关系和语义关系与其他词建立起一定联系，并在语境中传递信息。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的词汇知识内容要求如表5所示： 表 5 词汇知识内容要求 <table><tr><td>课程类别</td><td>内容要求</td",
+      "mappingRule": "基于小节标题判定：2 Do Boys and Girls Have Different Reading Preferences? -> 词汇知识（必修）。",
+      "note": "词汇知识（必修） -> 2 Do Boys and Girls Have Different Reading Preferences?"
+    }
+  },
+  {
+    "relationName": "subsectionRequiresKnowledge",
+    "label": "小节需要语言知识 / Subsection requires Linguistic Knowledge",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:36",
+    "target": "urn:jy:English:SB0102:OB06:LinguisticKnowledge:4",
+    "evidence": {
+      "mdEvidence": "选择性必修和选修（提高类）阶段，可以通过英文诗歌朗诵、戏剧表演、影视配音等活动提高学生发音的准确性和表达的流畅性。 # 2. 词汇知识 # 【内容要求】 词是语言的建构材料，也是最小的能够独立运用的语言单位。任何 词都是通过一定的句法关系和语义关系与其他词建立起一定联系，并在语境中传递信息。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的词汇知识内容要求如表5所示： 表 5 词汇知识内容要求 <table><tr><td>课程类别</td><td>内容要求</td",
+      "mappingRule": "基于小节标题判定：2 Do Boys and Girls Have Different Reading Preferences? -> 词汇知识（必修）。",
+      "note": "2 Do Boys and Girls Have Different Reading Preferences? -> 词汇知识（必修）"
+    }
+  }
+]

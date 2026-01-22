@@ -1,0 +1,2786 @@
+[
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:1",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《TOPIC TALK》属于单元学习活动，需要以语篇为载体开展（口头语篇：专题讨论/讲座/演讲等）。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:1",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《TOPIC TALK》属于单元学习活动，需要以语篇为载体开展（口头语篇：专题讨论/讲座/演讲等）。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 1》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:2",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 1》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:3",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 2》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:3",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 2》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:4",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 3》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:4",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 3》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:5",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《WRITING WORKSHOP》属于单元学习活动，需要以语篇为载体开展（应用文/议论文写作等（正式书信、宣传稿等））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:5",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《WRITING WORKSHOP》属于单元学习活动，需要以语篇为载体开展（应用文/议论文写作等（正式书信、宣传稿等））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:6",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《VIEWING WORKSHOP》属于单元学习活动，需要以语篇为载体开展（多模态语篇：影视/广告等视听材料）。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:6",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《VIEWING WORKSHOP》属于单元学习活动，需要以语篇为载体开展（多模态语篇：影视/广告等视听材料）。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:7",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《READING CLUB》属于单元学习活动，需要以语篇为载体开展（拓展阅读：小说/科幻/幽默故事/书评影评等）。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:7",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《READING CLUB》属于单元学习活动，需要以语篇为载体开展（拓展阅读：小说/科幻/幽默故事/书评影评等）。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:8",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《ASSESSMENT》属于单元学习活动，需要以语篇为载体开展（综合运用多类语篇完成任务）。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:8",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《ASSESSMENT》属于单元学习活动，需要以语篇为载体开展（综合运用多类语篇完成任务）。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:9",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《TOPIC TALK》属于单元学习活动，需要以语篇为载体开展（口头语篇：专题讨论/讲座/演讲等）。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:9",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《TOPIC TALK》属于单元学习活动，需要以语篇为载体开展（口头语篇：专题讨论/讲座/演讲等）。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:10",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 1》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:10",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 1》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:11",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 2》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:11",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 2》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:12",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 3》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:12",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 3》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:13",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《WRITING WORKSHOP》属于单元学习活动，需要以语篇为载体开展（应用文/议论文写作等（正式书信、宣传稿等））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:13",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《WRITING WORKSHOP》属于单元学习活动，需要以语篇为载体开展（应用文/议论文写作等（正式书信、宣传稿等））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:14",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《VIEWING WORKSHOP》属于单元学习活动，需要以语篇为载体开展（多模态语篇：影视/广告等视听材料）。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:14",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《VIEWING WORKSHOP》属于单元学习活动，需要以语篇为载体开展（多模态语篇：影视/广告等视听材料）。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:15",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《READING CLUB》属于单元学习活动，需要以语篇为载体开展（拓展阅读：小说/科幻/幽默故事/书评影评等）。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:15",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《READING CLUB》属于单元学习活动，需要以语篇为载体开展（拓展阅读：小说/科幻/幽默故事/书评影评等）。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:16",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《ASSESSMENT》属于单元学习活动，需要以语篇为载体开展（综合运用多类语篇完成任务）。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:16",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《ASSESSMENT》属于单元学习活动，需要以语篇为载体开展（综合运用多类语篇完成任务）。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:17",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《TOPIC TALK》属于单元学习活动，需要以语篇为载体开展（口头语篇：专题讨论/讲座/演讲等）。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:17",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《TOPIC TALK》属于单元学习活动，需要以语篇为载体开展（口头语篇：专题讨论/讲座/演讲等）。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:18",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 1》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:18",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 1》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:19",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 2》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:19",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 2》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:20",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 3》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:20",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 3》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:21",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《WRITING WORKSHOP》属于单元学习活动，需要以语篇为载体开展（应用文/议论文写作等（正式书信、宣传稿等））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:21",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《WRITING WORKSHOP》属于单元学习活动，需要以语篇为载体开展（应用文/议论文写作等（正式书信、宣传稿等））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:22",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《VIEWING WORKSHOP》属于单元学习活动，需要以语篇为载体开展（多模态语篇：影视/广告等视听材料）。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:22",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《VIEWING WORKSHOP》属于单元学习活动，需要以语篇为载体开展（多模态语篇：影视/广告等视听材料）。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:23",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《READING CLUB》属于单元学习活动，需要以语篇为载体开展（拓展阅读：小说/科幻/幽默故事/书评影评等）。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:23",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《READING CLUB》属于单元学习活动，需要以语篇为载体开展（拓展阅读：小说/科幻/幽默故事/书评影评等）。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:24",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《ASSESSMENT》属于单元学习活动，需要以语篇为载体开展（综合运用多类语篇完成任务）。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:24",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《ASSESSMENT》属于单元学习活动，需要以语篇为载体开展（综合运用多类语篇完成任务）。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:25",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《TOPIC TALK》属于单元学习活动，需要以语篇为载体开展（口头语篇：专题讨论/讲座/演讲等）。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:25",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《TOPIC TALK》属于单元学习活动，需要以语篇为载体开展（口头语篇：专题讨论/讲座/演讲等）。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:26",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 1（1）》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:26",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 1（1）》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:27",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 1（2）》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:27",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 1（2）》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:28",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 2》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:28",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 2》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:29",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 3（1）》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:29",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 3（1）》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:30",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 3（2）》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:30",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 3（2）》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:31",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《WRITING WORKSHOP  VIEWING WORKSHOP》属于单元学习活动，需要以语篇为载体开展（应用文/议论文写作等（正式书信、宣传稿等））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:31",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《WRITING WORKSHOP  VIEWING WORKSHOP》属于单元学习活动，需要以语篇为载体开展（应用文/议论文写作等（正式书信、宣传稿等））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:32",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《READING CLUB》属于单元学习活动，需要以语篇为载体开展（拓展阅读：小说/科幻/幽默故事/书评影评等）。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:32",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《READING CLUB》属于单元学习活动，需要以语篇为载体开展（拓展阅读：小说/科幻/幽默故事/书评影评等）。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:33",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《ASSESSMENT 》属于单元学习活动，需要以语篇为载体开展（综合运用多类语篇完成任务）。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:33",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《ASSESSMENT 》属于单元学习活动，需要以语篇为载体开展（综合运用多类语篇完成任务）。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:34",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《TOPIC TALK》属于单元学习活动，需要以语篇为载体开展（口头语篇：专题讨论/讲座/演讲等）。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:34",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《TOPIC TALK》属于单元学习活动，需要以语篇为载体开展（口头语篇：专题讨论/讲座/演讲等）。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:35",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 1（1）》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:35",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 1（1）》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:36",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 1（2）》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:36",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 1（2）》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:37",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 2》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:37",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 2》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:38",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 3（1）》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:38",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 3（1）》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:39",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 3（2）》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:39",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 3（2）》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:40",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《WRITING WORKSHOP  VIEWING WORKSHOP》属于单元学习活动，需要以语篇为载体开展（应用文/议论文写作等（正式书信、宣传稿等））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:40",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《WRITING WORKSHOP  VIEWING WORKSHOP》属于单元学习活动，需要以语篇为载体开展（应用文/议论文写作等（正式书信、宣传稿等））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:41",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《READING CLUB》属于单元学习活动，需要以语篇为载体开展（拓展阅读：小说/科幻/幽默故事/书评影评等）。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:41",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《READING CLUB》属于单元学习活动，需要以语篇为载体开展（拓展阅读：小说/科幻/幽默故事/书评影评等）。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:42",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《ASSESSMENT 》属于单元学习活动，需要以语篇为载体开展（综合运用多类语篇完成任务）。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:42",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《ASSESSMENT 》属于单元学习活动，需要以语篇为载体开展（综合运用多类语篇完成任务）。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:43",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《TOPIC TALK》属于单元学习活动，需要以语篇为载体开展（口头语篇：专题讨论/讲座/演讲等）。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:43",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《TOPIC TALK》属于单元学习活动，需要以语篇为载体开展（口头语篇：专题讨论/讲座/演讲等）。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:44",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 1（1）》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:44",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 1（1）》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:45",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 1（2）》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:45",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 1（2）》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:46",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 2》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:46",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 2》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:47",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 3（1）》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:47",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 3（1）》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:48",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 3（2）》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:48",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《LESSON 3（2）》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:49",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《WRITING WORKSHOP  VIEWING WORKSHOP》属于单元学习活动，需要以语篇为载体开展（应用文/议论文写作等（正式书信、宣传稿等））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:49",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《WRITING WORKSHOP  VIEWING WORKSHOP》属于单元学习活动，需要以语篇为载体开展（应用文/议论文写作等（正式书信、宣传稿等））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:50",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《READING CLUB》属于单元学习活动，需要以语篇为载体开展（拓展阅读：小说/科幻/幽默故事/书评影评等）。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:50",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《READING CLUB》属于单元学习活动，需要以语篇为载体开展（拓展阅读：小说/科幻/幽默故事/书评影评等）。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:51",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《ASSESSMENT 》属于单元学习活动，需要以语篇为载体开展（综合运用多类语篇完成任务）。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:51",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《ASSESSMENT 》属于单元学习活动，需要以语篇为载体开展（综合运用多类语篇完成任务）。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:52",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Topic Talk》属于单元学习活动，需要以语篇为载体开展（口头语篇：专题讨论/讲座/演讲等）。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:52",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Topic Talk》属于单元学习活动，需要以语篇为载体开展（口头语篇：专题讨论/讲座/演讲等）。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:53",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Lesson 1 EQ: IQ》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:53",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Lesson 1 EQ: IQ》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:54",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Lesson 2 Career Skills》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:54",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Lesson 2 Career Skills》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:55",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Lesson 3 Meet the New Boss: You》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:55",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Lesson 3 Meet the New Boss: You》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:56",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Writing Workshop》属于单元学习活动，需要以语篇为载体开展（应用文/议论文写作等（正式书信、宣传稿等））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:56",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Writing Workshop》属于单元学习活动，需要以语篇为载体开展（应用文/议论文写作等（正式书信、宣传稿等））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:57",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Viewing Workshop》属于单元学习活动，需要以语篇为载体开展（多模态语篇：影视/广告等视听材料）。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:57",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Viewing Workshop》属于单元学习活动，需要以语篇为载体开展（多模态语篇：影视/广告等视听材料）。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:58",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Topic Talk》属于单元学习活动，需要以语篇为载体开展（口头语篇：专题讨论/讲座/演讲等）。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:58",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Topic Talk》属于单元学习活动，需要以语篇为载体开展（口头语篇：专题讨论/讲座/演讲等）。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:59",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Lesson 1 The Last Leaf》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:59",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Lesson 1 The Last Leaf》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:60",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Lesson 2 Poetry》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:60",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Lesson 2 Poetry》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:61",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Lesson 3 20,000 Leagues Under the Sea》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:61",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Lesson 3 20,000 Leagues Under the Sea》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:62",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Writing Workshop》属于单元学习活动，需要以语篇为载体开展（应用文/议论文写作等（正式书信、宣传稿等））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:62",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Writing Workshop》属于单元学习活动，需要以语篇为载体开展（应用文/议论文写作等（正式书信、宣传稿等））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:63",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Viewing Workshop》属于单元学习活动，需要以语篇为载体开展（多模态语篇：影视/广告等视听材料）。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:63",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Viewing Workshop》属于单元学习活动，需要以语篇为载体开展（多模态语篇：影视/广告等视听材料）。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:64",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Topic Talk》属于单元学习活动，需要以语篇为载体开展（口头语篇：专题讨论/讲座/演讲等）。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:64",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Topic Talk》属于单元学习活动，需要以语篇为载体开展（口头语篇：专题讨论/讲座/演讲等）。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:65",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Lesson 1 To Clone or Not to Clone》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:65",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Lesson 1 To Clone or Not to Clone》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:66",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Lesson 2 Brain Power》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:66",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Lesson 2 Brain Power》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:67",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Lesson 3 Epidemics Explained》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:67",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Lesson 3 Epidemics Explained》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:68",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Writing Workshop》属于单元学习活动，需要以语篇为载体开展（应用文/议论文写作等（正式书信、宣传稿等））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:68",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Writing Workshop》属于单元学习活动，需要以语篇为载体开展（应用文/议论文写作等（正式书信、宣传稿等））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:69",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Viewing Workshop》属于单元学习活动，需要以语篇为载体开展（多模态语篇：影视/广告等视听材料）。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:69",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Viewing Workshop》属于单元学习活动，需要以语篇为载体开展（多模态语篇：影视/广告等视听材料）。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:70",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Topic Talk》属于单元学习活动，需要以语篇为载体开展（口头语篇：专题讨论/讲座/演讲等）。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:70",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Topic Talk》属于单元学习活动，需要以语篇为载体开展（口头语篇：专题讨论/讲座/演讲等）。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:71",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Lesson 1 How Closely Connected Are We?》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:71",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Lesson 1 How Closely Connected Are We?》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:72",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Lesson 2 Community Spirit》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:72",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Lesson 2 Community Spirit》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:73",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Lesson 3 Anne of Green Gables》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:73",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Lesson 3 Anne of Green Gables》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:74",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Writing Workshop》属于单元学习活动，需要以语篇为载体开展（应用文/议论文写作等（正式书信、宣传稿等））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:74",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Writing Workshop》属于单元学习活动，需要以语篇为载体开展（应用文/议论文写作等（正式书信、宣传稿等））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:75",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Viewing Workshop》属于单元学习活动，需要以语篇为载体开展（多模态语篇：影视/广告等视听材料）。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:75",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Viewing Workshop》属于单元学习活动，需要以语篇为载体开展（多模态语篇：影视/广告等视听材料）。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:76",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Topic Talk》属于单元学习活动，需要以语篇为载体开展（口头语篇：专题讨论/讲座/演讲等）。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:76",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Topic Talk》属于单元学习活动，需要以语篇为载体开展（口头语篇：专题讨论/讲座/演讲等）。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:77",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Lesson 1 Living in a Community》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:77",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Lesson 1 Living in a Community》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:78",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Lesson 2 Dealing with Conflict》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:78",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Lesson 2 Dealing with Conflict》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:79",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Lesson 3 War Memories》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:79",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Lesson 3 War Memories》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:80",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Writing Workshop》属于单元学习活动，需要以语篇为载体开展（应用文/议论文写作等（正式书信、宣传稿等））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:80",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Writing Workshop》属于单元学习活动，需要以语篇为载体开展（应用文/议论文写作等（正式书信、宣传稿等））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:81",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Viewing Workshop》属于单元学习活动，需要以语篇为载体开展（多模态语篇：影视/广告等视听材料）。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:81",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Viewing Workshop》属于单元学习活动，需要以语篇为载体开展（多模态语篇：影视/广告等视听材料）。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:82",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Topic Talk》属于单元学习活动，需要以语篇为载体开展（口头语篇：专题讨论/讲座/演讲等）。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:82",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Topic Talk》属于单元学习活动，需要以语篇为载体开展（口头语篇：专题讨论/讲座/演讲等）。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:83",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Lesson 1 Scientific Breakthroughs》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:83",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Lesson 1 Scientific Breakthroughs》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:84",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Lesson 2 Aha Moment》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:84",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Lesson 2 Aha Moment》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:85",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Lesson 3 Stephen Hawking》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:85",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Lesson 3 Stephen Hawking》属于单元学习活动，需要以语篇为载体开展（课文语篇：记叙/说明/议论文等（与单元主题相关））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:86",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Writing Workshop》属于单元学习活动，需要以语篇为载体开展（应用文/议论文写作等（正式书信、宣传稿等））。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:86",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Writing Workshop》属于单元学习活动，需要以语篇为载体开展（应用文/议论文写作等（正式书信、宣传稿等））。"
+    }
+  },
+  {
+    "relationName": "discourseCoversSection",
+    "label": "语篇覆盖节 / Discourse covers Section",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:87",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Viewing Workshop》属于单元学习活动，需要以语篇为载体开展（多模态语篇：影视/广告等视听材料）。"
+    }
+  },
+  {
+    "relationName": "sectionUsesDiscourse",
+    "label": "节运用语篇 / Section uses Discourse",
+    "source": "urn:jy:English:SB0102:OB06:Section_xuanbixiu:87",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "evidence": {
+      "mdEvidence": "课程所学习的语篇侧重基础性和通用性，选择性必修课程和选修课程（提高类）的语篇侧重多样性。 普通高中英语必修课程、选择性必修课程和选修课程（提高类）的语篇建议如表3所示： 表3 语篇类型内容要求 <table><tr><td>课程类别</td><td>内容要求</td></tr><tr><td>必修</td><td>1. 对话、访谈等； 2. 记叙文，如个人故事、人物介绍、短篇小说、童话、剧本等； 3. 说明文，如有关地点、事物、产品的介绍，对事理、事由等进行的阐述和解释等；</td></tr></table> 续表",
+      "discourseRequirementEvidence": [
+        "1.专题讨论、讲座、演讲、报告等；",
+        "2.记叙文，如小说、科幻故事、幽默故事等；",
+        "3.议论文，如书评、影评、观点阐述类文章等；",
+        "..."
+      ],
+      "mappingRule": "以“选择性必修 语篇”作为语篇类型要求集合；节《Viewing Workshop》属于单元学习活动，需要以语篇为载体开展（多模态语篇：影视/广告等视听材料）。"
+    }
+  }
+]

@@ -23,13 +23,14 @@ from config import PROJECT_ROOT, DATA_ROOT, SUBJECT_CONFIG
 class Neo4jImporter:
     """Neo4j 数据导入器"""
     
-    def __init__(self, subject_name: str, env_file: str = '.env'):
+    def __init__(self, subject_name: str, env_file: str = '.env', env_type: str = 'local'):
         """
         初始化导入器
         
         Args:
             subject_name: 学科名称，如 "高中数学"、"义教物理"
             env_file: 环境配置文件路径
+            env_type: 环境类型，'local' 使用本地配置，'test' 使用测试环境配置
         """
         if GraphDatabase is None:
             raise ImportError("请先安装 neo4j 驱动: pip install neo4j")
@@ -42,6 +43,7 @@ class Neo4jImporter:
         self.subject_name = subject_name
         self.subject_config = SUBJECT_CONFIG[subject_name]
         self.neo4j_label = self.subject_config.get("neo4j_label", subject_name.replace(" ", ""))
+        self.env_type = env_type
         
         # 设置数据目录
         data_dir = self.subject_config.get("data_dir")
@@ -76,18 +78,31 @@ class Neo4jImporter:
         else:
             print(f"⚠ 警告: 环境配置文件 {env_file} 不存在，使用系统环境变量")
         
-        # 从环境变量读取 Neo4j 配置
-        self.neo4j_uri = os.getenv('NEO4J_URI')
-        self.db_scheme = os.getenv('DB_SCHEME', 'bolt')
-        self.db_host = os.getenv('DB_HOST', 'localhost')
-        self.db_port = os.getenv('DB_PORT', '7687')
-        self.db_user = os.getenv('DB_USER', 'neo4j')
-        self.db_password = os.getenv('DB_PASSWORD', '')
-        self.db_name = os.getenv('DB_NAME', 'neo4j')
+        # 根据环境类型选择配置前缀
+        if env_type == 'test':
+            # 测试环境配置
+            self.neo4j_uri = os.getenv('NEO4J_TEST_URI')
+            self.db_user = os.getenv('NEO4J_TEST_USER', 'neo4j')
+            self.db_password = os.getenv('NEO4J_TEST_PASSWORD', '')
+            self.db_name = os.getenv('NEO4J_TEST_DATABASE', 'neo4j')
+            self.db_scheme = 'neo4j'  # 测试环境通常使用neo4j协议
+            self.db_host = None
+            self.db_port = None
+            env_label = "🧪 测试环境"
+        else:
+            # 本地环境配置
+            self.neo4j_uri = os.getenv('NEO4J_URI')
+            self.db_scheme = os.getenv('DB_SCHEME', 'bolt')
+            self.db_host = os.getenv('DB_HOST', 'localhost')
+            self.db_port = os.getenv('DB_PORT', '7687')
+            self.db_user = os.getenv('DB_USER', 'neo4j')
+            self.db_password = os.getenv('DB_PASSWORD', '')
+            self.db_name = os.getenv('DB_NAME', 'neo4j')
+            env_label = "🏠 本地环境"
         
         # 打印配置信息
         target_uri = self.neo4j_uri or f"{self.db_scheme}://{self.db_host}:{self.db_port}"
-        print(f"\n📊 导入配置:")
+        print(f"\n📊 导入配置 ({env_label}):")
         print(f"   学科: {subject_name} ({self.subject_config['display_name']})")
         print(f"   Neo4j标签: {self.neo4j_label}")
         print(f"   数据目录: {self.data_dir}")
@@ -430,7 +445,7 @@ class Neo4jImporter:
             return False
 
 
-def import_subject(subject_name: str, env_file: str = '.env', clear_first: bool = False) -> bool:
+def import_subject(subject_name: str, env_file: str = '.env', clear_first: bool = False, env_type: str = 'local') -> bool:
     """
     导入指定学科的数据到 Neo4j
     
@@ -438,12 +453,13 @@ def import_subject(subject_name: str, env_file: str = '.env', clear_first: bool 
         subject_name: 学科名称
         env_file: 环境配置文件
         clear_first: 是否先清除该学科的旧数据
+        env_type: 环境类型，'local' 或 'test'
     
     Returns:
         是否成功
     """
     try:
-        importer = Neo4jImporter(subject_name, env_file)
+        importer = Neo4jImporter(subject_name, env_file, env_type)
         
         if clear_first:
             importer.clear_subject_data(confirm=True)
@@ -454,7 +470,7 @@ def import_subject(subject_name: str, env_file: str = '.env', clear_first: bool 
         return False
 
 
-def import_all_subjects(env_file: str = '.env', clear_first: bool = False) -> Dict[str, bool]:
+def import_all_subjects(env_file: str = '.env', clear_first: bool = False, env_type: str = 'local') -> Dict[str, bool]:
     """
     导入所有学科的数据到 Neo4j
     
