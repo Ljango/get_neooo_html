@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录 - 知识图谱数据审校系统</title>
+    <link rel="stylesheet" href="/static/css/app.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <h1>知识图谱数据审校系统</h1>
+            
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="username">用户名</label>
+                    <input type="text" id="username" name="username" placeholder="请输入用户名" required autofocus>
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">密码</label>
+                    <input type="password" id="password" name="password" placeholder="请输入密码" required>
+                </div>
+                
+                <button type="submit" class="btn btn-primary btn-block" id="loginBtn">
+                    登录
+                </button>
+                
+                <p class="error-message" id="errorMsg" style="display: none;"></p>
+            </form>
+            
+            <div style="margin-top: 20px; text-align: center; color: #999; font-size: 12px;">
+                <p>默认管理员账号：root / root123</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="/static/js/api.js"></script>
+    <script>
+        // 如果已登录，直接跳转
+        if (isLoggedIn()) {
+            window.location.href = '/static/app/dashboard.html';
+        }
+        
+        const form = document.getElementById('loginForm');
+        const errorMsg = document.getElementById('errorMsg');
+        const loginBtn = document.getElementById('loginBtn');
+        
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const username = document.getElementById('username').value.trim();
+            const password = document.getElementById('password').value;
+            
+            if (!username || !password) {
+                showError('请输入用户名和密码');
+                return;
+            }
+            
+            // 禁用按钮
+            loginBtn.disabled = true;
+            loginBtn.textContent = '登录中...';
+            errorMsg.style.display = 'none';
+            
+            try {
+                const result = await api.auth.login(username, password);
+                
+                // 保存token和用户信息
+                setToken(result.access_token);
+                setUserInfo(result.user);
+                
+                // 检查是否需要修改密码
+                if (result.user.must_change_password) {
+                    window.location.href = '/static/app/change-password.html';
+                } else {
+                    window.location.href = '/static/app/dashboard.html';
+                }
+            } catch (error) {
+                showError(error.message || '登录失败，请检查用户名和密码');
+            } finally {
+                loginBtn.disabled = false;
+                loginBtn.textContent = '登录';
+            }
+        });
+        
+        function showError(msg) {
+            errorMsg.textContent = msg;
+            errorMsg.style.display = 'block';
+        }
+    </script>
+</body>
+</html>

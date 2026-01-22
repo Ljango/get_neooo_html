@@ -1,4 +1,20 @@
-# 知识图谱可视化系统依赖
+# 知识图谱数据审校系统依赖
+
+# Web框架
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+
+# 数据库（同步）
+sqlalchemy>=2.0.0
+pymysql>=1.1.0
+
+# 数据库（异步 - 可选，用于性能优化）
+aiosqlite>=0.19.0          # SQLite异步驱动
+aiomysql>=0.2.0            # MySQL异步驱动
+aiofiles>=23.2.0           # 异步文件I/O
+
+# 认证 (使用内置hashlib的PBKDF2，无需bcrypt)
+python-jose[cryptography]>=3.3.0
 
 # Neo4j 数据库驱动
 neo4j>=5.0.0
@@ -10,6 +26,12 @@ python-dotenv>=1.0.0
 pandas>=2.0.0
 openpyxl>=3.1.0
 
-# HTTP服务（Python内置，无需安装）
-# http.server
-# socketserver
+# 数据验证
+pydantic>=2.0.0
+
+# 测试
+httpx>=0.26.0
+
+# 性能优化（可选）
+# aioredis>=2.0.0          # Redis异步缓存
+# fastapi-limiter>=0.1.0   # API限流

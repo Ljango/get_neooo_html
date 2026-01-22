@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户管理 - 知识图谱数据审校系统</title>
+    <link rel="stylesheet" href="/static/css/app.css">
+</head>
+<body>
+    <div class="app-layout">
+        <!-- 侧边栏 -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <h2>知识图谱审校系统</h2>
+            </div>
+            
+            <nav class="sidebar-menu">
+                <a href="/static/app/dashboard.html" class="menu-item">
+                    <i>📊</i> <span>工作台</span>
+                </a>
+                <a href="/static/app/review.html" class="menu-item">
+                    <i>✏️</i> <span>数据审核</span>
+                </a>
+                <a href="/static/index.html" class="menu-item" target="_blank">
+                    <i>🔗</i> <span>图谱可视化</span>
+                </a>
+                
+                <div class="menu-divider" data-role="admin"></div>
+                <div class="menu-label" data-role="admin">管理功能</div>
+                
+                <a href="/static/app/admin.html" class="menu-item active" data-role="admin">
+                    <i>👥</i> <span>用户管理</span>
+                </a>
+                <a href="/static/app/system.html" class="menu-item" data-role="root">
+                    <i>⚙️</i> <span>系统管理</span>
+                </a>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <div class="user-info">
+                    <div class="user-avatar">U</div>
+                    <div class="user-name">
+                        <span>用户</span>
+                        <div class="user-role">角色</div>
+                    </div>
+                </div>
+                <a href="#" id="logoutBtn" style="color: rgba(255,255,255,0.6); font-size: 12px; display: block; margin-top: 10px;">退出登录</a>
+            </div>
+        </div>
+        
+        <!-- 主内容区 -->
+        <div class="main-content">
+            <header class="header">
+                <h1 class="header-title">用户管理</h1>
+                <div class="header-actions">
+                    <button class="btn btn-primary" onclick="showCreateUserModal()">添加用户</button>
+                </div>
+            </header>
+            
+            <main class="content">
+                <!-- 统计卡片 -->
+                <div class="stats-grid" id="statsGrid"></div>
+                
+                <!-- 用户列表 -->
+                <div class="card">
+                    <div class="card-header">
+                        用户列表
+                        <select id="roleFilter" onchange="loadUsers()" style="padding: 5px 10px; border-radius: 4px;">
+                            <option value="">全部角色</option>
+                            <option value="root">系统管理员</option>
+                            <option value="admin">管理员</option>
+                            <option value="teacher">教师</option>
+                        </select>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-container">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>用户名</th>
+                                        <th>姓名</th>
+                                        <th>角色</th>
+                                        <th>状态</th>
+                                        <th>负责学科</th>
+                                        <th>最后登录</th>
+                                        <th>操作</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="userTableBody">
+                                    <tr><td colspan="7" class="loading">加载中...</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="pagination" id="pagination"></div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    
+    <!-- 创建用户模态框 -->
+    <div class="modal-overlay" id="createUserModal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3>添加用户</h3>
+                <button class="modal-close" onclick="closeModal('createUserModal')">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="createUserForm">
+                    <div class="form-group">
+                        <label>用户名</label>
+                        <input type="text" name="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label>密码</label>
+                        <input type="password" name="password" required minlength="6" placeholder="至少6位">
+                    </div>
+                    <div class="form-group">
+                        <label>姓名</label>
+                        <input type="text" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label>角色</label>
+                        <select name="role">
+                            <option value="teacher">教师</option>
+                            <option value="admin">管理员</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>邮箱</label>
+                        <input type="email" name="email">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" onclick="closeModal('createUserModal')">取消</button>
+                <button class="btn btn-primary" onclick="createUser()">创建</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 分配学科模态框 -->
+    <div class="modal-overlay" id="assignModal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3>分配学科</h3>
+                <button class="modal-close" onclick="closeModal('assignModal')">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p id="assignUserName" style="margin-bottom: 15px;"></p>
+                <div class="form-group">
+                    <label>选择学科</label>
+                    <select id="assignSubjectSelect">
+                        <option value="">请选择学科</option>
+                    </select>
+                </div>
+                <div id="currentAssignments" style="margin-top: 15px;"></div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" onclick="closeModal('assignModal')">关闭</button>
+                <button class="btn btn-primary" onclick="assignSubject()">分配</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="toast-container"></div>
+    
+    <script src="/static/js/api.js"></script>
+    <script src="/static/js/auth.js"></script>
+    <script>
+        // 检查权限
+        if (!requireRole('root', 'admin')) {
+            // 自动跳转
+        }
+        
+        initPage();
+        
+        let currentPage = 1;
+        let currentUserId = null;
+        let subjectsList = [];
+        
+        // 加载数据
+        loadStats();
+        loadUsers();
+        loadSubjectsList();
+        
+        async function loadStats() {
+            try {
+                const stats = await api.admin.getStatistics();
+                document.getElementById('statsGrid').innerHTML = `
+                    <div class="stat-card">
+                        <div class="stat-value">${stats.total_subjects}</div>
+                        <div class="stat-label">学科数量</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">${stats.total_entities.toLocaleString()}</div>
+                        <div class="stat-label">总实体数</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">${stats.total_reviewed}</div>
+                        <div class="stat-label">已审核</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">${stats.total_approved}</div>
+                        <div class="stat-label">已通过</div>
+                    </div>
+                `;
+            } catch (e) {
+                console.error('Load stats error:', e);
+            }
+        }
+        
+        async function loadUsers() {
+            const roleFilter = document.getElementById('roleFilter').value;
+            const tbody = document.getElementById('userTableBody');
+            
+            try {
+                const result = await api.admin.getUsers({ 
+                    page: currentPage, 
+                    role_filter: roleFilter || undefined 
+                });
+                
+                if (result.users.length === 0) {
+                    tbody.innerHTML = '<tr><td colspan="7" style="text-align:center;">暂无数据</td></tr>';
+                    return;
+                }
+                
+                // 获取每个用户的学科分配
+                const usersWithSubjects = await Promise.all(
+                    result.users.map(async (user) => {
+                        try {
+                            const detail = await api.admin.getUser(user.id);
+                            return { ...user, subjects: detail.user.subjects || [] };
+                        } catch (e) {
+                            return { ...user, subjects: [] };
+                        }
+                    })
+                );
+                
+                tbody.innerHTML = usersWithSubjects.map(u => `
+                    <tr>
+                        <td>${u.username}</td>
+                        <td>${u.name}</td>
+                        <td><span class="badge badge-${u.role}">${getRoleText(u.role)}</span></td>
+                        <td>${u.is_active ? '✅ 正常' : '❌ 禁用'}</td>
+                        <td>${u.subjects.map(s => s.subject_id).join(', ') || '-'}</td>
+                        <td>${u.last_login ? new Date(u.last_login).toLocaleString() : '-'}</td>
+                        <td>
+                            <button class="btn btn-primary" onclick="showAssignModal(${u.id}, '${u.name}')" style="padding:4px 8px;font-size:12px;">分配学科</button>
+                            <button class="btn btn-warning" onclick="resetPassword(${u.id})" style="padding:4px 8px;font-size:12px;">重置密码</button>
+                            ${u.role !== 'root' ? `<button class="btn btn-danger" onclick="toggleUserStatus(${u.id}, ${u.is_active})" style="padding:4px 8px;font-size:12px;">${u.is_active ? '禁用' : '启用'}</button>` : ''}
+                        </td>
+                    </tr>
+                `).join('');
+                
+                renderPagination(result.total);
+            } catch (error) {
+                tbody.innerHTML = `<tr><td colspan="7" style="color:red;">加载失败: ${error.message}</td></tr>`;
+            }
+        }
+        
+        async function loadSubjectsList() {
+            try {
+                const result = await api.review.getSubjects();
+                subjectsList = result.subjects;
+                
+                const select = document.getElementById('assignSubjectSelect');
+                select.innerHTML = '<option value="">请选择学科</option>';
+                subjectsList.forEach(s => {
+                    const option = document.createElement('option');
+                    option.value = s.subject_id;
+                    option.textContent = `${s.icon || ''} ${s.display_name}`;
+                    select.appendChild(option);
+                });
+            } catch (e) {
+                console.error('Load subjects error:', e);
+            }
+        }
+        
+        function renderPagination(total) {
+            const pageSize = 20;
+            const totalPages = Math.ceil(total / pageSize);
+            const container = document.getElementById('pagination');
+            
+            if (totalPages <= 1) {
+                container.innerHTML = '';
+                return;
+            }
+            
+            container.innerHTML = `
+                <button ${currentPage === 1 ? 'disabled' : ''} onclick="goPage(${currentPage - 1})">上一页</button>
+                <span style="padding: 8px;">${currentPage} / ${totalPages}</span>
+                <button ${currentPage >= totalPages ? 'disabled' : ''} onclick="goPage(${currentPage + 1})">下一页</button>
+            `;
+        }
+        
+        function goPage(page) {
+            currentPage = page;
+            loadUsers();
+        }
+        
+        function showCreateUserModal() {
+            document.getElementById('createUserForm').reset();
+            document.getElementById('createUserModal').classList.add('active');
+        }
+        
+        async function showAssignModal(userId, userName) {
+            currentUserId = userId;
+            document.getElementById('assignUserName').textContent = `用户：${userName}`;
+            document.getElementById('assignSubjectSelect').value = '';
+            
+            // 加载当前分配
+            try {
+                const detail = await api.admin.getUser(userId);
+                const assignments = detail.user.subjects || [];
+                
+                document.getElementById('currentAssignments').innerHTML = assignments.length > 0
+                    ? `<p>已分配学科：</p><ul>${assignments.map(a => 
+                        `<li>${a.subject_id} <button onclick="removeAssignment(${a.id})" style="color:red;border:none;background:none;cursor:pointer;">×</button></li>`
+                      ).join('')}</ul>`
+                    : '<p style="color:#999;">尚未分配学科</p>';
+            } catch (e) {
+                document.getElementById('currentAssignments').innerHTML = '';
+            }
+            
+            document.getElementById('assignModal').classList.add('active');
+        }
+        
+        function closeModal(id) {
+            document.getElementById(id).classList.remove('active');
+        }
+        
+        async function createUser() {
+            const form = document.getElementById('createUserForm');
+            const formData = new FormData(form);
+            
+            const data = {
+                username: formData.get('username'),
+                password: formData.get('password'),
+                name: formData.get('name'),
+                role: formData.get('role'),
+                email: formData.get('email') || null
+            };
+            
+            try {
+                await api.admin.createUser(data);
+                showToast('用户创建成功', 'success');
+                closeModal('createUserModal');
+                loadUsers();
+            } catch (error) {
+                showToast('创建失败: ' + error.message, 'error');
+            }
+        }
+        
+        async function assignSubject() {
+            const subjectId = document.getElementById('assignSubjectSelect').value;
+            if (!subjectId || !currentUserId) {
+                showToast('请选择学科', 'warning');
+                return;
+            }
+            
+            try {
+                await api.admin.assignSubject({
+                    user_id: currentUserId,
+                    subject_id: subjectId
+                });
+                showToast('分配成功', 'success');
+                showAssignModal(currentUserId, document.getElementById('assignUserName').textContent.replace('用户：', ''));
+                loadUsers();
+            } catch (error) {
+                showToast('分配失败: ' + error.message, 'error');
+            }
+        }
+        
+        async function removeAssignment(assignmentId) {
+            if (!confirm('确定要移除此学科分配吗？')) return;
+            
+            try {
+                await api.admin.removeAssignment(assignmentId);
+                showToast('已移除', 'success');
+                showAssignModal(currentUserId, document.getElementById('assignUserName').textContent.replace('用户：', ''));
+                loadUsers();
+            } catch (error) {
+                showToast('移除失败: ' + error.message, 'error');
+            }
+        }
+        
+        async function resetPassword(userId) {
+            if (!confirm('确定要重置此用户的密码吗？')) return;
+            
+            try {
+                const result = await api.admin.resetPassword(userId);
+                showToast(result.message, 'success');
+            } catch (error) {
+                showToast('重置失败: ' + error.message, 'error');
+            }
+        }
+        
+        async function toggleUserStatus(userId, currentStatus) {
+            const action = currentStatus ? '禁用' : '启用';
+            if (!confirm(`确定要${action}此用户吗？`)) return;
+            
+            try {
+                await api.admin.updateUser(userId, { is_active: !currentStatus });
+                showToast(`已${action}`, 'success');
+                loadUsers();
+            } catch (error) {
+                showToast('操作失败: ' + error.message, 'error');
+            }
+        }
+        
+        function getRoleText(role) {
+            const map = {
+                'root': '系统管理员',
+                'admin': '管理员',
+                'teacher': '教师'
+            };
+            return map[role] || role;
+        }
+    </script>
+</body>
+</html>

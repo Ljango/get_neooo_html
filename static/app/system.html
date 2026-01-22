@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>系统管理 - 知识图谱数据审校系统</title>
+    <link rel="stylesheet" href="/static/css/app.css">
+    <style>
+        .output-panel {
+            background: #1e1e1e;
+            color: #d4d4d4;
+            padding: 15px;
+            border-radius: var(--radius);
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 13px;
+            max-height: 400px;
+            overflow-y: auto;
+            white-space: pre-wrap;
+            word-break: break-all;
+        }
+        
+        .output-panel.loading::after {
+            content: '执行中...';
+            animation: blink 1s infinite;
+        }
+        
+        @keyframes blink {
+            50% { opacity: 0.5; }
+        }
+        
+        .operation-section {
+            margin-bottom: 30px;
+        }
+        
+        .operation-section h3 {
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .subject-select-row {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            align-items: center;
+        }
+        
+        .subject-select-row select {
+            padding: 8px 15px;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius);
+            min-width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="app-layout">
+        <!-- 侧边栏 -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <h2>知识图谱审校系统</h2>
+            </div>
+            
+            <nav class="sidebar-menu">
+                <a href="/static/app/dashboard.html" class="menu-item">
+                    <i>📊</i> <span>工作台</span>
+                </a>
+                <a href="/static/app/review.html" class="menu-item">
+                    <i>✏️</i> <span>数据审核</span>
+                </a>
+                <a href="/static/index.html" class="menu-item" target="_blank">
+                    <i>🔗</i> <span>图谱可视化</span>
+                </a>
+                
+                <div class="menu-divider" data-role="admin"></div>
+                <div class="menu-label" data-role="admin">管理功能</div>
+                
+                <a href="/static/app/admin.html" class="menu-item" data-role="admin">
+                    <i>👥</i> <span>用户管理</span>
+                </a>
+                <a href="/static/app/system.html" class="menu-item active" data-role="root">
+                    <i>⚙️</i> <span>系统管理</span>
+                </a>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <div class="user-info">
+                    <div class="user-avatar">U</div>
+                    <div class="user-name">
+                        <span>用户</span>
+                        <div class="user-role">角色</div>
+                    </div>
+                </div>
+                <a href="#" id="logoutBtn" style="color: rgba(255,255,255,0.6); font-size: 12px; display: block; margin-top: 10px;">退出登录</a>
+            </div>
+        </div>
+        
+        <!-- 主内容区 -->
+        <div class="main-content">
+            <header class="header">
+                <h1 class="header-title">系统管理（仅root可用）</h1>
+            </header>
+            
+            <main class="content">
+                <!-- 学科选择 -->
+                <div class="subject-select-row">
+                    <label>选择学科：</label>
+                    <select id="subjectSelect">
+                        <option value="">全部学科</option>
+                    </select>
+                    <span style="color: var(--text-muted); font-size: 13px;">（留空表示操作所有学科）</span>
+                </div>
+                
+                <!-- 数据检查与修复 -->
+                <div class="operation-section">
+                    <h3>📋 数据检查与修复</h3>
+                    <div class="operation-grid">
+                        <div class="operation-btn" onclick="runOperation('normalize-check')">
+                            <i>🔍</i>
+                            <div class="title">检查数据规范</div>
+                            <div class="desc">检查数据格式问题</div>
+                        </div>
+                        <div class="operation-btn" onclick="runOperation('normalize-fix')">
+                            <i>🔧</i>
+                            <div class="title">修复数据规范</div>
+                            <div class="desc">自动修复格式问题</div>
+                        </div>
+                        <div class="operation-btn" onclick="runOperation('analyze')">
+                            <i>📊</i>
+                            <div class="title">质量分析</div>
+                            <div class="desc">生成数据质量报告</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 图谱生成 -->
+                <div class="operation-section">
+                    <h3>🌐 图谱生成</h3>
+                    <div class="operation-grid">
+                        <div class="operation-btn" onclick="runOperation('generate-html')">
+                            <i>📄</i>
+                            <div class="title">生成HTML</div>
+                            <div class="desc">重新生成图谱页面</div>
+                        </div>
+                        <div class="operation-btn" onclick="runOperation('sync')">
+                            <i>🔄</i>
+                            <div class="title">同步数据</div>
+                            <div class="desc">生成HTML+更新索引</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 数据库操作 -->
+                <div class="operation-section">
+                    <h3>🗄️ 数据库操作</h3>
+                    <div class="operation-grid">
+                        <div class="operation-btn" onclick="runOperation('import-neo4j')">
+                            <i>📥</i>
+                            <div class="title">导入Neo4j</div>
+                            <div class="desc">同步到图数据库</div>
+                        </div>
+                        <div class="operation-btn" onclick="runOperation('export')">
+                            <i>📤</i>
+                            <div class="title">导出Excel</div>
+                            <div class="desc">导出数据到Excel</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 输出面板 -->
+                <div class="card">
+                    <div class="card-header">
+                        执行输出
+                        <button class="btn" onclick="clearOutput()" style="padding: 4px 10px; font-size: 12px;">清空</button>
+                    </div>
+                    <div class="card-body">
+                        <div class="output-panel" id="outputPanel">等待执行命令...</div>
+                    </div>
+                </div>
+                
+                <!-- 操作日志 -->
+                <div class="card">
+                    <div class="card-header">
+                        最近操作日志
+                    </div>
+                    <div class="card-body">
+                        <div class="table-container">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>时间</th>
+                                        <th>用户</th>
+                                        <th>操作</th>
+                                        <th>详情</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="logTableBody">
+                                    <tr><td colspan="4" class="loading">加载中...</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    
+    <div class="toast-container"></div>
+    
+    <script src="/static/js/api.js"></script>
+    <script src="/static/js/auth.js"></script>
+    <script>
+        // 检查root权限
+        if (!requireRole('root')) {
+            // 自动跳转
+        }
+        
+        initPage();
+        
+        // 加载数据
+        loadSubjects();
+        loadLogs();
+        
+        async function loadSubjects() {
+            try {
+                const result = await api.data.getSubjects();
+                const select = document.getElementById('subjectSelect');
+                
+                result.subjects.forEach(s => {
+                    const option = document.createElement('option');
+                    option.value = s.subject_id;
+                    option.textContent = `${s.icon || ''} ${s.display_name}`;
+                    select.appendChild(option);
+                });
+            } catch (error) {
+                console.error('Load subjects error:', error);
+            }
+        }
+        
+        async function loadLogs() {
+            const tbody = document.getElementById('logTableBody');
+            
+            try {
+                const result = await api.admin.getLogs({ page_size: 20 });
+                
+                if (result.logs.length === 0) {
+                    tbody.innerHTML = '<tr><td colspan="4" style="text-align:center;">暂无日志</td></tr>';
+                    return;
+                }
+                
+                tbody.innerHTML = result.logs.map(log => `
+                    <tr>
+                        <td>${new Date(log.created_at).toLocaleString()}</td>
+                        <td>${log.user_name || '-'}</td>
+                        <td>${getActionText(log.action)}</td>
+                        <td>${log.details ? JSON.stringify(log.details).substring(0, 50) : '-'}</td>
+                    </tr>
+                `).join('');
+            } catch (error) {
+                tbody.innerHTML = `<tr><td colspan="4" style="color:red;">加载失败</td></tr>`;
+            }
+        }
+        
+        async function runOperation(type) {
+            const subject = document.getElementById('subjectSelect').value || null;
+            const panel = document.getElementById('outputPanel');
+            
+            panel.textContent = '执行中...\n';
+            panel.classList.add('loading');
+            
+            try {
+                let result;
+                
+                switch (type) {
+                    case 'normalize-check':
+                        result = await api.data.normalize(subject, false);
+                        break;
+                    case 'normalize-fix':
+                        if (!confirm('确定要执行数据修复吗？这将修改数据文件。')) return;
+                        result = await api.data.normalize(subject, true);
+                        break;
+                    case 'analyze':
+                        result = await api.data.analyze(subject);
+                        break;
+                    case 'generate-html':
+                        result = await api.data.generateHtml(subject);
+                        break;
+                    case 'sync':
+                        result = await api.data.sync(subject);
+                        break;
+                    case 'import-neo4j':
+                        result = await api.data.importNeo4j(subject, 'local', false);
+                        break;
+                    case 'export':
+                        result = await api.data.exportData(subject);
+                        break;
+                }
+                
+                panel.textContent = result.output || result.message || '执行完成';
+                
+                if (result.success) {
+                    showToast('执行成功', 'success');
+                } else {
+                    showToast('执行失败', 'error');
+                }
+                
+                // 刷新日志
+                loadLogs();
+                
+            } catch (error) {
+                panel.textContent = '错误: ' + error.message;
+                showToast('执行失败: ' + error.message, 'error');
+            } finally {
+                panel.classList.remove('loading');
+            }
+        }
+        
+        function clearOutput() {
+            document.getElementById('outputPanel').textContent = '等待执行命令...';
+        }
+        
+        function getActionText(action) {
+            const map = {
+                'login': '登录',
+                'logout': '退出',
+                'create_user': '创建用户',
+                'update_user': '更新用户',
+                'delete_user': '删除用户',
+                'reset_password': '重置密码',
+                'assign_subject': '分配学科',
+                'remove_assignment': '移除分配',
+                'submit_review': '提交审核',
+                'data_normalize': '数据规范化',
+                'data_analyze': '数据分析',
+                'generate_html': '生成HTML',
+                'import_neo4j': '导入Neo4j',
+                'sync_data': '同步数据',
+                'export_data': '导出数据',
+                'change_password': '修改密码'
+            };
+            return map[action] || action;
+        }
+    </script>
+</body>
+</html>

@@ -1,18 +1,18 @@
 // =====================================================
 // 高中地理课标图谱 - Neo4j导入脚本
-// 生成时间: 2026-01-21T10:40:10.141610
+// 生成时间: 2026-01-22T23:17:07.123822
 // =====================================================
 
 // 创建约束和索引
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:LearningTheme) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:CourseTarget) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:BookModule) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:ModuleAspect) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:CourseModule) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:Chapter) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:Section) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:CoreLiteracy) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:CourseModel) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:ModuleAspect) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:BookModule) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Chapter) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:LearningTheme) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:AcademicQuality) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:CoreLiteracy-level) REQUIRE n.identifier IS UNIQUE;
 
 // =====================================================
 // 导入实体
@@ -483,6 +483,78 @@ SET n += {identifier: "urn:jy:Geography:SB0308:OB06:BookModule:13", title: "选�
 MERGE (n:BookModule {identifier: "urn:jy:Geography:SB0308:OB06:BookModule:14"})
 SET n += {identifier: "urn:jy:Geography:SB0308:OB06:BookModule:14", title: "选修9 地理野外实习", description: "本模块主要包括四方面内容：考察工具的应用，野外观察、发现与欣赏，野外地理信息获取与样品采集，考察报告撰写与交流。本模块旨在通过实践训练，提升学生使用各种工具获取野外地理信息，观察、发现、提出并获取证据，分析论证地理问题的能力，培养学生欣赏大自然的情趣。", subject: "SB0308", type: "BookModule", applicableLevel: "OB06", contentJson: "{\"contentRequirement\": \"9.1 学会运用多种手段收集和提取地理信息，设计野外实习方案，了解野外生存常识。9.2 运用地理工具在野外进行定向、定位并获取野外地理信息。9.3 阅读地形图、地质构造图以及遥感图像等，识别主要地形区、基本地质构造和地貌特点。9.4 观察某地区地质、地貌、植被、土地利用方式等景观要素，绘制示意图及剖面图，分析影响景观形成的主要因素，以及景观要素间的相互关系。9.5 学会在野外观察、测量和分析地质、地貌基本形态的方法，并采集样品。9.6 识别主要造岩矿物和常见岩石，认识不同性质岩石对地貌发育的影响。9.7 在野外观察某种地貌，推断其形成过程。9.8 学会收集并理解天气谚语，在室外观云识天气。9.9 学会社会调查的基本方法，并进行城乡实地调查。9.10 学会撰写野外考察报告并进行汇报交流。\", \"achievementRequirement\": \"\", \"teachingTip\": \"帮助学生在实践中体验中学习地理知识和技能，了解野外生存的常识，提高防避各种灾害的本领。在野外环境中，指导学生阅读各种地理图像，运用不同地理工具，观察描述地理现象，提出地理问题，获取地理信息，取证、分析并论证形成过程。引导学生客观地认识自然界及人类活动与自然环境的相互作用，提升学生认识自然的能力和自我生存能力，帮助学生科学认识地理环境。\", \"period\": \"\", \"courseModule\": \"选修课程\"}", CJ_contentRequirement: "9.1 学会运用多种手段收集和提取地理信息，设计野外实习方案，了解野外生存常识。9.2 运用地理工具在野外进行定向、定位并获取野外地理信息。9.3 阅读地形图、地质构造图以及遥感图像等，识别主要地形区、基本地质构造和地貌特点。9.4 观察某地区地质、地貌、植被、土地利用方式等景观要素，绘制示意图及剖面图，分析影响景观形成的主要因素，以及景观要素间的相互关系。9.5 学会在野外观察、测量和分析地质、地貌基本形态的方法，并采集样品。9.6 识别主要造岩矿物和常见岩石，认识不同性质岩石对地貌发育的影响。9.7 在野外观察某种地貌，推断其形成过程。9.8 学会收集并理解天气谚语，在室外观云识天气。9.9 学会社会调查的基本方法，并进行城乡实地调查。9.10 学会撰写野外考察报告并进行汇报交流。", CJ_achievementRequirement: "", CJ_teachingTip: "帮助学生在实践中体验中学习地理知识和技能，了解野外生存的常识，提高防避各种灾害的本领。在野外环境中，指导学生阅读各种地理图像，运用不同地理工具，观察描述地理现象，提出地理问题，获取地理信息，取证、分析并论证形成过程。引导学生客观地认识自然界及人类活动与自然环境的相互作用，提升学生认识自然的能力和自我生存能力，帮助学生科学认识地理环境。", CJ_period: "", CJ_courseModule: "选修课程"};
 
+MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:01"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:01", type: "Chapter", title: "第一章 宇宙中的地球", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修 第一册\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修 第一册", CJ_year: "old"};
+
+MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:02"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:02", type: "Chapter", title: "第二章 地球上的大气", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修 第一册\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修 第一册", CJ_year: "old"};
+
+MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:03"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:03", type: "Chapter", title: "第三章 地球上的水", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修 第一册\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修 第一册", CJ_year: "old"};
+
+MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:04"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:04", type: "Chapter", title: "第四章 地貌", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修 第一册\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修 第一册", CJ_year: "old"};
+
+MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:05"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:05", type: "Chapter", title: "第五章 植被与土壤", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修 第一册\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修 第一册", CJ_year: "old"};
+
+MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:06"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:06", type: "Chapter", title: "第六章 自然灾害", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修 第一册\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修 第一册", CJ_year: "old"};
+
+MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:07"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:07", type: "Chapter", title: "第一章 人口", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修 第二册\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修 第二册", CJ_year: "old"};
+
+MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:08"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:08", type: "Chapter", title: "第二章 乡村和城镇", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修 第二册\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修 第二册", CJ_year: "old"};
+
+MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:09"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:09", type: "Chapter", title: "第三章 产业区位因素", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修 第二册\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修 第二册", CJ_year: "old"};
+
+MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:10"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:10", type: "Chapter", title: "第四章 交通运输布局与区域发展", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修 第二册\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修 第二册", CJ_year: "old"};
+
+MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:11"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:11", type: "Chapter", title: "第五章 环境与发展", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修 第二册\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修 第二册", CJ_year: "old"};
+
+MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:12"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:12", type: "Chapter", title: "第一章 地球的运动", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修1 自然地理基础\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修1 自然地理基础", CJ_year: "old"};
+
+MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:13"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:13", type: "Chapter", title: "第二章 地表形态的塑造", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修1 自然地理基础\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修1 自然地理基础", CJ_year: "old"};
+
+MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:14"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:14", type: "Chapter", title: "第三章 大气的运动", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修1 自然地理基础\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修1 自然地理基础", CJ_year: "old"};
+
+MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:15"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:15", type: "Chapter", title: "第四章 水的运动", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修1 自然地理基础\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修1 自然地理基础", CJ_year: "old"};
+
+MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:16"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:16", type: "Chapter", title: "第五章 自然环境的整体性与差异性", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修1 自然地理基础\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修1 自然地理基础", CJ_year: "old"};
+
+MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:17"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:17", type: "Chapter", title: "第一章 区域与区域发展", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修2 区域发展\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修2 区域发展", CJ_year: "old"};
+
+MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:18"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:18", type: "Chapter", title: "第二章 资源、环境与区域发展", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修2 区域发展\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修2 区域发展", CJ_year: "old"};
+
+MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:19"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:19", type: "Chapter", title: "第三章 城市、产业与区域发展", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修2 区域发展\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修2 区域发展", CJ_year: "old"};
+
+MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:20"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:20", type: "Chapter", title: "第四章 区域联系与区域协调发展", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修2 区域发展\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修2 区域发展", CJ_year: "old"};
+
+MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:21"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:21", type: "Chapter", title: "第一章 自然环境与人类社会", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修3 资源、环境与国家安全\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修3 资源、环境与国家安全", CJ_year: "old"};
+
+MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:22"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:22", type: "Chapter", title: "第二章 资源安全与国家安全", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修3 资源、环境与国家安全\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修3 资源、环境与国家安全", CJ_year: "old"};
+
+MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:23"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:23", type: "Chapter", title: "第三章 环境安全与国家安全", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修3 资源、环境与国家安全\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修3 资源、环境与国家安全", CJ_year: "old"};
+
+MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:24"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:24", type: "Chapter", title: "第四章 保障国家安全的资源、环境战略与行动", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修3 资源、环境与国家安全\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修3 资源、环境与国家安全", CJ_year: "old"};
+
 MERGE (n:Section {identifier: "urn:jy:Geography:SB0308:OB06:Section:01"})
 SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Section:01", type: "Section", title: "第一节 地球的宇宙环境", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修 第一册\", \"year\": \"old\", \"chapterTitle\": \"第一章 宇宙中的地球\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修 第一册", CJ_year: "old", CJ_chapterTitle: "第一章 宇宙中的地球"};
 
@@ -762,50 +834,50 @@ SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Section:92", type: "Section"
 MERGE (n:Section {identifier: "urn:jy:Geography:SB0308:OB06:Section:93"})
 SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Section:93", type: "Section", title: "问题研究 如何做中学生资源、环境安全意识问卷调查", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修3 资源、环境与国家安全\", \"year\": \"old\", \"chapterTitle\": \"第四章 保障国家安全的资源、环境战略与行动\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修3 资源、环境与国家安全", CJ_year: "old", CJ_chapterTitle: "第四章 保障国家安全的资源、环境战略与行动"};
 
-MERGE (n:CourseModule {identifier: "urn:jy:Geography:SB0308:OB06:CourseModule:01"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:CourseModule:01", title: "必修课程", description: "必修课程的内容精选学生终身发展必备的地理基础知识和基本技能，以满足全体学生基本的地理学习需要。必修课程包括两个模块，即地理1和地理2。", subject: "SB0308", type: "CourseModule", applicableLevel: "OB06", contentJson: "{}"};
+MERGE (n:CourseModel {identifier: "urn:jy:Geography:SB0308:OB06:CourseModule:01"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:CourseModule:01", title: "必修课程", description: "必修课程的内容精选学生终身发展必备的地理基础知识和基本技能，以满足全体学生基本的地理学习需要。必修课程包括两个模块，即地理1和地理2。", subject: "SB0308", type: "CourseModel", applicableLevel: "OB06", contentJson: "{}"};
 
-MERGE (n:CourseModule {identifier: "urn:jy:Geography:SB0308:OB06:CourseModule:02"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:CourseModule:02", title: "选择性必修课程", description: "选择性必修课程内容在必修课程的基础上加深或拓展，以满足部分学生升学考试或就业的需要。选择性必修课程包括三个模块，即自然地理基础，区域发展，资源、环境与国家安全。", subject: "SB0308", type: "CourseModule", applicableLevel: "OB06", contentJson: "{}"};
+MERGE (n:CourseModel {identifier: "urn:jy:Geography:SB0308:OB06:CourseModule:02"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:CourseModule:02", title: "选择性必修课程", description: "选择性必修课程内容在必修课程的基础上加深或拓展，以满足部分学生升学考试或就业的需要。选择性必修课程包括三个模块，即自然地理基础，区域发展，资源、环境与国家安全。", subject: "SB0308", type: "CourseModel", applicableLevel: "OB06", contentJson: "{}"};
 
-MERGE (n:CourseModule {identifier: "urn:jy:Geography:SB0308:OB06:CourseModule:03"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:CourseModule:03", title: "选修课程", description: "选修课程为校本课程，提供多样化的课程清单，以满足不同学生基于兴趣爱好、学业发展、职业倾向等选课的需要。选修课程包括九个模块，分别侧重自然领域、人文领域、技术与实践领域。", subject: "SB0308", type: "CourseModule", applicableLevel: "OB06", contentJson: "{}"};
+MERGE (n:CourseModel {identifier: "urn:jy:Geography:SB0308:OB06:CourseModule:03"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:CourseModule:03", title: "选修课程", description: "选修课程为校本课程，提供多样化的课程清单，以满足不同学生基于兴趣爱好、学业发展、职业倾向等选课的需要。选修课程包括九个模块，分别侧重自然领域、人文领域、技术与实践领域。", subject: "SB0308", type: "CourseModel", applicableLevel: "OB06", contentJson: "{}"};
 
-MERGE (n:CoreLiteracy {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:01"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:01", title: "人地协调观-水平1", description: "指人们对人类与地理环境之间关系秉持的正确价值观。人地关系是地理学研究的核心主题。面对不断出现的人口、资源、环境和发展问题，人们越来越深刻地认识到，人类社会要更好地发展，必须尊重自然规律，协调好人类活动与地理环境的关系。人地协调观的培养，有助于学生形成尊重自然、顺应自然、保护自然的意识，树立绿色发展、国家安全等观念，涵养人文情怀，增强社会责任感。", subject: "SB0308", type: "CoreLiteracy", applicableLevel: "OB06", contentJson: "{\"performance\": \"（1）能够理解自然环境是人类生存、发展的基础，并能够辩证看待自然环境对人类活动的各种影响。（2）能够理解人类活动影响地理环境有不同的方式、强度和后果，懂得尊重自然规律的重要性和必要性。（3）能够分析评价现实人地关系问题，理解协调人地关系的政策与措施。\", \"standard\": \"水平1\", \"standardRequirement\": \"在结构良好的地理情境中，能够从人地关系的角度，简要描述地理环境为人类活动提供基础、人类活动对地理环境产生积极与消极影响的事实；简要说明出现的人地关系问题及解决的途径和方法。\"}", CJ_performance: "（1）能够理解自然环境是人类生存、发展的基础，并能够辩证看待自然环境对人类活动的各种影响。（2）能够理解人类活动影响地理环境有不同的方式、强度和后果，懂得尊重自然规律的重要性和必要性。（3）能够分析评价现实人地关系问题，理解协调人地关系的政策与措施。", CJ_standard: "水平1", CJ_standardRequirement: "在结构良好的地理情境中，能够从人地关系的角度，简要描述地理环境为人类活动提供基础、人类活动对地理环境产生积极与消极影响的事实；简要说明出现的人地关系问题及解决的途径和方法。"};
+MERGE (n:CoreLiteracy-level {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:01"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:01", title: "人地协调观-水平1", description: "指人们对人类与地理环境之间关系秉持的正确价值观。人地关系是地理学研究的核心主题。面对不断出现的人口、资源、环境和发展问题，人们越来越深刻地认识到，人类社会要更好地发展，必须尊重自然规律，协调好人类活动与地理环境的关系。人地协调观的培养，有助于学生形成尊重自然、顺应自然、保护自然的意识，树立绿色发展、国家安全等观念，涵养人文情怀，增强社会责任感。", subject: "SB0308", type: "CoreLiteracy-level", applicableLevel: "OB06", contentJson: "{\"performance\": \"（1）能够理解自然环境是人类生存、发展的基础，并能够辩证看待自然环境对人类活动的各种影响。（2）能够理解人类活动影响地理环境有不同的方式、强度和后果，懂得尊重自然规律的重要性和必要性。（3）能够分析评价现实人地关系问题，理解协调人地关系的政策与措施。\", \"standard\": \"水平1\", \"standardRequirement\": \"在结构良好的地理情境中，能够从人地关系的角度，简要描述地理环境为人类活动提供基础、人类活动对地理环境产生积极与消极影响的事实；简要说明出现的人地关系问题及解决的途径和方法。\"}", CJ_performance: "（1）能够理解自然环境是人类生存、发展的基础，并能够辩证看待自然环境对人类活动的各种影响。（2）能够理解人类活动影响地理环境有不同的方式、强度和后果，懂得尊重自然规律的重要性和必要性。（3）能够分析评价现实人地关系问题，理解协调人地关系的政策与措施。", CJ_standard: "水平1", CJ_standardRequirement: "在结构良好的地理情境中，能够从人地关系的角度，简要描述地理环境为人类活动提供基础、人类活动对地理环境产生积极与消极影响的事实；简要说明出现的人地关系问题及解决的途径和方法。"};
 
-MERGE (n:CoreLiteracy {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:02"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:02", title: "人地协调观-水平2", description: "指人们对人类与地理环境之间关系秉持的正确价值观。人地关系是地理学研究的核心主题。面对不断出现的人口、资源、环境和发展问题，人们越来越深刻地认识到，人类社会要更好地发展，必须尊重自然规律，协调好人类活动与地理环境的关系。人地协调观的培养，有助于学生形成尊重自然、顺应自然、保护自然的意识，树立绿色发展、国家安全等观念，涵养人文情怀，增强社会责任感。", subject: "SB0308", type: "CoreLiteracy", applicableLevel: "OB06", contentJson: "{\"performance\": \"（1）能够理解自然环境是人类生存、发展的基础，并能够辩证看待自然环境对人类活动的各种影响。（2）能够理解人类活动影响地理环境有不同的方式、强度和后果，懂得尊重自然规律的重要性和必要性。（3）能够分析评价现实人地关系问题，理解协调人地关系的政策与措施。\", \"standard\": \"水平2\", \"standardRequirement\": \"在结构不良的地理情境中，能够从人地关系的角度，说明地理环境对人类活动的影响，以及人类活动影响地理环境的方式和强度；分类描述具有全球性和区域性的人地关系问题，并对解决问题的途径和方法进行评价。\"}", CJ_performance: "（1）能够理解自然环境是人类生存、发展的基础，并能够辩证看待自然环境对人类活动的各种影响。（2）能够理解人类活动影响地理环境有不同的方式、强度和后果，懂得尊重自然规律的重要性和必要性。（3）能够分析评价现实人地关系问题，理解协调人地关系的政策与措施。", CJ_standard: "水平2", CJ_standardRequirement: "在结构不良的地理情境中，能够从人地关系的角度，说明地理环境对人类活动的影响，以及人类活动影响地理环境的方式和强度；分类描述具有全球性和区域性的人地关系问题，并对解决问题的途径和方法进行评价。"};
+MERGE (n:CoreLiteracy-level {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:02"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:02", title: "人地协调观-水平2", description: "指人们对人类与地理环境之间关系秉持的正确价值观。人地关系是地理学研究的核心主题。面对不断出现的人口、资源、环境和发展问题，人们越来越深刻地认识到，人类社会要更好地发展，必须尊重自然规律，协调好人类活动与地理环境的关系。人地协调观的培养，有助于学生形成尊重自然、顺应自然、保护自然的意识，树立绿色发展、国家安全等观念，涵养人文情怀，增强社会责任感。", subject: "SB0308", type: "CoreLiteracy-level", applicableLevel: "OB06", contentJson: "{\"performance\": \"（1）能够理解自然环境是人类生存、发展的基础，并能够辩证看待自然环境对人类活动的各种影响。（2）能够理解人类活动影响地理环境有不同的方式、强度和后果，懂得尊重自然规律的重要性和必要性。（3）能够分析评价现实人地关系问题，理解协调人地关系的政策与措施。\", \"standard\": \"水平2\", \"standardRequirement\": \"在结构不良的地理情境中，能够从人地关系的角度，说明地理环境对人类活动的影响，以及人类活动影响地理环境的方式和强度；分类描述具有全球性和区域性的人地关系问题，并对解决问题的途径和方法进行评价。\"}", CJ_performance: "（1）能够理解自然环境是人类生存、发展的基础，并能够辩证看待自然环境对人类活动的各种影响。（2）能够理解人类活动影响地理环境有不同的方式、强度和后果，懂得尊重自然规律的重要性和必要性。（3）能够分析评价现实人地关系问题，理解协调人地关系的政策与措施。", CJ_standard: "水平2", CJ_standardRequirement: "在结构不良的地理情境中，能够从人地关系的角度，说明地理环境对人类活动的影响，以及人类活动影响地理环境的方式和强度；分类描述具有全球性和区域性的人地关系问题，并对解决问题的途径和方法进行评价。"};
 
-MERGE (n:CoreLiteracy {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:03"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:03", title: "人地协调观-水平3", description: "指人们对人类与地理环境之间关系秉持的正确价值观。人地关系是地理学研究的核心主题。面对不断出现的人口、资源、环境和发展问题，人们越来越深刻地认识到，人类社会要更好地发展，必须尊重自然规律，协调好人类活动与地理环境的关系。人地协调观的培养，有助于学生形成尊重自然、顺应自然、保护自然的意识，树立绿色发展、国家安全等观念，涵养人文情怀，增强社会责任感。", subject: "SB0308", type: "CoreLiteracy", applicableLevel: "OB06", contentJson: "{\"performance\": \"（1）能够理解自然环境是人类生存、发展的基础，并能够辩证看待自然环境对人类活动的各种影响。（2）能够理解人类活动影响地理环境有不同的方式、强度和后果，懂得尊重自然规律的重要性和必要性。（3）能够分析评价现实人地关系问题，理解协调人地关系的政策与措施。\", \"standard\": \"水平3\", \"standardRequirement\": \"在结构不良的地理情境中，能够从人地关系的角度，说明不同空间尺度区域中人口、资源、环境、发展之间的相互关系，用证据说明人地关系是对立统一的，并分析、评价人地关系中存在的问题，提出自己的见解。\"}", CJ_performance: "（1）能够理解自然环境是人类生存、发展的基础，并能够辩证看待自然环境对人类活动的各种影响。（2）能够理解人类活动影响地理环境有不同的方式、强度和后果，懂得尊重自然规律的重要性和必要性。（3）能够分析评价现实人地关系问题，理解协调人地关系的政策与措施。", CJ_standard: "水平3", CJ_standardRequirement: "在结构不良的地理情境中，能够从人地关系的角度，说明不同空间尺度区域中人口、资源、环境、发展之间的相互关系，用证据说明人地关系是对立统一的，并分析、评价人地关系中存在的问题，提出自己的见解。"};
+MERGE (n:CoreLiteracy-level {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:03"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:03", title: "人地协调观-水平3", description: "指人们对人类与地理环境之间关系秉持的正确价值观。人地关系是地理学研究的核心主题。面对不断出现的人口、资源、环境和发展问题，人们越来越深刻地认识到，人类社会要更好地发展，必须尊重自然规律，协调好人类活动与地理环境的关系。人地协调观的培养，有助于学生形成尊重自然、顺应自然、保护自然的意识，树立绿色发展、国家安全等观念，涵养人文情怀，增强社会责任感。", subject: "SB0308", type: "CoreLiteracy-level", applicableLevel: "OB06", contentJson: "{\"performance\": \"（1）能够理解自然环境是人类生存、发展的基础，并能够辩证看待自然环境对人类活动的各种影响。（2）能够理解人类活动影响地理环境有不同的方式、强度和后果，懂得尊重自然规律的重要性和必要性。（3）能够分析评价现实人地关系问题，理解协调人地关系的政策与措施。\", \"standard\": \"水平3\", \"standardRequirement\": \"在结构不良的地理情境中，能够从人地关系的角度，说明不同空间尺度区域中人口、资源、环境、发展之间的相互关系，用证据说明人地关系是对立统一的，并分析、评价人地关系中存在的问题，提出自己的见解。\"}", CJ_performance: "（1）能够理解自然环境是人类生存、发展的基础，并能够辩证看待自然环境对人类活动的各种影响。（2）能够理解人类活动影响地理环境有不同的方式、强度和后果，懂得尊重自然规律的重要性和必要性。（3）能够分析评价现实人地关系问题，理解协调人地关系的政策与措施。", CJ_standard: "水平3", CJ_standardRequirement: "在结构不良的地理情境中，能够从人地关系的角度，说明不同空间尺度区域中人口、资源、环境、发展之间的相互关系，用证据说明人地关系是对立统一的，并分析、评价人地关系中存在的问题，提出自己的见解。"};
 
-MERGE (n:CoreLiteracy {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:04"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:04", title: "综合思维-水平1", description: "指人们从综合的视角认识地理环境及人地关系的思维方式和能力。人类生存的地理环境是一个综合体，在不同时空组合条件下，地理要素相互作用，综合决定着地理环境的形成和发展。综合思维的培养，有助于学生形成系统、动态、辩证的思维方式，树立求真务实、开拓创新的科学精神。", subject: "SB0308", type: "CoreLiteracy", applicableLevel: "OB06", contentJson: "{\"performance\": \"（1）能够从地理要素综合的角度，认识地理事物的整体性，地理要素相互作用、相互影响的关系。（2）能够从空间和时间综合的角度，分析地理事象的发生、发展和演化。（3）能够从地方或区域综合的角度，分析地方或区域自然和人文要素对区域特征形成的影响，以及区域人地关系问题。\", \"standard\": \"水平1\", \"standardRequirement\": \"在结构良好的地理情境中，能够从地理要素相互影响、相互制约的角度，简单分析地理事物和现象的成因、结果和影响，并关联时间和空间，合理推断其发展变化过程；综合地理要素相互作用和时空变化过程，简要解释区域地理环境特征的形成。\"}", CJ_performance: "（1）能够从地理要素综合的角度，认识地理事物的整体性，地理要素相互作用、相互影响的关系。（2）能够从空间和时间综合的角度，分析地理事象的发生、发展和演化。（3）能够从地方或区域综合的角度，分析地方或区域自然和人文要素对区域特征形成的影响，以及区域人地关系问题。", CJ_standard: "水平1", CJ_standardRequirement: "在结构良好的地理情境中，能够从地理要素相互影响、相互制约的角度，简单分析地理事物和现象的成因、结果和影响，并关联时间和空间，合理推断其发展变化过程；综合地理要素相互作用和时空变化过程，简要解释区域地理环境特征的形成。"};
+MERGE (n:CoreLiteracy-level {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:04"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:04", title: "综合思维-水平1", description: "指人们从综合的视角认识地理环境及人地关系的思维方式和能力。人类生存的地理环境是一个综合体，在不同时空组合条件下，地理要素相互作用，综合决定着地理环境的形成和发展。综合思维的培养，有助于学生形成系统、动态、辩证的思维方式，树立求真务实、开拓创新的科学精神。", subject: "SB0308", type: "CoreLiteracy-level", applicableLevel: "OB06", contentJson: "{\"performance\": \"（1）能够从地理要素综合的角度，认识地理事物的整体性，地理要素相互作用、相互影响的关系。（2）能够从空间和时间综合的角度，分析地理事象的发生、发展和演化。（3）能够从地方或区域综合的角度，分析地方或区域自然和人文要素对区域特征形成的影响，以及区域人地关系问题。\", \"standard\": \"水平1\", \"standardRequirement\": \"在结构良好的地理情境中，能够从地理要素相互影响、相互制约的角度，简单分析地理事物和现象的成因、结果和影响，并关联时间和空间，合理推断其发展变化过程；综合地理要素相互作用和时空变化过程，简要解释区域地理环境特征的形成。\"}", CJ_performance: "（1）能够从地理要素综合的角度，认识地理事物的整体性，地理要素相互作用、相互影响的关系。（2）能够从空间和时间综合的角度，分析地理事象的发生、发展和演化。（3）能够从地方或区域综合的角度，分析地方或区域自然和人文要素对区域特征形成的影响，以及区域人地关系问题。", CJ_standard: "水平1", CJ_standardRequirement: "在结构良好的地理情境中，能够从地理要素相互影响、相互制约的角度，简单分析地理事物和现象的成因、结果和影响，并关联时间和空间，合理推断其发展变化过程；综合地理要素相互作用和时空变化过程，简要解释区域地理环境特征的形成。"};
 
-MERGE (n:CoreLiteracy {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:05"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:05", title: "综合思维-水平2", description: "指人们从综合的视角认识地理环境及人地关系的思维方式和能力。人类生存的地理环境是一个综合体，在不同时空组合条件下，地理要素相互作用，综合决定着地理环境的形成和发展。综合思维的培养，有助于学生形成系统、动态、辩证的思维方式，树立求真务实、开拓创新的科学精神。", subject: "SB0308", type: "CoreLiteracy", applicableLevel: "OB06", contentJson: "{\"performance\": \"（1）能够从地理要素综合的角度，认识地理事物的整体性，地理要素相互作用、相互影响的关系。（2）能够从空间和时间综合的角度，分析地理事象的发生、发展和演化。（3）能够从地方或区域综合的角度，分析地方或区域自然和人文要素对区域特征形成的影响，以及区域人地关系问题。\", \"standard\": \"水平2\", \"standardRequirement\": \"在结构不良的地理情境中，能够从地理要素相互影响、相互制约的角度，解释地理事物和现象复杂的因果关系，及其产生的结果和影响；从时空相互关联的角度，分析地理事物和现象的现状，推测其形成过程及发展方向；综合地理要素相互作用和时空变化过程，解释区域地理环境的形成、特征和变化。\"}", CJ_performance: "（1）能够从地理要素综合的角度，认识地理事物的整体性，地理要素相互作用、相互影响的关系。（2）能够从空间和时间综合的角度，分析地理事象的发生、发展和演化。（3）能够从地方或区域综合的角度，分析地方或区域自然和人文要素对区域特征形成的影响，以及区域人地关系问题。", CJ_standard: "水平2", CJ_standardRequirement: "在结构不良的地理情境中，能够从地理要素相互影响、相互制约的角度，解释地理事物和现象复杂的因果关系，及其产生的结果和影响；从时空相互关联的角度，分析地理事物和现象的现状，推测其形成过程及发展方向；综合地理要素相互作用和时空变化过程，解释区域地理环境的形成、特征和变化。"};
+MERGE (n:CoreLiteracy-level {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:05"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:05", title: "综合思维-水平2", description: "指人们从综合的视角认识地理环境及人地关系的思维方式和能力。人类生存的地理环境是一个综合体，在不同时空组合条件下，地理要素相互作用，综合决定着地理环境的形成和发展。综合思维的培养，有助于学生形成系统、动态、辩证的思维方式，树立求真务实、开拓创新的科学精神。", subject: "SB0308", type: "CoreLiteracy-level", applicableLevel: "OB06", contentJson: "{\"performance\": \"（1）能够从地理要素综合的角度，认识地理事物的整体性，地理要素相互作用、相互影响的关系。（2）能够从空间和时间综合的角度，分析地理事象的发生、发展和演化。（3）能够从地方或区域综合的角度，分析地方或区域自然和人文要素对区域特征形成的影响，以及区域人地关系问题。\", \"standard\": \"水平2\", \"standardRequirement\": \"在结构不良的地理情境中，能够从地理要素相互影响、相互制约的角度，解释地理事物和现象复杂的因果关系，及其产生的结果和影响；从时空相互关联的角度，分析地理事物和现象的现状，推测其形成过程及发展方向；综合地理要素相互作用和时空变化过程，解释区域地理环境的形成、特征和变化。\"}", CJ_performance: "（1）能够从地理要素综合的角度，认识地理事物的整体性，地理要素相互作用、相互影响的关系。（2）能够从空间和时间综合的角度，分析地理事象的发生、发展和演化。（3）能够从地方或区域综合的角度，分析地方或区域自然和人文要素对区域特征形成的影响，以及区域人地关系问题。", CJ_standard: "水平2", CJ_standardRequirement: "在结构不良的地理情境中，能够从地理要素相互影响、相互制约的角度，解释地理事物和现象复杂的因果关系，及其产生的结果和影响；从时空相互关联的角度，分析地理事物和现象的现状，推测其形成过程及发展方向；综合地理要素相互作用和时空变化过程，解释区域地理环境的形成、特征和变化。"};
 
-MERGE (n:CoreLiteracy {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:06"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:06", title: "综合思维-水平3", description: "指人们从综合的视角认识地理环境及人地关系的思维方式和能力。人类生存的地理环境是一个综合体，在不同时空组合条件下，地理要素相互作用，综合决定着地理环境的形成和发展。综合思维的培养，有助于学生形成系统、动态、辩证的思维方式，树立求真务实、开拓创新的科学精神。", subject: "SB0308", type: "CoreLiteracy", applicableLevel: "OB06", contentJson: "{\"performance\": \"（1）能够从地理要素综合的角度，认识地理事物的整体性，地理要素相互作用、相互影响的关系。（2）能够从空间和时间综合的角度，分析地理事象的发生、发展和演化。（3）能够从地方或区域综合的角度，分析地方或区域自然和人文要素对区域特征形成的影响，以及区域人地关系问题。\", \"standard\": \"水平3\", \"standardRequirement\": \"在结构不良的地理情境中，能够运用要素综合、时空综合、地方综合的思路，综合分析地理事物和现象的主要特征、成因及变化过程，对现实的地理问题展现出较强的洞察和综合分析能力。\"}", CJ_performance: "（1）能够从地理要素综合的角度，认识地理事物的整体性，地理要素相互作用、相互影响的关系。（2）能够从空间和时间综合的角度，分析地理事象的发生、发展和演化。（3）能够从地方或区域综合的角度，分析地方或区域自然和人文要素对区域特征形成的影响，以及区域人地关系问题。", CJ_standard: "水平3", CJ_standardRequirement: "在结构不良的地理情境中，能够运用要素综合、时空综合、地方综合的思路，综合分析地理事物和现象的主要特征、成因及变化过程，对现实的地理问题展现出较强的洞察和综合分析能力。"};
+MERGE (n:CoreLiteracy-level {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:06"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:06", title: "综合思维-水平3", description: "指人们从综合的视角认识地理环境及人地关系的思维方式和能力。人类生存的地理环境是一个综合体，在不同时空组合条件下，地理要素相互作用，综合决定着地理环境的形成和发展。综合思维的培养，有助于学生形成系统、动态、辩证的思维方式，树立求真务实、开拓创新的科学精神。", subject: "SB0308", type: "CoreLiteracy-level", applicableLevel: "OB06", contentJson: "{\"performance\": \"（1）能够从地理要素综合的角度，认识地理事物的整体性，地理要素相互作用、相互影响的关系。（2）能够从空间和时间综合的角度，分析地理事象的发生、发展和演化。（3）能够从地方或区域综合的角度，分析地方或区域自然和人文要素对区域特征形成的影响，以及区域人地关系问题。\", \"standard\": \"水平3\", \"standardRequirement\": \"在结构不良的地理情境中，能够运用要素综合、时空综合、地方综合的思路，综合分析地理事物和现象的主要特征、成因及变化过程，对现实的地理问题展现出较强的洞察和综合分析能力。\"}", CJ_performance: "（1）能够从地理要素综合的角度，认识地理事物的整体性，地理要素相互作用、相互影响的关系。（2）能够从空间和时间综合的角度，分析地理事象的发生、发展和演化。（3）能够从地方或区域综合的角度，分析地方或区域自然和人文要素对区域特征形成的影响，以及区域人地关系问题。", CJ_standard: "水平3", CJ_standardRequirement: "在结构不良的地理情境中，能够运用要素综合、时空综合、地方综合的思路，综合分析地理事物和现象的主要特征、成因及变化过程，对现实的地理问题展现出较强的洞察和综合分析能力。"};
 
-MERGE (n:CoreLiteracy {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:07"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:07", title: "区域认知-水平1", description: "指人们从空间—区域的视角认识地理环境及人地关系的思维方式和能力。人类生存的地理环境复杂多样，将其划分成不同空间尺度、不同类型的区域加以认识，是人们认识地理环境复杂性的基本方法。区域认知的培养，有助于学生建立地理空间观念，认识不同的区域既各有特色，又相互联系，增强热爱家乡的情感和国家认同感，增进对世界的理解，逐步形成人类命运共同体意识。", subject: "SB0308", type: "CoreLiteracy", applicableLevel: "OB06", contentJson: "{\"performance\": \"（1）能够从空间一区域的视角，认识区域地理环境的整体性特征。（2）能够从空间一区域的视角，认识不同区域的差异和联系。（3）能够正确解释、评析区域开发利用决策的得失。\", \"standard\": \"水平1\", \"standardRequirement\": \"在结构良好的地理情境中，能够从区域整体性的角度，简要描述区域中地理环境和人类活动具有相对一致性的事实，并刻画区域主要特征；从区域差异性的角度，比较不同区域的特征、联系和结果；简要分析区域发展的地理背景。\"}", CJ_performance: "（1）能够从空间一区域的视角，认识区域地理环境的整体性特征。（2）能够从空间一区域的视角，认识不同区域的差异和联系。（3）能够正确解释、评析区域开发利用决策的得失。", CJ_standard: "水平1", CJ_standardRequirement: "在结构良好的地理情境中，能够从区域整体性的角度，简要描述区域中地理环境和人类活动具有相对一致性的事实，并刻画区域主要特征；从区域差异性的角度，比较不同区域的特征、联系和结果；简要分析区域发展的地理背景。"};
+MERGE (n:CoreLiteracy-level {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:07"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:07", title: "区域认知-水平1", description: "指人们从空间—区域的视角认识地理环境及人地关系的思维方式和能力。人类生存的地理环境复杂多样，将其划分成不同空间尺度、不同类型的区域加以认识，是人们认识地理环境复杂性的基本方法。区域认知的培养，有助于学生建立地理空间观念，认识不同的区域既各有特色，又相互联系，增强热爱家乡的情感和国家认同感，增进对世界的理解，逐步形成人类命运共同体意识。", subject: "SB0308", type: "CoreLiteracy-level", applicableLevel: "OB06", contentJson: "{\"performance\": \"（1）能够从空间一区域的视角，认识区域地理环境的整体性特征。（2）能够从空间一区域的视角，认识不同区域的差异和联系。（3）能够正确解释、评析区域开发利用决策的得失。\", \"standard\": \"水平1\", \"standardRequirement\": \"在结构良好的地理情境中，能够从区域整体性的角度，简要描述区域中地理环境和人类活动具有相对一致性的事实，并刻画区域主要特征；从区域差异性的角度，比较不同区域的特征、联系和结果；简要分析区域发展的地理背景。\"}", CJ_performance: "（1）能够从空间一区域的视角，认识区域地理环境的整体性特征。（2）能够从空间一区域的视角，认识不同区域的差异和联系。（3）能够正确解释、评析区域开发利用决策的得失。", CJ_standard: "水平1", CJ_standardRequirement: "在结构良好的地理情境中，能够从区域整体性的角度，简要描述区域中地理环境和人类活动具有相对一致性的事实，并刻画区域主要特征；从区域差异性的角度，比较不同区域的特征、联系和结果；简要分析区域发展的地理背景。"};
 
-MERGE (n:CoreLiteracy {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:08"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:08", title: "区域认知-水平2", description: "指人们从空间—区域的视角认识地理环境及人地关系的思维方式和能力。人类生存的地理环境复杂多样，将其划分成不同空间尺度、不同类型的区域加以认识，是人们认识地理环境复杂性的基本方法。区域认知的培养，有助于学生建立地理空间观念，认识不同的区域既各有特色，又相互联系，增强热爱家乡的情感和国家认同感，增进对世界的理解，逐步形成人类命运共同体意识。", subject: "SB0308", type: "CoreLiteracy", applicableLevel: "OB06", contentJson: "{\"performance\": \"（1）能够从空间一区域的视角，认识区域地理环境的整体性特征。（2）能够从空间一区域的视角，认识不同区域的差异和联系。（3）能够正确解释、评析区域开发利用决策的得失。\", \"standard\": \"水平2\", \"standardRequirement\": \"在结构不良的地理情境中，能够从区域整体性的角度，收集、整理区域重要信息，发现并归纳区域地理事物和现象的空间分布，并分析其原因；从区域差异性的角度，采用恰当的认识区域的方法，选择具有可比性的区域，分析区域差异和区域联系；为赞同或质疑某一区域发展决策提出相关论据。\"}", CJ_performance: "（1）能够从空间一区域的视角，认识区域地理环境的整体性特征。（2）能够从空间一区域的视角，认识不同区域的差异和联系。（3）能够正确解释、评析区域开发利用决策的得失。", CJ_standard: "水平2", CJ_standardRequirement: "在结构不良的地理情境中，能够从区域整体性的角度，收集、整理区域重要信息，发现并归纳区域地理事物和现象的空间分布，并分析其原因；从区域差异性的角度，采用恰当的认识区域的方法，选择具有可比性的区域，分析区域差异和区域联系；为赞同或质疑某一区域发展决策提出相关论据。"};
+MERGE (n:CoreLiteracy-level {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:08"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:08", title: "区域认知-水平2", description: "指人们从空间—区域的视角认识地理环境及人地关系的思维方式和能力。人类生存的地理环境复杂多样，将其划分成不同空间尺度、不同类型的区域加以认识，是人们认识地理环境复杂性的基本方法。区域认知的培养，有助于学生建立地理空间观念，认识不同的区域既各有特色，又相互联系，增强热爱家乡的情感和国家认同感，增进对世界的理解，逐步形成人类命运共同体意识。", subject: "SB0308", type: "CoreLiteracy-level", applicableLevel: "OB06", contentJson: "{\"performance\": \"（1）能够从空间一区域的视角，认识区域地理环境的整体性特征。（2）能够从空间一区域的视角，认识不同区域的差异和联系。（3）能够正确解释、评析区域开发利用决策的得失。\", \"standard\": \"水平2\", \"standardRequirement\": \"在结构不良的地理情境中，能够从区域整体性的角度，收集、整理区域重要信息，发现并归纳区域地理事物和现象的空间分布，并分析其原因；从区域差异性的角度，采用恰当的认识区域的方法，选择具有可比性的区域，分析区域差异和区域联系；为赞同或质疑某一区域发展决策提出相关论据。\"}", CJ_performance: "（1）能够从空间一区域的视角，认识区域地理环境的整体性特征。（2）能够从空间一区域的视角，认识不同区域的差异和联系。（3）能够正确解释、评析区域开发利用决策的得失。", CJ_standard: "水平2", CJ_standardRequirement: "在结构不良的地理情境中，能够从区域整体性的角度，收集、整理区域重要信息，发现并归纳区域地理事物和现象的空间分布，并分析其原因；从区域差异性的角度，采用恰当的认识区域的方法，选择具有可比性的区域，分析区域差异和区域联系；为赞同或质疑某一区域发展决策提出相关论据。"};
 
-MERGE (n:CoreLiteracy {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:09"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:09", title: "区域认知-水平3", description: "指人们从空间—区域的视角认识地理环境及人地关系的思维方式和能力。人类生存的地理环境复杂多样，将其划分成不同空间尺度、不同类型的区域加以认识，是人们认识地理环境复杂性的基本方法。区域认知的培养，有助于学生建立地理空间观念，认识不同的区域既各有特色，又相互联系，增强热爱家乡的情感和国家认同感，增进对世界的理解，逐步形成人类命运共同体意识。", subject: "SB0308", type: "CoreLiteracy", applicableLevel: "OB06", contentJson: "{\"performance\": \"（1）能够从空间一区域的视角，认识区域地理环境的整体性特征。（2）能够从空间一区域的视角，认识不同区域的差异和联系。（3）能够正确解释、评析区域开发利用决策的得失。\", \"standard\": \"水平3\", \"standardRequirement\": \"在结构不良的地理情境中，能够从区域整体性的角度，收集、整理区域重要信息，发现并归纳区域地理事物和现象的空间分布，并说明区域内一个环境条件改变对其原有空间分布的影响；从区域差异性的角度，运用认识区域的方法和工具，综合分析不同区域的发展条件、路径和结果；较全面地评析某一区域发展决策的得失，并提出较为可行的改进建议。\"}", CJ_performance: "（1）能够从空间一区域的视角，认识区域地理环境的整体性特征。（2）能够从空间一区域的视角，认识不同区域的差异和联系。（3）能够正确解释、评析区域开发利用决策的得失。", CJ_standard: "水平3", CJ_standardRequirement: "在结构不良的地理情境中，能够从区域整体性的角度，收集、整理区域重要信息，发现并归纳区域地理事物和现象的空间分布，并说明区域内一个环境条件改变对其原有空间分布的影响；从区域差异性的角度，运用认识区域的方法和工具，综合分析不同区域的发展条件、路径和结果；较全面地评析某一区域发展决策的得失，并提出较为可行的改进建议。"};
+MERGE (n:CoreLiteracy-level {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:09"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:09", title: "区域认知-水平3", description: "指人们从空间—区域的视角认识地理环境及人地关系的思维方式和能力。人类生存的地理环境复杂多样，将其划分成不同空间尺度、不同类型的区域加以认识，是人们认识地理环境复杂性的基本方法。区域认知的培养，有助于学生建立地理空间观念，认识不同的区域既各有特色，又相互联系，增强热爱家乡的情感和国家认同感，增进对世界的理解，逐步形成人类命运共同体意识。", subject: "SB0308", type: "CoreLiteracy-level", applicableLevel: "OB06", contentJson: "{\"performance\": \"（1）能够从空间一区域的视角，认识区域地理环境的整体性特征。（2）能够从空间一区域的视角，认识不同区域的差异和联系。（3）能够正确解释、评析区域开发利用决策的得失。\", \"standard\": \"水平3\", \"standardRequirement\": \"在结构不良的地理情境中，能够从区域整体性的角度，收集、整理区域重要信息，发现并归纳区域地理事物和现象的空间分布，并说明区域内一个环境条件改变对其原有空间分布的影响；从区域差异性的角度，运用认识区域的方法和工具，综合分析不同区域的发展条件、路径和结果；较全面地评析某一区域发展决策的得失，并提出较为可行的改进建议。\"}", CJ_performance: "（1）能够从空间一区域的视角，认识区域地理环境的整体性特征。（2）能够从空间一区域的视角，认识不同区域的差异和联系。（3）能够正确解释、评析区域开发利用决策的得失。", CJ_standard: "水平3", CJ_standardRequirement: "在结构不良的地理情境中，能够从区域整体性的角度，收集、整理区域重要信息，发现并归纳区域地理事物和现象的空间分布，并说明区域内一个环境条件改变对其原有空间分布的影响；从区域差异性的角度，运用认识区域的方法和工具，综合分析不同区域的发展条件、路径和结果；较全面地评析某一区域发展决策的得失，并提出较为可行的改进建议。"};
 
-MERGE (n:CoreLiteracy {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10", title: "地理实践力-水平1", description: "指人们在野外考察、社会调查、地理实验等地理实践活动中所具备的行动力和意志品质。野外考察、社会调查、地理实验等地理学常用的研究方法，也是地理课程重要的学习方式。地理实践力的培养，有助于学生在真实或模拟环境中通过地理实践活动，观察和认识地理环境，体验和感悟人地关系，并在过程中养成不畏困难、乐学善学的品质，实现知行合一。", subject: "SB0308", type: "CoreLiteracy", applicableLevel: "OB06", contentJson: "{\"performance\": \"（1）能够用观察、调查等方法收集和处理地理信息，有发现问题、探索问题的兴趣。（2）能够与他人合作或独立设计地理实践活动的方案，思考并选择适当的地理工具。（3）能够实施活动方案，主动从体验和反思中学习，实事求是，有克服困难的勇气和方法。\", \"standard\": \"水平1\", \"standardRequirement\": \"在结构良好的地理情境中，能够进行细微观察和调查，获取和处理信息，有探索问题的兴趣；能够使用地理工具，设计和实施较简单的地理实践活动，用证据解释实践结论；在参与地理实践的过程中，有自己的想法，主动从体验和反思中学习，有克服困难的勇气和方法。\"}", CJ_performance: "（1）能够用观察、调查等方法收集和处理地理信息，有发现问题、探索问题的兴趣。（2）能够与他人合作或独立设计地理实践活动的方案，思考并选择适当的地理工具。（3）能够实施活动方案，主动从体验和反思中学习，实事求是，有克服困难的勇气和方法。", CJ_standard: "水平1", CJ_standardRequirement: "在结构良好的地理情境中，能够进行细微观察和调查，获取和处理信息，有探索问题的兴趣；能够使用地理工具，设计和实施较简单的地理实践活动，用证据解释实践结论；在参与地理实践的过程中，有自己的想法，主动从体验和反思中学习，有克服困难的勇气和方法。"};
+MERGE (n:CoreLiteracy-level {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10", title: "地理实践力-水平1", description: "指人们在野外考察、社会调查、地理实验等地理实践活动中所具备的行动力和意志品质。野外考察、社会调查、地理实验等地理学常用的研究方法，也是地理课程重要的学习方式。地理实践力的培养，有助于学生在真实或模拟环境中通过地理实践活动，观察和认识地理环境，体验和感悟人地关系，并在过程中养成不畏困难、乐学善学的品质，实现知行合一。", subject: "SB0308", type: "CoreLiteracy-level", applicableLevel: "OB06", contentJson: "{\"performance\": \"（1）能够用观察、调查等方法收集和处理地理信息，有发现问题、探索问题的兴趣。（2）能够与他人合作或独立设计地理实践活动的方案，思考并选择适当的地理工具。（3）能够实施活动方案，主动从体验和反思中学习，实事求是，有克服困难的勇气和方法。\", \"standard\": \"水平1\", \"standardRequirement\": \"在结构良好的地理情境中，能够进行细微观察和调查，获取和处理信息，有探索问题的兴趣；能够使用地理工具，设计和实施较简单的地理实践活动，用证据解释实践结论；在参与地理实践的过程中，有自己的想法，主动从体验和反思中学习，有克服困难的勇气和方法。\"}", CJ_performance: "（1）能够用观察、调查等方法收集和处理地理信息，有发现问题、探索问题的兴趣。（2）能够与他人合作或独立设计地理实践活动的方案，思考并选择适当的地理工具。（3）能够实施活动方案，主动从体验和反思中学习，实事求是，有克服困难的勇气和方法。", CJ_standard: "水平1", CJ_standardRequirement: "在结构良好的地理情境中，能够进行细微观察和调查，获取和处理信息，有探索问题的兴趣；能够使用地理工具，设计和实施较简单的地理实践活动，用证据解释实践结论；在参与地理实践的过程中，有自己的想法，主动从体验和反思中学习，有克服困难的勇气和方法。"};
 
-MERGE (n:CoreLiteracy {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:11"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:11", title: "地理实践力-水平2", description: "指人们在野外考察、社会调查、地理实验等地理实践活动中所具备的行动力和意志品质。野外考察、社会调查、地理实验等地理学常用的研究方法，也是地理课程重要的学习方式。地理实践力的培养，有助于学生在真实或模拟环境中通过地理实践活动，观察和认识地理环境，体验和感悟人地关系，并在过程中养成不畏困难、乐学善学的品质，实现知行合一。", subject: "SB0308", type: "CoreLiteracy", applicableLevel: "OB06", contentJson: "{\"performance\": \"（1）能够用观察、调查等方法收集和处理地理信息，有发现问题、探索问题的兴趣。（2）能够与他人合作或独立设计地理实践活动的方案，思考并选择适当的地理工具。（3）能够实施活动方案，主动从体验和反思中学习，实事求是，有克服困难的勇气和方法。\", \"standard\": \"水平2\", \"standardRequirement\": \"在结构不良的地理情境中，能够进行分类观察和调查，获取和处理较复杂的信息，主动发现和探索问题；能够使用地理工具，设计和实施较复杂的地理实践活动，并有物化形式的实践结果，善于在实践和总结中不断提升行动力；在参与实践的过程中既有自己的想法，又与同伴互助交流，有克服困难的勇气和方法。\"}", CJ_performance: "（1）能够用观察、调查等方法收集和处理地理信息，有发现问题、探索问题的兴趣。（2）能够与他人合作或独立设计地理实践活动的方案，思考并选择适当的地理工具。（3）能够实施活动方案，主动从体验和反思中学习，实事求是，有克服困难的勇气和方法。", CJ_standard: "水平2", CJ_standardRequirement: "在结构不良的地理情境中，能够进行分类观察和调查，获取和处理较复杂的信息，主动发现和探索问题；能够使用地理工具，设计和实施较复杂的地理实践活动，并有物化形式的实践结果，善于在实践和总结中不断提升行动力；在参与实践的过程中既有自己的想法，又与同伴互助交流，有克服困难的勇气和方法。"};
+MERGE (n:CoreLiteracy-level {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:11"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:11", title: "地理实践力-水平2", description: "指人们在野外考察、社会调查、地理实验等地理实践活动中所具备的行动力和意志品质。野外考察、社会调查、地理实验等地理学常用的研究方法，也是地理课程重要的学习方式。地理实践力的培养，有助于学生在真实或模拟环境中通过地理实践活动，观察和认识地理环境，体验和感悟人地关系，并在过程中养成不畏困难、乐学善学的品质，实现知行合一。", subject: "SB0308", type: "CoreLiteracy-level", applicableLevel: "OB06", contentJson: "{\"performance\": \"（1）能够用观察、调查等方法收集和处理地理信息，有发现问题、探索问题的兴趣。（2）能够与他人合作或独立设计地理实践活动的方案，思考并选择适当的地理工具。（3）能够实施活动方案，主动从体验和反思中学习，实事求是，有克服困难的勇气和方法。\", \"standard\": \"水平2\", \"standardRequirement\": \"在结构不良的地理情境中，能够进行分类观察和调查，获取和处理较复杂的信息，主动发现和探索问题；能够使用地理工具，设计和实施较复杂的地理实践活动，并有物化形式的实践结果，善于在实践和总结中不断提升行动力；在参与实践的过程中既有自己的想法，又与同伴互助交流，有克服困难的勇气和方法。\"}", CJ_performance: "（1）能够用观察、调查等方法收集和处理地理信息，有发现问题、探索问题的兴趣。（2）能够与他人合作或独立设计地理实践活动的方案，思考并选择适当的地理工具。（3）能够实施活动方案，主动从体验和反思中学习，实事求是，有克服困难的勇气和方法。", CJ_standard: "水平2", CJ_standardRequirement: "在结构不良的地理情境中，能够进行分类观察和调查，获取和处理较复杂的信息，主动发现和探索问题；能够使用地理工具，设计和实施较复杂的地理实践活动，并有物化形式的实践结果，善于在实践和总结中不断提升行动力；在参与实践的过程中既有自己的想法，又与同伴互助交流，有克服困难的勇气和方法。"};
 
-MERGE (n:CoreLiteracy {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:12"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:12", title: "地理实践力-水平3", description: "指人们在野外考察、社会调查、地理实验等地理实践活动中所具备的行动力和意志品质。野外考察、社会调查、地理实验等地理学常用的研究方法，也是地理课程重要的学习方式。地理实践力的培养，有助于学生在真实或模拟环境中通过地理实践活动，观察和认识地理环境，体验和感悟人地关系，并在过程中养成不畏困难、乐学善学的品质，实现知行合一。", subject: "SB0308", type: "CoreLiteracy", applicableLevel: "OB06", contentJson: "{\"performance\": \"（1）能够用观察、调查等方法收集和处理地理信息，有发现问题、探索问题的兴趣。（2）能够与他人合作或独立设计地理实践活动的方案，思考并选择适当的地理工具。（3）能够实施活动方案，主动从体验和反思中学习，实事求是，有克服困难的勇气和方法。\", \"standard\": \"水平3\", \"standardRequirement\": \"在结构不良的地理情境中，能够进行较系统的观察和调查，用科学方法对获取的数据、资料进行处理，主动发现、探索和解决问题；能够使用地理工具，有创意地设计和实施地理实践活动，并有证据充分的、以物化形式呈现的实践结果，对解决实际问题有一定作用；在参与实践的过程中既有创造性的想法，又能博采众长，有克服困难的勇气和方法，并体现出一定的组织领导力。\"}", CJ_performance: "（1）能够用观察、调查等方法收集和处理地理信息，有发现问题、探索问题的兴趣。（2）能够与他人合作或独立设计地理实践活动的方案，思考并选择适当的地理工具。（3）能够实施活动方案，主动从体验和反思中学习，实事求是，有克服困难的勇气和方法。", CJ_standard: "水平3", CJ_standardRequirement: "在结构不良的地理情境中，能够进行较系统的观察和调查，用科学方法对获取的数据、资料进行处理，主动发现、探索和解决问题；能够使用地理工具，有创意地设计和实施地理实践活动，并有证据充分的、以物化形式呈现的实践结果，对解决实际问题有一定作用；在参与实践的过程中既有创造性的想法，又能博采众长，有克服困难的勇气和方法，并体现出一定的组织领导力。"};
+MERGE (n:CoreLiteracy-level {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:12"})
+SET n += {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:12", title: "地理实践力-水平3", description: "指人们在野外考察、社会调查、地理实验等地理实践活动中所具备的行动力和意志品质。野外考察、社会调查、地理实验等地理学常用的研究方法，也是地理课程重要的学习方式。地理实践力的培养，有助于学生在真实或模拟环境中通过地理实践活动，观察和认识地理环境，体验和感悟人地关系，并在过程中养成不畏困难、乐学善学的品质，实现知行合一。", subject: "SB0308", type: "CoreLiteracy-level", applicableLevel: "OB06", contentJson: "{\"performance\": \"（1）能够用观察、调查等方法收集和处理地理信息，有发现问题、探索问题的兴趣。（2）能够与他人合作或独立设计地理实践活动的方案，思考并选择适当的地理工具。（3）能够实施活动方案，主动从体验和反思中学习，实事求是，有克服困难的勇气和方法。\", \"standard\": \"水平3\", \"standardRequirement\": \"在结构不良的地理情境中，能够进行较系统的观察和调查，用科学方法对获取的数据、资料进行处理，主动发现、探索和解决问题；能够使用地理工具，有创意地设计和实施地理实践活动，并有证据充分的、以物化形式呈现的实践结果，对解决实际问题有一定作用；在参与实践的过程中既有创造性的想法，又能博采众长，有克服困难的勇气和方法，并体现出一定的组织领导力。\"}", CJ_performance: "（1）能够用观察、调查等方法收集和处理地理信息，有发现问题、探索问题的兴趣。（2）能够与他人合作或独立设计地理实践活动的方案，思考并选择适当的地理工具。（3）能够实施活动方案，主动从体验和反思中学习，实事求是，有克服困难的勇气和方法。", CJ_standard: "水平3", CJ_standardRequirement: "在结构不良的地理情境中，能够进行较系统的观察和调查，用科学方法对获取的数据、资料进行处理，主动发现、探索和解决问题；能够使用地理工具，有创意地设计和实施地理实践活动，并有证据充分的、以物化形式呈现的实践结果，对解决实际问题有一定作用；在参与实践的过程中既有创造性的想法，又能博采众长，有克服困难的勇气和方法，并体现出一定的组织领导力。"};
 
 MERGE (n:CourseTarget {identifier: "urn:jy:Geography:SB0308:OB06:CourseTarget:01"})
 SET n += {identifier: "urn:jy:Geography:SB0308:OB06:CourseTarget:01", title: "人地协调观目标要求", description: "学生能够正确看待地理环境与人类活动的相互影响，深入认识两者相互影响的不同方式、强度和后果，理解人们对人地关系认识的阶段性表现及其原因，认识人地协调对可持续发展的重要意义，形成尊重自然、和谐发展的态度，认同中国式现代化是人与自然和谐共生的现代化。", subject: "SB0308", type: "CourseTarget", applicableLevel: "OB06", contentJson: "{}"};
@@ -818,78 +890,6 @@ SET n += {identifier: "urn:jy:Geography:SB0308:OB06:CourseTarget:03", title: "�
 
 MERGE (n:CourseTarget {identifier: "urn:jy:Geography:SB0308:OB06:CourseTarget:04"})
 SET n += {identifier: "urn:jy:Geography:SB0308:OB06:CourseTarget:04", title: "地理实践力目标要求", description: "学生能够运用所学知识和地理工具，在室内外真实环境中，通过考察、调查、实验等方式获取地理信息，探索和尝试解决实际问题，具备活动策划、实施等行动能力，在实践中提升创新意识，增强社会责任感，锤炼意志品质。", subject: "SB0308", type: "CourseTarget", applicableLevel: "OB06", contentJson: "{}"};
-
-MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:01"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:01", type: "Chapter", title: "第一章 宇宙中的地球", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修 第一册\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修 第一册", CJ_year: "old"};
-
-MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:02"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:02", type: "Chapter", title: "第二章 地球上的大气", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修 第一册\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修 第一册", CJ_year: "old"};
-
-MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:03"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:03", type: "Chapter", title: "第三章 地球上的水", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修 第一册\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修 第一册", CJ_year: "old"};
-
-MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:04"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:04", type: "Chapter", title: "第四章 地貌", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修 第一册\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修 第一册", CJ_year: "old"};
-
-MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:05"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:05", type: "Chapter", title: "第五章 植被与土壤", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修 第一册\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修 第一册", CJ_year: "old"};
-
-MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:06"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:06", type: "Chapter", title: "第六章 自然灾害", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修 第一册\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修 第一册", CJ_year: "old"};
-
-MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:07"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:07", type: "Chapter", title: "第一章 人口", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修 第二册\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修 第二册", CJ_year: "old"};
-
-MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:08"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:08", type: "Chapter", title: "第二章 乡村和城镇", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修 第二册\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修 第二册", CJ_year: "old"};
-
-MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:09"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:09", type: "Chapter", title: "第三章 产业区位因素", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修 第二册\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修 第二册", CJ_year: "old"};
-
-MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:10"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:10", type: "Chapter", title: "第四章 交通运输布局与区域发展", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修 第二册\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修 第二册", CJ_year: "old"};
-
-MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:11"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:11", type: "Chapter", title: "第五章 环境与发展", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修 第二册\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修 第二册", CJ_year: "old"};
-
-MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:12"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:12", type: "Chapter", title: "第一章 地球的运动", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修1 自然地理基础\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修1 自然地理基础", CJ_year: "old"};
-
-MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:13"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:13", type: "Chapter", title: "第二章 地表形态的塑造", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修1 自然地理基础\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修1 自然地理基础", CJ_year: "old"};
-
-MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:14"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:14", type: "Chapter", title: "第三章 大气的运动", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修1 自然地理基础\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修1 自然地理基础", CJ_year: "old"};
-
-MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:15"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:15", type: "Chapter", title: "第四章 水的运动", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修1 自然地理基础\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修1 自然地理基础", CJ_year: "old"};
-
-MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:16"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:16", type: "Chapter", title: "第五章 自然环境的整体性与差异性", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修1 自然地理基础\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修1 自然地理基础", CJ_year: "old"};
-
-MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:17"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:17", type: "Chapter", title: "第一章 区域与区域发展", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修2 区域发展\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修2 区域发展", CJ_year: "old"};
-
-MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:18"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:18", type: "Chapter", title: "第二章 资源、环境与区域发展", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修2 区域发展\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修2 区域发展", CJ_year: "old"};
-
-MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:19"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:19", type: "Chapter", title: "第三章 城市、产业与区域发展", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修2 区域发展\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修2 区域发展", CJ_year: "old"};
-
-MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:20"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:20", type: "Chapter", title: "第四章 区域联系与区域协调发展", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修2 区域发展\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修2 区域发展", CJ_year: "old"};
-
-MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:21"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:21", type: "Chapter", title: "第一章 自然环境与人类社会", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修3 资源、环境与国家安全\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修3 资源、环境与国家安全", CJ_year: "old"};
-
-MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:22"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:22", type: "Chapter", title: "第二章 资源安全与国家安全", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修3 资源、环境与国家安全\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修3 资源、环境与国家安全", CJ_year: "old"};
-
-MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:23"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:23", type: "Chapter", title: "第三章 环境安全与国家安全", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修3 资源、环境与国家安全\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修3 资源、环境与国家安全", CJ_year: "old"};
-
-MERGE (n:Chapter {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:24"})
-SET n += {identifier: "urn:jy:Geography:SB0308:OB06:Chapter:24", type: "Chapter", title: "第四章 保障国家安全的资源、环境战略与行动", description: "", subject: "SB0308", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修3 资源、环境与国家安全\", \"year\": \"old\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修3 资源、环境与国家安全", CJ_year: "old"};
 
 MERGE (n:AcademicQuality {identifier: "urn:jy:Geography:SB0308:OB06:AcademicQuality:01"})
 SET n += {identifier: "urn:jy:Geography:SB0308:OB06:AcademicQuality:01", title: "学业质量", description: "学业质量是学生在完成本学科课程学习后学业成就的综合表现，体现课程目标的达成程度，反映核心素养发展状况。学业质量标准依据学科核心素养水平划分（附录2），结合结构化课程内容，描述学习结果的典型表现，整体标识和刻画学业质量的不同水平。", subject: "SB0308", type: "AcademicQuality", applicableLevel: "OB06", contentJson: "{\"aspect\": \"综合性\", \"standard\": \"1\", \"standardRequirement\": \"在结构良好的地理情境中，运用恰当的地理工具与方法，辨识情境中较明显的地理要素，解释地理要素相互影响的方式和结果；描述情境中地理事物和现象的分布、特征等信息；运用相关证据简要说明地理环境为人类活动提供的基础或限制，以及人类活动对地理环境产生的影响。\"}", CJ_aspect: "综合性", CJ_standard: "1", CJ_standardRequirement: "在结构良好的地理情境中，运用恰当的地理工具与方法，辨识情境中较明显的地理要素，解释地理要素相互影响的方式和结果；描述情境中地理事物和现象的分布、特征等信息；运用相关证据简要说明地理环境为人类活动提供的基础或限制，以及人类活动对地理环境产生的影响。"};
@@ -1332,1603 +1332,1603 @@ MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:CoreLiteracy:12"})
 MERGE (source)-[r:reflectsDevelopment]->(target)
 SET r.label = "反映发展 / reflectsDevelopment";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:001"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:001"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:01"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:01"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:001"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:001"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:002"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:002"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:01"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:01"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:002"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:002"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:003"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:003"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:01"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:01"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:003"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:003"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:004"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:004"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:02"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:02"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:004"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:004"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:009"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:009"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:02"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:02"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:009"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:009"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:010"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:010"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:02"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:02"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:010"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:010"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:005"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:005"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:03"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:03"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:005"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:005"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:006"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:006"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:03"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:03"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:006"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:006"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:007"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:007"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:03"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:03"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:007"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:007"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:008"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:008"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:03"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:03"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:008"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:008"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:011"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:011"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:03"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:03"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:011"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:011"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:012"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:012"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:03"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:03"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:012"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:012"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:013"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:013"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:04"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:04"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:013"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:013"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:014"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:014"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:05"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:05"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:014"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:014"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:015"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:015"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:05"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:05"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:015"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:015"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:016"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:016"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:05"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:05"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:016"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:016"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:017"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:017"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:06"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:06"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:017"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:017"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:018"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:018"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:06"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:06"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:018"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:018"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:019"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:019"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:07"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:07"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:019"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:019"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:020"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:020"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:07"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:07"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:020"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:020"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:021"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:021"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:07"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:07"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:021"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:021"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:022"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:022"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:07"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:07"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:022"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:022"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:023"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:023"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:07"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:07"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:023"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:023"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:024"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:024"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:08"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:08"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:024"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:024"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:025"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:025"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:09"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:09"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:025"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:025"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:026"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:026"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:09"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:09"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:026"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:026"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:027"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:027"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:09"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:09"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:027"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:027"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:028"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:028"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:09"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:09"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:028"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:028"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:029"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:029"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:09"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:09"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:029"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:029"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:030"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:030"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:09"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:09"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:030"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:030"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:031"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:031"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:09"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:09"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:031"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:031"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:032"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:032"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:10"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:10"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:032"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:032"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:033"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:033"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:11"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:11"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:033"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:033"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:034"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:034"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:12"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:12"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:034"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:034"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:035"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:035"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:12"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:12"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:035"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:035"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:036"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:036"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:12"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:12"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:036"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:036"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:037"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:037"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:12"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:12"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:037"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:037"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:038"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:038"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:12"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:12"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:038"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:038"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:039"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:039"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:13"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:13"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:039"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:039"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:040"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:040"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:13"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:13"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:040"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:040"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:041"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:041"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:13"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:13"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:041"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:041"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:042"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:042"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:14"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:14"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:042"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:042"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:043"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:043"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:14"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:14"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:043"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:043"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:044"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:044"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:14"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:14"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:044"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:044"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:045"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:045"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:14"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:14"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:045"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:045"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:046"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:046"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:15"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:15"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:046"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:046"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:047"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:047"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:15"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:15"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:047"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:047"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:048"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:048"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:15"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:15"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:048"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:048"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:049"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:049"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:16"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:16"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:049"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:049"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:050"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:050"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:17"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:17"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:050"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:050"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:051"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:051"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:17"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:17"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:051"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:051"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:052"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:052"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:18"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:18"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:052"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:052"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:053"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:053"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:18"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:18"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:053"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:053"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:054"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:054"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:18"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:18"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:054"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:054"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:055"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:055"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:18"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:18"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:055"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:055"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:056"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:056"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:19"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:19"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:056"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:056"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:057"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:057"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:19"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:19"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:057"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:057"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:058"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:058"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:19"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:19"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:058"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:058"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:059"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:059"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:20"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:20"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:059"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:059"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:060"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:060"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:21"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:21"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:060"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:060"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:061"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:061"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:21"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:21"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:061"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:061"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:062"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:062"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:21"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:21"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:062"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:062"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:063"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:063"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:22"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:22"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:063"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:063"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:064"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:064"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:22"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:22"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:064"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:064"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:065"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:065"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:22"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:22"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:065"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:065"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:066"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:066"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:23"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:23"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:066"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:066"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:067"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:067"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:23"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:23"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:067"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:067"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:068"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:068"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:24"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:24"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:068"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:068"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:069"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:069"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:24"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:24"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:069"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:069"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:070"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:070"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:24"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:24"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:070"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:070"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:071"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:071"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:25"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:25"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:071"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:071"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:072"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:072"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:26"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:26"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:072"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:072"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:073"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:073"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:26"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:26"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:073"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:073"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:074"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:074"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:26"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:26"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:074"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:074"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:075"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:075"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:26"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:26"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:075"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:075"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:076"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:076"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:27"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:27"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:076"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:076"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:077"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:077"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:27"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:27"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:077"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:077"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:078"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:078"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:28"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:28"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:078"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:078"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:079"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:079"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:28"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:28"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:079"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:079"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:080"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:080"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:28"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:28"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:080"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:080"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:083"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:083"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:30"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:30"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:083"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:083"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:084"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:084"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:30"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:30"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:084"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:084"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:085"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:085"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:30"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:30"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:085"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:085"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:087"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:087"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:31"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:31"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:087"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:087"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:088"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:088"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:31"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:31"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:088"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:088"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:090"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:090"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:32"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:32"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:090"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:090"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:091"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:091"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:32"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:32"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:091"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:091"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:092"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:092"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:33"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:33"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:092"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:092"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:081"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:081"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:29"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:29"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:081"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:081"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:082"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:082"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:29"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:29"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:082"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:082"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:086"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:086"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:29"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:29"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:086"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:086"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:089"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:089"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:29"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:29"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:089"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:089"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:093"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:093"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:34"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:34"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:093"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:093"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:094"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:094"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:34"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:34"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:094"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:094"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:096"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:096"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:34"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:34"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:096"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:096"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:097"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:097"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:35"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:35"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:097"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:097"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:098"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:098"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:35"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:35"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:098"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:098"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:100"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:100"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:35"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:35"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:100"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:100"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:095"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:095"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:36"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:36"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:095"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:095"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:099"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:099"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:36"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:36"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:099"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:099"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:101"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:101"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:36"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:36"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:101"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:101"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:102"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:102"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:37"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:37"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:102"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:102"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:103"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:103"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:37"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:37"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:103"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:103"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:104"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:104"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:37"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:37"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:104"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:104"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:105"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:105"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:38"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:38"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:105"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:105"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:106"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:106"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:38"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:38"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:106"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:106"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:107"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:107"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:38"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:38"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:107"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:107"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:108"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:108"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:39"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:39"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:108"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:108"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:109"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:109"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:39"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:39"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:109"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:109"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:110"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:110"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:39"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:39"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:110"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:110"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:111"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:111"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:39"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:39"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:111"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:111"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:093"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:093"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:34"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:34"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:093"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:093"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:094"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:094"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:34"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:34"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:094"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:094"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:096"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:096"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:34"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:34"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:096"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:096"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:097"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:097"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:35"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:35"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:097"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:097"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:098"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:098"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:35"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:35"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:098"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:098"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:100"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:100"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:35"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:35"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:100"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:100"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:095"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:095"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:36"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:36"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:095"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:095"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:099"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:099"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:36"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:36"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:099"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:099"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:101"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:101"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:36"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:36"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:101"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:101"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:102"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:102"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:37"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:37"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:102"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:102"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:103"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:103"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:37"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:37"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:103"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:103"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:104"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:104"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:37"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:37"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:104"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:104"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:105"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:105"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:38"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:38"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:105"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:105"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:106"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:106"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:38"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:38"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:106"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:106"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:107"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:107"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:38"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:38"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:107"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:107"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:108"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:108"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:39"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:39"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:108"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:108"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:109"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:109"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:39"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:39"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:109"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:109"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:110"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:110"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:39"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:39"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:110"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:110"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:111"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:111"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:39"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:39"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:111"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:111"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:112"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:112"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:40"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:40"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:112"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:112"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:113"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:113"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:40"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:40"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:113"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:113"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:114"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:114"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:40"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:40"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:114"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:114"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:115"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:115"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:40"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:40"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:115"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:115"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:116"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:116"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:41"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:41"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:116"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:116"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:117"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:117"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:41"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:41"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:117"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:117"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:118"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:118"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:42"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:42"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:118"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:118"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:119"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:119"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:42"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:42"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:119"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:119"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:120"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:120"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:42"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:42"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:120"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:120"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:121"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:121"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:42"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:42"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:121"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:121"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:122"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:122"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:43"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:43"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:122"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:122"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:123"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:123"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:43"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:43"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:123"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:123"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:124"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:124"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:43"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:43"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:124"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:124"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:125"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:125"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:43"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:43"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:125"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:125"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:126"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:126"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:43"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:43"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:126"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:126"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:127"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:127"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:43"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:43"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:127"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:127"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:128"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:128"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:44"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:44"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:128"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:128"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:129"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:129"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:44"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:44"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:129"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:129"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:130"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:130"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:45"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:45"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:130"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:130"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:131"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:131"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:45"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:45"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:131"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:131"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:132"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:132"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:47"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:47"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:132"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:132"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:133"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:133"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:47"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:47"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:133"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:133"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:134"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:134"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:48"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:48"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:134"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:134"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:135"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:135"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:48"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:48"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:135"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:135"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:136"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:136"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:48"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:48"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:136"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:136"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:137"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:137"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:48"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:48"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:137"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:137"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:138"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:138"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:48"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:48"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:138"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:138"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:139"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:139"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:48"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:48"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:139"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:139"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:140"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:140"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:49"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:49"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:140"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:140"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 
-MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:141"})
+MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:141"})
 MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:50"})
 MERGE (source)-[r:themeBelongsToAspect]->(target)
 SET r.label = "属于方面 / belongsToAspect";
 
 MATCH (source {identifier: "urn:jy:Geography:SB0308:OB06:ModuleAspect:50"})
-MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:learningtheme:141"})
+MATCH (target {identifier: "urn:jy:Geography:SB0308:OB06:LearningTheme:141"})
 MERGE (source)-[r:aspectManifestsAsTheme]->(target)
 SET r.label = "表现为学习主题 / manifestsAsTheme";
 

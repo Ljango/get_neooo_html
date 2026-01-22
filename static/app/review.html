@@ -1,0 +1,1168 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数据审核 - 知识图谱数据审校系统</title>
+    <link rel="stylesheet" href="/static/css/app.css">
+    <style>
+        .review-layout {
+            display: flex;
+            gap: 20px;
+            height: calc(100vh - 100px);
+        }
+        
+        .list-panel {
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .detail-panel {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .filter-bar {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+        }
+        
+        .filter-bar select, .filter-bar input {
+            padding: 8px 12px;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius);
+        }
+        
+        .entity-list {
+            flex: 1;
+            overflow-y: auto;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius);
+            background: var(--bg-light);
+        }
+        
+        .entity-item {
+            padding: 12px 15px;
+            border-bottom: 1px solid var(--border-color);
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        
+        .entity-item:hover {
+            background: #f5f7fa;
+        }
+        
+        .entity-item.active {
+            background: #e6f4ff;
+            border-left: 3px solid var(--primary-color);
+        }
+        
+        .entity-item .title {
+            font-weight: 500;
+            margin-bottom: 4px;
+        }
+        
+        .entity-item .meta {
+            font-size: 12px;
+            color: var(--text-muted);
+        }
+        
+        .detail-content {
+            flex: 1;
+            overflow-y: auto;
+            padding: 20px;
+            background: var(--bg-light);
+            border-radius: var(--radius);
+        }
+        
+        .detail-section {
+            margin-bottom: 20px;
+        }
+        
+        .detail-section h3 {
+            font-size: 14px;
+            color: var(--text-light);
+            margin-bottom: 10px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 5px;
+        }
+        
+        .property-list {
+            display: grid;
+            gap: 10px;
+        }
+        
+        .property-item {
+            display: flex;
+        }
+        
+        .property-item .label {
+            width: 100px;
+            color: var(--text-muted);
+            flex-shrink: 0;
+        }
+        
+        .property-item .value {
+            flex: 1;
+        }
+        
+        .relation-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        
+        .relation-item {
+            padding: 10px;
+            background: var(--bg-color);
+            border-radius: 4px;
+            font-size: 13px;
+        }
+        
+        .review-actions {
+            display: flex;
+            gap: 10px;
+            padding: 15px;
+            background: var(--bg-light);
+            border-top: 1px solid var(--border-color);
+            border-radius: 0 0 var(--radius) var(--radius);
+        }
+        
+        .review-actions textarea {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius);
+            resize: none;
+            height: 60px;
+        }
+        
+        .review-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        
+        .tab-bar {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        
+        .tab-btn {
+            padding: 8px 16px;
+            border: none;
+            background: var(--bg-color);
+            border-radius: var(--radius);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .tab-btn.active {
+            background: var(--primary-color);
+            color: white;
+        }
+        
+        .empty-state {
+            text-align: center;
+            padding: 40px;
+            color: var(--text-muted);
+        }
+        
+        /* 编辑功能样式 */
+        .edit-toolbar {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 15px;
+            padding: 10px;
+            background: #f0f7ff;
+            border-radius: var(--radius);
+            border: 1px solid #d0e3ff;
+        }
+        
+        .edit-toolbar .btn {
+            font-size: 13px;
+            padding: 6px 12px;
+        }
+        
+        .btn-edit {
+            background: #1890ff;
+            color: white;
+            border: none;
+        }
+        
+        .btn-edit:hover {
+            background: #40a9ff;
+        }
+        
+        .btn-graph {
+            background: #52c41a;
+            color: white;
+            border: none;
+        }
+        
+        .btn-graph:hover {
+            background: #73d13d;
+        }
+        
+        .btn-add-relation {
+            background: #722ed1;
+            color: white;
+            border: none;
+        }
+        
+        .btn-add-relation:hover {
+            background: #9254de;
+        }
+        
+        .relation-item {
+            position: relative;
+            padding-right: 40px;
+        }
+        
+        .relation-item .delete-btn {
+            position: absolute;
+            right: 8px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: #ff4d4f;
+            color: white;
+            border: none;
+            padding: 2px 8px;
+            border-radius: 3px;
+            font-size: 12px;
+            cursor: pointer;
+            opacity: 0.7;
+        }
+        
+        .relation-item .delete-btn:hover {
+            opacity: 1;
+        }
+        
+        /* 模态框样式 */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .modal.active {
+            display: flex;
+        }
+        
+        .modal-content {
+            background: white;
+            border-radius: 8px;
+            width: 90%;
+            max-width: 600px;
+            max-height: 80vh;
+            overflow: auto;
+        }
+        
+        .modal-header {
+            padding: 15px 20px;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .modal-header h3 {
+            margin: 0;
+            font-size: 16px;
+        }
+        
+        .modal-close {
+            background: none;
+            border: none;
+            font-size: 20px;
+            cursor: pointer;
+            color: var(--text-muted);
+        }
+        
+        .modal-body {
+            padding: 20px;
+        }
+        
+        .modal-footer {
+            padding: 15px 20px;
+            border-top: 1px solid var(--border-color);
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+        
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius);
+        }
+        
+        .form-group textarea {
+            min-height: 80px;
+            resize: vertical;
+        }
+        
+        /* 图谱可视化容器 */
+        .graph-container {
+            width: 100%;
+            height: 400px;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius);
+            background: #fafafa;
+        }
+    </style>
+</head>
+<body>
+    <div class="app-layout">
+        <!-- 侧边栏 -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <h2>知识图谱审校系统</h2>
+            </div>
+            
+            <nav class="sidebar-menu">
+                <a href="/static/app/dashboard.html" class="menu-item">
+                    <i>📊</i> <span>工作台</span>
+                </a>
+                <a href="/static/app/review.html" class="menu-item active">
+                    <i>✏️</i> <span>数据审核</span>
+                </a>
+                <a href="/static/index.html" class="menu-item" target="_blank">
+                    <i>🔗</i> <span>图谱可视化</span>
+                </a>
+                
+                <div class="menu-divider" data-role="admin"></div>
+                <div class="menu-label" data-role="admin">管理功能</div>
+                
+                <a href="/static/app/admin.html" class="menu-item" data-role="admin">
+                    <i>👥</i> <span>用户管理</span>
+                </a>
+                <a href="/static/app/system.html" class="menu-item" data-role="root">
+                    <i>⚙️</i> <span>系统管理</span>
+                </a>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <div class="user-info">
+                    <div class="user-avatar">U</div>
+                    <div class="user-name">
+                        <span>用户</span>
+                        <div class="user-role">角色</div>
+                    </div>
+                </div>
+                <a href="#" id="logoutBtn" style="color: rgba(255,255,255,0.6); font-size: 12px; display: block; margin-top: 10px;">退出登录</a>
+            </div>
+        </div>
+        
+        <!-- 主内容区 -->
+        <div class="main-content">
+            <header class="header">
+                <h1 class="header-title">数据审核</h1>
+                <div class="header-actions">
+                    <select id="subjectSelect" class="form-control">
+                        <option value="">选择学科...</option>
+                    </select>
+                </div>
+            </header>
+            
+            <main class="content">
+                <div class="review-layout">
+                    <!-- 列表面板 -->
+                    <div class="list-panel">
+                        <div class="tab-bar">
+                            <button class="tab-btn active" data-type="entity" onclick="switchTab('entity')">实体</button>
+                            <button class="tab-btn" data-type="relation" onclick="switchTab('relation')">关系</button>
+                        </div>
+                        
+                        <div class="filter-bar">
+                            <select id="statusFilter" onchange="loadList()">
+                                <option value="">全部状态</option>
+                                <option value="pending">待审核</option>
+                                <option value="approved">已通过</option>
+                                <option value="needs_fix">需修改</option>
+                            </select>
+                            <select id="typeFilter" onchange="loadList()">
+                                <option value="">全部类型</option>
+                            </select>
+                        </div>
+                        
+                        <div class="entity-list" id="itemList">
+                            <div class="empty-state">请先选择学科</div>
+                        </div>
+                        
+                        <div class="pagination" id="pagination"></div>
+                    </div>
+                    
+                    <!-- 详情面板 -->
+                    <div class="detail-panel">
+                        <div class="detail-content" id="detailContent">
+                            <div class="empty-state">选择左侧项目查看详情</div>
+                        </div>
+                        
+                        <div class="review-actions" id="reviewActions" style="display: none;">
+                            <textarea id="reviewComment" placeholder="审核意见（可选）"></textarea>
+                            <div class="review-buttons">
+                                <button class="btn btn-success" onclick="submitReview('approved')">通过</button>
+                                <button class="btn btn-warning" onclick="submitReview('needs_fix')">需修改</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    
+    <div class="toast-container"></div>
+    
+    <!-- 实体编辑模态框 -->
+    <div class="modal" id="editEntityModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>编辑实体属性</h3>
+                <button class="modal-close" onclick="closeModal('editEntityModal')">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="editEntityForm">
+                    <div class="form-group">
+                        <label>标识符（不可修改）</label>
+                        <input type="text" id="editEntityId" disabled>
+                    </div>
+                    <div class="form-group">
+                        <label>标题</label>
+                        <input type="text" id="editEntityTitle" required>
+                    </div>
+                    <div class="form-group">
+                        <label>描述</label>
+                        <textarea id="editEntityDescription"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>类型</label>
+                        <input type="text" id="editEntityType">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" onclick="closeModal('editEntityModal')">取消</button>
+                <button class="btn btn-primary" onclick="saveEntityEdit()">保存</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 添加关系模态框 -->
+    <div class="modal" id="addRelationModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>添加关系</h3>
+                <button class="modal-close" onclick="closeModal('addRelationModal')">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="addRelationForm">
+                    <div class="form-group">
+                        <label>源实体</label>
+                        <input type="text" id="relationSource" required>
+                    </div>
+                    <div class="form-group">
+                        <label>关系类型</label>
+                        <select id="relationName" required>
+                            <option value="包含">包含</option>
+                            <option value="属于">属于</option>
+                            <option value="相关">相关</option>
+                            <option value="前置">前置</option>
+                            <option value="后续">后续</option>
+                            <option value="依赖">依赖</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>目标实体</label>
+                        <input type="text" id="relationTarget" required>
+                    </div>
+                    <div class="form-group">
+                        <label>标签（可选）</label>
+                        <input type="text" id="relationLabel">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" onclick="closeModal('addRelationModal')">取消</button>
+                <button class="btn btn-primary" onclick="saveNewRelation()">添加</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 图谱可视化模态框 -->
+    <div class="modal" id="graphModal">
+        <div class="modal-content" style="max-width: 900px;">
+            <div class="modal-header">
+                <h3>图谱可视化</h3>
+                <button class="modal-close" onclick="closeModal('graphModal')">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="graph-container" id="graphContainer">
+                    <div class="empty-state">加载中...</div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" onclick="closeModal('graphModal')">关闭</button>
+                <a id="graphFullLink" href="#" target="_blank" class="btn btn-primary">全屏查看</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 确认删除模态框 -->
+    <div class="modal" id="confirmDeleteModal">
+        <div class="modal-content" style="max-width: 400px;">
+            <div class="modal-header">
+                <h3>确认删除</h3>
+                <button class="modal-close" onclick="closeModal('confirmDeleteModal')">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p id="deleteConfirmText">确定要删除这个关系吗？此操作不可撤销。</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" onclick="closeModal('confirmDeleteModal')">取消</button>
+                <button class="btn btn-danger" id="confirmDeleteBtn" onclick="confirmDelete()">删除</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="/static/js/api.js"></script>
+    <script src="/static/js/auth.js"></script>
+    <script>
+        // 检查登录
+        if (!requireAuth()) {
+            // 自动跳转
+        }
+        
+        initPage();
+        
+        // 状态
+        let currentSubject = null;
+        let currentTab = 'entity';
+        let currentItem = null;
+        let currentPage = 1;
+        const pageSize = 50;
+        
+        // 从URL获取学科参数
+        const urlParams = new URLSearchParams(window.location.search);
+        const urlSubject = urlParams.get('subject');
+        
+        // 加载学科列表
+        loadSubjects();
+        
+        async function loadSubjects() {
+            try {
+                const result = await api.review.getSubjects();
+                const select = document.getElementById('subjectSelect');
+                
+                result.subjects.forEach(s => {
+                    const option = document.createElement('option');
+                    option.value = s.subject_id;
+                    option.textContent = `${s.icon || ''} ${s.display_name}`;
+                    select.appendChild(option);
+                });
+                
+                // 如果URL有学科参数，自动选择
+                if (urlSubject) {
+                    select.value = urlSubject;
+                    onSubjectChange();
+                }
+                
+                select.addEventListener('change', onSubjectChange);
+            } catch (error) {
+                showToast('加载学科列表失败', 'error');
+            }
+        }
+        
+        function onSubjectChange() {
+            currentSubject = document.getElementById('subjectSelect').value;
+            currentPage = 1;
+            currentItem = null;
+            
+            if (currentSubject) {
+                loadTypeFilter();
+                loadList();
+            } else {
+                document.getElementById('itemList').innerHTML = '<div class="empty-state">请先选择学科</div>';
+            }
+            
+            clearDetail();
+        }
+        
+        async function loadTypeFilter() {
+            // 加载实体类型用于筛选（简化版本，从实体数据推断）
+            const typeSelect = document.getElementById('typeFilter');
+            typeSelect.innerHTML = '<option value="">全部类型</option>';
+            
+            if (currentTab === 'entity') {
+                try {
+                    const result = await api.review.getEntities(currentSubject, { page_size: 200 });
+                    const types = [...new Set(result.entities.map(e => e.type))];
+                    types.forEach(t => {
+                        const option = document.createElement('option');
+                        option.value = t;
+                        option.textContent = t;
+                        typeSelect.appendChild(option);
+                    });
+                } catch (e) {}
+            }
+        }
+        
+        function switchTab(tab) {
+            currentTab = tab;
+            currentPage = 1;
+            currentItem = null;
+            
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.type === tab);
+            });
+            
+            loadTypeFilter();
+            loadList();
+            clearDetail();
+        }
+        
+        async function loadList() {
+            if (!currentSubject) return;
+            
+            const statusFilter = document.getElementById('statusFilter').value;
+            const typeFilter = document.getElementById('typeFilter').value;
+            const listContainer = document.getElementById('itemList');
+            
+            listContainer.innerHTML = '<div class="loading">加载中...</div>';
+            
+            try {
+                let result;
+                const params = {
+                    page: currentPage,
+                    page_size: pageSize,
+                    status_filter: statusFilter || undefined,
+                    entity_type: typeFilter || undefined
+                };
+                
+                // 清理undefined参数
+                Object.keys(params).forEach(k => params[k] === undefined && delete params[k]);
+                
+                if (currentTab === 'entity') {
+                    result = await api.review.getEntities(currentSubject, params);
+                    renderEntityList(result.entities, result.total);
+                } else {
+                    result = await api.review.getRelations(currentSubject, params);
+                    renderRelationList(result.relations, result.total);
+                }
+                
+                renderPagination(result.total);
+            } catch (error) {
+                listContainer.innerHTML = `<div class="empty-state" style="color:red;">加载失败: ${error.message}</div>`;
+            }
+        }
+        
+        function renderEntityList(entities, total) {
+            const container = document.getElementById('itemList');
+            
+            if (entities.length === 0) {
+                container.innerHTML = '<div class="empty-state">暂无数据</div>';
+                return;
+            }
+            
+            container.innerHTML = entities.map(e => `
+                <div class="entity-item" onclick="selectEntity('${encodeURIComponent(e.identifier)}')" data-id="${e.identifier}">
+                    <div class="title">${e.title || e.identifier}</div>
+                    <div class="meta">
+                        <span>${e.type}</span>
+                        ${e.review_status ? `<span class="badge badge-${e.review_status}">${getStatusText(e.review_status)}</span>` : ''}
+                    </div>
+                </div>
+            `).join('');
+        }
+        
+        function renderRelationList(relations, total) {
+            const container = document.getElementById('itemList');
+            
+            if (relations.length === 0) {
+                container.innerHTML = '<div class="empty-state">暂无数据</div>';
+                return;
+            }
+            
+            container.innerHTML = relations.map((r, idx) => `
+                <div class="entity-item" onclick="selectRelation(${idx})" data-index="${idx}">
+                    <div class="title">${r.source_title} → ${r.target_title}</div>
+                    <div class="meta">
+                        <span>${r.relation_name}</span>
+                        ${r.review_status ? `<span class="badge badge-${r.review_status}">${getStatusText(r.review_status)}</span>` : ''}
+                    </div>
+                </div>
+            `).join('');
+            
+            // 保存关系数据
+            window._relations = relations;
+        }
+        
+        function renderPagination(total) {
+            const totalPages = Math.ceil(total / pageSize);
+            const container = document.getElementById('pagination');
+            
+            if (totalPages <= 1) {
+                container.innerHTML = '';
+                return;
+            }
+            
+            let html = `<button ${currentPage === 1 ? 'disabled' : ''} onclick="goPage(${currentPage - 1})">上一页</button>`;
+            html += `<span style="padding: 8px;">${currentPage} / ${totalPages}</span>`;
+            html += `<button ${currentPage >= totalPages ? 'disabled' : ''} onclick="goPage(${currentPage + 1})">下一页</button>`;
+            
+            container.innerHTML = html;
+        }
+        
+        function goPage(page) {
+            currentPage = page;
+            loadList();
+        }
+        
+        async function selectEntity(identifier) {
+            // 高亮选中项
+            document.querySelectorAll('.entity-item').forEach(el => {
+                el.classList.toggle('active', el.dataset.id === decodeURIComponent(identifier));
+            });
+            
+            try {
+                const result = await api.review.getEntityDetail(currentSubject, decodeURIComponent(identifier));
+                currentItem = {
+                    type: 'entity',
+                    id: result.entity.identifier,
+                    title: result.entity.title,
+                    entityType: result.entity.type
+                };
+                renderEntityDetail(result);
+                document.getElementById('reviewActions').style.display = 'flex';
+            } catch (error) {
+                showToast('加载详情失败', 'error');
+            }
+        }
+        
+        function selectRelation(index) {
+            const relation = window._relations[index];
+            
+            // 高亮选中项
+            document.querySelectorAll('.entity-item').forEach(el => {
+                el.classList.toggle('active', el.dataset.index === String(index));
+            });
+            
+            currentItem = {
+                type: 'relation',
+                id: `${relation.source}|${relation.target}|${relation.relation_name}`,
+                title: `${relation.source_title} → ${relation.target_title}`
+            };
+            
+            renderRelationDetail(relation);
+            document.getElementById('reviewActions').style.display = 'flex';
+        }
+        
+        // 保存当前实体数据用于编辑
+        let currentEntityData = null;
+        
+        function renderEntityDetail(data) {
+            const content = document.getElementById('detailContent');
+            const entity = data.entity;
+            
+            // 保存当前实体数据
+            currentEntityData = data;
+            
+            content.innerHTML = `
+                <!-- 编辑工具栏 -->
+                <div class="edit-toolbar">
+                    <button class="btn btn-edit" onclick="openEditEntityModal()">
+                        ✏️ 编辑属性
+                    </button>
+                    <button class="btn btn-add-relation" onclick="openAddRelationModal()">
+                        ➕ 添加关系
+                    </button>
+                    <button class="btn btn-graph" onclick="openGraphModal()">
+                        🔗 查看图谱
+                    </button>
+                </div>
+                
+                <div class="detail-section">
+                    <h3>基本信息</h3>
+                    <div class="property-list">
+                        <div class="property-item">
+                            <span class="label">标识符</span>
+                            <span class="value">${entity.identifier}</span>
+                        </div>
+                        <div class="property-item">
+                            <span class="label">类型</span>
+                            <span class="value">${entity.type}</span>
+                        </div>
+                        <div class="property-item">
+                            <span class="label">标题</span>
+                            <span class="value">${entity.title || '-'}</span>
+                        </div>
+                        <div class="property-item">
+                            <span class="label">描述</span>
+                            <span class="value">${entity.description || '-'}</span>
+                        </div>
+                        ${entity.subject ? `
+                        <div class="property-item">
+                            <span class="label">学科</span>
+                            <span class="value">${entity.subject}</span>
+                        </div>
+                        ` : ''}
+                    </div>
+                </div>
+                
+                ${data.relations && data.relations.length > 0 ? `
+                <div class="detail-section">
+                    <h3>关联关系 (${data.relations.length})</h3>
+                    <div class="relation-list">
+                        ${data.relations.map((r, idx) => `
+                            <div class="relation-item">
+                                ${r.direction === 'outgoing' ? '→' : '←'} 
+                                <strong>${r.relation_name}</strong>: 
+                                ${r.direction === 'outgoing' ? r.target_title : r.source_title}
+                                <button class="delete-btn" onclick="deleteRelation(${idx})">删除</button>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+                ` : `
+                <div class="detail-section">
+                    <h3>关联关系</h3>
+                    <div class="empty-state" style="padding: 20px;">暂无关联关系</div>
+                </div>
+                `}
+                
+                ${data.review ? `
+                <div class="detail-section">
+                    <h3>审核记录</h3>
+                    <div class="property-list">
+                        <div class="property-item">
+                            <span class="label">状态</span>
+                            <span class="value"><span class="badge badge-${data.review.status}">${getStatusText(data.review.status)}</span></span>
+                        </div>
+                        <div class="property-item">
+                            <span class="label">审核人</span>
+                            <span class="value">${data.review.reviewer || '-'}</span>
+                        </div>
+                        <div class="property-item">
+                            <span class="label">意见</span>
+                            <span class="value">${data.review.comment || '-'}</span>
+                        </div>
+                    </div>
+                </div>
+                ` : ''}
+            `;
+        }
+        
+        function renderRelationDetail(relation) {
+            const content = document.getElementById('detailContent');
+            
+            content.innerHTML = `
+                <div class="detail-section">
+                    <h3>关系信息</h3>
+                    <div class="property-list">
+                        <div class="property-item">
+                            <span class="label">源实体</span>
+                            <span class="value">${relation.source_title} (${relation.source})</span>
+                        </div>
+                        <div class="property-item">
+                            <span class="label">关系类型</span>
+                            <span class="value">${relation.relation_name}</span>
+                        </div>
+                        <div class="property-item">
+                            <span class="label">目标实体</span>
+                            <span class="value">${relation.target_title} (${relation.target})</span>
+                        </div>
+                        ${relation.label ? `
+                        <div class="property-item">
+                            <span class="label">标签</span>
+                            <span class="value">${relation.label}</span>
+                        </div>
+                        ` : ''}
+                    </div>
+                </div>
+            `;
+        }
+        
+        function clearDetail() {
+            document.getElementById('detailContent').innerHTML = '<div class="empty-state">选择左侧项目查看详情</div>';
+            document.getElementById('reviewActions').style.display = 'none';
+            document.getElementById('reviewComment').value = '';
+        }
+        
+        async function submitReview(status) {
+            if (!currentItem) return;
+            
+            const comment = document.getElementById('reviewComment').value;
+            
+            try {
+                await api.review.submit({
+                    subject_id: currentSubject,
+                    target_type: currentItem.type,
+                    target_id: currentItem.id,
+                    target_title: currentItem.title,
+                    entity_type: currentItem.entityType,
+                    status: status,
+                    comment: comment || null
+                });
+                
+                showToast('审核提交成功', 'success');
+                document.getElementById('reviewComment').value = '';
+                
+                // 刷新列表
+                loadList();
+            } catch (error) {
+                showToast('提交失败: ' + error.message, 'error');
+            }
+        }
+        
+        function getStatusText(status) {
+            const map = {
+                'pending': '待审核',
+                'approved': '已通过',
+                'needs_fix': '需修改',
+                'rejected': '已拒绝'
+            };
+            return map[status] || status;
+        }
+        
+        // ========== 编辑功能 ==========
+        
+        // 模态框控制
+        function openModal(modalId) {
+            document.getElementById(modalId).classList.add('active');
+        }
+        
+        function closeModal(modalId) {
+            document.getElementById(modalId).classList.remove('active');
+        }
+        
+        // 打开编辑实体模态框
+        function openEditEntityModal() {
+            if (!currentEntityData || !currentEntityData.entity) {
+                showToast('请先选择一个实体', 'error');
+                return;
+            }
+            
+            const entity = currentEntityData.entity;
+            document.getElementById('editEntityId').value = entity.identifier;
+            document.getElementById('editEntityTitle').value = entity.title || '';
+            document.getElementById('editEntityDescription').value = entity.description || '';
+            document.getElementById('editEntityType').value = entity.type || '';
+            
+            openModal('editEntityModal');
+        }
+        
+        // 保存实体编辑
+        async function saveEntityEdit() {
+            const identifier = document.getElementById('editEntityId').value;
+            const updates = {
+                title: document.getElementById('editEntityTitle').value,
+                description: document.getElementById('editEntityDescription').value,
+                type: document.getElementById('editEntityType').value
+            };
+            
+            try {
+                await api.edit.updateEntity(currentSubject, identifier, updates);
+                showToast('实体更新成功', 'success');
+                closeModal('editEntityModal');
+                
+                // 刷新当前实体详情
+                await selectEntity(encodeURIComponent(identifier));
+            } catch (error) {
+                showToast('更新失败: ' + error.message, 'error');
+            }
+        }
+        
+        // 打开添加关系模态框
+        function openAddRelationModal() {
+            if (!currentEntityData || !currentEntityData.entity) {
+                showToast('请先选择一个实体', 'error');
+                return;
+            }
+            
+            // 预填源实体
+            document.getElementById('relationSource').value = currentEntityData.entity.identifier;
+            document.getElementById('relationTarget').value = '';
+            document.getElementById('relationLabel').value = '';
+            
+            openModal('addRelationModal');
+        }
+        
+        // 保存新关系
+        async function saveNewRelation() {
+            const relation = {
+                source: document.getElementById('relationSource').value,
+                target: document.getElementById('relationTarget').value,
+                relation_name: document.getElementById('relationName').value,
+                label: document.getElementById('relationLabel').value || null
+            };
+            
+            if (!relation.source || !relation.target) {
+                showToast('请填写源实体和目标实体', 'error');
+                return;
+            }
+            
+            try {
+                await api.edit.createRelation(currentSubject, relation);
+                showToast('关系添加成功', 'success');
+                closeModal('addRelationModal');
+                
+                // 刷新当前实体详情
+                const identifier = currentEntityData.entity.identifier;
+                await selectEntity(encodeURIComponent(identifier));
+            } catch (error) {
+                showToast('添加失败: ' + error.message, 'error');
+            }
+        }
+        
+        // 删除关系相关
+        let pendingDeleteRelation = null;
+        
+        function deleteRelation(index) {
+            if (!currentEntityData || !currentEntityData.relations) {
+                return;
+            }
+            
+            const relation = currentEntityData.relations[index];
+            pendingDeleteRelation = relation;
+            
+            document.getElementById('deleteConfirmText').textContent = 
+                `确定要删除关系 "${relation.source_title} → ${relation.relation_name} → ${relation.target_title}" 吗？`;
+            
+            openModal('confirmDeleteModal');
+        }
+        
+        async function confirmDelete() {
+            if (!pendingDeleteRelation) return;
+            
+            const relation = pendingDeleteRelation;
+            
+            try {
+                await api.edit.deleteRelation(currentSubject, {
+                    source: relation.source,
+                    target: relation.target,
+                    relation_name: relation.relation_name
+                });
+                
+                showToast('关系删除成功', 'success');
+                closeModal('confirmDeleteModal');
+                pendingDeleteRelation = null;
+                
+                // 刷新当前实体详情
+                const identifier = currentEntityData.entity.identifier;
+                await selectEntity(encodeURIComponent(identifier));
+            } catch (error) {
+                showToast('删除失败: ' + error.message, 'error');
+            }
+        }
+        
+        // 打开图谱可视化模态框
+        async function openGraphModal() {
+            if (!currentEntityData || !currentEntityData.entity) {
+                showToast('请先选择一个实体', 'error');
+                return;
+            }
+            
+            const entity = currentEntityData.entity;
+            const container = document.getElementById('graphContainer');
+            container.innerHTML = '<div class="empty-state">加载图谱数据中...</div>';
+            
+            // 设置全屏链接
+            document.getElementById('graphFullLink').href = 
+                `/static/index.html?subject=${currentSubject}&focus=${encodeURIComponent(entity.identifier)}`;
+            
+            openModal('graphModal');
+            
+            try {
+                const graphData = await api.graph.getEntityGraph(currentSubject, entity.identifier, 2, 30);
+                renderMiniGraph(container, graphData);
+            } catch (error) {
+                container.innerHTML = `<div class="empty-state" style="color:red;">加载失败: ${error.message}</div>`;
+            }
+        }
+        
+        // 渲染简易图谱（使用SVG）
+        function renderMiniGraph(container, data) {
+            if (!data.nodes || data.nodes.length === 0) {
+                container.innerHTML = '<div class="empty-state">暂无图谱数据</div>';
+                return;
+            }
+            
+            const width = container.clientWidth || 800;
+            const height = 400;
+            const centerX = width / 2;
+            const centerY = height / 2;
+            
+            // 简单的力导向布局模拟
+            const nodes = data.nodes.map((node, i) => {
+                const angle = (2 * Math.PI * i) / data.nodes.length;
+                const radius = i === 0 ? 0 : 120 + Math.random() * 60;
+                return {
+                    ...node,
+                    x: centerX + radius * Math.cos(angle),
+                    y: centerY + radius * Math.sin(angle)
+                };
+            });
+            
+            const nodeMap = {};
+            nodes.forEach(n => nodeMap[n.id] = n);
+            
+            // 生成SVG
+            let svg = `<svg width="${width}" height="${height}" style="font-family: sans-serif;">`;
+            
+            // 绘制边
+            if (data.edges) {
+                data.edges.forEach(edge => {
+                    const source = nodeMap[edge.source];
+                    const target = nodeMap[edge.target];
+                    if (source && target) {
+                        svg += `<line x1="${source.x}" y1="${source.y}" x2="${target.x}" y2="${target.y}" 
+                                stroke="#ccc" stroke-width="1"/>`;
+                        // 边标签
+                        const midX = (source.x + target.x) / 2;
+                        const midY = (source.y + target.y) / 2;
+                        svg += `<text x="${midX}" y="${midY}" fill="#999" font-size="10" text-anchor="middle">${edge.label || ''}</text>`;
+                    }
+                });
+            }
+            
+            // 绘制节点
+            nodes.forEach((node, i) => {
+                const isCenter = i === 0;
+                const r = isCenter ? 25 : 18;
+                const fill = isCenter ? '#1890ff' : '#52c41a';
+                
+                svg += `<circle cx="${node.x}" cy="${node.y}" r="${r}" fill="${fill}" stroke="white" stroke-width="2"/>`;
+                svg += `<text x="${node.x}" y="${node.y + r + 15}" fill="#333" font-size="11" text-anchor="middle">${node.label || node.id}</text>`;
+            });
+            
+            svg += '</svg>';
+            container.innerHTML = svg;
+        }
+    </script>
+</body>
+</html>

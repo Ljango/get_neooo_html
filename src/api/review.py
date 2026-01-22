@@ -1,0 +1,601 @@
+# -*- coding: utf-8 -*-
+"""
+审核API - 实体/关系审核功能
+"""
+
+import json
+from datetime import datetime
+from pathlib import Path
+from typing import List, Optional
+from fastapi import APIRouter, Depends, HTTPException, Query
+from sqlalchemy.orm import Session
+from sqlalchemy import func
+
+from .database import get_db
+from .models import User, UserSubject, ReviewRecord, ReviewStatus, UserRole
+from .schemas import (
+    EntityInfo, RelationInfo, ReviewSubmitRequest,
+    ReviewRecordInfo, ReviewProgress, ResponseBase, SubjectStats
+)
+from .deps import get_current_user, require_teacher, log_operation
+from config import SUBJECT_CONFIG, DATA_ROOT
+
+router = APIRouter()
+
+
+def load_entities_from_json(subject_id: str, entity_type: str = None) -> List[dict]:
+    """从JSON文件加载实体"""
+    # 查找学科目录
+    subject_config = None
+    for name, config in SUBJECT_CONFIG.items():
+        if name == subject_id or config.get('data_dir') == subject_id:
+            subject_config = config
+            subject_id = name
+            break
+    
+    if not subject_config:
+        return []
+    
+    data_dir = DATA_ROOT / subject_config['data_dir']
+    entities_dir = data_dir / "entities"
+    
+    if not entities_dir.exists():
+        entities_dir = data_dir / "实体"
+    
+    if not entities_dir.exists():
+        return []
+    
+    entities = []
+    
+    for json_file in entities_dir.glob("*.json"):
+        # 如果指定了类型，只加载该类型
+        if entity_type and json_file.stem != entity_type:
+            continue
+        
+        try:
+            with open(json_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            
+            items = data if isinstance(data, list) else data.get('entities', [])
+            for item in items:
+                item['_entity_type'] = json_file.stem
+            entities.extend(items)
+        except Exception:
+            pass
+    
+    return entities
+
+
+def load_relations_from_json(subject_id: str) -> List[dict]:
+    """从JSON文件加载关系"""
+    subject_config = None
+    for name, config in SUBJECT_CONFIG.items():
+        if name == subject_id or config.get('data_dir') == subject_id:
+            subject_config = config
+            break
+    
+    if not subject_config:
+        return []
+    
+    data_dir = DATA_ROOT / subject_config['data_dir']
+    relations_dir = data_dir / "relations"
+    
+    if not relations_dir.exists():
+        relations_dir = data_dir / "relation"
+    if not relations_dir.exists():
+        relations_dir = data_dir / "关系"
+    
+    if not relations_dir.exists():
+        return []
+    
+    relations = []
+    
+    for json_file in relations_dir.glob("*.json"):
+        try:
+            with open(json_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            
+            items = data if isinstance(data, list) else data.get(
+                'relations', data.get('relation', data.get('relationships', []))
+            )
+            for item in items:
+                item['_source_file'] = json_file.name
+            relations.extend(items)
+        except Exception:
+            pass
+    
+    return relations
+
+
+@router.get("/subjects")
+async def get_my_subjects(
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    """获取当前用户负责的学科列表"""
+    # root和admin可以看到所有学科
+    if current_user.role in [UserRole.root, UserRole.admin]:
+        subjects = []
+        for name, config in SUBJECT_CONFIG.items():
+            subjects.append({
+                "subject_id": name,
+                "display_name": config.get('display_name', name),
+                "icon": config.get('icon', '📚'),
+                "data_dir": config.get('data_dir'),
+                "entity_types": None  # 全部类型
+            })
+        return {"success": True, "subjects": subjects}
+    
+    # teacher只能看到分配的学科
+    user_subjects = db.query(UserSubject).filter(
+        UserSubject.user_id == current_user.id
+    ).all()
+    
+    subjects = []
+    for us in user_subjects:
+        config = SUBJECT_CONFIG.get(us.subject_id, {})
+        subjects.append({
+            "subject_id": us.subject_id,
+            "display_name": config.get('display_name', us.subject_id),
+            "icon": config.get('icon', '📚'),
+            "data_dir": config.get('data_dir'),
+            "entity_types": us.entity_types
+        })
+    
+    return {"success": True, "subjects": subjects}
+
+
+@router.get("/entities/{subject_id}")
+async def get_entities(
+    subject_id: str,
+    entity_type: Optional[str] = None,
+    page: int = Query(1, ge=1),
+    page_size: int = Query(50, ge=1, le=200),
+    status_filter: Optional[str] = None,
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    """获取学科的实体列表"""
+    # 加载实体
+    entities = load_entities_from_json(subject_id, entity_type)
+    
+    # 获取审核状态
+    review_map = {}
+    reviews = db.query(ReviewRecord).filter(
+        ReviewRecord.subject_id == subject_id,
+        ReviewRecord.target_type == "entity"
+    ).all()
+    
+    for r in reviews:
+        review_map[r.target_id] = {
+            "status": r.status.value,
+            "comment": r.comment
+        }
+    
+    # 组装结果
+    result = []
+    for e in entities:
+        identifier = e.get('identifier', '')
+        review_info = review_map.get(identifier, {})
+        
+        entity_info = {
+            "identifier": identifier,
+            "type": e.get('type', e.get('_entity_type', '')),
+            "title": e.get('title', ''),
+            "description": e.get('description', ''),
+            "review_status": review_info.get('status'),
+            "review_comment": review_info.get('comment')
+        }
+        
+        # 状态过滤
+        if status_filter:
+            if status_filter == "pending" and entity_info["review_status"] is not None:
+                continue
+            elif status_filter != "pending" and entity_info["review_status"] != status_filter:
+                continue
+        
+        result.append(entity_info)
+    
+    # 分页
+    total = len(result)
+    start = (page - 1) * page_size
+    end = start + page_size
+    page_data = result[start:end]
+    
+    return {
+        "success": True,
+        "entities": page_data,
+        "total": total,
+        "page": page,
+        "page_size": page_size
+    }
+
+
+@router.get("/relations/{subject_id}")
+async def get_relations(
+    subject_id: str,
+    page: int = Query(1, ge=1),
+    page_size: int = Query(50, ge=1, le=200),
+    status_filter: Optional[str] = None,
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    """获取学科的关系列表"""
+    # 加载关系
+    relations = load_relations_from_json(subject_id)
+    
+    # 加载实体用于显示标题
+    entities = load_entities_from_json(subject_id)
+    entity_titles = {e.get('identifier', ''): e.get('title', '') for e in entities}
+    
+    # 获取审核状态
+    review_map = {}
+    reviews = db.query(ReviewRecord).filter(
+        ReviewRecord.subject_id == subject_id,
+        ReviewRecord.target_type == "relation"
+    ).all()
+    
+    for r in reviews:
+        review_map[r.target_id] = {
+            "status": r.status.value,
+            "comment": r.comment
+        }
+    
+    # 组装结果
+    result = []
+    for r in relations:
+        source = r.get('source', '')
+        target = r.get('target', '')
+        # 用source+target作为关系ID
+        relation_id = f"{source}|{target}|{r.get('relationName', '')}"
+        review_info = review_map.get(relation_id, {})
+        
+        relation_info = {
+            "source": source,
+            "target": target,
+            "relation_name": r.get('relationName', ''),
+            "label": r.get('label', ''),
+            "source_title": entity_titles.get(source, source),
+            "target_title": entity_titles.get(target, target),
+            "review_status": review_info.get('status'),
+            "review_comment": review_info.get('comment')
+        }
+        
+        # 状态过滤
+        if status_filter:
+            if status_filter == "pending" and relation_info["review_status"] is not None:
+                continue
+            elif status_filter != "pending" and relation_info["review_status"] != status_filter:
+                continue
+        
+        result.append(relation_info)
+    
+    # 分页
+    total = len(result)
+    start = (page - 1) * page_size
+    end = start + page_size
+    page_data = result[start:end]
+    
+    return {
+        "success": True,
+        "relations": page_data,
+        "total": total,
+        "page": page,
+        "page_size": page_size
+    }
+
+
+@router.get("/entity/{subject_id}/{identifier:path}")
+async def get_entity_detail(
+    subject_id: str,
+    identifier: str,
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    """获取实体详情"""
+    entities = load_entities_from_json(subject_id)
+    relations = load_relations_from_json(subject_id)
+    
+    # 查找实体
+    entity = None
+    for e in entities:
+        if e.get('identifier') == identifier:
+            entity = e
+            break
+    
+    if not entity:
+        raise HTTPException(status_code=404, detail="实体不存在")
+    
+    # 构建实体标题映射
+    entity_titles = {e.get('identifier', ''): e.get('title', '') for e in entities}
+    
+    # 查找相关关系
+    related_relations = []
+    for r in relations:
+        if r.get('source') == identifier or r.get('target') == identifier:
+            related_relations.append({
+                "source": r.get('source'),
+                "target": r.get('target'),
+                "relation_name": r.get('relationName', ''),
+                "label": r.get('label', ''),
+                "source_title": entity_titles.get(r.get('source', ''), ''),
+                "target_title": entity_titles.get(r.get('target', ''), ''),
+                "direction": "outgoing" if r.get('source') == identifier else "incoming"
+            })
+    
+    # 获取审核记录
+    review = db.query(ReviewRecord).filter(
+        ReviewRecord.subject_id == subject_id,
+        ReviewRecord.target_type == "entity",
+        ReviewRecord.target_id == identifier
+    ).first()
+    
+    return {
+        "success": True,
+        "entity": {
+            "identifier": entity.get('identifier'),
+            "type": entity.get('type', entity.get('_entity_type', '')),
+            "title": entity.get('title', ''),
+            "description": entity.get('description', ''),
+            "content_json": entity.get('contentJson', {}),
+            "subject": entity.get('subject', ''),
+            "applicable_level": entity.get('applicableLevel', '')
+        },
+        "relations": related_relations,
+        "review": {
+            "status": review.status.value if review else None,
+            "comment": review.comment if review else None,
+            "reviewer": review.reviewer.name if review and review.reviewer else None,
+            "created_at": review.created_at.isoformat() if review else None
+        } if review else None
+    }
+
+
+@router.post("/submit", response_model=ResponseBase)
+async def submit_review(
+    review_data: ReviewSubmitRequest,
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    """提交审核结果"""
+    # 构建target_id
+    target_id = review_data.target_id
+    if review_data.target_type == "relation" and "|" not in target_id:
+        # 如果是关系但没有组合ID，尝试从请求构建
+        pass
+    
+    # 查找或创建审核记录
+    existing = db.query(ReviewRecord).filter(
+        ReviewRecord.subject_id == review_data.subject_id,
+        ReviewRecord.target_type == review_data.target_type,
+        ReviewRecord.target_id == target_id
+    ).first()
+    
+    if existing:
+        # 更新现有记录
+        existing.status = review_data.status
+        existing.comment = review_data.comment
+        existing.reviewer_id = current_user.id
+        existing.resolved_at = datetime.utcnow()
+        if review_data.field_name:
+            existing.field_name = review_data.field_name
+        if review_data.original_value:
+            existing.original_value = review_data.original_value
+        if review_data.suggested_value:
+            existing.suggested_value = review_data.suggested_value
+    else:
+        # 创建新记录
+        record = ReviewRecord(
+            subject_id=review_data.subject_id,
+            target_type=review_data.target_type,
+            target_id=target_id,
+            target_title=review_data.target_title,
+            entity_type=review_data.entity_type,
+            status=review_data.status,
+            reviewer_id=current_user.id,
+            comment=review_data.comment,
+            field_name=review_data.field_name,
+            original_value=review_data.original_value,
+            suggested_value=review_data.suggested_value,
+            resolved_at=datetime.utcnow()
+        )
+        db.add(record)
+    
+    db.commit()
+    
+    # 记录操作日志
+    log_operation(
+        db, current_user, "submit_review",
+        review_data.target_type, target_id,
+        details={"status": review_data.status.value, "subject": review_data.subject_id}
+    )
+    
+    return ResponseBase(message="审核提交成功")
+
+
+@router.get("/progress/{subject_id}", response_model=ReviewProgress)
+async def get_review_progress(
+    subject_id: str,
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    """获取审核进度"""
+    # 加载数据统计
+    entities = load_entities_from_json(subject_id)
+    relations = load_relations_from_json(subject_id)
+    
+    total_entities = len(entities)
+    total_relations = len(relations)
+    
+    # 统计审核状态
+    stats = db.query(
+        ReviewRecord.status,
+        func.count(ReviewRecord.id)
+    ).filter(
+        ReviewRecord.subject_id == subject_id
+    ).group_by(ReviewRecord.status).all()
+    
+    status_counts = {s.value: 0 for s in ReviewStatus}
+    for status, count in stats:
+        status_counts[status.value] = count
+    
+    reviewed_count = sum(status_counts.values())
+    approved_count = status_counts.get('approved', 0)
+    needs_fix_count = status_counts.get('needs_fix', 0)
+    pending_count = total_entities + total_relations - reviewed_count
+    
+    total = total_entities + total_relations
+    progress = (reviewed_count / total * 100) if total > 0 else 0
+    
+    return ReviewProgress(
+        subject_id=subject_id,
+        total_entities=total_entities,
+        total_relations=total_relations,
+        reviewed_count=reviewed_count,
+        approved_count=approved_count,
+        needs_fix_count=needs_fix_count,
+        pending_count=pending_count,
+        progress_percent=round(progress, 1)
+    )
+
+
+@router.get("/records/{subject_id}")
+async def get_review_records(
+    subject_id: str,
+    page: int = Query(1, ge=1),
+    page_size: int = Query(50, ge=1, le=200),
+    status_filter: Optional[str] = None,
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    """获取审核记录列表"""
+    query = db.query(ReviewRecord).filter(ReviewRecord.subject_id == subject_id)
+    
+    if status_filter:
+        query = query.filter(ReviewRecord.status == status_filter)
+    
+    total = query.count()
+    records = query.order_by(ReviewRecord.created_at.desc()).offset(
+        (page - 1) * page_size
+    ).limit(page_size).all()
+    
+    result = []
+    for r in records:
+        result.append({
+            "id": r.id,
+            "subject_id": r.subject_id,
+            "target_type": r.target_type,
+            "target_id": r.target_id,
+            "target_title": r.target_title,
+            "entity_type": r.entity_type,
+            "status": r.status.value,
+            "reviewer_name": r.reviewer.name if r.reviewer else None,
+            "comment": r.comment,
+            "created_at": r.created_at.isoformat(),
+            "resolved_at": r.resolved_at.isoformat() if r.resolved_at else None
+        })
+    
+    return {
+        "success": True,
+        "records": result,
+        "total": total,
+        "page": page,
+        "page_size": page_size
+    }
+
+
+@router.get("/entity-graph/{subject_id}/{identifier:path}")
+async def get_entity_graph(
+    subject_id: str,
+    identifier: str,
+    depth: int = Query(1, ge=1, le=2),
+    max_nodes: int = Query(50, ge=10, le=200),
+    current_user: User = Depends(get_current_user)
+):
+    """获取实体关联图谱数据（用于可视化）"""
+    entities = load_entities_from_json(subject_id)
+    relations = load_relations_from_json(subject_id)
+    
+    # 构建实体映射
+    entity_map = {e.get('identifier', ''): e for e in entities}
+    
+    # 中心节点
+    center_entity = entity_map.get(identifier)
+    if not center_entity:
+        raise HTTPException(status_code=404, detail="实体不存在")
+    
+    # 收集节点和边
+    nodes = {identifier: center_entity}
+    links = []
+    
+    # 1度关系
+    for r in relations:
+        source = r.get('source', '')
+        target = r.get('target', '')
+        
+        if source == identifier or target == identifier:
+            # 添加关系
+            links.append({
+                "source": source,
+                "target": target,
+                "relationName": r.get('relationName', ''),
+                "label": r.get('label', '')
+            })
+            
+            # 添加关联节点
+            other_id = target if source == identifier else source
+            if other_id in entity_map and other_id not in nodes:
+                nodes[other_id] = entity_map[other_id]
+    
+    # 2度关系（可选）
+    if depth >= 2 and len(nodes) < max_nodes:
+        for r in relations:
+            source = r.get('source', '')
+            target = r.get('target', '')
+            
+            # 如果source或target在当前节点集中，扩展
+            if source in nodes and target not in nodes:
+                if target in entity_map:
+                    nodes[target] = entity_map[target]
+                    links.append({
+                        "source": source,
+                        "target": target,
+                        "relationName": r.get('relationName', ''),
+                        "label": r.get('label', '')
+                    })
+                    
+                    if len(nodes) >= max_nodes:
+                        break
+            
+            elif target in nodes and source not in nodes:
+                if source in entity_map:
+                    nodes[source] = entity_map[source]
+                    links.append({
+                        "source": source,
+                        "target": target,
+                        "relationName": r.get('relationName', ''),
+                        "label": r.get('label', '')
+                    })
+                    
+                    if len(nodes) >= max_nodes:
+                        break
+    
+    # 转换为D3格式
+    d3_nodes = []
+    for node_id, node_data in nodes.items():
+        d3_nodes.append({
+            "id": node_id,
+            "label": node_data.get('title', node_id),
+            "type": node_data.get('type', node_data.get('_entity_type', '')),
+            "is_center": node_id == identifier,
+            "description": node_data.get('description', '')[:100]  # 限制长度
+        })
+    
+    return {
+        "success": True,
+        "center_id": identifier,
+        "nodes": d3_nodes,
+        "links": links,
+        "total_nodes": len(d3_nodes),
+        "total_links": len(links)
+    }

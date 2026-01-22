@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>工作台 - 知识图谱数据审校系统</title>
+    <link rel="stylesheet" href="/static/css/app.css">
+</head>
+<body>
+    <div class="app-layout">
+        <!-- 侧边栏 -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <h2>知识图谱审校系统</h2>
+            </div>
+            
+            <nav class="sidebar-menu">
+                <a href="/static/app/dashboard.html" class="menu-item active">
+                    <i>📊</i> <span>工作台</span>
+                </a>
+                <a href="/static/app/review.html" class="menu-item">
+                    <i>✏️</i> <span>数据审核</span>
+                </a>
+                <a href="/static/index.html" class="menu-item" target="_blank">
+                    <i>🔗</i> <span>图谱可视化</span>
+                </a>
+                
+                <div class="menu-divider" data-role="admin"></div>
+                <div class="menu-label" data-role="admin">管理功能</div>
+                
+                <a href="/static/app/admin.html" class="menu-item" data-role="admin">
+                    <i>👥</i> <span>用户管理</span>
+                </a>
+                <a href="/static/app/system.html" class="menu-item" data-role="root">
+                    <i>⚙️</i> <span>系统管理</span>
+                </a>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <div class="user-info">
+                    <div class="user-avatar">U</div>
+                    <div class="user-name">
+                        <span>用户</span>
+                        <div class="user-role">角色</div>
+                    </div>
+                </div>
+                <a href="#" id="logoutBtn" style="color: rgba(255,255,255,0.6); font-size: 12px; display: block; margin-top: 10px;">退出登录</a>
+            </div>
+        </div>
+        
+        <!-- 主内容区 -->
+        <div class="main-content">
+            <header class="header">
+                <h1 class="header-title">工作台</h1>
+            </header>
+            
+            <main class="content">
+                <!-- 统计卡片 -->
+                <div class="stats-grid" id="statsGrid">
+                    <div class="stat-card">
+                        <div class="stat-value" id="totalSubjects">-</div>
+                        <div class="stat-label">我的学科</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="totalEntities">-</div>
+                        <div class="stat-label">总实体数</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="totalRelations">-</div>
+                        <div class="stat-label">总关系数</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="reviewProgress">-</div>
+                        <div class="stat-label">审核进度</div>
+                    </div>
+                </div>
+                
+                <!-- 学科列表 -->
+                <div class="card">
+                    <div class="card-header">
+                        我负责的学科
+                    </div>
+                    <div class="card-body" id="subjectList">
+                        <div class="loading">加载中...</div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    
+    <script src="/static/js/api.js"></script>
+    <script src="/static/js/auth.js"></script>
+    <script>
+        // 检查登录状态
+        if (!requireAuth()) {
+            // requireAuth 会自动跳转
+        }
+        
+        // 初始化页面
+        initPage();
+        
+        // 加载数据
+        loadDashboard();
+        
+        async function loadDashboard() {
+            try {
+                // 获取学科列表
+                const subjectsResult = await api.review.getSubjects();
+                const subjects = subjectsResult.subjects || [];
+                
+                // 更新统计
+                document.getElementById('totalSubjects').textContent = subjects.length;
+                
+                // 加载各学科进度
+                let totalEntities = 0;
+                let totalRelations = 0;
+                let totalReviewed = 0;
+                let totalItems = 0;
+                
+                const subjectsWithProgress = await Promise.all(
+                    subjects.map(async (subject) => {
+                        try {
+                            const progress = await api.review.getProgress(subject.subject_id);
+                            totalEntities += progress.total_entities;
+                            totalRelations += progress.total_relations;
+                            totalReviewed += progress.reviewed_count;
+                            totalItems += progress.total_entities + progress.total_relations;
+                            return { ...subject, progress };
+                        } catch (e) {
+                            return { ...subject, progress: null };
+                        }
+                    })
+                );
+                
+                // 更新统计
+                document.getElementById('totalEntities').textContent = totalEntities.toLocaleString();
+                document.getElementById('totalRelations').textContent = totalRelations.toLocaleString();
+                
+                const overallProgress = totalItems > 0 
+                    ? Math.round(totalReviewed / totalItems * 100) 
+                    : 0;
+                document.getElementById('reviewProgress').textContent = `${overallProgress}%`;
+                
+                // 渲染学科列表
+                renderSubjects(subjectsWithProgress);
+                
+            } catch (error) {
+                console.error('Load dashboard error:', error);
+                document.getElementById('subjectList').innerHTML = 
+                    '<p style="color: red;">加载失败：' + error.message + '</p>';
+            }
+        }
+        
+        function renderSubjects(subjects) {
+            const container = document.getElementById('subjectList');
+            
+            if (subjects.length === 0) {
+                container.innerHTML = '<p>暂无分配的学科</p>';
+                return;
+            }
+            
+            container.innerHTML = `
+                <div class="subject-grid">
+                    ${subjects.map(s => `
+                        <div class="subject-card" onclick="goToReview('${s.subject_id}')">
+                            <div class="subject-icon">${s.icon || '📚'}</div>
+                            <div class="subject-name">${s.display_name}</div>
+                            ${s.progress ? `
+                                <div class="progress" style="margin: 10px 0;">
+                                    <div class="progress-bar" style="width: ${s.progress.progress_percent}%">
+                                        ${s.progress.progress_percent}%
+                                    </div>
+                                </div>
+                                <div class="subject-stats">
+                                    <span>实体: ${s.progress.total_entities}</span>
+                                    <span>关系: ${s.progress.total_relations}</span>
+                                    <span>已审: ${s.progress.reviewed_count}</span>
+                                </div>
+                            ` : '<div class="subject-stats">加载中...</div>'}
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+        }
+        
+        function goToReview(subjectId) {
+            window.location.href = `/static/app/review.html?subject=${subjectId}`;
+        }
+    </script>
+</body>
+</html>
