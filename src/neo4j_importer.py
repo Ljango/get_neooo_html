@@ -49,13 +49,22 @@ class Neo4jImporter:
             raise ValueError(f"学科 {subject_name} 未配置数据目录")
         
         self.data_dir = DATA_ROOT / data_dir
-        self.entities_dir = self.data_dir / "entities"
         
-        # 自动检测关系目录（支持 relations 或 relation）
+        # 自动检测实体目录（支持 entities 或 实体）
+        if (self.data_dir / "entities").exists():
+            self.entities_dir = self.data_dir / "entities"
+        elif (self.data_dir / "实体").exists():
+            self.entities_dir = self.data_dir / "实体"
+        else:
+            self.entities_dir = self.data_dir / "entities"  # 默认
+        
+        # 自动检测关系目录（支持 relations、relation 或 关系）
         if (self.data_dir / "relations").exists():
             self.relations_dir = self.data_dir / "relations"
         elif (self.data_dir / "relation").exists():
             self.relations_dir = self.data_dir / "relation"
+        elif (self.data_dir / "关系").exists():
+            self.relations_dir = self.data_dir / "关系"
         else:
             self.relations_dir = self.data_dir / "relations"  # 默认
         

@@ -472,42 +472,13 @@
                         <p class="description">知识图谱可视化</p>
                         <div class="stats">
                             <span class="stat-item">📊 545个实体</span>
-                            <span class="stat-item">🔗 1674条关系</span>
+                            <span class="stat-item">🔗 1830条关系</span>
                         </div>
                         <span class="arrow">→</span>
                     </a>
                 </div>
             </div>
-
-            <div class="subject-column">
-                <div class="subject-column-header">
-                    <span class="icon">⚡</span>
-                    <h3>义教物理</h3>
-                    <span class="count">2 个</span>
-                </div>
-                <div class="graph-grid">
-                    <a href="义教物理_课标.html" class="graph-card" style="--accent-color: #e74c3c">
-                        <span class="type-badge curriculum">课程标准</span>
-                        <h3>义教物理课标</h3>
-                        <p class="description">知识图谱可视化</p>
-                        <div class="stats">
-                            <span class="stat-item">📊 374个实体</span>
-                            <span class="stat-item">🔗 1128条关系</span>
-                        </div>
-                        <span class="arrow">→</span>
-                    </a>
-                    <a href="义教物理_89全一册.html" class="graph-card" style="--accent-color: #e74c3c">
-                        <span class="type-badge curriculum">图谱</span>
-                        <h3>义教物理课标（8、9全一册）</h3>
-                        <p class="description">知识图谱可视化</p>
-                        <div class="stats">
-                            <span class="stat-item">📊 374个实体</span>
-                            <span class="stat-item">🔗 1200条关系</span>
-                        </div>
-                        <span class="arrow">→</span>
-                    </a>
-                </div>
-            </div>
+<div class="subject-column"></div>
 
             </div>
         </section>
@@ -533,7 +504,7 @@
                         <p class="description">知识图谱可视化</p>
                         <div class="stats">
                             <span class="stat-item">📊 329个实体</span>
-                            <span class="stat-item">🔗 1840条关系</span>
+                            <span class="stat-item">🔗 1940条关系</span>
                         </div>
                         <span class="arrow">→</span>
                     </a>
@@ -757,12 +728,44 @@
                         <p class="description">知识图谱可视化</p>
                         <div class="stats">
                             <span class="stat-item">📊 235个实体</span>
-                            <span class="stat-item">🔗 103条关系</span>
+                            <span class="stat-item">🔗 66条关系</span>
                         </div>
                         <span class="arrow">→</span>
                     </a>
                 </div>
             </div>
+
+            </div>
+        </section>
+
+        <!-- 英语学科 -->
+        <section class="subject-section" data-subject="英语">
+            <div class="subject-header">
+                <span class="icon">🔤</span>
+                <h2>英语</h2>
+            </div>
+            <div class="subject-group">
+
+            <div class="subject-column">
+                <div class="subject-column-header">
+                    <span class="icon">🔤</span>
+                    <h3>高中英语</h3>
+                    <span class="count">1 个</span>
+                </div>
+                <div class="graph-grid">
+                    <a href="高中英语_课标.html" class="graph-card" style="--accent-color: #e84393">
+                        <span class="type-badge curriculum">课程标准</span>
+                        <h3>高中英语课标</h3>
+                        <p class="description">知识图谱可视化</p>
+                        <div class="stats">
+                            <span class="stat-item">📊 80个实体</span>
+                            <span class="stat-item">🔗 1118条关系</span>
+                        </div>
+                        <span class="arrow">→</span>
+                    </a>
+                </div>
+            </div>
+<div class="subject-column"></div>
 
             </div>
         </section>

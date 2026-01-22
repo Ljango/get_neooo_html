@@ -100,7 +100,7 @@ SUBJECT_CONFIG = {
     "高中物理": {
         "icon": "⚛️",
         "display_name": "高中物理",
-        "data_dir": "高中物理-with-books",
+        "data_dir": "高中物理-with-books-v2",
         "files": ["高中物理_课标.html"],
         "color": "#3498db",
         "neo4j_label": "GaoZhongWuLi"  # 高中物理
@@ -108,7 +108,7 @@ SUBJECT_CONFIG = {
     "高中化学": {
         "icon": "⚗️",
         "display_name": "高中化学",
-        "data_dir": "高中化学-with-books",
+        "data_dir": "高中化学_with-books-v2",
         "files": ["高中化学_课标.html"],
         "color": "#8e44ad",
         "neo4j_label": "GaoZhongHuaXue"  # 高中化学
@@ -146,11 +146,19 @@ SUBJECT_CONFIG = {
         "color": "#f39c12",
         "neo4j_label": "YiJiaoShuXue"  # 义教数学
     },
-    "义教物理": {
+    "义教物理89全册": {
         "icon": "⚡",
-        "display_name": "义教物理",
-        "data_dir": "义务物理-with-books",
-        "files": ["义教物理_课标.html", "义教物理_89全一册.html"],
+        "display_name": "义教物理（8、9全一册）",
+        "data_dir": "义务物理（8、9全一册）-with-books-v2",
+        "files": ["义教物理_89全一册.html"],
+        "color": "#e74c3c",
+        "neo4j_label": "YiJiaoWuLi89"  # 义教物理89全册
+    },
+    "义教物理8上下9全册": {
+        "icon": "⚡",
+        "display_name": "义教物理（8上下、9全一册）",
+        "data_dir": "义务物理（8上下、9全一册）-with-books-v2",
+        "files": ["义教物理_课标.html"],
         "color": "#e74c3c",
         "neo4j_label": "YiJiaoWuLi"  # 义教物理
     },
@@ -169,14 +177,6 @@ SUBJECT_CONFIG = {
         "files": ["义教地理_课标.html"],
         "color": "#1abc9c",
         "neo4j_label": "YiJiaoDiLi"  # 义教地理
-    },
-    "初中地理": {
-        "icon": "🗺️",
-        "display_name": "初中地理",
-        "data_dir": "初中地理-with-books",
-        "files": ["初中地理_课标.html"],
-        "color": "#16a085",
-        "neo4j_label": "ChuZhongDiLi"  # 初中地理
     },
     "义教生物": {
         "icon": "🌱",
@@ -217,6 +217,22 @@ SUBJECT_CONFIG = {
         "files": ["高中英语_课标.html"],
         "color": "#e84393",
         "neo4j_label": "GaoZhongYingYu"  # 高中英语
+    },
+    "高中语文": {
+        "icon": "📖",
+        "display_name": "高中语文",
+        "data_dir": "高中语文",
+        "files": ["高中语文_课标.html"],
+        "color": "#ff6b6b",
+        "neo4j_label": "GaoZhongYuWen"  # 高中语文
+    },
+    "义教语文": {
+        "icon": "📚",
+        "display_name": "义教语文",
+        "data_dir": "义教语文",
+        "files": ["义教语文_课标.html"],
+        "color": "#ff7675",
+        "neo4j_label": "YiJiaoYuWen"  # 义教语文
     }
 }
 

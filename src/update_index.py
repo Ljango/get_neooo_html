@@ -146,6 +146,12 @@ def generate_index_html(subject_files, unknown_files):
             "highschool": ("高中英语", "#e84393"),
             "yijiao": None,
             "color": "#e84393"
+        },
+        "语文": {
+            "icon": "📖",
+            "highschool": ("高中语文", "#ff6b6b"),
+            "yijiao": ("义教语文", "#ff7675"),
+            "color": "#ff6b6b"
         }
     }
     
