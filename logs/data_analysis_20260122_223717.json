@@ -1,0 +1,123 @@
+{
+  "generateTime": "2026-01-22T22:37:17.010223",
+  "statistics": {
+    "高中数学-v1": {
+      "entity_count": 403,
+      "relation_count": 2746,
+      "entity_types": {
+        "Domain": 4,
+        "CoreLiteracy": 18,
+        "Theme": 9,
+        "CourseModule": 3,
+        "Topic": 18,
+        "Chapter": 17,
+        "Section": 64,
+        "SubSection": 121,
+        "KeyPoint": 60,
+        "AcademicQuality": 3,
+        "Unit": 86
+      },
+      "relation_types": {
+        "chapterHasSection": 64,
+        "sectionBelongsToChapter": 64,
+        "topicIncludesUnit": 66,
+        "unitBelongsToTopic": 66,
+        "themeIncludesUnit": 22,
+        "unitBelongsToTheme": 22,
+        "keyPointBelongsToUnit": 60,
+        "unitHasKeyPoint": 60,
+        "unitCultivatesCoreLiteracy": 798,
+        "coreLiteracyDevelopedThroughUnit": 798,
+        "coreLiteracyBelongsToAcademicQuality": 54,
+        "courseModuleHasTheme": 9,
+        "sectionHasSubsection": 121,
+        "subsectionBelongsToSection": 121,
+        "domainIncludesTheme": 9,
+        "themeBelongsToDomain": 9,
+        "courseModuleContainsTopic": 18,
+        "topicBelongsToCourseModule": 18,
+        "courseModuleSupportsTopic": 12,
+        "topicBasedOnCourseModule": 12,
+        "courseModuleBelongsToAcademicQuality": 9,
+        "subsectionHasKeyPoint": 167,
+        "keyPointBelongsToSubsection": 167
+      },
+      "content_fields": {
+        "standard": 21,
+        "standardDescription": 18,
+        "achievementRequirement": 9,
+        "teachingTip": 9,
+        "academicTerm": 202,
+        "grade": 202,
+        "edition": 202,
+        "volume": 202,
+        "chapter": 185,
+        "section": 121,
+        "unit": 60,
+        "contentRequirement": 60,
+        "standardRequirement": 3,
+        "theme": 22,
+        "contentIncludes": 19,
+        "electiveCategory": 64,
+        "outline": 64,
+        "sectionIndex": 64,
+        "parentTopicTitle": 64
+      }
+    }
+  },
+  "issues": {
+    "entity_completeness": [
+      {
+        "type": "missing_field",
+        "file": "KeyPoint.json",
+        "index": 26,
+        "identifier": "urn:jy:math:SB0201:OB06:KeyPoint:kp00030",
+        "missing_fields": [
+          "title"
+        ],
+        "subject": "高中数学-v1"
+      }
+    ],
+    "relation_validity": [
+      {
+        "type": "invalid_source",
+        "file": "CourseModuke_Theme_Relations.json",
+        "source": "urn:jy:math:SB0201:OB06:course-module:cm004",
+        "relation": "courseModuleHasTheme",
+        "subject": "高中数学-v1"
+      },
+      {
+        "type": "invalid_source",
+        "file": "CourseModuke_Theme_Relations.json",
+        "source": "urn:jy:math:SB0201:OB06:course-module:cm004",
+        "relation": "courseModuleHasTheme",
+        "subject": "高中数学-v1"
+      },
+      {
+        "type": "invalid_source",
+        "file": "CourseModuke_Theme_Relations.json",
+        "source": "urn:jy:math:SB0201:OB06:course-module:cm005",
+        "relation": "courseModuleHasTheme",
+        "subject": "高中数学-v1"
+      }
+    ],
+    "file_naming": [
+      {
+        "type": "typo_in_filename",
+        "file": "Chaptert_Section.json",
+        "subject": "高中数学-v1"
+      },
+      {
+        "type": "typo_in_filename",
+        "file": "CourseModuke_Theme_Relations.json",
+        "subject": "高中数学-v1"
+      }
+    ]
+  },
+  "summary": {
+    "total_subjects": 1,
+    "total_entities": 403,
+    "total_relations": 2746,
+    "total_issues": 6
+  }
+}

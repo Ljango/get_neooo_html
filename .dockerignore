@@ -1,0 +1,33 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+.venv
+venv
+
+# IDE
+.idea
+.vscode
+.cursor
+
+# Mac
+.DS_Store
+
+# 备份文件
+*.bak
+.bak/
+图谱数据.backup.*
+
+# 日志
+logs/
+*.log
+
+# 压缩包
+*.zip
+
+# 导出数据
+图谱数据/导出数据/

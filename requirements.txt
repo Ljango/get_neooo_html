@@ -1,3 +1,15 @@
-python-dotenv>=1.0.0
+# 知识图谱可视化系统依赖
+
+# Neo4j 数据库驱动
 neo4j>=5.0.0
-requests>=2.31.0
+
+# 环境变量管理
+python-dotenv>=1.0.0
+
+# 数据处理
+pandas>=2.0.0
+openpyxl>=3.1.0
+
+# HTTP服务（Python内置，无需安装）
+# http.server
+# socketserver
