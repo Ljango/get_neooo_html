@@ -477,20 +477,22 @@ def import_all_subjects(env_file: str = '.env', clear_first: bool = False, env_t
     Args:
         env_file: 环境配置文件
         clear_first: 是否先清除旧数据
+        env_type: 环境类型，'local' 或 'test'
     
     Returns:
         各学科的导入结果
     """
     results = {}
     
+    env_label = "🧪 测试环境" if env_type == 'test' else "🏠 本地环境"
     print("="*60)
-    print("📥 批量导入所有学科数据到 Neo4j")
+    print(f"📥 批量导入所有学科数据到 Neo4j ({env_label})")
     print("="*60)
     
     for subject_name in SUBJECT_CONFIG.keys():
         print(f"\n{'='*60}")
         try:
-            success = import_subject(subject_name, env_file, clear_first)
+            success = import_subject(subject_name, env_file, clear_first, env_type)
             results[subject_name] = success
         except Exception as e:
             print(f"❌ {subject_name} 导入失败: {e}")

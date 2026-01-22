@@ -102,11 +102,11 @@ def list_subjects():
     print("="*60)
 
 
-def import_subject_to_neo4j(subject_name: str, env_file: str = '.env', clear_first: bool = False):
+def import_subject_to_neo4j(subject_name: str, env_file: str = '.env', clear_first: bool = False, env_type: str = 'local'):
     """导入指定学科数据到Neo4j"""
     try:
         from neo4j_importer import import_subject
-        success = import_subject(subject_name, env_file, clear_first)
+        success = import_subject(subject_name, env_file, clear_first, env_type)
         if not success:
             print(f"❌ {subject_name} 导入失败")
     except ImportError as e:
@@ -116,11 +116,11 @@ def import_subject_to_neo4j(subject_name: str, env_file: str = '.env', clear_fir
         print(f"❌ 导入失败: {e}")
 
 
-def import_all_to_neo4j(env_file: str = '.env', clear_first: bool = False):
+def import_all_to_neo4j(env_file: str = '.env', clear_first: bool = False, env_type: str = 'local'):
     """导入所有学科数据到Neo4j"""
     try:
         from neo4j_importer import import_all_subjects
-        import_all_subjects(env_file, clear_first)
+        import_all_subjects(env_file, clear_first, env_type)
     except ImportError as e:
         print(f"❌ 导入模块加载失败: {e}")
         print("请确保已安装 neo4j 驱动: pip install neo4j python-dotenv")
@@ -230,8 +230,10 @@ def main():
   %(prog)s update-index                # 更新导航页面
   %(prog)s serve                       # 启动HTTP服务器
   %(prog)s serve --port 8080           # 指定端口启动服务器
-  %(prog)s import --subject 高中数学    # 导入指定学科到Neo4j
-  %(prog)s import --all                # 导入所有学科到Neo4j
+  %(prog)s import --subject 高中数学    # 导入指定学科到Neo4j（本地）
+  %(prog)s import --all                # 导入所有学科到Neo4j（本地）
+  %(prog)s import --subject 高中数学 --target test  # 导入到测试环境
+  %(prog)s import --all --target test  # 导入所有学科到测试环境
   %(prog)s import --subject 高中数学 --clear  # 清除旧数据后重新导入
         """
     )
@@ -251,6 +253,8 @@ def main():
     import_group.add_argument('--subject', type=str, help='导入指定学科数据')
     import_parser.add_argument('--env', type=str, default='.env',
                               help='环境配置文件 (默认: .env)')
+    import_parser.add_argument('--target', type=str, choices=['local', 'test'], default='local',
+                              help='目标环境: local(本地) 或 test(测试服务器) (默认: local)')
     import_parser.add_argument('--clear', action='store_true',
                               help='导入前清除该学科的旧数据')
     
@@ -297,9 +301,9 @@ def main():
     
     elif args.command == 'import':
         if args.all:
-            import_all_to_neo4j(args.env, args.clear)
+            import_all_to_neo4j(args.env, args.clear, args.target)
         elif args.subject:
-            import_subject_to_neo4j(args.subject, args.env, args.clear)
+            import_subject_to_neo4j(args.subject, args.env, args.clear, args.target)
     
     elif args.command == 'list':
         list_subjects()
