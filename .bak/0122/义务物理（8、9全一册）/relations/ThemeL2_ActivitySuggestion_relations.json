@@ -1,0 +1,554 @@
+[
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:1",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:1_1:01"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:1_1:01",
+        "target": "urn:jy:physics:OB05:ThemeL2:1"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:1",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:1_1:02"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:1_1:02",
+        "target": "urn:jy:physics:OB05:ThemeL2:1"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:1",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:1_1:03"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:1_1:03",
+        "target": "urn:jy:physics:OB05:ThemeL2:1"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:2",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:1_2:01"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:1_2:01",
+        "target": "urn:jy:physics:OB05:ThemeL2:2"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:2",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:1_2:02"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:1_2:02",
+        "target": "urn:jy:physics:OB05:ThemeL2:2"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:2",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:1_2:03"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:1_2:03",
+        "target": "urn:jy:physics:OB05:ThemeL2:2"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:3",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:1_3:01"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:1_3:01",
+        "target": "urn:jy:physics:OB05:ThemeL2:3"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:3",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:1_3:02"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:1_3:02",
+        "target": "urn:jy:physics:OB05:ThemeL2:3"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:3",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:1_3:03"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:1_3:03",
+        "target": "urn:jy:physics:OB05:ThemeL2:3"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:4",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:2_1:01"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:2_1:01",
+        "target": "urn:jy:physics:OB05:ThemeL2:4"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:4",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:2_1:02"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:2_1:02",
+        "target": "urn:jy:physics:OB05:ThemeL2:4"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:4",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:2_1:03"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:2_1:03",
+        "target": "urn:jy:physics:OB05:ThemeL2:4"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:5",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:2_2:01"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:2_2:01",
+        "target": "urn:jy:physics:OB05:ThemeL2:5"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:5",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:2_2:02"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:2_2:02",
+        "target": "urn:jy:physics:OB05:ThemeL2:5"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:5",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:2_2:03"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:2_2:03",
+        "target": "urn:jy:physics:OB05:ThemeL2:5"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:5",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:2_2:04"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:2_2:04",
+        "target": "urn:jy:physics:OB05:ThemeL2:5"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:6",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:2_3:01"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:2_3:01",
+        "target": "urn:jy:physics:OB05:ThemeL2:6"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:6",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:2_3:02"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:2_3:02",
+        "target": "urn:jy:physics:OB05:ThemeL2:6"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:6",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:2_3:03"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:2_3:03",
+        "target": "urn:jy:physics:OB05:ThemeL2:6"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:6",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:2_3:04"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:2_3:04",
+        "target": "urn:jy:physics:OB05:ThemeL2:6"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:7",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:2_4:01"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:2_4:01",
+        "target": "urn:jy:physics:OB05:ThemeL2:7"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:7",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:2_4:02"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:2_4:02",
+        "target": "urn:jy:physics:OB05:ThemeL2:7"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:7",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:2_4:03"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:2_4:03",
+        "target": "urn:jy:physics:OB05:ThemeL2:7"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:8",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:3_1:01"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:3_1:01",
+        "target": "urn:jy:physics:OB05:ThemeL2:8"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:8",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:3_1:02"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:3_1:02",
+        "target": "urn:jy:physics:OB05:ThemeL2:8"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:9",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:3_2:01"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:3_2:01",
+        "target": "urn:jy:physics:OB05:ThemeL2:9"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:9",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:3_2:02"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:3_2:02",
+        "target": "urn:jy:physics:OB05:ThemeL2:9"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:10",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:3_3:01"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:3_3:01",
+        "target": "urn:jy:physics:OB05:ThemeL2:10"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:10",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:3_3:02"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:3_3:02",
+        "target": "urn:jy:physics:OB05:ThemeL2:10"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:11",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:3_4:01"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:3_4:01",
+        "target": "urn:jy:physics:OB05:ThemeL2:11"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:11",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:3_4:02"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:3_4:02",
+        "target": "urn:jy:physics:OB05:ThemeL2:11"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:12",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:3_5:01"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:3_5:01",
+        "target": "urn:jy:physics:OB05:ThemeL2:12"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:12",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:3_5:02"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:3_5:02",
+        "target": "urn:jy:physics:OB05:ThemeL2:12"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:13",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:3_6:01"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:3_6:01",
+        "target": "urn:jy:physics:OB05:ThemeL2:13"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:13",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:3_6:02"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:3_6:02",
+        "target": "urn:jy:physics:OB05:ThemeL2:13"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:13",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:3_6:03"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:3_6:03",
+        "target": "urn:jy:physics:OB05:ThemeL2:13"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:13",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:3_6:04"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:3_6:04",
+        "target": "urn:jy:physics:OB05:ThemeL2:13"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:16",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:5_1:01"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:5_1:01",
+        "target": "urn:jy:physics:OB05:ThemeL2:16"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:16",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:5_1:02"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:5_1:02",
+        "target": "urn:jy:physics:OB05:ThemeL2:16"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:16",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:5_1:03"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:5_1:03",
+        "target": "urn:jy:physics:OB05:ThemeL2:16"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:17",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:5_2:01"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:5_2:01",
+        "target": "urn:jy:physics:OB05:ThemeL2:17"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:17",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:5_2:02"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:5_2:02",
+        "target": "urn:jy:physics:OB05:ThemeL2:17"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:17",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:5_2:03"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:5_2:03",
+        "target": "urn:jy:physics:OB05:ThemeL2:17"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:18",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:5_3:01"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:5_3:01",
+        "target": "urn:jy:physics:OB05:ThemeL2:18"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:18",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:5_3:02"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:5_3:02",
+        "target": "urn:jy:physics:OB05:ThemeL2:18"
+    },
+    {
+        "relationName": "themeHasActivitySuggestion",
+        "label": "相关联",
+        "source": "urn:jy:physics:OB05:ThemeL2:18",
+        "target": "urn:jy:physics:OB05:ActivitySuggestion:5_3:03"
+    },
+    {
+        "relationName": "activitySuggestionBelongsToTheme",
+        "label": "属于",
+        "source": "urn:jy:physics:OB05:ActivitySuggestion:5_3:03",
+        "target": "urn:jy:physics:OB05:ThemeL2:18"
+    }
+]

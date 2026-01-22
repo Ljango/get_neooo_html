@@ -1,0 +1,109 @@
+================================================================================
+缺失节点信息日志 - 高中数学-with-books
+生成时间: 2026-01-22 11:06:47
+================================================================================
+
+【统计摘要】
+  缺失头节点总数: 3
+  缺失尾节点总数: 1
+  涉及的关系文件数: 3
+  涉及的关系总数: 9
+
+================================================================================
+【按关系文件分组】
+================================================================================
+
+
+文件: CourseModuke_Theme_Relations.json
+--------------------------------------------------------------------------------
+
+  缺失头节点 (3 个):
+    行号    7 | 节点位置: 头节点    | 节点ID: urn:jy:math:SB0201:OB06:course-module:cm004
+            | 关系名称: courseModuleHasTheme
+            | 尾节点ID: urn:jy:math:SB0201:OB06:theme:th007
+
+    行号    8 | 节点位置: 头节点    | 节点ID: urn:jy:math:SB0201:OB06:course-module:cm004
+            | 关系名称: courseModuleHasTheme
+            | 尾节点ID: urn:jy:math:SB0201:OB06:theme:th008
+
+    行号    9 | 节点位置: 头节点    | 节点ID: urn:jy:math:SB0201:OB06:course-module:cm005
+            | 关系名称: courseModuleHasTheme
+            | 尾节点ID: urn:jy:math:SB0201:OB06:theme:th009
+
+
+文件: KeyPoint_Unit_relations.json
+--------------------------------------------------------------------------------
+
+  缺失头节点 (1 个):
+    行号   53 | 节点位置: 头节点    | 节点ID: urn:jy:math:SB0201:OB06:KeyPoint:kp00030
+            | 关系名称: keyPointBelongsToUnit
+            | 尾节点ID: urn:jy:math:SB0201:OB06:unit:un0010
+
+
+  缺失尾节点 (1 个):
+    行号   54 | 节点位置: 尾节点    | 节点ID: urn:jy:math:SB0201:OB06:KeyPoint:kp00030
+            | 关系名称: unitHasKeyPoint
+            | 头节点ID: urn:jy:math:SB0201:OB06:unit:un0010
+
+
+文件: SubSection_keypoint.json
+--------------------------------------------------------------------------------
+
+  缺失头节点 (2 个):
+    行号   80 | 节点位置: 头节点    | 节点ID: urn:jy:math:SB0201:OB06:KeyPoint:kp00030
+            | 关系名称: keyPointBelongsToSubsection
+            | 尾节点ID: urn:jy:math:SB0201:OB06:Subsection:27
+
+    行号  188 | 节点位置: 头节点    | 节点ID: urn:jy:math:SB0201:OB06:KeyPoint:kp00030
+            | 关系名称: keyPointBelongsToSubsection
+            | 尾节点ID: urn:jy:math:SB0201:OB06:Subsection:61
+
+
+  缺失尾节点 (2 个):
+    行号   79 | 节点位置: 尾节点    | 节点ID: urn:jy:math:SB0201:OB06:KeyPoint:kp00030
+            | 关系名称: subsectionHasKeyPoint
+            | 头节点ID: urn:jy:math:SB0201:OB06:Subsection:27
+
+    行号  187 | 节点位置: 尾节点    | 节点ID: urn:jy:math:SB0201:OB06:KeyPoint:kp00030
+            | 关系名称: subsectionHasKeyPoint
+            | 头节点ID: urn:jy:math:SB0201:OB06:Subsection:61
+
+
+================================================================================
+【按缺失节点ID汇总】
+================================================================================
+
+缺失的头节点ID列表:
+  urn:jy:math:SB0201:OB06:KeyPoint:kp00030
+    出现在 3 个关系中:
+      - KeyPoint_Unit_relations.json (行号 53, 关系: keyPointBelongsToUnit)
+      - SubSection_keypoint.json (行号 80, 关系: keyPointBelongsToSubsection)
+      - SubSection_keypoint.json (行号 188, 关系: keyPointBelongsToSubsection)
+
+  urn:jy:math:SB0201:OB06:course-module:cm004
+    出现在 2 个关系中:
+      - CourseModuke_Theme_Relations.json (行号 7, 关系: courseModuleHasTheme)
+      - CourseModuke_Theme_Relations.json (行号 8, 关系: courseModuleHasTheme)
+
+  urn:jy:math:SB0201:OB06:course-module:cm005
+    出现在 1 个关系中:
+      - CourseModuke_Theme_Relations.json (行号 9, 关系: courseModuleHasTheme)
+
+
+缺失的尾节点ID列表:
+  urn:jy:math:SB0201:OB06:KeyPoint:kp00030
+    出现在 3 个关系中:
+      - KeyPoint_Unit_relations.json (行号 54, 关系: unitHasKeyPoint)
+      - SubSection_keypoint.json (行号 79, 关系: subsectionHasKeyPoint)
+      - SubSection_keypoint.json (行号 187, 关系: subsectionHasKeyPoint)
+
+
+================================================================================
+【排查建议】
+================================================================================
+1. 检查entities目录中是否存在对应的实体文件
+2. 检查实体文件中的identifier字段是否与关系文件中的source/target完全匹配
+3. 注意identifier的大小写、空格、特殊字符等细节
+4. 检查是否有实体文件格式错误（JSON解析失败）
+5. 检查是否有实体文件被遗漏未加载
+================================================================================

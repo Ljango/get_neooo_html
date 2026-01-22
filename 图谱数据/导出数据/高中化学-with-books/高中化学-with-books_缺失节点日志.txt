@@ -1,0 +1,630 @@
+================================================================================
+缺失节点信息日志 - 高中化学-with-books
+生成时间: 2026-01-22 11:06:46
+================================================================================
+
+【统计摘要】
+  缺失头节点总数: 15
+  缺失尾节点总数: 15
+  涉及的关系文件数: 1
+  涉及的关系总数: 100
+
+================================================================================
+【按关系文件分组】
+================================================================================
+
+
+文件: Section_Chapter.json
+--------------------------------------------------------------------------------
+
+  缺失头节点 (50 个):
+    行号    2 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l1
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l1
+
+    行号    4 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l1
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l2
+
+    行号    6 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l1
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l3
+
+    行号    8 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l2
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l4
+
+    行号   10 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l2
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l5
+
+    行号   12 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l2
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l6
+
+    行号   14 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l3
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l7
+
+    行号   16 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l3
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l8
+
+    行号   18 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l3
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l9
+
+    行号   20 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l4
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l10
+
+    行号   22 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l4
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l11
+
+    行号   24 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l4
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l12
+
+    行号   26 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l5
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l13
+
+    行号   28 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l5
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l14
+
+    行号   30 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l5
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l15
+
+    行号   32 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l6
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l16
+
+    行号   34 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l6
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l17
+
+    行号   36 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l6
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l18
+
+    行号   38 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l8
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l19
+
+    行号   40 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l8
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l20
+
+    行号   42 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l8
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l21
+
+    行号   44 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l8
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l22
+
+    行号   46 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l9
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l23
+
+    行号   48 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l9
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l24
+
+    行号   50 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l9
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l25
+
+    行号   52 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l9
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l26
+
+    行号   54 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l10
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l27
+
+    行号   56 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l10
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l28
+
+    行号   58 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l10
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l29
+
+    行号   60 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l10
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l30
+
+    行号   62 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l11
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l31
+
+    行号   64 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l11
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l32
+
+    行号   66 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l11
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l33
+
+    行号   68 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l12
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l34
+
+    行号   70 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l12
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l35
+
+    行号   72 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l12
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l36
+
+    行号   74 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l12
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l37
+
+    行号   76 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l13
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l38
+
+    行号   78 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l13
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l39
+
+    行号   80 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l13
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l40
+
+    行号   82 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l14
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l41
+
+    行号   84 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l14
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l42
+
+    行号   86 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l14
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l43
+
+    行号   88 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l15
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l44
+
+    行号   90 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l15
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l45
+
+    行号   92 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l15
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l46
+
+    行号   94 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l15
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l47
+
+    行号   96 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l16
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l48
+
+    行号   98 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l16
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l49
+
+    行号  100 | 节点位置: 头节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l16
+            | 关系名称: ChapterIncludesSection
+            | 尾节点ID: urn:jy:chemistry:SB0402:OB06:Section:l50
+
+
+  缺失尾节点 (50 个):
+    行号    1 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l1
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l1
+
+    行号    3 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l1
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l2
+
+    行号    5 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l1
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l3
+
+    行号    7 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l2
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l4
+
+    行号    9 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l2
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l5
+
+    行号   11 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l2
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l6
+
+    行号   13 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l3
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l7
+
+    行号   15 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l3
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l8
+
+    行号   17 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l3
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l9
+
+    行号   19 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l4
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l10
+
+    行号   21 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l4
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l11
+
+    行号   23 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l4
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l12
+
+    行号   25 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l5
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l13
+
+    行号   27 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l5
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l14
+
+    行号   29 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l5
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l15
+
+    行号   31 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l6
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l16
+
+    行号   33 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l6
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l17
+
+    行号   35 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l6
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l18
+
+    行号   37 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l8
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l19
+
+    行号   39 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l8
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l20
+
+    行号   41 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l8
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l21
+
+    行号   43 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l8
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l22
+
+    行号   45 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l9
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l23
+
+    行号   47 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l9
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l24
+
+    行号   49 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l9
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l25
+
+    行号   51 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l9
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l26
+
+    行号   53 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l10
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l27
+
+    行号   55 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l10
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l28
+
+    行号   57 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l10
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l29
+
+    行号   59 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l10
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l30
+
+    行号   61 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l11
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l31
+
+    行号   63 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l11
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l32
+
+    行号   65 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l11
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l33
+
+    行号   67 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l12
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l34
+
+    行号   69 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l12
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l35
+
+    行号   71 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l12
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l36
+
+    行号   73 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l12
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l37
+
+    行号   75 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l13
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l38
+
+    行号   77 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l13
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l39
+
+    行号   79 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l13
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l40
+
+    行号   81 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l14
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l41
+
+    行号   83 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l14
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l42
+
+    行号   85 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l14
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l43
+
+    行号   87 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l15
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l44
+
+    行号   89 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l15
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l45
+
+    行号   91 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l15
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l46
+
+    行号   93 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l15
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l47
+
+    行号   95 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l16
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l48
+
+    行号   97 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l16
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l49
+
+    行号   99 | 节点位置: 尾节点    | 节点ID: urn:jy:chemistry:SB0402:OB06:Chapter:l16
+            | 关系名称: SectionBelongsToChapter
+            | 头节点ID: urn:jy:chemistry:SB0402:OB06:Section:l50
+
+
+================================================================================
+【按缺失节点ID汇总】
+================================================================================
+
+缺失的头节点ID列表:
+  urn:jy:chemistry:SB0402:OB06:Chapter:l1
+    出现在 3 个关系中:
+      - Section_Chapter.json (行号 2, 关系: ChapterIncludesSection)
+      - Section_Chapter.json (行号 4, 关系: ChapterIncludesSection)
+      - Section_Chapter.json (行号 6, 关系: ChapterIncludesSection)
+
+  urn:jy:chemistry:SB0402:OB06:Chapter:l10
+    出现在 4 个关系中:
+      - Section_Chapter.json (行号 54, 关系: ChapterIncludesSection)
+      - Section_Chapter.json (行号 56, 关系: ChapterIncludesSection)
+      - Section_Chapter.json (行号 58, 关系: ChapterIncludesSection)
+      - Section_Chapter.json (行号 60, 关系: ChapterIncludesSection)
+
+  urn:jy:chemistry:SB0402:OB06:Chapter:l11
+    出现在 3 个关系中:
+      - Section_Chapter.json (行号 62, 关系: ChapterIncludesSection)
+      - Section_Chapter.json (行号 64, 关系: ChapterIncludesSection)
+      - Section_Chapter.json (行号 66, 关系: ChapterIncludesSection)
+
+  urn:jy:chemistry:SB0402:OB06:Chapter:l12
+    出现在 4 个关系中:
+      - Section_Chapter.json (行号 68, 关系: ChapterIncludesSection)
+      - Section_Chapter.json (行号 70, 关系: ChapterIncludesSection)
+      - Section_Chapter.json (行号 72, 关系: ChapterIncludesSection)
+      - Section_Chapter.json (行号 74, 关系: ChapterIncludesSection)
+
+  urn:jy:chemistry:SB0402:OB06:Chapter:l13
+    出现在 3 个关系中:
+      - Section_Chapter.json (行号 76, 关系: ChapterIncludesSection)
+      - Section_Chapter.json (行号 78, 关系: ChapterIncludesSection)
+      - Section_Chapter.json (行号 80, 关系: ChapterIncludesSection)
+
+  urn:jy:chemistry:SB0402:OB06:Chapter:l14
+    出现在 3 个关系中:
+      - Section_Chapter.json (行号 82, 关系: ChapterIncludesSection)
+      - Section_Chapter.json (行号 84, 关系: ChapterIncludesSection)
+      - Section_Chapter.json (行号 86, 关系: ChapterIncludesSection)
+
+  urn:jy:chemistry:SB0402:OB06:Chapter:l15
+    出现在 4 个关系中:
+      - Section_Chapter.json (行号 88, 关系: ChapterIncludesSection)
+      - Section_Chapter.json (行号 90, 关系: ChapterIncludesSection)
+      - Section_Chapter.json (行号 92, 关系: ChapterIncludesSection)
+      - Section_Chapter.json (行号 94, 关系: ChapterIncludesSection)
+
+  urn:jy:chemistry:SB0402:OB06:Chapter:l16
+    出现在 3 个关系中:
+      - Section_Chapter.json (行号 96, 关系: ChapterIncludesSection)
+      - Section_Chapter.json (行号 98, 关系: ChapterIncludesSection)
+      - Section_Chapter.json (行号 100, 关系: ChapterIncludesSection)
+
+  urn:jy:chemistry:SB0402:OB06:Chapter:l2
+    出现在 3 个关系中:
+      - Section_Chapter.json (行号 8, 关系: ChapterIncludesSection)
+      - Section_Chapter.json (行号 10, 关系: ChapterIncludesSection)
+      - Section_Chapter.json (行号 12, 关系: ChapterIncludesSection)
+
+  urn:jy:chemistry:SB0402:OB06:Chapter:l3
+    出现在 3 个关系中:
+      - Section_Chapter.json (行号 14, 关系: ChapterIncludesSection)
+      - Section_Chapter.json (行号 16, 关系: ChapterIncludesSection)
+      - Section_Chapter.json (行号 18, 关系: ChapterIncludesSection)
+
+  urn:jy:chemistry:SB0402:OB06:Chapter:l4
+    出现在 3 个关系中:
+      - Section_Chapter.json (行号 20, 关系: ChapterIncludesSection)
+      - Section_Chapter.json (行号 22, 关系: ChapterIncludesSection)
+      - Section_Chapter.json (行号 24, 关系: ChapterIncludesSection)
+
+  urn:jy:chemistry:SB0402:OB06:Chapter:l5
+    出现在 3 个关系中:
+      - Section_Chapter.json (行号 26, 关系: ChapterIncludesSection)
+      - Section_Chapter.json (行号 28, 关系: ChapterIncludesSection)
+      - Section_Chapter.json (行号 30, 关系: ChapterIncludesSection)
+
+  urn:jy:chemistry:SB0402:OB06:Chapter:l6
+    出现在 3 个关系中:
+      - Section_Chapter.json (行号 32, 关系: ChapterIncludesSection)
+      - Section_Chapter.json (行号 34, 关系: ChapterIncludesSection)
+      - Section_Chapter.json (行号 36, 关系: ChapterIncludesSection)
+
+  urn:jy:chemistry:SB0402:OB06:Chapter:l8
+    出现在 4 个关系中:
+      - Section_Chapter.json (行号 38, 关系: ChapterIncludesSection)
+      - Section_Chapter.json (行号 40, 关系: ChapterIncludesSection)
+      - Section_Chapter.json (行号 42, 关系: ChapterIncludesSection)
+      - Section_Chapter.json (行号 44, 关系: ChapterIncludesSection)
+
+  urn:jy:chemistry:SB0402:OB06:Chapter:l9
+    出现在 4 个关系中:
+      - Section_Chapter.json (行号 46, 关系: ChapterIncludesSection)
+      - Section_Chapter.json (行号 48, 关系: ChapterIncludesSection)
+      - Section_Chapter.json (行号 50, 关系: ChapterIncludesSection)
+      - Section_Chapter.json (行号 52, 关系: ChapterIncludesSection)
+
+
+缺失的尾节点ID列表:
+  urn:jy:chemistry:SB0402:OB06:Chapter:l1
+    出现在 3 个关系中:
+      - Section_Chapter.json (行号 1, 关系: SectionBelongsToChapter)
+      - Section_Chapter.json (行号 3, 关系: SectionBelongsToChapter)
+      - Section_Chapter.json (行号 5, 关系: SectionBelongsToChapter)
+
+  urn:jy:chemistry:SB0402:OB06:Chapter:l10
+    出现在 4 个关系中:
+      - Section_Chapter.json (行号 53, 关系: SectionBelongsToChapter)
+      - Section_Chapter.json (行号 55, 关系: SectionBelongsToChapter)
+      - Section_Chapter.json (行号 57, 关系: SectionBelongsToChapter)
+      - Section_Chapter.json (行号 59, 关系: SectionBelongsToChapter)
+
+  urn:jy:chemistry:SB0402:OB06:Chapter:l11
+    出现在 3 个关系中:
+      - Section_Chapter.json (行号 61, 关系: SectionBelongsToChapter)
+      - Section_Chapter.json (行号 63, 关系: SectionBelongsToChapter)
+      - Section_Chapter.json (行号 65, 关系: SectionBelongsToChapter)
+
+  urn:jy:chemistry:SB0402:OB06:Chapter:l12
+    出现在 4 个关系中:
+      - Section_Chapter.json (行号 67, 关系: SectionBelongsToChapter)
+      - Section_Chapter.json (行号 69, 关系: SectionBelongsToChapter)
+      - Section_Chapter.json (行号 71, 关系: SectionBelongsToChapter)
+      - Section_Chapter.json (行号 73, 关系: SectionBelongsToChapter)
+
+  urn:jy:chemistry:SB0402:OB06:Chapter:l13
+    出现在 3 个关系中:
+      - Section_Chapter.json (行号 75, 关系: SectionBelongsToChapter)
+      - Section_Chapter.json (行号 77, 关系: SectionBelongsToChapter)
+      - Section_Chapter.json (行号 79, 关系: SectionBelongsToChapter)
+
+  urn:jy:chemistry:SB0402:OB06:Chapter:l14
+    出现在 3 个关系中:
+      - Section_Chapter.json (行号 81, 关系: SectionBelongsToChapter)
+      - Section_Chapter.json (行号 83, 关系: SectionBelongsToChapter)
+      - Section_Chapter.json (行号 85, 关系: SectionBelongsToChapter)
+
+  urn:jy:chemistry:SB0402:OB06:Chapter:l15
+    出现在 4 个关系中:
+      - Section_Chapter.json (行号 87, 关系: SectionBelongsToChapter)
+      - Section_Chapter.json (行号 89, 关系: SectionBelongsToChapter)
+      - Section_Chapter.json (行号 91, 关系: SectionBelongsToChapter)
+      - Section_Chapter.json (行号 93, 关系: SectionBelongsToChapter)
+
+  urn:jy:chemistry:SB0402:OB06:Chapter:l16
+    出现在 3 个关系中:
+      - Section_Chapter.json (行号 95, 关系: SectionBelongsToChapter)
+      - Section_Chapter.json (行号 97, 关系: SectionBelongsToChapter)
+      - Section_Chapter.json (行号 99, 关系: SectionBelongsToChapter)
+
+  urn:jy:chemistry:SB0402:OB06:Chapter:l2
+    出现在 3 个关系中:
+      - Section_Chapter.json (行号 7, 关系: SectionBelongsToChapter)
+      - Section_Chapter.json (行号 9, 关系: SectionBelongsToChapter)
+      - Section_Chapter.json (行号 11, 关系: SectionBelongsToChapter)
+
+  urn:jy:chemistry:SB0402:OB06:Chapter:l3
+    出现在 3 个关系中:
+      - Section_Chapter.json (行号 13, 关系: SectionBelongsToChapter)
+      - Section_Chapter.json (行号 15, 关系: SectionBelongsToChapter)
+      - Section_Chapter.json (行号 17, 关系: SectionBelongsToChapter)
+
+  urn:jy:chemistry:SB0402:OB06:Chapter:l4
+    出现在 3 个关系中:
+      - Section_Chapter.json (行号 19, 关系: SectionBelongsToChapter)
+      - Section_Chapter.json (行号 21, 关系: SectionBelongsToChapter)
+      - Section_Chapter.json (行号 23, 关系: SectionBelongsToChapter)
+
+  urn:jy:chemistry:SB0402:OB06:Chapter:l5
+    出现在 3 个关系中:
+      - Section_Chapter.json (行号 25, 关系: SectionBelongsToChapter)
+      - Section_Chapter.json (行号 27, 关系: SectionBelongsToChapter)
+      - Section_Chapter.json (行号 29, 关系: SectionBelongsToChapter)
+
+  urn:jy:chemistry:SB0402:OB06:Chapter:l6
+    出现在 3 个关系中:
+      - Section_Chapter.json (行号 31, 关系: SectionBelongsToChapter)
+      - Section_Chapter.json (行号 33, 关系: SectionBelongsToChapter)
+      - Section_Chapter.json (行号 35, 关系: SectionBelongsToChapter)
+
+  urn:jy:chemistry:SB0402:OB06:Chapter:l8
+    出现在 4 个关系中:
+      - Section_Chapter.json (行号 37, 关系: SectionBelongsToChapter)
+      - Section_Chapter.json (行号 39, 关系: SectionBelongsToChapter)
+      - Section_Chapter.json (行号 41, 关系: SectionBelongsToChapter)
+      - Section_Chapter.json (行号 43, 关系: SectionBelongsToChapter)
+
+  urn:jy:chemistry:SB0402:OB06:Chapter:l9
+    出现在 4 个关系中:
+      - Section_Chapter.json (行号 45, 关系: SectionBelongsToChapter)
+      - Section_Chapter.json (行号 47, 关系: SectionBelongsToChapter)
+      - Section_Chapter.json (行号 49, 关系: SectionBelongsToChapter)
+      - Section_Chapter.json (行号 51, 关系: SectionBelongsToChapter)
+
+
+================================================================================
+【排查建议】
+================================================================================
+1. 检查entities目录中是否存在对应的实体文件
+2. 检查实体文件中的identifier字段是否与关系文件中的source/target完全匹配
+3. 注意identifier的大小写、空格、特殊字符等细节
+4. 检查是否有实体文件格式错误（JSON解析失败）
+5. 检查是否有实体文件被遗漏未加载
+================================================================================

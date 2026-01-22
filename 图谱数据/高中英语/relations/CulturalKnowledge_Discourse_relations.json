@@ -1,0 +1,38 @@
+[
+  {
+    "relationName": "culturalKnowledgeExpressedThroughDiscourse",
+    "label": "通过语篇承载与呈现 / expressedThroughDiscourse",
+    "source": "urn:jy:English:SB0102:OB06:CulturalKnowledge:1",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:1"
+  },
+  {
+    "relationName": "discourseCarriesCulturalKnowledge",
+    "label": "承载文化知识与文化内涵 / carriesCulturalKnowledge",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:1",
+    "target": "urn:jy:English:SB0102:OB06:CulturalKnowledge:1"
+  },
+  {
+    "relationName": "culturalKnowledgeExpressedThroughDiscourse",
+    "label": "通过语篇承载与呈现 / expressedThroughDiscourse",
+    "source": "urn:jy:English:SB0102:OB06:CulturalKnowledge:2",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:2"
+  },
+  {
+    "relationName": "discourseCarriesCulturalKnowledge",
+    "label": "承载文化知识与文化内涵 / carriesCulturalKnowledge",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:2",
+    "target": "urn:jy:English:SB0102:OB06:CulturalKnowledge:2"
+  },
+  {
+    "relationName": "culturalKnowledgeExpressedThroughDiscourse",
+    "label": "通过语篇承载与呈现 / expressedThroughDiscourse",
+    "source": "urn:jy:English:SB0102:OB06:CulturalKnowledge:3",
+    "target": "urn:jy:English:SB0102:OB06:Discourse:3"
+  },
+  {
+    "relationName": "discourseCarriesCulturalKnowledge",
+    "label": "承载文化知识与文化内涵 / carriesCulturalKnowledge",
+    "source": "urn:jy:English:SB0102:OB06:Discourse:3",
+    "target": "urn:jy:English:SB0102:OB06:CulturalKnowledge:3"
+  }
+]

@@ -1,0 +1,1156 @@
+{
+  "relations": [
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1",
+      "target": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l1"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l1",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1",
+      "target": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l2"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l2",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1",
+      "target": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l3"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l3",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1",
+      "target": "urn:jy:chinese:SB0101:OB03:LearningTasks:l4"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB03:LearningTasks:l4",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1",
+      "target": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l5"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l5",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1",
+      "target": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l6"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l6",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1",
+      "target": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l7"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l7",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1",
+      "target": "urn:jy:chinese:SB0101:OB03:LearningTasks:l8"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB03:LearningTasks:l8",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1",
+      "target": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l9"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l9",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1",
+      "target": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l10"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l10",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1",
+      "target": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l11"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l11",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1",
+      "target": "urn:jy:chinese:SB0101:OB03:LearningTasks:l12"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB03:LearningTasks:l12",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1",
+      "target": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l13"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l13",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1",
+      "target": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l14"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l14",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1",
+      "target": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l15"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l15",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1",
+      "target": "urn:jy:chinese:SB0101:OB03:LearningTasks:l16"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB03:LearningTasks:l16",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1",
+      "target": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l17"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l17",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1",
+      "target": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l18"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l18",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1",
+      "target": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l19"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l19",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1",
+      "target": "urn:jy:chinese:SB0101:OB03:LearningTasks:l20"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB03:LearningTasks:l20",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1",
+      "target": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l21"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l21",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1",
+      "target": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l22"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l22",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1",
+      "target": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l23"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l23",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1",
+      "target": "urn:jy:chinese:SB0101:OB03:LearningTasks:l24"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB03:LearningTasks:l24",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2",
+      "target": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l1"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l1",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2",
+      "target": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l2"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l2",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2",
+      "target": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l3"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l3",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2",
+      "target": "urn:jy:chinese:SB0101:OB03:LearningTasks:l4"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB03:LearningTasks:l4",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2",
+      "target": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l5"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l5",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2",
+      "target": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l6"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l6",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2",
+      "target": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l7"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l7",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2",
+      "target": "urn:jy:chinese:SB0101:OB03:LearningTasks:l8"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB03:LearningTasks:l8",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2",
+      "target": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l9"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l9",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2",
+      "target": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l10"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l10",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2",
+      "target": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l11"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l11",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2",
+      "target": "urn:jy:chinese:SB0101:OB03:LearningTasks:l12"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB03:LearningTasks:l12",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2",
+      "target": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l13"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l13",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2",
+      "target": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l14"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l14",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2",
+      "target": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l15"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l15",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2",
+      "target": "urn:jy:chinese:SB0101:OB03:LearningTasks:l16"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB03:LearningTasks:l16",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2",
+      "target": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l17"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l17",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2",
+      "target": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l18"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l18",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2",
+      "target": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l19"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l19",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2",
+      "target": "urn:jy:chinese:SB0101:OB03:LearningTasks:l20"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB03:LearningTasks:l20",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2",
+      "target": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l21"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l21",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2",
+      "target": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l22"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l22",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2",
+      "target": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l23"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l23",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2",
+      "target": "urn:jy:chinese:SB0101:OB03:LearningTasks:l24"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB03:LearningTasks:l24",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3",
+      "target": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l1"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l1",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3",
+      "target": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l2"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l2",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3",
+      "target": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l3"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l3",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3",
+      "target": "urn:jy:chinese:SB0101:OB03:LearningTasks:l4"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB03:LearningTasks:l4",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3",
+      "target": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l5"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l5",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3",
+      "target": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l6"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l6",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3",
+      "target": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l7"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l7",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3",
+      "target": "urn:jy:chinese:SB0101:OB03:LearningTasks:l8"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB03:LearningTasks:l8",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3",
+      "target": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l9"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l9",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3",
+      "target": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l10"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l10",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3",
+      "target": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l11"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l11",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3",
+      "target": "urn:jy:chinese:SB0101:OB03:LearningTasks:l12"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB03:LearningTasks:l12",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3",
+      "target": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l13"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l13",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3",
+      "target": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l14"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l14",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3",
+      "target": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l15"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l15",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3",
+      "target": "urn:jy:chinese:SB0101:OB03:LearningTasks:l16"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB03:LearningTasks:l16",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3",
+      "target": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l17"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l17",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3",
+      "target": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l18"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l18",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3",
+      "target": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l19"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l19",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3",
+      "target": "urn:jy:chinese:SB0101:OB03:LearningTasks:l20"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB03:LearningTasks:l20",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3",
+      "target": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l21"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l21",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3",
+      "target": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l22"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l22",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3",
+      "target": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l23"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l23",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3",
+      "target": "urn:jy:chinese:SB0101:OB03:LearningTasks:l24"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB03:LearningTasks:l24",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4",
+      "target": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l1"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l1",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4",
+      "target": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l2"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l2",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4",
+      "target": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l3"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l3",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4",
+      "target": "urn:jy:chinese:SB0101:OB03:LearningTasks:l4"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB03:LearningTasks:l4",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4",
+      "target": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l5"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l5",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4",
+      "target": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l6"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l6",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4",
+      "target": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l7"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l7",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4",
+      "target": "urn:jy:chinese:SB0101:OB03:LearningTasks:l8"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB03:LearningTasks:l8",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4",
+      "target": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l9"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l9",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4",
+      "target": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l10"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l10",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4",
+      "target": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l11"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l11",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4",
+      "target": "urn:jy:chinese:SB0101:OB03:LearningTasks:l12"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB03:LearningTasks:l12",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4",
+      "target": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l13"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l13",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4",
+      "target": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l14"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l14",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4",
+      "target": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l15"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l15",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4",
+      "target": "urn:jy:chinese:SB0101:OB03:LearningTasks:l16"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB03:LearningTasks:l16",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4",
+      "target": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l17"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l17",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4",
+      "target": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l18"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l18",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4",
+      "target": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l19"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l19",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4",
+      "target": "urn:jy:chinese:SB0101:OB03:LearningTasks:l20"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB03:LearningTasks:l20",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4",
+      "target": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l21"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0201,OB0202:LearningTasks:l21",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4",
+      "target": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l22"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0203,OB0204:LearningTasks:l22",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4",
+      "target": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l23"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB0205,OB0206:LearningTasks:l23",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4"
+    },
+    {
+      "relationName": "literacyGuidesLearningTasks",
+      "label": "统领学习任务群 / guidesLearningTasks",
+      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4",
+      "target": "urn:jy:chinese:SB0101:OB03:LearningTasks:l24"
+    },
+    {
+      "relationName": "learningTasksCultivatesLiteracy",
+      "label": "培育核心素养 / cultivatesLiteracy",
+      "source": "urn:jy:chinese:SB0101:OB03:LearningTasks:l24",
+      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4"
+    }
+  ]
+}

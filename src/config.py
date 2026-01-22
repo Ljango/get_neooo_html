@@ -74,6 +74,15 @@ ENTITY_TYPE_CONFIG = {
     "Chapter": {"label": "章", "color": "#ff7675", "size": 16},
     "Section": {"label": "节", "color": "#74b9ff", "size": 14},
     "SubSection": {"label": "小节", "color": "#a29bfe", "size": 12},
+    
+    # 英语课程
+    "CourseContent": {"label": "课程内容", "color": "#e67e22", "size": 20},
+    "LanguageSkills": {"label": "语言技能", "color": "#3498db", "size": 18},
+    "LinguisticKnowledge": {"label": "语言知识", "color": "#2ecc71", "size": 16},
+    "CulturalKnowledge": {"label": "文化知识", "color": "#f39c12", "size": 16},
+    "LearningStrategy": {"label": "学习策略", "color": "#9b59b6", "size": 14},
+    "Discourse": {"label": "语篇类型", "color": "#1abc9c", "size": 14},
+    "GoalPoint": {"label": "目标要点", "color": "#e74c3c", "size": 14},
 }
 
 # ========== 学科配置 ==========
@@ -200,6 +209,14 @@ SUBJECT_CONFIG = {
         "files": ["高中历史_课标.html"],
         "color": "#6c5ce7",
         "neo4j_label": "GaoZhongLiShi"  # 高中历史
+    },
+    "高中英语": {
+        "icon": "🔤",
+        "display_name": "高中英语",
+        "data_dir": "高中英语",
+        "files": ["高中英语_课标.html"],
+        "color": "#e84393",
+        "neo4j_label": "GaoZhongYingYu"  # 高中英语
     }
 }
 
