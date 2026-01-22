@@ -1,0 +1,664 @@
+{
+  "relations": [
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l1",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l12"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l12",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l1"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l2",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l10"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l10",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l2"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l3",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l1"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l1",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l3"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l3",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l2"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l2",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l3"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l4",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l3"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l3",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l4"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l5",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l3"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l3",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l5"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l5",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l10"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l10",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l5"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l6",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l2"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l2",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l6"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l6",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l3"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l3",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l6"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l7",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l8"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l8",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l7"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l8",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l8"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l8",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l8"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l8",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l7"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l7",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l8"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l9",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l7"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l7",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l9"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l10",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l4"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l4",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l10"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l10",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l12"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l12",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l10"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l11",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l4"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l4",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l11"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l11",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l10"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l10",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l11"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l12",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l9"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l9",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l12"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l13",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l11"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l11",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l13"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l14",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l11"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l11",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l14"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l14",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l9"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l9",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l14"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l15",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l3"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l3",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l15"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l15",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l12"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l12",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l15"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l16",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l3"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l3",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l16"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l16",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l10"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l10",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l16"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l16",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l12"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l12",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l16"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l17",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l2"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l2",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l17"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l17",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l3"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l3",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l17"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l17",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l10"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l10",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l17"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l18",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l10"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l10",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l18"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l18",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l12"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l12",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l18"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l19",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l12"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l12",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l19"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l20",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l5"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l5",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l20"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l20",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l12"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l12",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l20"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l21",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l5"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l5",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l21"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l21",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l10"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l10",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l21"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l22",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l5"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l5",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l22"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l22",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l12"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l12",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l22"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l23",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l4"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l4",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l23"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l23",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l2"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l2",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l23"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l24",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l4"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l4",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l24"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l25",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l4"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l4",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l25"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l25",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l2"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l2",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l25"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l26",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l6"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l6",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l26"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l26",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l2"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l2",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l26"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l27",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l6"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l6",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l27"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l27",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l10"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l10",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l27"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l28",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l6"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l6",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l28"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l28",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l12"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l12",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l28"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l29",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l6"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l6",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l29"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l29",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l12"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l12",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l29"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l30",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l12"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l12",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l30"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l31",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l12"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l12",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l31"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l31",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l7"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l7",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l31"
+    },
+    {
+      "relationName": "SectionCoversCoreKnowledge",
+      "label": "小节涵盖核心知识 / coversCoreKnowledge",
+      "source": "urn:jy:chemistry:SB0402:OB03:Section:l32",
+      "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l12"
+    },
+    {
+      "relationName": "CoreKnowledgeGuidesSection",
+      "label": "核心知识统领小节 / guidesSection",
+      "source": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l12",
+      "target": "urn:jy:chemistry:SB0402:OB03:Section:l32"
+    }
+  ]
+}

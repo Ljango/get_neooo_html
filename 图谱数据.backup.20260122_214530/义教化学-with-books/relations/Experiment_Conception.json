@@ -1,0 +1,104 @@
+{
+    "relations": [
+      {
+        "relationName": "ExperimentImplementsConception",
+        "label": "实验落实大概念 / implementsConception",
+        "source": "urn:jy:chemistry:SB0402:OB03:Experiment:l1",
+        "target": "urn:jy:chemistry:SB0402:OB03:Conception:l2"
+      },
+      {
+        "relationName": "ConceptionGuidesExperiment",
+        "label": "大概念统领实验 / guidesExperiment",
+        "source": "urn:jy:chemistry:SB0402:OB03:Conception:l2",
+        "target": "urn:jy:chemistry:SB0402:OB03:Experiment:l1"
+      },
+  
+      {
+        "relationName": "ExperimentImplementsConception",
+        "label": "实验落实大概念 / implementsConception",
+        "source": "urn:jy:chemistry:SB0402:OB03:Experiment:l2",
+        "target": "urn:jy:chemistry:SB0402:OB03:Conception:l2"
+      },
+      {
+        "relationName": "ConceptionGuidesExperiment",
+        "label": "大概念统领实验 / guidesExperiment",
+        "source": "urn:jy:chemistry:SB0402:OB03:Conception:l2",
+        "target": "urn:jy:chemistry:SB0402:OB03:Experiment:l2"
+      },
+      {
+        "relationName": "ExperimentImplementsConception",
+        "label": "实验落实大概念 / implementsConception",
+        "source": "urn:jy:chemistry:SB0402:OB03:Experiment:l3",
+        "target": "urn:jy:chemistry:SB0402:OB03:Conception:l2"
+      },
+      {
+        "relationName": "ConceptionGuidesExperiment",
+        "label": "大概念统领实验 / guidesExperiment",
+        "source": "urn:jy:chemistry:SB0402:OB03:Conception:l2",
+        "target": "urn:jy:chemistry:SB0402:OB03:Experiment:l3"
+      },  
+      {
+        "relationName": "ExperimentImplementsConception",
+        "label": "实验落实大概念 / implementsConception",
+        "source": "urn:jy:chemistry:SB0402:OB03:Experiment:l4",
+        "target": "urn:jy:chemistry:SB0402:OB03:Conception:l2"
+      },
+      {
+        "relationName": "ConceptionGuidesExperiment",
+        "label": "大概念统领实验 / guidesExperiment",
+        "source": "urn:jy:chemistry:SB0402:OB03:Conception:l2",
+        "target": "urn:jy:chemistry:SB0402:OB03:Experiment:l4"
+      },
+  
+      {
+        "relationName": "ExperimentImplementsConception",
+        "label": "实验落实大概念 / implementsConception",
+        "source": "urn:jy:chemistry:SB0402:OB03:Experiment:l5",
+        "target": "urn:jy:chemistry:SB0402:OB03:Conception:l2"
+      },
+      {
+        "relationName": "ConceptionGuidesExperiment",
+        "label": "大概念统领实验 / guidesExperiment",
+        "source": "urn:jy:chemistry:SB0402:OB03:Conception:l2",
+        "target": "urn:jy:chemistry:SB0402:OB03:Experiment:l5"
+      }, 
+      {
+        "relationName": "ExperimentImplementsConception",
+        "label": "实验落实大概念 / implementsConception",
+        "source": "urn:jy:chemistry:SB0402:OB03:Experiment:l6",
+        "target": "urn:jy:chemistry:SB0402:OB03:Conception:l2"
+      },
+      {
+        "relationName": "ConceptionGuidesExperiment",
+        "label": "大概念统领实验 / guidesExperiment",
+        "source": "urn:jy:chemistry:SB0402:OB03:Conception:l2",
+        "target": "urn:jy:chemistry:SB0402:OB03:Experiment:l6"
+      },
+  
+      {
+        "relationName": "ExperimentImplementsConception",
+        "label": "实验落实大概念 / implementsConception",
+        "source": "urn:jy:chemistry:SB0402:OB03:Experiment:l7",
+        "target": "urn:jy:chemistry:SB0402:OB03:Conception:l3"
+      },
+      {
+        "relationName": "ConceptionGuidesExperiment",
+        "label": "大概念统领实验 / guidesExperiment",
+        "source": "urn:jy:chemistry:SB0402:OB03:Conception:l3",
+        "target": "urn:jy:chemistry:SB0402:OB03:Experiment:l7"
+      },  
+      {
+        "relationName": "ExperimentImplementsConception",
+        "label": "实验落实大概念 / implementsConception",
+        "source": "urn:jy:chemistry:SB0402:OB03:Experiment:l8",
+        "target": "urn:jy:chemistry:SB0402:OB03:Conception:l4"
+      },
+      {
+        "relationName": "ConceptionGuidesExperiment",
+        "label": "大概念统领实验 / guidesExperiment",
+        "source": "urn:jy:chemistry:SB0402:OB03:Conception:l4",
+        "target": "urn:jy:chemistry:SB0402:OB03:Experiment:l8"
+      }
+    ]
+  }
+  

@@ -1,0 +1,44 @@
+2026-01-22T21:45:30.134264 - 备份数据到: /Users/agentlin/Desktop/srcs/get_neooo_html/图谱数据.backup.20260122_214530
+2026-01-22T21:45:30.368088 - 
+--- 修复实体文件命名 ---
+2026-01-22T21:45:30.369133 - 重命名: unit.json → Unit.json
+2026-01-22T21:45:30.369916 - 重命名: kp.json → KeyPoint.json
+2026-01-22T21:45:30.377416 -   更新type字段: KeyPoint.json
+2026-01-22T21:45:30.377944 - 重命名: Chapterprimary.json → ChapterPrimary.json
+2026-01-22T21:45:30.378451 - 重命名: coreliteracy.json → CoreLiteracy.json
+2026-01-22T21:45:30.378807 - 重命名: theme.json → Theme.json
+2026-01-22T21:45:30.379163 - 重命名: Sectionmiddle.json → SectionMiddle.json
+2026-01-22T21:45:30.379618 - 重命名: Sectionprimary.json → SectionPrimary.json
+2026-01-22T21:45:30.380319 - 重命名: Chaptermiddle.json → ChapterMiddle.json
+2026-01-22T21:45:30.380599 - 重命名: stage.json → Stage.json
+2026-01-22T21:45:30.380977 - 重命名: CourseMoudle.json → CourseModule.json
+2026-01-22T21:45:30.381715 -   更新type字段: CourseModule.json
+2026-01-22T21:45:30.381972 - 重命名: coreliteracy.json → CoreLiteracy.json
+2026-01-22T21:45:30.382340 - 重命名: teachingactivitie.json → TeachingActivity.json
+2026-01-22T21:45:30.383245 -   更新type字段: TeachingActivity.json
+2026-01-22T21:45:30.383316 - 重命名: topic.json → Topic.json
+2026-01-22T21:45:30.383667 - 重命名: modules.json → Module.json
+2026-01-22T21:45:30.383858 - 重命名: academicquality.json → AcademicQuality.json
+2026-01-22T21:45:30.385104 - 
+--- 修复identifier大小写 ---
+2026-01-22T21:45:30.434807 - 修复identifier: ModuleAspect_LearningTheme.json
+2026-01-22T21:45:30.480057 - 
+--- 修复学科目录命名 ---
+2026-01-22T21:45:30.480368 - 重命名目录: 义务物理（8、9全一册）-with-books-v2 → 义教物理89全册-v2
+2026-01-22T21:45:30.480627 - 重命名目录: 义务物理（8上下、9全一册）-with-books-v2 → 义教物理8上下9全册-v2
+2026-01-22T21:45:30.480826 - 重命名目录: 义教化学-with-books → 义教化学-v1
+2026-01-22T21:45:30.480995 - 重命名目录: 义教历史-with-books → 义教历史-v1
+2026-01-22T21:45:30.481168 - 重命名目录: 义教地理-with-books-v3 → 义教地理-v3
+2026-01-22T21:45:30.481377 - 重命名目录: 义教数学_1231-with-books → 义教数学-v1
+2026-01-22T21:45:30.481529 - 重命名目录: 义教生物-with-books-v2 → 义教生物-v2
+2026-01-22T21:45:30.481675 - 重命名目录: 义教语文 → 义教语文-v1
+2026-01-22T21:45:30.481815 - 重命名目录: 义教道法-with-books → 义教道法-v1
+2026-01-22T21:45:30.481983 - 重命名目录: 高中化学_with-books-v2 → 高中化学-v2
+2026-01-22T21:45:30.482292 - 重命名目录: 高中历史-with-books → 高中历史-v1
+2026-01-22T21:45:30.482502 - 重命名目录: 高中地理-with-books-v3 → 高中地理-v3
+2026-01-22T21:45:30.482716 - 重命名目录: 高中政治-with-books-v2 → 高中政治-v2
+2026-01-22T21:45:30.482889 - 重命名目录: 高中数学-with-books → 高中数学-v1
+2026-01-22T21:45:30.483042 - 重命名目录: 高中物理-with-books-v2 → 高中物理-v2
+2026-01-22T21:45:30.483191 - 重命名目录: 高中生物-with-books → 高中生物-v1
+2026-01-22T21:45:30.483348 - 重命名目录: 高中英语-with-books-v2 → 高中英语-v2
+2026-01-22T21:45:30.483514 - 重命名目录: 高中语文 → 高中语文-v1

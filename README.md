@@ -4,28 +4,35 @@
 
 ## ✨ 核心功能
 
-- **多学科支持**：支持高中数学、高中物理、义教数学等9个学科
+- **多学科支持**：支持高中数学、高中物理、义教数学等18个学科
 - **交互式可视化**：基于D3.js的知识图谱可视化
 - **统一管理工具**：`manage.py` 提供简洁的命令行接口
-- **Neo4j集成**：自动生成Cypher导入脚本
+- **Neo4j集成**：支持本地和测试环境数据导入
+- **数据规范化**：自动检测和修复数据格式问题
 - **自动导航**：自动生成导航页面
 
 ## 📁 项目结构
 
 ```
 get_neooo_html/
-├── manage.py                    # 🆕 统一管理入口（推荐使用）
-├── src/
-│   ├── config.py               # 🆕 统一配置文件
-│   ├── graph_generator.py      # 核心：图谱生成器
-│   ├── generate_subject_graphs.py  # 生成所有学科图谱
+├── manage.py                    # 统一管理入口（推荐使用）
+├── src/                         # 核心源代码
+│   ├── config.py               # 统一配置文件
+│   ├── graph_generator.py      # 图谱生成器
+│   ├── neo4j_importer.py       # Neo4j数据导入
+│   ├── neo4j_query_api.py      # Neo4j查询API
 │   ├── update_index.py         # 更新导航页面
-│   └── start_server.py         # 启动HTTP服务器
-├── templates/
-│   └── graph_template.html     # HTML模板文件
+│   └── start_server.py         # HTTP服务器
+├── scripts/                     # 工具脚本
+│   ├── data_normalizer.py      # 数据规范化工具
+│   ├── json2csv.py             # 数据导出Excel
+│   └── cypher/                 # Cypher查询脚本
+├── templates/                   # HTML模板
+│   └── graph_template.html
 ├── static/                      # 生成的HTML文件
 ├── 图谱数据/                    # 原始数据（JSON格式）
-└── import_data.py              # 导入数据到Neo4j
+├── docs/                        # 文档
+└── logs/                        # 日志文件
 ```
 
 ## 🚀 快速开始

@@ -1,0 +1,3314 @@
+[
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:21",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:1",
+    "evidence": {
+      "themeL2Title": "1.1 物理学与人类认识",
+      "contentRequirement": "了解近代实验科学产生的背景，认识实验对物理学发展的推动作用。",
+      "requirementIndex": "1.1.1",
+      "themeL2Key": "1.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:1",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:21",
+    "evidence": {
+      "contentRequirement": "了解近代实验科学产生的背景，认识实验对物理学发展的推动作用。",
+      "themeL2Title": "1.1 物理学与人类认识",
+      "requirementIndex": "1.1.1",
+      "themeL2Key": "1.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:21",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:2",
+    "evidence": {
+      "themeL2Title": "1.1 物理学与人类认识",
+      "contentRequirement": "经历质点模型的建构过程，了解质点的含义。知道将物体抽象为质点的条件，能将特定实际情境中的物体抽象成质点。体会建构物理模型的思维方式，认识物理模型在探索自然规律中的作用。",
+      "requirementIndex": "1.1.2",
+      "themeL2Key": "1.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:2",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:21",
+    "evidence": {
+      "contentRequirement": "经历质点模型的建构过程，了解质点的含义。知道将物体抽象为质点的条件，能将特定实际情境中的物体抽象成质点。体会建构物理模型的思维方式，认识物理模型在探索自然规律中的作用。",
+      "themeL2Title": "1.1 物理学与人类认识",
+      "requirementIndex": "1.1.2",
+      "themeL2Key": "1.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:21",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:3",
+    "evidence": {
+      "themeL2Title": "1.1 物理学与人类认识",
+      "contentRequirement": "理解位移、速度和加速度。通过实验，探究匀变速直线运动的特点，能用公式、图像等方法描述匀变速直线运动。理解匀变速直线运动的规律，能运用其解决实际问题，体会科学思维中的抽象方法和物理问题研究中的极限方法。",
+      "requirementIndex": "1.1.3",
+      "themeL2Key": "1.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:3",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:21",
+    "evidence": {
+      "contentRequirement": "理解位移、速度和加速度。通过实验，探究匀变速直线运动的特点，能用公式、图像等方法描述匀变速直线运动。理解匀变速直线运动的规律，能运用其解决实际问题，体会科学思维中的抽象方法和物理问题研究中的极限方法。",
+      "themeL2Title": "1.1 物理学与人类认识",
+      "requirementIndex": "1.1.3",
+      "themeL2Key": "1.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:21",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:4",
+    "evidence": {
+      "themeL2Title": "1.1 物理学与人类认识",
+      "contentRequirement": "通过实验，认识自由落体运动规律。结合物理学史的相关内容，认识物理实验与科学推理在物理学研究中的作用。",
+      "requirementIndex": "1.1.4",
+      "themeL2Key": "1.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:4",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:21",
+    "evidence": {
+      "contentRequirement": "通过实验，认识自由落体运动规律。结合物理学史的相关内容，认识物理实验与科学推理在物理学研究中的作用。",
+      "themeL2Title": "1.1 物理学与人类认识",
+      "requirementIndex": "1.1.4",
+      "themeL2Key": "1.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:22",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:5",
+    "evidence": {
+      "themeL2Title": "1.2 物理学与社会变革",
+      "contentRequirement": "认识重力、弹力与摩擦力。通过实验，了解胡克定律。知道滑动摩擦和静摩擦现象，能用动摩擦因数计算滑动摩擦力的大小。",
+      "requirementIndex": "1.2.1",
+      "themeL2Key": "1.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:5",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:22",
+    "evidence": {
+      "contentRequirement": "认识重力、弹力与摩擦力。通过实验，了解胡克定律。知道滑动摩擦和静摩擦现象，能用动摩擦因数计算滑动摩擦力的大小。",
+      "themeL2Title": "1.2 物理学与社会变革",
+      "requirementIndex": "1.2.1",
+      "themeL2Key": "1.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:22",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:6",
+    "evidence": {
+      "themeL2Title": "1.2 物理学与社会变革",
+      "contentRequirement": "通过实验，了解力的合成与分解。知道矢量和标量。能用共点力的平衡条件分析生产生活中的问题。",
+      "requirementIndex": "1.2.2",
+      "themeL2Key": "1.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:6",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:22",
+    "evidence": {
+      "contentRequirement": "通过实验，了解力的合成与分解。知道矢量和标量。能用共点力的平衡条件分析生产生活中的问题。",
+      "themeL2Title": "1.2 物理学与社会变革",
+      "requirementIndex": "1.2.2",
+      "themeL2Key": "1.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:22",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:7",
+    "evidence": {
+      "themeL2Title": "1.2 物理学与社会变革",
+      "contentRequirement": "通过实验，探究物体运动的加速度与物体受力、物体质量的关系。理解牛顿运动定律，能用牛顿运动定律解释生产生活中的有关现象，解决有关问题。通过实验，认识超重和失重现象。",
+      "requirementIndex": "1.2.3",
+      "themeL2Key": "1.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:7",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:22",
+    "evidence": {
+      "contentRequirement": "通过实验，探究物体运动的加速度与物体受力、物体质量的关系。理解牛顿运动定律，能用牛顿运动定律解释生产生活中的有关现象，解决有关问题。通过实验，认识超重和失重现象。",
+      "themeL2Title": "1.2 物理学与社会变革",
+      "requirementIndex": "1.2.3",
+      "themeL2Key": "1.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:22",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:8",
+    "evidence": {
+      "themeL2Title": "1.2 物理学与社会变革",
+      "contentRequirement": "知道国际单位制中的力学单位。了解单位制在物理学中的重要意义。",
+      "requirementIndex": "1.2.4",
+      "themeL2Key": "1.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:8",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:22",
+    "evidence": {
+      "contentRequirement": "知道国际单位制中的力学单位。了解单位制在物理学中的重要意义。",
+      "themeL2Title": "1.2 物理学与社会变革",
+      "requirementIndex": "1.2.4",
+      "themeL2Key": "1.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:24",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:9",
+    "evidence": {
+      "themeL2Title": "2.1 物理学与医疗技术",
+      "contentRequirement": "理解功和功率。了解生产生活中常见机械的功率大小及其意义。",
+      "requirementIndex": "2.1.1",
+      "themeL2Key": "2.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:9",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:24",
+    "evidence": {
+      "contentRequirement": "理解功和功率。了解生产生活中常见机械的功率大小及其意义。",
+      "themeL2Title": "2.1 物理学与医疗技术",
+      "requirementIndex": "2.1.1",
+      "themeL2Key": "2.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:24",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:10",
+    "evidence": {
+      "themeL2Title": "2.1 物理学与医疗技术",
+      "contentRequirement": "理解动能和动能定理。能用动能定理解释生产生活中的有关",
+      "requirementIndex": "2.1.2",
+      "themeL2Key": "2.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:10",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:24",
+    "evidence": {
+      "contentRequirement": "理解动能和动能定理。能用动能定理解释生产生活中的有关",
+      "themeL2Title": "2.1 物理学与医疗技术",
+      "requirementIndex": "2.1.2",
+      "themeL2Key": "2.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:24",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:11",
+    "evidence": {
+      "themeL2Title": "2.1 物理学与医疗技术",
+      "contentRequirement": "理解重力势能，知道重力势能的变化与重力做功的关系。定性了解弹性势能。",
+      "requirementIndex": "2.1.3",
+      "themeL2Key": "2.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:11",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:24",
+    "evidence": {
+      "contentRequirement": "理解重力势能，知道重力势能的变化与重力做功的关系。定性了解弹性势能。",
+      "themeL2Title": "2.1 物理学与医疗技术",
+      "requirementIndex": "2.1.3",
+      "themeL2Key": "2.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:24",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:12",
+    "evidence": {
+      "themeL2Title": "2.1 物理学与医疗技术",
+      "contentRequirement": "通过实验，验证机械能守恒定律。理解机械能守恒定律，体会守恒观念对认识物理规律的重要性。能用机械能守恒定律分析生产生活中的有关问题。",
+      "requirementIndex": "2.1.4",
+      "themeL2Key": "2.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:12",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:24",
+    "evidence": {
+      "contentRequirement": "通过实验，验证机械能守恒定律。理解机械能守恒定律，体会守恒观念对认识物理规律的重要性。能用机械能守恒定律分析生产生活中的有关问题。",
+      "themeL2Title": "2.1 物理学与医疗技术",
+      "requirementIndex": "2.1.4",
+      "themeL2Key": "2.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:25",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:13",
+    "evidence": {
+      "themeL2Title": "2.2 物理学与新能源",
+      "contentRequirement": "通过实验，了解曲线运动，知道物体做曲线运动的条件。",
+      "requirementIndex": "2.2.1",
+      "themeL2Key": "2.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:13",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:25",
+    "evidence": {
+      "contentRequirement": "通过实验，了解曲线运动，知道物体做曲线运动的条件。",
+      "themeL2Title": "2.2 物理学与新能源",
+      "requirementIndex": "2.2.1",
+      "themeL2Key": "2.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:25",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:14",
+    "evidence": {
+      "themeL2Title": "2.2 物理学与新能源",
+      "contentRequirement": "通过实验，探究并认识平抛运动的规律。会用运动合成与分解的方法分析平抛运动。体会将复杂运动分解为简单运动的物理思想。能分析生产生活中的抛体运动。",
+      "requirementIndex": "2.2.2",
+      "themeL2Key": "2.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:14",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:25",
+    "evidence": {
+      "contentRequirement": "通过实验，探究并认识平抛运动的规律。会用运动合成与分解的方法分析平抛运动。体会将复杂运动分解为简单运动的物理思想。能分析生产生活中的抛体运动。",
+      "themeL2Title": "2.2 物理学与新能源",
+      "requirementIndex": "2.2.2",
+      "themeL2Key": "2.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:25",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:15",
+    "evidence": {
+      "themeL2Title": "2.2 物理学与新能源",
+      "contentRequirement": "会用线速度、角速度、周期描述匀速圆周运动。知道匀速圆周运动向心加速度的大小和方向。通过实验，探究并了解匀速圆周运动向心力大小与半径、角速度、质量的关系。能用牛顿第二定律分析匀速圆周运动的向心力。了解生产生活中的离心现象及其产生的原因。",
+      "requirementIndex": "2.2.3",
+      "themeL2Key": "2.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:15",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:25",
+    "evidence": {
+      "contentRequirement": "会用线速度、角速度、周期描述匀速圆周运动。知道匀速圆周运动向心加速度的大小和方向。通过实验，探究并了解匀速圆周运动向心力大小与半径、角速度、质量的关系。能用牛顿第二定律分析匀速圆周运动的向心力。了解生产生活中的离心现象及其产生的原因。",
+      "themeL2Title": "2.2 物理学与新能源",
+      "requirementIndex": "2.2.3",
+      "themeL2Key": "2.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:25",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:16",
+    "evidence": {
+      "themeL2Title": "2.2 物理学与新能源",
+      "contentRequirement": "通过史实，了解万有引力定律的发现过程。知道万有引力定律。认识发现万有引力定律的重要意义。认识科学定律对人类探索未知世界的作用。",
+      "requirementIndex": "2.2.4",
+      "themeL2Key": "2.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:16",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:25",
+    "evidence": {
+      "contentRequirement": "通过史实，了解万有引力定律的发现过程。知道万有引力定律。认识发现万有引力定律的重要意义。认识科学定律对人类探索未知世界的作用。",
+      "themeL2Title": "2.2 物理学与新能源",
+      "requirementIndex": "2.2.4",
+      "themeL2Key": "2.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:25",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:17",
+    "evidence": {
+      "themeL2Title": "2.2 物理学与新能源",
+      "contentRequirement": "会计算人造地球卫星的环绕速度。知道第二宇宙速度和第三宇宙速度。",
+      "requirementIndex": "2.2.5",
+      "themeL2Key": "2.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:17",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:25",
+    "evidence": {
+      "contentRequirement": "会计算人造地球卫星的环绕速度。知道第二宇宙速度和第三宇宙速度。",
+      "themeL2Title": "2.2 物理学与新能源",
+      "requirementIndex": "2.2.5",
+      "themeL2Key": "2.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:26",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:18",
+    "evidence": {
+      "themeL2Title": "2.3 物理学与新材料",
+      "contentRequirement": "知道牛顿力学的局限性，体会人类对自然界的探索是不断深入的。",
+      "requirementIndex": "2.3.1",
+      "themeL2Key": "2.3"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:18",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:26",
+    "evidence": {
+      "contentRequirement": "知道牛顿力学的局限性，体会人类对自然界的探索是不断深入的。",
+      "themeL2Title": "2.3 物理学与新材料",
+      "requirementIndex": "2.3.1",
+      "themeL2Key": "2.3"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:26",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:19",
+    "evidence": {
+      "themeL2Title": "2.3 物理学与新材料",
+      "contentRequirement": "初步了解相对论时空观",
+      "requirementIndex": "2.3.2",
+      "themeL2Key": "2.3"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:19",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:26",
+    "evidence": {
+      "contentRequirement": "初步了解相对论时空观",
+      "themeL2Title": "2.3 物理学与新材料",
+      "requirementIndex": "2.3.2",
+      "themeL2Key": "2.3"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:26",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:20",
+    "evidence": {
+      "themeL2Title": "2.3 物理学与新材料",
+      "contentRequirement": "关注宇宙起源和演化的研究进展",
+      "requirementIndex": "2.3.3",
+      "themeL2Key": "2.3"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:20",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:26",
+    "evidence": {
+      "contentRequirement": "关注宇宙起源和演化的研究进展",
+      "themeL2Title": "2.3 物理学与新材料",
+      "requirementIndex": "2.3.3",
+      "themeL2Key": "2.3"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:28",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:21",
+    "evidence": {
+      "themeL2Title": "3.1 微观世界",
+      "contentRequirement": "通过实验，了解静电现象。能用原子结构模型和电荷守恒的知识分析静电现象。",
+      "requirementIndex": "3.1.1",
+      "themeL2Key": "3.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:21",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:28",
+    "evidence": {
+      "contentRequirement": "通过实验，了解静电现象。能用原子结构模型和电荷守恒的知识分析静电现象。",
+      "themeL2Title": "3.1 微观世界",
+      "requirementIndex": "3.1.1",
+      "themeL2Key": "3.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:28",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:22",
+    "evidence": {
+      "themeL2Title": "3.1 微观世界",
+      "contentRequirement": "知道点电荷模型。知道两个点电荷间相互作用的规律。体会探究库仑定律过程中的科学思想和方法。",
+      "requirementIndex": "3.1.2",
+      "themeL2Key": "3.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:22",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:28",
+    "evidence": {
+      "contentRequirement": "知道点电荷模型。知道两个点电荷间相互作用的规律。体会探究库仑定律过程中的科学思想和方法。",
+      "themeL2Title": "3.1 微观世界",
+      "requirementIndex": "3.1.2",
+      "themeL2Key": "3.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:28",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:23",
+    "evidence": {
+      "themeL2Title": "3.1 微观世界",
+      "contentRequirement": "知道电场是一种物质。了解电场强度，体会用物理量之比定义新物理量的方法。会用电场线描述电场。",
+      "requirementIndex": "3.1.3",
+      "themeL2Key": "3.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:23",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:28",
+    "evidence": {
+      "contentRequirement": "知道电场是一种物质。了解电场强度，体会用物理量之比定义新物理量的方法。会用电场线描述电场。",
+      "themeL2Title": "3.1 微观世界",
+      "requirementIndex": "3.1.3",
+      "themeL2Key": "3.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:28",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:24",
+    "evidence": {
+      "themeL2Title": "3.1 微观世界",
+      "contentRequirement": "了解生产生活中关于静电的利用与防护。",
+      "requirementIndex": "3.1.4",
+      "themeL2Key": "3.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:24",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:28",
+    "evidence": {
+      "contentRequirement": "了解生产生活中关于静电的利用与防护。",
+      "themeL2Title": "3.1 微观世界",
+      "requirementIndex": "3.1.4",
+      "themeL2Key": "3.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:28",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:25",
+    "evidence": {
+      "themeL2Title": "3.1 微观世界",
+      "contentRequirement": "知道静电场中的电荷具有电势能。了解电势能、电势和电势差的含义。知道匀强电场中电势差与电场强度的关系。能分析带电粒子在电场中的运动情况，能解释相关的物理现象。",
+      "requirementIndex": "3.1.5",
+      "themeL2Key": "3.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:25",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:28",
+    "evidence": {
+      "contentRequirement": "知道静电场中的电荷具有电势能。了解电势能、电势和电势差的含义。知道匀强电场中电势差与电场强度的关系。能分析带电粒子在电场中的运动情况，能解释相关的物理现象。",
+      "themeL2Title": "3.1 微观世界",
+      "requirementIndex": "3.1.5",
+      "themeL2Key": "3.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:28",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:26",
+    "evidence": {
+      "themeL2Title": "3.1 微观世界",
+      "contentRequirement": "观察常见的电容器，了解电容器的电容，观察电容器的充、放电现象。能举例说明电容器的应用。",
+      "requirementIndex": "3.1.6",
+      "themeL2Key": "3.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:26",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:28",
+    "evidence": {
+      "contentRequirement": "观察常见的电容器，了解电容器的电容，观察电容器的充、放电现象。能举例说明电容器的应用。",
+      "themeL2Title": "3.1 微观世界",
+      "requirementIndex": "3.1.6",
+      "themeL2Key": "3.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:29",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:27",
+    "evidence": {
+      "themeL2Title": "3.2 高速世界",
+      "contentRequirement": "观察并能识别常见的电路元器件，了解它们在电路中的作用。会使用多用电表。",
+      "requirementIndex": "3.2.1",
+      "themeL2Key": "3.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:27",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:29",
+    "evidence": {
+      "contentRequirement": "观察并能识别常见的电路元器件，了解它们在电路中的作用。会使用多用电表。",
+      "themeL2Title": "3.2 高速世界",
+      "requirementIndex": "3.2.1",
+      "themeL2Key": "3.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:29",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:28",
+    "evidence": {
+      "themeL2Title": "3.2 高速世界",
+      "contentRequirement": "通过实验，探究并了解金属导体的电阻与材料、长度和横截面积的定量关系。会测量金属丝的电阻率。",
+      "requirementIndex": "3.2.2",
+      "themeL2Key": "3.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:28",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:29",
+    "evidence": {
+      "contentRequirement": "通过实验，探究并了解金属导体的电阻与材料、长度和横截面积的定量关系。会测量金属丝的电阻率。",
+      "themeL2Title": "3.2 高速世界",
+      "requirementIndex": "3.2.2",
+      "themeL2Key": "3.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:29",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:29",
+    "evidence": {
+      "themeL2Title": "3.2 高速世界",
+      "contentRequirement": "了解串、并联电路电阻的特点。",
+      "requirementIndex": "3.2.3",
+      "themeL2Key": "3.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:29",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:29",
+    "evidence": {
+      "contentRequirement": "了解串、并联电路电阻的特点。",
+      "themeL2Title": "3.2 高速世界",
+      "requirementIndex": "3.2.3",
+      "themeL2Key": "3.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:29",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:30",
+    "evidence": {
+      "themeL2Title": "3.2 高速世界",
+      "contentRequirement": "理解闭合电路欧姆定律。会测量电源的电动势和内阻。",
+      "requirementIndex": "3.2.4",
+      "themeL2Key": "3.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:30",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:29",
+    "evidence": {
+      "contentRequirement": "理解闭合电路欧姆定律。会测量电源的电动势和内阻。",
+      "themeL2Title": "3.2 高速世界",
+      "requirementIndex": "3.2.4",
+      "themeL2Key": "3.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:29",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:31",
+    "evidence": {
+      "themeL2Title": "3.2 高速世界",
+      "contentRequirement": "理解电功、电功率及焦耳定律，能用焦耳定律解释生产生活",
+      "requirementIndex": "3.2.5",
+      "themeL2Key": "3.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:31",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:29",
+    "evidence": {
+      "contentRequirement": "理解电功、电功率及焦耳定律，能用焦耳定律解释生产生活",
+      "themeL2Title": "3.2 高速世界",
+      "requirementIndex": "3.2.5",
+      "themeL2Key": "3.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:29",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:32",
+    "evidence": {
+      "themeL2Title": "3.2 高速世界",
+      "contentRequirement": "能分析和解决家庭电路中的简单问题，能将安全用电和节约用电的知识应用于生活实际。",
+      "requirementIndex": "3.2.6",
+      "themeL2Key": "3.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:32",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:29",
+    "evidence": {
+      "contentRequirement": "能分析和解决家庭电路中的简单问题，能将安全用电和节约用电的知识应用于生活实际。",
+      "themeL2Title": "3.2 高速世界",
+      "requirementIndex": "3.2.6",
+      "themeL2Key": "3.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:30",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:33",
+    "evidence": {
+      "themeL2Title": "3.3 宇观世界",
+      "contentRequirement": "能列举磁现象在生产生活中的应用。了解我国古代在磁现象方面的研究成果及其对人类文明的影响。关注与磁相关的现代技术发展。",
+      "requirementIndex": "3.3.1",
+      "themeL2Key": "3.3"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:33",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:30",
+    "evidence": {
+      "contentRequirement": "能列举磁现象在生产生活中的应用。了解我国古代在磁现象方面的研究成果及其对人类文明的影响。关注与磁相关的现代技术发展。",
+      "themeL2Title": "3.3 宇观世界",
+      "requirementIndex": "3.3.1",
+      "themeL2Key": "3.3"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:30",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:34",
+    "evidence": {
+      "themeL2Title": "3.3 宇观世界",
+      "contentRequirement": "通过实验，认识磁场。了解磁感应强度，会用磁感线描述磁场。体会物理模型在探索自然规律中的作用。",
+      "requirementIndex": "3.3.2",
+      "themeL2Key": "3.3"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:34",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:30",
+    "evidence": {
+      "contentRequirement": "通过实验，认识磁场。了解磁感应强度，会用磁感线描述磁场。体会物理模型在探索自然规律中的作用。",
+      "themeL2Title": "3.3 宇观世界",
+      "requirementIndex": "3.3.2",
+      "themeL2Key": "3.3"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:30",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:35",
+    "evidence": {
+      "themeL2Title": "3.3 宇观世界",
+      "contentRequirement": "知道磁通量。通过实验，了解电磁感应现象，了解产生感应电流的条件。知道电磁感应现象的应用及其对现代社会的影响。",
+      "requirementIndex": "3.3.3",
+      "themeL2Key": "3.3"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:35",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:30",
+    "evidence": {
+      "contentRequirement": "知道磁通量。通过实验，了解电磁感应现象，了解产生感应电流的条件。知道电磁感应现象的应用及其对现代社会的影响。",
+      "themeL2Title": "3.3 宇观世界",
+      "requirementIndex": "3.3.3",
+      "themeL2Key": "3.3"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:30",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:36",
+    "evidence": {
+      "themeL2Title": "3.3 宇观世界",
+      "contentRequirement": "通过实验，了解电磁波，知道电磁场的物质性。",
+      "requirementIndex": "3.3.4",
+      "themeL2Key": "3.3"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:36",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:30",
+    "evidence": {
+      "contentRequirement": "通过实验，了解电磁波，知道电磁场的物质性。",
+      "themeL2Title": "3.3 宇观世界",
+      "requirementIndex": "3.3.4",
+      "themeL2Key": "3.3"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:30",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:37",
+    "evidence": {
+      "themeL2Title": "3.3 宇观世界",
+      "contentRequirement": "通过实例，了解电磁波的应用及其带来的影响。",
+      "requirementIndex": "3.3.5",
+      "themeL2Key": "3.3"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:37",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:30",
+    "evidence": {
+      "contentRequirement": "通过实例，了解电磁波的应用及其带来的影响。",
+      "themeL2Title": "3.3 宇观世界",
+      "requirementIndex": "3.3.5",
+      "themeL2Key": "3.3"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:30",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:38",
+    "evidence": {
+      "themeL2Title": "3.3 宇观世界",
+      "contentRequirement": "知道光是一种电磁波。知道光的能量是不连续的。初步了解微观世界的量子化特征。",
+      "requirementIndex": "3.3.6",
+      "themeL2Key": "3.3"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:38",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:30",
+    "evidence": {
+      "contentRequirement": "知道光是一种电磁波。知道光的能量是不连续的。初步了解微观世界的量子化特征。",
+      "themeL2Title": "3.3 宇观世界",
+      "requirementIndex": "3.3.6",
+      "themeL2Key": "3.3"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:31",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:39",
+    "evidence": {
+      "themeL2Title": "3.4 世界的统一性",
+      "contentRequirement": "了解利用水能、风能、太阳能和核能的方式。初步了解核裂变与核聚变。",
+      "requirementIndex": "3.4.1",
+      "themeL2Key": "3.4"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:39",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:31",
+    "evidence": {
+      "contentRequirement": "了解利用水能、风能、太阳能和核能的方式。初步了解核裂变与核聚变。",
+      "themeL2Title": "3.4 世界的统一性",
+      "requirementIndex": "3.4.1",
+      "themeL2Key": "3.4"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:31",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:40",
+    "evidence": {
+      "themeL2Title": "3.4 世界的统一性",
+      "contentRequirement": "知道不同形式的能量可互相转化，在转化过程中能量总量保持不变，能量转化是有方向性的。",
+      "requirementIndex": "3.4.2",
+      "themeL2Key": "3.4"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:40",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:31",
+    "evidence": {
+      "contentRequirement": "知道不同形式的能量可互相转化，在转化过程中能量总量保持不变，能量转化是有方向性的。",
+      "themeL2Title": "3.4 世界的统一性",
+      "requirementIndex": "3.4.2",
+      "themeL2Key": "3.4"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:31",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:41",
+    "evidence": {
+      "themeL2Title": "3.4 世界的统一性",
+      "contentRequirement": "了解可再生能源和不可再生能源的分类，认识能源的过度开发和利用对环境的影响。",
+      "requirementIndex": "3.4.3",
+      "themeL2Key": "3.4"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:41",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:31",
+    "evidence": {
+      "contentRequirement": "了解可再生能源和不可再生能源的分类，认识能源的过度开发和利用对环境的影响。",
+      "themeL2Title": "3.4 世界的统一性",
+      "requirementIndex": "3.4.3",
+      "themeL2Key": "3.4"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:31",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:42",
+    "evidence": {
+      "themeL2Title": "3.4 世界的统一性",
+      "contentRequirement": "认识环境污染的危害，了解科学、技术、社会及环境协调发展的重要性，具有环境保护的意识和行为。",
+      "requirementIndex": "3.4.4",
+      "themeL2Key": "3.4"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:42",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:31",
+    "evidence": {
+      "contentRequirement": "认识环境污染的危害，了解科学、技术、社会及环境协调发展的重要性，具有环境保护的意识和行为。",
+      "themeL2Title": "3.4 世界的统一性",
+      "requirementIndex": "3.4.4",
+      "themeL2Key": "3.4"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:21",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:43",
+    "evidence": {
+      "themeL2Title": "1.1 物理学与人类认识",
+      "contentRequirement": "理解冲量和动量。通过理论推导和实验，理解动量定理和动量守恒定律，能用其解释生产生活中的有关现象。知道动量守恒定律的普适性。",
+      "requirementIndex": "1.1.1",
+      "themeL2Key": "1.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:43",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:21",
+    "evidence": {
+      "contentRequirement": "理解冲量和动量。通过理论推导和实验，理解动量定理和动量守恒定律，能用其解释生产生活中的有关现象。知道动量守恒定律的普适性。",
+      "themeL2Title": "1.1 物理学与人类认识",
+      "requirementIndex": "1.1.1",
+      "themeL2Key": "1.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:21",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:44",
+    "evidence": {
+      "themeL2Title": "1.1 物理学与人类认识",
+      "contentRequirement": "通过实验，了解弹性碰撞和非弹性碰撞的特点。定量分析一维碰撞问题并能解释生产生活中的弹性碰撞和非弹性碰撞现象。",
+      "requirementIndex": "1.1.2",
+      "themeL2Key": "1.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:44",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:21",
+    "evidence": {
+      "contentRequirement": "通过实验，了解弹性碰撞和非弹性碰撞的特点。定量分析一维碰撞问题并能解释生产生活中的弹性碰撞和非弹性碰撞现象。",
+      "themeL2Title": "1.1 物理学与人类认识",
+      "requirementIndex": "1.1.2",
+      "themeL2Key": "1.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:21",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:45",
+    "evidence": {
+      "themeL2Title": "1.1 物理学与人类认识",
+      "contentRequirement": "体会用守恒定律分析物理问题的方法，体会自然界的和谐与统一。",
+      "requirementIndex": "1.1.3",
+      "themeL2Key": "1.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:45",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:21",
+    "evidence": {
+      "contentRequirement": "体会用守恒定律分析物理问题的方法，体会自然界的和谐与统一。",
+      "themeL2Title": "1.1 物理学与人类认识",
+      "requirementIndex": "1.1.3",
+      "themeL2Key": "1.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:22",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:46",
+    "evidence": {
+      "themeL2Title": "1.2 物理学与社会变革",
+      "contentRequirement": "通过实验，认识简谐运动的特征。能用公式和图像描述简谐运动。",
+      "requirementIndex": "1.2.1",
+      "themeL2Key": "1.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:46",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:22",
+    "evidence": {
+      "contentRequirement": "通过实验，认识简谐运动的特征。能用公式和图像描述简谐运动。",
+      "themeL2Title": "1.2 物理学与社会变革",
+      "requirementIndex": "1.2.1",
+      "themeL2Key": "1.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:22",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:47",
+    "evidence": {
+      "themeL2Title": "1.2 物理学与社会变革",
+      "contentRequirement": "通过实验，探究单摆的周期与摆长的定量关系。知道单摆周期与摆长、重力加速度的关系。会用单摆测量重力加速度的大小。",
+      "requirementIndex": "1.2.2",
+      "themeL2Key": "1.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:47",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:22",
+    "evidence": {
+      "contentRequirement": "通过实验，探究单摆的周期与摆长的定量关系。知道单摆周期与摆长、重力加速度的关系。会用单摆测量重力加速度的大小。",
+      "themeL2Title": "1.2 物理学与社会变革",
+      "requirementIndex": "1.2.2",
+      "themeL2Key": "1.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:22",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:48",
+    "evidence": {
+      "themeL2Title": "1.2 物理学与社会变革",
+      "contentRequirement": "通过实验，认识受迫振动的特点。了解产生共振的条件及其应用。",
+      "requirementIndex": "1.2.3",
+      "themeL2Key": "1.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:48",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:22",
+    "evidence": {
+      "contentRequirement": "通过实验，认识受迫振动的特点。了解产生共振的条件及其应用。",
+      "themeL2Title": "1.2 物理学与社会变革",
+      "requirementIndex": "1.2.3",
+      "themeL2Key": "1.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:22",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:49",
+    "evidence": {
+      "themeL2Title": "1.2 物理学与社会变革",
+      "contentRequirement": "通过观察，认识波的特征。能区别横波和纵波。能用图像描述横波。理解波速、波长和频率的关系。",
+      "requirementIndex": "1.2.4",
+      "themeL2Key": "1.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:49",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:22",
+    "evidence": {
+      "contentRequirement": "通过观察，认识波的特征。能区别横波和纵波。能用图像描述横波。理解波速、波长和频率的关系。",
+      "themeL2Title": "1.2 物理学与社会变革",
+      "requirementIndex": "1.2.4",
+      "themeL2Key": "1.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:22",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:50",
+    "evidence": {
+      "themeL2Title": "1.2 物理学与社会变革",
+      "contentRequirement": "知道波的反射和折射现象。通过实验，了解波的干涉与衍射现象。",
+      "requirementIndex": "1.2.5",
+      "themeL2Key": "1.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:50",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:22",
+    "evidence": {
+      "contentRequirement": "知道波的反射和折射现象。通过实验，了解波的干涉与衍射现象。",
+      "themeL2Title": "1.2 物理学与社会变革",
+      "requirementIndex": "1.2.5",
+      "themeL2Key": "1.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:22",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:51",
+    "evidence": {
+      "themeL2Title": "1.2 物理学与社会变革",
+      "contentRequirement": "通过实验，认识多普勒效应。能解释多普勒效应产生的原因。能列举多普勒效应的应用实例。",
+      "requirementIndex": "1.2.6",
+      "themeL2Key": "1.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:51",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:22",
+    "evidence": {
+      "contentRequirement": "通过实验，认识多普勒效应。能解释多普勒效应产生的原因。能列举多普勒效应的应用实例。",
+      "themeL2Title": "1.2 物理学与社会变革",
+      "requirementIndex": "1.2.6",
+      "themeL2Key": "1.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:23",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:52",
+    "evidence": {
+      "themeL2Title": "1.3 物理学与公民生活",
+      "contentRequirement": "通过实验，理解光的折射定律。会测量材料的折射率。",
+      "requirementIndex": "1.3.1",
+      "themeL2Key": "1.3"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:52",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:23",
+    "evidence": {
+      "contentRequirement": "通过实验，理解光的折射定律。会测量材料的折射率。",
+      "themeL2Title": "1.3 物理学与公民生活",
+      "requirementIndex": "1.3.1",
+      "themeL2Key": "1.3"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:23",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:53",
+    "evidence": {
+      "themeL2Title": "1.3 物理学与公民生活",
+      "contentRequirement": "知道光的全反射现象及其产生的条件。初步了解光纤的工作",
+      "requirementIndex": "1.3.2",
+      "themeL2Key": "1.3"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:53",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:23",
+    "evidence": {
+      "contentRequirement": "知道光的全反射现象及其产生的条件。初步了解光纤的工作",
+      "themeL2Title": "1.3 物理学与公民生活",
+      "requirementIndex": "1.3.2",
+      "themeL2Key": "1.3"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:23",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:54",
+    "evidence": {
+      "themeL2Title": "1.3 物理学与公民生活",
+      "contentRequirement": "观察光的干涉、衍射和偏振现象，了解这些现象产生的条件，知道其在生产生活中的应用。知道光是横波，会用双缝干涉实验测量光的波长。",
+      "requirementIndex": "1.3.3",
+      "themeL2Key": "1.3"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:54",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:23",
+    "evidence": {
+      "contentRequirement": "观察光的干涉、衍射和偏振现象，了解这些现象产生的条件，知道其在生产生活中的应用。知道光是横波，会用双缝干涉实验测量光的波长。",
+      "themeL2Title": "1.3 物理学与公民生活",
+      "requirementIndex": "1.3.3",
+      "themeL2Key": "1.3"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:23",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:55",
+    "evidence": {
+      "themeL2Title": "1.3 物理学与公民生活",
+      "contentRequirement": "通过实验，了解激光的特性。能举例说明激光技术在生产生活中的应用。",
+      "requirementIndex": "1.3.4",
+      "themeL2Key": "1.3"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:55",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:23",
+    "evidence": {
+      "contentRequirement": "通过实验，了解激光的特性。能举例说明激光技术在生产生活中的应用。",
+      "themeL2Title": "1.3 物理学与公民生活",
+      "requirementIndex": "1.3.4",
+      "themeL2Key": "1.3"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:24",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:56",
+    "evidence": {
+      "themeL2Title": "2.1 物理学与医疗技术",
+      "contentRequirement": "通过实验，认识安培力。能判断安培力的方向，会计算安培力的大小。了解安培力在生产生活中的应用。",
+      "requirementIndex": "2.1.1",
+      "themeL2Key": "2.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:56",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:24",
+    "evidence": {
+      "contentRequirement": "通过实验，认识安培力。能判断安培力的方向，会计算安培力的大小。了解安培力在生产生活中的应用。",
+      "themeL2Title": "2.1 物理学与医疗技术",
+      "requirementIndex": "2.1.1",
+      "themeL2Key": "2.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:24",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:57",
+    "evidence": {
+      "themeL2Title": "2.1 物理学与医疗技术",
+      "contentRequirement": "通过实验，认识洛伦兹力。能判断洛伦兹力的方向，会计算洛伦兹力的大小。",
+      "requirementIndex": "2.1.2",
+      "themeL2Key": "2.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:57",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:24",
+    "evidence": {
+      "contentRequirement": "通过实验，认识洛伦兹力。能判断洛伦兹力的方向，会计算洛伦兹力的大小。",
+      "themeL2Title": "2.1 物理学与医疗技术",
+      "requirementIndex": "2.1.2",
+      "themeL2Key": "2.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:24",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:58",
+    "evidence": {
+      "themeL2Title": "2.1 物理学与医疗技术",
+      "contentRequirement": "能用洛伦兹力分析带电粒子在匀强磁场中的圆周运动。了解带电粒子在匀强磁场中的偏转及其应用。",
+      "requirementIndex": "2.1.3",
+      "themeL2Key": "2.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:58",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:24",
+    "evidence": {
+      "contentRequirement": "能用洛伦兹力分析带电粒子在匀强磁场中的圆周运动。了解带电粒子在匀强磁场中的偏转及其应用。",
+      "themeL2Title": "2.1 物理学与医疗技术",
+      "requirementIndex": "2.1.3",
+      "themeL2Key": "2.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:25",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:59",
+    "evidence": {
+      "themeL2Title": "2.2 物理学与新能源",
+      "contentRequirement": "探究影响感应电流方向的因素，理解楞次定律。",
+      "requirementIndex": "2.2.1",
+      "themeL2Key": "2.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:59",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:25",
+    "evidence": {
+      "contentRequirement": "探究影响感应电流方向的因素，理解楞次定律。",
+      "themeL2Title": "2.2 物理学与新能源",
+      "requirementIndex": "2.2.1",
+      "themeL2Key": "2.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:25",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:60",
+    "evidence": {
+      "themeL2Title": "2.2 物理学与新能源",
+      "contentRequirement": "通过实验，理解法拉第电磁感应定律。",
+      "requirementIndex": "2.2.2",
+      "themeL2Key": "2.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:60",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:25",
+    "evidence": {
+      "contentRequirement": "通过实验，理解法拉第电磁感应定律。",
+      "themeL2Title": "2.2 物理学与新能源",
+      "requirementIndex": "2.2.2",
+      "themeL2Key": "2.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:25",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:61",
+    "evidence": {
+      "themeL2Title": "2.2 物理学与新能源",
+      "contentRequirement": "通过实验，了解自感现象和涡流现象。能举例说明自感现象",
+      "requirementIndex": "2.2.3",
+      "themeL2Key": "2.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:61",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:25",
+    "evidence": {
+      "contentRequirement": "通过实验，了解自感现象和涡流现象。能举例说明自感现象",
+      "themeL2Title": "2.2 物理学与新能源",
+      "requirementIndex": "2.2.3",
+      "themeL2Key": "2.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:25",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:62",
+    "evidence": {
+      "themeL2Title": "2.2 物理学与新能源",
+      "contentRequirement": "通过实验，认识交变电流。能用公式和图像描述正弦交变电流。",
+      "requirementIndex": "2.2.4",
+      "themeL2Key": "2.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:62",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:25",
+    "evidence": {
+      "contentRequirement": "通过实验，认识交变电流。能用公式和图像描述正弦交变电流。",
+      "themeL2Title": "2.2 物理学与新能源",
+      "requirementIndex": "2.2.4",
+      "themeL2Key": "2.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:25",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:63",
+    "evidence": {
+      "themeL2Title": "2.2 物理学与新能源",
+      "contentRequirement": "通过实验，探究并了解变压器原、副线圈电压与匝数的关系。知道远距离输电时通常采用高压输电的原因。",
+      "requirementIndex": "2.2.5",
+      "themeL2Key": "2.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:63",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:25",
+    "evidence": {
+      "contentRequirement": "通过实验，探究并了解变压器原、副线圈电压与匝数的关系。知道远距离输电时通常采用高压输电的原因。",
+      "themeL2Title": "2.2 物理学与新能源",
+      "requirementIndex": "2.2.5",
+      "themeL2Key": "2.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:25",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:64",
+    "evidence": {
+      "themeL2Title": "2.2 物理学与新能源",
+      "contentRequirement": "了解发电机和电动机工作过程中的能量转化。认识电磁学在人类生活和社会发展中的作用。",
+      "requirementIndex": "2.2.6",
+      "themeL2Key": "2.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:64",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:25",
+    "evidence": {
+      "contentRequirement": "了解发电机和电动机工作过程中的能量转化。认识电磁学在人类生活和社会发展中的作用。",
+      "themeL2Title": "2.2 物理学与新能源",
+      "requirementIndex": "2.2.6",
+      "themeL2Key": "2.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:26",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:65",
+    "evidence": {
+      "themeL2Title": "2.3 物理学与新材料",
+      "contentRequirement": "初步了解麦克斯韦电磁场理论的基本思想，初步了解场的统一性与多样性，体会物理学对统一性的追求。",
+      "requirementIndex": "2.3.1",
+      "themeL2Key": "2.3"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:65",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:26",
+    "evidence": {
+      "contentRequirement": "初步了解麦克斯韦电磁场理论的基本思想，初步了解场的统一性与多样性，体会物理学对统一性的追求。",
+      "themeL2Title": "2.3 物理学与新材料",
+      "requirementIndex": "2.3.1",
+      "themeL2Key": "2.3"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:26",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:66",
+    "evidence": {
+      "themeL2Title": "2.3 物理学与新材料",
+      "contentRequirement": "通过实验，了解电磁振荡。",
+      "requirementIndex": "2.3.2",
+      "themeL2Key": "2.3"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:66",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:26",
+    "evidence": {
+      "contentRequirement": "通过实验，了解电磁振荡。",
+      "themeL2Title": "2.3 物理学与新材料",
+      "requirementIndex": "2.3.2",
+      "themeL2Key": "2.3"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:26",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:67",
+    "evidence": {
+      "themeL2Title": "2.3 物理学与新材料",
+      "contentRequirement": "知道电磁波的发射、传播和接收。",
+      "requirementIndex": "2.3.3",
+      "themeL2Key": "2.3"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:67",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:26",
+    "evidence": {
+      "contentRequirement": "知道电磁波的发射、传播和接收。",
+      "themeL2Title": "2.3 物理学与新材料",
+      "requirementIndex": "2.3.3",
+      "themeL2Key": "2.3"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:26",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:68",
+    "evidence": {
+      "themeL2Title": "2.3 物理学与新材料",
+      "contentRequirement": "认识电磁波谱。知道各个波段的电磁波的名称、特征和典型应用。",
+      "requirementIndex": "2.3.4",
+      "themeL2Key": "2.3"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:68",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:26",
+    "evidence": {
+      "contentRequirement": "认识电磁波谱。知道各个波段的电磁波的名称、特征和典型应用。",
+      "themeL2Title": "2.3 物理学与新材料",
+      "requirementIndex": "2.3.4",
+      "themeL2Key": "2.3"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:27",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:69",
+    "evidence": {
+      "themeL2Title": "2.4 物理学与信息技术",
+      "contentRequirement": "知道非电学量转换成电学量的技术意义。",
+      "requirementIndex": "2.4.1",
+      "themeL2Key": "2.4"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:69",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:27",
+    "evidence": {
+      "contentRequirement": "知道非电学量转换成电学量的技术意义。",
+      "themeL2Title": "2.4 物理学与信息技术",
+      "requirementIndex": "2.4.1",
+      "themeL2Key": "2.4"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:27",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:70",
+    "evidence": {
+      "themeL2Title": "2.4 物理学与信息技术",
+      "contentRequirement": "通过实验，了解常见传感器的工作原理。会利用传感器制作简单的自动控制装置。",
+      "requirementIndex": "2.4.2",
+      "themeL2Key": "2.4"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:70",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:27",
+    "evidence": {
+      "contentRequirement": "通过实验，了解常见传感器的工作原理。会利用传感器制作简单的自动控制装置。",
+      "themeL2Title": "2.4 物理学与信息技术",
+      "requirementIndex": "2.4.2",
+      "themeL2Key": "2.4"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:27",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:71",
+    "evidence": {
+      "themeL2Title": "2.4 物理学与信息技术",
+      "contentRequirement": "列举传感器在生产生活中的应用",
+      "requirementIndex": "2.4.3",
+      "themeL2Key": "2.4"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:71",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:27",
+    "evidence": {
+      "contentRequirement": "列举传感器在生产生活中的应用",
+      "themeL2Title": "2.4 物理学与信息技术",
+      "requirementIndex": "2.4.3",
+      "themeL2Key": "2.4"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:28",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:72",
+    "evidence": {
+      "themeL2Title": "3.1 微观世界",
+      "contentRequirement": "通过实验，估测油酸分子的大小。了解分子动理论的基本观点及相关的实验证据。",
+      "requirementIndex": "3.1.1",
+      "themeL2Key": "3.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:72",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:28",
+    "evidence": {
+      "contentRequirement": "通过实验，估测油酸分子的大小。了解分子动理论的基本观点及相关的实验证据。",
+      "themeL2Title": "3.1 微观世界",
+      "requirementIndex": "3.1.1",
+      "themeL2Key": "3.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:28",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:73",
+    "evidence": {
+      "themeL2Title": "3.1 微观世界",
+      "contentRequirement": "通过实验，了解扩散现象。观察并解释布朗运动。了解分子运动速率分布的统计规律，知道分子运动速率分布图像的物理意义。",
+      "requirementIndex": "3.1.2",
+      "themeL2Key": "3.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:73",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:28",
+    "evidence": {
+      "contentRequirement": "通过实验，了解扩散现象。观察并解释布朗运动。了解分子运动速率分布的统计规律，知道分子运动速率分布图像的物理意义。",
+      "themeL2Title": "3.1 微观世界",
+      "requirementIndex": "3.1.2",
+      "themeL2Key": "3.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:28",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:74",
+    "evidence": {
+      "themeL2Title": "3.1 微观世界",
+      "contentRequirement": "了解固体的微观结构。知道晶体和非晶体的特点。能列举生活中的晶体和非晶体。通过实例，了解液晶的主要性质及其在显示技术中的应用。",
+      "requirementIndex": "3.1.3",
+      "themeL2Key": "3.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:74",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:28",
+    "evidence": {
+      "contentRequirement": "了解固体的微观结构。知道晶体和非晶体的特点。能列举生活中的晶体和非晶体。通过实例，了解液晶的主要性质及其在显示技术中的应用。",
+      "themeL2Title": "3.1 微观世界",
+      "requirementIndex": "3.1.3",
+      "themeL2Key": "3.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:28",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:75",
+    "evidence": {
+      "themeL2Title": "3.1 微观世界",
+      "contentRequirement": "了解材料科学的有关知识及应用，体会它们的发展对人类生活和社会发展的影响。",
+      "requirementIndex": "3.1.4",
+      "themeL2Key": "3.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:75",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:28",
+    "evidence": {
+      "contentRequirement": "了解材料科学的有关知识及应用，体会它们的发展对人类生活和社会发展的影响。",
+      "themeL2Title": "3.1 微观世界",
+      "requirementIndex": "3.1.4",
+      "themeL2Key": "3.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:28",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:76",
+    "evidence": {
+      "themeL2Title": "3.1 微观世界",
+      "contentRequirement": "观察液体的表面张力现象。了解表面张力产生的原因。知道毛细现象。",
+      "requirementIndex": "3.1.5",
+      "themeL2Key": "3.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:76",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:28",
+    "evidence": {
+      "contentRequirement": "观察液体的表面张力现象。了解表面张力产生的原因。知道毛细现象。",
+      "themeL2Title": "3.1 微观世界",
+      "requirementIndex": "3.1.5",
+      "themeL2Key": "3.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:28",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:77",
+    "evidence": {
+      "themeL2Title": "3.1 微观世界",
+      "contentRequirement": "通过实验，了解气体实验定律。知道理想气体模型。能用分子动理论和统计观点解释气体压强和气体实验定律。",
+      "requirementIndex": "3.1.6",
+      "themeL2Key": "3.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:77",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:28",
+    "evidence": {
+      "contentRequirement": "通过实验，了解气体实验定律。知道理想气体模型。能用分子动理论和统计观点解释气体压强和气体实验定律。",
+      "themeL2Title": "3.1 微观世界",
+      "requirementIndex": "3.1.6",
+      "themeL2Key": "3.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:29",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:78",
+    "evidence": {
+      "themeL2Title": "3.2 高速世界",
+      "contentRequirement": "知道热力学第一定律。通过有关史实，了解热力学第一定律和能量守恒定律的发现过程，体会科学探索中的挫折和失败对科学发现的意义。",
+      "requirementIndex": "3.2.1",
+      "themeL2Key": "3.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:78",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:29",
+    "evidence": {
+      "contentRequirement": "知道热力学第一定律。通过有关史实，了解热力学第一定律和能量守恒定律的发现过程，体会科学探索中的挫折和失败对科学发现的意义。",
+      "themeL2Title": "3.2 高速世界",
+      "requirementIndex": "3.2.1",
+      "themeL2Key": "3.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:29",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:79",
+    "evidence": {
+      "themeL2Title": "3.2 高速世界",
+      "contentRequirement": "理解能量守恒定律，能用能量守恒的观点解释自然现象。体会能量守恒定律是最基本、最普遍的自然规律之一。",
+      "requirementIndex": "3.2.2",
+      "themeL2Key": "3.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:79",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:29",
+    "evidence": {
+      "contentRequirement": "理解能量守恒定律，能用能量守恒的观点解释自然现象。体会能量守恒定律是最基本、最普遍的自然规律之一。",
+      "themeL2Title": "3.2 高速世界",
+      "requirementIndex": "3.2.2",
+      "themeL2Key": "3.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:29",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:80",
+    "evidence": {
+      "themeL2Title": "3.2 高速世界",
+      "contentRequirement": "通过自然界中宏观过程的方向性，了解热力学第二定律。",
+      "requirementIndex": "3.2.3",
+      "themeL2Key": "3.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:80",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:29",
+    "evidence": {
+      "contentRequirement": "通过自然界中宏观过程的方向性，了解热力学第二定律。",
+      "themeL2Title": "3.2 高速世界",
+      "requirementIndex": "3.2.3",
+      "themeL2Key": "3.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:30",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:81",
+    "evidence": {
+      "themeL2Title": "3.3 宇观世界",
+      "contentRequirement": "了解人类探索原子及其结构的历史。知道原子的核式结构模型。通过对氢原子光谱的分析，了解原子的能级结构。",
+      "requirementIndex": "3.3.1",
+      "themeL2Key": "3.3"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:81",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:30",
+    "evidence": {
+      "contentRequirement": "了解人类探索原子及其结构的历史。知道原子的核式结构模型。通过对氢原子光谱的分析，了解原子的能级结构。",
+      "themeL2Title": "3.3 宇观世界",
+      "requirementIndex": "3.3.1",
+      "themeL2Key": "3.3"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:30",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:82",
+    "evidence": {
+      "themeL2Title": "3.3 宇观世界",
+      "contentRequirement": "了解原子核的组成和核力的性质。知道四种基本相互作用。能根据质量数守恒和电荷守恒写出核反应方程。",
+      "requirementIndex": "3.3.2",
+      "themeL2Key": "3.3"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:82",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:30",
+    "evidence": {
+      "contentRequirement": "了解原子核的组成和核力的性质。知道四种基本相互作用。能根据质量数守恒和电荷守恒写出核反应方程。",
+      "themeL2Title": "3.3 宇观世界",
+      "requirementIndex": "3.3.2",
+      "themeL2Key": "3.3"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:30",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:83",
+    "evidence": {
+      "themeL2Title": "3.3 宇观世界",
+      "contentRequirement": "了解放射性和原子核衰变。知道半衰期及其统计意义。了解放射性同位素的应用，知道射线的危害与防护。",
+      "requirementIndex": "3.3.3",
+      "themeL2Key": "3.3"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:83",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:30",
+    "evidence": {
+      "contentRequirement": "了解放射性和原子核衰变。知道半衰期及其统计意义。了解放射性同位素的应用，知道射线的危害与防护。",
+      "themeL2Title": "3.3 宇观世界",
+      "requirementIndex": "3.3.3",
+      "themeL2Key": "3.3"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:30",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:84",
+    "evidence": {
+      "themeL2Title": "3.3 宇观世界",
+      "contentRequirement": "认识原子核的结合能，了解核裂变反应和核聚变反应。关注核技术应用对人类生活和社会发展的影响。",
+      "requirementIndex": "3.3.4",
+      "themeL2Key": "3.3"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:84",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:30",
+    "evidence": {
+      "contentRequirement": "认识原子核的结合能，了解核裂变反应和核聚变反应。关注核技术应用对人类生活和社会发展的影响。",
+      "themeL2Title": "3.3 宇观世界",
+      "requirementIndex": "3.3.4",
+      "themeL2Key": "3.3"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:30",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:85",
+    "evidence": {
+      "themeL2Title": "3.3 宇观世界",
+      "contentRequirement": "了解人类对物质结构的探索历程。",
+      "requirementIndex": "3.3.5",
+      "themeL2Key": "3.3"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:85",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:30",
+    "evidence": {
+      "contentRequirement": "了解人类对物质结构的探索历程。",
+      "themeL2Title": "3.3 宇观世界",
+      "requirementIndex": "3.3.5",
+      "themeL2Key": "3.3"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:31",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:86",
+    "evidence": {
+      "themeL2Title": "3.4 世界的统一性",
+      "contentRequirement": "通过实验，了解光电效应现象。知道爱因斯坦光电效应方程及其意义。能根据实验结论说明光的波粒二象性。",
+      "requirementIndex": "3.4.1",
+      "themeL2Key": "3.4"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:86",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:31",
+    "evidence": {
+      "contentRequirement": "通过实验，了解光电效应现象。知道爱因斯坦光电效应方程及其意义。能根据实验结论说明光的波粒二象性。",
+      "themeL2Title": "3.4 世界的统一性",
+      "requirementIndex": "3.4.1",
+      "themeL2Key": "3.4"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:31",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:87",
+    "evidence": {
+      "themeL2Title": "3.4 世界的统一性",
+      "contentRequirement": "知道实物粒子具有波动性，了解微观世界的量子化特征。体会量子论的建立对人们认识物质世界的影响。",
+      "requirementIndex": "3.4.2",
+      "themeL2Key": "3.4"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:87",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:31",
+    "evidence": {
+      "contentRequirement": "知道实物粒子具有波动性，了解微观世界的量子化特征。体会量子论的建立对人们认识物质世界的影响。",
+      "themeL2Title": "3.4 世界的统一性",
+      "requirementIndex": "3.4.2",
+      "themeL2Key": "3.4"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:21",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:88",
+    "evidence": {
+      "themeL2Title": "1.1 物理学与人类认识",
+      "contentRequirement": "了解古希腊的宇宙观与我国古代的宇宙观。了解哥白尼日心说对宇宙观的冲击。了解开普勒定律对牛顿发现万有引力定律的重要作用。",
+      "requirementIndex": "1.1.1",
+      "themeL2Key": "1.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:88",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:21",
+    "evidence": {
+      "contentRequirement": "了解古希腊的宇宙观与我国古代的宇宙观。了解哥白尼日心说对宇宙观的冲击。了解开普勒定律对牛顿发现万有引力定律的重要作用。",
+      "themeL2Title": "1.1 物理学与人类认识",
+      "requirementIndex": "1.1.1",
+      "themeL2Key": "1.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:21",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:89",
+    "evidence": {
+      "themeL2Title": "1.1 物理学与人类认识",
+      "contentRequirement": "了解伽利略的实验方法和逻辑方法对牛顿力学诞生的贡献。了解牛顿力学的成就和局限性。",
+      "requirementIndex": "1.1.2",
+      "themeL2Key": "1.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:89",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:21",
+    "evidence": {
+      "contentRequirement": "了解伽利略的实验方法和逻辑方法对牛顿力学诞生的贡献。了解牛顿力学的成就和局限性。",
+      "themeL2Title": "1.1 物理学与人类认识",
+      "requirementIndex": "1.1.2",
+      "themeL2Key": "1.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:21",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:90",
+    "evidence": {
+      "themeL2Title": "1.1 物理学与人类认识",
+      "contentRequirement": "了解19世纪末物理学的发现对于近代物理学革命的意义。",
+      "requirementIndex": "1.1.3",
+      "themeL2Key": "1.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:90",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:21",
+    "evidence": {
+      "contentRequirement": "了解19世纪末物理学的发现对于近代物理学革命的意义。",
+      "themeL2Title": "1.1 物理学与人类认识",
+      "requirementIndex": "1.1.3",
+      "themeL2Key": "1.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:21",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:91",
+    "evidence": {
+      "themeL2Title": "1.1 物理学与人类认识",
+      "contentRequirement": "了解波粒二象性的物理思想，体会人们对物质本性认识的不断发展。",
+      "requirementIndex": "1.1.4",
+      "themeL2Key": "1.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:91",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:21",
+    "evidence": {
+      "contentRequirement": "了解波粒二象性的物理思想，体会人们对物质本性认识的不断发展。",
+      "themeL2Title": "1.1 物理学与人类认识",
+      "requirementIndex": "1.1.4",
+      "themeL2Key": "1.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:21",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:92",
+    "evidence": {
+      "themeL2Title": "1.1 物理学与人类认识",
+      "contentRequirement": "了解相对论的时空观，知道质能关系的意义，了解相对论与量子论对人类认识的影响。",
+      "requirementIndex": "1.1.5",
+      "themeL2Key": "1.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:92",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:21",
+    "evidence": {
+      "contentRequirement": "了解相对论的时空观，知道质能关系的意义，了解相对论与量子论对人类认识的影响。",
+      "themeL2Title": "1.1 物理学与人类认识",
+      "requirementIndex": "1.1.5",
+      "themeL2Key": "1.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:21",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:93",
+    "evidence": {
+      "themeL2Title": "1.1 物理学与人类认识",
+      "contentRequirement": "了解我国物理学家的成果与贡献。",
+      "requirementIndex": "1.1.6",
+      "themeL2Key": "1.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:93",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:21",
+    "evidence": {
+      "contentRequirement": "了解我国物理学家的成果与贡献。",
+      "themeL2Title": "1.1 物理学与人类认识",
+      "requirementIndex": "1.1.6",
+      "themeL2Key": "1.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:22",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:94",
+    "evidence": {
+      "themeL2Title": "1.2 物理学与社会变革",
+      "contentRequirement": "了解蒸汽机的发明对第一次工业革命的推动作用。",
+      "requirementIndex": "1.2.1",
+      "themeL2Key": "1.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:94",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:22",
+    "evidence": {
+      "contentRequirement": "了解蒸汽机的发明对第一次工业革命的推动作用。",
+      "themeL2Title": "1.2 物理学与社会变革",
+      "requirementIndex": "1.2.1",
+      "themeL2Key": "1.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:22",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:95",
+    "evidence": {
+      "themeL2Title": "1.2 物理学与社会变革",
+      "contentRequirement": "了解电磁学的发展对第二次工业革命的推动作用。",
+      "requirementIndex": "1.2.2",
+      "themeL2Key": "1.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:95",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:22",
+    "evidence": {
+      "contentRequirement": "了解电磁学的发展对第二次工业革命的推动作用。",
+      "themeL2Title": "1.2 物理学与社会变革",
+      "requirementIndex": "1.2.2",
+      "themeL2Key": "1.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:22",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:96",
+    "evidence": {
+      "themeL2Title": "1.2 物理学与社会变革",
+      "contentRequirement": "了解集成电路的进展，了解微电子技术的应用对社会发展的影响。",
+      "requirementIndex": "1.2.3",
+      "themeL2Key": "1.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:96",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:22",
+    "evidence": {
+      "contentRequirement": "了解集成电路的进展，了解微电子技术的应用对社会发展的影响。",
+      "themeL2Title": "1.2 物理学与社会变革",
+      "requirementIndex": "1.2.3",
+      "themeL2Key": "1.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:22",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:97",
+    "evidence": {
+      "themeL2Title": "1.2 物理学与社会变革",
+      "contentRequirement": "了解信息技术的应用对社会发展的影响",
+      "requirementIndex": "1.2.4",
+      "themeL2Key": "1.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:97",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:22",
+    "evidence": {
+      "contentRequirement": "了解信息技术的应用对社会发展的影响",
+      "themeL2Title": "1.2 物理学与社会变革",
+      "requirementIndex": "1.2.4",
+      "themeL2Key": "1.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:22",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:98",
+    "evidence": {
+      "themeL2Title": "1.2 物理学与社会变革",
+      "contentRequirement": "了解核技术的应用对社会发展的影响",
+      "requirementIndex": "1.2.5",
+      "themeL2Key": "1.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:98",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:22",
+    "evidence": {
+      "contentRequirement": "了解核技术的应用对社会发展的影响",
+      "themeL2Title": "1.2 物理学与社会变革",
+      "requirementIndex": "1.2.5",
+      "themeL2Key": "1.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:23",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:99",
+    "evidence": {
+      "themeL2Title": "1.3 物理学与公民生活",
+      "contentRequirement": "了解可再生能源与不可再生能源在生活中应用的实例。",
+      "requirementIndex": "1.3.1",
+      "themeL2Key": "1.3"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:99",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:23",
+    "evidence": {
+      "contentRequirement": "了解可再生能源与不可再生能源在生活中应用的实例。",
+      "themeL2Title": "1.3 物理学与公民生活",
+      "requirementIndex": "1.3.1",
+      "themeL2Key": "1.3"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:23",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:100",
+    "evidence": {
+      "themeL2Title": "1.3 物理学与公民生活",
+      "contentRequirement": "能列举微电子技术在生活中的应用实例。了解电视广播技术的发展对生活的影响。",
+      "requirementIndex": "1.3.2",
+      "themeL2Key": "1.3"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:100",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:23",
+    "evidence": {
+      "contentRequirement": "能列举微电子技术在生活中的应用实例。了解电视广播技术的发展对生活的影响。",
+      "themeL2Title": "1.3 物理学与公民生活",
+      "requirementIndex": "1.3.2",
+      "themeL2Key": "1.3"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:23",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:101",
+    "evidence": {
+      "themeL2Title": "1.3 物理学与公民生活",
+      "contentRequirement": "了解计算机、手机等发展的大致历程及其对生活的影响。",
+      "requirementIndex": "1.3.3",
+      "themeL2Key": "1.3"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:101",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:23",
+    "evidence": {
+      "contentRequirement": "了解计算机、手机等发展的大致历程及其对生活的影响。",
+      "themeL2Title": "1.3 物理学与公民生活",
+      "requirementIndex": "1.3.3",
+      "themeL2Key": "1.3"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:23",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:102",
+    "evidence": {
+      "themeL2Title": "1.3 物理学与公民生活",
+      "contentRequirement": "了解激光技术和光纤通信技术在生活中的应用。",
+      "requirementIndex": "1.3.4",
+      "themeL2Key": "1.3"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:102",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:23",
+    "evidence": {
+      "contentRequirement": "了解激光技术和光纤通信技术在生活中的应用。",
+      "themeL2Title": "1.3 物理学与公民生活",
+      "requirementIndex": "1.3.4",
+      "themeL2Key": "1.3"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:23",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:103",
+    "evidence": {
+      "themeL2Title": "1.3 物理学与公民生活",
+      "contentRequirement": "了解航天技术对生活的影响。",
+      "requirementIndex": "1.3.5",
+      "themeL2Key": "1.3"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:103",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:23",
+    "evidence": {
+      "contentRequirement": "了解航天技术对生活的影响。",
+      "themeL2Title": "1.3 物理学与公民生活",
+      "requirementIndex": "1.3.5",
+      "themeL2Key": "1.3"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:24",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:104",
+    "evidence": {
+      "themeL2Title": "2.1 物理学与医疗技术",
+      "contentRequirement": "了解声波的反射在B超中的应用",
+      "requirementIndex": "2.1.1",
+      "themeL2Key": "2.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:104",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:24",
+    "evidence": {
+      "contentRequirement": "了解声波的反射在B超中的应用",
+      "themeL2Title": "2.1 物理学与医疗技术",
+      "requirementIndex": "2.1.1",
+      "themeL2Key": "2.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:24",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:105",
+    "evidence": {
+      "themeL2Title": "2.1 物理学与医疗技术",
+      "contentRequirement": "了解多普勒效应在彩超中的应用。",
+      "requirementIndex": "2.1.2",
+      "themeL2Key": "2.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:105",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:24",
+    "evidence": {
+      "contentRequirement": "了解多普勒效应在彩超中的应用。",
+      "themeL2Title": "2.1 物理学与医疗技术",
+      "requirementIndex": "2.1.2",
+      "themeL2Key": "2.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:24",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:106",
+    "evidence": {
+      "themeL2Title": "2.1 物理学与医疗技术",
+      "contentRequirement": "了解X射线对人体不同组织的穿透性差异。",
+      "requirementIndex": "2.1.3",
+      "themeL2Key": "2.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:106",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:24",
+    "evidence": {
+      "contentRequirement": "了解X射线对人体不同组织的穿透性差异。",
+      "themeL2Title": "2.1 物理学与医疗技术",
+      "requirementIndex": "2.1.3",
+      "themeL2Key": "2.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:24",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:107",
+    "evidence": {
+      "themeL2Title": "2.1 物理学与医疗技术",
+      "contentRequirement": "了解CT扫描的基本原理",
+      "requirementIndex": "2.1.4",
+      "themeL2Key": "2.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:107",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:24",
+    "evidence": {
+      "contentRequirement": "了解CT扫描的基本原理",
+      "themeL2Title": "2.1 物理学与医疗技术",
+      "requirementIndex": "2.1.4",
+      "themeL2Key": "2.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:24",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:108",
+    "evidence": {
+      "themeL2Title": "2.1 物理学与医疗技术",
+      "contentRequirement": "了解典型射线的特性及其防护措施，知道这些射线在医学中的应用及其对人体的影响。",
+      "requirementIndex": "2.1.5",
+      "themeL2Key": "2.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:108",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:24",
+    "evidence": {
+      "contentRequirement": "了解典型射线的特性及其防护措施，知道这些射线在医学中的应用及其对人体的影响。",
+      "themeL2Title": "2.1 物理学与医疗技术",
+      "requirementIndex": "2.1.5",
+      "themeL2Key": "2.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:25",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:109",
+    "evidence": {
+      "themeL2Title": "2.2 物理学与新能源",
+      "contentRequirement": "了解可再生能源和不可再生能源的开发与利用，了解新能源开发的必要性。",
+      "requirementIndex": "2.2.1",
+      "themeL2Key": "2.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:109",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:25",
+    "evidence": {
+      "contentRequirement": "了解可再生能源和不可再生能源的开发与利用，了解新能源开发的必要性。",
+      "themeL2Title": "2.2 物理学与新能源",
+      "requirementIndex": "2.2.1",
+      "themeL2Key": "2.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:25",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:110",
+    "evidence": {
+      "themeL2Title": "2.2 物理学与新能源",
+      "contentRequirement": "了解太阳能利用的常见方式及应用前景。",
+      "requirementIndex": "2.2.2",
+      "themeL2Key": "2.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:110",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:25",
+    "evidence": {
+      "contentRequirement": "了解太阳能利用的常见方式及应用前景。",
+      "themeL2Title": "2.2 物理学与新能源",
+      "requirementIndex": "2.2.2",
+      "themeL2Key": "2.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:25",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:111",
+    "evidence": {
+      "themeL2Title": "2.2 物理学与新能源",
+      "contentRequirement": "了解核裂变和核聚变，了解核能的利用及核废料的处理。",
+      "requirementIndex": "2.2.3",
+      "themeL2Key": "2.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:111",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:25",
+    "evidence": {
+      "contentRequirement": "了解核裂变和核聚变，了解核能的利用及核废料的处理。",
+      "themeL2Title": "2.2 物理学与新能源",
+      "requirementIndex": "2.2.3",
+      "themeL2Key": "2.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:25",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:112",
+    "evidence": {
+      "themeL2Title": "2.2 物理学与新能源",
+      "contentRequirement": "了解地热能、潮汐能及风能等的利用。",
+      "requirementIndex": "2.2.4",
+      "themeL2Key": "2.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:112",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:25",
+    "evidence": {
+      "contentRequirement": "了解地热能、潮汐能及风能等的利用。",
+      "themeL2Title": "2.2 物理学与新能源",
+      "requirementIndex": "2.2.4",
+      "themeL2Key": "2.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:26",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:113",
+    "evidence": {
+      "themeL2Title": "2.3 物理学与新材料",
+      "contentRequirement": "了解物理学在新材料开发中的作用。",
+      "requirementIndex": "2.3.1",
+      "themeL2Key": "2.3"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:113",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:26",
+    "evidence": {
+      "contentRequirement": "了解物理学在新材料开发中的作用。",
+      "themeL2Title": "2.3 物理学与新材料",
+      "requirementIndex": "2.3.1",
+      "themeL2Key": "2.3"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:26",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:114",
+    "evidence": {
+      "themeL2Title": "2.3 物理学与新材料",
+      "contentRequirement": "了解纳米材料的特性及其在生活中的应用",
+      "requirementIndex": "2.3.2",
+      "themeL2Key": "2.3"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:114",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:26",
+    "evidence": {
+      "contentRequirement": "了解纳米材料的特性及其在生活中的应用",
+      "themeL2Title": "2.3 物理学与新材料",
+      "requirementIndex": "2.3.2",
+      "themeL2Key": "2.3"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:26",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:115",
+    "evidence": {
+      "themeL2Title": "2.3 物理学与新材料",
+      "contentRequirement": "了解超导体的一些特点，了解超导技术的应用。",
+      "requirementIndex": "2.3.3",
+      "themeL2Key": "2.3"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:115",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:26",
+    "evidence": {
+      "contentRequirement": "了解超导体的一些特点，了解超导技术的应用。",
+      "themeL2Title": "2.3 物理学与新材料",
+      "requirementIndex": "2.3.3",
+      "themeL2Key": "2.3"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:26",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:116",
+    "evidence": {
+      "themeL2Title": "2.3 物理学与新材料",
+      "contentRequirement": "了解一些功能材料的特性及应用。",
+      "requirementIndex": "2.3.4",
+      "themeL2Key": "2.3"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:116",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:26",
+    "evidence": {
+      "contentRequirement": "了解一些功能材料的特性及应用。",
+      "themeL2Title": "2.3 物理学与新材料",
+      "requirementIndex": "2.3.4",
+      "themeL2Key": "2.3"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:27",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:117",
+    "evidence": {
+      "themeL2Title": "2.4 物理学与信息技术",
+      "contentRequirement": "了解物理学对信息技术发展的贡献。",
+      "requirementIndex": "2.4.1",
+      "themeL2Key": "2.4"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:117",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:27",
+    "evidence": {
+      "contentRequirement": "了解物理学对信息技术发展的贡献。",
+      "themeL2Title": "2.4 物理学与信息技术",
+      "requirementIndex": "2.4.1",
+      "themeL2Key": "2.4"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:27",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:118",
+    "evidence": {
+      "themeL2Title": "2.4 物理学与信息技术",
+      "contentRequirement": "了解智能手机的一些功能及其对生活的影响",
+      "requirementIndex": "2.4.2",
+      "themeL2Key": "2.4"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:118",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:27",
+    "evidence": {
+      "contentRequirement": "了解智能手机的一些功能及其对生活的影响",
+      "themeL2Title": "2.4 物理学与信息技术",
+      "requirementIndex": "2.4.2",
+      "themeL2Key": "2.4"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:27",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:119",
+    "evidence": {
+      "themeL2Title": "2.4 物理学与信息技术",
+      "contentRequirement": "了解计算机的主要部件及其作用。",
+      "requirementIndex": "2.4.3",
+      "themeL2Key": "2.4"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:119",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:27",
+    "evidence": {
+      "contentRequirement": "了解计算机的主要部件及其作用。",
+      "themeL2Title": "2.4 物理学与信息技术",
+      "requirementIndex": "2.4.3",
+      "themeL2Key": "2.4"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:27",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:120",
+    "evidence": {
+      "themeL2Title": "2.4 物理学与信息技术",
+      "contentRequirement": "了解卫星定位系统的发展历程及其在生活中的应用。",
+      "requirementIndex": "2.4.4",
+      "themeL2Key": "2.4"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:120",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:27",
+    "evidence": {
+      "contentRequirement": "了解卫星定位系统的发展历程及其在生活中的应用。",
+      "themeL2Title": "2.4 物理学与信息技术",
+      "requirementIndex": "2.4.4",
+      "themeL2Key": "2.4"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:27",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:121",
+    "evidence": {
+      "themeL2Title": "2.4 物理学与信息技术",
+      "contentRequirement": "了解物理学对人工智能发展的推动作用",
+      "requirementIndex": "2.4.5",
+      "themeL2Key": "2.4"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:121",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:27",
+    "evidence": {
+      "contentRequirement": "了解物理学对人工智能发展的推动作用",
+      "themeL2Title": "2.4 物理学与信息技术",
+      "requirementIndex": "2.4.5",
+      "themeL2Key": "2.4"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:28",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:122",
+    "evidence": {
+      "themeL2Title": "3.1 微观世界",
+      "contentRequirement": "比较对宏观物体与微观粒子运动特点描述的差异。",
+      "requirementIndex": "3.1.1",
+      "themeL2Key": "3.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:122",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:28",
+    "evidence": {
+      "contentRequirement": "比较对宏观物体与微观粒子运动特点描述的差异。",
+      "themeL2Title": "3.1 微观世界",
+      "requirementIndex": "3.1.1",
+      "themeL2Key": "3.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:28",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:123",
+    "evidence": {
+      "themeL2Title": "3.1 微观世界",
+      "contentRequirement": "了解德布罗意物质波，知道物质的波粒二象性。",
+      "requirementIndex": "3.1.2",
+      "themeL2Key": "3.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:123",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:28",
+    "evidence": {
+      "contentRequirement": "了解德布罗意物质波，知道物质的波粒二象性。",
+      "themeL2Title": "3.1 微观世界",
+      "requirementIndex": "3.1.2",
+      "themeL2Key": "3.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:28",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:124",
+    "evidence": {
+      "themeL2Title": "3.1 微观世界",
+      "contentRequirement": "初步了解海森伯不确定性原理",
+      "requirementIndex": "3.1.3",
+      "themeL2Key": "3.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:124",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:28",
+    "evidence": {
+      "contentRequirement": "初步了解海森伯不确定性原理",
+      "themeL2Title": "3.1 微观世界",
+      "requirementIndex": "3.1.3",
+      "themeL2Key": "3.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:28",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:125",
+    "evidence": {
+      "themeL2Title": "3.1 微观世界",
+      "contentRequirement": "初步了解基本粒子的微观模型及其特点。",
+      "requirementIndex": "3.1.4",
+      "themeL2Key": "3.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:125",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:28",
+    "evidence": {
+      "contentRequirement": "初步了解基本粒子的微观模型及其特点。",
+      "themeL2Title": "3.1 微观世界",
+      "requirementIndex": "3.1.4",
+      "themeL2Key": "3.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:28",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:126",
+    "evidence": {
+      "themeL2Title": "3.1 微观世界",
+      "contentRequirement": "了解人类探索基本粒子的大致历程，知道这种探索将不断深入。",
+      "requirementIndex": "3.1.5",
+      "themeL2Key": "3.1"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:126",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:28",
+    "evidence": {
+      "contentRequirement": "了解人类探索基本粒子的大致历程，知道这种探索将不断深入。",
+      "themeL2Title": "3.1 微观世界",
+      "requirementIndex": "3.1.5",
+      "themeL2Key": "3.1"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:29",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:127",
+    "evidence": {
+      "themeL2Title": "3.2 高速世界",
+      "contentRequirement": "知道相对性原理和光速不变原理",
+      "requirementIndex": "3.2.1",
+      "themeL2Key": "3.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:127",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:29",
+    "evidence": {
+      "contentRequirement": "知道相对性原理和光速不变原理",
+      "themeL2Title": "3.2 高速世界",
+      "requirementIndex": "3.2.1",
+      "themeL2Key": "3.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:29",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:128",
+    "evidence": {
+      "themeL2Title": "3.2 高速世界",
+      "contentRequirement": "能利用公式，解释长度收缩效应和时间延缓效应。",
+      "requirementIndex": "3.2.2",
+      "themeL2Key": "3.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:128",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:29",
+    "evidence": {
+      "contentRequirement": "能利用公式，解释长度收缩效应和时间延缓效应。",
+      "themeL2Title": "3.2 高速世界",
+      "requirementIndex": "3.2.2",
+      "themeL2Key": "3.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:29",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:129",
+    "evidence": {
+      "themeL2Title": "3.2 高速世界",
+      "contentRequirement": "知道爱因斯坦质能方程的意义。",
+      "requirementIndex": "3.2.3",
+      "themeL2Key": "3.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:129",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:29",
+    "evidence": {
+      "contentRequirement": "知道爱因斯坦质能方程的意义。",
+      "themeL2Title": "3.2 高速世界",
+      "requirementIndex": "3.2.3",
+      "themeL2Key": "3.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:29",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:130",
+    "evidence": {
+      "themeL2Title": "3.2 高速世界",
+      "contentRequirement": "了解广义相对论的主要思想、结论和观测证据。",
+      "requirementIndex": "3.2.4",
+      "themeL2Key": "3.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:130",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:29",
+    "evidence": {
+      "contentRequirement": "了解广义相对论的主要思想、结论和观测证据。",
+      "themeL2Title": "3.2 高速世界",
+      "requirementIndex": "3.2.4",
+      "themeL2Key": "3.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:29",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:131",
+    "evidence": {
+      "themeL2Title": "3.2 高速世界",
+      "contentRequirement": "了解人类探索高速世界的大致历程，知道这种探索将不断深入。",
+      "requirementIndex": "3.2.5",
+      "themeL2Key": "3.2"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:131",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:29",
+    "evidence": {
+      "contentRequirement": "了解人类探索高速世界的大致历程，知道这种探索将不断深入。",
+      "themeL2Title": "3.2 高速世界",
+      "requirementIndex": "3.2.5",
+      "themeL2Key": "3.2"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:30",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:132",
+    "evidence": {
+      "themeL2Title": "3.3 宇观世界",
+      "contentRequirement": "初步了解大爆炸宇宙论的理论模型及其观测证据。",
+      "requirementIndex": "3.3.1",
+      "themeL2Key": "3.3"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:132",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:30",
+    "evidence": {
+      "contentRequirement": "初步了解大爆炸宇宙论的理论模型及其观测证据。",
+      "themeL2Title": "3.3 宇观世界",
+      "requirementIndex": "3.3.1",
+      "themeL2Key": "3.3"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:30",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:133",
+    "evidence": {
+      "themeL2Title": "3.3 宇观世界",
+      "contentRequirement": "初步了解黑洞及对黑洞的观测方法",
+      "requirementIndex": "3.3.2",
+      "themeL2Key": "3.3"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:133",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:30",
+    "evidence": {
+      "contentRequirement": "初步了解黑洞及对黑洞的观测方法",
+      "themeL2Title": "3.3 宇观世界",
+      "requirementIndex": "3.3.2",
+      "themeL2Key": "3.3"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:30",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:134",
+    "evidence": {
+      "themeL2Title": "3.3 宇观世界",
+      "contentRequirement": "初步了解暗物质和暗能量。",
+      "requirementIndex": "3.3.3",
+      "themeL2Key": "3.3"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:134",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:30",
+    "evidence": {
+      "contentRequirement": "初步了解暗物质和暗能量。",
+      "themeL2Title": "3.3 宇观世界",
+      "requirementIndex": "3.3.3",
+      "themeL2Key": "3.3"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:30",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:135",
+    "evidence": {
+      "themeL2Title": "3.3 宇观世界",
+      "contentRequirement": "初步了解物质与反物质。",
+      "requirementIndex": "3.3.4",
+      "themeL2Key": "3.3"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:135",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:30",
+    "evidence": {
+      "contentRequirement": "初步了解物质与反物质。",
+      "themeL2Title": "3.3 宇观世界",
+      "requirementIndex": "3.3.4",
+      "themeL2Key": "3.3"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:30",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:136",
+    "evidence": {
+      "themeL2Title": "3.3 宇观世界",
+      "contentRequirement": "初步了解宇宙论的一些进展。",
+      "requirementIndex": "3.3.5",
+      "themeL2Key": "3.3"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:136",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:30",
+    "evidence": {
+      "contentRequirement": "初步了解宇宙论的一些进展。",
+      "themeL2Title": "3.3 宇观世界",
+      "requirementIndex": "3.3.5",
+      "themeL2Key": "3.3"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:31",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:137",
+    "evidence": {
+      "themeL2Title": "3.4 世界的统一性",
+      "contentRequirement": "了解四种基本相互作用及其特点。",
+      "requirementIndex": "3.4.1",
+      "themeL2Key": "3.4"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:137",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:31",
+    "evidence": {
+      "contentRequirement": "了解四种基本相互作用及其特点。",
+      "themeL2Title": "3.4 世界的统一性",
+      "requirementIndex": "3.4.1",
+      "themeL2Key": "3.4"
+    }
+  },
+  {
+    "relationName": "themeL2IncludesThemeL3",
+    "label": "二级主题包含三级主题 / includesThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL2:31",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:138",
+    "evidence": {
+      "themeL2Title": "3.4 世界的统一性",
+      "contentRequirement": "初步了解追求相互作用统一的思想和探索在物理学发展中的作用。",
+      "requirementIndex": "3.4.2",
+      "themeL2Key": "3.4"
+    }
+  },
+  {
+    "relationName": "themeL3BelongsToThemeL2",
+    "label": "三级主题属于二级主题 / belongsToThemeL2",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:138",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL2:31",
+    "evidence": {
+      "contentRequirement": "初步了解追求相互作用统一的思想和探索在物理学发展中的作用。",
+      "themeL2Title": "3.4 世界的统一性",
+      "requirementIndex": "3.4.2",
+      "themeL2Key": "3.4"
+    }
+  }
+]

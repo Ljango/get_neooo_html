@@ -1,0 +1,2762 @@
+[
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:1",
+    "target": "urn:jy:physics:SB0401:OB06:Section:104",
+    "evidence": {
+      "themeL3Title": "近代实验科学产生的背景；实验对物理学发展的推动作用",
+      "themeL3Key": "1.1.1",
+      "sectionTitle": "2.实验：用油膜法估测油酸分子的大小",
+      "sectionVolume": "选择性必修 第三册",
+      "similarity": 0.2909,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:104",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:1"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:2",
+    "target": "urn:jy:physics:SB0401:OB06:Section:1",
+    "evidence": {
+      "themeL3Title": "经历质点模型的建构过程；质点的含义。知道将物体抽象为质点",
+      "themeL3Key": "1.1.2",
+      "sectionTitle": "1.质点 参考系",
+      "sectionVolume": "必修 第一册",
+      "similarity": 0.3252,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:1",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:2"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:3",
+    "target": "urn:jy:physics:SB0401:OB06:Section:6",
+    "evidence": {
+      "themeL3Title": "位移、速度和加速度。通过实验；匀变速直线运动的特点",
+      "themeL3Key": "1.1.3",
+      "sectionTitle": "2.匀变速直线运动的速度与时间的关系",
+      "sectionVolume": "必修 第一册",
+      "similarity": 0.7009,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:6",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:3"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:4",
+    "target": "urn:jy:physics:SB0401:OB06:Section:8",
+    "evidence": {
+      "themeL3Title": "实验；自由落体运动规律。结合物理学史的相关内容",
+      "themeL3Key": "1.1.4",
+      "sectionTitle": "4.自由落体运动",
+      "sectionVolume": "必修 第一册",
+      "similarity": 0.343,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:8",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:4"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:5",
+    "target": "urn:jy:physics:SB0401:OB06:Section:10",
+    "evidence": {
+      "themeL3Title": "重力、弹力与摩擦力。通过实验；胡克定律。知道滑动摩擦和静",
+      "themeL3Key": "1.2.1",
+      "sectionTitle": "2.摩擦力",
+      "sectionVolume": "必修 第一册",
+      "similarity": 0.5077,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:10",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:5"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:6",
+    "target": "urn:jy:physics:SB0401:OB06:Section:12",
+    "evidence": {
+      "themeL3Title": "实验；力的合成与分解。知道矢量和标量。能用共点力的平衡条",
+      "themeL3Key": "1.2.2",
+      "sectionTitle": "4.力的合成和分解",
+      "sectionVolume": "必修 第一册",
+      "similarity": 0.5226,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:12",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:6"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:7",
+    "target": "urn:jy:physics:SB0401:OB06:Section:15",
+    "evidence": {
+      "themeL3Title": "实验；物体运动的加速度与物体受力、物体质量的关系。理解牛",
+      "themeL3Key": "1.2.3",
+      "sectionTitle": "2.实验：探究加速度与力、质量的关系",
+      "sectionVolume": "必修 第一册",
+      "similarity": 0.5847,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:15",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:7"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:8",
+    "target": "urn:jy:physics:SB0401:OB06:Section:17",
+    "evidence": {
+      "themeL3Title": "国际单位制中的力学单位。了解单位制在物理学中的重要意义",
+      "themeL3Key": "1.2.4",
+      "sectionTitle": "4.力学单位制",
+      "sectionVolume": "必修 第一册",
+      "similarity": 0.4979,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:17",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:8"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:9",
+    "target": "urn:jy:physics:SB0401:OB06:Section:33",
+    "evidence": {
+      "themeL3Title": "功和功率。了解生产生活中常见机械的功率大小及其意义",
+      "themeL3Key": "2.1.1",
+      "sectionTitle": "1.功与功率",
+      "sectionVolume": "必修 第二册",
+      "similarity": 0.4196,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:33",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:9"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:10",
+    "target": "urn:jy:physics:SB0401:OB06:Section:35",
+    "evidence": {
+      "themeL3Title": "动能和动能定理。能用动能定理解释生产生活中的有关",
+      "themeL3Key": "2.1.2",
+      "sectionTitle": "3.动能和动能定理",
+      "sectionVolume": "必修 第二册",
+      "similarity": 0.6906,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:35",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:10"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:11",
+    "target": "urn:jy:physics:SB0401:OB06:Section:34",
+    "evidence": {
+      "themeL3Title": "重力势能；重力势能的变化与重力做功的关系。定性了解弹性势",
+      "themeL3Key": "2.1.3",
+      "sectionTitle": "2.重力势能",
+      "sectionVolume": "必修 第二册",
+      "similarity": 0.5091,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:34",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:11"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:12",
+    "target": "urn:jy:physics:SB0401:OB06:Section:37",
+    "evidence": {
+      "themeL3Title": "实验；验证机械能守恒定律。理解机械能守恒定律",
+      "themeL3Key": "2.1.4",
+      "sectionTitle": "5.实验：验证机械能守恒定律",
+      "sectionVolume": "必修 第二册",
+      "similarity": 0.8719,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:37",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:12"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:13",
+    "target": "urn:jy:physics:SB0401:OB06:Section:20",
+    "evidence": {
+      "themeL3Title": "实验；曲线运动",
+      "themeL3Key": "2.2.1",
+      "sectionTitle": "1.曲线运动",
+      "sectionVolume": "必修 第二册",
+      "similarity": 0.6556,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:20",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:13"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:14",
+    "target": "urn:jy:physics:SB0401:OB06:Section:21",
+    "evidence": {
+      "themeL3Title": "实验；并认识平抛运动的规律。会用运动合成与分解的方法分析",
+      "themeL3Key": "2.2.2",
+      "sectionTitle": "2.运动的合成与分解",
+      "sectionVolume": "必修 第二册",
+      "similarity": 0.7451,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:21",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:14"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:15",
+    "target": "urn:jy:physics:SB0401:OB06:Section:26",
+    "evidence": {
+      "themeL3Title": "用线速度、角速度、周期描述匀速圆周运动。知道匀速圆周运动",
+      "themeL3Key": "2.2.3",
+      "sectionTitle": "3.向心加速度",
+      "sectionVolume": "必修 第二册",
+      "similarity": 0.6407,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:26",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:15"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:16",
+    "target": "urn:jy:physics:SB0401:OB06:Section:29",
+    "evidence": {
+      "themeL3Title": "史实；万有引力定律的发现过程。知道万有引力定律。认识发现",
+      "themeL3Key": "2.2.4",
+      "sectionTitle": "2.万有引力定律",
+      "sectionVolume": "必修 第二册",
+      "similarity": 0.5978,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:29",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:16"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:17",
+    "target": "urn:jy:physics:SB0401:OB06:Section:4",
+    "evidence": {
+      "themeL3Title": "计算人造地球卫星的环绕速度。知道第二宇宙速度和第三宇宙速",
+      "themeL3Key": "2.2.5",
+      "sectionTitle": "4.速度变化快慢的描述——加速度",
+      "sectionVolume": "必修 第一册",
+      "similarity": 0.4152,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:4",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:17"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:18",
+    "target": "urn:jy:physics:SB0401:OB06:Section:32",
+    "evidence": {
+      "themeL3Title": "牛顿力学的局限性；体会人类对自然界的探索是不断深入的",
+      "themeL3Key": "2.3.1",
+      "sectionTitle": "5.相对论时空观与牛顿力学的局限性",
+      "sectionVolume": "必修 第二册",
+      "similarity": 0.384,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:32",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:18"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:19",
+    "target": "urn:jy:physics:SB0401:OB06:Section:32",
+    "evidence": {
+      "themeL3Title": "初步了解相对论时空观",
+      "themeL3Key": "2.3.2",
+      "sectionTitle": "5.相对论时空观与牛顿力学的局限性",
+      "sectionVolume": "必修 第二册",
+      "similarity": 0.3408,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:32",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:19"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:20",
+    "target": "urn:jy:physics:SB0401:OB06:Section:15",
+    "evidence": {
+      "themeL3Title": "关注宇宙起源和演化的研究进展",
+      "themeL3Key": "2.3.3",
+      "sectionTitle": "2.实验：探究加速度与力、质量的关系",
+      "sectionVolume": "必修 第一册",
+      "similarity": 0.2791,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:15",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:20"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:21",
+    "target": "urn:jy:physics:SB0401:OB06:Section:42",
+    "evidence": {
+      "themeL3Title": "实验；静电现象。能用原子结构模型和电荷守恒的知识分析静电",
+      "themeL3Key": "3.1.1",
+      "sectionTitle": "1.电势能和电势",
+      "sectionVolume": "必修 第三册",
+      "similarity": 0.4804,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:42",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:21"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:22",
+    "target": "urn:jy:physics:SB0401:OB06:Section:13",
+    "evidence": {
+      "themeL3Title": "点电荷模型。知道两个点电荷间相互作用的规律。体会探究库仑",
+      "themeL3Key": "3.1.2",
+      "sectionTitle": "5.共点力的平衡",
+      "sectionVolume": "必修 第一册",
+      "similarity": 0.2974,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:13",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:22"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:23",
+    "target": "urn:jy:physics:SB0401:OB06:Section:40",
+    "evidence": {
+      "themeL3Title": "电场是一种物质。了解电场强度；体会用物理量之比定义新物理",
+      "themeL3Key": "3.1.3",
+      "sectionTitle": "3.电场 电场强度",
+      "sectionVolume": "必修 第三册",
+      "similarity": 0.5542,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:40",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:23"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:24",
+    "target": "urn:jy:physics:SB0401:OB06:Section:41",
+    "evidence": {
+      "themeL3Title": "生产生活中关于静电的利用与防护",
+      "themeL3Key": "3.1.4",
+      "sectionTitle": "4.静电的防止与利用",
+      "sectionVolume": "必修 第三册",
+      "similarity": 0.488,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:41",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:24"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:25",
+    "target": "urn:jy:physics:SB0401:OB06:Section:42",
+    "evidence": {
+      "themeL3Title": "静电场中的电荷具有电势能。了解电势能、电势和电势差的含义",
+      "themeL3Key": "3.1.5",
+      "sectionTitle": "1.电势能和电势",
+      "sectionVolume": "必修 第三册",
+      "similarity": 0.8182,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:42",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:25"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:26",
+    "target": "urn:jy:physics:SB0401:OB06:Section:45",
+    "evidence": {
+      "themeL3Title": "观察常见的电容器；电容器的电容",
+      "themeL3Key": "3.1.6",
+      "sectionTitle": "4.电容器的电容",
+      "sectionVolume": "必修 第三册",
+      "similarity": 0.7585,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:45",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:26"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:27",
+    "target": "urn:jy:physics:SB0401:OB06:Section:51",
+    "evidence": {
+      "themeL3Title": "观察并能识别常见的电路元器件；它们在电路中的作用。会使用",
+      "themeL3Key": "3.2.1",
+      "sectionTitle": "5.实验：练习使用多用电表",
+      "sectionVolume": "必修 第三册",
+      "similarity": 0.4961,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:51",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:27"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:28",
+    "target": "urn:jy:physics:SB0401:OB06:Section:49",
+    "evidence": {
+      "themeL3Title": "实验；并了解金属导体的电阻与材料、长度和横截面积的定量关",
+      "themeL3Key": "3.2.2",
+      "sectionTitle": "3.实验：导体电阻率的测量",
+      "sectionVolume": "必修 第三册",
+      "similarity": 0.4565,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:49",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:28"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:29",
+    "target": "urn:jy:physics:SB0401:OB06:Section:50",
+    "evidence": {
+      "themeL3Title": "串、并联电路电阻的特点",
+      "themeL3Key": "3.2.3",
+      "sectionTitle": "4.串联电路和并联电路",
+      "sectionVolume": "必修 第三册",
+      "similarity": 0.6159,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:50",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:29"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:30",
+    "target": "urn:jy:physics:SB0401:OB06:Section:54",
+    "evidence": {
+      "themeL3Title": "闭合电路欧姆定律。会测量电源的电动势和内阻",
+      "themeL3Key": "3.2.4",
+      "sectionTitle": "3.实验：电池电动势和内阻的测量",
+      "sectionVolume": "必修 第三册",
+      "similarity": 0.6567,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:54",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:30"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:31",
+    "target": "urn:jy:physics:SB0401:OB06:Section:53",
+    "evidence": {
+      "themeL3Title": "电功、电功率及焦耳定律；用焦耳定律解释生产生活",
+      "themeL3Key": "3.2.5",
+      "sectionTitle": "2.闭合电路的欧姆定律",
+      "sectionVolume": "必修 第三册",
+      "similarity": 0.3929,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:53",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:31"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:32",
+    "target": "urn:jy:physics:SB0401:OB06:Section:47",
+    "evidence": {
+      "themeL3Title": "分析和解决家庭电路中的简单问题；将安全用电和节约用电的知",
+      "themeL3Key": "3.2.6",
+      "sectionTitle": "1.电源和电流",
+      "sectionVolume": "必修 第三册",
+      "similarity": 0.4935,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:47",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:32"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:33",
+    "target": "urn:jy:physics:SB0401:OB06:Section:59",
+    "evidence": {
+      "themeL3Title": "列举磁现象在生产生活中的应用。了解我国古代在磁现象方面的",
+      "themeL3Key": "3.3.1",
+      "sectionTitle": "4.电磁波的发现及应用",
+      "sectionVolume": "必修 第三册",
+      "similarity": 0.3745,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:59",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:33"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:34",
+    "target": "urn:jy:physics:SB0401:OB06:Section:57",
+    "evidence": {
+      "themeL3Title": "实验；磁场。了解磁感应强度",
+      "themeL3Key": "3.3.2",
+      "sectionTitle": "2.磁感应强度 磁通量",
+      "sectionVolume": "必修 第三册",
+      "similarity": 0.5827,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:57",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:34"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:35",
+    "target": "urn:jy:physics:SB0401:OB06:Section:58",
+    "evidence": {
+      "themeL3Title": "磁通量。通过实验；电磁感应现象",
+      "themeL3Key": "3.3.3",
+      "sectionTitle": "3.电磁感应现象及应用",
+      "sectionVolume": "必修 第三册",
+      "similarity": 0.6744,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:58",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:35"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:36",
+    "target": "urn:jy:physics:SB0401:OB06:Section:97",
+    "evidence": {
+      "themeL3Title": "实验；电磁波",
+      "themeL3Key": "3.3.4",
+      "sectionTitle": "2.电磁场与电磁波",
+      "sectionVolume": "选择性必修 第二册",
+      "similarity": 0.6678,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:97",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:36"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:37",
+    "target": "urn:jy:physics:SB0401:OB06:Section:59",
+    "evidence": {
+      "themeL3Title": "实例；电磁波的应用及其带来的影响",
+      "themeL3Key": "3.3.5",
+      "sectionTitle": "4.电磁波的发现及应用",
+      "sectionVolume": "必修 第三册",
+      "similarity": 0.5284,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:59",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:37"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:38",
+    "target": "urn:jy:physics:SB0401:OB06:Section:60",
+    "evidence": {
+      "themeL3Title": "光是一种电磁波。知道光的能量是不连续的。初步了解微观世界",
+      "themeL3Key": "3.3.6",
+      "sectionTitle": "5.能量量子化",
+      "sectionVolume": "必修 第三册",
+      "similarity": 0.3843,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:60",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:38"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:39",
+    "target": "urn:jy:physics:SB0401:OB06:Section:124",
+    "evidence": {
+      "themeL3Title": "水能、风能、太阳能和核能的方式。初步了解核裂变与核聚变",
+      "themeL3Key": "3.4.1",
+      "sectionTitle": "4.核裂变与核聚变",
+      "sectionVolume": "选择性必修 第三册",
+      "similarity": 0.4889,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:124",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:39"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:40",
+    "target": "urn:jy:physics:SB0401:OB06:Section:52",
+    "evidence": {
+      "themeL3Title": "不同形式的能量可互相转化；转化过程中能量总量保持不变",
+      "themeL3Key": "3.4.2",
+      "sectionTitle": "1.电路中的能量转化",
+      "sectionVolume": "必修 第三册",
+      "similarity": 0.5557,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:52",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:40"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:41",
+    "target": "urn:jy:physics:SB0401:OB06:Section:55",
+    "evidence": {
+      "themeL3Title": "可再生能源和不可再生能源的分类；能源的过度开发和利用对环",
+      "themeL3Key": "3.4.3",
+      "sectionTitle": "4.能源与可持续发展",
+      "sectionVolume": "必修 第三册",
+      "similarity": 0.4041,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:55",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:41"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:42",
+    "target": "urn:jy:physics:SB0401:OB06:Section:112",
+    "evidence": {
+      "themeL3Title": "环境污染的危害；科学、技术、社会及环境协调发展的重要性",
+      "themeL3Key": "3.4.4",
+      "sectionTitle": "1.功、热和内能的改变",
+      "sectionVolume": "选择性必修 第三册",
+      "similarity": 0.2063,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:112",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:42"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:43",
+    "target": "urn:jy:physics:SB0401:OB06:Section:62",
+    "evidence": {
+      "themeL3Title": "冲量和动量。通过理论推导和实验；动量定理和动量守恒定律",
+      "themeL3Key": "1.1.1",
+      "sectionTitle": "2.动量定理",
+      "sectionVolume": "选择性必修 第一册",
+      "similarity": 0.7322,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:62",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:43"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:44",
+    "target": "urn:jy:physics:SB0401:OB06:Section:65",
+    "evidence": {
+      "themeL3Title": "实验；弹性碰撞和非弹性碰撞的特点。定量分析一维碰撞问题并",
+      "themeL3Key": "1.1.2",
+      "sectionTitle": "5.弹性碰撞和非弹性碰撞",
+      "sectionVolume": "选择性必修 第一册",
+      "similarity": 0.7594,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:65",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:44"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:45",
+    "target": "urn:jy:physics:SB0401:OB06:Section:108",
+    "evidence": {
+      "themeL3Title": "体会用守恒定律分析物理问题的方法；体会自然界的和谐与统一",
+      "themeL3Key": "1.1.3",
+      "sectionTitle": "2.气体的等温变化",
+      "sectionVolume": "选择性必修 第三册",
+      "similarity": 0.3385,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:108",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:45"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:46",
+    "target": "urn:jy:physics:SB0401:OB06:Section:68",
+    "evidence": {
+      "themeL3Title": "实验；简谐运动的特征。能用公式和图像描述简谐运动",
+      "themeL3Key": "1.2.1",
+      "sectionTitle": "2.简谐运动的描述",
+      "sectionVolume": "选择性必修 第一册",
+      "similarity": 0.5837,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:68",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:46"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:47",
+    "target": "urn:jy:physics:SB0401:OB06:Section:15",
+    "evidence": {
+      "themeL3Title": "实验；单摆的周期与摆长的定量关系。知道单摆周期与摆长、重",
+      "themeL3Key": "1.2.2",
+      "sectionTitle": "2.实验：探究加速度与力、质量的关系",
+      "sectionVolume": "必修 第一册",
+      "similarity": 0.5,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:15",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:47"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:48",
+    "target": "urn:jy:physics:SB0401:OB06:Section:72",
+    "evidence": {
+      "themeL3Title": "实验；受迫振动的特点。了解产生共振的条件及其应用",
+      "themeL3Key": "1.2.3",
+      "sectionTitle": "6.受迫振动 共振",
+      "sectionVolume": "选择性必修 第一册",
+      "similarity": 0.462,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:72",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:48"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:49",
+    "target": "urn:jy:physics:SB0401:OB06:Section:74",
+    "evidence": {
+      "themeL3Title": "观察；波的特征。能区别横波和纵波。能用图像描述横波。理解",
+      "themeL3Key": "1.2.4",
+      "sectionTitle": "2.波的描述",
+      "sectionVolume": "选择性必修 第一册",
+      "similarity": 0.5291,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:74",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:49"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:50",
+    "target": "urn:jy:physics:SB0401:OB06:Section:75",
+    "evidence": {
+      "themeL3Title": "波的反射和折射现象。通过实验；波的干涉与衍射现象",
+      "themeL3Key": "1.2.5",
+      "sectionTitle": "3.波的反射、折射和衍射",
+      "sectionVolume": "选择性必修 第一册",
+      "similarity": 0.6376,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:75",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:50"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:51",
+    "target": "urn:jy:physics:SB0401:OB06:Section:77",
+    "evidence": {
+      "themeL3Title": "实验；多普勒效应。能解释多普勒效应产生的原因。能列举多普",
+      "themeL3Key": "1.2.6",
+      "sectionTitle": "5.多普勒效应",
+      "sectionVolume": "选择性必修 第一册",
+      "similarity": 0.5519,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:77",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:51"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:52",
+    "target": "urn:jy:physics:SB0401:OB06:Section:78",
+    "evidence": {
+      "themeL3Title": "实验；光的折射定律。会测量材料的折射率",
+      "themeL3Key": "1.3.1",
+      "sectionTitle": "1.光的折射",
+      "sectionVolume": "选择性必修 第一册",
+      "similarity": 0.5164,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:78",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:52"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:53",
+    "target": "urn:jy:physics:SB0401:OB06:Section:78",
+    "evidence": {
+      "themeL3Title": "光的全反射现象及其产生的条件。初步了解光纤的工作",
+      "themeL3Key": "1.3.2",
+      "sectionTitle": "1.光的折射",
+      "sectionVolume": "选择性必修 第一册",
+      "similarity": 0.4507,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:78",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:53"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:54",
+    "target": "urn:jy:physics:SB0401:OB06:Section:81",
+    "evidence": {
+      "themeL3Title": "观察光的干涉、衍射和偏振现象；这些现象产生的条件",
+      "themeL3Key": "1.3.3",
+      "sectionTitle": "4.实验：用双缝干涉测量光的波长",
+      "sectionVolume": "选择性必修 第一册",
+      "similarity": 0.4931,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:81",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:54"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:55",
+    "target": "urn:jy:physics:SB0401:OB06:Section:83",
+    "evidence": {
+      "themeL3Title": "实验；激光的特性。能举例说明激光技术在生产生活中的应用",
+      "themeL3Key": "1.3.4",
+      "sectionTitle": "6.光的偏振 激光",
+      "sectionVolume": "选择性必修 第一册",
+      "similarity": 0.4287,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:83",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:55"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:56",
+    "target": "urn:jy:physics:SB0401:OB06:Section:84",
+    "evidence": {
+      "themeL3Title": "实验；安培力。能判断安培力的方向",
+      "themeL3Key": "2.1.1",
+      "sectionTitle": "1.磁场对通电导线的作用力",
+      "sectionVolume": "选择性必修 第二册",
+      "similarity": 0.5172,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:84",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:56"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:57",
+    "target": "urn:jy:physics:SB0401:OB06:Section:84",
+    "evidence": {
+      "themeL3Title": "实验；洛伦兹力。能判断洛伦兹力的方向",
+      "themeL3Key": "2.1.2",
+      "sectionTitle": "1.磁场对通电导线的作用力",
+      "sectionVolume": "选择性必修 第二册",
+      "similarity": 0.5318,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:84",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:57"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:58",
+    "target": "urn:jy:physics:SB0401:OB06:Section:86",
+    "evidence": {
+      "themeL3Title": "用洛伦兹力分析带电粒子在匀强磁场中的圆周运动。了解带电粒",
+      "themeL3Key": "2.1.3",
+      "sectionTitle": "3.带电粒子在匀强磁场中的运动",
+      "sectionVolume": "选择性必修 第二册",
+      "similarity": 0.7249,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:86",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:58"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:59",
+    "target": "urn:jy:physics:SB0401:OB06:Section:88",
+    "evidence": {
+      "themeL3Title": "影响感应电流方向的因素；楞次定律",
+      "themeL3Key": "2.2.1",
+      "sectionTitle": "1.楞次定律",
+      "sectionVolume": "选择性必修 第二册",
+      "similarity": 0.5276,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:88",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:59"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:60",
+    "target": "urn:jy:physics:SB0401:OB06:Section:89",
+    "evidence": {
+      "themeL3Title": "实验；法拉第电磁感应定律",
+      "themeL3Key": "2.2.2",
+      "sectionTitle": "2.法拉第电磁感应定律",
+      "sectionVolume": "选择性必修 第二册",
+      "similarity": 0.7926,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:89",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:60"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:61",
+    "target": "urn:jy:physics:SB0401:OB06:Section:91",
+    "evidence": {
+      "themeL3Title": "实验；自感现象和涡流现象。能举例说明自感现象",
+      "themeL3Key": "2.2.3",
+      "sectionTitle": "4.互感和自感",
+      "sectionVolume": "选择性必修 第二册",
+      "similarity": 0.3487,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:91",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:61"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:62",
+    "target": "urn:jy:physics:SB0401:OB06:Section:93",
+    "evidence": {
+      "themeL3Title": "实验；交变电流。能用公式和图像描述正弦交变电流",
+      "themeL3Key": "2.2.4",
+      "sectionTitle": "2.交变电流的描述",
+      "sectionVolume": "选择性必修 第二册",
+      "similarity": 0.7006,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:93",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:62"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:63",
+    "target": "urn:jy:physics:SB0401:OB06:Section:94",
+    "evidence": {
+      "themeL3Title": "实验；并了解变压器原、副线圈电压与匝数的关系。知道远距离",
+      "themeL3Key": "2.2.5",
+      "sectionTitle": "3.变压器",
+      "sectionVolume": "选择性必修 第二册",
+      "similarity": 0.3423,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:94",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:63"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:64",
+    "target": "urn:jy:physics:SB0401:OB06:Section:46",
+    "evidence": {
+      "themeL3Title": "发电机和电动机工作过程中的能量转化。认识电磁学在人类生活",
+      "themeL3Key": "2.2.6",
+      "sectionTitle": "5.带电粒子在电场中的运动",
+      "sectionVolume": "必修 第三册",
+      "similarity": 0.5059,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:46",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:64"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:65",
+    "target": "urn:jy:physics:SB0401:OB06:Section:44",
+    "evidence": {
+      "themeL3Title": "初步了解麦克斯韦电磁场理论的基本思想；初步了解场的统一性",
+      "themeL3Key": "2.3.1",
+      "sectionTitle": "3.电势差与电场强度的关系",
+      "sectionVolume": "必修 第三册",
+      "similarity": 0.3159,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:44",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:65"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:66",
+    "target": "urn:jy:physics:SB0401:OB06:Section:96",
+    "evidence": {
+      "themeL3Title": "实验；电磁振荡",
+      "themeL3Key": "2.3.2",
+      "sectionTitle": "1.电磁振荡",
+      "sectionVolume": "选择性必修 第二册",
+      "similarity": 0.6788,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:96",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:66"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:67",
+    "target": "urn:jy:physics:SB0401:OB06:Section:98",
+    "evidence": {
+      "themeL3Title": "电磁波的发射、传播和接收",
+      "themeL3Key": "2.3.3",
+      "sectionTitle": "3.无线电波的发射和接收",
+      "sectionVolume": "选择性必修 第二册",
+      "similarity": 0.6604,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:98",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:67"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:68",
+    "target": "urn:jy:physics:SB0401:OB06:Section:59",
+    "evidence": {
+      "themeL3Title": "电磁波谱。知道各个波段的电磁波的名称、特征和典型应用",
+      "themeL3Key": "2.3.4",
+      "sectionTitle": "4.电磁波的发现及应用",
+      "sectionVolume": "必修 第三册",
+      "similarity": 0.6014,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:59",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:68"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:69",
+    "target": "urn:jy:physics:SB0401:OB06:Section:45",
+    "evidence": {
+      "themeL3Title": "非电学量转换成电学量的技术意义",
+      "themeL3Key": "2.4.1",
+      "sectionTitle": "4.电容器的电容",
+      "sectionVolume": "必修 第三册",
+      "similarity": 0.423,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:45",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:69"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:70",
+    "target": "urn:jy:physics:SB0401:OB06:Section:102",
+    "evidence": {
+      "themeL3Title": "实验；常见传感器的工作原理。会利用传感器制作简单的自动控",
+      "themeL3Key": "2.4.2",
+      "sectionTitle": "3.利用传感器制作简单的自动控制装置",
+      "sectionVolume": "选择性必修 第二册",
+      "similarity": 0.7919,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:102",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:70"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:71",
+    "target": "urn:jy:physics:SB0401:OB06:Section:101",
+    "evidence": {
+      "themeL3Title": "列举传感器在生产生活中的应用",
+      "themeL3Key": "2.4.3",
+      "sectionTitle": "2.常见传感器的工作原理及应用",
+      "sectionVolume": "选择性必修 第二册",
+      "similarity": 0.45,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:101",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:71"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:72",
+    "target": "urn:jy:physics:SB0401:OB06:Section:104",
+    "evidence": {
+      "themeL3Title": "实验；估测油酸分子的大小。了解分子动理论的基本观点及相关",
+      "themeL3Key": "3.1.1",
+      "sectionTitle": "2.实验：用油膜法估测油酸分子的大小",
+      "sectionVolume": "选择性必修 第三册",
+      "similarity": 0.7102,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:104",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:72"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:73",
+    "target": "urn:jy:physics:SB0401:OB06:Section:105",
+    "evidence": {
+      "themeL3Title": "实验；扩散现象。观察并解释布朗运动。了解分子运动速率分布",
+      "themeL3Key": "3.1.2",
+      "sectionTitle": "3.分子运动速率分布规律",
+      "sectionVolume": "选择性必修 第三册",
+      "similarity": 0.6548,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:105",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:73"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:74",
+    "target": "urn:jy:physics:SB0401:OB06:Section:108",
+    "evidence": {
+      "themeL3Title": "固体的微观结构。知道晶体和非晶体的特点。能列举生活中的晶",
+      "themeL3Key": "3.1.3",
+      "sectionTitle": "2.气体的等温变化",
+      "sectionVolume": "选择性必修 第三册",
+      "similarity": 0.4687,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:108",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:74"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:75",
+    "target": "urn:jy:physics:SB0401:OB06:Section:18",
+    "evidence": {
+      "themeL3Title": "材料科学的有关知识及应用；体会它们的发展对人类生活和社会",
+      "themeL3Key": "3.1.4",
+      "sectionTitle": "5.牛顿运动定律的应用",
+      "sectionVolume": "必修 第一册",
+      "similarity": 0.2969,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:18",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:75"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:76",
+    "target": "urn:jy:physics:SB0401:OB06:Section:12",
+    "evidence": {
+      "themeL3Title": "观察液体的表面张力现象。了解表面张力产生的原因。知道毛细",
+      "themeL3Key": "3.1.5",
+      "sectionTitle": "4.力的合成和分解",
+      "sectionVolume": "必修 第一册",
+      "similarity": 0.2736,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:12",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:76"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:77",
+    "target": "urn:jy:physics:SB0401:OB06:Section:108",
+    "evidence": {
+      "themeL3Title": "实验；气体实验定律。知道理想气体模型。能用分子动理论和统",
+      "themeL3Key": "3.1.6",
+      "sectionTitle": "2.气体的等温变化",
+      "sectionVolume": "选择性必修 第三册",
+      "similarity": 0.4586,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:108",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:77"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:78",
+    "target": "urn:jy:physics:SB0401:OB06:Section:113",
+    "evidence": {
+      "themeL3Title": "热力学第一定律。通过有关史实；热力学第一定律和能量守恒定",
+      "themeL3Key": "3.2.1",
+      "sectionTitle": "2.热力学第一定律",
+      "sectionVolume": "选择性必修 第三册",
+      "similarity": 0.7502,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:113",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:78"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:79",
+    "target": "urn:jy:physics:SB0401:OB06:Section:52",
+    "evidence": {
+      "themeL3Title": "能量守恒定律；用能量守恒的观点解释自然现象。体会能量守恒",
+      "themeL3Key": "3.2.2",
+      "sectionTitle": "1.电路中的能量转化",
+      "sectionVolume": "必修 第三册",
+      "similarity": 0.618,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:52",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:79"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:80",
+    "target": "urn:jy:physics:SB0401:OB06:Section:115",
+    "evidence": {
+      "themeL3Title": "自然界中宏观过程的方向性；热力学第二定律",
+      "themeL3Key": "3.2.3",
+      "sectionTitle": "4.热力学第二定律",
+      "sectionVolume": "选择性必修 第三册",
+      "similarity": 0.5459,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:115",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:80"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:81",
+    "target": "urn:jy:physics:SB0401:OB06:Section:118",
+    "evidence": {
+      "themeL3Title": "人类探索原子及其结构的历史。知道原子的核式结构模型。通过",
+      "themeL3Key": "3.3.1",
+      "sectionTitle": "3.原子的核式结构模型",
+      "sectionVolume": "选择性必修 第三册",
+      "similarity": 0.6864,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:118",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:81"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:82",
+    "target": "urn:jy:physics:SB0401:OB06:Section:121",
+    "evidence": {
+      "themeL3Title": "原子核的组成和核力的性质。知道四种基本相互作用。能根据质",
+      "themeL3Key": "3.3.2",
+      "sectionTitle": "1.原子核的组成",
+      "sectionVolume": "选择性必修 第三册",
+      "similarity": 0.4815,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:121",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:82"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:83",
+    "target": "urn:jy:physics:SB0401:OB06:Section:122",
+    "evidence": {
+      "themeL3Title": "放射性和原子核衰变。知道半衰期及其统计意义。了解放射性同",
+      "themeL3Key": "3.3.3",
+      "sectionTitle": "2.放射性元素的衰变",
+      "sectionVolume": "选择性必修 第三册",
+      "similarity": 0.5593,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:122",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:83"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:84",
+    "target": "urn:jy:physics:SB0401:OB06:Section:124",
+    "evidence": {
+      "themeL3Title": "原子核的结合能；核裂变反应和核聚变反应。关注核技术应用对",
+      "themeL3Key": "3.3.4",
+      "sectionTitle": "4.核裂变与核聚变",
+      "sectionVolume": "选择性必修 第三册",
+      "similarity": 0.5939,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:124",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:84"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:85",
+    "target": "urn:jy:physics:SB0401:OB06:Section:118",
+    "evidence": {
+      "themeL3Title": "人类对物质结构的探索历程",
+      "themeL3Key": "3.3.5",
+      "sectionTitle": "3.原子的核式结构模型",
+      "sectionVolume": "选择性必修 第三册",
+      "similarity": 0.2582,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:118",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:85"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:86",
+    "target": "urn:jy:physics:SB0401:OB06:Section:117",
+    "evidence": {
+      "themeL3Title": "实验；光电效应现象。知道爱因斯坦光电效应方程及其意义。能",
+      "themeL3Key": "3.4.1",
+      "sectionTitle": "2.光电效应",
+      "sectionVolume": "选择性必修 第三册",
+      "similarity": 0.4637,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:117",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:86"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:87",
+    "target": "urn:jy:physics:SB0401:OB06:Section:120",
+    "evidence": {
+      "themeL3Title": "实物粒子具有波动性；微观世界的量子化特征。体会量子论的建",
+      "themeL3Key": "3.4.2",
+      "sectionTitle": "5.粒子的波动性和量子力学的建立",
+      "sectionVolume": "选择性必修 第三册",
+      "similarity": 0.5554,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:120",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:87"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:88",
+    "target": "urn:jy:physics:SB0401:OB06:Section:32",
+    "evidence": {
+      "themeL3Title": "古希腊的宇宙观与我国古代的宇宙观。了解哥白尼日心说对宇宙",
+      "themeL3Key": "1.1.1",
+      "sectionTitle": "5.相对论时空观与牛顿力学的局限性",
+      "sectionVolume": "必修 第二册",
+      "similarity": 0.4098,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:32",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:88"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:89",
+    "target": "urn:jy:physics:SB0401:OB06:Section:32",
+    "evidence": {
+      "themeL3Title": "伽利略的实验方法和逻辑方法对牛顿力学诞生的贡献。了解牛顿",
+      "themeL3Key": "1.1.2",
+      "sectionTitle": "5.相对论时空观与牛顿力学的局限性",
+      "sectionVolume": "必修 第二册",
+      "similarity": 0.3546,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:32",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:89"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:90",
+    "target": "urn:jy:physics:SB0401:OB06:Section:133",
+    "evidence": {
+      "themeL3Title": "19世纪末物理学的发现对于近代物理学革命的意义",
+      "themeL3Key": "1.1.3",
+      "sectionTitle": "高考物理复习（五）—— 物理模型与建模",
+      "sectionVolume": "选择性必修 第三册",
+      "similarity": 0.2604,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:133",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:90"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:91",
+    "target": "urn:jy:physics:SB0401:OB06:Section:120",
+    "evidence": {
+      "themeL3Title": "波粒二象性的物理思想；体会人们对物质本性认识的不断发展",
+      "themeL3Key": "1.1.4",
+      "sectionTitle": "5.粒子的波动性和量子力学的建立",
+      "sectionVolume": "选择性必修 第三册",
+      "similarity": 0.3745,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:120",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:91"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:92",
+    "target": "urn:jy:physics:SB0401:OB06:Section:32",
+    "evidence": {
+      "themeL3Title": "相对论的时空观；质能关系的意义",
+      "themeL3Key": "1.1.5",
+      "sectionTitle": "5.相对论时空观与牛顿力学的局限性",
+      "sectionVolume": "必修 第二册",
+      "similarity": 0.3919,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:32",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:92"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:93",
+    "target": "urn:jy:physics:SB0401:OB06:Section:133",
+    "evidence": {
+      "themeL3Title": "我国物理学家的成果与贡献",
+      "themeL3Key": "1.1.6",
+      "sectionTitle": "高考物理复习（五）—— 物理模型与建模",
+      "sectionVolume": "选择性必修 第三册",
+      "similarity": 0.25,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:133",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:93"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:94",
+    "target": "urn:jy:physics:SB0401:OB06:Section:18",
+    "evidence": {
+      "themeL3Title": "蒸汽机的发明对第一次工业革命的推动作用",
+      "themeL3Key": "1.2.1",
+      "sectionTitle": "5.牛顿运动定律的应用",
+      "sectionVolume": "必修 第一册",
+      "similarity": 0.3451,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:18",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:94"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:95",
+    "target": "urn:jy:physics:SB0401:OB06:Section:59",
+    "evidence": {
+      "themeL3Title": "电磁学的发展对第二次工业革命的推动作用",
+      "themeL3Key": "1.2.2",
+      "sectionTitle": "4.电磁波的发现及应用",
+      "sectionVolume": "必修 第三册",
+      "similarity": 0.3799,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:59",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:95"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:96",
+    "target": "urn:jy:physics:SB0401:OB06:Section:48",
+    "evidence": {
+      "themeL3Title": "集成电路的进展；微电子技术的应用对社会发展的影响",
+      "themeL3Key": "1.2.3",
+      "sectionTitle": "2.导体的电阻",
+      "sectionVolume": "必修 第三册",
+      "similarity": 0.41,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:48",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:96"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:97",
+    "target": "urn:jy:physics:SB0401:OB06:Section:18",
+    "evidence": {
+      "themeL3Title": "信息技术的应用对社会发展的影响",
+      "themeL3Key": "1.2.4",
+      "sectionTitle": "5.牛顿运动定律的应用",
+      "sectionVolume": "必修 第一册",
+      "similarity": 0.2869,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:18",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:97"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:98",
+    "target": "urn:jy:physics:SB0401:OB06:Section:18",
+    "evidence": {
+      "themeL3Title": "核技术的应用对社会发展的影响",
+      "themeL3Key": "1.2.5",
+      "sectionTitle": "5.牛顿运动定律的应用",
+      "sectionVolume": "必修 第一册",
+      "similarity": 0.2954,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:18",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:98"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:99",
+    "target": "urn:jy:physics:SB0401:OB06:Section:55",
+    "evidence": {
+      "themeL3Title": "可再生能源与不可再生能源在生活中应用的实例",
+      "themeL3Key": "1.3.1",
+      "sectionTitle": "4.能源与可持续发展",
+      "sectionVolume": "必修 第三册",
+      "similarity": 0.3621,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:55",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:99"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:100",
+    "target": "urn:jy:physics:SB0401:OB06:Section:46",
+    "evidence": {
+      "themeL3Title": "列举微电子技术在生活中的应用实例。了解电视广播技术的发展",
+      "themeL3Key": "1.3.2",
+      "sectionTitle": "5.带电粒子在电场中的运动",
+      "sectionVolume": "必修 第三册",
+      "similarity": 0.4227,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:46",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:100"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:101",
+    "target": "urn:jy:physics:SB0401:OB06:Section:73",
+    "evidence": {
+      "themeL3Title": "计算机、手机等发展的大致历程及其对生活的影响",
+      "themeL3Key": "1.3.3",
+      "sectionTitle": "1.波的形成",
+      "sectionVolume": "选择性必修 第一册",
+      "similarity": 0.2243,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:73",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:101"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:102",
+    "target": "urn:jy:physics:SB0401:OB06:Section:83",
+    "evidence": {
+      "themeL3Title": "激光技术和光纤通信技术在生活中的应用",
+      "themeL3Key": "1.3.4",
+      "sectionTitle": "6.光的偏振 激光",
+      "sectionVolume": "选择性必修 第一册",
+      "similarity": 0.4041,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:83",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:102"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:103",
+    "target": "urn:jy:physics:SB0401:OB06:Section:27",
+    "evidence": {
+      "themeL3Title": "航天技术对生活的影响",
+      "themeL3Key": "1.3.5",
+      "sectionTitle": "4.生活中的圆周运动",
+      "sectionVolume": "必修 第二册",
+      "similarity": 0.193,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:27",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:103"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:104",
+    "target": "urn:jy:physics:SB0401:OB06:Section:75",
+    "evidence": {
+      "themeL3Title": "声波的反射在B超中的应用",
+      "themeL3Key": "2.1.1",
+      "sectionTitle": "3.波的反射、折射和衍射",
+      "sectionVolume": "选择性必修 第一册",
+      "similarity": 0.4288,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:75",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:104"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:105",
+    "target": "urn:jy:physics:SB0401:OB06:Section:77",
+    "evidence": {
+      "themeL3Title": "多普勒效应在彩超中的应用",
+      "themeL3Key": "2.1.2",
+      "sectionTitle": "5.多普勒效应",
+      "sectionVolume": "选择性必修 第一册",
+      "similarity": 0.4751,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:77",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:105"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:106",
+    "target": "urn:jy:physics:SB0401:OB06:Section:108",
+    "evidence": {
+      "themeL3Title": "X射线对人体不同组织的穿透性差异",
+      "themeL3Key": "2.1.3",
+      "sectionTitle": "2.气体的等温变化",
+      "sectionVolume": "选择性必修 第三册",
+      "similarity": 0.2176,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:108",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:106"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:107",
+    "target": "urn:jy:physics:SB0401:OB06:Section:103",
+    "evidence": {
+      "themeL3Title": "CT扫描的基本原理",
+      "themeL3Key": "2.1.4",
+      "sectionTitle": "1.分子动理论的基本内容",
+      "sectionVolume": "选择性必修 第三册",
+      "similarity": 0.3066,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:103",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:107"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:108",
+    "target": "urn:jy:physics:SB0401:OB06:Section:48",
+    "evidence": {
+      "themeL3Title": "典型射线的特性及其防护措施；这些射线在医学中的应用及其对",
+      "themeL3Key": "2.1.5",
+      "sectionTitle": "2.导体的电阻",
+      "sectionVolume": "必修 第三册",
+      "similarity": 0.3399,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:48",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:108"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:109",
+    "target": "urn:jy:physics:SB0401:OB06:Section:55",
+    "evidence": {
+      "themeL3Title": "可再生能源和不可再生能源的开发与利用；新能源开发的必要性",
+      "themeL3Key": "2.2.1",
+      "sectionTitle": "4.能源与可持续发展",
+      "sectionVolume": "必修 第三册",
+      "similarity": 0.458,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:55",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:109"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:110",
+    "target": "urn:jy:physics:SB0401:OB06:Section:41",
+    "evidence": {
+      "themeL3Title": "太阳能利用的常见方式及应用前景",
+      "themeL3Key": "2.2.2",
+      "sectionTitle": "4.静电的防止与利用",
+      "sectionVolume": "必修 第三册",
+      "similarity": 0.3904,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:41",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:110"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:111",
+    "target": "urn:jy:physics:SB0401:OB06:Section:124",
+    "evidence": {
+      "themeL3Title": "核裂变和核聚变；核能的利用及核废料的处理",
+      "themeL3Key": "2.2.3",
+      "sectionTitle": "4.核裂变与核聚变",
+      "sectionVolume": "选择性必修 第三册",
+      "similarity": 0.6457,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:124",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:111"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:112",
+    "target": "urn:jy:physics:SB0401:OB06:Section:52",
+    "evidence": {
+      "themeL3Title": "地热能、潮汐能及风能等的利用",
+      "themeL3Key": "2.2.4",
+      "sectionTitle": "1.电路中的能量转化",
+      "sectionVolume": "必修 第三册",
+      "similarity": 0.4032,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:52",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:112"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:113",
+    "target": "urn:jy:physics:SB0401:OB06:Section:127",
+    "evidence": {
+      "themeL3Title": "物理学在新材料开发中的作用",
+      "themeL3Key": "2.3.1",
+      "sectionTitle": "电学复习之带电物体在场中的运动",
+      "sectionVolume": "选择性必修 第三册",
+      "similarity": 0.2722,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:127",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:113"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:114",
+    "target": "urn:jy:physics:SB0401:OB06:Section:48",
+    "evidence": {
+      "themeL3Title": "纳米材料的特性及其在生活中的应用",
+      "themeL3Key": "2.3.2",
+      "sectionTitle": "2.导体的电阻",
+      "sectionVolume": "必修 第三册",
+      "similarity": 0.3383,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:48",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:114"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:115",
+    "target": "urn:jy:physics:SB0401:OB06:Section:48",
+    "evidence": {
+      "themeL3Title": "超导体的一些特点；超导技术的应用",
+      "themeL3Key": "2.3.3",
+      "sectionTitle": "2.导体的电阻",
+      "sectionVolume": "必修 第三册",
+      "similarity": 0.4046,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:48",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:115"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:116",
+    "target": "urn:jy:physics:SB0401:OB06:Section:48",
+    "evidence": {
+      "themeL3Title": "一些功能材料的特性及应用",
+      "themeL3Key": "2.3.4",
+      "sectionTitle": "2.导体的电阻",
+      "sectionVolume": "必修 第三册",
+      "similarity": 0.343,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:48",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:116"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:117",
+    "target": "urn:jy:physics:SB0401:OB06:Section:133",
+    "evidence": {
+      "themeL3Title": "物理学对信息技术发展的贡献",
+      "themeL3Key": "2.4.1",
+      "sectionTitle": "高考物理复习（五）—— 物理模型与建模",
+      "sectionVolume": "选择性必修 第三册",
+      "similarity": 0.1925,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:133",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:117"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:118",
+    "target": "urn:jy:physics:SB0401:OB06:Section:136",
+    "evidence": {
+      "themeL3Title": "智能手机的一些功能及其对生活的影响",
+      "themeL3Key": "2.4.2",
+      "sectionTitle": "力学中的功能关系与能量守恒",
+      "sectionVolume": "选择性必修 第三册",
+      "similarity": 0.3463,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:136",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:118"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:119",
+    "target": "urn:jy:physics:SB0401:OB06:Section:41",
+    "evidence": {
+      "themeL3Title": "计算机的主要部件及其作用",
+      "themeL3Key": "2.4.3",
+      "sectionTitle": "4.静电的防止与利用",
+      "sectionVolume": "必修 第三册",
+      "similarity": 0.2887,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:41",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:119"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:120",
+    "target": "urn:jy:physics:SB0401:OB06:Section:18",
+    "evidence": {
+      "themeL3Title": "卫星定位系统的发展历程及其在生活中的应用",
+      "themeL3Key": "2.4.4",
+      "sectionTitle": "5.牛顿运动定律的应用",
+      "sectionVolume": "必修 第一册",
+      "similarity": 0.3373,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:18",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:120"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:121",
+    "target": "urn:jy:physics:SB0401:OB06:Section:35",
+    "evidence": {
+      "themeL3Title": "物理学对人工智能发展的推动作用",
+      "themeL3Key": "2.4.5",
+      "sectionTitle": "3.动能和动能定理",
+      "sectionVolume": "必修 第二册",
+      "similarity": 0.2933,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:35",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:121"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:122",
+    "target": "urn:jy:physics:SB0401:OB06:Section:1",
+    "evidence": {
+      "themeL3Title": "对宏观物体与微观粒子运动特点描述的差异",
+      "themeL3Key": "3.1.1",
+      "sectionTitle": "1.质点 参考系",
+      "sectionVolume": "必修 第一册",
+      "similarity": 0.3589,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:1",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:122"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:123",
+    "target": "urn:jy:physics:SB0401:OB06:Section:120",
+    "evidence": {
+      "themeL3Title": "德布罗意物质波；物质的波粒二象性",
+      "themeL3Key": "3.1.2",
+      "sectionTitle": "5.粒子的波动性和量子力学的建立",
+      "sectionVolume": "选择性必修 第三册",
+      "similarity": 0.3902,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:120",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:123"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:124",
+    "target": "urn:jy:physics:SB0401:OB06:Section:62",
+    "evidence": {
+      "themeL3Title": "初步了解海森伯不确定性原理",
+      "themeL3Key": "3.1.3",
+      "sectionTitle": "2.动量定理",
+      "sectionVolume": "选择性必修 第一册",
+      "similarity": 0.1909,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:62",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:124"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:125",
+    "target": "urn:jy:physics:SB0401:OB06:Section:125",
+    "evidence": {
+      "themeL3Title": "初步了解基本粒子的微观模型及其特点",
+      "themeL3Key": "3.1.4",
+      "sectionTitle": "5.“基本”粒子",
+      "sectionVolume": "选择性必修 第三册",
+      "similarity": 0.3501,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:125",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:125"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:126",
+    "target": "urn:jy:physics:SB0401:OB06:Section:125",
+    "evidence": {
+      "themeL3Title": "人类探索基本粒子的大致历程；这种探索将不断深入",
+      "themeL3Key": "3.1.5",
+      "sectionTitle": "5.“基本”粒子",
+      "sectionVolume": "选择性必修 第三册",
+      "similarity": 0.2778,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:125",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:126"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:127",
+    "target": "urn:jy:physics:SB0401:OB06:Section:119",
+    "evidence": {
+      "themeL3Title": "相对性原理和光速不变原理",
+      "themeL3Key": "3.2.1",
+      "sectionTitle": "4.氢原子光谱和玻尔的原子模型",
+      "sectionVolume": "选择性必修 第三册",
+      "similarity": 0.3892,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:119",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:127"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:128",
+    "target": "urn:jy:physics:SB0401:OB06:Section:117",
+    "evidence": {
+      "themeL3Title": "公式；长度收缩效应和时间延缓效应",
+      "themeL3Key": "3.2.2",
+      "sectionTitle": "2.光电效应",
+      "sectionVolume": "选择性必修 第三册",
+      "similarity": 0.2695,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:117",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:128"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:129",
+    "target": "urn:jy:physics:SB0401:OB06:Section:52",
+    "evidence": {
+      "themeL3Title": "爱因斯坦质能方程的意义",
+      "themeL3Key": "3.2.3",
+      "sectionTitle": "1.电路中的能量转化",
+      "sectionVolume": "必修 第三册",
+      "similarity": 0.2154,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:52",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:129"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:130",
+    "target": "urn:jy:physics:SB0401:OB06:Section:32",
+    "evidence": {
+      "themeL3Title": "广义相对论的主要思想、结论和观测证据",
+      "themeL3Key": "3.2.4",
+      "sectionTitle": "5.相对论时空观与牛顿力学的局限性",
+      "sectionVolume": "必修 第二册",
+      "similarity": 0.238,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:32",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:130"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:131",
+    "target": "urn:jy:physics:SB0401:OB06:Section:5",
+    "evidence": {
+      "themeL3Title": "人类探索高速世界的大致历程；这种探索将不断深入",
+      "themeL3Key": "3.2.5",
+      "sectionTitle": "1.实验：探究小车速度随时间变化的规律",
+      "sectionVolume": "必修 第一册",
+      "similarity": 0.1898,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:5",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:131"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:132",
+    "target": "urn:jy:physics:SB0401:OB06:Section:103",
+    "evidence": {
+      "themeL3Title": "初步了解大爆炸宇宙论的理论模型及其观测证据",
+      "themeL3Key": "3.3.1",
+      "sectionTitle": "1.分子动理论的基本内容",
+      "sectionVolume": "选择性必修 第三册",
+      "similarity": 0.2758,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:103",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:132"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:133",
+    "target": "urn:jy:physics:SB0401:OB06:Section:59",
+    "evidence": {
+      "themeL3Title": "初步了解黑洞及对黑洞的观测方法",
+      "themeL3Key": "3.3.2",
+      "sectionTitle": "4.电磁波的发现及应用",
+      "sectionVolume": "必修 第三册",
+      "similarity": 0.1469,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:59",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:133"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:134",
+    "target": "urn:jy:physics:SB0401:OB06:Section:60",
+    "evidence": {
+      "themeL3Title": "初步了解暗物质和暗能量",
+      "themeL3Key": "3.3.3",
+      "sectionTitle": "5.能量量子化",
+      "sectionVolume": "必修 第三册",
+      "similarity": 0.2774,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:60",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:134"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:135",
+    "target": "urn:jy:physics:SB0401:OB06:Section:133",
+    "evidence": {
+      "themeL3Title": "初步了解物质与反物质",
+      "themeL3Key": "3.3.4",
+      "sectionTitle": "高考物理复习（五）—— 物理模型与建模",
+      "sectionVolume": "选择性必修 第三册",
+      "similarity": 0.2362,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:133",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:135"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:136",
+    "target": "urn:jy:physics:SB0401:OB06:Section:31",
+    "evidence": {
+      "themeL3Title": "初步了解宇宙论的一些进展",
+      "themeL3Key": "3.3.5",
+      "sectionTitle": "4.宇宙航行",
+      "sectionVolume": "必修 第二册",
+      "similarity": 0.2357,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:31",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:136"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:137",
+    "target": "urn:jy:physics:SB0401:OB06:Section:13",
+    "evidence": {
+      "themeL3Title": "四种基本相互作用及其特点",
+      "themeL3Key": "3.4.1",
+      "sectionTitle": "5.共点力的平衡",
+      "sectionVolume": "必修 第一册",
+      "similarity": 0.3536,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:13",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:137"
+  },
+  {
+    "relationName": "themeL3RequiresSectionKnowledge",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:SB0401:OB06:ThemeL3:138",
+    "target": "urn:jy:physics:SB0401:OB06:Section:12",
+    "evidence": {
+      "themeL3Title": "初步了解追求相互作用统一的思想和探索在物理学发展中的作用",
+      "themeL3Key": "3.4.2",
+      "sectionTitle": "4.力的合成和分解",
+      "sectionVolume": "必修 第一册",
+      "similarity": 0.4159,
+      "note": "由课程标准内容要点与教材节标题语义匹配得到；若为选修模块(ThemeL2>=21)，教材节可能无直接对应。"
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:12",
+    "target": "urn:jy:physics:SB0401:OB06:ThemeL3:138"
+  }
+]

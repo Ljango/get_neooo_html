@@ -1,0 +1,453 @@
+{
+  "relations":[
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s1:a2e5ebacb2b6",
+    "target": "urn:jy:math:2022:theme:s1:na:number-operations"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s1:c18219d64335",
+    "target": "urn:jy:math:2022:theme:s1:na:number-operations"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s1:13922f93c7b8",
+    "target": "urn:jy:math:2022:theme:s1:na:number-operations"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s1:0995924b9098",
+    "target": "urn:jy:math:2022:theme:s1:na:number-operations"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s1:98884d65f00e",
+    "target": "urn:jy:math:2022:theme:s1:na:quantitative-relations"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s1:d42938e27cbc",
+    "target": "urn:jy:math:2022:theme:s1:na:quantitative-relations"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s1:d7989dfa8d3d",
+    "target": "urn:jy:math:2022:theme:s1:sg:recognition-measurement"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s1:68672dbf526c",
+    "target": "urn:jy:math:2022:theme:s1:sg:recognition-measurement"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s1:762418ade1b2",
+    "target": "urn:jy:math:2022:theme:s1:sp:data-categorization"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s2:f5c1bd00e09b",
+    "target": "urn:jy:math:2022:theme:s2:na:number-operations"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s2:2d725b131692",
+    "target": "urn:jy:math:2022:theme:s2:na:number-operations"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s2:23e63bfd19ab",
+    "target": "urn:jy:math:2022:theme:s2:na:number-operations"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s2:668d93f63207",
+    "target": "urn:jy:math:2022:theme:s2:na:quantitative-relations"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s2:f372f27b5855",
+    "target": "urn:jy:math:2022:theme:s2:na:quantitative-relations"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s2:745e0c0a85b4",
+    "target": "urn:jy:math:2022:theme:s2:na:quantitative-relations"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s2:2cad0bcc97af",
+    "target": "urn:jy:math:2022:theme:s2:na:quantitative-relations"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s2:b508cee513c7",
+    "target": "urn:jy:math:2022:theme:s2:na:quantitative-relations"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s2:725d5a7695da",
+    "target": "urn:jy:math:2022:theme:s2:sg:recognition-measurement"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s2:4a5cec4bd496",
+    "target": "urn:jy:math:2022:theme:s2:sg:recognition-measurement"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s2:6bcdd1171128",
+    "target": "urn:jy:math:2022:theme:s2:sg:recognition-measurement"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s2:3077a850e651",
+    "target": "urn:jy:math:2022:theme:s2:sg:position-motion"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s2:fc96e8a3f3cf",
+    "target": "urn:jy:math:2022:theme:s2:sp:collect-organize-express"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s2:2ca5642ea120",
+    "target": "urn:jy:math:2022:theme:s2:sp:collect-organize-express"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s2:1e65a98d0bce",
+    "target": "urn:jy:math:2022:theme:s2:sp:collect-organize-express"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s2:c7de177520f3",
+    "target": "urn:jy:math:2022:theme:s2:sp:collect-organize-express"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s3:9b9879b3e266",
+    "target": "urn:jy:math:2022:theme:s3:na:number-operations"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s3:3ffadd37abf1",
+    "target": "urn:jy:math:2022:theme:s3:na:number-operations"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s3:e0a2a09c2cd2",
+    "target": "urn:jy:math:2022:theme:s3:na:quantitative-relations"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s3:e9ea68e7199d",
+    "target": "urn:jy:math:2022:theme:s3:na:quantitative-relations"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s3:3ffadd37abf1",
+    "target": "urn:jy:math:2022:theme:s3:na:quantitative-relations"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s3:8cf2541d6e3a",
+    "target": "urn:jy:math:2022:theme:s3:na:quantitative-relations"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s3:562167e4bf71",
+    "target": "urn:jy:math:2022:theme:s3:na:quantitative-relations"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s3:e0a2a09c2cd2",
+    "target": "urn:jy:math:2022:theme:s3:na:quantitative-relations"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s3:806f30a4fb9d",
+    "target": "urn:jy:math:2022:theme:s3:sg:recognition-measurement"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s3:818002e2dd5f",
+    "target": "urn:jy:math:2022:theme:s3:sg:recognition-measurement"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s3:90ab73250f5d",
+    "target": "urn:jy:math:2022:theme:s3:sg:recognition-measurement"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s3:8cf2541d6e3a",
+    "target": "urn:jy:math:2022:theme:s3:sg:recognition-measurement"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s3:562167e4bf71",
+    "target": "urn:jy:math:2022:theme:s3:sg:recognition-measurement"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s3:5741f0e46023",
+    "target": "urn:jy:math:2022:theme:s3:sg:recognition-measurement"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s3:6683a7bfa969",
+    "target": "urn:jy:math:2022:theme:s3:sg:position-motion"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s3:b96ce8eb88e9",
+    "target": "urn:jy:math:2022:theme:s3:sg:position-motion"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s3:6683a7bfa969",
+    "target": "urn:jy:math:2022:theme:s3:sg:position-motion"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s3:b96ce8eb88e9",
+    "target": "urn:jy:math:2022:theme:s3:sg:position-motion"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s3:520a2ab4ff4f",
+    "target": "urn:jy:math:2022:theme:s3:sg:position-motion"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s3:ad18f7c18b57",
+    "target": "urn:jy:math:2022:theme:s3:sp:collect-organize-express"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s3:cfe6f95a017f",
+    "target": "urn:jy:math:2022:theme:s3:sp:collect-organize-express"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s4:6c9ce1cc8258",
+    "target": "urn:jy:math:2022:theme:s4:na:expressions"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s4:709c05d94500",
+    "target": "urn:jy:math:2022:theme:s4:na:expressions"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s4:24a99d0ef0f3",
+    "target": "urn:jy:math:2022:theme:s4:na:expressions"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s4:24a99d0ef0f3",
+    "target": "urn:jy:math:2022:theme:s4:na:expressions"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s4:4f23b8ccc2db",
+    "target": "urn:jy:math:2022:theme:s4:na:equations-inequalities"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s4:96a9ec3584df",
+    "target": "urn:jy:math:2022:theme:s4:na:functions"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s4:d83e5c90b0eb",
+    "target": "urn:jy:math:2022:theme:s4:na:functions"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s4:e97e3a0bdc20",
+    "target": "urn:jy:math:2022:theme:s4:na:functions"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s4:93bd6b82df77",
+    "target": "urn:jy:math:2022:theme:s4:na:functions"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s4:93bd6b82df77",
+    "target": "urn:jy:math:2022:theme:s4:na:functions"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s4:93bd6b82df77",
+    "target": "urn:jy:math:2022:theme:s4:na:functions"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s4:950caf125022",
+    "target": "urn:jy:math:2022:theme:s4:na:functions"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s4:d83e5c90b0eb",
+    "target": "urn:jy:math:2022:theme:s4:na:functions"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s4:e97e3a0bdc20",
+    "target": "urn:jy:math:2022:theme:s4:na:functions"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s4:93bd6b82df77",
+    "target": "urn:jy:math:2022:theme:s4:na:functions"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s4:950caf125022",
+    "target": "urn:jy:math:2022:theme:s4:na:functions"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s4:3656a5b8ad98",
+    "target": "urn:jy:math:2022:theme:s4:sg:properties"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s4:722c6b301a60",
+    "target": "urn:jy:math:2022:theme:s4:sg:properties"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s4:9161fa53c2e4",
+    "target": "urn:jy:math:2022:theme:s4:sg:transformations"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s4:b24ec676f8ed",
+    "target": "urn:jy:math:2022:theme:s4:sg:transformations"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s4:5cf37d53082d",
+    "target": "urn:jy:math:2022:theme:s4:sg:transformations"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s4:5cf37d53082d",
+    "target": "urn:jy:math:2022:theme:s4:sg:transformations"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s4:5cf37d53082d",
+    "target": "urn:jy:math:2022:theme:s4:sg:transformations"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s4:5cf37d53082d",
+    "target": "urn:jy:math:2022:theme:s4:sg:transformations"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s4:8daa51a7ad9a",
+    "target": "urn:jy:math:2022:theme:s4:sg:coordinates"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s4:29103cab6af6",
+    "target": "urn:jy:math:2022:theme:s4:sp:sampling-data-analysis"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s4:3543a41230cc",
+    "target": "urn:jy:math:2022:theme:s4:sp:sampling-data-analysis"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s4:d25ddbc7b261",
+    "target": "urn:jy:math:2022:theme:s4:sp:sampling-data-analysis"
+  },
+  {
+    "relationName": "problemInTheme",
+    "label": "题目在主题中/problem_in_theme",
+    "source": "urn:jy:math:2022:problem:s4:d44c5a653d44",
+    "target": "urn:jy:math:2022:theme:s4:sp:probability"
+  }]
+}

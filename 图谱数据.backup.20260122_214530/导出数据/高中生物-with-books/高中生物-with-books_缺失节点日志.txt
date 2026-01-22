@@ -1,0 +1,1038 @@
+================================================================================
+缺失节点信息日志 - 高中生物-with-books
+生成时间: 2026-01-22 11:06:47
+================================================================================
+
+【统计摘要】
+  缺失头节点总数: 8
+  缺失尾节点总数: 8
+  涉及的关系文件数: 4
+  涉及的关系总数: 216
+
+================================================================================
+【按关系文件分组】
+================================================================================
+
+
+文件: AcademicQuality_CourseModule.json
+--------------------------------------------------------------------------------
+
+  缺失尾节点 (9 个):
+    行号    1 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB06:AcademicQuality:l1
+            | 关系名称: moduleAchievesAcademicQuality
+            | 头节点ID: urn:jy:biology:SB0403:OB06:CourseModule:l1
+
+    行号    2 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB06:AcademicQuality:l2
+            | 关系名称: moduleAchievesAcademicQuality
+            | 头节点ID: urn:jy:biology:SB0403:OB06:CourseModule:l1
+
+    行号    3 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB06:AcademicQuality:l3
+            | 关系名称: moduleAchievesAcademicQuality
+            | 头节点ID: urn:jy:biology:SB0403:OB06:CourseModule:l1
+
+    行号    4 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB06:AcademicQuality:l1
+            | 关系名称: moduleAchievesAcademicQuality
+            | 头节点ID: urn:jy:biology:SB0403:OB06:CourseModule:l2
+
+    行号    5 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB06:AcademicQuality:l2
+            | 关系名称: moduleAchievesAcademicQuality
+            | 头节点ID: urn:jy:biology:SB0403:OB06:CourseModule:l2
+
+    行号    6 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB06:AcademicQuality:l3
+            | 关系名称: moduleAchievesAcademicQuality
+            | 头节点ID: urn:jy:biology:SB0403:OB06:CourseModule:l2
+
+    行号    7 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB06:AcademicQuality:l1
+            | 关系名称: moduleAchievesAcademicQuality
+            | 头节点ID: urn:jy:biology:SB0403:OB06:CourseModule:l3
+
+    行号    8 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB06:AcademicQuality:l2
+            | 关系名称: moduleAchievesAcademicQuality
+            | 头节点ID: urn:jy:biology:SB0403:OB06:CourseModule:l3
+
+    行号    9 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB06:AcademicQuality:l3
+            | 关系名称: moduleAchievesAcademicQuality
+            | 头节点ID: urn:jy:biology:SB0403:OB06:CourseModule:l3
+
+
+文件: Chapter_Section.json
+--------------------------------------------------------------------------------
+
+  缺失头节点 (21 个):
+    行号    1 | 节点位置: 头节点    | 节点ID: urn:jy:biology:SB0403:OB06:Volume:必修1_分子与细胞
+            | 关系名称: volume_has_chapter
+            | 尾节点ID: urn:jy:biology:SB0403:OB06:Chapter:l1
+
+    行号    2 | 节点位置: 头节点    | 节点ID: urn:jy:biology:SB0403:OB06:Volume:必修1_分子与细胞
+            | 关系名称: volume_has_chapter
+            | 尾节点ID: urn:jy:biology:SB0403:OB06:Chapter:l2
+
+    行号    3 | 节点位置: 头节点    | 节点ID: urn:jy:biology:SB0403:OB06:Volume:必修1_分子与细胞
+            | 关系名称: volume_has_chapter
+            | 尾节点ID: urn:jy:biology:SB0403:OB06:Chapter:l3
+
+    行号    4 | 节点位置: 头节点    | 节点ID: urn:jy:biology:SB0403:OB06:Volume:必修1_分子与细胞
+            | 关系名称: volume_has_chapter
+            | 尾节点ID: urn:jy:biology:SB0403:OB06:Chapter:l4
+
+    行号    5 | 节点位置: 头节点    | 节点ID: urn:jy:biology:SB0403:OB06:Volume:必修1_分子与细胞
+            | 关系名称: volume_has_chapter
+            | 尾节点ID: urn:jy:biology:SB0403:OB06:Chapter:l5
+
+    行号    6 | 节点位置: 头节点    | 节点ID: urn:jy:biology:SB0403:OB06:Volume:必修1_分子与细胞
+            | 关系名称: volume_has_chapter
+            | 尾节点ID: urn:jy:biology:SB0403:OB06:Chapter:l6
+
+    行号    7 | 节点位置: 头节点    | 节点ID: urn:jy:biology:SB0403:OB06:Volume:必修1_分子与细胞
+            | 关系名称: volume_has_chapter
+            | 尾节点ID: urn:jy:biology:SB0403:OB06:Chapter:l7
+
+    行号   41 | 节点位置: 头节点    | 节点ID: urn:jy:biology:SB0403:OB06:Volume:必修2_遗传与进化
+            | 关系名称: volume_has_chapter
+            | 尾节点ID: urn:jy:biology:SB0403:OB06:Chapter:l8
+
+    行号   42 | 节点位置: 头节点    | 节点ID: urn:jy:biology:SB0403:OB06:Volume:必修2_遗传与进化
+            | 关系名称: volume_has_chapter
+            | 尾节点ID: urn:jy:biology:SB0403:OB06:Chapter:l9
+
+    行号   43 | 节点位置: 头节点    | 节点ID: urn:jy:biology:SB0403:OB06:Volume:必修2_遗传与进化
+            | 关系名称: volume_has_chapter
+            | 尾节点ID: urn:jy:biology:SB0403:OB06:Chapter:l10
+
+    行号   44 | 节点位置: 头节点    | 节点ID: urn:jy:biology:SB0403:OB06:Volume:必修2_遗传与进化
+            | 关系名称: volume_has_chapter
+            | 尾节点ID: urn:jy:biology:SB0403:OB06:Chapter:l11
+
+    行号   45 | 节点位置: 头节点    | 节点ID: urn:jy:biology:SB0403:OB06:Volume:必修2_遗传与进化
+            | 关系名称: volume_has_chapter
+            | 尾节点ID: urn:jy:biology:SB0403:OB06:Chapter:l12
+
+    行号   46 | 节点位置: 头节点    | 节点ID: urn:jy:biology:SB0403:OB06:Volume:必修2_遗传与进化
+            | 关系名称: volume_has_chapter
+            | 尾节点ID: urn:jy:biology:SB0403:OB06:Chapter:l13
+
+    行号   47 | 节点位置: 头节点    | 节点ID: urn:jy:biology:SB0403:OB06:Volume:必修2_遗传与进化
+            | 关系名称: volume_has_chapter
+            | 尾节点ID: urn:jy:biology:SB0403:OB06:Chapter:l14
+
+    行号   48 | 节点位置: 头节点    | 节点ID: urn:jy:biology:SB0403:OB06:Volume:必修2_遗传与进化
+            | 关系名称: volume_has_chapter
+            | 尾节点ID: urn:jy:biology:SB0403:OB06:Chapter:l15
+
+    行号   91 | 节点位置: 头节点    | 节点ID: urn:jy:biology:SB0403:OB06:Volume:选择性必修1_稳态与调节
+            | 关系名称: volume_has_chapter
+            | 尾节点ID: urn:jy:biology:SB0403:OB06:Chapter:l16
+
+    行号   92 | 节点位置: 头节点    | 节点ID: urn:jy:biology:SB0403:OB06:Volume:选择性必修1_稳态与调节
+            | 关系名称: volume_has_chapter
+            | 尾节点ID: urn:jy:biology:SB0403:OB06:Chapter:l17
+
+    行号   93 | 节点位置: 头节点    | 节点ID: urn:jy:biology:SB0403:OB06:Volume:选择性必修1_稳态与调节
+            | 关系名称: volume_has_chapter
+            | 尾节点ID: urn:jy:biology:SB0403:OB06:Chapter:l18
+
+    行号   94 | 节点位置: 头节点    | 节点ID: urn:jy:biology:SB0403:OB06:Volume:选择性必修1_稳态与调节
+            | 关系名称: volume_has_chapter
+            | 尾节点ID: urn:jy:biology:SB0403:OB06:Chapter:l19
+
+    行号   95 | 节点位置: 头节点    | 节点ID: urn:jy:biology:SB0403:OB06:Volume:选择性必修1_稳态与调节
+            | 关系名称: volume_has_chapter
+            | 尾节点ID: urn:jy:biology:SB0403:OB06:Chapter:l20
+
+    行号   96 | 节点位置: 头节点    | 节点ID: urn:jy:biology:SB0403:OB06:Volume:选择性必修1_稳态与调节
+            | 关系名称: volume_has_chapter
+            | 尾节点ID: urn:jy:biology:SB0403:OB06:Chapter:l21
+
+
+文件: CoreLiteracy_AcademicQuality.json
+--------------------------------------------------------------------------------
+
+  缺失尾节点 (12 个):
+    行号    1 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB06:AcademicQuality:l1
+            | 关系名称: coreLiteracyRelatesToAcademicQuality
+            | 头节点ID: urn:jy:biology:SB0403:OB06:CoreLiteracy:l1
+
+    行号    2 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB06:AcademicQuality:l2
+            | 关系名称: coreLiteracyRelatesToAcademicQuality
+            | 头节点ID: urn:jy:biology:SB0403:OB06:CoreLiteracy:l2
+
+    行号    3 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB06:AcademicQuality:l3
+            | 关系名称: coreLiteracyRelatesToAcademicQuality
+            | 头节点ID: urn:jy:biology:SB0403:OB06:CoreLiteracy:l3
+
+    行号    4 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB06:AcademicQuality:l1
+            | 关系名称: coreLiteracyRelatesToAcademicQuality
+            | 头节点ID: urn:jy:biology:SB0403:OB06:CoreLiteracy:l4
+
+    行号    5 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB06:AcademicQuality:l2
+            | 关系名称: coreLiteracyRelatesToAcademicQuality
+            | 头节点ID: urn:jy:biology:SB0403:OB06:CoreLiteracy:l5
+
+    行号    6 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB06:AcademicQuality:l3
+            | 关系名称: coreLiteracyRelatesToAcademicQuality
+            | 头节点ID: urn:jy:biology:SB0403:OB06:CoreLiteracy:l6
+
+    行号    7 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB06:AcademicQuality:l1
+            | 关系名称: coreLiteracyRelatesToAcademicQuality
+            | 头节点ID: urn:jy:biology:SB0403:OB06:CoreLiteracy:l7
+
+    行号    8 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB06:AcademicQuality:l2
+            | 关系名称: coreLiteracyRelatesToAcademicQuality
+            | 头节点ID: urn:jy:biology:SB0403:OB06:CoreLiteracy:l8
+
+    行号    9 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB06:AcademicQuality:l3
+            | 关系名称: coreLiteracyRelatesToAcademicQuality
+            | 头节点ID: urn:jy:biology:SB0403:OB06:CoreLiteracy:l9
+
+    行号   10 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB06:AcademicQuality:l1
+            | 关系名称: coreLiteracyRelatesToAcademicQuality
+            | 头节点ID: urn:jy:biology:SB0403:OB06:CoreLiteracy:l10
+
+    行号   11 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB06:AcademicQuality:l2
+            | 关系名称: coreLiteracyRelatesToAcademicQuality
+            | 头节点ID: urn:jy:biology:SB0403:OB06:CoreLiteracy:l11
+
+    行号   12 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB06:AcademicQuality:l3
+            | 关系名称: coreLiteracyRelatesToAcademicQuality
+            | 头节点ID: urn:jy:biology:SB0403:OB06:CoreLiteracy:l12
+
+
+文件: Section_SubConception.json
+--------------------------------------------------------------------------------
+
+  缺失头节点 (5 个):
+    行号  401 | 节点位置: 头节点    | 节点ID: volume:必修1 分子与细胞
+            | 关系名称: 对应模块
+            | 尾节点ID: urn:jy:biology:SB0403:OB06:Module:l1
+
+    行号  402 | 节点位置: 头节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 对应模块
+            | 尾节点ID: urn:jy:biology:SB0403:OB06:Module:l2
+
+    行号  403 | 节点位置: 头节点    | 节点ID: volume:选择性必修1 稳态与调节
+            | 关系名称: 对应模块
+            | 尾节点ID: urn:jy:biology:SB0403:OB06:Module:l1
+
+    行号  404 | 节点位置: 头节点    | 节点ID: volume:选择性必修2 生物与环境
+            | 关系名称: 对应模块
+            | 尾节点ID: urn:jy:biology:SB0403:OB06:Module:l2
+
+    行号  405 | 节点位置: 头节点    | 节点ID: volume:选择性必修3 生物技术与工程
+            | 关系名称: 对应模块
+            | 尾节点ID: urn:jy:biology:SB0403:OB06:Module:l5
+
+
+  缺失尾节点 (169 个):
+    行号    2 | 节点位置: 尾节点    | 节点ID: volume:必修1 分子与细胞
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l2
+
+    行号    4 | 节点位置: 尾节点    | 节点ID: volume:必修1 分子与细胞
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l2
+
+    行号    6 | 节点位置: 尾节点    | 节点ID: volume:必修1 分子与细胞
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l2
+
+    行号    8 | 节点位置: 尾节点    | 节点ID: volume:必修1 分子与细胞
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l2
+
+    行号   10 | 节点位置: 尾节点    | 节点ID: volume:必修1 分子与细胞
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l3
+
+    行号   12 | 节点位置: 尾节点    | 节点ID: volume:必修1 分子与细胞
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l3
+
+    行号   14 | 节点位置: 尾节点    | 节点ID: volume:必修1 分子与细胞
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l3
+
+    行号   16 | 节点位置: 尾节点    | 节点ID: volume:必修1 分子与细胞
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l3
+
+    行号   18 | 节点位置: 尾节点    | 节点ID: volume:必修1 分子与细胞
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l3
+
+    行号   20 | 节点位置: 尾节点    | 节点ID: volume:必修1 分子与细胞
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l3
+
+    行号   22 | 节点位置: 尾节点    | 节点ID: volume:必修1 分子与细胞
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l3
+
+    行号   24 | 节点位置: 尾节点    | 节点ID: volume:必修1 分子与细胞
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l4
+
+    行号   26 | 节点位置: 尾节点    | 节点ID: volume:必修1 分子与细胞
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l4
+
+    行号   28 | 节点位置: 尾节点    | 节点ID: volume:必修1 分子与细胞
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l4
+
+    行号   30 | 节点位置: 尾节点    | 节点ID: volume:必修1 分子与细胞
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l4
+
+    行号   32 | 节点位置: 尾节点    | 节点ID: volume:必修1 分子与细胞
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l4
+
+    行号   34 | 节点位置: 尾节点    | 节点ID: volume:必修1 分子与细胞
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l4
+
+    行号   36 | 节点位置: 尾节点    | 节点ID: volume:必修1 分子与细胞
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l5
+
+    行号   38 | 节点位置: 尾节点    | 节点ID: volume:必修1 分子与细胞
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l5
+
+    行号   40 | 节点位置: 尾节点    | 节点ID: volume:必修1 分子与细胞
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l5
+
+    行号   42 | 节点位置: 尾节点    | 节点ID: volume:必修1 分子与细胞
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l5
+
+    行号   44 | 节点位置: 尾节点    | 节点ID: volume:必修1 分子与细胞
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l6
+
+    行号   46 | 节点位置: 尾节点    | 节点ID: volume:必修1 分子与细胞
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l6
+
+    行号   48 | 节点位置: 尾节点    | 节点ID: volume:必修1 分子与细胞
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l6
+
+    行号   50 | 节点位置: 尾节点    | 节点ID: volume:必修1 分子与细胞
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l6
+
+    行号   52 | 节点位置: 尾节点    | 节点ID: volume:必修1 分子与细胞
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l6
+
+    行号   54 | 节点位置: 尾节点    | 节点ID: volume:必修1 分子与细胞
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l7
+
+    行号   56 | 节点位置: 尾节点    | 节点ID: volume:必修1 分子与细胞
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l7
+
+    行号   58 | 节点位置: 尾节点    | 节点ID: volume:必修1 分子与细胞
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l7
+
+    行号   60 | 节点位置: 尾节点    | 节点ID: volume:必修1 分子与细胞
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l7
+
+    行号   62 | 节点位置: 尾节点    | 节点ID: volume:必修1 分子与细胞
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l7
+
+    行号   64 | 节点位置: 尾节点    | 节点ID: volume:必修1 分子与细胞
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l7
+
+    行号   66 | 节点位置: 尾节点    | 节点ID: volume:必修1 分子与细胞
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l7
+
+    行号   68 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l9
+
+    行号   70 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l9
+
+    行号   72 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l9
+
+    行号   74 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l9
+
+    行号   76 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l10
+
+    行号   78 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l10
+
+    行号   80 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l10
+
+    行号   82 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l10
+
+    行号   84 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l11
+
+    行号   86 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l11
+
+    行号   88 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l11
+
+    行号   90 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l11
+
+    行号   92 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l11
+
+    行号   94 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l11
+
+    行号   96 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l11
+
+    行号   98 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l11
+
+    行号  100 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l11
+
+    行号  102 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l12
+
+    行号  104 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l12
+
+    行号  106 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l12
+
+    行号  108 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l12
+
+    行号  110 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l13
+
+    行号  112 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l13
+
+    行号  114 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l13
+
+    行号  116 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l13
+
+    行号  118 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l13
+
+    行号  120 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l13
+
+    行号  122 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l13
+
+    行号  124 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l13
+
+    行号  126 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l14
+
+    行号  128 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l14
+
+    行号  130 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l14
+
+    行号  132 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l14
+
+    行号  134 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l14
+
+    行号  136 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l14
+
+    行号  138 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l15
+
+    行号  140 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l15
+
+    行号  142 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l15
+
+    行号  144 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l15
+
+    行号  146 | 节点位置: 尾节点    | 节点ID: volume:必修2 遗传与进化
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l15
+
+    行号  148 | 节点位置: 尾节点    | 节点ID: volume:选择性必修1 稳态与调节
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l17
+
+    行号  150 | 节点位置: 尾节点    | 节点ID: volume:选择性必修1 稳态与调节
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l17
+
+    行号  152 | 节点位置: 尾节点    | 节点ID: volume:选择性必修1 稳态与调节
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l17
+
+    行号  154 | 节点位置: 尾节点    | 节点ID: volume:选择性必修1 稳态与调节
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l18
+
+    行号  156 | 节点位置: 尾节点    | 节点ID: volume:选择性必修1 稳态与调节
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l18
+
+    行号  158 | 节点位置: 尾节点    | 节点ID: volume:选择性必修1 稳态与调节
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l18
+
+    行号  160 | 节点位置: 尾节点    | 节点ID: volume:选择性必修1 稳态与调节
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l18
+
+    行号  162 | 节点位置: 尾节点    | 节点ID: volume:选择性必修1 稳态与调节
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l18
+
+    行号  164 | 节点位置: 尾节点    | 节点ID: volume:选择性必修1 稳态与调节
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l18
+
+    行号  166 | 节点位置: 尾节点    | 节点ID: volume:选择性必修1 稳态与调节
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l18
+
+    行号  168 | 节点位置: 尾节点    | 节点ID: volume:选择性必修1 稳态与调节
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l18
+
+    行号  170 | 节点位置: 尾节点    | 节点ID: volume:选择性必修1 稳态与调节
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l18
+
+    行号  172 | 节点位置: 尾节点    | 节点ID: volume:选择性必修1 稳态与调节
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l18
+
+    行号  174 | 节点位置: 尾节点    | 节点ID: volume:选择性必修1 稳态与调节
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l19
+
+    行号  176 | 节点位置: 尾节点    | 节点ID: volume:选择性必修1 稳态与调节
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l19
+
+    行号  178 | 节点位置: 尾节点    | 节点ID: volume:选择性必修1 稳态与调节
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l19
+
+    行号  180 | 节点位置: 尾节点    | 节点ID: volume:选择性必修1 稳态与调节
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l19
+
+    行号  182 | 节点位置: 尾节点    | 节点ID: volume:选择性必修1 稳态与调节
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l20
+
+    行号  184 | 节点位置: 尾节点    | 节点ID: volume:选择性必修1 稳态与调节
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l20
+
+    行号  186 | 节点位置: 尾节点    | 节点ID: volume:选择性必修1 稳态与调节
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l20
+
+    行号  188 | 节点位置: 尾节点    | 节点ID: volume:选择性必修1 稳态与调节
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l20
+
+    行号  190 | 节点位置: 尾节点    | 节点ID: volume:选择性必修1 稳态与调节
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l20
+
+    行号  192 | 节点位置: 尾节点    | 节点ID: volume:选择性必修1 稳态与调节
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l20
+
+    行号  194 | 节点位置: 尾节点    | 节点ID: volume:选择性必修1 稳态与调节
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l20
+
+    行号  196 | 节点位置: 尾节点    | 节点ID: volume:选择性必修1 稳态与调节
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l20
+
+    行号  198 | 节点位置: 尾节点    | 节点ID: volume:选择性必修1 稳态与调节
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l20
+
+    行号  200 | 节点位置: 尾节点    | 节点ID: volume:选择性必修1 稳态与调节
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l21
+
+    行号  202 | 节点位置: 尾节点    | 节点ID: volume:选择性必修1 稳态与调节
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l21
+
+    行号  204 | 节点位置: 尾节点    | 节点ID: volume:选择性必修1 稳态与调节
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l21
+
+    行号  206 | 节点位置: 尾节点    | 节点ID: volume:选择性必修1 稳态与调节
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l21
+
+    行号  208 | 节点位置: 尾节点    | 节点ID: volume:选择性必修1 稳态与调节
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l21
+
+    行号  210 | 节点位置: 尾节点    | 节点ID: volume:选择性必修1 稳态与调节
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l21
+
+    行号  212 | 节点位置: 尾节点    | 节点ID: volume:选择性必修2 生物与环境
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l22
+
+    行号  214 | 节点位置: 尾节点    | 节点ID: volume:选择性必修2 生物与环境
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l23
+
+    行号  216 | 节点位置: 尾节点    | 节点ID: volume:选择性必修2 生物与环境
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l23
+
+    行号  218 | 节点位置: 尾节点    | 节点ID: volume:选择性必修2 生物与环境
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l23
+
+    行号  220 | 节点位置: 尾节点    | 节点ID: volume:选择性必修2 生物与环境
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l23
+
+    行号  222 | 节点位置: 尾节点    | 节点ID: volume:选择性必修2 生物与环境
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l23
+
+    行号  224 | 节点位置: 尾节点    | 节点ID: volume:选择性必修2 生物与环境
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l23
+
+    行号  226 | 节点位置: 尾节点    | 节点ID: volume:选择性必修2 生物与环境
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l23
+
+    行号  228 | 节点位置: 尾节点    | 节点ID: volume:选择性必修2 生物与环境
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l23
+
+    行号  230 | 节点位置: 尾节点    | 节点ID: volume:选择性必修2 生物与环境
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l24
+
+    行号  232 | 节点位置: 尾节点    | 节点ID: volume:选择性必修2 生物与环境
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l24
+
+    行号  234 | 节点位置: 尾节点    | 节点ID: volume:选择性必修2 生物与环境
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l24
+
+    行号  236 | 节点位置: 尾节点    | 节点ID: volume:选择性必修2 生物与环境
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l24
+
+    行号  238 | 节点位置: 尾节点    | 节点ID: volume:选择性必修2 生物与环境
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l24
+
+    行号  240 | 节点位置: 尾节点    | 节点ID: volume:选择性必修2 生物与环境
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l24
+
+    行号  242 | 节点位置: 尾节点    | 节点ID: volume:选择性必修2 生物与环境
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l25
+
+    行号  244 | 节点位置: 尾节点    | 节点ID: volume:选择性必修2 生物与环境
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l25
+
+    行号  246 | 节点位置: 尾节点    | 节点ID: volume:选择性必修2 生物与环境
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l25
+
+    行号  248 | 节点位置: 尾节点    | 节点ID: volume:选择性必修2 生物与环境
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l25
+
+    行号  250 | 节点位置: 尾节点    | 节点ID: volume:选择性必修2 生物与环境
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l25
+
+    行号  252 | 节点位置: 尾节点    | 节点ID: volume:选择性必修2 生物与环境
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l25
+
+    行号  254 | 节点位置: 尾节点    | 节点ID: volume:选择性必修2 生物与环境
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l25
+
+    行号  256 | 节点位置: 尾节点    | 节点ID: volume:选择性必修2 生物与环境
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l25
+
+    行号  258 | 节点位置: 尾节点    | 节点ID: volume:选择性必修2 生物与环境
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l25
+
+    行号  260 | 节点位置: 尾节点    | 节点ID: volume:选择性必修2 生物与环境
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l25
+
+    行号  262 | 节点位置: 尾节点    | 节点ID: volume:选择性必修2 生物与环境
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l26
+
+    行号  264 | 节点位置: 尾节点    | 节点ID: volume:选择性必修2 生物与环境
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l26
+
+    行号  266 | 节点位置: 尾节点    | 节点ID: volume:选择性必修2 生物与环境
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l26
+
+    行号  268 | 节点位置: 尾节点    | 节点ID: volume:选择性必修2 生物与环境
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l26
+
+    行号  270 | 节点位置: 尾节点    | 节点ID: volume:选择性必修3 生物技术与工程
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l27
+
+    行号  272 | 节点位置: 尾节点    | 节点ID: volume:选择性必修3 生物技术与工程
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l28
+
+    行号  274 | 节点位置: 尾节点    | 节点ID: volume:选择性必修3 生物技术与工程
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l28
+
+    行号  276 | 节点位置: 尾节点    | 节点ID: volume:选择性必修3 生物技术与工程
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l28
+
+    行号  278 | 节点位置: 尾节点    | 节点ID: volume:选择性必修3 生物技术与工程
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l28
+
+    行号  280 | 节点位置: 尾节点    | 节点ID: volume:选择性必修3 生物技术与工程
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l28
+
+    行号  282 | 节点位置: 尾节点    | 节点ID: volume:选择性必修3 生物技术与工程
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l29
+
+    行号  284 | 节点位置: 尾节点    | 节点ID: volume:选择性必修3 生物技术与工程
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l29
+
+    行号  286 | 节点位置: 尾节点    | 节点ID: volume:选择性必修3 生物技术与工程
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l29
+
+    行号  288 | 节点位置: 尾节点    | 节点ID: volume:选择性必修3 生物技术与工程
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l29
+
+    行号  290 | 节点位置: 尾节点    | 节点ID: volume:选择性必修3 生物技术与工程
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l30
+
+    行号  292 | 节点位置: 尾节点    | 节点ID: volume:选择性必修3 生物技术与工程
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l30
+
+    行号  294 | 节点位置: 尾节点    | 节点ID: volume:选择性必修3 生物技术与工程
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l30
+
+    行号  296 | 节点位置: 尾节点    | 节点ID: volume:选择性必修3 生物技术与工程
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l30
+
+    行号  298 | 节点位置: 尾节点    | 节点ID: volume:选择性必修3 生物技术与工程
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l30
+
+    行号  300 | 节点位置: 尾节点    | 节点ID: volume:选择性必修3 生物技术与工程
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l30
+
+    行号  302 | 节点位置: 尾节点    | 节点ID: volume:选择性必修3 生物技术与工程
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l30
+
+    行号  304 | 节点位置: 尾节点    | 节点ID: volume:选择性必修3 生物技术与工程
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l30
+
+    行号  306 | 节点位置: 尾节点    | 节点ID: volume:选择性必修3 生物技术与工程
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l31
+
+    行号  308 | 节点位置: 尾节点    | 节点ID: volume:选择性必修3 生物技术与工程
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l31
+
+    行号  310 | 节点位置: 尾节点    | 节点ID: volume:选择性必修3 生物技术与工程
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l31
+
+    行号  312 | 节点位置: 尾节点    | 节点ID: volume:选择性必修3 生物技术与工程
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l31
+
+    行号  314 | 节点位置: 尾节点    | 节点ID: volume:选择性必修3 生物技术与工程
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l31
+
+    行号  316 | 节点位置: 尾节点    | 节点ID: volume:选择性必修3 生物技术与工程
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l32
+
+    行号  318 | 节点位置: 尾节点    | 节点ID: volume:选择性必修3 生物技术与工程
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l32
+
+    行号  320 | 节点位置: 尾节点    | 节点ID: volume:选择性必修3 生物技术与工程
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l32
+
+    行号  322 | 节点位置: 尾节点    | 节点ID: volume:选择性必修3 生物技术与工程
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l32
+
+    行号  324 | 节点位置: 尾节点    | 节点ID: volume:选择性必修3 生物技术与工程
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l32
+
+    行号  326 | 节点位置: 尾节点    | 节点ID: volume:选择性必修3 生物技术与工程
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l32
+
+    行号  328 | 节点位置: 尾节点    | 节点ID: volume:选择性必修3 生物技术与工程
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l32
+
+    行号  330 | 节点位置: 尾节点    | 节点ID: volume:选择性必修3 生物技术与工程
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l32
+
+    行号  332 | 节点位置: 尾节点    | 节点ID: volume:选择性必修3 生物技术与工程
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l32
+
+    行号  334 | 节点位置: 尾节点    | 节点ID: volume:选择性必修3 生物技术与工程
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l32
+
+    行号  336 | 节点位置: 尾节点    | 节点ID: volume:选择性必修3 生物技术与工程
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l32
+
+    行号  338 | 节点位置: 尾节点    | 节点ID: volume:选择性必修3 生物技术与工程
+            | 关系名称: 章节隶属于册
+            | 头节点ID: urn:jy:biology:SB0403:OB06:Chapter:l32
+
+
+================================================================================
+【按缺失节点ID汇总】
+================================================================================
+
+缺失的头节点ID列表:
+  urn:jy:biology:SB0403:OB06:Volume:必修1_分子与细胞
+    出现在 7 个关系中:
+      - Chapter_Section.json (行号 1, 关系: volume_has_chapter)
+      - Chapter_Section.json (行号 2, 关系: volume_has_chapter)
+      - Chapter_Section.json (行号 3, 关系: volume_has_chapter)
+      - Chapter_Section.json (行号 4, 关系: volume_has_chapter)
+      - Chapter_Section.json (行号 5, 关系: volume_has_chapter)
+      ... 还有 2 个关系
+
+  urn:jy:biology:SB0403:OB06:Volume:必修2_遗传与进化
+    出现在 8 个关系中:
+      - Chapter_Section.json (行号 41, 关系: volume_has_chapter)
+      - Chapter_Section.json (行号 42, 关系: volume_has_chapter)
+      - Chapter_Section.json (行号 43, 关系: volume_has_chapter)
+      - Chapter_Section.json (行号 44, 关系: volume_has_chapter)
+      - Chapter_Section.json (行号 45, 关系: volume_has_chapter)
+      ... 还有 3 个关系
+
+  urn:jy:biology:SB0403:OB06:Volume:选择性必修1_稳态与调节
+    出现在 6 个关系中:
+      - Chapter_Section.json (行号 91, 关系: volume_has_chapter)
+      - Chapter_Section.json (行号 92, 关系: volume_has_chapter)
+      - Chapter_Section.json (行号 93, 关系: volume_has_chapter)
+      - Chapter_Section.json (行号 94, 关系: volume_has_chapter)
+      - Chapter_Section.json (行号 95, 关系: volume_has_chapter)
+      ... 还有 1 个关系
+
+  volume:必修1 分子与细胞
+    出现在 1 个关系中:
+      - Section_SubConception.json (行号 401, 关系: 对应模块)
+
+  volume:必修2 遗传与进化
+    出现在 1 个关系中:
+      - Section_SubConception.json (行号 402, 关系: 对应模块)
+
+  volume:选择性必修1 稳态与调节
+    出现在 1 个关系中:
+      - Section_SubConception.json (行号 403, 关系: 对应模块)
+
+  volume:选择性必修2 生物与环境
+    出现在 1 个关系中:
+      - Section_SubConception.json (行号 404, 关系: 对应模块)
+
+  volume:选择性必修3 生物技术与工程
+    出现在 1 个关系中:
+      - Section_SubConception.json (行号 405, 关系: 对应模块)
+
+
+缺失的尾节点ID列表:
+  urn:jy:biology:SB0403:OB06:AcademicQuality:l1
+    出现在 7 个关系中:
+      - AcademicQuality_CourseModule.json (行号 1, 关系: moduleAchievesAcademicQuality)
+      - AcademicQuality_CourseModule.json (行号 4, 关系: moduleAchievesAcademicQuality)
+      - AcademicQuality_CourseModule.json (行号 7, 关系: moduleAchievesAcademicQuality)
+      - CoreLiteracy_AcademicQuality.json (行号 1, 关系: coreLiteracyRelatesToAcademicQuality)
+      - CoreLiteracy_AcademicQuality.json (行号 4, 关系: coreLiteracyRelatesToAcademicQuality)
+      ... 还有 2 个关系
+
+  urn:jy:biology:SB0403:OB06:AcademicQuality:l2
+    出现在 7 个关系中:
+      - AcademicQuality_CourseModule.json (行号 2, 关系: moduleAchievesAcademicQuality)
+      - AcademicQuality_CourseModule.json (行号 5, 关系: moduleAchievesAcademicQuality)
+      - AcademicQuality_CourseModule.json (行号 8, 关系: moduleAchievesAcademicQuality)
+      - CoreLiteracy_AcademicQuality.json (行号 2, 关系: coreLiteracyRelatesToAcademicQuality)
+      - CoreLiteracy_AcademicQuality.json (行号 5, 关系: coreLiteracyRelatesToAcademicQuality)
+      ... 还有 2 个关系
+
+  urn:jy:biology:SB0403:OB06:AcademicQuality:l3
+    出现在 7 个关系中:
+      - AcademicQuality_CourseModule.json (行号 3, 关系: moduleAchievesAcademicQuality)
+      - AcademicQuality_CourseModule.json (行号 6, 关系: moduleAchievesAcademicQuality)
+      - AcademicQuality_CourseModule.json (行号 9, 关系: moduleAchievesAcademicQuality)
+      - CoreLiteracy_AcademicQuality.json (行号 3, 关系: coreLiteracyRelatesToAcademicQuality)
+      - CoreLiteracy_AcademicQuality.json (行号 6, 关系: coreLiteracyRelatesToAcademicQuality)
+      ... 还有 2 个关系
+
+  volume:必修1 分子与细胞
+    出现在 33 个关系中:
+      - Section_SubConception.json (行号 2, 关系: 章节隶属于册)
+      - Section_SubConception.json (行号 4, 关系: 章节隶属于册)
+      - Section_SubConception.json (行号 6, 关系: 章节隶属于册)
+      - Section_SubConception.json (行号 8, 关系: 章节隶属于册)
+      - Section_SubConception.json (行号 10, 关系: 章节隶属于册)
+      ... 还有 28 个关系
+
+  volume:必修2 遗传与进化
+    出现在 40 个关系中:
+      - Section_SubConception.json (行号 68, 关系: 章节隶属于册)
+      - Section_SubConception.json (行号 70, 关系: 章节隶属于册)
+      - Section_SubConception.json (行号 72, 关系: 章节隶属于册)
+      - Section_SubConception.json (行号 74, 关系: 章节隶属于册)
+      - Section_SubConception.json (行号 76, 关系: 章节隶属于册)
+      ... 还有 35 个关系
+
+  volume:选择性必修1 稳态与调节
+    出现在 32 个关系中:
+      - Section_SubConception.json (行号 148, 关系: 章节隶属于册)
+      - Section_SubConception.json (行号 150, 关系: 章节隶属于册)
+      - Section_SubConception.json (行号 152, 关系: 章节隶属于册)
+      - Section_SubConception.json (行号 154, 关系: 章节隶属于册)
+      - Section_SubConception.json (行号 156, 关系: 章节隶属于册)
+      ... 还有 27 个关系
+
+  volume:选择性必修2 生物与环境
+    出现在 29 个关系中:
+      - Section_SubConception.json (行号 212, 关系: 章节隶属于册)
+      - Section_SubConception.json (行号 214, 关系: 章节隶属于册)
+      - Section_SubConception.json (行号 216, 关系: 章节隶属于册)
+      - Section_SubConception.json (行号 218, 关系: 章节隶属于册)
+      - Section_SubConception.json (行号 220, 关系: 章节隶属于册)
+      ... 还有 24 个关系
+
+  volume:选择性必修3 生物技术与工程
+    出现在 35 个关系中:
+      - Section_SubConception.json (行号 270, 关系: 章节隶属于册)
+      - Section_SubConception.json (行号 272, 关系: 章节隶属于册)
+      - Section_SubConception.json (行号 274, 关系: 章节隶属于册)
+      - Section_SubConception.json (行号 276, 关系: 章节隶属于册)
+      - Section_SubConception.json (行号 278, 关系: 章节隶属于册)
+      ... 还有 30 个关系
+
+
+================================================================================
+【排查建议】
+================================================================================
+1. 检查entities目录中是否存在对应的实体文件
+2. 检查实体文件中的identifier字段是否与关系文件中的source/target完全匹配
+3. 注意identifier的大小写、空格、特殊字符等细节
+4. 检查是否有实体文件格式错误（JSON解析失败）
+5. 检查是否有实体文件被遗漏未加载
+================================================================================

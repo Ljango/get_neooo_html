@@ -1,0 +1,56 @@
+[
+    {
+        "relationName": "courseModuleBelongsToAcademicQuality",
+        "label": "课程模块与学业质量的关系 / courseModuleBelongsToAcademicQuality",
+        "source": "urn:jy:math:SB0201:OB06:course-module:cm001",
+        "target": "urn:jy:math:SB0201:OB06:AcademicQuality:l1"
+    },
+    {
+        "relationName": "courseModuleBelongsToAcademicQuality",
+        "label": "课程模块与学业质量的关系 / courseModuleBelongsToAcademicQuality",
+        "source": "urn:jy:math:SB0201:OB06:course-module:cm001",
+        "target": "urn:jy:math:SB0201:OB06:AcademicQuality:l2"
+    },
+    {
+        "relationName": "courseModuleBelongsToAcademicQuality",
+        "label": "课程模块与学业质量的关系 / courseModuleBelongsToAcademicQuality",
+        "source": "urn:jy:math:SB0201:OB06:course-module:cm001",
+        "target": "urn:jy:math:SB0201:OB06:AcademicQuality:l3"
+    },
+    {
+        "relationName": "courseModuleBelongsToAcademicQuality",
+        "label": "课程模块与学业质量的关系 / courseModuleBelongsToAcademicQuality",
+        "source": "urn:jy:math:SB0201:OB06:course-module:cm002",
+        "target": "urn:jy:math:SB0201:OB06:AcademicQuality:l1"
+    },
+    {
+        "relationName": "courseModuleBelongsToAcademicQuality",
+        "label": "课程模块与学业质量的关系 / courseModuleBelongsToAcademicQuality",
+        "source": "urn:jy:math:SB0201:OB06:course-module:cm002",
+        "target": "urn:jy:math:SB0201:OB06:AcademicQuality:l2"
+    },
+    {
+        "relationName": "courseModuleBelongsToAcademicQuality",
+        "label": "课程模块与学业质量的关系 / courseModuleBelongsToAcademicQuality",
+        "source": "urn:jy:math:SB0201:OB06:course-module:cm002",
+        "target": "urn:jy:math:SB0201:OB06:AcademicQuality:l3"
+    },
+    {
+        "relationName": "courseModuleBelongsToAcademicQuality",
+        "label": "课程模块与学业质量的关系 / courseModuleBelongsToAcademicQuality",
+        "source": "urn:jy:math:SB0201:OB06:course-module:cm003",
+        "target": "urn:jy:math:SB0201:OB06:AcademicQuality:l1"
+    },
+    {
+        "relationName": "courseModuleBelongsToAcademicQuality",
+        "label": "课程模块与学业质量的关系 / courseModuleBelongsToAcademicQuality",
+        "source": "urn:jy:math:SB0201:OB06:course-module:cm003",
+        "target": "urn:jy:math:SB0201:OB06:AcademicQuality:l2"
+    },
+    {
+        "relationName": "courseModuleBelongsToAcademicQuality",
+        "label": "课程模块与学业质量的关系 / courseModuleBelongsToAcademicQuality",
+        "source": "urn:jy:math:SB0201:OB06:course-module:cm003",
+        "target": "urn:jy:math:SB0201:OB06:AcademicQuality:l3"
+    }
+]

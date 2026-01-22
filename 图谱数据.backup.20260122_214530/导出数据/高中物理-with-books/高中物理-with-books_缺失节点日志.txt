@@ -1,0 +1,392 @@
+================================================================================
+缺失节点信息日志 - 高中物理-with-books
+生成时间: 2026-01-22 11:06:47
+================================================================================
+
+【统计摘要】
+  缺失头节点总数: 17
+  缺失尾节点总数: 17
+  涉及的关系文件数: 1
+  涉及的关系总数: 50
+
+================================================================================
+【按关系文件分组】
+================================================================================
+
+
+文件: ActivitySuggestion_Section_relations.json
+--------------------------------------------------------------------------------
+
+  缺失头节点 (25 个):
+    行号    1 | 节点位置: 头节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:1_2:01
+            | 关系名称: activitySuggestionRequiresSection
+            | 尾节点ID: urn:jy:physics:SB0401:OB06:Section:58
+
+    行号    3 | 节点位置: 头节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:1_2:02
+            | 关系名称: activitySuggestionRequiresSection
+            | 尾节点ID: urn:jy:physics:SB0401:OB06:Section:50
+
+    行号    5 | 节点位置: 头节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:1_2:02
+            | 关系名称: activitySuggestionRequiresSection
+            | 尾节点ID: urn:jy:physics:SB0401:OB06:Section:11
+
+    行号    7 | 节点位置: 头节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:1_2:03
+            | 关系名称: activitySuggestionRequiresSection
+            | 尾节点ID: urn:jy:physics:SB0401:OB06:Section:85
+
+    行号    9 | 节点位置: 头节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:2_1:01
+            | 关系名称: activitySuggestionRequiresSection
+            | 尾节点ID: urn:jy:physics:SB0401:OB06:Section:2
+
+    行号   11 | 节点位置: 头节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:2_1:01
+            | 关系名称: activitySuggestionRequiresSection
+            | 尾节点ID: urn:jy:physics:SB0401:OB06:Section:50
+
+    行号   13 | 节点位置: 头节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:2_1:03
+            | 关系名称: activitySuggestionRequiresSection
+            | 尾节点ID: urn:jy:physics:SB0401:OB06:Section:2
+
+    行号   15 | 节点位置: 头节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:2_2:03
+            | 关系名称: activitySuggestionRequiresSection
+            | 尾节点ID: urn:jy:physics:SB0401:OB06:Section:21
+
+    行号   17 | 节点位置: 头节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:2_2:03
+            | 关系名称: activitySuggestionRequiresSection
+            | 尾节点ID: urn:jy:physics:SB0401:OB06:Section:25
+
+    行号   19 | 节点位置: 头节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:2_2:04
+            | 关系名称: activitySuggestionRequiresSection
+            | 尾节点ID: urn:jy:physics:SB0401:OB06:Section:22
+
+    行号   21 | 节点位置: 头节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:2_3:02
+            | 关系名称: activitySuggestionRequiresSection
+            | 尾节点ID: urn:jy:physics:SB0401:OB06:Section:6
+
+    行号   23 | 节点位置: 头节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:2_3:02
+            | 关系名称: activitySuggestionRequiresSection
+            | 尾节点ID: urn:jy:physics:SB0401:OB06:Section:96
+
+    行号   25 | 节点位置: 头节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:2_3:03
+            | 关系名称: activitySuggestionRequiresSection
+            | 尾节点ID: urn:jy:physics:SB0401:OB06:Section:49
+
+    行号   27 | 节点位置: 头节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:2_4:02
+            | 关系名称: activitySuggestionRequiresSection
+            | 尾节点ID: urn:jy:physics:SB0401:OB06:Section:83
+
+    行号   29 | 节点位置: 头节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:2_4:02
+            | 关系名称: activitySuggestionRequiresSection
+            | 尾节点ID: urn:jy:physics:SB0401:OB06:Section:85
+
+    行号   31 | 节点位置: 头节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:3_1:01
+            | 关系名称: activitySuggestionRequiresSection
+            | 尾节点ID: urn:jy:physics:SB0401:OB06:Section:40
+
+    行号   33 | 节点位置: 头节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:3_1:02
+            | 关系名称: activitySuggestionRequiresSection
+            | 尾节点ID: urn:jy:physics:SB0401:OB06:Section:40
+
+    行号   35 | 节点位置: 头节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:3_3:01
+            | 关系名称: activitySuggestionRequiresSection
+            | 尾节点ID: urn:jy:physics:SB0401:OB06:Section:42
+
+    行号   37 | 节点位置: 头节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:3_3:01
+            | 关系名称: activitySuggestionRequiresSection
+            | 尾节点ID: urn:jy:physics:SB0401:OB06:Section:39
+
+    行号   39 | 节点位置: 头节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:3_4:02
+            | 关系名称: activitySuggestionRequiresSection
+            | 尾节点ID: urn:jy:physics:SB0401:OB06:Section:18
+
+    行号   41 | 节点位置: 头节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:5_1:01
+            | 关系名称: activitySuggestionRequiresSection
+            | 尾节点ID: urn:jy:physics:SB0401:OB06:Section:30
+
+    行号   43 | 节点位置: 头节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:5_1:02
+            | 关系名称: activitySuggestionRequiresSection
+            | 尾节点ID: urn:jy:physics:SB0401:OB06:Section:92
+
+    行号   45 | 节点位置: 头节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:5_1:02
+            | 关系名称: activitySuggestionRequiresSection
+            | 尾节点ID: urn:jy:physics:SB0401:OB06:Section:93
+
+    行号   47 | 节点位置: 头节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:5_3:03
+            | 关系名称: activitySuggestionRequiresSection
+            | 尾节点ID: urn:jy:physics:SB0401:OB06:Section:85
+
+    行号   49 | 节点位置: 头节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:5_3:03
+            | 关系名称: activitySuggestionRequiresSection
+            | 尾节点ID: urn:jy:physics:SB0401:OB06:Section:82
+
+
+  缺失尾节点 (25 个):
+    行号    2 | 节点位置: 尾节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:1_2:01
+            | 关系名称: sectionSupportsActivitySuggestion
+            | 头节点ID: urn:jy:physics:SB0401:OB06:Section:58
+
+    行号    4 | 节点位置: 尾节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:1_2:02
+            | 关系名称: sectionSupportsActivitySuggestion
+            | 头节点ID: urn:jy:physics:SB0401:OB06:Section:50
+
+    行号    6 | 节点位置: 尾节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:1_2:02
+            | 关系名称: sectionSupportsActivitySuggestion
+            | 头节点ID: urn:jy:physics:SB0401:OB06:Section:11
+
+    行号    8 | 节点位置: 尾节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:1_2:03
+            | 关系名称: sectionSupportsActivitySuggestion
+            | 头节点ID: urn:jy:physics:SB0401:OB06:Section:85
+
+    行号   10 | 节点位置: 尾节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:2_1:01
+            | 关系名称: sectionSupportsActivitySuggestion
+            | 头节点ID: urn:jy:physics:SB0401:OB06:Section:2
+
+    行号   12 | 节点位置: 尾节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:2_1:01
+            | 关系名称: sectionSupportsActivitySuggestion
+            | 头节点ID: urn:jy:physics:SB0401:OB06:Section:50
+
+    行号   14 | 节点位置: 尾节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:2_1:03
+            | 关系名称: sectionSupportsActivitySuggestion
+            | 头节点ID: urn:jy:physics:SB0401:OB06:Section:2
+
+    行号   16 | 节点位置: 尾节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:2_2:03
+            | 关系名称: sectionSupportsActivitySuggestion
+            | 头节点ID: urn:jy:physics:SB0401:OB06:Section:21
+
+    行号   18 | 节点位置: 尾节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:2_2:03
+            | 关系名称: sectionSupportsActivitySuggestion
+            | 头节点ID: urn:jy:physics:SB0401:OB06:Section:25
+
+    行号   20 | 节点位置: 尾节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:2_2:04
+            | 关系名称: sectionSupportsActivitySuggestion
+            | 头节点ID: urn:jy:physics:SB0401:OB06:Section:22
+
+    行号   22 | 节点位置: 尾节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:2_3:02
+            | 关系名称: sectionSupportsActivitySuggestion
+            | 头节点ID: urn:jy:physics:SB0401:OB06:Section:6
+
+    行号   24 | 节点位置: 尾节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:2_3:02
+            | 关系名称: sectionSupportsActivitySuggestion
+            | 头节点ID: urn:jy:physics:SB0401:OB06:Section:96
+
+    行号   26 | 节点位置: 尾节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:2_3:03
+            | 关系名称: sectionSupportsActivitySuggestion
+            | 头节点ID: urn:jy:physics:SB0401:OB06:Section:49
+
+    行号   28 | 节点位置: 尾节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:2_4:02
+            | 关系名称: sectionSupportsActivitySuggestion
+            | 头节点ID: urn:jy:physics:SB0401:OB06:Section:83
+
+    行号   30 | 节点位置: 尾节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:2_4:02
+            | 关系名称: sectionSupportsActivitySuggestion
+            | 头节点ID: urn:jy:physics:SB0401:OB06:Section:85
+
+    行号   32 | 节点位置: 尾节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:3_1:01
+            | 关系名称: sectionSupportsActivitySuggestion
+            | 头节点ID: urn:jy:physics:SB0401:OB06:Section:40
+
+    行号   34 | 节点位置: 尾节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:3_1:02
+            | 关系名称: sectionSupportsActivitySuggestion
+            | 头节点ID: urn:jy:physics:SB0401:OB06:Section:40
+
+    行号   36 | 节点位置: 尾节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:3_3:01
+            | 关系名称: sectionSupportsActivitySuggestion
+            | 头节点ID: urn:jy:physics:SB0401:OB06:Section:42
+
+    行号   38 | 节点位置: 尾节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:3_3:01
+            | 关系名称: sectionSupportsActivitySuggestion
+            | 头节点ID: urn:jy:physics:SB0401:OB06:Section:39
+
+    行号   40 | 节点位置: 尾节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:3_4:02
+            | 关系名称: sectionSupportsActivitySuggestion
+            | 头节点ID: urn:jy:physics:SB0401:OB06:Section:18
+
+    行号   42 | 节点位置: 尾节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:5_1:01
+            | 关系名称: sectionSupportsActivitySuggestion
+            | 头节点ID: urn:jy:physics:SB0401:OB06:Section:30
+
+    行号   44 | 节点位置: 尾节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:5_1:02
+            | 关系名称: sectionSupportsActivitySuggestion
+            | 头节点ID: urn:jy:physics:SB0401:OB06:Section:92
+
+    行号   46 | 节点位置: 尾节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:5_1:02
+            | 关系名称: sectionSupportsActivitySuggestion
+            | 头节点ID: urn:jy:physics:SB0401:OB06:Section:93
+
+    行号   48 | 节点位置: 尾节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:5_3:03
+            | 关系名称: sectionSupportsActivitySuggestion
+            | 头节点ID: urn:jy:physics:SB0401:OB06:Section:85
+
+    行号   50 | 节点位置: 尾节点    | 节点ID: urn:jy:physics:OB05:ActivitySuggestion:5_3:03
+            | 关系名称: sectionSupportsActivitySuggestion
+            | 头节点ID: urn:jy:physics:SB0401:OB06:Section:82
+
+
+================================================================================
+【按缺失节点ID汇总】
+================================================================================
+
+缺失的头节点ID列表:
+  urn:jy:physics:OB05:ActivitySuggestion:1_2:01
+    出现在 1 个关系中:
+      - ActivitySuggestion_Section_relations.json (行号 1, 关系: activitySuggestionRequiresSection)
+
+  urn:jy:physics:OB05:ActivitySuggestion:1_2:02
+    出现在 2 个关系中:
+      - ActivitySuggestion_Section_relations.json (行号 3, 关系: activitySuggestionRequiresSection)
+      - ActivitySuggestion_Section_relations.json (行号 5, 关系: activitySuggestionRequiresSection)
+
+  urn:jy:physics:OB05:ActivitySuggestion:1_2:03
+    出现在 1 个关系中:
+      - ActivitySuggestion_Section_relations.json (行号 7, 关系: activitySuggestionRequiresSection)
+
+  urn:jy:physics:OB05:ActivitySuggestion:2_1:01
+    出现在 2 个关系中:
+      - ActivitySuggestion_Section_relations.json (行号 9, 关系: activitySuggestionRequiresSection)
+      - ActivitySuggestion_Section_relations.json (行号 11, 关系: activitySuggestionRequiresSection)
+
+  urn:jy:physics:OB05:ActivitySuggestion:2_1:03
+    出现在 1 个关系中:
+      - ActivitySuggestion_Section_relations.json (行号 13, 关系: activitySuggestionRequiresSection)
+
+  urn:jy:physics:OB05:ActivitySuggestion:2_2:03
+    出现在 2 个关系中:
+      - ActivitySuggestion_Section_relations.json (行号 15, 关系: activitySuggestionRequiresSection)
+      - ActivitySuggestion_Section_relations.json (行号 17, 关系: activitySuggestionRequiresSection)
+
+  urn:jy:physics:OB05:ActivitySuggestion:2_2:04
+    出现在 1 个关系中:
+      - ActivitySuggestion_Section_relations.json (行号 19, 关系: activitySuggestionRequiresSection)
+
+  urn:jy:physics:OB05:ActivitySuggestion:2_3:02
+    出现在 2 个关系中:
+      - ActivitySuggestion_Section_relations.json (行号 21, 关系: activitySuggestionRequiresSection)
+      - ActivitySuggestion_Section_relations.json (行号 23, 关系: activitySuggestionRequiresSection)
+
+  urn:jy:physics:OB05:ActivitySuggestion:2_3:03
+    出现在 1 个关系中:
+      - ActivitySuggestion_Section_relations.json (行号 25, 关系: activitySuggestionRequiresSection)
+
+  urn:jy:physics:OB05:ActivitySuggestion:2_4:02
+    出现在 2 个关系中:
+      - ActivitySuggestion_Section_relations.json (行号 27, 关系: activitySuggestionRequiresSection)
+      - ActivitySuggestion_Section_relations.json (行号 29, 关系: activitySuggestionRequiresSection)
+
+  urn:jy:physics:OB05:ActivitySuggestion:3_1:01
+    出现在 1 个关系中:
+      - ActivitySuggestion_Section_relations.json (行号 31, 关系: activitySuggestionRequiresSection)
+
+  urn:jy:physics:OB05:ActivitySuggestion:3_1:02
+    出现在 1 个关系中:
+      - ActivitySuggestion_Section_relations.json (行号 33, 关系: activitySuggestionRequiresSection)
+
+  urn:jy:physics:OB05:ActivitySuggestion:3_3:01
+    出现在 2 个关系中:
+      - ActivitySuggestion_Section_relations.json (行号 35, 关系: activitySuggestionRequiresSection)
+      - ActivitySuggestion_Section_relations.json (行号 37, 关系: activitySuggestionRequiresSection)
+
+  urn:jy:physics:OB05:ActivitySuggestion:3_4:02
+    出现在 1 个关系中:
+      - ActivitySuggestion_Section_relations.json (行号 39, 关系: activitySuggestionRequiresSection)
+
+  urn:jy:physics:OB05:ActivitySuggestion:5_1:01
+    出现在 1 个关系中:
+      - ActivitySuggestion_Section_relations.json (行号 41, 关系: activitySuggestionRequiresSection)
+
+  urn:jy:physics:OB05:ActivitySuggestion:5_1:02
+    出现在 2 个关系中:
+      - ActivitySuggestion_Section_relations.json (行号 43, 关系: activitySuggestionRequiresSection)
+      - ActivitySuggestion_Section_relations.json (行号 45, 关系: activitySuggestionRequiresSection)
+
+  urn:jy:physics:OB05:ActivitySuggestion:5_3:03
+    出现在 2 个关系中:
+      - ActivitySuggestion_Section_relations.json (行号 47, 关系: activitySuggestionRequiresSection)
+      - ActivitySuggestion_Section_relations.json (行号 49, 关系: activitySuggestionRequiresSection)
+
+
+缺失的尾节点ID列表:
+  urn:jy:physics:OB05:ActivitySuggestion:1_2:01
+    出现在 1 个关系中:
+      - ActivitySuggestion_Section_relations.json (行号 2, 关系: sectionSupportsActivitySuggestion)
+
+  urn:jy:physics:OB05:ActivitySuggestion:1_2:02
+    出现在 2 个关系中:
+      - ActivitySuggestion_Section_relations.json (行号 4, 关系: sectionSupportsActivitySuggestion)
+      - ActivitySuggestion_Section_relations.json (行号 6, 关系: sectionSupportsActivitySuggestion)
+
+  urn:jy:physics:OB05:ActivitySuggestion:1_2:03
+    出现在 1 个关系中:
+      - ActivitySuggestion_Section_relations.json (行号 8, 关系: sectionSupportsActivitySuggestion)
+
+  urn:jy:physics:OB05:ActivitySuggestion:2_1:01
+    出现在 2 个关系中:
+      - ActivitySuggestion_Section_relations.json (行号 10, 关系: sectionSupportsActivitySuggestion)
+      - ActivitySuggestion_Section_relations.json (行号 12, 关系: sectionSupportsActivitySuggestion)
+
+  urn:jy:physics:OB05:ActivitySuggestion:2_1:03
+    出现在 1 个关系中:
+      - ActivitySuggestion_Section_relations.json (行号 14, 关系: sectionSupportsActivitySuggestion)
+
+  urn:jy:physics:OB05:ActivitySuggestion:2_2:03
+    出现在 2 个关系中:
+      - ActivitySuggestion_Section_relations.json (行号 16, 关系: sectionSupportsActivitySuggestion)
+      - ActivitySuggestion_Section_relations.json (行号 18, 关系: sectionSupportsActivitySuggestion)
+
+  urn:jy:physics:OB05:ActivitySuggestion:2_2:04
+    出现在 1 个关系中:
+      - ActivitySuggestion_Section_relations.json (行号 20, 关系: sectionSupportsActivitySuggestion)
+
+  urn:jy:physics:OB05:ActivitySuggestion:2_3:02
+    出现在 2 个关系中:
+      - ActivitySuggestion_Section_relations.json (行号 22, 关系: sectionSupportsActivitySuggestion)
+      - ActivitySuggestion_Section_relations.json (行号 24, 关系: sectionSupportsActivitySuggestion)
+
+  urn:jy:physics:OB05:ActivitySuggestion:2_3:03
+    出现在 1 个关系中:
+      - ActivitySuggestion_Section_relations.json (行号 26, 关系: sectionSupportsActivitySuggestion)
+
+  urn:jy:physics:OB05:ActivitySuggestion:2_4:02
+    出现在 2 个关系中:
+      - ActivitySuggestion_Section_relations.json (行号 28, 关系: sectionSupportsActivitySuggestion)
+      - ActivitySuggestion_Section_relations.json (行号 30, 关系: sectionSupportsActivitySuggestion)
+
+  urn:jy:physics:OB05:ActivitySuggestion:3_1:01
+    出现在 1 个关系中:
+      - ActivitySuggestion_Section_relations.json (行号 32, 关系: sectionSupportsActivitySuggestion)
+
+  urn:jy:physics:OB05:ActivitySuggestion:3_1:02
+    出现在 1 个关系中:
+      - ActivitySuggestion_Section_relations.json (行号 34, 关系: sectionSupportsActivitySuggestion)
+
+  urn:jy:physics:OB05:ActivitySuggestion:3_3:01
+    出现在 2 个关系中:
+      - ActivitySuggestion_Section_relations.json (行号 36, 关系: sectionSupportsActivitySuggestion)
+      - ActivitySuggestion_Section_relations.json (行号 38, 关系: sectionSupportsActivitySuggestion)
+
+  urn:jy:physics:OB05:ActivitySuggestion:3_4:02
+    出现在 1 个关系中:
+      - ActivitySuggestion_Section_relations.json (行号 40, 关系: sectionSupportsActivitySuggestion)
+
+  urn:jy:physics:OB05:ActivitySuggestion:5_1:01
+    出现在 1 个关系中:
+      - ActivitySuggestion_Section_relations.json (行号 42, 关系: sectionSupportsActivitySuggestion)
+
+  urn:jy:physics:OB05:ActivitySuggestion:5_1:02
+    出现在 2 个关系中:
+      - ActivitySuggestion_Section_relations.json (行号 44, 关系: sectionSupportsActivitySuggestion)
+      - ActivitySuggestion_Section_relations.json (行号 46, 关系: sectionSupportsActivitySuggestion)
+
+  urn:jy:physics:OB05:ActivitySuggestion:5_3:03
+    出现在 2 个关系中:
+      - ActivitySuggestion_Section_relations.json (行号 48, 关系: sectionSupportsActivitySuggestion)
+      - ActivitySuggestion_Section_relations.json (行号 50, 关系: sectionSupportsActivitySuggestion)
+
+
+================================================================================
+【排查建议】
+================================================================================
+1. 检查entities目录中是否存在对应的实体文件
+2. 检查实体文件中的identifier字段是否与关系文件中的source/target完全匹配
+3. 注意identifier的大小写、空格、特殊字符等细节
+4. 检查是否有实体文件格式错误（JSON解析失败）
+5. 检查是否有实体文件被遗漏未加载
+================================================================================

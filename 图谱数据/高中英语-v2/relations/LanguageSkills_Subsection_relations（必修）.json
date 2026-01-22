@@ -1,0 +1,2450 @@
+[
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语篇理解训练 / languageSkillRealizedInSubsection:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:1",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节标题包含“Reading”，对应课程标准所述理解性技能中的“读/看”。",
+      "subsectionTitle": "Reading Lifestyles",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:1",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语篇理解训练 / subsectionSupportsLanguageSkill:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:1",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节标题包含“Reading”，对应课程标准所述理解性技能中的“读/看”。",
+      "subsectionTitle": "Reading Lifestyles",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:1",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：基于语篇表达 / languageSkillRealizedInSubsection:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:1",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节标题包含“Reading”，对应课程标准所述理解性技能中的“读/看”。",
+      "subsectionTitle": "Reading Lifestyles",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:1",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：基于语篇表达 / subsectionSupportsLanguageSkill:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:1",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节标题包含“Reading”，对应课程标准所述理解性技能中的“读/看”。",
+      "subsectionTitle": "Reading Lifestyles",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:1",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语言知识支撑理解 / languageSkillRealizedInSubsection:languageKnowledgeSupportsReceptive",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:2",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为语言知识（语法/结构）聚焦，支撑语篇理解与意义表达。",
+      "subsectionTitle": "Focus on Language:Infinitives",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:2",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语言知识支撑理解 / subsectionSupportsLanguageSkill:languageKnowledgeSupportsReceptive",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:2",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为语言知识（语法/结构）聚焦，支撑语篇理解与意义表达。",
+      "subsectionTitle": "Focus on Language:Infinitives",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:2",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语言知识支撑表达 / languageSkillRealizedInSubsection:languageKnowledgeSupportsExpressive",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:2",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为语言知识（语法/结构）聚焦，支撑语篇理解与意义表达。",
+      "subsectionTitle": "Focus on Language:Infinitives",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:2",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语言知识支撑表达 / subsectionSupportsLanguageSkill:languageKnowledgeSupportsExpressive",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:2",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为语言知识（语法/结构）聚焦，支撑语篇理解与意义表达。",
+      "subsectionTitle": "Focus on Language:Infinitives",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:2",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语篇理解训练 / languageSkillRealizedInSubsection:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:3",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "1 Teatime",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:3",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语篇理解训练 / subsectionSupportsLanguageSkill:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:3",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "1 Teatime",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:3",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：基于语篇表达 / languageSkillRealizedInSubsection:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:3",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "1 Teatime",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:3",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：基于语篇表达 / subsectionSupportsLanguageSkill:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:3",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "1 Teatime",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:3",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语篇理解训练 / languageSkillRealizedInSubsection:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:4",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "2 City or Country?",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:4",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语篇理解训练 / subsectionSupportsLanguageSkill:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:4",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "2 City or Country?",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:4",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：基于语篇表达 / languageSkillRealizedInSubsection:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:4",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "2 City or Country?",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:4",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：基于语篇表达 / subsectionSupportsLanguageSkill:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:4",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "2 City or Country?",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:4",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语篇理解训练 / languageSkillRealizedInSubsection:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:5",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节标题包含“Reading”，对应课程标准所述理解性技能中的“读/看”。",
+      "subsectionTitle": "Reading The Underdog",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:5",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语篇理解训练 / subsectionSupportsLanguageSkill:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:5",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节标题包含“Reading”，对应课程标准所述理解性技能中的“读/看”。",
+      "subsectionTitle": "Reading The Underdog",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:5",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：基于语篇表达 / languageSkillRealizedInSubsection:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:5",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节标题包含“Reading”，对应课程标准所述理解性技能中的“读/看”。",
+      "subsectionTitle": "Reading The Underdog",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:5",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：基于语篇表达 / subsectionSupportsLanguageSkill:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:5",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节标题包含“Reading”，对应课程标准所述理解性技能中的“读/看”。",
+      "subsectionTitle": "Reading The Underdog",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:5",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语言知识支撑理解 / languageSkillRealizedInSubsection:languageKnowledgeSupportsReceptive",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:6",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为语言知识（语法/结构）聚焦，支撑语篇理解与意义表达。",
+      "subsectionTitle": "Focus on Language:Relative Clauses(1)",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:6",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语言知识支撑理解 / subsectionSupportsLanguageSkill:languageKnowledgeSupportsReceptive",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:6",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为语言知识（语法/结构）聚焦，支撑语篇理解与意义表达。",
+      "subsectionTitle": "Focus on Language:Relative Clauses(1)",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:6",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语言知识支撑表达 / languageSkillRealizedInSubsection:languageKnowledgeSupportsExpressive",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:6",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为语言知识（语法/结构）聚焦，支撑语篇理解与意义表达。",
+      "subsectionTitle": "Focus on Language:Relative Clauses(1)",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:6",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语言知识支撑表达 / subsectionSupportsLanguageSkill:languageKnowledgeSupportsExpressive",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:6",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为语言知识（语法/结构）聚焦，支撑语篇理解与意义表达。",
+      "subsectionTitle": "Focus on Language:Relative Clauses(1)",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:6",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语篇理解训练 / languageSkillRealizedInSubsection:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:7",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "1 Martial Arts",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:7",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语篇理解训练 / subsectionSupportsLanguageSkill:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:7",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "1 Martial Arts",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:7",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：基于语篇表达 / languageSkillRealizedInSubsection:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:7",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "1 Martial Arts",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:7",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：基于语篇表达 / subsectionSupportsLanguageSkill:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:7",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "1 Martial Arts",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:7",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语篇理解训练 / languageSkillRealizedInSubsection:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:8",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "2 Getting Fit",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:8",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语篇理解训练 / subsectionSupportsLanguageSkill:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:8",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "2 Getting Fit",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:8",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：基于语篇表达 / languageSkillRealizedInSubsection:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:8",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "2 Getting Fit",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:8",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：基于语篇表达 / subsectionSupportsLanguageSkill:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:8",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "2 Getting Fit",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:8",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语篇理解训练 / languageSkillRealizedInSubsection:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:9",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节标题包含“Reading”，对应课程标准所述理解性技能中的“读/看”。",
+      "subsectionTitle": "Reading Spring Festival",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:9",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语篇理解训练 / subsectionSupportsLanguageSkill:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:9",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节标题包含“Reading”，对应课程标准所述理解性技能中的“读/看”。",
+      "subsectionTitle": "Reading Spring Festival",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:9",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：基于语篇表达 / languageSkillRealizedInSubsection:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:9",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节标题包含“Reading”，对应课程标准所述理解性技能中的“读/看”。",
+      "subsectionTitle": "Reading Spring Festival",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:9",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：基于语篇表达 / subsectionSupportsLanguageSkill:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:9",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节标题包含“Reading”，对应课程标准所述理解性技能中的“读/看”。",
+      "subsectionTitle": "Reading Spring Festival",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:9",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语言知识支撑理解 / languageSkillRealizedInSubsection:languageKnowledgeSupportsReceptive",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:10",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为语言知识（语法/结构）聚焦，支撑语篇理解与意义表达。",
+      "subsectionTitle": "Focus on Language:The Passive",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:10",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语言知识支撑理解 / subsectionSupportsLanguageSkill:languageKnowledgeSupportsReceptive",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:10",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为语言知识（语法/结构）聚焦，支撑语篇理解与意义表达。",
+      "subsectionTitle": "Focus on Language:The Passive",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:10",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语言知识支撑表达 / languageSkillRealizedInSubsection:languageKnowledgeSupportsExpressive",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:10",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为语言知识（语法/结构）聚焦，支撑语篇理解与意义表达。",
+      "subsectionTitle": "Focus on Language:The Passive",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:10",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语言知识支撑表达 / subsectionSupportsLanguageSkill:languageKnowledgeSupportsExpressive",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:10",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为语言知识（语法/结构）聚焦，支撑语篇理解与意义表达。",
+      "subsectionTitle": "Focus on Language:The Passive",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:10",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语篇理解训练 / languageSkillRealizedInSubsection:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:11",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "1 Festival Menu",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:11",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语篇理解训练 / subsectionSupportsLanguageSkill:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:11",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "1 Festival Menu",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:11",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：基于语篇表达 / languageSkillRealizedInSubsection:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:11",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "1 Festival Menu",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:11",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：基于语篇表达 / subsectionSupportsLanguageSkill:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:11",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "1 Festival Menu",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:11",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语篇理解训练 / languageSkillRealizedInSubsection:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:12",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "2 The Un-birthday Gift",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:12",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语篇理解训练 / subsectionSupportsLanguageSkill:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:12",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "2 The Un-birthday Gift",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:12",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：基于语篇表达 / languageSkillRealizedInSubsection:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:12",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "2 The Un-birthday Gift",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:12",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：基于语篇表达 / subsectionSupportsLanguageSkill:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:12",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "2 The Un-birthday Gift",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:12",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语篇理解训练 / languageSkillRealizedInSubsection:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:13",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节标题包含“Reading”，对应课程标准所述理解性技能中的“读/看”。",
+      "subsectionTitle": "Reading Avatars",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:13",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语篇理解训练 / subsectionSupportsLanguageSkill:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:13",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节标题包含“Reading”，对应课程标准所述理解性技能中的“读/看”。",
+      "subsectionTitle": "Reading Avatars",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:13",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：基于语篇表达 / languageSkillRealizedInSubsection:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:13",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节标题包含“Reading”，对应课程标准所述理解性技能中的“读/看”。",
+      "subsectionTitle": "Reading Avatars",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:13",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：基于语篇表达 / subsectionSupportsLanguageSkill:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:13",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节标题包含“Reading”，对应课程标准所述理解性技能中的“读/看”。",
+      "subsectionTitle": "Reading Avatars",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:13",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语言知识支撑理解 / languageSkillRealizedInSubsection:languageKnowledgeSupportsReceptive",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:14",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为语言知识（语法/结构）聚焦，支撑语篇理解与意义表达。",
+      "subsectionTitle": "Focus on Language: Past Future",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:14",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语言知识支撑理解 / subsectionSupportsLanguageSkill:languageKnowledgeSupportsReceptive",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:14",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为语言知识（语法/结构）聚焦，支撑语篇理解与意义表达。",
+      "subsectionTitle": "Focus on Language: Past Future",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:14",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语言知识支撑表达 / languageSkillRealizedInSubsection:languageKnowledgeSupportsExpressive",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:14",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为语言知识（语法/结构）聚焦，支撑语篇理解与意义表达。",
+      "subsectionTitle": "Focus on Language: Past Future",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:14",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语言知识支撑表达 / subsectionSupportsLanguageSkill:languageKnowledgeSupportsExpressive",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:14",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为语言知识（语法/结构）聚焦，支撑语篇理解与意义表达。",
+      "subsectionTitle": "Focus on Language: Past Future",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:14",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语篇理解训练 / languageSkillRealizedInSubsection:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:15",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "1 Digitising Ancient Art",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:15",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语篇理解训练 / subsectionSupportsLanguageSkill:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:15",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "1 Digitising Ancient Art",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:15",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：基于语篇表达 / languageSkillRealizedInSubsection:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:15",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "1 Digitising Ancient Art",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:15",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：基于语篇表达 / subsectionSupportsLanguageSkill:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:15",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "1 Digitising Ancient Art",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:15",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语篇理解训练 / languageSkillRealizedInSubsection:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:16",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "2 Wearable Technology",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:16",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语篇理解训练 / subsectionSupportsLanguageSkill:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:16",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "2 Wearable Technology",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:16",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：基于语篇表达 / languageSkillRealizedInSubsection:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:16",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "2 Wearable Technology",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:16",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：基于语篇表达 / subsectionSupportsLanguageSkill:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:16",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "2 Wearable Technology",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:16",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语篇理解训练 / languageSkillRealizedInSubsection:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:17",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节标题包含“Reading”，对应课程标准所述理解性技能中的“读/看”。",
+      "subsectionTitle": "Reading A Sea Story",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:17",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语篇理解训练 / subsectionSupportsLanguageSkill:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:17",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节标题包含“Reading”，对应课程标准所述理解性技能中的“读/看”。",
+      "subsectionTitle": "Reading A Sea Story",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:17",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：基于语篇表达 / languageSkillRealizedInSubsection:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:17",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节标题包含“Reading”，对应课程标准所述理解性技能中的“读/看”。",
+      "subsectionTitle": "Reading A Sea Story",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:17",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：基于语篇表达 / subsectionSupportsLanguageSkill:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:17",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节标题包含“Reading”，对应课程标准所述理解性技能中的“读/看”。",
+      "subsectionTitle": "Reading A Sea Story",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:17",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语言知识支撑理解 / languageSkillRealizedInSubsection:languageKnowledgeSupportsReceptive",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:18",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为语言知识（语法/结构）聚焦，支撑语篇理解与意义表达。",
+      "subsectionTitle": "Focus on Language: Relative Clauses(2)",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:18",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语言知识支撑理解 / subsectionSupportsLanguageSkill:languageKnowledgeSupportsReceptive",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:18",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为语言知识（语法/结构）聚焦，支撑语篇理解与意义表达。",
+      "subsectionTitle": "Focus on Language: Relative Clauses(2)",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:18",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语言知识支撑表达 / languageSkillRealizedInSubsection:languageKnowledgeSupportsExpressive",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:18",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为语言知识（语法/结构）聚焦，支撑语篇理解与意义表达。",
+      "subsectionTitle": "Focus on Language: Relative Clauses(2)",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:18",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语言知识支撑表达 / subsectionSupportsLanguageSkill:languageKnowledgeSupportsExpressive",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:18",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为语言知识（语法/结构）聚焦，支撑语篇理解与意义表达。",
+      "subsectionTitle": "Focus on Language: Relative Clauses(2)",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:18",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语篇理解训练 / languageSkillRealizedInSubsection:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:19",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "1 New Zealand",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:19",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语篇理解训练 / subsectionSupportsLanguageSkill:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:19",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "1 New Zealand",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:19",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：基于语篇表达 / languageSkillRealizedInSubsection:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:19",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "1 New Zealand",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:19",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：基于语篇表达 / subsectionSupportsLanguageSkill:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:19",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "1 New Zealand",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:19",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语篇理解训练 / languageSkillRealizedInSubsection:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:20",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "2 Nature Films",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:20",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语篇理解训练 / subsectionSupportsLanguageSkill:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:20",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "2 Nature Films",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:20",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：基于语篇表达 / languageSkillRealizedInSubsection:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:20",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "2 Nature Films",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:20",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：基于语篇表达 / subsectionSupportsLanguageSkill:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:20",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "2 Nature Films",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:20",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语篇理解训练 / languageSkillRealizedInSubsection:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:21",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节标题包含“Reading”，对应课程标准所述理解性技能中的“读/看”。",
+      "subsectionTitle": "Reading A Medical Pioneer",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:21",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语篇理解训练 / subsectionSupportsLanguageSkill:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:21",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节标题包含“Reading”，对应课程标准所述理解性技能中的“读/看”。",
+      "subsectionTitle": "Reading A Medical Pioneer",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:21",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：基于语篇表达 / languageSkillRealizedInSubsection:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:21",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节标题包含“Reading”，对应课程标准所述理解性技能中的“读/看”。",
+      "subsectionTitle": "Reading A Medical Pioneer",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:21",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：基于语篇表达 / subsectionSupportsLanguageSkill:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:21",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节标题包含“Reading”，对应课程标准所述理解性技能中的“读/看”。",
+      "subsectionTitle": "Reading A Medical Pioneer",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:21",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语言知识支撑理解 / languageSkillRealizedInSubsection:languageKnowledgeSupportsReceptive",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:22",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为语言知识（语法/结构）聚焦，支撑语篇理解与意义表达。",
+      "subsectionTitle": "Focus on Language: Relative Clauses(3)",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:22",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语言知识支撑理解 / subsectionSupportsLanguageSkill:languageKnowledgeSupportsReceptive",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:22",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为语言知识（语法/结构）聚焦，支撑语篇理解与意义表达。",
+      "subsectionTitle": "Focus on Language: Relative Clauses(3)",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:22",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语言知识支撑表达 / languageSkillRealizedInSubsection:languageKnowledgeSupportsExpressive",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:22",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为语言知识（语法/结构）聚焦，支撑语篇理解与意义表达。",
+      "subsectionTitle": "Focus on Language: Relative Clauses(3)",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:22",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语言知识支撑表达 / subsectionSupportsLanguageSkill:languageKnowledgeSupportsExpressive",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:22",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为语言知识（语法/结构）聚焦，支撑语篇理解与意义表达。",
+      "subsectionTitle": "Focus on Language: Relative Clauses(3)",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:22",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语篇理解训练 / languageSkillRealizedInSubsection:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:23",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "1 Space Heroes",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:23",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语篇理解训练 / subsectionSupportsLanguageSkill:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:23",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "1 Space Heroes",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:23",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：基于语篇表达 / languageSkillRealizedInSubsection:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:23",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "1 Space Heroes",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:23",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：基于语篇表达 / subsectionSupportsLanguageSkill:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:23",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "1 Space Heroes",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:23",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语篇理解训练 / languageSkillRealizedInSubsection:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:24",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "2 Anne Frank and Her Diary",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:24",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语篇理解训练 / subsectionSupportsLanguageSkill:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:24",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "2 Anne Frank and Her Diary",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:24",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：基于语篇表达 / languageSkillRealizedInSubsection:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:24",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "2 Anne Frank and Her Diary",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:24",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：基于语篇表达 / subsectionSupportsLanguageSkill:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:24",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "2 Anne Frank and Her Diary",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:24",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语篇理解训练 / languageSkillRealizedInSubsection:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:25",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节标题包含“Reading”，对应课程标准所述理解性技能中的“读/看”。",
+      "subsectionTitle": "Reading Masterpieces",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:25",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语篇理解训练 / subsectionSupportsLanguageSkill:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:25",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节标题包含“Reading”，对应课程标准所述理解性技能中的“读/看”。",
+      "subsectionTitle": "Reading Masterpieces",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:25",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：基于语篇表达 / languageSkillRealizedInSubsection:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:25",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节标题包含“Reading”，对应课程标准所述理解性技能中的“读/看”。",
+      "subsectionTitle": "Reading Masterpieces",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:25",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：基于语篇表达 / subsectionSupportsLanguageSkill:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:25",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节标题包含“Reading”，对应课程标准所述理解性技能中的“读/看”。",
+      "subsectionTitle": "Reading Masterpieces",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:25",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语言知识支撑理解 / languageSkillRealizedInSubsection:languageKnowledgeSupportsReceptive",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:26",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为语言知识（语法/结构）聚焦，支撑语篇理解与意义表达。",
+      "subsectionTitle": "Focus on Language:Noun Clauses",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:26",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语言知识支撑理解 / subsectionSupportsLanguageSkill:languageKnowledgeSupportsReceptive",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:26",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为语言知识（语法/结构）聚焦，支撑语篇理解与意义表达。",
+      "subsectionTitle": "Focus on Language:Noun Clauses",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:26",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语言知识支撑表达 / languageSkillRealizedInSubsection:languageKnowledgeSupportsExpressive",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:26",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为语言知识（语法/结构）聚焦，支撑语篇理解与意义表达。",
+      "subsectionTitle": "Focus on Language:Noun Clauses",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:26",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语言知识支撑表达 / subsectionSupportsLanguageSkill:languageKnowledgeSupportsExpressive",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:26",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为语言知识（语法/结构）聚焦，支撑语篇理解与意义表达。",
+      "subsectionTitle": "Focus on Language:Noun Clauses",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:26",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语篇理解训练 / languageSkillRealizedInSubsection:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:27",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "1 East Meets West",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:27",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语篇理解训练 / subsectionSupportsLanguageSkill:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:27",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "1 East Meets West",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:27",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：基于语篇表达 / languageSkillRealizedInSubsection:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:27",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "1 East Meets West",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:27",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：基于语篇表达 / subsectionSupportsLanguageSkill:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:27",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "1 East Meets West",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:27",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语篇理解训练 / languageSkillRealizedInSubsection:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:28",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "2 Graffiti:From Vandalism to Street Art",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:28",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语篇理解训练 / subsectionSupportsLanguageSkill:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:28",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "2 Graffiti:From Vandalism to Street Art",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:28",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：基于语篇表达 / languageSkillRealizedInSubsection:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:28",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "2 Graffiti:From Vandalism to Street Art",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:28",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：基于语篇表达 / subsectionSupportsLanguageSkill:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:28",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "2 Graffiti:From Vandalism to Street Art",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:28",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语篇理解训练 / languageSkillRealizedInSubsection:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:29",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节标题包含“Reading”，对应课程标准所述理解性技能中的“读/看”。",
+      "subsectionTitle": "Reading Roots and Shoots",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:29",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语篇理解训练 / subsectionSupportsLanguageSkill:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:29",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节标题包含“Reading”，对应课程标准所述理解性技能中的“读/看”。",
+      "subsectionTitle": "Reading Roots and Shoots",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:29",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：基于语篇表达 / languageSkillRealizedInSubsection:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:29",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节标题包含“Reading”，对应课程标准所述理解性技能中的“读/看”。",
+      "subsectionTitle": "Reading Roots and Shoots",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:29",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：基于语篇表达 / subsectionSupportsLanguageSkill:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:29",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节标题包含“Reading”，对应课程标准所述理解性技能中的“读/看”。",
+      "subsectionTitle": "Reading Roots and Shoots",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:29",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语言知识支撑理解 / languageSkillRealizedInSubsection:languageKnowledgeSupportsReceptive",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:30",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为语言知识（语法/结构）聚焦，支撑语篇理解与意义表达。",
+      "subsectionTitle": "Focus on Language:Verb-ing and -ed Forms",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:30",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语言知识支撑理解 / subsectionSupportsLanguageSkill:languageKnowledgeSupportsReceptive",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:30",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为语言知识（语法/结构）聚焦，支撑语篇理解与意义表达。",
+      "subsectionTitle": "Focus on Language:Verb-ing and -ed Forms",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:30",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语言知识支撑表达 / languageSkillRealizedInSubsection:languageKnowledgeSupportsExpressive",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:30",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为语言知识（语法/结构）聚焦，支撑语篇理解与意义表达。",
+      "subsectionTitle": "Focus on Language:Verb-ing and -ed Forms",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:30",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语言知识支撑表达 / subsectionSupportsLanguageSkill:languageKnowledgeSupportsExpressive",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:30",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为语言知识（语法/结构）聚焦，支撑语篇理解与意义表达。",
+      "subsectionTitle": "Focus on Language:Verb-ing and -ed Forms",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:30",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语篇理解训练 / languageSkillRealizedInSubsection:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:31",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "1 Recycling",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:31",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语篇理解训练 / subsectionSupportsLanguageSkill:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:31",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "1 Recycling",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:31",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：基于语篇表达 / languageSkillRealizedInSubsection:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:31",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "1 Recycling",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:31",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：基于语篇表达 / subsectionSupportsLanguageSkill:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:31",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "1 Recycling",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:31",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语篇理解训练 / languageSkillRealizedInSubsection:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:32",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "2 The Environment:A Local and Global Issue",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:32",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语篇理解训练 / subsectionSupportsLanguageSkill:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:32",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "2 The Environment:A Local and Global Issue",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:32",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：基于语篇表达 / languageSkillRealizedInSubsection:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:32",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "2 The Environment:A Local and Global Issue",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:32",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：基于语篇表达 / subsectionSupportsLanguageSkill:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:32",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "2 The Environment:A Local and Global Issue",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:32",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语篇理解训练 / languageSkillRealizedInSubsection:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:33",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节标题包含“Reading”，对应课程标准所述理解性技能中的“读/看”。",
+      "subsectionTitle": "Reading Active Learning",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:33",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语篇理解训练 / subsectionSupportsLanguageSkill:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:33",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节标题包含“Reading”，对应课程标准所述理解性技能中的“读/看”。",
+      "subsectionTitle": "Reading Active Learning",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:33",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：基于语篇表达 / languageSkillRealizedInSubsection:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:33",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节标题包含“Reading”，对应课程标准所述理解性技能中的“读/看”。",
+      "subsectionTitle": "Reading Active Learning",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:33",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：基于语篇表达 / subsectionSupportsLanguageSkill:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:33",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节标题包含“Reading”，对应课程标准所述理解性技能中的“读/看”。",
+      "subsectionTitle": "Reading Active Learning",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:33",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语言知识支撑理解 / languageSkillRealizedInSubsection:languageKnowledgeSupportsReceptive",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:34",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为语言知识（语法/结构）聚焦，支撑语篇理解与意义表达。",
+      "subsectionTitle": "Focus on Language:Verbs Followed by Verb-ing Form or Infinitive",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:34",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语言知识支撑理解 / subsectionSupportsLanguageSkill:languageKnowledgeSupportsReceptive",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:34",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为语言知识（语法/结构）聚焦，支撑语篇理解与意义表达。",
+      "subsectionTitle": "Focus on Language:Verbs Followed by Verb-ing Form or Infinitive",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:34",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语言知识支撑表达 / languageSkillRealizedInSubsection:languageKnowledgeSupportsExpressive",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:34",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为语言知识（语法/结构）聚焦，支撑语篇理解与意义表达。",
+      "subsectionTitle": "Focus on Language:Verbs Followed by Verb-ing Form or Infinitive",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:34",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语言知识支撑表达 / subsectionSupportsLanguageSkill:languageKnowledgeSupportsExpressive",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:34",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为语言知识（语法/结构）聚焦，支撑语篇理解与意义表达。",
+      "subsectionTitle": "Focus on Language:Verbs Followed by Verb-ing Form or Infinitive",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:34",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语篇理解训练 / languageSkillRealizedInSubsection:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:35",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "1 Studying Abroad",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:35",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语篇理解训练 / subsectionSupportsLanguageSkill:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:35",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "1 Studying Abroad",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:35",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：基于语篇表达 / languageSkillRealizedInSubsection:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:35",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "1 Studying Abroad",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:35",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：基于语篇表达 / subsectionSupportsLanguageSkill:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:35",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "1 Studying Abroad",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:35",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：语篇理解训练 / languageSkillRealizedInSubsection:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:36",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "2 Do Boys and Girls Have Different Reading Preferences?",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:36",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：语篇理解训练 / subsectionSupportsLanguageSkill:textComprehensionPractice",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:36",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:1",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "2 Do Boys and Girls Have Different Reading Preferences?",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:36",
+      "languageSkillTitle": "必修理解性技能"
+    }
+  },
+  {
+    "relationName": "languageSkillRealizedInSubsection",
+    "label": "语言技能在小节中落实：基于语篇表达 / languageSkillRealizedInSubsection:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:36",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "2 Do Boys and Girls Have Different Reading Preferences?",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:36",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  },
+  {
+    "relationName": "subsectionSupportsLanguageSkill",
+    "label": "小节支撑语言技能：基于语篇表达 / subsectionSupportsLanguageSkill:textBasedExpression",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:36",
+    "target": "urn:jy:English:SB0102:OB06:LanguageSkills:2",
+    "evidence": {
+      "mdQuotes": [
+        "语言技能包括理解性技能和表达性技能，如听、说、读、看、写等技能",
+        "语言知识为语篇的构成和意义的表达提供语言要素",
+        "通过学习理解、应用实践、迁移创新…学习和运用语言…表达个人观点"
+      ],
+      "rationale": "小节为Reading Club阅读材料，主要训练语篇理解。",
+      "subsectionTitle": "2 Do Boys and Girls Have Different Reading Preferences?",
+      "subsectionIdentifier": "urn:jy:English:SB0102:OB06:Subsection:36",
+      "languageSkillTitle": "必修表达性技能"
+    }
+  }
+]

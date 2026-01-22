@@ -1,0 +1,67 @@
+# 知识图谱可视化系统 Docker Compose 配置
+# 用法: docker-compose up -d
+
+version: '3.8'
+
+services:
+  # 知识图谱可视化服务
+  graph-web:
+    build: .
+    container_name: knowledge-graph-web
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./static:/app/static:ro
+      - ./图谱数据:/app/图谱数据:ro
+    environment:
+      - TZ=Asia/Shanghai
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8888/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Neo4j 查询API服务（可选）
+  graph-api:
+    build: .
+    container_name: knowledge-graph-api
+    command: ["python3", "manage.py", "api", "--host", "0.0.0.0", "--port", "8889"]
+    ports:
+      - "8889:8889"
+    volumes:
+      - ./.env:/app/.env:ro
+    environment:
+      - TZ=Asia/Shanghai
+    depends_on:
+      - neo4j
+    restart: unless-stopped
+    profiles:
+      - api  # 使用 docker-compose --profile api up 启动
+
+  # Neo4j 数据库（可选，用于本地开发）
+  neo4j:
+    image: neo4j:5.15-community
+    container_name: knowledge-graph-neo4j
+    ports:
+      - "7474:7474"  # HTTP
+      - "7687:7687"  # Bolt
+    volumes:
+      - neo4j_data:/data
+      - neo4j_logs:/logs
+    environment:
+      - NEO4J_AUTH=neo4j/your_password_here
+      - NEO4J_PLUGINS=["apoc"]
+      - NEO4J_dbms_memory_heap_initial__size=512m
+      - NEO4J_dbms_memory_heap_max__size=1G
+    restart: unless-stopped
+    profiles:
+      - neo4j  # 使用 docker-compose --profile neo4j up 启动
+
+volumes:
+  neo4j_data:
+  neo4j_logs:
+
+networks:
+  default:
+    name: knowledge-graph-network

@@ -1,0 +1,2312 @@
+[
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:1",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading Lifestyles -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:1",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading Lifestyles -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:1",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据学习内容和学习重点，计划和安排预习和复习；",
+        "经常对所学内容进行整理和归纳；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading Lifestyles -> 元认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:1",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据学习内容和学习重点，计划和安排预习和复习；",
+        "经常对所学内容进行整理和归纳；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading Lifestyles -> 元认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:2",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Focus on Language:Infinitives -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:2",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Focus on Language:Infinitives -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:2",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据学习内容和学习重点，计划和安排预习和复习；",
+        "经常对所学内容进行整理和归纳；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Focus on Language:Infinitives -> 元认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:2",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据学习内容和学习重点，计划和安排预习和复习；",
+        "经常对所学内容进行整理和归纳；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Focus on Language:Infinitives -> 元认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:3",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据交际需要发起谈话并维持交谈；",
+        "使用语言或非语言手段预示和结束谈话；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：1 Teatime -> 交际策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:3",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据交际需要发起谈话并维持交谈；",
+        "使用语言或非语言手段预示和结束谈话；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：1 Teatime -> 交际策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:3",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：1 Teatime -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:3",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：1 Teatime -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:4",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据交际需要发起谈话并维持交谈；",
+        "使用语言或非语言手段预示和结束谈话；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 City or Country? -> 交际策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:4",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据交际需要发起谈话并维持交谈；",
+        "使用语言或非语言手段预示和结束谈话；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 City or Country? -> 交际策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:4",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 City or Country? -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:4",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 City or Country? -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:5",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading The Underdog -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:5",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading The Underdog -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:5",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据学习内容和学习重点，计划和安排预习和复习；",
+        "经常对所学内容进行整理和归纳；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading The Underdog -> 元认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:5",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据学习内容和学习重点，计划和安排预习和复习；",
+        "经常对所学内容进行整理和归纳；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading The Underdog -> 元认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:4",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:5",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "对英语学习保持主动和积极的态度，不断增强学习的自信心；",
+        "有学习英语的兴趣，主动参加各种学习和运用语言的实践活动；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading The Underdog -> 情感管理策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:5",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:4",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "对英语学习保持主动和积极的态度，不断增强学习的自信心；",
+        "有学习英语的兴趣，主动参加各种学习和运用语言的实践活动；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading The Underdog -> 情感管理策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:6",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Focus on Language:Relative Clauses(1) -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:6",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Focus on Language:Relative Clauses(1) -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:6",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据学习内容和学习重点，计划和安排预习和复习；",
+        "经常对所学内容进行整理和归纳；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Focus on Language:Relative Clauses(1) -> 元认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:6",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据学习内容和学习重点，计划和安排预习和复习；",
+        "经常对所学内容进行整理和归纳；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Focus on Language:Relative Clauses(1) -> 元认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:7",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据交际需要发起谈话并维持交谈；",
+        "使用语言或非语言手段预示和结束谈话；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：1 Martial Arts -> 交际策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:7",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据交际需要发起谈话并维持交谈；",
+        "使用语言或非语言手段预示和结束谈话；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：1 Martial Arts -> 交际策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:7",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：1 Martial Arts -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:7",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：1 Martial Arts -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:8",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据交际需要发起谈话并维持交谈；",
+        "使用语言或非语言手段预示和结束谈话；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 Getting Fit -> 交际策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:8",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据交际需要发起谈话并维持交谈；",
+        "使用语言或非语言手段预示和结束谈话；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 Getting Fit -> 交际策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:8",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 Getting Fit -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:8",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 Getting Fit -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:9",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading Spring Festival -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:9",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading Spring Festival -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:9",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据学习内容和学习重点，计划和安排预习和复习；",
+        "经常对所学内容进行整理和归纳；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading Spring Festival -> 元认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:9",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据学习内容和学习重点，计划和安排预习和复习；",
+        "经常对所学内容进行整理和归纳；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading Spring Festival -> 元认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:10",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Focus on Language:The Passive -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:10",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Focus on Language:The Passive -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:10",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据学习内容和学习重点，计划和安排预习和复习；",
+        "经常对所学内容进行整理和归纳；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Focus on Language:The Passive -> 元认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:10",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据学习内容和学习重点，计划和安排预习和复习；",
+        "经常对所学内容进行整理和归纳；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Focus on Language:The Passive -> 元认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:11",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据交际需要发起谈话并维持交谈；",
+        "使用语言或非语言手段预示和结束谈话；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：1 Festival Menu -> 交际策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:11",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据交际需要发起谈话并维持交谈；",
+        "使用语言或非语言手段预示和结束谈话；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：1 Festival Menu -> 交际策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:11",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：1 Festival Menu -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:11",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：1 Festival Menu -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:12",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据交际需要发起谈话并维持交谈；",
+        "使用语言或非语言手段预示和结束谈话；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 The Un-birthday Gift -> 交际策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:12",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据交际需要发起谈话并维持交谈；",
+        "使用语言或非语言手段预示和结束谈话；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 The Un-birthday Gift -> 交际策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:12",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 The Un-birthday Gift -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:12",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 The Un-birthday Gift -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:13",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading Avatars -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:13",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading Avatars -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:13",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据学习内容和学习重点，计划和安排预习和复习；",
+        "经常对所学内容进行整理和归纳；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading Avatars -> 元认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:13",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据学习内容和学习重点，计划和安排预习和复习；",
+        "经常对所学内容进行整理和归纳；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading Avatars -> 元认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:14",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Focus on Language: Past Future -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:14",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Focus on Language: Past Future -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:14",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据学习内容和学习重点，计划和安排预习和复习；",
+        "经常对所学内容进行整理和归纳；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Focus on Language: Past Future -> 元认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:14",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据学习内容和学习重点，计划和安排预习和复习；",
+        "经常对所学内容进行整理和归纳；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Focus on Language: Past Future -> 元认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:15",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据交际需要发起谈话并维持交谈；",
+        "使用语言或非语言手段预示和结束谈话；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：1 Digitising Ancient Art -> 交际策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:15",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据交际需要发起谈话并维持交谈；",
+        "使用语言或非语言手段预示和结束谈话；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：1 Digitising Ancient Art -> 交际策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:15",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：1 Digitising Ancient Art -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:15",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：1 Digitising Ancient Art -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:16",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据交际需要发起谈话并维持交谈；",
+        "使用语言或非语言手段预示和结束谈话；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 Wearable Technology -> 交际策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:16",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据交际需要发起谈话并维持交谈；",
+        "使用语言或非语言手段预示和结束谈话；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 Wearable Technology -> 交际策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:16",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 Wearable Technology -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:16",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 Wearable Technology -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:17",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading A Sea Story -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:17",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading A Sea Story -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:17",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据学习内容和学习重点，计划和安排预习和复习；",
+        "经常对所学内容进行整理和归纳；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading A Sea Story -> 元认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:17",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据学习内容和学习重点，计划和安排预习和复习；",
+        "经常对所学内容进行整理和归纳；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading A Sea Story -> 元认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:18",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Focus on Language: Relative Clauses(2) -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:18",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Focus on Language: Relative Clauses(2) -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:18",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据学习内容和学习重点，计划和安排预习和复习；",
+        "经常对所学内容进行整理和归纳；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Focus on Language: Relative Clauses(2) -> 元认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:18",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据学习内容和学习重点，计划和安排预习和复习；",
+        "经常对所学内容进行整理和归纳；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Focus on Language: Relative Clauses(2) -> 元认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:19",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据交际需要发起谈话并维持交谈；",
+        "使用语言或非语言手段预示和结束谈话；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：1 New Zealand -> 交际策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:19",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据交际需要发起谈话并维持交谈；",
+        "使用语言或非语言手段预示和结束谈话；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：1 New Zealand -> 交际策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:19",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：1 New Zealand -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:19",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：1 New Zealand -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:20",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据交际需要发起谈话并维持交谈；",
+        "使用语言或非语言手段预示和结束谈话；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 Nature Films -> 交际策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:20",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据交际需要发起谈话并维持交谈；",
+        "使用语言或非语言手段预示和结束谈话；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 Nature Films -> 交际策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:20",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 Nature Films -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:20",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 Nature Films -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:21",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading A Medical Pioneer -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:21",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading A Medical Pioneer -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:21",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据学习内容和学习重点，计划和安排预习和复习；",
+        "经常对所学内容进行整理和归纳；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading A Medical Pioneer -> 元认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:21",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据学习内容和学习重点，计划和安排预习和复习；",
+        "经常对所学内容进行整理和归纳；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading A Medical Pioneer -> 元认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:22",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Focus on Language: Relative Clauses(3) -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:22",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Focus on Language: Relative Clauses(3) -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:22",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据学习内容和学习重点，计划和安排预习和复习；",
+        "经常对所学内容进行整理和归纳；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Focus on Language: Relative Clauses(3) -> 元认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:22",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据学习内容和学习重点，计划和安排预习和复习；",
+        "经常对所学内容进行整理和归纳；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Focus on Language: Relative Clauses(3) -> 元认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:23",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据交际需要发起谈话并维持交谈；",
+        "使用语言或非语言手段预示和结束谈话；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：1 Space Heroes -> 交际策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:23",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据交际需要发起谈话并维持交谈；",
+        "使用语言或非语言手段预示和结束谈话；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：1 Space Heroes -> 交际策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:23",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：1 Space Heroes -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:23",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：1 Space Heroes -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:24",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据交际需要发起谈话并维持交谈；",
+        "使用语言或非语言手段预示和结束谈话；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 Anne Frank and Her Diary -> 交际策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:24",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据交际需要发起谈话并维持交谈；",
+        "使用语言或非语言手段预示和结束谈话；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 Anne Frank and Her Diary -> 交际策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:24",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 Anne Frank and Her Diary -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:24",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 Anne Frank and Her Diary -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:25",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading Masterpieces -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:25",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading Masterpieces -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:25",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据学习内容和学习重点，计划和安排预习和复习；",
+        "经常对所学内容进行整理和归纳；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading Masterpieces -> 元认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:25",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据学习内容和学习重点，计划和安排预习和复习；",
+        "经常对所学内容进行整理和归纳；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading Masterpieces -> 元认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:26",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Focus on Language:Noun Clauses -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:26",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Focus on Language:Noun Clauses -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:26",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据学习内容和学习重点，计划和安排预习和复习；",
+        "经常对所学内容进行整理和归纳；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Focus on Language:Noun Clauses -> 元认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:26",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据学习内容和学习重点，计划和安排预习和复习；",
+        "经常对所学内容进行整理和归纳；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Focus on Language:Noun Clauses -> 元认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:27",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据交际需要发起谈话并维持交谈；",
+        "使用语言或非语言手段预示和结束谈话；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：1 East Meets West -> 交际策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:27",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据交际需要发起谈话并维持交谈；",
+        "使用语言或非语言手段预示和结束谈话；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：1 East Meets West -> 交际策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:27",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：1 East Meets West -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:27",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：1 East Meets West -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:28",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据交际需要发起谈话并维持交谈；",
+        "使用语言或非语言手段预示和结束谈话；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 Graffiti:From Vandalism to Street Art -> 交际策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:28",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据交际需要发起谈话并维持交谈；",
+        "使用语言或非语言手段预示和结束谈话；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 Graffiti:From Vandalism to Street Art -> 交际策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:28",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 Graffiti:From Vandalism to Street Art -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:28",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 Graffiti:From Vandalism to Street Art -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:29",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading Roots and Shoots -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:29",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading Roots and Shoots -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:29",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据学习内容和学习重点，计划和安排预习和复习；",
+        "经常对所学内容进行整理和归纳；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading Roots and Shoots -> 元认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:29",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据学习内容和学习重点，计划和安排预习和复习；",
+        "经常对所学内容进行整理和归纳；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading Roots and Shoots -> 元认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:30",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Focus on Language:Verb-ing and -ed Forms -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:30",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Focus on Language:Verb-ing and -ed Forms -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:30",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据学习内容和学习重点，计划和安排预习和复习；",
+        "经常对所学内容进行整理和归纳；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Focus on Language:Verb-ing and -ed Forms -> 元认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:30",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据学习内容和学习重点，计划和安排预习和复习；",
+        "经常对所学内容进行整理和归纳；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Focus on Language:Verb-ing and -ed Forms -> 元认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:31",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据交际需要发起谈话并维持交谈；",
+        "使用语言或非语言手段预示和结束谈话；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：1 Recycling -> 交际策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:31",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据交际需要发起谈话并维持交谈；",
+        "使用语言或非语言手段预示和结束谈话；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：1 Recycling -> 交际策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:31",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：1 Recycling -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:31",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：1 Recycling -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:32",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据交际需要发起谈话并维持交谈；",
+        "使用语言或非语言手段预示和结束谈话；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 The Environment:A Local and Global Issue -> 交际策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:32",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据交际需要发起谈话并维持交谈；",
+        "使用语言或非语言手段预示和结束谈话；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 The Environment:A Local and Global Issue -> 交际策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:32",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 The Environment:A Local and Global Issue -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:32",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 The Environment:A Local and Global Issue -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:4",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:32",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "对英语学习保持主动和积极的态度，不断增强学习的自信心；",
+        "有学习英语的兴趣，主动参加各种学习和运用语言的实践活动；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 The Environment:A Local and Global Issue -> 情感管理策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:32",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:4",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "对英语学习保持主动和积极的态度，不断增强学习的自信心；",
+        "有学习英语的兴趣，主动参加各种学习和运用语言的实践活动；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 The Environment:A Local and Global Issue -> 情感管理策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:33",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading Active Learning -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:33",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading Active Learning -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:33",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据学习内容和学习重点，计划和安排预习和复习；",
+        "经常对所学内容进行整理和归纳；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading Active Learning -> 元认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:33",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据学习内容和学习重点，计划和安排预习和复习；",
+        "经常对所学内容进行整理和归纳；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading Active Learning -> 元认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:4",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:33",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "对英语学习保持主动和积极的态度，不断增强学习的自信心；",
+        "有学习英语的兴趣，主动参加各种学习和运用语言的实践活动；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading Active Learning -> 情感管理策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:33",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:4",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "对英语学习保持主动和积极的态度，不断增强学习的自信心；",
+        "有学习英语的兴趣，主动参加各种学习和运用语言的实践活动；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Reading Active Learning -> 情感管理策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:34",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Focus on Language:Verbs Followed by Verb-ing Form or Infinitive -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:34",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Focus on Language:Verbs Followed by Verb-ing Form or Infinitive -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:34",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据学习内容和学习重点，计划和安排预习和复习；",
+        "经常对所学内容进行整理和归纳；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Focus on Language:Verbs Followed by Verb-ing Form or Infinitive -> 元认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:34",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据学习内容和学习重点，计划和安排预习和复习；",
+        "经常对所学内容进行整理和归纳；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：Focus on Language:Verbs Followed by Verb-ing Form or Infinitive -> 元认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:35",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据交际需要发起谈话并维持交谈；",
+        "使用语言或非语言手段预示和结束谈话；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：1 Studying Abroad -> 交际策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:35",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据交际需要发起谈话并维持交谈；",
+        "使用语言或非语言手段预示和结束谈话；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：1 Studying Abroad -> 交际策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:35",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：1 Studying Abroad -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:35",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：1 Studying Abroad -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:4",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:35",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "对英语学习保持主动和积极的态度，不断增强学习的自信心；",
+        "有学习英语的兴趣，主动参加各种学习和运用语言的实践活动；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：1 Studying Abroad -> 情感管理策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:35",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:4",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "对英语学习保持主动和积极的态度，不断增强学习的自信心；",
+        "有学习英语的兴趣，主动参加各种学习和运用语言的实践活动；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：1 Studying Abroad -> 情感管理策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:36",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据交际需要发起谈话并维持交谈；",
+        "使用语言或非语言手段预示和结束谈话；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 Do Boys and Girls Have Different Reading Preferences? -> 交际策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:36",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "根据交际需要发起谈话并维持交谈；",
+        "使用语言或非语言手段预示和结束谈话；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 Do Boys and Girls Have Different Reading Preferences? -> 交际策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:36",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 Do Boys and Girls Have Different Reading Preferences? -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:36",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "在新旧语言知识之间建立有机联系；",
+        "从形式、意义和使用等角度认知新学语言项目；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 Do Boys and Girls Have Different Reading Preferences? -> 认知策略。"
+    }
+  },
+  {
+    "relationName": "learningStrategySupportsSubsection",
+    "label": "学习策略支撑小节 / Learning Strategy supports Subsection",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:4",
+    "target": "urn:jy:English:SB0102:OB06:Subsection:36",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "对英语学习保持主动和积极的态度，不断增强学习的自信心；",
+        "有学习英语的兴趣，主动参加各种学习和运用语言的实践活动；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 Do Boys and Girls Have Different Reading Preferences? -> 情感管理策略。"
+    }
+  },
+  {
+    "relationName": "subsectionUsesLearningStrategy",
+    "label": "小节运用学习策略 / Subsection uses Learning Strategy",
+    "source": "urn:jy:English:SB0102:OB06:Subsection:36",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:4",
+    "evidence": {
+      "mdEvidence": "分与选课 9 # 五、课程内容 10 （一）主题 11 （二）语篇 14 （三）语言知识 16 （四）文化知识 27 （五）语言技能 31 （六）学习策略 36 # 六、学业质量 41 （一）学业质量内涵 41 （二）学业质量描述 41 （三）学业质量标准的应用 47 # 七、实施建议 48 （一）教学与评价建议 48 （二）学业水平考试与高考建议 56 （三）教材编写建议 62 （四）地方和学校实施本课程的建议 64 # 附录 68 附录1 英语",
+      "strategyRequirementEvidence": [
+        "对英语学习保持主动和积极的态度，不断增强学习的自信心；",
+        "有学习英语的兴趣，主动参加各种学习和运用语言的实践活动；",
+        "..."
+      ],
+      "mappingRule": "依据小节类型（Reading/Focus on Language/任务活动）匹配必修学习策略：2 Do Boys and Girls Have Different Reading Preferences? -> 情感管理策略。"
+    }
+  }
+]

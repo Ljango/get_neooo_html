@@ -1,0 +1,866 @@
+[
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:1",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:1"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:1",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:1"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:1",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:2"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:2",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:1"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:1",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:3"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:3",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:1"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:1",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:4"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:4",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:1"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:1",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:5"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:5",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:1"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:1",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:6"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:6",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:1"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:1",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:7"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:7",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:1"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:1",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:8"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:8",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:1"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:10"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:10",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:2"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:11"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:11",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:2"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:12"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:12",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:2"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:13"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:13",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:2"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:14"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:14",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:2"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:15"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:15",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:2"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:16"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:16",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:2"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:2",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:9"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:9",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:2"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:3",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:17"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:17",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:3"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:3",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:18"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:18",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:3"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:3",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:19"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:19",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:3"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:3",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:20"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:20",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:3"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:3",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:21"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:21",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:3"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:3",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:22"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:22",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:3"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:3",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:23"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:23",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:3"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:3",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:24"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:24",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:3"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:4",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:25"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:25",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:4"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:4",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:26"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:26",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:4"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:4",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:27"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:27",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:4"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:4",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:28"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:28",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:4"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:4",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:29"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:29",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:4"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:4",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:30"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:30",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:4"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:4",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:31"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:31",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:4"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:4",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:32"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:32",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:4"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:5",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:33"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:33",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:5"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:5",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:34"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:34",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:5"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:5",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:35"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:35",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:5"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:5",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:36"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:36",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:5"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:5",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:37"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:37",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:5"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:5",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:38"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:38",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:5"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:5",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:39"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:39",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:5"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:5",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:40"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:40",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:5"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:6",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:41"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:41",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:6"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:6",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:42"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:42",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:6"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:6",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:43"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:43",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:6"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:6",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:44"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:44",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:6"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:6",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:45"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:45",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:6"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:6",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:46"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:46",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:6"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:6",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:47"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:47",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:6"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:6",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:48"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:48",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:6"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:7",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:49"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:49",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:7"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:7",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:50"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:50",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:7"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:7",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:51"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:51",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:7"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:7",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:52"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:52",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:7"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:7",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:53"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:53",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:7"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:7",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:54"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:54",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:7"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:7",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:55"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:55",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:7"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:7",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:56"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:56",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:7"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:8",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:57"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:57",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:8"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:8",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:58"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:58",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:8"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:8",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:59"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:59",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:8"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:8",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:60"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:60",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:8"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:8",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:61"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:61",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:8"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:8",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:62"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:62",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:8"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:8",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:63"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:63",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:8"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:8",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:64"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:64",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:8"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:9",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:65"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:65",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:9"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:9",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:66"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:66",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:9"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:9",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:67"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:67",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:9"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:9",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:68"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:68",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:9"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:9",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:69"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:69",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:9"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:9",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:70"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:70",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:9"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:9",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:71"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:71",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:9"
+  },
+  {
+    "relationName": "chapterIncludesSection",
+    "label": "章包含节 / Chapter includes Section",
+    "source": "urn:jy:English:SB0102:OB06:Chapter_bixiu:9",
+    "target": "urn:jy:English:SB0102:OB06:Section_bixiu:72"
+  },
+  {
+    "relationName": "sectionBelongsToChapter",
+    "label": "节隶属于章 / Section belongs to Chapter",
+    "source": "urn:jy:English:SB0102:OB06:Section_bixiu:72",
+    "target": "urn:jy:English:SB0102:OB06:Chapter_bixiu:9"
+  }
+]

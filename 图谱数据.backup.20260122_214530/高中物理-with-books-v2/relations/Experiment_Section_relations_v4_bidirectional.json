@@ -1,0 +1,2098 @@
+[
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:1",
+    "target": "urn:jy:physics:SB0401:OB06:Section:6",
+    "evidence": {
+      "experimentTitle": "做直线运动物体的瞬时速度",
+      "sectionTitle": "2.匀变速直线运动的速度与时间的关系",
+      "matchedBy": [
+        "速度",
+        "匀变速",
+        "运动"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:6",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:1",
+    "evidence": {
+      "experimentTitle": "做直线运动物体的瞬时速度",
+      "sectionTitle": "2.匀变速直线运动的速度与时间的关系",
+      "matchedBy": [
+        "速度",
+        "匀变速",
+        "运动"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:6",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:1",
+    "evidence": {
+      "sectionTitle": "2.匀变速直线运动的速度与时间的关系",
+      "experimentTitle": "做直线运动物体的瞬时速度",
+      "matchedBy": [
+        "速度",
+        "匀变速",
+        "运动"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:1",
+    "target": "urn:jy:physics:SB0401:OB06:Section:6",
+    "evidence": {
+      "sectionTitle": "2.匀变速直线运动的速度与时间的关系",
+      "experimentTitle": "做直线运动物体的瞬时速度",
+      "matchedBy": [
+        "速度",
+        "匀变速",
+        "运动"
+      ]
+    }
+  },
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:1",
+    "target": "urn:jy:physics:SB0401:OB06:Section:7",
+    "evidence": {
+      "experimentTitle": "做直线运动物体的瞬时速度",
+      "sectionTitle": "3.匀变速直线运动的位移与时间的关系",
+      "matchedBy": [
+        "匀变速",
+        "位移",
+        "运动"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:7",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:1",
+    "evidence": {
+      "experimentTitle": "做直线运动物体的瞬时速度",
+      "sectionTitle": "3.匀变速直线运动的位移与时间的关系",
+      "matchedBy": [
+        "匀变速",
+        "位移",
+        "运动"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:7",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:1",
+    "evidence": {
+      "sectionTitle": "3.匀变速直线运动的位移与时间的关系",
+      "experimentTitle": "做直线运动物体的瞬时速度",
+      "matchedBy": [
+        "匀变速",
+        "位移",
+        "运动"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:1",
+    "target": "urn:jy:physics:SB0401:OB06:Section:7",
+    "evidence": {
+      "sectionTitle": "3.匀变速直线运动的位移与时间的关系",
+      "experimentTitle": "做直线运动物体的瞬时速度",
+      "matchedBy": [
+        "匀变速",
+        "位移",
+        "运动"
+      ]
+    }
+  },
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:2",
+    "target": "urn:jy:physics:SB0401:OB06:Section:9",
+    "evidence": {
+      "experimentTitle": "弹簧弹力与形变量的关系",
+      "sectionTitle": "1.重力与弹力",
+      "matchedBy": [
+        "弹力",
+        "重力",
+        "力"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:9",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:2",
+    "evidence": {
+      "experimentTitle": "弹簧弹力与形变量的关系",
+      "sectionTitle": "1.重力与弹力",
+      "matchedBy": [
+        "弹力",
+        "重力",
+        "力"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:9",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:2",
+    "evidence": {
+      "sectionTitle": "1.重力与弹力",
+      "experimentTitle": "弹簧弹力与形变量的关系",
+      "matchedBy": [
+        "弹力",
+        "重力",
+        "力"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:2",
+    "target": "urn:jy:physics:SB0401:OB06:Section:9",
+    "evidence": {
+      "sectionTitle": "1.重力与弹力",
+      "experimentTitle": "弹簧弹力与形变量的关系",
+      "matchedBy": [
+        "弹力",
+        "重力",
+        "力"
+      ]
+    }
+  },
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:2",
+    "target": "urn:jy:physics:SB0401:OB06:Section:34",
+    "evidence": {
+      "experimentTitle": "弹簧弹力与形变量的关系",
+      "sectionTitle": "2.重力势能",
+      "matchedBy": [
+        "重力",
+        "力"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:34",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:2",
+    "evidence": {
+      "experimentTitle": "弹簧弹力与形变量的关系",
+      "sectionTitle": "2.重力势能",
+      "matchedBy": [
+        "重力",
+        "力"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:34",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:2",
+    "evidence": {
+      "sectionTitle": "2.重力势能",
+      "experimentTitle": "弹簧弹力与形变量的关系",
+      "matchedBy": [
+        "重力",
+        "力"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:2",
+    "target": "urn:jy:physics:SB0401:OB06:Section:34",
+    "evidence": {
+      "sectionTitle": "2.重力势能",
+      "experimentTitle": "弹簧弹力与形变量的关系",
+      "matchedBy": [
+        "重力",
+        "力"
+      ]
+    }
+  },
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:3",
+    "target": "urn:jy:physics:SB0401:OB06:Section:12",
+    "evidence": {
+      "experimentTitle": "两个互成角度的力的合成规律",
+      "sectionTitle": "4.力的合成和分解",
+      "matchedBy": [
+        "合成",
+        "分解",
+        "力"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:12",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:3",
+    "evidence": {
+      "experimentTitle": "两个互成角度的力的合成规律",
+      "sectionTitle": "4.力的合成和分解",
+      "matchedBy": [
+        "合成",
+        "分解",
+        "力"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:12",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:3",
+    "evidence": {
+      "sectionTitle": "4.力的合成和分解",
+      "experimentTitle": "两个互成角度的力的合成规律",
+      "matchedBy": [
+        "合成",
+        "分解",
+        "力"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:3",
+    "target": "urn:jy:physics:SB0401:OB06:Section:12",
+    "evidence": {
+      "sectionTitle": "4.力的合成和分解",
+      "experimentTitle": "两个互成角度的力的合成规律",
+      "matchedBy": [
+        "合成",
+        "分解",
+        "力"
+      ]
+    }
+  },
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:3",
+    "target": "urn:jy:physics:SB0401:OB06:Section:21",
+    "evidence": {
+      "experimentTitle": "两个互成角度的力的合成规律",
+      "sectionTitle": "2.运动的合成与分解",
+      "matchedBy": [
+        "合成",
+        "分解"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:21",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:3",
+    "evidence": {
+      "experimentTitle": "两个互成角度的力的合成规律",
+      "sectionTitle": "2.运动的合成与分解",
+      "matchedBy": [
+        "合成",
+        "分解"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:21",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:3",
+    "evidence": {
+      "sectionTitle": "2.运动的合成与分解",
+      "experimentTitle": "两个互成角度的力的合成规律",
+      "matchedBy": [
+        "合成",
+        "分解"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:3",
+    "target": "urn:jy:physics:SB0401:OB06:Section:21",
+    "evidence": {
+      "sectionTitle": "2.运动的合成与分解",
+      "experimentTitle": "两个互成角度的力的合成规律",
+      "matchedBy": [
+        "合成",
+        "分解"
+      ]
+    }
+  },
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:4",
+    "target": "urn:jy:physics:SB0401:OB06:Section:32",
+    "evidence": {
+      "experimentTitle": "加速度与物体受力、物体质量的关系",
+      "sectionTitle": "5.相对论时空观与牛顿力学的局限性",
+      "matchedBy": [
+        "力"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:32",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:4",
+    "evidence": {
+      "experimentTitle": "加速度与物体受力、物体质量的关系",
+      "sectionTitle": "5.相对论时空观与牛顿力学的局限性",
+      "matchedBy": [
+        "力"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:32",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:4",
+    "evidence": {
+      "sectionTitle": "5.相对论时空观与牛顿力学的局限性",
+      "experimentTitle": "加速度与物体受力、物体质量的关系",
+      "matchedBy": [
+        "力"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:4",
+    "target": "urn:jy:physics:SB0401:OB06:Section:32",
+    "evidence": {
+      "sectionTitle": "5.相对论时空观与牛顿力学的局限性",
+      "experimentTitle": "加速度与物体受力、物体质量的关系",
+      "matchedBy": [
+        "力"
+      ]
+    }
+  },
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:4",
+    "target": "urn:jy:physics:SB0401:OB06:Section:4",
+    "evidence": {
+      "experimentTitle": "加速度与物体受力、物体质量的关系",
+      "sectionTitle": "4.速度变化快慢的描述——加速度",
+      "matchedBy": [
+        "加速度"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:4",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:4",
+    "evidence": {
+      "experimentTitle": "加速度与物体受力、物体质量的关系",
+      "sectionTitle": "4.速度变化快慢的描述——加速度",
+      "matchedBy": [
+        "加速度"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:4",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:4",
+    "evidence": {
+      "sectionTitle": "4.速度变化快慢的描述——加速度",
+      "experimentTitle": "加速度与物体受力、物体质量的关系",
+      "matchedBy": [
+        "加速度"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:4",
+    "target": "urn:jy:physics:SB0401:OB06:Section:4",
+    "evidence": {
+      "sectionTitle": "4.速度变化快慢的描述——加速度",
+      "experimentTitle": "加速度与物体受力、物体质量的关系",
+      "matchedBy": [
+        "加速度"
+      ]
+    }
+  },
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:5",
+    "target": "urn:jy:physics:SB0401:OB06:Section:37",
+    "evidence": {
+      "experimentTitle": "机械能守恒定律",
+      "sectionTitle": "5.实验：验证机械能守恒定律",
+      "matchedBy": [
+        "(课程实验)"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:37",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:5",
+    "evidence": {
+      "experimentTitle": "机械能守恒定律",
+      "sectionTitle": "5.实验：验证机械能守恒定律",
+      "matchedBy": [
+        "(课程实验)"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:37",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:5",
+    "evidence": {
+      "sectionTitle": "5.实验：验证机械能守恒定律",
+      "experimentTitle": "机械能守恒定律",
+      "matchedBy": [
+        "(课程实验)"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:5",
+    "target": "urn:jy:physics:SB0401:OB06:Section:37",
+    "evidence": {
+      "sectionTitle": "5.实验：验证机械能守恒定律",
+      "experimentTitle": "机械能守恒定律",
+      "matchedBy": [
+        "(课程实验)"
+      ]
+    }
+  },
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:5",
+    "target": "urn:jy:physics:SB0401:OB06:Section:106",
+    "evidence": {
+      "experimentTitle": "机械能守恒定律",
+      "sectionTitle": "4.分子动能和分子势能",
+      "matchedBy": [
+        "动能",
+        "势能"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:106",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:5",
+    "evidence": {
+      "experimentTitle": "机械能守恒定律",
+      "sectionTitle": "4.分子动能和分子势能",
+      "matchedBy": [
+        "动能",
+        "势能"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:106",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:5",
+    "evidence": {
+      "sectionTitle": "4.分子动能和分子势能",
+      "experimentTitle": "机械能守恒定律",
+      "matchedBy": [
+        "动能",
+        "势能"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:5",
+    "target": "urn:jy:physics:SB0401:OB06:Section:106",
+    "evidence": {
+      "sectionTitle": "4.分子动能和分子势能",
+      "experimentTitle": "机械能守恒定律",
+      "matchedBy": [
+        "动能",
+        "势能"
+      ]
+    }
+  },
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:5",
+    "target": "urn:jy:physics:SB0401:OB06:Section:36",
+    "evidence": {
+      "experimentTitle": "机械能守恒定律",
+      "sectionTitle": "4.机械能守恒定律",
+      "matchedBy": [
+        "机械能",
+        "守恒"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:36",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:5",
+    "evidence": {
+      "experimentTitle": "机械能守恒定律",
+      "sectionTitle": "4.机械能守恒定律",
+      "matchedBy": [
+        "机械能",
+        "守恒"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:36",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:5",
+    "evidence": {
+      "sectionTitle": "4.机械能守恒定律",
+      "experimentTitle": "机械能守恒定律",
+      "matchedBy": [
+        "机械能",
+        "守恒"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:5",
+    "target": "urn:jy:physics:SB0401:OB06:Section:36",
+    "evidence": {
+      "sectionTitle": "4.机械能守恒定律",
+      "experimentTitle": "机械能守恒定律",
+      "matchedBy": [
+        "机械能",
+        "守恒"
+      ]
+    }
+  },
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:6",
+    "target": "urn:jy:physics:SB0401:OB06:Section:22",
+    "evidence": {
+      "experimentTitle": "平抛运动的特点",
+      "sectionTitle": "3.实验：探究平抛运动的特点",
+      "matchedBy": [
+        "(课程实验)"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:22",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:6",
+    "evidence": {
+      "experimentTitle": "平抛运动的特点",
+      "sectionTitle": "3.实验：探究平抛运动的特点",
+      "matchedBy": [
+        "(课程实验)"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:22",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:6",
+    "evidence": {
+      "sectionTitle": "3.实验：探究平抛运动的特点",
+      "experimentTitle": "平抛运动的特点",
+      "matchedBy": [
+        "(课程实验)"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:6",
+    "target": "urn:jy:physics:SB0401:OB06:Section:22",
+    "evidence": {
+      "sectionTitle": "3.实验：探究平抛运动的特点",
+      "experimentTitle": "平抛运动的特点",
+      "matchedBy": [
+        "(课程实验)"
+      ]
+    }
+  },
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:6",
+    "target": "urn:jy:physics:SB0401:OB06:Section:20",
+    "evidence": {
+      "experimentTitle": "平抛运动的特点",
+      "sectionTitle": "1.曲线运动",
+      "matchedBy": [
+        "曲线",
+        "运动"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:20",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:6",
+    "evidence": {
+      "experimentTitle": "平抛运动的特点",
+      "sectionTitle": "1.曲线运动",
+      "matchedBy": [
+        "曲线",
+        "运动"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:20",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:6",
+    "evidence": {
+      "sectionTitle": "1.曲线运动",
+      "experimentTitle": "平抛运动的特点",
+      "matchedBy": [
+        "曲线",
+        "运动"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:6",
+    "target": "urn:jy:physics:SB0401:OB06:Section:20",
+    "evidence": {
+      "sectionTitle": "1.曲线运动",
+      "experimentTitle": "平抛运动的特点",
+      "matchedBy": [
+        "曲线",
+        "运动"
+      ]
+    }
+  },
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:6",
+    "target": "urn:jy:physics:SB0401:OB06:Section:6",
+    "evidence": {
+      "experimentTitle": "平抛运动的特点",
+      "sectionTitle": "2.匀变速直线运动的速度与时间的关系",
+      "matchedBy": [
+        "运动"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:6",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:6",
+    "evidence": {
+      "experimentTitle": "平抛运动的特点",
+      "sectionTitle": "2.匀变速直线运动的速度与时间的关系",
+      "matchedBy": [
+        "运动"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:6",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:6",
+    "evidence": {
+      "sectionTitle": "2.匀变速直线运动的速度与时间的关系",
+      "experimentTitle": "平抛运动的特点",
+      "matchedBy": [
+        "运动"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:6",
+    "target": "urn:jy:physics:SB0401:OB06:Section:6",
+    "evidence": {
+      "sectionTitle": "2.匀变速直线运动的速度与时间的关系",
+      "experimentTitle": "平抛运动的特点",
+      "matchedBy": [
+        "运动"
+      ]
+    }
+  },
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:7",
+    "target": "urn:jy:physics:SB0401:OB06:Section:27",
+    "evidence": {
+      "experimentTitle": "向心力大小与半径、角速度、质量的关系",
+      "sectionTitle": "4.生活中的圆周运动",
+      "matchedBy": [
+        "圆周运动"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:27",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:7",
+    "evidence": {
+      "experimentTitle": "向心力大小与半径、角速度、质量的关系",
+      "sectionTitle": "4.生活中的圆周运动",
+      "matchedBy": [
+        "圆周运动"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:27",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:7",
+    "evidence": {
+      "sectionTitle": "4.生活中的圆周运动",
+      "experimentTitle": "向心力大小与半径、角速度、质量的关系",
+      "matchedBy": [
+        "圆周运动"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:7",
+    "target": "urn:jy:physics:SB0401:OB06:Section:27",
+    "evidence": {
+      "sectionTitle": "4.生活中的圆周运动",
+      "experimentTitle": "向心力大小与半径、角速度、质量的关系",
+      "matchedBy": [
+        "圆周运动"
+      ]
+    }
+  },
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:7",
+    "target": "urn:jy:physics:SB0401:OB06:Section:26",
+    "evidence": {
+      "experimentTitle": "向心力大小与半径、角速度、质量的关系",
+      "sectionTitle": "3.向心加速度",
+      "matchedBy": [
+        "向心"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:26",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:7",
+    "evidence": {
+      "experimentTitle": "向心力大小与半径、角速度、质量的关系",
+      "sectionTitle": "3.向心加速度",
+      "matchedBy": [
+        "向心"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:26",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:7",
+    "evidence": {
+      "sectionTitle": "3.向心加速度",
+      "experimentTitle": "向心力大小与半径、角速度、质量的关系",
+      "matchedBy": [
+        "向心"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:7",
+    "target": "urn:jy:physics:SB0401:OB06:Section:26",
+    "evidence": {
+      "sectionTitle": "3.向心加速度",
+      "experimentTitle": "向心力大小与半径、角速度、质量的关系",
+      "matchedBy": [
+        "向心"
+      ]
+    }
+  },
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:8",
+    "target": "urn:jy:physics:SB0401:OB06:Section:45",
+    "evidence": {
+      "experimentTitle": "电容器的充、放电现象",
+      "sectionTitle": "4.电容器的电容",
+      "matchedBy": [
+        "电容器",
+        "电容"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:45",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:8",
+    "evidence": {
+      "experimentTitle": "电容器的充、放电现象",
+      "sectionTitle": "4.电容器的电容",
+      "matchedBy": [
+        "电容器",
+        "电容"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:45",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:8",
+    "evidence": {
+      "sectionTitle": "4.电容器的电容",
+      "experimentTitle": "电容器的充、放电现象",
+      "matchedBy": [
+        "电容器",
+        "电容"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:8",
+    "target": "urn:jy:physics:SB0401:OB06:Section:45",
+    "evidence": {
+      "sectionTitle": "4.电容器的电容",
+      "experimentTitle": "电容器的充、放电现象",
+      "matchedBy": [
+        "电容器",
+        "电容"
+      ]
+    }
+  },
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:9",
+    "target": "urn:jy:physics:SB0401:OB06:Section:17",
+    "evidence": {
+      "experimentTitle": "长度的测量及其测量工具的选用",
+      "sectionTitle": "4.力学单位制",
+      "matchedBy": [
+        "单位制"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:17",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:9",
+    "evidence": {
+      "experimentTitle": "长度的测量及其测量工具的选用",
+      "sectionTitle": "4.力学单位制",
+      "matchedBy": [
+        "单位制"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:17",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:9",
+    "evidence": {
+      "sectionTitle": "4.力学单位制",
+      "experimentTitle": "长度的测量及其测量工具的选用",
+      "matchedBy": [
+        "单位制"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:9",
+    "target": "urn:jy:physics:SB0401:OB06:Section:17",
+    "evidence": {
+      "sectionTitle": "4.力学单位制",
+      "experimentTitle": "长度的测量及其测量工具的选用",
+      "matchedBy": [
+        "单位制"
+      ]
+    }
+  },
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:10",
+    "target": "urn:jy:physics:SB0401:OB06:Section:17",
+    "evidence": {
+      "experimentTitle": "金属丝的电阻率",
+      "sectionTitle": "4.力学单位制",
+      "matchedBy": [
+        "单位制"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:17",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:10",
+    "evidence": {
+      "experimentTitle": "金属丝的电阻率",
+      "sectionTitle": "4.力学单位制",
+      "matchedBy": [
+        "单位制"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:17",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:10",
+    "evidence": {
+      "sectionTitle": "4.力学单位制",
+      "experimentTitle": "金属丝的电阻率",
+      "matchedBy": [
+        "单位制"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:10",
+    "target": "urn:jy:physics:SB0401:OB06:Section:17",
+    "evidence": {
+      "sectionTitle": "4.力学单位制",
+      "experimentTitle": "金属丝的电阻率",
+      "matchedBy": [
+        "单位制"
+      ]
+    }
+  },
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:11",
+    "target": "urn:jy:physics:SB0401:OB06:Section:17",
+    "evidence": {
+      "experimentTitle": "多用电表测量电学中的物理量",
+      "sectionTitle": "4.力学单位制",
+      "matchedBy": [
+        "单位制"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:17",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:11",
+    "evidence": {
+      "experimentTitle": "多用电表测量电学中的物理量",
+      "sectionTitle": "4.力学单位制",
+      "matchedBy": [
+        "单位制"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:17",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:11",
+    "evidence": {
+      "sectionTitle": "4.力学单位制",
+      "experimentTitle": "多用电表测量电学中的物理量",
+      "matchedBy": [
+        "单位制"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:11",
+    "target": "urn:jy:physics:SB0401:OB06:Section:17",
+    "evidence": {
+      "sectionTitle": "4.力学单位制",
+      "experimentTitle": "多用电表测量电学中的物理量",
+      "matchedBy": [
+        "单位制"
+      ]
+    }
+  },
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:12",
+    "target": "urn:jy:physics:SB0401:OB06:Section:136",
+    "evidence": {
+      "experimentTitle": "电源的电动势和内阻",
+      "sectionTitle": "力学中的功能关系与能量守恒",
+      "matchedBy": [
+        "守恒",
+        "能量"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:136",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:12",
+    "evidence": {
+      "experimentTitle": "电源的电动势和内阻",
+      "sectionTitle": "力学中的功能关系与能量守恒",
+      "matchedBy": [
+        "守恒",
+        "能量"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:136",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:12",
+    "evidence": {
+      "sectionTitle": "力学中的功能关系与能量守恒",
+      "experimentTitle": "电源的电动势和内阻",
+      "matchedBy": [
+        "守恒",
+        "能量"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:12",
+    "target": "urn:jy:physics:SB0401:OB06:Section:136",
+    "evidence": {
+      "sectionTitle": "力学中的功能关系与能量守恒",
+      "experimentTitle": "电源的电动势和内阻",
+      "matchedBy": [
+        "守恒",
+        "能量"
+      ]
+    }
+  },
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:12",
+    "target": "urn:jy:physics:SB0401:OB06:Section:126",
+    "evidence": {
+      "experimentTitle": "电源的电动势和内阻",
+      "sectionTitle": "力学复习之能量与动量",
+      "matchedBy": [
+        "动量",
+        "能量"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:126",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:12",
+    "evidence": {
+      "experimentTitle": "电源的电动势和内阻",
+      "sectionTitle": "力学复习之能量与动量",
+      "matchedBy": [
+        "动量",
+        "能量"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:126",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:12",
+    "evidence": {
+      "sectionTitle": "力学复习之能量与动量",
+      "experimentTitle": "电源的电动势和内阻",
+      "matchedBy": [
+        "动量",
+        "能量"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:12",
+    "target": "urn:jy:physics:SB0401:OB06:Section:126",
+    "evidence": {
+      "sectionTitle": "力学复习之能量与动量",
+      "experimentTitle": "电源的电动势和内阻",
+      "matchedBy": [
+        "动量",
+        "能量"
+      ]
+    }
+  },
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:13",
+    "target": "urn:jy:physics:SB0401:OB06:Section:64",
+    "evidence": {
+      "experimentTitle": "动量守恒定律",
+      "sectionTitle": "4.实验：验证动量守恒定律",
+      "matchedBy": [
+        "(课程实验)"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:64",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:13",
+    "evidence": {
+      "experimentTitle": "动量守恒定律",
+      "sectionTitle": "4.实验：验证动量守恒定律",
+      "matchedBy": [
+        "(课程实验)"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:64",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:13",
+    "evidence": {
+      "sectionTitle": "4.实验：验证动量守恒定律",
+      "experimentTitle": "动量守恒定律",
+      "matchedBy": [
+        "(课程实验)"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:13",
+    "target": "urn:jy:physics:SB0401:OB06:Section:64",
+    "evidence": {
+      "sectionTitle": "4.实验：验证动量守恒定律",
+      "experimentTitle": "动量守恒定律",
+      "matchedBy": [
+        "(课程实验)"
+      ]
+    }
+  },
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:13",
+    "target": "urn:jy:physics:SB0401:OB06:Section:48",
+    "evidence": {
+      "experimentTitle": "动量守恒定律",
+      "sectionTitle": "2.导体的电阻",
+      "matchedBy": [
+        "电阻"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:48",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:13",
+    "evidence": {
+      "experimentTitle": "动量守恒定律",
+      "sectionTitle": "2.导体的电阻",
+      "matchedBy": [
+        "电阻"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:48",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:13",
+    "evidence": {
+      "sectionTitle": "2.导体的电阻",
+      "experimentTitle": "动量守恒定律",
+      "matchedBy": [
+        "电阻"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:13",
+    "target": "urn:jy:physics:SB0401:OB06:Section:48",
+    "evidence": {
+      "sectionTitle": "2.导体的电阻",
+      "experimentTitle": "动量守恒定律",
+      "matchedBy": [
+        "电阻"
+      ]
+    }
+  },
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:14",
+    "target": "urn:jy:physics:SB0401:OB06:Section:93",
+    "evidence": {
+      "experimentTitle": "单摆测量重力加速度的大小",
+      "sectionTitle": "2.交变电流的描述",
+      "matchedBy": [
+        "电流"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:93",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:14",
+    "evidence": {
+      "experimentTitle": "单摆测量重力加速度的大小",
+      "sectionTitle": "2.交变电流的描述",
+      "matchedBy": [
+        "电流"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:93",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:14",
+    "evidence": {
+      "sectionTitle": "2.交变电流的描述",
+      "experimentTitle": "单摆测量重力加速度的大小",
+      "matchedBy": [
+        "电流"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:14",
+    "target": "urn:jy:physics:SB0401:OB06:Section:93",
+    "evidence": {
+      "sectionTitle": "2.交变电流的描述",
+      "experimentTitle": "单摆测量重力加速度的大小",
+      "matchedBy": [
+        "电流"
+      ]
+    }
+  },
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:14",
+    "target": "urn:jy:physics:SB0401:OB06:Section:47",
+    "evidence": {
+      "experimentTitle": "单摆测量重力加速度的大小",
+      "sectionTitle": "1.电源和电流",
+      "matchedBy": [
+        "电流"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:47",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:14",
+    "evidence": {
+      "experimentTitle": "单摆测量重力加速度的大小",
+      "sectionTitle": "1.电源和电流",
+      "matchedBy": [
+        "电流"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:47",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:14",
+    "evidence": {
+      "sectionTitle": "1.电源和电流",
+      "experimentTitle": "单摆测量重力加速度的大小",
+      "matchedBy": [
+        "电流"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:14",
+    "target": "urn:jy:physics:SB0401:OB06:Section:47",
+    "evidence": {
+      "sectionTitle": "1.电源和电流",
+      "experimentTitle": "单摆测量重力加速度的大小",
+      "matchedBy": [
+        "电流"
+      ]
+    }
+  },
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:15",
+    "target": "urn:jy:physics:SB0401:OB06:Section:53",
+    "evidence": {
+      "experimentTitle": "玻璃的折射率",
+      "sectionTitle": "2.闭合电路的欧姆定律",
+      "matchedBy": [
+        "欧姆定律",
+        "闭合电路"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:53",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:15",
+    "evidence": {
+      "experimentTitle": "玻璃的折射率",
+      "sectionTitle": "2.闭合电路的欧姆定律",
+      "matchedBy": [
+        "欧姆定律",
+        "闭合电路"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:53",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:15",
+    "evidence": {
+      "sectionTitle": "2.闭合电路的欧姆定律",
+      "experimentTitle": "玻璃的折射率",
+      "matchedBy": [
+        "欧姆定律",
+        "闭合电路"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:15",
+    "target": "urn:jy:physics:SB0401:OB06:Section:53",
+    "evidence": {
+      "sectionTitle": "2.闭合电路的欧姆定律",
+      "experimentTitle": "玻璃的折射率",
+      "matchedBy": [
+        "欧姆定律",
+        "闭合电路"
+      ]
+    }
+  },
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:15",
+    "target": "urn:jy:physics:SB0401:OB06:Section:47",
+    "evidence": {
+      "experimentTitle": "玻璃的折射率",
+      "sectionTitle": "1.电源和电流",
+      "matchedBy": [
+        "电源"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:47",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:15",
+    "evidence": {
+      "experimentTitle": "玻璃的折射率",
+      "sectionTitle": "1.电源和电流",
+      "matchedBy": [
+        "电源"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:47",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:15",
+    "evidence": {
+      "sectionTitle": "1.电源和电流",
+      "experimentTitle": "玻璃的折射率",
+      "matchedBy": [
+        "电源"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:15",
+    "target": "urn:jy:physics:SB0401:OB06:Section:47",
+    "evidence": {
+      "sectionTitle": "1.电源和电流",
+      "experimentTitle": "玻璃的折射率",
+      "matchedBy": [
+        "电源"
+      ]
+    }
+  },
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:16",
+    "target": "urn:jy:physics:SB0401:OB06:Section:81",
+    "evidence": {
+      "experimentTitle": "双缝干涉实验测量光的波长",
+      "sectionTitle": "4.实验：用双缝干涉测量光的波长",
+      "matchedBy": [
+        "(课程实验)"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:81",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:16",
+    "evidence": {
+      "experimentTitle": "双缝干涉实验测量光的波长",
+      "sectionTitle": "4.实验：用双缝干涉测量光的波长",
+      "matchedBy": [
+        "(课程实验)"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:81",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:16",
+    "evidence": {
+      "sectionTitle": "4.实验：用双缝干涉测量光的波长",
+      "experimentTitle": "双缝干涉实验测量光的波长",
+      "matchedBy": [
+        "(课程实验)"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:16",
+    "target": "urn:jy:physics:SB0401:OB06:Section:81",
+    "evidence": {
+      "sectionTitle": "4.实验：用双缝干涉测量光的波长",
+      "experimentTitle": "双缝干涉实验测量光的波长",
+      "matchedBy": [
+        "(课程实验)"
+      ]
+    }
+  },
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:16",
+    "target": "urn:jy:physics:SB0401:OB06:Section:69",
+    "evidence": {
+      "experimentTitle": "双缝干涉实验测量光的波长",
+      "sectionTitle": "3.简谐运动的回复力和能量",
+      "matchedBy": [
+        "简谐"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:69",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:16",
+    "evidence": {
+      "experimentTitle": "双缝干涉实验测量光的波长",
+      "sectionTitle": "3.简谐运动的回复力和能量",
+      "matchedBy": [
+        "简谐"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:69",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:16",
+    "evidence": {
+      "sectionTitle": "3.简谐运动的回复力和能量",
+      "experimentTitle": "双缝干涉实验测量光的波长",
+      "matchedBy": [
+        "简谐"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:16",
+    "target": "urn:jy:physics:SB0401:OB06:Section:69",
+    "evidence": {
+      "sectionTitle": "3.简谐运动的回复力和能量",
+      "experimentTitle": "双缝干涉实验测量光的波长",
+      "matchedBy": [
+        "简谐"
+      ]
+    }
+  },
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:16",
+    "target": "urn:jy:physics:SB0401:OB06:Section:68",
+    "evidence": {
+      "experimentTitle": "双缝干涉实验测量光的波长",
+      "sectionTitle": "2.简谐运动的描述",
+      "matchedBy": [
+        "简谐"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:68",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:16",
+    "evidence": {
+      "experimentTitle": "双缝干涉实验测量光的波长",
+      "sectionTitle": "2.简谐运动的描述",
+      "matchedBy": [
+        "简谐"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:68",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:16",
+    "evidence": {
+      "sectionTitle": "2.简谐运动的描述",
+      "experimentTitle": "双缝干涉实验测量光的波长",
+      "matchedBy": [
+        "简谐"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:16",
+    "target": "urn:jy:physics:SB0401:OB06:Section:68",
+    "evidence": {
+      "sectionTitle": "2.简谐运动的描述",
+      "experimentTitle": "双缝干涉实验测量光的波长",
+      "matchedBy": [
+        "简谐"
+      ]
+    }
+  },
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:17",
+    "target": "urn:jy:physics:SB0401:OB06:Section:75",
+    "evidence": {
+      "experimentTitle": "影响感应电流方向的因素",
+      "sectionTitle": "3.波的反射、折射和衍射",
+      "matchedBy": [
+        "折射"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:75",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:17",
+    "evidence": {
+      "experimentTitle": "影响感应电流方向的因素",
+      "sectionTitle": "3.波的反射、折射和衍射",
+      "matchedBy": [
+        "折射"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:75",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:17",
+    "evidence": {
+      "sectionTitle": "3.波的反射、折射和衍射",
+      "experimentTitle": "影响感应电流方向的因素",
+      "matchedBy": [
+        "折射"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:17",
+    "target": "urn:jy:physics:SB0401:OB06:Section:75",
+    "evidence": {
+      "sectionTitle": "3.波的反射、折射和衍射",
+      "experimentTitle": "影响感应电流方向的因素",
+      "matchedBy": [
+        "折射"
+      ]
+    }
+  },
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:17",
+    "target": "urn:jy:physics:SB0401:OB06:Section:78",
+    "evidence": {
+      "experimentTitle": "影响感应电流方向的因素",
+      "sectionTitle": "1.光的折射",
+      "matchedBy": [
+        "折射"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:78",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:17",
+    "evidence": {
+      "experimentTitle": "影响感应电流方向的因素",
+      "sectionTitle": "1.光的折射",
+      "matchedBy": [
+        "折射"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:78",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:17",
+    "evidence": {
+      "sectionTitle": "1.光的折射",
+      "experimentTitle": "影响感应电流方向的因素",
+      "matchedBy": [
+        "折射"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:17",
+    "target": "urn:jy:physics:SB0401:OB06:Section:78",
+    "evidence": {
+      "sectionTitle": "1.光的折射",
+      "experimentTitle": "影响感应电流方向的因素",
+      "matchedBy": [
+        "折射"
+      ]
+    }
+  },
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:18",
+    "target": "urn:jy:physics:SB0401:OB06:Section:76",
+    "evidence": {
+      "experimentTitle": "变压器原、副线圈电压与匝数的关系",
+      "sectionTitle": "4.波的干涉",
+      "matchedBy": [
+        "干涉"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:76",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:18",
+    "evidence": {
+      "experimentTitle": "变压器原、副线圈电压与匝数的关系",
+      "sectionTitle": "4.波的干涉",
+      "matchedBy": [
+        "干涉"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:76",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:18",
+    "evidence": {
+      "sectionTitle": "4.波的干涉",
+      "experimentTitle": "变压器原、副线圈电压与匝数的关系",
+      "matchedBy": [
+        "干涉"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:18",
+    "target": "urn:jy:physics:SB0401:OB06:Section:76",
+    "evidence": {
+      "sectionTitle": "4.波的干涉",
+      "experimentTitle": "变压器原、副线圈电压与匝数的关系",
+      "matchedBy": [
+        "干涉"
+      ]
+    }
+  },
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:18",
+    "target": "urn:jy:physics:SB0401:OB06:Section:80",
+    "evidence": {
+      "experimentTitle": "变压器原、副线圈电压与匝数的关系",
+      "sectionTitle": "3.光的干涉",
+      "matchedBy": [
+        "干涉"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:80",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:18",
+    "evidence": {
+      "experimentTitle": "变压器原、副线圈电压与匝数的关系",
+      "sectionTitle": "3.光的干涉",
+      "matchedBy": [
+        "干涉"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:80",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:18",
+    "evidence": {
+      "sectionTitle": "3.光的干涉",
+      "experimentTitle": "变压器原、副线圈电压与匝数的关系",
+      "matchedBy": [
+        "干涉"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:18",
+    "target": "urn:jy:physics:SB0401:OB06:Section:80",
+    "evidence": {
+      "sectionTitle": "3.光的干涉",
+      "experimentTitle": "变压器原、副线圈电压与匝数的关系",
+      "matchedBy": [
+        "干涉"
+      ]
+    }
+  },
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:19",
+    "target": "urn:jy:physics:SB0401:OB06:Section:57",
+    "evidence": {
+      "experimentTitle": "传感器制作简单的自动控制装置",
+      "sectionTitle": "2.磁感应强度 磁通量",
+      "matchedBy": [
+        "磁通量"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:57",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:19",
+    "evidence": {
+      "experimentTitle": "传感器制作简单的自动控制装置",
+      "sectionTitle": "2.磁感应强度 磁通量",
+      "matchedBy": [
+        "磁通量"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:57",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:19",
+    "evidence": {
+      "sectionTitle": "2.磁感应强度 磁通量",
+      "experimentTitle": "传感器制作简单的自动控制装置",
+      "matchedBy": [
+        "磁通量"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:19",
+    "target": "urn:jy:physics:SB0401:OB06:Section:57",
+    "evidence": {
+      "sectionTitle": "2.磁感应强度 磁通量",
+      "experimentTitle": "传感器制作简单的自动控制装置",
+      "matchedBy": [
+        "磁通量"
+      ]
+    }
+  },
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:19",
+    "target": "urn:jy:physics:SB0401:OB06:Section:58",
+    "evidence": {
+      "experimentTitle": "传感器制作简单的自动控制装置",
+      "sectionTitle": "3.电磁感应现象及应用",
+      "matchedBy": [
+        "电磁感应"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:58",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:19",
+    "evidence": {
+      "experimentTitle": "传感器制作简单的自动控制装置",
+      "sectionTitle": "3.电磁感应现象及应用",
+      "matchedBy": [
+        "电磁感应"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:58",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:19",
+    "evidence": {
+      "sectionTitle": "3.电磁感应现象及应用",
+      "experimentTitle": "传感器制作简单的自动控制装置",
+      "matchedBy": [
+        "电磁感应"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:19",
+    "target": "urn:jy:physics:SB0401:OB06:Section:58",
+    "evidence": {
+      "sectionTitle": "3.电磁感应现象及应用",
+      "experimentTitle": "传感器制作简单的自动控制装置",
+      "matchedBy": [
+        "电磁感应"
+      ]
+    }
+  },
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:20",
+    "target": "urn:jy:physics:SB0401:OB06:Section:58",
+    "evidence": {
+      "experimentTitle": "等温情况下一定质量气体压强与体积的关系",
+      "sectionTitle": "3.电磁感应现象及应用",
+      "matchedBy": [
+        "电磁感应"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:58",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:20",
+    "evidence": {
+      "experimentTitle": "等温情况下一定质量气体压强与体积的关系",
+      "sectionTitle": "3.电磁感应现象及应用",
+      "matchedBy": [
+        "电磁感应"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:58",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:20",
+    "evidence": {
+      "sectionTitle": "3.电磁感应现象及应用",
+      "experimentTitle": "等温情况下一定质量气体压强与体积的关系",
+      "matchedBy": [
+        "电磁感应"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:20",
+    "target": "urn:jy:physics:SB0401:OB06:Section:58",
+    "evidence": {
+      "sectionTitle": "3.电磁感应现象及应用",
+      "experimentTitle": "等温情况下一定质量气体压强与体积的关系",
+      "matchedBy": [
+        "电磁感应"
+      ]
+    }
+  },
+  {
+    "relationName": "experimentRequiresSectionKnowledge",
+    "label": "实验所需知识点 / requiresSectionKnowledge",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:20",
+    "target": "urn:jy:physics:SB0401:OB06:Section:89",
+    "evidence": {
+      "experimentTitle": "等温情况下一定质量气体压强与体积的关系",
+      "sectionTitle": "2.法拉第电磁感应定律",
+      "matchedBy": [
+        "电磁感应"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:89",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:20",
+    "evidence": {
+      "experimentTitle": "等温情况下一定质量气体压强与体积的关系",
+      "sectionTitle": "2.法拉第电磁感应定律",
+      "matchedBy": [
+        "电磁感应"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Section:89",
+    "target": "urn:jy:physics:SB0401:OB06:Experiment:20",
+    "evidence": {
+      "sectionTitle": "2.法拉第电磁感应定律",
+      "experimentTitle": "等温情况下一定质量气体压强与体积的关系",
+      "matchedBy": [
+        "电磁感应"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionSupportsExperiment",
+    "label": "节支撑实验 / supportsExperiment",
+    "source": "urn:jy:physics:SB0401:OB06:Experiment:20",
+    "target": "urn:jy:physics:SB0401:OB06:Section:89",
+    "evidence": {
+      "sectionTitle": "2.法拉第电磁感应定律",
+      "experimentTitle": "等温情况下一定质量气体压强与体积的关系",
+      "matchedBy": [
+        "电磁感应"
+      ]
+    }
+  }
+]

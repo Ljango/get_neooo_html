@@ -1,0 +1,522 @@
+================================================================================
+缺失节点信息日志 - 义教数学_1231-with-books
+生成时间: 2026-01-22 11:06:45
+================================================================================
+
+【统计摘要】
+  缺失头节点总数: 0
+  缺失尾节点总数: 60
+  涉及的关系文件数: 2
+  涉及的关系总数: 60
+
+================================================================================
+【按关系文件分组】
+================================================================================
+
+
+文件: Chapter_Section_middle.json
+--------------------------------------------------------------------------------
+
+  缺失尾节点 (56 个):
+    行号    2 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:na:expressions:G7A:ch1:sec1-2
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch1
+
+    行号    3 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:na:expressions:G7A:ch1:sec1-3
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch1
+
+    行号    4 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:na:expressions:G7A:ch1:sec1-4
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch1
+
+    行号    5 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:na:expressions:G7A:ch2:sec2-1
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch2
+
+    行号    6 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:na:expressions:G7A:ch2:sec2-2
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch2
+
+    行号    7 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:na:expressions:G7A:ch2:sec2-3
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch2
+
+    行号    8 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:na:expressions:G7A:ch2:sec2-4
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch2
+
+    行号    9 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:na:expressions:G7A:ch2:sec2-5
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch2
+
+    行号   14 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:na:equations-inequalities:G7A:ch5:sec5-1
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:na:equations-inequalities:G7A:ch5
+
+    行号   17 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:sg:properties:G7A:ch6:sec6-1
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:sg:properties:G7A:ch6
+
+    行号   18 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:sg:properties:G7A:ch6:sec6-2
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:sg:properties:G7A:ch6
+
+    行号   19 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:sg:properties:G7A:ch6:sec6-3
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:sg:properties:G7A:ch6
+
+    行号   23 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:sg:properties:G7B:ch7:sec7-4
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:sg:properties:G7B:ch7
+
+    行号   30 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:na:equations-inequalities:G7B:ch10:sec10-2
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:na:equations-inequalities:G7B:ch10
+
+    行号   46 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:sg:transformations:G8A:ch15:sec15-3
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:sg:transformations:G8A:ch15
+
+    行号   56 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:na:expressions:G8A:ch18:sec18-5
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:na:expressions:G8A:ch18
+
+    行号   59 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:sg:properties:G8B:ch17:sec17-3
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:sg:properties:G8B:ch17
+
+    行号   60 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:sg:properties:G8B:ch17:sec17-4
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:sg:properties:G8B:ch17
+
+    行号   61 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:sg:properties:G8B:ch17:sec17-5
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:sg:properties:G8B:ch17
+
+    行号   64 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:sg:properties:G8B:ch18:sec18-3
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:sg:properties:G8B:ch18
+
+    行号   65 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:sg:properties:G8B:ch18:sec18-4
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:sg:properties:G8B:ch18
+
+    行号   66 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:sg:properties:G8B:ch18:sec18-5
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:sg:properties:G8B:ch18
+
+    行号   70 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:na:functions:G8B:ch19:sec19-4
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:na:functions:G8B:ch19
+
+    行号   71 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:na:functions:G8B:ch19:sec19-5
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:na:functions:G8B:ch19
+
+    行号   72 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:na:functions:G8B:ch19:sec19-6
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:na:functions:G8B:ch19
+
+    行号   76 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:sp:sampling-data-analysis:G8B:ch20:sec20-4
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:sp:sampling-data-analysis:G8B:ch20
+
+    行号   77 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:sp:sampling-data-analysis:G8B:ch20:sec20-5
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:sp:sampling-data-analysis:G8B:ch20
+
+    行号   78 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:sp:sampling-data-analysis:G8B:ch20:sec20-6
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:sp:sampling-data-analysis:G8B:ch20
+
+    行号   82 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:na:equations-inequalities:G9A:ch21:sec21-4
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:na:equations-inequalities:G9A:ch21
+
+    行号   83 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:na:equations-inequalities:G9A:ch21:sec21-5
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:na:equations-inequalities:G9A:ch21
+
+    行号   84 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:na:equations-inequalities:G9A:ch21:sec21-6
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:na:equations-inequalities:G9A:ch21
+
+    行号   88 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:na:functions:G9A:ch22:sec22-4
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:na:functions:G9A:ch22
+
+    行号   89 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:na:functions:G9A:ch22:sec22-5
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:na:functions:G9A:ch22
+
+    行号   90 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:na:functions:G9A:ch22:sec22-6
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:na:functions:G9A:ch22
+
+    行号   94 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:sg:transformations:G9A:ch23:sec23-4
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:sg:transformations:G9A:ch23
+
+    行号   95 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:sg:transformations:G9A:ch23:sec23-5
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:sg:transformations:G9A:ch23
+
+    行号   96 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:sg:transformations:G9A:ch23:sec23-6
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:sg:transformations:G9A:ch23
+
+    行号  101 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:sg:properties:G9A:ch24:sec24-5
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:sg:properties:G9A:ch24
+
+    行号  102 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:sg:properties:G9A:ch24:sec24-6
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:sg:properties:G9A:ch24
+
+    行号  103 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:sg:properties:G9A:ch24:sec24-7
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:sg:properties:G9A:ch24
+
+    行号  107 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:sp:probability:G9A:ch25:sec25-4
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:sp:probability:G9A:ch25
+
+    行号  108 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:sp:probability:G9A:ch25:sec25-5
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:sp:probability:G9A:ch25
+
+    行号  109 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:sp:probability:G9A:ch25:sec25-6
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:sp:probability:G9A:ch25
+
+    行号  112 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:na:functions:G9B:ch26:sec26-3
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:na:functions:G9B:ch26
+
+    行号  113 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:na:functions:G9B:ch26:sec26-4
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:na:functions:G9B:ch26
+
+    行号  114 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:na:functions:G9B:ch26:sec26-5
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:na:functions:G9B:ch26
+
+    行号  117 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:sg:properties:G9B:ch27:sec27-3
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:sg:properties:G9B:ch27
+
+    行号  118 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:sg:properties:G9B:ch27:sec27-4
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:sg:properties:G9B:ch27
+
+    行号  119 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:sg:properties:G9B:ch27:sec27-5
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:sg:properties:G9B:ch27
+
+    行号  120 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:sg:properties:G9B:ch27:sec27-6
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:sg:properties:G9B:ch27
+
+    行号  123 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:na:functions:G9B:ch28:sec28-3
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:na:functions:G9B:ch28
+
+    行号  124 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:na:functions:G9B:ch28:sec28-4
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:na:functions:G9B:ch28
+
+    行号  125 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:na:functions:G9B:ch28:sec28-5
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:na:functions:G9B:ch28
+
+    行号  129 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:sg:properties:G9B:ch29:sec29-4
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:sg:properties:G9B:ch29
+
+    行号  130 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:sg:properties:G9B:ch29:sec29-5
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:sg:properties:G9B:ch29
+
+    行号  131 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:section:s4:sg:properties:G9B:ch29:sec29-6
+            | 关系名称: chapterHasSection
+            | 头节点ID: urn:jy:math:2022:chapter:s4:sg:properties:G9B:ch29
+
+
+文件: Theme_Chapter_middle.json
+--------------------------------------------------------------------------------
+
+  缺失尾节点 (4 个):
+    行号   12 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:chapter:s4:sg:transformations:G7B:ch7
+            | 关系名称: themeHasChapter
+            | 头节点ID: urn:jy:math:2022:theme:s4:sg:transformations
+
+    行号   21 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:chapter:s4:sg:properties:G8A:ch15
+            | 关系名称: themeHasChapter
+            | 头节点ID: urn:jy:math:2022:theme:s4:sg:properties
+
+    行号   25 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:chapter:s4:na:equations-inequalities:G8A:ch18
+            | 关系名称: themeHasChapter
+            | 头节点ID: urn:jy:math:2022:theme:s4:na:equations-inequalities
+
+    行号   38 | 节点位置: 尾节点    | 节点ID: urn:jy:math:2022:chapter:s4:sg:transformations:G9B:ch27
+            | 关系名称: themeHasChapter
+            | 头节点ID: urn:jy:math:2022:theme:s4:sg:transformations
+
+
+================================================================================
+【按缺失节点ID汇总】
+================================================================================
+
+
+缺失的尾节点ID列表:
+  urn:jy:math:2022:chapter:s4:na:equations-inequalities:G8A:ch18
+    出现在 1 个关系中:
+      - Theme_Chapter_middle.json (行号 25, 关系: themeHasChapter)
+
+  urn:jy:math:2022:chapter:s4:sg:properties:G8A:ch15
+    出现在 1 个关系中:
+      - Theme_Chapter_middle.json (行号 21, 关系: themeHasChapter)
+
+  urn:jy:math:2022:chapter:s4:sg:transformations:G7B:ch7
+    出现在 1 个关系中:
+      - Theme_Chapter_middle.json (行号 12, 关系: themeHasChapter)
+
+  urn:jy:math:2022:chapter:s4:sg:transformations:G9B:ch27
+    出现在 1 个关系中:
+      - Theme_Chapter_middle.json (行号 38, 关系: themeHasChapter)
+
+  urn:jy:math:2022:section:s4:na:equations-inequalities:G7A:ch5:sec5-1
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 14, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:na:equations-inequalities:G7B:ch10:sec10-2
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 30, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:na:equations-inequalities:G9A:ch21:sec21-4
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 82, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:na:equations-inequalities:G9A:ch21:sec21-5
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 83, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:na:equations-inequalities:G9A:ch21:sec21-6
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 84, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:na:expressions:G7A:ch1:sec1-2
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 2, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:na:expressions:G7A:ch1:sec1-3
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 3, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:na:expressions:G7A:ch1:sec1-4
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 4, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:na:expressions:G7A:ch2:sec2-1
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 5, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:na:expressions:G7A:ch2:sec2-2
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 6, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:na:expressions:G7A:ch2:sec2-3
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 7, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:na:expressions:G7A:ch2:sec2-4
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 8, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:na:expressions:G7A:ch2:sec2-5
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 9, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:na:expressions:G8A:ch18:sec18-5
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 56, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:na:functions:G8B:ch19:sec19-4
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 70, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:na:functions:G8B:ch19:sec19-5
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 71, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:na:functions:G8B:ch19:sec19-6
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 72, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:na:functions:G9A:ch22:sec22-4
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 88, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:na:functions:G9A:ch22:sec22-5
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 89, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:na:functions:G9A:ch22:sec22-6
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 90, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:na:functions:G9B:ch26:sec26-3
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 112, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:na:functions:G9B:ch26:sec26-4
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 113, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:na:functions:G9B:ch26:sec26-5
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 114, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:na:functions:G9B:ch28:sec28-3
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 123, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:na:functions:G9B:ch28:sec28-4
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 124, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:na:functions:G9B:ch28:sec28-5
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 125, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:sg:properties:G7A:ch6:sec6-1
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 17, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:sg:properties:G7A:ch6:sec6-2
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 18, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:sg:properties:G7A:ch6:sec6-3
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 19, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:sg:properties:G7B:ch7:sec7-4
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 23, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:sg:properties:G8B:ch17:sec17-3
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 59, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:sg:properties:G8B:ch17:sec17-4
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 60, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:sg:properties:G8B:ch17:sec17-5
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 61, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:sg:properties:G8B:ch18:sec18-3
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 64, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:sg:properties:G8B:ch18:sec18-4
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 65, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:sg:properties:G8B:ch18:sec18-5
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 66, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:sg:properties:G9A:ch24:sec24-5
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 101, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:sg:properties:G9A:ch24:sec24-6
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 102, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:sg:properties:G9A:ch24:sec24-7
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 103, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:sg:properties:G9B:ch27:sec27-3
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 117, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:sg:properties:G9B:ch27:sec27-4
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 118, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:sg:properties:G9B:ch27:sec27-5
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 119, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:sg:properties:G9B:ch27:sec27-6
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 120, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:sg:properties:G9B:ch29:sec29-4
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 129, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:sg:properties:G9B:ch29:sec29-5
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 130, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:sg:properties:G9B:ch29:sec29-6
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 131, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:sg:transformations:G8A:ch15:sec15-3
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 46, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:sg:transformations:G9A:ch23:sec23-4
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 94, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:sg:transformations:G9A:ch23:sec23-5
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 95, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:sg:transformations:G9A:ch23:sec23-6
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 96, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:sp:probability:G9A:ch25:sec25-4
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 107, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:sp:probability:G9A:ch25:sec25-5
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 108, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:sp:probability:G9A:ch25:sec25-6
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 109, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:sp:sampling-data-analysis:G8B:ch20:sec20-4
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 76, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:sp:sampling-data-analysis:G8B:ch20:sec20-5
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 77, 关系: chapterHasSection)
+
+  urn:jy:math:2022:section:s4:sp:sampling-data-analysis:G8B:ch20:sec20-6
+    出现在 1 个关系中:
+      - Chapter_Section_middle.json (行号 78, 关系: chapterHasSection)
+
+
+================================================================================
+【排查建议】
+================================================================================
+1. 检查entities目录中是否存在对应的实体文件
+2. 检查实体文件中的identifier字段是否与关系文件中的source/target完全匹配
+3. 注意identifier的大小写、空格、特殊字符等细节
+4. 检查是否有实体文件格式错误（JSON解析失败）
+5. 检查是否有实体文件被遗漏未加载
+================================================================================

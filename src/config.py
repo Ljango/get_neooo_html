@@ -92,7 +92,7 @@ SUBJECT_CONFIG = {
     "高中数学": {
         "icon": "📐",
         "display_name": "高中数学",
-        "data_dir": "高中数学-with-books",
+        "data_dir": "高中数学-v1",
         "files": ["高中数学_课标.html", "高中数学_人教B版_v2.html"],
         "color": "#2ecc71",
         "neo4j_label": "GaoZhongShuXue"  # 高中数学
@@ -100,7 +100,7 @@ SUBJECT_CONFIG = {
     "高中物理": {
         "icon": "⚛️",
         "display_name": "高中物理",
-        "data_dir": "高中物理-with-books-v2",
+        "data_dir": "高中物理-v2",
         "files": ["高中物理_课标.html"],
         "color": "#3498db",
         "neo4j_label": "GaoZhongWuLi"  # 高中物理
@@ -108,7 +108,7 @@ SUBJECT_CONFIG = {
     "高中化学": {
         "icon": "⚗️",
         "display_name": "高中化学",
-        "data_dir": "高中化学_with-books-v2",
+        "data_dir": "高中化学-v2",
         "files": ["高中化学_课标.html"],
         "color": "#8e44ad",
         "neo4j_label": "GaoZhongHuaXue"  # 高中化学
@@ -116,7 +116,7 @@ SUBJECT_CONFIG = {
     "高中生物": {
         "icon": "🧬",
         "display_name": "高中生物",
-        "data_dir": "高中生物-with-books",
+        "data_dir": "高中生物-v1",
         "files": ["高中生物_课标.html"],
         "color": "#27ae60",
         "neo4j_label": "GaoZhongShengWu"  # 高中生物
@@ -124,7 +124,7 @@ SUBJECT_CONFIG = {
     "高中政治": {
         "icon": "🏛️",
         "display_name": "高中政治",
-        "data_dir": "高中政治-with-books-v2",
+        "data_dir": "高中政治-v2",
         "files": ["高中政治_课标.html"],
         "color": "#c0392b",
         "neo4j_label": "GaoZhongZhengZhi"  # 高中政治
@@ -132,7 +132,7 @@ SUBJECT_CONFIG = {
     "高中地理": {
         "icon": "🗺️",
         "display_name": "高中地理",
-        "data_dir": "高中地理-with-books-v3",
+        "data_dir": "高中地理-v3",
         "files": ["高中地理_课标.html"],
         "color": "#3498db",
         "neo4j_label": "GaoZhongDiLi"  # 高中地理
@@ -141,7 +141,7 @@ SUBJECT_CONFIG = {
     "义教数学": {
         "icon": "📐",
         "display_name": "义教数学",
-        "data_dir": "义教数学_1231-with-books",
+        "data_dir": "义教数学-v1",
         "files": ["义教数学_课标.html"],
         "color": "#f39c12",
         "neo4j_label": "YiJiaoShuXue"  # 义教数学
@@ -149,7 +149,7 @@ SUBJECT_CONFIG = {
     "义教物理89全册": {
         "icon": "⚡",
         "display_name": "义教物理（8、9全一册）",
-        "data_dir": "义务物理（8、9全一册）-with-books-v2",
+        "data_dir": "义教物理89全册-v2",
         "files": ["义教物理_89全一册.html"],
         "color": "#e74c3c",
         "neo4j_label": "YiJiaoWuLi89"  # 义教物理89全册
@@ -157,7 +157,7 @@ SUBJECT_CONFIG = {
     "义教物理8上下9全册": {
         "icon": "⚡",
         "display_name": "义教物理（8上下、9全一册）",
-        "data_dir": "义务物理（8上下、9全一册）-with-books-v2",
+        "data_dir": "义教物理8上下9全册-v2",
         "files": ["义教物理_课标.html"],
         "color": "#e74c3c",
         "neo4j_label": "YiJiaoWuLi"  # 义教物理
@@ -165,7 +165,7 @@ SUBJECT_CONFIG = {
     "义教化学": {
         "icon": "🧪",
         "display_name": "义教化学",
-        "data_dir": "义教化学-with-books",
+        "data_dir": "义教化学-v1",
         "files": ["义教化学_课标.html"],
         "color": "#9b59b6",
         "neo4j_label": "YiJiaoHuaXue"  # 义教化学
@@ -173,7 +173,7 @@ SUBJECT_CONFIG = {
     "义教地理": {
         "icon": "🌍",
         "display_name": "义教地理",
-        "data_dir": "义教地理-with-books-v3",
+        "data_dir": "义教地理-v3",
         "files": ["义教地理_课标.html"],
         "color": "#1abc9c",
         "neo4j_label": "YiJiaoDiLi"  # 义教地理
@@ -181,7 +181,7 @@ SUBJECT_CONFIG = {
     "义教生物": {
         "icon": "🌱",
         "display_name": "义教生物",
-        "data_dir": "义教生物-with-books-v2",
+        "data_dir": "义教生物-v2",
         "files": ["义教生物_课标.html"],
         "color": "#16a085",
         "neo4j_label": "YiJiaoShengWu"  # 义教生物
@@ -189,7 +189,7 @@ SUBJECT_CONFIG = {
     "义教道法": {
         "icon": "⚖️",
         "display_name": "义教道法",
-        "data_dir": "义教道法-with-books",
+        "data_dir": "义教道法-v1",
         "files": ["义教道法_课标.html"],
         "color": "#d63031",
         "neo4j_label": "YiJiaoDaoFa"  # 义教道德与法治
@@ -197,7 +197,7 @@ SUBJECT_CONFIG = {
     "义教历史": {
         "icon": "📜",
         "display_name": "义教历史",
-        "data_dir": "义教历史-with-books",
+        "data_dir": "义教历史-v1",
         "files": ["义教历史_课标.html"],
         "color": "#8e44ad",
         "neo4j_label": "YiJiaoLiShi"  # 义教历史
@@ -205,7 +205,7 @@ SUBJECT_CONFIG = {
     "高中历史": {
         "icon": "🏛️",
         "display_name": "高中历史",
-        "data_dir": "高中历史-with-books",
+        "data_dir": "高中历史-v1",
         "files": ["高中历史_课标.html"],
         "color": "#6c5ce7",
         "neo4j_label": "GaoZhongLiShi"  # 高中历史
@@ -213,7 +213,7 @@ SUBJECT_CONFIG = {
     "高中英语": {
         "icon": "🔤",
         "display_name": "高中英语",
-        "data_dir": "高中英语-with-books-v2",
+        "data_dir": "高中英语-v2",
         "files": ["高中英语_课标.html"],
         "color": "#e84393",
         "neo4j_label": "GaoZhongYingYu"  # 高中英语
@@ -221,7 +221,7 @@ SUBJECT_CONFIG = {
     "高中语文": {
         "icon": "📖",
         "display_name": "高中语文",
-        "data_dir": "高中语文",
+        "data_dir": "高中语文-v1",
         "files": ["高中语文_课标.html"],
         "color": "#ff6b6b",
         "neo4j_label": "GaoZhongYuWen"  # 高中语文
@@ -229,7 +229,7 @@ SUBJECT_CONFIG = {
     "义教语文": {
         "icon": "📚",
         "display_name": "义教语文",
-        "data_dir": "义教语文",
+        "data_dir": "义教语文-v1",
         "files": ["义教语文_课标.html"],
         "color": "#ff7675",
         "neo4j_label": "YiJiaoYuWen"  # 义教语文

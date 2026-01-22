@@ -1,0 +1,200 @@
+[
+  {
+    "relationName": "themeBelongsToCourseModule",
+    "label": "主题归属课程模块 / belongsToCourseModule",
+    "source": "urn:jy:physics:SB0401:OB06:Theme:1",
+    "target": "urn:jy:physics:SB0401:OB06:CourseModule:1",
+    "evidence": {
+      "fromStandard": "高中物理课程由必修、选择性必修、选修三类课程构成（图1）。必修课程是全体学生必须学习的课程，由必修1、必修2和必修3三个模块构成。选择性必修课程是学生根据个人需求与升学要求选择学习的课程，由选择性必修1、选择性必修2和选择性必修3三个模块构成。选修课程是学生自主选择学习的课程，由选修1、选修2和选修3三个模块构成。必修课程、选择性必修课程和选修课程都应贯彻落实立德树人根本任务，注重发展学生的物理学科核心素养。",
+      "fromTheme": "本模块由“机械运动与物理模型”“相互作用与运动定律”两个主题组成。",
+      "mappingRule": "主题标题前缀“必修1”对应“必修课程”"
+    }
+  },
+  {
+    "relationName": "courseModuleIncludesTheme",
+    "label": "课程模块包含主题 / includesTheme",
+    "source": "urn:jy:physics:SB0401:OB06:CourseModule:1",
+    "target": "urn:jy:physics:SB0401:OB06:Theme:1",
+    "evidence": {
+      "fromStandard": "高中物理课程由必修、选择性必修、选修三类课程构成（图1）。必修课程是全体学生必须学习的课程，由必修1、必修2和必修3三个模块构成。选择性必修课程是学生根据个人需求与升学要求选择学习的课程，由选择性必修1、选择性必修2和选择性必修3三个模块构成。选修课程是学生自主选择学习的课程，由选修1、选修2和选修3三个模块构成。必修课程、选择性必修课程和选修课程都应贯彻落实立德树人根本任务，注重发展学生的物理学科核心素养。",
+      "fromTheme": "本模块由“机械运动与物理模型”“相互作用与运动定律”两个主题组成。",
+      "mappingRule": "课程模块“必修课程”下包含主题“必修1”"
+    }
+  },
+  {
+    "relationName": "themeBelongsToCourseModule",
+    "label": "主题归属课程模块 / belongsToCourseModule",
+    "source": "urn:jy:physics:SB0401:OB06:Theme:2",
+    "target": "urn:jy:physics:SB0401:OB06:CourseModule:1",
+    "evidence": {
+      "fromStandard": "高中物理课程由必修、选择性必修、选修三类课程构成（图1）。必修课程是全体学生必须学习的课程，由必修1、必修2和必修3三个模块构成。选择性必修课程是学生根据个人需求与升学要求选择学习的课程，由选择性必修1、选择性必修2和选择性必修3三个模块构成。选修课程是学生自主选择学习的课程，由选修1、选修2和选修3三个模块构成。必修课程、选择性必修课程和选修课程都应贯彻落实立德树人根本任务，注重发展学生的物理学科核心素养。",
+      "fromTheme": "本模块由“机械能及其守恒定律”“曲线运动与万有引力定律”“牛顿力学的局限性与相对论初步”三个主题组成。",
+      "mappingRule": "主题标题前缀“必修2”对应“必修课程”"
+    }
+  },
+  {
+    "relationName": "courseModuleIncludesTheme",
+    "label": "课程模块包含主题 / includesTheme",
+    "source": "urn:jy:physics:SB0401:OB06:CourseModule:1",
+    "target": "urn:jy:physics:SB0401:OB06:Theme:2",
+    "evidence": {
+      "fromStandard": "高中物理课程由必修、选择性必修、选修三类课程构成（图1）。必修课程是全体学生必须学习的课程，由必修1、必修2和必修3三个模块构成。选择性必修课程是学生根据个人需求与升学要求选择学习的课程，由选择性必修1、选择性必修2和选择性必修3三个模块构成。选修课程是学生自主选择学习的课程，由选修1、选修2和选修3三个模块构成。必修课程、选择性必修课程和选修课程都应贯彻落实立德树人根本任务，注重发展学生的物理学科核心素养。",
+      "fromTheme": "本模块由“机械能及其守恒定律”“曲线运动与万有引力定律”“牛顿力学的局限性与相对论初步”三个主题组成。",
+      "mappingRule": "课程模块“必修课程”下包含主题“必修2”"
+    }
+  },
+  {
+    "relationName": "themeBelongsToCourseModule",
+    "label": "主题归属课程模块 / belongsToCourseModule",
+    "source": "urn:jy:physics:SB0401:OB06:Theme:3",
+    "target": "urn:jy:physics:SB0401:OB06:CourseModule:1",
+    "evidence": {
+      "fromStandard": "高中物理课程由必修、选择性必修、选修三类课程构成（图1）。必修课程是全体学生必须学习的课程，由必修1、必修2和必修3三个模块构成。选择性必修课程是学生根据个人需求与升学要求选择学习的课程，由选择性必修1、选择性必修2和选择性必修3三个模块构成。选修课程是学生自主选择学习的课程，由选修1、选修2和选修3三个模块构成。必修课程、选择性必修课程和选修课程都应贯彻落实立德树人根本任务，注重发展学生的物理学科核心素养。",
+      "fromTheme": "本模块由“静电场”“电路及其应用”“电磁场与电磁波初步”“能源与可持续发展”四个主题组成。",
+      "mappingRule": "主题标题前缀“必修3”对应“必修课程”"
+    }
+  },
+  {
+    "relationName": "courseModuleIncludesTheme",
+    "label": "课程模块包含主题 / includesTheme",
+    "source": "urn:jy:physics:SB0401:OB06:CourseModule:1",
+    "target": "urn:jy:physics:SB0401:OB06:Theme:3",
+    "evidence": {
+      "fromStandard": "高中物理课程由必修、选择性必修、选修三类课程构成（图1）。必修课程是全体学生必须学习的课程，由必修1、必修2和必修3三个模块构成。选择性必修课程是学生根据个人需求与升学要求选择学习的课程，由选择性必修1、选择性必修2和选择性必修3三个模块构成。选修课程是学生自主选择学习的课程，由选修1、选修2和选修3三个模块构成。必修课程、选择性必修课程和选修课程都应贯彻落实立德树人根本任务，注重发展学生的物理学科核心素养。",
+      "fromTheme": "本模块由“静电场”“电路及其应用”“电磁场与电磁波初步”“能源与可持续发展”四个主题组成。",
+      "mappingRule": "课程模块“必修课程”下包含主题“必修3”"
+    }
+  },
+  {
+    "relationName": "themeBelongsToCourseModule",
+    "label": "主题归属课程模块 / belongsToCourseModule",
+    "source": "urn:jy:physics:SB0401:OB06:Theme:4",
+    "target": "urn:jy:physics:SB0401:OB06:CourseModule:2",
+    "evidence": {
+      "fromStandard": "高中物理课程由必修、选择性必修、选修三类课程构成（图1）。必修课程是全体学生必须学习的课程，由必修1、必修2和必修3三个模块构成。选择性必修课程是学生根据个人需求与升学要求选择学习的课程，由选择性必修1、选择性必修2和选择性必修3三个模块构成。选修课程是学生自主选择学习的课程，由选修1、选修2和选修3三个模块构成。必修课程、选择性必修课程和选修课程都应贯彻落实立德树人根本任务，注重发展学生的物理学科核心素养。",
+      "fromTheme": "本模块由“动量与动量守恒定律”“机械振动与机械波”“光及其应用”三个主题组成。",
+      "mappingRule": "主题标题前缀“选择性必修1”对应“选择性必修课程”"
+    }
+  },
+  {
+    "relationName": "courseModuleIncludesTheme",
+    "label": "课程模块包含主题 / includesTheme",
+    "source": "urn:jy:physics:SB0401:OB06:CourseModule:2",
+    "target": "urn:jy:physics:SB0401:OB06:Theme:4",
+    "evidence": {
+      "fromStandard": "高中物理课程由必修、选择性必修、选修三类课程构成（图1）。必修课程是全体学生必须学习的课程，由必修1、必修2和必修3三个模块构成。选择性必修课程是学生根据个人需求与升学要求选择学习的课程，由选择性必修1、选择性必修2和选择性必修3三个模块构成。选修课程是学生自主选择学习的课程，由选修1、选修2和选修3三个模块构成。必修课程、选择性必修课程和选修课程都应贯彻落实立德树人根本任务，注重发展学生的物理学科核心素养。",
+      "fromTheme": "本模块由“动量与动量守恒定律”“机械振动与机械波”“光及其应用”三个主题组成。",
+      "mappingRule": "课程模块“选择性必修课程”下包含主题“选择性必修1”"
+    }
+  },
+  {
+    "relationName": "themeBelongsToCourseModule",
+    "label": "主题归属课程模块 / belongsToCourseModule",
+    "source": "urn:jy:physics:SB0401:OB06:Theme:5",
+    "target": "urn:jy:physics:SB0401:OB06:CourseModule:2",
+    "evidence": {
+      "fromStandard": "高中物理课程由必修、选择性必修、选修三类课程构成（图1）。必修课程是全体学生必须学习的课程，由必修1、必修2和必修3三个模块构成。选择性必修课程是学生根据个人需求与升学要求选择学习的课程，由选择性必修1、选择性必修2和选择性必修3三个模块构成。选修课程是学生自主选择学习的课程，由选修1、选修2和选修3三个模块构成。必修课程、选择性必修课程和选修课程都应贯彻落实立德树人根本任务，注重发展学生的物理学科核心素养。",
+      "fromTheme": "本模块由“磁场”“电磁感应及其应用”“电磁振荡与电磁波”“传感器”四个主题组成。",
+      "mappingRule": "主题标题前缀“选择性必修2”对应“选择性必修课程”"
+    }
+  },
+  {
+    "relationName": "courseModuleIncludesTheme",
+    "label": "课程模块包含主题 / includesTheme",
+    "source": "urn:jy:physics:SB0401:OB06:CourseModule:2",
+    "target": "urn:jy:physics:SB0401:OB06:Theme:5",
+    "evidence": {
+      "fromStandard": "高中物理课程由必修、选择性必修、选修三类课程构成（图1）。必修课程是全体学生必须学习的课程，由必修1、必修2和必修3三个模块构成。选择性必修课程是学生根据个人需求与升学要求选择学习的课程，由选择性必修1、选择性必修2和选择性必修3三个模块构成。选修课程是学生自主选择学习的课程，由选修1、选修2和选修3三个模块构成。必修课程、选择性必修课程和选修课程都应贯彻落实立德树人根本任务，注重发展学生的物理学科核心素养。",
+      "fromTheme": "本模块由“磁场”“电磁感应及其应用”“电磁振荡与电磁波”“传感器”四个主题组成。",
+      "mappingRule": "课程模块“选择性必修课程”下包含主题“选择性必修2”"
+    }
+  },
+  {
+    "relationName": "themeBelongsToCourseModule",
+    "label": "主题归属课程模块 / belongsToCourseModule",
+    "source": "urn:jy:physics:SB0401:OB06:Theme:6",
+    "target": "urn:jy:physics:SB0401:OB06:CourseModule:2",
+    "evidence": {
+      "fromStandard": "高中物理课程由必修、选择性必修、选修三类课程构成（图1）。必修课程是全体学生必须学习的课程，由必修1、必修2和必修3三个模块构成。选择性必修课程是学生根据个人需求与升学要求选择学习的课程，由选择性必修1、选择性必修2和选择性必修3三个模块构成。选修课程是学生自主选择学习的课程，由选修1、选修2和选修3三个模块构成。必修课程、选择性必修课程和选修课程都应贯彻落实立德树人根本任务，注重发展学生的物理学科核心素养。",
+      "fromTheme": "本模块由“固体、液体和气体”“热力学定律”“原子与原子核”“波粒二象性”四个主题组成。",
+      "mappingRule": "主题标题前缀“选择性必修3”对应“选择性必修课程”"
+    }
+  },
+  {
+    "relationName": "courseModuleIncludesTheme",
+    "label": "课程模块包含主题 / includesTheme",
+    "source": "urn:jy:physics:SB0401:OB06:CourseModule:2",
+    "target": "urn:jy:physics:SB0401:OB06:Theme:6",
+    "evidence": {
+      "fromStandard": "高中物理课程由必修、选择性必修、选修三类课程构成（图1）。必修课程是全体学生必须学习的课程，由必修1、必修2和必修3三个模块构成。选择性必修课程是学生根据个人需求与升学要求选择学习的课程，由选择性必修1、选择性必修2和选择性必修3三个模块构成。选修课程是学生自主选择学习的课程，由选修1、选修2和选修3三个模块构成。必修课程、选择性必修课程和选修课程都应贯彻落实立德树人根本任务，注重发展学生的物理学科核心素养。",
+      "fromTheme": "本模块由“固体、液体和气体”“热力学定律”“原子与原子核”“波粒二象性”四个主题组成。",
+      "mappingRule": "课程模块“选择性必修课程”下包含主题“选择性必修3”"
+    }
+  },
+  {
+    "relationName": "themeBelongsToCourseModule",
+    "label": "主题归属课程模块 / belongsToCourseModule",
+    "source": "urn:jy:physics:SB0401:OB06:Theme:7",
+    "target": "urn:jy:physics:SB0401:OB06:CourseModule:3",
+    "evidence": {
+      "fromStandard": "高中物理课程由必修、选择性必修、选修三类课程构成（图1）。必修课程是全体学生必须学习的课程，由必修1、必修2和必修3三个模块构成。选择性必修课程是学生根据个人需求与升学要求选择学习的课程，由选择性必修1、选择性必修2和选择性必修3三个模块构成。选修课程是学生自主选择学习的课程，由选修1、选修2和选修3三个模块构成。必修课程、选择性必修课程和选修课程都应贯彻落实立德树人根本任务，注重发展学生的物理学科核心素养。",
+      "fromTheme": "本模块侧重物理学与社会发展有关的内容，由“物理学与人类认识”“物理学与社会变革”“物理学与公民生活”三个主题组成。",
+      "mappingRule": "主题标题前缀“选修1”对应“选修课程”"
+    }
+  },
+  {
+    "relationName": "courseModuleIncludesTheme",
+    "label": "课程模块包含主题 / includesTheme",
+    "source": "urn:jy:physics:SB0401:OB06:CourseModule:3",
+    "target": "urn:jy:physics:SB0401:OB06:Theme:7",
+    "evidence": {
+      "fromStandard": "高中物理课程由必修、选择性必修、选修三类课程构成（图1）。必修课程是全体学生必须学习的课程，由必修1、必修2和必修3三个模块构成。选择性必修课程是学生根据个人需求与升学要求选择学习的课程，由选择性必修1、选择性必修2和选择性必修3三个模块构成。选修课程是学生自主选择学习的课程，由选修1、选修2和选修3三个模块构成。必修课程、选择性必修课程和选修课程都应贯彻落实立德树人根本任务，注重发展学生的物理学科核心素养。",
+      "fromTheme": "本模块侧重物理学与社会发展有关的内容，由“物理学与人类认识”“物理学与社会变革”“物理学与公民生活”三个主题组成。",
+      "mappingRule": "课程模块“选修课程”下包含主题“选修1”"
+    }
+  },
+  {
+    "relationName": "themeBelongsToCourseModule",
+    "label": "主题归属课程模块 / belongsToCourseModule",
+    "source": "urn:jy:physics:SB0401:OB06:Theme:8",
+    "target": "urn:jy:physics:SB0401:OB06:CourseModule:3",
+    "evidence": {
+      "fromStandard": "高中物理课程由必修、选择性必修、选修三类课程构成（图1）。必修课程是全体学生必须学习的课程，由必修1、必修2和必修3三个模块构成。选择性必修课程是学生根据个人需求与升学要求选择学习的课程，由选择性必修1、选择性必修2和选择性必修3三个模块构成。选修课程是学生自主选择学习的课程，由选修1、选修2和选修3三个模块构成。必修课程、选择性必修课程和选修课程都应贯彻落实立德树人根本任务，注重发展学生的物理学科核心素养。",
+      "fromTheme": "本模块侧重物理学与技术应用有关的内容，由“物理学与医疗技术”“物理学与新能源”“物理学与新材料”“物理学与信息技术”四个主题组成。",
+      "mappingRule": "主题标题前缀“选修2”对应“选修课程”"
+    }
+  },
+  {
+    "relationName": "courseModuleIncludesTheme",
+    "label": "课程模块包含主题 / includesTheme",
+    "source": "urn:jy:physics:SB0401:OB06:CourseModule:3",
+    "target": "urn:jy:physics:SB0401:OB06:Theme:8",
+    "evidence": {
+      "fromStandard": "高中物理课程由必修、选择性必修、选修三类课程构成（图1）。必修课程是全体学生必须学习的课程，由必修1、必修2和必修3三个模块构成。选择性必修课程是学生根据个人需求与升学要求选择学习的课程，由选择性必修1、选择性必修2和选择性必修3三个模块构成。选修课程是学生自主选择学习的课程，由选修1、选修2和选修3三个模块构成。必修课程、选择性必修课程和选修课程都应贯彻落实立德树人根本任务，注重发展学生的物理学科核心素养。",
+      "fromTheme": "本模块侧重物理学与技术应用有关的内容，由“物理学与医疗技术”“物理学与新能源”“物理学与新材料”“物理学与信息技术”四个主题组成。",
+      "mappingRule": "课程模块“选修课程”下包含主题“选修2”"
+    }
+  },
+  {
+    "relationName": "themeBelongsToCourseModule",
+    "label": "主题归属课程模块 / belongsToCourseModule",
+    "source": "urn:jy:physics:SB0401:OB06:Theme:9",
+    "target": "urn:jy:physics:SB0401:OB06:CourseModule:3",
+    "evidence": {
+      "fromStandard": "高中物理课程由必修、选择性必修、选修三类课程构成（图1）。必修课程是全体学生必须学习的课程，由必修1、必修2和必修3三个模块构成。选择性必修课程是学生根据个人需求与升学要求选择学习的课程，由选择性必修1、选择性必修2和选择性必修3三个模块构成。选修课程是学生自主选择学习的课程，由选修1、选修2和选修3三个模块构成。必修课程、选择性必修课程和选修课程都应贯彻落实立德树人根本任务，注重发展学生的物理学科核心素养。",
+      "fromTheme": "本模块侧重与近代物理学有关的初步内容，由“微观世界”“高速世界”“宇观世界”“世界的统一性”四个主题组成。",
+      "mappingRule": "主题标题前缀“选修3”对应“选修课程”"
+    }
+  },
+  {
+    "relationName": "courseModuleIncludesTheme",
+    "label": "课程模块包含主题 / includesTheme",
+    "source": "urn:jy:physics:SB0401:OB06:CourseModule:3",
+    "target": "urn:jy:physics:SB0401:OB06:Theme:9",
+    "evidence": {
+      "fromStandard": "高中物理课程由必修、选择性必修、选修三类课程构成（图1）。必修课程是全体学生必须学习的课程，由必修1、必修2和必修3三个模块构成。选择性必修课程是学生根据个人需求与升学要求选择学习的课程，由选择性必修1、选择性必修2和选择性必修3三个模块构成。选修课程是学生自主选择学习的课程，由选修1、选修2和选修3三个模块构成。必修课程、选择性必修课程和选修课程都应贯彻落实立德树人根本任务，注重发展学生的物理学科核心素养。",
+      "fromTheme": "本模块侧重与近代物理学有关的初步内容，由“微观世界”“高速世界”“宇观世界”“世界的统一性”四个主题组成。",
+      "mappingRule": "课程模块“选修课程”下包含主题“选修3”"
+    }
+  }
+]

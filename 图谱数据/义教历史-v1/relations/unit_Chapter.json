@@ -1,0 +1,409 @@
+[
+  {
+    "relationName": "relates_to_theme",
+    "label": "关联主题",
+    "source": "urn:jy:history:SB0307:OB03:Chapter:1:OB03",
+    "target": "urn:jy:history:SB0307:OB03:unit:1:OB03",
+    "evidence": {
+      "Chapter": "第一单元 史前时期：原始社会与中华文明的起源",
+      "unit": "史前时期",
+      "note": "教材单元涵盖了旧石器及新石器时代的人类活动，与史前时期主题完全对应。"
+    }
+  },
+  {
+    "relationName": "relates_to_theme",
+    "label": "关联主题",
+    "source": "urn:jy:history:SB0307:OB03:Chapter:2:OB03",
+    "target": "urn:jy:history:SB0307:OB03:unit:2:OB03",
+    "evidence": {
+      "Chapter": "第二单元 夏商周时期：奴隶制王朝的更替和向封建社会的过渡",
+      "unit": "夏商西周与春秋战国时期",
+      "note": "教材单元讲述夏商周及春秋战国变革，与该历史时期主题一致。"
+    }
+  },
+  {
+    "relationName": "relates_to_theme",
+    "label": "关联主题",
+    "source": "urn:jy:history:SB0307:OB03:Chapter:3:OB03",
+    "target": "urn:jy:history:SB0307:OB03:unit:3:OB03",
+    "evidence": {
+      "Chapter": "第三单元 秦汉时期：统一多民族封建国家的建立和巩固",
+      "unit": "秦汉时期",
+      "note": "教材单元重点在于秦汉大一统及巩固，对应秦汉时期主题。"
+    }
+  },
+  {
+    "relationName": "relates_to_theme",
+    "label": "关联主题",
+    "source": "urn:jy:history:SB0307:OB03:Chapter:4:OB03",
+    "target": "urn:jy:history:SB0307:OB03:unit:4:OB03",
+    "evidence": {
+      "Chapter": "第四单元 三国两晋南北朝时期：政权分立与民族交融",
+      "unit": "三国两晋南北朝时期",
+      "note": "教材单元名称与主题完全一致，涵盖政权分立与民族交融内容。"
+    }
+  },
+  {
+    "relationName": "relates_to_theme",
+    "label": "关联主题",
+    "source": "urn:jy:history:SB0307:OB03:Chapter:5:OB03",
+    "target": "urn:jy:history:SB0307:OB03:unit:5:OB03",
+    "evidence": {
+      "Chapter": "第一单元 隋唐时期：繁荣与开放的时代",
+      "unit": "隋唐五代十国时期",
+      "note": "教材单元聚焦隋唐繁荣，属于隋唐五代十国主题的核心部分。"
+    }
+  },
+  {
+    "relationName": "relates_to_theme",
+    "label": "关联主题",
+    "source": "urn:jy:history:SB0307:OB03:Chapter:6:OB03",
+    "target": "urn:jy:history:SB0307:OB03:unit:6:OB03",
+    "evidence": {
+      "Chapter": "第二单元 辽宋夏金元时期：民族关系发展和社会变化",
+      "unit": "辽宋夏金元时期",
+      "note": "教材单元与主题名称一致，涵盖民族关系与社会变化。"
+    }
+  },
+  {
+    "relationName": "relates_to_theme",
+    "label": "关联主题",
+    "source": "urn:jy:history:SB0307:OB03:Chapter:7:OB03",
+    "target": "urn:jy:history:SB0307:OB03:unit:7:OB03",
+    "evidence": {
+      "Chapter": "第三单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展",
+      "unit": "明清时期（至鸦片战争前）",
+      "note": "教材单元涵盖明清政治、经济及对外关系，对应明清时期主题。"
+    }
+  },
+  {
+    "relationName": "relates_to_theme",
+    "label": "关联主题",
+    "source": "urn:jy:history:SB0307:OB03:Chapter:10:OB03",
+    "target": "urn:jy:history:SB0307:OB03:unit:8:OB03",
+    "evidence": {
+      "Chapter": "第一单元 中国开始沦为半殖民地半封建社会",
+      "unit": "晚清时期的内忧外患与救亡图存",
+      "note": "该单元讲述鸦片战争及太平天国，属于晚清内忧外患主题的开端。"
+    }
+  },
+  {
+    "relationName": "relates_to_theme",
+    "label": "关联主题",
+    "source": "urn:jy:history:SB0307:OB03:Chapter:11:OB03",
+    "target": "urn:jy:history:SB0307:OB03:unit:8:OB03",
+    "evidence": {
+      "Chapter": "第二单元 早期现代化的初步探索和民族危机加剧",
+      "unit": "晚清时期的内忧外患与救亡图存",
+      "note": "该单元涵盖洋务运动、甲午战争及义和团，属于晚清救亡图存主题的重要部分。"
+    }
+  },
+  {
+    "relationName": "relates_to_theme",
+    "label": "关联主题",
+    "source": "urn:jy:history:SB0307:OB03:Chapter:12:OB03",
+    "target": "urn:jy:history:SB0307:OB03:unit:9:OB03",
+    "evidence": {
+      "Chapter": "第三单元 资产阶级民主革命与中华民国的建立",
+      "unit": "辛亥革命与中华民国的建立",
+      "note": "教材单元讲述同盟会、辛亥革命及民国建立，与主题完全对应。"
+    }
+  },
+  {
+    "relationName": "relates_to_theme",
+    "label": "关联主题",
+    "source": "urn:jy:history:SB0307:OB03:Chapter:13:OB03",
+    "target": "urn:jy:history:SB0307:OB03:unit:11:OB03",
+    "evidence": {
+      "Chapter": "第四单元 新民主主义革命的兴起",
+      "unit": "中国共产党成立与新民主主义革命的兴起",
+      "note": "该单元涵盖五四运动与中共诞生，是新民主主义革命兴起主题的核心。"
+    }
+  },
+  {
+    "relationName": "relates_to_theme",
+    "label": "关联主题",
+    "source": "urn:jy:history:SB0307:OB03:Chapter:14:OB03",
+    "target": "urn:jy:history:SB0307:OB03:unit:11:OB03",
+    "evidence": {
+      "Chapter": "第五单元 从国共合作到农村革命根据地的建立",
+      "unit": "中国共产党成立与新民主主义革命的兴起",
+      "note": "该单元讲述北伐、井冈山及长征，属于新民主主义革命兴起主题的延续。"
+    }
+  },
+  {
+    "relationName": "relates_to_theme",
+    "label": "关联主题",
+    "source": "urn:jy:history:SB0307:OB03:Chapter:15:OB03",
+    "target": "urn:jy:history:SB0307:OB03:unit:12:OB03",
+    "evidence": {
+      "Chapter": "第六单元 中华民族的抗日战争",
+      "unit": "中华民族的抗日战争",
+      "note": "教材单元内容与抗日战争主题完全一致，涵盖从局部抗战到全民族抗战。"
+    }
+  },
+  {
+    "relationName": "relates_to_theme",
+    "label": "关联主题",
+    "source": "urn:jy:history:SB0307:OB03:Chapter:16:OB03",
+    "target": "urn:jy:history:SB0307:OB03:unit:13:OB03",
+    "evidence": {
+      "Chapter": "第七单元 人民解放战争",
+      "unit": "人民解放战争",
+      "note": "教材单元内容与解放战争主题完全一致。"
+    }
+  },
+  {
+    "relationName": "relates_to_theme",
+    "label": "关联主题",
+    "source": "urn:jy:history:SB0307:OB03:Chapter:17:OB03",
+    "target": "urn:jy:history:SB0307:OB03:unit:14:OB03",
+    "evidence": {
+      "Chapter": "第一单元 中华人民共和国的成立和巩固",
+      "unit": "中华人民共和国成立和社会主义制度的确立",
+      "note": "教材单元讲述开国大典及政权巩固，对应主题的第一阶段。"
+    }
+  },
+  {
+    "relationName": "relates_to_theme",
+    "label": "关联主题",
+    "source": "urn:jy:history:SB0307:OB03:Chapter:18:OB03",
+    "target": "urn:jy:history:SB0307:OB03:unit:14:OB03",
+    "evidence": {
+      "Chapter": "第二单元 社会主义制度的建立与社会主义建设的探索",
+      "unit": "中华人民共和国成立和社会主义制度的确立",
+      "note": "教材单元涵盖三大改造及早期建设探索，对应社会主义制度确立的主题。"
+    }
+  },
+  {
+    "relationName": "relates_to_theme",
+    "label": "关联主题",
+    "source": "urn:jy:history:SB0307:OB03:Chapter:18:OB03",
+    "target": "urn:jy:history:SB0307:OB03:unit:15:OB03",
+    "evidence": {
+      "Chapter": "第二单元 社会主义制度的建立与社会主义建设的探索",
+      "unit": "社会主义建设的艰辛探索和曲折发展",
+      "note": "教材单元后半部分涉及建设成就与曲折，也关联此主题。"
+    }
+  },
+  {
+    "relationName": "relates_to_theme",
+    "label": "关联主题",
+    "source": "urn:jy:history:SB0307:OB03:Chapter:19:OB03",
+    "target": "urn:jy:history:SB0307:OB03:unit:16:OB03",
+    "evidence": {
+      "Chapter": "第三单元 中国特色社会主义道路",
+      "unit": "改革开放与中国特色社会主义建设",
+      "note": "教材单元讲述十一届三中全会及改革开放，与主题内容一致。"
+    }
+  },
+  {
+    "relationName": "relates_to_theme",
+    "label": "关联主题",
+    "source": "urn:jy:history:SB0307:OB03:Chapter:20:OB03",
+    "target": "urn:jy:history:SB0307:OB03:unit:16:OB03",
+    "evidence": {
+      "Chapter": "第四单元 民族团结与祖国统一",
+      "unit": "改革开放与中国特色社会主义建设",
+      "note": "该单元的“一国两制”及统一大业属于改革开放时期建设成就的一部分。"
+    }
+  },
+  {
+    "relationName": "relates_to_theme",
+    "label": "关联主题",
+    "source": "urn:jy:history:SB0307:OB03:Chapter:21:OB03",
+    "target": "urn:jy:history:SB0307:OB03:unit:16:OB03",
+    "evidence": {
+      "Chapter": "第五单元 国防建设与外交成就",
+      "unit": "改革开放与中国特色社会主义建设",
+      "note": "国防与外交的现代化发展是改革开放以来中国特色社会主义建设的重要组成部分。"
+    }
+  },
+  {
+    "relationName": "relates_to_theme",
+    "label": "关联主题",
+    "source": "urn:jy:history:SB0307:OB03:Chapter:24:OB03",
+    "target": "urn:jy:history:SB0307:OB03:unit:18:OB03",
+    "evidence": {
+      "Chapter": "第一单元 古代亚非文明",
+      "unit": "古代文明",
+      "note": "教材单元讲述埃及、两河流域、印度文明，完全对应古代文明主题。"
+    }
+  },
+  {
+    "relationName": "relates_to_theme",
+    "label": "关联主题",
+    "source": "urn:jy:history:SB0307:OB03:Chapter:25:OB03",
+    "target": "urn:jy:history:SB0307:OB03:unit:18:OB03",
+    "evidence": {
+      "Chapter": "第二单元 古代欧洲文明",
+      "unit": "古代文明",
+      "note": "教材单元讲述希腊罗马文明，属于古代文明主题的欧洲部分。"
+    }
+  },
+  {
+    "relationName": "relates_to_theme",
+    "label": "关联主题",
+    "source": "urn:jy:history:SB0307:OB03:Chapter:26:OB03",
+    "target": "urn:jy:history:SB0307:OB03:unit:19:OB03",
+    "evidence": {
+      "Chapter": "第三单元 封建时代的欧洲",
+      "unit": "中古世界",
+      "note": "教材单元讲述法兰克王国、庄园、拜占庭等，对应中古世界主题的欧洲部分。"
+    }
+  },
+  {
+    "relationName": "relates_to_theme",
+    "label": "关联主题",
+    "source": "urn:jy:history:SB0307:OB03:Chapter:27:OB03",
+    "target": "urn:jy:history:SB0307:OB03:unit:19:OB03",
+    "evidence": {
+      "Chapter": "第四单元 封建时代的亚洲国家",
+      "unit": "中古世界",
+      "note": "教材单元讲述日本、阿拉伯帝国，对应中古世界主题的亚洲部分。"
+    }
+  },
+  {
+    "relationName": "relates_to_theme",
+    "label": "关联主题",
+    "source": "urn:jy:history:SB0307:OB03:Chapter:28:OB03",
+    "target": "urn:jy:history:SB0307:OB03:unit:20:OB03",
+    "evidence": {
+      "Chapter": "第五单元 走向近代",
+      "unit": "近代早期西欧经济和社会变化",
+      "note": "教材单元包含租地农场、文艺复兴，直接对应近代早期社会变化主题。"
+    }
+  },
+  {
+    "relationName": "relates_to_theme",
+    "label": "关联主题",
+    "source": "urn:jy:history:SB0307:OB03:Chapter:28:OB03",
+    "target": "urn:jy:history:SB0307:OB03:unit:21:OB03",
+    "evidence": {
+      "Chapter": "第五单元 走向近代",
+      "unit": "新航路的开辟",
+      "note": "该教材单元也包含探寻新航路与殖民掠夺，对应新航路开辟主题。"
+    }
+  },
+  {
+    "relationName": "relates_to_theme",
+    "label": "关联主题",
+    "source": "urn:jy:history:SB0307:OB03:Chapter:29:OB03",
+    "target": "urn:jy:history:SB0307:OB03:unit:22:OB03",
+    "evidence": {
+      "Chapter": "第六单元 资本主义制度的初步确立",
+      "unit": "英、美、法资产阶级革命",
+      "note": "教材单元讲述英美法革命及法律文献，与主题内容完全一致。"
+    }
+  },
+  {
+    "relationName": "relates_to_theme",
+    "label": "关联主题",
+    "source": "urn:jy:history:SB0307:OB03:Chapter:30:OB03",
+    "target": "urn:jy:history:SB0307:OB03:unit:23:OB03",
+    "evidence": {
+      "Chapter": "第七单元 工业革命和国际共产主义运动的兴起",
+      "unit": "第一次工业革命和马克思主义的诞生",
+      "note": "教材单元与主题名称及内容高度一致。"
+    }
+  },
+  {
+    "relationName": "relates_to_theme",
+    "label": "关联主题",
+    "source": "urn:jy:history:SB0307:OB03:Chapter:32:OB03",
+    "target": "urn:jy:history:SB0307:OB03:unit:24:OB03",
+    "evidence": {
+      "Chapter": "第一单元 殖民地人民的反抗与资本主义制度的扩展",
+      "unit": "殖民地人民的反抗与资本主义制度的扩展",
+      "note": "教材单元名称与主题完全一致，涵盖俄国、美国、日本的改革。"
+    }
+  },
+  {
+    "relationName": "relates_to_theme",
+    "label": "关联主题",
+    "source": "urn:jy:history:SB0307:OB03:Chapter:33:OB03",
+    "target": "urn:jy:history:SB0307:OB03:unit:25:OB03",
+    "evidence": {
+      "Chapter": "第二单元 第二次工业革命和近代科学文化",
+      "unit": "科学技术的发展与第二次工业革命",
+      "note": "教材单元讲述第二次工业革命，与主题一致。"
+    }
+  },
+  {
+    "relationName": "relates_to_theme",
+    "label": "关联主题",
+    "source": "urn:jy:history:SB0307:OB03:Chapter:33:OB03",
+    "target": "urn:jy:history:SB0307:OB03:unit:26:OB03",
+    "evidence": {
+      "Chapter": "第二单元 第二次工业革命和近代科学文化",
+      "unit": "近代科学与艺术成就",
+      "note": "教材单元后半部分讲述牛顿、达尔文等成就，对应此主题。"
+    }
+  },
+  {
+    "relationName": "relates_to_theme",
+    "label": "关联主题",
+    "source": "urn:jy:history:SB0307:OB03:Chapter:34:OB03",
+    "target": "urn:jy:history:SB0307:OB03:unit:27:OB03",
+    "evidence": {
+      "Chapter": "第三单元 第一次世界大战和战后初期的世界",
+      "unit": "第一次世界大战与俄国十月革命",
+      "note": "教材单元讲述一战及十月革命，对应此主题。"
+    }
+  },
+  {
+    "relationName": "relates_to_theme",
+    "label": "关联主题",
+    "source": "urn:jy:history:SB0307:OB03:Chapter:34:OB03",
+    "target": "urn:jy:history:SB0307:OB03:unit:28:OB03",
+    "evidence": {
+      "Chapter": "第三单元 第一次世界大战和战后初期的世界",
+      "unit": "两次世界大战之间的世界政治与经济",
+      "note": "教材单元涵盖凡尔赛-华盛顿体系及苏联建设，属于战间期主题。"
+    }
+  },
+  {
+    "relationName": "relates_to_theme",
+    "label": "关联主题",
+    "source": "urn:jy:history:SB0307:OB03:Chapter:35:OB03",
+    "target": "urn:jy:history:SB0307:OB03:unit:28:OB03",
+    "evidence": {
+      "Chapter": "第四单元 经济大危机和第二次世界大战",
+      "unit": "两次世界大战之间的世界政治与经济",
+      "note": "教材单元前半部分讲述经济大危机与罗斯福新政，属于战间期主题。"
+    }
+  },
+  {
+    "relationName": "relates_to_theme",
+    "label": "关联主题",
+    "source": "urn:jy:history:SB0307:OB03:Chapter:35:OB03",
+    "target": "urn:jy:history:SB0307:OB03:unit:29:OB03",
+    "evidence": {
+      "Chapter": "第四单元 经济大危机和第二次世界大战",
+      "unit": "第二次世界大战",
+      "note": "教材单元后半部分讲述二战进程，对应二战主题。"
+    }
+  },
+  {
+    "relationName": "relates_to_theme",
+    "label": "关联主题",
+    "source": "urn:jy:history:SB0307:OB03:Chapter:36:OB03",
+    "target": "urn:jy:history:SB0307:OB03:unit:30:OB03",
+    "evidence": {
+      "Chapter": "第五单元 二战后的世界变化",
+      "unit": "第二次世界大战后世界的新变化",
+      "note": "教材单元讲述冷战及资本主义新变化，与主题高度一致。"
+    }
+  },
+  {
+    "relationName": "relates_to_theme",
+    "label": "关联主题",
+    "source": "urn:jy:history:SB0307:OB03:Chapter:37:OB03",
+    "target": "urn:jy:history:SB0307:OB03:unit:31:OB03",
+    "evidence": {
+      "Chapter": "第六单元 走向和平发展的世界",
+      "unit": "当今世界的主要发展趋势",
+      "note": "教材单元讲述联合国、WTO及多极化趋势，对应当今世界趋势主题。"
+    }
+  }
+]

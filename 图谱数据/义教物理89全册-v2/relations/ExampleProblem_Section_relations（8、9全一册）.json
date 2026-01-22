@@ -1,0 +1,3038 @@
+[
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:001",
+    "target": "urn:jy:physics:SB0401:OB06:Section:72",
+    "evidence": {
+      "matchScore": 0.0394,
+      "fromExample": {
+        "title": "例1",
+        "text": "尝试对温室效应、热岛效应等发表自己的见解。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:1"
+      },
+      "fromSection": {
+        "sectionTitle": "四、电流的热效应",
+        "chapterTitle": "第十一章 电功和电功率",
+        "academicTerm": "初中",
+        "grade": "九年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:72",
+    "target": "urn:jy:physics:OB05:Example:001",
+    "evidence": {
+      "matchScore": 0.0394,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:002",
+    "target": "urn:jy:physics:SB0401:OB06:Section:36",
+    "evidence": {
+      "matchScore": 0.0437,
+      "fromExample": {
+        "title": "例2",
+        "text": "能运用物态变化知识，说明冰熔化、水沸腾等现象。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:1"
+      },
+      "fromSection": {
+        "sectionTitle": "二、熔化和凝固",
+        "chapterTitle": "第七章 热现象",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:36",
+    "target": "urn:jy:physics:OB05:Example:002",
+    "evidence": {
+      "matchScore": 0.0437,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:003",
+    "target": "urn:jy:physics:SB0401:OB06:Section:85",
+    "evidence": {
+      "matchScore": 0.0305,
+      "fromExample": {
+        "title": "例3",
+        "text": "了解我国古代的铸造技术，并尝试运用物态变化知识进行解释。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:1"
+      },
+      "fromSection": {
+        "sectionTitle": "四、现代通信技术及发展前景",
+        "chapterTitle": "第十三章 通信技术简介",
+        "academicTerm": "初中",
+        "grade": "九年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:85",
+    "target": "urn:jy:physics:OB05:Example:003",
+    "evidence": {
+      "matchScore": 0.0305,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:004",
+    "target": "urn:jy:physics:SB0401:OB06:Section:50",
+    "evidence": {
+      "matchScore": 0.0962,
+      "fromExample": {
+        "title": "例1",
+        "text": "通过实验，了解橡胶的弹性。列举弹性在生活中的应用实例。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:2"
+      },
+      "fromSection": {
+        "sectionTitle": "七、生活中的透镜",
+        "chapterTitle": "第八章 光现象",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:50",
+    "target": "urn:jy:physics:OB05:Example:004",
+    "evidence": {
+      "matchScore": 0.0962,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:005",
+    "target": "urn:jy:physics:SB0401:OB06:Section:50",
+    "evidence": {
+      "matchScore": 0.1055,
+      "fromExample": {
+        "title": "例2",
+        "text": "通过实验，了解物质的磁性和磁化现象。调查磁性材料在生活中的应用。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:2"
+      },
+      "fromSection": {
+        "sectionTitle": "七、生活中的透镜",
+        "chapterTitle": "第八章 光现象",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:50",
+    "target": "urn:jy:physics:OB05:Example:005",
+    "evidence": {
+      "matchScore": 0.1055,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:006",
+    "target": "urn:jy:physics:SB0401:OB06:Section:58",
+    "evidence": {
+      "matchScore": 0.219,
+      "fromExample": {
+        "title": "例3",
+        "text": "通过实验，了解物质的导电性，比较导体、半导体、绝缘体导电性能的差异。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:2"
+      },
+      "fromSection": {
+        "sectionTitle": "三、不同物质的导电性能",
+        "chapterTitle": "第九章 简单电路",
+        "academicTerm": "初中",
+        "grade": "九年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:58",
+    "target": "urn:jy:physics:OB05:Example:006",
+    "evidence": {
+      "matchScore": 0.219,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:007",
+    "target": "urn:jy:physics:SB0401:OB06:Section:98",
+    "evidence": {
+      "matchScore": 0.0218,
+      "fromExample": {
+        "title": "例4",
+        "text": "通过实验，了解金属与木材导热性能的差异。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:2"
+      },
+      "fromSection": {
+        "sectionTitle": "怎样用实验证明观点错误",
+        "chapterTitle": "科学探究",
+        "academicTerm": "初中",
+        "grade": "九年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:98",
+    "target": "urn:jy:physics:OB05:Example:007",
+    "evidence": {
+      "matchScore": 0.0218,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:008",
+    "target": "urn:jy:physics:SB0401:OB06:Section:9",
+    "evidence": {
+      "matchScore": 0.0627,
+      "fromExample": {
+        "title": "例5",
+        "text": "列举质量为几克、几十克、几百克和几千克的一些物品，能估测常见物体的质量。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:2"
+      },
+      "fromSection": {
+        "sectionTitle": "一、质量及其测量",
+        "chapterTitle": "第二章 质量和密度",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:9",
+    "target": "urn:jy:physics:OB05:Example:008",
+    "evidence": {
+      "matchScore": 0.0627,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:009",
+    "target": "urn:jy:physics:SB0401:OB06:Section:39",
+    "evidence": {
+      "matchScore": 0.0417,
+      "fromExample": {
+        "title": "例1",
+        "text": "用图形、文字或语言描述原子的核式结构模型。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:3"
+      },
+      "fromSection": {
+        "sectionTitle": "五、物质结构的微观模型",
+        "chapterTitle": "第七章 热现象",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:39",
+    "target": "urn:jy:physics:OB05:Example:009",
+    "evidence": {
+      "matchScore": 0.0417,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:010",
+    "target": "urn:jy:physics:SB0401:OB06:Section:54",
+    "evidence": {
+      "matchScore": 0.0226,
+      "fromExample": {
+        "title": "例2",
+        "text": "了解我国在载人航天及其他航天科技方面的新成就，体会我国航天人热爱祖国、为国争光的坚定信念和勇于登攀、敢于超越的进取精神。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:3"
+      },
+      "fromSection": {
+        "sectionTitle": "一、本册书中用到的物理量及其国际单位",
+        "chapterTitle": "其他",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:54",
+    "target": "urn:jy:physics:OB05:Example:010",
+    "evidence": {
+      "matchScore": 0.0226,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:011",
+    "target": "urn:jy:physics:SB0401:OB06:Section:88",
+    "evidence": {
+      "matchScore": 0.0228,
+      "fromExample": {
+        "title": "例3",
+        "text": "设计表格，按空间尺度大小的顺序排列列一些从宏观到微观有代表性的物体（如银河系、太阳系、地球、人、原子、原子核、夸克等）。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:3"
+      },
+      "fromSection": {
+        "sectionTitle": "二、微观世界的结构",
+        "chapterTitle": "第十四章 宇宙和微观世界",
+        "academicTerm": "初中",
+        "grade": "九年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:88",
+    "target": "urn:jy:physics:OB05:Example:011",
+    "evidence": {
+      "matchScore": 0.0228,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:012",
+    "target": "urn:jy:physics:SB0401:OB06:Section:1",
+    "evidence": {
+      "matchScore": 0.0216,
+      "fromExample": {
+        "title": "例4",
+        "text": "了解一些典型天体、粒子寿命的时间尺度。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:3"
+      },
+      "fromSection": {
+        "sectionTitle": "一、长度和时间的测量",
+        "chapterTitle": "第一章 常见的运动",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:1",
+    "target": "urn:jy:physics:OB05:Example:012",
+    "evidence": {
+      "matchScore": 0.0216,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:013",
+    "target": "urn:jy:physics:SB0401:OB06:Section:47",
+    "evidence": {
+      "matchScore": 0.0417,
+      "fromExample": {
+        "title": "例",
+        "text": "观察扩散现象，能用分子动理论的观点加以说明。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:4"
+      },
+      "fromSection": {
+        "sectionTitle": "四、探究光的折射现象",
+        "chapterTitle": "第八章 光现象",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:47",
+    "target": "urn:jy:physics:OB05:Example:013",
+    "evidence": {
+      "matchScore": 0.0417,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:014",
+    "target": "urn:jy:physics:SB0401:OB06:Section:1",
+    "evidence": {
+      "matchScore": 0.021,
+      "fromExample": {
+        "title": "例1",
+        "text": "会利用自身的尺度（如步长）估测教室的长度。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:5"
+      },
+      "fromSection": {
+        "sectionTitle": "一、长度和时间的测量",
+        "chapterTitle": "第一章 常见的运动",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:1",
+    "target": "urn:jy:physics:OB05:Example:014",
+    "evidence": {
+      "matchScore": 0.021,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:015",
+    "target": "urn:jy:physics:SB0401:OB06:Section:1",
+    "evidence": {
+      "matchScore": 0.1726,
+      "fromExample": {
+        "title": "例2",
+        "text": "了解我国古代测量长度和时间的工具，体会古人解决问题的智慧。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:5"
+      },
+      "fromSection": {
+        "sectionTitle": "一、长度和时间的测量",
+        "chapterTitle": "第一章 常见的运动",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:1",
+    "target": "urn:jy:physics:OB05:Example:015",
+    "evidence": {
+      "matchScore": 0.1726,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:016",
+    "target": "urn:jy:physics:SB0401:OB06:Section:78",
+    "evidence": {
+      "matchScore": 0.0702,
+      "fromExample": {
+        "title": "例3",
+        "text": "通过实验，认识力的作用是相互的。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:5"
+      },
+      "fromSection": {
+        "sectionTitle": "五、磁场对通电导体的作用",
+        "chapterTitle": "第十二章 磁现象",
+        "academicTerm": "初中",
+        "grade": "九年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:78",
+    "target": "urn:jy:physics:OB05:Example:016",
+    "evidence": {
+      "matchScore": 0.0702,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:017",
+    "target": "urn:jy:physics:SB0401:OB06:Section:3",
+    "evidence": {
+      "matchScore": 0.0711,
+      "fromExample": {
+        "title": "例4",
+        "text": "通过实验，认识力可以改变物体运动的方向和快慢，也可以改变物体的形状。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:5"
+      },
+      "fromSection": {
+        "sectionTitle": "三、比较运动的快慢",
+        "chapterTitle": "第一章 常见的运动",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:3",
+    "target": "urn:jy:physics:OB05:Example:017",
+    "evidence": {
+      "matchScore": 0.0711,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:018",
+    "target": "urn:jy:physics:SB0401:OB06:Section:86",
+    "evidence": {
+      "matchScore": 0.0188,
+      "fromExample": {
+        "title": "例5",
+        "text": "分析静止在水平桌面上杯子的受力情况。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:5"
+      },
+      "fromSection": {
+        "sectionTitle": "课外探究 在不同情况下手机信号的强弱",
+        "chapterTitle": "第十三章 通信技术简介",
+        "academicTerm": "初中",
+        "grade": "九年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:86",
+    "target": "urn:jy:physics:OB05:Example:018",
+    "evidence": {
+      "matchScore": 0.0188,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:019",
+    "target": "urn:jy:physics:SB0401:OB06:Section:94",
+    "evidence": {
+      "matchScore": 0.1513,
+      "fromExample": {
+        "title": "例6",
+        "text": "了解伽利略在探究与物体惯性有关问题时采用的思想实验，体会科学推理在科学研究中的作用。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:5"
+      },
+      "fromSection": {
+        "sectionTitle": "在科学探究中怎样提出可探究的科学问题",
+        "chapterTitle": "科学探究",
+        "academicTerm": "初中",
+        "grade": "九年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:94",
+    "target": "urn:jy:physics:OB05:Example:019",
+    "evidence": {
+      "matchScore": 0.1513,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:019",
+    "target": "urn:jy:physics:SB0401:OB06:Section:97",
+    "evidence": {
+      "matchScore": 0.1285,
+      "fromExample": {
+        "title": "例6",
+        "text": "了解伽利略在探究与物体惯性有关问题时采用的思想实验，体会科学推理在科学研究中的作用。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:5"
+      },
+      "fromSection": {
+        "sectionTitle": "在科学探究中怎样处理实验数据",
+        "chapterTitle": "科学探究",
+        "academicTerm": "初中",
+        "grade": "九年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:97",
+    "target": "urn:jy:physics:OB05:Example:019",
+    "evidence": {
+      "matchScore": 0.1285,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:020",
+    "target": "urn:jy:physics:SB0401:OB06:Section:47",
+    "evidence": {
+      "matchScore": 0.0289,
+      "fromExample": {
+        "title": "例7",
+        "text": "能运用惯性，解释当汽车急刹车、转弯时，车内可能发生的现象，讨论系安全带等保护措施的必要性。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:5"
+      },
+      "fromSection": {
+        "sectionTitle": "四、探究光的折射现象",
+        "chapterTitle": "第八章 光现象",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:47",
+    "target": "urn:jy:physics:OB05:Example:020",
+    "evidence": {
+      "matchScore": 0.0289,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:021",
+    "target": "urn:jy:physics:SB0401:OB06:Section:24",
+    "evidence": {
+      "matchScore": 0.094,
+      "fromExample": {
+        "title": "例8",
+        "text": "估测自己站立时对地面的压强。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:5"
+      },
+      "fromSection": {
+        "sectionTitle": "五、流体的压强与流速",
+        "chapterTitle": "第四章 压强与浮力",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:24",
+    "target": "urn:jy:physics:OB05:Example:021",
+    "evidence": {
+      "matchScore": 0.094,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:023",
+    "target": "urn:jy:physics:SB0401:OB06:Section:26",
+    "evidence": {
+      "matchScore": 0.0814,
+      "fromExample": {
+        "title": "例10",
+        "text": "了解潜水艇的浮沉原理。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:5"
+      },
+      "fromSection": {
+        "sectionTitle": "七、物体的浮沉条件",
+        "chapterTitle": "第四章 压强与浮力",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:26",
+    "target": "urn:jy:physics:OB05:Example:023",
+    "evidence": {
+      "matchScore": 0.0814,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:024",
+    "target": "urn:jy:physics:SB0401:OB06:Section:2",
+    "evidence": {
+      "matchScore": 0.1006,
+      "fromExample": {
+        "title": "例1",
+        "text": "在鼓面上放碎纸屑，敲击鼓面，观察纸屑的运动；敲击音叉，观察与其接触的物体的运动。了解实验中将微小变化放大的方法。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:6"
+      },
+      "fromSection": {
+        "sectionTitle": "二、机械运动",
+        "chapterTitle": "第一章 常见的运动",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:2",
+    "target": "urn:jy:physics:OB05:Example:024",
+    "evidence": {
+      "matchScore": 0.1006,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:025",
+    "target": "urn:jy:physics:SB0401:OB06:Section:47",
+    "evidence": {
+      "matchScore": 0.0267,
+      "fromExample": {
+        "title": "例2",
+        "text": "将发声器放入玻璃罩中，逐渐抽出罩内空气，会听到发声器发出的声音逐渐变小，分析导致该现象的原因。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:6"
+      },
+      "fromSection": {
+        "sectionTitle": "四、探究光的折射现象",
+        "chapterTitle": "第八章 光现象",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:47",
+    "target": "urn:jy:physics:OB05:Example:025",
+    "evidence": {
+      "matchScore": 0.0267,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:026",
+    "target": "urn:jy:physics:SB0401:OB06:Section:7",
+    "evidence": {
+      "matchScore": 0.0762,
+      "fromExample": {
+        "title": "例3",
+        "text": "了解超声波在生产生活和科学研究等方面的应用，如超声雷达、金属探伤、医学检查等。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:6"
+      },
+      "fromSection": {
+        "sectionTitle": "七、超声波及其应用",
+        "chapterTitle": "第一章 常见的运动",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:7",
+    "target": "urn:jy:physics:OB05:Example:026",
+    "evidence": {
+      "matchScore": 0.0762,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:027",
+    "target": "urn:jy:physics:SB0401:OB06:Section:50",
+    "evidence": {
+      "matchScore": 0.0358,
+      "fromExample": {
+        "title": "例4",
+        "text": "举例说明如何减弱生活环境中的噪声，具有保护自己、关心他人的意识。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:6"
+      },
+      "fromSection": {
+        "sectionTitle": "七、生活中的透镜",
+        "chapterTitle": "第八章 光现象",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:50",
+    "target": "urn:jy:physics:OB05:Example:027",
+    "evidence": {
+      "matchScore": 0.0358,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:028",
+    "target": "urn:jy:physics:SB0401:OB06:Section:46",
+    "evidence": {
+      "matchScore": 0.068,
+      "fromExample": {
+        "title": "例5",
+        "text": "探究并了解光束在平面镜上反射时，反射角与入射角的关系。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:6"
+      },
+      "fromSection": {
+        "sectionTitle": "三、学生实验：探究平面镜成像",
+        "chapterTitle": "第八章 光现象",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:46",
+    "target": "urn:jy:physics:OB05:Example:028",
+    "evidence": {
+      "matchScore": 0.068,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:029",
+    "target": "urn:jy:physics:SB0401:OB06:Section:47",
+    "evidence": {
+      "matchScore": 0.1695,
+      "fromExample": {
+        "title": "例6",
+        "text": "通过光束从空气射入水（或玻璃）中的实验，了解光的折射现象及其特点。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:6"
+      },
+      "fromSection": {
+        "sectionTitle": "四、探究光的折射现象",
+        "chapterTitle": "第八章 光现象",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:47",
+    "target": "urn:jy:physics:OB05:Example:029",
+    "evidence": {
+      "matchScore": 0.1695,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:030",
+    "target": "urn:jy:physics:SB0401:OB06:Section:49",
+    "evidence": {
+      "matchScore": 0.1377,
+      "fromExample": {
+        "title": "例7",
+        "text": "了解凸透镜成像规律在放大镜、照相机中的应用。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:6"
+      },
+      "fromSection": {
+        "sectionTitle": "六、学生实验：探究凸透镜成像",
+        "chapterTitle": "第八章 光现象",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:49",
+    "target": "urn:jy:physics:OB05:Example:030",
+    "evidence": {
+      "matchScore": 0.1377,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:031",
+    "target": "urn:jy:physics:SB0401:OB06:Section:33",
+    "evidence": {
+      "matchScore": 0.0495,
+      "fromExample": {
+        "title": "例8",
+        "text": "了解人眼成像的原理，了解近视眼和远视眼的成因与矫正方法。具有保护视力的意识。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:6"
+      },
+      "fromSection": {
+        "sectionTitle": "三、功的原理",
+        "chapterTitle": "第六章 功和能",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:33",
+    "target": "urn:jy:physics:OB05:Example:031",
+    "evidence": {
+      "matchScore": 0.0495,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:032",
+    "target": "urn:jy:physics:SB0401:OB06:Section:52",
+    "evidence": {
+      "matchScore": 0.0641,
+      "fromExample": {
+        "title": "例9",
+        "text": "观察红、绿、蓝三束光照射在白墙上重叠部分的颜色。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:6"
+      },
+      "fromSection": {
+        "sectionTitle": "九、物体的颜色",
+        "chapterTitle": "第八章 光现象",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:52",
+    "target": "urn:jy:physics:OB05:Example:032",
+    "evidence": {
+      "matchScore": 0.0641,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:033",
+    "target": "urn:jy:physics:SB0401:OB06:Section:50",
+    "evidence": {
+      "matchScore": 0.1648,
+      "fromExample": {
+        "title": "例1",
+        "text": "举例说明生活中的静电现象。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:7"
+      },
+      "fromSection": {
+        "sectionTitle": "七、生活中的透镜",
+        "chapterTitle": "第八章 光现象",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:50",
+    "target": "urn:jy:physics:OB05:Example:033",
+    "evidence": {
+      "matchScore": 0.1648,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:034",
+    "target": "urn:jy:physics:SB0401:OB06:Section:90",
+    "evidence": {
+      "matchScore": 0.0226,
+      "fromExample": {
+        "title": "例2",
+        "text": "查阅资料，了解静电防止和利用的常用方法。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:7"
+      },
+      "fromSection": {
+        "sectionTitle": "科技阅读方法指导（1）",
+        "chapterTitle": "科学探究",
+        "academicTerm": "初中",
+        "grade": "九年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:90",
+    "target": "urn:jy:physics:OB05:Example:034",
+    "evidence": {
+      "matchScore": 0.0226,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:035",
+    "target": "urn:jy:physics:SB0401:OB06:Section:82",
+    "evidence": {
+      "matchScore": 0.0173,
+      "fromExample": {
+        "title": "例3",
+        "text": "查阅资料，了解我国古代指南针的发明对人类社会发展的贡献。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:7"
+      },
+      "fromSection": {
+        "sectionTitle": "一、通信发展简史",
+        "chapterTitle": "第十三章 通信技术简介",
+        "academicTerm": "初中",
+        "grade": "九年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:82",
+    "target": "urn:jy:physics:OB05:Example:035",
+    "evidence": {
+      "matchScore": 0.0173,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:036",
+    "target": "urn:jy:physics:SB0401:OB06:Section:88",
+    "evidence": {
+      "matchScore": 0.0643,
+      "fromExample": {
+        "title": "例4",
+        "text": "了解动圈式扬声器的结构和原理。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:7"
+      },
+      "fromSection": {
+        "sectionTitle": "二、微观世界的结构",
+        "chapterTitle": "第十四章 宇宙和微观世界",
+        "academicTerm": "初中",
+        "grade": "九年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:88",
+    "target": "urn:jy:physics:OB05:Example:036",
+    "evidence": {
+      "matchScore": 0.0643,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:037",
+    "target": "urn:jy:physics:SB0401:OB06:Section:79",
+    "evidence": {
+      "matchScore": 0.1923,
+      "fromExample": {
+        "title": "例5",
+        "text": "了解直流电动机的工作原理。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:7"
+      },
+      "fromSection": {
+        "sectionTitle": "六、直流电动机",
+        "chapterTitle": "第十二章 磁现象",
+        "academicTerm": "初中",
+        "grade": "九年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:79",
+    "target": "urn:jy:physics:OB05:Example:037",
+    "evidence": {
+      "matchScore": 0.1923,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:038",
+    "target": "urn:jy:physics:SB0401:OB06:Section:33",
+    "evidence": {
+      "matchScore": 0.0312,
+      "fromExample": {
+        "title": "例6",
+        "text": "了解发电机的工作原理。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:7"
+      },
+      "fromSection": {
+        "sectionTitle": "三、功的原理",
+        "chapterTitle": "第六章 功和能",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:33",
+    "target": "urn:jy:physics:OB05:Example:038",
+    "evidence": {
+      "matchScore": 0.0312,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:039",
+    "target": "urn:jy:physics:SB0401:OB06:Section:83",
+    "evidence": {
+      "matchScore": 0.0883,
+      "fromExample": {
+        "title": "例7",
+        "text": "举例说明电磁波的存在。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:7"
+      },
+      "fromSection": {
+        "sectionTitle": "二、电磁波",
+        "chapterTitle": "第十三章 通信技术简介",
+        "academicTerm": "初中",
+        "grade": "九年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:83",
+    "target": "urn:jy:physics:OB05:Example:039",
+    "evidence": {
+      "matchScore": 0.0883,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:040",
+    "target": "urn:jy:physics:SB0401:OB06:Section:84",
+    "evidence": {
+      "matchScore": 0.0227,
+      "fromExample": {
+        "title": "例8",
+        "text": "了解广播电台节目的发射频率和波长。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:7"
+      },
+      "fromSection": {
+        "sectionTitle": "三、广播和电视",
+        "chapterTitle": "第十三章 通信技术简介",
+        "academicTerm": "初中",
+        "grade": "九年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:84",
+    "target": "urn:jy:physics:OB05:Example:040",
+    "evidence": {
+      "matchScore": 0.0227,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:041",
+    "target": "urn:jy:physics:SB0401:OB06:Section:83",
+    "evidence": {
+      "matchScore": 0.1053,
+      "fromExample": {
+        "title": "例9",
+        "text": "知道移动通信和卫星通信等都应用了电磁波。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:7"
+      },
+      "fromSection": {
+        "sectionTitle": "二、电磁波",
+        "chapterTitle": "第十三章 通信技术简介",
+        "academicTerm": "初中",
+        "grade": "九年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:83",
+    "target": "urn:jy:physics:OB05:Example:041",
+    "evidence": {
+      "matchScore": 0.1053,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:042",
+    "target": "urn:jy:physics:SB0401:OB06:Section:40",
+    "evidence": {
+      "matchScore": 0.0255,
+      "fromExample": {
+        "title": "例1",
+        "text": "列举几种与生活密切相关的能量。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:8"
+      },
+      "fromSection": {
+        "sectionTitle": "六、内能 能量转化",
+        "chapterTitle": "第七章 热现象",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:40",
+    "target": "urn:jy:physics:OB05:Example:042",
+    "evidence": {
+      "matchScore": 0.0255,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:043",
+    "target": "urn:jy:physics:SB0401:OB06:Section:40",
+    "evidence": {
+      "matchScore": 0.0987,
+      "fromExample": {
+        "title": "例2",
+        "text": "列举生活中能量转移和转化的实例。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:8"
+      },
+      "fromSection": {
+        "sectionTitle": "六、内能 能量转化",
+        "chapterTitle": "第七章 热现象",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:40",
+    "target": "urn:jy:physics:OB05:Example:043",
+    "evidence": {
+      "matchScore": 0.0987,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:044",
+    "target": "urn:jy:physics:SB0401:OB06:Section:40",
+    "evidence": {
+      "matchScore": 0.0215,
+      "fromExample": {
+        "title": "例1",
+        "text": "定性说明荡秋千过程中动能和势能的相互转化。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:9"
+      },
+      "fromSection": {
+        "sectionTitle": "六、内能 能量转化",
+        "chapterTitle": "第七章 热现象",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:40",
+    "target": "urn:jy:physics:OB05:Example:044",
+    "evidence": {
+      "matchScore": 0.0215,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:045",
+    "target": "urn:jy:physics:SB0401:OB06:Section:40",
+    "evidence": {
+      "matchScore": 0.041,
+      "fromExample": {
+        "title": "例2",
+        "text": "分析《天工开物》中汲水装置工作时的能量的相互转化。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:9"
+      },
+      "fromSection": {
+        "sectionTitle": "六、内能 能量转化",
+        "chapterTitle": "第七章 热现象",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:40",
+    "target": "urn:jy:physics:OB05:Example:045",
+    "evidence": {
+      "matchScore": 0.041,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:046",
+    "target": "urn:jy:physics:SB0401:OB06:Section:27",
+    "evidence": {
+      "matchScore": 0.1625,
+      "fromExample": {
+        "title": "例3",
+        "text": "测量某种简单机械的机械效率。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:9"
+      },
+      "fromSection": {
+        "sectionTitle": "一、杠杆",
+        "chapterTitle": "第五章 简单机械",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:27",
+    "target": "urn:jy:physics:OB05:Example:046",
+    "evidence": {
+      "matchScore": 0.1625,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:046",
+    "target": "urn:jy:physics:SB0401:OB06:Section:29",
+    "evidence": {
+      "matchScore": 0.1625,
+      "fromExample": {
+        "title": "例3",
+        "text": "测量某种简单机械的机械效率。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:9"
+      },
+      "fromSection": {
+        "sectionTitle": "三、滑轮",
+        "chapterTitle": "第五章 简单机械",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:29",
+    "target": "urn:jy:physics:OB05:Example:046",
+    "evidence": {
+      "matchScore": 0.1625,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:046",
+    "target": "urn:jy:physics:SB0401:OB06:Section:28",
+    "evidence": {
+      "matchScore": 0.1451,
+      "fromExample": {
+        "title": "例3",
+        "text": "测量某种简单机械的机械效率。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:9"
+      },
+      "fromSection": {
+        "sectionTitle": "二、学生实验：探究杠杆",
+        "chapterTitle": "第五章 简单机械",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:28",
+    "target": "urn:jy:physics:OB05:Example:046",
+    "evidence": {
+      "matchScore": 0.1451,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:047",
+    "target": "urn:jy:physics:SB0401:OB06:Section:41",
+    "evidence": {
+      "matchScore": 0.0625,
+      "fromExample": {
+        "title": "例1",
+        "text": "能运用比热容说明为什么沙漠中的昼夜温差比海边的大。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:10"
+      },
+      "fromSection": {
+        "sectionTitle": "七、比热容",
+        "chapterTitle": "第七章 热现象",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:41",
+    "target": "urn:jy:physics:OB05:Example:047",
+    "evidence": {
+      "matchScore": 0.0625,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:048",
+    "target": "urn:jy:physics:SB0401:OB06:Section:78",
+    "evidence": {
+      "matchScore": 0.0576,
+      "fromExample": {
+        "title": "例2",
+        "text": "了解热机对社会发展所起的作用和对环境的影响。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:10"
+      },
+      "fromSection": {
+        "sectionTitle": "五、磁场对通电导体的作用",
+        "chapterTitle": "第十二章 磁现象",
+        "academicTerm": "初中",
+        "grade": "九年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:78",
+    "target": "urn:jy:physics:OB05:Example:048",
+    "evidence": {
+      "matchScore": 0.0576,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:049",
+    "target": "urn:jy:physics:SB0401:OB06:Section:40",
+    "evidence": {
+      "matchScore": 0.0943,
+      "fromExample": {
+        "title": "例1",
+        "text": "定性说明发电机、电热水壶、电风扇工作过程中能量转化的情况。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:11"
+      },
+      "fromSection": {
+        "sectionTitle": "六、内能 能量转化",
+        "chapterTitle": "第七章 热现象",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:40",
+    "target": "urn:jy:physics:OB05:Example:049",
+    "evidence": {
+      "matchScore": 0.0943,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:050",
+    "target": "urn:jy:physics:SB0401:OB06:Section:71",
+    "evidence": {
+      "matchScore": 0.1605,
+      "fromExample": {
+        "title": "例2",
+        "text": "调查常见用电器的铭牌，比较它们的电功率。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:11"
+      },
+      "fromSection": {
+        "sectionTitle": "三、学生实验：测量小灯泡的电功率",
+        "chapterTitle": "第十一章 电功和电功率",
+        "academicTerm": "初中",
+        "grade": "九年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:71",
+    "target": "urn:jy:physics:OB05:Example:050",
+    "evidence": {
+      "matchScore": 0.1605,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:050",
+    "target": "urn:jy:physics:SB0401:OB06:Section:70",
+    "evidence": {
+      "matchScore": 0.1427,
+      "fromExample": {
+        "title": "例2",
+        "text": "调查常见用电器的铭牌，比较它们的电功率。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:11"
+      },
+      "fromSection": {
+        "sectionTitle": "二、电功率",
+        "chapterTitle": "第十一章 电功和电功率",
+        "academicTerm": "初中",
+        "grade": "九年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:70",
+    "target": "urn:jy:physics:OB05:Example:050",
+    "evidence": {
+      "matchScore": 0.1427,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:051",
+    "target": "urn:jy:physics:SB0401:OB06:Section:73",
+    "evidence": {
+      "matchScore": 0.0297,
+      "fromExample": {
+        "title": "例3",
+        "text": "了解我国家庭用电的电压和频率，在家庭用电中有保护自己和他人的安全意识。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:11"
+      },
+      "fromSection": {
+        "sectionTitle": "五、家庭电路",
+        "chapterTitle": "第十一章 电功和电功率",
+        "academicTerm": "初中",
+        "grade": "九年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:73",
+    "target": "urn:jy:physics:OB05:Example:051",
+    "evidence": {
+      "matchScore": 0.0297,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:052",
+    "target": "urn:jy:physics:SB0401:OB06:Section:90",
+    "evidence": {
+      "matchScore": 0.0275,
+      "fromExample": {
+        "title": "例1",
+        "text": "了解处理核废料的常用方法。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:13"
+      },
+      "fromSection": {
+        "sectionTitle": "科技阅读方法指导（1）",
+        "chapterTitle": "科学探究",
+        "academicTerm": "初中",
+        "grade": "九年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:90",
+    "target": "urn:jy:physics:OB05:Example:052",
+    "evidence": {
+      "matchScore": 0.0275,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:053",
+    "target": "urn:jy:physics:SB0401:OB06:Section:42",
+    "evidence": {
+      "matchScore": 0.0193,
+      "fromExample": {
+        "title": "例2",
+        "text": "了解太阳能、风能、氢能等能源的开发对可持续发展的意义。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:13"
+      },
+      "fromSection": {
+        "sectionTitle": "八、燃料 能源与环保",
+        "chapterTitle": "第七章 热现象",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:42",
+    "target": "urn:jy:physics:OB05:Example:053",
+    "evidence": {
+      "matchScore": 0.0193,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:054",
+    "target": "urn:jy:physics:SB0401:OB06:Section:9",
+    "evidence": {
+      "matchScore": 0.066,
+      "fromExample": {
+        "title": "例1",
+        "text": "用托盘天平测量小木块和杯中水的质量。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:14"
+      },
+      "fromSection": {
+        "sectionTitle": "一、质量及其测量",
+        "chapterTitle": "第二章 质量和密度",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:9",
+    "target": "urn:jy:physics:OB05:Example:054",
+    "evidence": {
+      "matchScore": 0.066,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:055",
+    "target": "urn:jy:physics:SB0401:OB06:Section:11",
+    "evidence": {
+      "matchScore": 0.0839,
+      "fromExample": {
+        "title": "例2",
+        "text": "用天平、量筒等测量小石块和盐水的密度。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:14"
+      },
+      "fromSection": {
+        "sectionTitle": "三、物质的密度及其应用",
+        "chapterTitle": "第二章 质量和密度",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:11",
+    "target": "urn:jy:physics:OB05:Example:055",
+    "evidence": {
+      "matchScore": 0.0839,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:056",
+    "target": "urn:jy:physics:SB0401:OB06:Section:35",
+    "evidence": {
+      "matchScore": 0.1073,
+      "fromExample": {
+        "title": "例3",
+        "text": "用实验室温度计测量水的温度，用体温计测量自己的体温。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:14"
+      },
+      "fromSection": {
+        "sectionTitle": "一、温度 温度计",
+        "chapterTitle": "第七章 热现象",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:35",
+    "target": "urn:jy:physics:OB05:Example:056",
+    "evidence": {
+      "matchScore": 0.1073,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:057",
+    "target": "urn:jy:physics:SB0401:OB06:Section:1",
+    "evidence": {
+      "matchScore": 0.0412,
+      "fromExample": {
+        "title": "例4",
+        "text": "用刻度尺测量物理教科书的长和宽，利用具有秒表功能的设备测量自己脉搏跳动30次所用的时间。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:14"
+      },
+      "fromSection": {
+        "sectionTitle": "一、长度和时间的测量",
+        "chapterTitle": "第一章 常见的运动",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:1",
+    "target": "urn:jy:physics:OB05:Example:057",
+    "evidence": {
+      "matchScore": 0.0412,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:058",
+    "target": "urn:jy:physics:SB0401:OB06:Section:71",
+    "evidence": {
+      "matchScore": 0.0508,
+      "fromExample": {
+        "title": "例5",
+        "text": "用秒表和刻度尺，测量小球通过某段距离的速度。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:14"
+      },
+      "fromSection": {
+        "sectionTitle": "三、学生实验：测量小灯泡的电功率",
+        "chapterTitle": "第十一章 电功和电功率",
+        "academicTerm": "初中",
+        "grade": "九年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:71",
+    "target": "urn:jy:physics:OB05:Example:058",
+    "evidence": {
+      "matchScore": 0.0508,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:059",
+    "target": "urn:jy:physics:SB0401:OB06:Section:14",
+    "evidence": {
+      "matchScore": 0.0332,
+      "fromExample": {
+        "title": "例6",
+        "text": "用手拉动弹簧测力计体验1 N、2 N、4 N力的大小，测量一本物理教科书所受的重力。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:14"
+      },
+      "fromSection": {
+        "sectionTitle": "二、力的测量",
+        "chapterTitle": "第三章 运动和力",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:14",
+    "target": "urn:jy:physics:OB05:Example:059",
+    "evidence": {
+      "matchScore": 0.0332,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:060",
+    "target": "urn:jy:physics:SB0401:OB06:Section:66",
+    "evidence": {
+      "matchScore": 0.0827,
+      "fromExample": {
+        "title": "例7",
+        "text": "用实验室指针式电流表，测量直流电路中的电流。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:14"
+      },
+      "fromSection": {
+        "sectionTitle": "三、学生实验：探究影响电流的因素",
+        "chapterTitle": "第十章 串联电路和并联电路",
+        "academicTerm": "初中",
+        "grade": "九年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:66",
+    "target": "urn:jy:physics:OB05:Example:060",
+    "evidence": {
+      "matchScore": 0.0827,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:061",
+    "target": "urn:jy:physics:SB0401:OB06:Section:60",
+    "evidence": {
+      "matchScore": 0.0823,
+      "fromExample": {
+        "title": "例8",
+        "text": "用实验室指针式电压表，测量直流电路中的电压。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:14"
+      },
+      "fromSection": {
+        "sectionTitle": "五、电压及其测量",
+        "chapterTitle": "第九章 简单电路",
+        "academicTerm": "初中",
+        "grade": "九年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:60",
+    "target": "urn:jy:physics:OB05:Example:061",
+    "evidence": {
+      "matchScore": 0.0823,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:062",
+    "target": "urn:jy:physics:SB0401:OB06:Section:71",
+    "evidence": {
+      "matchScore": 0.1192,
+      "fromExample": {
+        "title": "例9",
+        "text": "用电流表、电压表、滑动变阻器等，测量小灯泡正常发光时的电阻。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:14"
+      },
+      "fromSection": {
+        "sectionTitle": "三、学生实验：测量小灯泡的电功率",
+        "chapterTitle": "第十一章 电功和电功率",
+        "academicTerm": "初中",
+        "grade": "九年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:71",
+    "target": "urn:jy:physics:OB05:Example:062",
+    "evidence": {
+      "matchScore": 0.1192,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:063",
+    "target": "urn:jy:physics:SB0401:OB06:Section:35",
+    "evidence": {
+      "matchScore": 0.1132,
+      "fromExample": {
+        "title": "例1",
+        "text": "用酒精灯、烧杯、温度计等，探究水在沸腾前后温度变化的特点。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:15"
+      },
+      "fromSection": {
+        "sectionTitle": "一、温度 温度计",
+        "chapterTitle": "第七章 热现象",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:35",
+    "target": "urn:jy:physics:OB05:Example:063",
+    "evidence": {
+      "matchScore": 0.1132,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:064",
+    "target": "urn:jy:physics:SB0401:OB06:Section:17",
+    "evidence": {
+      "matchScore": 0.1125,
+      "fromExample": {
+        "title": "例2",
+        "text": "用弹簧测力计、平板、细绳、长方体物块、棉布、毛巾等，探究滑动摩擦力大小与哪些因素有关。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:15"
+      },
+      "fromSection": {
+        "sectionTitle": "五、滑动摩擦力",
+        "chapterTitle": "第三章 运动和力",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:17",
+    "target": "urn:jy:physics:OB05:Example:064",
+    "evidence": {
+      "matchScore": 0.1125,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:065",
+    "target": "urn:jy:physics:SB0401:OB06:Section:21",
+    "evidence": {
+      "matchScore": 0.2717,
+      "fromExample": {
+        "title": "例3",
+        "text": "用水、盐水、压强计等，探究液体压强与哪些因素有关。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:15"
+      },
+      "fromSection": {
+        "sectionTitle": "二、探究液体压强",
+        "chapterTitle": "第四章 压强与浮力",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:21",
+    "target": "urn:jy:physics:OB05:Example:065",
+    "evidence": {
+      "matchScore": 0.2717,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:065",
+    "target": "urn:jy:physics:SB0401:OB06:Section:24",
+    "evidence": {
+      "matchScore": 0.1457,
+      "fromExample": {
+        "title": "例3",
+        "text": "用水、盐水、压强计等，探究液体压强与哪些因素有关。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:15"
+      },
+      "fromSection": {
+        "sectionTitle": "五、流体的压强与流速",
+        "chapterTitle": "第四章 压强与浮力",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:24",
+    "target": "urn:jy:physics:OB05:Example:065",
+    "evidence": {
+      "matchScore": 0.1457,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:065",
+    "target": "urn:jy:physics:SB0401:OB06:Section:20",
+    "evidence": {
+      "matchScore": 0.1206,
+      "fromExample": {
+        "title": "例3",
+        "text": "用水、盐水、压强计等，探究液体压强与哪些因素有关。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:15"
+      },
+      "fromSection": {
+        "sectionTitle": "一、压力 压强",
+        "chapterTitle": "第四章 压强与浮力",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:20",
+    "target": "urn:jy:physics:OB05:Example:065",
+    "evidence": {
+      "matchScore": 0.1206,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:066",
+    "target": "urn:jy:physics:SB0401:OB06:Section:94",
+    "evidence": {
+      "matchScore": 0.0394,
+      "fromExample": {
+        "title": "例4",
+        "text": "用水、盐水、金属块、弹簧测力计等，探究金属块所受浮力与哪些因素有关。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:15"
+      },
+      "fromSection": {
+        "sectionTitle": "在科学探究中怎样提出可探究的科学问题",
+        "chapterTitle": "科学探究",
+        "academicTerm": "初中",
+        "grade": "九年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:94",
+    "target": "urn:jy:physics:OB05:Example:066",
+    "evidence": {
+      "matchScore": 0.0394,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:067",
+    "target": "urn:jy:physics:SB0401:OB06:Section:28",
+    "evidence": {
+      "matchScore": 0.0837,
+      "fromExample": {
+        "title": "例5",
+        "text": "用杠杆、铁架台、钩码和弹簧测力计，探究杠杆平衡时动力、动力臂与阻力、阻力臂之间的定量关系。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:15"
+      },
+      "fromSection": {
+        "sectionTitle": "二、学生实验：探究杠杆",
+        "chapterTitle": "第五章 简单机械",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:28",
+    "target": "urn:jy:physics:OB05:Example:067",
+    "evidence": {
+      "matchScore": 0.0837,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:068",
+    "target": "urn:jy:physics:SB0401:OB06:Section:45",
+    "evidence": {
+      "matchScore": 0.1664,
+      "fromExample": {
+        "title": "例6",
+        "text": "用激光笔、平面镜、光屏及量角器等探究光的反射定律。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:15"
+      },
+      "fromSection": {
+        "sectionTitle": "二、学生实验：探究光的反射规律",
+        "chapterTitle": "第八章 光现象",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:45",
+    "target": "urn:jy:physics:OB05:Example:068",
+    "evidence": {
+      "matchScore": 0.1664,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:069",
+    "target": "urn:jy:physics:SB0401:OB06:Section:46",
+    "evidence": {
+      "matchScore": 0.154,
+      "fromExample": {
+        "title": "例7",
+        "text": "用蜡烛（或其他物品）、平板玻璃、刻度尺、白纸等，探究平面镜成像时，像的大小、位置、虚实等有什么特点。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:15"
+      },
+      "fromSection": {
+        "sectionTitle": "三、学生实验：探究平面镜成像",
+        "chapterTitle": "第八章 光现象",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:46",
+    "target": "urn:jy:physics:OB05:Example:069",
+    "evidence": {
+      "matchScore": 0.154,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:070",
+    "target": "urn:jy:physics:SB0401:OB06:Section:49",
+    "evidence": {
+      "matchScore": 0.1849,
+      "fromExample": {
+        "title": "例8",
+        "text": "用蜡烛（或F形光源）、凸透镜、光具座、光屏等，探究凸透镜成像时，像的正倒、大小、位置、虚实等与物距的关系。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:15"
+      },
+      "fromSection": {
+        "sectionTitle": "六、学生实验：探究凸透镜成像",
+        "chapterTitle": "第八章 光现象",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:49",
+    "target": "urn:jy:physics:OB05:Example:070",
+    "evidence": {
+      "matchScore": 0.1849,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:071",
+    "target": "urn:jy:physics:SB0401:OB06:Section:76",
+    "evidence": {
+      "matchScore": 0.246,
+      "fromExample": {
+        "title": "例9",
+        "text": "用小磁针、通电螺线管等，探究通电螺线管外部磁场的方向。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:15"
+      },
+      "fromSection": {
+        "sectionTitle": "三、通电螺线管的磁场",
+        "chapterTitle": "第十二章 磁现象",
+        "academicTerm": "初中",
+        "grade": "九年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:76",
+    "target": "urn:jy:physics:OB05:Example:071",
+    "evidence": {
+      "matchScore": 0.246,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:072",
+    "target": "urn:jy:physics:SB0401:OB06:Section:66",
+    "evidence": {
+      "matchScore": 0.0683,
+      "fromExample": {
+        "title": "例10",
+        "text": "用矩形线圈或单根导线、磁体、灵敏电流计等探究产生感应电流的条件。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:15"
+      },
+      "fromSection": {
+        "sectionTitle": "三、学生实验：探究影响电流的因素",
+        "chapterTitle": "第十章 串联电路和并联电路",
+        "academicTerm": "初中",
+        "grade": "九年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:66",
+    "target": "urn:jy:physics:OB05:Example:072",
+    "evidence": {
+      "matchScore": 0.0683,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:073",
+    "target": "urn:jy:physics:SB0401:OB06:Section:65",
+    "evidence": {
+      "matchScore": 0.3981,
+      "fromExample": {
+        "title": "例11",
+        "text": "用电流表和电压表，分别探究串联电路和并联电路中电流、电压的特点。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:15"
+      },
+      "fromSection": {
+        "sectionTitle": "二、串、并联电路的特点",
+        "chapterTitle": "第十章 串联电路和并联电路",
+        "academicTerm": "初中",
+        "grade": "九年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:65",
+    "target": "urn:jy:physics:OB05:Example:073",
+    "evidence": {
+      "matchScore": 0.3981,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:073",
+    "target": "urn:jy:physics:SB0401:OB06:Section:64",
+    "evidence": {
+      "matchScore": 0.3494,
+      "fromExample": {
+        "title": "例11",
+        "text": "用电流表和电压表，分别探究串联电路和并联电路中电流、电压的特点。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:15"
+      },
+      "fromSection": {
+        "sectionTitle": "一、学生实验：连接串、并联电路",
+        "chapterTitle": "第十章 串联电路和并联电路",
+        "academicTerm": "初中",
+        "grade": "九年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:64",
+    "target": "urn:jy:physics:OB05:Example:073",
+    "evidence": {
+      "matchScore": 0.3494,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:073",
+    "target": "urn:jy:physics:SB0401:OB06:Section:66",
+    "evidence": {
+      "matchScore": 0.3089,
+      "fromExample": {
+        "title": "例11",
+        "text": "用电流表和电压表，分别探究串联电路和并联电路中电流、电压的特点。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:15"
+      },
+      "fromSection": {
+        "sectionTitle": "三、学生实验：探究影响电流的因素",
+        "chapterTitle": "第十章 串联电路和并联电路",
+        "academicTerm": "初中",
+        "grade": "九年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:66",
+    "target": "urn:jy:physics:OB05:Example:073",
+    "evidence": {
+      "matchScore": 0.3089,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:074",
+    "target": "urn:jy:physics:SB0401:OB06:Section:62",
+    "evidence": {
+      "matchScore": 0.0524,
+      "fromExample": {
+        "title": "例12",
+        "text": "用定值电阻、滑动变阻器、电流表、电压表等，探究电流与电压、电阻的关系。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:15"
+      },
+      "fromSection": {
+        "sectionTitle": "七、变阻器",
+        "chapterTitle": "第九章 简单电路",
+        "academicTerm": "初中",
+        "grade": "九年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:62",
+    "target": "urn:jy:physics:OB05:Example:074",
+    "evidence": {
+      "matchScore": 0.0524,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:075",
+    "target": "urn:jy:physics:SB0401:OB06:Section:50",
+    "evidence": {
+      "matchScore": 0.0279,
+      "fromExample": {
+        "title": "例1",
+        "text": "调查日常生活用品（如厨房用品）使用中的问题，并提出改进建议，能运用所学的知识论证自己所提建议的合理性。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:16"
+      },
+      "fromSection": {
+        "sectionTitle": "七、生活中的透镜",
+        "chapterTitle": "第八章 光现象",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:50",
+    "target": "urn:jy:physics:OB05:Example:075",
+    "evidence": {
+      "matchScore": 0.0279,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:076",
+    "target": "urn:jy:physics:SB0401:OB06:Section:50",
+    "evidence": {
+      "matchScore": 0.0652,
+      "fromExample": {
+        "title": "例2",
+        "text": "调查生活中（如用电、乘车、住高楼等）存在的安全隐患，提出安全与健康生活的建议。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:16"
+      },
+      "fromSection": {
+        "sectionTitle": "七、生活中的透镜",
+        "chapterTitle": "第八章 光现象",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:50",
+    "target": "urn:jy:physics:OB05:Example:076",
+    "evidence": {
+      "matchScore": 0.0652,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:077",
+    "target": "urn:jy:physics:SB0401:OB06:Section:9",
+    "evidence": {
+      "matchScore": 0.044,
+      "fromExample": {
+        "title": "例3",
+        "text": "了解当地空气质量状况，并调查相关原因。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:16"
+      },
+      "fromSection": {
+        "sectionTitle": "一、质量及其测量",
+        "chapterTitle": "第二章 质量和密度",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:9",
+    "target": "urn:jy:physics:OB05:Example:077",
+    "evidence": {
+      "matchScore": 0.044,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:078",
+    "target": "urn:jy:physics:SB0401:OB06:Section:50",
+    "evidence": {
+      "matchScore": 0.0179,
+      "fromExample": {
+        "title": "例4",
+        "text": "拟订《个人低碳生活行为指南》，对个人节能环保行为提出具体要求。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:16"
+      },
+      "fromSection": {
+        "sectionTitle": "七、生活中的透镜",
+        "chapterTitle": "第八章 光现象",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:50",
+    "target": "urn:jy:physics:OB05:Example:078",
+    "evidence": {
+      "matchScore": 0.0179,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:079",
+    "target": "urn:jy:physics:SB0401:OB06:Section:33",
+    "evidence": {
+      "matchScore": 0.0208,
+      "fromExample": {
+        "title": "例1",
+        "text": "了解我国古代“龙骨水车”的工作原理，尝试设计相关装置。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:17"
+      },
+      "fromSection": {
+        "sectionTitle": "三、功的原理",
+        "chapterTitle": "第六章 功和能",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:33",
+    "target": "urn:jy:physics:OB05:Example:079",
+    "evidence": {
+      "matchScore": 0.0208,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:080",
+    "target": "urn:jy:physics:SB0401:OB06:Section:67",
+    "evidence": {
+      "matchScore": 0.04,
+      "fromExample": {
+        "title": "例2",
+        "text": "调查物理学在桥梁建筑技术方面的应用案例，体会物理学对桥梁发展的促进作用。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:17"
+      },
+      "fromSection": {
+        "sectionTitle": "四、欧姆定律的应用",
+        "chapterTitle": "第十章 串联电路和并联电路",
+        "academicTerm": "初中",
+        "grade": "九年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:67",
+    "target": "urn:jy:physics:OB05:Example:080",
+    "evidence": {
+      "matchScore": 0.04,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:081",
+    "target": "urn:jy:physics:SB0401:OB06:Section:67",
+    "evidence": {
+      "matchScore": 0.0594,
+      "fromExample": {
+        "title": "例3",
+        "text": "了解物理学在信息记录或传播中的应用。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:17"
+      },
+      "fromSection": {
+        "sectionTitle": "四、欧姆定律的应用",
+        "chapterTitle": "第十章 串联电路和并联电路",
+        "academicTerm": "初中",
+        "grade": "九年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:67",
+    "target": "urn:jy:physics:OB05:Example:081",
+    "evidence": {
+      "matchScore": 0.0594,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:082",
+    "target": "urn:jy:physics:SB0401:OB06:Section:42",
+    "evidence": {
+      "matchScore": 0.0277,
+      "fromExample": {
+        "title": "例1",
+        "text": "查阅资料并举办报告会，讨论能源利用对环境的影响，结合对当地能源利用现状的调查，提出改进建议。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:18"
+      },
+      "fromSection": {
+        "sectionTitle": "八、燃料 能源与环保",
+        "chapterTitle": "第七章 热现象",
+        "academicTerm": "初中",
+        "grade": "八年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:42",
+    "target": "urn:jy:physics:OB05:Example:082",
+    "evidence": {
+      "matchScore": 0.0277,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:083",
+    "target": "urn:jy:physics:SB0401:OB06:Section:78",
+    "evidence": {
+      "matchScore": 0.077,
+      "fromExample": {
+        "title": "例2",
+        "text": "了解半导体、超导体的主要特点，展望超导体应用对社会发展的影响。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:18"
+      },
+      "fromSection": {
+        "sectionTitle": "五、磁场对通电导体的作用",
+        "chapterTitle": "第十二章 磁现象",
+        "academicTerm": "初中",
+        "grade": "九年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:78",
+    "target": "urn:jy:physics:OB05:Example:083",
+    "evidence": {
+      "matchScore": 0.077,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:084",
+    "target": "urn:jy:physics:SB0401:OB06:Section:63",
+    "evidence": {
+      "matchScore": 0.0658,
+      "fromExample": {
+        "title": "例3",
+        "text": "了解纳米材料等新型材料的主要特点，以及这些新材料技术的应用对社会发展的影响。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:18"
+      },
+      "fromSection": {
+        "sectionTitle": "课外探究 什么材料的衣服更容易带电",
+        "chapterTitle": "第九章 简单电路",
+        "academicTerm": "初中",
+        "grade": "九年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:63",
+    "target": "urn:jy:physics:OB05:Example:084",
+    "evidence": {
+      "matchScore": 0.0658,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:085",
+    "target": "urn:jy:physics:SB0401:OB06:Section:89",
+    "evidence": {
+      "matchScore": 0.0441,
+      "fromExample": {
+        "title": "例4",
+        "text": "了解我国“两弹一星”的成就，体会科技作为国家发展战略支撑的重大意义，树立科技自立自强的信念；知道赵忠尧、钱学森、邓稼先等科学家的杰出贡献和爱国情怀，发扬勇攀科技高峰的精神。",
+        "themeL2": "urn:jy:physics:OB05:ThemeL2:18"
+      },
+      "fromSection": {
+        "sectionTitle": "参观科技场馆指导",
+        "chapterTitle": "科学探究",
+        "academicTerm": "初中",
+        "grade": "九年级",
+        "volume": "全一册",
+        "edition": "北师大版（主编：郭玉英）"
+      },
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:89",
+    "target": "urn:jy:physics:OB05:Example:085",
+    "evidence": {
+      "matchScore": 0.0441,
+      "matchMethod": "字符n-gram相似度（例题文本 vs 节/章标题）"
+    }
+  }
+]

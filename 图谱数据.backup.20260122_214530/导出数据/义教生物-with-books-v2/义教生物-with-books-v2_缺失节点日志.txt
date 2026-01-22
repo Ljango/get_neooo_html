@@ -1,0 +1,213 @@
+================================================================================
+缺失节点信息日志 - 义教生物-with-books-v2
+生成时间: 2026-01-22 11:06:45
+================================================================================
+
+【统计摘要】
+  缺失头节点总数: 0
+  缺失尾节点总数: 22
+  涉及的关系文件数: 1
+  涉及的关系总数: 22
+
+================================================================================
+【按关系文件分组】
+================================================================================
+
+
+文件: Chapter_Section.json
+--------------------------------------------------------------------------------
+
+  缺失尾节点 (22 个):
+    行号   99 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB03:Section:l99
+            | 关系名称: chapter_contains_section
+            | 头节点ID: urn:jy:biology:SB0403:OB03:Chapter:l31
+
+    行号  100 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB03:Section:l100
+            | 关系名称: chapter_contains_section
+            | 头节点ID: urn:jy:biology:SB0403:OB03:Chapter:l32
+
+    行号  101 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB03:Section:l101
+            | 关系名称: chapter_contains_section
+            | 头节点ID: urn:jy:biology:SB0403:OB03:Chapter:l32
+
+    行号  102 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB03:Section:l102
+            | 关系名称: chapter_contains_section
+            | 头节点ID: urn:jy:biology:SB0403:OB03:Chapter:l33
+
+    行号  103 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB03:Section:l103
+            | 关系名称: chapter_contains_section
+            | 头节点ID: urn:jy:biology:SB0403:OB03:Chapter:l33
+
+    行号  104 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB03:Section:l104
+            | 关系名称: chapter_contains_section
+            | 头节点ID: urn:jy:biology:SB0403:OB03:Chapter:l33
+
+    行号  105 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB03:Section:l105
+            | 关系名称: chapter_contains_section
+            | 头节点ID: urn:jy:biology:SB0403:OB03:Chapter:l33
+
+    行号  106 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB03:Section:l106
+            | 关系名称: chapter_contains_section
+            | 头节点ID: urn:jy:biology:SB0403:OB03:Chapter:l34
+
+    行号  107 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB03:Section:l107
+            | 关系名称: chapter_contains_section
+            | 头节点ID: urn:jy:biology:SB0403:OB03:Chapter:l34
+
+    行号  108 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB03:Section:l108
+            | 关系名称: chapter_contains_section
+            | 头节点ID: urn:jy:biology:SB0403:OB03:Chapter:l34
+
+    行号  109 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB03:Section:l109
+            | 关系名称: chapter_contains_section
+            | 头节点ID: urn:jy:biology:SB0403:OB03:Chapter:l34
+
+    行号  110 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB03:Section:l110
+            | 关系名称: chapter_contains_section
+            | 头节点ID: urn:jy:biology:SB0403:OB03:Chapter:l34
+
+    行号  111 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB03:Section:l111
+            | 关系名称: chapter_contains_section
+            | 头节点ID: urn:jy:biology:SB0403:OB03:Chapter:l35
+
+    行号  112 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB03:Section:l112
+            | 关系名称: chapter_contains_section
+            | 头节点ID: urn:jy:biology:SB0403:OB03:Chapter:l35
+
+    行号  113 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB03:Section:l113
+            | 关系名称: chapter_contains_section
+            | 头节点ID: urn:jy:biology:SB0403:OB03:Chapter:l35
+
+    行号  114 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB03:Section:l114
+            | 关系名称: chapter_contains_section
+            | 头节点ID: urn:jy:biology:SB0403:OB03:Chapter:l36
+
+    行号  115 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB03:Section:l115
+            | 关系名称: chapter_contains_section
+            | 头节点ID: urn:jy:biology:SB0403:OB03:Chapter:l37
+
+    行号  116 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB03:Section:l116
+            | 关系名称: chapter_contains_section
+            | 头节点ID: urn:jy:biology:SB0403:OB03:Chapter:l37
+
+    行号  117 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB03:Section:l117
+            | 关系名称: chapter_contains_section
+            | 头节点ID: urn:jy:biology:SB0403:OB03:Chapter:l37
+
+    行号  118 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB03:Section:l118
+            | 关系名称: chapter_contains_section
+            | 头节点ID: urn:jy:biology:SB0403:OB03:Chapter:l38
+
+    行号  119 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB03:Section:l119
+            | 关系名称: chapter_contains_section
+            | 头节点ID: urn:jy:biology:SB0403:OB03:Chapter:l39
+
+    行号  120 | 节点位置: 尾节点    | 节点ID: urn:jy:biology:SB0403:OB03:Section:l120
+            | 关系名称: chapter_contains_section
+            | 头节点ID: urn:jy:biology:SB0403:OB03:Chapter:l39
+
+
+================================================================================
+【按缺失节点ID汇总】
+================================================================================
+
+
+缺失的尾节点ID列表:
+  urn:jy:biology:SB0403:OB03:Section:l100
+    出现在 1 个关系中:
+      - Chapter_Section.json (行号 100, 关系: chapter_contains_section)
+
+  urn:jy:biology:SB0403:OB03:Section:l101
+    出现在 1 个关系中:
+      - Chapter_Section.json (行号 101, 关系: chapter_contains_section)
+
+  urn:jy:biology:SB0403:OB03:Section:l102
+    出现在 1 个关系中:
+      - Chapter_Section.json (行号 102, 关系: chapter_contains_section)
+
+  urn:jy:biology:SB0403:OB03:Section:l103
+    出现在 1 个关系中:
+      - Chapter_Section.json (行号 103, 关系: chapter_contains_section)
+
+  urn:jy:biology:SB0403:OB03:Section:l104
+    出现在 1 个关系中:
+      - Chapter_Section.json (行号 104, 关系: chapter_contains_section)
+
+  urn:jy:biology:SB0403:OB03:Section:l105
+    出现在 1 个关系中:
+      - Chapter_Section.json (行号 105, 关系: chapter_contains_section)
+
+  urn:jy:biology:SB0403:OB03:Section:l106
+    出现在 1 个关系中:
+      - Chapter_Section.json (行号 106, 关系: chapter_contains_section)
+
+  urn:jy:biology:SB0403:OB03:Section:l107
+    出现在 1 个关系中:
+      - Chapter_Section.json (行号 107, 关系: chapter_contains_section)
+
+  urn:jy:biology:SB0403:OB03:Section:l108
+    出现在 1 个关系中:
+      - Chapter_Section.json (行号 108, 关系: chapter_contains_section)
+
+  urn:jy:biology:SB0403:OB03:Section:l109
+    出现在 1 个关系中:
+      - Chapter_Section.json (行号 109, 关系: chapter_contains_section)
+
+  urn:jy:biology:SB0403:OB03:Section:l110
+    出现在 1 个关系中:
+      - Chapter_Section.json (行号 110, 关系: chapter_contains_section)
+
+  urn:jy:biology:SB0403:OB03:Section:l111
+    出现在 1 个关系中:
+      - Chapter_Section.json (行号 111, 关系: chapter_contains_section)
+
+  urn:jy:biology:SB0403:OB03:Section:l112
+    出现在 1 个关系中:
+      - Chapter_Section.json (行号 112, 关系: chapter_contains_section)
+
+  urn:jy:biology:SB0403:OB03:Section:l113
+    出现在 1 个关系中:
+      - Chapter_Section.json (行号 113, 关系: chapter_contains_section)
+
+  urn:jy:biology:SB0403:OB03:Section:l114
+    出现在 1 个关系中:
+      - Chapter_Section.json (行号 114, 关系: chapter_contains_section)
+
+  urn:jy:biology:SB0403:OB03:Section:l115
+    出现在 1 个关系中:
+      - Chapter_Section.json (行号 115, 关系: chapter_contains_section)
+
+  urn:jy:biology:SB0403:OB03:Section:l116
+    出现在 1 个关系中:
+      - Chapter_Section.json (行号 116, 关系: chapter_contains_section)
+
+  urn:jy:biology:SB0403:OB03:Section:l117
+    出现在 1 个关系中:
+      - Chapter_Section.json (行号 117, 关系: chapter_contains_section)
+
+  urn:jy:biology:SB0403:OB03:Section:l118
+    出现在 1 个关系中:
+      - Chapter_Section.json (行号 118, 关系: chapter_contains_section)
+
+  urn:jy:biology:SB0403:OB03:Section:l119
+    出现在 1 个关系中:
+      - Chapter_Section.json (行号 119, 关系: chapter_contains_section)
+
+  urn:jy:biology:SB0403:OB03:Section:l120
+    出现在 1 个关系中:
+      - Chapter_Section.json (行号 120, 关系: chapter_contains_section)
+
+  urn:jy:biology:SB0403:OB03:Section:l99
+    出现在 1 个关系中:
+      - Chapter_Section.json (行号 99, 关系: chapter_contains_section)
+
+
+================================================================================
+【排查建议】
+================================================================================
+1. 检查entities目录中是否存在对应的实体文件
+2. 检查实体文件中的identifier字段是否与关系文件中的source/target完全匹配
+3. 注意identifier的大小写、空格、特殊字符等细节
+4. 检查是否有实体文件格式错误（JSON解析失败）
+5. 检查是否有实体文件被遗漏未加载
+================================================================================

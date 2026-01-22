@@ -1,0 +1,244 @@
+{
+  "relations": [
+    {
+      "relationName": "stageSetsTheme",
+      "label": "设置主题 / setsTheme",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST01",
+      "target": "urn:jy:dwfz:SB0309:Theme:TH01"
+    },
+    {
+      "relationName": "themeBelongsToStage",
+      "label": "所属学段 / belongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Theme:TH01",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST01"
+    },
+    {
+      "relationName": "stageSetsTheme",
+      "label": "设置主题 / setsTheme",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST01",
+      "target": "urn:jy:dwfz:SB0309:Theme:TH02"
+    },
+    {
+      "relationName": "themeBelongsToStage",
+      "label": "所属学段 / belongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Theme:TH02",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST01"
+    },
+    {
+      "relationName": "stageSetsTheme",
+      "label": "设置主题 / setsTheme",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST01",
+      "target": "urn:jy:dwfz:SB0309:Theme:TH05"
+    },
+    {
+      "relationName": "themeBelongsToStage",
+      "label": "所属学段 / belongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Theme:TH05",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST01"
+    },
+    {
+      "relationName": "stageSetsTheme",
+      "label": "设置主题 / setsTheme",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST01",
+      "target": "urn:jy:dwfz:SB0309:Theme:TH09"
+    },
+    {
+      "relationName": "themeBelongsToStage",
+      "label": "所属学段 / belongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Theme:TH09",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST01"
+    },
+    {
+      "relationName": "stageSetsTheme",
+      "label": "设置主题 / setsTheme",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST01",
+      "target": "urn:jy:dwfz:SB0309:Theme:TH13"
+    },
+    {
+      "relationName": "themeBelongsToStage",
+      "label": "所属学段 / belongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Theme:TH13",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST01"
+    },
+    {
+      "relationName": "stageSetsTheme",
+      "label": "设置主题 / setsTheme",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST02",
+      "target": "urn:jy:dwfz:SB0309:Theme:TH03"
+    },
+    {
+      "relationName": "themeBelongsToStage",
+      "label": "所属学段 / belongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Theme:TH03",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST02"
+    },
+    {
+      "relationName": "stageSetsTheme",
+      "label": "设置主题 / setsTheme",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST02",
+      "target": "urn:jy:dwfz:SB0309:Theme:TH06"
+    },
+    {
+      "relationName": "themeBelongsToStage",
+      "label": "所属学段 / belongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Theme:TH06",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST02"
+    },
+    {
+      "relationName": "stageSetsTheme",
+      "label": "设置主题 / setsTheme",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST02",
+      "target": "urn:jy:dwfz:SB0309:Theme:TH10"
+    },
+    {
+      "relationName": "themeBelongsToStage",
+      "label": "所属学段 / belongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Theme:TH10",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST02"
+    },
+    {
+      "relationName": "stageSetsTheme",
+      "label": "设置主题 / setsTheme",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST02",
+      "target": "urn:jy:dwfz:SB0309:Theme:TH14"
+    },
+    {
+      "relationName": "themeBelongsToStage",
+      "label": "所属学段 / belongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Theme:TH14",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST02"
+    },
+    {
+      "relationName": "stageSetsTheme",
+      "label": "设置主题 / setsTheme",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST02",
+      "target": "urn:jy:dwfz:SB0309:Theme:TH16"
+    },
+    {
+      "relationName": "themeBelongsToStage",
+      "label": "所属学段 / belongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Theme:TH16",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST02"
+    },
+    {
+      "relationName": "stageSetsTheme",
+      "label": "设置主题 / setsTheme",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST03",
+      "target": "urn:jy:dwfz:SB0309:Theme:TH04"
+    },
+    {
+      "relationName": "themeBelongsToStage",
+      "label": "所属学段 / belongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Theme:TH04",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST03"
+    },
+    {
+      "relationName": "stageSetsTheme",
+      "label": "设置主题 / setsTheme",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST03",
+      "target": "urn:jy:dwfz:SB0309:Theme:TH07"
+    },
+    {
+      "relationName": "themeBelongsToStage",
+      "label": "所属学段 / belongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Theme:TH07",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST03"
+    },
+    {
+      "relationName": "stageSetsTheme",
+      "label": "设置主题 / setsTheme",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST03",
+      "target": "urn:jy:dwfz:SB0309:Theme:TH11"
+    },
+    {
+      "relationName": "themeBelongsToStage",
+      "label": "所属学段 / belongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Theme:TH11",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST03"
+    },
+    {
+      "relationName": "stageSetsTheme",
+      "label": "设置主题 / setsTheme",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST03",
+      "target": "urn:jy:dwfz:SB0309:Theme:TH15"
+    },
+    {
+      "relationName": "themeBelongsToStage",
+      "label": "所属学段 / belongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Theme:TH15",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST03"
+    },
+    {
+      "relationName": "stageSetsTheme",
+      "label": "设置主题 / setsTheme",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST03",
+      "target": "urn:jy:dwfz:SB0309:Theme:TH17"
+    },
+    {
+      "relationName": "themeBelongsToStage",
+      "label": "所属学段 / belongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Theme:TH17",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST03"
+    },
+    {
+      "relationName": "stageSetsTheme",
+      "label": "设置主题 / setsTheme",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST04",
+      "target": "urn:jy:dwfz:SB0309:Theme:TH08"
+    },
+    {
+      "relationName": "themeBelongsToStage",
+      "label": "所属学段 / belongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Theme:TH08",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST04"
+    },
+    {
+      "relationName": "stageSetsTheme",
+      "label": "设置主题 / setsTheme",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST04",
+      "target": "urn:jy:dwfz:SB0309:Theme:TH12"
+    },
+    {
+      "relationName": "themeBelongsToStage",
+      "label": "所属学段 / belongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Theme:TH12",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST04"
+    },
+    {
+      "relationName": "stageSetsTheme",
+      "label": "设置主题 / setsTheme",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST04",
+      "target": "urn:jy:dwfz:SB0309:Theme:TH18"
+    },
+    {
+      "relationName": "themeBelongsToStage",
+      "label": "所属学段 / belongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Theme:TH18",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST04"
+    },
+    {
+      "relationName": "stageSetsTheme",
+      "label": "设置主题 / setsTheme",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST04",
+      "target": "urn:jy:dwfz:SB0309:Theme:TH19"
+    },
+    {
+      "relationName": "themeBelongsToStage",
+      "label": "所属学段 / belongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Theme:TH19",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST04"
+    },
+    {
+      "relationName": "stageSetsTheme",
+      "label": "设置主题 / setsTheme",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST04",
+      "target": "urn:jy:dwfz:SB0309:Theme:TH20"
+    },
+    {
+      "relationName": "themeBelongsToStage",
+      "label": "所属学段 / belongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Theme:TH20",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST04"
+    }
+  ]
+}

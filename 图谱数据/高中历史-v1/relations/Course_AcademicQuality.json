@@ -1,0 +1,134 @@
+[
+  {
+    "relationName": "evaluates_standards_of",
+    "label": "评价标准",
+    "source": "urn:jy:history:SB0307:OB06:AcademicQuality:1:OB06",
+    "target": "urn:jy:history:SB0307:OB06:Course:1:OB06",
+    "evidence": {
+      "academicquality": "水平1",
+      "Course": "必修课程",
+      "note": "学业质量水平1可用于评价必修课程学习初期的核心素养动态达成度，是通往合格水平（水平2）的基础阶段。"
+    }
+  },
+  {
+    "relationName": "evaluates_standards_of",
+    "label": "评价标准",
+    "source": "urn:jy:history:SB0307:OB06:AcademicQuality:2:OB06",
+    "target": "urn:jy:history:SB0307:OB06:Course:1:OB06",
+    "evidence": {
+      "academicquality": "水平2",
+      "Course": "必修课程",
+      "note": "学业质量水平2是必修课程学习应达到的合格标准，也是高中毕业和学业水平合格性考试的划定依据。"
+    }
+  },
+  {
+    "relationName": "evaluates_standards_of",
+    "label": "评价标准",
+    "source": "urn:jy:history:SB0307:OB06:AcademicQuality:3:OB06",
+    "target": "urn:jy:history:SB0307:OB06:Course:1:OB06",
+    "evidence": {
+      "academicquality": "水平3",
+      "Course": "必修课程",
+      "note": "学业质量水平3用于评价在必修课程基础上表现优异、核心素养水平超越合格标准的学生，是向更高水平发展的过渡。"
+    }
+  },
+  {
+    "relationName": "evaluates_standards_of",
+    "label": "评价标准",
+    "source": "urn:jy:history:SB0307:OB06:AcademicQuality:4:OB06",
+    "target": "urn:jy:history:SB0307:OB06:Course:1:OB06",
+    "evidence": {
+      "academicquality": "水平4",
+      "Course": "必修课程",
+      "note": "学业质量水平4是学业水平等级性考试的最高参照标准，该考试范围包含必修课程内容，要求学生在必修内容上达到深度的理解和综合运用能力。"
+    }
+  },
+  {
+    "relationName": "evaluates_standards_of",
+    "label": "评价标准",
+    "source": "urn:jy:history:SB0307:OB06:AcademicQuality:1:OB06",
+    "target": "urn:jy:history:SB0307:OB06:Course:2:OB06",
+    "evidence": {
+      "academicquality": "水平1",
+      "Course": "选择性必修课程",
+      "note": "虽然选择性必修课程通常要求更高的起点，但水平1的描述（如基本的时空判断和史料辨识）是进行选择性必修学习的基础能力保障。"
+    }
+  },
+  {
+    "relationName": "evaluates_standards_of",
+    "label": "评价标准",
+    "source": "urn:jy:history:SB0307:OB06:AcademicQuality:2:OB06",
+    "target": "urn:jy:history:SB0307:OB06:Course:2:OB06",
+    "evidence": {
+      "academicquality": "水平2",
+      "Course": "选择性必修课程",
+      "note": "水平2是修习选择性必修课程的基本门槛，只有达到必修课程的水平2（合格），才能有效开展选择性必修课程的深入学习。"
+    }
+  },
+  {
+    "relationName": "evaluates_standards_of",
+    "label": "评价标准",
+    "source": "urn:jy:history:SB0307:OB06:AcademicQuality:3:OB06",
+    "target": "urn:jy:history:SB0307:OB06:Course:2:OB06",
+    "evidence": {
+      "academicquality": "水平3",
+      "Course": "选择性必修课程",
+      "note": "水平3是评价选择性必修课程学习成果的重要参考，体现了学生在多角度认识历史、综合运用史料等方面的进阶能力。"
+    }
+  },
+  {
+    "relationName": "evaluates_standards_of",
+    "label": "评价标准",
+    "source": "urn:jy:history:SB0307:OB06:AcademicQuality:4:OB06",
+    "target": "urn:jy:history:SB0307:OB06:Course:2:OB06",
+    "evidence": {
+      "academicquality": "水平4",
+      "Course": "选择性必修课程",
+      "note": "水平4是选择性必修课程的主要评价目标，作为学业水平等级性考试（高考）的命题标准，要求学生具备独立的探究和综合分析能力。"
+    }
+  },
+  {
+    "relationName": "evaluates_standards_of",
+    "label": "评价标准",
+    "source": "urn:jy:history:SB0307:OB06:AcademicQuality:1:OB06",
+    "target": "urn:jy:history:SB0307:OB06:Course:3:OB06",
+    "evidence": {
+      "academicquality": "水平1",
+      "Course": "选修课程",
+      "note": "选修课程（如“史学入门”）的内容有助于巩固水平1的基础素养，例如了解基本的读史常识和史料概念。"
+    }
+  },
+  {
+    "relationName": "evaluates_standards_of",
+    "label": "评价标准",
+    "source": "urn:jy:history:SB0307:OB06:AcademicQuality:2:OB06",
+    "target": "urn:jy:history:SB0307:OB06:Course:3:OB06",
+    "evidence": {
+      "academicquality": "水平2",
+      "Course": "选修课程",
+      "note": "通过选修课程（如“史料研读”）的实际探究活动，有助于学生巩固和强化水平2所要求的史料辨析与运用能力。"
+    }
+  },
+  {
+    "relationName": "evaluates_standards_of",
+    "label": "评价标准",
+    "source": "urn:jy:history:SB0307:OB06:AcademicQuality:3:OB06",
+    "target": "urn:jy:history:SB0307:OB06:Course:3:OB06",
+    "evidence": {
+      "academicquality": "水平3",
+      "Course": "选修课程",
+      "note": "选修课程是拓展、提高类课程，旨在通过专门的史学训练（如论文习作），帮助学生提升深入学习历史的能力，达到水平3的要求。"
+    }
+  },
+  {
+    "relationName": "evaluates_standards_of",
+    "label": "评价标准",
+    "source": "urn:jy:history:SB0307:OB06:AcademicQuality:4:OB06",
+    "target": "urn:jy:history:SB0307:OB06:Course:3:OB06",
+    "evidence": {
+      "academicquality": "水平4",
+      "Course": "选修课程",
+      "note": "选修课程的高阶探究活动（如自主历史问题研究）直接服务于水平4的培养，即在独立探究中综合运用多学科知识解决历史问题。"
+    }
+  }
+]

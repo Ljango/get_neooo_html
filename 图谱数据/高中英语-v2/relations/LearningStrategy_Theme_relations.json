@@ -1,0 +1,1442 @@
+[
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "促进主题学习规划与监控 / enablesPlanningMonitoringForThemeLearning",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "target": "urn:jy:English:SB0102:OB06:Theme:1"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要元认知策略 / themeLearningRequiresMetacognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:1",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:1"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "促进主题学习规划与监控 / enablesPlanningMonitoringForThemeLearning",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "target": "urn:jy:English:SB0102:OB06:Theme:2"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要元认知策略 / themeLearningRequiresMetacognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:2",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:1"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "促进主题学习规划与监控 / enablesPlanningMonitoringForThemeLearning",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "target": "urn:jy:English:SB0102:OB06:Theme:3"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要元认知策略 / themeLearningRequiresMetacognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:3",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:1"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "促进主题学习规划与监控 / enablesPlanningMonitoringForThemeLearning",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "target": "urn:jy:English:SB0102:OB06:Theme:4"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要元认知策略 / themeLearningRequiresMetacognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:4",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:1"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "促进主题学习规划与监控 / enablesPlanningMonitoringForThemeLearning",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "target": "urn:jy:English:SB0102:OB06:Theme:5"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要元认知策略 / themeLearningRequiresMetacognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:5",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:1"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "促进主题学习规划与监控 / enablesPlanningMonitoringForThemeLearning",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "target": "urn:jy:English:SB0102:OB06:Theme:6"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要元认知策略 / themeLearningRequiresMetacognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:6",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:1"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "促进主题学习规划与监控 / enablesPlanningMonitoringForThemeLearning",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "target": "urn:jy:English:SB0102:OB06:Theme:7"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要元认知策略 / themeLearningRequiresMetacognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:7",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:1"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "促进主题学习规划与监控 / enablesPlanningMonitoringForThemeLearning",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "target": "urn:jy:English:SB0102:OB06:Theme:8"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要元认知策略 / themeLearningRequiresMetacognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:8",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:1"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "促进主题学习规划与监控 / enablesPlanningMonitoringForThemeLearning",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "target": "urn:jy:English:SB0102:OB06:Theme:9"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要元认知策略 / themeLearningRequiresMetacognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:9",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:1"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "促进主题学习规划与监控 / enablesPlanningMonitoringForThemeLearning",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:1",
+    "target": "urn:jy:English:SB0102:OB06:Theme:10"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要元认知策略 / themeLearningRequiresMetacognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:10",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:1"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支撑主题意义理解与建构 / supportsThemeMeaningUnderstanding",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Theme:1"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题意义建构依赖认知策略 / themeMeaningConstructionReliesOnCognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:1",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支撑主题意义理解与建构 / supportsThemeMeaningUnderstanding",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Theme:2"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题意义建构依赖认知策略 / themeMeaningConstructionReliesOnCognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:2",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支撑主题意义理解与建构 / supportsThemeMeaningUnderstanding",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Theme:3"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题意义建构依赖认知策略 / themeMeaningConstructionReliesOnCognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:3",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支撑主题意义理解与建构 / supportsThemeMeaningUnderstanding",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Theme:4"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题意义建构依赖认知策略 / themeMeaningConstructionReliesOnCognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:4",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支撑主题意义理解与建构 / supportsThemeMeaningUnderstanding",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Theme:5"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题意义建构依赖认知策略 / themeMeaningConstructionReliesOnCognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:5",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支撑主题意义理解与建构 / supportsThemeMeaningUnderstanding",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Theme:6"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题意义建构依赖认知策略 / themeMeaningConstructionReliesOnCognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:6",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支撑主题意义理解与建构 / supportsThemeMeaningUnderstanding",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Theme:7"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题意义建构依赖认知策略 / themeMeaningConstructionReliesOnCognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:7",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支撑主题意义理解与建构 / supportsThemeMeaningUnderstanding",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Theme:8"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题意义建构依赖认知策略 / themeMeaningConstructionReliesOnCognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:8",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支撑主题意义理解与建构 / supportsThemeMeaningUnderstanding",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Theme:9"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题意义建构依赖认知策略 / themeMeaningConstructionReliesOnCognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:9",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支撑主题意义理解与建构 / supportsThemeMeaningUnderstanding",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:2",
+    "target": "urn:jy:English:SB0102:OB06:Theme:10"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题意义建构依赖认知策略 / themeMeaningConstructionReliesOnCognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:10",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:2"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题相关交际实践 / supportsThemeCommunicationPractice",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "target": "urn:jy:English:SB0102:OB06:Theme:1"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题交际实践需要交际策略 / themeCommunicationPracticeRequiresCommunicativeStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:1",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:3"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题相关交际实践 / supportsThemeCommunicationPractice",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "target": "urn:jy:English:SB0102:OB06:Theme:2"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题交际实践需要交际策略 / themeCommunicationPracticeRequiresCommunicativeStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:2",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:3"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题相关交际实践 / supportsThemeCommunicationPractice",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "target": "urn:jy:English:SB0102:OB06:Theme:3"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题交际实践需要交际策略 / themeCommunicationPracticeRequiresCommunicativeStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:3",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:3"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题相关交际实践 / supportsThemeCommunicationPractice",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "target": "urn:jy:English:SB0102:OB06:Theme:4"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题交际实践需要交际策略 / themeCommunicationPracticeRequiresCommunicativeStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:4",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:3"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题相关交际实践 / supportsThemeCommunicationPractice",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "target": "urn:jy:English:SB0102:OB06:Theme:5"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题交际实践需要交际策略 / themeCommunicationPracticeRequiresCommunicativeStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:5",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:3"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题相关交际实践 / supportsThemeCommunicationPractice",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "target": "urn:jy:English:SB0102:OB06:Theme:6"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题交际实践需要交际策略 / themeCommunicationPracticeRequiresCommunicativeStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:6",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:3"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题相关交际实践 / supportsThemeCommunicationPractice",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "target": "urn:jy:English:SB0102:OB06:Theme:7"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题交际实践需要交际策略 / themeCommunicationPracticeRequiresCommunicativeStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:7",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:3"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题相关交际实践 / supportsThemeCommunicationPractice",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "target": "urn:jy:English:SB0102:OB06:Theme:8"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题交际实践需要交际策略 / themeCommunicationPracticeRequiresCommunicativeStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:8",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:3"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题相关交际实践 / supportsThemeCommunicationPractice",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "target": "urn:jy:English:SB0102:OB06:Theme:9"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题交际实践需要交际策略 / themeCommunicationPracticeRequiresCommunicativeStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:9",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:3"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题相关交际实践 / supportsThemeCommunicationPractice",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:3",
+    "target": "urn:jy:English:SB0102:OB06:Theme:10"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题交际实践需要交际策略 / themeCommunicationPracticeRequiresCommunicativeStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:10",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:3"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题学习情绪与动机调控 / supportsThemeAffectiveRegulation",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:4",
+    "target": "urn:jy:English:SB0102:OB06:Theme:1"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要情感管理策略 / themeLearningRequiresAffectiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:1",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:4"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题学习情绪与动机调控 / supportsThemeAffectiveRegulation",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:4",
+    "target": "urn:jy:English:SB0102:OB06:Theme:2"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要情感管理策略 / themeLearningRequiresAffectiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:2",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:4"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题学习情绪与动机调控 / supportsThemeAffectiveRegulation",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:4",
+    "target": "urn:jy:English:SB0102:OB06:Theme:3"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要情感管理策略 / themeLearningRequiresAffectiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:3",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:4"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题学习情绪与动机调控 / supportsThemeAffectiveRegulation",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:4",
+    "target": "urn:jy:English:SB0102:OB06:Theme:4"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要情感管理策略 / themeLearningRequiresAffectiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:4",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:4"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题学习情绪与动机调控 / supportsThemeAffectiveRegulation",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:4",
+    "target": "urn:jy:English:SB0102:OB06:Theme:5"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要情感管理策略 / themeLearningRequiresAffectiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:5",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:4"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题学习情绪与动机调控 / supportsThemeAffectiveRegulation",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:4",
+    "target": "urn:jy:English:SB0102:OB06:Theme:6"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要情感管理策略 / themeLearningRequiresAffectiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:6",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:4"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题学习情绪与动机调控 / supportsThemeAffectiveRegulation",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:4",
+    "target": "urn:jy:English:SB0102:OB06:Theme:7"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要情感管理策略 / themeLearningRequiresAffectiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:7",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:4"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题学习情绪与动机调控 / supportsThemeAffectiveRegulation",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:4",
+    "target": "urn:jy:English:SB0102:OB06:Theme:8"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要情感管理策略 / themeLearningRequiresAffectiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:8",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:4"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题学习情绪与动机调控 / supportsThemeAffectiveRegulation",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:4",
+    "target": "urn:jy:English:SB0102:OB06:Theme:9"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要情感管理策略 / themeLearningRequiresAffectiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:9",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:4"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题学习情绪与动机调控 / supportsThemeAffectiveRegulation",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:4",
+    "target": "urn:jy:English:SB0102:OB06:Theme:10"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要情感管理策略 / themeLearningRequiresAffectiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:10",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:4"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "促进主题学习规划与监控 / enablesPlanningMonitoringForThemeLearning",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:5",
+    "target": "urn:jy:English:SB0102:OB06:Theme:1"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要元认知策略 / themeLearningRequiresMetacognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:1",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:5"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "促进主题学习规划与监控 / enablesPlanningMonitoringForThemeLearning",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:5",
+    "target": "urn:jy:English:SB0102:OB06:Theme:2"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要元认知策略 / themeLearningRequiresMetacognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:2",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:5"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "促进主题学习规划与监控 / enablesPlanningMonitoringForThemeLearning",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:5",
+    "target": "urn:jy:English:SB0102:OB06:Theme:3"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要元认知策略 / themeLearningRequiresMetacognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:3",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:5"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "促进主题学习规划与监控 / enablesPlanningMonitoringForThemeLearning",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:5",
+    "target": "urn:jy:English:SB0102:OB06:Theme:4"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要元认知策略 / themeLearningRequiresMetacognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:4",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:5"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "促进主题学习规划与监控 / enablesPlanningMonitoringForThemeLearning",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:5",
+    "target": "urn:jy:English:SB0102:OB06:Theme:5"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要元认知策略 / themeLearningRequiresMetacognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:5",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:5"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "促进主题学习规划与监控 / enablesPlanningMonitoringForThemeLearning",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:5",
+    "target": "urn:jy:English:SB0102:OB06:Theme:6"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要元认知策略 / themeLearningRequiresMetacognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:6",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:5"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "促进主题学习规划与监控 / enablesPlanningMonitoringForThemeLearning",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:5",
+    "target": "urn:jy:English:SB0102:OB06:Theme:7"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要元认知策略 / themeLearningRequiresMetacognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:7",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:5"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "促进主题学习规划与监控 / enablesPlanningMonitoringForThemeLearning",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:5",
+    "target": "urn:jy:English:SB0102:OB06:Theme:8"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要元认知策略 / themeLearningRequiresMetacognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:8",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:5"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "促进主题学习规划与监控 / enablesPlanningMonitoringForThemeLearning",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:5",
+    "target": "urn:jy:English:SB0102:OB06:Theme:9"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要元认知策略 / themeLearningRequiresMetacognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:9",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:5"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "促进主题学习规划与监控 / enablesPlanningMonitoringForThemeLearning",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:5",
+    "target": "urn:jy:English:SB0102:OB06:Theme:10"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要元认知策略 / themeLearningRequiresMetacognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:10",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:5"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支撑主题意义理解与建构 / supportsThemeMeaningUnderstanding",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:6",
+    "target": "urn:jy:English:SB0102:OB06:Theme:1"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题意义建构依赖认知策略 / themeMeaningConstructionReliesOnCognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:1",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:6"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支撑主题意义理解与建构 / supportsThemeMeaningUnderstanding",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:6",
+    "target": "urn:jy:English:SB0102:OB06:Theme:2"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题意义建构依赖认知策略 / themeMeaningConstructionReliesOnCognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:2",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:6"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支撑主题意义理解与建构 / supportsThemeMeaningUnderstanding",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:6",
+    "target": "urn:jy:English:SB0102:OB06:Theme:3"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题意义建构依赖认知策略 / themeMeaningConstructionReliesOnCognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:3",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:6"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支撑主题意义理解与建构 / supportsThemeMeaningUnderstanding",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:6",
+    "target": "urn:jy:English:SB0102:OB06:Theme:4"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题意义建构依赖认知策略 / themeMeaningConstructionReliesOnCognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:4",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:6"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支撑主题意义理解与建构 / supportsThemeMeaningUnderstanding",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:6",
+    "target": "urn:jy:English:SB0102:OB06:Theme:5"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题意义建构依赖认知策略 / themeMeaningConstructionReliesOnCognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:5",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:6"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支撑主题意义理解与建构 / supportsThemeMeaningUnderstanding",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:6",
+    "target": "urn:jy:English:SB0102:OB06:Theme:6"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题意义建构依赖认知策略 / themeMeaningConstructionReliesOnCognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:6",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:6"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支撑主题意义理解与建构 / supportsThemeMeaningUnderstanding",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:6",
+    "target": "urn:jy:English:SB0102:OB06:Theme:7"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题意义建构依赖认知策略 / themeMeaningConstructionReliesOnCognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:7",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:6"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支撑主题意义理解与建构 / supportsThemeMeaningUnderstanding",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:6",
+    "target": "urn:jy:English:SB0102:OB06:Theme:8"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题意义建构依赖认知策略 / themeMeaningConstructionReliesOnCognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:8",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:6"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支撑主题意义理解与建构 / supportsThemeMeaningUnderstanding",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:6",
+    "target": "urn:jy:English:SB0102:OB06:Theme:9"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题意义建构依赖认知策略 / themeMeaningConstructionReliesOnCognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:9",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:6"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支撑主题意义理解与建构 / supportsThemeMeaningUnderstanding",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:6",
+    "target": "urn:jy:English:SB0102:OB06:Theme:10"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题意义建构依赖认知策略 / themeMeaningConstructionReliesOnCognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:10",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:6"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题相关交际实践 / supportsThemeCommunicationPractice",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:7",
+    "target": "urn:jy:English:SB0102:OB06:Theme:1"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题交际实践需要交际策略 / themeCommunicationPracticeRequiresCommunicativeStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:1",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:7"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题相关交际实践 / supportsThemeCommunicationPractice",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:7",
+    "target": "urn:jy:English:SB0102:OB06:Theme:2"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题交际实践需要交际策略 / themeCommunicationPracticeRequiresCommunicativeStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:2",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:7"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题相关交际实践 / supportsThemeCommunicationPractice",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:7",
+    "target": "urn:jy:English:SB0102:OB06:Theme:3"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题交际实践需要交际策略 / themeCommunicationPracticeRequiresCommunicativeStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:3",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:7"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题相关交际实践 / supportsThemeCommunicationPractice",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:7",
+    "target": "urn:jy:English:SB0102:OB06:Theme:4"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题交际实践需要交际策略 / themeCommunicationPracticeRequiresCommunicativeStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:4",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:7"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题相关交际实践 / supportsThemeCommunicationPractice",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:7",
+    "target": "urn:jy:English:SB0102:OB06:Theme:5"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题交际实践需要交际策略 / themeCommunicationPracticeRequiresCommunicativeStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:5",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:7"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题相关交际实践 / supportsThemeCommunicationPractice",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:7",
+    "target": "urn:jy:English:SB0102:OB06:Theme:6"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题交际实践需要交际策略 / themeCommunicationPracticeRequiresCommunicativeStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:6",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:7"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题相关交际实践 / supportsThemeCommunicationPractice",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:7",
+    "target": "urn:jy:English:SB0102:OB06:Theme:7"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题交际实践需要交际策略 / themeCommunicationPracticeRequiresCommunicativeStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:7",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:7"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题相关交际实践 / supportsThemeCommunicationPractice",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:7",
+    "target": "urn:jy:English:SB0102:OB06:Theme:8"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题交际实践需要交际策略 / themeCommunicationPracticeRequiresCommunicativeStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:8",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:7"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题相关交际实践 / supportsThemeCommunicationPractice",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:7",
+    "target": "urn:jy:English:SB0102:OB06:Theme:9"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题交际实践需要交际策略 / themeCommunicationPracticeRequiresCommunicativeStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:9",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:7"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题相关交际实践 / supportsThemeCommunicationPractice",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:7",
+    "target": "urn:jy:English:SB0102:OB06:Theme:10"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题交际实践需要交际策略 / themeCommunicationPracticeRequiresCommunicativeStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:10",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:7"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题学习情绪与动机调控 / supportsThemeAffectiveRegulation",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:8",
+    "target": "urn:jy:English:SB0102:OB06:Theme:1"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要情感管理策略 / themeLearningRequiresAffectiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:1",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:8"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题学习情绪与动机调控 / supportsThemeAffectiveRegulation",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:8",
+    "target": "urn:jy:English:SB0102:OB06:Theme:2"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要情感管理策略 / themeLearningRequiresAffectiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:2",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:8"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题学习情绪与动机调控 / supportsThemeAffectiveRegulation",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:8",
+    "target": "urn:jy:English:SB0102:OB06:Theme:3"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要情感管理策略 / themeLearningRequiresAffectiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:3",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:8"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题学习情绪与动机调控 / supportsThemeAffectiveRegulation",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:8",
+    "target": "urn:jy:English:SB0102:OB06:Theme:4"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要情感管理策略 / themeLearningRequiresAffectiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:4",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:8"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题学习情绪与动机调控 / supportsThemeAffectiveRegulation",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:8",
+    "target": "urn:jy:English:SB0102:OB06:Theme:5"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要情感管理策略 / themeLearningRequiresAffectiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:5",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:8"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题学习情绪与动机调控 / supportsThemeAffectiveRegulation",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:8",
+    "target": "urn:jy:English:SB0102:OB06:Theme:6"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要情感管理策略 / themeLearningRequiresAffectiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:6",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:8"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题学习情绪与动机调控 / supportsThemeAffectiveRegulation",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:8",
+    "target": "urn:jy:English:SB0102:OB06:Theme:7"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要情感管理策略 / themeLearningRequiresAffectiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:7",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:8"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题学习情绪与动机调控 / supportsThemeAffectiveRegulation",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:8",
+    "target": "urn:jy:English:SB0102:OB06:Theme:8"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要情感管理策略 / themeLearningRequiresAffectiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:8",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:8"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题学习情绪与动机调控 / supportsThemeAffectiveRegulation",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:8",
+    "target": "urn:jy:English:SB0102:OB06:Theme:9"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要情感管理策略 / themeLearningRequiresAffectiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:9",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:8"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题学习情绪与动机调控 / supportsThemeAffectiveRegulation",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:8",
+    "target": "urn:jy:English:SB0102:OB06:Theme:10"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要情感管理策略 / themeLearningRequiresAffectiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:10",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:8"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "促进主题学习规划与监控 / enablesPlanningMonitoringForThemeLearning",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:9",
+    "target": "urn:jy:English:SB0102:OB06:Theme:1"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要元认知策略 / themeLearningRequiresMetacognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:1",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:9"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "促进主题学习规划与监控 / enablesPlanningMonitoringForThemeLearning",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:9",
+    "target": "urn:jy:English:SB0102:OB06:Theme:2"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要元认知策略 / themeLearningRequiresMetacognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:2",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:9"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "促进主题学习规划与监控 / enablesPlanningMonitoringForThemeLearning",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:9",
+    "target": "urn:jy:English:SB0102:OB06:Theme:3"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要元认知策略 / themeLearningRequiresMetacognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:3",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:9"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "促进主题学习规划与监控 / enablesPlanningMonitoringForThemeLearning",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:9",
+    "target": "urn:jy:English:SB0102:OB06:Theme:4"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要元认知策略 / themeLearningRequiresMetacognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:4",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:9"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "促进主题学习规划与监控 / enablesPlanningMonitoringForThemeLearning",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:9",
+    "target": "urn:jy:English:SB0102:OB06:Theme:5"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要元认知策略 / themeLearningRequiresMetacognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:5",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:9"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "促进主题学习规划与监控 / enablesPlanningMonitoringForThemeLearning",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:9",
+    "target": "urn:jy:English:SB0102:OB06:Theme:6"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要元认知策略 / themeLearningRequiresMetacognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:6",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:9"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "促进主题学习规划与监控 / enablesPlanningMonitoringForThemeLearning",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:9",
+    "target": "urn:jy:English:SB0102:OB06:Theme:7"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要元认知策略 / themeLearningRequiresMetacognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:7",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:9"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "促进主题学习规划与监控 / enablesPlanningMonitoringForThemeLearning",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:9",
+    "target": "urn:jy:English:SB0102:OB06:Theme:8"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要元认知策略 / themeLearningRequiresMetacognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:8",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:9"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "促进主题学习规划与监控 / enablesPlanningMonitoringForThemeLearning",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:9",
+    "target": "urn:jy:English:SB0102:OB06:Theme:9"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要元认知策略 / themeLearningRequiresMetacognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:9",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:9"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "促进主题学习规划与监控 / enablesPlanningMonitoringForThemeLearning",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:9",
+    "target": "urn:jy:English:SB0102:OB06:Theme:10"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要元认知策略 / themeLearningRequiresMetacognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:10",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:9"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支撑主题意义理解与建构 / supportsThemeMeaningUnderstanding",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:10",
+    "target": "urn:jy:English:SB0102:OB06:Theme:1"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题意义建构依赖认知策略 / themeMeaningConstructionReliesOnCognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:1",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:10"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支撑主题意义理解与建构 / supportsThemeMeaningUnderstanding",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:10",
+    "target": "urn:jy:English:SB0102:OB06:Theme:2"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题意义建构依赖认知策略 / themeMeaningConstructionReliesOnCognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:2",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:10"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支撑主题意义理解与建构 / supportsThemeMeaningUnderstanding",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:10",
+    "target": "urn:jy:English:SB0102:OB06:Theme:3"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题意义建构依赖认知策略 / themeMeaningConstructionReliesOnCognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:3",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:10"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支撑主题意义理解与建构 / supportsThemeMeaningUnderstanding",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:10",
+    "target": "urn:jy:English:SB0102:OB06:Theme:4"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题意义建构依赖认知策略 / themeMeaningConstructionReliesOnCognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:4",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:10"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支撑主题意义理解与建构 / supportsThemeMeaningUnderstanding",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:10",
+    "target": "urn:jy:English:SB0102:OB06:Theme:5"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题意义建构依赖认知策略 / themeMeaningConstructionReliesOnCognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:5",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:10"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支撑主题意义理解与建构 / supportsThemeMeaningUnderstanding",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:10",
+    "target": "urn:jy:English:SB0102:OB06:Theme:6"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题意义建构依赖认知策略 / themeMeaningConstructionReliesOnCognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:6",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:10"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支撑主题意义理解与建构 / supportsThemeMeaningUnderstanding",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:10",
+    "target": "urn:jy:English:SB0102:OB06:Theme:7"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题意义建构依赖认知策略 / themeMeaningConstructionReliesOnCognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:7",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:10"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支撑主题意义理解与建构 / supportsThemeMeaningUnderstanding",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:10",
+    "target": "urn:jy:English:SB0102:OB06:Theme:8"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题意义建构依赖认知策略 / themeMeaningConstructionReliesOnCognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:8",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:10"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支撑主题意义理解与建构 / supportsThemeMeaningUnderstanding",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:10",
+    "target": "urn:jy:English:SB0102:OB06:Theme:9"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题意义建构依赖认知策略 / themeMeaningConstructionReliesOnCognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:9",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:10"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支撑主题意义理解与建构 / supportsThemeMeaningUnderstanding",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:10",
+    "target": "urn:jy:English:SB0102:OB06:Theme:10"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题意义建构依赖认知策略 / themeMeaningConstructionReliesOnCognitiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:10",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:10"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题相关交际实践 / supportsThemeCommunicationPractice",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:11",
+    "target": "urn:jy:English:SB0102:OB06:Theme:1"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题交际实践需要交际策略 / themeCommunicationPracticeRequiresCommunicativeStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:1",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:11"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题相关交际实践 / supportsThemeCommunicationPractice",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:11",
+    "target": "urn:jy:English:SB0102:OB06:Theme:2"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题交际实践需要交际策略 / themeCommunicationPracticeRequiresCommunicativeStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:2",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:11"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题相关交际实践 / supportsThemeCommunicationPractice",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:11",
+    "target": "urn:jy:English:SB0102:OB06:Theme:3"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题交际实践需要交际策略 / themeCommunicationPracticeRequiresCommunicativeStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:3",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:11"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题相关交际实践 / supportsThemeCommunicationPractice",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:11",
+    "target": "urn:jy:English:SB0102:OB06:Theme:4"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题交际实践需要交际策略 / themeCommunicationPracticeRequiresCommunicativeStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:4",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:11"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题相关交际实践 / supportsThemeCommunicationPractice",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:11",
+    "target": "urn:jy:English:SB0102:OB06:Theme:5"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题交际实践需要交际策略 / themeCommunicationPracticeRequiresCommunicativeStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:5",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:11"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题相关交际实践 / supportsThemeCommunicationPractice",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:11",
+    "target": "urn:jy:English:SB0102:OB06:Theme:6"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题交际实践需要交际策略 / themeCommunicationPracticeRequiresCommunicativeStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:6",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:11"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题相关交际实践 / supportsThemeCommunicationPractice",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:11",
+    "target": "urn:jy:English:SB0102:OB06:Theme:7"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题交际实践需要交际策略 / themeCommunicationPracticeRequiresCommunicativeStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:7",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:11"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题相关交际实践 / supportsThemeCommunicationPractice",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:11",
+    "target": "urn:jy:English:SB0102:OB06:Theme:8"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题交际实践需要交际策略 / themeCommunicationPracticeRequiresCommunicativeStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:8",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:11"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题相关交际实践 / supportsThemeCommunicationPractice",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:11",
+    "target": "urn:jy:English:SB0102:OB06:Theme:9"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题交际实践需要交际策略 / themeCommunicationPracticeRequiresCommunicativeStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:9",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:11"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题相关交际实践 / supportsThemeCommunicationPractice",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:11",
+    "target": "urn:jy:English:SB0102:OB06:Theme:10"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题交际实践需要交际策略 / themeCommunicationPracticeRequiresCommunicativeStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:10",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:11"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题学习情绪与动机调控 / supportsThemeAffectiveRegulation",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:12",
+    "target": "urn:jy:English:SB0102:OB06:Theme:1"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要情感管理策略 / themeLearningRequiresAffectiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:1",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:12"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题学习情绪与动机调控 / supportsThemeAffectiveRegulation",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:12",
+    "target": "urn:jy:English:SB0102:OB06:Theme:2"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要情感管理策略 / themeLearningRequiresAffectiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:2",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:12"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题学习情绪与动机调控 / supportsThemeAffectiveRegulation",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:12",
+    "target": "urn:jy:English:SB0102:OB06:Theme:3"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要情感管理策略 / themeLearningRequiresAffectiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:3",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:12"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题学习情绪与动机调控 / supportsThemeAffectiveRegulation",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:12",
+    "target": "urn:jy:English:SB0102:OB06:Theme:4"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要情感管理策略 / themeLearningRequiresAffectiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:4",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:12"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题学习情绪与动机调控 / supportsThemeAffectiveRegulation",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:12",
+    "target": "urn:jy:English:SB0102:OB06:Theme:5"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要情感管理策略 / themeLearningRequiresAffectiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:5",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:12"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题学习情绪与动机调控 / supportsThemeAffectiveRegulation",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:12",
+    "target": "urn:jy:English:SB0102:OB06:Theme:6"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要情感管理策略 / themeLearningRequiresAffectiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:6",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:12"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题学习情绪与动机调控 / supportsThemeAffectiveRegulation",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:12",
+    "target": "urn:jy:English:SB0102:OB06:Theme:7"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要情感管理策略 / themeLearningRequiresAffectiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:7",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:12"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题学习情绪与动机调控 / supportsThemeAffectiveRegulation",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:12",
+    "target": "urn:jy:English:SB0102:OB06:Theme:8"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要情感管理策略 / themeLearningRequiresAffectiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:8",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:12"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题学习情绪与动机调控 / supportsThemeAffectiveRegulation",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:12",
+    "target": "urn:jy:English:SB0102:OB06:Theme:9"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要情感管理策略 / themeLearningRequiresAffectiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:9",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:12"
+  },
+  {
+    "relationName": "learningStrategySupportsTheme",
+    "label": "支持主题学习情绪与动机调控 / supportsThemeAffectiveRegulation",
+    "source": "urn:jy:English:SB0102:OB06:LearningStrategy:12",
+    "target": "urn:jy:English:SB0102:OB06:Theme:10"
+  },
+  {
+    "relationName": "themeRequiresLearningStrategy",
+    "label": "主题学习需要情感管理策略 / themeLearningRequiresAffectiveStrategy",
+    "source": "urn:jy:English:SB0102:OB06:Theme:10",
+    "target": "urn:jy:English:SB0102:OB06:LearningStrategy:12"
+  }
+]

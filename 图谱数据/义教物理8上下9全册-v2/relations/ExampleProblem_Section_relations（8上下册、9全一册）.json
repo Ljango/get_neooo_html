@@ -1,0 +1,2180 @@
+[
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:002",
+    "target": "urn:jy:physics:SB0401:OB06:Section:47",
+    "evidence": {
+      "matchScore": 0.1751,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例2",
+        "exampleText": "能运用物态变化知识，说明冰熔化、水沸腾等现象。"
+      },
+      "fromSection": {
+        "sectionTitle": "第一节 物态变化 温度",
+        "chapterTitle": "第一章 物态及其变化",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "以帮助学生建立完整的函数概念，不仅把函数理解为刻画变量之间依赖关系的数学语言和工具，也把函数理解为实数集合之间的对应关系；能用代数运算和函数图象揭示函数的主要性质；在现实问题中，能利用函数构建模型，解决问题。  内容包括：函数概念、函数性质、* 函数的形成与发展（标有 * 的内容均为选学内容，不作为考试要求）。  # （1）函数概念  ①在初中用变量之间的依赖关系描述函数的基础上，用集合语言和对应关系刻画函数，建立完整的函数概念（参见案例2），体会集合语言和对应关系在刻画函数概念中的作用。了解构成函数的要素，能求简单函数的定义域。  ②在实际情境中，会根据不同的需要选择恰当的方法（如图象法、列表法、解析法等）表示函数，理解函数图象的作用。  (3)通过具体实例，了解简单的分段函数，并能简单应用。  # （2）函数性质  ① 借助函数图象，会用符号语言表达函数的单调性、最大（小）值，理解它们的作用和实际意义。  ②结合具体函数，了解奇偶性的概念和几何意义。  (3)结合"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:47",
+    "target": "urn:jy:physics:OB05:Example:002",
+    "evidence": {
+      "matchScore": 0.1751,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:003",
+    "target": "urn:jy:physics:SB0401:OB06:Section:47",
+    "evidence": {
+      "matchScore": 0.154,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例3",
+        "exampleText": "了解我国古代的铸造技术，并尝试运用物态变化知识进行解释。"
+      },
+      "fromSection": {
+        "sectionTitle": "第一节 物态变化 温度",
+        "chapterTitle": "第一章 物态及其变化",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "础上，借助单位圆建立一般三角函数的概念，体会引入弧度制的必要性；用几何直观和代数运算的方法研究三角函数的周期性、奇偶性（对称性）、单调性和最大（小）值等性质；探索和研究三角函数之间的一些恒等关系；利用三角函数构建数学模型，解决实际问题。  内容包括：角与弧度、三角函数概念和性质、同角三角函数的基本关系式、三角恒等变换、三角函数应用。  # （1）角与弧度  了解任意角的概念和弧度制，能进行弧度与角度的互化，体会引入弧度制的必要性（参见案例3）。  # （2）三角函数概念和性质  ① 借助单位圆理解三角函数（正弦函数、余弦函数、正切函数）的定义，能画出这些三角函数的图象，了解三角函数的周期性、单调性、奇偶性、最大（小）值。借助单位圆的对称性，利用定义推导出诱导公式  $(\\alpha \\pm \\frac{\\pi}{2}, \\alpha \\pm \\pi$  的正弦、余弦、正切）。  ② 借助图象理解正弦函数、余弦函数在  $[0, 2\\pi]$  上，正切函数在  $\\l"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:47",
+    "target": "urn:jy:physics:OB05:Example:003",
+    "evidence": {
+      "matchScore": 0.154,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:004",
+    "target": "urn:jy:physics:SB0401:OB06:Section:72",
+    "evidence": {
+      "matchScore": 0.142,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例1",
+        "exampleText": "通过实验，了解橡胶的弹性。列举弹性在生活中的应用实例。"
+      },
+      "fromSection": {
+        "sectionTitle": "第三节 生活中的透镜",
+        "chapterTitle": "第五章 透镜及其应用",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "方程、从函数观点看一元二次不等式。  （1）从函数观点看一元二次方程  会结合一元二次函数的图象，判断一元二次方程实根的存在性及实根的个数，了解函数的零点与方程根的关系。  （2）从函数观点看一元二次不等式  ① 经历从实际情境中抽象出一元二次不等式的过程，了解一元二次不等式的现实意义。能借助一元二次函数求解一元二次不等式，并能用集合表示一元二次不等式的解集。  ②借助一元二次函数的图象，了解一元二次不等式与相应函数、方程的联系（参见案例1）。  # 【教学提示】  初中阶段数学知识相对具体，高中阶段数学知识相对抽象。教师应针对这一特征帮助学生完成从初中到高中数学学习的过渡，包括学习心理、学习方式等方面。  在集合、常用逻辑用语的教学中，教师应创设合适的教学情境，以义务教育阶段学过的数学内容为载体，引导学生用集合语言和常用逻辑用语梳理、表达学过的相应数学内容。应引导学生理解属于关系可以定义集合的基本关系，了解元素  $a$  与由元素  $a$  组成的集合  $\\{"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:72",
+    "target": "urn:jy:physics:OB05:Example:004",
+    "evidence": {
+      "matchScore": 0.142,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:005",
+    "target": "urn:jy:physics:SB0401:OB06:Section:72",
+    "evidence": {
+      "matchScore": 0.1299,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例2",
+        "exampleText": "通过实验，了解物质的磁性和磁化现象。调查磁性材料在生活中的应用。"
+      },
+      "fromSection": {
+        "sectionTitle": "第三节 生活中的透镜",
+        "chapterTitle": "第五章 透镜及其应用",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "以帮助学生建立完整的函数概念，不仅把函数理解为刻画变量之间依赖关系的数学语言和工具，也把函数理解为实数集合之间的对应关系；能用代数运算和函数图象揭示函数的主要性质；在现实问题中，能利用函数构建模型，解决问题。  内容包括：函数概念、函数性质、* 函数的形成与发展（标有 * 的内容均为选学内容，不作为考试要求）。  # （1）函数概念  ①在初中用变量之间的依赖关系描述函数的基础上，用集合语言和对应关系刻画函数，建立完整的函数概念（参见案例2），体会集合语言和对应关系在刻画函数概念中的作用。了解构成函数的要素，能求简单函数的定义域。  ②在实际情境中，会根据不同的需要选择恰当的方法（如图象法、列表法、解析法等）表示函数，理解函数图象的作用。  (3)通过具体实例，了解简单的分段函数，并能简单应用。  # （2）函数性质  ① 借助函数图象，会用符号语言表达函数的单调性、最大（小）值，理解它们的作用和实际意义。  ②结合具体函数，了解奇偶性的概念和几何意义。  (3)结合"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:72",
+    "target": "urn:jy:physics:OB05:Example:005",
+    "evidence": {
+      "matchScore": 0.1299,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:005",
+    "target": "urn:jy:physics:SB0401:OB06:Section:62",
+    "evidence": {
+      "matchScore": 0.1024,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例2",
+        "exampleText": "通过实验，了解物质的磁性和磁化现象。调查磁性材料在生活中的应用。"
+      },
+      "fromSection": {
+        "sectionTitle": "第四节 声波的应用",
+        "chapterTitle": "第三章 声现象",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "以帮助学生建立完整的函数概念，不仅把函数理解为刻画变量之间依赖关系的数学语言和工具，也把函数理解为实数集合之间的对应关系；能用代数运算和函数图象揭示函数的主要性质；在现实问题中，能利用函数构建模型，解决问题。  内容包括：函数概念、函数性质、* 函数的形成与发展（标有 * 的内容均为选学内容，不作为考试要求）。  # （1）函数概念  ①在初中用变量之间的依赖关系描述函数的基础上，用集合语言和对应关系刻画函数，建立完整的函数概念（参见案例2），体会集合语言和对应关系在刻画函数概念中的作用。了解构成函数的要素，能求简单函数的定义域。  ②在实际情境中，会根据不同的需要选择恰当的方法（如图象法、列表法、解析法等）表示函数，理解函数图象的作用。  (3)通过具体实例，了解简单的分段函数，并能简单应用。  # （2）函数性质  ① 借助函数图象，会用符号语言表达函数的单调性、最大（小）值，理解它们的作用和实际意义。  ②结合具体函数，了解奇偶性的概念和几何意义。  (3)结合"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:62",
+    "target": "urn:jy:physics:OB05:Example:005",
+    "evidence": {
+      "matchScore": 0.1024,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:006",
+    "target": "urn:jy:physics:SB0401:OB06:Section:3",
+    "evidence": {
+      "matchScore": 0.3072,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例3",
+        "exampleText": "通过实验，了解物质的导电性，比较导体、半导体、绝缘体导电性能的差异。"
+      },
+      "fromSection": {
+        "sectionTitle": "三、不同物质的导电性能",
+        "chapterTitle": "第九章 简单电路",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "础上，借助单位圆建立一般三角函数的概念，体会引入弧度制的必要性；用几何直观和代数运算的方法研究三角函数的周期性、奇偶性（对称性）、单调性和最大（小）值等性质；探索和研究三角函数之间的一些恒等关系；利用三角函数构建数学模型，解决实际问题。  内容包括：角与弧度、三角函数概念和性质、同角三角函数的基本关系式、三角恒等变换、三角函数应用。  # （1）角与弧度  了解任意角的概念和弧度制，能进行弧度与角度的互化，体会引入弧度制的必要性（参见案例3）。  # （2）三角函数概念和性质  ① 借助单位圆理解三角函数（正弦函数、余弦函数、正切函数）的定义，能画出这些三角函数的图象，了解三角函数的周期性、单调性、奇偶性、最大（小）值。借助单位圆的对称性，利用定义推导出诱导公式  $(\\alpha \\pm \\frac{\\pi}{2}, \\alpha \\pm \\pi$  的正弦、余弦、正切）。  ② 借助图象理解正弦函数、余弦函数在  $[0, 2\\pi]$  上，正切函数在  $\\l"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:3",
+    "target": "urn:jy:physics:OB05:Example:006",
+    "evidence": {
+      "matchScore": 0.3072,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:008",
+    "target": "urn:jy:physics:SB0401:OB06:Section:75",
+    "evidence": {
+      "matchScore": 0.1928,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例5",
+        "exampleText": "列举质量为几克、几十克、几百克和几千克的一些物品，能估测常见物体的质量。"
+      },
+      "fromSection": {
+        "sectionTitle": "第一节 物体的质量及其测量",
+        "chapterTitle": "第六章 质量和密度",
+        "grade": "八年级",
+        "volume": "下册"
+      },
+      "fromMd": {
+        "snippet": "的几何直观等角度整体认识函数概念；通过梳理函数的单调性、周期性、奇偶性（对称性）、最大（小）值等，认识函数的整体性质；经历运用函数解决实际问题的全过程。  函数概念的引入，可以用学生熟悉的例子为背景进行抽象。例如，可以从学生已知的、基于变量关系的函数定义入手，引导学生通过生活或数学中的问题，构建函数的一般概念，体会用对应关系定义函数的必要性，感悟数学抽象的层次。  函数单调性的教学，要引导学生正确使用符号语言清晰地刻画函数的性质（参见案例5）。在函数定义域、值域以及函数性质的教学过程中，应避免编制偏题、怪题，避免烦琐的技巧训练。  指数函数的教学，应关注指数函数的运算法则和变化规律，引导学生经历从整数指数幂到有理数指数幂，再到实数指数幂的拓展过程，掌握指数函数的运算法则和变化规律。  对数函数的教学，应通过比较同底数的指数函数和对数函数（例如， $y = 2^x$  和  $y = \\log_2 x$ ），认识它们互为反函数。  三角函数的教学，应发挥单位圆的作用，引"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:75",
+    "target": "urn:jy:physics:OB05:Example:008",
+    "evidence": {
+      "matchScore": 0.1928,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:016",
+    "target": "urn:jy:physics:SB0401:OB06:Section:23",
+    "evidence": {
+      "matchScore": 0.097,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例3",
+        "exampleText": "通过实验，认识力的作用是相互的。"
+      },
+      "fromSection": {
+        "sectionTitle": "五、磁场对通电导体的作用",
+        "chapterTitle": "第十二章 磁现象",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "础上，借助单位圆建立一般三角函数的概念，体会引入弧度制的必要性；用几何直观和代数运算的方法研究三角函数的周期性、奇偶性（对称性）、单调性和最大（小）值等性质；探索和研究三角函数之间的一些恒等关系；利用三角函数构建数学模型，解决实际问题。  内容包括：角与弧度、三角函数概念和性质、同角三角函数的基本关系式、三角恒等变换、三角函数应用。  # （1）角与弧度  了解任意角的概念和弧度制，能进行弧度与角度的互化，体会引入弧度制的必要性（参见案例3）。  # （2）三角函数概念和性质  ① 借助单位圆理解三角函数（正弦函数、余弦函数、正切函数）的定义，能画出这些三角函数的图象，了解三角函数的周期性、单调性、奇偶性、最大（小）值。借助单位圆的对称性，利用定义推导出诱导公式  $(\\alpha \\pm \\frac{\\pi}{2}, \\alpha \\pm \\pi$  的正弦、余弦、正切）。  ② 借助图象理解正弦函数、余弦函数在  $[0, 2\\pi]$  上，正切函数在  $\\l"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:23",
+    "target": "urn:jy:physics:OB05:Example:016",
+    "evidence": {
+      "matchScore": 0.097,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:017",
+    "target": "urn:jy:physics:SB0401:OB06:Section:55",
+    "evidence": {
+      "matchScore": 0.1827,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例4",
+        "exampleText": "通过实验，认识力可以改变物体运动的方向和快慢，也可以改变物体的形状。"
+      },
+      "fromSection": {
+        "sectionTitle": "第三节 比较物体运动的快慢",
+        "chapterTitle": "第二章 机械运动",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "。  # （4）三角恒等变换  (1) 经历推导两角差余弦公式的过程, 知道两角差余弦公式的意义。  ②能从两角差的余弦公式推导出两角和与差的正弦、余弦、正切公式，二倍角的正弦、余弦、正切公式，了解它们的内在联系。  ③能运用上述公式进行简单的恒等变换（包括推导出积化和差、和差化积、半角公式，这三组公式不要求记忆）。  # （5）三角函数应用  会用三角函数解决简单的实际问题，体会可以利用三角函数构建刻画事物周期变化的数学模型（参见案例4）。  # 4. 函数应用  函数应用不仅体现在用函数解决数学问题，更重要的是用函数解决实际问题。本单元的学习，可以帮助学生掌握运用函数性质求方程近似解的基本方法（二分法）；理解用函数构建数学模型的基本过程；运用模型思想发现和提出问题、分析和解决问题。  内容包括：二分法与求方程近似解、函数与数学模型。  # （1）二分法与求方程近似解  ①结合学过的函数图象，了解函数零点与方程解的关系。  ②结合具体连续函数及其图象的特点，了解函"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:55",
+    "target": "urn:jy:physics:OB05:Example:017",
+    "evidence": {
+      "matchScore": 0.1827,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:019",
+    "target": "urn:jy:physics:SB0401:OB06:Section:39",
+    "evidence": {
+      "matchScore": 0.1858,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例6",
+        "exampleText": "了解伽利略在探究与物体惯性有关问题时采用的思想实验，体会科学推理在科学研究中的作用。"
+      },
+      "fromSection": {
+        "sectionTitle": "在科学探究中怎样提出可探究的科学问题",
+        "chapterTitle": "科学探究",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "怪题，避免烦琐的技巧训练。  指数函数的教学，应关注指数函数的运算法则和变化规律，引导学生经历从整数指数幂到有理数指数幂，再到实数指数幂的拓展过程，掌握指数函数的运算法则和变化规律。  对数函数的教学，应通过比较同底数的指数函数和对数函数（例如， $y = 2^x$  和  $y = \\log_2 x$ ），认识它们互为反函数。  三角函数的教学，应发挥单位圆的作用，引导学生结合实际情境，借助单位圆的直观，探索三角函数的有关性质（参见案例6）。在三角恒等变换的教学中，可以采用不同的方式得到三角恒等变换基本公式；也可以在向量的学习中，引导学生利用向量的数量积推导出两角差的余弦公式。  函数应用的教学，要引导学生理解如何用函数描述客观世界事物的变化规律，体会幂函数、指数函数、对数函数、三角函数等函数与现实世界的密切联系（参见案例7）。  鼓励学生运用信息技术学习、探索和解决问题。例如，利用计算器、计算机画出幂函数、指数函数、对数函数、三角函数等的图象，探索、比较它们的变化"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:39",
+    "target": "urn:jy:physics:OB05:Example:019",
+    "evidence": {
+      "matchScore": 0.1858,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:019",
+    "target": "urn:jy:physics:SB0401:OB06:Section:42",
+    "evidence": {
+      "matchScore": 0.1674,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例6",
+        "exampleText": "了解伽利略在探究与物体惯性有关问题时采用的思想实验，体会科学推理在科学研究中的作用。"
+      },
+      "fromSection": {
+        "sectionTitle": "在科学探究中怎样处理实验数据",
+        "chapterTitle": "科学探究",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "怪题，避免烦琐的技巧训练。  指数函数的教学，应关注指数函数的运算法则和变化规律，引导学生经历从整数指数幂到有理数指数幂，再到实数指数幂的拓展过程，掌握指数函数的运算法则和变化规律。  对数函数的教学，应通过比较同底数的指数函数和对数函数（例如， $y = 2^x$  和  $y = \\log_2 x$ ），认识它们互为反函数。  三角函数的教学，应发挥单位圆的作用，引导学生结合实际情境，借助单位圆的直观，探索三角函数的有关性质（参见案例6）。在三角恒等变换的教学中，可以采用不同的方式得到三角恒等变换基本公式；也可以在向量的学习中，引导学生利用向量的数量积推导出两角差的余弦公式。  函数应用的教学，要引导学生理解如何用函数描述客观世界事物的变化规律，体会幂函数、指数函数、对数函数、三角函数等函数与现实世界的密切联系（参见案例7）。  鼓励学生运用信息技术学习、探索和解决问题。例如，利用计算器、计算机画出幂函数、指数函数、对数函数、三角函数等的图象，探索、比较它们的变化"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:42",
+    "target": "urn:jy:physics:OB05:Example:019",
+    "evidence": {
+      "matchScore": 0.1674,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:019",
+    "target": "urn:jy:physics:SB0401:OB06:Section:40",
+    "evidence": {
+      "matchScore": 0.1543,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例6",
+        "exampleText": "了解伽利略在探究与物体惯性有关问题时采用的思想实验，体会科学推理在科学研究中的作用。"
+      },
+      "fromSection": {
+        "sectionTitle": "科学探究中的测量与操作定义",
+        "chapterTitle": "科学探究",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "怪题，避免烦琐的技巧训练。  指数函数的教学，应关注指数函数的运算法则和变化规律，引导学生经历从整数指数幂到有理数指数幂，再到实数指数幂的拓展过程，掌握指数函数的运算法则和变化规律。  对数函数的教学，应通过比较同底数的指数函数和对数函数（例如， $y = 2^x$  和  $y = \\log_2 x$ ），认识它们互为反函数。  三角函数的教学，应发挥单位圆的作用，引导学生结合实际情境，借助单位圆的直观，探索三角函数的有关性质（参见案例6）。在三角恒等变换的教学中，可以采用不同的方式得到三角恒等变换基本公式；也可以在向量的学习中，引导学生利用向量的数量积推导出两角差的余弦公式。  函数应用的教学，要引导学生理解如何用函数描述客观世界事物的变化规律，体会幂函数、指数函数、对数函数、三角函数等函数与现实世界的密切联系（参见案例7）。  鼓励学生运用信息技术学习、探索和解决问题。例如，利用计算器、计算机画出幂函数、指数函数、对数函数、三角函数等的图象，探索、比较它们的变化"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:40",
+    "target": "urn:jy:physics:OB05:Example:019",
+    "evidence": {
+      "matchScore": 0.1543,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:019",
+    "target": "urn:jy:physics:SB0401:OB06:Section:41",
+    "evidence": {
+      "matchScore": 0.1263,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例6",
+        "exampleText": "了解伽利略在探究与物体惯性有关问题时采用的思想实验，体会科学推理在科学研究中的作用。"
+      },
+      "fromSection": {
+        "sectionTitle": "科学探究中怎样控制变量",
+        "chapterTitle": "科学探究",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "怪题，避免烦琐的技巧训练。  指数函数的教学，应关注指数函数的运算法则和变化规律，引导学生经历从整数指数幂到有理数指数幂，再到实数指数幂的拓展过程，掌握指数函数的运算法则和变化规律。  对数函数的教学，应通过比较同底数的指数函数和对数函数（例如， $y = 2^x$  和  $y = \\log_2 x$ ），认识它们互为反函数。  三角函数的教学，应发挥单位圆的作用，引导学生结合实际情境，借助单位圆的直观，探索三角函数的有关性质（参见案例6）。在三角恒等变换的教学中，可以采用不同的方式得到三角恒等变换基本公式；也可以在向量的学习中，引导学生利用向量的数量积推导出两角差的余弦公式。  函数应用的教学，要引导学生理解如何用函数描述客观世界事物的变化规律，体会幂函数、指数函数、对数函数、三角函数等函数与现实世界的密切联系（参见案例7）。  鼓励学生运用信息技术学习、探索和解决问题。例如，利用计算器、计算机画出幂函数、指数函数、对数函数、三角函数等的图象，探索、比较它们的变化"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:41",
+    "target": "urn:jy:physics:OB05:Example:019",
+    "evidence": {
+      "matchScore": 0.1263,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:021",
+    "target": "urn:jy:physics:SB0401:OB06:Section:86",
+    "evidence": {
+      "matchScore": 0.077,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例8",
+        "exampleText": "估测自己站立时对地面的压强。"
+      },
+      "fromSection": {
+        "sectionTitle": "第一节 压强",
+        "chapterTitle": "第八章 压强和浮力",
+        "grade": "八年级",
+        "volume": "下册"
+      },
+      "fromMd": {
+        "snippet": "方式得到三角恒等变换基本公式；也可以在向量的学习中，引导学生利用向量的数量积推导出两角差的余弦公式。  函数应用的教学，要引导学生理解如何用函数描述客观世界事物的变化规律，体会幂函数、指数函数、对数函数、三角函数等函数与现实世界的密切联系（参见案例7）。  鼓励学生运用信息技术学习、探索和解决问题。例如，利用计算器、计算机画出幂函数、指数函数、对数函数、三角函数等的图象，探索、比较它们的变化规律，研究函数的性质，求方程的近似解等（参见案例8）。  可以组织学生收集、阅读函数的形成与发展的历史资料，结合内容撰写报告，论述函数发展的过程、重要结果、主要人物、关键事件及其对人类文明的贡献。  # 【学业要求】  能够从两个变量之间的依赖关系、实数集合之间的对应关系、函数图象的几何直观等多个角度，理解函数的意义与数学表达；理解函数符号表达与抽象定义之间的关联，知道函数抽象概念的意义。  能够理解函数的单调性、最大（小）值，了解函数的奇偶性、周期性；理解一些基本函数类（如一元一"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:86",
+    "target": "urn:jy:physics:OB05:Example:021",
+    "evidence": {
+      "matchScore": 0.077,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:023",
+    "target": "urn:jy:physics:SB0401:OB06:Section:92",
+    "evidence": {
+      "matchScore": 0.0977,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例10",
+        "exampleText": "了解潜水艇的浮沉原理。"
+      },
+      "fromSection": {
+        "sectionTitle": "第七节 物体的浮沉条件及其应用",
+        "chapterTitle": "第八章 压强和浮力",
+        "grade": "八年级",
+        "volume": "下册"
+      },
+      "fromMd": {
+        "snippet": "建立基的概念和向量的坐标表示。可以引导学生运用向量解决一些物理和几何问题。例如，利用向量计算力使物体沿某方向运动所做的功，利用向量解决与平面内两条直线平行或垂直有关的问题等。对于向量的非正交分解只要求学生一般了解，不必展开。  在复数的教学中，应注重对复数的表示及几何意义的理解，避免烦琐的计算与技巧训练。对于学有余力的学生，可以安排一些引申内容，  如复数的三角表示等。可以适当融入数学文化，让学生体会数系扩充过程中理性思维的作用（参见案例10）。  立体几何初步的教学重点是帮助学生逐步形成空间观念，应遵循从整体到局部、从具体到抽象的原则，提供丰富的实物模型或利用计算机软件呈现空间几何体，帮助学生认识空间几何体的结构特征，进一步掌握在平面上表示空间图形的方法和技能。通过对图形的观察和操作，引导学生发现和提出描述基本图形平行、垂直关系的命题，逐步学会用准确的数学语言表达这些命题，直观解释命题的含义和表述证明的思路，并证明其中一些命题；对相应的判定定理只要求直观感知、操作确"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:92",
+    "target": "urn:jy:physics:OB05:Example:023",
+    "evidence": {
+      "matchScore": 0.0977,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:024",
+    "target": "urn:jy:physics:SB0401:OB06:Section:55",
+    "evidence": {
+      "matchScore": 0.0767,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例1",
+        "exampleText": "在鼓面上放碎纸屑，敲击鼓面，观察纸屑的运动；敲击音叉，观察与其接触的物体的运动。了解实验中将微小变化放大的方法。"
+      },
+      "fromSection": {
+        "sectionTitle": "第三节 比较物体运动的快慢",
+        "chapterTitle": "第二章 机械运动",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "方程、从函数观点看一元二次不等式。  （1）从函数观点看一元二次方程  会结合一元二次函数的图象，判断一元二次方程实根的存在性及实根的个数，了解函数的零点与方程根的关系。  （2）从函数观点看一元二次不等式  ① 经历从实际情境中抽象出一元二次不等式的过程，了解一元二次不等式的现实意义。能借助一元二次函数求解一元二次不等式，并能用集合表示一元二次不等式的解集。  ②借助一元二次函数的图象，了解一元二次不等式与相应函数、方程的联系（参见案例1）。  # 【教学提示】  初中阶段数学知识相对具体，高中阶段数学知识相对抽象。教师应针对这一特征帮助学生完成从初中到高中数学学习的过渡，包括学习心理、学习方式等方面。  在集合、常用逻辑用语的教学中，教师应创设合适的教学情境，以义务教育阶段学过的数学内容为载体，引导学生用集合语言和常用逻辑用语梳理、表达学过的相应数学内容。应引导学生理解属于关系可以定义集合的基本关系，了解元素  $a$  与由元素  $a$  组成的集合  $\\{"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:55",
+    "target": "urn:jy:physics:OB05:Example:024",
+    "evidence": {
+      "matchScore": 0.0767,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:026",
+    "target": "urn:jy:physics:SB0401:OB06:Section:62",
+    "evidence": {
+      "matchScore": 0.0936,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例3",
+        "exampleText": "了解超声波在生产生活和科学研究等方面的应用，如超声雷达、金属探伤、医学检查等。"
+      },
+      "fromSection": {
+        "sectionTitle": "第四节 声波的应用",
+        "chapterTitle": "第三章 声现象",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "础上，借助单位圆建立一般三角函数的概念，体会引入弧度制的必要性；用几何直观和代数运算的方法研究三角函数的周期性、奇偶性（对称性）、单调性和最大（小）值等性质；探索和研究三角函数之间的一些恒等关系；利用三角函数构建数学模型，解决实际问题。  内容包括：角与弧度、三角函数概念和性质、同角三角函数的基本关系式、三角恒等变换、三角函数应用。  # （1）角与弧度  了解任意角的概念和弧度制，能进行弧度与角度的互化，体会引入弧度制的必要性（参见案例3）。  # （2）三角函数概念和性质  ① 借助单位圆理解三角函数（正弦函数、余弦函数、正切函数）的定义，能画出这些三角函数的图象，了解三角函数的周期性、单调性、奇偶性、最大（小）值。借助单位圆的对称性，利用定义推导出诱导公式  $(\\alpha \\pm \\frac{\\pi}{2}, \\alpha \\pm \\pi$  的正弦、余弦、正切）。  ② 借助图象理解正弦函数、余弦函数在  $[0, 2\\pi]$  上，正切函数在  $\\l"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:62",
+    "target": "urn:jy:physics:OB05:Example:026",
+    "evidence": {
+      "matchScore": 0.0936,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:028",
+    "target": "urn:jy:physics:SB0401:OB06:Section:66",
+    "evidence": {
+      "matchScore": 0.0727,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例5",
+        "exampleText": "探究并了解光束在平面镜上反射时，反射角与入射角的关系。"
+      },
+      "fromSection": {
+        "sectionTitle": "第三节 平面镜成像的特点",
+        "chapterTitle": "第四章 光现象",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "的几何直观等角度整体认识函数概念；通过梳理函数的单调性、周期性、奇偶性（对称性）、最大（小）值等，认识函数的整体性质；经历运用函数解决实际问题的全过程。  函数概念的引入，可以用学生熟悉的例子为背景进行抽象。例如，可以从学生已知的、基于变量关系的函数定义入手，引导学生通过生活或数学中的问题，构建函数的一般概念，体会用对应关系定义函数的必要性，感悟数学抽象的层次。  函数单调性的教学，要引导学生正确使用符号语言清晰地刻画函数的性质（参见案例5）。在函数定义域、值域以及函数性质的教学过程中，应避免编制偏题、怪题，避免烦琐的技巧训练。  指数函数的教学，应关注指数函数的运算法则和变化规律，引导学生经历从整数指数幂到有理数指数幂，再到实数指数幂的拓展过程，掌握指数函数的运算法则和变化规律。  对数函数的教学，应通过比较同底数的指数函数和对数函数（例如， $y = 2^x$  和  $y = \\log_2 x$ ），认识它们互为反函数。  三角函数的教学，应发挥单位圆的作用，引"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:66",
+    "target": "urn:jy:physics:OB05:Example:028",
+    "evidence": {
+      "matchScore": 0.0727,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:029",
+    "target": "urn:jy:physics:SB0401:OB06:Section:67",
+    "evidence": {
+      "matchScore": 0.1562,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例6",
+        "exampleText": "通过光束从空气射入水（或玻璃）中的实验，了解光的折射现象及其特点。"
+      },
+      "fromSection": {
+        "sectionTitle": "第四节 光的折射",
+        "chapterTitle": "第四章 光现象",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "怪题，避免烦琐的技巧训练。  指数函数的教学，应关注指数函数的运算法则和变化规律，引导学生经历从整数指数幂到有理数指数幂，再到实数指数幂的拓展过程，掌握指数函数的运算法则和变化规律。  对数函数的教学，应通过比较同底数的指数函数和对数函数（例如， $y = 2^x$  和  $y = \\log_2 x$ ），认识它们互为反函数。  三角函数的教学，应发挥单位圆的作用，引导学生结合实际情境，借助单位圆的直观，探索三角函数的有关性质（参见案例6）。在三角恒等变换的教学中，可以采用不同的方式得到三角恒等变换基本公式；也可以在向量的学习中，引导学生利用向量的数量积推导出两角差的余弦公式。  函数应用的教学，要引导学生理解如何用函数描述客观世界事物的变化规律，体会幂函数、指数函数、对数函数、三角函数等函数与现实世界的密切联系（参见案例7）。  鼓励学生运用信息技术学习、探索和解决问题。例如，利用计算器、计算机画出幂函数、指数函数、对数函数、三角函数等的图象，探索、比较它们的变化"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:67",
+    "target": "urn:jy:physics:OB05:Example:029",
+    "evidence": {
+      "matchScore": 0.1562,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:030",
+    "target": "urn:jy:physics:SB0401:OB06:Section:71",
+    "evidence": {
+      "matchScore": 0.2501,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例7",
+        "exampleText": "了解凸透镜成像规律在放大镜、照相机中的应用。"
+      },
+      "fromSection": {
+        "sectionTitle": "第二节 凸透镜成像的规律",
+        "chapterTitle": "第五章 透镜及其应用",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "g_2 x$ ），认识它们互为反函数。  三角函数的教学，应发挥单位圆的作用，引导学生结合实际情境，借助单位圆的直观，探索三角函数的有关性质（参见案例6）。在三角恒等变换的教学中，可以采用不同的方式得到三角恒等变换基本公式；也可以在向量的学习中，引导学生利用向量的数量积推导出两角差的余弦公式。  函数应用的教学，要引导学生理解如何用函数描述客观世界事物的变化规律，体会幂函数、指数函数、对数函数、三角函数等函数与现实世界的密切联系（参见案例7）。  鼓励学生运用信息技术学习、探索和解决问题。例如，利用计算器、计算机画出幂函数、指数函数、对数函数、三角函数等的图象，探索、比较它们的变化规律，研究函数的性质，求方程的近似解等（参见案例8）。  可以组织学生收集、阅读函数的形成与发展的历史资料，结合内容撰写报告，论述函数发展的过程、重要结果、主要人物、关键事件及其对人类文明的贡献。  # 【学业要求】  能够从两个变量之间的依赖关系、实数集合之间的对应关系、函数图象的几何直观"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:71",
+    "target": "urn:jy:physics:OB05:Example:030",
+    "evidence": {
+      "matchScore": 0.2501,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:030",
+    "target": "urn:jy:physics:SB0401:OB06:Section:72",
+    "evidence": {
+      "matchScore": 0.1056,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例7",
+        "exampleText": "了解凸透镜成像规律在放大镜、照相机中的应用。"
+      },
+      "fromSection": {
+        "sectionTitle": "第三节 生活中的透镜",
+        "chapterTitle": "第五章 透镜及其应用",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "g_2 x$ ），认识它们互为反函数。  三角函数的教学，应发挥单位圆的作用，引导学生结合实际情境，借助单位圆的直观，探索三角函数的有关性质（参见案例6）。在三角恒等变换的教学中，可以采用不同的方式得到三角恒等变换基本公式；也可以在向量的学习中，引导学生利用向量的数量积推导出两角差的余弦公式。  函数应用的教学，要引导学生理解如何用函数描述客观世界事物的变化规律，体会幂函数、指数函数、对数函数、三角函数等函数与现实世界的密切联系（参见案例7）。  鼓励学生运用信息技术学习、探索和解决问题。例如，利用计算器、计算机画出幂函数、指数函数、对数函数、三角函数等的图象，探索、比较它们的变化规律，研究函数的性质，求方程的近似解等（参见案例8）。  可以组织学生收集、阅读函数的形成与发展的历史资料，结合内容撰写报告，论述函数发展的过程、重要结果、主要人物、关键事件及其对人类文明的贡献。  # 【学业要求】  能够从两个变量之间的依赖关系、实数集合之间的对应关系、函数图象的几何直观"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:72",
+    "target": "urn:jy:physics:OB05:Example:030",
+    "evidence": {
+      "matchScore": 0.1056,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:033",
+    "target": "urn:jy:physics:SB0401:OB06:Section:72",
+    "evidence": {
+      "matchScore": 0.169,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例1",
+        "exampleText": "举例说明生活中的静电现象。"
+      },
+      "fromSection": {
+        "sectionTitle": "第三节 生活中的透镜",
+        "chapterTitle": "第五章 透镜及其应用",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "方程、从函数观点看一元二次不等式。  （1）从函数观点看一元二次方程  会结合一元二次函数的图象，判断一元二次方程实根的存在性及实根的个数，了解函数的零点与方程根的关系。  （2）从函数观点看一元二次不等式  ① 经历从实际情境中抽象出一元二次不等式的过程，了解一元二次不等式的现实意义。能借助一元二次函数求解一元二次不等式，并能用集合表示一元二次不等式的解集。  ②借助一元二次函数的图象，了解一元二次不等式与相应函数、方程的联系（参见案例1）。  # 【教学提示】  初中阶段数学知识相对具体，高中阶段数学知识相对抽象。教师应针对这一特征帮助学生完成从初中到高中数学学习的过渡，包括学习心理、学习方式等方面。  在集合、常用逻辑用语的教学中，教师应创设合适的教学情境，以义务教育阶段学过的数学内容为载体，引导学生用集合语言和常用逻辑用语梳理、表达学过的相应数学内容。应引导学生理解属于关系可以定义集合的基本关系，了解元素  $a$  与由元素  $a$  组成的集合  $\\{"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:72",
+    "target": "urn:jy:physics:OB05:Example:033",
+    "evidence": {
+      "matchScore": 0.169,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:033",
+    "target": "urn:jy:physics:SB0401:OB06:Section:1",
+    "evidence": {
+      "matchScore": 0.1114,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例1",
+        "exampleText": "举例说明生活中的静电现象。"
+      },
+      "fromSection": {
+        "sectionTitle": "一、简单电现象",
+        "chapterTitle": "第九章 简单电路",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "方程、从函数观点看一元二次不等式。  （1）从函数观点看一元二次方程  会结合一元二次函数的图象，判断一元二次方程实根的存在性及实根的个数，了解函数的零点与方程根的关系。  （2）从函数观点看一元二次不等式  ① 经历从实际情境中抽象出一元二次不等式的过程，了解一元二次不等式的现实意义。能借助一元二次函数求解一元二次不等式，并能用集合表示一元二次不等式的解集。  ②借助一元二次函数的图象，了解一元二次不等式与相应函数、方程的联系（参见案例1）。  # 【教学提示】  初中阶段数学知识相对具体，高中阶段数学知识相对抽象。教师应针对这一特征帮助学生完成从初中到高中数学学习的过渡，包括学习心理、学习方式等方面。  在集合、常用逻辑用语的教学中，教师应创设合适的教学情境，以义务教育阶段学过的数学内容为载体，引导学生用集合语言和常用逻辑用语梳理、表达学过的相应数学内容。应引导学生理解属于关系可以定义集合的基本关系，了解元素  $a$  与由元素  $a$  组成的集合  $\\{"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:1",
+    "target": "urn:jy:physics:OB05:Example:033",
+    "evidence": {
+      "matchScore": 0.1114,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:036",
+    "target": "urn:jy:physics:SB0401:OB06:Section:33",
+    "evidence": {
+      "matchScore": 0.083,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例4",
+        "exampleText": "了解动圈式扬声器的结构和原理。"
+      },
+      "fromSection": {
+        "sectionTitle": "二、微观世界的结构",
+        "chapterTitle": "第十四章 宇宙和微观世界",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "。  # （4）三角恒等变换  (1) 经历推导两角差余弦公式的过程, 知道两角差余弦公式的意义。  ②能从两角差的余弦公式推导出两角和与差的正弦、余弦、正切公式，二倍角的正弦、余弦、正切公式，了解它们的内在联系。  ③能运用上述公式进行简单的恒等变换（包括推导出积化和差、和差化积、半角公式，这三组公式不要求记忆）。  # （5）三角函数应用  会用三角函数解决简单的实际问题，体会可以利用三角函数构建刻画事物周期变化的数学模型（参见案例4）。  # 4. 函数应用  函数应用不仅体现在用函数解决数学问题，更重要的是用函数解决实际问题。本单元的学习，可以帮助学生掌握运用函数性质求方程近似解的基本方法（二分法）；理解用函数构建数学模型的基本过程；运用模型思想发现和提出问题、分析和解决问题。  内容包括：二分法与求方程近似解、函数与数学模型。  # （1）二分法与求方程近似解  ①结合学过的函数图象，了解函数零点与方程解的关系。  ②结合具体连续函数及其图象的特点，了解函"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:33",
+    "target": "urn:jy:physics:OB05:Example:036",
+    "evidence": {
+      "matchScore": 0.083,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:037",
+    "target": "urn:jy:physics:SB0401:OB06:Section:24",
+    "evidence": {
+      "matchScore": 0.2919,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例5",
+        "exampleText": "了解直流电动机的工作原理。"
+      },
+      "fromSection": {
+        "sectionTitle": "六、直流电动机",
+        "chapterTitle": "第十二章 磁现象",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "的几何直观等角度整体认识函数概念；通过梳理函数的单调性、周期性、奇偶性（对称性）、最大（小）值等，认识函数的整体性质；经历运用函数解决实际问题的全过程。  函数概念的引入，可以用学生熟悉的例子为背景进行抽象。例如，可以从学生已知的、基于变量关系的函数定义入手，引导学生通过生活或数学中的问题，构建函数的一般概念，体会用对应关系定义函数的必要性，感悟数学抽象的层次。  函数单调性的教学，要引导学生正确使用符号语言清晰地刻画函数的性质（参见案例5）。在函数定义域、值域以及函数性质的教学过程中，应避免编制偏题、怪题，避免烦琐的技巧训练。  指数函数的教学，应关注指数函数的运算法则和变化规律，引导学生经历从整数指数幂到有理数指数幂，再到实数指数幂的拓展过程，掌握指数函数的运算法则和变化规律。  对数函数的教学，应通过比较同底数的指数函数和对数函数（例如， $y = 2^x$  和  $y = \\log_2 x$ ），认识它们互为反函数。  三角函数的教学，应发挥单位圆的作用，引"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:24",
+    "target": "urn:jy:physics:OB05:Example:037",
+    "evidence": {
+      "matchScore": 0.2919,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:039",
+    "target": "urn:jy:physics:SB0401:OB06:Section:28",
+    "evidence": {
+      "matchScore": 0.1309,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例7",
+        "exampleText": "举例说明电磁波的存在。"
+      },
+      "fromSection": {
+        "sectionTitle": "二、电磁波",
+        "chapterTitle": "第十三章 通信技术简介",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "g_2 x$ ），认识它们互为反函数。  三角函数的教学，应发挥单位圆的作用，引导学生结合实际情境，借助单位圆的直观，探索三角函数的有关性质（参见案例6）。在三角恒等变换的教学中，可以采用不同的方式得到三角恒等变换基本公式；也可以在向量的学习中，引导学生利用向量的数量积推导出两角差的余弦公式。  函数应用的教学，要引导学生理解如何用函数描述客观世界事物的变化规律，体会幂函数、指数函数、对数函数、三角函数等函数与现实世界的密切联系（参见案例7）。  鼓励学生运用信息技术学习、探索和解决问题。例如，利用计算器、计算机画出幂函数、指数函数、对数函数、三角函数等的图象，探索、比较它们的变化规律，研究函数的性质，求方程的近似解等（参见案例8）。  可以组织学生收集、阅读函数的形成与发展的历史资料，结合内容撰写报告，论述函数发展的过程、重要结果、主要人物、关键事件及其对人类文明的贡献。  # 【学业要求】  能够从两个变量之间的依赖关系、实数集合之间的对应关系、函数图象的几何直观"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:28",
+    "target": "urn:jy:physics:OB05:Example:039",
+    "evidence": {
+      "matchScore": 0.1309,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:041",
+    "target": "urn:jy:physics:SB0401:OB06:Section:28",
+    "evidence": {
+      "matchScore": 0.1562,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例9",
+        "exampleText": "知道移动通信和卫星通信等都应用了电磁波。"
+      },
+      "fromSection": {
+        "sectionTitle": "二、电磁波",
+        "chapterTitle": "第十三章 通信技术简介",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "向量的几何表示和基本要素。  # (2) 向量运算  (1)借助实例和平面向量的几何表示，掌握平面向量加、减运算及运算规则，理解其几何意义。  ②通过实例分析，掌握平面向量数乘运算及运算规则，理解其几何意义。理解两个平面向量共线的含义。  ③了解平面向量的线性运算性质及其几何意义。  ④通过物理中功等实例，理解平面向量数量积的概念及其物理意义，会计算平面向量的数量积。  ⑤ 通过几何直观，了解平面向量投影的概念以及投影向量的意义（参见案例9）。  ⑥会用数量积判断两个平面向量的垂直关系。  # (3) 向量基本定理及坐标表示  ① 掌握平面向量基本定理。  ②借助平面直角坐标系，掌握平面向量的正交分解及坐标表示。  (3)会用坐标表示平面向量的加、减运算与数乘运算。  (4)能用坐标表示平面向量的数量积, 会表示两个平面向量的夹角。  (5)能用坐标表示平面向量共线、垂直。  # （4）向量应用与解三角形  ①会用向量方法解决简单的平面几何问题、力学问题以及其他实际"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:28",
+    "target": "urn:jy:physics:OB05:Example:041",
+    "evidence": {
+      "matchScore": 0.1562,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:041",
+    "target": "urn:jy:physics:SB0401:OB06:Section:27",
+    "evidence": {
+      "matchScore": 0.1087,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例9",
+        "exampleText": "知道移动通信和卫星通信等都应用了电磁波。"
+      },
+      "fromSection": {
+        "sectionTitle": "一、通信发展简史",
+        "chapterTitle": "第十三章 通信技术简介",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "向量的几何表示和基本要素。  # (2) 向量运算  (1)借助实例和平面向量的几何表示，掌握平面向量加、减运算及运算规则，理解其几何意义。  ②通过实例分析，掌握平面向量数乘运算及运算规则，理解其几何意义。理解两个平面向量共线的含义。  ③了解平面向量的线性运算性质及其几何意义。  ④通过物理中功等实例，理解平面向量数量积的概念及其物理意义，会计算平面向量的数量积。  ⑤ 通过几何直观，了解平面向量投影的概念以及投影向量的意义（参见案例9）。  ⑥会用数量积判断两个平面向量的垂直关系。  # (3) 向量基本定理及坐标表示  ① 掌握平面向量基本定理。  ②借助平面直角坐标系，掌握平面向量的正交分解及坐标表示。  (3)会用坐标表示平面向量的加、减运算与数乘运算。  (4)能用坐标表示平面向量的数量积, 会表示两个平面向量的夹角。  (5)能用坐标表示平面向量共线、垂直。  # （4）向量应用与解三角形  ①会用向量方法解决简单的平面几何问题、力学问题以及其他实际"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:27",
+    "target": "urn:jy:physics:OB05:Example:041",
+    "evidence": {
+      "matchScore": 0.1087,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:043",
+    "target": "urn:jy:physics:SB0401:OB06:Section:72",
+    "evidence": {
+      "matchScore": 0.0911,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例2",
+        "exampleText": "列举生活中能量转移和转化的实例。"
+      },
+      "fromSection": {
+        "sectionTitle": "第三节 生活中的透镜",
+        "chapterTitle": "第五章 透镜及其应用",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "以帮助学生建立完整的函数概念，不仅把函数理解为刻画变量之间依赖关系的数学语言和工具，也把函数理解为实数集合之间的对应关系；能用代数运算和函数图象揭示函数的主要性质；在现实问题中，能利用函数构建模型，解决问题。  内容包括：函数概念、函数性质、* 函数的形成与发展（标有 * 的内容均为选学内容，不作为考试要求）。  # （1）函数概念  ①在初中用变量之间的依赖关系描述函数的基础上，用集合语言和对应关系刻画函数，建立完整的函数概念（参见案例2），体会集合语言和对应关系在刻画函数概念中的作用。了解构成函数的要素，能求简单函数的定义域。  ②在实际情境中，会根据不同的需要选择恰当的方法（如图象法、列表法、解析法等）表示函数，理解函数图象的作用。  (3)通过具体实例，了解简单的分段函数，并能简单应用。  # （2）函数性质  ① 借助函数图象，会用符号语言表达函数的单调性、最大（小）值，理解它们的作用和实际意义。  ②结合具体函数，了解奇偶性的概念和几何意义。  (3)结合"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:72",
+    "target": "urn:jy:physics:OB05:Example:043",
+    "evidence": {
+      "matchScore": 0.0911,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:046",
+    "target": "urn:jy:physics:SB0401:OB06:Section:97",
+    "evidence": {
+      "matchScore": 0.1189,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例3",
+        "exampleText": "测量某种简单机械的机械效率。"
+      },
+      "fromSection": {
+        "sectionTitle": "第五节 探究使用机械是否省功",
+        "chapterTitle": "第九章 机械和功",
+        "grade": "八年级",
+        "volume": "下册"
+      },
+      "fromMd": {
+        "snippet": "础上，借助单位圆建立一般三角函数的概念，体会引入弧度制的必要性；用几何直观和代数运算的方法研究三角函数的周期性、奇偶性（对称性）、单调性和最大（小）值等性质；探索和研究三角函数之间的一些恒等关系；利用三角函数构建数学模型，解决实际问题。  内容包括：角与弧度、三角函数概念和性质、同角三角函数的基本关系式、三角恒等变换、三角函数应用。  # （1）角与弧度  了解任意角的概念和弧度制，能进行弧度与角度的互化，体会引入弧度制的必要性（参见案例3）。  # （2）三角函数概念和性质  ① 借助单位圆理解三角函数（正弦函数、余弦函数、正切函数）的定义，能画出这些三角函数的图象，了解三角函数的周期性、单调性、奇偶性、最大（小）值。借助单位圆的对称性，利用定义推导出诱导公式  $(\\alpha \\pm \\frac{\\pi}{2}, \\alpha \\pm \\pi$  的正弦、余弦、正切）。  ② 借助图象理解正弦函数、余弦函数在  $[0, 2\\pi]$  上，正切函数在  $\\l"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:97",
+    "target": "urn:jy:physics:OB05:Example:046",
+    "evidence": {
+      "matchScore": 0.1189,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:046",
+    "target": "urn:jy:physics:SB0401:OB06:Section:54",
+    "evidence": {
+      "matchScore": 0.1001,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例3",
+        "exampleText": "测量某种简单机械的机械效率。"
+      },
+      "fromSection": {
+        "sectionTitle": "第二节 长度及其测量",
+        "chapterTitle": "第二章 机械运动",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "础上，借助单位圆建立一般三角函数的概念，体会引入弧度制的必要性；用几何直观和代数运算的方法研究三角函数的周期性、奇偶性（对称性）、单调性和最大（小）值等性质；探索和研究三角函数之间的一些恒等关系；利用三角函数构建数学模型，解决实际问题。  内容包括：角与弧度、三角函数概念和性质、同角三角函数的基本关系式、三角恒等变换、三角函数应用。  # （1）角与弧度  了解任意角的概念和弧度制，能进行弧度与角度的互化，体会引入弧度制的必要性（参见案例3）。  # （2）三角函数概念和性质  ① 借助单位圆理解三角函数（正弦函数、余弦函数、正切函数）的定义，能画出这些三角函数的图象，了解三角函数的周期性、单调性、奇偶性、最大（小）值。借助单位圆的对称性，利用定义推导出诱导公式  $(\\alpha \\pm \\frac{\\pi}{2}, \\alpha \\pm \\pi$  的正弦、余弦、正切）。  ② 借助图象理解正弦函数、余弦函数在  $[0, 2\\pi]$  上，正切函数在  $\\l"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:54",
+    "target": "urn:jy:physics:OB05:Example:046",
+    "evidence": {
+      "matchScore": 0.1001,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:046",
+    "target": "urn:jy:physics:SB0401:OB06:Section:57",
+    "evidence": {
+      "matchScore": 0.1001,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例3",
+        "exampleText": "测量某种简单机械的机械效率。"
+      },
+      "fromSection": {
+        "sectionTitle": "第五节 平均速度的测量",
+        "chapterTitle": "第二章 机械运动",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "础上，借助单位圆建立一般三角函数的概念，体会引入弧度制的必要性；用几何直观和代数运算的方法研究三角函数的周期性、奇偶性（对称性）、单调性和最大（小）值等性质；探索和研究三角函数之间的一些恒等关系；利用三角函数构建数学模型，解决实际问题。  内容包括：角与弧度、三角函数概念和性质、同角三角函数的基本关系式、三角恒等变换、三角函数应用。  # （1）角与弧度  了解任意角的概念和弧度制，能进行弧度与角度的互化，体会引入弧度制的必要性（参见案例3）。  # （2）三角函数概念和性质  ① 借助单位圆理解三角函数（正弦函数、余弦函数、正切函数）的定义，能画出这些三角函数的图象，了解三角函数的周期性、单调性、奇偶性、最大（小）值。借助单位圆的对称性，利用定义推导出诱导公式  $(\\alpha \\pm \\frac{\\pi}{2}, \\alpha \\pm \\pi$  的正弦、余弦、正切）。  ② 借助图象理解正弦函数、余弦函数在  $[0, 2\\pi]$  上，正切函数在  $\\l"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:57",
+    "target": "urn:jy:physics:OB05:Example:046",
+    "evidence": {
+      "matchScore": 0.1001,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:048",
+    "target": "urn:jy:physics:SB0401:OB06:Section:23",
+    "evidence": {
+      "matchScore": 0.0796,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例2",
+        "exampleText": "了解热机对社会发展所起的作用和对环境的影响。"
+      },
+      "fromSection": {
+        "sectionTitle": "五、磁场对通电导体的作用",
+        "chapterTitle": "第十二章 磁现象",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "以帮助学生建立完整的函数概念，不仅把函数理解为刻画变量之间依赖关系的数学语言和工具，也把函数理解为实数集合之间的对应关系；能用代数运算和函数图象揭示函数的主要性质；在现实问题中，能利用函数构建模型，解决问题。  内容包括：函数概念、函数性质、* 函数的形成与发展（标有 * 的内容均为选学内容，不作为考试要求）。  # （1）函数概念  ①在初中用变量之间的依赖关系描述函数的基础上，用集合语言和对应关系刻画函数，建立完整的函数概念（参见案例2），体会集合语言和对应关系在刻画函数概念中的作用。了解构成函数的要素，能求简单函数的定义域。  ②在实际情境中，会根据不同的需要选择恰当的方法（如图象法、列表法、解析法等）表示函数，理解函数图象的作用。  (3)通过具体实例，了解简单的分段函数，并能简单应用。  # （2）函数性质  ① 借助函数图象，会用符号语言表达函数的单调性、最大（小）值，理解它们的作用和实际意义。  ②结合具体函数，了解奇偶性的概念和几何意义。  (3)结合"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:23",
+    "target": "urn:jy:physics:OB05:Example:048",
+    "evidence": {
+      "matchScore": 0.0796,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:050",
+    "target": "urn:jy:physics:SB0401:OB06:Section:16",
+    "evidence": {
+      "matchScore": 0.1995,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例2",
+        "exampleText": "调查常见用电器的铭牌，比较它们的电功率。"
+      },
+      "fromSection": {
+        "sectionTitle": "三、学生实验：测量小灯泡的电功率",
+        "chapterTitle": "第十一章 电功和电功率",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "以帮助学生建立完整的函数概念，不仅把函数理解为刻画变量之间依赖关系的数学语言和工具，也把函数理解为实数集合之间的对应关系；能用代数运算和函数图象揭示函数的主要性质；在现实问题中，能利用函数构建模型，解决问题。  内容包括：函数概念、函数性质、* 函数的形成与发展（标有 * 的内容均为选学内容，不作为考试要求）。  # （1）函数概念  ①在初中用变量之间的依赖关系描述函数的基础上，用集合语言和对应关系刻画函数，建立完整的函数概念（参见案例2），体会集合语言和对应关系在刻画函数概念中的作用。了解构成函数的要素，能求简单函数的定义域。  ②在实际情境中，会根据不同的需要选择恰当的方法（如图象法、列表法、解析法等）表示函数，理解函数图象的作用。  (3)通过具体实例，了解简单的分段函数，并能简单应用。  # （2）函数性质  ① 借助函数图象，会用符号语言表达函数的单调性、最大（小）值，理解它们的作用和实际意义。  ②结合具体函数，了解奇偶性的概念和几何意义。  (3)结合"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:16",
+    "target": "urn:jy:physics:OB05:Example:050",
+    "evidence": {
+      "matchScore": 0.1995,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:050",
+    "target": "urn:jy:physics:SB0401:OB06:Section:15",
+    "evidence": {
+      "matchScore": 0.1945,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例2",
+        "exampleText": "调查常见用电器的铭牌，比较它们的电功率。"
+      },
+      "fromSection": {
+        "sectionTitle": "二、电功率",
+        "chapterTitle": "第十一章 电功和电功率",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "以帮助学生建立完整的函数概念，不仅把函数理解为刻画变量之间依赖关系的数学语言和工具，也把函数理解为实数集合之间的对应关系；能用代数运算和函数图象揭示函数的主要性质；在现实问题中，能利用函数构建模型，解决问题。  内容包括：函数概念、函数性质、* 函数的形成与发展（标有 * 的内容均为选学内容，不作为考试要求）。  # （1）函数概念  ①在初中用变量之间的依赖关系描述函数的基础上，用集合语言和对应关系刻画函数，建立完整的函数概念（参见案例2），体会集合语言和对应关系在刻画函数概念中的作用。了解构成函数的要素，能求简单函数的定义域。  ②在实际情境中，会根据不同的需要选择恰当的方法（如图象法、列表法、解析法等）表示函数，理解函数图象的作用。  (3)通过具体实例，了解简单的分段函数，并能简单应用。  # （2）函数性质  ① 借助函数图象，会用符号语言表达函数的单调性、最大（小）值，理解它们的作用和实际意义。  ②结合具体函数，了解奇偶性的概念和几何意义。  (3)结合"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:15",
+    "target": "urn:jy:physics:OB05:Example:050",
+    "evidence": {
+      "matchScore": 0.1945,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:050",
+    "target": "urn:jy:physics:SB0401:OB06:Section:14",
+    "evidence": {
+      "matchScore": 0.1254,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例2",
+        "exampleText": "调查常见用电器的铭牌，比较它们的电功率。"
+      },
+      "fromSection": {
+        "sectionTitle": "一、电功和电能",
+        "chapterTitle": "第十一章 电功和电功率",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "以帮助学生建立完整的函数概念，不仅把函数理解为刻画变量之间依赖关系的数学语言和工具，也把函数理解为实数集合之间的对应关系；能用代数运算和函数图象揭示函数的主要性质；在现实问题中，能利用函数构建模型，解决问题。  内容包括：函数概念、函数性质、* 函数的形成与发展（标有 * 的内容均为选学内容，不作为考试要求）。  # （1）函数概念  ①在初中用变量之间的依赖关系描述函数的基础上，用集合语言和对应关系刻画函数，建立完整的函数概念（参见案例2），体会集合语言和对应关系在刻画函数概念中的作用。了解构成函数的要素，能求简单函数的定义域。  ②在实际情境中，会根据不同的需要选择恰当的方法（如图象法、列表法、解析法等）表示函数，理解函数图象的作用。  (3)通过具体实例，了解简单的分段函数，并能简单应用。  # （2）函数性质  ① 借助函数图象，会用符号语言表达函数的单调性、最大（小）值，理解它们的作用和实际意义。  ②结合具体函数，了解奇偶性的概念和几何意义。  (3)结合"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:14",
+    "target": "urn:jy:physics:OB05:Example:050",
+    "evidence": {
+      "matchScore": 0.1254,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:050",
+    "target": "urn:jy:physics:SB0401:OB06:Section:18",
+    "evidence": {
+      "matchScore": 0.1221,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例2",
+        "exampleText": "调查常见用电器的铭牌，比较它们的电功率。"
+      },
+      "fromSection": {
+        "sectionTitle": "五、家庭电路",
+        "chapterTitle": "第十一章 电功和电功率",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "以帮助学生建立完整的函数概念，不仅把函数理解为刻画变量之间依赖关系的数学语言和工具，也把函数理解为实数集合之间的对应关系；能用代数运算和函数图象揭示函数的主要性质；在现实问题中，能利用函数构建模型，解决问题。  内容包括：函数概念、函数性质、* 函数的形成与发展（标有 * 的内容均为选学内容，不作为考试要求）。  # （1）函数概念  ①在初中用变量之间的依赖关系描述函数的基础上，用集合语言和对应关系刻画函数，建立完整的函数概念（参见案例2），体会集合语言和对应关系在刻画函数概念中的作用。了解构成函数的要素，能求简单函数的定义域。  ②在实际情境中，会根据不同的需要选择恰当的方法（如图象法、列表法、解析法等）表示函数，理解函数图象的作用。  (3)通过具体实例，了解简单的分段函数，并能简单应用。  # （2）函数性质  ① 借助函数图象，会用符号语言表达函数的单调性、最大（小）值，理解它们的作用和实际意义。  ②结合具体函数，了解奇偶性的概念和几何意义。  (3)结合"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:18",
+    "target": "urn:jy:physics:OB05:Example:050",
+    "evidence": {
+      "matchScore": 0.1221,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:050",
+    "target": "urn:jy:physics:SB0401:OB06:Section:17",
+    "evidence": {
+      "matchScore": 0.1145,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例2",
+        "exampleText": "调查常见用电器的铭牌，比较它们的电功率。"
+      },
+      "fromSection": {
+        "sectionTitle": "四、电流的热效应",
+        "chapterTitle": "第十一章 电功和电功率",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "以帮助学生建立完整的函数概念，不仅把函数理解为刻画变量之间依赖关系的数学语言和工具，也把函数理解为实数集合之间的对应关系；能用代数运算和函数图象揭示函数的主要性质；在现实问题中，能利用函数构建模型，解决问题。  内容包括：函数概念、函数性质、* 函数的形成与发展（标有 * 的内容均为选学内容，不作为考试要求）。  # （1）函数概念  ①在初中用变量之间的依赖关系描述函数的基础上，用集合语言和对应关系刻画函数，建立完整的函数概念（参见案例2），体会集合语言和对应关系在刻画函数概念中的作用。了解构成函数的要素，能求简单函数的定义域。  ②在实际情境中，会根据不同的需要选择恰当的方法（如图象法、列表法、解析法等）表示函数，理解函数图象的作用。  (3)通过具体实例，了解简单的分段函数，并能简单应用。  # （2）函数性质  ① 借助函数图象，会用符号语言表达函数的单调性、最大（小）值，理解它们的作用和实际意义。  ②结合具体函数，了解奇偶性的概念和几何意义。  (3)结合"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:17",
+    "target": "urn:jy:physics:OB05:Example:050",
+    "evidence": {
+      "matchScore": 0.1145,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:054",
+    "target": "urn:jy:physics:SB0401:OB06:Section:75",
+    "evidence": {
+      "matchScore": 0.1353,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例1",
+        "exampleText": "用托盘天平测量小木块和杯中水的质量。"
+      },
+      "fromSection": {
+        "sectionTitle": "第一节 物体的质量及其测量",
+        "chapterTitle": "第六章 质量和密度",
+        "grade": "八年级",
+        "volume": "下册"
+      },
+      "fromMd": {
+        "snippet": "方程、从函数观点看一元二次不等式。  （1）从函数观点看一元二次方程  会结合一元二次函数的图象，判断一元二次方程实根的存在性及实根的个数，了解函数的零点与方程根的关系。  （2）从函数观点看一元二次不等式  ① 经历从实际情境中抽象出一元二次不等式的过程，了解一元二次不等式的现实意义。能借助一元二次函数求解一元二次不等式，并能用集合表示一元二次不等式的解集。  ②借助一元二次函数的图象，了解一元二次不等式与相应函数、方程的联系（参见案例1）。  # 【教学提示】  初中阶段数学知识相对具体，高中阶段数学知识相对抽象。教师应针对这一特征帮助学生完成从初中到高中数学学习的过渡，包括学习心理、学习方式等方面。  在集合、常用逻辑用语的教学中，教师应创设合适的教学情境，以义务教育阶段学过的数学内容为载体，引导学生用集合语言和常用逻辑用语梳理、表达学过的相应数学内容。应引导学生理解属于关系可以定义集合的基本关系，了解元素  $a$  与由元素  $a$  组成的集合  $\\{"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:75",
+    "target": "urn:jy:physics:OB05:Example:054",
+    "evidence": {
+      "matchScore": 0.1353,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:055",
+    "target": "urn:jy:physics:SB0401:OB06:Section:76",
+    "evidence": {
+      "matchScore": 0.1214,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例2",
+        "exampleText": "用天平、量筒等测量小石块和盐水的密度。"
+      },
+      "fromSection": {
+        "sectionTitle": "第二节 物质的密度",
+        "chapterTitle": "第六章 质量和密度",
+        "grade": "八年级",
+        "volume": "下册"
+      },
+      "fromMd": {
+        "snippet": "以帮助学生建立完整的函数概念，不仅把函数理解为刻画变量之间依赖关系的数学语言和工具，也把函数理解为实数集合之间的对应关系；能用代数运算和函数图象揭示函数的主要性质；在现实问题中，能利用函数构建模型，解决问题。  内容包括：函数概念、函数性质、* 函数的形成与发展（标有 * 的内容均为选学内容，不作为考试要求）。  # （1）函数概念  ①在初中用变量之间的依赖关系描述函数的基础上，用集合语言和对应关系刻画函数，建立完整的函数概念（参见案例2），体会集合语言和对应关系在刻画函数概念中的作用。了解构成函数的要素，能求简单函数的定义域。  ②在实际情境中，会根据不同的需要选择恰当的方法（如图象法、列表法、解析法等）表示函数，理解函数图象的作用。  (3)通过具体实例，了解简单的分段函数，并能简单应用。  # （2）函数性质  ① 借助函数图象，会用符号语言表达函数的单调性、最大（小）值，理解它们的作用和实际意义。  ②结合具体函数，了解奇偶性的概念和几何意义。  (3)结合"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:76",
+    "target": "urn:jy:physics:OB05:Example:055",
+    "evidence": {
+      "matchScore": 0.1214,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:056",
+    "target": "urn:jy:physics:SB0401:OB06:Section:43",
+    "evidence": {
+      "matchScore": 0.0752,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例3",
+        "exampleText": "用实验室温度计测量水的温度，用体温计测量自己的体温。"
+      },
+      "fromSection": {
+        "sectionTitle": "怎样用实验证明观点错误",
+        "chapterTitle": "科学探究",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "础上，借助单位圆建立一般三角函数的概念，体会引入弧度制的必要性；用几何直观和代数运算的方法研究三角函数的周期性、奇偶性（对称性）、单调性和最大（小）值等性质；探索和研究三角函数之间的一些恒等关系；利用三角函数构建数学模型，解决实际问题。  内容包括：角与弧度、三角函数概念和性质、同角三角函数的基本关系式、三角恒等变换、三角函数应用。  # （1）角与弧度  了解任意角的概念和弧度制，能进行弧度与角度的互化，体会引入弧度制的必要性（参见案例3）。  # （2）三角函数概念和性质  ① 借助单位圆理解三角函数（正弦函数、余弦函数、正切函数）的定义，能画出这些三角函数的图象，了解三角函数的周期性、单调性、奇偶性、最大（小）值。借助单位圆的对称性，利用定义推导出诱导公式  $(\\alpha \\pm \\frac{\\pi}{2}, \\alpha \\pm \\pi$  的正弦、余弦、正切）。  ② 借助图象理解正弦函数、余弦函数在  $[0, 2\\pi]$  上，正切函数在  $\\l"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:43",
+    "target": "urn:jy:physics:OB05:Example:056",
+    "evidence": {
+      "matchScore": 0.0752,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:060",
+    "target": "urn:jy:physics:SB0401:OB06:Section:4",
+    "evidence": {
+      "matchScore": 0.122,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例7",
+        "exampleText": "用实验室指针式电流表，测量直流电路中的电流。"
+      },
+      "fromSection": {
+        "sectionTitle": "四、电流及其测量",
+        "chapterTitle": "第九章 简单电路",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "g_2 x$ ），认识它们互为反函数。  三角函数的教学，应发挥单位圆的作用，引导学生结合实际情境，借助单位圆的直观，探索三角函数的有关性质（参见案例6）。在三角恒等变换的教学中，可以采用不同的方式得到三角恒等变换基本公式；也可以在向量的学习中，引导学生利用向量的数量积推导出两角差的余弦公式。  函数应用的教学，要引导学生理解如何用函数描述客观世界事物的变化规律，体会幂函数、指数函数、对数函数、三角函数等函数与现实世界的密切联系（参见案例7）。  鼓励学生运用信息技术学习、探索和解决问题。例如，利用计算器、计算机画出幂函数、指数函数、对数函数、三角函数等的图象，探索、比较它们的变化规律，研究函数的性质，求方程的近似解等（参见案例8）。  可以组织学生收集、阅读函数的形成与发展的历史资料，结合内容撰写报告，论述函数发展的过程、重要结果、主要人物、关键事件及其对人类文明的贡献。  # 【学业要求】  能够从两个变量之间的依赖关系、实数集合之间的对应关系、函数图象的几何直观"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:4",
+    "target": "urn:jy:physics:OB05:Example:060",
+    "evidence": {
+      "matchScore": 0.122,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:060",
+    "target": "urn:jy:physics:SB0401:OB06:Section:11",
+    "evidence": {
+      "matchScore": 0.1028,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例7",
+        "exampleText": "用实验室指针式电流表，测量直流电路中的电流。"
+      },
+      "fromSection": {
+        "sectionTitle": "三、学生实验：探究影响电流的因素",
+        "chapterTitle": "第十章 串联电路和并联电路",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "g_2 x$ ），认识它们互为反函数。  三角函数的教学，应发挥单位圆的作用，引导学生结合实际情境，借助单位圆的直观，探索三角函数的有关性质（参见案例6）。在三角恒等变换的教学中，可以采用不同的方式得到三角恒等变换基本公式；也可以在向量的学习中，引导学生利用向量的数量积推导出两角差的余弦公式。  函数应用的教学，要引导学生理解如何用函数描述客观世界事物的变化规律，体会幂函数、指数函数、对数函数、三角函数等函数与现实世界的密切联系（参见案例7）。  鼓励学生运用信息技术学习、探索和解决问题。例如，利用计算器、计算机画出幂函数、指数函数、对数函数、三角函数等的图象，探索、比较它们的变化规律，研究函数的性质，求方程的近似解等（参见案例8）。  可以组织学生收集、阅读函数的形成与发展的历史资料，结合内容撰写报告，论述函数发展的过程、重要结果、主要人物、关键事件及其对人类文明的贡献。  # 【学业要求】  能够从两个变量之间的依赖关系、实数集合之间的对应关系、函数图象的几何直观"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:11",
+    "target": "urn:jy:physics:OB05:Example:060",
+    "evidence": {
+      "matchScore": 0.1028,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:061",
+    "target": "urn:jy:physics:SB0401:OB06:Section:5",
+    "evidence": {
+      "matchScore": 0.122,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例8",
+        "exampleText": "用实验室指针式电压表，测量直流电路中的电压。"
+      },
+      "fromSection": {
+        "sectionTitle": "五、电压及其测量",
+        "chapterTitle": "第九章 简单电路",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "方式得到三角恒等变换基本公式；也可以在向量的学习中，引导学生利用向量的数量积推导出两角差的余弦公式。  函数应用的教学，要引导学生理解如何用函数描述客观世界事物的变化规律，体会幂函数、指数函数、对数函数、三角函数等函数与现实世界的密切联系（参见案例7）。  鼓励学生运用信息技术学习、探索和解决问题。例如，利用计算器、计算机画出幂函数、指数函数、对数函数、三角函数等的图象，探索、比较它们的变化规律，研究函数的性质，求方程的近似解等（参见案例8）。  可以组织学生收集、阅读函数的形成与发展的历史资料，结合内容撰写报告，论述函数发展的过程、重要结果、主要人物、关键事件及其对人类文明的贡献。  # 【学业要求】  能够从两个变量之间的依赖关系、实数集合之间的对应关系、函数图象的几何直观等多个角度，理解函数的意义与数学表达；理解函数符号表达与抽象定义之间的关联，知道函数抽象概念的意义。  能够理解函数的单调性、最大（小）值，了解函数的奇偶性、周期性；理解一些基本函数类（如一元一"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:5",
+    "target": "urn:jy:physics:OB05:Example:061",
+    "evidence": {
+      "matchScore": 0.122,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:062",
+    "target": "urn:jy:physics:SB0401:OB06:Section:16",
+    "evidence": {
+      "matchScore": 0.1482,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例9",
+        "exampleText": "用电流表、电压表、滑动变阻器等，测量小灯泡正常发光时的电阻。"
+      },
+      "fromSection": {
+        "sectionTitle": "三、学生实验：测量小灯泡的电功率",
+        "chapterTitle": "第十一章 电功和电功率",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "向量的几何表示和基本要素。  # (2) 向量运算  (1)借助实例和平面向量的几何表示，掌握平面向量加、减运算及运算规则，理解其几何意义。  ②通过实例分析，掌握平面向量数乘运算及运算规则，理解其几何意义。理解两个平面向量共线的含义。  ③了解平面向量的线性运算性质及其几何意义。  ④通过物理中功等实例，理解平面向量数量积的概念及其物理意义，会计算平面向量的数量积。  ⑤ 通过几何直观，了解平面向量投影的概念以及投影向量的意义（参见案例9）。  ⑥会用数量积判断两个平面向量的垂直关系。  # (3) 向量基本定理及坐标表示  ① 掌握平面向量基本定理。  ②借助平面直角坐标系，掌握平面向量的正交分解及坐标表示。  (3)会用坐标表示平面向量的加、减运算与数乘运算。  (4)能用坐标表示平面向量的数量积, 会表示两个平面向量的夹角。  (5)能用坐标表示平面向量共线、垂直。  # （4）向量应用与解三角形  ①会用向量方法解决简单的平面几何问题、力学问题以及其他实际"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:16",
+    "target": "urn:jy:physics:OB05:Example:062",
+    "evidence": {
+      "matchScore": 0.1482,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:063",
+    "target": "urn:jy:physics:SB0401:OB06:Section:47",
+    "evidence": {
+      "matchScore": 0.088,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例1",
+        "exampleText": "用酒精灯、烧杯、温度计等，探究水在沸腾前后温度变化的特点。"
+      },
+      "fromSection": {
+        "sectionTitle": "第一节 物态变化 温度",
+        "chapterTitle": "第一章 物态及其变化",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "方程、从函数观点看一元二次不等式。  （1）从函数观点看一元二次方程  会结合一元二次函数的图象，判断一元二次方程实根的存在性及实根的个数，了解函数的零点与方程根的关系。  （2）从函数观点看一元二次不等式  ① 经历从实际情境中抽象出一元二次不等式的过程，了解一元二次不等式的现实意义。能借助一元二次函数求解一元二次不等式，并能用集合表示一元二次不等式的解集。  ②借助一元二次函数的图象，了解一元二次不等式与相应函数、方程的联系（参见案例1）。  # 【教学提示】  初中阶段数学知识相对具体，高中阶段数学知识相对抽象。教师应针对这一特征帮助学生完成从初中到高中数学学习的过渡，包括学习心理、学习方式等方面。  在集合、常用逻辑用语的教学中，教师应创设合适的教学情境，以义务教育阶段学过的数学内容为载体，引导学生用集合语言和常用逻辑用语梳理、表达学过的相应数学内容。应引导学生理解属于关系可以定义集合的基本关系，了解元素  $a$  与由元素  $a$  组成的集合  $\\{"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:47",
+    "target": "urn:jy:physics:OB05:Example:063",
+    "evidence": {
+      "matchScore": 0.088,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:064",
+    "target": "urn:jy:physics:SB0401:OB06:Section:84",
+    "evidence": {
+      "matchScore": 0.0732,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例2",
+        "exampleText": "用弹簧测力计、平板、细绳、长方体物块、棉布、毛巾等，探究滑动摩擦力大小与哪些因素有关。"
+      },
+      "fromSection": {
+        "sectionTitle": "第六节 摩擦力",
+        "chapterTitle": "第七章 运动和力",
+        "grade": "八年级",
+        "volume": "下册"
+      },
+      "fromMd": {
+        "snippet": "以帮助学生建立完整的函数概念，不仅把函数理解为刻画变量之间依赖关系的数学语言和工具，也把函数理解为实数集合之间的对应关系；能用代数运算和函数图象揭示函数的主要性质；在现实问题中，能利用函数构建模型，解决问题。  内容包括：函数概念、函数性质、* 函数的形成与发展（标有 * 的内容均为选学内容，不作为考试要求）。  # （1）函数概念  ①在初中用变量之间的依赖关系描述函数的基础上，用集合语言和对应关系刻画函数，建立完整的函数概念（参见案例2），体会集合语言和对应关系在刻画函数概念中的作用。了解构成函数的要素，能求简单函数的定义域。  ②在实际情境中，会根据不同的需要选择恰当的方法（如图象法、列表法、解析法等）表示函数，理解函数图象的作用。  (3)通过具体实例，了解简单的分段函数，并能简单应用。  # （2）函数性质  ① 借助函数图象，会用符号语言表达函数的单调性、最大（小）值，理解它们的作用和实际意义。  ②结合具体函数，了解奇偶性的概念和几何意义。  (3)结合"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:84",
+    "target": "urn:jy:physics:OB05:Example:064",
+    "evidence": {
+      "matchScore": 0.0732,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:065",
+    "target": "urn:jy:physics:SB0401:OB06:Section:87",
+    "evidence": {
+      "matchScore": 0.2215,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例3",
+        "exampleText": "用水、盐水、压强计等，探究液体压强与哪些因素有关。"
+      },
+      "fromSection": {
+        "sectionTitle": "第二节 液体压强",
+        "chapterTitle": "第八章 压强和浮力",
+        "grade": "八年级",
+        "volume": "下册"
+      },
+      "fromMd": {
+        "snippet": "础上，借助单位圆建立一般三角函数的概念，体会引入弧度制的必要性；用几何直观和代数运算的方法研究三角函数的周期性、奇偶性（对称性）、单调性和最大（小）值等性质；探索和研究三角函数之间的一些恒等关系；利用三角函数构建数学模型，解决实际问题。  内容包括：角与弧度、三角函数概念和性质、同角三角函数的基本关系式、三角恒等变换、三角函数应用。  # （1）角与弧度  了解任意角的概念和弧度制，能进行弧度与角度的互化，体会引入弧度制的必要性（参见案例3）。  # （2）三角函数概念和性质  ① 借助单位圆理解三角函数（正弦函数、余弦函数、正切函数）的定义，能画出这些三角函数的图象，了解三角函数的周期性、单调性、奇偶性、最大（小）值。借助单位圆的对称性，利用定义推导出诱导公式  $(\\alpha \\pm \\frac{\\pi}{2}, \\alpha \\pm \\pi$  的正弦、余弦、正切）。  ② 借助图象理解正弦函数、余弦函数在  $[0, 2\\pi]$  上，正切函数在  $\\l"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:87",
+    "target": "urn:jy:physics:OB05:Example:065",
+    "evidence": {
+      "matchScore": 0.2215,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:065",
+    "target": "urn:jy:physics:SB0401:OB06:Section:90",
+    "evidence": {
+      "matchScore": 0.1862,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例3",
+        "exampleText": "用水、盐水、压强计等，探究液体压强与哪些因素有关。"
+      },
+      "fromSection": {
+        "sectionTitle": "第五节 流体压强与流速的关系",
+        "chapterTitle": "第八章 压强和浮力",
+        "grade": "八年级",
+        "volume": "下册"
+      },
+      "fromMd": {
+        "snippet": "础上，借助单位圆建立一般三角函数的概念，体会引入弧度制的必要性；用几何直观和代数运算的方法研究三角函数的周期性、奇偶性（对称性）、单调性和最大（小）值等性质；探索和研究三角函数之间的一些恒等关系；利用三角函数构建数学模型，解决实际问题。  内容包括：角与弧度、三角函数概念和性质、同角三角函数的基本关系式、三角恒等变换、三角函数应用。  # （1）角与弧度  了解任意角的概念和弧度制，能进行弧度与角度的互化，体会引入弧度制的必要性（参见案例3）。  # （2）三角函数概念和性质  ① 借助单位圆理解三角函数（正弦函数、余弦函数、正切函数）的定义，能画出这些三角函数的图象，了解三角函数的周期性、单调性、奇偶性、最大（小）值。借助单位圆的对称性，利用定义推导出诱导公式  $(\\alpha \\pm \\frac{\\pi}{2}, \\alpha \\pm \\pi$  的正弦、余弦、正切）。  ② 借助图象理解正弦函数、余弦函数在  $[0, 2\\pi]$  上，正切函数在  $\\l"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:90",
+    "target": "urn:jy:physics:OB05:Example:065",
+    "evidence": {
+      "matchScore": 0.1862,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:065",
+    "target": "urn:jy:physics:SB0401:OB06:Section:86",
+    "evidence": {
+      "matchScore": 0.1193,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例3",
+        "exampleText": "用水、盐水、压强计等，探究液体压强与哪些因素有关。"
+      },
+      "fromSection": {
+        "sectionTitle": "第一节 压强",
+        "chapterTitle": "第八章 压强和浮力",
+        "grade": "八年级",
+        "volume": "下册"
+      },
+      "fromMd": {
+        "snippet": "础上，借助单位圆建立一般三角函数的概念，体会引入弧度制的必要性；用几何直观和代数运算的方法研究三角函数的周期性、奇偶性（对称性）、单调性和最大（小）值等性质；探索和研究三角函数之间的一些恒等关系；利用三角函数构建数学模型，解决实际问题。  内容包括：角与弧度、三角函数概念和性质、同角三角函数的基本关系式、三角恒等变换、三角函数应用。  # （1）角与弧度  了解任意角的概念和弧度制，能进行弧度与角度的互化，体会引入弧度制的必要性（参见案例3）。  # （2）三角函数概念和性质  ① 借助单位圆理解三角函数（正弦函数、余弦函数、正切函数）的定义，能画出这些三角函数的图象，了解三角函数的周期性、单调性、奇偶性、最大（小）值。借助单位圆的对称性，利用定义推导出诱导公式  $(\\alpha \\pm \\frac{\\pi}{2}, \\alpha \\pm \\pi$  的正弦、余弦、正切）。  ② 借助图象理解正弦函数、余弦函数在  $[0, 2\\pi]$  上，正切函数在  $\\l"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:86",
+    "target": "urn:jy:physics:OB05:Example:065",
+    "evidence": {
+      "matchScore": 0.1193,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:065",
+    "target": "urn:jy:physics:SB0401:OB06:Section:89",
+    "evidence": {
+      "matchScore": 0.1107,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例3",
+        "exampleText": "用水、盐水、压强计等，探究液体压强与哪些因素有关。"
+      },
+      "fromSection": {
+        "sectionTitle": "第四节 大气压强",
+        "chapterTitle": "第八章 压强和浮力",
+        "grade": "八年级",
+        "volume": "下册"
+      },
+      "fromMd": {
+        "snippet": "础上，借助单位圆建立一般三角函数的概念，体会引入弧度制的必要性；用几何直观和代数运算的方法研究三角函数的周期性、奇偶性（对称性）、单调性和最大（小）值等性质；探索和研究三角函数之间的一些恒等关系；利用三角函数构建数学模型，解决实际问题。  内容包括：角与弧度、三角函数概念和性质、同角三角函数的基本关系式、三角恒等变换、三角函数应用。  # （1）角与弧度  了解任意角的概念和弧度制，能进行弧度与角度的互化，体会引入弧度制的必要性（参见案例3）。  # （2）三角函数概念和性质  ① 借助单位圆理解三角函数（正弦函数、余弦函数、正切函数）的定义，能画出这些三角函数的图象，了解三角函数的周期性、单调性、奇偶性、最大（小）值。借助单位圆的对称性，利用定义推导出诱导公式  $(\\alpha \\pm \\frac{\\pi}{2}, \\alpha \\pm \\pi$  的正弦、余弦、正切）。  ② 借助图象理解正弦函数、余弦函数在  $[0, 2\\pi]$  上，正切函数在  $\\l"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:89",
+    "target": "urn:jy:physics:OB05:Example:065",
+    "evidence": {
+      "matchScore": 0.1107,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:068",
+    "target": "urn:jy:physics:SB0401:OB06:Section:65",
+    "evidence": {
+      "matchScore": 0.1554,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例6",
+        "exampleText": "用激光笔、平面镜、光屏及量角器等探究光的反射定律。"
+      },
+      "fromSection": {
+        "sectionTitle": "第二节 光的反射",
+        "chapterTitle": "第四章 光现象",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "怪题，避免烦琐的技巧训练。  指数函数的教学，应关注指数函数的运算法则和变化规律，引导学生经历从整数指数幂到有理数指数幂，再到实数指数幂的拓展过程，掌握指数函数的运算法则和变化规律。  对数函数的教学，应通过比较同底数的指数函数和对数函数（例如， $y = 2^x$  和  $y = \\log_2 x$ ），认识它们互为反函数。  三角函数的教学，应发挥单位圆的作用，引导学生结合实际情境，借助单位圆的直观，探索三角函数的有关性质（参见案例6）。在三角恒等变换的教学中，可以采用不同的方式得到三角恒等变换基本公式；也可以在向量的学习中，引导学生利用向量的数量积推导出两角差的余弦公式。  函数应用的教学，要引导学生理解如何用函数描述客观世界事物的变化规律，体会幂函数、指数函数、对数函数、三角函数等函数与现实世界的密切联系（参见案例7）。  鼓励学生运用信息技术学习、探索和解决问题。例如，利用计算器、计算机画出幂函数、指数函数、对数函数、三角函数等的图象，探索、比较它们的变化"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:65",
+    "target": "urn:jy:physics:OB05:Example:068",
+    "evidence": {
+      "matchScore": 0.1554,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:069",
+    "target": "urn:jy:physics:SB0401:OB06:Section:66",
+    "evidence": {
+      "matchScore": 0.1796,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例7",
+        "exampleText": "用蜡烛（或其他物品）、平板玻璃、刻度尺、白纸等，探究平面镜成像时，像的大小、位置、虚实等有什么特点。"
+      },
+      "fromSection": {
+        "sectionTitle": "第三节 平面镜成像的特点",
+        "chapterTitle": "第四章 光现象",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "g_2 x$ ），认识它们互为反函数。  三角函数的教学，应发挥单位圆的作用，引导学生结合实际情境，借助单位圆的直观，探索三角函数的有关性质（参见案例6）。在三角恒等变换的教学中，可以采用不同的方式得到三角恒等变换基本公式；也可以在向量的学习中，引导学生利用向量的数量积推导出两角差的余弦公式。  函数应用的教学，要引导学生理解如何用函数描述客观世界事物的变化规律，体会幂函数、指数函数、对数函数、三角函数等函数与现实世界的密切联系（参见案例7）。  鼓励学生运用信息技术学习、探索和解决问题。例如，利用计算器、计算机画出幂函数、指数函数、对数函数、三角函数等的图象，探索、比较它们的变化规律，研究函数的性质，求方程的近似解等（参见案例8）。  可以组织学生收集、阅读函数的形成与发展的历史资料，结合内容撰写报告，论述函数发展的过程、重要结果、主要人物、关键事件及其对人类文明的贡献。  # 【学业要求】  能够从两个变量之间的依赖关系、实数集合之间的对应关系、函数图象的几何直观"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:66",
+    "target": "urn:jy:physics:OB05:Example:069",
+    "evidence": {
+      "matchScore": 0.1796,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:070",
+    "target": "urn:jy:physics:SB0401:OB06:Section:71",
+    "evidence": {
+      "matchScore": 0.2182,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例8",
+        "exampleText": "用蜡烛（或F形光源）、凸透镜、光具座、光屏等，探究凸透镜成像时，像的正倒、大小、位置、虚实等与物距的关系。"
+      },
+      "fromSection": {
+        "sectionTitle": "第二节 凸透镜成像的规律",
+        "chapterTitle": "第五章 透镜及其应用",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "方式得到三角恒等变换基本公式；也可以在向量的学习中，引导学生利用向量的数量积推导出两角差的余弦公式。  函数应用的教学，要引导学生理解如何用函数描述客观世界事物的变化规律，体会幂函数、指数函数、对数函数、三角函数等函数与现实世界的密切联系（参见案例7）。  鼓励学生运用信息技术学习、探索和解决问题。例如，利用计算器、计算机画出幂函数、指数函数、对数函数、三角函数等的图象，探索、比较它们的变化规律，研究函数的性质，求方程的近似解等（参见案例8）。  可以组织学生收集、阅读函数的形成与发展的历史资料，结合内容撰写报告，论述函数发展的过程、重要结果、主要人物、关键事件及其对人类文明的贡献。  # 【学业要求】  能够从两个变量之间的依赖关系、实数集合之间的对应关系、函数图象的几何直观等多个角度，理解函数的意义与数学表达；理解函数符号表达与抽象定义之间的关联，知道函数抽象概念的意义。  能够理解函数的单调性、最大（小）值，了解函数的奇偶性、周期性；理解一些基本函数类（如一元一"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:71",
+    "target": "urn:jy:physics:OB05:Example:070",
+    "evidence": {
+      "matchScore": 0.2182,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:071",
+    "target": "urn:jy:physics:SB0401:OB06:Section:21",
+    "evidence": {
+      "matchScore": 0.3509,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例9",
+        "exampleText": "用小磁针、通电螺线管等，探究通电螺线管外部磁场的方向。"
+      },
+      "fromSection": {
+        "sectionTitle": "三、通电螺线管的磁场",
+        "chapterTitle": "第十二章 磁现象",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "向量的几何表示和基本要素。  # (2) 向量运算  (1)借助实例和平面向量的几何表示，掌握平面向量加、减运算及运算规则，理解其几何意义。  ②通过实例分析，掌握平面向量数乘运算及运算规则，理解其几何意义。理解两个平面向量共线的含义。  ③了解平面向量的线性运算性质及其几何意义。  ④通过物理中功等实例，理解平面向量数量积的概念及其物理意义，会计算平面向量的数量积。  ⑤ 通过几何直观，了解平面向量投影的概念以及投影向量的意义（参见案例9）。  ⑥会用数量积判断两个平面向量的垂直关系。  # (3) 向量基本定理及坐标表示  ① 掌握平面向量基本定理。  ②借助平面直角坐标系，掌握平面向量的正交分解及坐标表示。  (3)会用坐标表示平面向量的加、减运算与数乘运算。  (4)能用坐标表示平面向量的数量积, 会表示两个平面向量的夹角。  (5)能用坐标表示平面向量共线、垂直。  # （4）向量应用与解三角形  ①会用向量方法解决简单的平面几何问题、力学问题以及其他实际"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:21",
+    "target": "urn:jy:physics:OB05:Example:071",
+    "evidence": {
+      "matchScore": 0.3509,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:072",
+    "target": "urn:jy:physics:SB0401:OB06:Section:17",
+    "evidence": {
+      "matchScore": 0.0877,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例10",
+        "exampleText": "用矩形线圈或单根导线、磁体、灵敏电流计等探究产生感应电流的条件。"
+      },
+      "fromSection": {
+        "sectionTitle": "四、电流的热效应",
+        "chapterTitle": "第十一章 电功和电功率",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "建立基的概念和向量的坐标表示。可以引导学生运用向量解决一些物理和几何问题。例如，利用向量计算力使物体沿某方向运动所做的功，利用向量解决与平面内两条直线平行或垂直有关的问题等。对于向量的非正交分解只要求学生一般了解，不必展开。  在复数的教学中，应注重对复数的表示及几何意义的理解，避免烦琐的计算与技巧训练。对于学有余力的学生，可以安排一些引申内容，  如复数的三角表示等。可以适当融入数学文化，让学生体会数系扩充过程中理性思维的作用（参见案例10）。  立体几何初步的教学重点是帮助学生逐步形成空间观念，应遵循从整体到局部、从具体到抽象的原则，提供丰富的实物模型或利用计算机软件呈现空间几何体，帮助学生认识空间几何体的结构特征，进一步掌握在平面上表示空间图形的方法和技能。通过对图形的观察和操作，引导学生发现和提出描述基本图形平行、垂直关系的命题，逐步学会用准确的数学语言表达这些命题，直观解释命题的含义和表述证明的思路，并证明其中一些命题；对相应的判定定理只要求直观感知、操作确"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:17",
+    "target": "urn:jy:physics:OB05:Example:072",
+    "evidence": {
+      "matchScore": 0.0877,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:073",
+    "target": "urn:jy:physics:SB0401:OB06:Section:10",
+    "evidence": {
+      "matchScore": 0.4862,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例11",
+        "exampleText": "用电流表和电压表，分别探究串联电路和并联电路中电流、电压的特点。"
+      },
+      "fromSection": {
+        "sectionTitle": "二、串、并联电路的特点",
+        "chapterTitle": "第十章 串联电路和并联电路",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "表示空间图形的方法和技能。通过对图形的观察和操作，引导学生发现和提出描述基本图形平行、垂直关系的命题，逐步学会用准确的数学语言表达这些命题，直观解释命题的含义和表述证明的思路，并证明其中一些命题；对相应的判定定理只要求直观感知、操作确认，在选择性必修课程中将用向量方法对这些定理加以论证。  可以使用信息技术展示空间图形，为理解和掌握图形几何性质（包括证明）提供直观。教师可以指导和帮助学生选择一些立体几何问题作为数学探究活动的课题（参见案例11）。  可以组织学生收集、阅读几何学发展的历史资料，结合内容撰写报告，论述几何学发展过程中的重要结果、主要人物、关键事件及其对人类文明的贡献。  # 【学业要求】  能够从多种角度掌握向量概念和运算法则，掌握向量基本定理；能够运用向量运算解决简单的几何和物理问题，知道数学运算与逻辑推理的关系。  能够理解复数的概念，掌握复数代数表示式的四则运算。  能够通过直观图理解空间图形，掌握基本空间图形及其简单组合体的概念和基本特征，解决简"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:10",
+    "target": "urn:jy:physics:OB05:Example:073",
+    "evidence": {
+      "matchScore": 0.4862,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:073",
+    "target": "urn:jy:physics:SB0401:OB06:Section:9",
+    "evidence": {
+      "matchScore": 0.4205,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例11",
+        "exampleText": "用电流表和电压表，分别探究串联电路和并联电路中电流、电压的特点。"
+      },
+      "fromSection": {
+        "sectionTitle": "一、学生实验：连接串、并联电路",
+        "chapterTitle": "第十章 串联电路和并联电路",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "表示空间图形的方法和技能。通过对图形的观察和操作，引导学生发现和提出描述基本图形平行、垂直关系的命题，逐步学会用准确的数学语言表达这些命题，直观解释命题的含义和表述证明的思路，并证明其中一些命题；对相应的判定定理只要求直观感知、操作确认，在选择性必修课程中将用向量方法对这些定理加以论证。  可以使用信息技术展示空间图形，为理解和掌握图形几何性质（包括证明）提供直观。教师可以指导和帮助学生选择一些立体几何问题作为数学探究活动的课题（参见案例11）。  可以组织学生收集、阅读几何学发展的历史资料，结合内容撰写报告，论述几何学发展过程中的重要结果、主要人物、关键事件及其对人类文明的贡献。  # 【学业要求】  能够从多种角度掌握向量概念和运算法则，掌握向量基本定理；能够运用向量运算解决简单的几何和物理问题，知道数学运算与逻辑推理的关系。  能够理解复数的概念，掌握复数代数表示式的四则运算。  能够通过直观图理解空间图形，掌握基本空间图形及其简单组合体的概念和基本特征，解决简"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:9",
+    "target": "urn:jy:physics:OB05:Example:073",
+    "evidence": {
+      "matchScore": 0.4205,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:073",
+    "target": "urn:jy:physics:SB0401:OB06:Section:11",
+    "evidence": {
+      "matchScore": 0.3841,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例11",
+        "exampleText": "用电流表和电压表，分别探究串联电路和并联电路中电流、电压的特点。"
+      },
+      "fromSection": {
+        "sectionTitle": "三、学生实验：探究影响电流的因素",
+        "chapterTitle": "第十章 串联电路和并联电路",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "表示空间图形的方法和技能。通过对图形的观察和操作，引导学生发现和提出描述基本图形平行、垂直关系的命题，逐步学会用准确的数学语言表达这些命题，直观解释命题的含义和表述证明的思路，并证明其中一些命题；对相应的判定定理只要求直观感知、操作确认，在选择性必修课程中将用向量方法对这些定理加以论证。  可以使用信息技术展示空间图形，为理解和掌握图形几何性质（包括证明）提供直观。教师可以指导和帮助学生选择一些立体几何问题作为数学探究活动的课题（参见案例11）。  可以组织学生收集、阅读几何学发展的历史资料，结合内容撰写报告，论述几何学发展过程中的重要结果、主要人物、关键事件及其对人类文明的贡献。  # 【学业要求】  能够从多种角度掌握向量概念和运算法则，掌握向量基本定理；能够运用向量运算解决简单的几何和物理问题，知道数学运算与逻辑推理的关系。  能够理解复数的概念，掌握复数代数表示式的四则运算。  能够通过直观图理解空间图形，掌握基本空间图形及其简单组合体的概念和基本特征，解决简"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:11",
+    "target": "urn:jy:physics:OB05:Example:073",
+    "evidence": {
+      "matchScore": 0.3841,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:073",
+    "target": "urn:jy:physics:SB0401:OB06:Section:12",
+    "evidence": {
+      "matchScore": 0.3801,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例11",
+        "exampleText": "用电流表和电压表，分别探究串联电路和并联电路中电流、电压的特点。"
+      },
+      "fromSection": {
+        "sectionTitle": "四、欧姆定律的应用",
+        "chapterTitle": "第十章 串联电路和并联电路",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "表示空间图形的方法和技能。通过对图形的观察和操作，引导学生发现和提出描述基本图形平行、垂直关系的命题，逐步学会用准确的数学语言表达这些命题，直观解释命题的含义和表述证明的思路，并证明其中一些命题；对相应的判定定理只要求直观感知、操作确认，在选择性必修课程中将用向量方法对这些定理加以论证。  可以使用信息技术展示空间图形，为理解和掌握图形几何性质（包括证明）提供直观。教师可以指导和帮助学生选择一些立体几何问题作为数学探究活动的课题（参见案例11）。  可以组织学生收集、阅读几何学发展的历史资料，结合内容撰写报告，论述几何学发展过程中的重要结果、主要人物、关键事件及其对人类文明的贡献。  # 【学业要求】  能够从多种角度掌握向量概念和运算法则，掌握向量基本定理；能够运用向量运算解决简单的几何和物理问题，知道数学运算与逻辑推理的关系。  能够理解复数的概念，掌握复数代数表示式的四则运算。  能够通过直观图理解空间图形，掌握基本空间图形及其简单组合体的概念和基本特征，解决简"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:12",
+    "target": "urn:jy:physics:OB05:Example:073",
+    "evidence": {
+      "matchScore": 0.3801,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:073",
+    "target": "urn:jy:physics:SB0401:OB06:Section:13",
+    "evidence": {
+      "matchScore": 0.3801,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例11",
+        "exampleText": "用电流表和电压表，分别探究串联电路和并联电路中电流、电压的特点。"
+      },
+      "fromSection": {
+        "sectionTitle": "五、测量导体的电阻",
+        "chapterTitle": "第十章 串联电路和并联电路",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "表示空间图形的方法和技能。通过对图形的观察和操作，引导学生发现和提出描述基本图形平行、垂直关系的命题，逐步学会用准确的数学语言表达这些命题，直观解释命题的含义和表述证明的思路，并证明其中一些命题；对相应的判定定理只要求直观感知、操作确认，在选择性必修课程中将用向量方法对这些定理加以论证。  可以使用信息技术展示空间图形，为理解和掌握图形几何性质（包括证明）提供直观。教师可以指导和帮助学生选择一些立体几何问题作为数学探究活动的课题（参见案例11）。  可以组织学生收集、阅读几何学发展的历史资料，结合内容撰写报告，论述几何学发展过程中的重要结果、主要人物、关键事件及其对人类文明的贡献。  # 【学业要求】  能够从多种角度掌握向量概念和运算法则，掌握向量基本定理；能够运用向量运算解决简单的几何和物理问题，知道数学运算与逻辑推理的关系。  能够理解复数的概念，掌握复数代数表示式的四则运算。  能够通过直观图理解空间图形，掌握基本空间图形及其简单组合体的概念和基本特征，解决简"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:13",
+    "target": "urn:jy:physics:OB05:Example:073",
+    "evidence": {
+      "matchScore": 0.3801,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:074",
+    "target": "urn:jy:physics:SB0401:OB06:Section:7",
+    "evidence": {
+      "matchScore": 0.0841,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例12",
+        "exampleText": "用定值电阻、滑动变阻器、电流表、电压表等，探究电流与电压、电阻的关系。"
+      },
+      "fromSection": {
+        "sectionTitle": "七、变阻器",
+        "chapterTitle": "第九章 简单电路",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "。统计的研究对象是数据，核心是数据分析。概率为统计的发展提供理论基础。  # 【内容要求】  内容包括：概率、统计。  # 1. 概率  本单元的学习，可以帮助学生结合具体实例，理解样本点、有限样本空间、随机事件，会计算古典概型中简单随机事件的概率，加深对随机现象的认识和理解。  内容包括：随机事件与概率、随机事件的独立性。  # （1）随机事件与概率  ①结合具体实例，理解样本点和有限样本空间的含义，理解随机事件与样本点的关系（参见案例12）。了解随机事件的并、交与互斥的含义，能结合实例进行随机事件的并、交运算。  ②结合具体实例，理解古典概型，能计算古典概型中简单随机事件的概率。  (3)通过实例, 理解概率的性质, 掌握随机事件概率的运算法则。  ④结合实例，会用频率估计概率。  # （2）随机事件的独立性  结合有限样本空间，了解两个随机事件独立性的含义。结合古典概型，能利用独立性计算概率。  # 2. 统计  本单元的学习，可以帮助学生进一步学习数据收集和整"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:7",
+    "target": "urn:jy:physics:OB05:Example:074",
+    "evidence": {
+      "matchScore": 0.0841,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:076",
+    "target": "urn:jy:physics:SB0401:OB06:Section:72",
+    "evidence": {
+      "matchScore": 0.0802,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例2",
+        "exampleText": "调查生活中（如用电、乘车、住高楼等）存在的安全隐患，提出安全与健康生活的建议。"
+      },
+      "fromSection": {
+        "sectionTitle": "第三节 生活中的透镜",
+        "chapterTitle": "第五章 透镜及其应用",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "以帮助学生建立完整的函数概念，不仅把函数理解为刻画变量之间依赖关系的数学语言和工具，也把函数理解为实数集合之间的对应关系；能用代数运算和函数图象揭示函数的主要性质；在现实问题中，能利用函数构建模型，解决问题。  内容包括：函数概念、函数性质、* 函数的形成与发展（标有 * 的内容均为选学内容，不作为考试要求）。  # （1）函数概念  ①在初中用变量之间的依赖关系描述函数的基础上，用集合语言和对应关系刻画函数，建立完整的函数概念（参见案例2），体会集合语言和对应关系在刻画函数概念中的作用。了解构成函数的要素，能求简单函数的定义域。  ②在实际情境中，会根据不同的需要选择恰当的方法（如图象法、列表法、解析法等）表示函数，理解函数图象的作用。  (3)通过具体实例，了解简单的分段函数，并能简单应用。  # （2）函数性质  ① 借助函数图象，会用符号语言表达函数的单调性、最大（小）值，理解它们的作用和实际意义。  ②结合具体函数，了解奇偶性的概念和几何意义。  (3)结合"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:72",
+    "target": "urn:jy:physics:OB05:Example:076",
+    "evidence": {
+      "matchScore": 0.0802,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:081",
+    "target": "urn:jy:physics:SB0401:OB06:Section:62",
+    "evidence": {
+      "matchScore": 0.1014,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例3",
+        "exampleText": "了解物理学在信息记录或传播中的应用。"
+      },
+      "fromSection": {
+        "sectionTitle": "第四节 声波的应用",
+        "chapterTitle": "第三章 声现象",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "础上，借助单位圆建立一般三角函数的概念，体会引入弧度制的必要性；用几何直观和代数运算的方法研究三角函数的周期性、奇偶性（对称性）、单调性和最大（小）值等性质；探索和研究三角函数之间的一些恒等关系；利用三角函数构建数学模型，解决实际问题。  内容包括：角与弧度、三角函数概念和性质、同角三角函数的基本关系式、三角恒等变换、三角函数应用。  # （1）角与弧度  了解任意角的概念和弧度制，能进行弧度与角度的互化，体会引入弧度制的必要性（参见案例3）。  # （2）三角函数概念和性质  ① 借助单位圆理解三角函数（正弦函数、余弦函数、正切函数）的定义，能画出这些三角函数的图象，了解三角函数的周期性、单调性、奇偶性、最大（小）值。借助单位圆的对称性，利用定义推导出诱导公式  $(\\alpha \\pm \\frac{\\pi}{2}, \\alpha \\pm \\pi$  的正弦、余弦、正切）。  ② 借助图象理解正弦函数、余弦函数在  $[0, 2\\pi]$  上，正切函数在  $\\l"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:62",
+    "target": "urn:jy:physics:OB05:Example:081",
+    "evidence": {
+      "matchScore": 0.1014,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:083",
+    "target": "urn:jy:physics:SB0401:OB06:Section:23",
+    "evidence": {
+      "matchScore": 0.1063,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例2",
+        "exampleText": "了解半导体、超导体的主要特点，展望超导体应用对社会发展的影响。"
+      },
+      "fromSection": {
+        "sectionTitle": "五、磁场对通电导体的作用",
+        "chapterTitle": "第十二章 磁现象",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "以帮助学生建立完整的函数概念，不仅把函数理解为刻画变量之间依赖关系的数学语言和工具，也把函数理解为实数集合之间的对应关系；能用代数运算和函数图象揭示函数的主要性质；在现实问题中，能利用函数构建模型，解决问题。  内容包括：函数概念、函数性质、* 函数的形成与发展（标有 * 的内容均为选学内容，不作为考试要求）。  # （1）函数概念  ①在初中用变量之间的依赖关系描述函数的基础上，用集合语言和对应关系刻画函数，建立完整的函数概念（参见案例2），体会集合语言和对应关系在刻画函数概念中的作用。了解构成函数的要素，能求简单函数的定义域。  ②在实际情境中，会根据不同的需要选择恰当的方法（如图象法、列表法、解析法等）表示函数，理解函数图象的作用。  (3)通过具体实例，了解简单的分段函数，并能简单应用。  # （2）函数性质  ① 借助函数图象，会用符号语言表达函数的单调性、最大（小）值，理解它们的作用和实际意义。  ②结合具体函数，了解奇偶性的概念和几何意义。  (3)结合"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:23",
+    "target": "urn:jy:physics:OB05:Example:083",
+    "evidence": {
+      "matchScore": 0.1063,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "exampleRequiresSection",
+    "label": "解决例题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:Example:084",
+    "target": "urn:jy:physics:SB0401:OB06:Section:78",
+    "evidence": {
+      "matchScore": 0.1045,
+      "fromExample": {
+        "exampleIndex": "",
+        "title": "例3",
+        "exampleText": "了解纳米材料等新型材料的主要特点，以及这些新材料技术的应用对社会发展的影响。"
+      },
+      "fromSection": {
+        "sectionTitle": "第四节 探索新材料",
+        "chapterTitle": "第六章 质量和密度",
+        "grade": "八年级",
+        "volume": "下册"
+      },
+      "fromMd": {
+        "snippet": "础上，借助单位圆建立一般三角函数的概念，体会引入弧度制的必要性；用几何直观和代数运算的方法研究三角函数的周期性、奇偶性（对称性）、单调性和最大（小）值等性质；探索和研究三角函数之间的一些恒等关系；利用三角函数构建数学模型，解决实际问题。  内容包括：角与弧度、三角函数概念和性质、同角三角函数的基本关系式、三角恒等变换、三角函数应用。  # （1）角与弧度  了解任意角的概念和弧度制，能进行弧度与角度的互化，体会引入弧度制的必要性（参见案例3）。  # （2）三角函数概念和性质  ① 借助单位圆理解三角函数（正弦函数、余弦函数、正切函数）的定义，能画出这些三角函数的图象，了解三角函数的周期性、单调性、奇偶性、最大（小）值。借助单位圆的对称性，利用定义推导出诱导公式  $(\\alpha \\pm \\frac{\\pi}{2}, \\alpha \\pm \\pi$  的正弦、余弦、正切）。  ② 借助图象理解正弦函数、余弦函数在  $[0, 2\\pi]$  上，正切函数在  $\\l"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsExample",
+    "label": "节支撑例题 / supportsExampleProblem",
+    "source": "urn:jy:physics:SB0401:OB06:Section:78",
+    "target": "urn:jy:physics:OB05:Example:084",
+    "evidence": {
+      "matchScore": 0.1045,
+      "reason": "基于例题文本与教材节/章标题的字符n-gram相似度匹配"
+    }
+  }
+]

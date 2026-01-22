@@ -1,0 +1,70 @@
+{
+  "relations": [
+    {
+      "relationName": "coreLiteracyReflectedByAcademicQuality",
+      "label": "学业质量是学生在完成课程学习后的学业成就表现，反映核心素养要求",
+      "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l1",
+      "target": "urn:jy:biology:SB0403:OB03:AcademicQuality:l1"
+    },
+    {
+      "relationName": "coreLiteracyReflectedByAcademicQuality",
+      "label": "基于真实的生物学问题情境，描述生物学现象或与生物有关的特征，运用生物学的结构与功能观、物质与能量观、进化与适应观、生态观等生命观念解释产生特定生物学现象的原因",
+      "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l1",
+      "target": "urn:jy:biology:SB0403:OB03:AcademicQuality:l1"
+    },
+    {
+      "relationName": "coreLiteracyReflectedByAcademicQuality",
+      "label": "在与健康和疾病相关的问题情境中，识别人体结构，描述其发生的变化",
+      "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l2",
+      "target": "urn:jy:biology:SB0403:OB03:AcademicQuality:l2"
+    },
+    {
+      "relationName": "coreLiteracyReflectedByAcademicQuality",
+      "label": "从机体生理功能稳定、经济成本、社会伦理、环境保护等方面考虑，尝试提出可能的疾病预防或治疗方案",
+      "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l2",
+      "target": "urn:jy:biology:SB0403:OB03:AcademicQuality:l2"
+    },
+    {
+      "relationName": "coreLiteracyReflectedByAcademicQuality",
+      "label": "在与生物资源开发和利用有关的问题情境中，运用光合作用、呼吸作用、蒸腾作用、生物进化等生物学概念，确定生物资源生产和应用过程中的关键因素",
+      "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l3",
+      "target": "urn:jy:biology:SB0403:OB03:AcademicQuality:l3"
+    },
+    {
+      "relationName": "coreLiteracyReflectedByAcademicQuality",
+      "label": "结合研究结果，运用物质与能量、进化与适应等生命观念，分析生物资源生产或应用等社会性科学议题中有待解决的问题",
+      "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l3",
+      "target": "urn:jy:biology:SB0403:OB03:AcademicQuality:l3"
+    },
+    {
+      "relationName": "coreLiteracyReflectedByAcademicQuality",
+      "label": "识别生态系统中的不同成分，分析其作用",
+      "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l3",
+      "target": "urn:jy:biology:SB0403:OB03:AcademicQuality:l4"
+    },
+    {
+      "relationName": "coreLiteracyReflectedByAcademicQuality",
+      "label": "运用进化与适应观和生态观分析生物在形态结构和行为等方面与环境相适应的特征",
+      "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l3",
+      "target": "urn:jy:biology:SB0403:OB03:AcademicQuality:l4"
+    },
+    {
+      "relationName": "coreLiteracyReflectedByAcademicQuality",
+      "label": "通过设计、制作和改进，形成物化成果，将解决问题的想法或创意付诸实践",
+      "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l3",
+      "target": "urn:jy:biology:SB0403:OB03:AcademicQuality:l5"
+    },
+    {
+      "relationName": "coreLiteracyReflectedByAcademicQuality",
+      "label": "分析生物技术产品的设计或改进方案，尝试从技术进步、个体生存、种群延续、生态安全、社会发展和伦理等方面辩证地分析生物技术的前景及应用中需要解决的问题",
+      "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l4",
+      "target": "urn:jy:biology:SB0403:OB03:AcademicQuality:l5"
+    },
+    {
+      "relationName": "coreLiteracyReflectedByAcademicQuality",
+      "label": "关注身体内外各种因素对健康的影响，在饮食作息、体育锻炼、疾病预防等方面形成健康生活的态度和行为习惯",
+      "source": "urn:jy:biology:SB0403:OB03:CoreLiteracy:l4",
+      "target": "urn:jy:biology:SB0403:OB03:AcademicQuality:l2"
+    }
+  ]
+}
