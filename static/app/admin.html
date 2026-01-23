@@ -121,12 +121,18 @@
                         <input type="text" name="name" required>
                     </div>
                     <div class="form-group">
-                        <label>角色</label>
-                        <select name="role">
-                            <option value="teacher">教师</option>
-                            <option value="engineer">图谱工程师</option>
-                            <option value="admin">管理员</option>
-                        </select>
+                        <label>角色（可多选）</label>
+                        <div class="checkbox-group" style="display: flex; flex-wrap: wrap; gap: 15px; padding: 10px 0;">
+                            <label style="display: flex; align-items: center; gap: 5px; cursor: pointer;">
+                                <input type="checkbox" name="roles" value="teacher" checked> 教师
+                            </label>
+                            <label style="display: flex; align-items: center; gap: 5px; cursor: pointer;">
+                                <input type="checkbox" name="roles" value="engineer"> 图谱工程师
+                            </label>
+                            <label style="display: flex; align-items: center; gap: 5px; cursor: pointer;">
+                                <input type="checkbox" name="roles" value="admin"> 管理员
+                            </label>
+                        </div>
                     </div>
                     <div class="form-group">
                         <label>邮箱</label>
@@ -137,6 +143,37 @@
             <div class="modal-footer">
                 <button class="btn" onclick="closeModal('createUserModal')">取消</button>
                 <button class="btn btn-primary" onclick="createUser()">创建</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 编辑角色模态框 -->
+    <div class="modal-overlay" id="editRolesModal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3>编辑用户角色</h3>
+                <button class="modal-close" onclick="closeModal('editRolesModal')">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p id="editRolesUserName" style="margin-bottom: 15px; font-weight: bold;"></p>
+                <div class="form-group">
+                    <label>角色（可多选）</label>
+                    <div id="editRolesCheckboxes" class="checkbox-group" style="display: flex; flex-wrap: wrap; gap: 15px; padding: 10px 0;">
+                        <label style="display: flex; align-items: center; gap: 5px; cursor: pointer;">
+                            <input type="checkbox" name="editRoles" value="teacher"> 教师
+                        </label>
+                        <label style="display: flex; align-items: center; gap: 5px; cursor: pointer;">
+                            <input type="checkbox" name="editRoles" value="engineer"> 图谱工程师
+                        </label>
+                        <label style="display: flex; align-items: center; gap: 5px; cursor: pointer;">
+                            <input type="checkbox" name="editRoles" value="admin"> 管理员
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" onclick="closeModal('editRolesModal')">取消</button>
+                <button class="btn btn-primary" onclick="saveUserRoles()">保存</button>
             </div>
         </div>
     </div>
@@ -249,6 +286,7 @@
                 tbody.innerHTML = usersWithSubjects.map(u => {
                     const roles = u.roles || [u.role];
                     const isRoot = roles.includes('root');
+                    const rolesJson = JSON.stringify(roles).replace(/"/g, '&quot;');
                     return `
                     <tr>
                         <td>${u.username}</td>
@@ -258,6 +296,7 @@
                         <td>${u.subjects.map(s => s.subject_id).join(', ') || '-'}</td>
                         <td>${u.last_login ? new Date(u.last_login).toLocaleString() : '-'}</td>
                         <td>
+                            ${!isRoot ? `<button class="btn" onclick="showEditRolesModal(${u.id}, '${u.name}', ${rolesJson})" style="padding:4px 8px;font-size:12px;">编辑角色</button>` : ''}
                             <button class="btn btn-primary" onclick="showAssignModal(${u.id}, '${u.name}')" style="padding:4px 8px;font-size:12px;">分配学科</button>
                             <button class="btn btn-warning" onclick="resetPassword(${u.id})" style="padding:4px 8px;font-size:12px;">重置密码</button>
                             ${!isRoot ? `<button class="btn btn-danger" onclick="toggleUserStatus(${u.id}, ${u.is_active})" style="padding:4px 8px;font-size:12px;">${u.is_active ? '禁用' : '启用'}</button>` : ''}
@@ -347,11 +386,18 @@
             const form = document.getElementById('createUserForm');
             const formData = new FormData(form);
             
+            // 获取选中的角色（多选）
+            const selectedRoles = formData.getAll('roles');
+            if (selectedRoles.length === 0) {
+                showToast('请至少选择一个角色', 'warning');
+                return;
+            }
+            
             const data = {
                 username: formData.get('username'),
                 password: formData.get('password'),
                 name: formData.get('name'),
-                role: formData.get('role'),
+                roles: selectedRoles,
                 email: formData.get('email') || null
             };
             
@@ -437,6 +483,43 @@
             // 优先使用 roles 数组
             const roles = user.roles || [user.role];
             return roles.map(r => `<span class="badge badge-${r}">${getRoleText(r)}</span>`).join(' ');
+        }
+        
+        // 显示编辑角色模态框
+        let editingUserId = null;
+        function showEditRolesModal(userId, userName, currentRoles) {
+            editingUserId = userId;
+            document.getElementById('editRolesUserName').textContent = `用户：${userName}`;
+            
+            // 重置所有复选框
+            const checkboxes = document.querySelectorAll('input[name="editRoles"]');
+            checkboxes.forEach(cb => {
+                cb.checked = currentRoles.includes(cb.value);
+            });
+            
+            document.getElementById('editRolesModal').classList.add('active');
+        }
+        
+        // 保存用户角色
+        async function saveUserRoles() {
+            if (!editingUserId) return;
+            
+            const checkboxes = document.querySelectorAll('input[name="editRoles"]:checked');
+            const selectedRoles = Array.from(checkboxes).map(cb => cb.value);
+            
+            if (selectedRoles.length === 0) {
+                showToast('请至少选择一个角色', 'warning');
+                return;
+            }
+            
+            try {
+                await api.admin.updateUser(editingUserId, { roles: selectedRoles });
+                showToast('角色更新成功', 'success');
+                closeModal('editRolesModal');
+                loadUsers();
+            } catch (error) {
+                showToast('更新失败: ' + error.message, 'error');
+            }
         }
     </script>
 </body>

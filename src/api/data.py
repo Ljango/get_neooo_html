@@ -717,6 +717,14 @@ ENTITY_REQUIRED_FIELDS = ['identifier', 'title', 'type']
 RELATION_REQUIRED_FIELDS = ['source', 'target', 'relationName']
 
 
+def is_pascal_case(s: str) -> bool:
+    """检查字符串是否为PascalCase格式"""
+    if not s or len(s) < 2:
+        return True
+    # PascalCase: 首字母大写，不全是大写，不包含下划线开头
+    return s[0].isupper() and not s.isupper() and not s.startswith('_')
+
+
 def validate_entity_json(data: Any, filename: str) -> Dict[str, Any]:
     """
     验证实体JSON数据格式
@@ -724,6 +732,11 @@ def validate_entity_json(data: Any, filename: str) -> Dict[str, Any]:
     支持两种格式：
     1. 列表格式: [{"identifier": ..., "title": ..., "type": ...}, ...]
     2. 对象格式: {"entities": [...]}
+    
+    增强检查：
+    - 文件命名规范（PascalCase）
+    - type字段与文件名一致性
+    - identifier格式规范
     """
     result = {
         "valid": True,
@@ -731,6 +744,15 @@ def validate_entity_json(data: Any, filename: str) -> Dict[str, Any]:
         "warnings": [],
         "count": 0
     }
+    
+    # 获取文件名（不含扩展名）作为期望的type
+    expected_type = Path(filename).stem
+    
+    # 检查文件命名是否为PascalCase（仅警告）
+    if expected_type and not is_pascal_case(expected_type):
+        # 检查是否全小写
+        if expected_type.islower():
+            result["warnings"].append(f"{filename}: 文件名建议使用PascalCase格式（如 {expected_type.title()}.json）")
     
     # 获取实体列表
     if isinstance(data, list):
@@ -755,6 +777,9 @@ def validate_entity_json(data: Any, filename: str) -> Dict[str, Any]:
     
     # 检查每个实体的必需字段
     identifiers = set()
+    type_mismatch_count = 0
+    identifier_case_warnings = 0
+    
     for i, entity in enumerate(entities):
         if not isinstance(entity, dict):
             result["valid"] = False
@@ -767,12 +792,35 @@ def validate_entity_json(data: Any, filename: str) -> Dict[str, Any]:
             result["valid"] = False
             result["errors"].append(f"{filename}[{i}]: 缺少必需字段 {missing}")
         
-        # 检查identifier唯一性
-        identifier = entity.get('identifier')
+        # 检查type字段与文件名一致性
+        entity_type = entity.get('type', '')
+        if entity_type and entity_type != expected_type:
+            type_mismatch_count += 1
+        
+        # 检查identifier格式
+        identifier = entity.get('identifier', '')
         if identifier:
+            # 检查唯一性
             if identifier in identifiers:
                 result["warnings"].append(f"{filename}[{i}]: identifier重复: {identifier}")
             identifiers.add(identifier)
+            
+            # 检查identifier前缀是否为PascalCase
+            if '_' in identifier:
+                prefix = identifier.split('_')[0]
+                if prefix.islower() and len(prefix) > 2:
+                    identifier_case_warnings += 1
+    
+    # 汇总警告（避免过多重复警告）
+    if type_mismatch_count > 0:
+        result["warnings"].append(
+            f"{filename}: {type_mismatch_count}个实体的type字段与文件名({expected_type})不一致"
+        )
+    
+    if identifier_case_warnings > 0:
+        result["warnings"].append(
+            f"{filename}: {identifier_case_warnings}个实体的identifier前缀建议使用PascalCase格式"
+        )
     
     return result
 
@@ -829,6 +877,100 @@ def validate_relation_json(data: Any, filename: str) -> Dict[str, Any]:
     return result
 
 
+def validate_cross_file_references(
+    entity_identifiers: set,
+    relations_data: List[Dict],
+    relation_filename: str
+) -> Dict[str, Any]:
+    """
+    验证关系文件中的引用是否在实体中存在
+    
+    检查：
+    - source/target 是否在实体identifiers中存在
+    - 大小写变体冲突检测
+    """
+    result = {
+        "warnings": [],
+        "missing_refs": [],
+        "case_mismatches": []
+    }
+    
+    # 创建小写到原始identifier的映射
+    id_lower_map = {eid.lower(): eid for eid in entity_identifiers}
+    
+    missing_sources = set()
+    missing_targets = set()
+    case_mismatch_sources = {}
+    case_mismatch_targets = {}
+    
+    for relation in relations_data:
+        if not isinstance(relation, dict):
+            continue
+            
+        source = relation.get('source', '')
+        target = relation.get('target', '')
+        
+        # 检查source
+        if source and source not in entity_identifiers:
+            source_lower = source.lower()
+            if source_lower in id_lower_map:
+                # 大小写不匹配
+                if source not in case_mismatch_sources:
+                    case_mismatch_sources[source] = id_lower_map[source_lower]
+            else:
+                missing_sources.add(source)
+        
+        # 检查target
+        if target and target not in entity_identifiers:
+            target_lower = target.lower()
+            if target_lower in id_lower_map:
+                # 大小写不匹配
+                if target not in case_mismatch_targets:
+                    case_mismatch_targets[target] = id_lower_map[target_lower]
+            else:
+                missing_targets.add(target)
+    
+    # 生成警告
+    if case_mismatch_sources:
+        for wrong, correct in list(case_mismatch_sources.items())[:5]:  # 最多显示5个
+            result["warnings"].append(
+                f"{relation_filename}: source引用'{wrong}'与实体identifier'{correct}'大小写不一致"
+            )
+        if len(case_mismatch_sources) > 5:
+            result["warnings"].append(
+                f"{relation_filename}: 还有{len(case_mismatch_sources)-5}个source大小写不一致的问题"
+            )
+        result["case_mismatches"].extend(case_mismatch_sources.keys())
+    
+    if case_mismatch_targets:
+        for wrong, correct in list(case_mismatch_targets.items())[:5]:
+            result["warnings"].append(
+                f"{relation_filename}: target引用'{wrong}'与实体identifier'{correct}'大小写不一致"
+            )
+        if len(case_mismatch_targets) > 5:
+            result["warnings"].append(
+                f"{relation_filename}: 还有{len(case_mismatch_targets)-5}个target大小写不一致的问题"
+            )
+        result["case_mismatches"].extend(case_mismatch_targets.keys())
+    
+    # 缺失引用（仅警告，不阻止上传）
+    if missing_sources:
+        samples = list(missing_sources)[:3]
+        result["warnings"].append(
+            f"{relation_filename}: {len(missing_sources)}个source引用在实体中不存在，如: {samples}"
+        )
+        result["missing_refs"].extend(missing_sources)
+    
+    if missing_targets:
+        samples = list(missing_targets)[:3]
+        result["warnings"].append(
+            f"{relation_filename}: {len(missing_targets)}个target引用在实体中不存在，如: {samples}"
+        )
+        result["missing_refs"].extend(missing_targets)
+    
+    return result
+
+
 def validate_zip_structure(zip_path: Path) -> Dict[str, Any]:
     """
     验证ZIP包结构和内容
@@ -862,7 +1004,13 @@ def validate_zip_structure(zip_path: Path) -> Dict[str, Any]:
             
             if not has_entities_dir and not has_relations_dir:
                 # 尝试检查是否有子目录（如 subject-name/entities/）
-                top_dirs = set(f.split('/')[0] for f in file_list if '/' in f)
+                # 过滤掉 __MACOSX 和隐藏目录（以.开头）
+                top_dirs = set(
+                    f.split('/')[0] for f in file_list 
+                    if '/' in f 
+                    and not f.startswith('__MACOSX')
+                    and not f.startswith('.')
+                )
                 if len(top_dirs) == 1:
                     top_dir = list(top_dirs)[0]
                     has_entities_dir = any(f.startswith(f'{top_dir}/entities/') for f in file_list)
@@ -881,6 +1029,11 @@ def validate_zip_structure(zip_path: Path) -> Dict[str, Any]:
             prefix = result.get("top_dir", "")
             if prefix:
                 prefix = f"{prefix}/"
+            
+            # 收集所有实体的identifier用于交叉验证
+            all_entity_identifiers = set()
+            # 收集关系数据用于交叉验证
+            relations_for_validation = []  # [(filename, relations_list), ...]
             
             # 验证实体文件
             for f in file_list:
@@ -901,6 +1054,12 @@ def validate_zip_structure(zip_path: Path) -> Dict[str, Any]:
                                 "count": validation["count"]
                             })
                             result["total_entities"] += validation["count"]
+                            
+                            # 收集identifier用于交叉验证
+                            entities = data if isinstance(data, list) else data.get('entities', [])
+                            for entity in entities:
+                                if isinstance(entity, dict) and 'identifier' in entity:
+                                    all_entity_identifiers.add(entity['identifier'])
                     except json.JSONDecodeError as e:
                         result["valid"] = False
                         result["errors"].append(f"entities/{filename}: JSON解析失败 - {str(e)}")
@@ -924,9 +1083,21 @@ def validate_zip_structure(zip_path: Path) -> Dict[str, Any]:
                                 "count": validation["count"]
                             })
                             result["total_relations"] += validation["count"]
+                            
+                            # 收集关系数据用于交叉验证
+                            relations = data if isinstance(data, list) else data.get('relations', [])
+                            relations_for_validation.append((filename, relations))
                     except json.JSONDecodeError as e:
                         result["valid"] = False
                         result["errors"].append(f"relations/{filename}: JSON解析失败 - {str(e)}")
+            
+            # 执行交叉文件引用验证
+            if all_entity_identifiers and relations_for_validation:
+                for rel_filename, relations in relations_for_validation:
+                    cross_validation = validate_cross_file_references(
+                        all_entity_identifiers, relations, rel_filename
+                    )
+                    result["warnings"].extend(cross_validation["warnings"])
             
             if not result["entity_files"]:
                 result["warnings"].append("未找到实体文件")
