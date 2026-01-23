@@ -215,10 +215,17 @@
             const tbody = document.getElementById('userTableBody');
             
             try {
-                const result = await api.admin.getUsers({ 
-                    page: currentPage, 
-                    role_filter: roleFilter || undefined 
-                });
+                // 构建参数对象，只包含有效值
+                const params = { 
+                    page: currentPage
+                };
+                
+                // 只有当 roleFilter 不为空时才添加到参数中
+                if (roleFilter) {
+                    params.role_filter = roleFilter;
+                }
+                
+                const result = await api.admin.getUsers(params);
                 
                 if (result.users.length === 0) {
                     tbody.innerHTML = '<tr><td colspan="7" style="text-align:center;">暂无数据</td></tr>';

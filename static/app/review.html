@@ -6,6 +6,52 @@
     <title>数据审核 - 知识图谱数据审校系统</title>
     <link rel="stylesheet" href="/static/css/app.css">
     <style>
+        /* 学科选择器样式 - 更加显眼 */
+        .subject-selector {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+        
+        .subject-selector-label {
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 10px;
+        }
+        
+        .subject-selector-label::before {
+            content: "📚";
+            font-size: 24px;
+        }
+        
+        .subject-selector select {
+            width: 100%;
+            padding: 12px 16px;
+            font-size: 16px;
+            border: 2px solid #fff;
+            border-radius: 6px;
+            background: white;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .subject-selector select:hover {
+            border-color: #a8b5ff;
+            box-shadow: 0 0 0 3px rgba(168, 181, 255, 0.2);
+        }
+        
+        .subject-selector select:focus {
+            outline: none;
+            border-color: #5a67d8;
+            box-shadow: 0 0 0 3px rgba(90, 103, 216, 0.3);
+        }
+        
         .review-layout {
             display: flex;
             gap: 20px;
@@ -383,14 +429,17 @@
         <div class="main-content">
             <header class="header">
                 <h1 class="header-title">数据审核</h1>
-                <div class="header-actions">
-                    <select id="subjectSelect" class="form-control">
-                        <option value="">选择学科...</option>
-                    </select>
-                </div>
             </header>
             
             <main class="content">
+                <!-- 学科选择器 - 显眼位置 -->
+                <div class="subject-selector">
+                    <div class="subject-selector-label">请选择要审核的学科</div>
+                    <select id="subjectSelect" onchange="onSubjectChange()">
+                        <option value="">请选择学科...</option>
+                    </select>
+                </div>
+                
                 <div class="review-layout">
                     <!-- 列表面板 -->
                     <div class="list-panel">
@@ -755,7 +804,8 @@
                     type: 'entity',
                     id: result.entity.identifier,
                     title: result.entity.title,
-                    entityType: result.entity.type
+                    entityType: result.entity.type,
+                    index: result.entity.identifier  // 用于定位
                 };
                 renderEntityDetail(result);
                 document.getElementById('reviewActions').style.display = 'flex';
@@ -775,7 +825,8 @@
             currentItem = {
                 type: 'relation',
                 id: `${relation.source}|${relation.target}|${relation.relation_name}`,
-                title: `${relation.source_title} → ${relation.target_title}`
+                title: `${relation.source_title} → ${relation.target_title}`,
+                index: index  // 用于定位
             };
             
             renderRelationDetail(relation);
@@ -932,11 +983,94 @@
                 showToast('审核提交成功', 'success');
                 document.getElementById('reviewComment').value = '';
                 
+                // 保存当前项的标识，用于后续定位
+                const currentId = currentItem.id;
+                const currentIndex = currentItem.index;
+                
                 // 刷新列表
-                loadList();
+                await loadList();
+                
+                // 自动跳转到下一条待审核记录
+                await selectNextPendingItem(currentId, currentIndex);
+                
             } catch (error) {
                 showToast('提交失败: ' + error.message, 'error');
             }
+        }
+        
+        async function selectNextPendingItem(previousId, previousIndex) {
+            // 等待DOM更新
+            await new Promise(resolve => setTimeout(resolve, 100));
+            
+            // 获取当前列表中的所有项
+            const items = document.querySelectorAll('.entity-item');
+            let foundPrevious = false;
+            let nextPendingItem = null;
+            
+            // 找到上一个项之后的第一条待审核记录
+            for (let item of items) {
+                const itemId = item.dataset.id || item.dataset.index;
+                
+                // 如果已经找到了之前的项，现在寻找下一条待审核
+                if (foundPrevious) {
+                    // 检查是否为待审核状态（没有badge或badge为pending）
+                    const badges = item.querySelectorAll('.badge');
+                    const hasPendingBadge = Array.from(badges).some(b => b.classList.contains('badge-pending'));
+                    const hasOtherBadge = Array.from(badges).some(b => 
+                        b.classList.contains('badge-approved') || 
+                        b.classList.contains('badge-needs_fix')
+                    );
+                    
+                    // 如果没有任何审核状态badge，或者有pending badge，就选这一条
+                    if (!hasOtherBadge || hasPendingBadge) {
+                        nextPendingItem = item;
+                        break;
+                    }
+                }
+                
+                // 标记已找到之前的项
+                if (itemId === String(previousId) || itemId === String(previousIndex)) {
+                    foundPrevious = true;
+                }
+            }
+            
+            // 如果找到了下一条，点击它
+            if (nextPendingItem) {
+                nextPendingItem.click();
+                return;
+            }
+            
+            // 如果当前页没有找到，尝试加载下一页
+            const paginationButtons = document.querySelectorAll('#pagination button');
+            const nextPageBtn = paginationButtons[paginationButtons.length - 1];
+            
+            if (nextPageBtn && !nextPageBtn.disabled) {
+                // 有下一页，加载它
+                currentPage++;
+                await loadList();
+                
+                // 等待列表加载
+                await new Promise(resolve => setTimeout(resolve, 200));
+                
+                // 选择新页面的第一条待审核记录
+                const allItems = document.querySelectorAll('.entity-item');
+                for (let item of allItems) {
+                    const badges = item.querySelectorAll('.badge');
+                    const hasOtherBadge = Array.from(badges).some(b => 
+                        b.classList.contains('badge-approved') || 
+                        b.classList.contains('badge-needs_fix')
+                    );
+                    
+                    if (!hasOtherBadge) {
+                        item.click();
+                        return;
+                    }
+                }
+            }
+            
+            // 所有待审核项都已完成
+            showToast('🎉 已完成所有待审核项！', 'success');
+            clearDetail();
         }
         
         function getStatusText(status) {
