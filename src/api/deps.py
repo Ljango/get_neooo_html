@@ -131,21 +131,56 @@ async def get_current_active_user(
 
 
 def require_role(*roles: UserRole):
-    """角色权限装饰器工厂"""
+    """角色权限装饰器工厂 - 支持多角色"""
+    role_values = [r.value if isinstance(r, UserRole) else r for r in roles]
+    
     async def role_checker(current_user: User = Depends(get_current_user)) -> User:
-        if current_user.role not in roles:
+        # 使用新的多角色检查方法
+        if not current_user.has_any_role(*role_values):
             raise HTTPException(
                 status_code=status.HTTP_403_FORBIDDEN,
-                detail=f"权限不足，需要 {[r.value for r in roles]} 角色"
+                detail=f"权限不足，需要 {role_values} 角色之一"
             )
         return current_user
     return role_checker
 
 
-# 预定义权限检查器
-require_teacher = require_role(UserRole.root, UserRole.admin, UserRole.teacher)
+def require_permission(permission_check: str):
+    """基于权限的检查器工厂"""
+    async def permission_checker(current_user: User = Depends(get_current_user)) -> User:
+        # 检查用户是否有指定权限
+        if permission_check == "upload_data":
+            has_perm = current_user.can_upload_data()
+            perm_name = "上传数据包"
+        elif permission_check == "review":
+            has_perm = current_user.can_review()
+            perm_name = "数据审核"
+        elif permission_check == "manage_users":
+            has_perm = current_user.can_manage_users()
+            perm_name = "用户管理"
+        else:
+            has_perm = False
+            perm_name = permission_check
+        
+        if not has_perm:
+            raise HTTPException(
+                status_code=status.HTTP_403_FORBIDDEN,
+                detail=f"权限不足：需要{perm_name}权限"
+            )
+        return current_user
+    return permission_checker
+
+
+# 预定义权限检查器 - 支持多角色
+require_teacher = require_role(UserRole.root, UserRole.admin, UserRole.teacher, UserRole.engineer)
 require_admin = require_role(UserRole.root, UserRole.admin)
 require_root = require_role(UserRole.root)
+require_engineer = require_role(UserRole.root, UserRole.admin, UserRole.engineer)  # 可上传数据包
+
+# 基于功能的权限检查器
+require_upload_permission = require_permission("upload_data")
+require_review_permission = require_permission("review")
+require_manage_users_permission = require_permission("manage_users")
 
 
 def log_operation(

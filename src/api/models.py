@@ -15,6 +15,16 @@ class UserRole(str, enum.Enum):
     root = "root"
     admin = "admin"
     teacher = "teacher"
+    engineer = "engineer"  # 图谱工程师：可上传数据包和审核数据
+
+
+# 角色权限层级（用于权限检查）
+ROLE_HIERARCHY = {
+    "root": 100,      # 最高权限
+    "admin": 80,
+    "engineer": 60,   # 图谱工程师
+    "teacher": 40,
+}
 
 
 class ReviewStatus(str, enum.Enum):
@@ -41,7 +51,8 @@ class User(Base):
     username = Column(String(50), unique=True, nullable=False, index=True)
     password_hash = Column(String(255), nullable=False)
     name = Column(String(100), nullable=False)
-    role = Column(Enum(UserRole), default=UserRole.teacher)
+    # 多角色支持：存储角色列表，如 ["teacher", "engineer"]
+    roles = Column(JSON, default=["teacher"])
     email = Column(String(100))
     created_at = Column(DateTime, default=datetime.utcnow)
     last_login = Column(DateTime)
@@ -52,6 +63,49 @@ class User(Base):
     subjects = relationship("UserSubject", back_populates="user", cascade="all, delete-orphan")
     reviews = relationship("ReviewRecord", back_populates="reviewer")
     logs = relationship("OperationLog", back_populates="user")
+    
+    # ===== 角色辅助方法 =====
+    
+    def get_roles(self) -> list:
+        """获取用户角色列表（兼容旧数据）"""
+        if self.roles is None:
+            return ["teacher"]
+        if isinstance(self.roles, str):
+            return [self.roles]
+        return self.roles
+    
+    def has_role(self, role: str) -> bool:
+        """检查用户是否拥有指定角色"""
+        return role in self.get_roles()
+    
+    def has_any_role(self, *roles) -> bool:
+        """检查用户是否拥有任意一个指定角色"""
+        user_roles = self.get_roles()
+        return any(r in user_roles for r in roles)
+    
+    def get_highest_role(self) -> str:
+        """获取用户最高权限的角色"""
+        user_roles = self.get_roles()
+        if not user_roles:
+            return "teacher"
+        return max(user_roles, key=lambda r: ROLE_HIERARCHY.get(r, 0))
+    
+    def can_upload_data(self) -> bool:
+        """检查用户是否有上传数据包权限"""
+        return self.has_any_role("root", "admin", "engineer")
+    
+    def can_review(self) -> bool:
+        """检查用户是否有审核权限"""
+        return self.has_any_role("root", "admin", "teacher", "engineer")
+    
+    def can_manage_users(self) -> bool:
+        """检查用户是否有用户管理权限"""
+        return self.has_any_role("root", "admin")
+    
+    @property
+    def role(self):
+        """向后兼容：返回最高权限角色"""
+        return self.get_highest_role()
 
 
 class UserSubject(Base):
@@ -128,3 +182,16 @@ class OperationLog(Base):
     
     # 关系
     user = relationship("User", back_populates="logs")
+
+
+class SyncQueue(Base):
+    """数据同步队列表 - 记录需要同步的学科"""
+    __tablename__ = "sync_queue"
+    
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    subject_id = Column(String(50), unique=True, nullable=False, index=True)
+    needs_sync = Column(Boolean, default=True)
+    last_edit_at = Column(DateTime, default=datetime.utcnow)
+    last_sync_at = Column(DateTime)
+    edit_count = Column(Integer, default=1)  # 自上次同步以来的编辑次数
+    created_at = Column(DateTime, default=datetime.utcnow)

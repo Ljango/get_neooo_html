@@ -64,7 +64,7 @@ async def login(
     
     return LoginResponse(
         access_token=access_token,
-        user=UserInfo.model_validate(user)
+        user=UserInfo.from_user(user)
     )
 
 
@@ -84,7 +84,7 @@ async def logout(
 @router.get("/me", response_model=UserInfo)
 async def get_me(current_user: User = Depends(get_current_user)):
     """获取当前用户信息"""
-    return UserInfo.model_validate(current_user)
+    return UserInfo.from_user(current_user)
 
 
 @router.put("/password", response_model=ResponseBase)

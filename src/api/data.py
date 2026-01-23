@@ -1,23 +1,32 @@
 # -*- coding: utf-8 -*-
 """
-数据操作API - 仅root可用的数据管理功能
+数据操作API - 数据管理功能（root和engineer可用）
 """
 
 import subprocess
 import sys
+import shutil
+import tarfile
+import zipfile
+import os
+import json
+import tempfile
 from datetime import datetime
-from typing import Optional, List
+from typing import Optional, List, Dict, Any
 from pathlib import Path
-from fastapi import APIRouter, Depends, HTTPException, BackgroundTasks
+from fastapi import APIRouter, Depends, HTTPException, BackgroundTasks, UploadFile, File, Form
 from sqlalchemy.orm import Session
 
 from .database import get_db
-from .models import User, DataVersion, VersionStatus
+from .models import User, DataVersion, VersionStatus, SyncQueue
 from .schemas import (
     TaskResponse, ResponseBase, VersionInfo, CreateVersionRequest
 )
-from .deps import require_root, log_operation
-from config import SUBJECT_CONFIG, PROJECT_ROOT
+from .deps import require_root, require_engineer, log_operation
+from config import SUBJECT_CONFIG, PROJECT_ROOT, DATA_ROOT
+
+# 快照存储目录
+SNAPSHOT_DIR = PROJECT_ROOT / "archive" / "snapshots"
 
 router = APIRouter()
 
@@ -194,6 +203,24 @@ async def run_sync(
     
     success, output = run_script(str(script_path), args)
     
+    # 同步成功后清除needs_sync标记
+    if success:
+        if subject:
+            sync_record = db.query(SyncQueue).filter(SyncQueue.subject_id == subject).first()
+            if sync_record:
+                sync_record.needs_sync = False
+                sync_record.last_sync_at = datetime.utcnow()
+                sync_record.edit_count = 0
+                db.commit()
+        else:
+            # 清除所有学科的标记
+            db.query(SyncQueue).update({
+                SyncQueue.needs_sync: False,
+                SyncQueue.last_sync_at: datetime.utcnow(),
+                SyncQueue.edit_count: 0
+            })
+            db.commit()
+    
     log_operation(
         db, current_user, "sync_data",
         details={"subject": subject, "success": success}
@@ -204,6 +231,45 @@ async def run_sync(
         message="数据同步完成" if success else "执行失败",
         output=output
     )
+
+
+# ========== 同步状态 ==========
+
+@router.get("/sync-status")
+async def get_sync_status(
+    current_user: User = Depends(require_root),
+    db: Session = Depends(get_db)
+):
+    """获取所有学科的同步状态"""
+    sync_records = db.query(SyncQueue).all()
+    
+    # 构建状态字典
+    status_dict = {}
+    for record in sync_records:
+        status_dict[record.subject_id] = {
+            "needs_sync": record.needs_sync,
+            "last_edit_at": record.last_edit_at.isoformat() if record.last_edit_at else None,
+            "last_sync_at": record.last_sync_at.isoformat() if record.last_sync_at else None,
+            "edit_count": record.edit_count
+        }
+    
+    # 检查哪些学科需要同步
+    subjects_need_sync = [
+        {
+            "subject_id": r.subject_id,
+            "display_name": SUBJECT_CONFIG.get(r.subject_id, {}).get('display_name', r.subject_id),
+            "edit_count": r.edit_count,
+            "last_edit_at": r.last_edit_at.isoformat() if r.last_edit_at else None
+        }
+        for r in sync_records if r.needs_sync
+    ]
+    
+    return {
+        "success": True,
+        "subjects_need_sync": subjects_need_sync,
+        "total_need_sync": len(subjects_need_sync),
+        "all_status": status_dict
+    }
 
 
 # ========== 版本管理 ==========
@@ -341,3 +407,785 @@ async def export_data(
         message="数据导出完成" if success else "执行失败",
         output=output
     )
+
+
+# ========== 数据快照管理 ==========
+
+@router.get("/snapshots/{subject_id}")
+async def list_snapshots(
+    subject_id: str,
+    current_user: User = Depends(require_root)
+):
+    """获取学科的所有快照列表"""
+    subject_config = SUBJECT_CONFIG.get(subject_id)
+    if not subject_config:
+        raise HTTPException(status_code=404, detail="学科不存在")
+    
+    # 获取data_dir名称作为快照目录名
+    data_dir_name = Path(subject_config['data_dir']).name
+    snapshot_path = SNAPSHOT_DIR / data_dir_name
+    
+    snapshots = []
+    if snapshot_path.exists():
+        for f in sorted(snapshot_path.glob("*.tar.gz"), reverse=True):
+            stat = f.stat()
+            # 解析文件名获取版本和时间
+            # 格式: v1.0_20260123_150000.tar.gz
+            name_parts = f.stem.replace('.tar', '').split('_')
+            version = name_parts[0] if name_parts else 'unknown'
+            
+            snapshots.append({
+                "filename": f.name,
+                "version": version,
+                "size": stat.st_size,
+                "size_human": f"{stat.st_size / 1024 / 1024:.2f} MB",
+                "created_at": datetime.fromtimestamp(stat.st_mtime).isoformat(),
+                "path": str(f)
+            })
+    
+    return {
+        "success": True,
+        "subject_id": subject_id,
+        "snapshots": snapshots,
+        "total": len(snapshots)
+    }
+
+
+@router.post("/snapshots/create")
+async def create_snapshot(
+    subject_id: str,
+    version: str = "auto",
+    description: str = "",
+    current_user: User = Depends(require_root),
+    db: Session = Depends(get_db)
+):
+    """创建学科数据快照"""
+    subject_config = SUBJECT_CONFIG.get(subject_id)
+    if not subject_config:
+        raise HTTPException(status_code=404, detail="学科不存在")
+    
+    data_dir = DATA_ROOT / subject_config['data_dir']
+    if not data_dir.exists():
+        raise HTTPException(status_code=404, detail="学科数据目录不存在")
+    
+    # 获取data_dir名称作为快照目录名
+    data_dir_name = Path(subject_config['data_dir']).name
+    snapshot_path = SNAPSHOT_DIR / data_dir_name
+    snapshot_path.mkdir(parents=True, exist_ok=True)
+    
+    # 生成版本号
+    if version == "auto":
+        existing = list(snapshot_path.glob("*.tar.gz"))
+        version = f"v{len(existing) + 1}.0"
+    
+    # 生成快照文件名
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    snapshot_file = snapshot_path / f"{version}_{timestamp}.tar.gz"
+    
+    try:
+        # 统计数据
+        entities_count = 0
+        relations_count = 0
+        
+        entities_dir = data_dir / "entities"
+        relations_dir = data_dir / "relations"
+        
+        if entities_dir.exists():
+            for json_file in entities_dir.glob("*.json"):
+                import json
+                with open(json_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    entities_count += len(data) if isinstance(data, list) else len(data.get('entities', []))
+        
+        if relations_dir.exists():
+            for json_file in relations_dir.glob("*.json"):
+                import json
+                with open(json_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    relations_count += len(data) if isinstance(data, list) else len(data.get('relations', []))
+        
+        # 创建tar.gz归档
+        with tarfile.open(snapshot_file, "w:gz") as tar:
+            # 添加元数据文件
+            import json
+            import tempfile
+            metadata = {
+                "subject_id": subject_id,
+                "version": version,
+                "description": description,
+                "created_at": datetime.now().isoformat(),
+                "created_by": current_user.username,
+                "entities_count": entities_count,
+                "relations_count": relations_count,
+                "data_dir": str(data_dir)
+            }
+            
+            # 写入metadata.json
+            with tempfile.NamedTemporaryFile(mode='w', suffix='.json', delete=False) as tf:
+                json.dump(metadata, tf, ensure_ascii=False, indent=2)
+                tf.flush()
+                tar.add(tf.name, arcname="metadata.json")
+                os.unlink(tf.name)
+            
+            # 添加entities目录
+            if entities_dir.exists():
+                for json_file in entities_dir.glob("*.json"):
+                    tar.add(json_file, arcname=f"entities/{json_file.name}")
+            
+            # 添加relations目录
+            if relations_dir.exists():
+                for json_file in relations_dir.glob("*.json"):
+                    tar.add(json_file, arcname=f"relations/{json_file.name}")
+        
+        # 记录操作日志
+        log_operation(
+            db, current_user, "create_snapshot", "snapshot", snapshot_file.name,
+            details={
+                "subject_id": subject_id,
+                "version": version,
+                "file": str(snapshot_file),
+                "entities_count": entities_count,
+                "relations_count": relations_count
+            }
+        )
+        
+        return {
+            "success": True,
+            "message": f"快照创建成功: {snapshot_file.name}",
+            "snapshot": {
+                "filename": snapshot_file.name,
+                "version": version,
+                "path": str(snapshot_file),
+                "size": snapshot_file.stat().st_size,
+                "entities_count": entities_count,
+                "relations_count": relations_count
+            }
+        }
+        
+    except Exception as e:
+        # 清理失败的快照文件
+        if snapshot_file.exists():
+            snapshot_file.unlink()
+        raise HTTPException(status_code=500, detail=f"创建快照失败: {str(e)}")
+
+
+@router.post("/snapshots/restore")
+async def restore_snapshot(
+    subject_id: str,
+    filename: str,
+    current_user: User = Depends(require_root),
+    db: Session = Depends(get_db)
+):
+    """从快照恢复学科数据"""
+    subject_config = SUBJECT_CONFIG.get(subject_id)
+    if not subject_config:
+        raise HTTPException(status_code=404, detail="学科不存在")
+    
+    data_dir = DATA_ROOT / subject_config['data_dir']
+    data_dir_name = Path(subject_config['data_dir']).name
+    snapshot_path = SNAPSHOT_DIR / data_dir_name / filename
+    
+    if not snapshot_path.exists():
+        raise HTTPException(status_code=404, detail="快照文件不存在")
+    
+    try:
+        # 先创建当前数据的备份
+        backup_timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        backup_file = SNAPSHOT_DIR / data_dir_name / f"pre_restore_backup_{backup_timestamp}.tar.gz"
+        
+        with tarfile.open(backup_file, "w:gz") as tar:
+            entities_dir = data_dir / "entities"
+            relations_dir = data_dir / "relations"
+            
+            if entities_dir.exists():
+                for json_file in entities_dir.glob("*.json"):
+                    tar.add(json_file, arcname=f"entities/{json_file.name}")
+            
+            if relations_dir.exists():
+                for json_file in relations_dir.glob("*.json"):
+                    tar.add(json_file, arcname=f"relations/{json_file.name}")
+        
+        # 解压快照覆盖当前数据
+        with tarfile.open(snapshot_path, "r:gz") as tar:
+            # 读取metadata
+            metadata = None
+            try:
+                metadata_file = tar.extractfile("metadata.json")
+                if metadata_file:
+                    import json
+                    metadata = json.load(metadata_file)
+            except:
+                pass
+            
+            # 清空并恢复entities目录
+            entities_dir = data_dir / "entities"
+            if entities_dir.exists():
+                for json_file in entities_dir.glob("*.json"):
+                    json_file.unlink()
+            else:
+                entities_dir.mkdir(parents=True, exist_ok=True)
+            
+            # 清空并恢复relations目录
+            relations_dir = data_dir / "relations"
+            if relations_dir.exists():
+                for json_file in relations_dir.glob("*.json"):
+                    json_file.unlink()
+            else:
+                relations_dir.mkdir(parents=True, exist_ok=True)
+            
+            # 解压文件
+            for member in tar.getmembers():
+                if member.name == "metadata.json":
+                    continue
+                
+                if member.name.startswith("entities/"):
+                    target = entities_dir / Path(member.name).name
+                    content = tar.extractfile(member)
+                    if content:
+                        with open(target, 'wb') as f:
+                            f.write(content.read())
+                
+                elif member.name.startswith("relations/"):
+                    target = relations_dir / Path(member.name).name
+                    content = tar.extractfile(member)
+                    if content:
+                        with open(target, 'wb') as f:
+                            f.write(content.read())
+        
+        # 记录操作日志
+        log_operation(
+            db, current_user, "restore_snapshot", "snapshot", filename,
+            details={
+                "subject_id": subject_id,
+                "snapshot": filename,
+                "backup": str(backup_file),
+                "metadata": metadata
+            }
+        )
+        
+        return {
+            "success": True,
+            "message": f"数据恢复成功，原数据已备份到: {backup_file.name}",
+            "backup_file": backup_file.name,
+            "restored_from": filename,
+            "metadata": metadata
+        }
+        
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"恢复失败: {str(e)}")
+
+
+@router.delete("/snapshots/{subject_id}/{filename}")
+async def delete_snapshot(
+    subject_id: str,
+    filename: str,
+    current_user: User = Depends(require_root),
+    db: Session = Depends(get_db)
+):
+    """删除快照"""
+    subject_config = SUBJECT_CONFIG.get(subject_id)
+    if not subject_config:
+        raise HTTPException(status_code=404, detail="学科不存在")
+    
+    data_dir_name = Path(subject_config['data_dir']).name
+    snapshot_path = SNAPSHOT_DIR / data_dir_name / filename
+    
+    if not snapshot_path.exists():
+        raise HTTPException(status_code=404, detail="快照文件不存在")
+    
+    try:
+        snapshot_path.unlink()
+        
+        log_operation(
+            db, current_user, "delete_snapshot", "snapshot", filename,
+            details={"subject_id": subject_id}
+        )
+        
+        return {
+            "success": True,
+            "message": f"快照已删除: {filename}"
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"删除失败: {str(e)}")
+
+
+# ========== ZIP数据包上传 ==========
+
+# 实体必需字段
+ENTITY_REQUIRED_FIELDS = ['identifier', 'title', 'type']
+# 关系必需字段
+RELATION_REQUIRED_FIELDS = ['source', 'target', 'relationName']
+
+
+def validate_entity_json(data: Any, filename: str) -> Dict[str, Any]:
+    """
+    验证实体JSON数据格式
+    
+    支持两种格式：
+    1. 列表格式: [{"identifier": ..., "title": ..., "type": ...}, ...]
+    2. 对象格式: {"entities": [...]}
+    """
+    result = {
+        "valid": True,
+        "errors": [],
+        "warnings": [],
+        "count": 0
+    }
+    
+    # 获取实体列表
+    if isinstance(data, list):
+        entities = data
+    elif isinstance(data, dict) and 'entities' in data:
+        entities = data['entities']
+    else:
+        result["valid"] = False
+        result["errors"].append(f"{filename}: 格式错误，需要是列表或包含'entities'字段的对象")
+        return result
+    
+    if not isinstance(entities, list):
+        result["valid"] = False
+        result["errors"].append(f"{filename}: 'entities'字段必须是列表")
+        return result
+    
+    result["count"] = len(entities)
+    
+    if len(entities) == 0:
+        result["warnings"].append(f"{filename}: 实体列表为空")
+        return result
+    
+    # 检查每个实体的必需字段
+    identifiers = set()
+    for i, entity in enumerate(entities):
+        if not isinstance(entity, dict):
+            result["valid"] = False
+            result["errors"].append(f"{filename}[{i}]: 实体必须是对象")
+            continue
+        
+        # 检查必需字段
+        missing = [f for f in ENTITY_REQUIRED_FIELDS if f not in entity or not entity[f]]
+        if missing:
+            result["valid"] = False
+            result["errors"].append(f"{filename}[{i}]: 缺少必需字段 {missing}")
+        
+        # 检查identifier唯一性
+        identifier = entity.get('identifier')
+        if identifier:
+            if identifier in identifiers:
+                result["warnings"].append(f"{filename}[{i}]: identifier重复: {identifier}")
+            identifiers.add(identifier)
+    
+    return result
+
+
+def validate_relation_json(data: Any, filename: str) -> Dict[str, Any]:
+    """
+    验证关系JSON数据格式
+    
+    支持两种格式：
+    1. 列表格式: [{"source": ..., "target": ..., "relationName": ...}, ...]
+    2. 对象格式: {"relations": [...]}
+    """
+    result = {
+        "valid": True,
+        "errors": [],
+        "warnings": [],
+        "count": 0
+    }
+    
+    # 获取关系列表
+    if isinstance(data, list):
+        relations = data
+    elif isinstance(data, dict) and 'relations' in data:
+        relations = data['relations']
+    else:
+        result["valid"] = False
+        result["errors"].append(f"{filename}: 格式错误，需要是列表或包含'relations'字段的对象")
+        return result
+    
+    if not isinstance(relations, list):
+        result["valid"] = False
+        result["errors"].append(f"{filename}: 'relations'字段必须是列表")
+        return result
+    
+    result["count"] = len(relations)
+    
+    if len(relations) == 0:
+        result["warnings"].append(f"{filename}: 关系列表为空")
+        return result
+    
+    # 检查每个关系的必需字段
+    for i, relation in enumerate(relations):
+        if not isinstance(relation, dict):
+            result["valid"] = False
+            result["errors"].append(f"{filename}[{i}]: 关系必须是对象")
+            continue
+        
+        # 检查必需字段
+        missing = [f for f in RELATION_REQUIRED_FIELDS if f not in relation or not relation[f]]
+        if missing:
+            result["valid"] = False
+            result["errors"].append(f"{filename}[{i}]: 缺少必需字段 {missing}")
+    
+    return result
+
+
+def validate_zip_structure(zip_path: Path) -> Dict[str, Any]:
+    """
+    验证ZIP包结构和内容
+    
+    预期结构:
+    xxx.zip
+    ├── entities/
+    │   ├── Type1.json
+    │   └── Type2.json
+    └── relations/
+        ├── Relation1.json
+        └── Relation2.json
+    """
+    result = {
+        "valid": True,
+        "errors": [],
+        "warnings": [],
+        "entity_files": [],
+        "relation_files": [],
+        "total_entities": 0,
+        "total_relations": 0
+    }
+    
+    try:
+        with zipfile.ZipFile(zip_path, 'r') as zf:
+            file_list = zf.namelist()
+            
+            # 检查目录结构
+            has_entities_dir = any(f.startswith('entities/') for f in file_list)
+            has_relations_dir = any(f.startswith('relations/') for f in file_list)
+            
+            if not has_entities_dir and not has_relations_dir:
+                # 尝试检查是否有子目录（如 subject-name/entities/）
+                top_dirs = set(f.split('/')[0] for f in file_list if '/' in f)
+                if len(top_dirs) == 1:
+                    top_dir = list(top_dirs)[0]
+                    has_entities_dir = any(f.startswith(f'{top_dir}/entities/') for f in file_list)
+                    has_relations_dir = any(f.startswith(f'{top_dir}/relations/') for f in file_list)
+                    
+                    if has_entities_dir or has_relations_dir:
+                        result["warnings"].append(f"ZIP包含子目录 '{top_dir}/'，将自动处理")
+                        result["top_dir"] = top_dir
+            
+            if not has_entities_dir and not has_relations_dir:
+                result["valid"] = False
+                result["errors"].append("ZIP包必须包含 entities/ 或 relations/ 目录")
+                return result
+            
+            # 获取前缀
+            prefix = result.get("top_dir", "")
+            if prefix:
+                prefix = f"{prefix}/"
+            
+            # 验证实体文件
+            for f in file_list:
+                if f.startswith(f'{prefix}entities/') and f.endswith('.json'):
+                    filename = Path(f).name
+                    try:
+                        with zf.open(f) as entity_file:
+                            data = json.load(entity_file)
+                            validation = validate_entity_json(data, filename)
+                            
+                            if not validation["valid"]:
+                                result["valid"] = False
+                                result["errors"].extend(validation["errors"])
+                            result["warnings"].extend(validation["warnings"])
+                            result["entity_files"].append({
+                                "path": f,
+                                "filename": filename,
+                                "count": validation["count"]
+                            })
+                            result["total_entities"] += validation["count"]
+                    except json.JSONDecodeError as e:
+                        result["valid"] = False
+                        result["errors"].append(f"entities/{filename}: JSON解析失败 - {str(e)}")
+            
+            # 验证关系文件
+            for f in file_list:
+                if f.startswith(f'{prefix}relations/') and f.endswith('.json'):
+                    filename = Path(f).name
+                    try:
+                        with zf.open(f) as relation_file:
+                            data = json.load(relation_file)
+                            validation = validate_relation_json(data, filename)
+                            
+                            if not validation["valid"]:
+                                result["valid"] = False
+                                result["errors"].extend(validation["errors"])
+                            result["warnings"].extend(validation["warnings"])
+                            result["relation_files"].append({
+                                "path": f,
+                                "filename": filename,
+                                "count": validation["count"]
+                            })
+                            result["total_relations"] += validation["count"]
+                    except json.JSONDecodeError as e:
+                        result["valid"] = False
+                        result["errors"].append(f"relations/{filename}: JSON解析失败 - {str(e)}")
+            
+            if not result["entity_files"]:
+                result["warnings"].append("未找到实体文件")
+            if not result["relation_files"]:
+                result["warnings"].append("未找到关系文件")
+                
+    except zipfile.BadZipFile:
+        result["valid"] = False
+        result["errors"].append("无效的ZIP文件")
+    except Exception as e:
+        result["valid"] = False
+        result["errors"].append(f"验证失败: {str(e)}")
+    
+    return result
+
+
+@router.post("/upload/validate")
+async def validate_upload(
+    file: UploadFile = File(...),
+    current_user: User = Depends(require_engineer)
+):
+    """
+    验证上传的ZIP数据包格式（不导入数据）
+    
+    允许角色：root, admin, engineer
+    """
+    if not file.filename.endswith('.zip'):
+        raise HTTPException(status_code=400, detail="只支持ZIP格式文件")
+    
+    # 保存到临时文件
+    with tempfile.NamedTemporaryFile(delete=False, suffix='.zip') as tmp:
+        content = await file.read()
+        tmp.write(content)
+        tmp_path = Path(tmp.name)
+    
+    try:
+        # 验证ZIP结构
+        validation = validate_zip_structure(tmp_path)
+        
+        return {
+            "success": True,
+            "filename": file.filename,
+            "file_size": len(content),
+            "validation": validation
+        }
+    finally:
+        # 清理临时文件
+        tmp_path.unlink(missing_ok=True)
+
+
+@router.post("/upload")
+async def upload_data_package(
+    subject_id: str = Form(...),
+    file: UploadFile = File(...),
+    backup: bool = Form(True),
+    current_user: User = Depends(require_engineer),
+    db: Session = Depends(get_db)
+):
+    """
+    上传并导入ZIP数据包
+    
+    允许角色：root, admin, engineer
+    
+    参数：
+    - subject_id: 目标学科ID
+    - file: ZIP文件
+    - backup: 是否在导入前创建备份（默认True）
+    
+    ZIP包格式要求：
+    - 必须包含 entities/ 或 relations/ 目录
+    - 实体JSON必需字段: identifier, title, type
+    - 关系JSON必需字段: source, target, relationName
+    """
+    if not file.filename.endswith('.zip'):
+        raise HTTPException(status_code=400, detail="只支持ZIP格式文件")
+    
+    # 检查学科是否存在
+    subject_config = SUBJECT_CONFIG.get(subject_id)
+    if not subject_config:
+        raise HTTPException(status_code=404, detail=f"学科不存在: {subject_id}")
+    
+    data_dir = DATA_ROOT / subject_config['data_dir']
+    
+    # 保存到临时文件
+    with tempfile.NamedTemporaryFile(delete=False, suffix='.zip') as tmp:
+        content = await file.read()
+        tmp.write(content)
+        tmp_path = Path(tmp.name)
+    
+    try:
+        # 验证ZIP结构
+        validation = validate_zip_structure(tmp_path)
+        
+        if not validation["valid"]:
+            return {
+                "success": False,
+                "message": "数据包验证失败",
+                "errors": validation["errors"],
+                "warnings": validation["warnings"]
+            }
+        
+        # 创建备份（如果需要）
+        backup_file = None
+        if backup and data_dir.exists():
+            data_dir_name = Path(subject_config['data_dir']).name
+            backup_dir = SNAPSHOT_DIR / data_dir_name
+            backup_dir.mkdir(parents=True, exist_ok=True)
+            
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            backup_file = backup_dir / f"pre_upload_backup_{timestamp}.tar.gz"
+            
+            with tarfile.open(backup_file, "w:gz") as tar:
+                entities_dir = data_dir / "entities"
+                relations_dir = data_dir / "relations"
+                
+                if entities_dir.exists():
+                    for json_file in entities_dir.glob("*.json"):
+                        tar.add(json_file, arcname=f"entities/{json_file.name}")
+                
+                if relations_dir.exists():
+                    for json_file in relations_dir.glob("*.json"):
+                        tar.add(json_file, arcname=f"relations/{json_file.name}")
+        
+        # 解压并导入数据
+        prefix = validation.get("top_dir", "")
+        if prefix:
+            prefix = f"{prefix}/"
+        
+        entities_dir = data_dir / "entities"
+        relations_dir = data_dir / "relations"
+        entities_dir.mkdir(parents=True, exist_ok=True)
+        relations_dir.mkdir(parents=True, exist_ok=True)
+        
+        imported_files = {"entities": [], "relations": []}
+        
+        with zipfile.ZipFile(tmp_path, 'r') as zf:
+            # 导入实体文件
+            for ef in validation["entity_files"]:
+                with zf.open(ef["path"]) as src:
+                    target_path = entities_dir / ef["filename"]
+                    with open(target_path, 'wb') as dst:
+                        dst.write(src.read())
+                    imported_files["entities"].append(ef["filename"])
+            
+            # 导入关系文件
+            for rf in validation["relation_files"]:
+                with zf.open(rf["path"]) as src:
+                    target_path = relations_dir / rf["filename"]
+                    with open(target_path, 'wb') as dst:
+                        dst.write(src.read())
+                    imported_files["relations"].append(rf["filename"])
+        
+        # 标记需要同步HTML
+        sync_record = db.query(SyncQueue).filter(SyncQueue.subject_id == subject_id).first()
+        if sync_record:
+            sync_record.needs_sync = True
+            sync_record.last_edit_at = datetime.utcnow()
+            sync_record.edit_count += 1
+        else:
+            sync_record = SyncQueue(
+                subject_id=subject_id,
+                needs_sync=True,
+                last_edit_at=datetime.utcnow(),
+                edit_count=1
+            )
+            db.add(sync_record)
+        db.commit()
+        
+        # 记录操作日志
+        log_operation(
+            db, current_user, "upload_data_package", "subject", subject_id,
+            details={
+                "filename": file.filename,
+                "file_size": len(content),
+                "entity_files": len(imported_files["entities"]),
+                "relation_files": len(imported_files["relations"]),
+                "total_entities": validation["total_entities"],
+                "total_relations": validation["total_relations"],
+                "backup": str(backup_file) if backup_file else None,
+                "warnings": validation["warnings"]
+            }
+        )
+        
+        return {
+            "success": True,
+            "message": f"数据包导入成功，共导入 {validation['total_entities']} 个实体和 {validation['total_relations']} 个关系",
+            "subject_id": subject_id,
+            "imported": {
+                "entity_files": imported_files["entities"],
+                "relation_files": imported_files["relations"],
+                "total_entities": validation["total_entities"],
+                "total_relations": validation["total_relations"]
+            },
+            "backup": str(backup_file) if backup_file else None,
+            "warnings": validation["warnings"],
+            "needs_sync": True
+        }
+        
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"导入失败: {str(e)}")
+    finally:
+        # 清理临时文件
+        tmp_path.unlink(missing_ok=True)
+
+
+@router.get("/upload/format-spec")
+async def get_upload_format_spec(
+    current_user: User = Depends(require_engineer)
+):
+    """
+    获取数据包格式规范说明
+    
+    允许角色：root, admin, engineer
+    """
+    return {
+        "success": True,
+        "format_spec": {
+            "description": "知识图谱数据包格式规范",
+            "structure": {
+                "zip_structure": "subject-name.zip\n├── entities/\n│   ├── Type1.json\n│   └── Type2.json\n└── relations/\n    ├── Relation1.json\n    └── Relation2.json",
+                "notes": [
+                    "ZIP包必须包含 entities/ 或 relations/ 目录",
+                    "也支持包含子目录的格式，如 subject-name/entities/",
+                    "JSON文件命名建议使用实体类型名，如 Chapter.json, Section.json"
+                ]
+            },
+            "entity_format": {
+                "description": "实体JSON格式",
+                "required_fields": ENTITY_REQUIRED_FIELDS,
+                "optional_fields": ["description", "subject", "applicableLevel", "contentJson"],
+                "formats": [
+                    {
+                        "name": "列表格式",
+                        "example": '[{"identifier": "urn:xxx", "title": "标题", "type": "Chapter"}]'
+                    },
+                    {
+                        "name": "对象格式",
+                        "example": '{"entities": [{"identifier": "urn:xxx", "title": "标题", "type": "Chapter"}]}'
+                    }
+                ]
+            },
+            "relation_format": {
+                "description": "关系JSON格式",
+                "required_fields": RELATION_REQUIRED_FIELDS,
+                "optional_fields": ["label", "evidence"],
+                "formats": [
+                    {
+                        "name": "列表格式",
+                        "example": '[{"source": "urn:a", "target": "urn:b", "relationName": "hasChild"}]'
+                    },
+                    {
+                        "name": "对象格式",
+                        "example": '{"relations": [{"source": "urn:a", "target": "urn:b", "relationName": "hasChild"}]}'
+                    }
+                ]
+            },
+            "available_subjects": [
+                {"id": k, "name": v.get("display_name", k)}
+                for k, v in SUBJECT_CONFIG.items()
+            ]
+        }
+    }

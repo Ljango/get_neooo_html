@@ -18,9 +18,29 @@ from sqlalchemy.orm import Session
 from pydantic import BaseModel
 
 from .database import get_db
-from .models import User, OperationLog
+from .models import User, OperationLog, SyncQueue
 from .deps import require_teacher, log_operation
 from config import SUBJECT_CONFIG, DATA_ROOT
+
+
+def mark_needs_sync(db: Session, subject_id: str):
+    """标记学科需要同步HTML"""
+    sync_record = db.query(SyncQueue).filter(SyncQueue.subject_id == subject_id).first()
+    
+    if sync_record:
+        sync_record.needs_sync = True
+        sync_record.last_edit_at = datetime.utcnow()
+        sync_record.edit_count += 1
+    else:
+        sync_record = SyncQueue(
+            subject_id=subject_id,
+            needs_sync=True,
+            last_edit_at=datetime.utcnow(),
+            edit_count=1
+        )
+        db.add(sync_record)
+    
+    db.commit()
 
 router = APIRouter()
 
@@ -119,6 +139,14 @@ class RelationDelete(BaseModel):
     source: str
     target: str
     relation_name: str
+
+
+class RelationUpdate(BaseModel):
+    """关系更新模型"""
+    source: str
+    target: str
+    relation_name: str
+    label: Optional[str] = None
 
 
 class BatchEditRequest(BaseModel):
@@ -261,10 +289,14 @@ async def update_entity(
             }
         )
         
+        # 标记需要同步
+        mark_needs_sync(db, subject_id)
+        
         return {
             "success": True,
             "message": "实体更新成功",
-            "backup": str(backup_path)
+            "backup": str(backup_path),
+            "needs_sync": True
         }
     
     except FileLockTimeout as e:
@@ -342,10 +374,14 @@ async def create_relation(
             }
         )
         
+        # 标记需要同步
+        mark_needs_sync(db, subject_id)
+        
         return {
             "success": True,
             "message": "关系创建成功",
-            "relation": new_relation
+            "relation": new_relation,
+            "needs_sync": True
         }
     
     except FileLockTimeout as e:
@@ -416,10 +452,14 @@ async def delete_relation(
             }
         )
         
+        # 标记需要同步
+        mark_needs_sync(db, subject_id)
+        
         return {
             "success": True,
             "message": "关系删除成功",
-            "backup": str(backup_path)
+            "backup": str(backup_path),
+            "needs_sync": True
         }
     
     except FileLockTimeout as e:
@@ -428,6 +468,84 @@ async def delete_relation(
         raise
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"删除失败: {str(e)}")
+
+
+@router.post("/relation/update")
+async def update_relation(
+    subject_id: str,
+    relation: RelationUpdate,
+    current_user: User = Depends(require_teacher),
+    db: Session = Depends(get_db)
+):
+    """更新关系标签（支持文件锁）"""
+    relations_file = get_relations_file(subject_id)
+    if not relations_file or not relations_file.exists():
+        raise HTTPException(status_code=404, detail="关系文件不存在")
+    
+    try:
+        # 使用文件锁保护编辑操作
+        with file_lock(relations_file, timeout=30.0):
+            # 创建备份
+            backup_path = create_backup(relations_file)
+            
+            # 读取关系数据
+            with open(relations_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            
+            # 查找并更新关系
+            is_list = isinstance(data, list)
+            relations = data if is_list else data.get('relations', [])
+            
+            updated = False
+            for r in relations:
+                if (r.get('source') == relation.source and
+                    r.get('target') == relation.target and
+                    r.get('relationName') == relation.relation_name):
+                    r['label'] = relation.label
+                    updated = True
+                    break
+            
+            if not updated:
+                raise HTTPException(status_code=404, detail="关系不存在")
+            
+            # 写回文件
+            if is_list:
+                output = relations
+            else:
+                data['relations'] = relations
+                output = data
+            
+            with open(relations_file, 'w', encoding='utf-8') as f:
+                json.dump(output, f, ensure_ascii=False, indent=2)
+        
+        # 记录日志
+        log_operation(
+            db, current_user, "update_relation",
+            "relation", f"{relation.source}→{relation.target}",
+            details={
+                "subject": subject_id,
+                "relation_name": relation.relation_name,
+                "new_label": relation.label,
+                "backup": str(backup_path)
+            }
+        )
+        
+        # 标记需要同步
+        mark_needs_sync(db, subject_id)
+        
+        return {
+            "success": True,
+            "message": "关系更新成功",
+            "backup": str(backup_path),
+            "needs_sync": True
+        }
+    
+    except FileLockTimeout as e:
+        raise HTTPException(status_code=423, detail=str(e))
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"更新失败: {str(e)}")
 
 
 @router.post("/batch")

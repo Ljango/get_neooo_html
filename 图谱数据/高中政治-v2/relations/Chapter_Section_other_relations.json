@@ -1,0 +1,1572 @@
+{
+  "relations": [
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:7",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:1",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修2 经济与社会\", chapter=\"第一单元 生产资料所有制与经济体制\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:1",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:7",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修2 经济与社会\", chapter=\"第一单元 生产资料所有制与经济体制\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:7",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:2",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修2 经济与社会\", chapter=\"第一单元 生产资料所有制与经济体制\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:2",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:7",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修2 经济与社会\", chapter=\"第一单元 生产资料所有制与经济体制\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:8",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:3",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修2 经济与社会\", chapter=\"第二单元 经济发展与社会进步\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:3",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:8",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修2 经济与社会\", chapter=\"第二单元 经济发展与社会进步\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:8",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:4",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修2 经济与社会\", chapter=\"第二单元 经济发展与社会进步\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:4",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:8",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修2 经济与社会\", chapter=\"第二单元 经济发展与社会进步\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:8",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:5",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修2 经济与社会\", chapter=\"第二单元 经济发展与社会进步\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:5",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:8",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修2 经济与社会\", chapter=\"第二单元 经济发展与社会进步\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:9",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:6",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修2 经济与社会\", chapter=\"其他\"",
+        "mdSnippets": [
+          "，与义务教育道德与法治、高校思想政治理论课等衔接，与时事政治教育相互补充，与高中其他学科教学和相关德育工作相互配合。 # 二、课程理念 一是坚持正确的思想政治方"
+        ]
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:6",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:9",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修2 经济与社会\", chapter=\"其他\"",
+        "mdSnippets": [
+          "，与义务教育道德与法治、高校思想政治理论课等衔接，与时事政治教育相互补充，与高中其他学科教学和相关德育工作相互配合。 # 二、课程理念 一是坚持正确的思想政治方"
+        ]
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:9",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:7",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修2 经济与社会\", chapter=\"其他\"",
+        "mdSnippets": [
+          "，与义务教育道德与法治、高校思想政治理论课等衔接，与时事政治教育相互补充，与高中其他学科教学和相关德育工作相互配合。 # 二、课程理念 一是坚持正确的思想政治方",
+          "热爱劳动的观念。</td><td>◆以“为什么发展必须以人民为中心”为议题，探究坚持新发展理念、转变经济发展方式的意义。可结合抗震救灾、防疫抗疫等，帮助学生了解党和国家始终把"
+        ]
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:7",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:9",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修2 经济与社会\", chapter=\"其他\"",
+        "mdSnippets": [
+          "，与义务教育道德与法治、高校思想政治理论课等衔接，与时事政治教育相互补充，与高中其他学科教学和相关德育工作相互配合。 # 二、课程理念 一是坚持正确的思想政治方",
+          "热爱劳动的观念。</td><td>◆以“为什么发展必须以人民为中心”为议题，探究坚持新发展理念、转变经济发展方式的意义。可结合抗震救灾、防疫抗疫等，帮助学生了解党和国家始终把"
+        ]
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:9",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:8",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修2 经济与社会\", chapter=\"其他\"",
+        "mdSnippets": [
+          "，与义务教育道德与法治、高校思想政治理论课等衔接，与时事政治教育相互补充，与高中其他学科教学和相关德育工作相互配合。 # 二、课程理念 一是坚持正确的思想政治方"
+        ]
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:8",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:9",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修2 经济与社会\", chapter=\"其他\"",
+        "mdSnippets": [
+          "，与义务教育道德与法治、高校思想政治理论课等衔接，与时事政治教育相互补充，与高中其他学科教学和相关德育工作相互配合。 # 二、课程理念 一是坚持正确的思想政治方"
+        ]
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:9",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:9",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修2 经济与社会\", chapter=\"其他\"",
+        "mdSnippets": [
+          "，与义务教育道德与法治、高校思想政治理论课等衔接，与时事政治教育相互补充，与高中其他学科教学和相关德育工作相互配合。 # 二、课程理念 一是坚持正确的思想政治方"
+        ]
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:9",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:9",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修2 经济与社会\", chapter=\"其他\"",
+        "mdSnippets": [
+          "，与义务教育道德与法治、高校思想政治理论课等衔接，与时事政治教育相互补充，与高中其他学科教学和相关德育工作相互配合。 # 二、课程理念 一是坚持正确的思想政治方"
+        ]
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:10",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:10",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修3 政治与法治\", chapter=\"第一单元 中国共产党的领导\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:10",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:10",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修3 政治与法治\", chapter=\"第一单元 中国共产党的领导\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:10",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:11",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修3 政治与法治\", chapter=\"第一单元 中国共产党的领导\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:11",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:10",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修3 政治与法治\", chapter=\"第一单元 中国共产党的领导\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:10",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:12",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修3 政治与法治\", chapter=\"第一单元 中国共产党的领导\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:12",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:10",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修3 政治与法治\", chapter=\"第一单元 中国共产党的领导\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:10",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:13",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修3 政治与法治\", chapter=\"第一单元 中国共产党的领导\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:13",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:10",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修3 政治与法治\", chapter=\"第一单元 中国共产党的领导\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:11",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:14",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修3 政治与法治\", chapter=\"第二单元 人民当家作主\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:14",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:11",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修3 政治与法治\", chapter=\"第二单元 人民当家作主\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:11",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:15",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修3 政治与法治\", chapter=\"第二单元 人民当家作主\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:15",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:11",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修3 政治与法治\", chapter=\"第二单元 人民当家作主\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:11",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:16",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修3 政治与法治\", chapter=\"第二单元 人民当家作主\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:16",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:11",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修3 政治与法治\", chapter=\"第二单元 人民当家作主\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:11",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:17",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修3 政治与法治\", chapter=\"第二单元 人民当家作主\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:17",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:11",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修3 政治与法治\", chapter=\"第二单元 人民当家作主\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:12",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:18",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修3 政治与法治\", chapter=\"第三单元 全面依法治国\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:18",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:12",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修3 政治与法治\", chapter=\"第三单元 全面依法治国\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:12",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:19",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修3 政治与法治\", chapter=\"第三单元 全面依法治国\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:19",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:12",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修3 政治与法治\", chapter=\"第三单元 全面依法治国\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:12",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:20",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修3 政治与法治\", chapter=\"第三单元 全面依法治国\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:20",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:12",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修3 政治与法治\", chapter=\"第三单元 全面依法治国\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:12",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:21",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修3 政治与法治\", chapter=\"第三单元 全面依法治国\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:21",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:12",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修3 政治与法治\", chapter=\"第三单元 全面依法治国\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:13",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:22",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修4 哲学与文化\", chapter=\"第一单元 探索世界与把握规律\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:22",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:13",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修4 哲学与文化\", chapter=\"第一单元 探索世界与把握规律\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:13",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:23",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修4 哲学与文化\", chapter=\"第一单元 探索世界与把握规律\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:23",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:13",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修4 哲学与文化\", chapter=\"第一单元 探索世界与把握规律\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:13",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:24",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修4 哲学与文化\", chapter=\"第一单元 探索世界与把握规律\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:24",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:13",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修4 哲学与文化\", chapter=\"第一单元 探索世界与把握规律\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:13",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:25",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修4 哲学与文化\", chapter=\"第一单元 探索世界与把握规律\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:25",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:13",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修4 哲学与文化\", chapter=\"第一单元 探索世界与把握规律\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:14",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:26",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修4 哲学与文化\", chapter=\"第二单元 认识社会与价值选择\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:26",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:14",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修4 哲学与文化\", chapter=\"第二单元 认识社会与价值选择\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:14",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:27",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修4 哲学与文化\", chapter=\"第二单元 认识社会与价值选择\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:27",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:14",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修4 哲学与文化\", chapter=\"第二单元 认识社会与价值选择\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:14",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:28",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修4 哲学与文化\", chapter=\"第二单元 认识社会与价值选择\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:28",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:14",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修4 哲学与文化\", chapter=\"第二单元 认识社会与价值选择\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:14",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:29",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修4 哲学与文化\", chapter=\"第二单元 认识社会与价值选择\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:29",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:14",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修4 哲学与文化\", chapter=\"第二单元 认识社会与价值选择\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:15",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:30",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修4 哲学与文化\", chapter=\"第三单元 文化传承与文化创新\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:30",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:15",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修4 哲学与文化\", chapter=\"第三单元 文化传承与文化创新\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:15",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:31",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修4 哲学与文化\", chapter=\"第三单元 文化传承与文化创新\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:31",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:15",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修4 哲学与文化\", chapter=\"第三单元 文化传承与文化创新\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:15",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:32",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修4 哲学与文化\", chapter=\"第三单元 文化传承与文化创新\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:32",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:15",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修4 哲学与文化\", chapter=\"第三单元 文化传承与文化创新\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:15",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:33",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修4 哲学与文化\", chapter=\"第三单元 文化传承与文化创新\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:33",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:15",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"必修4 哲学与文化\", chapter=\"第三单元 文化传承与文化创新\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:16",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:34",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修1 当代国际政治与经济\", chapter=\"第一单元 各具特色的国家\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:34",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:16",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修1 当代国际政治与经济\", chapter=\"第一单元 各具特色的国家\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:16",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:35",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修1 当代国际政治与经济\", chapter=\"第一单元 各具特色的国家\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:35",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:16",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修1 当代国际政治与经济\", chapter=\"第一单元 各具特色的国家\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:16",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:36",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修1 当代国际政治与经济\", chapter=\"第一单元 各具特色的国家\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:36",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:16",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修1 当代国际政治与经济\", chapter=\"第一单元 各具特色的国家\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:17",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:37",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修1 当代国际政治与经济\", chapter=\"第二单元 世界多极化\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:37",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:17",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修1 当代国际政治与经济\", chapter=\"第二单元 世界多极化\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:17",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:38",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修1 当代国际政治与经济\", chapter=\"第二单元 世界多极化\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:38",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:17",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修1 当代国际政治与经济\", chapter=\"第二单元 世界多极化\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:17",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:39",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修1 当代国际政治与经济\", chapter=\"第二单元 世界多极化\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:39",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:17",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修1 当代国际政治与经济\", chapter=\"第二单元 世界多极化\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:17",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:40",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修1 当代国际政治与经济\", chapter=\"第二单元 世界多极化\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:40",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:17",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修1 当代国际政治与经济\", chapter=\"第二单元 世界多极化\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:18",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:41",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修1 当代国际政治与经济\", chapter=\"第三单元 经济全球化\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:41",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:18",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修1 当代国际政治与经济\", chapter=\"第三单元 经济全球化\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:18",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:42",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修1 当代国际政治与经济\", chapter=\"第三单元 经济全球化\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:42",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:18",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修1 当代国际政治与经济\", chapter=\"第三单元 经济全球化\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:18",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:43",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修1 当代国际政治与经济\", chapter=\"第三单元 经济全球化\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:43",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:18",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修1 当代国际政治与经济\", chapter=\"第三单元 经济全球化\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:19",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:44",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修1 当代国际政治与经济\", chapter=\"第四单元 国际组织\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:44",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:19",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修1 当代国际政治与经济\", chapter=\"第四单元 国际组织\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:19",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:45",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修1 当代国际政治与经济\", chapter=\"第四单元 国际组织\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:45",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:19",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修1 当代国际政治与经济\", chapter=\"第四单元 国际组织\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:19",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:46",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修1 当代国际政治与经济\", chapter=\"第四单元 国际组织\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:46",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:19",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修1 当代国际政治与经济\", chapter=\"第四单元 国际组织\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:20",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:47",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修2 法律与生活\", chapter=\"第一单元 民事权利与义务\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:47",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:20",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修2 法律与生活\", chapter=\"第一单元 民事权利与义务\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:20",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:48",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修2 法律与生活\", chapter=\"第一单元 民事权利与义务\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:48",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:20",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修2 法律与生活\", chapter=\"第一单元 民事权利与义务\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:20",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:49",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修2 法律与生活\", chapter=\"第一单元 民事权利与义务\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:49",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:20",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修2 法律与生活\", chapter=\"第一单元 民事权利与义务\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:20",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:50",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修2 法律与生活\", chapter=\"第一单元 民事权利与义务\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:50",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:20",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修2 法律与生活\", chapter=\"第一单元 民事权利与义务\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:20",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:51",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修2 法律与生活\", chapter=\"第一单元 民事权利与义务\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:51",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:20",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修2 法律与生活\", chapter=\"第一单元 民事权利与义务\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:21",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:52",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修2 法律与生活\", chapter=\"第二单元 家庭与婚姻\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:52",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:21",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修2 法律与生活\", chapter=\"第二单元 家庭与婚姻\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:21",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:53",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修2 法律与生活\", chapter=\"第二单元 家庭与婚姻\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:53",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:21",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修2 法律与生活\", chapter=\"第二单元 家庭与婚姻\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:21",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:54",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修2 法律与生活\", chapter=\"第二单元 家庭与婚姻\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:54",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:21",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修2 法律与生活\", chapter=\"第二单元 家庭与婚姻\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:22",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:55",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修2 法律与生活\", chapter=\"第三单元 就业与创业\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:55",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:22",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修2 法律与生活\", chapter=\"第三单元 就业与创业\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:22",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:56",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修2 法律与生活\", chapter=\"第三单元 就业与创业\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:56",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:22",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修2 法律与生活\", chapter=\"第三单元 就业与创业\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:22",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:57",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修2 法律与生活\", chapter=\"第三单元 就业与创业\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:57",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:22",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修2 法律与生活\", chapter=\"第三单元 就业与创业\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:23",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:58",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修2 法律与生活\", chapter=\"第四单元 社会争议解决\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:58",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:23",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修2 法律与生活\", chapter=\"第四单元 社会争议解决\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:23",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:59",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修2 法律与生活\", chapter=\"第四单元 社会争议解决\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:59",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:23",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修2 法律与生活\", chapter=\"第四单元 社会争议解决\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:23",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:60",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修2 法律与生活\", chapter=\"第四单元 社会争议解决\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:60",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:23",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修2 法律与生活\", chapter=\"第四单元 社会争议解决\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:24",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:61",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修3 逻辑与思维\", chapter=\"第一单元 树立科学思维观念\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:61",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:24",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修3 逻辑与思维\", chapter=\"第一单元 树立科学思维观念\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:24",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:62",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修3 逻辑与思维\", chapter=\"第一单元 树立科学思维观念\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:62",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:24",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修3 逻辑与思维\", chapter=\"第一单元 树立科学思维观念\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:24",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:63",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修3 逻辑与思维\", chapter=\"第一单元 树立科学思维观念\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:63",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:24",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修3 逻辑与思维\", chapter=\"第一单元 树立科学思维观念\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:24",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:64",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修3 逻辑与思维\", chapter=\"第一单元 树立科学思维观念\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:64",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:24",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修3 逻辑与思维\", chapter=\"第一单元 树立科学思维观念\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:25",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:65",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修3 逻辑与思维\", chapter=\"第二单元 遵循逻辑思维规则\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:65",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:25",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修3 逻辑与思维\", chapter=\"第二单元 遵循逻辑思维规则\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:25",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:66",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修3 逻辑与思维\", chapter=\"第二单元 遵循逻辑思维规则\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:66",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:25",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修3 逻辑与思维\", chapter=\"第二单元 遵循逻辑思维规则\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:25",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:67",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修3 逻辑与思维\", chapter=\"第二单元 遵循逻辑思维规则\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:67",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:25",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修3 逻辑与思维\", chapter=\"第二单元 遵循逻辑思维规则\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:25",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:68",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修3 逻辑与思维\", chapter=\"第二单元 遵循逻辑思维规则\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:68",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:25",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修3 逻辑与思维\", chapter=\"第二单元 遵循逻辑思维规则\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:25",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:69",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修3 逻辑与思维\", chapter=\"第二单元 遵循逻辑思维规则\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:69",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:25",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修3 逻辑与思维\", chapter=\"第二单元 遵循逻辑思维规则\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:26",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:70",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修3 逻辑与思维\", chapter=\"第三单元 运用辩证思维方法\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:70",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:26",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修3 逻辑与思维\", chapter=\"第三单元 运用辩证思维方法\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:26",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:71",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修3 逻辑与思维\", chapter=\"第三单元 运用辩证思维方法\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:71",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:26",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修3 逻辑与思维\", chapter=\"第三单元 运用辩证思维方法\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:26",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:72",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修3 逻辑与思维\", chapter=\"第三单元 运用辩证思维方法\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:72",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:26",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修3 逻辑与思维\", chapter=\"第三单元 运用辩证思维方法\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:26",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:73",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修3 逻辑与思维\", chapter=\"第三单元 运用辩证思维方法\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:73",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:26",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修3 逻辑与思维\", chapter=\"第三单元 运用辩证思维方法\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:27",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:74",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修3 逻辑与思维\", chapter=\"第四单元 提高创新思维能力\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:74",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:27",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修3 逻辑与思维\", chapter=\"第四单元 提高创新思维能力\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:27",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:75",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修3 逻辑与思维\", chapter=\"第四单元 提高创新思维能力\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:75",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:27",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修3 逻辑与思维\", chapter=\"第四单元 提高创新思维能力\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:27",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:76",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修3 逻辑与思维\", chapter=\"第四单元 提高创新思维能力\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:76",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:27",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修3 逻辑与思维\", chapter=\"第四单元 提高创新思维能力\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "包含节 / Chapter contains Section",
+      "source": "urn:jy:politics:SB0310:OB06:Chapter:27",
+      "target": "urn:jy:Politics:SB0310:OB06:Section_other:77",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修3 逻辑与思维\", chapter=\"第四单元 提高创新思维能力\"",
+        "mdSnippets": []
+      }
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "隶属章节 / Section belongs to Chapter",
+      "source": "urn:jy:Politics:SB0310:OB06:Section_other:77",
+      "target": "urn:jy:politics:SB0310:OB06:Chapter:27",
+      "evidence": {
+        "fromSectionContentJson": "volume=\"选择性必修3 逻辑与思维\", chapter=\"第四单元 提高创新思维能力\"",
+        "mdSnippets": []
+      }
+    }
+  ],
+  "stats": {
+    "chapterCount": 27,
+    "sectionCount": 77,
+    "matchedPairs": 77,
+    "relationCount": 154,
+    "unmatchedSections": 0,
+    "mdHasTextbookChapterMentions": 4,
+    "mdHasSectionMentions": 1
+  },
+  "unmatched": []
+}

@@ -113,8 +113,8 @@ async def get_my_subjects(
     db: Session = Depends(get_db)
 ):
     """获取当前用户负责的学科列表"""
-    # root和admin可以看到所有学科
-    if current_user.role in [UserRole.root, UserRole.admin]:
+    # root、admin和engineer可以看到所有学科
+    if current_user.has_any_role("root", "admin", "engineer"):
         subjects = []
         for name, config in SUBJECT_CONFIG.items():
             subjects.append({
@@ -143,6 +143,54 @@ async def get_my_subjects(
         })
     
     return {"success": True, "subjects": subjects}
+
+
+@router.get("/entity-types/{subject_id}")
+async def get_entity_types(
+    subject_id: str,
+    current_user: User = Depends(get_current_user)
+):
+    """获取学科的所有实体类型列表（从文件名推断）"""
+    # 查找学科配置
+    subject_config = SUBJECT_CONFIG.get(subject_id)
+    if not subject_config:
+        # 尝试通过data_dir匹配
+        for name, config in SUBJECT_CONFIG.items():
+            if config.get('data_dir') == subject_id:
+                subject_config = config
+                break
+    
+    if not subject_config:
+        return {"success": False, "types": [], "message": "学科不存在"}
+    
+    data_dir = DATA_ROOT / subject_config['data_dir']
+    entities_dir = data_dir / "entities"
+    
+    if not entities_dir.exists():
+        entities_dir = data_dir / "实体"
+    
+    if not entities_dir.exists():
+        return {"success": True, "types": []}
+    
+    # 从JSON文件名获取实体类型
+    types = []
+    for json_file in sorted(entities_dir.glob("*.json")):
+        type_name = json_file.stem
+        # 获取该类型的实体数量
+        try:
+            with open(json_file, 'r', encoding='utf-8') as f:
+                import json
+                data = json.load(f)
+                count = len(data) if isinstance(data, list) else len(data.get('entities', []))
+        except Exception:
+            count = 0
+        
+        types.append({
+            "type": type_name,
+            "count": count
+        })
+    
+    return {"success": True, "types": types}
 
 
 @router.get("/entities/{subject_id}")

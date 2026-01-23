@@ -1,17 +1,18 @@
 // =====================================================
 // 高中政治课标图谱 - Neo4j导入脚本
-// 生成时间: 2026-01-22T23:17:06.996789
+// 生成时间: 2026-01-23T15:48:59.100360
 // =====================================================
 
 // 创建约束和索引
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:Theme) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:Section) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:ThemeL2) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:CourseModule) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:Chapter) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:AcademicQuality) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:ThemeL2) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:CourseStructure) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:CourseModule) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:CoreLiteracy) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Chapter) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Section) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Theme) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Subsection) REQUIRE n.identifier IS UNIQUE;
 
 // =====================================================
 // 导入实体
@@ -52,486 +53,6 @@ SET n += {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:11", title: "公
 
 MERGE (n:CoreLiteracy {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:12"})
 SET n += {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:12", title: "公共参与 素养水平 3", description: "", subject: "SB0310", type: "CoreLiteracy", applicableLevel: "OB06", contentJson: "{\"standard\": \"3\", \"standardDescription\": \"能够面对具有挑战性的复杂问题，回应各种指向公共机构的质疑，解释公民在公共参与过程中与各领域、各层面公共机构的相互作用，阐述公民有序参与的意义和价值；回应社会上各种冷漠的表现和议论，剖析导致冷漠的思想根源；回应不同群体之间的利益冲突，揭示其历史和现实根源，并提出管控冲突、解决矛盾的办法或方案。\"}", CJ_standard: "3", CJ_standardDescription: "能够面对具有挑战性的复杂问题，回应各种指向公共机构的质疑，解释公民在公共参与过程中与各领域、各层面公共机构的相互作用，阐述公民有序参与的意义和价值；回应社会上各种冷漠的表现和议论，剖析导致冷漠的思想根源；回应不同群体之间的利益冲突，揭示其历史和现实根源，并提出管控冲突、解决矛盾的办法或方案。"};
-
-MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:1"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:1", title: "1.人类社会发展的进程与趋势", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:1\", \"academicRequirements\": \"通过本模块的学习，学生能够结合社会实践活动，了解人类社会发展的一般过程和基本规律；确信社会主义终将代替资本主义是不可抗拒的历史趋势；懂得中国特色社会主义是科学社会主义的成功实践，是中国近现代历史发展的必然选择；理解中国共产党为什么能，中国特色社会主义为什么好，归根到底是马克思主义行，是中国化时代化的马克思主义行；明确中国特色社会主义是实现中华民族伟大复兴的必由之路，以中国式现代化全面推进强国建设、民族复兴是新时代新征程党和国家的中心任务；展现中国特色社会主义道路自信、理论自信、制度自信、文化自信；坚定马克思主义信仰、中国特色社会主义信念、中华民族伟大复兴信心。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:1", CJ_academicRequirements: "通过本模块的学习，学生能够结合社会实践活动，了解人类社会发展的一般过程和基本规律；确信社会主义终将代替资本主义是不可抗拒的历史趋势；懂得中国特色社会主义是科学社会主义的成功实践，是中国近现代历史发展的必然选择；理解中国共产党为什么能，中国特色社会主义为什么好，归根到底是马克思主义行，是中国化时代化的马克思主义行；明确中国特色社会主义是实现中华民族伟大复兴的必由之路，以中国式现代化全面推进强国建设、民族复兴是新时代新征程党和国家的中心任务；展现中国特色社会主义道路自信、理论自信、制度自信、文化自信；坚定马克思主义信仰、中国特色社会主义信念、中华民族伟大复兴信心。"};
-
-MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:2"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:2", title: "2. 中国特色社会主义的探索、开创与发展", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:1\", \"academicRequirements\": \"通过本模块的学习，学生能够结合社会实践活动，了解人类社会发展的一般过程和基本规律；确信社会主义终将代替资本主义是不可抗拒的历史趋势；懂得中国特色社会主义是科学社会主义的成功实践，是中国近现代历史发展的必然选择；理解中国共产党为什么能，中国特色社会主义为什么好，归根到底是马克思主义行，是中国化时代化的马克思主义行；明确中国特色社会主义是实现中华民族伟大复兴的必由之路，以中国式现代化全面推进强国建设、民族复兴是新时代新征程党和国家的中心任务；展现中国特色社会主义道路自信、理论自信、制度自信、文化自信；坚定马克思主义信仰、中国特色社会主义信念、中华民族伟大复兴信心。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:1", CJ_academicRequirements: "通过本模块的学习，学生能够结合社会实践活动，了解人类社会发展的一般过程和基本规律；确信社会主义终将代替资本主义是不可抗拒的历史趋势；懂得中国特色社会主义是科学社会主义的成功实践，是中国近现代历史发展的必然选择；理解中国共产党为什么能，中国特色社会主义为什么好，归根到底是马克思主义行，是中国化时代化的马克思主义行；明确中国特色社会主义是实现中华民族伟大复兴的必由之路，以中国式现代化全面推进强国建设、民族复兴是新时代新征程党和国家的中心任务；展现中国特色社会主义道路自信、理论自信、制度自信、文化自信；坚定马克思主义信仰、中国特色社会主义信念、中华民族伟大复兴信心。"};
-
-MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:3"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:3", title: "1.经济制度与经济体制", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:2\", \"academicRequirements\": \"通过本模块的学习，学生能够结合社会实践活动，初步运用中国特色社会主义政治经济学的基本观点，观察和分析经济社会现象；了解社会主义基本经济制度的优越性；理解坚持社会主义市场经济和深化经济体制改革的意义；了解加快构建新发展格局、着力推动高质量发展的措施，明确发展新质生产力是推动高质量发展的内在要求和重要着力点；树立以人民为中心的发展思想；尝试对促进社会公正、实现共同富裕、营造良好社会风尚、完善社会保障的政策提出建议。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:2", CJ_academicRequirements: "通过本模块的学习，学生能够结合社会实践活动，初步运用中国特色社会主义政治经济学的基本观点，观察和分析经济社会现象；了解社会主义基本经济制度的优越性；理解坚持社会主义市场经济和深化经济体制改革的意义；了解加快构建新发展格局、着力推动高质量发展的措施，明确发展新质生产力是推动高质量发展的内在要求和重要着力点；树立以人民为中心的发展思想；尝试对促进社会公正、实现共同富裕、营造良好社会风尚、完善社会保障的政策提出建议。"};
-
-MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:4"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:4", title: "2.经济发展与社会进步", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:2\", \"academicRequirements\": \"通过本模块的学习，学生能够结合社会实践活动，初步运用中国特色社会主义政治经济学的基本观点，观察和分析经济社会现象；了解社会主义基本经济制度的优越性；理解坚持社会主义市场经济和深化经济体制改革的意义；了解加快构建新发展格局、着力推动高质量发展的措施，明确发展新质生产力是推动高质量发展的内在要求和重要着力点；树立以人民为中心的发展思想；尝试对促进社会公正、实现共同富裕、营造良好社会风尚、完善社会保障的政策提出建议。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:2", CJ_academicRequirements: "通过本模块的学习，学生能够结合社会实践活动，初步运用中国特色社会主义政治经济学的基本观点，观察和分析经济社会现象；了解社会主义基本经济制度的优越性；理解坚持社会主义市场经济和深化经济体制改革的意义；了解加快构建新发展格局、着力推动高质量发展的措施，明确发展新质生产力是推动高质量发展的内在要求和重要着力点；树立以人民为中心的发展思想；尝试对促进社会公正、实现共同富裕、营造良好社会风尚、完善社会保障的政策提出建议。"};
-
-MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:5"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:5", title: "1.中国共产党的领导", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:3\", \"academicRequirements\": \"通过本模块的学习，学生能够结合社会实践活动，了解中国共产党的性质、宗旨和指导思想，明确党的执政地位是历史和人民的选择；阐释中国特色社会主义政治制度的基本内容、鲜明特点和主要优势；了解全面推进依法治国的总目标，知道科学立法、严格执法、公正司法、全民守法的基本要求；懂得走中国特色社会主义政治发展道路，必须坚持党的领导、人民当家作主、依法治国有机统一，理解推进国家治理体系和治理能力现代化的重要性；具备有序参与国家政治生活和社会公共生活的能力。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:3", CJ_academicRequirements: "通过本模块的学习，学生能够结合社会实践活动，了解中国共产党的性质、宗旨和指导思想，明确党的执政地位是历史和人民的选择；阐释中国特色社会主义政治制度的基本内容、鲜明特点和主要优势；了解全面推进依法治国的总目标，知道科学立法、严格执法、公正司法、全民守法的基本要求；懂得走中国特色社会主义政治发展道路，必须坚持党的领导、人民当家作主、依法治国有机统一，理解推进国家治理体系和治理能力现代化的重要性；具备有序参与国家政治生活和社会公共生活的能力。"};
-
-MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:6"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:6", title: "2.人民当家作主", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:3\", \"academicRequirements\": \"通过本模块的学习，学生能够结合社会实践活动，了解中国共产党的性质、宗旨和指导思想，明确党的执政地位是历史和人民的选择；阐释中国特色社会主义政治制度的基本内容、鲜明特点和主要优势；了解全面推进依法治国的总目标，知道科学立法、严格执法、公正司法、全民守法的基本要求；懂得走中国特色社会主义政治发展道路，必须坚持党的领导、人民当家作主、依法治国有机统一，理解推进国家治理体系和治理能力现代化的重要性；具备有序参与国家政治生活和社会公共生活的能力。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:3", CJ_academicRequirements: "通过本模块的学习，学生能够结合社会实践活动，了解中国共产党的性质、宗旨和指导思想，明确党的执政地位是历史和人民的选择；阐释中国特色社会主义政治制度的基本内容、鲜明特点和主要优势；了解全面推进依法治国的总目标，知道科学立法、严格执法、公正司法、全民守法的基本要求；懂得走中国特色社会主义政治发展道路，必须坚持党的领导、人民当家作主、依法治国有机统一，理解推进国家治理体系和治理能力现代化的重要性；具备有序参与国家政治生活和社会公共生活的能力。"};
-
-MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:7"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:7", title: "3.依法治国", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:3\", \"academicRequirements\": \"通过本模块的学习，学生能够结合社会实践活动，了解中国共产党的性质、宗旨和指导思想，明确党的执政地位是历史和人民的选择；阐释中国特色社会主义政治制度的基本内容、鲜明特点和主要优势；了解全面推进依法治国的总目标，知道科学立法、严格执法、公正司法、全民守法的基本要求；懂得走中国特色社会主义政治发展道路，必须坚持党的领导、人民当家作主、依法治国有机统一，理解推进国家治理体系和治理能力现代化的重要性；具备有序参与国家政治生活和社会公共生活的能力。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:3", CJ_academicRequirements: "通过本模块的学习，学生能够结合社会实践活动，了解中国共产党的性质、宗旨和指导思想，明确党的执政地位是历史和人民的选择；阐释中国特色社会主义政治制度的基本内容、鲜明特点和主要优势；了解全面推进依法治国的总目标，知道科学立法、严格执法、公正司法、全民守法的基本要求；懂得走中国特色社会主义政治发展道路，必须坚持党的领导、人民当家作主、依法治国有机统一，理解推进国家治理体系和治理能力现代化的重要性；具备有序参与国家政治生活和社会公共生活的能力。"};
-
-MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:8"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:8", title: "1.探索世界与追求真理", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:4\", \"academicRequirements\": \"通过本模块的学习，学生能够结合社会实践活动，了解马克思主义哲学的基本原理；运用辩证唯物主义和历史唯物主义观点认识自然界、人类社会、人类思维，确信实践是检验真理的唯一标准；实事求是、与时俱进地观察和分析经济、政治、文化、社会、生态等现象，在生活中作出科学的价值判断和行为选择，树立正确人生理想和信念，培养担当意识和社会责任感；发展社会主义先进文化，弘扬革命文化，传承中华优秀传统文化，尊重世界文化多样性，增强文化自信；树立正确的世界观、人生观、价值观。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:4", CJ_academicRequirements: "通过本模块的学习，学生能够结合社会实践活动，了解马克思主义哲学的基本原理；运用辩证唯物主义和历史唯物主义观点认识自然界、人类社会、人类思维，确信实践是检验真理的唯一标准；实事求是、与时俱进地观察和分析经济、政治、文化、社会、生态等现象，在生活中作出科学的价值判断和行为选择，树立正确人生理想和信念，培养担当意识和社会责任感；发展社会主义先进文化，弘扬革命文化，传承中华优秀传统文化，尊重世界文化多样性，增强文化自信；树立正确的世界观、人生观、价值观。"};
-
-MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:9"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:9", title: "2.认识社会与价值选择", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:4\", \"academicRequirements\": \"通过本模块的学习，学生能够结合社会实践活动，了解马克思主义哲学的基本原理；运用辩证唯物主义和历史唯物主义观点认识自然界、人类社会、人类思维，确信实践是检验真理的唯一标准；实事求是、与时俱进地观察和分析经济、政治、文化、社会、生态等现象，在生活中作出科学的价值判断和行为选择，树立正确人生理想和信念，培养担当意识和社会责任感；发展社会主义先进文化，弘扬革命文化，传承中华优秀传统文化，尊重世界文化多样性，增强文化自信；树立正确的世界观、人生观、价值观。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:4", CJ_academicRequirements: "通过本模块的学习，学生能够结合社会实践活动，了解马克思主义哲学的基本原理；运用辩证唯物主义和历史唯物主义观点认识自然界、人类社会、人类思维，确信实践是检验真理的唯一标准；实事求是、与时俱进地观察和分析经济、政治、文化、社会、生态等现象，在生活中作出科学的价值判断和行为选择，树立正确人生理想和信念，培养担当意识和社会责任感；发展社会主义先进文化，弘扬革命文化，传承中华优秀传统文化，尊重世界文化多样性，增强文化自信；树立正确的世界观、人生观、价值观。"};
-
-MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:10"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:10", title: "3.文化传承与文化创新", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:4\", \"academicRequirements\": \"通过本模块的学习，学生能够结合社会实践活动，了解马克思主义哲学的基本原理；运用辩证唯物主义和历史唯物主义观点认识自然界、人类社会、人类思维，确信实践是检验真理的唯一标准；实事求是、与时俱进地观察和分析经济、政治、文化、社会、生态等现象，在生活中作出科学的价值判断和行为选择，树立正确人生理想和信念，培养担当意识和社会责任感；发展社会主义先进文化，弘扬革命文化，传承中华优秀传统文化，尊重世界文化多样性，增强文化自信；树立正确的世界观、人生观、价值观。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:4", CJ_academicRequirements: "通过本模块的学习，学生能够结合社会实践活动，了解马克思主义哲学的基本原理；运用辩证唯物主义和历史唯物主义观点认识自然界、人类社会、人类思维，确信实践是检验真理的唯一标准；实事求是、与时俱进地观察和分析经济、政治、文化、社会、生态等现象，在生活中作出科学的价值判断和行为选择，树立正确人生理想和信念，培养担当意识和社会责任感；发展社会主义先进文化，弘扬革命文化，传承中华优秀传统文化，尊重世界文化多样性，增强文化自信；树立正确的世界观、人生观、价值观。"};
-
-MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:11"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:11", title: "1. 各具特色的国家", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:5\", \"academicRequirements\": \"通过本模块的学习，学生能够在全球视野中观察不同国家的政治制度，坚定中国特色社会主义道路自信、理论自信、制度自信、文化自信；弘扬全人类共同价值，理解各国相互联系的程度空前加深，全球越来越成为相互依存的命运共同体，懂得和平、发展、合作、共赢是历史潮流；解析当今世界多极化和经济全球化进程，理解国际组织在国际事务中的作用；明确国家利益和国家实力是决定国际关系的主要因素；具有融入国际社会的积极意愿和开放态度，自觉维护国家主权、安全、发展利益，推动构建人类命运共同体。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:5", CJ_academicRequirements: "通过本模块的学习，学生能够在全球视野中观察不同国家的政治制度，坚定中国特色社会主义道路自信、理论自信、制度自信、文化自信；弘扬全人类共同价值，理解各国相互联系的程度空前加深，全球越来越成为相互依存的命运共同体，懂得和平、发展、合作、共赢是历史潮流；解析当今世界多极化和经济全球化进程，理解国际组织在国际事务中的作用；明确国家利益和国家实力是决定国际关系的主要因素；具有融入国际社会的积极意愿和开放态度，自觉维护国家主权、安全、发展利益，推动构建人类命运共同体。"};
-
-MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:12"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:12", title: "2. 世界多极化", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:5\", \"academicRequirements\": \"通过本模块的学习，学生能够在全球视野中观察不同国家的政治制度，坚定中国特色社会主义道路自信、理论自信、制度自信、文化自信；弘扬全人类共同价值，理解各国相互联系的程度空前加深，全球越来越成为相互依存的命运共同体，懂得和平、发展、合作、共赢是历史潮流；解析当今世界多极化和经济全球化进程，理解国际组织在国际事务中的作用；明确国家利益和国家实力是决定国际关系的主要因素；具有融入国际社会的积极意愿和开放态度，自觉维护国家主权、安全、发展利益，推动构建人类命运共同体。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:5", CJ_academicRequirements: "通过本模块的学习，学生能够在全球视野中观察不同国家的政治制度，坚定中国特色社会主义道路自信、理论自信、制度自信、文化自信；弘扬全人类共同价值，理解各国相互联系的程度空前加深，全球越来越成为相互依存的命运共同体，懂得和平、发展、合作、共赢是历史潮流；解析当今世界多极化和经济全球化进程，理解国际组织在国际事务中的作用；明确国家利益和国家实力是决定国际关系的主要因素；具有融入国际社会的积极意愿和开放态度，自觉维护国家主权、安全、发展利益，推动构建人类命运共同体。"};
-
-MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:13"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:13", title: "3. 经济全球化", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:5\", \"academicRequirements\": \"通过本模块的学习，学生能够在全球视野中观察不同国家的政治制度，坚定中国特色社会主义道路自信、理论自信、制度自信、文化自信；弘扬全人类共同价值，理解各国相互联系的程度空前加深，全球越来越成为相互依存的命运共同体，懂得和平、发展、合作、共赢是历史潮流；解析当今世界多极化和经济全球化进程，理解国际组织在国际事务中的作用；明确国家利益和国家实力是决定国际关系的主要因素；具有融入国际社会的积极意愿和开放态度，自觉维护国家主权、安全、发展利益，推动构建人类命运共同体。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:5", CJ_academicRequirements: "通过本模块的学习，学生能够在全球视野中观察不同国家的政治制度，坚定中国特色社会主义道路自信、理论自信、制度自信、文化自信；弘扬全人类共同价值，理解各国相互联系的程度空前加深，全球越来越成为相互依存的命运共同体，懂得和平、发展、合作、共赢是历史潮流；解析当今世界多极化和经济全球化进程，理解国际组织在国际事务中的作用；明确国家利益和国家实力是决定国际关系的主要因素；具有融入国际社会的积极意愿和开放态度，自觉维护国家主权、安全、发展利益，推动构建人类命运共同体。"};
-
-MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:14"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:14", title: "4. 国际组织", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:5\", \"academicRequirements\": \"通过本模块的学习，学生能够在全球视野中观察不同国家的政治制度，坚定中国特色社会主义道路自信、理论自信、制度自信、文化自信；弘扬全人类共同价值，理解各国相互联系的程度空前加深，全球越来越成为相互依存的命运共同体，懂得和平、发展、合作、共赢是历史潮流；解析当今世界多极化和经济全球化进程，理解国际组织在国际事务中的作用；明确国家利益和国家实力是决定国际关系的主要因素；具有融入国际社会的积极意愿和开放态度，自觉维护国家主权、安全、发展利益，推动构建人类命运共同体。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:5", CJ_academicRequirements: "通过本模块的学习，学生能够在全球视野中观察不同国家的政治制度，坚定中国特色社会主义道路自信、理论自信、制度自信、文化自信；弘扬全人类共同价值，理解各国相互联系的程度空前加深，全球越来越成为相互依存的命运共同体，懂得和平、发展、合作、共赢是历史潮流；解析当今世界多极化和经济全球化进程，理解国际组织在国际事务中的作用；明确国家利益和国家实力是决定国际关系的主要因素；具有融入国际社会的积极意愿和开放态度，自觉维护国家主权、安全、发展利益，推动构建人类命运共同体。"};
-
-MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:15"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:15", title: "1. 民事权利与义务", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:6\", \"academicRequirements\": \"通过本模块的学习，学生能够结合生活实际，更加全面地认识民事权利与义务；更为具体地理解婚姻家庭中的法律责任，以及与创业和就业相关的法律制度；更为理性地看待生活中的矛盾和纠纷，懂得调解、仲裁、诉讼等不同的纠纷解决机制；进一步提高主动学法的意愿、自觉用法的能力。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:6", CJ_academicRequirements: "通过本模块的学习，学生能够结合生活实际，更加全面地认识民事权利与义务；更为具体地理解婚姻家庭中的法律责任，以及与创业和就业相关的法律制度；更为理性地看待生活中的矛盾和纠纷，懂得调解、仲裁、诉讼等不同的纠纷解决机制；进一步提高主动学法的意愿、自觉用法的能力。"};
-
-MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:16"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:16", title: "2. 家庭与婚姻", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:6\", \"academicRequirements\": \"通过本模块的学习，学生能够结合生活实际，更加全面地认识民事权利与义务；更为具体地理解婚姻家庭中的法律责任，以及与创业和就业相关的法律制度；更为理性地看待生活中的矛盾和纠纷，懂得调解、仲裁、诉讼等不同的纠纷解决机制；进一步提高主动学法的意愿、自觉用法的能力。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:6", CJ_academicRequirements: "通过本模块的学习，学生能够结合生活实际，更加全面地认识民事权利与义务；更为具体地理解婚姻家庭中的法律责任，以及与创业和就业相关的法律制度；更为理性地看待生活中的矛盾和纠纷，懂得调解、仲裁、诉讼等不同的纠纷解决机制；进一步提高主动学法的意愿、自觉用法的能力。"};
-
-MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:17"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:17", title: "3.就业与创业", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:6\", \"academicRequirements\": \"通过本模块的学习，学生能够结合生活实际，更加全面地认识民事权利与义务；更为具体地理解婚姻家庭中的法律责任，以及与创业和就业相关的法律制度；更为理性地看待生活中的矛盾和纠纷，懂得调解、仲裁、诉讼等不同的纠纷解决机制；进一步提高主动学法的意愿、自觉用法的能力。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:6", CJ_academicRequirements: "通过本模块的学习，学生能够结合生活实际，更加全面地认识民事权利与义务；更为具体地理解婚姻家庭中的法律责任，以及与创业和就业相关的法律制度；更为理性地看待生活中的矛盾和纠纷，懂得调解、仲裁、诉讼等不同的纠纷解决机制；进一步提高主动学法的意愿、自觉用法的能力。"};
-
-MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:18"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:18", title: "4. 社会争议解决", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:6\", \"academicRequirements\": \"通过本模块的学习，学生能够结合生活实际，更加全面地认识民事权利与义务；更为具体地理解婚姻家庭中的法律责任，以及与创业和就业相关的法律制度；更为理性地看待生活中的矛盾和纠纷，懂得调解、仲裁、诉讼等不同的纠纷解决机制；进一步提高主动学法的意愿、自觉用法的能力。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:6", CJ_academicRequirements: "通过本模块的学习，学生能够结合生活实际，更加全面地认识民事权利与义务；更为具体地理解婚姻家庭中的法律责任，以及与创业和就业相关的法律制度；更为理性地看待生活中的矛盾和纠纷，懂得调解、仲裁、诉讼等不同的纠纷解决机制；进一步提高主动学法的意愿、自觉用法的能力。"};
-
-MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:19"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:19", title: "1.学会科学思维", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:7\", \"academicRequirements\": \"通过本模块的学习，学生能够经历探究过程，明确科学思维的重要意义；学会遵循逻辑思维的规律；把握辩证思维的方法；提高创新思维的能力；提升自己的思维品质；正确运用科学思维方法观察和理解社会，处理学习和生活中遇到的问题。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:7", CJ_academicRequirements: "通过本模块的学习，学生能够经历探究过程，明确科学思维的重要意义；学会遵循逻辑思维的规律；把握辩证思维的方法；提高创新思维的能力；提升自己的思维品质；正确运用科学思维方法观察和理解社会，处理学习和生活中遇到的问题。"};
-
-MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:20"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:20", title: "2. 遵循逻辑思维要求", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:7\", \"academicRequirements\": \"通过本模块的学习，学生能够经历探究过程，明确科学思维的重要意义；学会遵循逻辑思维的规律；把握辩证思维的方法；提高创新思维的能力；提升自己的思维品质；正确运用科学思维方法观察和理解社会，处理学习和生活中遇到的问题。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:7", CJ_academicRequirements: "通过本模块的学习，学生能够经历探究过程，明确科学思维的重要意义；学会遵循逻辑思维的规律；把握辩证思维的方法；提高创新思维的能力；提升自己的思维品质；正确运用科学思维方法观察和理解社会，处理学习和生活中遇到的问题。"};
-
-MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:21"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:21", title: "3. 运用辩证思维方法", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:7\", \"academicRequirements\": \"通过本模块的学习，学生能够经历探究过程，明确科学思维的重要意义；学会遵循逻辑思维的规律；把握辩证思维的方法；提高创新思维的能力；提升自己的思维品质；正确运用科学思维方法观察和理解社会，处理学习和生活中遇到的问题。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:7", CJ_academicRequirements: "通过本模块的学习，学生能够经历探究过程，明确科学思维的重要意义；学会遵循逻辑思维的规律；把握辩证思维的方法；提高创新思维的能力；提升自己的思维品质；正确运用科学思维方法观察和理解社会，处理学习和生活中遇到的问题。"};
-
-MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:22"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:22", title: "4. 提高创新思维能力", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:7\", \"academicRequirements\": \"通过本模块的学习，学生能够经历探究过程，明确科学思维的重要意义；学会遵循逻辑思维的规律；把握辩证思维的方法；提高创新思维的能力；提升自己的思维品质；正确运用科学思维方法观察和理解社会，处理学习和生活中遇到的问题。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:7", CJ_academicRequirements: "通过本模块的学习，学生能够经历探究过程，明确科学思维的重要意义；学会遵循逻辑思维的规律；把握辩证思维的方法；提高创新思维的能力；提升自己的思维品质；正确运用科学思维方法观察和理解社会，处理学习和生活中遇到的问题。"};
-
-MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:23"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:23", title: "1. 货币与市场", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:8\", \"academicRequirements\": null}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:8"};
-
-MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:24"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:24", title: "2. 收入与支出", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:8\", \"academicRequirements\": null}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:8"};
-
-MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:25"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:25", title: "3. 投资与理财", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:8\", \"academicRequirements\": null}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:8"};
-
-MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:26"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:26", title: "4. 企业与就业", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:8\", \"academicRequirements\": null}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:8"};
-
-MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:27"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:27", title: "1. 法官的职责", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:9\", \"academicRequirements\": null}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:9"};
-
-MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:28"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:28", title: "2.审判程序", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:9\", \"academicRequirements\": null}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:9"};
-
-MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:29"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:29", title: "3. 律师的职责", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:9\", \"academicRequirements\": null}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:9"};
-
-MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:30"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:30", title: "4. 辩护和代理", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:9\", \"academicRequirements\": null}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:9"};
-
-MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:31", title: "1. 百家争鸣的时代", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:10\", \"academicRequirements\": null}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:10"};
-
-MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:32", title: "2. 理学与心学的演变", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:10\", \"academicRequirements\": null}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:10"};
-
-MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:33", title: "3. 西方哲学的起源", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:10\", \"academicRequirements\": null}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:10"};
-
-MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:34", title: "4. 西方哲学的发展", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:10\", \"academicRequirements\": null}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:10"};
-
-MERGE (n:CourseModule {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:1"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:1", title: "模块1：中国特色社会主义", description: "着眼于人类社会的发展历程，立足中国特色社会主义的伟大实践，明确中国特色社会主义是科学社会主义理论逻辑与中国社会发展历史逻辑的辩证统一，中国特色社会主义已进入新时代，帮助学生树立为共产主义远大理想和中国特色社会主义共同理想而团结奋斗的信念。", subject: "SB0310", type: "CourseModule", applicableLevel: "OB06", contentJson: "{\"courseStructure\": \"urn:jy:politics:SB0310:OB06:CourseStructure:1\", \"courseStructureTitle\": \"必修课程\"}", CJ_courseStructure: "urn:jy:politics:SB0310:OB06:CourseStructure:1", CJ_courseStructureTitle: "必修课程"};
-
-MERGE (n:CourseModule {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:2"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:2", title: "模块2：经济与社会", description: "依据习近平经济思想的基本原理，讲述我国社会主义基本经济制", subject: "SB0310", type: "CourseModule", applicableLevel: "OB06", contentJson: "{\"courseStructure\": \"urn:jy:politics:SB0310:OB06:CourseStructure:1\", \"courseStructureTitle\": \"必修课程\"}", CJ_courseStructure: "urn:jy:politics:SB0310:OB06:CourseStructure:1", CJ_courseStructureTitle: "必修课程"};
-
-MERGE (n:CourseModule {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:3"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:3", title: "模块3：政治与法治", description: "以党的领导、人民当家作主、依法治国有机统一为主线，讲述党的领导是人民当家作主和依法治国的根本保证，人民当家作主是社会主义民主政治的本质特征，依法治国是党领导人民治理国家的基本方式，奠定学生政治立场与法治思维的基础。", subject: "SB0310", type: "CourseModule", applicableLevel: "OB06", contentJson: "{\"courseStructure\": \"urn:jy:politics:SB0310:OB06:CourseStructure:1\", \"courseStructureTitle\": \"必修课程\"}", CJ_courseStructure: "urn:jy:politics:SB0310:OB06:CourseStructure:1", CJ_courseStructureTitle: "必修课程"};
-
-MERGE (n:CourseModule {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:4"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:4", title: "模块4：哲学与文化", description: "阐明马克思主义哲学是科学的世界观和方法论，讲述辩证唯物主义和历史唯物主义基本观点，坚持实践的观点、历史的观点、辩证的观点、发展的观点、群众的观点，在实践中认识真理、检验真理、发展真理；讲述社会生活及个人成长中价值判断、行为选择和文化自信的意义；为培育学生思想政治学科核心素养，奠定世界观、人生观、价值观基础。", subject: "SB0310", type: "CourseModule", applicableLevel: "OB06", contentJson: "{\"courseStructure\": \"urn:jy:politics:SB0310:OB06:CourseStructure:1\", \"courseStructureTitle\": \"必修课程\"}", CJ_courseStructure: "urn:jy:politics:SB0310:OB06:CourseStructure:1", CJ_courseStructureTitle: "必修课程"};
-
-MERGE (n:CourseModule {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:5"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:5", title: "模块1：当代国际政治与经济", description: "围绕当今世界多极化与经济全球化趋势，解析不同的国家性质和国家形式，说明国际关系的主要影响因素和世界经济发展的基本特点，介绍国际组织的主要类型及作用，引导学生坚持胸怀天下，在拓展国际视野的过程中，坚持总体国家安全观，坚定不移地走中国特色社会主义道路，积极贡献中国智慧和力量，推动构建人类命运共同体。", subject: "SB0310", type: "CourseModule", applicableLevel: "OB06", contentJson: "{\"courseStructure\": \"urn:jy:politics:SB0310:OB06:CourseStructure:2\", \"courseStructureTitle\": \"选择性必修课程\"}", CJ_courseStructure: "urn:jy:politics:SB0310:OB06:CourseStructure:2", CJ_courseStructureTitle: "选择性必修课程"};
-
-MERGE (n:CourseModule {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:6"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:6", title: "模块2：法律与生活", description: "聚焦公民依法维护合法权益的法律行为，介绍民事主体一般的民事权利和义务，了解婚姻家庭中的法律关系和法律责任、劳动关系的法律保障、社会纠纷的解决机制和法律程序，为学生进一步发展思想政治学科核心素养、牢固树立法治观念，提供日常生活中的法律常识。", subject: "SB0310", type: "CourseModule", applicableLevel: "OB06", contentJson: "{\"courseStructure\": \"urn:jy:politics:SB0310:OB06:CourseStructure:2\", \"courseStructureTitle\": \"选择性必修课程\"}", CJ_courseStructure: "urn:jy:politics:SB0310:OB06:CourseStructure:2", CJ_courseStructureTitle: "选择性必修课程"};
-
-MERGE (n:CourseModule {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:7"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:7", title: "模块3：逻辑与思维", description: "通过科学思维的训练，引导学生掌握科学思维的基本要求，把握逻", subject: "SB0310", type: "CourseModule", applicableLevel: "OB06", contentJson: "{\"courseStructure\": \"urn:jy:politics:SB0310:OB06:CourseStructure:2\", \"courseStructureTitle\": \"选择性必修课程\"}", CJ_courseStructure: "urn:jy:politics:SB0310:OB06:CourseStructure:2", CJ_courseStructureTitle: "选择性必修课程"};
-
-MERGE (n:CourseModule {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:8"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:8", title: "模块1：财经与生活", description: "提供本课程模块，目的是帮助学生在中国特色社会主义新时代，更好地立足社会主义市场经济运行和社会主义现代化建设的需要，了解经济生活的基本概念和原理，提升学生正确理解和积极参与经济生活的能力，帮助学生进一步树立正确的财富观与人生观，坚持公正、法治的价值取向，践行敬业、诚信的价值准则。", subject: "SB0310", type: "CourseModule", applicableLevel: "OB06", contentJson: "{\"courseStructure\": \"urn:jy:politics:SB0310:OB06:CourseStructure:3\", \"courseStructureTitle\": \"选修课程\"}", CJ_courseStructure: "urn:jy:politics:SB0310:OB06:CourseStructure:3", CJ_courseStructureTitle: "选修课程"};
-
-MERGE (n:CourseModule {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:9"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:9", title: "模块2：法官与律师", description: "提供本课程模块，目的是帮助学生更多地了解法官和律师这两种有代表性的法律职业的不同职责和共同使命；理解法官和律师对于维护公平正义、推动社会进步、满足人民美好生活需要的作用；在建设社会主义法治文化的实践中，不断增强法治观念，尊法学法守法用法，做社会主义法治的忠实崇尚者、自觉遵守者、坚定捍卫者。", subject: "SB0310", type: "CourseModule", applicableLevel: "OB06", contentJson: "{\"courseStructure\": \"urn:jy:politics:SB0310:OB06:CourseStructure:3\", \"courseStructureTitle\": \"选修课程\"}", CJ_courseStructure: "urn:jy:politics:SB0310:OB06:CourseStructure:3", CJ_courseStructureTitle: "选修课程"};
-
-MERGE (n:CourseModule {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:10"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:10", title: "模块3：历史上的哲学家", description: "提供本课程模块，目的是帮助学生更多地了解中外历史上唯物主义与唯心主义哲学流派的代表人物及其核心思想；通过对不同哲学观点进行比较、鉴别和评价，看到哲学的时代价值及其影响历史进程的作用；每一个时代的理论思维，都是历史的产物，学习哲学史可以帮助我们提高理论思维水平，更加自觉地理解和掌握马克思主义哲学原理。", subject: "SB0310", type: "CourseModule", applicableLevel: "OB06", contentJson: "{\"courseStructure\": \"urn:jy:politics:SB0310:OB06:CourseStructure:3\", \"courseStructureTitle\": \"选修课程\"}", CJ_courseStructure: "urn:jy:politics:SB0310:OB06:CourseStructure:3", CJ_courseStructureTitle: "选修课程"};
-
-MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:1"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:1", title: "第一课 社会主义从空想到科学、从理论到实践的发展", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修1 中国特色社会主义\", \"sourceTextbook\": \"高中思想政治统编版高一必修1 中国特色社会主义\", \"course\": \"思想政治\", \"bookIndex\": 1}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修1 中国特色社会主义", CJ_sourceTextbook: "高中思想政治统编版高一必修1 中国特色社会主义", CJ_course: "思想政治", CJ_bookIndex: 1};
-
-MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:2"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:2", title: "第二课 只有社会主义才能救中国", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修1 中国特色社会主义\", \"sourceTextbook\": \"高中思想政治统编版高一必修1 中国特色社会主义\", \"course\": \"思想政治\", \"bookIndex\": 2}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修1 中国特色社会主义", CJ_sourceTextbook: "高中思想政治统编版高一必修1 中国特色社会主义", CJ_course: "思想政治", CJ_bookIndex: 2};
-
-MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:3"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:3", title: "第三课 只有中国特色社会主义才能发展中国", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修1 中国特色社会主义\", \"sourceTextbook\": \"高中思想政治统编版高一必修1 中国特色社会主义\", \"course\": \"思想政治\", \"bookIndex\": 3}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修1 中国特色社会主义", CJ_sourceTextbook: "高中思想政治统编版高一必修1 中国特色社会主义", CJ_course: "思想政治", CJ_bookIndex: 3};
-
-MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:4"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:4", title: "第四课 只有坚持和发展中国特色社会主义才能实现中华民族伟大复兴", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修1 中国特色社会主义\", \"sourceTextbook\": \"高中思想政治统编版高一必修1 中国特色社会主义\", \"course\": \"思想政治\", \"bookIndex\": 4}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修1 中国特色社会主义", CJ_sourceTextbook: "高中思想政治统编版高一必修1 中国特色社会主义", CJ_course: "思想政治", CJ_bookIndex: 4};
-
-MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:5"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:5", title: "综合探究一 回看走过的路 比较别人的路 远眺前行的路", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修1 中国特色社会主义\", \"sourceTextbook\": \"高中思想政治统编版高一必修1 中国特色社会主义\", \"course\": \"思想政治\", \"bookIndex\": 5}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修1 中国特色社会主义", CJ_sourceTextbook: "高中思想政治统编版高一必修1 中国特色社会主义", CJ_course: "思想政治", CJ_bookIndex: 5};
-
-MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:6"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:6", title: "综合探究二 方向决定道路 道路决定命运", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修1 中国特色社会主义\", \"sourceTextbook\": \"高中思想政治统编版高一必修1 中国特色社会主义\", \"course\": \"思想政治\", \"bookIndex\": 6}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修1 中国特色社会主义", CJ_sourceTextbook: "高中思想政治统编版高一必修1 中国特色社会主义", CJ_course: "思想政治", CJ_bookIndex: 6};
-
-MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:7"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:7", title: "第一单元 生产资料所有制与经济体制", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修2 经济与社会\", \"sourceTextbook\": \"高中思想政治统编版高一必修2 经济与社会\", \"course\": \"思想政治\", \"bookIndex\": 1}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修2 经济与社会", CJ_sourceTextbook: "高中思想政治统编版高一必修2 经济与社会", CJ_course: "思想政治", CJ_bookIndex: 1};
-
-MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:8"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:8", title: "第二单元 经济发展与社会进步", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修2 经济与社会\", \"sourceTextbook\": \"高中思想政治统编版高一必修2 经济与社会\", \"course\": \"思想政治\", \"bookIndex\": 2}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修2 经济与社会", CJ_sourceTextbook: "高中思想政治统编版高一必修2 经济与社会", CJ_course: "思想政治", CJ_bookIndex: 2};
-
-MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:9"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:9", title: "其他", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修2 经济与社会\", \"sourceTextbook\": \"高中思想政治统编版高一必修2 经济与社会\", \"course\": \"思想政治\", \"bookIndex\": 3}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修2 经济与社会", CJ_sourceTextbook: "高中思想政治统编版高一必修2 经济与社会", CJ_course: "思想政治", CJ_bookIndex: 3};
-
-MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:10"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:10", title: "第一单元 中国共产党的领导", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"sourceTextbook\": \"高中思想政治统编版高一必修3 政治与法治\", \"course\": \"思想政治\", \"bookIndex\": 1}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_sourceTextbook: "高中思想政治统编版高一必修3 政治与法治", CJ_course: "思想政治", CJ_bookIndex: 1};
-
-MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:11"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:11", title: "第二单元 人民当家作主", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"sourceTextbook\": \"高中思想政治统编版高一必修3 政治与法治\", \"course\": \"思想政治\", \"bookIndex\": 2}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_sourceTextbook: "高中思想政治统编版高一必修3 政治与法治", CJ_course: "思想政治", CJ_bookIndex: 2};
-
-MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:12"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:12", title: "第三单元 全面依法治国", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"sourceTextbook\": \"高中思想政治统编版高一必修3 政治与法治\", \"course\": \"思想政治\", \"bookIndex\": 3}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_sourceTextbook: "高中思想政治统编版高一必修3 政治与法治", CJ_course: "思想政治", CJ_bookIndex: 3};
-
-MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:13"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:13", title: "第一单元 探索世界与把握规律", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"sourceTextbook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"course\": \"思想政治\", \"bookIndex\": 1}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_sourceTextbook: "高中思想政治统编版高二必修4 哲学与文化", CJ_course: "思想政治", CJ_bookIndex: 1};
-
-MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:14"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:14", title: "第二单元 认识社会与价值选择", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"sourceTextbook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"course\": \"思想政治\", \"bookIndex\": 2}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_sourceTextbook: "高中思想政治统编版高二必修4 哲学与文化", CJ_course: "思想政治", CJ_bookIndex: 2};
-
-MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:15"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:15", title: "第三单元 文化传承与文化创新", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"sourceTextbook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"course\": \"思想政治\", \"bookIndex\": 3}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_sourceTextbook: "高中思想政治统编版高二必修4 哲学与文化", CJ_course: "思想政治", CJ_bookIndex: 3};
-
-MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:16"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:16", title: "第一单元 各具特色的国家", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"sourceTextbook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"course\": \"思想政治\", \"bookIndex\": 1}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_sourceTextbook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_course: "思想政治", CJ_bookIndex: 1};
-
-MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:17"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:17", title: "第二单元 世界多极化", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"sourceTextbook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"course\": \"思想政治\", \"bookIndex\": 2}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_sourceTextbook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_course: "思想政治", CJ_bookIndex: 2};
-
-MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:18"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:18", title: "第三单元 经济全球化", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"sourceTextbook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"course\": \"思想政治\", \"bookIndex\": 3}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_sourceTextbook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_course: "思想政治", CJ_bookIndex: 3};
-
-MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:19"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:19", title: "第四单元 国际组织", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"sourceTextbook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"course\": \"思想政治\", \"bookIndex\": 4}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_sourceTextbook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_course: "思想政治", CJ_bookIndex: 4};
-
-MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:20"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:20", title: "第一单元 民事权利与义务", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"sourceTextbook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"course\": \"思想政治\", \"bookIndex\": 1}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_sourceTextbook: "高中思想政治统编版选择性必修2 法律与生活", CJ_course: "思想政治", CJ_bookIndex: 1};
-
-MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:21"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:21", title: "第二单元 家庭与婚姻", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"sourceTextbook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"course\": \"思想政治\", \"bookIndex\": 2}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_sourceTextbook: "高中思想政治统编版选择性必修2 法律与生活", CJ_course: "思想政治", CJ_bookIndex: 2};
-
-MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:22"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:22", title: "第三单元 就业与创业", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"sourceTextbook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"course\": \"思想政治\", \"bookIndex\": 3}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_sourceTextbook: "高中思想政治统编版选择性必修2 法律与生活", CJ_course: "思想政治", CJ_bookIndex: 3};
-
-MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:23"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:23", title: "第四单元 社会争议解决", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"sourceTextbook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"course\": \"思想政治\", \"bookIndex\": 4}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_sourceTextbook: "高中思想政治统编版选择性必修2 法律与生活", CJ_course: "思想政治", CJ_bookIndex: 4};
-
-MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:24"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:24", title: "第一单元 树立科学思维观念", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"sourceTextbook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"course\": \"思想政治\", \"bookIndex\": 1}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_sourceTextbook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_course: "思想政治", CJ_bookIndex: 1};
-
-MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:25"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:25", title: "第二单元 遵循逻辑思维规则", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"sourceTextbook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"course\": \"思想政治\", \"bookIndex\": 2}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_sourceTextbook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_course: "思想政治", CJ_bookIndex: 2};
-
-MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:26"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:26", title: "第三单元 运用辩证思维方法", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"sourceTextbook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"course\": \"思想政治\", \"bookIndex\": 3}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_sourceTextbook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_course: "思想政治", CJ_bookIndex: 3};
-
-MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:27"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:27", title: "第四单元 提高创新思维能力", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"sourceTextbook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"course\": \"思想政治\", \"bookIndex\": 4}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_sourceTextbook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_course: "思想政治", CJ_bookIndex: 4};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:1"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:1", title: "原始社会的解体和阶级社会的演进", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修1 中国特色社会主义\", \"chapter\": \"第一课 社会主义从空想到科学、从理论到实践的发展\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修1 中国特色社会主义", CJ_chapter: "第一课 社会主义从空想到科学、从理论到实践的发展"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:2"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:2", title: "科学社会主义的理论与实践", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修1 中国特色社会主义\", \"chapter\": \"第一课 社会主义从空想到科学、从理论到实践的发展\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修1 中国特色社会主义", CJ_chapter: "第一课 社会主义从空想到科学、从理论到实践的发展"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:3"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:3", title: "新民主主义革命的胜利", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修1 中国特色社会主义\", \"chapter\": \"第二课 只有社会主义才能救中国\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修1 中国特色社会主义", CJ_chapter: "第二课 只有社会主义才能救中国"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:4"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:4", title: "社会主义制度在中国的确立", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修1 中国特色社会主义\", \"chapter\": \"第二课 只有社会主义才能救中国\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修1 中国特色社会主义", CJ_chapter: "第二课 只有社会主义才能救中国"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:5"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:5", title: "伟大的改革开放", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修1 中国特色社会主义\", \"chapter\": \"第三课 只有中国特色社会主义才能发展中国\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修1 中国特色社会主义", CJ_chapter: "第三课 只有中国特色社会主义才能发展中国"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:6"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:6", title: "中国特色社会主义的创立、发展和完善", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修1 中国特色社会主义\", \"chapter\": \"第三课 只有中国特色社会主义才能发展中国\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修1 中国特色社会主义", CJ_chapter: "第三课 只有中国特色社会主义才能发展中国"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:7"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:7", title: "中国特色社会主义进入新时代", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修1 中国特色社会主义\", \"chapter\": \"第四课 只有坚持和发展中国特色社会主义才能实现中华民族伟大复兴\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修1 中国特色社会主义", CJ_chapter: "第四课 只有坚持和发展中国特色社会主义才能实现中华民族伟大复兴"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:8"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:8", title: "实现中华民族伟大复兴的中国梦", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修1 中国特色社会主义\", \"chapter\": \"第四课 只有坚持和发展中国特色社会主义才能实现中华民族伟大复兴\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修1 中国特色社会主义", CJ_chapter: "第四课 只有坚持和发展中国特色社会主义才能实现中华民族伟大复兴"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:9"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:9", title: "习近平新时代中国特色社会主义思想", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修1 中国特色社会主义\", \"chapter\": \"第四课 只有坚持和发展中国特色社会主义才能实现中华民族伟大复兴\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修1 中国特色社会主义", CJ_chapter: "第四课 只有坚持和发展中国特色社会主义才能实现中华民族伟大复兴"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:10"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:10", title: "第一课 我国的生产资料所有制", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修2 经济与社会\", \"chapter\": \"第一单元 生产资料所有制与经济体制\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修2 经济与社会", CJ_chapter: "第一单元 生产资料所有制与经济体制"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:11"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:11", title: "第二课 我国的社会主义市场经济体制", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修2 经济与社会\", \"chapter\": \"第一单元 生产资料所有制与经济体制\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修2 经济与社会", CJ_chapter: "第一单元 生产资料所有制与经济体制"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:12"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:12", title: "第三课 我国的经济发展", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修2 经济与社会\", \"chapter\": \"第二单元 经济发展与社会进步\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修2 经济与社会", CJ_chapter: "第二单元 经济发展与社会进步"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:13"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:13", title: "第四课 我国的个人收入分配与社会保障", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修2 经济与社会\", \"chapter\": \"第二单元 经济发展与社会进步\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修2 经济与社会", CJ_chapter: "第二单元 经济发展与社会进步"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:14"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:14", title: "综合探究 践行社会责任 促进社会进步", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修2 经济与社会\", \"chapter\": \"第二单元 经济发展与社会进步\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修2 经济与社会", CJ_chapter: "第二单元 经济发展与社会进步"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:15"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:15", title: "使市场在资源配置中起决定性作用", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修2 经济与社会\", \"chapter\": \"其他\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修2 经济与社会", CJ_chapter: "其他"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:16"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:16", title: "坚持新发展理念", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修2 经济与社会\", \"chapter\": \"其他\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修2 经济与社会", CJ_chapter: "其他"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:17"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:17", title: "建设现代化经济体系", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修2 经济与社会\", \"chapter\": \"其他\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修2 经济与社会", CJ_chapter: "其他"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:18"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:18", title: "综合探究 加快完善社会主义市场经济体制", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修2 经济与社会\", \"chapter\": \"其他\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修2 经济与社会", CJ_chapter: "其他"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:19"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:19", title: "第一课 历史和人民的选择", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第一单元 中国共产党的领导\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第一单元 中国共产党的领导"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:20"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:20", title: "第二课 中国共产党的先进性", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第一单元 中国共产党的领导\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第一单元 中国共产党的领导"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:21"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:21", title: "第三课 坚持和加强党的全面领导", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第一单元 中国共产党的领导\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第一单元 中国共产党的领导"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:22"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:22", title: "综合探究 始终走在时代前列的中国共产党", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第一单元 中国共产党的领导\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第一单元 中国共产党的领导"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:23"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:23", title: "第四课 人民民主专政的社会主义国家", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第二单元 人民当家作主\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第二单元 人民当家作主"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:24"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:24", title: "第五课 我国的根本政治制度", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第二单元 人民当家作主\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第二单元 人民当家作主"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:25"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:25", title: "第六课 我国的基本政治制度", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第二单元 人民当家作主\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第二单元 人民当家作主"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:26"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:26", title: "综合探究 在党的领导下实现人民当家作主", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第二单元 人民当家作主\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第二单元 人民当家作主"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:27"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:27", title: "第七课 治国理政的基本方式", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第三单元 全面依法治国\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第三单元 全面依法治国"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:28"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:28", title: "第八课 法治中国建设", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第三单元 全面依法治国\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第三单元 全面依法治国"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:29"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:29", title: "第九课 全面依法治国的基本要求", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第三单元 全面依法治国\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第三单元 全面依法治国"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:30"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:30", title: "综合探究 坚持党的领导、人民当家做主、依法治国有机统一", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第三单元 全面依法治国\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第三单元 全面依法治国"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:31"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:31", title: "第一课 时代精神的精华", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第一单元 探索世界与把握规律\"}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第一单元 探索世界与把握规律"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:32"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:32", title: "第二课 探究世界的本质", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第一单元 探索世界与把握规律\"}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第一单元 探索世界与把握规律"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:33"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:33", title: "第三课 把握世界的规律", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第一单元 探索世界与把握规律\"}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第一单元 探索世界与把握规律"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:34"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:34", title: "综合探究 坚持唯物辩证法 反对形而上学", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第一单元 探索世界与把握规律\"}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第一单元 探索世界与把握规律"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:35"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:35", title: "第四课 探索认识的奥秘", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第二单元 认识社会与价值选择\"}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第二单元 认识社会与价值选择"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:36"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:36", title: "第五课 寻觅社会的真谛", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第二单元 认识社会与价值选择\"}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第二单元 认识社会与价值选择"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:37"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:37", title: "第六课 实现人生的价值", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第二单元 认识社会与价值选择\"}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第二单元 认识社会与价值选择"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:38"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:38", title: "综合探究 坚持历史唯物主义 反对历史虚无主义", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第二单元 认识社会与价值选择\"}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第二单元 认识社会与价值选择"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:39"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:39", title: "第七课 继承发展中华优秀传统文化", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第三单元 文化传承与文化创新\"}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第三单元 文化传承与文化创新"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:40"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:40", title: "第八课 学习借鉴外来文化的有益成果", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第三单元 文化传承与文化创新\"}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第三单元 文化传承与文化创新"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:41"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:41", title: "第九课 发展中国特色社会主义文化", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第三单元 文化传承与文化创新\"}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第三单元 文化传承与文化创新"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:42"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:42", title: "综合探究 坚持以马克思主义为指导 发展中国特色社会主义文化", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第三单元 文化传承与文化创新\"}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第三单元 文化传承与文化创新"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:43"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:43", title: "第一课 国体与政体", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第一单元 各具特色的国家\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第一单元 各具特色的国家"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:44"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:44", title: "第二课 国家的结构形式", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第一单元 各具特色的国家\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第一单元 各具特色的国家"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:45"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:45", title: "综合探究 国家安全与核心利益", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第一单元 各具特色的国家\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第一单元 各具特色的国家"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:46"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:46", title: "第三课 多极化趋势", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第二单元 世界多极化\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第二单元 世界多极化"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:47"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:47", title: "第四课 和平与发展", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第二单元 世界多极化\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第二单元 世界多极化"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:48"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:48", title: "第五课 中国的外交", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第二单元 世界多极化\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第二单元 世界多极化"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:49"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:49", title: "综合探究 贡献中国智慧", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第二单元 世界多极化\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第二单元 世界多极化"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:50"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:50", title: "第六课 走进经济全球化", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第三单元 经济全球化\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第三单元 经济全球化"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:51"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:51", title: "第七课 经济全球化与中国", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第三单元 经济全球化\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第三单元 经济全球化"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:52"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:52", title: "综合探究 发展更高层次开放型经济 完善全球治理", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第三单元 经济全球化\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第三单元 经济全球化"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:53"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:53", title: "第八课 主要的国际组织", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第四单元 国际组织\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第四单元 国际组织"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:54"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:54", title: "第九课 中国与国际组织", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第四单元 国际组织\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第四单元 国际组织"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:55"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:55", title: "综合探究 国际视野及国际人才", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第四单元 国际组织\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第四单元 国际组织"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:56"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:56", title: "第一课 在生活中学民法用民法", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第一单元 民事权利与义务\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第一单元 民事权利与义务"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:57"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:57", title: "第二课 依法有效保护财产权", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第一单元 民事权利与义务\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第一单元 民事权利与义务"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:58"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:58", title: "第三课 订约履约 诚信为本", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第一单元 民事权利与义务\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第一单元 民事权利与义务"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:59"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:59", title: "第四课 侵权责任与权利界限", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第一单元 民事权利与义务\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第一单元 民事权利与义务"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:60"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:60", title: "综合探究 财产制度助力经济社会发展", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第一单元 民事权利与义务\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第一单元 民事权利与义务"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:61"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:61", title: "第五课 在和睦家庭中成长", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第二单元 家庭与婚姻\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第二单元 家庭与婚姻"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:62"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:62", title: "第六课 珍惜婚姻关系", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第二单元 家庭与婚姻\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第二单元 家庭与婚姻"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:63"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:63", title: "综合探究 家庭生活 法律守护", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第二单元 家庭与婚姻\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第二单元 家庭与婚姻"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:64"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:64", title: "第七课 做个明白的劳动者", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第三单元 就业与创业\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第三单元 就业与创业"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:65"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:65", title: "第八课 自主创业与诚信经营", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第三单元 就业与创业\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第三单元 就业与创业"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:66"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:66", title: "综合探究 企业创办之旅", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第三单元 就业与创业\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第三单元 就业与创业"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:67"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:67", title: "第九课 纠纷的多元解决方式", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第四单元 社会争议解决\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第四单元 社会争议解决"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:68"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:68", title: "第十课 诉讼实现公平正义", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第四单元 社会争议解决\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第四单元 社会争议解决"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:69"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:69", title: "综合探究 感受司法公正", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第四单元 社会争议解决\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第四单元 社会争议解决"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:70"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:70", title: "第一课 走进思维世界", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第一单元 树立科学思维观念\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第一单元 树立科学思维观念"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:71"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:71", title: "第二课 把握逻辑要义", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第一单元 树立科学思维观念\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第一单元 树立科学思维观念"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:72"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:72", title: "第三课 领会科学思维", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第一单元 树立科学思维观念\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第一单元 树立科学思维观念"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:73"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:73", title: "综合探究 学会科学思维 提升思维品质", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第一单元 树立科学思维观念\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第一单元 树立科学思维观念"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:74"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:74", title: "第四课 准确把握概念", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第二单元 遵循逻辑思维规则\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第二单元 遵循逻辑思维规则"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:75"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:75", title: "第五课 正确运用判断", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第二单元 遵循逻辑思维规则\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第二单元 遵循逻辑思维规则"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:76"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:76", title: "第六课 掌握演绎推理方法", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第二单元 遵循逻辑思维规则\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第二单元 遵循逻辑思维规则"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:77"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:77", title: "第七课 学会归纳与类比推理", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第二单元 遵循逻辑思维规则\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第二单元 遵循逻辑思维规则"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:78"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:78", title: "综合探究 把握逻辑规则 纠正逻辑错误", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第二单元 遵循逻辑思维规则\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第二单元 遵循逻辑思维规则"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:79"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:79", title: "第八课 把握辩证分合", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第三单元 运用辩证思维方法\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第三单元 运用辩证思维方法"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:80"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:80", title: "第九课 理解质量互变", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第三单元 运用辩证思维方法\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第三单元 运用辩证思维方法"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:81"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:81", title: "第十课 推动认识发展", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第三单元 运用辩证思维方法\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第三单元 运用辩证思维方法"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:82"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:82", title: "综合探究 领悟辩证精髓 处理复杂问题", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第三单元 运用辩证思维方法\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第三单元 运用辩证思维方法"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:83"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:83", title: "第十一课 创新思维要善于联想", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第四单元 提高创新思维能力\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第四单元 提高创新思维能力"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:84"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:84", title: "第十二课 创新思维要多路探索", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第四单元 提高创新思维能力\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第四单元 提高创新思维能力"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:85"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:85", title: "第十三课 创新思维要力求超前", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第四单元 提高创新思维能力\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第四单元 提高创新思维能力"};
-
-MERGE (n:Section {identifier: "urn:jy:politics:SB0310:OB06:Section:86"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:Section:86", title: "综合探究 结合社会实践 勇于开拓创新", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第四单元 提高创新思维能力\"}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第四单元 提高创新思维能力"};
-
-MERGE (n:CourseStructure {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1", title: "必修课程", description: "必修课程是培育全体学生学科核心素养的基本载体。", subject: "SB0310", type: "CourseStructure", applicableLevel: "OB06", contentJson: "{}"};
-
-MERGE (n:CourseStructure {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2", title: "选择性必修课程", description: "选择性必修课程是对必修课程的延展，满足学生多样化的学习兴趣和升学需要。", subject: "SB0310", type: "CourseStructure", applicableLevel: "OB06", contentJson: "{}"};
-
-MERGE (n:CourseStructure {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-SET n += {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3", title: "选修课程", description: "选修课程更关注学生专业素养发展、高校自主招生及学生个性化发展的需要。", subject: "SB0310", type: "CourseStructure", applicableLevel: "OB06", contentJson: "{}"};
 
 MERGE (n:ThemeL2 {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:1"})
 SET n += {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:1", title: "1.1", description: "描述不同社会形态的本质特征；解释人类社会发展的一般过程，阐明社会发展的历史进程取决于社会基本矛盾的运动。", subject: "SB0310", type: "ThemeL2", applicableLevel: "OB06", contentJson: "{\"theme\": \"urn:jy:politics:SB0310:OB06:Theme:1\", \"themeTitle\": \"1.人类社会发展的进程与趋势\", \"teachingSuggestion\": \"◆以“怎样揭示人类社会发展的奥秘”为议题，探究社会发展的基本规律和主要阶段。可绘制展板，标识各种社会形态，比较它们的差异。可采用图说等方式，阐释生产力与生产关系、经济基础与上层建筑相互作用的原理，揭示生产力与生产关系的矛盾运动是社会发展的根本动力。可列举实例，反映不同社会形态的更替，证实生产关系是否适合生产力发展是衡量社会进步的标准。\"}", CJ_theme: "urn:jy:politics:SB0310:OB06:Theme:1", CJ_themeTitle: "1.人类社会发展的进程与趋势", CJ_teachingSuggestion: "◆以“怎样揭示人类社会发展的奥秘”为议题，探究社会发展的基本规律和主要阶段。可绘制展板，标识各种社会形态，比较它们的差异。可采用图说等方式，阐释生产力与生产关系、经济基础与上层建筑相互作用的原理，揭示生产力与生产关系的矛盾运动是社会发展的根本动力。可列举实例，反映不同社会形态的更替，证实生产关系是否适合生产力发展是衡量社会进步的标准。"};
@@ -830,6 +351,267 @@ SET n += {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:97", title: "4.3", de
 MERGE (n:ThemeL2 {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:98"})
 SET n += {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:98", title: "4.4", description: "了解德国古典哲学的终结与马克思主义哲学的革命性变革", subject: "SB0310", type: "ThemeL2", applicableLevel: "OB06", contentJson: "{\"teachingTips\": \"\", \"module\": \"模块3：历史上的哲学家\"}", CJ_teachingTips: "", CJ_module: "模块3：历史上的哲学家"};
 
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:1"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:1", title: "第一课 我国的生产资料所有制", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修2 经济与社会\", \"chapter\": \"第一单元 生产资料所有制与经济体制\", \"sourceBook\": \"高中思想政治统编版高一必修2 经济与社会\", \"index\": {\"unitIndex\": 1, \"sectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修2 经济与社会", CJ_chapter: "第一单元 生产资料所有制与经济体制", CJ_sourceBook: "高中思想政治统编版高一必修2 经济与社会", CJ_index: "{\"unitIndex\": 1, \"sectionIndex\": 1}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:2"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:2", title: "第二课 我国的社会主义市场经济体制", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修2 经济与社会\", \"chapter\": \"第一单元 生产资料所有制与经济体制\", \"sourceBook\": \"高中思想政治统编版高一必修2 经济与社会\", \"index\": {\"unitIndex\": 1, \"sectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修2 经济与社会", CJ_chapter: "第一单元 生产资料所有制与经济体制", CJ_sourceBook: "高中思想政治统编版高一必修2 经济与社会", CJ_index: "{\"unitIndex\": 1, \"sectionIndex\": 2}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:3"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:3", title: "第三课 我国的经济发展", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修2 经济与社会\", \"chapter\": \"第二单元 经济发展与社会进步\", \"sourceBook\": \"高中思想政治统编版高一必修2 经济与社会\", \"index\": {\"unitIndex\": 2, \"sectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修2 经济与社会", CJ_chapter: "第二单元 经济发展与社会进步", CJ_sourceBook: "高中思想政治统编版高一必修2 经济与社会", CJ_index: "{\"unitIndex\": 2, \"sectionIndex\": 1}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:4"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:4", title: "第四课 我国的个人收入分配与社会保障", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修2 经济与社会\", \"chapter\": \"第二单元 经济发展与社会进步\", \"sourceBook\": \"高中思想政治统编版高一必修2 经济与社会\", \"index\": {\"unitIndex\": 2, \"sectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修2 经济与社会", CJ_chapter: "第二单元 经济发展与社会进步", CJ_sourceBook: "高中思想政治统编版高一必修2 经济与社会", CJ_index: "{\"unitIndex\": 2, \"sectionIndex\": 2}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:5"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:5", title: "综合探究 践行社会责任 促进社会进步", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修2 经济与社会\", \"chapter\": \"第二单元 经济发展与社会进步\", \"sourceBook\": \"高中思想政治统编版高一必修2 经济与社会\", \"index\": {\"unitIndex\": 2, \"sectionIndex\": 3}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修2 经济与社会", CJ_chapter: "第二单元 经济发展与社会进步", CJ_sourceBook: "高中思想政治统编版高一必修2 经济与社会", CJ_index: "{\"unitIndex\": 2, \"sectionIndex\": 3}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:6"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:6", title: "使市场在资源配置中起决定性作用", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修2 经济与社会\", \"chapter\": \"其他\", \"sourceBook\": \"高中思想政治统编版高一必修2 经济与社会\", \"index\": {\"unitIndex\": 3, \"sectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修2 经济与社会", CJ_chapter: "其他", CJ_sourceBook: "高中思想政治统编版高一必修2 经济与社会", CJ_index: "{\"unitIndex\": 3, \"sectionIndex\": 1}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:7"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:7", title: "坚持新发展理念", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修2 经济与社会\", \"chapter\": \"其他\", \"sourceBook\": \"高中思想政治统编版高一必修2 经济与社会\", \"index\": {\"unitIndex\": 3, \"sectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修2 经济与社会", CJ_chapter: "其他", CJ_sourceBook: "高中思想政治统编版高一必修2 经济与社会", CJ_index: "{\"unitIndex\": 3, \"sectionIndex\": 2}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:8"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:8", title: "建设现代化经济体系", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修2 经济与社会\", \"chapter\": \"其他\", \"sourceBook\": \"高中思想政治统编版高一必修2 经济与社会\", \"index\": {\"unitIndex\": 3, \"sectionIndex\": 3}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修2 经济与社会", CJ_chapter: "其他", CJ_sourceBook: "高中思想政治统编版高一必修2 经济与社会", CJ_index: "{\"unitIndex\": 3, \"sectionIndex\": 3}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:9"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:9", title: "综合探究 加快完善社会主义市场经济体制", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修2 经济与社会\", \"chapter\": \"其他\", \"sourceBook\": \"高中思想政治统编版高一必修2 经济与社会\", \"index\": {\"unitIndex\": 3, \"sectionIndex\": 4}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修2 经济与社会", CJ_chapter: "其他", CJ_sourceBook: "高中思想政治统编版高一必修2 经济与社会", CJ_index: "{\"unitIndex\": 3, \"sectionIndex\": 4}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:10"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:10", title: "第一课 历史和人民的选择", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第一单元 中国共产党的领导\", \"sourceBook\": \"高中思想政治统编版高一必修3 政治与法治\", \"index\": {\"unitIndex\": 1, \"sectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第一单元 中国共产党的领导", CJ_sourceBook: "高中思想政治统编版高一必修3 政治与法治", CJ_index: "{\"unitIndex\": 1, \"sectionIndex\": 1}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:11"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:11", title: "第二课 中国共产党的先进性", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第一单元 中国共产党的领导\", \"sourceBook\": \"高中思想政治统编版高一必修3 政治与法治\", \"index\": {\"unitIndex\": 1, \"sectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第一单元 中国共产党的领导", CJ_sourceBook: "高中思想政治统编版高一必修3 政治与法治", CJ_index: "{\"unitIndex\": 1, \"sectionIndex\": 2}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:12"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:12", title: "第三课 坚持和加强党的全面领导", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第一单元 中国共产党的领导\", \"sourceBook\": \"高中思想政治统编版高一必修3 政治与法治\", \"index\": {\"unitIndex\": 1, \"sectionIndex\": 3}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第一单元 中国共产党的领导", CJ_sourceBook: "高中思想政治统编版高一必修3 政治与法治", CJ_index: "{\"unitIndex\": 1, \"sectionIndex\": 3}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:13"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:13", title: "综合探究 始终走在时代前列的中国共产党", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第一单元 中国共产党的领导\", \"sourceBook\": \"高中思想政治统编版高一必修3 政治与法治\", \"index\": {\"unitIndex\": 1, \"sectionIndex\": 4}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第一单元 中国共产党的领导", CJ_sourceBook: "高中思想政治统编版高一必修3 政治与法治", CJ_index: "{\"unitIndex\": 1, \"sectionIndex\": 4}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:14"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:14", title: "第四课 人民民主专政的社会主义国家", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第二单元 人民当家作主\", \"sourceBook\": \"高中思想政治统编版高一必修3 政治与法治\", \"index\": {\"unitIndex\": 2, \"sectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第二单元 人民当家作主", CJ_sourceBook: "高中思想政治统编版高一必修3 政治与法治", CJ_index: "{\"unitIndex\": 2, \"sectionIndex\": 1}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:15"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:15", title: "第五课 我国的根本政治制度", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第二单元 人民当家作主\", \"sourceBook\": \"高中思想政治统编版高一必修3 政治与法治\", \"index\": {\"unitIndex\": 2, \"sectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第二单元 人民当家作主", CJ_sourceBook: "高中思想政治统编版高一必修3 政治与法治", CJ_index: "{\"unitIndex\": 2, \"sectionIndex\": 2}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:16"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:16", title: "第六课 我国的基本政治制度", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第二单元 人民当家作主\", \"sourceBook\": \"高中思想政治统编版高一必修3 政治与法治\", \"index\": {\"unitIndex\": 2, \"sectionIndex\": 3}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第二单元 人民当家作主", CJ_sourceBook: "高中思想政治统编版高一必修3 政治与法治", CJ_index: "{\"unitIndex\": 2, \"sectionIndex\": 3}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:17"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:17", title: "综合探究 在党的领导下实现人民当家作主", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第二单元 人民当家作主\", \"sourceBook\": \"高中思想政治统编版高一必修3 政治与法治\", \"index\": {\"unitIndex\": 2, \"sectionIndex\": 4}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第二单元 人民当家作主", CJ_sourceBook: "高中思想政治统编版高一必修3 政治与法治", CJ_index: "{\"unitIndex\": 2, \"sectionIndex\": 4}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:18"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:18", title: "第七课 治国理政的基本方式", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第三单元 全面依法治国\", \"sourceBook\": \"高中思想政治统编版高一必修3 政治与法治\", \"index\": {\"unitIndex\": 3, \"sectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第三单元 全面依法治国", CJ_sourceBook: "高中思想政治统编版高一必修3 政治与法治", CJ_index: "{\"unitIndex\": 3, \"sectionIndex\": 1}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:19"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:19", title: "第八课 法治中国建设", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第三单元 全面依法治国\", \"sourceBook\": \"高中思想政治统编版高一必修3 政治与法治\", \"index\": {\"unitIndex\": 3, \"sectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第三单元 全面依法治国", CJ_sourceBook: "高中思想政治统编版高一必修3 政治与法治", CJ_index: "{\"unitIndex\": 3, \"sectionIndex\": 2}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:20"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:20", title: "第九课 全面依法治国的基本要求", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第三单元 全面依法治国\", \"sourceBook\": \"高中思想政治统编版高一必修3 政治与法治\", \"index\": {\"unitIndex\": 3, \"sectionIndex\": 3}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第三单元 全面依法治国", CJ_sourceBook: "高中思想政治统编版高一必修3 政治与法治", CJ_index: "{\"unitIndex\": 3, \"sectionIndex\": 3}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:21"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:21", title: "综合探究 坚持党的领导、人民当家做主、依法治国有机统一", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第三单元 全面依法治国\", \"sourceBook\": \"高中思想政治统编版高一必修3 政治与法治\", \"index\": {\"unitIndex\": 3, \"sectionIndex\": 4}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第三单元 全面依法治国", CJ_sourceBook: "高中思想政治统编版高一必修3 政治与法治", CJ_index: "{\"unitIndex\": 3, \"sectionIndex\": 4}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:22"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:22", title: "第一课 时代精神的精华", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第一单元 探索世界与把握规律\", \"sourceBook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"index\": {\"unitIndex\": 1, \"sectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第一单元 探索世界与把握规律", CJ_sourceBook: "高中思想政治统编版高二必修4 哲学与文化", CJ_index: "{\"unitIndex\": 1, \"sectionIndex\": 1}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:23"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:23", title: "第二课 探究世界的本质", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第一单元 探索世界与把握规律\", \"sourceBook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"index\": {\"unitIndex\": 1, \"sectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第一单元 探索世界与把握规律", CJ_sourceBook: "高中思想政治统编版高二必修4 哲学与文化", CJ_index: "{\"unitIndex\": 1, \"sectionIndex\": 2}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:24"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:24", title: "第三课 把握世界的规律", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第一单元 探索世界与把握规律\", \"sourceBook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"index\": {\"unitIndex\": 1, \"sectionIndex\": 3}}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第一单元 探索世界与把握规律", CJ_sourceBook: "高中思想政治统编版高二必修4 哲学与文化", CJ_index: "{\"unitIndex\": 1, \"sectionIndex\": 3}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:25"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:25", title: "综合探究 坚持唯物辩证法 反对形而上学", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第一单元 探索世界与把握规律\", \"sourceBook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"index\": {\"unitIndex\": 1, \"sectionIndex\": 4}}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第一单元 探索世界与把握规律", CJ_sourceBook: "高中思想政治统编版高二必修4 哲学与文化", CJ_index: "{\"unitIndex\": 1, \"sectionIndex\": 4}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:26"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:26", title: "第四课 探索认识的奥秘", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第二单元 认识社会与价值选择\", \"sourceBook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"index\": {\"unitIndex\": 2, \"sectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第二单元 认识社会与价值选择", CJ_sourceBook: "高中思想政治统编版高二必修4 哲学与文化", CJ_index: "{\"unitIndex\": 2, \"sectionIndex\": 1}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:27"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:27", title: "第五课 寻觅社会的真谛", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第二单元 认识社会与价值选择\", \"sourceBook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"index\": {\"unitIndex\": 2, \"sectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第二单元 认识社会与价值选择", CJ_sourceBook: "高中思想政治统编版高二必修4 哲学与文化", CJ_index: "{\"unitIndex\": 2, \"sectionIndex\": 2}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:28"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:28", title: "第六课 实现人生的价值", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第二单元 认识社会与价值选择\", \"sourceBook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"index\": {\"unitIndex\": 2, \"sectionIndex\": 3}}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第二单元 认识社会与价值选择", CJ_sourceBook: "高中思想政治统编版高二必修4 哲学与文化", CJ_index: "{\"unitIndex\": 2, \"sectionIndex\": 3}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:29"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:29", title: "综合探究 坚持历史唯物主义 反对历史虚无主义", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第二单元 认识社会与价值选择\", \"sourceBook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"index\": {\"unitIndex\": 2, \"sectionIndex\": 4}}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第二单元 认识社会与价值选择", CJ_sourceBook: "高中思想政治统编版高二必修4 哲学与文化", CJ_index: "{\"unitIndex\": 2, \"sectionIndex\": 4}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:30"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:30", title: "第七课 继承发展中华优秀传统文化", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第三单元 文化传承与文化创新\", \"sourceBook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"index\": {\"unitIndex\": 3, \"sectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第三单元 文化传承与文化创新", CJ_sourceBook: "高中思想政治统编版高二必修4 哲学与文化", CJ_index: "{\"unitIndex\": 3, \"sectionIndex\": 1}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:31"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:31", title: "第八课 学习借鉴外来文化的有益成果", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第三单元 文化传承与文化创新\", \"sourceBook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"index\": {\"unitIndex\": 3, \"sectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第三单元 文化传承与文化创新", CJ_sourceBook: "高中思想政治统编版高二必修4 哲学与文化", CJ_index: "{\"unitIndex\": 3, \"sectionIndex\": 2}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:32"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:32", title: "第九课 发展中国特色社会主义文化", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第三单元 文化传承与文化创新\", \"sourceBook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"index\": {\"unitIndex\": 3, \"sectionIndex\": 3}}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第三单元 文化传承与文化创新", CJ_sourceBook: "高中思想政治统编版高二必修4 哲学与文化", CJ_index: "{\"unitIndex\": 3, \"sectionIndex\": 3}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:33"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:33", title: "综合探究 坚持以马克思主义为指导 发展中国特色社会主义文化", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第三单元 文化传承与文化创新\", \"sourceBook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"index\": {\"unitIndex\": 3, \"sectionIndex\": 4}}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第三单元 文化传承与文化创新", CJ_sourceBook: "高中思想政治统编版高二必修4 哲学与文化", CJ_index: "{\"unitIndex\": 3, \"sectionIndex\": 4}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:34"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:34", title: "第一课 国体与政体", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第一单元 各具特色的国家\", \"sourceBook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"index\": {\"unitIndex\": 1, \"sectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第一单元 各具特色的国家", CJ_sourceBook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_index: "{\"unitIndex\": 1, \"sectionIndex\": 1}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:35"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:35", title: "第二课 国家的结构形式", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第一单元 各具特色的国家\", \"sourceBook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"index\": {\"unitIndex\": 1, \"sectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第一单元 各具特色的国家", CJ_sourceBook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_index: "{\"unitIndex\": 1, \"sectionIndex\": 2}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:36"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:36", title: "综合探究 国家安全与核心利益", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第一单元 各具特色的国家\", \"sourceBook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"index\": {\"unitIndex\": 1, \"sectionIndex\": 3}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第一单元 各具特色的国家", CJ_sourceBook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_index: "{\"unitIndex\": 1, \"sectionIndex\": 3}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:37"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:37", title: "第三课 多极化趋势", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第二单元 世界多极化\", \"sourceBook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"index\": {\"unitIndex\": 2, \"sectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第二单元 世界多极化", CJ_sourceBook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_index: "{\"unitIndex\": 2, \"sectionIndex\": 1}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:38"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:38", title: "第四课 和平与发展", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第二单元 世界多极化\", \"sourceBook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"index\": {\"unitIndex\": 2, \"sectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第二单元 世界多极化", CJ_sourceBook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_index: "{\"unitIndex\": 2, \"sectionIndex\": 2}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:39"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:39", title: "第五课 中国的外交", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第二单元 世界多极化\", \"sourceBook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"index\": {\"unitIndex\": 2, \"sectionIndex\": 3}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第二单元 世界多极化", CJ_sourceBook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_index: "{\"unitIndex\": 2, \"sectionIndex\": 3}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:40"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:40", title: "综合探究 贡献中国智慧", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第二单元 世界多极化\", \"sourceBook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"index\": {\"unitIndex\": 2, \"sectionIndex\": 4}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第二单元 世界多极化", CJ_sourceBook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_index: "{\"unitIndex\": 2, \"sectionIndex\": 4}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:41"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:41", title: "第六课 走进经济全球化", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第三单元 经济全球化\", \"sourceBook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"index\": {\"unitIndex\": 3, \"sectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第三单元 经济全球化", CJ_sourceBook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_index: "{\"unitIndex\": 3, \"sectionIndex\": 1}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:42"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:42", title: "第七课 经济全球化与中国", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第三单元 经济全球化\", \"sourceBook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"index\": {\"unitIndex\": 3, \"sectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第三单元 经济全球化", CJ_sourceBook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_index: "{\"unitIndex\": 3, \"sectionIndex\": 2}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:43"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:43", title: "综合探究 发展更高层次开放型经济 完善全球治理", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第三单元 经济全球化\", \"sourceBook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"index\": {\"unitIndex\": 3, \"sectionIndex\": 3}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第三单元 经济全球化", CJ_sourceBook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_index: "{\"unitIndex\": 3, \"sectionIndex\": 3}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:44"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:44", title: "第八课 主要的国际组织", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第四单元 国际组织\", \"sourceBook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"index\": {\"unitIndex\": 4, \"sectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第四单元 国际组织", CJ_sourceBook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_index: "{\"unitIndex\": 4, \"sectionIndex\": 1}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:45"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:45", title: "第九课 中国与国际组织", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第四单元 国际组织\", \"sourceBook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"index\": {\"unitIndex\": 4, \"sectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第四单元 国际组织", CJ_sourceBook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_index: "{\"unitIndex\": 4, \"sectionIndex\": 2}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:46"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:46", title: "综合探究 国际视野及国际人才", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第四单元 国际组织\", \"sourceBook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"index\": {\"unitIndex\": 4, \"sectionIndex\": 3}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第四单元 国际组织", CJ_sourceBook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_index: "{\"unitIndex\": 4, \"sectionIndex\": 3}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:47"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:47", title: "第一课 在生活中学民法用民法", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第一单元 民事权利与义务\", \"sourceBook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"index\": {\"unitIndex\": 1, \"sectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第一单元 民事权利与义务", CJ_sourceBook: "高中思想政治统编版选择性必修2 法律与生活", CJ_index: "{\"unitIndex\": 1, \"sectionIndex\": 1}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:48"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:48", title: "第二课 依法有效保护财产权", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第一单元 民事权利与义务\", \"sourceBook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"index\": {\"unitIndex\": 1, \"sectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第一单元 民事权利与义务", CJ_sourceBook: "高中思想政治统编版选择性必修2 法律与生活", CJ_index: "{\"unitIndex\": 1, \"sectionIndex\": 2}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:49"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:49", title: "第三课 订约履约 诚信为本", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第一单元 民事权利与义务\", \"sourceBook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"index\": {\"unitIndex\": 1, \"sectionIndex\": 3}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第一单元 民事权利与义务", CJ_sourceBook: "高中思想政治统编版选择性必修2 法律与生活", CJ_index: "{\"unitIndex\": 1, \"sectionIndex\": 3}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:50"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:50", title: "第四课 侵权责任与权利界限", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第一单元 民事权利与义务\", \"sourceBook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"index\": {\"unitIndex\": 1, \"sectionIndex\": 4}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第一单元 民事权利与义务", CJ_sourceBook: "高中思想政治统编版选择性必修2 法律与生活", CJ_index: "{\"unitIndex\": 1, \"sectionIndex\": 4}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:51"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:51", title: "综合探究 财产制度助力经济社会发展", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第一单元 民事权利与义务\", \"sourceBook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"index\": {\"unitIndex\": 1, \"sectionIndex\": 5}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第一单元 民事权利与义务", CJ_sourceBook: "高中思想政治统编版选择性必修2 法律与生活", CJ_index: "{\"unitIndex\": 1, \"sectionIndex\": 5}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:52"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:52", title: "第五课 在和睦家庭中成长", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第二单元 家庭与婚姻\", \"sourceBook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"index\": {\"unitIndex\": 2, \"sectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第二单元 家庭与婚姻", CJ_sourceBook: "高中思想政治统编版选择性必修2 法律与生活", CJ_index: "{\"unitIndex\": 2, \"sectionIndex\": 1}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:53"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:53", title: "第六课 珍惜婚姻关系", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第二单元 家庭与婚姻\", \"sourceBook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"index\": {\"unitIndex\": 2, \"sectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第二单元 家庭与婚姻", CJ_sourceBook: "高中思想政治统编版选择性必修2 法律与生活", CJ_index: "{\"unitIndex\": 2, \"sectionIndex\": 2}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:54"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:54", title: "综合探究 家庭生活 法律守护", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第二单元 家庭与婚姻\", \"sourceBook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"index\": {\"unitIndex\": 2, \"sectionIndex\": 3}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第二单元 家庭与婚姻", CJ_sourceBook: "高中思想政治统编版选择性必修2 法律与生活", CJ_index: "{\"unitIndex\": 2, \"sectionIndex\": 3}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:55"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:55", title: "第七课 做个明白的劳动者", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第三单元 就业与创业\", \"sourceBook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"index\": {\"unitIndex\": 3, \"sectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第三单元 就业与创业", CJ_sourceBook: "高中思想政治统编版选择性必修2 法律与生活", CJ_index: "{\"unitIndex\": 3, \"sectionIndex\": 1}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:56"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:56", title: "第八课 自主创业与诚信经营", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第三单元 就业与创业\", \"sourceBook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"index\": {\"unitIndex\": 3, \"sectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第三单元 就业与创业", CJ_sourceBook: "高中思想政治统编版选择性必修2 法律与生活", CJ_index: "{\"unitIndex\": 3, \"sectionIndex\": 2}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:57"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:57", title: "综合探究 企业创办之旅", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第三单元 就业与创业\", \"sourceBook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"index\": {\"unitIndex\": 3, \"sectionIndex\": 3}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第三单元 就业与创业", CJ_sourceBook: "高中思想政治统编版选择性必修2 法律与生活", CJ_index: "{\"unitIndex\": 3, \"sectionIndex\": 3}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:58"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:58", title: "第九课 纠纷的多元解决方式", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第四单元 社会争议解决\", \"sourceBook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"index\": {\"unitIndex\": 4, \"sectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第四单元 社会争议解决", CJ_sourceBook: "高中思想政治统编版选择性必修2 法律与生活", CJ_index: "{\"unitIndex\": 4, \"sectionIndex\": 1}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:59"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:59", title: "第十课 诉讼实现公平正义", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第四单元 社会争议解决\", \"sourceBook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"index\": {\"unitIndex\": 4, \"sectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第四单元 社会争议解决", CJ_sourceBook: "高中思想政治统编版选择性必修2 法律与生活", CJ_index: "{\"unitIndex\": 4, \"sectionIndex\": 2}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:60"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:60", title: "综合探究 感受司法公正", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第四单元 社会争议解决\", \"sourceBook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"index\": {\"unitIndex\": 4, \"sectionIndex\": 3}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第四单元 社会争议解决", CJ_sourceBook: "高中思想政治统编版选择性必修2 法律与生活", CJ_index: "{\"unitIndex\": 4, \"sectionIndex\": 3}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:61"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:61", title: "第一课 走进思维世界", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第一单元 树立科学思维观念\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 1, \"sectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第一单元 树立科学思维观念", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 1, \"sectionIndex\": 1}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:62"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:62", title: "第二课 把握逻辑要义", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第一单元 树立科学思维观念\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 1, \"sectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第一单元 树立科学思维观念", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 1, \"sectionIndex\": 2}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:63"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:63", title: "第三课 领会科学思维", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第一单元 树立科学思维观念\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 1, \"sectionIndex\": 3}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第一单元 树立科学思维观念", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 1, \"sectionIndex\": 3}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:64"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:64", title: "综合探究 学会科学思维 提升思维品质", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第一单元 树立科学思维观念\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 1, \"sectionIndex\": 4}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第一单元 树立科学思维观念", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 1, \"sectionIndex\": 4}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:65"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:65", title: "第四课 准确把握概念", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第二单元 遵循逻辑思维规则\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 2, \"sectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第二单元 遵循逻辑思维规则", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 2, \"sectionIndex\": 1}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:66"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:66", title: "第五课 正确运用判断", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第二单元 遵循逻辑思维规则\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 2, \"sectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第二单元 遵循逻辑思维规则", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 2, \"sectionIndex\": 2}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:67"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:67", title: "第六课 掌握演绎推理方法", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第二单元 遵循逻辑思维规则\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 2, \"sectionIndex\": 3}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第二单元 遵循逻辑思维规则", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 2, \"sectionIndex\": 3}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:68"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:68", title: "第七课 学会归纳与类比推理", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第二单元 遵循逻辑思维规则\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 2, \"sectionIndex\": 4}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第二单元 遵循逻辑思维规则", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 2, \"sectionIndex\": 4}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:69"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:69", title: "综合探究 把握逻辑规则 纠正逻辑错误", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第二单元 遵循逻辑思维规则\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 2, \"sectionIndex\": 5}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第二单元 遵循逻辑思维规则", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 2, \"sectionIndex\": 5}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:70"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:70", title: "第八课 把握辩证分合", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第三单元 运用辩证思维方法\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 3, \"sectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第三单元 运用辩证思维方法", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 3, \"sectionIndex\": 1}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:71"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:71", title: "第九课 理解质量互变", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第三单元 运用辩证思维方法\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 3, \"sectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第三单元 运用辩证思维方法", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 3, \"sectionIndex\": 2}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:72"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:72", title: "第十课 推动认识发展", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第三单元 运用辩证思维方法\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 3, \"sectionIndex\": 3}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第三单元 运用辩证思维方法", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 3, \"sectionIndex\": 3}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:73"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:73", title: "综合探究 领悟辩证精髓 处理复杂问题", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第三单元 运用辩证思维方法\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 3, \"sectionIndex\": 4}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第三单元 运用辩证思维方法", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 3, \"sectionIndex\": 4}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:74"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:74", title: "第十一课 创新思维要善于联想", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第四单元 提高创新思维能力\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 4, \"sectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第四单元 提高创新思维能力", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 4, \"sectionIndex\": 1}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:75"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:75", title: "第十二课 创新思维要多路探索", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第四单元 提高创新思维能力\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 4, \"sectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第四单元 提高创新思维能力", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 4, \"sectionIndex\": 2}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:76"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:76", title: "第十三课 创新思维要力求超前", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第四单元 提高创新思维能力\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 4, \"sectionIndex\": 3}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第四单元 提高创新思维能力", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 4, \"sectionIndex\": 3}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:77"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:77", title: "综合探究 结合社会实践 勇于开拓创新", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第四单元 提高创新思维能力\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 4, \"sectionIndex\": 4}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第四单元 提高创新思维能力", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 4, \"sectionIndex\": 4}"};
+
+MERGE (n:CourseModule {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:1"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:1", title: "模块1：中国特色社会主义", description: "着眼于人类社会的发展历程，立足中国特色社会主义的伟大实践，明确中国特色社会主义是科学社会主义理论逻辑与中国社会发展历史逻辑的辩证统一，中国特色社会主义已进入新时代，帮助学生树立为共产主义远大理想和中国特色社会主义共同理想而团结奋斗的信念。", subject: "SB0310", type: "CourseModule", applicableLevel: "OB06", contentJson: "{\"courseStructure\": \"urn:jy:politics:SB0310:OB06:CourseStructure:1\", \"courseStructureTitle\": \"必修课程\"}", CJ_courseStructure: "urn:jy:politics:SB0310:OB06:CourseStructure:1", CJ_courseStructureTitle: "必修课程"};
+
+MERGE (n:CourseModule {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:2"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:2", title: "模块2：经济与社会", description: "依据习近平经济思想的基本原理，讲述我国社会主义基本经济制", subject: "SB0310", type: "CourseModule", applicableLevel: "OB06", contentJson: "{\"courseStructure\": \"urn:jy:politics:SB0310:OB06:CourseStructure:1\", \"courseStructureTitle\": \"必修课程\"}", CJ_courseStructure: "urn:jy:politics:SB0310:OB06:CourseStructure:1", CJ_courseStructureTitle: "必修课程"};
+
+MERGE (n:CourseModule {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:3"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:3", title: "模块3：政治与法治", description: "以党的领导、人民当家作主、依法治国有机统一为主线，讲述党的领导是人民当家作主和依法治国的根本保证，人民当家作主是社会主义民主政治的本质特征，依法治国是党领导人民治理国家的基本方式，奠定学生政治立场与法治思维的基础。", subject: "SB0310", type: "CourseModule", applicableLevel: "OB06", contentJson: "{\"courseStructure\": \"urn:jy:politics:SB0310:OB06:CourseStructure:1\", \"courseStructureTitle\": \"必修课程\"}", CJ_courseStructure: "urn:jy:politics:SB0310:OB06:CourseStructure:1", CJ_courseStructureTitle: "必修课程"};
+
+MERGE (n:CourseModule {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:4"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:4", title: "模块4：哲学与文化", description: "阐明马克思主义哲学是科学的世界观和方法论，讲述辩证唯物主义和历史唯物主义基本观点，坚持实践的观点、历史的观点、辩证的观点、发展的观点、群众的观点，在实践中认识真理、检验真理、发展真理；讲述社会生活及个人成长中价值判断、行为选择和文化自信的意义；为培育学生思想政治学科核心素养，奠定世界观、人生观、价值观基础。", subject: "SB0310", type: "CourseModule", applicableLevel: "OB06", contentJson: "{\"courseStructure\": \"urn:jy:politics:SB0310:OB06:CourseStructure:1\", \"courseStructureTitle\": \"必修课程\"}", CJ_courseStructure: "urn:jy:politics:SB0310:OB06:CourseStructure:1", CJ_courseStructureTitle: "必修课程"};
+
+MERGE (n:CourseModule {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:5"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:5", title: "模块1：当代国际政治与经济", description: "围绕当今世界多极化与经济全球化趋势，解析不同的国家性质和国家形式，说明国际关系的主要影响因素和世界经济发展的基本特点，介绍国际组织的主要类型及作用，引导学生坚持胸怀天下，在拓展国际视野的过程中，坚持总体国家安全观，坚定不移地走中国特色社会主义道路，积极贡献中国智慧和力量，推动构建人类命运共同体。", subject: "SB0310", type: "CourseModule", applicableLevel: "OB06", contentJson: "{\"courseStructure\": \"urn:jy:politics:SB0310:OB06:CourseStructure:2\", \"courseStructureTitle\": \"选择性必修课程\"}", CJ_courseStructure: "urn:jy:politics:SB0310:OB06:CourseStructure:2", CJ_courseStructureTitle: "选择性必修课程"};
+
+MERGE (n:CourseModule {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:6"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:6", title: "模块2：法律与生活", description: "聚焦公民依法维护合法权益的法律行为，介绍民事主体一般的民事权利和义务，了解婚姻家庭中的法律关系和法律责任、劳动关系的法律保障、社会纠纷的解决机制和法律程序，为学生进一步发展思想政治学科核心素养、牢固树立法治观念，提供日常生活中的法律常识。", subject: "SB0310", type: "CourseModule", applicableLevel: "OB06", contentJson: "{\"courseStructure\": \"urn:jy:politics:SB0310:OB06:CourseStructure:2\", \"courseStructureTitle\": \"选择性必修课程\"}", CJ_courseStructure: "urn:jy:politics:SB0310:OB06:CourseStructure:2", CJ_courseStructureTitle: "选择性必修课程"};
+
+MERGE (n:CourseModule {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:7"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:7", title: "模块3：逻辑与思维", description: "通过科学思维的训练，引导学生掌握科学思维的基本要求，把握逻", subject: "SB0310", type: "CourseModule", applicableLevel: "OB06", contentJson: "{\"courseStructure\": \"urn:jy:politics:SB0310:OB06:CourseStructure:2\", \"courseStructureTitle\": \"选择性必修课程\"}", CJ_courseStructure: "urn:jy:politics:SB0310:OB06:CourseStructure:2", CJ_courseStructureTitle: "选择性必修课程"};
+
+MERGE (n:CourseModule {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:8"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:8", title: "模块1：财经与生活", description: "提供本课程模块，目的是帮助学生在中国特色社会主义新时代，更好地立足社会主义市场经济运行和社会主义现代化建设的需要，了解经济生活的基本概念和原理，提升学生正确理解和积极参与经济生活的能力，帮助学生进一步树立正确的财富观与人生观，坚持公正、法治的价值取向，践行敬业、诚信的价值准则。", subject: "SB0310", type: "CourseModule", applicableLevel: "OB06", contentJson: "{\"courseStructure\": \"urn:jy:politics:SB0310:OB06:CourseStructure:3\", \"courseStructureTitle\": \"选修课程\"}", CJ_courseStructure: "urn:jy:politics:SB0310:OB06:CourseStructure:3", CJ_courseStructureTitle: "选修课程"};
+
+MERGE (n:CourseModule {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:9"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:9", title: "模块2：法官与律师", description: "提供本课程模块，目的是帮助学生更多地了解法官和律师这两种有代表性的法律职业的不同职责和共同使命；理解法官和律师对于维护公平正义、推动社会进步、满足人民美好生活需要的作用；在建设社会主义法治文化的实践中，不断增强法治观念，尊法学法守法用法，做社会主义法治的忠实崇尚者、自觉遵守者、坚定捍卫者。", subject: "SB0310", type: "CourseModule", applicableLevel: "OB06", contentJson: "{\"courseStructure\": \"urn:jy:politics:SB0310:OB06:CourseStructure:3\", \"courseStructureTitle\": \"选修课程\"}", CJ_courseStructure: "urn:jy:politics:SB0310:OB06:CourseStructure:3", CJ_courseStructureTitle: "选修课程"};
+
+MERGE (n:CourseModule {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:10"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:10", title: "模块3：历史上的哲学家", description: "提供本课程模块，目的是帮助学生更多地了解中外历史上唯物主义与唯心主义哲学流派的代表人物及其核心思想；通过对不同哲学观点进行比较、鉴别和评价，看到哲学的时代价值及其影响历史进程的作用；每一个时代的理论思维，都是历史的产物，学习哲学史可以帮助我们提高理论思维水平，更加自觉地理解和掌握马克思主义哲学原理。", subject: "SB0310", type: "CourseModule", applicableLevel: "OB06", contentJson: "{\"courseStructure\": \"urn:jy:politics:SB0310:OB06:CourseStructure:3\", \"courseStructureTitle\": \"选修课程\"}", CJ_courseStructure: "urn:jy:politics:SB0310:OB06:CourseStructure:3", CJ_courseStructureTitle: "选修课程"};
+
 MERGE (n:AcademicQuality {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:1"})
 SET n += {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:1", title: "学业质量水平 1-1", description: "", subject: "SB0310", type: "AcademicQuality", applicableLevel: "OB06", contentJson: "{\"standard\": \"1-1\", \"standardRequirement\": \"能够结合简单材料，辨别不同的社会形态，简要概述人类社会发展的基本趋势和规律；能够结合近代以来中国社会发展的典型实践，简要说明中国特色社会主义的科学真理性和历史必然性；能够概述习近平新时代中国特色社会主义思想的主要内容，并运用贯穿其中的立场观点方法分析社会发展和生活中的典型事例，辨析什么是对的、什么是错的，判断什么是合理的、什么是不合理的，坚定坚持和发展中国特色社会主义的自信；能够通过手抄报、宣讲稿、新媒体等方式宣传中国特色社会主义的伟大成就，结合典型事例，说明中国特色社会主义是实现 中华民族伟大复兴的必由之路，展现青少年学生在以中国式现代化全面推进中华民族伟大复兴中的责任与担当。\"}", CJ_standard: "1-1", CJ_standardRequirement: "能够结合简单材料，辨别不同的社会形态，简要概述人类社会发展的基本趋势和规律；能够结合近代以来中国社会发展的典型实践，简要说明中国特色社会主义的科学真理性和历史必然性；能够概述习近平新时代中国特色社会主义思想的主要内容，并运用贯穿其中的立场观点方法分析社会发展和生活中的典型事例，辨析什么是对的、什么是错的，判断什么是合理的、什么是不合理的，坚定坚持和发展中国特色社会主义的自信；能够通过手抄报、宣讲稿、新媒体等方式宣传中国特色社会主义的伟大成就，结合典型事例，说明中国特色社会主义是实现 中华民族伟大复兴的必由之路，展现青少年学生在以中国式现代化全面推进中华民族伟大复兴中的责任与担当。"};
 
@@ -866,1959 +648,4950 @@ SET n += {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:11", title: "
 MERGE (n:AcademicQuality {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:12"})
 SET n += {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:12", title: "学业质量水平 3-4", description: "", subject: "SB0310", type: "AcademicQuality", applicableLevel: "OB06", contentJson: "{\"standard\": \"3-4\", \"standardRequirement\": \"能够结合多项复杂且有挑战性的材料，阐述马克思主义基本原理的主要内容，综合运用辩证唯物主义和历史唯物主义的基本观点、方法，系统分析自然界、人类社会和人类思维中的复杂现象，用科学的思维方法观察和分析经济、政治、文化、社会、生态文明等多领域复杂现象；能够阐述社会主义核心价值观的基本内容和重要意义，对比分析全球不同价值观和文化现象，在复杂且具有挑战性的案例中，能够辨析什么符合社会主义核心价值观、什么不符合社会主义核心价值观，什么是正确的文化现象、什么是错误的文化现象，批评错误的现象和观点，提出合理的行动建议，能够通过辩论稿、调查报告、新媒体等方式广泛宣传中华优秀传统文化、革命文化和社会主义先进文化，论述正确价值观对个人、社会和国家的重要意义，创造性地提出解决问题的思路与做法；主动策划并积极参加志愿服务、公益劳动等社会实践活动，自觉践行社会主义核心价值观，针对社会生活中各种不确定的具体问题，比较分析公共利益与个人利益发生矛盾的不同事例，综合运用矛盾分析法等权衡利弊，作出正确的价值判断和行为选择，并说明理由；结合个人活 动经历，列举不同情境下各种冷漠表现，批评漠视、损害公共利益的行为，表达公共参与的强烈意愿，主动提出科学可行的行动方案，彰显践行公共道德的勇气。\"}", CJ_standard: "3-4", CJ_standardRequirement: "能够结合多项复杂且有挑战性的材料，阐述马克思主义基本原理的主要内容，综合运用辩证唯物主义和历史唯物主义的基本观点、方法，系统分析自然界、人类社会和人类思维中的复杂现象，用科学的思维方法观察和分析经济、政治、文化、社会、生态文明等多领域复杂现象；能够阐述社会主义核心价值观的基本内容和重要意义，对比分析全球不同价值观和文化现象，在复杂且具有挑战性的案例中，能够辨析什么符合社会主义核心价值观、什么不符合社会主义核心价值观，什么是正确的文化现象、什么是错误的文化现象，批评错误的现象和观点，提出合理的行动建议，能够通过辩论稿、调查报告、新媒体等方式广泛宣传中华优秀传统文化、革命文化和社会主义先进文化，论述正确价值观对个人、社会和国家的重要意义，创造性地提出解决问题的思路与做法；主动策划并积极参加志愿服务、公益劳动等社会实践活动，自觉践行社会主义核心价值观，针对社会生活中各种不确定的具体问题，比较分析公共利益与个人利益发生矛盾的不同事例，综合运用矛盾分析法等权衡利弊，作出正确的价值判断和行为选择，并说明理由；结合个人活 动经历，列举不同情境下各种冷漠表现，批评漠视、损害公共利益的行为，表达公共参与的强烈意愿，主动提出科学可行的行动方案，彰显践行公共道德的勇气。"};
 
+MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:1"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:1", title: "第一课 社会主义从空想到科学、从理论到实践的发展", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修1 中国特色社会主义\", \"sourceTextbook\": \"高中思想政治统编版高一必修1 中国特色社会主义\", \"course\": \"思想政治\", \"bookIndex\": 1}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修1 中国特色社会主义", CJ_sourceTextbook: "高中思想政治统编版高一必修1 中国特色社会主义", CJ_course: "思想政治", CJ_bookIndex: 1};
+
+MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:2"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:2", title: "第二课 只有社会主义才能救中国", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修1 中国特色社会主义\", \"sourceTextbook\": \"高中思想政治统编版高一必修1 中国特色社会主义\", \"course\": \"思想政治\", \"bookIndex\": 2}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修1 中国特色社会主义", CJ_sourceTextbook: "高中思想政治统编版高一必修1 中国特色社会主义", CJ_course: "思想政治", CJ_bookIndex: 2};
+
+MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:3"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:3", title: "第三课 只有中国特色社会主义才能发展中国", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修1 中国特色社会主义\", \"sourceTextbook\": \"高中思想政治统编版高一必修1 中国特色社会主义\", \"course\": \"思想政治\", \"bookIndex\": 3}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修1 中国特色社会主义", CJ_sourceTextbook: "高中思想政治统编版高一必修1 中国特色社会主义", CJ_course: "思想政治", CJ_bookIndex: 3};
+
+MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:4"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:4", title: "第四课 只有坚持和发展中国特色社会主义才能实现中华民族伟大复兴", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修1 中国特色社会主义\", \"sourceTextbook\": \"高中思想政治统编版高一必修1 中国特色社会主义\", \"course\": \"思想政治\", \"bookIndex\": 4}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修1 中国特色社会主义", CJ_sourceTextbook: "高中思想政治统编版高一必修1 中国特色社会主义", CJ_course: "思想政治", CJ_bookIndex: 4};
+
+MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:5"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:5", title: "综合探究一 回看走过的路 比较别人的路 远眺前行的路", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修1 中国特色社会主义\", \"sourceTextbook\": \"高中思想政治统编版高一必修1 中国特色社会主义\", \"course\": \"思想政治\", \"bookIndex\": 5}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修1 中国特色社会主义", CJ_sourceTextbook: "高中思想政治统编版高一必修1 中国特色社会主义", CJ_course: "思想政治", CJ_bookIndex: 5};
+
+MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:6"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:6", title: "综合探究二 方向决定道路 道路决定命运", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修1 中国特色社会主义\", \"sourceTextbook\": \"高中思想政治统编版高一必修1 中国特色社会主义\", \"course\": \"思想政治\", \"bookIndex\": 6}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修1 中国特色社会主义", CJ_sourceTextbook: "高中思想政治统编版高一必修1 中国特色社会主义", CJ_course: "思想政治", CJ_bookIndex: 6};
+
+MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:7"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:7", title: "第一单元 生产资料所有制与经济体制", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修2 经济与社会\", \"sourceTextbook\": \"高中思想政治统编版高一必修2 经济与社会\", \"course\": \"思想政治\", \"bookIndex\": 1}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修2 经济与社会", CJ_sourceTextbook: "高中思想政治统编版高一必修2 经济与社会", CJ_course: "思想政治", CJ_bookIndex: 1};
+
+MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:8"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:8", title: "第二单元 经济发展与社会进步", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修2 经济与社会\", \"sourceTextbook\": \"高中思想政治统编版高一必修2 经济与社会\", \"course\": \"思想政治\", \"bookIndex\": 2}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修2 经济与社会", CJ_sourceTextbook: "高中思想政治统编版高一必修2 经济与社会", CJ_course: "思想政治", CJ_bookIndex: 2};
+
+MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:9"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:9", title: "其他", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修2 经济与社会\", \"sourceTextbook\": \"高中思想政治统编版高一必修2 经济与社会\", \"course\": \"思想政治\", \"bookIndex\": 3}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修2 经济与社会", CJ_sourceTextbook: "高中思想政治统编版高一必修2 经济与社会", CJ_course: "思想政治", CJ_bookIndex: 3};
+
+MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:10"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:10", title: "第一单元 中国共产党的领导", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"sourceTextbook\": \"高中思想政治统编版高一必修3 政治与法治\", \"course\": \"思想政治\", \"bookIndex\": 1}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_sourceTextbook: "高中思想政治统编版高一必修3 政治与法治", CJ_course: "思想政治", CJ_bookIndex: 1};
+
+MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:11"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:11", title: "第二单元 人民当家作主", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"sourceTextbook\": \"高中思想政治统编版高一必修3 政治与法治\", \"course\": \"思想政治\", \"bookIndex\": 2}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_sourceTextbook: "高中思想政治统编版高一必修3 政治与法治", CJ_course: "思想政治", CJ_bookIndex: 2};
+
+MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:12"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:12", title: "第三单元 全面依法治国", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"sourceTextbook\": \"高中思想政治统编版高一必修3 政治与法治\", \"course\": \"思想政治\", \"bookIndex\": 3}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_sourceTextbook: "高中思想政治统编版高一必修3 政治与法治", CJ_course: "思想政治", CJ_bookIndex: 3};
+
+MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:13"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:13", title: "第一单元 探索世界与把握规律", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"sourceTextbook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"course\": \"思想政治\", \"bookIndex\": 1}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_sourceTextbook: "高中思想政治统编版高二必修4 哲学与文化", CJ_course: "思想政治", CJ_bookIndex: 1};
+
+MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:14"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:14", title: "第二单元 认识社会与价值选择", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"sourceTextbook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"course\": \"思想政治\", \"bookIndex\": 2}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_sourceTextbook: "高中思想政治统编版高二必修4 哲学与文化", CJ_course: "思想政治", CJ_bookIndex: 2};
+
+MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:15"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:15", title: "第三单元 文化传承与文化创新", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"sourceTextbook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"course\": \"思想政治\", \"bookIndex\": 3}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_sourceTextbook: "高中思想政治统编版高二必修4 哲学与文化", CJ_course: "思想政治", CJ_bookIndex: 3};
+
+MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:16"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:16", title: "第一单元 各具特色的国家", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"sourceTextbook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"course\": \"思想政治\", \"bookIndex\": 1}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_sourceTextbook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_course: "思想政治", CJ_bookIndex: 1};
+
+MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:17"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:17", title: "第二单元 世界多极化", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"sourceTextbook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"course\": \"思想政治\", \"bookIndex\": 2}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_sourceTextbook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_course: "思想政治", CJ_bookIndex: 2};
+
+MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:18"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:18", title: "第三单元 经济全球化", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"sourceTextbook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"course\": \"思想政治\", \"bookIndex\": 3}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_sourceTextbook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_course: "思想政治", CJ_bookIndex: 3};
+
+MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:19"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:19", title: "第四单元 国际组织", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"sourceTextbook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"course\": \"思想政治\", \"bookIndex\": 4}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_sourceTextbook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_course: "思想政治", CJ_bookIndex: 4};
+
+MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:20"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:20", title: "第一单元 民事权利与义务", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"sourceTextbook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"course\": \"思想政治\", \"bookIndex\": 1}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_sourceTextbook: "高中思想政治统编版选择性必修2 法律与生活", CJ_course: "思想政治", CJ_bookIndex: 1};
+
+MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:21"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:21", title: "第二单元 家庭与婚姻", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"sourceTextbook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"course\": \"思想政治\", \"bookIndex\": 2}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_sourceTextbook: "高中思想政治统编版选择性必修2 法律与生活", CJ_course: "思想政治", CJ_bookIndex: 2};
+
+MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:22"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:22", title: "第三单元 就业与创业", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"sourceTextbook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"course\": \"思想政治\", \"bookIndex\": 3}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_sourceTextbook: "高中思想政治统编版选择性必修2 法律与生活", CJ_course: "思想政治", CJ_bookIndex: 3};
+
+MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:23"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:23", title: "第四单元 社会争议解决", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"sourceTextbook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"course\": \"思想政治\", \"bookIndex\": 4}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_sourceTextbook: "高中思想政治统编版选择性必修2 法律与生活", CJ_course: "思想政治", CJ_bookIndex: 4};
+
+MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:24"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:24", title: "第一单元 树立科学思维观念", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"sourceTextbook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"course\": \"思想政治\", \"bookIndex\": 1}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_sourceTextbook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_course: "思想政治", CJ_bookIndex: 1};
+
+MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:25"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:25", title: "第二单元 遵循逻辑思维规则", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"sourceTextbook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"course\": \"思想政治\", \"bookIndex\": 2}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_sourceTextbook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_course: "思想政治", CJ_bookIndex: 2};
+
+MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:26"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:26", title: "第三单元 运用辩证思维方法", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"sourceTextbook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"course\": \"思想政治\", \"bookIndex\": 3}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_sourceTextbook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_course: "思想政治", CJ_bookIndex: 3};
+
+MERGE (n:Chapter {identifier: "urn:jy:politics:SB0310:OB06:Chapter:27"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Chapter:27", title: "第四单元 提高创新思维能力", description: "", subject: "SB0310", type: "Chapter", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"sourceTextbook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"course\": \"思想政治\", \"bookIndex\": 4}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_sourceTextbook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_course: "思想政治", CJ_bookIndex: 4};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:1"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:1", title: "公有制为主体 多种所有制经济共同发展", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修2 经济与社会\", \"chapter\": \"第一课 我国的生产资料所有制\", \"unit\": \"第一单元 生产资料所有制与经济体制\", \"sourceBook\": \"高中思想政治统编版高一必修2 经济与社会\", \"index\": {\"unitIndex\": 1, \"lessonIndex\": 1, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修2 经济与社会", CJ_chapter: "第一课 我国的生产资料所有制", CJ_unit: "第一单元 生产资料所有制与经济体制", CJ_sourceBook: "高中思想政治统编版高一必修2 经济与社会", CJ_index: "{\"unitIndex\": 1, \"lessonIndex\": 1, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:2"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:2", title: "坚持“两个毫不动摇”", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修2 经济与社会\", \"chapter\": \"第一课 我国的生产资料所有制\", \"unit\": \"第一单元 生产资料所有制与经济体制\", \"sourceBook\": \"高中思想政治统编版高一必修2 经济与社会\", \"index\": {\"unitIndex\": 1, \"lessonIndex\": 1, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修2 经济与社会", CJ_chapter: "第一课 我国的生产资料所有制", CJ_unit: "第一单元 生产资料所有制与经济体制", CJ_sourceBook: "高中思想政治统编版高一必修2 经济与社会", CJ_index: "{\"unitIndex\": 1, \"lessonIndex\": 1, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:3"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:3", title: "充分发挥市场在资源配置中的决定性作用", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修2 经济与社会\", \"chapter\": \"第二课 我国的社会主义市场经济体制\", \"unit\": \"第一单元 生产资料所有制与经济体制\", \"sourceBook\": \"高中思想政治统编版高一必修2 经济与社会\", \"index\": {\"unitIndex\": 1, \"lessonIndex\": 2, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修2 经济与社会", CJ_chapter: "第二课 我国的社会主义市场经济体制", CJ_unit: "第一单元 生产资料所有制与经济体制", CJ_sourceBook: "高中思想政治统编版高一必修2 经济与社会", CJ_index: "{\"unitIndex\": 1, \"lessonIndex\": 2, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:4"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:4", title: "更好发挥政府作用", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修2 经济与社会\", \"chapter\": \"第二课 我国的社会主义市场经济体制\", \"unit\": \"第一单元 生产资料所有制与经济体制\", \"sourceBook\": \"高中思想政治统编版高一必修2 经济与社会\", \"index\": {\"unitIndex\": 1, \"lessonIndex\": 2, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修2 经济与社会", CJ_chapter: "第二课 我国的社会主义市场经济体制", CJ_unit: "第一单元 生产资料所有制与经济体制", CJ_sourceBook: "高中思想政治统编版高一必修2 经济与社会", CJ_index: "{\"unitIndex\": 1, \"lessonIndex\": 2, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:5"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:5", title: "贯彻新发展理念", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修2 经济与社会\", \"chapter\": \"第三课 我国的经济发展\", \"unit\": \"第二单元 经济发展与社会进步\", \"sourceBook\": \"高中思想政治统编版高一必修2 经济与社会\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 1, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修2 经济与社会", CJ_chapter: "第三课 我国的经济发展", CJ_unit: "第二单元 经济发展与社会进步", CJ_sourceBook: "高中思想政治统编版高一必修2 经济与社会", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 1, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:6"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:6", title: "推动高质量发展", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修2 经济与社会\", \"chapter\": \"第三课 我国的经济发展\", \"unit\": \"第二单元 经济发展与社会进步\", \"sourceBook\": \"高中思想政治统编版高一必修2 经济与社会\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 1, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修2 经济与社会", CJ_chapter: "第三课 我国的经济发展", CJ_unit: "第二单元 经济发展与社会进步", CJ_sourceBook: "高中思想政治统编版高一必修2 经济与社会", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 1, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:7"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:7", title: "我国的个人收入分配", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修2 经济与社会\", \"chapter\": \"第四课 我国的个人收入分配与社会保障\", \"unit\": \"第二单元 经济发展与社会进步\", \"sourceBook\": \"高中思想政治统编版高一必修2 经济与社会\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 2, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修2 经济与社会", CJ_chapter: "第四课 我国的个人收入分配与社会保障", CJ_unit: "第二单元 经济发展与社会进步", CJ_sourceBook: "高中思想政治统编版高一必修2 经济与社会", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 2, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:8"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:8", title: "我国的社会保障", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修2 经济与社会\", \"chapter\": \"第四课 我国的个人收入分配与社会保障\", \"unit\": \"第二单元 经济发展与社会进步\", \"sourceBook\": \"高中思想政治统编版高一必修2 经济与社会\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 2, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修2 经济与社会", CJ_chapter: "第四课 我国的个人收入分配与社会保障", CJ_unit: "第二单元 经济发展与社会进步", CJ_sourceBook: "高中思想政治统编版高一必修2 经济与社会", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 2, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:9"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:9", title: "中华人民共和国成立前各种政治力量", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第一课 历史和人民的选择\", \"unit\": \"第一单元 中国共产党的领导\", \"sourceBook\": \"高中思想政治统编版高一必修3 政治与法治\", \"index\": {\"unitIndex\": 1, \"lessonIndex\": 1, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第一课 历史和人民的选择", CJ_unit: "第一单元 中国共产党的领导", CJ_sourceBook: "高中思想政治统编版高一必修3 政治与法治", CJ_index: "{\"unitIndex\": 1, \"lessonIndex\": 1, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:10"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:10", title: "中国共产党领导人民站起来、富起来、强起来", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第一课 历史和人民的选择\", \"unit\": \"第一单元 中国共产党的领导\", \"sourceBook\": \"高中思想政治统编版高一必修3 政治与法治\", \"index\": {\"unitIndex\": 1, \"lessonIndex\": 1, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第一课 历史和人民的选择", CJ_unit: "第一单元 中国共产党的领导", CJ_sourceBook: "高中思想政治统编版高一必修3 政治与法治", CJ_index: "{\"unitIndex\": 1, \"lessonIndex\": 1, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:11"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:11", title: "始终坚持以人民为中心", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第二课 中国共产党的先进性\", \"unit\": \"第一单元 中国共产党的领导\", \"sourceBook\": \"高中思想政治统编版高一必修3 政治与法治\", \"index\": {\"unitIndex\": 1, \"lessonIndex\": 2, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第二课 中国共产党的先进性", CJ_unit: "第一单元 中国共产党的领导", CJ_sourceBook: "高中思想政治统编版高一必修3 政治与法治", CJ_index: "{\"unitIndex\": 1, \"lessonIndex\": 2, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:12"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:12", title: "始终走在时代前列", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第二课 中国共产党的先进性\", \"unit\": \"第一单元 中国共产党的领导\", \"sourceBook\": \"高中思想政治统编版高一必修3 政治与法治\", \"index\": {\"unitIndex\": 1, \"lessonIndex\": 2, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第二课 中国共产党的先进性", CJ_unit: "第一单元 中国共产党的领导", CJ_sourceBook: "高中思想政治统编版高一必修3 政治与法治", CJ_index: "{\"unitIndex\": 1, \"lessonIndex\": 2, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:13"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:13", title: "坚持党的领导", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第三课 坚持和加强党的全面领导\", \"unit\": \"第一单元 中国共产党的领导\", \"sourceBook\": \"高中思想政治统编版高一必修3 政治与法治\", \"index\": {\"unitIndex\": 1, \"lessonIndex\": 3, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第三课 坚持和加强党的全面领导", CJ_unit: "第一单元 中国共产党的领导", CJ_sourceBook: "高中思想政治统编版高一必修3 政治与法治", CJ_index: "{\"unitIndex\": 1, \"lessonIndex\": 3, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:14"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:14", title: "巩固党的长期执政地位", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第三课 坚持和加强党的全面领导\", \"unit\": \"第一单元 中国共产党的领导\", \"sourceBook\": \"高中思想政治统编版高一必修3 政治与法治\", \"index\": {\"unitIndex\": 1, \"lessonIndex\": 3, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第三课 坚持和加强党的全面领导", CJ_unit: "第一单元 中国共产党的领导", CJ_sourceBook: "高中思想政治统编版高一必修3 政治与法治", CJ_index: "{\"unitIndex\": 1, \"lessonIndex\": 3, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:15"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:15", title: "人民民主专政的本质：人民当家作主", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第四课 人民民主专政的社会主义国家\", \"unit\": \"第二单元 人民当家作主\", \"sourceBook\": \"高中思想政治统编版高一必修3 政治与法治\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 1, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第四课 人民民主专政的社会主义国家", CJ_unit: "第二单元 人民当家作主", CJ_sourceBook: "高中思想政治统编版高一必修3 政治与法治", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 1, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:16"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:16", title: "坚持人民民主专政", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第四课 人民民主专政的社会主义国家\", \"unit\": \"第二单元 人民当家作主\", \"sourceBook\": \"高中思想政治统编版高一必修3 政治与法治\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 1, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第四课 人民民主专政的社会主义国家", CJ_unit: "第二单元 人民当家作主", CJ_sourceBook: "高中思想政治统编版高一必修3 政治与法治", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 1, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:17"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:17", title: "人民代表大会：我国的国家权力机关", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第五课 我国的根本政治制度\", \"unit\": \"第二单元 人民当家作主\", \"sourceBook\": \"高中思想政治统编版高一必修3 政治与法治\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 2, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第五课 我国的根本政治制度", CJ_unit: "第二单元 人民当家作主", CJ_sourceBook: "高中思想政治统编版高一必修3 政治与法治", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 2, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:18"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:18", title: "人民代表大会制度：我国的根本政治制度", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第五课 我国的根本政治制度\", \"unit\": \"第二单元 人民当家作主\", \"sourceBook\": \"高中思想政治统编版高一必修3 政治与法治\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 2, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第五课 我国的根本政治制度", CJ_unit: "第二单元 人民当家作主", CJ_sourceBook: "高中思想政治统编版高一必修3 政治与法治", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 2, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:19"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:19", title: "中国共产党领导的多党合作和政治协商制度", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第六课 我国的基本政治制度\", \"unit\": \"第二单元 人民当家作主\", \"sourceBook\": \"高中思想政治统编版高一必修3 政治与法治\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 3, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第六课 我国的基本政治制度", CJ_unit: "第二单元 人民当家作主", CJ_sourceBook: "高中思想政治统编版高一必修3 政治与法治", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 3, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:20"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:20", title: "民族区域自治制度", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第六课 我国的基本政治制度\", \"unit\": \"第二单元 人民当家作主\", \"sourceBook\": \"高中思想政治统编版高一必修3 政治与法治\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 3, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第六课 我国的基本政治制度", CJ_unit: "第二单元 人民当家作主", CJ_sourceBook: "高中思想政治统编版高一必修3 政治与法治", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 3, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:21"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:21", title: "基层群众自治制度", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第六课 我国的基本政治制度\", \"unit\": \"第二单元 人民当家作主\", \"sourceBook\": \"高中思想政治统编版高一必修3 政治与法治\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 3, \"SubsectionIndex\": 3}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第六课 我国的基本政治制度", CJ_unit: "第二单元 人民当家作主", CJ_sourceBook: "高中思想政治统编版高一必修3 政治与法治", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 3, \"SubsectionIndex\": 3}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:22"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:22", title: "我国法治建设的历程", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第七课 治国理政的基本方式\", \"unit\": \"第三单元 全面依法治国\", \"sourceBook\": \"高中思想政治统编版高一必修3 政治与法治\", \"index\": {\"unitIndex\": 3, \"lessonIndex\": 1, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第七课 治国理政的基本方式", CJ_unit: "第三单元 全面依法治国", CJ_sourceBook: "高中思想政治统编版高一必修3 政治与法治", CJ_index: "{\"unitIndex\": 3, \"lessonIndex\": 1, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:23"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:23", title: "全面推进依法治国的总目标与原则", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第七课 治国理政的基本方式\", \"unit\": \"第三单元 全面依法治国\", \"sourceBook\": \"高中思想政治统编版高一必修3 政治与法治\", \"index\": {\"unitIndex\": 3, \"lessonIndex\": 1, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第七课 治国理政的基本方式", CJ_unit: "第三单元 全面依法治国", CJ_sourceBook: "高中思想政治统编版高一必修3 政治与法治", CJ_index: "{\"unitIndex\": 3, \"lessonIndex\": 1, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:24"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:24", title: "法治国家", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第八课 法治中国建设\", \"unit\": \"第三单元 全面依法治国\", \"sourceBook\": \"高中思想政治统编版高一必修3 政治与法治\", \"index\": {\"unitIndex\": 3, \"lessonIndex\": 2, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第八课 法治中国建设", CJ_unit: "第三单元 全面依法治国", CJ_sourceBook: "高中思想政治统编版高一必修3 政治与法治", CJ_index: "{\"unitIndex\": 3, \"lessonIndex\": 2, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:25"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:25", title: "法治政府", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第八课 法治中国建设\", \"unit\": \"第三单元 全面依法治国\", \"sourceBook\": \"高中思想政治统编版高一必修3 政治与法治\", \"index\": {\"unitIndex\": 3, \"lessonIndex\": 2, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第八课 法治中国建设", CJ_unit: "第三单元 全面依法治国", CJ_sourceBook: "高中思想政治统编版高一必修3 政治与法治", CJ_index: "{\"unitIndex\": 3, \"lessonIndex\": 2, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:26"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:26", title: "法治社会", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第八课 法治中国建设\", \"unit\": \"第三单元 全面依法治国\", \"sourceBook\": \"高中思想政治统编版高一必修3 政治与法治\", \"index\": {\"unitIndex\": 3, \"lessonIndex\": 2, \"SubsectionIndex\": 3}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第八课 法治中国建设", CJ_unit: "第三单元 全面依法治国", CJ_sourceBook: "高中思想政治统编版高一必修3 政治与法治", CJ_index: "{\"unitIndex\": 3, \"lessonIndex\": 2, \"SubsectionIndex\": 3}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:27"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:27", title: "科学立法", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第九课 全面依法治国的基本要求\", \"unit\": \"第三单元 全面依法治国\", \"sourceBook\": \"高中思想政治统编版高一必修3 政治与法治\", \"index\": {\"unitIndex\": 3, \"lessonIndex\": 3, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第九课 全面依法治国的基本要求", CJ_unit: "第三单元 全面依法治国", CJ_sourceBook: "高中思想政治统编版高一必修3 政治与法治", CJ_index: "{\"unitIndex\": 3, \"lessonIndex\": 3, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:28"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:28", title: "严格执法", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第九课 全面依法治国的基本要求\", \"unit\": \"第三单元 全面依法治国\", \"sourceBook\": \"高中思想政治统编版高一必修3 政治与法治\", \"index\": {\"unitIndex\": 3, \"lessonIndex\": 3, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第九课 全面依法治国的基本要求", CJ_unit: "第三单元 全面依法治国", CJ_sourceBook: "高中思想政治统编版高一必修3 政治与法治", CJ_index: "{\"unitIndex\": 3, \"lessonIndex\": 3, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:29"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:29", title: "公正司法", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第九课 全面依法治国的基本要求\", \"unit\": \"第三单元 全面依法治国\", \"sourceBook\": \"高中思想政治统编版高一必修3 政治与法治\", \"index\": {\"unitIndex\": 3, \"lessonIndex\": 3, \"SubsectionIndex\": 3}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第九课 全面依法治国的基本要求", CJ_unit: "第三单元 全面依法治国", CJ_sourceBook: "高中思想政治统编版高一必修3 政治与法治", CJ_index: "{\"unitIndex\": 3, \"lessonIndex\": 3, \"SubsectionIndex\": 3}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:30"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:30", title: "全民守法", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修3 政治与法治\", \"chapter\": \"第九课 全面依法治国的基本要求\", \"unit\": \"第三单元 全面依法治国\", \"sourceBook\": \"高中思想政治统编版高一必修3 政治与法治\", \"index\": {\"unitIndex\": 3, \"lessonIndex\": 3, \"SubsectionIndex\": 4}}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修3 政治与法治", CJ_chapter: "第九课 全面依法治国的基本要求", CJ_unit: "第三单元 全面依法治国", CJ_sourceBook: "高中思想政治统编版高一必修3 政治与法治", CJ_index: "{\"unitIndex\": 3, \"lessonIndex\": 3, \"SubsectionIndex\": 4}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:31"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:31", title: "追求智慧的学问", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第一课 时代精神的精华\", \"unit\": \"第一单元 探索世界与把握规律\", \"sourceBook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"index\": {\"unitIndex\": 1, \"lessonIndex\": 1, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第一课 时代精神的精华", CJ_unit: "第一单元 探索世界与把握规律", CJ_sourceBook: "高中思想政治统编版高二必修4 哲学与文化", CJ_index: "{\"unitIndex\": 1, \"lessonIndex\": 1, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:32"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:32", title: "哲学的基本问题", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第一课 时代精神的精华\", \"unit\": \"第一单元 探索世界与把握规律\", \"sourceBook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"index\": {\"unitIndex\": 1, \"lessonIndex\": 1, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第一课 时代精神的精华", CJ_unit: "第一单元 探索世界与把握规律", CJ_sourceBook: "高中思想政治统编版高二必修4 哲学与文化", CJ_index: "{\"unitIndex\": 1, \"lessonIndex\": 1, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:33"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:33", title: "科学的世界观和方法论", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第一课 时代精神的精华\", \"unit\": \"第一单元 探索世界与把握规律\", \"sourceBook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"index\": {\"unitIndex\": 1, \"lessonIndex\": 1, \"SubsectionIndex\": 3}}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第一课 时代精神的精华", CJ_unit: "第一单元 探索世界与把握规律", CJ_sourceBook: "高中思想政治统编版高二必修4 哲学与文化", CJ_index: "{\"unitIndex\": 1, \"lessonIndex\": 1, \"SubsectionIndex\": 3}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:34"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:34", title: "世界的物质性", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第二课 探究世界的本质\", \"unit\": \"第一单元 探索世界与把握规律\", \"sourceBook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"index\": {\"unitIndex\": 1, \"lessonIndex\": 2, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第二课 探究世界的本质", CJ_unit: "第一单元 探索世界与把握规律", CJ_sourceBook: "高中思想政治统编版高二必修4 哲学与文化", CJ_index: "{\"unitIndex\": 1, \"lessonIndex\": 2, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:35"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:35", title: "运动的规律性", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第二课 探究世界的本质\", \"unit\": \"第一单元 探索世界与把握规律\", \"sourceBook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"index\": {\"unitIndex\": 1, \"lessonIndex\": 2, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第二课 探究世界的本质", CJ_unit: "第一单元 探索世界与把握规律", CJ_sourceBook: "高中思想政治统编版高二必修4 哲学与文化", CJ_index: "{\"unitIndex\": 1, \"lessonIndex\": 2, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:36"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:36", title: "世界是普遍联系的", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第三课 把握世界的规律\", \"unit\": \"第一单元 探索世界与把握规律\", \"sourceBook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"index\": {\"unitIndex\": 1, \"lessonIndex\": 3, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第三课 把握世界的规律", CJ_unit: "第一单元 探索世界与把握规律", CJ_sourceBook: "高中思想政治统编版高二必修4 哲学与文化", CJ_index: "{\"unitIndex\": 1, \"lessonIndex\": 3, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:37"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:37", title: "世界是永恒发展的", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第三课 把握世界的规律\", \"unit\": \"第一单元 探索世界与把握规律\", \"sourceBook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"index\": {\"unitIndex\": 1, \"lessonIndex\": 3, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第三课 把握世界的规律", CJ_unit: "第一单元 探索世界与把握规律", CJ_sourceBook: "高中思想政治统编版高二必修4 哲学与文化", CJ_index: "{\"unitIndex\": 1, \"lessonIndex\": 3, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:38"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:38", title: "唯物辩证法的实质与核心", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第三课 把握世界的规律\", \"unit\": \"第一单元 探索世界与把握规律\", \"sourceBook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"index\": {\"unitIndex\": 1, \"lessonIndex\": 3, \"SubsectionIndex\": 3}}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第三课 把握世界的规律", CJ_unit: "第一单元 探索世界与把握规律", CJ_sourceBook: "高中思想政治统编版高二必修4 哲学与文化", CJ_index: "{\"unitIndex\": 1, \"lessonIndex\": 3, \"SubsectionIndex\": 3}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:39"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:39", title: "人的认识从何而来", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第四课 探索认识的奥秘\", \"unit\": \"第二单元 认识社会与价值选择\", \"sourceBook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 1, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第四课 探索认识的奥秘", CJ_unit: "第二单元 认识社会与价值选择", CJ_sourceBook: "高中思想政治统编版高二必修4 哲学与文化", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 1, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:40"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:40", title: "在实践中追求和发展真理", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第四课 探索认识的奥秘\", \"unit\": \"第二单元 认识社会与价值选择\", \"sourceBook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 1, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第四课 探索认识的奥秘", CJ_unit: "第二单元 认识社会与价值选择", CJ_sourceBook: "高中思想政治统编版高二必修4 哲学与文化", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 1, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:41"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:41", title: "社会历史的本质", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第五课 寻觅社会的真谛\", \"unit\": \"第二单元 认识社会与价值选择\", \"sourceBook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 2, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第五课 寻觅社会的真谛", CJ_unit: "第二单元 认识社会与价值选择", CJ_sourceBook: "高中思想政治统编版高二必修4 哲学与文化", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 2, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:42"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:42", title: "社会历史的发展", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第五课 寻觅社会的真谛\", \"unit\": \"第二单元 认识社会与价值选择\", \"sourceBook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 2, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第五课 寻觅社会的真谛", CJ_unit: "第二单元 认识社会与价值选择", CJ_sourceBook: "高中思想政治统编版高二必修4 哲学与文化", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 2, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:43"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:43", title: "社会历史的主体", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第五课 寻觅社会的真谛\", \"unit\": \"第二单元 认识社会与价值选择\", \"sourceBook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 2, \"SubsectionIndex\": 3}}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第五课 寻觅社会的真谛", CJ_unit: "第二单元 认识社会与价值选择", CJ_sourceBook: "高中思想政治统编版高二必修4 哲学与文化", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 2, \"SubsectionIndex\": 3}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:44"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:44", title: "价值与价值观", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第六课 实现人生的价值\", \"unit\": \"第二单元 认识社会与价值选择\", \"sourceBook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 3, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第六课 实现人生的价值", CJ_unit: "第二单元 认识社会与价值选择", CJ_sourceBook: "高中思想政治统编版高二必修4 哲学与文化", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 3, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:45"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:45", title: "价值判断与价值选择", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第六课 实现人生的价值\", \"unit\": \"第二单元 认识社会与价值选择\", \"sourceBook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 3, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第六课 实现人生的价值", CJ_unit: "第二单元 认识社会与价值选择", CJ_sourceBook: "高中思想政治统编版高二必修4 哲学与文化", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 3, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:46"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:46", title: "价值的创造和实现", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第六课 实现人生的价值\", \"unit\": \"第二单元 认识社会与价值选择\", \"sourceBook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 3, \"SubsectionIndex\": 3}}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第六课 实现人生的价值", CJ_unit: "第二单元 认识社会与价值选择", CJ_sourceBook: "高中思想政治统编版高二必修4 哲学与文化", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 3, \"SubsectionIndex\": 3}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:47"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:47", title: "文化的内涵与功能", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第七课 继承发展中华优秀传统文化\", \"unit\": \"第三单元 文化传承与文化创新\", \"sourceBook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"index\": {\"unitIndex\": 3, \"lessonIndex\": 1, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第七课 继承发展中华优秀传统文化", CJ_unit: "第三单元 文化传承与文化创新", CJ_sourceBook: "高中思想政治统编版高二必修4 哲学与文化", CJ_index: "{\"unitIndex\": 3, \"lessonIndex\": 1, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:48"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:48", title: "正确认识中华传统文化", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第七课 继承发展中华优秀传统文化\", \"unit\": \"第三单元 文化传承与文化创新\", \"sourceBook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"index\": {\"unitIndex\": 3, \"lessonIndex\": 1, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第七课 继承发展中华优秀传统文化", CJ_unit: "第三单元 文化传承与文化创新", CJ_sourceBook: "高中思想政治统编版高二必修4 哲学与文化", CJ_index: "{\"unitIndex\": 3, \"lessonIndex\": 1, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:49"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:49", title: "弘扬中华优秀传统文化与民族精神", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第七课 继承发展中华优秀传统文化\", \"unit\": \"第三单元 文化传承与文化创新\", \"sourceBook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"index\": {\"unitIndex\": 3, \"lessonIndex\": 1, \"SubsectionIndex\": 3}}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第七课 继承发展中华优秀传统文化", CJ_unit: "第三单元 文化传承与文化创新", CJ_sourceBook: "高中思想政治统编版高二必修4 哲学与文化", CJ_index: "{\"unitIndex\": 3, \"lessonIndex\": 1, \"SubsectionIndex\": 3}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:50"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:50", title: "文化的民族性与多样性", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第八课 学习借鉴外来文化的有益成果\", \"unit\": \"第三单元 文化传承与文化创新\", \"sourceBook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"index\": {\"unitIndex\": 3, \"lessonIndex\": 2, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第八课 学习借鉴外来文化的有益成果", CJ_unit: "第三单元 文化传承与文化创新", CJ_sourceBook: "高中思想政治统编版高二必修4 哲学与文化", CJ_index: "{\"unitIndex\": 3, \"lessonIndex\": 2, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:51"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:51", title: "文化交流与文化交融", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第八课 学习借鉴外来文化的有益成果\", \"unit\": \"第三单元 文化传承与文化创新\", \"sourceBook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"index\": {\"unitIndex\": 3, \"lessonIndex\": 2, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第八课 学习借鉴外来文化的有益成果", CJ_unit: "第三单元 文化传承与文化创新", CJ_sourceBook: "高中思想政治统编版高二必修4 哲学与文化", CJ_index: "{\"unitIndex\": 3, \"lessonIndex\": 2, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:52"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:52", title: "正确对待外来文化", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第八课 学习借鉴外来文化的有益成果\", \"unit\": \"第三单元 文化传承与文化创新\", \"sourceBook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"index\": {\"unitIndex\": 3, \"lessonIndex\": 2, \"SubsectionIndex\": 3}}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第八课 学习借鉴外来文化的有益成果", CJ_unit: "第三单元 文化传承与文化创新", CJ_sourceBook: "高中思想政治统编版高二必修4 哲学与文化", CJ_index: "{\"unitIndex\": 3, \"lessonIndex\": 2, \"SubsectionIndex\": 3}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:53"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:53", title: "文化发展的必然选择", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第九课 发展中国特色社会主义文化\", \"unit\": \"第三单元 文化传承与文化创新\", \"sourceBook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"index\": {\"unitIndex\": 3, \"lessonIndex\": 3, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第九课 发展中国特色社会主义文化", CJ_unit: "第三单元 文化传承与文化创新", CJ_sourceBook: "高中思想政治统编版高二必修4 哲学与文化", CJ_index: "{\"unitIndex\": 3, \"lessonIndex\": 3, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:54"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:54", title: "文化发展的基本路径", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第九课 发展中国特色社会主义文化\", \"unit\": \"第三单元 文化传承与文化创新\", \"sourceBook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"index\": {\"unitIndex\": 3, \"lessonIndex\": 3, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第九课 发展中国特色社会主义文化", CJ_unit: "第三单元 文化传承与文化创新", CJ_sourceBook: "高中思想政治统编版高二必修4 哲学与文化", CJ_index: "{\"unitIndex\": 3, \"lessonIndex\": 3, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:55"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:55", title: "文化强国与文化自信", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"统编版\", \"volume\": \"必修4 哲学与文化\", \"chapter\": \"第九课 发展中国特色社会主义文化\", \"unit\": \"第三单元 文化传承与文化创新\", \"sourceBook\": \"高中思想政治统编版高二必修4 哲学与文化\", \"index\": {\"unitIndex\": 3, \"lessonIndex\": 3, \"SubsectionIndex\": 3}}", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "统编版", CJ_volume: "必修4 哲学与文化", CJ_chapter: "第九课 发展中国特色社会主义文化", CJ_unit: "第三单元 文化传承与文化创新", CJ_sourceBook: "高中思想政治统编版高二必修4 哲学与文化", CJ_index: "{\"unitIndex\": 3, \"lessonIndex\": 3, \"SubsectionIndex\": 3}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:56"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:56", title: "国家是什么", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第一课 国体与政体\", \"unit\": \"第一单元 各具特色的国家\", \"sourceBook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"index\": {\"unitIndex\": 1, \"lessonIndex\": 1, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第一课 国体与政体", CJ_unit: "第一单元 各具特色的国家", CJ_sourceBook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_index: "{\"unitIndex\": 1, \"lessonIndex\": 1, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:57"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:57", title: "国家的政权组织形式", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第一课 国体与政体\", \"unit\": \"第一单元 各具特色的国家\", \"sourceBook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"index\": {\"unitIndex\": 1, \"lessonIndex\": 1, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第一课 国体与政体", CJ_unit: "第一单元 各具特色的国家", CJ_sourceBook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_index: "{\"unitIndex\": 1, \"lessonIndex\": 1, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:58"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:58", title: "政党和利益集团", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第一课 国体与政体\", \"unit\": \"第一单元 各具特色的国家\", \"sourceBook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"index\": {\"unitIndex\": 1, \"lessonIndex\": 1, \"SubsectionIndex\": 3}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第一课 国体与政体", CJ_unit: "第一单元 各具特色的国家", CJ_sourceBook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_index: "{\"unitIndex\": 1, \"lessonIndex\": 1, \"SubsectionIndex\": 3}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:59"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:59", title: "主权统一与政权分层", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第二课 国家的结构形式\", \"unit\": \"第一单元 各具特色的国家\", \"sourceBook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"index\": {\"unitIndex\": 1, \"lessonIndex\": 2, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第二课 国家的结构形式", CJ_unit: "第一单元 各具特色的国家", CJ_sourceBook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_index: "{\"unitIndex\": 1, \"lessonIndex\": 2, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:60"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:60", title: "单一制和复合制", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第二课 国家的结构形式\", \"unit\": \"第一单元 各具特色的国家\", \"sourceBook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"index\": {\"unitIndex\": 1, \"lessonIndex\": 2, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第二课 国家的结构形式", CJ_unit: "第一单元 各具特色的国家", CJ_sourceBook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_index: "{\"unitIndex\": 1, \"lessonIndex\": 2, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:61"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:61", title: "世界多极化的发展", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第三课 多极化趋势\", \"unit\": \"第二单元 世界多极化\", \"sourceBook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 1, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第三课 多极化趋势", CJ_unit: "第二单元 世界多极化", CJ_sourceBook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 1, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:62"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:62", title: "国际关系", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第三课 多极化趋势\", \"unit\": \"第二单元 世界多极化\", \"sourceBook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 1, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第三课 多极化趋势", CJ_unit: "第二单元 世界多极化", CJ_sourceBook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 1, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:63"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:63", title: "时代的主题", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第四课 和平与发展\", \"unit\": \"第二单元 世界多极化\", \"sourceBook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 2, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第四课 和平与发展", CJ_unit: "第二单元 世界多极化", CJ_sourceBook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 2, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:64"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:64", title: "挑战与应对", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第四课 和平与发展\", \"unit\": \"第二单元 世界多极化\", \"sourceBook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 2, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第四课 和平与发展", CJ_unit: "第二单元 世界多极化", CJ_sourceBook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 2, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:65"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:65", title: "中国外交政策的形成与发展", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第五课 中国的外交\", \"unit\": \"第二单元 世界多极化\", \"sourceBook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 3, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第五课 中国的外交", CJ_unit: "第二单元 世界多极化", CJ_sourceBook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 3, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:66"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:66", title: "构建人类命运共同体", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第五课 中国的外交\", \"unit\": \"第二单元 世界多极化\", \"sourceBook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 3, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第五课 中国的外交", CJ_unit: "第二单元 世界多极化", CJ_sourceBook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 3, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:67"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:67", title: "认识经济全球化", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第六课 走进经济全球化\", \"unit\": \"第三单元 经济全球化\", \"sourceBook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"index\": {\"unitIndex\": 3, \"lessonIndex\": 1, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第六课 走进经济全球化", CJ_unit: "第三单元 经济全球化", CJ_sourceBook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_index: "{\"unitIndex\": 3, \"lessonIndex\": 1, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:68"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:68", title: "日益开放的世界经济", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第六课 走进经济全球化\", \"unit\": \"第三单元 经济全球化\", \"sourceBook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"index\": {\"unitIndex\": 3, \"lessonIndex\": 1, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第六课 走进经济全球化", CJ_unit: "第三单元 经济全球化", CJ_sourceBook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_index: "{\"unitIndex\": 3, \"lessonIndex\": 1, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:69"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:69", title: "开放是当代中国的鲜明标识", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第七课 经济全球化与中国\", \"unit\": \"第三单元 经济全球化\", \"sourceBook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"index\": {\"unitIndex\": 3, \"lessonIndex\": 2, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第七课 经济全球化与中国", CJ_unit: "第三单元 经济全球化", CJ_sourceBook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_index: "{\"unitIndex\": 3, \"lessonIndex\": 2, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:70"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:70", title: "做全球发展的贡献者", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第七课 经济全球化与中国\", \"unit\": \"第三单元 经济全球化\", \"sourceBook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"index\": {\"unitIndex\": 3, \"lessonIndex\": 2, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第七课 经济全球化与中国", CJ_unit: "第三单元 经济全球化", CJ_sourceBook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_index: "{\"unitIndex\": 3, \"lessonIndex\": 2, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:71"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:71", title: "日益重要的国际组织", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第八课 主要的国际组织\", \"unit\": \"第四单元 国际组织\", \"sourceBook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"index\": {\"unitIndex\": 4, \"lessonIndex\": 1, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第八课 主要的国际组织", CJ_unit: "第四单元 国际组织", CJ_sourceBook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_index: "{\"unitIndex\": 4, \"lessonIndex\": 1, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:72"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:72", title: "联合国", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第八课 主要的国际组织\", \"unit\": \"第四单元 国际组织\", \"sourceBook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"index\": {\"unitIndex\": 4, \"lessonIndex\": 1, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第八课 主要的国际组织", CJ_unit: "第四单元 国际组织", CJ_sourceBook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_index: "{\"unitIndex\": 4, \"lessonIndex\": 1, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:73"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:73", title: "区域性国际组织", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第八课 主要的国际组织\", \"unit\": \"第四单元 国际组织\", \"sourceBook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"index\": {\"unitIndex\": 4, \"lessonIndex\": 1, \"SubsectionIndex\": 3}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第八课 主要的国际组织", CJ_unit: "第四单元 国际组织", CJ_sourceBook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_index: "{\"unitIndex\": 4, \"lessonIndex\": 1, \"SubsectionIndex\": 3}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:74"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:74", title: "中国与联合国", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第九课 中国与国际组织\", \"unit\": \"第四单元 国际组织\", \"sourceBook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"index\": {\"unitIndex\": 4, \"lessonIndex\": 2, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第九课 中国与国际组织", CJ_unit: "第四单元 国际组织", CJ_sourceBook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_index: "{\"unitIndex\": 4, \"lessonIndex\": 2, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:75"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:75", title: "中国与新兴国际组织", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修1 当代国际政治与经济\", \"chapter\": \"第九课 中国与国际组织\", \"unit\": \"第四单元 国际组织\", \"sourceBook\": \"高中思想政治统编版选择性必修1 当代国际政治与经济\", \"index\": {\"unitIndex\": 4, \"lessonIndex\": 2, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修1 当代国际政治与经济", CJ_chapter: "第九课 中国与国际组织", CJ_unit: "第四单元 国际组织", CJ_sourceBook: "高中思想政治统编版选择性必修1 当代国际政治与经济", CJ_index: "{\"unitIndex\": 4, \"lessonIndex\": 2, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:76"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:76", title: "认真对待民事权利与义务", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第一课 在生活中学民法用民法\", \"unit\": \"第一单元 民事权利与义务\", \"sourceBook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"index\": {\"unitIndex\": 1, \"lessonIndex\": 1, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第一课 在生活中学民法用民法", CJ_unit: "第一单元 民事权利与义务", CJ_sourceBook: "高中思想政治统编版选择性必修2 法律与生活", CJ_index: "{\"unitIndex\": 1, \"lessonIndex\": 1, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:77"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:77", title: "积极维护人身权利", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第一课 在生活中学民法用民法\", \"unit\": \"第一单元 民事权利与义务\", \"sourceBook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"index\": {\"unitIndex\": 1, \"lessonIndex\": 1, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第一课 在生活中学民法用民法", CJ_unit: "第一单元 民事权利与义务", CJ_sourceBook: "高中思想政治统编版选择性必修2 法律与生活", CJ_index: "{\"unitIndex\": 1, \"lessonIndex\": 1, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:78"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:78", title: "保障各类物权", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第二课 依法有效保护财产权\", \"unit\": \"第一单元 民事权利与义务\", \"sourceBook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"index\": {\"unitIndex\": 1, \"lessonIndex\": 2, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第二课 依法有效保护财产权", CJ_unit: "第一单元 民事权利与义务", CJ_sourceBook: "高中思想政治统编版选择性必修2 法律与生活", CJ_index: "{\"unitIndex\": 1, \"lessonIndex\": 2, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:79"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:79", title: "尊重知识产权", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第二课 依法有效保护财产权\", \"unit\": \"第一单元 民事权利与义务\", \"sourceBook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"index\": {\"unitIndex\": 1, \"lessonIndex\": 2, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第二课 依法有效保护财产权", CJ_unit: "第一单元 民事权利与义务", CJ_sourceBook: "高中思想政治统编版选择性必修2 法律与生活", CJ_index: "{\"unitIndex\": 1, \"lessonIndex\": 2, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:80"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:80", title: "订立合同学问大", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第三课 订约履约 诚信为本\", \"unit\": \"第一单元 民事权利与义务\", \"sourceBook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"index\": {\"unitIndex\": 1, \"lessonIndex\": 3, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第三课 订约履约 诚信为本", CJ_unit: "第一单元 民事权利与义务", CJ_sourceBook: "高中思想政治统编版选择性必修2 法律与生活", CJ_index: "{\"unitIndex\": 1, \"lessonIndex\": 3, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:81"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:81", title: "有约必守 违约有责", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第三课 订约履约 诚信为本\", \"unit\": \"第一单元 民事权利与义务\", \"sourceBook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"index\": {\"unitIndex\": 1, \"lessonIndex\": 3, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第三课 订约履约 诚信为本", CJ_unit: "第一单元 民事权利与义务", CJ_sourceBook: "高中思想政治统编版选择性必修2 法律与生活", CJ_index: "{\"unitIndex\": 1, \"lessonIndex\": 3, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:82"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:82", title: "权利保障 于法有据", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第四课 侵权责任与权利界限\", \"unit\": \"第一单元 民事权利与义务\", \"sourceBook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"index\": {\"unitIndex\": 1, \"lessonIndex\": 4, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第四课 侵权责任与权利界限", CJ_unit: "第一单元 民事权利与义务", CJ_sourceBook: "高中思想政治统编版选择性必修2 法律与生活", CJ_index: "{\"unitIndex\": 1, \"lessonIndex\": 4, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:83"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:83", title: "权利行使 注意界限", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第四课 侵权责任与权利界限\", \"unit\": \"第一单元 民事权利与义务\", \"sourceBook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"index\": {\"unitIndex\": 1, \"lessonIndex\": 4, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第四课 侵权责任与权利界限", CJ_unit: "第一单元 民事权利与义务", CJ_sourceBook: "高中思想政治统编版选择性必修2 法律与生活", CJ_index: "{\"unitIndex\": 1, \"lessonIndex\": 4, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:84"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:84", title: "家和万事兴", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第五课 在和睦家庭中成长\", \"unit\": \"第二单元 家庭与婚姻\", \"sourceBook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 1, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第五课 在和睦家庭中成长", CJ_unit: "第二单元 家庭与婚姻", CJ_sourceBook: "高中思想政治统编版选择性必修2 法律与生活", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 1, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:85"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:85", title: "薪火相传有继承", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第五课 在和睦家庭中成长\", \"unit\": \"第二单元 家庭与婚姻\", \"sourceBook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 1, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第五课 在和睦家庭中成长", CJ_unit: "第二单元 家庭与婚姻", CJ_sourceBook: "高中思想政治统编版选择性必修2 法律与生活", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 1, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:86"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:86", title: "法律保护下的婚姻", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第六课 珍惜婚姻关系\", \"unit\": \"第二单元 家庭与婚姻\", \"sourceBook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 2, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第六课 珍惜婚姻关系", CJ_unit: "第二单元 家庭与婚姻", CJ_sourceBook: "高中思想政治统编版选择性必修2 法律与生活", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 2, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:87"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:87", title: "夫妻地位平等", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第六课 珍惜婚姻关系\", \"unit\": \"第二单元 家庭与婚姻\", \"sourceBook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 2, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第六课 珍惜婚姻关系", CJ_unit: "第二单元 家庭与婚姻", CJ_sourceBook: "高中思想政治统编版选择性必修2 法律与生活", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 2, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:88"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:88", title: "立足职场有法宝", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第七课 做个明白的劳动者\", \"unit\": \"第三单元 就业与创业\", \"sourceBook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"index\": {\"unitIndex\": 3, \"lessonIndex\": 1, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第七课 做个明白的劳动者", CJ_unit: "第三单元 就业与创业", CJ_sourceBook: "高中思想政治统编版选择性必修2 法律与生活", CJ_index: "{\"unitIndex\": 3, \"lessonIndex\": 1, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:89"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:89", title: "心中有数上职场", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第七课 做个明白的劳动者\", \"unit\": \"第三单元 就业与创业\", \"sourceBook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"index\": {\"unitIndex\": 3, \"lessonIndex\": 1, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第七课 做个明白的劳动者", CJ_unit: "第三单元 就业与创业", CJ_sourceBook: "高中思想政治统编版选择性必修2 法律与生活", CJ_index: "{\"unitIndex\": 3, \"lessonIndex\": 1, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:90"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:90", title: "自主创业 公平竞争", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第八课 自主创业与诚信经营\", \"unit\": \"第三单元 就业与创业\", \"sourceBook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"index\": {\"unitIndex\": 3, \"lessonIndex\": 2, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第八课 自主创业与诚信经营", CJ_unit: "第三单元 就业与创业", CJ_sourceBook: "高中思想政治统编版选择性必修2 法律与生活", CJ_index: "{\"unitIndex\": 3, \"lessonIndex\": 2, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:91"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:91", title: "诚信经营 依法纳税", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第八课 自主创业与诚信经营\", \"unit\": \"第三单元 就业与创业\", \"sourceBook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"index\": {\"unitIndex\": 3, \"lessonIndex\": 2, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第八课 自主创业与诚信经营", CJ_unit: "第三单元 就业与创业", CJ_sourceBook: "高中思想政治统编版选择性必修2 法律与生活", CJ_index: "{\"unitIndex\": 3, \"lessonIndex\": 2, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:92"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:92", title: "认识调解与仲裁", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第九课 纠纷的多元解决方式\", \"unit\": \"第四单元 社会争议解决\", \"sourceBook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"index\": {\"unitIndex\": 4, \"lessonIndex\": 1, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第九课 纠纷的多元解决方式", CJ_unit: "第四单元 社会争议解决", CJ_sourceBook: "高中思想政治统编版选择性必修2 法律与生活", CJ_index: "{\"unitIndex\": 4, \"lessonIndex\": 1, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:93"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:93", title: "解析三大诉讼", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第九课 纠纷的多元解决方式\", \"unit\": \"第四单元 社会争议解决\", \"sourceBook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"index\": {\"unitIndex\": 4, \"lessonIndex\": 1, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第九课 纠纷的多元解决方式", CJ_unit: "第四单元 社会争议解决", CJ_sourceBook: "高中思想政治统编版选择性必修2 法律与生活", CJ_index: "{\"unitIndex\": 4, \"lessonIndex\": 1, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:94"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:94", title: "正确行使诉讼权利", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第十课 诉讼实现公平正义\", \"unit\": \"第四单元 社会争议解决\", \"sourceBook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"index\": {\"unitIndex\": 4, \"lessonIndex\": 2, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第十课 诉讼实现公平正义", CJ_unit: "第四单元 社会争议解决", CJ_sourceBook: "高中思想政治统编版选择性必修2 法律与生活", CJ_index: "{\"unitIndex\": 4, \"lessonIndex\": 2, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:95"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:95", title: "严格遵守诉讼程序", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第十课 诉讼实现公平正义\", \"unit\": \"第四单元 社会争议解决\", \"sourceBook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"index\": {\"unitIndex\": 4, \"lessonIndex\": 2, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第十课 诉讼实现公平正义", CJ_unit: "第四单元 社会争议解决", CJ_sourceBook: "高中思想政治统编版选择性必修2 法律与生活", CJ_index: "{\"unitIndex\": 4, \"lessonIndex\": 2, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:96"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:96", title: "依法收集运用证据", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修2 法律与生活\", \"chapter\": \"第十课 诉讼实现公平正义\", \"unit\": \"第四单元 社会争议解决\", \"sourceBook\": \"高中思想政治统编版选择性必修2 法律与生活\", \"index\": {\"unitIndex\": 4, \"lessonIndex\": 2, \"SubsectionIndex\": 3}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修2 法律与生活", CJ_chapter: "第十课 诉讼实现公平正义", CJ_unit: "第四单元 社会争议解决", CJ_sourceBook: "高中思想政治统编版选择性必修2 法律与生活", CJ_index: "{\"unitIndex\": 4, \"lessonIndex\": 2, \"SubsectionIndex\": 3}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:97"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:97", title: "思维的含义与特征", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第一课 走进思维世界\", \"unit\": \"第一单元 树立科学思维观念\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 1, \"lessonIndex\": 1, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第一课 走进思维世界", CJ_unit: "第一单元 树立科学思维观念", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 1, \"lessonIndex\": 1, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:98"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:98", title: "思维形态及其特征", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第一课 走进思维世界\", \"unit\": \"第一单元 树立科学思维观念\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 1, \"lessonIndex\": 1, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第一课 走进思维世界", CJ_unit: "第一单元 树立科学思维观念", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 1, \"lessonIndex\": 1, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:99"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:99", title: "“逻辑”的多种含义", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第二课 把握逻辑要义\", \"unit\": \"第一单元 树立科学思维观念\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 1, \"lessonIndex\": 2, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第二课 把握逻辑要义", CJ_unit: "第一单元 树立科学思维观念", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 1, \"lessonIndex\": 2, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:100"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:100", title: "逻辑思维的基本要求", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第二课 把握逻辑要义\", \"unit\": \"第一单元 树立科学思维观念\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 1, \"lessonIndex\": 2, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第二课 把握逻辑要义", CJ_unit: "第一单元 树立科学思维观念", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 1, \"lessonIndex\": 2, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:101"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:101", title: "科学思维的含义与特征", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第三课 领会科学思维\", \"unit\": \"第一单元 树立科学思维观念\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 1, \"lessonIndex\": 3, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第三课 领会科学思维", CJ_unit: "第一单元 树立科学思维观念", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 1, \"lessonIndex\": 3, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:102"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:102", title: "学习科学思维的意义", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第三课 领会科学思维\", \"unit\": \"第一单元 树立科学思维观念\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 1, \"lessonIndex\": 3, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第三课 领会科学思维", CJ_unit: "第一单元 树立科学思维观念", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 1, \"lessonIndex\": 3, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:103"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:103", title: "概念的概述", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第四课 准确把握概念\", \"unit\": \"第二单元 遵循逻辑思维规则\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 1, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第四课 准确把握概念", CJ_unit: "第二单元 遵循逻辑思维规则", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 1, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:104"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:104", title: "明确概念的方法", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第四课 准确把握概念\", \"unit\": \"第二单元 遵循逻辑思维规则\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 1, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第四课 准确把握概念", CJ_unit: "第二单元 遵循逻辑思维规则", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 1, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:105"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:105", title: "判断的概述", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第五课 正确运用判断\", \"unit\": \"第二单元 遵循逻辑思维规则\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 2, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第五课 正确运用判断", CJ_unit: "第二单元 遵循逻辑思维规则", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 2, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:106"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:106", title: "正确运用简单判断", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第五课 正确运用判断\", \"unit\": \"第二单元 遵循逻辑思维规则\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 2, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第五课 正确运用判断", CJ_unit: "第二单元 遵循逻辑思维规则", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 2, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:107"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:107", title: "正确运用复合判断", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第五课 正确运用判断\", \"unit\": \"第二单元 遵循逻辑思维规则\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 2, \"SubsectionIndex\": 3}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第五课 正确运用判断", CJ_unit: "第二单元 遵循逻辑思维规则", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 2, \"SubsectionIndex\": 3}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:108"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:108", title: "推理与演绎推理概述", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第六课 掌握演绎推理方法\", \"unit\": \"第二单元 遵循逻辑思维规则\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 3, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第六课 掌握演绎推理方法", CJ_unit: "第二单元 遵循逻辑思维规则", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 3, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:109"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:109", title: "简单判断的演绎推理方法", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第六课 掌握演绎推理方法\", \"unit\": \"第二单元 遵循逻辑思维规则\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 3, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第六课 掌握演绎推理方法", CJ_unit: "第二单元 遵循逻辑思维规则", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 3, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:110"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:110", title: "复合判断的演绎推理方法", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第六课 掌握演绎推理方法\", \"unit\": \"第二单元 遵循逻辑思维规则\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 3, \"SubsectionIndex\": 3}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第六课 掌握演绎推理方法", CJ_unit: "第二单元 遵循逻辑思维规则", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 3, \"SubsectionIndex\": 3}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:111"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:111", title: "归纳推理及其方法", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第七课 学会归纳与类比推理\", \"unit\": \"第二单元 遵循逻辑思维规则\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 4, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第七课 学会归纳与类比推理", CJ_unit: "第二单元 遵循逻辑思维规则", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 4, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:112"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:112", title: "类比推理及其方法", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第七课 学会归纳与类比推理\", \"unit\": \"第二单元 遵循逻辑思维规则\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 2, \"lessonIndex\": 4, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第七课 学会归纳与类比推理", CJ_unit: "第二单元 遵循逻辑思维规则", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 2, \"lessonIndex\": 4, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:113"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:113", title: "辩证思维的含义与特征", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第八课 把握辩证分合\", \"unit\": \"第三单元 运用辩证思维方法\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 3, \"lessonIndex\": 1, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第八课 把握辩证分合", CJ_unit: "第三单元 运用辩证思维方法", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 3, \"lessonIndex\": 1, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:114"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:114", title: "分析与综合及其辩证关系", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第八课 把握辩证分合\", \"unit\": \"第三单元 运用辩证思维方法\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 3, \"lessonIndex\": 1, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第八课 把握辩证分合", CJ_unit: "第三单元 运用辩证思维方法", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 3, \"lessonIndex\": 1, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:115"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:115", title: "认识质量互变规律", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第九课 理解质量互变\", \"unit\": \"第三单元 运用辩证思维方法\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 3, \"lessonIndex\": 2, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第九课 理解质量互变", CJ_unit: "第三单元 运用辩证思维方法", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 3, \"lessonIndex\": 2, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:116"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:116", title: "把握适度原则", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第九课 理解质量互变\", \"unit\": \"第三单元 运用辩证思维方法\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 3, \"lessonIndex\": 2, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第九课 理解质量互变", CJ_unit: "第三单元 运用辩证思维方法", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 3, \"lessonIndex\": 2, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:117"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:117", title: "不作简单肯定或否定", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第十课 推动认识发展\", \"unit\": \"第三单元 运用辩证思维方法\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 3, \"lessonIndex\": 3, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第十课 推动认识发展", CJ_unit: "第三单元 运用辩证思维方法", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 3, \"lessonIndex\": 3, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:118"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:118", title: "体会认识发展的历程", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第十课 推动认识发展\", \"unit\": \"第三单元 运用辩证思维方法\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 3, \"lessonIndex\": 3, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第十课 推动认识发展", CJ_unit: "第三单元 运用辩证思维方法", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 3, \"lessonIndex\": 3, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:119"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:119", title: "创新思维的含义与特征", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第十一课 创新思维要善于联想\", \"unit\": \"第四单元 提高创新思维能力\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 4, \"lessonIndex\": 1, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第十一课 创新思维要善于联想", CJ_unit: "第四单元 提高创新思维能力", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 4, \"lessonIndex\": 1, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:120"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:120", title: "联想思维的含义与方法", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第十一课 创新思维要善于联想\", \"unit\": \"第四单元 提高创新思维能力\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 4, \"lessonIndex\": 1, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第十一课 创新思维要善于联想", CJ_unit: "第四单元 提高创新思维能力", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 4, \"lessonIndex\": 1, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:121"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:121", title: "发散思维与聚合思维的方法", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第十二课 创新思维要多路探索\", \"unit\": \"第四单元 提高创新思维能力\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 4, \"lessonIndex\": 2, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第十二课 创新思维要多路探索", CJ_unit: "第四单元 提高创新思维能力", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 4, \"lessonIndex\": 2, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:122"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:122", title: "逆向思维的含义与作用", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第十二课 创新思维要多路探索\", \"unit\": \"第四单元 提高创新思维能力\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 4, \"lessonIndex\": 2, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第十二课 创新思维要多路探索", CJ_unit: "第四单元 提高创新思维能力", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 4, \"lessonIndex\": 2, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:123"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:123", title: "超前思维的含义与特征", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第十三课 创新思维要力求超前\", \"unit\": \"第四单元 提高创新思维能力\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 4, \"lessonIndex\": 3, \"SubsectionIndex\": 1}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第十三课 创新思维要力求超前", CJ_unit: "第四单元 提高创新思维能力", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 4, \"lessonIndex\": 3, \"SubsectionIndex\": 1}"};
+
+MERGE (n:Subsection {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:124"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:124", title: "超前思维的方法与意义", description: "", subject: "SB0310", type: "Subsection", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"统编版\", \"volume\": \"选择性必修3 逻辑与思维\", \"chapter\": \"第十三课 创新思维要力求超前\", \"unit\": \"第四单元 提高创新思维能力\", \"sourceBook\": \"高中思想政治统编版选择性必修3 逻辑与思维\", \"index\": {\"unitIndex\": 4, \"lessonIndex\": 3, \"SubsectionIndex\": 2}}", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "统编版", CJ_volume: "选择性必修3 逻辑与思维", CJ_chapter: "第十三课 创新思维要力求超前", CJ_unit: "第四单元 提高创新思维能力", CJ_sourceBook: "高中思想政治统编版选择性必修3 逻辑与思维", CJ_index: "{\"unitIndex\": 4, \"lessonIndex\": 3, \"SubsectionIndex\": 2}"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:1"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:1", title: "原始社会的解体和阶级社会的演进", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修1 中国特色社会主义\", \"chapter\": \"第一课 社会主义从空想到科学、从理论到实践的发展\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修1 中国特色社会主义", CJ_chapter: "第一课 社会主义从空想到科学、从理论到实践的发展"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:2"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:2", title: "科学社会主义的理论与实践", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修1 中国特色社会主义\", \"chapter\": \"第一课 社会主义从空想到科学、从理论到实践的发展\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修1 中国特色社会主义", CJ_chapter: "第一课 社会主义从空想到科学、从理论到实践的发展"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:3"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:3", title: "新民主主义革命的胜利", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修1 中国特色社会主义\", \"chapter\": \"第二课 只有社会主义才能救中国\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修1 中国特色社会主义", CJ_chapter: "第二课 只有社会主义才能救中国"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:4"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:4", title: "社会主义制度在中国的确立", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修1 中国特色社会主义\", \"chapter\": \"第二课 只有社会主义才能救中国\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修1 中国特色社会主义", CJ_chapter: "第二课 只有社会主义才能救中国"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:5"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:5", title: "伟大的改革开放", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修1 中国特色社会主义\", \"chapter\": \"第三课 只有中国特色社会主义才能发展中国\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修1 中国特色社会主义", CJ_chapter: "第三课 只有中国特色社会主义才能发展中国"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:6"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:6", title: "中国特色社会主义的创立、发展和完善", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修1 中国特色社会主义\", \"chapter\": \"第三课 只有中国特色社会主义才能发展中国\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修1 中国特色社会主义", CJ_chapter: "第三课 只有中国特色社会主义才能发展中国"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:7"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:7", title: "中国特色社会主义进入新时代", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修1 中国特色社会主义\", \"chapter\": \"第四课 只有坚持和发展中国特色社会主义才能实现中华民族伟大复兴\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修1 中国特色社会主义", CJ_chapter: "第四课 只有坚持和发展中国特色社会主义才能实现中华民族伟大复兴"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:8"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:8", title: "实现中华民族伟大复兴的中国梦", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修1 中国特色社会主义\", \"chapter\": \"第四课 只有坚持和发展中国特色社会主义才能实现中华民族伟大复兴\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修1 中国特色社会主义", CJ_chapter: "第四课 只有坚持和发展中国特色社会主义才能实现中华民族伟大复兴"};
+
+MERGE (n:Section {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:9"})
+SET n += {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:9", title: "习近平新时代中国特色社会主义思想", description: "", subject: "SB0310", type: "Section", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"统编版\", \"volume\": \"必修1 中国特色社会主义\", \"chapter\": \"第四课 只有坚持和发展中国特色社会主义才能实现中华民族伟大复兴\"}", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "统编版", CJ_volume: "必修1 中国特色社会主义", CJ_chapter: "第四课 只有坚持和发展中国特色社会主义才能实现中华民族伟大复兴"};
+
+MERGE (n:CourseStructure {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1", title: "必修课程", description: "必修课程是培育全体学生学科核心素养的基本载体。", subject: "SB0310", type: "CourseStructure", applicableLevel: "OB06", contentJson: "{}"};
+
+MERGE (n:CourseStructure {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2", title: "选择性必修课程", description: "选择性必修课程是对必修课程的延展，满足学生多样化的学习兴趣和升学需要。", subject: "SB0310", type: "CourseStructure", applicableLevel: "OB06", contentJson: "{}"};
+
+MERGE (n:CourseStructure {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3", title: "选修课程", description: "选修课程更关注学生专业素养发展、高校自主招生及学生个性化发展的需要。", subject: "SB0310", type: "CourseStructure", applicableLevel: "OB06", contentJson: "{}"};
+
+MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:1"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:1", title: "1.人类社会发展的进程与趋势", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:1\", \"academicRequirements\": \"通过本模块的学习，学生能够结合社会实践活动，了解人类社会发展的一般过程和基本规律；确信社会主义终将代替资本主义是不可抗拒的历史趋势；懂得中国特色社会主义是科学社会主义的成功实践，是中国近现代历史发展的必然选择；理解中国共产党为什么能，中国特色社会主义为什么好，归根到底是马克思主义行，是中国化时代化的马克思主义行；明确中国特色社会主义是实现中华民族伟大复兴的必由之路，以中国式现代化全面推进强国建设、民族复兴是新时代新征程党和国家的中心任务；展现中国特色社会主义道路自信、理论自信、制度自信、文化自信；坚定马克思主义信仰、中国特色社会主义信念、中华民族伟大复兴信心。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:1", CJ_academicRequirements: "通过本模块的学习，学生能够结合社会实践活动，了解人类社会发展的一般过程和基本规律；确信社会主义终将代替资本主义是不可抗拒的历史趋势；懂得中国特色社会主义是科学社会主义的成功实践，是中国近现代历史发展的必然选择；理解中国共产党为什么能，中国特色社会主义为什么好，归根到底是马克思主义行，是中国化时代化的马克思主义行；明确中国特色社会主义是实现中华民族伟大复兴的必由之路，以中国式现代化全面推进强国建设、民族复兴是新时代新征程党和国家的中心任务；展现中国特色社会主义道路自信、理论自信、制度自信、文化自信；坚定马克思主义信仰、中国特色社会主义信念、中华民族伟大复兴信心。"};
+
+MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:2"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:2", title: "2. 中国特色社会主义的探索、开创与发展", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:1\", \"academicRequirements\": \"通过本模块的学习，学生能够结合社会实践活动，了解人类社会发展的一般过程和基本规律；确信社会主义终将代替资本主义是不可抗拒的历史趋势；懂得中国特色社会主义是科学社会主义的成功实践，是中国近现代历史发展的必然选择；理解中国共产党为什么能，中国特色社会主义为什么好，归根到底是马克思主义行，是中国化时代化的马克思主义行；明确中国特色社会主义是实现中华民族伟大复兴的必由之路，以中国式现代化全面推进强国建设、民族复兴是新时代新征程党和国家的中心任务；展现中国特色社会主义道路自信、理论自信、制度自信、文化自信；坚定马克思主义信仰、中国特色社会主义信念、中华民族伟大复兴信心。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:1", CJ_academicRequirements: "通过本模块的学习，学生能够结合社会实践活动，了解人类社会发展的一般过程和基本规律；确信社会主义终将代替资本主义是不可抗拒的历史趋势；懂得中国特色社会主义是科学社会主义的成功实践，是中国近现代历史发展的必然选择；理解中国共产党为什么能，中国特色社会主义为什么好，归根到底是马克思主义行，是中国化时代化的马克思主义行；明确中国特色社会主义是实现中华民族伟大复兴的必由之路，以中国式现代化全面推进强国建设、民族复兴是新时代新征程党和国家的中心任务；展现中国特色社会主义道路自信、理论自信、制度自信、文化自信；坚定马克思主义信仰、中国特色社会主义信念、中华民族伟大复兴信心。"};
+
+MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:3"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:3", title: "1.经济制度与经济体制", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:2\", \"academicRequirements\": \"通过本模块的学习，学生能够结合社会实践活动，初步运用中国特色社会主义政治经济学的基本观点，观察和分析经济社会现象；了解社会主义基本经济制度的优越性；理解坚持社会主义市场经济和深化经济体制改革的意义；了解加快构建新发展格局、着力推动高质量发展的措施，明确发展新质生产力是推动高质量发展的内在要求和重要着力点；树立以人民为中心的发展思想；尝试对促进社会公正、实现共同富裕、营造良好社会风尚、完善社会保障的政策提出建议。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:2", CJ_academicRequirements: "通过本模块的学习，学生能够结合社会实践活动，初步运用中国特色社会主义政治经济学的基本观点，观察和分析经济社会现象；了解社会主义基本经济制度的优越性；理解坚持社会主义市场经济和深化经济体制改革的意义；了解加快构建新发展格局、着力推动高质量发展的措施，明确发展新质生产力是推动高质量发展的内在要求和重要着力点；树立以人民为中心的发展思想；尝试对促进社会公正、实现共同富裕、营造良好社会风尚、完善社会保障的政策提出建议。"};
+
+MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:4"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:4", title: "2.经济发展与社会进步", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:2\", \"academicRequirements\": \"通过本模块的学习，学生能够结合社会实践活动，初步运用中国特色社会主义政治经济学的基本观点，观察和分析经济社会现象；了解社会主义基本经济制度的优越性；理解坚持社会主义市场经济和深化经济体制改革的意义；了解加快构建新发展格局、着力推动高质量发展的措施，明确发展新质生产力是推动高质量发展的内在要求和重要着力点；树立以人民为中心的发展思想；尝试对促进社会公正、实现共同富裕、营造良好社会风尚、完善社会保障的政策提出建议。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:2", CJ_academicRequirements: "通过本模块的学习，学生能够结合社会实践活动，初步运用中国特色社会主义政治经济学的基本观点，观察和分析经济社会现象；了解社会主义基本经济制度的优越性；理解坚持社会主义市场经济和深化经济体制改革的意义；了解加快构建新发展格局、着力推动高质量发展的措施，明确发展新质生产力是推动高质量发展的内在要求和重要着力点；树立以人民为中心的发展思想；尝试对促进社会公正、实现共同富裕、营造良好社会风尚、完善社会保障的政策提出建议。"};
+
+MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:5"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:5", title: "1.中国共产党的领导", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:3\", \"academicRequirements\": \"通过本模块的学习，学生能够结合社会实践活动，了解中国共产党的性质、宗旨和指导思想，明确党的执政地位是历史和人民的选择；阐释中国特色社会主义政治制度的基本内容、鲜明特点和主要优势；了解全面推进依法治国的总目标，知道科学立法、严格执法、公正司法、全民守法的基本要求；懂得走中国特色社会主义政治发展道路，必须坚持党的领导、人民当家作主、依法治国有机统一，理解推进国家治理体系和治理能力现代化的重要性；具备有序参与国家政治生活和社会公共生活的能力。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:3", CJ_academicRequirements: "通过本模块的学习，学生能够结合社会实践活动，了解中国共产党的性质、宗旨和指导思想，明确党的执政地位是历史和人民的选择；阐释中国特色社会主义政治制度的基本内容、鲜明特点和主要优势；了解全面推进依法治国的总目标，知道科学立法、严格执法、公正司法、全民守法的基本要求；懂得走中国特色社会主义政治发展道路，必须坚持党的领导、人民当家作主、依法治国有机统一，理解推进国家治理体系和治理能力现代化的重要性；具备有序参与国家政治生活和社会公共生活的能力。"};
+
+MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:6"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:6", title: "2.人民当家作主", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:3\", \"academicRequirements\": \"通过本模块的学习，学生能够结合社会实践活动，了解中国共产党的性质、宗旨和指导思想，明确党的执政地位是历史和人民的选择；阐释中国特色社会主义政治制度的基本内容、鲜明特点和主要优势；了解全面推进依法治国的总目标，知道科学立法、严格执法、公正司法、全民守法的基本要求；懂得走中国特色社会主义政治发展道路，必须坚持党的领导、人民当家作主、依法治国有机统一，理解推进国家治理体系和治理能力现代化的重要性；具备有序参与国家政治生活和社会公共生活的能力。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:3", CJ_academicRequirements: "通过本模块的学习，学生能够结合社会实践活动，了解中国共产党的性质、宗旨和指导思想，明确党的执政地位是历史和人民的选择；阐释中国特色社会主义政治制度的基本内容、鲜明特点和主要优势；了解全面推进依法治国的总目标，知道科学立法、严格执法、公正司法、全民守法的基本要求；懂得走中国特色社会主义政治发展道路，必须坚持党的领导、人民当家作主、依法治国有机统一，理解推进国家治理体系和治理能力现代化的重要性；具备有序参与国家政治生活和社会公共生活的能力。"};
+
+MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:7"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:7", title: "3.依法治国", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:3\", \"academicRequirements\": \"通过本模块的学习，学生能够结合社会实践活动，了解中国共产党的性质、宗旨和指导思想，明确党的执政地位是历史和人民的选择；阐释中国特色社会主义政治制度的基本内容、鲜明特点和主要优势；了解全面推进依法治国的总目标，知道科学立法、严格执法、公正司法、全民守法的基本要求；懂得走中国特色社会主义政治发展道路，必须坚持党的领导、人民当家作主、依法治国有机统一，理解推进国家治理体系和治理能力现代化的重要性；具备有序参与国家政治生活和社会公共生活的能力。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:3", CJ_academicRequirements: "通过本模块的学习，学生能够结合社会实践活动，了解中国共产党的性质、宗旨和指导思想，明确党的执政地位是历史和人民的选择；阐释中国特色社会主义政治制度的基本内容、鲜明特点和主要优势；了解全面推进依法治国的总目标，知道科学立法、严格执法、公正司法、全民守法的基本要求；懂得走中国特色社会主义政治发展道路，必须坚持党的领导、人民当家作主、依法治国有机统一，理解推进国家治理体系和治理能力现代化的重要性；具备有序参与国家政治生活和社会公共生活的能力。"};
+
+MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:8"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:8", title: "1.探索世界与追求真理", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:4\", \"academicRequirements\": \"通过本模块的学习，学生能够结合社会实践活动，了解马克思主义哲学的基本原理；运用辩证唯物主义和历史唯物主义观点认识自然界、人类社会、人类思维，确信实践是检验真理的唯一标准；实事求是、与时俱进地观察和分析经济、政治、文化、社会、生态等现象，在生活中作出科学的价值判断和行为选择，树立正确人生理想和信念，培养担当意识和社会责任感；发展社会主义先进文化，弘扬革命文化，传承中华优秀传统文化，尊重世界文化多样性，增强文化自信；树立正确的世界观、人生观、价值观。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:4", CJ_academicRequirements: "通过本模块的学习，学生能够结合社会实践活动，了解马克思主义哲学的基本原理；运用辩证唯物主义和历史唯物主义观点认识自然界、人类社会、人类思维，确信实践是检验真理的唯一标准；实事求是、与时俱进地观察和分析经济、政治、文化、社会、生态等现象，在生活中作出科学的价值判断和行为选择，树立正确人生理想和信念，培养担当意识和社会责任感；发展社会主义先进文化，弘扬革命文化，传承中华优秀传统文化，尊重世界文化多样性，增强文化自信；树立正确的世界观、人生观、价值观。"};
+
+MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:9"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:9", title: "2.认识社会与价值选择", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:4\", \"academicRequirements\": \"通过本模块的学习，学生能够结合社会实践活动，了解马克思主义哲学的基本原理；运用辩证唯物主义和历史唯物主义观点认识自然界、人类社会、人类思维，确信实践是检验真理的唯一标准；实事求是、与时俱进地观察和分析经济、政治、文化、社会、生态等现象，在生活中作出科学的价值判断和行为选择，树立正确人生理想和信念，培养担当意识和社会责任感；发展社会主义先进文化，弘扬革命文化，传承中华优秀传统文化，尊重世界文化多样性，增强文化自信；树立正确的世界观、人生观、价值观。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:4", CJ_academicRequirements: "通过本模块的学习，学生能够结合社会实践活动，了解马克思主义哲学的基本原理；运用辩证唯物主义和历史唯物主义观点认识自然界、人类社会、人类思维，确信实践是检验真理的唯一标准；实事求是、与时俱进地观察和分析经济、政治、文化、社会、生态等现象，在生活中作出科学的价值判断和行为选择，树立正确人生理想和信念，培养担当意识和社会责任感；发展社会主义先进文化，弘扬革命文化，传承中华优秀传统文化，尊重世界文化多样性，增强文化自信；树立正确的世界观、人生观、价值观。"};
+
+MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:10"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:10", title: "3.文化传承与文化创新", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:4\", \"academicRequirements\": \"通过本模块的学习，学生能够结合社会实践活动，了解马克思主义哲学的基本原理；运用辩证唯物主义和历史唯物主义观点认识自然界、人类社会、人类思维，确信实践是检验真理的唯一标准；实事求是、与时俱进地观察和分析经济、政治、文化、社会、生态等现象，在生活中作出科学的价值判断和行为选择，树立正确人生理想和信念，培养担当意识和社会责任感；发展社会主义先进文化，弘扬革命文化，传承中华优秀传统文化，尊重世界文化多样性，增强文化自信；树立正确的世界观、人生观、价值观。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:4", CJ_academicRequirements: "通过本模块的学习，学生能够结合社会实践活动，了解马克思主义哲学的基本原理；运用辩证唯物主义和历史唯物主义观点认识自然界、人类社会、人类思维，确信实践是检验真理的唯一标准；实事求是、与时俱进地观察和分析经济、政治、文化、社会、生态等现象，在生活中作出科学的价值判断和行为选择，树立正确人生理想和信念，培养担当意识和社会责任感；发展社会主义先进文化，弘扬革命文化，传承中华优秀传统文化，尊重世界文化多样性，增强文化自信；树立正确的世界观、人生观、价值观。"};
+
+MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:11"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:11", title: "1. 各具特色的国家", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:5\", \"academicRequirements\": \"通过本模块的学习，学生能够在全球视野中观察不同国家的政治制度，坚定中国特色社会主义道路自信、理论自信、制度自信、文化自信；弘扬全人类共同价值，理解各国相互联系的程度空前加深，全球越来越成为相互依存的命运共同体，懂得和平、发展、合作、共赢是历史潮流；解析当今世界多极化和经济全球化进程，理解国际组织在国际事务中的作用；明确国家利益和国家实力是决定国际关系的主要因素；具有融入国际社会的积极意愿和开放态度，自觉维护国家主权、安全、发展利益，推动构建人类命运共同体。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:5", CJ_academicRequirements: "通过本模块的学习，学生能够在全球视野中观察不同国家的政治制度，坚定中国特色社会主义道路自信、理论自信、制度自信、文化自信；弘扬全人类共同价值，理解各国相互联系的程度空前加深，全球越来越成为相互依存的命运共同体，懂得和平、发展、合作、共赢是历史潮流；解析当今世界多极化和经济全球化进程，理解国际组织在国际事务中的作用；明确国家利益和国家实力是决定国际关系的主要因素；具有融入国际社会的积极意愿和开放态度，自觉维护国家主权、安全、发展利益，推动构建人类命运共同体。"};
+
+MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:12"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:12", title: "2. 世界多极化", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:5\", \"academicRequirements\": \"通过本模块的学习，学生能够在全球视野中观察不同国家的政治制度，坚定中国特色社会主义道路自信、理论自信、制度自信、文化自信；弘扬全人类共同价值，理解各国相互联系的程度空前加深，全球越来越成为相互依存的命运共同体，懂得和平、发展、合作、共赢是历史潮流；解析当今世界多极化和经济全球化进程，理解国际组织在国际事务中的作用；明确国家利益和国家实力是决定国际关系的主要因素；具有融入国际社会的积极意愿和开放态度，自觉维护国家主权、安全、发展利益，推动构建人类命运共同体。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:5", CJ_academicRequirements: "通过本模块的学习，学生能够在全球视野中观察不同国家的政治制度，坚定中国特色社会主义道路自信、理论自信、制度自信、文化自信；弘扬全人类共同价值，理解各国相互联系的程度空前加深，全球越来越成为相互依存的命运共同体，懂得和平、发展、合作、共赢是历史潮流；解析当今世界多极化和经济全球化进程，理解国际组织在国际事务中的作用；明确国家利益和国家实力是决定国际关系的主要因素；具有融入国际社会的积极意愿和开放态度，自觉维护国家主权、安全、发展利益，推动构建人类命运共同体。"};
+
+MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:13"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:13", title: "3. 经济全球化", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:5\", \"academicRequirements\": \"通过本模块的学习，学生能够在全球视野中观察不同国家的政治制度，坚定中国特色社会主义道路自信、理论自信、制度自信、文化自信；弘扬全人类共同价值，理解各国相互联系的程度空前加深，全球越来越成为相互依存的命运共同体，懂得和平、发展、合作、共赢是历史潮流；解析当今世界多极化和经济全球化进程，理解国际组织在国际事务中的作用；明确国家利益和国家实力是决定国际关系的主要因素；具有融入国际社会的积极意愿和开放态度，自觉维护国家主权、安全、发展利益，推动构建人类命运共同体。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:5", CJ_academicRequirements: "通过本模块的学习，学生能够在全球视野中观察不同国家的政治制度，坚定中国特色社会主义道路自信、理论自信、制度自信、文化自信；弘扬全人类共同价值，理解各国相互联系的程度空前加深，全球越来越成为相互依存的命运共同体，懂得和平、发展、合作、共赢是历史潮流；解析当今世界多极化和经济全球化进程，理解国际组织在国际事务中的作用；明确国家利益和国家实力是决定国际关系的主要因素；具有融入国际社会的积极意愿和开放态度，自觉维护国家主权、安全、发展利益，推动构建人类命运共同体。"};
+
+MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:14"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:14", title: "4. 国际组织", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:5\", \"academicRequirements\": \"通过本模块的学习，学生能够在全球视野中观察不同国家的政治制度，坚定中国特色社会主义道路自信、理论自信、制度自信、文化自信；弘扬全人类共同价值，理解各国相互联系的程度空前加深，全球越来越成为相互依存的命运共同体，懂得和平、发展、合作、共赢是历史潮流；解析当今世界多极化和经济全球化进程，理解国际组织在国际事务中的作用；明确国家利益和国家实力是决定国际关系的主要因素；具有融入国际社会的积极意愿和开放态度，自觉维护国家主权、安全、发展利益，推动构建人类命运共同体。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:5", CJ_academicRequirements: "通过本模块的学习，学生能够在全球视野中观察不同国家的政治制度，坚定中国特色社会主义道路自信、理论自信、制度自信、文化自信；弘扬全人类共同价值，理解各国相互联系的程度空前加深，全球越来越成为相互依存的命运共同体，懂得和平、发展、合作、共赢是历史潮流；解析当今世界多极化和经济全球化进程，理解国际组织在国际事务中的作用；明确国家利益和国家实力是决定国际关系的主要因素；具有融入国际社会的积极意愿和开放态度，自觉维护国家主权、安全、发展利益，推动构建人类命运共同体。"};
+
+MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:15"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:15", title: "1. 民事权利与义务", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:6\", \"academicRequirements\": \"通过本模块的学习，学生能够结合生活实际，更加全面地认识民事权利与义务；更为具体地理解婚姻家庭中的法律责任，以及与创业和就业相关的法律制度；更为理性地看待生活中的矛盾和纠纷，懂得调解、仲裁、诉讼等不同的纠纷解决机制；进一步提高主动学法的意愿、自觉用法的能力。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:6", CJ_academicRequirements: "通过本模块的学习，学生能够结合生活实际，更加全面地认识民事权利与义务；更为具体地理解婚姻家庭中的法律责任，以及与创业和就业相关的法律制度；更为理性地看待生活中的矛盾和纠纷，懂得调解、仲裁、诉讼等不同的纠纷解决机制；进一步提高主动学法的意愿、自觉用法的能力。"};
+
+MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:16"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:16", title: "2. 家庭与婚姻", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:6\", \"academicRequirements\": \"通过本模块的学习，学生能够结合生活实际，更加全面地认识民事权利与义务；更为具体地理解婚姻家庭中的法律责任，以及与创业和就业相关的法律制度；更为理性地看待生活中的矛盾和纠纷，懂得调解、仲裁、诉讼等不同的纠纷解决机制；进一步提高主动学法的意愿、自觉用法的能力。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:6", CJ_academicRequirements: "通过本模块的学习，学生能够结合生活实际，更加全面地认识民事权利与义务；更为具体地理解婚姻家庭中的法律责任，以及与创业和就业相关的法律制度；更为理性地看待生活中的矛盾和纠纷，懂得调解、仲裁、诉讼等不同的纠纷解决机制；进一步提高主动学法的意愿、自觉用法的能力。"};
+
+MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:17"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:17", title: "3.就业与创业", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:6\", \"academicRequirements\": \"通过本模块的学习，学生能够结合生活实际，更加全面地认识民事权利与义务；更为具体地理解婚姻家庭中的法律责任，以及与创业和就业相关的法律制度；更为理性地看待生活中的矛盾和纠纷，懂得调解、仲裁、诉讼等不同的纠纷解决机制；进一步提高主动学法的意愿、自觉用法的能力。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:6", CJ_academicRequirements: "通过本模块的学习，学生能够结合生活实际，更加全面地认识民事权利与义务；更为具体地理解婚姻家庭中的法律责任，以及与创业和就业相关的法律制度；更为理性地看待生活中的矛盾和纠纷，懂得调解、仲裁、诉讼等不同的纠纷解决机制；进一步提高主动学法的意愿、自觉用法的能力。"};
+
+MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:18"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:18", title: "4. 社会争议解决", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:6\", \"academicRequirements\": \"通过本模块的学习，学生能够结合生活实际，更加全面地认识民事权利与义务；更为具体地理解婚姻家庭中的法律责任，以及与创业和就业相关的法律制度；更为理性地看待生活中的矛盾和纠纷，懂得调解、仲裁、诉讼等不同的纠纷解决机制；进一步提高主动学法的意愿、自觉用法的能力。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:6", CJ_academicRequirements: "通过本模块的学习，学生能够结合生活实际，更加全面地认识民事权利与义务；更为具体地理解婚姻家庭中的法律责任，以及与创业和就业相关的法律制度；更为理性地看待生活中的矛盾和纠纷，懂得调解、仲裁、诉讼等不同的纠纷解决机制；进一步提高主动学法的意愿、自觉用法的能力。"};
+
+MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:19"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:19", title: "1.学会科学思维", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:7\", \"academicRequirements\": \"通过本模块的学习，学生能够经历探究过程，明确科学思维的重要意义；学会遵循逻辑思维的规律；把握辩证思维的方法；提高创新思维的能力；提升自己的思维品质；正确运用科学思维方法观察和理解社会，处理学习和生活中遇到的问题。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:7", CJ_academicRequirements: "通过本模块的学习，学生能够经历探究过程，明确科学思维的重要意义；学会遵循逻辑思维的规律；把握辩证思维的方法；提高创新思维的能力；提升自己的思维品质；正确运用科学思维方法观察和理解社会，处理学习和生活中遇到的问题。"};
+
+MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:20"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:20", title: "2. 遵循逻辑思维要求", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:7\", \"academicRequirements\": \"通过本模块的学习，学生能够经历探究过程，明确科学思维的重要意义；学会遵循逻辑思维的规律；把握辩证思维的方法；提高创新思维的能力；提升自己的思维品质；正确运用科学思维方法观察和理解社会，处理学习和生活中遇到的问题。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:7", CJ_academicRequirements: "通过本模块的学习，学生能够经历探究过程，明确科学思维的重要意义；学会遵循逻辑思维的规律；把握辩证思维的方法；提高创新思维的能力；提升自己的思维品质；正确运用科学思维方法观察和理解社会，处理学习和生活中遇到的问题。"};
+
+MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:21"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:21", title: "3. 运用辩证思维方法", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:7\", \"academicRequirements\": \"通过本模块的学习，学生能够经历探究过程，明确科学思维的重要意义；学会遵循逻辑思维的规律；把握辩证思维的方法；提高创新思维的能力；提升自己的思维品质；正确运用科学思维方法观察和理解社会，处理学习和生活中遇到的问题。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:7", CJ_academicRequirements: "通过本模块的学习，学生能够经历探究过程，明确科学思维的重要意义；学会遵循逻辑思维的规律；把握辩证思维的方法；提高创新思维的能力；提升自己的思维品质；正确运用科学思维方法观察和理解社会，处理学习和生活中遇到的问题。"};
+
+MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:22"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:22", title: "4. 提高创新思维能力", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:7\", \"academicRequirements\": \"通过本模块的学习，学生能够经历探究过程，明确科学思维的重要意义；学会遵循逻辑思维的规律；把握辩证思维的方法；提高创新思维的能力；提升自己的思维品质；正确运用科学思维方法观察和理解社会，处理学习和生活中遇到的问题。\"}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:7", CJ_academicRequirements: "通过本模块的学习，学生能够经历探究过程，明确科学思维的重要意义；学会遵循逻辑思维的规律；把握辩证思维的方法；提高创新思维的能力；提升自己的思维品质；正确运用科学思维方法观察和理解社会，处理学习和生活中遇到的问题。"};
+
+MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:23"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:23", title: "1. 货币与市场", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:8\", \"academicRequirements\": null}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:8"};
+
+MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:24"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:24", title: "2. 收入与支出", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:8\", \"academicRequirements\": null}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:8"};
+
+MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:25"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:25", title: "3. 投资与理财", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:8\", \"academicRequirements\": null}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:8"};
+
+MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:26"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:26", title: "4. 企业与就业", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:8\", \"academicRequirements\": null}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:8"};
+
+MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:27"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:27", title: "1. 法官的职责", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:9\", \"academicRequirements\": null}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:9"};
+
+MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:28"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:28", title: "2.审判程序", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:9\", \"academicRequirements\": null}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:9"};
+
+MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:29"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:29", title: "3. 律师的职责", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:9\", \"academicRequirements\": null}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:9"};
+
+MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:30"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:30", title: "4. 辩护和代理", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:9\", \"academicRequirements\": null}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:9"};
+
+MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:31", title: "1. 百家争鸣的时代", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:10\", \"academicRequirements\": null}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:10"};
+
+MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:32", title: "2. 理学与心学的演变", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:10\", \"academicRequirements\": null}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:10"};
+
+MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:33", title: "3. 西方哲学的起源", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:10\", \"academicRequirements\": null}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:10"};
+
+MERGE (n:Theme {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
+SET n += {identifier: "urn:jy:politics:SB0310:OB06:Theme:34", title: "4. 西方哲学的发展", description: "", subject: "SB0310", type: "Theme", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:politics:SB0310:OB06:CourseModule:10\", \"academicRequirements\": null}", CJ_courseModule: "urn:jy:politics:SB0310:OB06:CourseModule:10"};
+
 // =====================================================
 // 导入关系
 // =====================================================
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:1"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:1"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:1"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:2"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:2"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:2"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:3"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:3"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:3"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:4"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:4"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:4"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:4"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:5"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:5"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:5"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:6"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:6"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:5"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:6"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:7"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:7"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:6"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:6"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:8"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:8"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:6"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:6"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:9"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:9"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:6"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:7"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:10"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:10"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:7"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:8"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:11"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:11"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:8"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:9"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:15"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:3"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:15"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:3"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:9"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:9"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:16"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:16"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:9"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:9"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:17"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:17"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:9"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:9"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:18"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:18"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:9"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:10"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:12"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:12"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:10"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:10"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:16"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:16"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:10"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:10"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:17"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:17"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:10"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:10"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:18"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:18"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:10"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:11"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:13"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:13"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:11"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:12"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:14"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:14"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:12"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:13"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:19"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:1"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:19"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:1"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:13"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:14"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:20"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:20"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:14"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:15"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:21"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:8"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:21"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:8"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:15"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:15"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:22"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:22"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:15"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:16"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:23"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:23"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:16"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:17"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:24"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:24"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:17"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:18"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:25"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:25"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:18"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:19"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:26"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:8"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:26"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:8"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:19"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:20"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:27"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:1"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:27"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:1"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:20"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:21"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:28"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:8"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:28"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:8"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:21"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:22"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:29"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:29"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:22"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:22"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:30"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:30"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:22"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:23"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:31"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:31"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:23"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:24"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:32"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:11"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:32"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:11"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:24"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:25"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:33"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:33"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:25"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:26"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:34"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:34"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:26"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:27"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:35"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:35"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:27"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:27"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:36"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:36"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:27"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:28"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:37"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:37"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:28"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:28"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:38"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:38"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:28"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:29"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:39"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:39"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:29"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:30"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:40"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:40"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:30"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:31"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:41"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:41"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:31"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:31"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:42"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:42"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:31"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:32"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:43"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:3"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:43"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:3"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:32"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:33"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:44"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:44"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:33"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:34"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:45"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:45"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:34"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:35"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:46"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:46"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:35"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:36"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:47"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:47"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:36"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:37"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:48"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:48"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:37"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:37"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:49"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:49"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:37"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:38"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:50"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:50"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:38"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:39"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:51"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:51"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:39"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:40"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:52"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:52"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:40"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:41"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:53"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:53"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:41"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:42"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:54"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:54"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:42"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:42"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:55"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:55"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:42"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:43"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:56"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:56"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:43"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:44"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:57"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:57"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:44"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:44"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:60"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:60"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:44"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:45"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:58"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:58"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:45"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:45"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:60"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:60"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:45"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:46"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:59"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:59"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:46"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:46"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:60"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:60"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:46"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:47"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:61"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:61"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:47"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:47"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:63"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:63"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:47"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:48"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:62"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:8"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:62"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:8"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:48"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:48"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:63"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:63"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:48"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:49"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:64"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:8"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:64"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:8"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:49"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:49"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:66"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:66"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:49"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:50"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:65"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:65"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:50"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:50"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:66"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:66"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:50"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:51"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:67"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:67"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:51"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:51"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:69"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:69"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:51"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:52"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:67"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:67"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:52"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:52"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:69"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:69"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:52"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:53"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:68"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:68"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:53"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:53"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:69"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:69"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:53"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:54"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:68"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:68"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:54"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:54"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:69"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:69"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:54"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:55"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:70"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:70"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:55"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:56"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:71"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:71"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:56"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:56"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:72"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:72"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:56"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:56"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:73"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:73"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:56"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:57"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:74"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:74"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:57"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:58"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:75"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:75"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:58"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:59"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:76"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:76"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:59"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:59"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:77"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:77"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:59"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:60"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:78"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:78"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:60"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:61"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:79"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:79"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:61"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:62"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:80"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:80"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:62"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:63"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:81"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:81"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:63"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:64"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:64"})
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:65"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:65"})
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:66"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:66"})
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:67"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:67"})
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:68"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:68"})
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:69"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:69"})
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:70"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:70"})
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:71"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:71"})
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:72"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:72"})
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:73"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:73"})
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:74"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:74"})
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:75"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:75"})
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:99"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:99"})
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:76"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:76"})
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:77"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:77"})
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:78"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:78"})
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:79"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:8"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:8"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:79"})
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:80"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:80"})
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:81"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:81"})
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:82"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:82"})
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:83"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:83"})
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:84"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:84"})
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:85"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:85"})
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:86"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:86"})
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:87"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:87"})
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:88"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:88"})
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:89"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:89"})
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:90"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:90"})
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:91"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:91"})
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:92"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:92"})
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:93"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:93"})
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:94"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:94"})
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:95"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:95"})
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:96"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:96"})
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:97"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:97"})
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:98"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
+SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:98"})
+MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
+SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:1"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:1"})
+MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
+SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:1"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:1"})
+MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
+SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:1"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
+SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:1"})
+MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
+SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:1"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:10"})
+MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
+SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:10"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:1"})
+MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
+SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:2"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:1"})
+MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
+SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:1"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:2"})
+MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
+SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:2"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
+SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:2"})
+MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
+SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:2"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
+MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
+SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:2"})
+MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
+SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:3"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:1"})
+MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
+SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:1"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:3"})
+MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
+SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:3"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
+MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
+SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:3"})
+MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
+SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:3"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:10"})
+MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
+SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:10"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:3"})
+MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
+SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:4"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:1"})
+MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
+SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:1"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:4"})
+MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
+SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:4"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
+SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:4"})
+MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
+SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:4"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:10"})
+MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
+SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:10"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:4"})
+MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
+SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:5"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
+MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
+SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:5"})
+MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
+SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:5"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
+SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:5"})
+MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
+SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:5"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:11"})
+MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
+SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:11"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:5"})
+MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
+SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:6"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
+MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
+SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:6"})
+MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
+SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:6"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
+SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:6"})
+MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
+SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:6"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:8"})
+MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
+SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:8"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:6"})
+MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
+SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:7"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
+MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
+SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:7"})
+MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
+SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:7"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:8"})
+MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
+SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:8"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:7"})
+MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
+SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:7"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:11"})
+MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
+SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:11"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:7"})
+MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
+SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:8"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
+MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
+SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:8"})
+MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
+SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:8"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
+SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:8"})
+MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
+SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:8"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:11"})
+MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
+SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:11"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:8"})
+MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
+SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:9"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:3"})
+MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
+SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:3"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:9"})
+MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
+SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:9"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
+MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
+SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:9"})
+MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
+SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:9"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:12"})
+MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
+SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:12"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:9"})
+MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
+SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:10"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:3"})
+MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
+SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:3"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:10"})
+MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
+SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:10"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
+MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
+SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:10"})
+MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
+SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:10"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:9"})
+MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
+SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:9"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:10"})
+MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
+SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:11"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:3"})
+MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
+SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:3"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:11"})
+MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
+SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:11"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:9"})
+MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
+SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:9"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:11"})
+MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
+SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:11"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:12"})
+MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
+SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:12"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:11"})
+MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
+SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:12"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:3"})
+MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
+SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:3"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:12"})
+MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
+SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:12"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
+MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
+SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:12"})
+MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
+SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:12"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:12"})
+MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
+SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:12"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:12"})
+MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
+SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:1"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:1"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:2"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:2"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:3"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:3"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:4"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:4"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:5"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:5"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:6"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:6"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:7"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:7"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:8"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:8"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:9"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:9"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:10"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:10"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:11"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:11"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:12"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:12"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:13"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:13"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:14"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:14"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:15"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:15"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:16"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:16"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:17"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:17"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:18"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:18"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:19"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:19"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:20"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:20"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:21"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:21"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:22"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:22"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:23"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:23"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:24"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:24"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:25"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:25"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:26"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:26"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:27"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:27"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:28"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:28"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:29"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:29"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:30"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:30"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:31"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:31"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:32"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:32"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:33"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:33"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:34"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:34"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:35"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:35"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:36"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:36"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:37"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:37"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:38"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:38"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:39"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:39"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:40"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:40"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:41"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:41"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:42"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:42"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:43"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:43"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:44"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:44"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:45"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:45"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:46"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:46"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:47"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:47"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:48"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:48"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:49"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:49"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:50"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:50"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:51"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:51"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:52"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:52"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:53"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:53"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:54"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:54"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:55"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:55"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:56"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:56"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:57"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:57"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:58"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:58"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:59"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:59"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:60"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:60"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:61"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:61"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:62"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:62"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:63"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:82"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:82"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:63"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:64"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:83"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:83"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:64"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:64"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:86"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:86"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:64"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:65"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:84"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:84"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:65"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:65"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:85"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:66"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:85"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:65"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:66"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:65"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:86"})
-MERGE (source)-[r:themeNeedsSectionKnowledge]->(target)
-SET r.label = "解决该二级主题需要掌握该节 / Theme requires Section knowledge";
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:67"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:86"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:65"})
-MERGE (source)-[r:sectionSupportsTheme]->(target)
-SET r.label = "该节为二级主题提供知识支撑 / Section supports Theme";
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:67"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:1"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:68"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:1"})
-MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:68"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:2"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:69"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:1"})
-MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:69"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:3"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:70"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:2"})
-MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:70"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:4"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:71"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:4"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:2"})
-MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:71"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:5"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:72"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:3"})
-MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:72"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:6"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:73"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:6"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:3"})
-MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:73"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:4"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:7"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:74"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:7"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:4"})
-MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:74"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:4"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:8"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:75"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:8"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:4"})
-MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:75"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:4"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:9"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:99"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:9"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:4"})
-MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:99"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:76"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:76"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:77"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:77"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:78"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:78"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:79"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:79"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:80"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:80"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:81"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:81"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:82"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:82"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:83"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:83"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:84"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:84"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:85"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:85"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:86"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:86"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:87"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:87"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:88"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:88"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:89"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:89"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:90"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:90"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:91"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:91"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:92"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:92"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:93"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:93"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:94"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:94"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:95"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:95"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:96"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:96"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:97"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:97"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:98"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
+MERGE (source)-[r:themeL2BelongsToTheme]->(target)
+SET r.label = "归属一级主题 / belongsToTheme";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:98"})
+MERGE (source)-[r:themeIncludesThemeL2]->(target)
+SET r.label = "包含二级主题 / includesThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:7"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:10"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:1"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:10"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:1"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:7"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:7"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:11"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:2"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:11"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:2"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:7"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:8"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:12"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:3"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:12"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:3"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:8"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:8"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:13"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:4"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:13"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:4"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:8"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:8"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:14"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:5"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:14"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:5"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:8"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:9"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:15"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:6"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:15"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:6"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:9"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:9"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:16"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:7"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:16"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:7"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:9"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:9"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:17"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:8"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:17"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:8"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:9"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:9"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:18"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:9"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:18"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:9"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:9"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:10"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:19"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:10"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:19"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:10"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:10"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:10"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:20"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:11"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:20"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:11"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:10"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:10"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:21"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:12"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:21"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:12"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:10"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:10"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:22"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:13"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:22"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:13"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:10"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:11"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:23"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:14"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:23"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:14"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:11"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:11"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:24"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:15"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:24"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:15"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:11"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:11"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:25"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:16"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:25"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:16"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:11"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:11"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:26"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:17"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:26"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:17"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:11"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:12"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:27"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:18"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:27"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:18"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:12"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:12"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:28"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:19"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:28"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:19"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:12"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:12"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:29"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:20"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:29"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:20"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:12"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:12"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:30"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:21"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:30"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:21"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:12"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:13"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:31"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:22"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:31"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:22"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:13"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:13"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:32"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:23"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:32"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:23"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:13"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:13"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:33"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:24"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:33"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:24"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:13"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:13"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:34"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:25"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:34"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:25"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:13"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:14"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:35"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:26"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:35"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:26"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:14"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:14"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:36"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:27"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:36"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:27"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:14"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:14"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:37"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:28"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:37"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:28"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:14"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:14"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:38"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:29"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:38"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:29"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:14"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:15"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:39"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:30"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:39"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:30"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:15"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:15"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:40"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:31"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:40"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:31"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:15"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:15"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:41"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:32"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:41"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:32"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:15"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:15"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:42"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:33"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:42"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:33"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:15"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:16"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:43"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:34"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:43"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:34"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:16"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:16"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:44"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:35"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:44"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:35"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:16"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:16"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:45"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:36"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:45"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:36"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:16"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:17"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:46"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:37"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:46"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:37"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:17"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:17"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:47"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:38"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:47"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:38"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:17"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:17"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:48"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:39"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:48"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:39"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:17"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:17"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:49"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:40"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:49"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:40"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:17"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:18"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:50"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:41"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:50"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:41"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:18"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:18"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:51"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:42"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:51"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:42"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:18"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:18"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:52"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:43"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:52"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:43"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:18"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:19"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:53"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:44"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:53"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:44"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:19"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:19"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:54"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:45"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:54"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:45"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:19"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:19"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:55"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:46"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:55"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:46"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:19"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:20"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:56"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:47"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:56"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:47"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:20"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:20"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:57"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:48"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:57"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:48"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:20"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:20"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:58"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:49"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:58"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:49"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:20"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:20"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:59"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:50"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:59"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:50"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:20"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:20"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:60"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:51"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:60"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:51"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:20"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:21"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:61"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:52"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:61"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:52"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:21"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:21"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:62"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:53"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:62"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:53"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:21"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:21"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:63"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:54"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:63"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:54"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:21"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:22"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:64"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:55"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:64"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:55"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:22"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:22"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:65"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:56"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:65"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:56"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:22"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:22"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:66"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:57"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:66"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:57"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:22"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:23"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:67"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:58"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:67"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:58"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:23"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:23"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:68"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:59"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:68"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:59"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:23"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:23"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:69"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:60"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:69"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:60"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:23"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:24"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:70"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:61"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:70"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:61"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:24"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:24"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:71"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:62"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:71"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:62"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:24"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:24"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:72"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:63"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:72"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:63"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:24"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:24"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:73"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:64"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:73"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:64"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:24"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:25"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:74"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:65"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:74"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:65"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:25"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:25"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:75"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:66"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:75"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:66"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:25"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:25"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:76"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:67"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:76"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:67"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:25"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:25"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:77"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:68"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:77"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:68"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:25"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:25"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:78"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:69"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:78"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:69"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:25"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:26"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:79"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:70"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:79"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:70"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:26"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:26"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:80"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:71"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:80"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:71"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:26"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:26"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:81"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:72"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:81"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:72"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:26"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:26"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:82"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:73"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:82"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:73"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:26"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:27"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:83"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:74"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:83"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:74"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:27"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:27"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:84"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:75"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:84"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:75"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:27"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:27"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:85"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:76"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:85"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:76"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:27"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:27"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Section:86"})
-MERGE (source)-[r:chapterContainsSection]->(target)
-SET r.label = "章节包含节 / containsSection";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:77"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Section:86"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:77"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:27"})
 MERGE (source)-[r:sectionBelongsToChapter]->(target)
-SET r.label = "节归属章节 / belongsToChapter";
+SET r.label = "隶属章节 / Section belongs to Chapter";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-MERGE (source)-[r:courseModuleBelongsToCourseStructure]->(target)
-SET r.label = "课程模块属于课程结构 / CourseModule belongsTo CourseStructure";
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:1"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:1"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:1"})
-MERGE (source)-[r:courseStructureIncludesCourseModule]->(target)
-SET r.label = "课程结构包含课程模块 / CourseStructure includes CourseModule";
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:1"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:1"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-MERGE (source)-[r:courseModuleBelongsToCourseStructure]->(target)
-SET r.label = "课程模块属于课程结构 / CourseModule belongsTo CourseStructure";
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:1"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:2"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:2"})
-MERGE (source)-[r:courseStructureIncludesCourseModule]->(target)
-SET r.label = "课程结构包含课程模块 / CourseStructure includes CourseModule";
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:2"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:1"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-MERGE (source)-[r:courseModuleBelongsToCourseStructure]->(target)
-SET r.label = "课程模块属于课程结构 / CourseModule belongsTo CourseStructure";
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:2"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:3"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:3"})
-MERGE (source)-[r:courseStructureIncludesCourseModule]->(target)
-SET r.label = "课程结构包含课程模块 / CourseStructure includes CourseModule";
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:3"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:2"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:4"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-MERGE (source)-[r:courseModuleBelongsToCourseStructure]->(target)
-SET r.label = "课程模块属于课程结构 / CourseModule belongsTo CourseStructure";
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:2"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:4"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:4"})
-MERGE (source)-[r:courseStructureIncludesCourseModule]->(target)
-SET r.label = "课程结构包含课程模块 / CourseStructure includes CourseModule";
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:4"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:2"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MERGE (source)-[r:courseModuleBelongsToCourseStructure]->(target)
-SET r.label = "课程模块属于课程结构 / CourseModule belongsTo CourseStructure";
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:3"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:5"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:5"})
-MERGE (source)-[r:courseStructureIncludesCourseModule]->(target)
-SET r.label = "课程结构包含课程模块 / CourseStructure includes CourseModule";
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:5"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:3"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:6"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MERGE (source)-[r:courseModuleBelongsToCourseStructure]->(target)
-SET r.label = "课程模块属于课程结构 / CourseModule belongsTo CourseStructure";
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:3"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:6"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:6"})
-MERGE (source)-[r:courseStructureIncludesCourseModule]->(target)
-SET r.label = "课程结构包含课程模块 / CourseStructure includes CourseModule";
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:6"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:3"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:7"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MERGE (source)-[r:courseModuleBelongsToCourseStructure]->(target)
-SET r.label = "课程模块属于课程结构 / CourseModule belongsTo CourseStructure";
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:4"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:7"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:7"})
-MERGE (source)-[r:courseStructureIncludesCourseModule]->(target)
-SET r.label = "课程结构包含课程模块 / CourseStructure includes CourseModule";
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:7"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:4"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:8"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MERGE (source)-[r:courseModuleBelongsToCourseStructure]->(target)
-SET r.label = "课程模块属于课程结构 / CourseModule belongsTo CourseStructure";
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:4"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:8"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:8"})
-MERGE (source)-[r:courseStructureIncludesCourseModule]->(target)
-SET r.label = "课程结构包含课程模块 / CourseStructure includes CourseModule";
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:8"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:4"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:9"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MERGE (source)-[r:courseModuleBelongsToCourseStructure]->(target)
-SET r.label = "课程模块属于课程结构 / CourseModule belongsTo CourseStructure";
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:10"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:9"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:9"})
-MERGE (source)-[r:courseStructureIncludesCourseModule]->(target)
-SET r.label = "课程结构包含课程模块 / CourseStructure includes CourseModule";
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:9"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:10"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:10"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MERGE (source)-[r:courseModuleBelongsToCourseStructure]->(target)
-SET r.label = "课程模块属于课程结构 / CourseModule belongsTo CourseStructure";
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:10"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:10"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:10"})
-MERGE (source)-[r:courseStructureIncludesCourseModule]->(target)
-SET r.label = "课程结构包含课程模块 / CourseStructure includes CourseModule";
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:10"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:10"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:11"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:11"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:11"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:11"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:11"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:12"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:12"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:11"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:12"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:13"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:13"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:12"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:12"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:14"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:14"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:12"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:14"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:15"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:15"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:14"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:14"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:16"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:16"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:14"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:15"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:17"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:17"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:15"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:15"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:18"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:18"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:15"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:16"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:19"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:19"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:16"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:16"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:20"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:20"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:16"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:16"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:21"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:21"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:16"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:18"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:22"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:22"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:18"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:18"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:23"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:23"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:18"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:19"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:24"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:24"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:19"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:19"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:25"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:25"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:19"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:19"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:26"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:26"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:19"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:20"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:27"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:27"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:20"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:20"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:28"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:28"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:20"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:20"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:29"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:29"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:20"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:20"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:30"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:30"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:20"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:22"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:31"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:31"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:22"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:22"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:32"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:32"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:22"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:22"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:33"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:33"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:22"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:23"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:34"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:34"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:23"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:23"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:35"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:35"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:23"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:24"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:36"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:36"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:24"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:24"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:37"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:37"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:24"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:24"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:38"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:38"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:24"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:26"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:39"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:39"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:26"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:26"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:40"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:40"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:26"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:27"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:41"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:41"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:27"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:27"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:42"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:42"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:27"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:27"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:43"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:43"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:27"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:28"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:44"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:44"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:28"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:28"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:45"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:45"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:28"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:28"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:46"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:46"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:28"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:30"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:47"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:47"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:30"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:30"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:48"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:48"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:30"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:30"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:49"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:49"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:30"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:31"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:50"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:50"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:31"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:31"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:51"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:51"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:31"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:31"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:52"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:52"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:31"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:32"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:53"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:53"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:32"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:32"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:54"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:54"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:32"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:32"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:55"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:55"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:32"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:34"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:56"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:56"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:34"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:34"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:57"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:57"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:34"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:34"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:58"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:58"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:34"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:35"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:59"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:59"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:35"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:35"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:60"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:60"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:35"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:37"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:61"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:61"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:37"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:37"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:62"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:62"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:37"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:38"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:63"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:63"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:38"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:38"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:64"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:64"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:38"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:39"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:65"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:65"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:39"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:39"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:66"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:66"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:39"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:41"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:67"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:67"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:41"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:41"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:68"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:68"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:41"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:42"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:69"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:69"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:42"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:42"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:70"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:70"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:42"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:44"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:71"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:71"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:44"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:44"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:72"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:72"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:44"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:44"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:73"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:73"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:44"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:45"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:74"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:74"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:45"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:45"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:75"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:75"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:45"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:47"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:76"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:76"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:47"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:47"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:77"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:77"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:47"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:48"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:78"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:78"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:48"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:48"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:79"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:79"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:48"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:49"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:80"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:80"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:49"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:49"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:81"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:81"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:49"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:50"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:82"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:82"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:50"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:50"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:83"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:83"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:50"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:52"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:84"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:84"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:52"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:52"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:85"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:85"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:52"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:53"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:86"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:86"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:53"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:53"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:87"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:87"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:53"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:55"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:88"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:88"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:55"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:55"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:89"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:89"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:55"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:56"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:90"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:90"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:56"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:56"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:91"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:91"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:56"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:58"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:92"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:92"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:58"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:58"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:93"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:93"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:58"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:59"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:94"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:94"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:59"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:59"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:95"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:95"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:59"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:59"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:96"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:96"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:59"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:61"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:97"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:97"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:61"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:61"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:98"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:98"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:61"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:62"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:99"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:99"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:62"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:62"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:100"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:100"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:62"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:63"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:101"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:101"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:63"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:63"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:102"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:102"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:63"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:65"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:103"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:103"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:65"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:65"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:104"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:104"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:65"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:66"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:105"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:105"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:66"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:66"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:106"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:106"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:66"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:66"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:107"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:107"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:66"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:67"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:108"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:108"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:67"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:67"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:109"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:109"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:67"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:67"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:110"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:110"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:67"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:68"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:111"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:111"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:68"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:68"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:112"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:112"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:68"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:70"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:113"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:113"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:70"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:70"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:114"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:114"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:70"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:71"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:115"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:115"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:71"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:71"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:116"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:116"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:71"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:72"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:117"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:117"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:72"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:72"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:118"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:118"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:72"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:74"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:119"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:119"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:74"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:74"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:120"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:120"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:74"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:75"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:121"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:121"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:75"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:75"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:122"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:122"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:75"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:76"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:123"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:123"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:76"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:76"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:124"})
+MERGE (source)-[r:sectionHasSubsection]->(target)
+SET r.label = "包含小节 / Section contains Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:124"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_other:76"})
+MERGE (source)-[r:subsectionBelongsToSection]->(target)
+SET r.label = "隶属节 / Subsection belongs to Section";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:1"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:1"})
@@ -3160,2702 +5933,1902 @@ MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
 MERGE (source)-[r:courseModuleIncludesTheme]->(target)
 SET r.label = "课程模块包含主题 / includesTheme";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:1"})
-MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
-SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:1"})
-MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
-SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
-MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
-SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:1"})
-MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
-SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:10"})
-MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
-SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:10"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:1"})
-MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
-SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:1"})
-MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
-SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:2"})
-MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
-SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
-MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
-SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:2"})
-MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
-SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
-MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
-SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:2"})
-MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
-SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:1"})
-MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
-SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:3"})
-MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
-SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
-MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
-SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:3"})
-MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
-SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:10"})
-MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
-SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:10"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:3"})
-MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
-SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:4"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:1"})
-MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
-SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:4"})
-MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
-SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:4"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
-MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
-SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:4"})
-MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
-SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:4"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:10"})
-MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
-SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:10"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:4"})
-MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
-SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
-MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
-SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:5"})
-MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
-SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
-SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:5"})
-MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
-SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:11"})
-MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
-SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:11"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:5"})
-MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
-SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:6"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
-MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
-SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:6"})
-MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
-SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:6"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
-SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:6"})
-MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
-SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:6"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:8"})
-MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
-SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:8"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:6"})
-MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
-SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:7"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
-MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
-SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:7"})
-MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
-SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:7"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:8"})
-MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
-SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:8"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:7"})
-MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
-SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:7"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:11"})
-MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
-SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:11"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:7"})
-MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
-SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:8"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
-MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
-SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:8"})
-MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
-SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:8"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
-SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:8"})
-MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
-SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:8"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:11"})
-MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
-SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:11"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:8"})
-MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
-SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:9"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:3"})
-MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
-SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:9"})
-MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
-SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:9"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
-MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
-SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:9"})
-MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
-SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:9"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:12"})
-MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
-SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:12"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:9"})
-MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
-SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:10"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:3"})
-MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
-SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:10"})
-MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
-SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:10"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
-MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
-SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:10"})
-MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
-SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:10"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:9"})
-MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
-SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:9"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:10"})
-MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
-SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:11"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:3"})
-MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
-SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:11"})
-MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
-SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:11"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:9"})
-MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
-SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:9"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:11"})
-MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
-SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:11"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:12"})
-MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
-SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:12"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:11"})
-MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
-SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:12"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:3"})
-MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
-SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:12"})
-MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
-SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:12"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
-MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
-SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:12"})
-MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
-SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:12"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:12"})
-MERGE (source)-[r:academicQualityReflectsCoreLiteracy]->(target)
-SET r.label = "学业质量体现核心素养 / reflectsCoreLiteracy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:12"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:12"})
-MERGE (source)-[r:coreLiteracyEvidencedByAcademicQuality]->(target)
-SET r.label = "核心素养在学业质量中表现 / evidencedInAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:1"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:2"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:3"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:4"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:4"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:5"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:6"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:6"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:7"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:7"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:8"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:8"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:9"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:9"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:10"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:10"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:11"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:11"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:12"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:12"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:13"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:13"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:14"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:14"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:15"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:15"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:16"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:16"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:17"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:17"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:18"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:18"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:19"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:19"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:20"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:20"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:21"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:21"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:22"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:22"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:23"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:23"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:24"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:24"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:25"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:25"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:26"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:26"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:27"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:27"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:28"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:28"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:29"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:29"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:30"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:30"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:31"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:31"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:32"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:32"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:33"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:33"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:34"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:34"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:35"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:35"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:36"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:36"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:37"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:37"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:38"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:38"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:39"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:39"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:40"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:40"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:41"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:41"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:42"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:42"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:43"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:43"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:44"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:44"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:45"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:45"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:46"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:46"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:47"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:47"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:48"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:48"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:49"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:49"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:50"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:50"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:51"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:51"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:52"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:52"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:53"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:53"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:54"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:54"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:55"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:55"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:56"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:56"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:57"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:57"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:58"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:58"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:59"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:59"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:60"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:60"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:61"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:61"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:62"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:62"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:63"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:63"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:64"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:64"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:65"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:65"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:66"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:66"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:67"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:67"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:68"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:68"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:69"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:69"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:70"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:70"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:71"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:71"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:72"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:72"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:73"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:73"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:74"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:74"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:75"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:75"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:99"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:99"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:76"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:76"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:77"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:77"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:78"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:78"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:79"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:79"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:80"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:80"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:81"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:81"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:82"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:82"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:83"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:83"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:84"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:84"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:85"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:85"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:86"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:86"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:87"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:87"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:1"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:1"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:1"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:1"})
+MERGE (source)-[r:sectionBelongsToChapter]->(target)
+SET r.label = "隶属章节 / Section belongs to Chapter";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:1"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:2"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:2"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:1"})
+MERGE (source)-[r:sectionBelongsToChapter]->(target)
+SET r.label = "隶属章节 / Section belongs to Chapter";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:2"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:3"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:3"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:2"})
+MERGE (source)-[r:sectionBelongsToChapter]->(target)
+SET r.label = "隶属章节 / Section belongs to Chapter";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:2"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:4"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:4"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:2"})
+MERGE (source)-[r:sectionBelongsToChapter]->(target)
+SET r.label = "隶属章节 / Section belongs to Chapter";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:3"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:5"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:5"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:3"})
+MERGE (source)-[r:sectionBelongsToChapter]->(target)
+SET r.label = "隶属章节 / Section belongs to Chapter";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:3"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:6"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:6"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:3"})
+MERGE (source)-[r:sectionBelongsToChapter]->(target)
+SET r.label = "隶属章节 / Section belongs to Chapter";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:4"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:7"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:7"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:4"})
+MERGE (source)-[r:sectionBelongsToChapter]->(target)
+SET r.label = "隶属章节 / Section belongs to Chapter";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:4"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:8"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:8"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:4"})
+MERGE (source)-[r:sectionBelongsToChapter]->(target)
+SET r.label = "隶属章节 / Section belongs to Chapter";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Chapter:4"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:9"})
+MERGE (source)-[r:chapterHasSection]->(target)
+SET r.label = "包含节 / Chapter contains Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:9"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Chapter:4"})
+MERGE (source)-[r:sectionBelongsToChapter]->(target)
+SET r.label = "隶属章节 / Section belongs to Chapter";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:1"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
+MERGE (source)-[r:courseModuleBelongsToCourseStructure]->(target)
+SET r.label = "课程模块属于课程结构 / CourseModule belongsTo CourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:1"})
+MERGE (source)-[r:courseStructureIncludesCourseModule]->(target)
+SET r.label = "课程结构包含课程模块 / CourseStructure includes CourseModule";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:2"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
+MERGE (source)-[r:courseModuleBelongsToCourseStructure]->(target)
+SET r.label = "课程模块属于课程结构 / CourseModule belongsTo CourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:2"})
+MERGE (source)-[r:courseStructureIncludesCourseModule]->(target)
+SET r.label = "课程结构包含课程模块 / CourseStructure includes CourseModule";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:3"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
+MERGE (source)-[r:courseModuleBelongsToCourseStructure]->(target)
+SET r.label = "课程模块属于课程结构 / CourseModule belongsTo CourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:3"})
+MERGE (source)-[r:courseStructureIncludesCourseModule]->(target)
+SET r.label = "课程结构包含课程模块 / CourseStructure includes CourseModule";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:4"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
+MERGE (source)-[r:courseModuleBelongsToCourseStructure]->(target)
+SET r.label = "课程模块属于课程结构 / CourseModule belongsTo CourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:4"})
+MERGE (source)-[r:courseStructureIncludesCourseModule]->(target)
+SET r.label = "课程结构包含课程模块 / CourseStructure includes CourseModule";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:5"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
+MERGE (source)-[r:courseModuleBelongsToCourseStructure]->(target)
+SET r.label = "课程模块属于课程结构 / CourseModule belongsTo CourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:5"})
+MERGE (source)-[r:courseStructureIncludesCourseModule]->(target)
+SET r.label = "课程结构包含课程模块 / CourseStructure includes CourseModule";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:6"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
+MERGE (source)-[r:courseModuleBelongsToCourseStructure]->(target)
+SET r.label = "课程模块属于课程结构 / CourseModule belongsTo CourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:6"})
+MERGE (source)-[r:courseStructureIncludesCourseModule]->(target)
+SET r.label = "课程结构包含课程模块 / CourseStructure includes CourseModule";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:7"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
+MERGE (source)-[r:courseModuleBelongsToCourseStructure]->(target)
+SET r.label = "课程模块属于课程结构 / CourseModule belongsTo CourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:7"})
+MERGE (source)-[r:courseStructureIncludesCourseModule]->(target)
+SET r.label = "课程结构包含课程模块 / CourseStructure includes CourseModule";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:8"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
+MERGE (source)-[r:courseModuleBelongsToCourseStructure]->(target)
+SET r.label = "课程模块属于课程结构 / CourseModule belongsTo CourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:8"})
+MERGE (source)-[r:courseStructureIncludesCourseModule]->(target)
+SET r.label = "课程结构包含课程模块 / CourseStructure includes CourseModule";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:9"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
+MERGE (source)-[r:courseModuleBelongsToCourseStructure]->(target)
+SET r.label = "课程模块属于课程结构 / CourseModule belongsTo CourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:9"})
+MERGE (source)-[r:courseStructureIncludesCourseModule]->(target)
+SET r.label = "课程结构包含课程模块 / CourseStructure includes CourseModule";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:10"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
+MERGE (source)-[r:courseModuleBelongsToCourseStructure]->(target)
+SET r.label = "课程模块属于课程结构 / CourseModule belongsTo CourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseModule:10"})
+MERGE (source)-[r:courseStructureIncludesCourseModule]->(target)
+SET r.label = "课程结构包含课程模块 / CourseStructure includes CourseModule";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:88"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:1"})
+MERGE (source)-[r:themeL2RelatesToSection]->(target)
+SET r.label = "内容要求对应节 / ThemeL2 corresponds to Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:1"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:88"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
+MERGE (source)-[r:sectionRelatesToThemeL2]->(target)
+SET r.label = "节落实内容要求 / Section implements ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:89"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:2"})
+MERGE (source)-[r:themeL2RelatesToSection]->(target)
+SET r.label = "内容要求对应节 / ThemeL2 corresponds to Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:2"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:89"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:90"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:31"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:90"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
+MERGE (source)-[r:sectionRelatesToThemeL2]->(target)
+SET r.label = "节落实内容要求 / Section implements ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:91"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:3"})
+MERGE (source)-[r:themeL2RelatesToSection]->(target)
+SET r.label = "内容要求对应节 / ThemeL2 corresponds to Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:3"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:91"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
+MERGE (source)-[r:sectionRelatesToThemeL2]->(target)
+SET r.label = "节落实内容要求 / Section implements ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:91"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:4"})
+MERGE (source)-[r:themeL2RelatesToSection]->(target)
+SET r.label = "内容要求对应节 / ThemeL2 corresponds to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:4"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:91"})
+MERGE (source)-[r:sectionRelatesToThemeL2]->(target)
+SET r.label = "节落实内容要求 / Section implements ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:92"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:4"})
+MERGE (source)-[r:themeL2RelatesToSection]->(target)
+SET r.label = "内容要求对应节 / ThemeL2 corresponds to Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:32"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:4"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:92"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:93"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:93"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:94"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:33"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:94"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:95"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:95"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:96"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:96"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:97"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:97"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:98"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
-MERGE (source)-[r:themeL2BelongsToTheme]->(target)
-SET r.label = "归属一级主题 / belongsToTheme";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:Theme:34"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:98"})
-MERGE (source)-[r:themeIncludesThemeL2]->(target)
-SET r.label = "包含二级主题 / includesThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:1"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:2"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:3"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:4"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:4"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:5"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:6"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:6"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:7"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:7"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:8"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:8"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:9"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:3"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:9"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:10"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:10"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:11"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:11"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:12"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:12"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:13"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:1"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:13"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:14"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:14"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:15"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:8"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:8"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:15"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:16"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:16"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:17"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:17"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:18"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:18"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:19"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:8"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:8"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:19"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:20"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:1"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:20"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:21"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:8"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:8"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:21"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:22"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:22"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:23"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:23"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:24"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:11"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:11"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:24"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:25"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:25"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:26"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:26"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:27"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:27"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:28"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:28"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:29"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:29"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:30"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:30"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:31"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:31"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:32"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:3"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:32"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:33"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:33"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:34"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:34"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:35"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:35"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:36"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:36"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:37"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:37"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:38"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:38"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:39"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:39"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:40"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:40"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:41"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:41"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:42"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:42"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:43"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:43"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:44"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:44"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:45"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:45"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:46"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:46"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:47"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:47"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:48"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:8"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:8"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:48"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:49"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:8"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:8"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:49"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:50"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:50"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:51"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:51"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:52"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:52"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:53"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:53"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:54"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:54"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:55"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:55"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:56"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:56"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:57"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:57"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:58"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:58"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:59"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:59"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:60"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:60"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:61"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:61"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:62"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:62"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:63"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:6"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:63"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:64"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:64"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:65"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:65"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:66"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:66"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:67"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:67"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:68"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:68"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:69"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:69"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:70"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:70"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:71"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:71"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:72"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:72"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:73"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:73"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:74"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:74"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:75"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:75"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:99"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:99"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:76"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:76"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:77"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:77"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:78"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:78"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:79"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:8"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:8"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:79"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:80"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:80"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:81"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:81"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+MERGE (source)-[r:sectionRelatesToThemeL2]->(target)
+SET r.label = "节落实内容要求 / Section implements ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:82"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:5"})
+MERGE (source)-[r:themeL2RelatesToSection]->(target)
+SET r.label = "内容要求对应节 / ThemeL2 corresponds to Section";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:5"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:82"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+MERGE (source)-[r:sectionRelatesToThemeL2]->(target)
+SET r.label = "节落实内容要求 / Section implements ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:82"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:6"})
+MERGE (source)-[r:themeL2RelatesToSection]->(target)
+SET r.label = "内容要求对应节 / ThemeL2 corresponds to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:6"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:82"})
+MERGE (source)-[r:sectionRelatesToThemeL2]->(target)
+SET r.label = "节落实内容要求 / Section implements ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:60"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:7"})
+MERGE (source)-[r:themeL2RelatesToSection]->(target)
+SET r.label = "内容要求对应节 / ThemeL2 corresponds to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:7"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:60"})
+MERGE (source)-[r:sectionRelatesToThemeL2]->(target)
+SET r.label = "节落实内容要求 / Section implements ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:60"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:8"})
+MERGE (source)-[r:themeL2RelatesToSection]->(target)
+SET r.label = "内容要求对应节 / ThemeL2 corresponds to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:8"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:60"})
+MERGE (source)-[r:sectionRelatesToThemeL2]->(target)
+SET r.label = "节落实内容要求 / Section implements ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:60"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:9"})
+MERGE (source)-[r:themeL2RelatesToSection]->(target)
+SET r.label = "内容要求对应节 / ThemeL2 corresponds to Section";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Section_bixiu1:9"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:60"})
+MERGE (source)-[r:sectionRelatesToThemeL2]->(target)
+SET r.label = "节落实内容要求 / Section implements ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:1"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
+MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
+SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:1"})
+MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
+SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:1"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
+MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
+SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:1"})
+MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
+SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:1"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
+MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
+SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:1"})
+MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
+SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:2"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
+MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
+SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:2"})
+MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
+SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:2"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
+MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
+SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:2"})
+MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
+SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:2"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
+MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
+SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:2"})
+MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
+SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:3"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
+MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
+SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:3"})
+MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
+SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:3"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
+MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
+SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:3"})
+MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
+SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:3"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
+MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
+SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:3"})
+MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
+SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:4"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
+MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
+SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:4"})
+MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
+SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:4"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
+MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
+SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:4"})
+MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
+SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:4"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
+MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
+SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:4"})
+MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
+SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:5"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
+MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
+SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:5"})
+MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
+SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:5"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
+MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
+SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:5"})
+MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
+SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:5"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
+MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
+SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:5"})
+MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
+SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:6"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
+MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
+SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:6"})
+MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
+SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:6"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
+MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
+SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:6"})
+MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
+SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:6"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
+MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
+SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:6"})
+MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
+SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:7"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
+MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
+SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:7"})
+MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
+SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:7"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
+MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
+SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:7"})
+MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
+SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:7"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
+MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
+SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:7"})
+MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
+SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:8"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
+MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
+SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:8"})
+MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
+SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:8"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
+MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
+SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:8"})
+MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
+SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:8"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
+MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
+SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:8"})
+MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
+SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:9"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
+MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
+SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:9"})
+MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
+SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:9"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
+MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
+SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:9"})
+MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
+SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:9"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
+MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
+SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:9"})
+MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
+SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:10"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
+MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
+SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:10"})
+MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
+SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:10"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
+MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
+SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:10"})
+MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
+SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:10"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
+MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
+SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:10"})
+MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
+SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:11"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
+MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
+SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:11"})
+MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
+SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:11"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
+MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
+SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:11"})
+MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
+SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:11"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
+MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
+SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:11"})
+MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
+SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:12"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
+MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
+SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:12"})
+MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
+SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:12"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
+MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
+SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:12"})
+MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
+SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:12"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
+MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
+SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:12"})
+MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
+SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:1"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:54"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:54"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:1"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:2"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:16"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:16"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:2"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:3"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:16"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:16"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:3"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:4"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:10"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:10"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:4"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:5"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:10"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:10"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:5"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:6"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:10"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:10"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:6"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:7"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:1"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:1"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:7"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:8"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:1"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:1"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:8"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:9"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:3"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:3"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:9"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:9"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:4"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:4"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:9"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:10"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:5"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:5"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:10"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:11"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:7"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:7"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:11"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:12"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:6"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:6"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:12"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:12"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:5"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:5"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:12"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:13"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:10"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:10"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:13"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:14"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:10"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:10"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:14"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:15"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:10"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:10"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:15"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:15"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:13"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:13"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:15"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:16"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:18"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:18"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:16"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:16"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:15"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:15"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:16"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:17"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:19"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:19"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:17"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:18"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:20"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:20"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:18"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:18"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:15"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:15"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:18"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:19"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:15"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:15"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:19"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:19"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:21"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:21"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:19"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:20"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:23"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:23"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:20"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:21"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:28"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:28"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:21"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:21"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:29"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:29"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:21"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:22"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:25"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:25"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:22"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:23"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:33"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:33"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:23"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:24"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:65"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:65"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:24"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:25"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:32"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:32"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:25"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:25"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:40"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:40"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:25"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:26"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:65"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:65"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:26"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:27"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:45"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:45"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:27"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:27"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:44"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:44"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:27"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:28"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:45"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:45"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:28"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:29"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:49"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:49"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:29"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:30"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:49"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:49"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:30"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:31"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:55"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:55"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:31"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:31"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:49"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:49"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:31"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:32"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:15"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:15"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:32"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:33"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:24"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:24"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:33"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:34"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:17"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:17"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:34"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:35"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:62"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:62"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:35"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:36"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:66"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:66"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:36"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:37"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:61"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:61"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:37"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:38"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:6"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:6"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:38"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:38"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:5"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:5"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:38"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:39"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:68"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:68"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:39"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:39"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:67"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:67"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:39"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:40"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:67"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:67"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:40"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:41"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:71"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:71"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:41"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:41"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:73"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:73"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:41"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:42"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:73"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:73"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:42"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:43"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:76"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:76"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:43"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:44"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:9"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:9"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:44"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:45"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:44"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:44"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:45"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:45"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:45"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:45"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:45"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:46"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:82"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:82"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:46"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:46"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:83"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:83"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:46"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:47"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:31"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:31"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:47"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:48"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:86"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:86"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:48"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:49"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:88"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:88"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:49"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:49"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:89"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:89"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:49"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:50"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:90"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:90"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:50"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:50"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:91"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:91"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:50"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:51"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:18"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:18"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:51"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:52"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:92"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:92"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:52"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:53"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:31"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:31"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:53"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:54"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:94"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:94"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:54"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:55"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:100"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:100"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:55"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:56"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:102"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:102"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:56"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:57"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:103"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:103"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:57"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:57"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:104"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:104"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:57"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:58"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:105"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:105"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:58"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:59"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:112"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:112"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:59"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:60"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:36"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:36"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:60"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:60"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:37"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:37"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:60"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:61"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:114"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:114"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:61"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:62"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:35"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:35"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:62"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:63"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:38"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:38"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:63"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:64"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:119"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:119"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:64"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:64"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:120"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:120"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:64"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:65"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:121"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:121"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:65"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:66"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:9"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:9"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:66"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:67"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:9"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:9"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:67"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:68"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:26"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:26"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:68"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:69"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:36"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:36"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:69"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:69"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:37"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:37"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:69"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:70"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:22"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:22"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:70"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:71"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:25"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:25"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:71"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:72"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:17"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:17"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:72"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:73"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:9"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:9"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:73"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:74"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:18"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:18"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:74"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:75"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:9"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:9"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:75"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:99"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:44"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:44"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:99"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:99"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:45"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:45"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:99"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:76"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:49"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:49"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:76"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:77"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:77"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:77"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:77"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:78"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:23"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:23"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:78"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:79"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:44"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:44"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:79"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:79"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:45"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:45"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:79"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:80"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:95"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:95"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:80"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:81"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:95"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:95"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:81"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:82"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:95"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:95"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:82"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:83"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:76"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:7"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:76"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:83"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:84"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:9"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:9"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:84"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:85"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:44"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:44"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:85"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:85"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:45"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:45"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:85"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:86"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:27"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:27"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:86"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:86"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:29"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:29"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:86"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:87"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:9"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:9"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:87"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:88"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:32"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:32"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:88"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:89"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:32"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:32"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:89"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:90"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:32"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:5"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:32"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:90"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:91"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:17"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:17"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:91"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:92"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:17"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:17"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:92"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:93"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:42"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:42"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:93"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:94"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:53"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:53"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:94"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:95"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:32"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:32"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:95"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:96"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:38"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:38"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:96"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:97"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:32"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:32"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:97"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:97"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:42"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:42"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:97"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:98"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
-MERGE (source)-[r:themeL2SupportsCoreLiteracy]->(target)
-SET r.label = "二级主题支撑核心素养 / ThemeL2 supports Core Literacy";
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:32"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CoreLiteracy:4"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:32"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:98"})
-MERGE (source)-[r:coreLiteracyGuidesThemeL2]->(target)
-SET r.label = "核心素养指导二级主题 / Core Literacy guides ThemeL2";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:1"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:1"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:1"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:2"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:2"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:2"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:3"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:3"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:3"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:4"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:4"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:4"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:4"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:4"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:4"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:5"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:5"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:5"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:6"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:6"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:6"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:6"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:6"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:6"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:7"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:7"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:7"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:7"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:7"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:7"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:8"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:8"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:8"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:8"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:8"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:8"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:9"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:9"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:9"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:9"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:9"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:9"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:10"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:10"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:10"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:10"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:10"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:10"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:11"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:11"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:11"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:11"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:11"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:11"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:12"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:12"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:12"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:12"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:12"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:12"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";

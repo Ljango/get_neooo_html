@@ -169,28 +169,102 @@
             font-size: 13px;
         }
         
+        /* 审核操作区域 - 醒目样式 */
         .review-actions {
             display: flex;
-            gap: 10px;
-            padding: 15px;
-            background: var(--bg-light);
-            border-top: 1px solid var(--border-color);
-            border-radius: 0 0 var(--radius) var(--radius);
+            gap: 15px;
+            padding: 15px 20px;
+            background: linear-gradient(135deg, #e8f4fd 0%, #d4e8f8 100%);
+            border: 2px solid #1890ff;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 8px rgba(24, 144, 255, 0.15);
         }
         
         .review-actions textarea {
             flex: 1;
-            padding: 10px;
-            border: 1px solid var(--border-color);
+            padding: 12px;
+            border: 1px solid #91caff;
             border-radius: var(--radius);
             resize: none;
-            height: 60px;
+            height: 50px;
+            font-size: 14px;
+        }
+        
+        .review-actions textarea:focus {
+            outline: none;
+            border-color: #1890ff;
+            box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
         }
         
         .review-buttons {
             display: flex;
             flex-direction: column;
             gap: 8px;
+        }
+        
+        .review-buttons .btn {
+            padding: 10px 20px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        
+        /* 可折叠内容样式 */
+        .collapsible-section h3 {
+            cursor: pointer;
+            user-select: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .collapsible-section h3:hover {
+            color: var(--primary-color);
+        }
+        
+        .collapsible-section h3 .toggle-icon {
+            font-size: 12px;
+            transition: transform 0.2s;
+        }
+        
+        .collapsible-section.collapsed .toggle-icon {
+            transform: rotate(-90deg);
+        }
+        
+        .collapsible-section.collapsed .collapsible-content {
+            display: none;
+        }
+        
+        .json-content {
+            background: #f6f8fa;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            padding: 12px;
+            font-family: 'Monaco', 'Menlo', 'Consolas', monospace;
+            font-size: 12px;
+            white-space: pre-wrap;
+            word-break: break-all;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+        
+        .extra-field {
+            padding: 8px 0;
+            border-bottom: 1px dashed var(--border-color);
+        }
+        
+        .extra-field:last-child {
+            border-bottom: none;
+        }
+        
+        .extra-field .field-name {
+            color: #1890ff;
+            font-weight: 500;
+            margin-bottom: 4px;
+        }
+        
+        .extra-field .field-value {
+            color: var(--text-color);
         }
         
         .tab-bar {
@@ -469,16 +543,17 @@
                     
                     <!-- 详情面板 -->
                     <div class="detail-panel">
-                        <div class="detail-content" id="detailContent">
-                            <div class="empty-state">选择左侧项目查看详情</div>
-                        </div>
-                        
+                        <!-- 审核操作区域 - 移到顶部更显眼 -->
                         <div class="review-actions" id="reviewActions" style="display: none;">
                             <textarea id="reviewComment" placeholder="审核意见（可选）"></textarea>
                             <div class="review-buttons">
-                                <button class="btn btn-success" onclick="submitReview('approved')">通过</button>
-                                <button class="btn btn-warning" onclick="submitReview('needs_fix')">需修改</button>
+                                <button class="btn btn-success" onclick="submitReview('approved')">✓ 通过</button>
+                                <button class="btn btn-warning" onclick="submitReview('needs_fix')">✎ 需修改</button>
                             </div>
+                        </div>
+                        
+                        <div class="detail-content" id="detailContent">
+                            <div class="empty-state">选择左侧项目查看详情</div>
                         </div>
                     </div>
                 </div>
@@ -490,29 +565,33 @@
     
     <!-- 实体编辑模态框 -->
     <div class="modal" id="editEntityModal">
-        <div class="modal-content">
+        <div class="modal-content" style="max-width: 800px;">
             <div class="modal-header">
                 <h3>编辑实体属性</h3>
                 <button class="modal-close" onclick="closeModal('editEntityModal')">&times;</button>
             </div>
-            <div class="modal-body">
+            <div class="modal-body" style="max-height: 70vh; overflow-y: auto;">
                 <form id="editEntityForm">
                     <div class="form-group">
                         <label>标识符（不可修改）</label>
-                        <input type="text" id="editEntityId" disabled>
+                        <input type="text" id="editEntityId" disabled style="background:#f5f5f5;">
                     </div>
-                    <div class="form-group">
-                        <label>标题</label>
-                        <input type="text" id="editEntityTitle" required>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+                        <div class="form-group">
+                            <label>标题</label>
+                            <input type="text" id="editEntityTitle" required>
+                        </div>
+                        <div class="form-group">
+                            <label>类型</label>
+                            <input type="text" id="editEntityType">
+                        </div>
                     </div>
                     <div class="form-group">
                         <label>描述</label>
-                        <textarea id="editEntityDescription"></textarea>
+                        <textarea id="editEntityDescription" style="height: 100px;"></textarea>
                     </div>
-                    <div class="form-group">
-                        <label>类型</label>
-                        <input type="text" id="editEntityType">
-                    </div>
+                    <!-- 动态生成的额外字段 -->
+                    <div id="editExtraFields"></div>
                 </form>
             </div>
             <div class="modal-footer">
@@ -599,6 +678,32 @@
         </div>
     </div>
     
+    <!-- 关系编辑模态框 -->
+    <div class="modal" id="editRelationModal">
+        <div class="modal-content" style="max-width: 600px;">
+            <div class="modal-header">
+                <h3>编辑关系标签</h3>
+                <button class="modal-close" onclick="closeModal('editRelationModal')">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="editRelationForm">
+                    <div class="form-group">
+                        <label>关系</label>
+                        <input type="text" id="editRelationInfo" disabled style="background:#f5f5f5;">
+                    </div>
+                    <div class="form-group">
+                        <label>标签/备注</label>
+                        <textarea id="editRelationLabel" placeholder="输入关系的标签或备注信息..." style="height: 100px;"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" onclick="closeModal('editRelationModal')">取消</button>
+                <button class="btn btn-primary" onclick="saveRelationEdit()">保存</button>
+            </div>
+        </div>
+    </div>
+    
     <script src="/static/js/api.js"></script>
     <script src="/static/js/auth.js"></script>
     <script>
@@ -663,21 +768,24 @@
         }
         
         async function loadTypeFilter() {
-            // 加载实体类型用于筛选（简化版本，从实体数据推断）
+            // 加载实体类型用于筛选（使用专用API获取所有类型）
             const typeSelect = document.getElementById('typeFilter');
             typeSelect.innerHTML = '<option value="">全部类型</option>';
             
-            if (currentTab === 'entity') {
+            if (currentTab === 'entity' && currentSubject) {
                 try {
-                    const result = await api.review.getEntities(currentSubject, { page_size: 200 });
-                    const types = [...new Set(result.entities.map(e => e.type))];
-                    types.forEach(t => {
-                        const option = document.createElement('option');
-                        option.value = t;
-                        option.textContent = t;
-                        typeSelect.appendChild(option);
-                    });
-                } catch (e) {}
+                    const result = await api.review.getEntityTypes(currentSubject);
+                    if (result.success && result.types) {
+                        result.types.forEach(item => {
+                            const option = document.createElement('option');
+                            option.value = item.type;
+                            option.textContent = `${item.type} (${item.count})`;
+                            typeSelect.appendChild(option);
+                        });
+                    }
+                } catch (e) {
+                    console.error('加载实体类型失败:', e);
+                }
             }
         }
         
@@ -843,6 +951,48 @@
             // 保存当前实体数据
             currentEntityData = data;
             
+            // 基础字段列表
+            const basicFields = ['identifier', 'type', 'title', 'description', 'subject', '_entity_type'];
+            
+            // 获取额外字段
+            const extraFields = Object.keys(entity).filter(k => !basicFields.includes(k));
+            
+            // 渲染额外字段的HTML
+            let extraFieldsHtml = '';
+            if (extraFields.length > 0) {
+                const fieldsContent = extraFields.map(field => {
+                    const value = entity[field];
+                    let displayValue;
+                    
+                    if (value === null || value === undefined) {
+                        displayValue = '<span style="color:#999;">-</span>';
+                    } else if (typeof value === 'object') {
+                        displayValue = `<div class="json-content">${JSON.stringify(value, null, 2)}</div>`;
+                    } else {
+                        displayValue = `<span>${value}</span>`;
+                    }
+                    
+                    return `
+                        <div class="extra-field">
+                            <div class="field-name">${field}</div>
+                            <div class="field-value">${displayValue}</div>
+                        </div>
+                    `;
+                }).join('');
+                
+                extraFieldsHtml = `
+                <div class="detail-section collapsible-section">
+                    <h3 onclick="toggleCollapsible(this.parentElement)">
+                        其他属性 (${extraFields.length})
+                        <span class="toggle-icon">▼</span>
+                    </h3>
+                    <div class="collapsible-content">
+                        ${fieldsContent}
+                    </div>
+                </div>
+                `;
+            }
+            
             content.innerHTML = `
                 <!-- 编辑工具栏 -->
                 <div class="edit-toolbar">
@@ -862,7 +1012,7 @@
                     <div class="property-list">
                         <div class="property-item">
                             <span class="label">标识符</span>
-                            <span class="value">${entity.identifier}</span>
+                            <span class="value" style="word-break:break-all;">${entity.identifier}</span>
                         </div>
                         <div class="property-item">
                             <span class="label">类型</span>
@@ -884,6 +1034,8 @@
                         ` : ''}
                     </div>
                 </div>
+                
+                ${extraFieldsHtml}
                 
                 ${data.relations && data.relations.length > 0 ? `
                 <div class="detail-section">
@@ -928,31 +1080,42 @@
             `;
         }
         
+        // 保存当前关系数据用于编辑
+        let currentRelationData = null;
+        
         function renderRelationDetail(relation) {
             const content = document.getElementById('detailContent');
             
+            // 保存当前关系数据
+            currentRelationData = relation;
+            
             content.innerHTML = `
+                <!-- 编辑工具栏 -->
+                <div class="edit-toolbar">
+                    <button class="btn btn-edit" onclick="openEditRelationModal()">
+                        ✏️ 编辑标签
+                    </button>
+                </div>
+                
                 <div class="detail-section">
                     <h3>关系信息</h3>
                     <div class="property-list">
                         <div class="property-item">
                             <span class="label">源实体</span>
-                            <span class="value">${relation.source_title} (${relation.source})</span>
+                            <span class="value" style="word-break:break-all;">${relation.source_title}<br><small style="color:#999;">${relation.source}</small></span>
                         </div>
                         <div class="property-item">
                             <span class="label">关系类型</span>
-                            <span class="value">${relation.relation_name}</span>
+                            <span class="value"><strong>${relation.relation_name}</strong></span>
                         </div>
                         <div class="property-item">
                             <span class="label">目标实体</span>
-                            <span class="value">${relation.target_title} (${relation.target})</span>
+                            <span class="value" style="word-break:break-all;">${relation.target_title}<br><small style="color:#999;">${relation.target}</small></span>
                         </div>
-                        ${relation.label ? `
                         <div class="property-item">
-                            <span class="label">标签</span>
-                            <span class="value">${relation.label}</span>
+                            <span class="label">标签/备注</span>
+                            <span class="value">${relation.label || '<span style="color:#999;">-</span>'}</span>
                         </div>
-                        ` : ''}
                     </div>
                 </div>
             `;
@@ -1073,6 +1236,11 @@
             clearDetail();
         }
         
+        // 折叠/展开功能
+        function toggleCollapsible(element) {
+            element.classList.toggle('collapsed');
+        }
+        
         function getStatusText(status) {
             const map = {
                 'pending': '待审核',
@@ -1107,6 +1275,38 @@
             document.getElementById('editEntityDescription').value = entity.description || '';
             document.getElementById('editEntityType').value = entity.type || '';
             
+            // 动态生成额外字段的编辑区域
+            const basicFields = ['identifier', 'type', 'title', 'description', 'subject', '_entity_type'];
+            const extraFields = Object.keys(entity).filter(k => !basicFields.includes(k));
+            
+            const extraFieldsContainer = document.getElementById('editExtraFields');
+            if (extraFields.length > 0) {
+                extraFieldsContainer.innerHTML = `
+                    <div style="margin-top: 15px; padding-top: 15px; border-top: 1px solid #eee;">
+                        <h4 style="margin-bottom: 10px; color: #666;">其他属性</h4>
+                        ${extraFields.map(field => {
+                            const value = entity[field];
+                            const isObject = typeof value === 'object' && value !== null;
+                            const displayValue = isObject ? JSON.stringify(value, null, 2) : (value || '');
+                            return `
+                                <div class="form-group">
+                                    <label>${field}</label>
+                                    <textarea 
+                                        id="editExtra_${field}" 
+                                        data-field="${field}" 
+                                        data-is-json="${isObject}"
+                                        class="extra-field-input"
+                                        style="height: ${isObject ? '120px' : '60px'}; font-family: ${isObject ? 'monospace' : 'inherit'}; font-size: ${isObject ? '12px' : '14px'};"
+                                    >${displayValue}</textarea>
+                                </div>
+                            `;
+                        }).join('')}
+                    </div>
+                `;
+            } else {
+                extraFieldsContainer.innerHTML = '';
+            }
+            
             openModal('editEntityModal');
         }
         
@@ -1118,6 +1318,24 @@
                 description: document.getElementById('editEntityDescription').value,
                 type: document.getElementById('editEntityType').value
             };
+            
+            // 收集额外字段的值
+            document.querySelectorAll('.extra-field-input').forEach(input => {
+                const field = input.dataset.field;
+                const isJson = input.dataset.isJson === 'true';
+                let value = input.value.trim();
+                
+                if (isJson && value) {
+                    try {
+                        value = JSON.parse(value);
+                    } catch (e) {
+                        showToast(`字段 ${field} 的 JSON 格式无效`, 'error');
+                        return;
+                    }
+                }
+                
+                updates[field] = value || null;
+            });
             
             try {
                 await api.edit.updateEntity(currentSubject, identifier, updates);
@@ -1170,6 +1388,46 @@
                 await selectEntity(encodeURIComponent(identifier));
             } catch (error) {
                 showToast('添加失败: ' + error.message, 'error');
+            }
+        }
+        
+        // 编辑关系标签
+        function openEditRelationModal() {
+            if (!currentRelationData) {
+                showToast('请先选择一个关系', 'error');
+                return;
+            }
+            
+            const relation = currentRelationData;
+            document.getElementById('editRelationInfo').value = 
+                `${relation.source_title} → ${relation.relation_name} → ${relation.target_title}`;
+            document.getElementById('editRelationLabel').value = relation.label || '';
+            
+            openModal('editRelationModal');
+        }
+        
+        async function saveRelationEdit() {
+            if (!currentRelationData) return;
+            
+            const relation = currentRelationData;
+            const newLabel = document.getElementById('editRelationLabel').value.trim();
+            
+            try {
+                await api.edit.updateRelation(currentSubject, {
+                    source: relation.source,
+                    target: relation.target,
+                    relation_name: relation.relation_name,
+                    label: newLabel || null
+                });
+                
+                showToast('关系标签更新成功', 'success');
+                closeModal('editRelationModal');
+                
+                // 更新当前数据并刷新显示
+                relation.label = newLabel || null;
+                renderRelationDetail(relation);
+            } catch (error) {
+                showToast('更新失败: ' + error.message, 'error');
             }
         }
         
@@ -1232,7 +1490,7 @@
             openModal('graphModal');
             
             try {
-                const graphData = await api.graph.getEntityGraph(currentSubject, entity.identifier, 2, 30);
+                const graphData = await api.graph.getEntityGraph(currentSubject, entity.identifier, 1, 30);
                 renderMiniGraph(container, graphData);
             } catch (error) {
                 container.innerHTML = `<div class="empty-state" style="color:red;">加载失败: ${error.message}</div>`;

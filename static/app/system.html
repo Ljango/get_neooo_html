@@ -78,7 +78,7 @@
                 <a href="/static/app/admin.html" class="menu-item" data-role="admin">
                     <i>👥</i> <span>用户管理</span>
                 </a>
-                <a href="/static/app/system.html" class="menu-item active" data-role="root">
+                <a href="/static/app/system.html" class="menu-item active" data-role="root,engineer">
                     <i>⚙️</i> <span>系统管理</span>
                 </a>
             </nav>
@@ -98,10 +98,31 @@
         <!-- 主内容区 -->
         <div class="main-content">
             <header class="header">
-                <h1 class="header-title">系统管理（仅root可用）</h1>
+                <h1 class="header-title">系统管理</h1>
+                <div class="header-actions">
+                    <span id="roleIndicator" style="color: var(--text-muted); font-size: 13px;"></span>
+                </div>
             </header>
             
             <main class="content">
+                <!-- 同步状态提示 -->
+                <div id="syncAlert" class="card" style="display: none; background: linear-gradient(135deg, #fff3cd 0%, #ffeeba 100%); border: 1px solid #ffc107; margin-bottom: 20px;">
+                    <div class="card-body" style="padding: 15px;">
+                        <div style="display: flex; align-items: center; gap: 15px;">
+                            <span style="font-size: 24px;">⚠️</span>
+                            <div style="flex: 1;">
+                                <strong style="color: #856404;">有数据修改待同步</strong>
+                                <p id="syncAlertText" style="margin: 5px 0 0; color: #856404; font-size: 13px;">
+                                    部分学科的JSON数据已被修改，但HTML页面尚未更新。请点击"同步数据"按钮来更新。
+                                </p>
+                            </div>
+                            <button class="btn btn-warning" onclick="runOperation('sync')" style="white-space: nowrap;">
+                                🔄 立即同步
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
                 <!-- 学科选择 -->
                 <div class="subject-select-row">
                     <label>选择学科：</label>
@@ -167,6 +188,119 @@
                     </div>
                 </div>
                 
+                <!-- 数据包上传（engineer也可用） -->
+                <div class="operation-section" id="uploadSection">
+                    <h3>📤 数据包上传</h3>
+                    <p style="color: var(--text-muted); margin-bottom: 15px; font-size: 13px;">
+                        上传ZIP格式的知识图谱数据包。系统会自动验证数据格式，验证通过后导入到指定学科。
+                    </p>
+                    
+                    <div class="card">
+                        <div class="card-body" style="padding: 20px;">
+                            <!-- 上传表单 -->
+                            <div style="display: flex; gap: 15px; align-items: flex-end; flex-wrap: wrap;">
+                                <div style="flex: 0 0 200px;">
+                                    <label style="display: block; margin-bottom: 5px; font-weight: 500;">目标学科</label>
+                                    <select id="uploadSubjectSelect" style="width: 100%; padding: 8px; border: 1px solid var(--border-color); border-radius: var(--radius);">
+                                        <option value="">-- 请选择学科 --</option>
+                                    </select>
+                                </div>
+                                <div style="flex: 1; min-width: 200px;">
+                                    <label style="display: block; margin-bottom: 5px; font-weight: 500;">选择ZIP文件</label>
+                                    <input type="file" id="uploadFileInput" accept=".zip" 
+                                        style="width: 100%; padding: 8px; border: 1px solid var(--border-color); border-radius: var(--radius); background: #fff;">
+                                </div>
+                                <div style="display: flex; gap: 10px;">
+                                    <button class="btn" onclick="validateUpload()" id="validateBtn">
+                                        🔍 验证格式
+                                    </button>
+                                    <button class="btn btn-primary" onclick="uploadData()" id="uploadBtn" disabled>
+                                        📤 上传导入
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <!-- 备份选项 -->
+                            <div style="margin-top: 15px;">
+                                <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+                                    <input type="checkbox" id="uploadBackupCheck" checked>
+                                    <span style="font-size: 13px;">导入前自动创建备份（推荐）</span>
+                                </label>
+                            </div>
+                            
+                            <!-- 验证结果 -->
+                            <div id="validationResult" style="display: none; margin-top: 15px; padding: 15px; border-radius: var(--radius); border: 1px solid var(--border-color);">
+                            </div>
+                            
+                            <!-- 格式说明 -->
+                            <div style="margin-top: 15px;">
+                                <button class="btn btn-link" onclick="toggleFormatSpec()" style="padding: 0; color: var(--primary-color);">
+                                    📋 查看数据包格式规范
+                                </button>
+                                <div id="formatSpec" style="display: none; margin-top: 10px; padding: 15px; background: #f8f9fa; border-radius: var(--radius); font-size: 13px;">
+                                    <pre style="margin: 0; white-space: pre-wrap;">ZIP包结构：
+├── entities/
+│   ├── Chapter.json
+│   ├── Section.json
+│   └── ...
+└── relations/
+    ├── Chapter_Section_relations.json
+    └── ...
+
+实体JSON必需字段：identifier, title, type
+关系JSON必需字段：source, target, relationName</pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 数据快照管理 -->
+                <div class="operation-section">
+                    <h3>📦 数据快照管理</h3>
+                    <p style="color: var(--text-muted); margin-bottom: 15px; font-size: 13px;">
+                        快照功能用于备份和恢复学科JSON数据，防止数据丢失。选择学科后可创建快照或从快照恢复。
+                    </p>
+                    <div class="operation-grid">
+                        <div class="operation-btn" onclick="createSnapshot()">
+                            <i>📸</i>
+                            <div class="title">创建快照</div>
+                            <div class="desc">备份当前学科数据</div>
+                        </div>
+                        <div class="operation-btn" onclick="loadSnapshots()">
+                            <i>📋</i>
+                            <div class="title">查看快照列表</div>
+                            <div class="desc">管理已有快照</div>
+                        </div>
+                    </div>
+                    
+                    <!-- 快照列表 -->
+                    <div class="card" id="snapshotListCard" style="display: none; margin-top: 20px;">
+                        <div class="card-header">
+                            <span id="snapshotListTitle">快照列表</span>
+                            <button class="btn" onclick="hideSnapshots()" style="padding: 4px 10px; font-size: 12px;">关闭</button>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-container">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>版本</th>
+                                            <th>文件名</th>
+                                            <th>大小</th>
+                                            <th>创建时间</th>
+                                            <th>操作</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="snapshotTableBody">
+                                        <tr><td colspan="5">请先选择学科并点击"查看快照列表"</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
                 <!-- 输出面板 -->
                 <div class="card">
                     <div class="card-header">
@@ -210,16 +344,43 @@
     <script src="/static/js/api.js"></script>
     <script src="/static/js/auth.js"></script>
     <script>
-        // 检查root权限
-        if (!requireRole('root')) {
-            // 自动跳转
+        // 检查权限（root和engineer可以访问）
+        const user = getUserInfo();
+        const userRoles = user?.roles || [user?.role] || [];
+        const isRoot = userRoles.includes('root');
+        const isEngineer = userRoles.includes('engineer') || userRoles.includes('admin');
+        
+        if (!isRoot && !isEngineer) {
+            showToast('无权访问此页面', 'error');
+            setTimeout(() => window.location.href = '/static/app/dashboard.html', 1000);
         }
         
         initPage();
         
+        // 显示角色指示器
+        document.getElementById('roleIndicator').textContent = isRoot ? '(管理员权限)' : '(图谱工程师权限)';
+        
+        // 根据角色控制显示
+        if (!isRoot) {
+            // 非root用户隐藏部分功能
+            document.querySelectorAll('.operation-section').forEach((section, index) => {
+                const h3 = section.querySelector('h3');
+                if (h3 && h3.textContent.includes('数据库操作')) {
+                    section.style.display = 'none';
+                }
+            });
+            // 隐藏同步提示中的立即同步按钮
+            const syncAlert = document.getElementById('syncAlert');
+            if (syncAlert) {
+                const syncBtn = syncAlert.querySelector('button');
+                if (syncBtn) syncBtn.style.display = 'none';
+            }
+        }
+        
         // 加载数据
         loadSubjects();
         loadLogs();
+        loadSyncStatus();
         
         async function loadSubjects() {
             try {
@@ -234,6 +395,27 @@
                 });
             } catch (error) {
                 console.error('Load subjects error:', error);
+            }
+        }
+        
+        async function loadSyncStatus() {
+            try {
+                const result = await api.data.getSyncStatus();
+                const alert = document.getElementById('syncAlert');
+                const text = document.getElementById('syncAlertText');
+                
+                if (result.total_need_sync > 0) {
+                    const subjects = result.subjects_need_sync.map(s => 
+                        `${s.display_name}(${s.edit_count}次修改)`
+                    ).join('、');
+                    
+                    text.textContent = `以下学科的数据已修改但未同步到HTML: ${subjects}`;
+                    alert.style.display = 'block';
+                } else {
+                    alert.style.display = 'none';
+                }
+            } catch (error) {
+                console.error('Load sync status error:', error);
             }
         }
         
@@ -287,6 +469,7 @@
                         break;
                     case 'sync':
                         result = await api.data.sync(subject);
+                        loadSyncStatus(); // 刷新同步状态
                         break;
                     case 'import-neo4j':
                         result = await api.data.importNeo4j(subject, 'local', false);
@@ -336,9 +519,368 @@
                 'import_neo4j': '导入Neo4j',
                 'sync_data': '同步数据',
                 'export_data': '导出数据',
-                'change_password': '修改密码'
+                'change_password': '修改密码',
+                'create_snapshot': '创建快照',
+                'restore_snapshot': '恢复快照',
+                'delete_snapshot': '删除快照'
             };
             return map[action] || action;
+        }
+        
+        // ========== 快照管理功能 ==========
+        
+        async function createSnapshot() {
+            const subject = document.getElementById('subjectSelect').value;
+            if (!subject) {
+                showToast('请先选择一个学科', 'error');
+                return;
+            }
+            
+            const description = prompt('请输入快照描述（可选）：', '');
+            if (description === null) return; // 用户取消
+            
+            const panel = document.getElementById('outputPanel');
+            panel.textContent = '正在创建快照...\n';
+            panel.classList.add('loading');
+            
+            try {
+                const result = await api.data.createSnapshot(subject, 'auto', description);
+                
+                if (result.success) {
+                    panel.textContent = `快照创建成功！\n\n` +
+                        `文件名: ${result.snapshot.filename}\n` +
+                        `版本: ${result.snapshot.version}\n` +
+                        `实体数: ${result.snapshot.entities_count}\n` +
+                        `关系数: ${result.snapshot.relations_count}\n` +
+                        `大小: ${(result.snapshot.size / 1024 / 1024).toFixed(2)} MB`;
+                    showToast('快照创建成功', 'success');
+                    loadSnapshots(); // 刷新列表
+                } else {
+                    panel.textContent = '创建失败: ' + (result.message || '未知错误');
+                    showToast('创建失败', 'error');
+                }
+                
+                loadLogs();
+            } catch (error) {
+                panel.textContent = '错误: ' + error.message;
+                showToast('创建失败: ' + error.message, 'error');
+            } finally {
+                panel.classList.remove('loading');
+            }
+        }
+        
+        async function loadSnapshots() {
+            const subject = document.getElementById('subjectSelect').value;
+            if (!subject) {
+                showToast('请先选择一个学科', 'error');
+                return;
+            }
+            
+            const card = document.getElementById('snapshotListCard');
+            const tbody = document.getElementById('snapshotTableBody');
+            const title = document.getElementById('snapshotListTitle');
+            
+            card.style.display = 'block';
+            title.textContent = `快照列表 - ${document.getElementById('subjectSelect').selectedOptions[0].text}`;
+            tbody.innerHTML = '<tr><td colspan="5" class="loading">加载中...</td></tr>';
+            
+            try {
+                const result = await api.data.listSnapshots(subject);
+                
+                if (result.snapshots.length === 0) {
+                    tbody.innerHTML = '<tr><td colspan="5" style="text-align:center;">暂无快照，点击"创建快照"来备份数据</td></tr>';
+                    return;
+                }
+                
+                tbody.innerHTML = result.snapshots.map(s => `
+                    <tr>
+                        <td><strong>${s.version}</strong></td>
+                        <td style="font-size: 12px; word-break: break-all;">${s.filename}</td>
+                        <td>${s.size_human}</td>
+                        <td>${new Date(s.created_at).toLocaleString()}</td>
+                        <td>
+                            <button class="btn btn-sm btn-success" onclick="restoreSnapshot('${subject}', '${s.filename}')" style="padding: 3px 8px; font-size: 11px;">
+                                恢复
+                            </button>
+                            <button class="btn btn-sm btn-danger" onclick="deleteSnapshot('${subject}', '${s.filename}')" style="padding: 3px 8px; font-size: 11px; margin-left: 5px;">
+                                删除
+                            </button>
+                        </td>
+                    </tr>
+                `).join('');
+            } catch (error) {
+                tbody.innerHTML = `<tr><td colspan="5" style="color:red;">加载失败: ${error.message}</td></tr>`;
+            }
+        }
+        
+        function hideSnapshots() {
+            document.getElementById('snapshotListCard').style.display = 'none';
+        }
+        
+        async function restoreSnapshot(subjectId, filename) {
+            if (!confirm(`确定要从快照 "${filename}" 恢复数据吗？\n\n⚠️ 当前数据将被覆盖（会自动备份）`)) {
+                return;
+            }
+            
+            const panel = document.getElementById('outputPanel');
+            panel.textContent = '正在恢复数据...\n';
+            panel.classList.add('loading');
+            
+            try {
+                const result = await api.data.restoreSnapshot(subjectId, filename);
+                
+                if (result.success) {
+                    panel.textContent = `数据恢复成功！\n\n` +
+                        `恢复自: ${result.restored_from}\n` +
+                        `原数据备份: ${result.backup_file}\n\n` +
+                        (result.metadata ? 
+                            `原始版本: ${result.metadata.version}\n` +
+                            `创建者: ${result.metadata.created_by}\n` +
+                            `实体数: ${result.metadata.entities_count}\n` +
+                            `关系数: ${result.metadata.relations_count}` : '');
+                    showToast('数据恢复成功', 'success');
+                    loadSnapshots();
+                } else {
+                    panel.textContent = '恢复失败: ' + (result.message || '未知错误');
+                    showToast('恢复失败', 'error');
+                }
+                
+                loadLogs();
+            } catch (error) {
+                panel.textContent = '错误: ' + error.message;
+                showToast('恢复失败: ' + error.message, 'error');
+            } finally {
+                panel.classList.remove('loading');
+            }
+        }
+        
+        async function deleteSnapshot(subjectId, filename) {
+            if (!confirm(`确定要删除快照 "${filename}" 吗？\n\n⚠️ 此操作不可撤销！`)) {
+                return;
+            }
+            
+            try {
+                const result = await api.data.deleteSnapshot(subjectId, filename);
+                
+                if (result.success) {
+                    showToast('快照已删除', 'success');
+                    loadSnapshots();
+                } else {
+                    showToast('删除失败: ' + (result.message || '未知错误'), 'error');
+                }
+                
+                loadLogs();
+            } catch (error) {
+                showToast('删除失败: ' + error.message, 'error');
+            }
+        }
+        
+        // ========== 数据包上传功能 ==========
+        
+        // 初始化上传学科选择器
+        async function initUploadSubjects() {
+            try {
+                const result = await api.data.getSubjects();
+                const select = document.getElementById('uploadSubjectSelect');
+                
+                result.subjects.forEach(s => {
+                    const option = document.createElement('option');
+                    option.value = s.subject_id;
+                    option.textContent = `${s.icon || ''} ${s.display_name}`;
+                    select.appendChild(option);
+                });
+            } catch (error) {
+                console.error('Load subjects for upload error:', error);
+            }
+        }
+        
+        // 页面加载时初始化
+        initUploadSubjects();
+        
+        // 存储验证结果
+        let lastValidationResult = null;
+        
+        // 验证上传文件
+        async function validateUpload() {
+            const fileInput = document.getElementById('uploadFileInput');
+            const resultDiv = document.getElementById('validationResult');
+            const uploadBtn = document.getElementById('uploadBtn');
+            
+            if (!fileInput.files || fileInput.files.length === 0) {
+                showToast('请先选择一个ZIP文件', 'error');
+                return;
+            }
+            
+            const file = fileInput.files[0];
+            if (!file.name.endsWith('.zip')) {
+                showToast('只支持ZIP格式文件', 'error');
+                return;
+            }
+            
+            resultDiv.style.display = 'block';
+            resultDiv.innerHTML = '<p style="color: var(--text-muted);">🔄 正在验证...</p>';
+            uploadBtn.disabled = true;
+            
+            try {
+                const result = await api.data.validateUpload(file);
+                lastValidationResult = result;
+                
+                const validation = result.validation;
+                let html = '';
+                
+                if (validation.valid) {
+                    html = `
+                        <div style="color: #28a745;">
+                            <strong>✅ 验证通过</strong>
+                        </div>
+                        <div style="margin-top: 10px;">
+                            <p>📁 文件名: ${result.filename}</p>
+                            <p>📦 文件大小: ${(result.file_size / 1024 / 1024).toFixed(2)} MB</p>
+                            <p>📊 实体文件: ${validation.entity_files.length} 个 (共 ${validation.total_entities} 条)</p>
+                            <p>🔗 关系文件: ${validation.relation_files.length} 个 (共 ${validation.total_relations} 条)</p>
+                        </div>
+                    `;
+                    
+                    if (validation.warnings.length > 0) {
+                        html += `
+                            <div style="margin-top: 10px; padding: 10px; background: #fff3cd; border-radius: 4px;">
+                                <strong style="color: #856404;">⚠️ 警告:</strong>
+                                <ul style="margin: 5px 0 0 20px; color: #856404;">
+                                    ${validation.warnings.map(w => `<li>${w}</li>`).join('')}
+                                </ul>
+                            </div>
+                        `;
+                    }
+                    
+                    resultDiv.style.background = '#d4edda';
+                    resultDiv.style.borderColor = '#28a745';
+                    uploadBtn.disabled = false;
+                } else {
+                    html = `
+                        <div style="color: #dc3545;">
+                            <strong>❌ 验证失败</strong>
+                        </div>
+                        <div style="margin-top: 10px; padding: 10px; background: #f8d7da; border-radius: 4px;">
+                            <strong>错误:</strong>
+                            <ul style="margin: 5px 0 0 20px;">
+                                ${validation.errors.map(e => `<li>${e}</li>`).join('')}
+                            </ul>
+                        </div>
+                    `;
+                    
+                    if (validation.warnings.length > 0) {
+                        html += `
+                            <div style="margin-top: 10px; padding: 10px; background: #fff3cd; border-radius: 4px;">
+                                <strong style="color: #856404;">⚠️ 警告:</strong>
+                                <ul style="margin: 5px 0 0 20px; color: #856404;">
+                                    ${validation.warnings.map(w => `<li>${w}</li>`).join('')}
+                                </ul>
+                            </div>
+                        `;
+                    }
+                    
+                    resultDiv.style.background = '#f8d7da';
+                    resultDiv.style.borderColor = '#dc3545';
+                    uploadBtn.disabled = true;
+                }
+                
+                resultDiv.innerHTML = html;
+                
+            } catch (error) {
+                resultDiv.innerHTML = `<p style="color: #dc3545;">❌ 验证失败: ${error.message}</p>`;
+                resultDiv.style.background = '#f8d7da';
+                resultDiv.style.borderColor = '#dc3545';
+                uploadBtn.disabled = true;
+            }
+        }
+        
+        // 上传数据
+        async function uploadData() {
+            const subjectSelect = document.getElementById('uploadSubjectSelect');
+            const fileInput = document.getElementById('uploadFileInput');
+            const backupCheck = document.getElementById('uploadBackupCheck');
+            const panel = document.getElementById('outputPanel');
+            
+            const subjectId = subjectSelect.value;
+            if (!subjectId) {
+                showToast('请先选择目标学科', 'error');
+                return;
+            }
+            
+            if (!fileInput.files || fileInput.files.length === 0) {
+                showToast('请先选择一个ZIP文件', 'error');
+                return;
+            }
+            
+            const file = fileInput.files[0];
+            const backup = backupCheck.checked;
+            
+            // 确认上传
+            const subjectName = subjectSelect.selectedOptions[0].text;
+            if (!confirm(`确定要将数据导入到 "${subjectName}" 吗？\n\n${backup ? '将自动创建备份。' : '⚠️ 未启用备份，请确保已手动备份重要数据！'}`)) {
+                return;
+            }
+            
+            panel.textContent = '正在上传并导入数据...\n';
+            panel.classList.add('loading');
+            
+            try {
+                const result = await api.data.uploadDataPackage(subjectId, file, backup);
+                
+                if (result.success) {
+                    let output = `✅ ${result.message}\n\n`;
+                    output += `📁 导入的实体文件:\n${result.imported.entity_files.map(f => `  - ${f}`).join('\n') || '  (无)'}\n\n`;
+                    output += `🔗 导入的关系文件:\n${result.imported.relation_files.map(f => `  - ${f}`).join('\n') || '  (无)'}\n\n`;
+                    output += `📊 统计: ${result.imported.total_entities} 个实体, ${result.imported.total_relations} 个关系\n`;
+                    
+                    if (result.backup) {
+                        output += `\n💾 备份文件: ${result.backup}\n`;
+                    }
+                    
+                    if (result.warnings && result.warnings.length > 0) {
+                        output += `\n⚠️ 警告:\n${result.warnings.map(w => `  - ${w}`).join('\n')}`;
+                    }
+                    
+                    if (result.needs_sync) {
+                        output += `\n\n🔄 提示: 数据已导入，请点击"同步数据"按钮来更新HTML页面。`;
+                    }
+                    
+                    panel.textContent = output;
+                    showToast('数据导入成功', 'success');
+                    
+                    // 重置表单
+                    fileInput.value = '';
+                    document.getElementById('validationResult').style.display = 'none';
+                    document.getElementById('uploadBtn').disabled = true;
+                    lastValidationResult = null;
+                    
+                    // 刷新同步状态
+                    loadSyncStatus();
+                } else {
+                    let output = `❌ 导入失败: ${result.message || '未知错误'}\n`;
+                    
+                    if (result.errors && result.errors.length > 0) {
+                        output += `\n错误详情:\n${result.errors.map(e => `  - ${e}`).join('\n')}`;
+                    }
+                    
+                    panel.textContent = output;
+                    showToast('导入失败', 'error');
+                }
+                
+                loadLogs();
+                
+            } catch (error) {
+                panel.textContent = '错误: ' + error.message;
+                showToast('导入失败: ' + error.message, 'error');
+            } finally {
+                panel.classList.remove('loading');
+            }
+        }
+        
+        // 切换格式规范显示
+        function toggleFormatSpec() {
+            const spec = document.getElementById('formatSpec');
+            spec.style.display = spec.style.display === 'none' ? 'block' : 'none';
         }
     </script>
 </body>

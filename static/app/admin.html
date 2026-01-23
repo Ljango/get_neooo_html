@@ -69,6 +69,7 @@
                             <option value="">全部角色</option>
                             <option value="root">系统管理员</option>
                             <option value="admin">管理员</option>
+                            <option value="engineer">图谱工程师</option>
                             <option value="teacher">教师</option>
                         </select>
                     </div>
@@ -123,6 +124,7 @@
                         <label>角色</label>
                         <select name="role">
                             <option value="teacher">教师</option>
+                            <option value="engineer">图谱工程师</option>
                             <option value="admin">管理员</option>
                         </select>
                     </div>
@@ -244,21 +246,25 @@
                     })
                 );
                 
-                tbody.innerHTML = usersWithSubjects.map(u => `
+                tbody.innerHTML = usersWithSubjects.map(u => {
+                    const roles = u.roles || [u.role];
+                    const isRoot = roles.includes('root');
+                    return `
                     <tr>
                         <td>${u.username}</td>
                         <td>${u.name}</td>
-                        <td><span class="badge badge-${u.role}">${getRoleText(u.role)}</span></td>
+                        <td>${displayRoles(u)}</td>
                         <td>${u.is_active ? '✅ 正常' : '❌ 禁用'}</td>
                         <td>${u.subjects.map(s => s.subject_id).join(', ') || '-'}</td>
                         <td>${u.last_login ? new Date(u.last_login).toLocaleString() : '-'}</td>
                         <td>
                             <button class="btn btn-primary" onclick="showAssignModal(${u.id}, '${u.name}')" style="padding:4px 8px;font-size:12px;">分配学科</button>
                             <button class="btn btn-warning" onclick="resetPassword(${u.id})" style="padding:4px 8px;font-size:12px;">重置密码</button>
-                            ${u.role !== 'root' ? `<button class="btn btn-danger" onclick="toggleUserStatus(${u.id}, ${u.is_active})" style="padding:4px 8px;font-size:12px;">${u.is_active ? '禁用' : '启用'}</button>` : ''}
+                            ${!isRoot ? `<button class="btn btn-danger" onclick="toggleUserStatus(${u.id}, ${u.is_active})" style="padding:4px 8px;font-size:12px;">${u.is_active ? '禁用' : '启用'}</button>` : ''}
                         </td>
                     </tr>
-                `).join('');
+                    `;
+                }).join('');
                 
                 renderPagination(result.total);
             } catch (error) {
@@ -420,9 +426,17 @@
             const map = {
                 'root': '系统管理员',
                 'admin': '管理员',
+                'engineer': '图谱工程师',
                 'teacher': '教师'
             };
             return map[role] || role;
+        }
+        
+        // 显示用户角色（支持多角色）
+        function displayRoles(user) {
+            // 优先使用 roles 数组
+            const roles = user.roles || [user.role];
+            return roles.map(r => `<span class="badge badge-${r}">${getRoleText(r)}</span>`).join(' ');
         }
     </script>
 </body>

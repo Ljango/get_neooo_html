@@ -53,7 +53,8 @@ class UserInfo(BaseModel):
     id: int
     username: str
     name: str
-    role: UserRole
+    roles: List[str] = ["teacher"]  # 多角色支持
+    role: Optional[str] = None  # 向后兼容：最高权限角色
     email: Optional[str]
     is_active: bool
     must_change_password: bool
@@ -62,6 +63,22 @@ class UserInfo(BaseModel):
     
     class Config:
         from_attributes = True
+    
+    @classmethod
+    def from_user(cls, user):
+        """从User对象创建UserInfo"""
+        return cls(
+            id=user.id,
+            username=user.username,
+            name=user.name,
+            roles=user.get_roles(),
+            role=user.get_highest_role(),
+            email=user.email,
+            is_active=user.is_active,
+            must_change_password=user.must_change_password,
+            created_at=user.created_at,
+            last_login=user.last_login
+        )
 
 
 class UserCreate(BaseModel):
@@ -69,16 +86,34 @@ class UserCreate(BaseModel):
     username: str
     password: str
     name: str
-    role: UserRole = UserRole.teacher
+    roles: List[str] = ["teacher"]  # 多角色支持
+    role: Optional[str] = None  # 向后兼容：单角色
     email: Optional[str] = None
+    
+    def get_roles_list(self) -> list:
+        """获取角色列表（兼容单角色和多角色）"""
+        if self.roles and len(self.roles) > 0:
+            return self.roles
+        if self.role:
+            return [self.role]
+        return ["teacher"]
 
 
 class UserUpdate(BaseModel):
     """更新用户"""
     name: Optional[str] = None
-    role: Optional[UserRole] = None
+    roles: Optional[List[str]] = None  # 多角色支持
+    role: Optional[str] = None  # 向后兼容
     email: Optional[str] = None
     is_active: Optional[bool] = None
+    
+    def get_roles_list(self) -> Optional[list]:
+        """获取角色列表（兼容单角色和多角色）"""
+        if self.roles is not None:
+            return self.roles
+        if self.role is not None:
+            return [self.role]
+        return None
 
 
 class UserListResponse(BaseModel):

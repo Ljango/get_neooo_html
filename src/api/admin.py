@@ -39,7 +39,9 @@ async def list_users(
     query = db.query(User)
     
     if role_filter:
-        query = query.filter(User.role == role_filter)
+        # 多角色支持：在JSON数组中搜索角色
+        # SQLite使用json_each，其他数据库可能需要不同语法
+        query = query.filter(User.roles.contains(f'"{role_filter}"'))
     
     total = query.count()
     users = query.order_by(User.created_at.desc()).offset(
@@ -47,7 +49,7 @@ async def list_users(
     ).limit(page_size).all()
     
     return UserListResponse(
-        users=[UserInfo.model_validate(u) for u in users],
+        users=[UserInfo.from_user(u) for u in users],
         total=total
     )
 
@@ -66,7 +68,7 @@ async def get_user(
     # 获取学科分配
     subjects = db.query(UserSubject).filter(UserSubject.user_id == user_id).all()
     
-    user_info = UserInfo.model_validate(user).model_dump()
+    user_info = UserInfo.from_user(user).model_dump()
     user_info['subjects'] = [
         {
             "id": s.id,
@@ -95,8 +97,11 @@ async def create_user(
             detail="用户名已存在"
         )
     
+    # 获取要设置的角色列表
+    roles_list = user_data.get_roles_list()
+    
     # admin不能创建root用户
-    if user_data.role == UserRole.root and current_user.role != UserRole.root:
+    if "root" in roles_list and not current_user.has_role("root"):
         raise HTTPException(
             status_code=status.HTTP_403_FORBIDDEN,
             detail="无权创建root用户"
@@ -106,7 +111,7 @@ async def create_user(
         username=user_data.username,
         password_hash=get_password_hash(user_data.password),
         name=user_data.name,
-        role=user_data.role,
+        roles=roles_list,
         email=user_data.email,
         must_change_password=True
     )
@@ -116,10 +121,10 @@ async def create_user(
     
     log_operation(
         db, current_user, "create_user", "user", str(user.id),
-        details={"username": user.username, "role": user.role.value}
+        details={"username": user.username, "roles": user.get_roles()}
     )
     
-    return UserInfo.model_validate(user)
+    return UserInfo.from_user(user)
 
 
 @router.put("/users/{user_id}", response_model=UserInfo)
@@ -135,7 +140,7 @@ async def update_user(
         raise HTTPException(status_code=404, detail="用户不存在")
     
     # admin不能修改root用户
-    if user.role == UserRole.root and current_user.role != UserRole.root:
+    if user.has_role("root") and not current_user.has_role("root"):
         raise HTTPException(
             status_code=status.HTTP_403_FORBIDDEN,
             detail="无权修改root用户"
@@ -148,14 +153,17 @@ async def update_user(
         user.email = user_data.email
     if user_data.is_active is not None:
         user.is_active = user_data.is_active
-    if user_data.role is not None:
+    
+    # 处理角色更新（支持单角色和多角色）
+    new_roles = user_data.get_roles_list()
+    if new_roles is not None:
         # admin不能将用户提升为root
-        if user_data.role == UserRole.root and current_user.role != UserRole.root:
+        if "root" in new_roles and not current_user.has_role("root"):
             raise HTTPException(
                 status_code=status.HTTP_403_FORBIDDEN,
                 detail="无权设置root角色"
             )
-        user.role = user_data.role
+        user.roles = new_roles
     
     db.commit()
     db.refresh(user)
@@ -165,7 +173,7 @@ async def update_user(
         details=user_data.model_dump(exclude_none=True)
     )
     
-    return UserInfo.model_validate(user)
+    return UserInfo.from_user(user)
 
 
 @router.delete("/users/{user_id}", response_model=ResponseBase)
@@ -187,7 +195,7 @@ async def delete_user(
         )
     
     # 不能删除root用户
-    if user.role == UserRole.root:
+    if user.has_role("root"):
         raise HTTPException(
             status_code=status.HTTP_400_BAD_REQUEST,
             detail="不能删除root用户"
@@ -217,7 +225,7 @@ async def reset_user_password(
         raise HTTPException(status_code=404, detail="用户不存在")
     
     # admin不能重置root密码
-    if user.role == UserRole.root and current_user.role != UserRole.root:
+    if user.has_role("root") and not current_user.has_role("root"):
         raise HTTPException(
             status_code=status.HTTP_403_FORBIDDEN,
             detail="无权重置root用户密码"

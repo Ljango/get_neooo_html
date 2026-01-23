@@ -1,0 +1,3010 @@
+[
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:1",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:1",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第一课 我国的生产资料所有制\" 且 volume=\"必修2 经济与社会\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:1",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:1",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第一课 我国的生产资料所有制\" 且 volume=\"必修2 经济与社会\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:1",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:2",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第一课 我国的生产资料所有制\" 且 volume=\"必修2 经济与社会\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:2",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:1",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第一课 我国的生产资料所有制\" 且 volume=\"必修2 经济与社会\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:2",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:3",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第二课 我国的社会主义市场经济体制\" 且 volume=\"必修2 经济与社会\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:3",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:2",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第二课 我国的社会主义市场经济体制\" 且 volume=\"必修2 经济与社会\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:2",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:4",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第二课 我国的社会主义市场经济体制\" 且 volume=\"必修2 经济与社会\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "出对策建议。可通过问卷调查或访谈，了解发展非公有制经济对经济发展和提高人民生活水平的意义。 ◆以“为什么‘两只手’优于‘一只手’”为议题，探究市场在资源配置中起决定性作用、更好发挥政府作用的道理，明确社会主义市场经济体制的特点。可结合企业经营活动的特点，或调研某商品的生产和销售情况，引用典型案例，说明市场在资源配置中如何起决定性作用。可调研某市场，分析市场调节的局限",
+        "确社会主义市场经济体制的特点。可结合企业经营活动的特点，或调研某商品的生产和销售情况，引用典型案例，说明市场在资源配置中如何起决定性作用。可调研某市场，分析市场调节的局限性，就如何更好发挥政府作用提出建议。 ◆以“怎样保持经济平稳运行”为议题，探究如何正确运用宏观调控手段，实现宏观调控目标。可搜集有关资料，了解国内生产总值的构成，讨论国内生产总值作为宏观经济统计指标"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:4",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:2",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第二课 我国的社会主义市场经济体制\" 且 volume=\"必修2 经济与社会\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "出对策建议。可通过问卷调查或访谈，了解发展非公有制经济对经济发展和提高人民生活水平的意义。 ◆以“为什么‘两只手’优于‘一只手’”为议题，探究市场在资源配置中起决定性作用、更好发挥政府作用的道理，明确社会主义市场经济体制的特点。可结合企业经营活动的特点，或调研某商品的生产和销售情况，引用典型案例，说明市场在资源配置中如何起决定性作用。可调研某市场，分析市场调节的局限",
+        "确社会主义市场经济体制的特点。可结合企业经营活动的特点，或调研某商品的生产和销售情况，引用典型案例，说明市场在资源配置中如何起决定性作用。可调研某市场，分析市场调节的局限性，就如何更好发挥政府作用提出建议。 ◆以“怎样保持经济平稳运行”为议题，探究如何正确运用宏观调控手段，实现宏观调控目标。可搜集有关资料，了解国内生产总值的构成，讨论国内生产总值作为宏观经济统计指标"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:3",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:5",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第三课 我国的经济发展\" 且 volume=\"必修2 经济与社会\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "义信念、中华民族伟大复兴信心。 # 模块2：经济与社会 依据习近平经济思想的基本原理，讲述我国社会主义基本经济制 度，解析社会主义市场经济的基本特征，阐明必须完整、准确、全面贯彻新发展理念，帮助学生理解全面深化改革的意义，提升在新时代新征程参与全面建设社会主义现代化国家的能力。 <table><tr><td>内容要求</td><td>教学提示</td></tr><",
+        "度；能够阐释习近平经济思想的核心要义，并用其深入剖析当前社会经济发展中复杂且有挑战性的现象，辨别其是否符合新发展理念，在全球视野中比较各国现代化进程，选择多角度论据，依循逻辑，阐述贯彻新发展理念、构建新发展格局、实现高质量发展是全面推进中国式现代化的必由之路；针对经济社会活动中的重大议题，能够通过辩论稿、调查报告、新媒体等方式剖析企业发展的典型复杂案例，分析社会主义市场经"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:5",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:3",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第三课 我国的经济发展\" 且 volume=\"必修2 经济与社会\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "义信念、中华民族伟大复兴信心。 # 模块2：经济与社会 依据习近平经济思想的基本原理，讲述我国社会主义基本经济制 度，解析社会主义市场经济的基本特征，阐明必须完整、准确、全面贯彻新发展理念，帮助学生理解全面深化改革的意义，提升在新时代新征程参与全面建设社会主义现代化国家的能力。 <table><tr><td>内容要求</td><td>教学提示</td></tr><",
+        "度；能够阐释习近平经济思想的核心要义，并用其深入剖析当前社会经济发展中复杂且有挑战性的现象，辨别其是否符合新发展理念，在全球视野中比较各国现代化进程，选择多角度论据，依循逻辑，阐述贯彻新发展理念、构建新发展格局、实现高质量发展是全面推进中国式现代化的必由之路；针对经济社会活动中的重大议题，能够通过辩论稿、调查报告、新媒体等方式剖析企业发展的典型复杂案例，分析社会主义市场经"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:3",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:6",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第三课 我国的经济发展\" 且 volume=\"必修2 经济与社会\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "与社会进步</td></tr><tr><td>2.1 阐明以人民为中心的发展思想，阐释创新、协调、绿色、开放、共享的新发展理念，阐述加快构建新发展格局、因地制宜发展新质生产力、着力推动高质量发展的意义和要求，解释经济发展方式的转变和供给侧结构性改革，评析经济发展中践行社会责任的实例。 2.2 了解我国个人收入的方式与合法途径，解释个人收入分配政策的完善；评析实现共",
+        "制作数字化宣传资料。可结合当地实际，举办“经济社会发展与生态文明建设并举”征文比赛；或对当地转变经济发展方式的某方面情况进行调研，剖析存在的问题及其原因，提出对策建议。 ◆以“如何推动高质量发展”为议题，探究深化供给侧结构性改革的必要性、意义和途径。可通过查阅资料或请教专家，了解当前我国经济所处的发展阶段及其基本特征，思考为什么要发展新质生产力。可搜集实体经济和虚拟经济的"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:6",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:3",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第三课 我国的经济发展\" 且 volume=\"必修2 经济与社会\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "与社会进步</td></tr><tr><td>2.1 阐明以人民为中心的发展思想，阐释创新、协调、绿色、开放、共享的新发展理念，阐述加快构建新发展格局、因地制宜发展新质生产力、着力推动高质量发展的意义和要求，解释经济发展方式的转变和供给侧结构性改革，评析经济发展中践行社会责任的实例。 2.2 了解我国个人收入的方式与合法途径，解释个人收入分配政策的完善；评析实现共",
+        "制作数字化宣传资料。可结合当地实际，举办“经济社会发展与生态文明建设并举”征文比赛；或对当地转变经济发展方式的某方面情况进行调研，剖析存在的问题及其原因，提出对策建议。 ◆以“如何推动高质量发展”为议题，探究深化供给侧结构性改革的必要性、意义和途径。可通过查阅资料或请教专家，了解当前我国经济所处的发展阶段及其基本特征，思考为什么要发展新质生产力。可搜集实体经济和虚拟经济的"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:4",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:7",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第四课 我国的个人收入分配与社会保障\" 且 volume=\"必修2 经济与社会\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:7",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:4",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第四课 我国的个人收入分配与社会保障\" 且 volume=\"必修2 经济与社会\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:4",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:8",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第四课 我国的个人收入分配与社会保障\" 且 volume=\"必修2 经济与社会\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:8",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:4",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第四课 我国的个人收入分配与社会保障\" 且 volume=\"必修2 经济与社会\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:10",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:9",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第一课 历史和人民的选择\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:9",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:10",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第一课 历史和人民的选择\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:10",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:10",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第一课 历史和人民的选择\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:10",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:10",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第一课 历史和人民的选择\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:11",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:11",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第二课 中国共产党的先进性\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:11",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:11",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第二课 中国共产党的先进性\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:11",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:12",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第二课 中国共产党的先进性\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:12",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:11",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第二课 中国共产党的先进性\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:12",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:13",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第三课 坚持和加强党的全面领导\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "治国理念，尊法学法守法用法，形成法治信仰和维护公平正义的意识。 建设法治中国，是推进国家治理体系和治理能力现代化的必然要求；全面依法治国，必须坚定不移走中国特色社会主义法治道路，坚持党的领导、人民当家作主、依法治国有机统一，坚持以人民为中心，坚持依法治国和以德治国相结合，全面推进科学立法、严格执法、公正司法、全民守法，在全社会树立法治观念。增强青少年法治观念，有助于",
+        "中国特色社会主义政治制度的基本内容、鲜明特点和主要优势；了解全面推进依法治国的总目标，知道科学立法、严格执法、公正司法、全民守法的基本要求；懂得走中国特色社会主义政治发展道路，必须坚持党的领导、人民当家作主、依法治国有机统一，理解推进国家治理体系和治理能力现代化的重要性；具备有序参与国家政治生活和社会公共生活的能力。 # 模块4：哲学与文化 阐明马克思主义哲学是科学"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:13",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:12",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第三课 坚持和加强党的全面领导\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "治国理念，尊法学法守法用法，形成法治信仰和维护公平正义的意识。 建设法治中国，是推进国家治理体系和治理能力现代化的必然要求；全面依法治国，必须坚定不移走中国特色社会主义法治道路，坚持党的领导、人民当家作主、依法治国有机统一，坚持以人民为中心，坚持依法治国和以德治国相结合，全面推进科学立法、严格执法、公正司法、全民守法，在全社会树立法治观念。增强青少年法治观念，有助于",
+        "中国特色社会主义政治制度的基本内容、鲜明特点和主要优势；了解全面推进依法治国的总目标，知道科学立法、严格执法、公正司法、全民守法的基本要求；懂得走中国特色社会主义政治发展道路，必须坚持党的领导、人民当家作主、依法治国有机统一，理解推进国家治理体系和治理能力现代化的重要性；具备有序参与国家政治生活和社会公共生活的能力。 # 模块4：哲学与文化 阐明马克思主义哲学是科学"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:12",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:14",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第三课 坚持和加强党的全面领导\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:14",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:12",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第三课 坚持和加强党的全面领导\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:14",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:15",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第四课 人民民主专政的社会主义国家\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:15",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:14",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第四课 人民民主专政的社会主义国家\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:14",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:16",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第四课 人民民主专政的社会主义国家\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:16",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:14",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第四课 人民民主专政的社会主义国家\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:15",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:17",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第五课 我国的根本政治制度\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:17",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:15",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第五课 我国的根本政治制度\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:15",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:18",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第五课 我国的根本政治制度\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:18",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:15",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第五课 我国的根本政治制度\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:16",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:19",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第六课 我国的基本政治制度\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:19",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:16",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第六课 我国的基本政治制度\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:16",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:20",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第六课 我国的基本政治制度\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:20",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:16",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第六课 我国的基本政治制度\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:16",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:21",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第六课 我国的基本政治制度\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "的展板。可阅读民族</td></tr></table> 续表 <table><tr><td>内容要求</td><td>教学提示</td></tr><tr><td>2.4领悟基层群众自治制度是我国人民依法直接行使民主权利的基本政治制度。</td><td>文学作品，组织观赏民族歌舞，领略各民族文化的魅力。可查阅相关资料，了解各民族杰出人物的故事。 ◆以“我们怎样当家作主"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:21",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:16",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第六课 我国的基本政治制度\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "的展板。可阅读民族</td></tr></table> 续表 <table><tr><td>内容要求</td><td>教学提示</td></tr><tr><td>2.4领悟基层群众自治制度是我国人民依法直接行使民主权利的基本政治制度。</td><td>文学作品，组织观赏民族歌舞，领略各民族文化的魅力。可查阅相关资料，了解各民族杰出人物的故事。 ◆以“我们怎样当家作主"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:18",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:22",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第七课 治国理政的基本方式\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:22",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:18",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第七课 治国理政的基本方式\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:18",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:23",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第七课 治国理政的基本方式\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:23",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:18",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第七课 治国理政的基本方式\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:19",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:24",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第八课 法治中国建设\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "td colspan=\"2\">3.依法治国</td></tr><tr><td>3.1简述我国法治建设的成就；明确全面推进依法治国的总目标是建设中国特色社会主义法治体系，建设社会主义法治国家。 3.2搜集材料，阐述科学立法、严格执法、公正司法、全民守法的基本要求。</td><td>◆以“公民参与立法有什么意义、有哪些途径”为议题，探究推进科学立法、民主立法、依法立法，",
+        "。</td></tr></table> 续表 <table><tr><td>内容要求</td><td>教学提示</td></tr><tr><td>3.3 列举事例，阐明建设法治国家、法治政府、法治社会的意义。</td><td>◆以“为什么说公正司法是维护社会公平正义的最后一道防线”为议题，探究公正司法的意义和价值，以及体现公正司法的制度和措施。可组织考察活动"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:24",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:19",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第八课 法治中国建设\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "td colspan=\"2\">3.依法治国</td></tr><tr><td>3.1简述我国法治建设的成就；明确全面推进依法治国的总目标是建设中国特色社会主义法治体系，建设社会主义法治国家。 3.2搜集材料，阐述科学立法、严格执法、公正司法、全民守法的基本要求。</td><td>◆以“公民参与立法有什么意义、有哪些途径”为议题，探究推进科学立法、民主立法、依法立法，",
+        "。</td></tr></table> 续表 <table><tr><td>内容要求</td><td>教学提示</td></tr><tr><td>3.3 列举事例，阐明建设法治国家、法治政府、法治社会的意义。</td><td>◆以“为什么说公正司法是维护社会公平正义的最后一道防线”为议题，探究公正司法的意义和价值，以及体现公正司法的制度和措施。可组织考察活动"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:19",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:25",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第八课 法治中国建设\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "制定，亲身体验基层群众依法表达诉求、参与社区治理的过程。 ◆以“如何增强政府的公信力和执行力”为议题，探究建设职能科学、权责法定、执法严明、公开公正、智能高效、廉洁诚信、人民满意的法治政府的意义。可参观行政服务机构，了解政府部门的办事程序，考察政府履行职能的表现。可参加价格听证会等活动，感受政府决策的过程。可识别政府执法标识，模拟政府执法活动，体验严格规范公正文明执",
+        "></tr></table> 续表 <table><tr><td>内容要求</td><td>教学提示</td></tr><tr><td>3.3 列举事例，阐明建设法治国家、法治政府、法治社会的意义。</td><td>◆以“为什么说公正司法是维护社会公平正义的最后一道防线”为议题，探究公正司法的意义和价值，以及体现公正司法的制度和措施。可组织考察活动，归纳解决"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:25",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:19",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第八课 法治中国建设\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "制定，亲身体验基层群众依法表达诉求、参与社区治理的过程。 ◆以“如何增强政府的公信力和执行力”为议题，探究建设职能科学、权责法定、执法严明、公开公正、智能高效、廉洁诚信、人民满意的法治政府的意义。可参观行政服务机构，了解政府部门的办事程序，考察政府履行职能的表现。可参加价格听证会等活动，感受政府决策的过程。可识别政府执法标识，模拟政府执法活动，体验严格规范公正文明执",
+        "></tr></table> 续表 <table><tr><td>内容要求</td><td>教学提示</td></tr><tr><td>3.3 列举事例，阐明建设法治国家、法治政府、法治社会的意义。</td><td>◆以“为什么说公正司法是维护社会公平正义的最后一道防线”为议题，探究公正司法的意义和价值，以及体现公正司法的制度和措施。可组织考察活动，归纳解决"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:19",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:26",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第八课 法治中国建设\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "></table> 续表 <table><tr><td>内容要求</td><td>教学提示</td></tr><tr><td>3.3 列举事例，阐明建设法治国家、法治政府、法治社会的意义。</td><td>◆以“为什么说公正司法是维护社会公平正义的最后一道防线”为议题，探究公正司法的意义和价值，以及体现公正司法的制度和措施。可组织考察活动，归纳解决社会争议的",
+        "观调解中心、仲裁委员会、人民法院或人民检察院，认识其功能和作用。可通过具体案件的审理，感受公平正义。 ◆以“法治如何让生活更美好”为议题，探究法治与生活、法治与道德的关系，认识建设法治社会的重要意义。可搜集相关资料，归纳公民的知情权、参与权、表达权、监督权的法治保障，展望人们在法治国家享受经济生活、政治生活、文化生活、社会生活和优美环境的美好前景。可调研当前人们关注"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:26",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:19",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第八课 法治中国建设\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "></table> 续表 <table><tr><td>内容要求</td><td>教学提示</td></tr><tr><td>3.3 列举事例，阐明建设法治国家、法治政府、法治社会的意义。</td><td>◆以“为什么说公正司法是维护社会公平正义的最后一道防线”为议题，探究公正司法的意义和价值，以及体现公正司法的制度和措施。可组织考察活动，归纳解决社会争议的",
+        "观调解中心、仲裁委员会、人民法院或人民检察院，认识其功能和作用。可通过具体案件的审理，感受公平正义。 ◆以“法治如何让生活更美好”为议题，探究法治与生活、法治与道德的关系，认识建设法治社会的重要意义。可搜集相关资料，归纳公民的知情权、参与权、表达权、监督权的法治保障，展望人们在法治国家享受经济生活、政治生活、文化生活、社会生活和优美环境的美好前景。可调研当前人们关注"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:20",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:27",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第九课 全面依法治国的基本要求\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "理能力现代化的必然要求；全面依法治国，必须坚定不移走中国特色社会主义法治道路，坚持党的领导、人民当家作主、依法治国有机统一，坚持以人民为中心，坚持依法治国和以德治国相结合，全面推进科学立法、严格执法、公正司法、全民守法，在全社会树立法治观念。增强青少年法治观念，有助于 他们依法行使权利、履行义务，尊重自由平等，维护公平正义，弘扬社会主义法治精神，传承中华优秀传统法",
+        ".依法治国</td></tr><tr><td>3.1简述我国法治建设的成就；明确全面推进依法治国的总目标是建设中国特色社会主义法治体系，建设社会主义法治国家。 3.2搜集材料，阐述科学立法、严格执法、公正司法、全民守法的基本要求。</td><td>◆以“公民参与立法有什么意义、有哪些途径”为议题，探究推进科学立法、民主立法、依法立法，以良法促进发展、保障善治的意义，"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:27",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:20",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第九课 全面依法治国的基本要求\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "理能力现代化的必然要求；全面依法治国，必须坚定不移走中国特色社会主义法治道路，坚持党的领导、人民当家作主、依法治国有机统一，坚持以人民为中心，坚持依法治国和以德治国相结合，全面推进科学立法、严格执法、公正司法、全民守法，在全社会树立法治观念。增强青少年法治观念，有助于 他们依法行使权利、履行义务，尊重自由平等，维护公平正义，弘扬社会主义法治精神，传承中华优秀传统法",
+        ".依法治国</td></tr><tr><td>3.1简述我国法治建设的成就；明确全面推进依法治国的总目标是建设中国特色社会主义法治体系，建设社会主义法治国家。 3.2搜集材料，阐述科学立法、严格执法、公正司法、全民守法的基本要求。</td><td>◆以“公民参与立法有什么意义、有哪些途径”为议题，探究推进科学立法、民主立法、依法立法，以良法促进发展、保障善治的意义，"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:20",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:28",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第九课 全面依法治国的基本要求\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "化的必然要求；全面依法治国，必须坚定不移走中国特色社会主义法治道路，坚持党的领导、人民当家作主、依法治国有机统一，坚持以人民为中心，坚持依法治国和以德治国相结合，全面推进科学立法、严格执法、公正司法、全民守法，在全社会树立法治观念。增强青少年法治观念，有助于 他们依法行使权利、履行义务，尊重自由平等，维护公平正义，弘扬社会主义法治精神，传承中华优秀传统法律文化，做",
+        "</td></tr><tr><td>3.1简述我国法治建设的成就；明确全面推进依法治国的总目标是建设中国特色社会主义法治体系，建设社会主义法治国家。 3.2搜集材料，阐述科学立法、严格执法、公正司法、全民守法的基本要求。</td><td>◆以“公民参与立法有什么意义、有哪些途径”为议题，探究推进科学立法、民主立法、依法立法，以良法促进发展、保障善治的意义，理解公民依"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:28",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:20",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第九课 全面依法治国的基本要求\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "化的必然要求；全面依法治国，必须坚定不移走中国特色社会主义法治道路，坚持党的领导、人民当家作主、依法治国有机统一，坚持以人民为中心，坚持依法治国和以德治国相结合，全面推进科学立法、严格执法、公正司法、全民守法，在全社会树立法治观念。增强青少年法治观念，有助于 他们依法行使权利、履行义务，尊重自由平等，维护公平正义，弘扬社会主义法治精神，传承中华优秀传统法律文化，做",
+        "</td></tr><tr><td>3.1简述我国法治建设的成就；明确全面推进依法治国的总目标是建设中国特色社会主义法治体系，建设社会主义法治国家。 3.2搜集材料，阐述科学立法、严格执法、公正司法、全民守法的基本要求。</td><td>◆以“公民参与立法有什么意义、有哪些途径”为议题，探究推进科学立法、民主立法、依法立法，以良法促进发展、保障善治的意义，理解公民依"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:20",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:29",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第九课 全面依法治国的基本要求\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "求；全面依法治国，必须坚定不移走中国特色社会主义法治道路，坚持党的领导、人民当家作主、依法治国有机统一，坚持以人民为中心，坚持依法治国和以德治国相结合，全面推进科学立法、严格执法、公正司法、全民守法，在全社会树立法治观念。增强青少年法治观念，有助于 他们依法行使权利、履行义务，尊重自由平等，维护公平正义，弘扬社会主义法治精神，传承中华优秀传统法律文化，做社会主义法",
+        "</tr><tr><td>3.1简述我国法治建设的成就；明确全面推进依法治国的总目标是建设中国特色社会主义法治体系，建设社会主义法治国家。 3.2搜集材料，阐述科学立法、严格执法、公正司法、全民守法的基本要求。</td><td>◆以“公民参与立法有什么意义、有哪些途径”为议题，探究推进科学立法、民主立法、依法立法，以良法促进发展、保障善治的意义，理解公民依法行使民主"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:29",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:20",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第九课 全面依法治国的基本要求\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "求；全面依法治国，必须坚定不移走中国特色社会主义法治道路，坚持党的领导、人民当家作主、依法治国有机统一，坚持以人民为中心，坚持依法治国和以德治国相结合，全面推进科学立法、严格执法、公正司法、全民守法，在全社会树立法治观念。增强青少年法治观念，有助于 他们依法行使权利、履行义务，尊重自由平等，维护公平正义，弘扬社会主义法治精神，传承中华优秀传统法律文化，做社会主义法",
+        "</tr><tr><td>3.1简述我国法治建设的成就；明确全面推进依法治国的总目标是建设中国特色社会主义法治体系，建设社会主义法治国家。 3.2搜集材料，阐述科学立法、严格执法、公正司法、全民守法的基本要求。</td><td>◆以“公民参与立法有什么意义、有哪些途径”为议题，探究推进科学立法、民主立法、依法立法，以良法促进发展、保障善治的意义，理解公民依法行使民主"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:20",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:30",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第九课 全面依法治国的基本要求\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "法治国，必须坚定不移走中国特色社会主义法治道路，坚持党的领导、人民当家作主、依法治国有机统一，坚持以人民为中心，坚持依法治国和以德治国相结合，全面推进科学立法、严格执法、公正司法、全民守法，在全社会树立法治观念。增强青少年法治观念，有助于 他们依法行使权利、履行义务，尊重自由平等，维护公平正义，弘扬社会主义法治精神，传承中华优秀传统法律文化，做社会主义法治的忠实崇",
+        "<tr><td>3.1简述我国法治建设的成就；明确全面推进依法治国的总目标是建设中国特色社会主义法治体系，建设社会主义法治国家。 3.2搜集材料，阐述科学立法、严格执法、公正司法、全民守法的基本要求。</td><td>◆以“公民参与立法有什么意义、有哪些途径”为议题，探究推进科学立法、民主立法、依法立法，以良法促进发展、保障善治的意义，理解公民依法行使民主权利的制度"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:30",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:20",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第九课 全面依法治国的基本要求\" 且 volume=\"必修3 政治与法治\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "法治国，必须坚定不移走中国特色社会主义法治道路，坚持党的领导、人民当家作主、依法治国有机统一，坚持以人民为中心，坚持依法治国和以德治国相结合，全面推进科学立法、严格执法、公正司法、全民守法，在全社会树立法治观念。增强青少年法治观念，有助于 他们依法行使权利、履行义务，尊重自由平等，维护公平正义，弘扬社会主义法治精神，传承中华优秀传统法律文化，做社会主义法治的忠实崇",
+        "<tr><td>3.1简述我国法治建设的成就；明确全面推进依法治国的总目标是建设中国特色社会主义法治体系，建设社会主义法治国家。 3.2搜集材料，阐述科学立法、严格执法、公正司法、全民守法的基本要求。</td><td>◆以“公民参与立法有什么意义、有哪些途径”为议题，探究推进科学立法、民主立法、依法立法，以良法促进发展、保障善治的意义，理解公民依法行使民主权利的制度"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:22",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:31",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第一课 时代精神的精华\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:31",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:22",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第一课 时代精神的精华\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:22",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:32",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第一课 时代精神的精华\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "坚持系统观念，理解世界是普遍联系、永恒运动的，领会全面地、</td><td>◆以“哲学有什么用”为议题，探究哲学把握世界的独特方式。可寻找生活和学习中充满智慧、蕴含哲理的故事，感悟哲学的基本问题与生活息息相关。可分享各自搜集的资料，归纳哲学思维和日常思维的特点，领会哲学思维的重要意义。 ◆以“人的正确思想是从哪里来的”为议题，探究“实践—认识—再实践—再认识……”"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:32",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:22",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第一课 时代精神的精华\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "坚持系统观念，理解世界是普遍联系、永恒运动的，领会全面地、</td><td>◆以“哲学有什么用”为议题，探究哲学把握世界的独特方式。可寻找生活和学习中充满智慧、蕴含哲理的故事，感悟哲学的基本问题与生活息息相关。可分享各自搜集的资料，归纳哲学思维和日常思维的特点，领会哲学思维的重要意义。 ◆以“人的正确思想是从哪里来的”为议题，探究“实践—认识—再实践—再认识……”"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:22",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:33",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第一课 时代精神的精华\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "领导、人民当家作主、依法治国有机统一，理解推进国家治理体系和治理能力现代化的重要性；具备有序参与国家政治生活和社会公共生活的能力。 # 模块4：哲学与文化 阐明马克思主义哲学是科学的世界观和方法论，讲述辩证唯物主义和历史唯物主义基本观点，坚持实践的观点、历史的观点、辩证的观点、发展的观点、群众的观点，在实践中认识真理、检验真理、发展真理；讲述社会生活及个人成长中价值判断、行",
+        "lspan=\"2\">1.探索世界与追求真理</td></tr><tr><td>1.1比较哲学思维与日常思维的异同；理解任何真正的哲学都是自己时代的精神上的精华，阐明马克思主义哲学是科学的世界观和方法论。 1.2说明思维和存在的关系问题，阐释世界的统一性在于它的物质性；表达无神论立场；表明坚持一切从实际出发、实事求是的态度。 1.3了解人的实践活动的特性和作用，理"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:33",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:22",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第一课 时代精神的精华\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "领导、人民当家作主、依法治国有机统一，理解推进国家治理体系和治理能力现代化的重要性；具备有序参与国家政治生活和社会公共生活的能力。 # 模块4：哲学与文化 阐明马克思主义哲学是科学的世界观和方法论，讲述辩证唯物主义和历史唯物主义基本观点，坚持实践的观点、历史的观点、辩证的观点、发展的观点、群众的观点，在实践中认识真理、检验真理、发展真理；讲述社会生活及个人成长中价值判断、行",
+        "lspan=\"2\">1.探索世界与追求真理</td></tr><tr><td>1.1比较哲学思维与日常思维的异同；理解任何真正的哲学都是自己时代的精神上的精华，阐明马克思主义哲学是科学的世界观和方法论。 1.2说明思维和存在的关系问题，阐释世界的统一性在于它的物质性；表达无神论立场；表明坚持一切从实际出发、实事求是的态度。 1.3了解人的实践活动的特性和作用，理"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:23",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:34",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第二课 探究世界的本质\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:34",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:23",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第二课 探究世界的本质\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:23",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:35",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第二课 探究世界的本质\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:35",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:23",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第二课 探究世界的本质\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:24",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:36",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第三课 把握世界的规律\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:36",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:24",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第三课 把握世界的规律\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:24",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:37",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第三课 把握世界的规律\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:37",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:24",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第三课 把握世界的规律\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:24",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:38",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第三课 把握世界的规律\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:38",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:24",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第三课 把握世界的规律\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:26",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:39",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第四课 探索认识的奥秘\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:39",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:26",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第四课 探索认识的奥秘\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:26",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:40",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第四课 探索认识的奥秘\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:40",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:26",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第四课 探索认识的奥秘\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:27",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:41",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第五课 寻觅社会的真谛\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:41",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:27",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第五课 寻觅社会的真谛\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:27",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:42",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第五课 寻觅社会的真谛\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:42",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:27",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第五课 寻觅社会的真谛\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:27",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:43",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第五课 寻觅社会的真谛\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:43",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:27",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第五课 寻觅社会的真谛\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:28",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:44",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第六课 实现人生的价值\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:44",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:28",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第六课 实现人生的价值\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:28",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:45",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第六课 实现人生的价值\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:45",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:28",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第六课 实现人生的价值\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:28",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:46",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第六课 实现人生的价值\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:46",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:28",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第六课 实现人生的价值\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:30",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:47",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第七课 继承发展中华优秀传统文化\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:47",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:30",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第七课 继承发展中华优秀传统文化\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:30",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:48",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第七课 继承发展中华优秀传统文化\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:48",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:30",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第七课 继承发展中华优秀传统文化\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:30",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:49",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第七课 继承发展中华优秀传统文化\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:49",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:30",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第七课 继承发展中华优秀传统文化\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:31",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:50",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第八课 学习借鉴外来文化的有益成果\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:50",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:31",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第八课 学习借鉴外来文化的有益成果\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:31",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:51",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第八课 学习借鉴外来文化的有益成果\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:51",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:31",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第八课 学习借鉴外来文化的有益成果\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:31",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:52",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第八课 学习借鉴外来文化的有益成果\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:52",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:31",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第八课 学习借鉴外来文化的有益成果\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:32",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:53",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第九课 发展中国特色社会主义文化\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:53",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:32",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第九课 发展中国特色社会主义文化\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:32",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:54",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第九课 发展中国特色社会主义文化\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:54",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:32",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第九课 发展中国特色社会主义文化\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:32",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:55",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第九课 发展中国特色社会主义文化\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:55",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:32",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第九课 发展中国特色社会主义文化\" 且 volume=\"必修4 哲学与文化\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:34",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:56",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第一课 国体与政体\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:56",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:34",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第一课 国体与政体\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:34",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:57",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第一课 国体与政体\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:57",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:34",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第一课 国体与政体\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:34",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:58",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第一课 国体与政体\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:58",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:34",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第一课 国体与政体\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:35",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:59",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第二课 国家的结构形式\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:59",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:35",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第二课 国家的结构形式\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:35",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:60",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第二课 国家的结构形式\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:60",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:35",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第二课 国家的结构形式\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:37",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:61",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第三课 多极化趋势\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:61",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:37",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第三课 多极化趋势\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:37",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:62",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第三课 多极化趋势\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "文化自信；树立正确的世界观、人生观、价值观。 # （二）选择性必修课程 # 模块1：当代国际政治与经济 围绕当今世界多极化与经济全球化趋势，解析不同的国家性质和国家形式，说明国际关系的主要影响因素和世界经济发展的基本特点，介绍国际组织的主要类型及作用，引导学生坚持胸怀天下，在拓展国际视野的过程中，坚持总体国家安全观，坚定不移地走中国特色社会主义道路，积极贡献中",
+        "。 1.3 引用实例，比较不同国家的特点及发展状况，阐明我国的总体国家安全观。 # 2. 世界多极化 2.1 引用国家之间合作、竞争、冲突的实例，印证国家利益和国家实力是决定国际关系的主要因素。 2.2 引述有关资料，全面阐述和平、发展、合作、共赢的历史潮流，描述当前世界之变、时代之变、历史之变正以前所未有的方式展开；解释我国独立自主的和平外交政策，阐述合作"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:62",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:37",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第三课 多极化趋势\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "文化自信；树立正确的世界观、人生观、价值观。 # （二）选择性必修课程 # 模块1：当代国际政治与经济 围绕当今世界多极化与经济全球化趋势，解析不同的国家性质和国家形式，说明国际关系的主要影响因素和世界经济发展的基本特点，介绍国际组织的主要类型及作用，引导学生坚持胸怀天下，在拓展国际视野的过程中，坚持总体国家安全观，坚定不移地走中国特色社会主义道路，积极贡献中",
+        "。 1.3 引用实例，比较不同国家的特点及发展状况，阐明我国的总体国家安全观。 # 2. 世界多极化 2.1 引用国家之间合作、竞争、冲突的实例，印证国家利益和国家实力是决定国际关系的主要因素。 2.2 引述有关资料，全面阐述和平、发展、合作、共赢的历史潮流，描述当前世界之变、时代之变、历史之变正以前所未有的方式展开；解释我国独立自主的和平外交政策，阐述合作"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:38",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:63",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第四课 和平与发展\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:63",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:38",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第四课 和平与发展\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:38",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:64",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第四课 和平与发展\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:64",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:38",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第四课 和平与发展\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:39",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:65",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第五课 中国的外交\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:65",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:39",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第五课 中国的外交\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:39",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:66",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第五课 中国的外交\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "界经济发展的基本特点，介绍国际组织的主要类型及作用，引导学生坚持胸怀天下，在拓展国际视野的过程中，坚持总体国家安全观，坚定不移地走中国特色社会主义道路，积极贡献中国智慧和力量，推动构建人类命运共同体。 # 【内容要求】 # 1. 各具特色的国家 1.1 了解国体和政体的关系，揭示国家的本质，理解国家管理形式的多样性。 1.2 解析国家的结构形式，理解维护国家统一、捍卫",
+        "面阐述和平、发展、合作、共赢的历史潮流，描述当前世界之变、时代之变、历史之变正以前所未有的方式展开；解释我国独立自主的和平外交政策，阐述合作共赢的理念，认识促进世界和平与发展、推动构建人类命运共同体的意义。 2.3 阐明霸权主义、强权政治的危害，了解共商共建共享的全球治理观，理解推动平等有序的世界多极化的意义。 # 3. 经济全球化 3.1 辨识国际经济中的比较优势，描"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:66",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:39",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第五课 中国的外交\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "界经济发展的基本特点，介绍国际组织的主要类型及作用，引导学生坚持胸怀天下，在拓展国际视野的过程中，坚持总体国家安全观，坚定不移地走中国特色社会主义道路，积极贡献中国智慧和力量，推动构建人类命运共同体。 # 【内容要求】 # 1. 各具特色的国家 1.1 了解国体和政体的关系，揭示国家的本质，理解国家管理形式的多样性。 1.2 解析国家的结构形式，理解维护国家统一、捍卫",
+        "面阐述和平、发展、合作、共赢的历史潮流，描述当前世界之变、时代之变、历史之变正以前所未有的方式展开；解释我国独立自主的和平外交政策，阐述合作共赢的理念，认识促进世界和平与发展、推动构建人类命运共同体的意义。 2.3 阐明霸权主义、强权政治的危害，了解共商共建共享的全球治理观，理解推动平等有序的世界多极化的意义。 # 3. 经济全球化 3.1 辨识国际经济中的比较优势，描"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:41",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:67",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第六课 走进经济全球化\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:67",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:41",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第六课 走进经济全球化\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:41",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:68",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第六课 走进经济全球化\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:68",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:41",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第六课 走进经济全球化\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:42",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:69",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第七课 经济全球化与中国\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:69",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:42",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第七课 经济全球化与中国\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:42",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:70",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第七课 经济全球化与中国\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:70",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:42",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第七课 经济全球化与中国\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:44",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:71",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第八课 主要的国际组织\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:71",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:44",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第八课 主要的国际组织\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:44",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:72",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第八课 主要的国际组织\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "正确义利观，阐释推动建设开放型世界经济的意义。 3.3 引用实例，说明中国如何推动经济全球化朝着更加开放、包容、普惠、平衡、共赢的方向发展。 # 4. 国际组织 4.1 阐释联合国宪章倡导的国际关系基本准则，评析联合国在国际事务中发挥的作用；分析世界贸易组织、世界银行、国际货币基金组织、亚洲基础设施投资银行等在国际经济事务中发挥的作用。 4.2 识别主要的",
+        "的意义。 3.3 引用实例，说明中国如何推动经济全球化朝着更加开放、包容、普惠、平衡、共赢的方向发展。 # 4. 国际组织 4.1 阐释联合国宪章倡导的国际关系基本准则，评析联合国在国际事务中发挥的作用；分析世界贸易组织、世界银行、国际货币基金组织、亚洲基础设施投资银行等在国际经济事务中发挥的作用。 4.2 识别主要的区域性国际组织，评价区域性国际组织在国"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:72",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:44",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第八课 主要的国际组织\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "正确义利观，阐释推动建设开放型世界经济的意义。 3.3 引用实例，说明中国如何推动经济全球化朝着更加开放、包容、普惠、平衡、共赢的方向发展。 # 4. 国际组织 4.1 阐释联合国宪章倡导的国际关系基本准则，评析联合国在国际事务中发挥的作用；分析世界贸易组织、世界银行、国际货币基金组织、亚洲基础设施投资银行等在国际经济事务中发挥的作用。 4.2 识别主要的",
+        "的意义。 3.3 引用实例，说明中国如何推动经济全球化朝着更加开放、包容、普惠、平衡、共赢的方向发展。 # 4. 国际组织 4.1 阐释联合国宪章倡导的国际关系基本准则，评析联合国在国际事务中发挥的作用；分析世界贸易组织、世界银行、国际货币基金组织、亚洲基础设施投资银行等在国际经济事务中发挥的作用。 4.2 识别主要的区域性国际组织，评价区域性国际组织在国"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:44",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:73",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第八课 主要的国际组织\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "宪章倡导的国际关系基本准则，评析联合国在国际事务中发挥的作用；分析世界贸易组织、世界银行、国际货币基金组织、亚洲基础设施投资银行等在国际经济事务中发挥的作用。 4.2 识别主要的区域性国际组织，评价区域性国际组织在国际事务中发挥的作用。 # 【教学提示】 $\\spadesuit$ 采用宣传板报等形式，选取典型国家，展示“君主立宪制”和“民主共和制”两种国家管理形式",
+        "本准则，评析联合国在国际事务中发挥的作用；分析世界贸易组织、世界银行、国际货币基金组织、亚洲基础设施投资银行等在国际经济事务中发挥的作用。 4.2 识别主要的区域性国际组织，评价区域性国际组织在国际事务中发挥的作用。 # 【教学提示】 $\\spadesuit$ 采用宣传板报等形式，选取典型国家，展示“君主立宪制”和“民主共和制”两种国家管理形式，说明各自的特点。"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:73",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:44",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第八课 主要的国际组织\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "宪章倡导的国际关系基本准则，评析联合国在国际事务中发挥的作用；分析世界贸易组织、世界银行、国际货币基金组织、亚洲基础设施投资银行等在国际经济事务中发挥的作用。 4.2 识别主要的区域性国际组织，评价区域性国际组织在国际事务中发挥的作用。 # 【教学提示】 $\\spadesuit$ 采用宣传板报等形式，选取典型国家，展示“君主立宪制”和“民主共和制”两种国家管理形式",
+        "本准则，评析联合国在国际事务中发挥的作用；分析世界贸易组织、世界银行、国际货币基金组织、亚洲基础设施投资银行等在国际经济事务中发挥的作用。 4.2 识别主要的区域性国际组织，评价区域性国际组织在国际事务中发挥的作用。 # 【教学提示】 $\\spadesuit$ 采用宣传板报等形式，选取典型国家，展示“君主立宪制”和“民主共和制”两种国家管理形式，说明各自的特点。"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:45",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:74",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第九课 中国与国际组织\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:74",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:45",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第九课 中国与国际组织\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:45",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:75",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第九课 中国与国际组织\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:75",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:45",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第九课 中国与国际组织\" 且 volume=\"选择性必修1 当代国际政治与经济\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:47",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:76",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第一课 在生活中学民法用民法\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:76",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:47",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第一课 在生活中学民法用民法\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:47",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:77",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第一课 在生活中学民法用民法\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:77",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:47",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第一课 在生活中学民法用民法\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:48",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:78",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第二课 依法有效保护财产权\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:78",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:48",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第二课 依法有效保护财产权\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:48",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:79",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第二课 依法有效保护财产权\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:79",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:48",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第二课 依法有效保护财产权\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:49",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:80",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第三课 订约履约 诚信为本\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:80",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:49",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第三课 订约履约 诚信为本\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:49",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:81",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第三课 订约履约 诚信为本\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:81",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:49",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第三课 订约履约 诚信为本\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:50",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:82",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第四课 侵权责任与权利界限\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:82",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:50",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第四课 侵权责任与权利界限\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:50",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:83",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第四课 侵权责任与权利界限\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:83",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:50",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第四课 侵权责任与权利界限\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:52",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:84",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第五课 在和睦家庭中成长\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:84",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:52",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第五课 在和睦家庭中成长\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:52",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:85",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第五课 在和睦家庭中成长\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:85",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:52",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第五课 在和睦家庭中成长\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:53",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:86",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第六课 珍惜婚姻关系\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:86",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:53",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第六课 珍惜婚姻关系\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:53",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:87",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第六课 珍惜婚姻关系\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:87",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:53",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第六课 珍惜婚姻关系\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:55",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:88",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第七课 做个明白的劳动者\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:88",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:55",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第七课 做个明白的劳动者\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:55",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:89",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第七课 做个明白的劳动者\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:89",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:55",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第七课 做个明白的劳动者\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:56",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:90",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第八课 自主创业与诚信经营\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:90",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:56",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第八课 自主创业与诚信经营\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:56",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:91",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第八课 自主创业与诚信经营\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:91",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:56",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第八课 自主创业与诚信经营\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:58",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:92",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第九课 纠纷的多元解决方式\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:92",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:58",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第九课 纠纷的多元解决方式\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:58",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:93",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第九课 纠纷的多元解决方式\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:93",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:58",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第九课 纠纷的多元解决方式\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:59",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:94",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第十课 诉讼实现公平正义\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:94",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:59",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第十课 诉讼实现公平正义\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:59",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:95",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第十课 诉讼实现公平正义\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:95",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:59",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第十课 诉讼实现公平正义\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:59",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:96",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第十课 诉讼实现公平正义\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:96",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:59",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第十课 诉讼实现公平正义\" 且 volume=\"选择性必修2 法律与生活\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:61",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:97",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第一课 走进思维世界\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:97",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:61",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第一课 走进思维世界\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:61",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:98",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第一课 走进思维世界\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:98",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:61",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第一课 走进思维世界\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:62",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:99",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第二课 把握逻辑要义\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:99",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:62",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第二课 把握逻辑要义\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:62",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:100",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第二课 把握逻辑要义\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:100",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:62",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第二课 把握逻辑要义\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:63",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:101",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第三课 领会科学思维\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:101",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:63",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第三课 领会科学思维\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:63",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:102",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第三课 领会科学思维\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:102",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:63",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第三课 领会科学思维\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:65",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:103",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第四课 准确把握概念\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:103",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:65",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第四课 准确把握概念\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:65",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:104",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第四课 准确把握概念\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:104",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:65",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第四课 准确把握概念\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:66",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:105",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第五课 正确运用判断\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:105",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:66",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第五课 正确运用判断\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:66",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:106",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第五课 正确运用判断\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:106",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:66",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第五课 正确运用判断\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:66",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:107",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第五课 正确运用判断\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:107",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:66",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第五课 正确运用判断\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:67",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:108",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第六课 掌握演绎推理方法\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:108",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:67",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第六课 掌握演绎推理方法\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:67",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:109",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第六课 掌握演绎推理方法\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:109",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:67",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第六课 掌握演绎推理方法\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:67",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:110",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第六课 掌握演绎推理方法\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:110",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:67",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第六课 掌握演绎推理方法\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:68",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:111",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第七课 学会归纳与类比推理\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:111",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:68",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第七课 学会归纳与类比推理\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:68",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:112",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第七课 学会归纳与类比推理\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:112",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:68",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第七课 学会归纳与类比推理\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:70",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:113",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第八课 把握辩证分合\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:113",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:70",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第八课 把握辩证分合\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:70",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:114",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第八课 把握辩证分合\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:114",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:70",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第八课 把握辩证分合\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:71",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:115",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第九课 理解质量互变\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:115",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:71",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第九课 理解质量互变\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:71",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:116",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第九课 理解质量互变\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "3.1 结合对复杂事物的把握，体会辩证思维的特征；理解分析与综合的辩证关系。 3.2 联系事物发展过程中的渐进性和飞跃性，懂得事物的发展过程是量变与质变的统一；理解质量互变规律；把握适度原则。 3.3 辨析简单肯定一切或否定一切的危害，了解辩证否定观的实质，体会认识不断深化的历程。 # 4. 提高创新思维能力 4.1 理解创新思维的重要性；运用科学思维方法，提高"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:116",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:71",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第九课 理解质量互变\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "3.1 结合对复杂事物的把握，体会辩证思维的特征；理解分析与综合的辩证关系。 3.2 联系事物发展过程中的渐进性和飞跃性，懂得事物的发展过程是量变与质变的统一；理解质量互变规律；把握适度原则。 3.3 辨析简单肯定一切或否定一切的危害，了解辩证否定观的实质，体会认识不断深化的历程。 # 4. 提高创新思维能力 4.1 理解创新思维的重要性；运用科学思维方法，提高"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:72",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:117",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第十课 推动认识发展\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:117",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:72",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第十课 推动认识发展\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:72",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:118",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第十课 推动认识发展\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:118",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:72",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第十课 推动认识发展\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:74",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:119",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第十一课 创新思维要善于联想\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:119",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:74",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第十一课 创新思维要善于联想\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:74",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:120",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第十一课 创新思维要善于联想\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:120",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:74",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第十一课 创新思维要善于联想\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:75",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:121",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第十二课 创新思维要多路探索\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:121",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:75",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第十二课 创新思维要多路探索\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:75",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:122",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第十二课 创新思维要多路探索\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:122",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:75",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第十二课 创新思维要多路探索\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:76",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:123",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第十三课 创新思维要力求超前\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:123",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:76",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第十三课 创新思维要力求超前\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "sectionHasSubsection",
+    "label": "包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section_other:76",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:124",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第十三课 创新思维要力求超前\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "隶属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:124",
+    "target": "urn:jy:Politics:SB0310:OB06:Section_other:76",
+    "evidence": {
+      "fromJson": "按 Subsection.contentJson.chapter=\"第十三课 创新思维要力求超前\" 且 volume=\"选择性必修3 逻辑与思维\" 匹配 Section.title 与 volume。",
+      "mdEvidence": [
+        "未在课标.md中检索到同名标题（以JSON结构字段作为证据）"
+      ]
+    }
+  }
+]

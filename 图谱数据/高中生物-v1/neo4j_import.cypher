@@ -1,52 +1,115 @@
 // =====================================================
 // 高中生物课标图谱 - Neo4j导入脚本
-// 生成时间: 2026-01-22T23:17:06.873466
+// 生成时间: 2026-01-23T15:48:58.714877
 // =====================================================
 
 // 创建约束和索引
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:CourseTarget) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:AcademicQuality) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:Module) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:SubConception) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:CourseTarget) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:CourseModule) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:CoreLiteracy) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Chapter) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:Section) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:Conception) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:CourseModule) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:Chapter) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:AcademicQuality) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:SubConception) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:CoreLiteracy) REQUIRE n.identifier IS UNIQUE;
 
 // =====================================================
 // 导入实体
 // =====================================================
 
-MERGE (n:Conception {identifier: "urn:jy:biology:SB0403:OB06:Conception:l1"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:Conception:l1", title: "细胞是生物体结构与生命活动的基本单位", description: "1.1 细胞由多种多样的分子组成，包括水、无机盐、糖类、脂质、蛋白质和核酸等，其中蛋白质和核酸是两类最重要的生物大分子\n\n1.1.1 说出细胞主要由C、H、O、N、P、S等元素构成，它们以碳链为骨架形成复杂的生物大分子\n\n1.1.2 指出水大约占细胞质量的  $2 / 3$  ，以自由水和结合水的形式存在，赋予了细胞许多特性，在生命活动中具有重要作用\n\n1.1.3 举例说出无机盐在细胞内含量虽少，但与生命活动密切相关\n\n1.1.4 概述糖类有多种类型，它们既是细胞的重要结构成分，又是生命活动的主要能源物质\n\n1.1.5 举例说出不同种类的脂质对维持细胞结构和功能有重要作用\n\n1.1.6 阐明蛋白质通常由 20 种氨基酸分子组成，它的功能取决于氨基酸序列及其形成的空间结构，细胞的功能主要由蛋白质完成\n\n1.1.7 概述核酸由核苷酸聚合而成，是储存与传递遗传信息的生物大分子\n\n1.2 细胞各部分结构既分工又合作，共同执行细胞的各项生命活动\n\n1.2.1 概述细胞都由质膜包裹，质膜将细胞与其生活环境分开，能控制物质进出，并参与细胞间的信息交流\n\n1.2.2 阐明细胞内具有多个相对独立的结构，担负着物质运输、合成与分解、能量转换和信息传递等生命活动\n\n1.2.3 阐明遗传信息主要储存在细胞核中\n\n1.2.4 举例说明细胞各部分结构之间相互联系、协调一致，共同执行细胞的各项生命活动\n\n1.3 各种细胞具有相似的基本结构，但在形态与功能上有所差异\n\n1.3.1 说明有些生物体只有一个细胞，而有的由很多细胞构成，这些细胞形态和功能多样，但都具有相似的基本结构\n\n1.3.2 描述原核细胞与真核细胞的最大区别是原核细胞没有由核膜包被的细胞核", subject: "SB0403", type: "Conception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l1\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l1"};
+MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l1"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l1", title: "细胞由多种多样的分子组成，包括水、无机盐、糖类、脂质、蛋白质和核酸等，其中蛋白质和核酸是两类最重要的生物大分子", description: "1.1.1 说出细胞主要由C、H、O、N、P、S等元素构成，它们以碳链为骨架形成复杂的生物大分子\n\n1.1.2 指出水大约占细胞质量的  $2 / 3$  ，以自由水和结合水的形式存在，赋予了细胞许多特性，在生命活动中具有重要作用\n\n1.1.3 举例说出无机盐在细胞内含量虽少，但与生命活动密切相关\n\n1.1.4 概述糖类有多种类型，它们既是细胞的重要结构成分，又是生命活动的主要能源物质\n\n1.1.5 举例说出不同种类的脂质对维持细胞结构和功能有重要作用\n\n1.1.6 阐明蛋白质通常由 20 种氨基酸分子组成，它的功能取决于氨基酸序列及其形成的空间结构，细胞的功能主要由蛋白质完成\n\n1.1.7 概述核酸由核苷酸聚合而成，是储存与传递遗传信息的生物大分子", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l1\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l1\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l1", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l1"};
 
-MERGE (n:Conception {identifier: "urn:jy:biology:SB0403:OB06:Conception:l2"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:Conception:l2", title: "细胞需要能量和营养物质维持生存，并通过分裂实现增殖", description: "2.1 物质通过被动运输、主动运输等方式进出细胞，以维持细胞的正常代谢活动\n\n2.1.1 阐明质膜具有选择透过性\n\n2.1.2 举例说明有些物质顺浓度梯度进出细胞，不需要额外提供能量；有些物质逆浓度梯度进出细胞，需要能量和载体蛋白\n\n2.1.3 举例说明大分子物质可以通过胞吞、胞吐进出细胞\n\n2.2 细胞的功能绝大多数基于化学反应, 这些反应发生在细胞的特定区域\n\n2.2.1 说明绝大多数酶是一类能催化生化反应的蛋白质, 酶活性受到环境因素 (如  $\\mathrm{pH}$  和温度等) 的影响\n\n2.2.2 解释ATP是驱动细胞生命活动的直接能源物质\n\n2.2.3 说明植物细胞的叶绿体从太阳光中捕获能量，这些能量在二氧化碳和水转变为糖与氧气的过程中，转换并储存为糖分子中的化学能\n\n2.2.4 说明生物通过细胞呼吸将储存在有机分子中的能量转化为生命活动可以利用的能量\n\n2.3 细胞会经历生长、增殖、分化、衰老和死亡等生命进程\n\n2.3.1 描述细胞通过不同的方式进行分裂, 其中有丝分裂保证了遗传信息在亲代和子代细胞中的一致性\n\n2.3.2 说明在个体发育过程中，细胞在形态、结构和功能方面发生特异性的分化，形成了复杂的多细胞生物体\n\n2.3.3 描述在正常情况下，细胞衰老和死亡是一种自然的生理过程", subject: "SB0403", type: "Conception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l1\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l1"};
+MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l2"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l2", title: "细胞各部分结构既分工又合作，共同执行细胞的各项生命活动", description: "1.2.1 概述细胞都由质膜包裹，质膜将细胞与其生活环境分开，能控制物质进出，并参与细胞间的信息交流\n\n1.2.2 阐明细胞内具有多个相对独立的结构，担负着物质运输、合\n\n成与分解、能量转换和信息传递等生命活动\n\n1.2.3 阐明遗传信息主要储存在细胞核中\n\n1.2.4 举例说明细胞各部分结构之间相互联系、协调一致，共同执行细胞的各项生命活动", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l1\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l1\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l1", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l1"};
 
-MERGE (n:Conception {identifier: "urn:jy:biology:SB0403:OB06:Conception:l3"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:Conception:l3", title: "遗传信息控制生物性状，并代代相传", description: "3.1 亲代传递给子代的遗传信息主要编码在DNA分子上\n\n3.1.1 概述多数生物的基因是DNA分子的功能片段，有些病毒的基因在RNA分子上\n\n3.1.2 概述DNA分子是由四种脱氧核苷酸构成，通常由两条碱基互补配对的反向平行长链形成双螺旋结构，碱基的排列顺序编码了遗传信息\n\n3.1.3 概述DNA分子通过半保留方式进行复制\n\n3.1.4 概述DNA分子上的遗传信息通过RNA指导蛋白质的合成，细胞分化的本质是基因选择性表达的结果，生物的性状主要通过蛋白质表现\n\n3.1.5 概述某些基因中碱基序列不变但表型改变的表观遗传现象\n\n3.2 有性生殖中基因的分离和重组使双亲后代的基因组合有多种可能\n\n3.2.1 阐明减数分裂产生染色体数量减半的精细胞或卵细胞\n\n3.2.2 说明进行有性生殖的生物体，其遗传信息通过配子传递给子代\n\n3.2.3 阐明有性生殖中基因的分离和自由组合使得子代的基因型和表型有多种可能，并可由此预测子代的遗传性状\n\n3.2.4 概述性染色体上的基因传递和性别相关联\n\n3.3 由基因突变、染色体变异和基因重组引起的变异是可以遗传的\n\n3.3.1 概述碱基的替换、插入或缺失会引发基因中碱基序列的改变\n\n3.3.2 阐明基因中碱基序列的改变有可能导致它所编码的蛋白质及相应的细胞功能发生变化，甚至带来致命的后果\n\n3.3.3 描述细胞在某些化学物质、射线，以及病毒的作用下，基因突变概率可能提高，而某些基因突变能导致细胞分裂失控，甚至发生癌变\n\n3.3.4 阐明进行有性生殖的生物在减数分裂过程中, 染色体所发生的自由组合和交叉互换，会导致控制不同性状的基因重组，从而使子代出现变异\n\n3.3.5 举例说明染色体结构和数量的变异都可能导致生物性状的改变甚至死亡\n\n3.3.6 举例说明人类遗传病是可以检测和预防的", subject: "SB0403", type: "Conception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l2\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l2"};
+MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l3"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l3", title: "各种细胞具有相似的基本结构，但在形态与功能上有所差异", description: "1.3.1 说明有些生物体只有一个细胞，而有的由很多细胞构成，这些细胞形态和功能多样，但都具有相似的基本结构\n\n1.3.2 描述原核细胞与真核细胞的最大区别是原核细胞没有由核膜包被的细胞核", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l1\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l1\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l1", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l1"};
 
-MERGE (n:Conception {identifier: "urn:jy:biology:SB0403:OB06:Conception:l4"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:Conception:l4", title: "生物的多样性和适应性是进化的结果", description: "4.1 地球上的现存物种丰富多样，它们来自共同祖先\n\n4.1.1 尝试通过化石记录、比较解剖学和胚胎学等事实，说明当今生物具有共同的祖先\n\n4.1.2 尝试通过细胞生物学和分子生物学等知识，说明当今生物在新陈代谢、DNA的结构与功能等方面具有许多共同特征\n\n4.2 适应是自然选择的结果\n\n4.2.1 举例说明种群内的某些可遗传变异将赋予个体在特定环境中的生存和繁殖优势\n\n4.2.2 阐明具有优势性状的个体在种群中所占比例将会增加\n\n4.2.3 说明自然选择促进生物更好地适应特定的生存环境\n\n4.2.4 概述现代生物进化理论以自然选择学说为核心，为地球上的生命进化史提供了科学的解释\n\n4.2.5 举例说明变异、选择和隔离可导致新物种形成", subject: "SB0403", type: "Conception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l2\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l2"};
+MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l4"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l4", title: "物质通过被动运输、主动运输等方式进出细胞，以维持细胞的正常代谢活动", description: "2.1.1 阐明质膜具有选择透过性\n\n2.1.2 举例说明有些物质顺浓度梯度进出细胞，不需要额外提供能量；有些物质逆浓度梯度进出细胞，需要能量和载体蛋白\n\n2.1.3 举例说明大分子物质可以通过胞吞、胞吐进出细胞", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l1\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l2\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l1", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l2"};
 
-MERGE (n:Conception {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5", title: "生命个体的结构与功能相适应，各结构协调统一共同完成复杂的生命活动，并通过一定的调节机制保持稳态", description: "1.1 内环境为机体细胞提供适宜的生存环境，机体细胞通过内环境与外界环境进行物质交换\n\n1.1.1 说明血浆、组织液和淋巴等细胞外液共同构成高等动物细胞赖以生存的内环境\n\n1.1.2 阐明机体细胞生活在内环境中，通过内环境与外界环境进行物质交换，同时也参与内环境的形成和维持\n\n1.1.3 简述机体通过呼吸、消化、循环和泌尿等系统参与内、外环境间的物质交换\n\n1.2 内环境的变化会引发机体的自动调节，以维持内环境的稳态\n\n1.2.1 以血糖、体温、 $\\mathrm{pH}$ 和渗透压等为例，阐明机体通过调节作用保持内环境的相对稳定，以保证机体的正常生命活动\n\n1.2.2 举例说明机体不同器官、系统协调统一地共同完成各项生命活动，是维持内环境稳态的基础\n\n1.3 神经系统能够及时感知机体内、外环境的变化，并作出反应调控各器官、系统的活动，实现机体稳态\n\n1.3.1 概述神经调节的基本方式是反射（可分为条件反射和非条件反射），其结构基础是反射弧\n\n1.3.2 阐明神经细胞膜内外在静息状态具有电位差，受到外界刺激后形成动作电位，并沿神经纤维传导\n\n1.3.3 阐明神经冲动在突触处的传递通常通过化学传递方式完成\n\n1.3.4 分析位于脊髓的低级神经中枢和脑中相应的高级神经中枢相互联系、相互协调，共同调控器官和系统的活动，维持机体的稳态\n\n1.3.5 举例说明中枢神经系统通过自主神经来调节内脏的活动\n\n1.3.6 简述语言活动和条件反射是由大脑皮层控制的高级神经活动\n\n1.4 内分泌系统产生的多种类型的激素，通过体液传送而发挥调节作用，实现机体稳态\n\n1.4.1 说出人体内分泌系统主要由内分泌腺组成，包括垂体、甲状腺、肾上腺、胰岛和性腺等多种腺体，它们分泌的各类激素参与生命活动的调节\n\n1.4.2 举例说明激素通过分级调节、反馈调节等机制维持机体的稳态，如甲状腺激素分泌的调节和血糖平衡的调节等\n\n1.4.3 举例说出神经调节与体液调节相互协调共同维持机体的稳态，如体温调节和水盐平衡的调节等\n\n1.4.4 举例说明其他体液成分参与稳态的调节，如二氧化碳对呼吸运动的调节等\n\n1.5 免疫系统能够抵御病原体的侵袭，识别并清除机体内衰老、死亡或异常的细胞，实现机体稳态\n\n1.5.1 举例说明免疫细胞、免疫器官和免疫活性物质等是免疫调节的结构与物质基础\n\n1.5.2 概述人体的免疫包括与生俱来的非特异性免疫和后天获得的特异性免疫\n\n1.5.3 阐明特异性免疫是通过体液免疫和细胞免疫两种方式，针对特定病原体发生的免疫应答\n\n1.5.4 举例说明免疫功能异常可能引发疾病，如过敏、自身免疫病、艾滋病和先天性免疫缺陷病等\n\n1.6 植物生命活动受到多种因素的调节，其中最重要的是植物激素的调节\n\n1.6.1 概述科学家经过不断的探索，发现了植物生长素，并揭示了它在调节植物生长时表现出两重性，既能促进生长，也能抑制生长\n\n1.6.2 举例说明几种主要植物激素的作用，这些激素可通过协同、拮抗等方式共同实现对植物生命活动的调节\n\n1.6.3 举例说明生长素、细胞分裂素、赤霉素、脱落酸和乙烯等植物激素及其类似物在生产上得到了广泛应用\n\n1.6.4 概述其他因素参与植物生命活动的调节，如光、重力和温度等", subject: "SB0403", type: "Conception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l3\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l3"};
+MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l5"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l5", title: "细胞的功能绝大多数基于化学反应, 这些反应发生在细胞的特定区域", description: "2.2.1 说明绝大多数酶是一类能催化生化反应的蛋白质, 酶活性受到环境因素 (如  $\\mathrm{pH}$  和温度等) 的影响\n\n2.2.2 解释ATP是驱动细胞生命活动的直接能源物质\n\n2.2.3 说明植物细胞的叶绿体从太阳光中捕获能量，这些能量在二氧化碳和水转变为糖与氧气的过程中，转换并储存为糖分子中的化学能\n\n2.2.4 说明生物通过细胞呼吸将储存在有机分子中的能量转化为生命活动可以利用的能量", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l1\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l2\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l1", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l2"};
 
-MERGE (n:Conception {identifier: "urn:jy:biology:SB0403:OB06:Conception:l6"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:Conception:l6", title: "生态系统中的各种成分相互影响，共同实现系统的物质循环、能量流动和信息传递，生态系统通过自我调节保持相对稳定的状态", description: "2.1 不同种群的生物在长期适应环境和彼此相互适应的过程中形成动态的生物群落\n\n2.1.1 列举种群具有种群密度、出生率和死亡率、迁入率和迁出率、年龄结构、性别比例等特征\n\n2.1.2 尝试建立数学模型解释种群的数量变动\n\n2.1.3 举例说明阳光、温度和水等非生物因素以及不同物种之间的相互作用都会影响生物的种群特征\n\n2.1.4 描述群落具有垂直结构和水平结构等特征，并可随时间而改变\n\n2.1.5 阐明一个群落替代另一个群落的演替过程，包括初生演替和次生演替两种类型\n\n2.1.6 分析不同群落中的生物具有与该群落环境相适应的形态结构、生理特征和分布特点\n\n2.2 生物群落与非生物的环境因素相互作用形成多样化的生态系统，完成物质循环、能量流动和信息传递\n\n2.2.1 阐明生态系统由生产者、消费者和分解者等生物因素以及阳光、空气、水等非生物因素组成，各组分紧密联系使生态系统成为具有一定结构和功能的统一体\n\n2.2.2 讨论某一生态系统中生产者和消费者通过食物链和食物网联系在一起形成复杂的营养结构\n\n2.2.3 分析生态系统中的物质在生物群落与无机环境之间不断循环、能量在生物群落中单向流动并逐级递减的规律\n\n2.2.4 举例说明利用物质循环和能量流动规律，人们能够更加科学、有效地利用生态系统中的资源\n\n2.2.5 解释生态金字塔表征了食物网各营养级之间在个体数量、生物量和能量方面的关系\n\n2.2.6 阐明某些有害物质会通过食物链不断地富集的现象\n\n2.2.7 举例说出生态系统中物理、化学和行为信息的传递对生命活动的正常进行、生物种群的繁衍和种间关系的调节起着重要作用\n\n2.2.8 分析特定生态系统的生物与非生物因素决定其营养结构\n\n2.3 生态系统通过自我调节作用抵御和消除一定限度的外来干扰，保持或恢复自身结构和功能的相对稳定\n\n2.3.1 解释生态系统具有保持或恢复自身结构和功能相对稳定，并维持动态平衡的能力\n\n2.3.2 举例说明生态系统的稳定性会受到自然或人为因素的影响，如气候变化、自然事件、人类活动或外来物种入侵等\n\n2.3.3 阐明生态系统在受到一定限度的外来干扰时，能够通过自我调节维持稳定\n\n2.4 人类活动对生态系统的动态平衡有着深远的影响，依据生态学原理保护环境是人类生存和可持续发展的必要条件\n\n2.4.1 探讨人口增长会对环境造成压力\n\n2.4.2 关注全球气候变化、水资源短缺、臭氧层破坏、酸雨、荒漠化和环境污染等全球性环境问题对生物圈的稳态造成威胁，同时也对人类的生存和可持续发展造成影响\n\n2.4.3 概述生物多样性对维持生态系统的稳定性以及人类生存和发展的重要意义，并尝试提出人与自然和谐共生的合理化建议\n\n2.4.4 举例说明根据生态学原理、采用系统工程的方法和技术，达到资源多层次和循环利用的目的，使特定区域中的人和自然环境均受益\n\n2.4.5 形成“环境保护需要从我做起”的意识", subject: "SB0403", type: "Conception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l4\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l4"};
+MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l6"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l6", title: "细胞会经历生长、增殖、分化、衰老和死亡等生命进程", description: "2.3.1 描述细胞通过不同的方式进行分裂, 其中有丝分裂保证了遗\n\n传信息在亲代和子代细胞中的一致性\n\n2.3.2 说明在个体发育过程中，细胞在形态、结构和功能方面发生特异性的分化，形成了复杂的多细胞生物体\n\n2.3.3 描述在正常情况下，细胞衰老和死亡是一种自然的生理过程", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l1\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l2\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l1", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l2"};
 
-MERGE (n:Conception {identifier: "urn:jy:biology:SB0403:OB06:Conception:l7"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:Conception:l7", title: "发酵工程利用微生物的特定功能规模化生产对人类有用的产品", description: "3.1 获得纯净的微生物培养物是发酵工程的基础\n\n3.1.1 阐明在发酵工程中灭菌是获得纯净的微生物培养物的前提\n\n3.1.2 阐明无菌技术是在操作过程中，保持无菌物品与无菌区域不被微生物污染的技术\n\n3.1.3 举例说明通过调整培养基的配方可有目的地培养某种微生物\n\n3.1.4 概述平板划线法和稀释涂布平板法是实验室中进行微生物分离和纯化的常用方法\n\n3.1.5 概述稀释涂布平板法和显微镜计数法是测定微生物数量的常用方法\n\n3.2 发酵工程为人类提供多样的生物产品\n\n3.2.1 举例说明日常生活中的某些食品是运用传统发酵技术生产的\n\n3.2.2 阐明发酵工程利用现代工程技术及微生物的特定功能，工业化生产人类所需产品\n\n3.2.3 举例说明发酵工程在医药、食品及其他工农业生产上有重要的应用价值", subject: "SB0403", type: "Conception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l5\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l5"};
+MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l7"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l7", title: "亲代传递给子代的遗传信息主要编码在DNA分子上", description: "3.1.1 概述多数生物的基因是DNA分子的功能片段，有些病毒的基因在RNA分子上\n\n3.1.2 概述DNA分子是由四种脱氧核苷酸构成，通常由两条碱基互补配对的反向平行长链形成双螺旋结构，碱基的排列顺序编码了遗传信息\n\n3.1.3 概述DNA分子通过半保留方式进行复制\n\n3.1.4 概述DNA分子上的遗传信息通过RNA指导蛋白质的合成，细胞分化的本质是基因选择性表达的结果，生物的性状主要通过蛋白质表现\n\n3.1.5 概述某些基因中碱基序列不变但表型改变的表观遗传现象", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l2\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l3\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l2", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l3"};
 
-MERGE (n:Conception {identifier: "urn:jy:biology:SB0403:OB06:Conception:l8"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:Conception:l8", title: "细胞工程通过细胞水平上的操作，获得有用的生物体或其产品", description: "4.1 植物细胞工程包括组织培养和体细胞杂交等技术\n\n4.1.1 阐明植物组织培养是在一定条件下，将离体植物器官、组织和细胞在适宜的培养条件下诱导形成愈伤组织，并重新分化，最终形成完整植株的过程\n\n4.1.2 概述植物体细胞杂交是将不同植物体细胞在一定条件下融合成杂合细胞，继而培育成新植物体的技术\n\n4.1.3 举例说明植物细胞工程利用快速繁殖、脱毒、次生代谢产物生产、育种等方式有效提高了生产效率\n\n4.2 动物细胞工程包括细胞培养、核移植、细胞融合和干细胞的应用等技术\n\n4.2.1 阐明动物细胞培养是从动物体获得相关组织，分散成单个细胞后，在适宜的培养条件下让细胞生长和增殖的过程。动物细胞培养是动物细胞工程的基础\n\n4.2.2 阐明动物细胞核移植一般是将体细胞核移入一个去核的卵母细胞中，并使重组细胞发育成新胚胎，继而发育成动物个体的过程\n\n4.2.3 阐明动物细胞融合是指通过物理、化学或生物学等手段，使两个或多个动物细胞结合形成一个细胞的过程\n\n4.2.4 概述细胞融合技术是单克隆抗体制备的重要技术\n\n4.2.5 简述干细胞在生物医学工程中有广泛的应用价值\n\n4.3 对动物早期胚胎或配子进行显微操作和处理以获得目标个体\n\n4.3.1 简述胚胎形成经过了受精及早期发育等过程\n\n4.3.2 简述胚胎工程包括体外受精、胚胎移植和胚胎分割等技术", subject: "SB0403", type: "Conception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l5\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l5"};
+MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l8"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l8", title: "有性生殖中基因的分离和重组使双亲后代的基因组合有多种可能", description: "3.2.1 阐明减数分裂产生染色体数量减半的精细胞或卵细胞\n\n3.2.2 说明进行有性生殖的生物体，其遗传信息通过配子传递给子代\n\n3.2.3 阐明有性生殖中基因的分离和自由组合使得子代的基因型和表型有多种可能，并可由此预测子代的遗传性状\n\n3.2.4 概述性染色体上的基因传递和性别相关联", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l2\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l3\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l2", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l3"};
 
-MERGE (n:Conception {identifier: "urn:jy:biology:SB0403:OB06:Conception:l9"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:Conception:l9", title: "基因工程赋予生物新的遗传特性", description: "5.1 基因工程是一种重组DNA技术\n\n5.1.1 概述基因工程是在遗传学、微生物学、生物化学和分子生物学等学科基础上发展而来的\n\n5.1.2 阐明DNA重组技术的实现需要利用限制性内切核酸酶、DNA连接酶和载体三种基本工具\n\n5.1.3 阐明基因工程的基本操作程序主要包括目的基因的获取、基因表达载体的构建、目的基因导入受体细胞和目的基因及其表达产物的检测鉴定等步骤\n\n5.1.4 举例说明基因工程在农牧、食品及医药等行业的广泛应用改善了人类的生活品质\n\n5.2 蛋白质工程是基因工程的延伸\n\n5.2.1 概述人们根据基因工程原理，进行蛋白质设计和改造，可以获得性状和功能更符合人类需求的蛋白质\n\n5.2.2 举例说明依据人类需要对原有蛋白质结构进行基因改造、生产目标蛋白的过程", subject: "SB0403", type: "Conception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l5\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l5"};
+MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l9"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l9", title: "由基因突变、染色体变异和基因重组引起的变异是可以遗传的", description: "3.3.1 概述碱基的替换、插入或缺失会引发基因中碱基序列的改变\n\n3.3.2 阐明基因中碱基序列的改变有可能导致它所编码的蛋白质及相应的细胞功能发生变化，甚至带来致命的后果\n\n3.3.3 描述细胞在某些化学物质、射线，以及病毒的作用下，基因突变概率可能提高，而某些基因突变能导致细胞分裂失控，甚至发生癌变\n\n3.3.4 阐明进行有性生殖的生物在减数分裂过程中, 染色体所发生\n\n的自由组合和交叉互换，会导致控制不同性状的基因重组，从而使子代出现变异\n\n3.3.5 举例说明染色体结构和数量的变异都可能导致生物性状的改变甚至死亡\n\n3.3.6 举例说明人类遗传病是可以检测和预防的", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l2\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l3\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l2", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l3"};
 
-MERGE (n:Conception {identifier: "urn:jy:biology:SB0403:OB06:Conception:l10"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:Conception:l10", title: "生物技术在造福人类社会的同时也可能会带来安全与伦理问题", description: "6.1 转基因产品的安全性引发社会的广泛关注\n\n6.1.1 举例说出日常生活中的转基因产品\n\n6.1.2 探讨转基因技术在应用过程中带来的影响\n\n6.2 中国禁止生殖性克隆人\n\n6.2.1 举例说出生殖性克隆人面临的伦理问题\n\n6.2.2 分析说明我国为什么不赞成、不允许、不支持、不接受任何生殖性克隆人实验\n\n6.3 世界范围内应全面禁止生物武器\n\n6.3.1 举例说明历史上生物武器对人类造成了严重的威胁与伤害\n\n6.3.2 认同我国反对生物武器及其技术和设备的扩散", subject: "SB0403", type: "Conception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l5\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l5"};
+MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l10"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l10", title: "地球上的现存物种丰富多样，它们来自共同祖先", description: "4.1.1 尝试通过化石记录、比较解剖学和胚胎学等事实，说明当今生物具有共同的祖先\n\n4.1.2 尝试通过细胞生物学和分子生物学等知识，说明当今生物在新陈代谢、DNA的结构与功能等方面具有许多共同特征", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l2\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l4\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l2", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l4"};
+
+MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l11"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l11", title: "适应是自然选择的结果", description: "4.2.1 举例说明种群内的某些可遗传变异将赋予个体在特定环境中的生存和繁殖优势\n\n4.2.2 阐明具有优势性状的个体在种群中所占比例将会增加\n\n4.2.3 说明自然选择促进生物更好地适应特定的生存环境\n\n4.2.4 概述现代生物进化理论以自然选择学说为核心，为地球上的生命进化史提供了科学的解释\n\n4.2.5 举例说明变异、选择和隔离可导致新物种形成", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l2\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l4\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l2", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l4"};
+
+MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l12"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l12", title: "内环境为机体细胞提供适宜的生存环境，机体细胞通过内环境与外界环境进行物质交换", description: "1.1.1 说明血浆、组织液和淋巴等细胞外液共同构成高等动物细胞赖以生存的内环境\n\n1.1.2 阐明机体细胞生活在内环境中，通过内环境与外界环境进行物质交换，同时也参与内环境的形成和维持\n\n1.1.3 简述机体通过呼吸、消化、循环和泌尿等系统参与内、外环境间的物质交换", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l3\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l5\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l3", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l5"};
+
+MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l13"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l13", title: "内环境的变化会引发机体的自动调节，以维持内环境的稳态", description: "1.2.1 以血糖、体温、 $\\mathrm{pH}$ 和渗透压等为例，阐明机体通过调节作用保持内环境的相对稳定，以保证机体的正常生命活动\n\n1.2.2 举例说明机体不同器官、系统协调统一地共同完成各项生命活动，是维持内环境稳态的基础", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l3\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l5\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l3", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l5"};
+
+MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l14"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l14", title: "神经系统能够及时感知机体内、外环境的变化，并作出反应调控各器官、系统的活动，实现机体稳态", description: "1.3.1 概述神经调节的基本方式是反射（可分为条件反射和非条件反射），其结构基础是反射弧\n\n1.3.2 阐明神经细胞膜内外在静息状态具有电位差，受到外界刺激后形成动作电位，并沿神经纤维传导\n\n1.3.3 阐明神经冲动在突触处的传递通常通过化学传递方式完成\n\n1.3.4 分析位于脊髓的低级神经中枢和脑中相应的高级神经中枢相互联系、相互协调，共同调控器官和系统的活动，维持机体的稳态\n\n1.3.5 举例说明中枢神经系统通过自主神经来调节内脏的活动\n\n1.3.6 简述语言活动和条件反射是由大脑皮层控制的高级神经活动", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l3\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l5\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l3", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l5"};
+
+MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l15"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l15", title: "内分泌系统产生的多种类型的激素，通过体液传送而发挥调节作用，实现机体稳态", description: "1.4.1 说出人体内分泌系统主要由内分泌腺组成，包括垂体、甲状腺、肾上腺、胰岛和性腺等多种腺体，它们分泌的各类激素参与生命活动的调节\n\n1.4.2 举例说明激素通过分级调节、反馈调节等机制维持机体的稳态，如甲状腺激素分泌的调节和血糖平衡的调节等\n\n1.4.3 举例说出神经调节与体液调节相互协调共同维持机体的稳态，如体温调节和水盐平衡的调节等\n\n1.4.4 举例说明其他体液成分参与稳态的调节，如二氧化碳对呼吸运动的调节等", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l3\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l5\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l3", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l5"};
+
+MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l16"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l16", title: "免疫系统能够抵御病原体的侵袭，识别并清除机体内衰老、死亡或异常的细胞，实现机体稳态", description: "1.5.1 举例说明免疫细胞、免疫器官和免疫活性物质等是免疫调节的结构与物质基础\n\n1.5.2 概述人体的免疫包括与生俱来的非特异性免疫和后天获得的特异性免疫\n\n1.5.3 阐明特异性免疫是通过体液免疫和细胞免疫两种方式，针对特定病原体发生的免疫应答\n\n1.5.4 举例说明免疫功能异常可能引发疾病，如过敏、自身免疫病、艾滋病和先天性免疫缺陷病等", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l3\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l5\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l3", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l5"};
+
+MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l17"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l17", title: "植物生命活动受到多种因素的调节，其中最重要的是植物激素的调节", description: "1.6.1 概述科学家经过不断的探索，发现了植物生长素，并揭示了它在调节植物生长时表现出两重性，既能促进生长，也能抑制生长\n\n1.6.2 举例说明几种主要植物激素的作用，这些激素可通过协同、拮抗等方式共同实现对植物生命活动的调节\n\n1.6.3 举例说明生长素、细胞分裂素、赤霉素、脱落酸和乙烯等植物激素及其类似物在生产上得到了广泛应用\n\n1.6.4 概述其他因素参与植物生命活动的调节，如光、重力和温度等", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l3\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l5\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l3", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l5"};
+
+MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l18"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l18", title: "不同种群的生物在长期适应环境和彼此相互适应的过程中形成动态的生物群落", description: "2.1.1 列举种群具有种群密度、出生率和死亡率、迁入率和迁出率、年龄结构、性别比例等特征\n\n2.1.2 尝试建立数学模型解释种群的数量变动\n\n2.1.3 举例说明阳光、温度和水等非生物因素以及不同物种之间的相互作用都会影响生物的种群特征\n\n2.1.4 描述群落具有垂直结构和水平结构等特征，并可随时间而改变\n\n2.1.5 阐明一个群落替代另一个群落的演替过程，包括初生演替和次生演替两种类型\n\n2.1.6 分析不同群落中的生物具有与该群落环境相适应的形态结构、生理特征和分布特点", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l4\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l6\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l4", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l6"};
+
+MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l19"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l19", title: "生物群落与非生物的环境因素相互作用形成多样化的生态系统，完成物质循环、能量流动和信息传递", description: "2.2.1 阐明生态系统由生产者、消费者和分解者等生物因素以及阳光、空气、水等非生物因素组成，各组分紧密联系使生态系统成为具有一定结构和功能的统一体\n\n2.2.2 讨论某一生态系统中生产者和消费者通过食物链和食物网联系在一起形成复杂的营养结构\n\n2.2.3 分析生态系统中的物质在生物群落与无机环境之间不断循环、能量在生物群落中单向流动并逐级递减的规律\n\n2.2.4 举例说明利用物质循环和能量流动规律，人们能够更加科学、有效地利用生态系统中的资源\n\n2.2.5 解释生态金字塔表征了食物网各营养级之间在个体数量、生物量和能量方面的关系\n\n2.2.6 阐明某些有害物质会通过食物链不断地富集的现象\n\n2.2.7 举例说出生态系统中物理、化学和行为信息的传递对生命活动的正常进行、生物种群的繁衍和种间关系的调节起着重要作用\n\n2.2.8 分析特定生态系统的生物与非生物因素决定其营养结构", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l4\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l6\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l4", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l6"};
+
+MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l20"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l20", title: "生态系统通过自我调节作用抵御和消除一定限度的外来干扰，保持或恢复自身结构和功能的相对稳定", description: "2.3.1 解释生态系统具有保持或恢复自身结构和功能相对稳定，并维持动态平衡的能力\n\n2.3.2 举例说明生态系统的稳定性会受到自然或人为因素的影响，如气候变化、自然事件、人类活动或外来物种入侵等\n\n2.3.3 阐明生态系统在受到一定限度的外来干扰时，能够通过自我调节维持稳定", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l4\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l6\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l4", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l6"};
+
+MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l21"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l21", title: "人类活动对生态系统的动态平衡有着深远的影响，依据生态学原理\n\n保护环境是人类生存和可持续发展的必要条件", description: "2.4.1 探讨人口增长会对环境造成压力\n\n2.4.2 关注全球气候变化、水资源短缺、臭氧层破坏、酸雨、荒漠化和环境污染等全球性环境问题对生物圈的稳态造成威胁，同时也对人类的生存和可持续发展造成影响\n\n2.4.3 概述生物多样性对维持生态系统的稳定性以及人类生存和发展的重要意义，并尝试提出人与自然和谐共生的合理化建议\n\n2.4.4 举例说明根据生态学原理、采用系统工程的方法和技术，达到资源多层次和循环利用的目的，使特定区域中的人和自然环境均受益\n\n2.4.5 形成“环境保护需要从我做起”的意识", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l4\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l6\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l4", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l6"};
+
+MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l22"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l22", title: "获得纯净的微生物培养物是发酵工程的基础", description: "3.1.1 阐明在发酵工程中灭菌是获得纯净的微生物培养物的前提\n\n3.1.2 阐明无菌技术是在操作过程中，保持无菌物品与无菌区域不被微生物污染的技术\n\n3.1.3 举例说明通过调整培养基的配方可有目的地培养某种微生物\n\n3.1.4 概述平板划线法和稀释涂布平板法是实验室中进行微生物分离和纯化的常用方法\n\n3.1.5 概述稀释涂布平板法和显微镜计数法是测定微生物数量的常用方法", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l5\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l7\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l5", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l7"};
+
+MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l23"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l23", title: "发酵工程为人类提供多样的生物产品", description: "3.2.1 举例说明日常生活中的某些食品是运用传统发酵技术生产的\n\n3.2.2 阐明发酵工程利用现代工程技术及微生物的特定功能，工业化生产人类所需产品\n\n3.2.3 举例说明发酵工程在医药、食品及其他工农业生产上有重要的应用价值", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l5\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l7\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l5", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l7"};
+
+MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l24"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l24", title: "植物细胞工程包括组织培养和体细胞杂交等技术", description: "4.1.1 阐明植物组织培养是在一定条件下，将离体植物器官、组织和细胞在适宜的培养条件下诱导形成愈伤组织，并重新分化，最终形成完整植株的过程\n\n4.1.2 概述植物体细胞杂交是将不同植物体细胞在一定条件下融合成杂合细胞，继而培育成新植物体的技术\n\n4.1.3 举例说明植物细胞工程利用快速繁殖、脱毒、次生代谢产物生产、育种等方式有效提高了生产效率", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l5\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l8\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l5", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l8"};
+
+MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l25"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l25", title: "动物细胞工程包括细胞培养、核移植、细胞融合和干细胞的应用等技术", description: "4.2.1 阐明动物细胞培养是从动物体获得相关组织，分散成单个细胞后，在适宜的培养条件下让细胞生长和增殖的过程。动物细胞培养是动物细胞工程的基础\n\n4.2.2 阐明动物细胞核移植一般是将体细胞核移入一个去核的卵母细胞中，并使重组细胞发育成新胚胎，继而发育成动物个体的过程\n\n4.2.3 阐明动物细胞融合是指通过物理、化学或生物学等手段，使两个或多个动物细胞结合形成一个细胞的过程\n\n4.2.4 概述细胞融合技术是单克隆抗体制备的重要技术\n\n4.2.5 简述干细胞在生物医学工程中有广泛的应用价值", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l5\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l8\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l5", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l8"};
+
+MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l26"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l26", title: "对动物早期胚胎或配子进行显微操作和处理以获得目标个体", description: "4.3.1 简述胚胎形成经过了受精及早期发育等过程\n\n4.3.2 简述胚胎工程包括体外受精、胚胎移植和胚胎分割等技术", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l5\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l8\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l5", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l8"};
+
+MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l27"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l27", title: "基因工程是一种重组DNA技术", description: "5.1.1 概述基因工程是在遗传学、微生物学、生物化学和分子生物学等学科基础上发展而来的\n\n5.1.2 阐明DNA重组技术的实现需要利用限制性内切核酸酶、DNA连接酶和载体三种基本工具\n\n5.1.3 阐明基因工程的基本操作程序主要包括目的基因的获取、基因表达载体的构建、目的基因导入受体细胞和目的基因及其表达产物的检测鉴定等步骤\n\n5.1.4 举例说明基因工程在农牧、食品及医药等行业的广泛应用改善了人类的生活品质", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l5\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l9\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l5", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l9"};
+
+MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l28"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l28", title: "蛋白质工程是基因工程的延伸", description: "5.2.1 概述人们根据基因工程原理，进行蛋白质设计和改造，可以\n\n获得性状和功能更符合人类需求的蛋白质\n\n5.2.2 举例说明依据人类需要对原有蛋白质结构进行基因改造、生产目标蛋白的过程", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l5\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l9\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l5", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l9"};
+
+MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l29"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l29", title: "转基因产品的安全性引发社会的广泛关注", description: "6.1.1 举例说出日常生活中的转基因产品\n\n6.1.2 探讨转基因技术在应用过程中带来的影响", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l5\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l10\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l5", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l10"};
+
+MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l30"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l30", title: "中国禁止生殖性克隆人", description: "6.2.1 举例说出生殖性克隆人面临的伦理问题\n\n6.2.2 分析说明我国为什么不赞成、不允许、不支持、不接受任何生殖性克隆人实验", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l5\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l10\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l5", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l10"};
+
+MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l31"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l31", title: "世界范围内应全面禁止生物武器", description: "6.3.1 举例说明历史上生物武器对人类造成了严重的威胁与伤害\n\n6.3.2 认同我国反对生物武器及其技术和设备的扩散", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l5\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l10\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l5", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l10"};
 
 MERGE (n:CoreLiteracy {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l1"})
 SET n += {type: "CoreLiteracy", title: "生命观念", description: "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华，是能够理解或解释生物学相关事件和现象的意识和思想方法。", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"standard\": \"水平一\", \"standardDescription\": \"在熟悉的、结构良好的生产生活或生物学研究等问题情境中，从生物学的结构与功能观、物质与能量观、进化与适应观、稳态与平衡观中的特定角度，在微观和宏观层面，描述其中所体现的生命系统的成分、结构及其功能，生命活动调节过程、稳态的维持、物质变化和能量转换，遗传与变异的物质基础和规律，以及生物的多样性和统一性。\"}", identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l1", CJ_standard: "水平一", CJ_standardDescription: "在熟悉的、结构良好的生产生活或生物学研究等问题情境中，从生物学的结构与功能观、物质与能量观、进化与适应观、稳态与平衡观中的特定角度，在微观和宏观层面，描述其中所体现的生命系统的成分、结构及其功能，生命活动调节过程、稳态的维持、物质变化和能量转换，遗传与变异的物质基础和规律，以及生物的多样性和统一性。"};
@@ -83,111 +146,6 @@ SET n += {type: "CoreLiteracy", title: "社会责任", description: "社会责�
 
 MERGE (n:CoreLiteracy {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l12"})
 SET n += {type: "CoreLiteracy", title: "社会责任", description: "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"standard\": \"水平三\", \"standardDescription\": \"在较为陌生的、结构不良的生产生活或生物学研究等问题情境中，遵循正确的伦理道德，客观分析与评价常见生物技术在生产生活中的应用所产生的效益和风险；运用批判性思维等参与社会性科学议题的讨论，阐述不同观点或行为的科学性与合理性，从科学、技术与社会等方面阐明个人立场，作出理性决策；秉持人与自然和谐共生的观念，积极主动地与他人合作，开展健康生活、生物多样性和环境保护等方面的实践活动。\"}", identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l12", CJ_standard: "水平三", CJ_standardDescription: "在较为陌生的、结构不良的生产生活或生物学研究等问题情境中，遵循正确的伦理道德，客观分析与评价常见生物技术在生产生活中的应用所产生的效益和风险；运用批判性思维等参与社会性科学议题的讨论，阐述不同观点或行为的科学性与合理性，从科学、技术与社会等方面阐明个人立场，作出理性决策；秉持人与自然和谐共生的观念，积极主动地与他人合作，开展健康生活、生物多样性和环境保护等方面的实践活动。"};
-
-MERGE (n:CourseModule {identifier: "urn:jy:biology:SB0403:OB06:CourseModule:l1"})
-SET n += {type: "CourseModule", title: "必修课程", description: "必修课程是现代生物学的核心内容，对于提高全体学生的生物学学科核心素养具有不可或缺的作用。必修课程是学习选择性必修和选修课程的基础。必修课程面向全体高中学生，选择了生物学最基本的重要概念。为了让学生更好地理解与掌握教学内容，教学中要高度重视学生的实践环节，力求为学生提供更多的动手实践机会。", subject: "SB0403", applicableLevel: "OB06", contentJson: "{}", identifier: "urn:jy:biology:SB0403:OB06:CourseModule:l1"};
-
-MERGE (n:CourseModule {identifier: "urn:jy:biology:SB0403:OB06:CourseModule:l2"})
-SET n += {type: "CourseModule", title: "选择性必修课程", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{}", identifier: "urn:jy:biology:SB0403:OB06:CourseModule:l2"};
-
-MERGE (n:CourseModule {identifier: "urn:jy:biology:SB0403:OB06:CourseModule:l3"})
-SET n += {type: "CourseModule", title: "选修课程", description: "选修课程旨在帮助学生更好地生活、就业，以及满足一部分学生选择从事科学研究的需求。为便于学校设计有针对性的、适合当地教学条件的校本课程，提供课程的选题及设计实施建议如下。", subject: "SB0403", applicableLevel: "OB06", contentJson: "{}", identifier: "urn:jy:biology:SB0403:OB06:CourseModule:l3"};
-
-MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l1"})
-SET n += {type: "Chapter", title: "科学家访谈 探究微观生命世界的奥秘——与施一公院士一席谈", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修1 分子与细胞\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l1", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修1 分子与细胞"};
-
-MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l2"})
-SET n += {type: "Chapter", title: "第1章 走近细胞", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修1 分子与细胞\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l2", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修1 分子与细胞"};
-
-MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l3"})
-SET n += {type: "Chapter", title: "第2章 组成细胞的分子", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修1 分子与细胞\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l3", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修1 分子与细胞"};
-
-MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l4"})
-SET n += {type: "Chapter", title: "第3章 细胞的基本结构", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修1 分子与细胞\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l4", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修1 分子与细胞"};
-
-MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l5"})
-SET n += {type: "Chapter", title: "第4章 细胞的物质输入和输出", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修1 分子与细胞\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l5", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修1 分子与细胞"};
-
-MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l6"})
-SET n += {type: "Chapter", title: "第5章 细胞的能量供应与利用", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修1 分子与细胞\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l6", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修1 分子与细胞"};
-
-MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l7"})
-SET n += {type: "Chapter", title: "第6章 细胞的生命历程", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修1 分子与细胞\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l7", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修1 分子与细胞"};
-
-MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l8"})
-SET n += {type: "Chapter", title: "科学家访谈 毕生追求的“禾下乘凉梦”——与袁隆平院士一席谈", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修2 遗传与进化\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l8", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修2 遗传与进化"};
-
-MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l9"})
-SET n += {type: "Chapter", title: "第1章 遗传因子的发现", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修2 遗传与进化\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l9", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修2 遗传与进化"};
-
-MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l10"})
-SET n += {type: "Chapter", title: "第2章 基因和染色体的关系", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修2 遗传与进化\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l10", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修2 遗传与进化"};
-
-MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l11"})
-SET n += {type: "Chapter", title: "第3章 基因的本质", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修2 遗传与进化\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l11", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修2 遗传与进化"};
-
-MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l12"})
-SET n += {type: "Chapter", title: "第4章 基因的表达", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修2 遗传与进化\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l12", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修2 遗传与进化"};
-
-MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l13"})
-SET n += {type: "Chapter", title: "第5章 基因突变及其他变异", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修2 遗传与进化\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l13", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修2 遗传与进化"};
-
-MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l14"})
-SET n += {type: "Chapter", title: "第6章 生物的进化", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修2 遗传与进化\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l14", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修2 遗传与进化"};
-
-MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l15"})
-SET n += {type: "Chapter", title: "综合专题", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修2 遗传与进化\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l15", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修2 遗传与进化"};
-
-MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l16"})
-SET n += {type: "Chapter", title: "科学家访谈 探索生命活动调节的奥秘——与许智宏院士一席谈", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"人教版\", \"volume\": \"选择性必修1 稳态与调节\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l16", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "人教版", CJ_volume: "选择性必修1 稳态与调节"};
-
-MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l17"})
-SET n += {type: "Chapter", title: "第1章 人体的内环境与稳态", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"人教版\", \"volume\": \"选择性必修1 稳态与调节\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l17", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "人教版", CJ_volume: "选择性必修1 稳态与调节"};
-
-MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l18"})
-SET n += {type: "Chapter", title: "第2章 神经调节", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"人教版\", \"volume\": \"选择性必修1 稳态与调节\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l18", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "人教版", CJ_volume: "选择性必修1 稳态与调节"};
-
-MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l19"})
-SET n += {type: "Chapter", title: "第3章 体液调节", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"人教版\", \"volume\": \"选择性必修1 稳态与调节\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l19", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "人教版", CJ_volume: "选择性必修1 稳态与调节"};
-
-MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l20"})
-SET n += {type: "Chapter", title: "第4章 免疫调节", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"人教版\", \"volume\": \"选择性必修1 稳态与调节\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l20", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "人教版", CJ_volume: "选择性必修1 稳态与调节"};
-
-MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l21"})
-SET n += {type: "Chapter", title: "第5章 植物生命活动的调节", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"人教版\", \"volume\": \"选择性必修1 稳态与调节\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l21", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "人教版", CJ_volume: "选择性必修1 稳态与调节"};
-
-MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l22"})
-SET n += {type: "Chapter", title: "科学家访谈 尊重自然、顺应自然、保护自然——与方精云院士一席谈", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"人教版\", \"volume\": \"选择性必修2 生物与环境\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l22", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "人教版", CJ_volume: "选择性必修2 生物与环境"};
-
-MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l23"})
-SET n += {type: "Chapter", title: "第1章 种群及其动态", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"人教版\", \"volume\": \"选择性必修2 生物与环境\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l23", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "人教版", CJ_volume: "选择性必修2 生物与环境"};
-
-MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l24"})
-SET n += {type: "Chapter", title: "第2章 群落及其演替", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"人教版\", \"volume\": \"选择性必修2 生物与环境\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l24", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "人教版", CJ_volume: "选择性必修2 生物与环境"};
-
-MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l25"})
-SET n += {type: "Chapter", title: "第3章 生态系统及其稳定性", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"人教版\", \"volume\": \"选择性必修2 生物与环境\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l25", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "人教版", CJ_volume: "选择性必修2 生物与环境"};
-
-MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l26"})
-SET n += {type: "Chapter", title: "第4章 人与环境", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"人教版\", \"volume\": \"选择性必修2 生物与环境\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l26", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "人教版", CJ_volume: "选择性必修2 生物与环境"};
-
-MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l27"})
-SET n += {type: "Chapter", title: "科学家访谈 生物科技创造美好未来——与杨焕明院士一席谈", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修3 生物技术与工程\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l27", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修3 生物技术与工程"};
-
-MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l28"})
-SET n += {type: "Chapter", title: "第1章 发酵工程", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修3 生物技术与工程\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l28", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修3 生物技术与工程"};
-
-MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l29"})
-SET n += {type: "Chapter", title: "第2章 细胞工程", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修3 生物技术与工程\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l29", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修3 生物技术与工程"};
-
-MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l30"})
-SET n += {type: "Chapter", title: "第3章 基因工程", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修3 生物技术与工程\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l30", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修3 生物技术与工程"};
-
-MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l31"})
-SET n += {type: "Chapter", title: "第4章 生物技术的安全性与伦理问题", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修3 生物技术与工程\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l31", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修3 生物技术与工程"};
-
-MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l32"})
-SET n += {type: "Chapter", title: "高考复习", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修3 生物技术与工程\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l32", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修3 生物技术与工程"};
 
 MERGE (n:Section {identifier: "urn:jy:biology:SB0403:OB06:Section:l1"})
 SET n += {type: "Section", title: "第1节 细胞是生命活动的基本单位", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修1 分子与细胞\", \"chapter\": \"urn:jy:biology:SB0403:OB06:Chapter:l2\"}", identifier: "urn:jy:biology:SB0403:OB06:Section:l1", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修1 分子与细胞", CJ_chapter: "urn:jy:biology:SB0403:OB06:Chapter:l2"};
@@ -696,101 +654,122 @@ SET n += {type: "Section", title: "领会学科思想和掌握学科方法", des
 MERGE (n:Section {identifier: "urn:jy:biology:SB0403:OB06:Section:l169"})
 SET n += {type: "Section", title: "生物学中的内环境稳态及其调节机制", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修3 生物技术与工程\", \"chapter\": \"urn:jy:biology:SB0403:OB06:Chapter:l32\"}", identifier: "urn:jy:biology:SB0403:OB06:Section:l169", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修3 生物技术与工程", CJ_chapter: "urn:jy:biology:SB0403:OB06:Chapter:l32"};
 
-MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l1"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l1", title: "细胞由多种多样的分子组成，包括水、无机盐、糖类、脂质、蛋白质和核酸等，其中蛋白质和核酸是两类最重要的生物大分子", description: "1.1.1 说出细胞主要由C、H、O、N、P、S等元素构成，它们以碳链为骨架形成复杂的生物大分子\n\n1.1.2 指出水大约占细胞质量的  $2 / 3$  ，以自由水和结合水的形式存在，赋予了细胞许多特性，在生命活动中具有重要作用\n\n1.1.3 举例说出无机盐在细胞内含量虽少，但与生命活动密切相关\n\n1.1.4 概述糖类有多种类型，它们既是细胞的重要结构成分，又是生命活动的主要能源物质\n\n1.1.5 举例说出不同种类的脂质对维持细胞结构和功能有重要作用\n\n1.1.6 阐明蛋白质通常由 20 种氨基酸分子组成，它的功能取决于氨基酸序列及其形成的空间结构，细胞的功能主要由蛋白质完成\n\n1.1.7 概述核酸由核苷酸聚合而成，是储存与传递遗传信息的生物大分子", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l1\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l1\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l1", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l1"};
+MERGE (n:CourseModule {identifier: "urn:jy:biology:SB0403:OB06:CourseModule:l1"})
+SET n += {type: "CourseModule", title: "必修课程", description: "必修课程是现代生物学的核心内容，对于提高全体学生的生物学学科核心素养具有不可或缺的作用。必修课程是学习选择性必修和选修课程的基础。必修课程面向全体高中学生，选择了生物学最基本的重要概念。为了让学生更好地理解与掌握教学内容，教学中要高度重视学生的实践环节，力求为学生提供更多的动手实践机会。", subject: "SB0403", applicableLevel: "OB06", contentJson: "{}", identifier: "urn:jy:biology:SB0403:OB06:CourseModule:l1"};
 
-MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l2"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l2", title: "细胞各部分结构既分工又合作，共同执行细胞的各项生命活动", description: "1.2.1 概述细胞都由质膜包裹，质膜将细胞与其生活环境分开，能控制物质进出，并参与细胞间的信息交流\n\n1.2.2 阐明细胞内具有多个相对独立的结构，担负着物质运输、合\n\n成与分解、能量转换和信息传递等生命活动\n\n1.2.3 阐明遗传信息主要储存在细胞核中\n\n1.2.4 举例说明细胞各部分结构之间相互联系、协调一致，共同执行细胞的各项生命活动", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l1\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l1\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l1", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l1"};
+MERGE (n:CourseModule {identifier: "urn:jy:biology:SB0403:OB06:CourseModule:l2"})
+SET n += {type: "CourseModule", title: "选择性必修课程", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{}", identifier: "urn:jy:biology:SB0403:OB06:CourseModule:l2"};
 
-MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l3"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l3", title: "各种细胞具有相似的基本结构，但在形态与功能上有所差异", description: "1.3.1 说明有些生物体只有一个细胞，而有的由很多细胞构成，这些细胞形态和功能多样，但都具有相似的基本结构\n\n1.3.2 描述原核细胞与真核细胞的最大区别是原核细胞没有由核膜包被的细胞核", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l1\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l1\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l1", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l1"};
+MERGE (n:CourseModule {identifier: "urn:jy:biology:SB0403:OB06:CourseModule:l3"})
+SET n += {type: "CourseModule", title: "选修课程", description: "选修课程旨在帮助学生更好地生活、就业，以及满足一部分学生选择从事科学研究的需求。为便于学校设计有针对性的、适合当地教学条件的校本课程，提供课程的选题及设计实施建议如下。", subject: "SB0403", applicableLevel: "OB06", contentJson: "{}", identifier: "urn:jy:biology:SB0403:OB06:CourseModule:l3"};
 
-MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l4"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l4", title: "物质通过被动运输、主动运输等方式进出细胞，以维持细胞的正常代谢活动", description: "2.1.1 阐明质膜具有选择透过性\n\n2.1.2 举例说明有些物质顺浓度梯度进出细胞，不需要额外提供能量；有些物质逆浓度梯度进出细胞，需要能量和载体蛋白\n\n2.1.3 举例说明大分子物质可以通过胞吞、胞吐进出细胞", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l1\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l2\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l1", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l2"};
+MERGE (n:AcademicQuality {identifier: "urn:jy:biology:SB0403:OB06:AcademicQuality:title:l1"})
+SET n += {type: "AcademicQuality", title: "学业质量", description: "学业质量是学生在完成生物学课程学习后学业成就的综合表现，体现课程目标的达成程度，反映核心素养发展状况。学业质量标准依据学科核心素养水平划分，结合结构化课程内容，描述学习结果的典型表现，整体标识和刻画学业质量的不同水平。", subject: "SB0403", applicableLevel: "OB0601", contentJson: "{\"standard\": \"水平一\", \"standardRequirement\": \"在熟悉的、结构良好的生产生活或生物学研究等问题情境中，学生应能够：运用特定的生命观念，从微观和宏观层面描述生命活动规律。运用结构与功能观或物质与能量观，从分子与细胞水平描述生物体结构与功能的适应关系，光合作用和呼吸作用等生命活动过程中的物质转变与能量转化，细胞生命历程中的结构变化与功能的关系；运用结构与功能观或进化与适应观，举例说明遗传与变异的物质基础和规律，以及生物的多样性和统一性。运用相关的生物学概念，解释生命现象，并使用文字或图示等形式进行直观展示。在现实生活中，践行健康的生活方式，表现出保护环境的行为习惯，辨别迷信和伪科学；关注社会热点中与生物学有关的议题和生物技术的应用。从特定的生命观念视角，基于证据和逻辑，运用比较、分类、归纳、演绎、分析、综合、建模等方法，通过对生命现象的分析，提出可探究的生物学问题，遵循正确的伦理道德，设计和实施简单的探究方案，依据结果得出结论，并进行交流，在活动中能与他人合作，体验和感悟科学探究对解决实际问题的意义和价值。\"}", identifier: "urn:jy:biology:SB0403:OB06:AcademicQuality:title:l1", CJ_standard: "水平一", CJ_standardRequirement: "在熟悉的、结构良好的生产生活或生物学研究等问题情境中，学生应能够：运用特定的生命观念，从微观和宏观层面描述生命活动规律。运用结构与功能观或物质与能量观，从分子与细胞水平描述生物体结构与功能的适应关系，光合作用和呼吸作用等生命活动过程中的物质转变与能量转化，细胞生命历程中的结构变化与功能的关系；运用结构与功能观或进化与适应观，举例说明遗传与变异的物质基础和规律，以及生物的多样性和统一性。运用相关的生物学概念，解释生命现象，并使用文字或图示等形式进行直观展示。在现实生活中，践行健康的生活方式，表现出保护环境的行为习惯，辨别迷信和伪科学；关注社会热点中与生物学有关的议题和生物技术的应用。从特定的生命观念视角，基于证据和逻辑，运用比较、分类、归纳、演绎、分析、综合、建模等方法，通过对生命现象的分析，提出可探究的生物学问题，遵循正确的伦理道德，设计和实施简单的探究方案，依据结果得出结论，并进行交流，在活动中能与他人合作，体验和感悟科学探究对解决实际问题的意义和价值。"};
 
-MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l5"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l5", title: "细胞的功能绝大多数基于化学反应, 这些反应发生在细胞的特定区域", description: "2.2.1 说明绝大多数酶是一类能催化生化反应的蛋白质, 酶活性受到环境因素 (如  $\\mathrm{pH}$  和温度等) 的影响\n\n2.2.2 解释ATP是驱动细胞生命活动的直接能源物质\n\n2.2.3 说明植物细胞的叶绿体从太阳光中捕获能量，这些能量在二氧化碳和水转变为糖与氧气的过程中，转换并储存为糖分子中的化学能\n\n2.2.4 说明生物通过细胞呼吸将储存在有机分子中的能量转化为生命活动可以利用的能量", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l1\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l2\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l1", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l2"};
+MERGE (n:AcademicQuality {identifier: "urn:jy:biology:SB0403:OB06:AcademicQuality:title:l2"})
+SET n += {type: "AcademicQuality", title: "学业质量", description: "学业质量是学生在完成生物学课程学习后学业成就的综合表现，体现课程目标的达成程度，反映核心素养发展状况。学业质量标准依据学科核心素养水平划分，结合结构化课程内容，描述学习结果的典型表现，整体标识和刻画学业质量的不同水平。", subject: "SB0403", applicableLevel: "OB0601", contentJson: "{\"standard\": \"水平二\", \"standardRequirement\": \"在较为陌生的、结构良好的生产生活或生物学研究等问题情境中，学生应能够：运用结构与功能观、物质与能量观、进化与适应观、稳态与平衡观等不同的生命观念，从微观和宏观层面解释生命活动规律。从分子与细胞水平说明生物体结构与功能的适应关系，细胞内各项生命活动过程中的物质变化与能量转化；说明遗传与变异的物质基础和规律，以及生物的多样性和统一性的原因；概述个体生命活动的调节机制与稳态的维持；解释生态系统的成分、结构与功能的关系，以及生态系统维持相对稳定的机制；举例说明生物技术与工程中运用的生物学原理。运用相关的生物学概念，解释生命现象，并使用文字、图示或模型等对生命现象的变化作出预测。主动向他人宣传有关健康生活、生物多样性和环境保护、生物技术安全与伦理等方面的知识和科学做法，参与社会性科学议题的讨论，从科学、技术与社会等方面阐明个人立场。从不同的生命观念视角，基于证据和逻辑，综合运用比较、分类、归纳、演绎、分析、综合、建模等方法，通过对生命现象或现实需求的分析，提出可探究的生物学问题或工程任务，分析已知条件，遵循正确的伦理道德，结合生物学概念、原理、方法和技术手段，设计并实施探究实验方案或工程学实践方案，采用多种方法如实记录和分析研究结果，尝试解决问题或完成工程任务，并使用证据与他人进行交流。认同人与自然和谐共生的理念，开展健康生活、生物多样性和环境保护等方面的实践活动。\"}", identifier: "urn:jy:biology:SB0403:OB06:AcademicQuality:title:l2", CJ_standard: "水平二", CJ_standardRequirement: "在较为陌生的、结构良好的生产生活或生物学研究等问题情境中，学生应能够：运用结构与功能观、物质与能量观、进化与适应观、稳态与平衡观等不同的生命观念，从微观和宏观层面解释生命活动规律。从分子与细胞水平说明生物体结构与功能的适应关系，细胞内各项生命活动过程中的物质变化与能量转化；说明遗传与变异的物质基础和规律，以及生物的多样性和统一性的原因；概述个体生命活动的调节机制与稳态的维持；解释生态系统的成分、结构与功能的关系，以及生态系统维持相对稳定的机制；举例说明生物技术与工程中运用的生物学原理。运用相关的生物学概念，解释生命现象，并使用文字、图示或模型等对生命现象的变化作出预测。主动向他人宣传有关健康生活、生物多样性和环境保护、生物技术安全与伦理等方面的知识和科学做法，参与社会性科学议题的讨论，从科学、技术与社会等方面阐明个人立场。从不同的生命观念视角，基于证据和逻辑，综合运用比较、分类、归纳、演绎、分析、综合、建模等方法，通过对生命现象或现实需求的分析，提出可探究的生物学问题或工程任务，分析已知条件，遵循正确的伦理道德，结合生物学概念、原理、方法和技术手段，设计并实施探究实验方案或工程学实践方案，采用多种方法如实记录和分析研究结果，尝试解决问题或完成工程任务，并使用证据与他人进行交流。认同人与自然和谐共生的理念，开展健康生活、生物多样性和环境保护等方面的实践活动。"};
 
-MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l6"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l6", title: "细胞会经历生长、增殖、分化、衰老和死亡等生命进程", description: "2.3.1 描述细胞通过不同的方式进行分裂, 其中有丝分裂保证了遗\n\n传信息在亲代和子代细胞中的一致性\n\n2.3.2 说明在个体发育过程中，细胞在形态、结构和功能方面发生特异性的分化，形成了复杂的多细胞生物体\n\n2.3.3 描述在正常情况下，细胞衰老和死亡是一种自然的生理过程", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l1\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l2\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l1", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l2"};
-
-MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l7"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l7", title: "亲代传递给子代的遗传信息主要编码在DNA分子上", description: "3.1.1 概述多数生物的基因是DNA分子的功能片段，有些病毒的基因在RNA分子上\n\n3.1.2 概述DNA分子是由四种脱氧核苷酸构成，通常由两条碱基互补配对的反向平行长链形成双螺旋结构，碱基的排列顺序编码了遗传信息\n\n3.1.3 概述DNA分子通过半保留方式进行复制\n\n3.1.4 概述DNA分子上的遗传信息通过RNA指导蛋白质的合成，细胞分化的本质是基因选择性表达的结果，生物的性状主要通过蛋白质表现\n\n3.1.5 概述某些基因中碱基序列不变但表型改变的表观遗传现象", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l2\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l3\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l2", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l3"};
-
-MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l8"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l8", title: "有性生殖中基因的分离和重组使双亲后代的基因组合有多种可能", description: "3.2.1 阐明减数分裂产生染色体数量减半的精细胞或卵细胞\n\n3.2.2 说明进行有性生殖的生物体，其遗传信息通过配子传递给子代\n\n3.2.3 阐明有性生殖中基因的分离和自由组合使得子代的基因型和表型有多种可能，并可由此预测子代的遗传性状\n\n3.2.4 概述性染色体上的基因传递和性别相关联", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l2\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l3\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l2", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l3"};
-
-MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l9"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l9", title: "由基因突变、染色体变异和基因重组引起的变异是可以遗传的", description: "3.3.1 概述碱基的替换、插入或缺失会引发基因中碱基序列的改变\n\n3.3.2 阐明基因中碱基序列的改变有可能导致它所编码的蛋白质及相应的细胞功能发生变化，甚至带来致命的后果\n\n3.3.3 描述细胞在某些化学物质、射线，以及病毒的作用下，基因突变概率可能提高，而某些基因突变能导致细胞分裂失控，甚至发生癌变\n\n3.3.4 阐明进行有性生殖的生物在减数分裂过程中, 染色体所发生\n\n的自由组合和交叉互换，会导致控制不同性状的基因重组，从而使子代出现变异\n\n3.3.5 举例说明染色体结构和数量的变异都可能导致生物性状的改变甚至死亡\n\n3.3.6 举例说明人类遗传病是可以检测和预防的", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l2\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l3\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l2", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l3"};
-
-MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l10"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l10", title: "地球上的现存物种丰富多样，它们来自共同祖先", description: "4.1.1 尝试通过化石记录、比较解剖学和胚胎学等事实，说明当今生物具有共同的祖先\n\n4.1.2 尝试通过细胞生物学和分子生物学等知识，说明当今生物在新陈代谢、DNA的结构与功能等方面具有许多共同特征", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l2\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l4\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l2", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l4"};
-
-MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l11"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l11", title: "适应是自然选择的结果", description: "4.2.1 举例说明种群内的某些可遗传变异将赋予个体在特定环境中的生存和繁殖优势\n\n4.2.2 阐明具有优势性状的个体在种群中所占比例将会增加\n\n4.2.3 说明自然选择促进生物更好地适应特定的生存环境\n\n4.2.4 概述现代生物进化理论以自然选择学说为核心，为地球上的生命进化史提供了科学的解释\n\n4.2.5 举例说明变异、选择和隔离可导致新物种形成", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l2\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l4\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l2", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l4"};
-
-MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l12"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l12", title: "内环境为机体细胞提供适宜的生存环境，机体细胞通过内环境与外界环境进行物质交换", description: "1.1.1 说明血浆、组织液和淋巴等细胞外液共同构成高等动物细胞赖以生存的内环境\n\n1.1.2 阐明机体细胞生活在内环境中，通过内环境与外界环境进行物质交换，同时也参与内环境的形成和维持\n\n1.1.3 简述机体通过呼吸、消化、循环和泌尿等系统参与内、外环境间的物质交换", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l3\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l5\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l3", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l5"};
-
-MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l13"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l13", title: "内环境的变化会引发机体的自动调节，以维持内环境的稳态", description: "1.2.1 以血糖、体温、 $\\mathrm{pH}$ 和渗透压等为例，阐明机体通过调节作用保持内环境的相对稳定，以保证机体的正常生命活动\n\n1.2.2 举例说明机体不同器官、系统协调统一地共同完成各项生命活动，是维持内环境稳态的基础", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l3\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l5\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l3", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l5"};
-
-MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l14"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l14", title: "神经系统能够及时感知机体内、外环境的变化，并作出反应调控各器官、系统的活动，实现机体稳态", description: "1.3.1 概述神经调节的基本方式是反射（可分为条件反射和非条件反射），其结构基础是反射弧\n\n1.3.2 阐明神经细胞膜内外在静息状态具有电位差，受到外界刺激后形成动作电位，并沿神经纤维传导\n\n1.3.3 阐明神经冲动在突触处的传递通常通过化学传递方式完成\n\n1.3.4 分析位于脊髓的低级神经中枢和脑中相应的高级神经中枢相互联系、相互协调，共同调控器官和系统的活动，维持机体的稳态\n\n1.3.5 举例说明中枢神经系统通过自主神经来调节内脏的活动\n\n1.3.6 简述语言活动和条件反射是由大脑皮层控制的高级神经活动", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l3\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l5\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l3", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l5"};
-
-MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l15"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l15", title: "内分泌系统产生的多种类型的激素，通过体液传送而发挥调节作用，实现机体稳态", description: "1.4.1 说出人体内分泌系统主要由内分泌腺组成，包括垂体、甲状腺、肾上腺、胰岛和性腺等多种腺体，它们分泌的各类激素参与生命活动的调节\n\n1.4.2 举例说明激素通过分级调节、反馈调节等机制维持机体的稳态，如甲状腺激素分泌的调节和血糖平衡的调节等\n\n1.4.3 举例说出神经调节与体液调节相互协调共同维持机体的稳态，如体温调节和水盐平衡的调节等\n\n1.4.4 举例说明其他体液成分参与稳态的调节，如二氧化碳对呼吸运动的调节等", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l3\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l5\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l3", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l5"};
-
-MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l16"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l16", title: "免疫系统能够抵御病原体的侵袭，识别并清除机体内衰老、死亡或异常的细胞，实现机体稳态", description: "1.5.1 举例说明免疫细胞、免疫器官和免疫活性物质等是免疫调节的结构与物质基础\n\n1.5.2 概述人体的免疫包括与生俱来的非特异性免疫和后天获得的特异性免疫\n\n1.5.3 阐明特异性免疫是通过体液免疫和细胞免疫两种方式，针对特定病原体发生的免疫应答\n\n1.5.4 举例说明免疫功能异常可能引发疾病，如过敏、自身免疫病、艾滋病和先天性免疫缺陷病等", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l3\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l5\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l3", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l5"};
-
-MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l17"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l17", title: "植物生命活动受到多种因素的调节，其中最重要的是植物激素的调节", description: "1.6.1 概述科学家经过不断的探索，发现了植物生长素，并揭示了它在调节植物生长时表现出两重性，既能促进生长，也能抑制生长\n\n1.6.2 举例说明几种主要植物激素的作用，这些激素可通过协同、拮抗等方式共同实现对植物生命活动的调节\n\n1.6.3 举例说明生长素、细胞分裂素、赤霉素、脱落酸和乙烯等植物激素及其类似物在生产上得到了广泛应用\n\n1.6.4 概述其他因素参与植物生命活动的调节，如光、重力和温度等", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l3\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l5\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l3", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l5"};
-
-MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l18"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l18", title: "不同种群的生物在长期适应环境和彼此相互适应的过程中形成动态的生物群落", description: "2.1.1 列举种群具有种群密度、出生率和死亡率、迁入率和迁出率、年龄结构、性别比例等特征\n\n2.1.2 尝试建立数学模型解释种群的数量变动\n\n2.1.3 举例说明阳光、温度和水等非生物因素以及不同物种之间的相互作用都会影响生物的种群特征\n\n2.1.4 描述群落具有垂直结构和水平结构等特征，并可随时间而改变\n\n2.1.5 阐明一个群落替代另一个群落的演替过程，包括初生演替和次生演替两种类型\n\n2.1.6 分析不同群落中的生物具有与该群落环境相适应的形态结构、生理特征和分布特点", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l4\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l6\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l4", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l6"};
-
-MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l19"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l19", title: "生物群落与非生物的环境因素相互作用形成多样化的生态系统，完成物质循环、能量流动和信息传递", description: "2.2.1 阐明生态系统由生产者、消费者和分解者等生物因素以及阳光、空气、水等非生物因素组成，各组分紧密联系使生态系统成为具有一定结构和功能的统一体\n\n2.2.2 讨论某一生态系统中生产者和消费者通过食物链和食物网联系在一起形成复杂的营养结构\n\n2.2.3 分析生态系统中的物质在生物群落与无机环境之间不断循环、能量在生物群落中单向流动并逐级递减的规律\n\n2.2.4 举例说明利用物质循环和能量流动规律，人们能够更加科学、有效地利用生态系统中的资源\n\n2.2.5 解释生态金字塔表征了食物网各营养级之间在个体数量、生物量和能量方面的关系\n\n2.2.6 阐明某些有害物质会通过食物链不断地富集的现象\n\n2.2.7 举例说出生态系统中物理、化学和行为信息的传递对生命活动的正常进行、生物种群的繁衍和种间关系的调节起着重要作用\n\n2.2.8 分析特定生态系统的生物与非生物因素决定其营养结构", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l4\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l6\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l4", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l6"};
-
-MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l20"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l20", title: "生态系统通过自我调节作用抵御和消除一定限度的外来干扰，保持或恢复自身结构和功能的相对稳定", description: "2.3.1 解释生态系统具有保持或恢复自身结构和功能相对稳定，并维持动态平衡的能力\n\n2.3.2 举例说明生态系统的稳定性会受到自然或人为因素的影响，如气候变化、自然事件、人类活动或外来物种入侵等\n\n2.3.3 阐明生态系统在受到一定限度的外来干扰时，能够通过自我调节维持稳定", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l4\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l6\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l4", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l6"};
-
-MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l21"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l21", title: "人类活动对生态系统的动态平衡有着深远的影响，依据生态学原理\n\n保护环境是人类生存和可持续发展的必要条件", description: "2.4.1 探讨人口增长会对环境造成压力\n\n2.4.2 关注全球气候变化、水资源短缺、臭氧层破坏、酸雨、荒漠化和环境污染等全球性环境问题对生物圈的稳态造成威胁，同时也对人类的生存和可持续发展造成影响\n\n2.4.3 概述生物多样性对维持生态系统的稳定性以及人类生存和发展的重要意义，并尝试提出人与自然和谐共生的合理化建议\n\n2.4.4 举例说明根据生态学原理、采用系统工程的方法和技术，达到资源多层次和循环利用的目的，使特定区域中的人和自然环境均受益\n\n2.4.5 形成“环境保护需要从我做起”的意识", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l4\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l6\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l4", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l6"};
-
-MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l22"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l22", title: "获得纯净的微生物培养物是发酵工程的基础", description: "3.1.1 阐明在发酵工程中灭菌是获得纯净的微生物培养物的前提\n\n3.1.2 阐明无菌技术是在操作过程中，保持无菌物品与无菌区域不被微生物污染的技术\n\n3.1.3 举例说明通过调整培养基的配方可有目的地培养某种微生物\n\n3.1.4 概述平板划线法和稀释涂布平板法是实验室中进行微生物分离和纯化的常用方法\n\n3.1.5 概述稀释涂布平板法和显微镜计数法是测定微生物数量的常用方法", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l5\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l7\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l5", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l7"};
-
-MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l23"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l23", title: "发酵工程为人类提供多样的生物产品", description: "3.2.1 举例说明日常生活中的某些食品是运用传统发酵技术生产的\n\n3.2.2 阐明发酵工程利用现代工程技术及微生物的特定功能，工业化生产人类所需产品\n\n3.2.3 举例说明发酵工程在医药、食品及其他工农业生产上有重要的应用价值", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l5\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l7\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l5", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l7"};
-
-MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l24"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l24", title: "植物细胞工程包括组织培养和体细胞杂交等技术", description: "4.1.1 阐明植物组织培养是在一定条件下，将离体植物器官、组织和细胞在适宜的培养条件下诱导形成愈伤组织，并重新分化，最终形成完整植株的过程\n\n4.1.2 概述植物体细胞杂交是将不同植物体细胞在一定条件下融合成杂合细胞，继而培育成新植物体的技术\n\n4.1.3 举例说明植物细胞工程利用快速繁殖、脱毒、次生代谢产物生产、育种等方式有效提高了生产效率", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l5\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l8\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l5", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l8"};
-
-MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l25"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l25", title: "动物细胞工程包括细胞培养、核移植、细胞融合和干细胞的应用等技术", description: "4.2.1 阐明动物细胞培养是从动物体获得相关组织，分散成单个细胞后，在适宜的培养条件下让细胞生长和增殖的过程。动物细胞培养是动物细胞工程的基础\n\n4.2.2 阐明动物细胞核移植一般是将体细胞核移入一个去核的卵母细胞中，并使重组细胞发育成新胚胎，继而发育成动物个体的过程\n\n4.2.3 阐明动物细胞融合是指通过物理、化学或生物学等手段，使两个或多个动物细胞结合形成一个细胞的过程\n\n4.2.4 概述细胞融合技术是单克隆抗体制备的重要技术\n\n4.2.5 简述干细胞在生物医学工程中有广泛的应用价值", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l5\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l8\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l5", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l8"};
-
-MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l26"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l26", title: "对动物早期胚胎或配子进行显微操作和处理以获得目标个体", description: "4.3.1 简述胚胎形成经过了受精及早期发育等过程\n\n4.3.2 简述胚胎工程包括体外受精、胚胎移植和胚胎分割等技术", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l5\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l8\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l5", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l8"};
-
-MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l27"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l27", title: "基因工程是一种重组DNA技术", description: "5.1.1 概述基因工程是在遗传学、微生物学、生物化学和分子生物学等学科基础上发展而来的\n\n5.1.2 阐明DNA重组技术的实现需要利用限制性内切核酸酶、DNA连接酶和载体三种基本工具\n\n5.1.3 阐明基因工程的基本操作程序主要包括目的基因的获取、基因表达载体的构建、目的基因导入受体细胞和目的基因及其表达产物的检测鉴定等步骤\n\n5.1.4 举例说明基因工程在农牧、食品及医药等行业的广泛应用改善了人类的生活品质", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l5\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l9\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l5", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l9"};
-
-MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l28"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l28", title: "蛋白质工程是基因工程的延伸", description: "5.2.1 概述人们根据基因工程原理，进行蛋白质设计和改造，可以\n\n获得性状和功能更符合人类需求的蛋白质\n\n5.2.2 举例说明依据人类需要对原有蛋白质结构进行基因改造、生产目标蛋白的过程", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l5\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l9\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l5", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l9"};
-
-MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l29"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l29", title: "转基因产品的安全性引发社会的广泛关注", description: "6.1.1 举例说出日常生活中的转基因产品\n\n6.1.2 探讨转基因技术在应用过程中带来的影响", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l5\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l10\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l5", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l10"};
-
-MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l30"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l30", title: "中国禁止生殖性克隆人", description: "6.2.1 举例说出生殖性克隆人面临的伦理问题\n\n6.2.2 分析说明我国为什么不赞成、不允许、不支持、不接受任何生殖性克隆人实验", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l5\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l10\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l5", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l10"};
-
-MERGE (n:SubConception {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l31"})
-SET n += {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l31", title: "世界范围内应全面禁止生物武器", description: "6.3.1 举例说明历史上生物武器对人类造成了严重的威胁与伤害\n\n6.3.2 认同我国反对生物武器及其技术和设备的扩散", subject: "SB0403", type: "SubConception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l5\", \"Conception\": \"urn:jy:biology:SB0403:OB06:Conception:l10\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l5", CJ_Conception: "urn:jy:biology:SB0403:OB06:Conception:l10"};
+MERGE (n:AcademicQuality {identifier: "urn:jy:biology:SB0403:OB06:AcademicQuality:title:l3"})
+SET n += {type: "AcademicQuality", title: "学业质量", description: "学业质量是学生在完成生物学课程学习后学业成就的综合表现，体现课程目标的达成程度，反映核心素养发展状况。学业质量标准依据学科核心素养水平划分，结合结构化课程内容，描述学习结果的典型表现，整体标识和刻画学业质量的不同水平。", subject: "SB0403", applicableLevel: "OB0601", contentJson: "{\"standard\": \"水平三\", \"standardRequirement\": \"在较为陌生的、结构不良的生产生活或生物学研究等问题情境中，学生应能够：综合运用多个生命观念，从微观和宏观层面阐释生命活动规律。从分子与细胞水平阐述生物体结构与功能的适应关系，细胞内各项生命活动过程中的物质变化与能量转化；阐释遗传与变异的物质基础和规律，以及生物的多样性和统一性的原因；概述个体生命活动的调节机制与稳态的维持；解释生态系统的成分、结构与功能的关系，以及生态系统维持相对稳定的机制；阐述多种生物技术与工程中运用的生物学原理。运用相关的生物学概念，揭示生命现象中蕴含的规律，并用恰当的表征形式表达和阐明其内涵。客观分析与评价常见生物技术在生产生活中的应用所产生的效益和风险；运用批判性思维等参与社会性科学议题的讨论，阐述不同观点或行为的科学性与合理性，从科学、技术与社会等方面阐明个人立场，作出理性决策。从不同的生命观念视角，基于证据和逻辑，综合运用比较、分类、归纳、演绎、分析、综合、建模等方法，通过对生命现象或现实需求的分析，提出清晰和可探究的生物学问题或工程任务，分析已知条件和制约因素，遵循正确的伦理道德，综合运用多学科知识、思想、方法和技术手段，创造性地设计和实施可行的研究方案，解决问题或完成工程任务。秉持人与自然和谐共生的理念，积极主动地与他人合作，开展健康生活、生物多样性和环境保护等方面的实践活动。\"}", identifier: "urn:jy:biology:SB0403:OB06:AcademicQuality:title:l3", CJ_standard: "水平三", CJ_standardRequirement: "在较为陌生的、结构不良的生产生活或生物学研究等问题情境中，学生应能够：综合运用多个生命观念，从微观和宏观层面阐释生命活动规律。从分子与细胞水平阐述生物体结构与功能的适应关系，细胞内各项生命活动过程中的物质变化与能量转化；阐释遗传与变异的物质基础和规律，以及生物的多样性和统一性的原因；概述个体生命活动的调节机制与稳态的维持；解释生态系统的成分、结构与功能的关系，以及生态系统维持相对稳定的机制；阐述多种生物技术与工程中运用的生物学原理。运用相关的生物学概念，揭示生命现象中蕴含的规律，并用恰当的表征形式表达和阐明其内涵。客观分析与评价常见生物技术在生产生活中的应用所产生的效益和风险；运用批判性思维等参与社会性科学议题的讨论，阐述不同观点或行为的科学性与合理性，从科学、技术与社会等方面阐明个人立场，作出理性决策。从不同的生命观念视角，基于证据和逻辑，综合运用比较、分类、归纳、演绎、分析、综合、建模等方法，通过对生命现象或现实需求的分析，提出清晰和可探究的生物学问题或工程任务，分析已知条件和制约因素，遵循正确的伦理道德，综合运用多学科知识、思想、方法和技术手段，创造性地设计和实施可行的研究方案，解决问题或完成工程任务。秉持人与自然和谐共生的理念，积极主动地与他人合作，开展健康生活、生物多样性和环境保护等方面的实践活动。"};
 
 MERGE (n:CourseTarget {identifier: "urn:jy:biology:SB0403:OB06:CourseTarget:l1"})
 SET n += {type: "CourseTarget", title: "目标要求", description: "学生通过本课程的学习，能认识到生物学在坚持人与自然和谐共生，促进科技发展、社会进步和提高人类生活质量等方面的重要贡献；树立生命观念，能够运用这些观念解释生命现象，探索生命规律；形成科学思维的习惯，能够运用已有的生物学知识、证据和逻辑对社会性科学议题进行思考或展开论证；掌握科学探究的思路和方法，形成合作精神，善于从实践的层面探讨或尝试解决现实生活问题；具有开展生物学实践活动的意愿和社会责任感，在面对现实世界的挑战时，能充分利用生物学知识主动宣传引导，愿意承担抵制毒品和不良生活习惯等社会责任，为继续学习和走向社会打下认识和实践的基础。", subject: "SB0403", applicableLevel: "OB06", contentJson: "{}", identifier: "urn:jy:biology:SB0403:OB06:CourseTarget:l1"};
+
+MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l1"})
+SET n += {type: "Chapter", title: "科学家访谈 探究微观生命世界的奥秘——与施一公院士一席谈", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修1 分子与细胞\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l1", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修1 分子与细胞"};
+
+MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l2"})
+SET n += {type: "Chapter", title: "第1章 走近细胞", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修1 分子与细胞\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l2", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修1 分子与细胞"};
+
+MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l3"})
+SET n += {type: "Chapter", title: "第2章 组成细胞的分子", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修1 分子与细胞\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l3", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修1 分子与细胞"};
+
+MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l4"})
+SET n += {type: "Chapter", title: "第3章 细胞的基本结构", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修1 分子与细胞\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l4", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修1 分子与细胞"};
+
+MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l5"})
+SET n += {type: "Chapter", title: "第4章 细胞的物质输入和输出", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修1 分子与细胞\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l5", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修1 分子与细胞"};
+
+MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l6"})
+SET n += {type: "Chapter", title: "第5章 细胞的能量供应与利用", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修1 分子与细胞\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l6", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修1 分子与细胞"};
+
+MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l7"})
+SET n += {type: "Chapter", title: "第6章 细胞的生命历程", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修1 分子与细胞\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l7", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修1 分子与细胞"};
+
+MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l8"})
+SET n += {type: "Chapter", title: "科学家访谈 毕生追求的“禾下乘凉梦”——与袁隆平院士一席谈", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修2 遗传与进化\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l8", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修2 遗传与进化"};
+
+MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l9"})
+SET n += {type: "Chapter", title: "第1章 遗传因子的发现", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修2 遗传与进化\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l9", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修2 遗传与进化"};
+
+MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l10"})
+SET n += {type: "Chapter", title: "第2章 基因和染色体的关系", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修2 遗传与进化\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l10", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修2 遗传与进化"};
+
+MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l11"})
+SET n += {type: "Chapter", title: "第3章 基因的本质", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修2 遗传与进化\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l11", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修2 遗传与进化"};
+
+MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l12"})
+SET n += {type: "Chapter", title: "第4章 基因的表达", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修2 遗传与进化\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l12", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修2 遗传与进化"};
+
+MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l13"})
+SET n += {type: "Chapter", title: "第5章 基因突变及其他变异", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修2 遗传与进化\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l13", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修2 遗传与进化"};
+
+MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l14"})
+SET n += {type: "Chapter", title: "第6章 生物的进化", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修2 遗传与进化\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l14", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修2 遗传与进化"};
+
+MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l15"})
+SET n += {type: "Chapter", title: "综合专题", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高一\", \"edition\": \"人教版\", \"volume\": \"必修2 遗传与进化\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l15", CJ_academicTerm: "高中", CJ_grade: "高一", CJ_edition: "人教版", CJ_volume: "必修2 遗传与进化"};
+
+MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l16"})
+SET n += {type: "Chapter", title: "科学家访谈 探索生命活动调节的奥秘——与许智宏院士一席谈", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"人教版\", \"volume\": \"选择性必修1 稳态与调节\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l16", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "人教版", CJ_volume: "选择性必修1 稳态与调节"};
+
+MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l17"})
+SET n += {type: "Chapter", title: "第1章 人体的内环境与稳态", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"人教版\", \"volume\": \"选择性必修1 稳态与调节\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l17", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "人教版", CJ_volume: "选择性必修1 稳态与调节"};
+
+MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l18"})
+SET n += {type: "Chapter", title: "第2章 神经调节", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"人教版\", \"volume\": \"选择性必修1 稳态与调节\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l18", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "人教版", CJ_volume: "选择性必修1 稳态与调节"};
+
+MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l19"})
+SET n += {type: "Chapter", title: "第3章 体液调节", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"人教版\", \"volume\": \"选择性必修1 稳态与调节\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l19", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "人教版", CJ_volume: "选择性必修1 稳态与调节"};
+
+MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l20"})
+SET n += {type: "Chapter", title: "第4章 免疫调节", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"人教版\", \"volume\": \"选择性必修1 稳态与调节\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l20", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "人教版", CJ_volume: "选择性必修1 稳态与调节"};
+
+MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l21"})
+SET n += {type: "Chapter", title: "第5章 植物生命活动的调节", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"人教版\", \"volume\": \"选择性必修1 稳态与调节\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l21", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "人教版", CJ_volume: "选择性必修1 稳态与调节"};
+
+MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l22"})
+SET n += {type: "Chapter", title: "科学家访谈 尊重自然、顺应自然、保护自然——与方精云院士一席谈", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"人教版\", \"volume\": \"选择性必修2 生物与环境\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l22", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "人教版", CJ_volume: "选择性必修2 生物与环境"};
+
+MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l23"})
+SET n += {type: "Chapter", title: "第1章 种群及其动态", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"人教版\", \"volume\": \"选择性必修2 生物与环境\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l23", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "人教版", CJ_volume: "选择性必修2 生物与环境"};
+
+MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l24"})
+SET n += {type: "Chapter", title: "第2章 群落及其演替", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"人教版\", \"volume\": \"选择性必修2 生物与环境\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l24", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "人教版", CJ_volume: "选择性必修2 生物与环境"};
+
+MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l25"})
+SET n += {type: "Chapter", title: "第3章 生态系统及其稳定性", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"人教版\", \"volume\": \"选择性必修2 生物与环境\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l25", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "人教版", CJ_volume: "选择性必修2 生物与环境"};
+
+MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l26"})
+SET n += {type: "Chapter", title: "第4章 人与环境", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"高二\", \"edition\": \"人教版\", \"volume\": \"选择性必修2 生物与环境\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l26", CJ_academicTerm: "高中", CJ_grade: "高二", CJ_edition: "人教版", CJ_volume: "选择性必修2 生物与环境"};
+
+MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l27"})
+SET n += {type: "Chapter", title: "科学家访谈 生物科技创造美好未来——与杨焕明院士一席谈", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修3 生物技术与工程\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l27", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修3 生物技术与工程"};
+
+MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l28"})
+SET n += {type: "Chapter", title: "第1章 发酵工程", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修3 生物技术与工程\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l28", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修3 生物技术与工程"};
+
+MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l29"})
+SET n += {type: "Chapter", title: "第2章 细胞工程", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修3 生物技术与工程\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l29", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修3 生物技术与工程"};
+
+MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l30"})
+SET n += {type: "Chapter", title: "第3章 基因工程", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修3 生物技术与工程\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l30", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修3 生物技术与工程"};
+
+MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l31"})
+SET n += {type: "Chapter", title: "第4章 生物技术的安全性与伦理问题", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修3 生物技术与工程\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l31", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修3 生物技术与工程"};
+
+MERGE (n:Chapter {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l32"})
+SET n += {type: "Chapter", title: "高考复习", description: "", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"academicTerm\": \"高中\", \"grade\": \"\", \"edition\": \"人教版\", \"volume\": \"选择性必修3 生物技术与工程\"}", identifier: "urn:jy:biology:SB0403:OB06:Chapter:l32", CJ_academicTerm: "高中", CJ_grade: "", CJ_edition: "人教版", CJ_volume: "选择性必修3 生物技术与工程"};
 
 MERGE (n:Module {identifier: "urn:jy:biology:SB0403:OB06:Module:l1"})
 SET n += {type: "Module", title: "模块1 分子与细胞", description: "本模块包括细胞的分子组成、细胞的结构、细胞的代谢、细胞的增殖以及细胞的分化、衰老和死亡等内容。细胞是生物体结构与生命活动的基本单位。细胞生物学是生命科学的重要基础学科，分子生物学的发展促使细胞生物学的研究进入了分子水平。本模块选取了细胞生物学方面最基本的知识，是学习其他模块的基础。它还反映了细胞生物学研究的新进展及相关的实际应用。通过本模块的学习，学生将在微观层面上，更深入地理解生命的本质。了解生命的物质性和生物界的统一性，细胞结构与功能的统一，细胞生命活动中物质、能量和信息变化的统一，生物体部分和整体的统一等，有助于科学自然观的形成。学习细胞的发现、细胞学说的建立和发展，有助于学生加深对科学研究过程和本质的理解。", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:biology:SB0403:OB06:CourseModule:l1\", \"contentRequirement\": \"概念1 细胞是生物体结构与生命活动的基本单位\\n1.1 细胞由多种多样的分子组成，包括水、无机盐、糖类、脂质、蛋白质和核酸等，其中蛋白质和核酸是两类最重要的生物大分子\\n1.1.1 说出细胞主要由C、H、O、N、P、S等元素构成，它们以碳链为骨架形成复杂的生物大分子\\n1.1.2 指出水大约占细胞质量的 2/3，以自由水和结合水的形式存在，赋予了细胞许多特性，在生命活动中具有重要作用\\n1.1.3 举例说出无机盐在细胞内含量虽少，但与生命活动密切相关\\n1.1.4 概述糖类有多种类型，它们既是细胞的重要结构成分，又是生命活动的主要能源物质\\n1.1.5 举例说出不同种类的脂质对维持细胞结构和功能有重要作用\\n1.1.6 阐明蛋白质通常由20种氨基酸分子组成，它的功能取决于氨基酸序列及其形成的空间结构，细胞的功能主要由蛋白质完成\\n1.1.7 概述核酸由核苷酸聚合而成，是储存与传递遗传信息的生物大分子\\n1.2 细胞各部分结构既分工又合作，共同执行细胞的各项生命活动\\n1.2.1 概述细胞都由质膜包裹，质膜将细胞与其生活环境分开，能控制物质进出，并参与细胞间的信息交流\\n1.2.2 阐明细胞内具有多个相对独立的结构，担负着物质运输、合成与分解、能量转换和信息传递等生命活动\\n1.2.3 阐明遗传信息主要储存在细胞核中\\n1.2.4 举例说明细胞各部分结构之间相互联系、协调一致，共同执行细胞的各项生命活动\\n1.3 各种细胞具有相似的基本结构，但在形态与功能上有所差异\\n1.3.1 说明有些生物体只有一个细胞，而有的由很多细胞构成，这些细胞形态和功能多样，但都具有相似的基本结构\\n1.3.2 描述原核细胞与真核细胞的最大区别是原核细胞没有由核膜包被的细胞核\\n\\n概念2 细胞需要能量和营养物质维持生存，并通过分裂实现增殖\\n2.1 物质通过被动运输、主动运输等方式进出细胞，以维持细胞的正常代谢活动\\n2.1.1 阐明质膜具有选择透过性\\n2.1.2 举例说明有些物质顺浓度梯度进出细胞，不需要额外提供能量；有些物质逆浓度梯度进出细胞，需要能量和载体蛋白\\n2.1.3 举例说明大分子物质可以通过胞吞、胞吐进出细胞\\n2.2 细胞的功能绝大多数基于化学反应，这些反应发生在细胞的特定区域\\n2.2.1 说明绝大多数酶是一类能催化生化反应的蛋白质，酶活性受到环境因素（如pH和温度等）的影响\\n2.2.2 解释ATP是驱动细胞生命活动的直接能源物质\\n2.2.3 说明植物细胞的叶绿体从太阳光中捕获能量，这些能量在二氧化碳和水转变为糖与氧气的过程中，转换并储存为糖分子中的化学能\\n2.2.4 说明生物通过细胞呼吸将储存在有机分子中的能量转化为生命活动可以利用的能量\\n2.3 细胞会经历生长、增殖、分化、衰老和死亡等生命进程\\n2.3.1 描述细胞通过不同的方式进行分裂，其中有丝分裂保证了遗传信息在亲代和子代细胞中的一致性\\n2.3.2 说明在个体发育过程中，细胞在形态、结构和功能方面发生特异性的分化，形成了复杂的多细胞生物体\\n2.3.3 描述在正常情况下，细胞衰老和死亡是一种自然的生理过程\"}", identifier: "urn:jy:biology:SB0403:OB06:Module:l1", CJ_courseModule: "urn:jy:biology:SB0403:OB06:CourseModule:l1", CJ_contentRequirement: "概念1 细胞是生物体结构与生命活动的基本单位\n1.1 细胞由多种多样的分子组成，包括水、无机盐、糖类、脂质、蛋白质和核酸等，其中蛋白质和核酸是两类最重要的生物大分子\n1.1.1 说出细胞主要由C、H、O、N、P、S等元素构成，它们以碳链为骨架形成复杂的生物大分子\n1.1.2 指出水大约占细胞质量的 2/3，以自由水和结合水的形式存在，赋予了细胞许多特性，在生命活动中具有重要作用\n1.1.3 举例说出无机盐在细胞内含量虽少，但与生命活动密切相关\n1.1.4 概述糖类有多种类型，它们既是细胞的重要结构成分，又是生命活动的主要能源物质\n1.1.5 举例说出不同种类的脂质对维持细胞结构和功能有重要作用\n1.1.6 阐明蛋白质通常由20种氨基酸分子组成，它的功能取决于氨基酸序列及其形成的空间结构，细胞的功能主要由蛋白质完成\n1.1.7 概述核酸由核苷酸聚合而成，是储存与传递遗传信息的生物大分子\n1.2 细胞各部分结构既分工又合作，共同执行细胞的各项生命活动\n1.2.1 概述细胞都由质膜包裹，质膜将细胞与其生活环境分开，能控制物质进出，并参与细胞间的信息交流\n1.2.2 阐明细胞内具有多个相对独立的结构，担负着物质运输、合成与分解、能量转换和信息传递等生命活动\n1.2.3 阐明遗传信息主要储存在细胞核中\n1.2.4 举例说明细胞各部分结构之间相互联系、协调一致，共同执行细胞的各项生命活动\n1.3 各种细胞具有相似的基本结构，但在形态与功能上有所差异\n1.3.1 说明有些生物体只有一个细胞，而有的由很多细胞构成，这些细胞形态和功能多样，但都具有相似的基本结构\n1.3.2 描述原核细胞与真核细胞的最大区别是原核细胞没有由核膜包被的细胞核\n\n概念2 细胞需要能量和营养物质维持生存，并通过分裂实现增殖\n2.1 物质通过被动运输、主动运输等方式进出细胞，以维持细胞的正常代谢活动\n2.1.1 阐明质膜具有选择透过性\n2.1.2 举例说明有些物质顺浓度梯度进出细胞，不需要额外提供能量；有些物质逆浓度梯度进出细胞，需要能量和载体蛋白\n2.1.3 举例说明大分子物质可以通过胞吞、胞吐进出细胞\n2.2 细胞的功能绝大多数基于化学反应，这些反应发生在细胞的特定区域\n2.2.1 说明绝大多数酶是一类能催化生化反应的蛋白质，酶活性受到环境因素（如pH和温度等）的影响\n2.2.2 解释ATP是驱动细胞生命活动的直接能源物质\n2.2.3 说明植物细胞的叶绿体从太阳光中捕获能量，这些能量在二氧化碳和水转变为糖与氧气的过程中，转换并储存为糖分子中的化学能\n2.2.4 说明生物通过细胞呼吸将储存在有机分子中的能量转化为生命活动可以利用的能量\n2.3 细胞会经历生长、增殖、分化、衰老和死亡等生命进程\n2.3.1 描述细胞通过不同的方式进行分裂，其中有丝分裂保证了遗传信息在亲代和子代细胞中的一致性\n2.3.2 说明在个体发育过程中，细胞在形态、结构和功能方面发生特异性的分化，形成了复杂的多细胞生物体\n2.3.3 描述在正常情况下，细胞衰老和死亡是一种自然的生理过程"};
@@ -873,883 +852,824 @@ SET n += {type: "Module", title: "“生态安全”模块开设建议", descrip
 MERGE (n:Module {identifier: "urn:jy:biology:SB0403:OB06:Module:l27"})
 SET n += {type: "Module", title: "“校园动植物分类”模块开设建议", description: "（1学分）\n\n当前，校园生态规划建设已经成为人们讨论的热点话题。让生态理念进入校园，不仅有利于全民生态意识的提高，也丰富了学生的学习实践内容，有利于学生的全面发展。校园动植物环境是校园生态最基本的环境元素，是一个半人工生态系统（即由自然生态系统和人造生态系统共同组成）。让学生积极参与到校园生态建设和生态保护行动中去，对于培养学生观察、调查和分类的兴趣，热爱自然环境等都具有十分重要的意义。\n\n开设本模块应依托校园自然环境，着眼于学生的兴趣爱好，因地制宜开展丰富多彩的校园文化活动，让学生养成关注身边事物的习惯，激发学生在生活中学科学、用科学的兴趣。校园动植物分类内容可以包括调查校园动植物资源，动植物分类的过程与一般方法，学会使用动植物分类表，学习编制简单的检索表，介绍校园动植物有关的科、属、种的特征及识别方法，动植物标本采集及制作，建立校园动植物资源管理数据库以及了解动植物与环境的适应关系等。\n\n教学中教师应根据本地的地理特点，充分利用校园动植物资源，拉近学生与真实自然环境之间的距离。教学可以通过各种不同形式的活动展开。例如，以小组为单位制订寻找、观察校园动植物的计划；交流认识校园里的动植物的学习经验；以科技为主导，以校园为依托，开发利用校园动植物资源；广泛收集教学需要的文字、声音、图片、动画等素材，建立校园动植物资源库等，实现教学与校园动植物资源的有效整合。激发学生的学习兴趣，培养学生的自然观察能力，提升学生的综合素养。\n\n校园动植物分类课程以提高学生的实践能力和创新能力为核心，重视培养学生获取生物学事实的能力、科学思维能力、创新精神及自主学习能力。本课程不仅培养学生关注身边校园的动植物，更重要的是培养学生爱护校园环境，自觉维护校园绿色的行为习惯，培养学生的合作精神和社会责任感。", subject: "SB0403", applicableLevel: "OB06", contentJson: "{\"courseModule\": \"urn:jy:biology:SB0403:OB06:CourseModule:l3\", \"category\": \"学业发展基础\"}", identifier: "urn:jy:biology:SB0403:OB06:Module:l27", CJ_courseModule: "urn:jy:biology:SB0403:OB06:CourseModule:l3", CJ_category: "学业发展基础"};
 
-MERGE (n:AcademicQuality {identifier: "urn:jy:biology:SB0403:OB06:AcademicQuality:title:l1"})
-SET n += {type: "AcademicQuality", title: "学业质量", description: "学业质量是学生在完成生物学课程学习后学业成就的综合表现，体现课程目标的达成程度，反映核心素养发展状况。学业质量标准依据学科核心素养水平划分，结合结构化课程内容，描述学习结果的典型表现，整体标识和刻画学业质量的不同水平。", subject: "SB0403", applicableLevel: "OB0601", contentJson: "{\"standard\": \"水平一\", \"standardRequirement\": \"在熟悉的、结构良好的生产生活或生物学研究等问题情境中，学生应能够：运用特定的生命观念，从微观和宏观层面描述生命活动规律。运用结构与功能观或物质与能量观，从分子与细胞水平描述生物体结构与功能的适应关系，光合作用和呼吸作用等生命活动过程中的物质转变与能量转化，细胞生命历程中的结构变化与功能的关系；运用结构与功能观或进化与适应观，举例说明遗传与变异的物质基础和规律，以及生物的多样性和统一性。运用相关的生物学概念，解释生命现象，并使用文字或图示等形式进行直观展示。在现实生活中，践行健康的生活方式，表现出保护环境的行为习惯，辨别迷信和伪科学；关注社会热点中与生物学有关的议题和生物技术的应用。从特定的生命观念视角，基于证据和逻辑，运用比较、分类、归纳、演绎、分析、综合、建模等方法，通过对生命现象的分析，提出可探究的生物学问题，遵循正确的伦理道德，设计和实施简单的探究方案，依据结果得出结论，并进行交流，在活动中能与他人合作，体验和感悟科学探究对解决实际问题的意义和价值。\"}", identifier: "urn:jy:biology:SB0403:OB06:AcademicQuality:title:l1", CJ_standard: "水平一", CJ_standardRequirement: "在熟悉的、结构良好的生产生活或生物学研究等问题情境中，学生应能够：运用特定的生命观念，从微观和宏观层面描述生命活动规律。运用结构与功能观或物质与能量观，从分子与细胞水平描述生物体结构与功能的适应关系，光合作用和呼吸作用等生命活动过程中的物质转变与能量转化，细胞生命历程中的结构变化与功能的关系；运用结构与功能观或进化与适应观，举例说明遗传与变异的物质基础和规律，以及生物的多样性和统一性。运用相关的生物学概念，解释生命现象，并使用文字或图示等形式进行直观展示。在现实生活中，践行健康的生活方式，表现出保护环境的行为习惯，辨别迷信和伪科学；关注社会热点中与生物学有关的议题和生物技术的应用。从特定的生命观念视角，基于证据和逻辑，运用比较、分类、归纳、演绎、分析、综合、建模等方法，通过对生命现象的分析，提出可探究的生物学问题，遵循正确的伦理道德，设计和实施简单的探究方案，依据结果得出结论，并进行交流，在活动中能与他人合作，体验和感悟科学探究对解决实际问题的意义和价值。"};
+MERGE (n:Conception {identifier: "urn:jy:biology:SB0403:OB06:Conception:l1"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:Conception:l1", title: "细胞是生物体结构与生命活动的基本单位", description: "1.1 细胞由多种多样的分子组成，包括水、无机盐、糖类、脂质、蛋白质和核酸等，其中蛋白质和核酸是两类最重要的生物大分子\n\n1.1.1 说出细胞主要由C、H、O、N、P、S等元素构成，它们以碳链为骨架形成复杂的生物大分子\n\n1.1.2 指出水大约占细胞质量的  $2 / 3$  ，以自由水和结合水的形式存在，赋予了细胞许多特性，在生命活动中具有重要作用\n\n1.1.3 举例说出无机盐在细胞内含量虽少，但与生命活动密切相关\n\n1.1.4 概述糖类有多种类型，它们既是细胞的重要结构成分，又是生命活动的主要能源物质\n\n1.1.5 举例说出不同种类的脂质对维持细胞结构和功能有重要作用\n\n1.1.6 阐明蛋白质通常由 20 种氨基酸分子组成，它的功能取决于氨基酸序列及其形成的空间结构，细胞的功能主要由蛋白质完成\n\n1.1.7 概述核酸由核苷酸聚合而成，是储存与传递遗传信息的生物大分子\n\n1.2 细胞各部分结构既分工又合作，共同执行细胞的各项生命活动\n\n1.2.1 概述细胞都由质膜包裹，质膜将细胞与其生活环境分开，能控制物质进出，并参与细胞间的信息交流\n\n1.2.2 阐明细胞内具有多个相对独立的结构，担负着物质运输、合成与分解、能量转换和信息传递等生命活动\n\n1.2.3 阐明遗传信息主要储存在细胞核中\n\n1.2.4 举例说明细胞各部分结构之间相互联系、协调一致，共同执行细胞的各项生命活动\n\n1.3 各种细胞具有相似的基本结构，但在形态与功能上有所差异\n\n1.3.1 说明有些生物体只有一个细胞，而有的由很多细胞构成，这些细胞形态和功能多样，但都具有相似的基本结构\n\n1.3.2 描述原核细胞与真核细胞的最大区别是原核细胞没有由核膜包被的细胞核", subject: "SB0403", type: "Conception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l1\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l1"};
 
-MERGE (n:AcademicQuality {identifier: "urn:jy:biology:SB0403:OB06:AcademicQuality:title:l2"})
-SET n += {type: "AcademicQuality", title: "学业质量", description: "学业质量是学生在完成生物学课程学习后学业成就的综合表现，体现课程目标的达成程度，反映核心素养发展状况。学业质量标准依据学科核心素养水平划分，结合结构化课程内容，描述学习结果的典型表现，整体标识和刻画学业质量的不同水平。", subject: "SB0403", applicableLevel: "OB0601", contentJson: "{\"standard\": \"水平二\", \"standardRequirement\": \"在较为陌生的、结构良好的生产生活或生物学研究等问题情境中，学生应能够：运用结构与功能观、物质与能量观、进化与适应观、稳态与平衡观等不同的生命观念，从微观和宏观层面解释生命活动规律。从分子与细胞水平说明生物体结构与功能的适应关系，细胞内各项生命活动过程中的物质变化与能量转化；说明遗传与变异的物质基础和规律，以及生物的多样性和统一性的原因；概述个体生命活动的调节机制与稳态的维持；解释生态系统的成分、结构与功能的关系，以及生态系统维持相对稳定的机制；举例说明生物技术与工程中运用的生物学原理。运用相关的生物学概念，解释生命现象，并使用文字、图示或模型等对生命现象的变化作出预测。主动向他人宣传有关健康生活、生物多样性和环境保护、生物技术安全与伦理等方面的知识和科学做法，参与社会性科学议题的讨论，从科学、技术与社会等方面阐明个人立场。从不同的生命观念视角，基于证据和逻辑，综合运用比较、分类、归纳、演绎、分析、综合、建模等方法，通过对生命现象或现实需求的分析，提出可探究的生物学问题或工程任务，分析已知条件，遵循正确的伦理道德，结合生物学概念、原理、方法和技术手段，设计并实施探究实验方案或工程学实践方案，采用多种方法如实记录和分析研究结果，尝试解决问题或完成工程任务，并使用证据与他人进行交流。认同人与自然和谐共生的理念，开展健康生活、生物多样性和环境保护等方面的实践活动。\"}", identifier: "urn:jy:biology:SB0403:OB06:AcademicQuality:title:l2", CJ_standard: "水平二", CJ_standardRequirement: "在较为陌生的、结构良好的生产生活或生物学研究等问题情境中，学生应能够：运用结构与功能观、物质与能量观、进化与适应观、稳态与平衡观等不同的生命观念，从微观和宏观层面解释生命活动规律。从分子与细胞水平说明生物体结构与功能的适应关系，细胞内各项生命活动过程中的物质变化与能量转化；说明遗传与变异的物质基础和规律，以及生物的多样性和统一性的原因；概述个体生命活动的调节机制与稳态的维持；解释生态系统的成分、结构与功能的关系，以及生态系统维持相对稳定的机制；举例说明生物技术与工程中运用的生物学原理。运用相关的生物学概念，解释生命现象，并使用文字、图示或模型等对生命现象的变化作出预测。主动向他人宣传有关健康生活、生物多样性和环境保护、生物技术安全与伦理等方面的知识和科学做法，参与社会性科学议题的讨论，从科学、技术与社会等方面阐明个人立场。从不同的生命观念视角，基于证据和逻辑，综合运用比较、分类、归纳、演绎、分析、综合、建模等方法，通过对生命现象或现实需求的分析，提出可探究的生物学问题或工程任务，分析已知条件，遵循正确的伦理道德，结合生物学概念、原理、方法和技术手段，设计并实施探究实验方案或工程学实践方案，采用多种方法如实记录和分析研究结果，尝试解决问题或完成工程任务，并使用证据与他人进行交流。认同人与自然和谐共生的理念，开展健康生活、生物多样性和环境保护等方面的实践活动。"};
+MERGE (n:Conception {identifier: "urn:jy:biology:SB0403:OB06:Conception:l2"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:Conception:l2", title: "细胞需要能量和营养物质维持生存，并通过分裂实现增殖", description: "2.1 物质通过被动运输、主动运输等方式进出细胞，以维持细胞的正常代谢活动\n\n2.1.1 阐明质膜具有选择透过性\n\n2.1.2 举例说明有些物质顺浓度梯度进出细胞，不需要额外提供能量；有些物质逆浓度梯度进出细胞，需要能量和载体蛋白\n\n2.1.3 举例说明大分子物质可以通过胞吞、胞吐进出细胞\n\n2.2 细胞的功能绝大多数基于化学反应, 这些反应发生在细胞的特定区域\n\n2.2.1 说明绝大多数酶是一类能催化生化反应的蛋白质, 酶活性受到环境因素 (如  $\\mathrm{pH}$  和温度等) 的影响\n\n2.2.2 解释ATP是驱动细胞生命活动的直接能源物质\n\n2.2.3 说明植物细胞的叶绿体从太阳光中捕获能量，这些能量在二氧化碳和水转变为糖与氧气的过程中，转换并储存为糖分子中的化学能\n\n2.2.4 说明生物通过细胞呼吸将储存在有机分子中的能量转化为生命活动可以利用的能量\n\n2.3 细胞会经历生长、增殖、分化、衰老和死亡等生命进程\n\n2.3.1 描述细胞通过不同的方式进行分裂, 其中有丝分裂保证了遗传信息在亲代和子代细胞中的一致性\n\n2.3.2 说明在个体发育过程中，细胞在形态、结构和功能方面发生特异性的分化，形成了复杂的多细胞生物体\n\n2.3.3 描述在正常情况下，细胞衰老和死亡是一种自然的生理过程", subject: "SB0403", type: "Conception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l1\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l1"};
 
-MERGE (n:AcademicQuality {identifier: "urn:jy:biology:SB0403:OB06:AcademicQuality:title:l3"})
-SET n += {type: "AcademicQuality", title: "学业质量", description: "学业质量是学生在完成生物学课程学习后学业成就的综合表现，体现课程目标的达成程度，反映核心素养发展状况。学业质量标准依据学科核心素养水平划分，结合结构化课程内容，描述学习结果的典型表现，整体标识和刻画学业质量的不同水平。", subject: "SB0403", applicableLevel: "OB0601", contentJson: "{\"standard\": \"水平三\", \"standardRequirement\": \"在较为陌生的、结构不良的生产生活或生物学研究等问题情境中，学生应能够：综合运用多个生命观念，从微观和宏观层面阐释生命活动规律。从分子与细胞水平阐述生物体结构与功能的适应关系，细胞内各项生命活动过程中的物质变化与能量转化；阐释遗传与变异的物质基础和规律，以及生物的多样性和统一性的原因；概述个体生命活动的调节机制与稳态的维持；解释生态系统的成分、结构与功能的关系，以及生态系统维持相对稳定的机制；阐述多种生物技术与工程中运用的生物学原理。运用相关的生物学概念，揭示生命现象中蕴含的规律，并用恰当的表征形式表达和阐明其内涵。客观分析与评价常见生物技术在生产生活中的应用所产生的效益和风险；运用批判性思维等参与社会性科学议题的讨论，阐述不同观点或行为的科学性与合理性，从科学、技术与社会等方面阐明个人立场，作出理性决策。从不同的生命观念视角，基于证据和逻辑，综合运用比较、分类、归纳、演绎、分析、综合、建模等方法，通过对生命现象或现实需求的分析，提出清晰和可探究的生物学问题或工程任务，分析已知条件和制约因素，遵循正确的伦理道德，综合运用多学科知识、思想、方法和技术手段，创造性地设计和实施可行的研究方案，解决问题或完成工程任务。秉持人与自然和谐共生的理念，积极主动地与他人合作，开展健康生活、生物多样性和环境保护等方面的实践活动。\"}", identifier: "urn:jy:biology:SB0403:OB06:AcademicQuality:title:l3", CJ_standard: "水平三", CJ_standardRequirement: "在较为陌生的、结构不良的生产生活或生物学研究等问题情境中，学生应能够：综合运用多个生命观念，从微观和宏观层面阐释生命活动规律。从分子与细胞水平阐述生物体结构与功能的适应关系，细胞内各项生命活动过程中的物质变化与能量转化；阐释遗传与变异的物质基础和规律，以及生物的多样性和统一性的原因；概述个体生命活动的调节机制与稳态的维持；解释生态系统的成分、结构与功能的关系，以及生态系统维持相对稳定的机制；阐述多种生物技术与工程中运用的生物学原理。运用相关的生物学概念，揭示生命现象中蕴含的规律，并用恰当的表征形式表达和阐明其内涵。客观分析与评价常见生物技术在生产生活中的应用所产生的效益和风险；运用批判性思维等参与社会性科学议题的讨论，阐述不同观点或行为的科学性与合理性，从科学、技术与社会等方面阐明个人立场，作出理性决策。从不同的生命观念视角，基于证据和逻辑，综合运用比较、分类、归纳、演绎、分析、综合、建模等方法，通过对生命现象或现实需求的分析，提出清晰和可探究的生物学问题或工程任务，分析已知条件和制约因素，遵循正确的伦理道德，综合运用多学科知识、思想、方法和技术手段，创造性地设计和实施可行的研究方案，解决问题或完成工程任务。秉持人与自然和谐共生的理念，积极主动地与他人合作，开展健康生活、生物多样性和环境保护等方面的实践活动。"};
+MERGE (n:Conception {identifier: "urn:jy:biology:SB0403:OB06:Conception:l3"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:Conception:l3", title: "遗传信息控制生物性状，并代代相传", description: "3.1 亲代传递给子代的遗传信息主要编码在DNA分子上\n\n3.1.1 概述多数生物的基因是DNA分子的功能片段，有些病毒的基因在RNA分子上\n\n3.1.2 概述DNA分子是由四种脱氧核苷酸构成，通常由两条碱基互补配对的反向平行长链形成双螺旋结构，碱基的排列顺序编码了遗传信息\n\n3.1.3 概述DNA分子通过半保留方式进行复制\n\n3.1.4 概述DNA分子上的遗传信息通过RNA指导蛋白质的合成，细胞分化的本质是基因选择性表达的结果，生物的性状主要通过蛋白质表现\n\n3.1.5 概述某些基因中碱基序列不变但表型改变的表观遗传现象\n\n3.2 有性生殖中基因的分离和重组使双亲后代的基因组合有多种可能\n\n3.2.1 阐明减数分裂产生染色体数量减半的精细胞或卵细胞\n\n3.2.2 说明进行有性生殖的生物体，其遗传信息通过配子传递给子代\n\n3.2.3 阐明有性生殖中基因的分离和自由组合使得子代的基因型和表型有多种可能，并可由此预测子代的遗传性状\n\n3.2.4 概述性染色体上的基因传递和性别相关联\n\n3.3 由基因突变、染色体变异和基因重组引起的变异是可以遗传的\n\n3.3.1 概述碱基的替换、插入或缺失会引发基因中碱基序列的改变\n\n3.3.2 阐明基因中碱基序列的改变有可能导致它所编码的蛋白质及相应的细胞功能发生变化，甚至带来致命的后果\n\n3.3.3 描述细胞在某些化学物质、射线，以及病毒的作用下，基因突变概率可能提高，而某些基因突变能导致细胞分裂失控，甚至发生癌变\n\n3.3.4 阐明进行有性生殖的生物在减数分裂过程中, 染色体所发生的自由组合和交叉互换，会导致控制不同性状的基因重组，从而使子代出现变异\n\n3.3.5 举例说明染色体结构和数量的变异都可能导致生物性状的改变甚至死亡\n\n3.3.6 举例说明人类遗传病是可以检测和预防的", subject: "SB0403", type: "Conception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l2\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l2"};
+
+MERGE (n:Conception {identifier: "urn:jy:biology:SB0403:OB06:Conception:l4"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:Conception:l4", title: "生物的多样性和适应性是进化的结果", description: "4.1 地球上的现存物种丰富多样，它们来自共同祖先\n\n4.1.1 尝试通过化石记录、比较解剖学和胚胎学等事实，说明当今生物具有共同的祖先\n\n4.1.2 尝试通过细胞生物学和分子生物学等知识，说明当今生物在新陈代谢、DNA的结构与功能等方面具有许多共同特征\n\n4.2 适应是自然选择的结果\n\n4.2.1 举例说明种群内的某些可遗传变异将赋予个体在特定环境中的生存和繁殖优势\n\n4.2.2 阐明具有优势性状的个体在种群中所占比例将会增加\n\n4.2.3 说明自然选择促进生物更好地适应特定的生存环境\n\n4.2.4 概述现代生物进化理论以自然选择学说为核心，为地球上的生命进化史提供了科学的解释\n\n4.2.5 举例说明变异、选择和隔离可导致新物种形成", subject: "SB0403", type: "Conception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l2\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l2"};
+
+MERGE (n:Conception {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5", title: "生命个体的结构与功能相适应，各结构协调统一共同完成复杂的生命活动，并通过一定的调节机制保持稳态", description: "1.1 内环境为机体细胞提供适宜的生存环境，机体细胞通过内环境与外界环境进行物质交换\n\n1.1.1 说明血浆、组织液和淋巴等细胞外液共同构成高等动物细胞赖以生存的内环境\n\n1.1.2 阐明机体细胞生活在内环境中，通过内环境与外界环境进行物质交换，同时也参与内环境的形成和维持\n\n1.1.3 简述机体通过呼吸、消化、循环和泌尿等系统参与内、外环境间的物质交换\n\n1.2 内环境的变化会引发机体的自动调节，以维持内环境的稳态\n\n1.2.1 以血糖、体温、 $\\mathrm{pH}$ 和渗透压等为例，阐明机体通过调节作用保持内环境的相对稳定，以保证机体的正常生命活动\n\n1.2.2 举例说明机体不同器官、系统协调统一地共同完成各项生命活动，是维持内环境稳态的基础\n\n1.3 神经系统能够及时感知机体内、外环境的变化，并作出反应调控各器官、系统的活动，实现机体稳态\n\n1.3.1 概述神经调节的基本方式是反射（可分为条件反射和非条件反射），其结构基础是反射弧\n\n1.3.2 阐明神经细胞膜内外在静息状态具有电位差，受到外界刺激后形成动作电位，并沿神经纤维传导\n\n1.3.3 阐明神经冲动在突触处的传递通常通过化学传递方式完成\n\n1.3.4 分析位于脊髓的低级神经中枢和脑中相应的高级神经中枢相互联系、相互协调，共同调控器官和系统的活动，维持机体的稳态\n\n1.3.5 举例说明中枢神经系统通过自主神经来调节内脏的活动\n\n1.3.6 简述语言活动和条件反射是由大脑皮层控制的高级神经活动\n\n1.4 内分泌系统产生的多种类型的激素，通过体液传送而发挥调节作用，实现机体稳态\n\n1.4.1 说出人体内分泌系统主要由内分泌腺组成，包括垂体、甲状腺、肾上腺、胰岛和性腺等多种腺体，它们分泌的各类激素参与生命活动的调节\n\n1.4.2 举例说明激素通过分级调节、反馈调节等机制维持机体的稳态，如甲状腺激素分泌的调节和血糖平衡的调节等\n\n1.4.3 举例说出神经调节与体液调节相互协调共同维持机体的稳态，如体温调节和水盐平衡的调节等\n\n1.4.4 举例说明其他体液成分参与稳态的调节，如二氧化碳对呼吸运动的调节等\n\n1.5 免疫系统能够抵御病原体的侵袭，识别并清除机体内衰老、死亡或异常的细胞，实现机体稳态\n\n1.5.1 举例说明免疫细胞、免疫器官和免疫活性物质等是免疫调节的结构与物质基础\n\n1.5.2 概述人体的免疫包括与生俱来的非特异性免疫和后天获得的特异性免疫\n\n1.5.3 阐明特异性免疫是通过体液免疫和细胞免疫两种方式，针对特定病原体发生的免疫应答\n\n1.5.4 举例说明免疫功能异常可能引发疾病，如过敏、自身免疫病、艾滋病和先天性免疫缺陷病等\n\n1.6 植物生命活动受到多种因素的调节，其中最重要的是植物激素的调节\n\n1.6.1 概述科学家经过不断的探索，发现了植物生长素，并揭示了它在调节植物生长时表现出两重性，既能促进生长，也能抑制生长\n\n1.6.2 举例说明几种主要植物激素的作用，这些激素可通过协同、拮抗等方式共同实现对植物生命活动的调节\n\n1.6.3 举例说明生长素、细胞分裂素、赤霉素、脱落酸和乙烯等植物激素及其类似物在生产上得到了广泛应用\n\n1.6.4 概述其他因素参与植物生命活动的调节，如光、重力和温度等", subject: "SB0403", type: "Conception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l3\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l3"};
+
+MERGE (n:Conception {identifier: "urn:jy:biology:SB0403:OB06:Conception:l6"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:Conception:l6", title: "生态系统中的各种成分相互影响，共同实现系统的物质循环、能量流动和信息传递，生态系统通过自我调节保持相对稳定的状态", description: "2.1 不同种群的生物在长期适应环境和彼此相互适应的过程中形成动态的生物群落\n\n2.1.1 列举种群具有种群密度、出生率和死亡率、迁入率和迁出率、年龄结构、性别比例等特征\n\n2.1.2 尝试建立数学模型解释种群的数量变动\n\n2.1.3 举例说明阳光、温度和水等非生物因素以及不同物种之间的相互作用都会影响生物的种群特征\n\n2.1.4 描述群落具有垂直结构和水平结构等特征，并可随时间而改变\n\n2.1.5 阐明一个群落替代另一个群落的演替过程，包括初生演替和次生演替两种类型\n\n2.1.6 分析不同群落中的生物具有与该群落环境相适应的形态结构、生理特征和分布特点\n\n2.2 生物群落与非生物的环境因素相互作用形成多样化的生态系统，完成物质循环、能量流动和信息传递\n\n2.2.1 阐明生态系统由生产者、消费者和分解者等生物因素以及阳光、空气、水等非生物因素组成，各组分紧密联系使生态系统成为具有一定结构和功能的统一体\n\n2.2.2 讨论某一生态系统中生产者和消费者通过食物链和食物网联系在一起形成复杂的营养结构\n\n2.2.3 分析生态系统中的物质在生物群落与无机环境之间不断循环、能量在生物群落中单向流动并逐级递减的规律\n\n2.2.4 举例说明利用物质循环和能量流动规律，人们能够更加科学、有效地利用生态系统中的资源\n\n2.2.5 解释生态金字塔表征了食物网各营养级之间在个体数量、生物量和能量方面的关系\n\n2.2.6 阐明某些有害物质会通过食物链不断地富集的现象\n\n2.2.7 举例说出生态系统中物理、化学和行为信息的传递对生命活动的正常进行、生物种群的繁衍和种间关系的调节起着重要作用\n\n2.2.8 分析特定生态系统的生物与非生物因素决定其营养结构\n\n2.3 生态系统通过自我调节作用抵御和消除一定限度的外来干扰，保持或恢复自身结构和功能的相对稳定\n\n2.3.1 解释生态系统具有保持或恢复自身结构和功能相对稳定，并维持动态平衡的能力\n\n2.3.2 举例说明生态系统的稳定性会受到自然或人为因素的影响，如气候变化、自然事件、人类活动或外来物种入侵等\n\n2.3.3 阐明生态系统在受到一定限度的外来干扰时，能够通过自我调节维持稳定\n\n2.4 人类活动对生态系统的动态平衡有着深远的影响，依据生态学原理保护环境是人类生存和可持续发展的必要条件\n\n2.4.1 探讨人口增长会对环境造成压力\n\n2.4.2 关注全球气候变化、水资源短缺、臭氧层破坏、酸雨、荒漠化和环境污染等全球性环境问题对生物圈的稳态造成威胁，同时也对人类的生存和可持续发展造成影响\n\n2.4.3 概述生物多样性对维持生态系统的稳定性以及人类生存和发展的重要意义，并尝试提出人与自然和谐共生的合理化建议\n\n2.4.4 举例说明根据生态学原理、采用系统工程的方法和技术，达到资源多层次和循环利用的目的，使特定区域中的人和自然环境均受益\n\n2.4.5 形成“环境保护需要从我做起”的意识", subject: "SB0403", type: "Conception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l4\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l4"};
+
+MERGE (n:Conception {identifier: "urn:jy:biology:SB0403:OB06:Conception:l7"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:Conception:l7", title: "发酵工程利用微生物的特定功能规模化生产对人类有用的产品", description: "3.1 获得纯净的微生物培养物是发酵工程的基础\n\n3.1.1 阐明在发酵工程中灭菌是获得纯净的微生物培养物的前提\n\n3.1.2 阐明无菌技术是在操作过程中，保持无菌物品与无菌区域不被微生物污染的技术\n\n3.1.3 举例说明通过调整培养基的配方可有目的地培养某种微生物\n\n3.1.4 概述平板划线法和稀释涂布平板法是实验室中进行微生物分离和纯化的常用方法\n\n3.1.5 概述稀释涂布平板法和显微镜计数法是测定微生物数量的常用方法\n\n3.2 发酵工程为人类提供多样的生物产品\n\n3.2.1 举例说明日常生活中的某些食品是运用传统发酵技术生产的\n\n3.2.2 阐明发酵工程利用现代工程技术及微生物的特定功能，工业化生产人类所需产品\n\n3.2.3 举例说明发酵工程在医药、食品及其他工农业生产上有重要的应用价值", subject: "SB0403", type: "Conception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l5\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l5"};
+
+MERGE (n:Conception {identifier: "urn:jy:biology:SB0403:OB06:Conception:l8"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:Conception:l8", title: "细胞工程通过细胞水平上的操作，获得有用的生物体或其产品", description: "4.1 植物细胞工程包括组织培养和体细胞杂交等技术\n\n4.1.1 阐明植物组织培养是在一定条件下，将离体植物器官、组织和细胞在适宜的培养条件下诱导形成愈伤组织，并重新分化，最终形成完整植株的过程\n\n4.1.2 概述植物体细胞杂交是将不同植物体细胞在一定条件下融合成杂合细胞，继而培育成新植物体的技术\n\n4.1.3 举例说明植物细胞工程利用快速繁殖、脱毒、次生代谢产物生产、育种等方式有效提高了生产效率\n\n4.2 动物细胞工程包括细胞培养、核移植、细胞融合和干细胞的应用等技术\n\n4.2.1 阐明动物细胞培养是从动物体获得相关组织，分散成单个细胞后，在适宜的培养条件下让细胞生长和增殖的过程。动物细胞培养是动物细胞工程的基础\n\n4.2.2 阐明动物细胞核移植一般是将体细胞核移入一个去核的卵母细胞中，并使重组细胞发育成新胚胎，继而发育成动物个体的过程\n\n4.2.3 阐明动物细胞融合是指通过物理、化学或生物学等手段，使两个或多个动物细胞结合形成一个细胞的过程\n\n4.2.4 概述细胞融合技术是单克隆抗体制备的重要技术\n\n4.2.5 简述干细胞在生物医学工程中有广泛的应用价值\n\n4.3 对动物早期胚胎或配子进行显微操作和处理以获得目标个体\n\n4.3.1 简述胚胎形成经过了受精及早期发育等过程\n\n4.3.2 简述胚胎工程包括体外受精、胚胎移植和胚胎分割等技术", subject: "SB0403", type: "Conception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l5\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l5"};
+
+MERGE (n:Conception {identifier: "urn:jy:biology:SB0403:OB06:Conception:l9"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:Conception:l9", title: "基因工程赋予生物新的遗传特性", description: "5.1 基因工程是一种重组DNA技术\n\n5.1.1 概述基因工程是在遗传学、微生物学、生物化学和分子生物学等学科基础上发展而来的\n\n5.1.2 阐明DNA重组技术的实现需要利用限制性内切核酸酶、DNA连接酶和载体三种基本工具\n\n5.1.3 阐明基因工程的基本操作程序主要包括目的基因的获取、基因表达载体的构建、目的基因导入受体细胞和目的基因及其表达产物的检测鉴定等步骤\n\n5.1.4 举例说明基因工程在农牧、食品及医药等行业的广泛应用改善了人类的生活品质\n\n5.2 蛋白质工程是基因工程的延伸\n\n5.2.1 概述人们根据基因工程原理，进行蛋白质设计和改造，可以获得性状和功能更符合人类需求的蛋白质\n\n5.2.2 举例说明依据人类需要对原有蛋白质结构进行基因改造、生产目标蛋白的过程", subject: "SB0403", type: "Conception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l5\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l5"};
+
+MERGE (n:Conception {identifier: "urn:jy:biology:SB0403:OB06:Conception:l10"})
+SET n += {identifier: "urn:jy:biology:SB0403:OB06:Conception:l10", title: "生物技术在造福人类社会的同时也可能会带来安全与伦理问题", description: "6.1 转基因产品的安全性引发社会的广泛关注\n\n6.1.1 举例说出日常生活中的转基因产品\n\n6.1.2 探讨转基因技术在应用过程中带来的影响\n\n6.2 中国禁止生殖性克隆人\n\n6.2.1 举例说出生殖性克隆人面临的伦理问题\n\n6.2.2 分析说明我国为什么不赞成、不允许、不支持、不接受任何生殖性克隆人实验\n\n6.3 世界范围内应全面禁止生物武器\n\n6.3.1 举例说明历史上生物武器对人类造成了严重的威胁与伤害\n\n6.3.2 认同我国反对生物武器及其技术和设备的扩散", subject: "SB0403", type: "Conception", applicableLevel: "OB06", contentJson: "{\"Module\": \"urn:jy:biology:SB0403:OB06:Module:l5\"}", CJ_Module: "urn:jy:biology:SB0403:OB06:Module:l5"};
 
 // =====================================================
 // 导入关系
 // =====================================================
 
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Module:l1"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l1"})
-MERGE (source)-[r:moduleContainsConception]->(target)
-SET r.label = "模块1 分子与细胞包含概念1 细胞是生物体结构与生命活动的基本单位";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Module:l1"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l2"})
-MERGE (source)-[r:moduleContainsConception]->(target)
-SET r.label = "模块1 分子与细胞包含概念2 细胞需要能量和营养物质维持生存，并通过分裂实现增殖";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Module:l2"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l3"})
-MERGE (source)-[r:moduleContainsConception]->(target)
-SET r.label = "模块2 遗传与进化包含概念3 遗传信息控制生物性状，并代代相传";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Module:l2"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l4"})
-MERGE (source)-[r:moduleContainsConception]->(target)
-SET r.label = "模块2 遗传与进化包含概念4 生物的多样性和适应性是进化的结果";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Module:l5"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l9"})
-MERGE (source)-[r:moduleContainsConception]->(target)
-SET r.label = "模块3 生物技术与工程包含概念5 基因工程赋予生物新的遗传特性";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Module:l5"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l10"})
-MERGE (source)-[r:moduleContainsConception]->(target)
-SET r.label = "模块3 生物技术与工程包含概念6 生物技术在造福人类社会的同时也可能会带来安全与伦理问题";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Module:l3"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
-MERGE (source)-[r:moduleContainsConception]->(target)
-SET r.label = "模块1 稳态与调节包含概念5 生命个体的结构与功能相适应，各结构协调统一共同完成复杂的生命活动，并通过一定的调节机制保持稳态";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Module:l4"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l6"})
-MERGE (source)-[r:moduleContainsConception]->(target)
-SET r.label = "模块2 生物与环境包含概念6 生态系统中的各种成分相互影响，共同实现系统的物质循环、能量流动和信息传递，生态系统通过自我调节保持相对稳定的状态";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Module:l5"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l7"})
-MERGE (source)-[r:moduleContainsConception]->(target)
-SET r.label = "模块3 生物技术与工程包含概念7 发酵工程利用微生物的特定功能规模化生产对人类有用的产品";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Module:l5"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l8"})
-MERGE (source)-[r:moduleContainsConception]->(target)
-SET r.label = "模块3 生物技术与工程包含概念8 细胞工程通过细胞水平上的操作，获得有用的生物体或其产品";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l1"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l1"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l1"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l2"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l1"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l3"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l1"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l4"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l1"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l1"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l6"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l1"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l7"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l1"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l8"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l1"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l9"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l1"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l10"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l2"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l1"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l2"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l2"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l2"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l3"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l2"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l4"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l2"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l2"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l6"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l2"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l7"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l2"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l8"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l2"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l9"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l2"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l10"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l3"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l1"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l3"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l2"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l3"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l3"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l3"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l4"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l3"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l3"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l6"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l3"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l7"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l3"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l8"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l3"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l9"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l3"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l10"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l4"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l1"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l4"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l2"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l4"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l3"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l4"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l4"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l4"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l4"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l6"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l4"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l7"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l4"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l8"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l4"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l9"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l4"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l10"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l5"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l1"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l5"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l2"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l5"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l3"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l5"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l4"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l5"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l5"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l6"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l5"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l7"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l5"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l8"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l5"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l9"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l5"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l10"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l6"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l1"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l6"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l2"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l6"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l3"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l6"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l4"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l6"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l6"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l6"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l6"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l7"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l6"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l8"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l6"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l9"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l6"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l10"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l7"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l1"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l7"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l2"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l7"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l3"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l7"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l4"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l7"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l7"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l6"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l7"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l7"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l7"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l8"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l7"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l9"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l7"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l10"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l8"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l1"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l8"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l2"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l8"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l3"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l8"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l4"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l8"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l8"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l6"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l8"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l7"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l8"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l8"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l8"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l9"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l8"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l10"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l9"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l1"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l9"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l2"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l9"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l3"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l9"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l4"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l9"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l9"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l6"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l9"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l7"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l9"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l8"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l9"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l9"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l9"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l10"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l10"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l1"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l10"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l2"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l10"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l3"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l10"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l4"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l10"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l10"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l6"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l10"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l7"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l10"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l8"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l10"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l9"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l10"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l10"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l11"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l1"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l11"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l2"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l11"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l3"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l11"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l4"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l11"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l11"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l6"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l11"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l7"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l11"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l8"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l11"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l9"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l11"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l10"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l12"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l1"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l12"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l2"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l12"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l3"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l12"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l4"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l12"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l12"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l6"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l12"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l7"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l12"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l8"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l12"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l9"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l12"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l10"})
-MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
-SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CourseModule:l1"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:AcademicQuality:l1"})
-MERGE (source)-[r:moduleAchievesAcademicQuality]->(target)
-SET r.label = "必修课程达到学业质量水平1";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CourseModule:l1"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:AcademicQuality:l2"})
-MERGE (source)-[r:moduleAchievesAcademicQuality]->(target)
-SET r.label = "必修课程达到学业质量水平2";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CourseModule:l1"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:AcademicQuality:l3"})
-MERGE (source)-[r:moduleAchievesAcademicQuality]->(target)
-SET r.label = "必修课程达到学业质量水平3";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CourseModule:l2"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:AcademicQuality:l1"})
-MERGE (source)-[r:moduleAchievesAcademicQuality]->(target)
-SET r.label = "选择性必修课程达到学业质量水平1";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CourseModule:l2"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:AcademicQuality:l2"})
-MERGE (source)-[r:moduleAchievesAcademicQuality]->(target)
-SET r.label = "选择性必修课程达到学业质量水平2";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CourseModule:l2"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:AcademicQuality:l3"})
-MERGE (source)-[r:moduleAchievesAcademicQuality]->(target)
-SET r.label = "选择性必修课程达到学业质量水平3";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CourseModule:l3"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:AcademicQuality:l1"})
-MERGE (source)-[r:moduleAchievesAcademicQuality]->(target)
-SET r.label = "选修课程达到学业质量水平1";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CourseModule:l3"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:AcademicQuality:l2"})
-MERGE (source)-[r:moduleAchievesAcademicQuality]->(target)
-SET r.label = "选修课程达到学业质量水平2";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CourseModule:l3"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:AcademicQuality:l3"})
-MERGE (source)-[r:moduleAchievesAcademicQuality]->(target)
-SET r.label = "选修课程达到学业质量水平3";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l1"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l1"})
-MERGE (source)-[r:conceptionContainsSubConception]->(target)
-SET r.label = "概念1 细胞是生物体结构与生命活动的基本单位包含子概念1 细胞由多种多样的分子组成";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l1"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l2"})
-MERGE (source)-[r:conceptionContainsSubConception]->(target)
-SET r.label = "概念1 细胞是生物体结构与生命活动的基本单位包含子概念2 细胞各部分结构既分工又合作，共同执行细胞的各项生命活动";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l1"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l3"})
-MERGE (source)-[r:conceptionContainsSubConception]->(target)
-SET r.label = "概念1 细胞是生物体结构与生命活动的基本单位包含子概念3 各种细胞具有相似的基本结构，但在形态与功能上有所差异";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l2"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l4"})
-MERGE (source)-[r:conceptionContainsSubConception]->(target)
-SET r.label = "概念2 细胞需要能量和营养物质维持生存，并通过分裂实现增殖包含子概念4 物质通过被动运输、主动运输等方式进出细胞，以维持细胞的正常代谢活动";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l2"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l5"})
-MERGE (source)-[r:conceptionContainsSubConception]->(target)
-SET r.label = "概念2 细胞需要能量和营养物质维持生存，并通过分裂实现增殖包含子概念5 细胞的功能绝大多数基于化学反应, 这些反应发生在细胞的特定区域";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l2"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l6"})
-MERGE (source)-[r:conceptionContainsSubConception]->(target)
-SET r.label = "概念2 细胞需要能量和营养物质维持生存，并通过分裂实现增殖包含子概念6 细胞会经历生长、增殖、分化、衰老和死亡等生命进程";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l3"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l7"})
-MERGE (source)-[r:conceptionContainsSubConception]->(target)
-SET r.label = "概念3 遗传信息控制生物性状，并代代相传包含子概念7 亲代传递给子代的遗传信息主要编码在DNA分子上";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l3"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l8"})
-MERGE (source)-[r:conceptionContainsSubConception]->(target)
-SET r.label = "概念3 遗传信息控制生物性状，并代代相传包含子概念8 有性生殖中基因的分离和重组使双亲后代的基因组合有多种可能";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l3"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l9"})
-MERGE (source)-[r:conceptionContainsSubConception]->(target)
-SET r.label = "概念3 遗传信息控制生物性状，并代代相传包含子概念9 由基因突变、染色体变异和基因重组引起的变异是可以遗传的";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l4"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l10"})
-MERGE (source)-[r:conceptionContainsSubConception]->(target)
-SET r.label = "概念4 生物的多样性和适应性是进化的结果包含子概念10 地球上的现存物种丰富多样，它们来自共同祖先";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l4"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l11"})
-MERGE (source)-[r:conceptionContainsSubConception]->(target)
-SET r.label = "概念4 生物的多样性和适应性是进化的结果包含子概念11 适应是自然选择的结果";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l12"})
-MERGE (source)-[r:conceptionContainsSubConception]->(target)
-SET r.label = "概念5 生命个体的结构与功能相适应，各结构协调统一共同完成复杂的生命活动，并通过一定的调节机制保持稳态包含子概念12 内环境为机体细胞提供适宜的生存环境，机体细胞通过内环境与外界环境进行物质交换";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l13"})
-MERGE (source)-[r:conceptionContainsSubConception]->(target)
-SET r.label = "概念5 生命个体的结构与功能相适应，各结构协调统一共同完成复杂的生命活动，并通过一定的调节机制保持稳态包含子概念13 内环境的变化会引发机体的自动调节，以维持内环境的稳态";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l14"})
-MERGE (source)-[r:conceptionContainsSubConception]->(target)
-SET r.label = "概念5 生命个体的结构与功能相适应，各结构协调统一共同完成复杂的生命活动，并通过一定的调节机制保持稳态包含子概念14 神经系统能够及时感知机体内、外环境的变化，并作出反应调控各器官、系统的活动，实现机体稳态";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l15"})
-MERGE (source)-[r:conceptionContainsSubConception]->(target)
-SET r.label = "概念5 生命个体的结构与功能相适应，各结构协调统一共同完成复杂的生命活动，并通过一定的调节机制保持稳态包含子概念15 内分泌系统产生的多种类型的激素，通过体液传送而发挥调节作用，实现机体稳态";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l16"})
-MERGE (source)-[r:conceptionContainsSubConception]->(target)
-SET r.label = "概念5 生命个体的结构与功能相适应，各结构协调统一共同完成复杂的生命活动，并通过一定的调节机制保持稳态包含子概念16 免疫系统能够抵御病原体的侵袭，识别并清除机体内衰老、死亡或异常的细胞，实现机体稳态";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l17"})
-MERGE (source)-[r:conceptionContainsSubConception]->(target)
-SET r.label = "概念5 生命个体的结构与功能相适应，各结构协调统一共同完成复杂的生命活动，并通过一定的调节机制保持稳态包含子概念17 植物生命活动受到多种因素的调节，其中最重要的是植物激素的调节";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l6"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l18"})
-MERGE (source)-[r:conceptionContainsSubConception]->(target)
-SET r.label = "概念6 生态系统中的各种成分相互影响，共同实现系统的物质循环、能量流动和信息传递，生态系统通过自我调节保持相对稳定的状态包含子概念18 不同种群的生物在长期适应环境和彼此相互适应的过程中形成动态的生物群落";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l6"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l19"})
-MERGE (source)-[r:conceptionContainsSubConception]->(target)
-SET r.label = "概念6 生态系统中的各种成分相互影响，共同实现系统的物质循环、能量流动和信息传递，生态系统通过自我调节保持相对稳定的状态包含子概念19 生物群落与非生物的环境因素相互作用形成多样化的生态系统，完成物质循环、能量流动和信息传递";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l6"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l20"})
-MERGE (source)-[r:conceptionContainsSubConception]->(target)
-SET r.label = "概念6 生态系统中的各种成分相互影响，共同实现系统的物质循环、能量流动和信息传递，生态系统通过自我调节保持相对稳定的状态包含子概念20 生态系统通过自我调节作用抵御和消除一定限度的外来干扰，保持或恢复自身结构和功能的相对稳定";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l6"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l21"})
-MERGE (source)-[r:conceptionContainsSubConception]->(target)
-SET r.label = "概念6 生态系统中的各种成分相互影响，共同实现系统的物质循环、能量流动和信息传递，生态系统通过自我调节保持相对稳定的状态包含子概念21 人类活动对生态系统的动态平衡有着深远的影响，依据生态学原理保护环境是人类生存和可持续发展的必要条件";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l7"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l22"})
-MERGE (source)-[r:conceptionContainsSubConception]->(target)
-SET r.label = "概念7 发酵工程利用微生物的特定功能规模化生产对人类有用的产品包含子概念22 获得纯净的微生物培养物是发酵工程的基础";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l7"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l23"})
-MERGE (source)-[r:conceptionContainsSubConception]->(target)
-SET r.label = "概念7 发酵工程利用微生物的特定功能规模化生产对人类有用的产品包含子概念23 发酵工程为人类提供多样的生物产品";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l8"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l24"})
-MERGE (source)-[r:conceptionContainsSubConception]->(target)
-SET r.label = "概念8 细胞工程通过细胞水平上的操作，获得有用的生物体或其产品包含子概念24 植物细胞工程包括组织培养和体细胞杂交等技术";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l8"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l25"})
-MERGE (source)-[r:conceptionContainsSubConception]->(target)
-SET r.label = "概念8 细胞工程通过细胞水平上的操作，获得有用的生物体或其产品包含子概念25 动物细胞工程包括细胞培养、核移植、细胞融合和干细胞的应用等技术";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l8"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l26"})
-MERGE (source)-[r:conceptionContainsSubConception]->(target)
-SET r.label = "概念8 细胞工程通过细胞水平上的操作，获得有用的生物体或其产品包含子概念26 对动物早期胚胎或配子进行显微操作和处理以获得目标个体";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l9"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l27"})
-MERGE (source)-[r:conceptionContainsSubConception]->(target)
-SET r.label = "概念9 基因工程赋予生物新的遗传特性包含子概念27 基因工程是一种重组DNA技术";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l9"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l28"})
-MERGE (source)-[r:conceptionContainsSubConception]->(target)
-SET r.label = "概念9 基因工程赋予生物新的遗传特性包含子概念28 蛋白质工程是基因工程的延伸";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l10"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l29"})
-MERGE (source)-[r:conceptionContainsSubConception]->(target)
-SET r.label = "概念10 生物技术在造福人类社会的同时也可能会带来安全与伦理问题包含子概念29 转基因产品的安全性引发社会的广泛关注";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l10"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l30"})
-MERGE (source)-[r:conceptionContainsSubConception]->(target)
-SET r.label = "概念10 生物技术在造福人类社会的同时也可能会带来安全与伦理问题包含子概念30 中国禁止生殖性克隆人";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l10"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l31"})
-MERGE (source)-[r:conceptionContainsSubConception]->(target)
-SET r.label = "概念10 生物技术在造福人类社会的同时也可能会带来安全与伦理问题包含子概念31 世界范围内应全面禁止生物武器";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CourseModule:l1"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:CourseTarget:l1"})
-MERGE (source)-[r:courseModuleContainsTarget]->(target)
-SET r.label = "必修课程包含目标要求：认识生物学在人与自然和谐共生，促进科技发展、社会进步等方面的重要贡献。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CourseModule:l2"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:CourseTarget:l1"})
-MERGE (source)-[r:courseModuleContainsTarget]->(target)
-SET r.label = "选择性必修课程包含目标要求：树立生命观念，运用这些观念解释生命现象，探索生命规律。";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CourseModule:l3"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:CourseTarget:l1"})
-MERGE (source)-[r:courseModuleContainsTarget]->(target)
-SET r.label = "选修课程包含目标要求：形成科学思维的习惯，运用生物学知识、证据和逻辑对社会性科学议题进行思考或展开论证。";
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:必修1_分子与细胞"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l1"})
+MERGE (source)-[r:volume_has_chapter]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:必修1_分子与细胞"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l2"})
+MERGE (source)-[r:volume_has_chapter]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:必修1_分子与细胞"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l3"})
+MERGE (source)-[r:volume_has_chapter]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:必修1_分子与细胞"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l4"})
+MERGE (source)-[r:volume_has_chapter]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:必修1_分子与细胞"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l5"})
+MERGE (source)-[r:volume_has_chapter]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:必修1_分子与细胞"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l6"})
+MERGE (source)-[r:volume_has_chapter]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:必修1_分子与细胞"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l7"})
+MERGE (source)-[r:volume_has_chapter]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l2"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l1"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l2"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l2"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l2"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l3"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l2"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l4"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l3"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l5"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l3"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l6"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l3"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l7"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l3"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l8"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l3"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l9"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l3"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l10"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l3"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l11"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l4"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l12"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l4"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l13"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l4"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l14"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l4"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l15"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l4"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l16"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l4"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l17"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l5"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l18"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l5"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l19"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l5"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l20"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l5"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l21"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l6"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l22"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l6"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l23"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l6"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l24"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l6"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l25"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l6"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l26"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l6"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l27"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l7"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l28"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l7"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l29"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l7"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l30"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l7"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l31"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l7"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l32"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l7"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l33"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:必修2_遗传与进化"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l8"})
+MERGE (source)-[r:volume_has_chapter]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:必修2_遗传与进化"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l9"})
+MERGE (source)-[r:volume_has_chapter]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:必修2_遗传与进化"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l10"})
+MERGE (source)-[r:volume_has_chapter]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:必修2_遗传与进化"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l11"})
+MERGE (source)-[r:volume_has_chapter]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:必修2_遗传与进化"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l12"})
+MERGE (source)-[r:volume_has_chapter]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:必修2_遗传与进化"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l13"})
+MERGE (source)-[r:volume_has_chapter]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:必修2_遗传与进化"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l14"})
+MERGE (source)-[r:volume_has_chapter]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:必修2_遗传与进化"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l15"})
+MERGE (source)-[r:volume_has_chapter]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l9"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l34"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l9"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l35"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l9"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l36"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l9"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l37"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l10"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l38"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l10"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l39"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l10"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l40"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l10"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l41"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l10"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l42"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l10"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l43"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l10"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l44"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l11"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l45"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l11"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l46"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l11"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l47"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l11"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l48"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l11"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l49"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l11"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l50"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l11"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l51"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l11"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l52"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l11"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l53"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l12"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l54"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l12"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l55"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l12"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l56"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l12"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l57"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l13"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l58"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l13"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l59"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l13"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l60"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l13"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l61"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l13"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l62"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l13"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l63"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l13"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l64"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l13"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l65"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l14"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l66"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l14"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l67"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l14"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l68"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l14"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l69"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l14"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l70"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l14"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l71"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l15"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l72"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l15"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l73"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l15"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l74"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l15"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l75"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:选择性必修1_稳态与调节"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l16"})
+MERGE (source)-[r:volume_has_chapter]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:选择性必修1_稳态与调节"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l17"})
+MERGE (source)-[r:volume_has_chapter]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:选择性必修1_稳态与调节"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l18"})
+MERGE (source)-[r:volume_has_chapter]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:选择性必修1_稳态与调节"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l19"})
+MERGE (source)-[r:volume_has_chapter]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:选择性必修1_稳态与调节"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l20"})
+MERGE (source)-[r:volume_has_chapter]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:选择性必修1_稳态与调节"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l21"})
+MERGE (source)-[r:volume_has_chapter]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l17"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l76"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l17"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l77"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l17"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l78"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l18"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l79"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l18"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l80"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l18"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l81"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l18"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l82"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l18"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l83"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l18"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l84"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l18"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l85"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l18"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l86"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l18"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l87"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l18"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l88"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l19"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l89"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l19"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l90"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l19"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l91"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l19"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l92"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l20"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l93"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l20"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l94"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l20"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l95"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l20"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l96"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l20"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l97"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l20"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l98"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l20"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l99"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l20"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l100"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l20"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l101"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l21"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l102"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l21"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l103"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l21"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l104"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l21"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l105"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l21"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l106"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l21"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l107"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l22"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l106"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l23"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l107"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l23"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l108"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l23"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l109"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l23"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l110"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l23"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l111"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l23"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l112"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l23"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l113"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l23"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l114"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l24"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l115"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l24"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l116"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l24"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l117"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l24"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l118"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l24"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l119"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l24"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l120"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l25"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l121"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l25"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l122"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l25"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l123"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l25"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l124"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l25"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l125"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l25"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l126"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l25"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l127"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l25"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l128"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l25"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l129"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l25"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l130"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l26"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l131"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l26"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l132"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l26"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l133"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l26"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l134"})
+MERGE (source)-[r:chapter_has_section]->(target)
+SET r.label = "包含";
 
 MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Section:l1"})
 MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l2"})
@@ -3780,790 +3700,210 @@ MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Module:l5"})
 MERGE (source)-[r:对应模块]->(target)
 SET r.label = "选择性必修3 生物技术与工程";
 
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:必修1_分子与细胞"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l1"})
-MERGE (source)-[r:volume_has_chapter]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:必修1_分子与细胞"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l2"})
-MERGE (source)-[r:volume_has_chapter]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:必修1_分子与细胞"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l3"})
-MERGE (source)-[r:volume_has_chapter]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:必修1_分子与细胞"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l4"})
-MERGE (source)-[r:volume_has_chapter]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:必修1_分子与细胞"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l5"})
-MERGE (source)-[r:volume_has_chapter]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:必修1_分子与细胞"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l6"})
-MERGE (source)-[r:volume_has_chapter]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:必修1_分子与细胞"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l7"})
-MERGE (source)-[r:volume_has_chapter]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l2"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l1"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l2"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l2"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l2"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l3"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l2"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l4"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l3"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l5"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l3"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l6"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l3"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l7"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l3"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l8"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l3"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l9"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l3"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l10"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l3"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l11"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l4"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l12"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l4"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l13"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l4"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l14"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l4"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l15"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l4"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l16"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l4"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l17"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l5"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l18"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l5"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l19"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l5"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l20"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l5"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l21"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l6"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l22"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l6"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l23"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l6"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l24"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l6"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l25"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l6"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l26"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l6"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l27"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l7"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l28"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l7"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l29"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l7"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l30"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l7"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l31"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l7"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l32"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l7"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l33"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:必修2_遗传与进化"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l8"})
-MERGE (source)-[r:volume_has_chapter]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:必修2_遗传与进化"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l9"})
-MERGE (source)-[r:volume_has_chapter]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:必修2_遗传与进化"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l10"})
-MERGE (source)-[r:volume_has_chapter]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:必修2_遗传与进化"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l11"})
-MERGE (source)-[r:volume_has_chapter]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:必修2_遗传与进化"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l12"})
-MERGE (source)-[r:volume_has_chapter]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:必修2_遗传与进化"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l13"})
-MERGE (source)-[r:volume_has_chapter]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:必修2_遗传与进化"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l14"})
-MERGE (source)-[r:volume_has_chapter]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:必修2_遗传与进化"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l15"})
-MERGE (source)-[r:volume_has_chapter]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l9"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l34"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l9"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l35"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l9"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l36"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l9"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l37"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l10"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l38"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l10"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l39"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l10"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l40"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l10"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l41"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l10"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l42"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l10"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l43"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l10"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l44"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l11"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l45"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l11"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l46"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l11"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l47"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l11"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l48"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l11"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l49"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l11"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l50"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l11"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l51"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l11"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l52"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l11"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l53"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l12"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l54"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l12"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l55"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l12"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l56"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l12"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l57"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l13"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l58"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l13"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l59"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l13"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l60"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l13"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l61"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l13"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l62"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l13"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l63"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l13"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l64"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l13"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l65"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l14"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l66"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l14"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l67"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l14"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l68"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l14"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l69"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l14"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l70"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l14"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l71"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l15"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l72"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l15"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l73"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l15"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l74"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l15"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l75"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:选择性必修1_稳态与调节"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l16"})
-MERGE (source)-[r:volume_has_chapter]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:选择性必修1_稳态与调节"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l17"})
-MERGE (source)-[r:volume_has_chapter]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:选择性必修1_稳态与调节"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l18"})
-MERGE (source)-[r:volume_has_chapter]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:选择性必修1_稳态与调节"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l19"})
-MERGE (source)-[r:volume_has_chapter]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:选择性必修1_稳态与调节"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l20"})
-MERGE (source)-[r:volume_has_chapter]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Volume:选择性必修1_稳态与调节"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l21"})
-MERGE (source)-[r:volume_has_chapter]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l17"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l76"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l17"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l77"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l17"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l78"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l18"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l79"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l18"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l80"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l18"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l81"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l18"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l82"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l18"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l83"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l18"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l84"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l18"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l85"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l18"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l86"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l18"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l87"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l18"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l88"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l19"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l89"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l19"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l90"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l19"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l91"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l19"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l92"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l20"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l93"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l20"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l94"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l20"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l95"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l20"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l96"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l20"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l97"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l20"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l98"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l20"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l99"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l20"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l100"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l20"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l101"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l21"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l102"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l21"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l103"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l21"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l104"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l21"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l105"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l21"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l106"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l21"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l107"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l22"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l106"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l23"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l107"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l23"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l108"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l23"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l109"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l23"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l110"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l23"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l111"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l23"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l112"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l23"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l113"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l23"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l114"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l24"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l115"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l24"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l116"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l24"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l117"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l24"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l118"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l24"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l119"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l24"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l120"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l25"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l121"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l25"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l122"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l25"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l123"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l25"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l124"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l25"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l125"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l25"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l126"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l25"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l127"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l25"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l128"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l25"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l129"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l25"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l130"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l26"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l131"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l26"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l132"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l26"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l133"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
-
-MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Chapter:l26"})
-MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Section:l134"})
-MERGE (source)-[r:chapter_has_section]->(target)
-SET r.label = "包含";
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Module:l1"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l1"})
+MERGE (source)-[r:moduleContainsConception]->(target)
+SET r.label = "模块1 分子与细胞包含概念1 细胞是生物体结构与生命活动的基本单位";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Module:l1"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l2"})
+MERGE (source)-[r:moduleContainsConception]->(target)
+SET r.label = "模块1 分子与细胞包含概念2 细胞需要能量和营养物质维持生存，并通过分裂实现增殖";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Module:l2"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l3"})
+MERGE (source)-[r:moduleContainsConception]->(target)
+SET r.label = "模块2 遗传与进化包含概念3 遗传信息控制生物性状，并代代相传";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Module:l2"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l4"})
+MERGE (source)-[r:moduleContainsConception]->(target)
+SET r.label = "模块2 遗传与进化包含概念4 生物的多样性和适应性是进化的结果";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Module:l5"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l9"})
+MERGE (source)-[r:moduleContainsConception]->(target)
+SET r.label = "模块3 生物技术与工程包含概念5 基因工程赋予生物新的遗传特性";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Module:l5"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l10"})
+MERGE (source)-[r:moduleContainsConception]->(target)
+SET r.label = "模块3 生物技术与工程包含概念6 生物技术在造福人类社会的同时也可能会带来安全与伦理问题";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Module:l3"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
+MERGE (source)-[r:moduleContainsConception]->(target)
+SET r.label = "模块1 稳态与调节包含概念5 生命个体的结构与功能相适应，各结构协调统一共同完成复杂的生命活动，并通过一定的调节机制保持稳态";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Module:l4"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l6"})
+MERGE (source)-[r:moduleContainsConception]->(target)
+SET r.label = "模块2 生物与环境包含概念6 生态系统中的各种成分相互影响，共同实现系统的物质循环、能量流动和信息传递，生态系统通过自我调节保持相对稳定的状态";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Module:l5"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l7"})
+MERGE (source)-[r:moduleContainsConception]->(target)
+SET r.label = "模块3 生物技术与工程包含概念7 发酵工程利用微生物的特定功能规模化生产对人类有用的产品";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Module:l5"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l8"})
+MERGE (source)-[r:moduleContainsConception]->(target)
+SET r.label = "模块3 生物技术与工程包含概念8 细胞工程通过细胞水平上的操作，获得有用的生物体或其产品";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l1"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l1"})
+MERGE (source)-[r:conceptionContainsSubConception]->(target)
+SET r.label = "概念1 细胞是生物体结构与生命活动的基本单位包含子概念1 细胞由多种多样的分子组成";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l1"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l2"})
+MERGE (source)-[r:conceptionContainsSubConception]->(target)
+SET r.label = "概念1 细胞是生物体结构与生命活动的基本单位包含子概念2 细胞各部分结构既分工又合作，共同执行细胞的各项生命活动";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l1"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l3"})
+MERGE (source)-[r:conceptionContainsSubConception]->(target)
+SET r.label = "概念1 细胞是生物体结构与生命活动的基本单位包含子概念3 各种细胞具有相似的基本结构，但在形态与功能上有所差异";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l2"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l4"})
+MERGE (source)-[r:conceptionContainsSubConception]->(target)
+SET r.label = "概念2 细胞需要能量和营养物质维持生存，并通过分裂实现增殖包含子概念4 物质通过被动运输、主动运输等方式进出细胞，以维持细胞的正常代谢活动";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l2"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l5"})
+MERGE (source)-[r:conceptionContainsSubConception]->(target)
+SET r.label = "概念2 细胞需要能量和营养物质维持生存，并通过分裂实现增殖包含子概念5 细胞的功能绝大多数基于化学反应, 这些反应发生在细胞的特定区域";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l2"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l6"})
+MERGE (source)-[r:conceptionContainsSubConception]->(target)
+SET r.label = "概念2 细胞需要能量和营养物质维持生存，并通过分裂实现增殖包含子概念6 细胞会经历生长、增殖、分化、衰老和死亡等生命进程";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l3"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l7"})
+MERGE (source)-[r:conceptionContainsSubConception]->(target)
+SET r.label = "概念3 遗传信息控制生物性状，并代代相传包含子概念7 亲代传递给子代的遗传信息主要编码在DNA分子上";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l3"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l8"})
+MERGE (source)-[r:conceptionContainsSubConception]->(target)
+SET r.label = "概念3 遗传信息控制生物性状，并代代相传包含子概念8 有性生殖中基因的分离和重组使双亲后代的基因组合有多种可能";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l3"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l9"})
+MERGE (source)-[r:conceptionContainsSubConception]->(target)
+SET r.label = "概念3 遗传信息控制生物性状，并代代相传包含子概念9 由基因突变、染色体变异和基因重组引起的变异是可以遗传的";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l4"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l10"})
+MERGE (source)-[r:conceptionContainsSubConception]->(target)
+SET r.label = "概念4 生物的多样性和适应性是进化的结果包含子概念10 地球上的现存物种丰富多样，它们来自共同祖先";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l4"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l11"})
+MERGE (source)-[r:conceptionContainsSubConception]->(target)
+SET r.label = "概念4 生物的多样性和适应性是进化的结果包含子概念11 适应是自然选择的结果";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l12"})
+MERGE (source)-[r:conceptionContainsSubConception]->(target)
+SET r.label = "概念5 生命个体的结构与功能相适应，各结构协调统一共同完成复杂的生命活动，并通过一定的调节机制保持稳态包含子概念12 内环境为机体细胞提供适宜的生存环境，机体细胞通过内环境与外界环境进行物质交换";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l13"})
+MERGE (source)-[r:conceptionContainsSubConception]->(target)
+SET r.label = "概念5 生命个体的结构与功能相适应，各结构协调统一共同完成复杂的生命活动，并通过一定的调节机制保持稳态包含子概念13 内环境的变化会引发机体的自动调节，以维持内环境的稳态";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l14"})
+MERGE (source)-[r:conceptionContainsSubConception]->(target)
+SET r.label = "概念5 生命个体的结构与功能相适应，各结构协调统一共同完成复杂的生命活动，并通过一定的调节机制保持稳态包含子概念14 神经系统能够及时感知机体内、外环境的变化，并作出反应调控各器官、系统的活动，实现机体稳态";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l15"})
+MERGE (source)-[r:conceptionContainsSubConception]->(target)
+SET r.label = "概念5 生命个体的结构与功能相适应，各结构协调统一共同完成复杂的生命活动，并通过一定的调节机制保持稳态包含子概念15 内分泌系统产生的多种类型的激素，通过体液传送而发挥调节作用，实现机体稳态";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l16"})
+MERGE (source)-[r:conceptionContainsSubConception]->(target)
+SET r.label = "概念5 生命个体的结构与功能相适应，各结构协调统一共同完成复杂的生命活动，并通过一定的调节机制保持稳态包含子概念16 免疫系统能够抵御病原体的侵袭，识别并清除机体内衰老、死亡或异常的细胞，实现机体稳态";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l17"})
+MERGE (source)-[r:conceptionContainsSubConception]->(target)
+SET r.label = "概念5 生命个体的结构与功能相适应，各结构协调统一共同完成复杂的生命活动，并通过一定的调节机制保持稳态包含子概念17 植物生命活动受到多种因素的调节，其中最重要的是植物激素的调节";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l6"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l18"})
+MERGE (source)-[r:conceptionContainsSubConception]->(target)
+SET r.label = "概念6 生态系统中的各种成分相互影响，共同实现系统的物质循环、能量流动和信息传递，生态系统通过自我调节保持相对稳定的状态包含子概念18 不同种群的生物在长期适应环境和彼此相互适应的过程中形成动态的生物群落";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l6"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l19"})
+MERGE (source)-[r:conceptionContainsSubConception]->(target)
+SET r.label = "概念6 生态系统中的各种成分相互影响，共同实现系统的物质循环、能量流动和信息传递，生态系统通过自我调节保持相对稳定的状态包含子概念19 生物群落与非生物的环境因素相互作用形成多样化的生态系统，完成物质循环、能量流动和信息传递";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l6"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l20"})
+MERGE (source)-[r:conceptionContainsSubConception]->(target)
+SET r.label = "概念6 生态系统中的各种成分相互影响，共同实现系统的物质循环、能量流动和信息传递，生态系统通过自我调节保持相对稳定的状态包含子概念20 生态系统通过自我调节作用抵御和消除一定限度的外来干扰，保持或恢复自身结构和功能的相对稳定";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l6"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l21"})
+MERGE (source)-[r:conceptionContainsSubConception]->(target)
+SET r.label = "概念6 生态系统中的各种成分相互影响，共同实现系统的物质循环、能量流动和信息传递，生态系统通过自我调节保持相对稳定的状态包含子概念21 人类活动对生态系统的动态平衡有着深远的影响，依据生态学原理保护环境是人类生存和可持续发展的必要条件";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l7"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l22"})
+MERGE (source)-[r:conceptionContainsSubConception]->(target)
+SET r.label = "概念7 发酵工程利用微生物的特定功能规模化生产对人类有用的产品包含子概念22 获得纯净的微生物培养物是发酵工程的基础";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l7"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l23"})
+MERGE (source)-[r:conceptionContainsSubConception]->(target)
+SET r.label = "概念7 发酵工程利用微生物的特定功能规模化生产对人类有用的产品包含子概念23 发酵工程为人类提供多样的生物产品";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l8"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l24"})
+MERGE (source)-[r:conceptionContainsSubConception]->(target)
+SET r.label = "概念8 细胞工程通过细胞水平上的操作，获得有用的生物体或其产品包含子概念24 植物细胞工程包括组织培养和体细胞杂交等技术";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l8"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l25"})
+MERGE (source)-[r:conceptionContainsSubConception]->(target)
+SET r.label = "概念8 细胞工程通过细胞水平上的操作，获得有用的生物体或其产品包含子概念25 动物细胞工程包括细胞培养、核移植、细胞融合和干细胞的应用等技术";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l8"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l26"})
+MERGE (source)-[r:conceptionContainsSubConception]->(target)
+SET r.label = "概念8 细胞工程通过细胞水平上的操作，获得有用的生物体或其产品包含子概念26 对动物早期胚胎或配子进行显微操作和处理以获得目标个体";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l9"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l27"})
+MERGE (source)-[r:conceptionContainsSubConception]->(target)
+SET r.label = "概念9 基因工程赋予生物新的遗传特性包含子概念27 基因工程是一种重组DNA技术";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l9"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l28"})
+MERGE (source)-[r:conceptionContainsSubConception]->(target)
+SET r.label = "概念9 基因工程赋予生物新的遗传特性包含子概念28 蛋白质工程是基因工程的延伸";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l10"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l29"})
+MERGE (source)-[r:conceptionContainsSubConception]->(target)
+SET r.label = "概念10 生物技术在造福人类社会的同时也可能会带来安全与伦理问题包含子概念29 转基因产品的安全性引发社会的广泛关注";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l10"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l30"})
+MERGE (source)-[r:conceptionContainsSubConception]->(target)
+SET r.label = "概念10 生物技术在造福人类社会的同时也可能会带来安全与伦理问题包含子概念30 中国禁止生殖性克隆人";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:Conception:l10"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:SubConception:l31"})
+MERGE (source)-[r:conceptionContainsSubConception]->(target)
+SET r.label = "概念10 生物技术在造福人类社会的同时也可能会带来安全与伦理问题包含子概念31 世界范围内应全面禁止生物武器";
 
 MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l1"})
 MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:AcademicQuality:l1"})
@@ -4624,3 +3964,663 @@ MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l12"})
 MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:AcademicQuality:l3"})
 MERGE (source)-[r:coreLiteracyRelatesToAcademicQuality]->(target)
 SET r.label = "核心素养 '社会责任' 与学业质量水平3相关";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CourseModule:l1"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:CourseTarget:l1"})
+MERGE (source)-[r:courseModuleContainsTarget]->(target)
+SET r.label = "必修课程包含目标要求：认识生物学在人与自然和谐共生，促进科技发展、社会进步等方面的重要贡献。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CourseModule:l2"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:CourseTarget:l1"})
+MERGE (source)-[r:courseModuleContainsTarget]->(target)
+SET r.label = "选择性必修课程包含目标要求：树立生命观念，运用这些观念解释生命现象，探索生命规律。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CourseModule:l3"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:CourseTarget:l1"})
+MERGE (source)-[r:courseModuleContainsTarget]->(target)
+SET r.label = "选修课程包含目标要求：形成科学思维的习惯，运用生物学知识、证据和逻辑对社会性科学议题进行思考或展开论证。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l1"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l1"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l1"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l2"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l1"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l3"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l1"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l4"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l1"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l1"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l6"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l1"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l7"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l1"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l8"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l1"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l9"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l1"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l10"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l2"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l1"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l2"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l2"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l2"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l3"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l2"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l4"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l2"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l2"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l6"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l2"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l7"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l2"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l8"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l2"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l9"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l2"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l10"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l3"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l1"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l3"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l2"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l3"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l3"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l3"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l4"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l3"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l3"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l6"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l3"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l7"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l3"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l8"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l3"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l9"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l3"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l10"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "生命观念是指对观察到的生命现象及其相互关系或特性进行解释后的抽象，是人们经过实证后的观点，是生物学概念、原理、规律的提炼和升华。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l4"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l1"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l4"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l2"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l4"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l3"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l4"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l4"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l4"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l4"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l6"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l4"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l7"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l4"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l8"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l4"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l9"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l4"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l10"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l5"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l1"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l5"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l2"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l5"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l3"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l5"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l4"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l5"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l5"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l6"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l5"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l7"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l5"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l8"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l5"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l9"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l5"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l10"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l6"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l1"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l6"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l2"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l6"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l3"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l6"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l4"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l6"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l6"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l6"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l6"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l7"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l6"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l8"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l6"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l9"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l6"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l10"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学思维是指尊重事实和证据，崇尚严谨和务实的求知态度，运用科学的思维方法认识事物、解决实际问题的思维习惯和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l7"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l1"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l7"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l2"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l7"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l3"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l7"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l4"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l7"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l7"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l6"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l7"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l7"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l7"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l8"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l7"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l9"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l7"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l10"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l8"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l1"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l8"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l2"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l8"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l3"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l8"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l4"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l8"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l8"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l6"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l8"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l7"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l8"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l8"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l8"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l9"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l8"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l10"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l9"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l1"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l9"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l2"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l9"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l3"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l9"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l4"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l9"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l9"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l6"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l9"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l7"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l9"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l8"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l9"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l9"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l9"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l10"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "科学探究是指能够发现现实世界中的生物学问题，针对特定的生物学现象，进行观察、提问、实验设计、方案实施以及对结果的交流与讨论的能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l10"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l1"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l10"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l2"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l10"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l3"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l10"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l4"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l10"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l10"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l6"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l10"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l7"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l10"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l8"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l10"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l9"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l10"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l10"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l11"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l1"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l11"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l2"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l11"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l3"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l11"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l4"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l11"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l11"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l6"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l11"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l7"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l11"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l8"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l11"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l9"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l11"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l10"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l12"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l1"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l12"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l2"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l12"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l3"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l12"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l4"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l12"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l5"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l12"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l6"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l12"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l7"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l12"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l8"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l12"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l9"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CoreLiteracy:l12"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:Conception:l10"})
+MERGE (source)-[r:coreLiteracyRelatesToConception]->(target)
+SET r.label = "社会责任是指基于生物学的认识，参与个人与社会事务的讨论，作出理性解释和判断，解决生产生活问题的担当和能力。";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CourseModule:l1"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:AcademicQuality:l1"})
+MERGE (source)-[r:moduleAchievesAcademicQuality]->(target)
+SET r.label = "必修课程达到学业质量水平1";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CourseModule:l1"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:AcademicQuality:l2"})
+MERGE (source)-[r:moduleAchievesAcademicQuality]->(target)
+SET r.label = "必修课程达到学业质量水平2";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CourseModule:l1"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:AcademicQuality:l3"})
+MERGE (source)-[r:moduleAchievesAcademicQuality]->(target)
+SET r.label = "必修课程达到学业质量水平3";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CourseModule:l2"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:AcademicQuality:l1"})
+MERGE (source)-[r:moduleAchievesAcademicQuality]->(target)
+SET r.label = "选择性必修课程达到学业质量水平1";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CourseModule:l2"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:AcademicQuality:l2"})
+MERGE (source)-[r:moduleAchievesAcademicQuality]->(target)
+SET r.label = "选择性必修课程达到学业质量水平2";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CourseModule:l2"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:AcademicQuality:l3"})
+MERGE (source)-[r:moduleAchievesAcademicQuality]->(target)
+SET r.label = "选择性必修课程达到学业质量水平3";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CourseModule:l3"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:AcademicQuality:l1"})
+MERGE (source)-[r:moduleAchievesAcademicQuality]->(target)
+SET r.label = "选修课程达到学业质量水平1";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CourseModule:l3"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:AcademicQuality:l2"})
+MERGE (source)-[r:moduleAchievesAcademicQuality]->(target)
+SET r.label = "选修课程达到学业质量水平2";
+
+MATCH (source {identifier: "urn:jy:biology:SB0403:OB06:CourseModule:l3"})
+MATCH (target {identifier: "urn:jy:biology:SB0403:OB06:AcademicQuality:l3"})
+MERGE (source)-[r:moduleAchievesAcademicQuality]->(target)
+SET r.label = "选修课程达到学业质量水平3";

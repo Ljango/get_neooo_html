@@ -1,21 +1,21 @@
 // =====================================================
 // 义教化学课标图谱 - Neo4j导入脚本
-// 生成时间: 2026-01-22T23:17:07.636134
+// 生成时间: 2026-01-23T15:49:00.865071
 // =====================================================
 
 // 创建约束和索引
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:AcademicQuality) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:CourseTarget) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:Interdisciplinary) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:Section) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:Conception) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:Experiment) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:Chapter) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:CoreKnowledge) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:Attitude) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:LearningTheme) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:AcademicQuality) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:Method) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:CoreLiteracy) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Chapter) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Section) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Experiment) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:CoreKnowledge) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Conception) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Interdisciplinary) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Method) REQUIRE n.identifier IS UNIQUE;
 
 // =====================================================
 // 导入实体
@@ -36,21 +36,6 @@ SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l4", title: "�
 MERGE (n:LearningTheme {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l5"})
 SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l5", title: "化学与社会·跨学科实践", description: "", subject: "SB0402", type: "LearningTheme", applicableLevel: "OB03", contentJson: "{\"achievement Requirement\": \"1. 能列举生活中常见的能源和资源、金属材料和有机合成材料及其应用；能举例说明化学在保护环境、维护人体健康等方面的作用，具有安全用药的意识。  \\n2. 能从物质的组成及变化视角，分析和讨论资源综合利用、材料选取与使用、生态环境保护等有关问题。  \\n3. 在跨学科实践活动中，能综合运用化学、技术、工程及跨学科知识，秉承可持续发展观，设计、评估解决实际问题的方案，制作项目作品，并进行改进和优化，体现创新意识。  \\n4. 在跨学科实践活动中，具有恪守科学伦理、遵守法律法规以及维护国家安全的意识；能积极参与小组合作，勇于批判、质疑，自觉反思，能克服困难，敢于面对陌生的、不确定性的挑战；能积极参加与化学有关的社会热点问题的讨论并作出合理的价值判断；初步形成节能低碳、节约资源、保护环境的态度和健康的生活方式。\", \"teachingTip\": {\"教学策略\": \"（1）明确该学习主题的教学定位，注重综合应用化学知识，引导学生从物质的组成及变化视角分析和解决资源、能源、材料、环境、人类健康等实际问题，认识化学科学的重要价值，培养学生的合作、实践、创新等素养。  \\n（2）设计和开展具有挑战性的实践任务，充分利用社会资源，促进校内外联动。让学生经历调研访谈、创意设计、动手制作、展示表达、方案评价、反思改进等多样化活动，促进学生形成运用多学科知识、技术、工程融合解决问题的系统思维，鼓励学生有意识地使用信息技术解决问题。\\n（3）设计跨学科实践活动，注重将问题解决线、知识逻辑线、素养发展线紧密结合，拆解复杂任务和设计系列活动，实现问题解决过程与核心知识的获得、能力和素养的发展自然融合；确保重点活动的开放度，让学生经历自主思考，合作探究，深度互动、交流，总结、反思等完整的问题解决过程，实现深度学习，提升解决真实问题的能力，促进学生核心素养的融合发展。  \\n（4）综合运用体验和表达、成就和激励、反馈和深化等策略促进学生知、情、意、行的统一，引导学生形成绿色化学与可持续发展观，了解符合科学伦理和法律规定的行为准则，认识这些观念和准则的重要性。  \\n（5）跨学科实践活动的开展应与“物质的性质与应用”“物质的组成与结构”“物质的化学变化”等学习主题中的核心知识、学生必做实验的教学密切结合，充分发挥跨学科实践活动对课程内容和教学实施的整合功能。\", \"情景素材\": \"（1）太阳能、氢能、风能、核能等新能源的开发与利用，我国的“煤改电”工程，沼气、天然气和西气东输工程，我国古代黑火药的发明和使用，我国能源消耗和化石燃料分布，我国可燃冰资源的开发，海水淡化技术和产业发展，南水北调工程。  \\n(2) 污水处理与利用, 空气质量日报, 温室效应与全球变暖, 我国蓝天、碧水、净土三大保卫战。  \\n（3）从石器、青铜器、铁器到高分子合成材料的变迁，塑料制品的回收、降解与再生，我国超导材料的研发，石墨烯材料的特性和我国石墨烯产业的发展，日常生活、信息技术、航空航天和国防科技领域中的新型材料。  \\n（4）均衡膳食结构图，人每天摄入的食物中所含的主要营养物质及其含量，常见的食品添加剂及我国对使用食品添加剂的有关规定，常用药品、家用洗涤剂及消毒剂的使用说明，屠呦呦提取青蒿素的事迹。\", \"学习活动\": \"(1) 实验探究活动\\n模拟从海水中获取淡水的实验，模拟酸雨对植物、建筑等的影响，用简单的实验区分棉纤维、羊毛纤维和合成纤维，检测人体呼出气体中的酒精含量。\\n\\n (2) 调查与交流活动\\n讨论氢气、甲烷、酒精、煤等燃料哪种更理想，评估替代能源的选择；探讨在日常生活中可减少能源消耗的方法；调查当地燃料的来源和使用情况，提出合理使用燃料的建议。\\n调查当地有关生态环境保护的政策与措施，讨论其实效性；分析当地近几年空气质量的相关信息，探讨空气质量变化的原因；参观并讨论当地“三废”（废水、废气、固体废弃物）的处理设施（或观看有关的影像资料）。\\n调查我国探月工程和载人航天工程（如神舟系列飞船）中所研发的新型材料；调查家中常用材料的情况，查阅有关塑料和金属循环再利用的资料；讨论保温杯、易拉罐等材料的选择及使用的注意事项。\\n分析、评估家庭的食谱，并给出改进建议；调研家用清洁剂、消毒剂的种类及使用中的常见问题；查阅家庭常用药品的说明书，了解药品有效成分及含量，明确正确的使用方法；观看展览或影像资料，了解烟草、酒精对人体健康的影响，认识毒品对个人及社会的危害，坚决远离和拒绝毒品；收集化学在帮助人类改善健康状况和战胜疾病方面的实例；调研从事化学化工相关职业劳模的先进事迹，感悟劳模精神。\\n\\n(3) 项目式学习活动\\n选择燃料，设计奥运会火炬；设计海报或制作短视频宣传低碳生活、水资源保护等；调研汽车材料的变迁，设计未来汽车的材料；为特定年龄或职业的人群设计均衡膳食食谱；在家务劳动（如清洗餐具、正确使用燃气做饭、学做馒头或面包等）中感悟化学原理，绘制反映劳动过程和其中所含的化学原理的思维导图。\"}}", CJ_achievement Requirement: "1. 能列举生活中常见的能源和资源、金属材料和有机合成材料及其应用；能举例说明化学在保护环境、维护人体健康等方面的作用，具有安全用药的意识。  \n2. 能从物质的组成及变化视角，分析和讨论资源综合利用、材料选取与使用、生态环境保护等有关问题。  \n3. 在跨学科实践活动中，能综合运用化学、技术、工程及跨学科知识，秉承可持续发展观，设计、评估解决实际问题的方案，制作项目作品，并进行改进和优化，体现创新意识。  \n4. 在跨学科实践活动中，具有恪守科学伦理、遵守法律法规以及维护国家安全的意识；能积极参与小组合作，勇于批判、质疑，自觉反思，能克服困难，敢于面对陌生的、不确定性的挑战；能积极参加与化学有关的社会热点问题的讨论并作出合理的价值判断；初步形成节能低碳、节约资源、保护环境的态度和健康的生活方式。", CJ_teachingTip: "{\"教学策略\": \"（1）明确该学习主题的教学定位，注重综合应用化学知识，引导学生从物质的组成及变化视角分析和解决资源、能源、材料、环境、人类健康等实际问题，认识化学科学的重要价值，培养学生的合作、实践、创新等素养。  \\n（2）设计和开展具有挑战性的实践任务，充分利用社会资源，促进校内外联动。让学生经历调研访谈、创意设计、动手制作、展示表达、方案评价、反思改进等多样化活动，促进学生形成运用多学科知识、技术、工程融合解决问题的系统思维，鼓励学生有意识地使用信息技术解决问题。\\n（3）设计跨学科实践活动，注重将问题解决线、知识逻辑线、素养发展线紧密结合，拆解复杂任务和设计系列活动，实现问题解决过程与核心知识的获得、能力和素养的发展自然融合；确保重点活动的开放度，让学生经历自主思考，合作探究，深度互动、交流，总结、反思等完整的问题解决过程，实现深度学习，提升解决真实问题的能力，促进学生核心素养的融合发展。  \\n（4）综合运用体验和表达、成就和激励、反馈和深化等策略促进学生知、情、意、行的统一，引导学生形成绿色化学与可持续发展观，了解符合科学伦理和法律规定的行为准则，认识这些观念和准则的重要性。  \\n（5）跨学科实践活动的开展应与“物质的性质与应用”“物质的组成与结构”“物质的化学变化”等学习主题中的核心知识、学生必做实验的教学密切结合，充分发挥跨学科实践活动对课程内容和教学实施的整合功能。\", \"情景素材\": \"（1）太阳能、氢能、风能、核能等新能源的开发与利用，我国的“煤改电”工程，沼气、天然气和西气东输工程，我国古代黑火药的发明和使用，我国能源消耗和化石燃料分布，我国可燃冰资源的开发，海水淡化技术和产业发展，南水北调工程。  \\n(2) 污水处理与利用, 空气质量日报, 温室效应与全球变暖, 我国蓝天、碧水、净土三大保卫战。  \\n（3）从石器、青铜器、铁器到高分子合成材料的变迁，塑料制品的回收、降解与再生，我国超导材料的研发，石墨烯材料的特性和我国石墨烯产业的发展，日常生活、信息技术、航空航天和国防科技领域中的新型材料。  \\n（4）均衡膳食结构图，人每天摄入的食物中所含的主要营养物质及其含量，常见的食品添加剂及我国对使用食品添加剂的有关规定，常用药品、家用洗涤剂及消毒剂的使用说明，屠呦呦提取青蒿素的事迹。\", \"学习活动\": \"(1) 实验探究活动\\n模拟从海水中获取淡水的实验，模拟酸雨对植物、建筑等的影响，用简单的实验区分棉纤维、羊毛纤维和合成纤维，检测人体呼出气体中的酒精含量。\\n\\n (2) 调查与交流活动\\n讨论氢气、甲烷、酒精、煤等燃料哪种更理想，评估替代能源的选择；探讨在日常生活中可减少能源消耗的方法；调查当地燃料的来源和使用情况，提出合理使用燃料的建议。\\n调查当地有关生态环境保护的政策与措施，讨论其实效性；分析当地近几年空气质量的相关信息，探讨空气质量变化的原因；参观并讨论当地“三废”（废水、废气、固体废弃物）的处理设施（或观看有关的影像资料）。\\n调查我国探月工程和载人航天工程（如神舟系列飞船）中所研发的新型材料；调查家中常用材料的情况，查阅有关塑料和金属循环再利用的资料；讨论保温杯、易拉罐等材料的选择及使用的注意事项。\\n分析、评估家庭的食谱，并给出改进建议；调研家用清洁剂、消毒剂的种类及使用中的常见问题；查阅家庭常用药品的说明书，了解药品有效成分及含量，明确正确的使用方法；观看展览或影像资料，了解烟草、酒精对人体健康的影响，认识毒品对个人及社会的危害，坚决远离和拒绝毒品；收集化学在帮助人类改善健康状况和战胜疾病方面的实例；调研从事化学化工相关职业劳模的先进事迹，感悟劳模精神。\\n\\n(3) 项目式学习活动\\n选择燃料，设计奥运会火炬；设计海报或制作短视频宣传低碳生活、水资源保护等；调研汽车材料的变迁，设计未来汽车的材料；为特定年龄或职业的人群设计均衡膳食食谱；在家务劳动（如清洗餐具、正确使用燃气做饭、学做馒头或面包等）中感悟化学原理，绘制反映劳动过程和其中所含的化学原理的思维导图。\"}"};
 
-MERGE (n:Conception {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l1"})
-SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l1", title: "化学科学本质", description: "知道化学是研究物质的组成、结构、性质、转化及应用的一门基础学科，其特征是从分子层次认识物质，通过化学变化创造物质；初步了解化学科学的发展历程，体会实验探究和模型建构是化学科学研究的基本方法；认识化学科学、技术、社会、环境的相互关系，了解化学科学对社会发展和人类文明进步的重要价值。\n感悟科学家崇尚真理、严谨求实的科学态度，勇于质疑、批判和创新的精神；学习科学家爱国、奉献的精神，团结协作、攻坚克难的品格。", subject: "SB0402", type: "Conception", applicableLevel: "OB03", contentJson: "{}"};
-
-MERGE (n:Conception {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l2"})
-SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l2", title: "物质的多样性", description: "认识物质是多样的，知道物质既有天然存在的也有人工创造的，既有无机物也有有机物；认识依据物质的组成和性质可以对物质进行分类，知道物质可以分为纯净物和混合物、单质和化合物等；知道物质具有独特的物理性质和化学性质，同类物质在性质上具有一定的相似性；知道物质具有广泛的应用价值，物质的性质决定用途。", subject: "SB0402", type: "Conception", applicableLevel: "OB03", contentJson: "{}"};
-
-MERGE (n:Conception {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l3"})
-SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l3", title: "物质的组成", description: "初步形成基于元素和分子、原子认识物质及其变化的视角，建立认识物质的宏观和微观视角之间的关联，知道物质的性质与组成、结构有关。", subject: "SB0402", type: "Conception", applicableLevel: "OB03", contentJson: "{}"};
-
-MERGE (n:Conception {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l4"})
-SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l4", title: "物质的变化与转化", description: "知道物质是在不断变化的，物质变化包括物理变化和化学变化；认识物质的变化过程伴随着能量变化，在一定条件下通过化学反应可以实现物质转化，化学反应中的各物质间存在定量关系，初步形成变化观。", subject: "SB0402", type: "Conception", applicableLevel: "OB03", contentJson: "{}"};
-
-MERGE (n:Conception {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l5"})
-SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l5", title: "化学与可持续发展", description: "知道科学和技术有助于解决社会问题，使用科学和技术时要考虑其对社会和环境的影响，理解科学、技术、社会、环境的相互关系；认识化学在解决与资源、能源、材料、环境、人类健康等相关的问题中的作用，体会化学是推动人类社会可持续发展的重要力量，树立建设美丽中国、为全球生态安全作贡献的信念；主动践行节约资源、环境友好的生活方式，树立人与自然和谐共生的科学自然观和绿色发展观。", subject: "SB0402", type: "Conception", applicableLevel: "OB03", contentJson: "{}"};
-
 MERGE (n:CoreLiteracy {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
 SET n += {type: "CoreLiteracy", title: "化学观念", description: "化学观念是人类探索物质的组成与结构、性质与应用、化学反应及其规律所形成的基本观念，是化学概念、原理和规律的提炼与升华，是认识物质及其变化，以及解决实际问题的基础。\n\n化学观念主要包括：物质是由元素组成的；物质具有多样性，可以分为不同的类别；物质是由分子、原子等构成的，物质结构决定性质，物质性质决定用途；化学变化有新物质生成，其本质是原子的重新组合，且伴随着能量变化，并遵循一定的规律；在一定条件下通过化学反应可以实现物质转化；等等。", subject: "SB0402", applicableLevel: "OB03", contentJson: "{}", identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"};
 
@@ -62,75 +47,6 @@ SET n += {type: "CoreLiteracy", title: "科学探究与实践", description: "�
 
 MERGE (n:CoreLiteracy {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
 SET n += {type: "CoreLiteracy", title: "科学态度与责任", description: "科学态度与责任是指通过化学课程的学习，在理解科学、技术、社会、环境相互关系的基础上，逐步形成的对化学促进社会可持续发展的正确认识，以及所表现的责任担当。\n\n科学态度与责任主要包括：发展对物质世界的好奇心、想象力和探究欲，保持对化学学习和科学探究的浓厚兴趣；对化学学科促进人类文明和社会可持续发展的重要价值具有积极的认识；具有严谨求实的科学态度，敢于提出并坚持自己的见解、勇于修正或放弃错误观点、反对伪科学的科学精神；遵守科学伦理和法律法规，具有运用化学知识对生活及社会实际问题作出判断和决策的意识；以资源的再生和合理使用、生态和环境的绿色发展为重点，增强学生的资源、生态、环境等方面的国家安全意识；热爱祖国，增强为实现中华民族伟大复兴和推动社会进步而勤奋学习的责任感。", subject: "SB0402", applicableLevel: "OB03", contentJson: "{}", identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"};
-
-MERGE (n:Interdisciplinary {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l1"})
-SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l1", type: "Interdisciplinary", title: "微型空气质量 “检测站” 的组装与使用", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{}"};
-
-MERGE (n:Interdisciplinary {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l2"})
-SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l2", type: "Interdisciplinary", title: "基于特定需求设计和制作简易供氧器", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{}"};
-
-MERGE (n:Interdisciplinary {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l3"})
-SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l3", type: "Interdisciplinary", title: "水质检测及自制净水器", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{}"};
-
-MERGE (n:Interdisciplinary {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l4"})
-SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l4", type: "Interdisciplinary", title: "基于碳中和理念设计低碳行动方案", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{}"};
-
-MERGE (n:Interdisciplinary {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l5"})
-SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l5", type: "Interdisciplinary", title: "垃圾的分类与回收利用", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{}"};
-
-MERGE (n:Interdisciplinary {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l6"})
-SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l6", type: "Interdisciplinary", title: "探究土壤酸碱性对植物生长的影响", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{}"};
-
-MERGE (n:Interdisciplinary {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l7"})
-SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l7", type: "Interdisciplinary", title: "海洋资源的综合利用与制盐", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{}"};
-
-MERGE (n:Interdisciplinary {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l8"})
-SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l8", type: "Interdisciplinary", title: "制作模型并展示科学家探索物质组成与结构的历程", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{}"};
-
-MERGE (n:Interdisciplinary {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l9"})
-SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l9", type: "Interdisciplinary", title: "调查家用燃料的变迁与合理使用", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{}"};
-
-MERGE (n:Interdisciplinary {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l10"})
-SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l10", type: "Interdisciplinary", title: "调查我国航天科技领域中新型材料、新型能源的应用", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{}"};
-
-MERGE (n:Chapter {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l1"})
-SET n += {type: "Chapter", title: "绪论", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"academicTerm\": \"初中\", \"grade\": \"九年级\", \"edition\": \"人教版\", \"volume\": \"上册\"}", identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l1", CJ_academicTerm: "初中", CJ_grade: "九年级", CJ_edition: "人教版", CJ_volume: "上册"};
-
-MERGE (n:Chapter {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l2"})
-SET n += {type: "Chapter", title: "走进化学世界", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"academicTerm\": \"初中\", \"grade\": \"九年级\", \"edition\": \"人教版\", \"volume\": \"上册\"}", identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l2", CJ_academicTerm: "初中", CJ_grade: "九年级", CJ_edition: "人教版", CJ_volume: "上册"};
-
-MERGE (n:Chapter {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l3"})
-SET n += {type: "Chapter", title: "空气和氧气", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"academicTerm\": \"初中\", \"grade\": \"九年级\", \"edition\": \"人教版\", \"volume\": \"上册\"}", identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l3", CJ_academicTerm: "初中", CJ_grade: "九年级", CJ_edition: "人教版", CJ_volume: "上册"};
-
-MERGE (n:Chapter {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l4"})
-SET n += {type: "Chapter", title: "物质构成的奥秘", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"academicTerm\": \"初中\", \"grade\": \"九年级\", \"edition\": \"人教版\", \"volume\": \"上册\"}", identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l4", CJ_academicTerm: "初中", CJ_grade: "九年级", CJ_edition: "人教版", CJ_volume: "上册"};
-
-MERGE (n:Chapter {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l5"})
-SET n += {type: "Chapter", title: "自然界的水", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"academicTerm\": \"初中\", \"grade\": \"九年级\", \"edition\": \"人教版\", \"volume\": \"上册\"}", identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l5", CJ_academicTerm: "初中", CJ_grade: "九年级", CJ_edition: "人教版", CJ_volume: "上册"};
-
-MERGE (n:Chapter {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l6"})
-SET n += {type: "Chapter", title: "化学反应的定量关系", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"academicTerm\": \"初中\", \"grade\": \"九年级\", \"edition\": \"人教版\", \"volume\": \"上册\"}", identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l6", CJ_academicTerm: "初中", CJ_grade: "九年级", CJ_edition: "人教版", CJ_volume: "上册"};
-
-MERGE (n:Chapter {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l7"})
-SET n += {type: "Chapter", title: "碳和碳的氧化物", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"academicTerm\": \"初中\", \"grade\": \"九年级\", \"edition\": \"人教版\", \"volume\": \"上册\"}", identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l7", CJ_academicTerm: "初中", CJ_grade: "九年级", CJ_edition: "人教版", CJ_volume: "上册"};
-
-MERGE (n:Chapter {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l8"})
-SET n += {type: "Chapter", title: "能源的合理利用与开发", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"academicTerm\": \"初中\", \"grade\": \"九年级\", \"edition\": \"人教版\", \"volume\": \"上册\"}", identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l8", CJ_academicTerm: "初中", CJ_grade: "九年级", CJ_edition: "人教版", CJ_volume: "上册"};
-
-MERGE (n:Chapter {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l9"})
-SET n += {type: "Chapter", title: "金属和金属材料", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"academicTerm\": \"初中\", \"grade\": \"九年级\", \"edition\": \"人教版\", \"volume\": \"下册\"}", identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l9", CJ_academicTerm: "初中", CJ_grade: "九年级", CJ_edition: "人教版", CJ_volume: "下册"};
-
-MERGE (n:Chapter {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l10"})
-SET n += {type: "Chapter", title: "溶液", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"academicTerm\": \"初中\", \"grade\": \"九年级\", \"edition\": \"人教版\", \"volume\": \"下册\"}", identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l10", CJ_academicTerm: "初中", CJ_grade: "九年级", CJ_edition: "人教版", CJ_volume: "下册"};
-
-MERGE (n:Chapter {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l11"})
-SET n += {type: "Chapter", title: "酸和碱", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"academicTerm\": \"初中\", \"grade\": \"九年级\", \"edition\": \"人教版\", \"volume\": \"下册\"}", identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l11", CJ_academicTerm: "初中", CJ_grade: "九年级", CJ_edition: "人教版", CJ_volume: "下册"};
-
-MERGE (n:Chapter {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l12"})
-SET n += {type: "Chapter", title: "盐 化肥", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"academicTerm\": \"初中\", \"grade\": \"九年级\", \"edition\": \"人教版\", \"volume\": \"下册\"}", identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l12", CJ_academicTerm: "初中", CJ_grade: "九年级", CJ_edition: "人教版", CJ_volume: "下册"};
-
-MERGE (n:Chapter {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l13"})
-SET n += {type: "Chapter", title: "化学与生活", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"academicTerm\": \"初中\", \"grade\": \"九年级\", \"edition\": \"人教版\", \"volume\": \"下册\"}", identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l13", CJ_academicTerm: "初中", CJ_grade: "九年级", CJ_edition: "人教版", CJ_volume: "下册"};
 
 MERGE (n:Section {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l1"})
 SET n += {type: "Section", title: "化学使世界变得更加绚丽多彩", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"academicTerm\": \"初中\", \"grade\": \"九年级\", \"edition\": \"人教版\", \"volume\": \"上册\", \"chapter\": \"绪论\"}", identifier: "urn:jy:chemistry:SB0402:OB03:Section:l1", CJ_academicTerm: "初中", CJ_grade: "九年级", CJ_edition: "人教版", CJ_volume: "上册", CJ_chapter: "绪论"};
@@ -228,6 +144,36 @@ SET n += {type: "Section", title: "化学元素与人体健康", description: ""
 MERGE (n:Section {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l32"})
 SET n += {type: "Section", title: "有机合成材料", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"academicTerm\": \"初中\", \"grade\": \"九年级\", \"edition\": \"人教版\", \"volume\": \"下册\", \"chapter\": \"化学与生活\"}", identifier: "urn:jy:chemistry:SB0402:OB03:Section:l32", CJ_academicTerm: "初中", CJ_grade: "九年级", CJ_edition: "人教版", CJ_volume: "下册", CJ_chapter: "化学与生活"};
 
+MERGE (n:Interdisciplinary {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l1"})
+SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l1", type: "Interdisciplinary", title: "微型空气质量 “检测站” 的组装与使用", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{}"};
+
+MERGE (n:Interdisciplinary {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l2"})
+SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l2", type: "Interdisciplinary", title: "基于特定需求设计和制作简易供氧器", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{}"};
+
+MERGE (n:Interdisciplinary {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l3"})
+SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l3", type: "Interdisciplinary", title: "水质检测及自制净水器", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{}"};
+
+MERGE (n:Interdisciplinary {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l4"})
+SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l4", type: "Interdisciplinary", title: "基于碳中和理念设计低碳行动方案", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{}"};
+
+MERGE (n:Interdisciplinary {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l5"})
+SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l5", type: "Interdisciplinary", title: "垃圾的分类与回收利用", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{}"};
+
+MERGE (n:Interdisciplinary {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l6"})
+SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l6", type: "Interdisciplinary", title: "探究土壤酸碱性对植物生长的影响", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{}"};
+
+MERGE (n:Interdisciplinary {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l7"})
+SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l7", type: "Interdisciplinary", title: "海洋资源的综合利用与制盐", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{}"};
+
+MERGE (n:Interdisciplinary {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l8"})
+SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l8", type: "Interdisciplinary", title: "制作模型并展示科学家探索物质组成与结构的历程", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{}"};
+
+MERGE (n:Interdisciplinary {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l9"})
+SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l9", type: "Interdisciplinary", title: "调查家用燃料的变迁与合理使用", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{}"};
+
+MERGE (n:Interdisciplinary {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l10"})
+SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l10", type: "Interdisciplinary", title: "调查我国航天科技领域中新型材料、新型能源的应用", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{}"};
+
 MERGE (n:Attitude {identifier: "urn:jy:chemistry:SB0402:OB03:Attitude:l1"})
 SET n += {type: "Attitude", title: "科学探究的态度", description: "发展科学探究的好奇心、想象力与探究欲；通过探究活动，初步养成注重实证、严谨求实的科学态度，初步学会批判性思维方法，具有敢于提出并坚持自己的见解、勇于修正或放弃错误观点、反对伪科学的科学精神。\n\n树立自觉的安全意识和观念，知道化学实验存在安全风险，明确化学实验室安全规则和实验操作规范，了解实验室基本布局，学会正确使用安全防护设施，养成节约环保、清洁卫生的实验习惯。", subject: "SB0402", applicableLevel: "OB03", contentJson: "{}", identifier: "urn:jy:chemistry:SB0402:OB03:Attitude:l1"};
 
@@ -242,6 +188,93 @@ SET n += {type: "Attitude", title: "化学反应的应用价值及合理调控",
 
 MERGE (n:Attitude {identifier: "urn:jy:chemistry:SB0402:OB03:Attitude:l5"})
 SET n += {type: "Attitude", title: "应对未来不确定性挑战", description: "1.科学伦理及法律规范\n通过实例分析或参加与化学相关的职业体验活动，认识到应用科学知识解决问题时，应恪守科学伦理；知道国家在生态环境保护，化学品、食品、药品安全等方面颁布了法律法规，增强遵纪守法、自我保护及维护社会安全的意识。\n\n2.社会性科学议题的合理应对\n知道现代科学技术的开发和应用可能会引起与生态环境、伦理道德、经济发展等相关的问题；知道人类生存与发展会面临来自环境、能源、资源、健康和公共卫生等方面的危机与不确定性挑战；通过参与社会性科学议题的探讨活动，体会以理性、积极的态度和系统、创新的思维应对挑战的重要性。", subject: "SB0402", applicableLevel: "OB03", contentJson: "{}", identifier: "urn:jy:chemistry:SB0402:OB03:Attitude:l5"};
+
+MERGE (n:AcademicQuality {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l1"})
+SET n += {type: "AcademicQuality", title: "学业质量", description: "学业质量是学生在完成课程学习后的学业成就表现，反映了核心素养的培养要求。义务教育化学课程学业质量标准是以化学课程对核心素养的目标要求为依据、结合课程内容对学生学业成就的具体表现特征进行的整体刻画，用于反映课程目标的达成程度。学业质量标准是化学学业水平考试命题的重要依据，对化学教材编写、教学和评价实施具有重要的指导作用。", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"aspect\": \"物质结构与性质\", \"aspectDescription\": \"在认识物质组成、性质及分析相关实际问题的情境中，能根据科学家建立的模型认识原子的结构，能说明分子、原子、离子的区别和联系，能用分子的观点解释生活中的某些变化或现象；能从元素与分子视角辨识常见物质，结合实例区分混合物与纯净物、单质与化合物；能举例说明物质组成、性质和用途的关系；能用物质名称和化学式表示常见物质，能分析常见物质中元素的化合价；能用相对原子质量、相对分子质量进行物质组成的简单计算，能用质量分数表示混合物体系中物质的成分；能通过溶解度和溶解度曲线描述物质的溶解程度，能利用溶解性的差异进行物质的分离、提纯；感受物质的多样性，体会物质的性质及应用与日常生活、科技发展的密切联系，认识化学科学对解决实际问题的重要意义。\"}", identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l1", CJ_aspect: "物质结构与性质", CJ_aspectDescription: "在认识物质组成、性质及分析相关实际问题的情境中，能根据科学家建立的模型认识原子的结构，能说明分子、原子、离子的区别和联系，能用分子的观点解释生活中的某些变化或现象；能从元素与分子视角辨识常见物质，结合实例区分混合物与纯净物、单质与化合物；能举例说明物质组成、性质和用途的关系；能用物质名称和化学式表示常见物质，能分析常见物质中元素的化合价；能用相对原子质量、相对分子质量进行物质组成的简单计算，能用质量分数表示混合物体系中物质的成分；能通过溶解度和溶解度曲线描述物质的溶解程度，能利用溶解性的差异进行物质的分离、提纯；感受物质的多样性，体会物质的性质及应用与日常生活、科技发展的密切联系，认识化学科学对解决实际问题的重要意义。"};
+
+MERGE (n:AcademicQuality {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l2"})
+SET n += {type: "AcademicQuality", title: "学业质量", description: "学业质量是学生在完成课程学习后的学业成就表现，反映了核心素养的培养要求。义务教育化学课程学业质量标准是以化学课程对核心素养的目标要求为依据、结合课程内容对学生学业成就的具体表现特征进行的整体刻画，用于反映课程目标的达成程度。学业质量标准是化学学业水平考试命题的重要依据，对化学教材编写、教学和评价实施具有重要的指导作用。", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"aspect\": \"化学反应规律\", \"aspectDescription\": \"在探索化学变化规律及解决实际问题的情境中，能基于化学变化中元素种类不变、有新物质生成且伴随着能量变化的特征，从宏观、微观、符号相结合的视角说明物质变化的现象和本质；能依据化学变化的特征对常见化学反应进行分类，说明不同类型反应的特征及在生活中的应用；能依据质量守恒定律，用化学方程式表征简单的化学反应，结合真实情境中物质的转化进行简单计算；能结合简单的实例说明反应条件对物质变化的影响，初步形成条件控制的意识；能依据物质类别及变化特征、元素守恒、金属活动性顺序等，预测、判断与分析常见物质的性质和物质转化的产物；能体会化学反应在金属冶炼、石油化工、药物合成、材料研制、能源开发、资源利用和生态环境保护等方面的应用价值。\"}", identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l2", CJ_aspect: "化学反应规律", CJ_aspectDescription: "在探索化学变化规律及解决实际问题的情境中，能基于化学变化中元素种类不变、有新物质生成且伴随着能量变化的特征，从宏观、微观、符号相结合的视角说明物质变化的现象和本质；能依据化学变化的特征对常见化学反应进行分类，说明不同类型反应的特征及在生活中的应用；能依据质量守恒定律，用化学方程式表征简单的化学反应，结合真实情境中物质的转化进行简单计算；能结合简单的实例说明反应条件对物质变化的影响，初步形成条件控制的意识；能依据物质类别及变化特征、元素守恒、金属活动性顺序等，预测、判断与分析常见物质的性质和物质转化的产物；能体会化学反应在金属冶炼、石油化工、药物合成、材料研制、能源开发、资源利用和生态环境保护等方面的应用价值。"};
+
+MERGE (n:AcademicQuality {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l3"})
+SET n += {type: "AcademicQuality", title: "学业质量", description: "学业质量是学生在完成课程学习后的学业成就表现，反映了核心素养的培养要求。义务教育化学课程学业质量标准是以化学课程对核心素养的目标要求为依据、结合课程内容对学生学业成就的具体表现特征进行的整体刻画，用于反映课程目标的达成程度。学业质量标准是化学学业水平考试命题的重要依据，对化学教材编写、教学和评价实施具有重要的指导作用。", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"aspect\": \"化学实验探究\", \"aspectDescription\": \"在实验探究情境和实践活动中，能根据解决与化学相关的简单问题的需要，运用混合物分离、常见物质制备、物质检验和性质探究等实验探究的一般思路与方法，设计简单的实验探究方案；能根据实验目的选择必要的试剂、常见的实验仪器和装置，运用实验基本操作技能和条件控制的方法，安全、顺利地实施实验探究方案；能对观察、记录的实验现象和数据进行分析、处理，对实验证据进行分析和推理，得出合理的结论，能用规范的语言呈现探究结果，并与他人交流、讨论；能基于物质及其反应的规律和跨学科知识，运用实验等手段，完成简单的作品制作、社会调查等跨学科实践活动；能体会实验在化学科学发展、解决与物质转化及应用相关实际问题中的重要作用，意识到协同创新对解决跨学科复杂问题的重要性。\"}", identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l3", CJ_aspect: "化学实验探究", CJ_aspectDescription: "在实验探究情境和实践活动中，能根据解决与化学相关的简单问题的需要，运用混合物分离、常见物质制备、物质检验和性质探究等实验探究的一般思路与方法，设计简单的实验探究方案；能根据实验目的选择必要的试剂、常见的实验仪器和装置，运用实验基本操作技能和条件控制的方法，安全、顺利地实施实验探究方案；能对观察、记录的实验现象和数据进行分析、处理，对实验证据进行分析和推理，得出合理的结论，能用规范的语言呈现探究结果，并与他人交流、讨论；能基于物质及其反应的规律和跨学科知识，运用实验等手段，完成简单的作品制作、社会调查等跨学科实践活动；能体会实验在化学科学发展、解决与物质转化及应用相关实际问题中的重要作用，意识到协同创新对解决跨学科复杂问题的重要性。"};
+
+MERGE (n:AcademicQuality {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l4"})
+SET n += {type: "AcademicQuality", title: "学业质量", description: "学业质量是学生在完成课程学习后的学业成就表现，反映了核心素养的培养要求。义务教育化学课程学业质量标准是以化学课程对核心素养的目标要求为依据、结合课程内容对学生学业成就的具体表现特征进行的整体刻画，用于反映课程目标的达成程度。学业质量标准是化学学业水平考试命题的重要依据，对化学教材编写、教学和评价实施具有重要的指导作用。", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"aspect\": \"物质转化与应用\", \"aspectDescription\": \"在常见的生产生活和社会情境中，能初步运用化学观念解释与化学相关的现象和事实，参与相关的简单的实践活动；能将化学知识与生产生活实际相结合，主动关注有关空气和水资源保护、资源回收再利用、健康安全、化学品妥善保存与合理使用等实际问题，并参与讨论；能从科学、技术、社会、环境的相互关系，安全环保和科学伦理等角度，辩证分析与化学相关的简单的社会性科学议题，尝试提出自己的见解和建议，作出合理的价值判断，初步形成节能低碳、节约资源、保护环境的态度和绿色出行的健康生活方式；能从化学角度认识我国生态环境保护、食品安全、公共卫生等法律法规对促进社会可持续发展的重要性；能体会化学科学在应对环境污染、资源匮乏、能源危机、药物短缺等人类面临的重大挑战中作出的创造性贡献。\"}", identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l4", CJ_aspect: "物质转化与应用", CJ_aspectDescription: "在常见的生产生活和社会情境中，能初步运用化学观念解释与化学相关的现象和事实，参与相关的简单的实践活动；能将化学知识与生产生活实际相结合，主动关注有关空气和水资源保护、资源回收再利用、健康安全、化学品妥善保存与合理使用等实际问题，并参与讨论；能从科学、技术、社会、环境的相互关系，安全环保和科学伦理等角度，辩证分析与化学相关的简单的社会性科学议题，尝试提出自己的见解和建议，作出合理的价值判断，初步形成节能低碳、节约资源、保护环境的态度和绿色出行的健康生活方式；能从化学角度认识我国生态环境保护、食品安全、公共卫生等法律法规对促进社会可持续发展的重要性；能体会化学科学在应对环境污染、资源匮乏、能源危机、药物短缺等人类面临的重大挑战中作出的创造性贡献。"};
+
+MERGE (n:CourseTarget {identifier: "urn:jy:chemistry:SB0402:OB03:CourseTarget:l1"})
+SET n += {type: "CourseTarget", title: "形成化学观念，解决实际问题", description: "初步认识物质的多样性，能对物质及其变化进行分类；能从元素、原子、分子等视角初步分析物质的组成及变化，认识“在一定条件下通过化学反应可以实现物质转化”的重要性；初步学会从定性和定量的视角研究物质的组成及变化，认识质量守恒定律对资源利用和物质转化的重要意义；能通过实例认识物质的性质与应用的关系，形成合理利用物质的意识；能从物质及其变化的视角初步分析、解决一些与化学相关的简单的实际问题，发展辩证唯物主义世界观。", subject: "SB0402", applicableLevel: "OB03", contentJson: "{}", identifier: "urn:jy:chemistry:SB0402:OB03:CourseTarget:l1"};
+
+MERGE (n:CourseTarget {identifier: "urn:jy:chemistry:SB0402:OB03:CourseTarget:l2"})
+SET n += {type: "CourseTarget", title: "发展科学思维，强化创新意识", description: "初步学会运用观察、实验、调查等手段获取化学事实，能初步运用比较、分类、分析、综合、归纳等方法认识物质及其变化，形成一定的证据推理能力；能从变化和联系的视角分析常见的化学现象，能以宏观、微观、符号相结合的方式认识和表征化学变化；初步建立物质及其变化的相关模型，能根据物质的类别和信息提示预测其性质，并能解释一些简单的化学问题；能从跨学科角度初步分析和解决简单的开放性问题，体会系统思维的意义；能对不同的观点和方案提出自己的见解，发展创新思维能力，逐步学会辩证唯物主义方法论。", subject: "SB0402", applicableLevel: "OB03", contentJson: "{}", identifier: "urn:jy:chemistry:SB0402:OB03:CourseTarget:l2"};
+
+MERGE (n:CourseTarget {identifier: "urn:jy:chemistry:SB0402:OB03:CourseTarget:l3"})
+SET n += {type: "CourseTarget", title: "经历科学探究，增强实践能力", description: "认识实验是科学探究、创新实践的重要形式和学习化学的重要途径，能进行安全、规范的实验基本操作，独立或与同学合作完成简单的化学实验任务；能主动提出有探究价值的问题，从问题和假设出发确定探究目标，设计和实施探究方案，获取证据并分析得到结论，能用科学语言和信息技术手段合理表述探究的过程和结果，并与同学交流；能从化学视角对常见的生活现象、简单的跨学科问题进行探讨，能运用简单的技术与工程的方法初步解决与化学有关的实际问题，完成社会实践活动；在科学探究与实践活动中，能根据自己的实际情况制订学习计划，开展自主学习活动，能与同学合作、分享，善于听取他人的合理建议，评价、反思、改进学习过程与结果，初步形成自主、合作、探究的能力。", subject: "SB0402", applicableLevel: "OB03", contentJson: "{}", identifier: "urn:jy:chemistry:SB0402:OB03:CourseTarget:l3"};
+
+MERGE (n:CourseTarget {identifier: "urn:jy:chemistry:SB0402:OB03:CourseTarget:l4"})
+SET n += {type: "CourseTarget", title: "养成科学态度，具有责任担当", description: "具有对物质世界及其变化的好奇心、探究欲和审美情趣；热爱科学，逐步形成崇尚科学、严谨求实、大胆质疑、追求真理、反对伪科学的科学精神及勇于克服困难的坚毅品质；学习科学家胸怀祖国、服务人民的爱国精神，勇攀高峰、敢为人先的创新精神，淡泊名利、潜心研究的奉献精神；认识创新在我国现代化建设全局中的核心地位，努力把科技自立自强信念自觉融入人生追求之中。赞赏化学对满足人民日益增长的美好生活需要和社会可持续发展作出的重大贡献；具有安全意识和合理选用化学品的观念；牢固树立和践行“绿水青山就是金山银山”的理念，强化绿色、循环、低碳发展的意识，认识资源的节约集约利用和废弃物循环利用的意义与价值，树立人与自然和谐共生的科学自然观；初步认识科学、技术、社会、环境之间的相互关系，遵守与化学、技术相关的伦理道德及法律法规，能积极参加与化学有关的社会热点问题的讨论并作出合理的价值判断，初步形成主动参与社会决策的意识；具有为全面建成社会主义现代化强国、实现中华民族伟大复兴而学习化学的志向和责任担当。", subject: "SB0402", applicableLevel: "OB03", contentJson: "{}", identifier: "urn:jy:chemistry:SB0402:OB03:CourseTarget:l4"};
+
+MERGE (n:Chapter {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l1"})
+SET n += {type: "Chapter", title: "绪论", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"academicTerm\": \"初中\", \"grade\": \"九年级\", \"edition\": \"人教版\", \"volume\": \"上册\"}", identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l1", CJ_academicTerm: "初中", CJ_grade: "九年级", CJ_edition: "人教版", CJ_volume: "上册"};
+
+MERGE (n:Chapter {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l2"})
+SET n += {type: "Chapter", title: "走进化学世界", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"academicTerm\": \"初中\", \"grade\": \"九年级\", \"edition\": \"人教版\", \"volume\": \"上册\"}", identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l2", CJ_academicTerm: "初中", CJ_grade: "九年级", CJ_edition: "人教版", CJ_volume: "上册"};
+
+MERGE (n:Chapter {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l3"})
+SET n += {type: "Chapter", title: "空气和氧气", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"academicTerm\": \"初中\", \"grade\": \"九年级\", \"edition\": \"人教版\", \"volume\": \"上册\"}", identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l3", CJ_academicTerm: "初中", CJ_grade: "九年级", CJ_edition: "人教版", CJ_volume: "上册"};
+
+MERGE (n:Chapter {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l4"})
+SET n += {type: "Chapter", title: "物质构成的奥秘", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"academicTerm\": \"初中\", \"grade\": \"九年级\", \"edition\": \"人教版\", \"volume\": \"上册\"}", identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l4", CJ_academicTerm: "初中", CJ_grade: "九年级", CJ_edition: "人教版", CJ_volume: "上册"};
+
+MERGE (n:Chapter {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l5"})
+SET n += {type: "Chapter", title: "自然界的水", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"academicTerm\": \"初中\", \"grade\": \"九年级\", \"edition\": \"人教版\", \"volume\": \"上册\"}", identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l5", CJ_academicTerm: "初中", CJ_grade: "九年级", CJ_edition: "人教版", CJ_volume: "上册"};
+
+MERGE (n:Chapter {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l6"})
+SET n += {type: "Chapter", title: "化学反应的定量关系", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"academicTerm\": \"初中\", \"grade\": \"九年级\", \"edition\": \"人教版\", \"volume\": \"上册\"}", identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l6", CJ_academicTerm: "初中", CJ_grade: "九年级", CJ_edition: "人教版", CJ_volume: "上册"};
+
+MERGE (n:Chapter {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l7"})
+SET n += {type: "Chapter", title: "碳和碳的氧化物", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"academicTerm\": \"初中\", \"grade\": \"九年级\", \"edition\": \"人教版\", \"volume\": \"上册\"}", identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l7", CJ_academicTerm: "初中", CJ_grade: "九年级", CJ_edition: "人教版", CJ_volume: "上册"};
+
+MERGE (n:Chapter {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l8"})
+SET n += {type: "Chapter", title: "能源的合理利用与开发", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"academicTerm\": \"初中\", \"grade\": \"九年级\", \"edition\": \"人教版\", \"volume\": \"上册\"}", identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l8", CJ_academicTerm: "初中", CJ_grade: "九年级", CJ_edition: "人教版", CJ_volume: "上册"};
+
+MERGE (n:Chapter {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l9"})
+SET n += {type: "Chapter", title: "金属和金属材料", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"academicTerm\": \"初中\", \"grade\": \"九年级\", \"edition\": \"人教版\", \"volume\": \"下册\"}", identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l9", CJ_academicTerm: "初中", CJ_grade: "九年级", CJ_edition: "人教版", CJ_volume: "下册"};
+
+MERGE (n:Chapter {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l10"})
+SET n += {type: "Chapter", title: "溶液", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"academicTerm\": \"初中\", \"grade\": \"九年级\", \"edition\": \"人教版\", \"volume\": \"下册\"}", identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l10", CJ_academicTerm: "初中", CJ_grade: "九年级", CJ_edition: "人教版", CJ_volume: "下册"};
+
+MERGE (n:Chapter {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l11"})
+SET n += {type: "Chapter", title: "酸和碱", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"academicTerm\": \"初中\", \"grade\": \"九年级\", \"edition\": \"人教版\", \"volume\": \"下册\"}", identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l11", CJ_academicTerm: "初中", CJ_grade: "九年级", CJ_edition: "人教版", CJ_volume: "下册"};
+
+MERGE (n:Chapter {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l12"})
+SET n += {type: "Chapter", title: "盐 化肥", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"academicTerm\": \"初中\", \"grade\": \"九年级\", \"edition\": \"人教版\", \"volume\": \"下册\"}", identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l12", CJ_academicTerm: "初中", CJ_grade: "九年级", CJ_edition: "人教版", CJ_volume: "下册"};
+
+MERGE (n:Chapter {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l13"})
+SET n += {type: "Chapter", title: "化学与生活", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"academicTerm\": \"初中\", \"grade\": \"九年级\", \"edition\": \"人教版\", \"volume\": \"下册\"}", identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l13", CJ_academicTerm: "初中", CJ_grade: "九年级", CJ_edition: "人教版", CJ_volume: "下册"};
+
+MERGE (n:Experiment {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l1"})
+SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l1", type: "Experiment", title: "粗盐中难溶性杂质的去除", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"learningTheme\": \"物质的性质与应用\"}", CJ_learningTheme: "物质的性质与应用"};
+
+MERGE (n:Experiment {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l2"})
+SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l2", type: "Experiment", title: "氧气的实验室制取与性质", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"learningTheme\": \"物质的性质与应用\"}", CJ_learningTheme: "物质的性质与应用"};
+
+MERGE (n:Experiment {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l3"})
+SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l3", type: "Experiment", title: "二氧化碳的实验室制取与性质", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"learningTheme\": \"物质的性质与应用\"}", CJ_learningTheme: "物质的性质与应用"};
+
+MERGE (n:Experiment {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l4"})
+SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l4", type: "Experiment", title: "常见金属的物理性质和化学性质", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"learningTheme\": \"物质的性质与应用\"}", CJ_learningTheme: "物质的性质与应用"};
+
+MERGE (n:Experiment {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l5"})
+SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l5", type: "Experiment", title: "常见酸、碱的化学性质", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"learningTheme\": \"物质的性质与应用\"}", CJ_learningTheme: "物质的性质与应用"};
+
+MERGE (n:Experiment {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l6"})
+SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l6", type: "Experiment", title: "一定溶质质量分数的氯化钠溶液的配制", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"learningTheme\": \"物质的性质与应用\"}", CJ_learningTheme: "物质的性质与应用"};
+
+MERGE (n:Experiment {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
+SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7", type: "Experiment", title: "水的组成及变化的探究", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"learningTheme\": \"物质的组成与结构\"}", CJ_learningTheme: "物质的组成与结构"};
+
+MERGE (n:Experiment {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l8"})
+SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l8", type: "Experiment", title: "燃烧条件的探究", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"learningTheme\": \"物质的化学变化\"}", CJ_learningTheme: "物质的化学变化"};
 
 MERGE (n:CoreKnowledge {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l1"})
 SET n += {type: "CoreKnowledge", title: "科学探究的能力", description: "知道科学探究是收集证据和作出解释，进行发现、创造与应用的科学实践活动，也是获取科学知识、理解科学本质、认识客观世界的重要途径。\n了解科学探究过程包括提出问题、形成假设、设计并实施实验或调查方案、获取证据、分析解释数据、形成结论及建构模型、反思评价及表达交流等要素。\n经历科学探究的一般过程，认识从问题和假设出发确定探究目标、依据探究目标设计并实施实验方案、通过观察和实验等方法获取证据、基于证据进行分析推理及形成结论等对于科学探究的意义，体会合作与交流在科学探究中的重要作用。", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"knowledgeUnit\": \"实验探究\"}", identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l1", CJ_knowledgeUnit: "实验探究"};
@@ -279,54 +312,6 @@ SET n += {type: "CoreKnowledge", title: "化学反应的定量关系与质量守
 MERGE (n:CoreKnowledge {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l12"})
 SET n += {type: "CoreKnowledge", title: "化学与资源、能源、材料、环境、健康", description: "结合实例，从物质及其变化的视角，认识资源的综合利用与新能源的开发、材料的科学利用与新材料的研发，理解化学与生态环境保护、医药研制及营养健康的关系；了解酒精、天然气、有机高分子材料等在社会生活中的应用；知道资源开发、能源利用和材料使用可能会对环境产生影响，树立环保意识。", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"knowledgeUnit\": \"化学与资源、能源、材料、环境、健康\"}", identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l12", CJ_knowledgeUnit: "化学与资源、能源、材料、环境、健康"};
 
-MERGE (n:CourseTarget {identifier: "urn:jy:chemistry:SB0402:OB03:CourseTarget:l1"})
-SET n += {type: "CourseTarget", title: "形成化学观念，解决实际问题", description: "初步认识物质的多样性，能对物质及其变化进行分类；能从元素、原子、分子等视角初步分析物质的组成及变化，认识“在一定条件下通过化学反应可以实现物质转化”的重要性；初步学会从定性和定量的视角研究物质的组成及变化，认识质量守恒定律对资源利用和物质转化的重要意义；能通过实例认识物质的性质与应用的关系，形成合理利用物质的意识；能从物质及其变化的视角初步分析、解决一些与化学相关的简单的实际问题，发展辩证唯物主义世界观。", subject: "SB0402", applicableLevel: "OB03", contentJson: "{}", identifier: "urn:jy:chemistry:SB0402:OB03:CourseTarget:l1"};
-
-MERGE (n:CourseTarget {identifier: "urn:jy:chemistry:SB0402:OB03:CourseTarget:l2"})
-SET n += {type: "CourseTarget", title: "发展科学思维，强化创新意识", description: "初步学会运用观察、实验、调查等手段获取化学事实，能初步运用比较、分类、分析、综合、归纳等方法认识物质及其变化，形成一定的证据推理能力；能从变化和联系的视角分析常见的化学现象，能以宏观、微观、符号相结合的方式认识和表征化学变化；初步建立物质及其变化的相关模型，能根据物质的类别和信息提示预测其性质，并能解释一些简单的化学问题；能从跨学科角度初步分析和解决简单的开放性问题，体会系统思维的意义；能对不同的观点和方案提出自己的见解，发展创新思维能力，逐步学会辩证唯物主义方法论。", subject: "SB0402", applicableLevel: "OB03", contentJson: "{}", identifier: "urn:jy:chemistry:SB0402:OB03:CourseTarget:l2"};
-
-MERGE (n:CourseTarget {identifier: "urn:jy:chemistry:SB0402:OB03:CourseTarget:l3"})
-SET n += {type: "CourseTarget", title: "经历科学探究，增强实践能力", description: "认识实验是科学探究、创新实践的重要形式和学习化学的重要途径，能进行安全、规范的实验基本操作，独立或与同学合作完成简单的化学实验任务；能主动提出有探究价值的问题，从问题和假设出发确定探究目标，设计和实施探究方案，获取证据并分析得到结论，能用科学语言和信息技术手段合理表述探究的过程和结果，并与同学交流；能从化学视角对常见的生活现象、简单的跨学科问题进行探讨，能运用简单的技术与工程的方法初步解决与化学有关的实际问题，完成社会实践活动；在科学探究与实践活动中，能根据自己的实际情况制订学习计划，开展自主学习活动，能与同学合作、分享，善于听取他人的合理建议，评价、反思、改进学习过程与结果，初步形成自主、合作、探究的能力。", subject: "SB0402", applicableLevel: "OB03", contentJson: "{}", identifier: "urn:jy:chemistry:SB0402:OB03:CourseTarget:l3"};
-
-MERGE (n:CourseTarget {identifier: "urn:jy:chemistry:SB0402:OB03:CourseTarget:l4"})
-SET n += {type: "CourseTarget", title: "养成科学态度，具有责任担当", description: "具有对物质世界及其变化的好奇心、探究欲和审美情趣；热爱科学，逐步形成崇尚科学、严谨求实、大胆质疑、追求真理、反对伪科学的科学精神及勇于克服困难的坚毅品质；学习科学家胸怀祖国、服务人民的爱国精神，勇攀高峰、敢为人先的创新精神，淡泊名利、潜心研究的奉献精神；认识创新在我国现代化建设全局中的核心地位，努力把科技自立自强信念自觉融入人生追求之中。赞赏化学对满足人民日益增长的美好生活需要和社会可持续发展作出的重大贡献；具有安全意识和合理选用化学品的观念；牢固树立和践行“绿水青山就是金山银山”的理念，强化绿色、循环、低碳发展的意识，认识资源的节约集约利用和废弃物循环利用的意义与价值，树立人与自然和谐共生的科学自然观；初步认识科学、技术、社会、环境之间的相互关系，遵守与化学、技术相关的伦理道德及法律法规，能积极参加与化学有关的社会热点问题的讨论并作出合理的价值判断，初步形成主动参与社会决策的意识；具有为全面建成社会主义现代化强国、实现中华民族伟大复兴而学习化学的志向和责任担当。", subject: "SB0402", applicableLevel: "OB03", contentJson: "{}", identifier: "urn:jy:chemistry:SB0402:OB03:CourseTarget:l4"};
-
-MERGE (n:Experiment {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l1"})
-SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l1", type: "Experiment", title: "粗盐中难溶性杂质的去除", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"learningTheme\": \"物质的性质与应用\"}", CJ_learningTheme: "物质的性质与应用"};
-
-MERGE (n:Experiment {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l2"})
-SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l2", type: "Experiment", title: "氧气的实验室制取与性质", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"learningTheme\": \"物质的性质与应用\"}", CJ_learningTheme: "物质的性质与应用"};
-
-MERGE (n:Experiment {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l3"})
-SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l3", type: "Experiment", title: "二氧化碳的实验室制取与性质", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"learningTheme\": \"物质的性质与应用\"}", CJ_learningTheme: "物质的性质与应用"};
-
-MERGE (n:Experiment {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l4"})
-SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l4", type: "Experiment", title: "常见金属的物理性质和化学性质", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"learningTheme\": \"物质的性质与应用\"}", CJ_learningTheme: "物质的性质与应用"};
-
-MERGE (n:Experiment {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l5"})
-SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l5", type: "Experiment", title: "常见酸、碱的化学性质", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"learningTheme\": \"物质的性质与应用\"}", CJ_learningTheme: "物质的性质与应用"};
-
-MERGE (n:Experiment {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l6"})
-SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l6", type: "Experiment", title: "一定溶质质量分数的氯化钠溶液的配制", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"learningTheme\": \"物质的性质与应用\"}", CJ_learningTheme: "物质的性质与应用"};
-
-MERGE (n:Experiment {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
-SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7", type: "Experiment", title: "水的组成及变化的探究", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"learningTheme\": \"物质的组成与结构\"}", CJ_learningTheme: "物质的组成与结构"};
-
-MERGE (n:Experiment {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l8"})
-SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l8", type: "Experiment", title: "燃烧条件的探究", description: "", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"learningTheme\": \"物质的化学变化\"}", CJ_learningTheme: "物质的化学变化"};
-
-MERGE (n:AcademicQuality {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l1"})
-SET n += {type: "AcademicQuality", title: "学业质量", description: "学业质量是学生在完成课程学习后的学业成就表现，反映了核心素养的培养要求。义务教育化学课程学业质量标准是以化学课程对核心素养的目标要求为依据、结合课程内容对学生学业成就的具体表现特征进行的整体刻画，用于反映课程目标的达成程度。学业质量标准是化学学业水平考试命题的重要依据，对化学教材编写、教学和评价实施具有重要的指导作用。", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"aspect\": \"物质结构与性质\", \"aspectDescription\": \"在认识物质组成、性质及分析相关实际问题的情境中，能根据科学家建立的模型认识原子的结构，能说明分子、原子、离子的区别和联系，能用分子的观点解释生活中的某些变化或现象；能从元素与分子视角辨识常见物质，结合实例区分混合物与纯净物、单质与化合物；能举例说明物质组成、性质和用途的关系；能用物质名称和化学式表示常见物质，能分析常见物质中元素的化合价；能用相对原子质量、相对分子质量进行物质组成的简单计算，能用质量分数表示混合物体系中物质的成分；能通过溶解度和溶解度曲线描述物质的溶解程度，能利用溶解性的差异进行物质的分离、提纯；感受物质的多样性，体会物质的性质及应用与日常生活、科技发展的密切联系，认识化学科学对解决实际问题的重要意义。\"}", identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l1", CJ_aspect: "物质结构与性质", CJ_aspectDescription: "在认识物质组成、性质及分析相关实际问题的情境中，能根据科学家建立的模型认识原子的结构，能说明分子、原子、离子的区别和联系，能用分子的观点解释生活中的某些变化或现象；能从元素与分子视角辨识常见物质，结合实例区分混合物与纯净物、单质与化合物；能举例说明物质组成、性质和用途的关系；能用物质名称和化学式表示常见物质，能分析常见物质中元素的化合价；能用相对原子质量、相对分子质量进行物质组成的简单计算，能用质量分数表示混合物体系中物质的成分；能通过溶解度和溶解度曲线描述物质的溶解程度，能利用溶解性的差异进行物质的分离、提纯；感受物质的多样性，体会物质的性质及应用与日常生活、科技发展的密切联系，认识化学科学对解决实际问题的重要意义。"};
-
-MERGE (n:AcademicQuality {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l2"})
-SET n += {type: "AcademicQuality", title: "学业质量", description: "学业质量是学生在完成课程学习后的学业成就表现，反映了核心素养的培养要求。义务教育化学课程学业质量标准是以化学课程对核心素养的目标要求为依据、结合课程内容对学生学业成就的具体表现特征进行的整体刻画，用于反映课程目标的达成程度。学业质量标准是化学学业水平考试命题的重要依据，对化学教材编写、教学和评价实施具有重要的指导作用。", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"aspect\": \"化学反应规律\", \"aspectDescription\": \"在探索化学变化规律及解决实际问题的情境中，能基于化学变化中元素种类不变、有新物质生成且伴随着能量变化的特征，从宏观、微观、符号相结合的视角说明物质变化的现象和本质；能依据化学变化的特征对常见化学反应进行分类，说明不同类型反应的特征及在生活中的应用；能依据质量守恒定律，用化学方程式表征简单的化学反应，结合真实情境中物质的转化进行简单计算；能结合简单的实例说明反应条件对物质变化的影响，初步形成条件控制的意识；能依据物质类别及变化特征、元素守恒、金属活动性顺序等，预测、判断与分析常见物质的性质和物质转化的产物；能体会化学反应在金属冶炼、石油化工、药物合成、材料研制、能源开发、资源利用和生态环境保护等方面的应用价值。\"}", identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l2", CJ_aspect: "化学反应规律", CJ_aspectDescription: "在探索化学变化规律及解决实际问题的情境中，能基于化学变化中元素种类不变、有新物质生成且伴随着能量变化的特征，从宏观、微观、符号相结合的视角说明物质变化的现象和本质；能依据化学变化的特征对常见化学反应进行分类，说明不同类型反应的特征及在生活中的应用；能依据质量守恒定律，用化学方程式表征简单的化学反应，结合真实情境中物质的转化进行简单计算；能结合简单的实例说明反应条件对物质变化的影响，初步形成条件控制的意识；能依据物质类别及变化特征、元素守恒、金属活动性顺序等，预测、判断与分析常见物质的性质和物质转化的产物；能体会化学反应在金属冶炼、石油化工、药物合成、材料研制、能源开发、资源利用和生态环境保护等方面的应用价值。"};
-
-MERGE (n:AcademicQuality {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l3"})
-SET n += {type: "AcademicQuality", title: "学业质量", description: "学业质量是学生在完成课程学习后的学业成就表现，反映了核心素养的培养要求。义务教育化学课程学业质量标准是以化学课程对核心素养的目标要求为依据、结合课程内容对学生学业成就的具体表现特征进行的整体刻画，用于反映课程目标的达成程度。学业质量标准是化学学业水平考试命题的重要依据，对化学教材编写、教学和评价实施具有重要的指导作用。", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"aspect\": \"化学实验探究\", \"aspectDescription\": \"在实验探究情境和实践活动中，能根据解决与化学相关的简单问题的需要，运用混合物分离、常见物质制备、物质检验和性质探究等实验探究的一般思路与方法，设计简单的实验探究方案；能根据实验目的选择必要的试剂、常见的实验仪器和装置，运用实验基本操作技能和条件控制的方法，安全、顺利地实施实验探究方案；能对观察、记录的实验现象和数据进行分析、处理，对实验证据进行分析和推理，得出合理的结论，能用规范的语言呈现探究结果，并与他人交流、讨论；能基于物质及其反应的规律和跨学科知识，运用实验等手段，完成简单的作品制作、社会调查等跨学科实践活动；能体会实验在化学科学发展、解决与物质转化及应用相关实际问题中的重要作用，意识到协同创新对解决跨学科复杂问题的重要性。\"}", identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l3", CJ_aspect: "化学实验探究", CJ_aspectDescription: "在实验探究情境和实践活动中，能根据解决与化学相关的简单问题的需要，运用混合物分离、常见物质制备、物质检验和性质探究等实验探究的一般思路与方法，设计简单的实验探究方案；能根据实验目的选择必要的试剂、常见的实验仪器和装置，运用实验基本操作技能和条件控制的方法，安全、顺利地实施实验探究方案；能对观察、记录的实验现象和数据进行分析、处理，对实验证据进行分析和推理，得出合理的结论，能用规范的语言呈现探究结果，并与他人交流、讨论；能基于物质及其反应的规律和跨学科知识，运用实验等手段，完成简单的作品制作、社会调查等跨学科实践活动；能体会实验在化学科学发展、解决与物质转化及应用相关实际问题中的重要作用，意识到协同创新对解决跨学科复杂问题的重要性。"};
-
-MERGE (n:AcademicQuality {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l4"})
-SET n += {type: "AcademicQuality", title: "学业质量", description: "学业质量是学生在完成课程学习后的学业成就表现，反映了核心素养的培养要求。义务教育化学课程学业质量标准是以化学课程对核心素养的目标要求为依据、结合课程内容对学生学业成就的具体表现特征进行的整体刻画，用于反映课程目标的达成程度。学业质量标准是化学学业水平考试命题的重要依据，对化学教材编写、教学和评价实施具有重要的指导作用。", subject: "SB0402", applicableLevel: "OB03", contentJson: "{\"aspect\": \"物质转化与应用\", \"aspectDescription\": \"在常见的生产生活和社会情境中，能初步运用化学观念解释与化学相关的现象和事实，参与相关的简单的实践活动；能将化学知识与生产生活实际相结合，主动关注有关空气和水资源保护、资源回收再利用、健康安全、化学品妥善保存与合理使用等实际问题，并参与讨论；能从科学、技术、社会、环境的相互关系，安全环保和科学伦理等角度，辩证分析与化学相关的简单的社会性科学议题，尝试提出自己的见解和建议，作出合理的价值判断，初步形成节能低碳、节约资源、保护环境的态度和绿色出行的健康生活方式；能从化学角度认识我国生态环境保护、食品安全、公共卫生等法律法规对促进社会可持续发展的重要性；能体会化学科学在应对环境污染、资源匮乏、能源危机、药物短缺等人类面临的重大挑战中作出的创造性贡献。\"}", identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l4", CJ_aspect: "物质转化与应用", CJ_aspectDescription: "在常见的生产生活和社会情境中，能初步运用化学观念解释与化学相关的现象和事实，参与相关的简单的实践活动；能将化学知识与生产生活实际相结合，主动关注有关空气和水资源保护、资源回收再利用、健康安全、化学品妥善保存与合理使用等实际问题，并参与讨论；能从科学、技术、社会、环境的相互关系，安全环保和科学伦理等角度，辩证分析与化学相关的简单的社会性科学议题，尝试提出自己的见解和建议，作出合理的价值判断，初步形成节能低碳、节约资源、保护环境的态度和绿色出行的健康生活方式；能从化学角度认识我国生态环境保护、食品安全、公共卫生等法律法规对促进社会可持续发展的重要性；能体会化学科学在应对环境污染、资源匮乏、能源危机、药物短缺等人类面临的重大挑战中作出的创造性贡献。"};
-
 MERGE (n:Method {identifier: "urn:jy:chemistry:SB0402:OB03:Method:l1"})
 SET n += {type: "Method", title: "化学实验探究的思路与方法", description: "通过具体的实验活动初步形成化学实验探究的一般思路与方法，知道围绕实验目的确定实验原理，选择实验仪器，组装实验装置，设计实验步骤，实施实验并完成实验记录，基于实验事实得出结论。\n\n通过具体的化学实验探究活动，学习研究物质性质，探究物质组成和反应规律，进行物质分离、检验和制备等不同类型化学实验探究活动的一般思路与基本方法；学习控制变量和对比实验的实验设计方法。\n\n通过化学科学发展历程中的经典实验，学习和体会化学家进行科学探究的智慧和方法，理解科学探究的本质。", subject: "SB0402", applicableLevel: "OB03", contentJson: "{}", identifier: "urn:jy:chemistry:SB0402:OB03:Method:l1"};
 
@@ -342,10 +327,580 @@ SET n += {type: "Method", title: "认识化学反应的思路与方法", descrip
 MERGE (n:Method {identifier: "urn:jy:chemistry:SB0402:OB03:Method:l5"})
 SET n += {type: "Method", title: "化学、技术、工程融合解决跨学科问题的思路与方法", description: "通过实践活动，初步形成应用元素观、变化观等化学观念和科学探究方法解决问题的思路；认识在解决实际问题时，需要综合运用各学科知识，采用合适的方法和工具，以及系统规划和实施；体会有效使用科学技术，以及合作、协同创新解决问题的重要性。", subject: "SB0402", applicableLevel: "OB03", contentJson: "{}", identifier: "urn:jy:chemistry:SB0402:OB03:Method:l5"};
 
+MERGE (n:Conception {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l1"})
+SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l1", title: "化学科学本质", description: "知道化学是研究物质的组成、结构、性质、转化及应用的一门基础学科，其特征是从分子层次认识物质，通过化学变化创造物质；初步了解化学科学的发展历程，体会实验探究和模型建构是化学科学研究的基本方法；认识化学科学、技术、社会、环境的相互关系，了解化学科学对社会发展和人类文明进步的重要价值。\n感悟科学家崇尚真理、严谨求实的科学态度，勇于质疑、批判和创新的精神；学习科学家爱国、奉献的精神，团结协作、攻坚克难的品格。", subject: "SB0402", type: "Conception", applicableLevel: "OB03", contentJson: "{}"};
+
+MERGE (n:Conception {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l2"})
+SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l2", title: "物质的多样性", description: "认识物质是多样的，知道物质既有天然存在的也有人工创造的，既有无机物也有有机物；认识依据物质的组成和性质可以对物质进行分类，知道物质可以分为纯净物和混合物、单质和化合物等；知道物质具有独特的物理性质和化学性质，同类物质在性质上具有一定的相似性；知道物质具有广泛的应用价值，物质的性质决定用途。", subject: "SB0402", type: "Conception", applicableLevel: "OB03", contentJson: "{}"};
+
+MERGE (n:Conception {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l3"})
+SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l3", title: "物质的组成", description: "初步形成基于元素和分子、原子认识物质及其变化的视角，建立认识物质的宏观和微观视角之间的关联，知道物质的性质与组成、结构有关。", subject: "SB0402", type: "Conception", applicableLevel: "OB03", contentJson: "{}"};
+
+MERGE (n:Conception {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l4"})
+SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l4", title: "物质的变化与转化", description: "知道物质是在不断变化的，物质变化包括物理变化和化学变化；认识物质的变化过程伴随着能量变化，在一定条件下通过化学反应可以实现物质转化，化学反应中的各物质间存在定量关系，初步形成变化观。", subject: "SB0402", type: "Conception", applicableLevel: "OB03", contentJson: "{}"};
+
+MERGE (n:Conception {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l5"})
+SET n += {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l5", title: "化学与可持续发展", description: "知道科学和技术有助于解决社会问题，使用科学和技术时要考虑其对社会和环境的影响，理解科学、技术、社会、环境的相互关系；认识化学在解决与资源、能源、材料、环境、人类健康等相关的问题中的作用，体会化学是推动人类社会可持续发展的重要力量，树立建设美丽中国、为全球生态安全作贡献的信念；主动践行节约资源、环境友好的生活方式，树立人与自然和谐共生的科学自然观和绿色发展观。", subject: "SB0402", type: "Conception", applicableLevel: "OB03", contentJson: "{}"};
+
 // =====================================================
 // 导入关系
 // =====================================================
 
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
+MERGE (source)-[r:ExperimentSupportsTheme]->(target)
+SET r.label = "实验支撑学习主题 / supportsTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l1"})
+MERGE (source)-[r:themeIncludesExperiment]->(target)
+SET r.label = "学习主题包含实验 / includesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
+MERGE (source)-[r:ExperimentSupportsTheme]->(target)
+SET r.label = "实验支撑学习主题 / supportsTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l2"})
+MERGE (source)-[r:themeIncludesExperiment]->(target)
+SET r.label = "学习主题包含实验 / includesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
+MERGE (source)-[r:ExperimentSupportsTheme]->(target)
+SET r.label = "实验支撑学习主题 / supportsTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l3"})
+MERGE (source)-[r:themeIncludesExperiment]->(target)
+SET r.label = "学习主题包含实验 / includesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
+MERGE (source)-[r:ExperimentSupportsTheme]->(target)
+SET r.label = "实验支撑学习主题 / supportsTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l4"})
+MERGE (source)-[r:themeIncludesExperiment]->(target)
+SET r.label = "学习主题包含实验 / includesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l5"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
+MERGE (source)-[r:ExperimentSupportsTheme]->(target)
+SET r.label = "实验支撑学习主题 / supportsTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l5"})
+MERGE (source)-[r:themeIncludesExperiment]->(target)
+SET r.label = "学习主题包含实验 / includesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l6"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
+MERGE (source)-[r:ExperimentSupportsTheme]->(target)
+SET r.label = "实验支撑学习主题 / supportsTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l6"})
+MERGE (source)-[r:themeIncludesExperiment]->(target)
+SET r.label = "学习主题包含实验 / includesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
+MERGE (source)-[r:ExperimentSupportsTheme]->(target)
+SET r.label = "实验支撑学习主题 / supportsTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
+MERGE (source)-[r:themeIncludesExperiment]->(target)
+SET r.label = "学习主题包含实验 / includesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l8"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
+MERGE (source)-[r:ExperimentSupportsTheme]->(target)
+SET r.label = "实验支撑学习主题 / supportsTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l8"})
+MERGE (source)-[r:themeIncludesExperiment]->(target)
+SET r.label = "学习主题包含实验 / includesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
+MERGE (source)-[r:ExperimentSupportsTheme]->(target)
+SET r.label = "实验支撑学习主题 / supportsTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l1"})
+MERGE (source)-[r:themeIncludesExperiment]->(target)
+SET r.label = "学习主题包含实验 / includesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
+MERGE (source)-[r:ExperimentSupportsTheme]->(target)
+SET r.label = "实验支撑学习主题 / supportsTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l2"})
+MERGE (source)-[r:themeIncludesExperiment]->(target)
+SET r.label = "学习主题包含实验 / includesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
+MERGE (source)-[r:ExperimentSupportsTheme]->(target)
+SET r.label = "实验支撑学习主题 / supportsTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l3"})
+MERGE (source)-[r:themeIncludesExperiment]->(target)
+SET r.label = "学习主题包含实验 / includesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
+MERGE (source)-[r:ExperimentSupportsTheme]->(target)
+SET r.label = "实验支撑学习主题 / supportsTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l4"})
+MERGE (source)-[r:themeIncludesExperiment]->(target)
+SET r.label = "学习主题包含实验 / includesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l5"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
+MERGE (source)-[r:ExperimentSupportsTheme]->(target)
+SET r.label = "实验支撑学习主题 / supportsTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l5"})
+MERGE (source)-[r:themeIncludesExperiment]->(target)
+SET r.label = "学习主题包含实验 / includesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l6"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
+MERGE (source)-[r:ExperimentSupportsTheme]->(target)
+SET r.label = "实验支撑学习主题 / supportsTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l6"})
+MERGE (source)-[r:themeIncludesExperiment]->(target)
+SET r.label = "学习主题包含实验 / includesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l3"})
+MERGE (source)-[r:ExperimentSupportsTheme]->(target)
+SET r.label = "实验支撑学习主题 / supportsTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
+MERGE (source)-[r:themeIncludesExperiment]->(target)
+SET r.label = "学习主题包含实验 / includesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l8"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l4"})
+MERGE (source)-[r:ExperimentSupportsTheme]->(target)
+SET r.label = "实验支撑学习主题 / supportsTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l8"})
+MERGE (source)-[r:themeIncludesExperiment]->(target)
+SET r.label = "学习主题包含实验 / includesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l1"})
+MERGE (source)-[r:themeCoversCoreKnowledge]->(target)
+SET r.label = "学习主题统摄核心知识点 / coversCoreKnowledge";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l2"})
+MERGE (source)-[r:themeCoversCoreKnowledge]->(target)
+SET r.label = "学习主题统摄核心知识点 / coversCoreKnowledge";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l3"})
+MERGE (source)-[r:themeCoversCoreKnowledge]->(target)
+SET r.label = "学习主题统摄核心知识点 / coversCoreKnowledge";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l4"})
+MERGE (source)-[r:themeCoversCoreKnowledge]->(target)
+SET r.label = "学习主题统摄核心知识点 / coversCoreKnowledge";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l5"})
+MERGE (source)-[r:themeCoversCoreKnowledge]->(target)
+SET r.label = "学习主题统摄核心知识点 / coversCoreKnowledge";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l6"})
+MERGE (source)-[r:themeCoversCoreKnowledge]->(target)
+SET r.label = "学习主题统摄核心知识点 / coversCoreKnowledge";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l7"})
+MERGE (source)-[r:themeCoversCoreKnowledge]->(target)
+SET r.label = "学习主题统摄核心知识点 / coversCoreKnowledge";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l8"})
+MERGE (source)-[r:themeCoversCoreKnowledge]->(target)
+SET r.label = "学习主题统摄核心知识点 / coversCoreKnowledge";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l9"})
+MERGE (source)-[r:themeCoversCoreKnowledge]->(target)
+SET r.label = "学习主题统摄核心知识点 / coversCoreKnowledge";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l10"})
+MERGE (source)-[r:themeCoversCoreKnowledge]->(target)
+SET r.label = "学习主题统摄核心知识点 / coversCoreKnowledge";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l11"})
+MERGE (source)-[r:themeCoversCoreKnowledge]->(target)
+SET r.label = "学习主题统摄核心知识点 / coversCoreKnowledge";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l5"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l12"})
+MERGE (source)-[r:themeCoversCoreKnowledge]->(target)
+SET r.label = "学习主题统摄核心知识点 / coversCoreKnowledge";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
+MERGE (source)-[r:literacyGuidesTheme]->(target)
+SET r.label = "统领学习主题 / guidesTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
+MERGE (source)-[r:literacyGuidesTheme]->(target)
+SET r.label = "统领学习主题 / guidesTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l3"})
+MERGE (source)-[r:literacyGuidesTheme]->(target)
+SET r.label = "统领学习主题 / guidesTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l4"})
+MERGE (source)-[r:literacyGuidesTheme]->(target)
+SET r.label = "统领学习主题 / guidesTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l5"})
+MERGE (source)-[r:literacyGuidesTheme]->(target)
+SET r.label = "统领学习主题 / guidesTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l5"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
+MERGE (source)-[r:literacyGuidesTheme]->(target)
+SET r.label = "统领学习主题 / guidesTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
+MERGE (source)-[r:literacyGuidesTheme]->(target)
+SET r.label = "统领学习主题 / guidesTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l3"})
+MERGE (source)-[r:literacyGuidesTheme]->(target)
+SET r.label = "统领学习主题 / guidesTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l4"})
+MERGE (source)-[r:literacyGuidesTheme]->(target)
+SET r.label = "统领学习主题 / guidesTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l5"})
+MERGE (source)-[r:literacyGuidesTheme]->(target)
+SET r.label = "统领学习主题 / guidesTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l5"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
+MERGE (source)-[r:literacyGuidesTheme]->(target)
+SET r.label = "统领学习主题 / guidesTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
+MERGE (source)-[r:literacyGuidesTheme]->(target)
+SET r.label = "统领学习主题 / guidesTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l3"})
+MERGE (source)-[r:literacyGuidesTheme]->(target)
+SET r.label = "统领学习主题 / guidesTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l4"})
+MERGE (source)-[r:literacyGuidesTheme]->(target)
+SET r.label = "统领学习主题 / guidesTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l5"})
+MERGE (source)-[r:literacyGuidesTheme]->(target)
+SET r.label = "统领学习主题 / guidesTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l5"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
+MERGE (source)-[r:literacyGuidesTheme]->(target)
+SET r.label = "统领学习主题 / guidesTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
+MERGE (source)-[r:literacyGuidesTheme]->(target)
+SET r.label = "统领学习主题 / guidesTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l3"})
+MERGE (source)-[r:literacyGuidesTheme]->(target)
+SET r.label = "统领学习主题 / guidesTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l4"})
+MERGE (source)-[r:literacyGuidesTheme]->(target)
+SET r.label = "统领学习主题 / guidesTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l5"})
+MERGE (source)-[r:literacyGuidesTheme]->(target)
+SET r.label = "统领学习主题 / guidesTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l5"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
+MERGE (source)-[r:themeCultivatesLiteracy]->(target)
+SET r.label = "培育核心素养 / cultivatesLiteracy";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l2"})
+MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
+SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l4"})
+MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
+SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l2"})
+MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
+SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l3"})
+MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
+SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l2"})
+MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
+SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l3"})
+MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
+SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l6"})
+MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
+SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l2"})
+MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
+SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l5"})
+MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
+SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l5"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l2"})
+MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
+SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l5"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l6"})
+MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
+SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l6"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l2"})
+MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
+SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l6"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l4"})
+MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
+SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l1"})
+MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
+SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l2"})
+MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
+SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l4"})
+MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
+SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l7"})
+MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
+SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l8"})
+MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
+SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l9"})
+MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
+SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l8"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l1"})
+MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
+SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l8"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l2"})
+MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
+SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l8"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l10"})
+MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
+SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l1"})
+MERGE (source)-[r:themeImplementsConception]->(target)
+SET r.label = "学习主题落实大概念 / implementsConception";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l2"})
+MERGE (source)-[r:themeImplementsConception]->(target)
+SET r.label = "学习主题落实大概念 / implementsConception";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l3"})
+MERGE (source)-[r:themeImplementsConception]->(target)
+SET r.label = "学习主题落实大概念 / implementsConception";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l4"})
+MERGE (source)-[r:themeImplementsConception]->(target)
+SET r.label = "学习主题落实大概念 / implementsConception";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l5"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l5"})
+MERGE (source)-[r:themeImplementsConception]->(target)
+SET r.label = "学习主题落实大概念 / implementsConception";
+
 MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CourseTarget:l1"})
 MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
 MERGE (source)-[r:targetGuidesTheme]->(target)
@@ -546,205 +1101,425 @@ MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CourseTarget:l4"})
 MERGE (source)-[r:themeAchievesTarget]->(target)
 SET r.label = "学习主题达成课程目标 / achievesTarget";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l1"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l3"})
+MERGE (source)-[r:ExperimentBelongsToChapter]->(target)
+SET r.label = "实验隶属章节 / belongsToChapter";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l5"})
+MERGE (source)-[r:ExperimentBelongsToChapter]->(target)
+SET r.label = "实验隶属章节 / belongsToChapter";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l7"})
+MERGE (source)-[r:ExperimentBelongsToChapter]->(target)
+SET r.label = "实验隶属章节 / belongsToChapter";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l8"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l8"})
+MERGE (source)-[r:ExperimentBelongsToChapter]->(target)
+SET r.label = "实验隶属章节 / belongsToChapter";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l9"})
+MERGE (source)-[r:ExperimentBelongsToChapter]->(target)
+SET r.label = "实验隶属章节 / belongsToChapter";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l6"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l10"})
+MERGE (source)-[r:ExperimentBelongsToChapter]->(target)
+SET r.label = "实验隶属章节 / belongsToChapter";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l5"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l11"})
+MERGE (source)-[r:ExperimentBelongsToChapter]->(target)
+SET r.label = "实验隶属章节 / belongsToChapter";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l12"})
+MERGE (source)-[r:ExperimentBelongsToChapter]->(target)
+SET r.label = "实验隶属章节 / belongsToChapter";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l6"})
+MERGE (source)-[r:ExperimentSupportsSection]->(target)
+SET r.label = "实验支撑小节 / supportsSection";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l6"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l2"})
+MERGE (source)-[r:SectionIncludesExperiment]->(target)
+SET r.label = "小节包含实验 / includesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l5"})
+MERGE (source)-[r:ExperimentSupportsSection]->(target)
+SET r.label = "实验支撑小节 / supportsSection";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l5"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l2"})
+MERGE (source)-[r:SectionIncludesExperiment]->(target)
+SET r.label = "小节包含实验 / includesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l4"})
+MERGE (source)-[r:ExperimentSupportsSection]->(target)
+SET r.label = "实验支撑小节 / supportsSection";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l2"})
+MERGE (source)-[r:SectionIncludesExperiment]->(target)
+SET r.label = "小节包含实验 / includesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l11"})
+MERGE (source)-[r:ExperimentSupportsSection]->(target)
+SET r.label = "实验支撑小节 / supportsSection";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l11"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
+MERGE (source)-[r:SectionIncludesExperiment]->(target)
+SET r.label = "小节包含实验 / includesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l12"})
+MERGE (source)-[r:ExperimentSupportsSection]->(target)
+SET r.label = "实验支撑小节 / supportsSection";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l12"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
+MERGE (source)-[r:SectionIncludesExperiment]->(target)
+SET r.label = "小节包含实验 / includesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l10"})
+MERGE (source)-[r:ExperimentSupportsSection]->(target)
+SET r.label = "实验支撑小节 / supportsSection";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l10"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
+MERGE (source)-[r:SectionIncludesExperiment]->(target)
+SET r.label = "小节包含实验 / includesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l17"})
+MERGE (source)-[r:ExperimentSupportsSection]->(target)
+SET r.label = "实验支撑小节 / supportsSection";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l17"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l3"})
+MERGE (source)-[r:SectionIncludesExperiment]->(target)
+SET r.label = "小节包含实验 / includesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l16"})
+MERGE (source)-[r:ExperimentSupportsSection]->(target)
+SET r.label = "实验支撑小节 / supportsSection";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l16"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l3"})
+MERGE (source)-[r:SectionIncludesExperiment]->(target)
+SET r.label = "小节包含实验 / includesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l15"})
+MERGE (source)-[r:ExperimentSupportsSection]->(target)
+SET r.label = "实验支撑小节 / supportsSection";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l15"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l3"})
+MERGE (source)-[r:SectionIncludesExperiment]->(target)
+SET r.label = "小节包含实验 / includesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l8"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l18"})
+MERGE (source)-[r:ExperimentSupportsSection]->(target)
+SET r.label = "实验支撑小节 / supportsSection";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l18"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l8"})
+MERGE (source)-[r:SectionIncludesExperiment]->(target)
+SET r.label = "小节包含实验 / includesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l8"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l19"})
+MERGE (source)-[r:ExperimentSupportsSection]->(target)
+SET r.label = "实验支撑小节 / supportsSection";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l19"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l8"})
+MERGE (source)-[r:SectionIncludesExperiment]->(target)
+SET r.label = "小节包含实验 / includesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l21"})
+MERGE (source)-[r:ExperimentSupportsSection]->(target)
+SET r.label = "实验支撑小节 / supportsSection";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l21"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l4"})
+MERGE (source)-[r:SectionIncludesExperiment]->(target)
+SET r.label = "小节包含实验 / includesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l20"})
+MERGE (source)-[r:ExperimentSupportsSection]->(target)
+SET r.label = "实验支撑小节 / supportsSection";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l20"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l4"})
+MERGE (source)-[r:SectionIncludesExperiment]->(target)
+SET r.label = "小节包含实验 / includesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l22"})
+MERGE (source)-[r:ExperimentSupportsSection]->(target)
+SET r.label = "实验支撑小节 / supportsSection";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l22"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l4"})
+MERGE (source)-[r:SectionIncludesExperiment]->(target)
+SET r.label = "小节包含实验 / includesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l6"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l25"})
+MERGE (source)-[r:ExperimentSupportsSection]->(target)
+SET r.label = "实验支撑小节 / supportsSection";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l25"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l6"})
+MERGE (source)-[r:SectionIncludesExperiment]->(target)
+SET r.label = "小节包含实验 / includesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l6"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l23"})
+MERGE (source)-[r:ExperimentSupportsSection]->(target)
+SET r.label = "实验支撑小节 / supportsSection";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l23"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l6"})
+MERGE (source)-[r:SectionIncludesExperiment]->(target)
+SET r.label = "小节包含实验 / includesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l6"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l24"})
+MERGE (source)-[r:ExperimentSupportsSection]->(target)
+SET r.label = "实验支撑小节 / supportsSection";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l24"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l6"})
+MERGE (source)-[r:SectionIncludesExperiment]->(target)
+SET r.label = "小节包含实验 / includesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l5"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l26"})
+MERGE (source)-[r:ExperimentSupportsSection]->(target)
+SET r.label = "实验支撑小节 / supportsSection";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l26"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l5"})
+MERGE (source)-[r:SectionIncludesExperiment]->(target)
+SET r.label = "小节包含实验 / includesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l5"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l27"})
+MERGE (source)-[r:ExperimentSupportsSection]->(target)
+SET r.label = "实验支撑小节 / supportsSection";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l27"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l5"})
+MERGE (source)-[r:SectionIncludesExperiment]->(target)
+SET r.label = "小节包含实验 / includesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l28"})
+MERGE (source)-[r:ExperimentSupportsSection]->(target)
+SET r.label = "实验支撑小节 / supportsSection";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l28"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l1"})
+MERGE (source)-[r:SectionIncludesExperiment]->(target)
+SET r.label = "小节包含实验 / includesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l29"})
+MERGE (source)-[r:ExperimentSupportsSection]->(target)
+SET r.label = "实验支撑小节 / supportsSection";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l29"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l1"})
+MERGE (source)-[r:SectionIncludesExperiment]->(target)
+SET r.label = "小节包含实验 / includesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l2"})
+MERGE (source)-[r:ExperimentImplementsConception]->(target)
+SET r.label = "实验落实大概念 / implementsConception";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l1"})
+MERGE (source)-[r:ConceptionGuidesExperiment]->(target)
+SET r.label = "大概念统领实验 / guidesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l2"})
+MERGE (source)-[r:ExperimentImplementsConception]->(target)
+SET r.label = "实验落实大概念 / implementsConception";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l2"})
+MERGE (source)-[r:ConceptionGuidesExperiment]->(target)
+SET r.label = "大概念统领实验 / guidesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l2"})
+MERGE (source)-[r:ExperimentImplementsConception]->(target)
+SET r.label = "实验落实大概念 / implementsConception";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l3"})
+MERGE (source)-[r:ConceptionGuidesExperiment]->(target)
+SET r.label = "大概念统领实验 / guidesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l2"})
+MERGE (source)-[r:ExperimentImplementsConception]->(target)
+SET r.label = "实验落实大概念 / implementsConception";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l4"})
+MERGE (source)-[r:ConceptionGuidesExperiment]->(target)
+SET r.label = "大概念统领实验 / guidesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l5"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l2"})
+MERGE (source)-[r:ExperimentImplementsConception]->(target)
+SET r.label = "实验落实大概念 / implementsConception";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l5"})
+MERGE (source)-[r:ConceptionGuidesExperiment]->(target)
+SET r.label = "大概念统领实验 / guidesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l6"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l2"})
+MERGE (source)-[r:ExperimentImplementsConception]->(target)
+SET r.label = "实验落实大概念 / implementsConception";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l6"})
+MERGE (source)-[r:ConceptionGuidesExperiment]->(target)
+SET r.label = "大概念统领实验 / guidesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l3"})
+MERGE (source)-[r:ExperimentImplementsConception]->(target)
+SET r.label = "实验落实大概念 / implementsConception";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
+MERGE (source)-[r:ConceptionGuidesExperiment]->(target)
+SET r.label = "大概念统领实验 / guidesExperiment";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l8"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l4"})
+MERGE (source)-[r:ExperimentImplementsConception]->(target)
+SET r.label = "实验落实大概念 / implementsConception";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l8"})
+MERGE (source)-[r:ConceptionGuidesExperiment]->(target)
+SET r.label = "大概念统领实验 / guidesExperiment";
 
 MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l2"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l1"})
+MERGE (source)-[r:literacyGuidesQuality]->(target)
+SET r.label = "指导学业质量 / guidesQuality";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
+MERGE (source)-[r:qualityEmbodiesLiteracy]->(target)
+SET r.label = "体现核心素养 / embodiesLiteracy";
 
 MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l3"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l2"})
+MERGE (source)-[r:literacyGuidesQuality]->(target)
+SET r.label = "指导学业质量 / guidesQuality";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
+MERGE (source)-[r:qualityEmbodiesLiteracy]->(target)
+SET r.label = "体现核心素养 / embodiesLiteracy";
 
 MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l4"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l4"})
+MERGE (source)-[r:literacyGuidesQuality]->(target)
+SET r.label = "指导学业质量 / guidesQuality";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l5"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l6"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l7"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l8"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l9"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l10"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
+MERGE (source)-[r:qualityEmbodiesLiteracy]->(target)
+SET r.label = "体现核心素养 / embodiesLiteracy";
 
 MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l1"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l1"})
+MERGE (source)-[r:literacyGuidesQuality]->(target)
+SET r.label = "指导学业质量 / guidesQuality";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
+MERGE (source)-[r:qualityEmbodiesLiteracy]->(target)
+SET r.label = "体现核心素养 / embodiesLiteracy";
 
 MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l2"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l2"})
+MERGE (source)-[r:literacyGuidesQuality]->(target)
+SET r.label = "指导学业质量 / guidesQuality";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
+MERGE (source)-[r:qualityEmbodiesLiteracy]->(target)
+SET r.label = "体现核心素养 / embodiesLiteracy";
 
 MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l3"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l3"})
+MERGE (source)-[r:literacyGuidesQuality]->(target)
+SET r.label = "指导学业质量 / guidesQuality";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l4"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l5"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l6"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l7"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l8"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l9"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l10"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
+MERGE (source)-[r:qualityEmbodiesLiteracy]->(target)
+SET r.label = "体现核心素养 / embodiesLiteracy";
 
 MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l1"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l3"})
+MERGE (source)-[r:literacyGuidesQuality]->(target)
+SET r.label = "指导学业质量 / guidesQuality";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
+MERGE (source)-[r:qualityEmbodiesLiteracy]->(target)
+SET r.label = "体现核心素养 / embodiesLiteracy";
 
 MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l2"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l4"})
+MERGE (source)-[r:literacyGuidesQuality]->(target)
+SET r.label = "指导学业质量 / guidesQuality";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l3"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l4"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l5"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l6"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l7"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l8"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l9"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l10"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
+MERGE (source)-[r:qualityEmbodiesLiteracy]->(target)
+SET r.label = "体现核心素养 / embodiesLiteracy";
 
 MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l1"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l4"})
+MERGE (source)-[r:literacyGuidesQuality]->(target)
+SET r.label = "指导学业质量 / guidesQuality";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l2"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l3"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l4"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l5"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l6"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l7"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l8"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l9"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l10"})
-MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
-SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
+MERGE (source)-[r:qualityEmbodiesLiteracy]->(target)
+SET r.label = "体现核心素养 / embodiesLiteracy";
 
 MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l1"})
 MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l1"})
@@ -807,111 +1582,6 @@ MERGE (source)-[r:ConceptionStructuresCoreKnowledge]->(target)
 SET r.label = "大概念统摄核心知识 / structuresCoreKnowledge";
 
 MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Attitude:l1"})
-MERGE (source)-[r:themeCultivatesAttitude]->(target)
-SET r.label = "学习主题培育重要态度 / cultivatesAttitude";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Attitude:l2"})
-MERGE (source)-[r:themeCultivatesAttitude]->(target)
-SET r.label = "学习主题培育重要态度 / cultivatesAttitude";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Attitude:l3"})
-MERGE (source)-[r:themeCultivatesAttitude]->(target)
-SET r.label = "学习主题培育重要态度 / cultivatesAttitude";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Attitude:l4"})
-MERGE (source)-[r:themeCultivatesAttitude]->(target)
-SET r.label = "学习主题培育重要态度 / cultivatesAttitude";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l5"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Attitude:l5"})
-MERGE (source)-[r:themeCultivatesAttitude]->(target)
-SET r.label = "学习主题培育重要态度 / cultivatesAttitude";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l2"})
-MERGE (source)-[r:ExperimentImplementsConception]->(target)
-SET r.label = "实验落实大概念 / implementsConception";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l1"})
-MERGE (source)-[r:ConceptionGuidesExperiment]->(target)
-SET r.label = "大概念统领实验 / guidesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l2"})
-MERGE (source)-[r:ExperimentImplementsConception]->(target)
-SET r.label = "实验落实大概念 / implementsConception";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l2"})
-MERGE (source)-[r:ConceptionGuidesExperiment]->(target)
-SET r.label = "大概念统领实验 / guidesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l2"})
-MERGE (source)-[r:ExperimentImplementsConception]->(target)
-SET r.label = "实验落实大概念 / implementsConception";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l3"})
-MERGE (source)-[r:ConceptionGuidesExperiment]->(target)
-SET r.label = "大概念统领实验 / guidesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l2"})
-MERGE (source)-[r:ExperimentImplementsConception]->(target)
-SET r.label = "实验落实大概念 / implementsConception";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l4"})
-MERGE (source)-[r:ConceptionGuidesExperiment]->(target)
-SET r.label = "大概念统领实验 / guidesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l5"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l2"})
-MERGE (source)-[r:ExperimentImplementsConception]->(target)
-SET r.label = "实验落实大概念 / implementsConception";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l5"})
-MERGE (source)-[r:ConceptionGuidesExperiment]->(target)
-SET r.label = "大概念统领实验 / guidesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l6"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l2"})
-MERGE (source)-[r:ExperimentImplementsConception]->(target)
-SET r.label = "实验落实大概念 / implementsConception";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l6"})
-MERGE (source)-[r:ConceptionGuidesExperiment]->(target)
-SET r.label = "大概念统领实验 / guidesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l3"})
-MERGE (source)-[r:ExperimentImplementsConception]->(target)
-SET r.label = "实验落实大概念 / implementsConception";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
-MERGE (source)-[r:ConceptionGuidesExperiment]->(target)
-SET r.label = "大概念统领实验 / guidesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l8"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l4"})
-MERGE (source)-[r:ExperimentImplementsConception]->(target)
-SET r.label = "实验落实大概念 / implementsConception";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l8"})
-MERGE (source)-[r:ConceptionGuidesExperiment]->(target)
-SET r.label = "大概念统领实验 / guidesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
 MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Method:l1"})
 MERGE (source)-[r:themeImplementsMethod]->(target)
 SET r.label = "学习主题落实思路与方法 / implementsMethod";
@@ -935,771 +1605,6 @@ MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l5"})
 MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Method:l5"})
 MERGE (source)-[r:themeImplementsMethod]->(target)
 SET r.label = "学习主题落实思路与方法 / implementsMethod";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l1"})
-MERGE (source)-[r:themeCoversCoreKnowledge]->(target)
-SET r.label = "学习主题统摄核心知识点 / coversCoreKnowledge";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l2"})
-MERGE (source)-[r:themeCoversCoreKnowledge]->(target)
-SET r.label = "学习主题统摄核心知识点 / coversCoreKnowledge";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l3"})
-MERGE (source)-[r:themeCoversCoreKnowledge]->(target)
-SET r.label = "学习主题统摄核心知识点 / coversCoreKnowledge";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l4"})
-MERGE (source)-[r:themeCoversCoreKnowledge]->(target)
-SET r.label = "学习主题统摄核心知识点 / coversCoreKnowledge";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l5"})
-MERGE (source)-[r:themeCoversCoreKnowledge]->(target)
-SET r.label = "学习主题统摄核心知识点 / coversCoreKnowledge";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l6"})
-MERGE (source)-[r:themeCoversCoreKnowledge]->(target)
-SET r.label = "学习主题统摄核心知识点 / coversCoreKnowledge";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l7"})
-MERGE (source)-[r:themeCoversCoreKnowledge]->(target)
-SET r.label = "学习主题统摄核心知识点 / coversCoreKnowledge";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l8"})
-MERGE (source)-[r:themeCoversCoreKnowledge]->(target)
-SET r.label = "学习主题统摄核心知识点 / coversCoreKnowledge";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l9"})
-MERGE (source)-[r:themeCoversCoreKnowledge]->(target)
-SET r.label = "学习主题统摄核心知识点 / coversCoreKnowledge";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l10"})
-MERGE (source)-[r:themeCoversCoreKnowledge]->(target)
-SET r.label = "学习主题统摄核心知识点 / coversCoreKnowledge";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l11"})
-MERGE (source)-[r:themeCoversCoreKnowledge]->(target)
-SET r.label = "学习主题统摄核心知识点 / coversCoreKnowledge";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l5"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l12"})
-MERGE (source)-[r:themeCoversCoreKnowledge]->(target)
-SET r.label = "学习主题统摄核心知识点 / coversCoreKnowledge";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l2"})
-MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
-SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l4"})
-MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
-SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l2"})
-MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
-SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l3"})
-MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
-SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l2"})
-MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
-SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l3"})
-MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
-SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l6"})
-MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
-SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l2"})
-MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
-SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l5"})
-MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
-SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l5"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l2"})
-MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
-SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l5"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l6"})
-MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
-SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l6"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l2"})
-MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
-SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l6"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l4"})
-MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
-SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l1"})
-MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
-SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l2"})
-MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
-SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l4"})
-MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
-SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l7"})
-MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
-SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l8"})
-MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
-SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l9"})
-MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
-SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l8"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l1"})
-MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
-SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l8"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l2"})
-MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
-SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l8"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l10"})
-MERGE (source)-[r:ExperimentEmbodiesCoreKnowledge]->(target)
-SET r.label = "实验体现核心知识 / embodiesCoreKnowledge";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l6"})
-MERGE (source)-[r:ExperimentSupportsSection]->(target)
-SET r.label = "实验支撑小节 / supportsSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l6"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l2"})
-MERGE (source)-[r:SectionIncludesExperiment]->(target)
-SET r.label = "小节包含实验 / includesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l5"})
-MERGE (source)-[r:ExperimentSupportsSection]->(target)
-SET r.label = "实验支撑小节 / supportsSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l5"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l2"})
-MERGE (source)-[r:SectionIncludesExperiment]->(target)
-SET r.label = "小节包含实验 / includesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l4"})
-MERGE (source)-[r:ExperimentSupportsSection]->(target)
-SET r.label = "实验支撑小节 / supportsSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l2"})
-MERGE (source)-[r:SectionIncludesExperiment]->(target)
-SET r.label = "小节包含实验 / includesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l11"})
-MERGE (source)-[r:ExperimentSupportsSection]->(target)
-SET r.label = "实验支撑小节 / supportsSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l11"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
-MERGE (source)-[r:SectionIncludesExperiment]->(target)
-SET r.label = "小节包含实验 / includesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l12"})
-MERGE (source)-[r:ExperimentSupportsSection]->(target)
-SET r.label = "实验支撑小节 / supportsSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l12"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
-MERGE (source)-[r:SectionIncludesExperiment]->(target)
-SET r.label = "小节包含实验 / includesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l10"})
-MERGE (source)-[r:ExperimentSupportsSection]->(target)
-SET r.label = "实验支撑小节 / supportsSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l10"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
-MERGE (source)-[r:SectionIncludesExperiment]->(target)
-SET r.label = "小节包含实验 / includesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l17"})
-MERGE (source)-[r:ExperimentSupportsSection]->(target)
-SET r.label = "实验支撑小节 / supportsSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l17"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l3"})
-MERGE (source)-[r:SectionIncludesExperiment]->(target)
-SET r.label = "小节包含实验 / includesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l16"})
-MERGE (source)-[r:ExperimentSupportsSection]->(target)
-SET r.label = "实验支撑小节 / supportsSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l16"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l3"})
-MERGE (source)-[r:SectionIncludesExperiment]->(target)
-SET r.label = "小节包含实验 / includesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l15"})
-MERGE (source)-[r:ExperimentSupportsSection]->(target)
-SET r.label = "实验支撑小节 / supportsSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l15"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l3"})
-MERGE (source)-[r:SectionIncludesExperiment]->(target)
-SET r.label = "小节包含实验 / includesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l8"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l18"})
-MERGE (source)-[r:ExperimentSupportsSection]->(target)
-SET r.label = "实验支撑小节 / supportsSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l18"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l8"})
-MERGE (source)-[r:SectionIncludesExperiment]->(target)
-SET r.label = "小节包含实验 / includesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l8"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l19"})
-MERGE (source)-[r:ExperimentSupportsSection]->(target)
-SET r.label = "实验支撑小节 / supportsSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l19"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l8"})
-MERGE (source)-[r:SectionIncludesExperiment]->(target)
-SET r.label = "小节包含实验 / includesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l21"})
-MERGE (source)-[r:ExperimentSupportsSection]->(target)
-SET r.label = "实验支撑小节 / supportsSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l21"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l4"})
-MERGE (source)-[r:SectionIncludesExperiment]->(target)
-SET r.label = "小节包含实验 / includesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l20"})
-MERGE (source)-[r:ExperimentSupportsSection]->(target)
-SET r.label = "实验支撑小节 / supportsSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l20"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l4"})
-MERGE (source)-[r:SectionIncludesExperiment]->(target)
-SET r.label = "小节包含实验 / includesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l22"})
-MERGE (source)-[r:ExperimentSupportsSection]->(target)
-SET r.label = "实验支撑小节 / supportsSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l22"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l4"})
-MERGE (source)-[r:SectionIncludesExperiment]->(target)
-SET r.label = "小节包含实验 / includesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l6"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l25"})
-MERGE (source)-[r:ExperimentSupportsSection]->(target)
-SET r.label = "实验支撑小节 / supportsSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l25"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l6"})
-MERGE (source)-[r:SectionIncludesExperiment]->(target)
-SET r.label = "小节包含实验 / includesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l6"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l23"})
-MERGE (source)-[r:ExperimentSupportsSection]->(target)
-SET r.label = "实验支撑小节 / supportsSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l23"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l6"})
-MERGE (source)-[r:SectionIncludesExperiment]->(target)
-SET r.label = "小节包含实验 / includesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l6"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l24"})
-MERGE (source)-[r:ExperimentSupportsSection]->(target)
-SET r.label = "实验支撑小节 / supportsSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l24"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l6"})
-MERGE (source)-[r:SectionIncludesExperiment]->(target)
-SET r.label = "小节包含实验 / includesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l5"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l26"})
-MERGE (source)-[r:ExperimentSupportsSection]->(target)
-SET r.label = "实验支撑小节 / supportsSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l26"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l5"})
-MERGE (source)-[r:SectionIncludesExperiment]->(target)
-SET r.label = "小节包含实验 / includesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l5"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l27"})
-MERGE (source)-[r:ExperimentSupportsSection]->(target)
-SET r.label = "实验支撑小节 / supportsSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l27"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l5"})
-MERGE (source)-[r:SectionIncludesExperiment]->(target)
-SET r.label = "小节包含实验 / includesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l28"})
-MERGE (source)-[r:ExperimentSupportsSection]->(target)
-SET r.label = "实验支撑小节 / supportsSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l28"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l1"})
-MERGE (source)-[r:SectionIncludesExperiment]->(target)
-SET r.label = "小节包含实验 / includesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l29"})
-MERGE (source)-[r:ExperimentSupportsSection]->(target)
-SET r.label = "实验支撑小节 / supportsSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l29"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l1"})
-MERGE (source)-[r:SectionIncludesExperiment]->(target)
-SET r.label = "小节包含实验 / includesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l3"})
-MERGE (source)-[r:ExperimentBelongsToChapter]->(target)
-SET r.label = "实验隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l5"})
-MERGE (source)-[r:ExperimentBelongsToChapter]->(target)
-SET r.label = "实验隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l7"})
-MERGE (source)-[r:ExperimentBelongsToChapter]->(target)
-SET r.label = "实验隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l8"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l8"})
-MERGE (source)-[r:ExperimentBelongsToChapter]->(target)
-SET r.label = "实验隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l9"})
-MERGE (source)-[r:ExperimentBelongsToChapter]->(target)
-SET r.label = "实验隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l6"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l10"})
-MERGE (source)-[r:ExperimentBelongsToChapter]->(target)
-SET r.label = "实验隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l5"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l11"})
-MERGE (source)-[r:ExperimentBelongsToChapter]->(target)
-SET r.label = "实验隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l12"})
-MERGE (source)-[r:ExperimentBelongsToChapter]->(target)
-SET r.label = "实验隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l1"})
-MERGE (source)-[r:themeImplementsConception]->(target)
-SET r.label = "学习主题落实大概念 / implementsConception";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l2"})
-MERGE (source)-[r:themeImplementsConception]->(target)
-SET r.label = "学习主题落实大概念 / implementsConception";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l3"})
-MERGE (source)-[r:themeImplementsConception]->(target)
-SET r.label = "学习主题落实大概念 / implementsConception";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l4"})
-MERGE (source)-[r:themeImplementsConception]->(target)
-SET r.label = "学习主题落实大概念 / implementsConception";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l5"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Conception:l5"})
-MERGE (source)-[r:themeImplementsConception]->(target)
-SET r.label = "学习主题落实大概念 / implementsConception";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l1"})
-MERGE (source)-[r:SectionBelongsToChapter]->(target)
-SET r.label = "小节隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l1"})
-MERGE (source)-[r:ChapterIncludesSection]->(target)
-SET r.label = "章节包含小节 / includesSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l2"})
-MERGE (source)-[r:SectionBelongsToChapter]->(target)
-SET r.label = "小节隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l2"})
-MERGE (source)-[r:ChapterIncludesSection]->(target)
-SET r.label = "章节包含小节 / includesSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l2"})
-MERGE (source)-[r:SectionBelongsToChapter]->(target)
-SET r.label = "小节隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l3"})
-MERGE (source)-[r:ChapterIncludesSection]->(target)
-SET r.label = "章节包含小节 / includesSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l3"})
-MERGE (source)-[r:SectionBelongsToChapter]->(target)
-SET r.label = "小节隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l4"})
-MERGE (source)-[r:ChapterIncludesSection]->(target)
-SET r.label = "章节包含小节 / includesSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l5"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l3"})
-MERGE (source)-[r:SectionBelongsToChapter]->(target)
-SET r.label = "小节隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l5"})
-MERGE (source)-[r:ChapterIncludesSection]->(target)
-SET r.label = "章节包含小节 / includesSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l6"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l3"})
-MERGE (source)-[r:SectionBelongsToChapter]->(target)
-SET r.label = "小节隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l6"})
-MERGE (source)-[r:ChapterIncludesSection]->(target)
-SET r.label = "章节包含小节 / includesSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l7"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l4"})
-MERGE (source)-[r:SectionBelongsToChapter]->(target)
-SET r.label = "小节隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l7"})
-MERGE (source)-[r:ChapterIncludesSection]->(target)
-SET r.label = "章节包含小节 / includesSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l8"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l4"})
-MERGE (source)-[r:SectionBelongsToChapter]->(target)
-SET r.label = "小节隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l8"})
-MERGE (source)-[r:ChapterIncludesSection]->(target)
-SET r.label = "章节包含小节 / includesSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l9"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l4"})
-MERGE (source)-[r:SectionBelongsToChapter]->(target)
-SET r.label = "小节隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l9"})
-MERGE (source)-[r:ChapterIncludesSection]->(target)
-SET r.label = "章节包含小节 / includesSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l10"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l5"})
-MERGE (source)-[r:SectionBelongsToChapter]->(target)
-SET r.label = "小节隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l5"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l10"})
-MERGE (source)-[r:ChapterIncludesSection]->(target)
-SET r.label = "章节包含小节 / includesSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l11"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l5"})
-MERGE (source)-[r:SectionBelongsToChapter]->(target)
-SET r.label = "小节隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l5"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l11"})
-MERGE (source)-[r:ChapterIncludesSection]->(target)
-SET r.label = "章节包含小节 / includesSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l12"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l5"})
-MERGE (source)-[r:SectionBelongsToChapter]->(target)
-SET r.label = "小节隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l5"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l12"})
-MERGE (source)-[r:ChapterIncludesSection]->(target)
-SET r.label = "章节包含小节 / includesSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l13"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l6"})
-MERGE (source)-[r:SectionBelongsToChapter]->(target)
-SET r.label = "小节隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l6"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l13"})
-MERGE (source)-[r:ChapterIncludesSection]->(target)
-SET r.label = "章节包含小节 / includesSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l14"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l6"})
-MERGE (source)-[r:SectionBelongsToChapter]->(target)
-SET r.label = "小节隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l6"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l14"})
-MERGE (source)-[r:ChapterIncludesSection]->(target)
-SET r.label = "章节包含小节 / includesSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l15"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l7"})
-MERGE (source)-[r:SectionBelongsToChapter]->(target)
-SET r.label = "小节隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l7"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l15"})
-MERGE (source)-[r:ChapterIncludesSection]->(target)
-SET r.label = "章节包含小节 / includesSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l16"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l7"})
-MERGE (source)-[r:SectionBelongsToChapter]->(target)
-SET r.label = "小节隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l7"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l16"})
-MERGE (source)-[r:ChapterIncludesSection]->(target)
-SET r.label = "章节包含小节 / includesSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l17"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l7"})
-MERGE (source)-[r:SectionBelongsToChapter]->(target)
-SET r.label = "小节隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l7"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l17"})
-MERGE (source)-[r:ChapterIncludesSection]->(target)
-SET r.label = "章节包含小节 / includesSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l18"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l8"})
-MERGE (source)-[r:SectionBelongsToChapter]->(target)
-SET r.label = "小节隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l8"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l18"})
-MERGE (source)-[r:ChapterIncludesSection]->(target)
-SET r.label = "章节包含小节 / includesSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l19"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l8"})
-MERGE (source)-[r:SectionBelongsToChapter]->(target)
-SET r.label = "小节隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l8"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l19"})
-MERGE (source)-[r:ChapterIncludesSection]->(target)
-SET r.label = "章节包含小节 / includesSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l20"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l9"})
-MERGE (source)-[r:SectionBelongsToChapter]->(target)
-SET r.label = "小节隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l9"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l20"})
-MERGE (source)-[r:ChapterIncludesSection]->(target)
-SET r.label = "章节包含小节 / includesSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l21"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l9"})
-MERGE (source)-[r:SectionBelongsToChapter]->(target)
-SET r.label = "小节隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l9"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l21"})
-MERGE (source)-[r:ChapterIncludesSection]->(target)
-SET r.label = "章节包含小节 / includesSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l22"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l9"})
-MERGE (source)-[r:SectionBelongsToChapter]->(target)
-SET r.label = "小节隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l9"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l22"})
-MERGE (source)-[r:ChapterIncludesSection]->(target)
-SET r.label = "章节包含小节 / includesSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l23"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l10"})
-MERGE (source)-[r:SectionBelongsToChapter]->(target)
-SET r.label = "小节隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l10"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l23"})
-MERGE (source)-[r:ChapterIncludesSection]->(target)
-SET r.label = "章节包含小节 / includesSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l24"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l10"})
-MERGE (source)-[r:SectionBelongsToChapter]->(target)
-SET r.label = "小节隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l10"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l24"})
-MERGE (source)-[r:ChapterIncludesSection]->(target)
-SET r.label = "章节包含小节 / includesSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l25"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l10"})
-MERGE (source)-[r:SectionBelongsToChapter]->(target)
-SET r.label = "小节隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l10"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l25"})
-MERGE (source)-[r:ChapterIncludesSection]->(target)
-SET r.label = "章节包含小节 / includesSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l26"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l11"})
-MERGE (source)-[r:SectionBelongsToChapter]->(target)
-SET r.label = "小节隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l11"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l26"})
-MERGE (source)-[r:ChapterIncludesSection]->(target)
-SET r.label = "章节包含小节 / includesSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l27"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l11"})
-MERGE (source)-[r:SectionBelongsToChapter]->(target)
-SET r.label = "小节隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l11"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l27"})
-MERGE (source)-[r:ChapterIncludesSection]->(target)
-SET r.label = "章节包含小节 / includesSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l28"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l12"})
-MERGE (source)-[r:SectionBelongsToChapter]->(target)
-SET r.label = "小节隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l12"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l28"})
-MERGE (source)-[r:ChapterIncludesSection]->(target)
-SET r.label = "章节包含小节 / includesSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l29"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l12"})
-MERGE (source)-[r:SectionBelongsToChapter]->(target)
-SET r.label = "小节隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l12"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l29"})
-MERGE (source)-[r:ChapterIncludesSection]->(target)
-SET r.label = "章节包含小节 / includesSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l30"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l13"})
-MERGE (source)-[r:SectionBelongsToChapter]->(target)
-SET r.label = "小节隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l13"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l30"})
-MERGE (source)-[r:ChapterIncludesSection]->(target)
-SET r.label = "章节包含小节 / includesSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l31"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l13"})
-MERGE (source)-[r:SectionBelongsToChapter]->(target)
-SET r.label = "小节隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l13"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l31"})
-MERGE (source)-[r:ChapterIncludesSection]->(target)
-SET r.label = "章节包含小节 / includesSection";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l32"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l13"})
-MERGE (source)-[r:SectionBelongsToChapter]->(target)
-SET r.label = "小节隶属章节 / belongsToChapter";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l13"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l32"})
-MERGE (source)-[r:ChapterIncludesSection]->(target)
-SET r.label = "章节包含小节 / includesSection";
 
 MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l1"})
 MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l12"})
@@ -2251,452 +2156,547 @@ MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l32"})
 MERGE (source)-[r:CoreKnowledgeGuidesSection]->(target)
 SET r.label = "核心知识统领小节 / guidesSection";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
-MERGE (source)-[r:ExperimentSupportsTheme]->(target)
-SET r.label = "实验支撑学习主题 / supportsTheme";
-
 MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l1"})
-MERGE (source)-[r:themeIncludesExperiment]->(target)
-SET r.label = "学习主题包含实验 / includesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
-MERGE (source)-[r:ExperimentSupportsTheme]->(target)
-SET r.label = "实验支撑学习主题 / supportsTheme";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l2"})
-MERGE (source)-[r:themeIncludesExperiment]->(target)
-SET r.label = "学习主题包含实验 / includesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
-MERGE (source)-[r:ExperimentSupportsTheme]->(target)
-SET r.label = "实验支撑学习主题 / supportsTheme";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l3"})
-MERGE (source)-[r:themeIncludesExperiment]->(target)
-SET r.label = "学习主题包含实验 / includesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
-MERGE (source)-[r:ExperimentSupportsTheme]->(target)
-SET r.label = "实验支撑学习主题 / supportsTheme";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l4"})
-MERGE (source)-[r:themeIncludesExperiment]->(target)
-SET r.label = "学习主题包含实验 / includesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l5"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
-MERGE (source)-[r:ExperimentSupportsTheme]->(target)
-SET r.label = "实验支撑学习主题 / supportsTheme";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l5"})
-MERGE (source)-[r:themeIncludesExperiment]->(target)
-SET r.label = "学习主题包含实验 / includesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l6"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
-MERGE (source)-[r:ExperimentSupportsTheme]->(target)
-SET r.label = "实验支撑学习主题 / supportsTheme";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l6"})
-MERGE (source)-[r:themeIncludesExperiment]->(target)
-SET r.label = "学习主题包含实验 / includesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
-MERGE (source)-[r:ExperimentSupportsTheme]->(target)
-SET r.label = "实验支撑学习主题 / supportsTheme";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
-MERGE (source)-[r:themeIncludesExperiment]->(target)
-SET r.label = "学习主题包含实验 / includesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l8"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
-MERGE (source)-[r:ExperimentSupportsTheme]->(target)
-SET r.label = "实验支撑学习主题 / supportsTheme";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l8"})
-MERGE (source)-[r:themeIncludesExperiment]->(target)
-SET r.label = "学习主题包含实验 / includesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
-MERGE (source)-[r:ExperimentSupportsTheme]->(target)
-SET r.label = "实验支撑学习主题 / supportsTheme";
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Attitude:l1"})
+MERGE (source)-[r:themeCultivatesAttitude]->(target)
+SET r.label = "学习主题培育重要态度 / cultivatesAttitude";
 
 MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l1"})
-MERGE (source)-[r:themeIncludesExperiment]->(target)
-SET r.label = "学习主题包含实验 / includesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
-MERGE (source)-[r:ExperimentSupportsTheme]->(target)
-SET r.label = "实验支撑学习主题 / supportsTheme";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l2"})
-MERGE (source)-[r:themeIncludesExperiment]->(target)
-SET r.label = "学习主题包含实验 / includesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
-MERGE (source)-[r:ExperimentSupportsTheme]->(target)
-SET r.label = "实验支撑学习主题 / supportsTheme";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l3"})
-MERGE (source)-[r:themeIncludesExperiment]->(target)
-SET r.label = "学习主题包含实验 / includesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
-MERGE (source)-[r:ExperimentSupportsTheme]->(target)
-SET r.label = "实验支撑学习主题 / supportsTheme";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l4"})
-MERGE (source)-[r:themeIncludesExperiment]->(target)
-SET r.label = "学习主题包含实验 / includesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l5"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
-MERGE (source)-[r:ExperimentSupportsTheme]->(target)
-SET r.label = "实验支撑学习主题 / supportsTheme";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l5"})
-MERGE (source)-[r:themeIncludesExperiment]->(target)
-SET r.label = "学习主题包含实验 / includesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l6"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
-MERGE (source)-[r:ExperimentSupportsTheme]->(target)
-SET r.label = "实验支撑学习主题 / supportsTheme";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l6"})
-MERGE (source)-[r:themeIncludesExperiment]->(target)
-SET r.label = "学习主题包含实验 / includesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l3"})
-MERGE (source)-[r:ExperimentSupportsTheme]->(target)
-SET r.label = "实验支撑学习主题 / supportsTheme";
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Attitude:l2"})
+MERGE (source)-[r:themeCultivatesAttitude]->(target)
+SET r.label = "学习主题培育重要态度 / cultivatesAttitude";
 
 MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l7"})
-MERGE (source)-[r:themeIncludesExperiment]->(target)
-SET r.label = "学习主题包含实验 / includesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l8"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l4"})
-MERGE (source)-[r:ExperimentSupportsTheme]->(target)
-SET r.label = "实验支撑学习主题 / supportsTheme";
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Attitude:l3"})
+MERGE (source)-[r:themeCultivatesAttitude]->(target)
+SET r.label = "学习主题培育重要态度 / cultivatesAttitude";
 
 MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Experiment:l8"})
-MERGE (source)-[r:themeIncludesExperiment]->(target)
-SET r.label = "学习主题包含实验 / includesExperiment";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
-MERGE (source)-[r:literacyGuidesTheme]->(target)
-SET r.label = "统领学习主题 / guidesTheme";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
-MERGE (source)-[r:themeCultivatesLiteracy]->(target)
-SET r.label = "培育核心素养 / cultivatesLiteracy";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
-MERGE (source)-[r:literacyGuidesTheme]->(target)
-SET r.label = "统领学习主题 / guidesTheme";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
-MERGE (source)-[r:themeCultivatesLiteracy]->(target)
-SET r.label = "培育核心素养 / cultivatesLiteracy";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l3"})
-MERGE (source)-[r:literacyGuidesTheme]->(target)
-SET r.label = "统领学习主题 / guidesTheme";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
-MERGE (source)-[r:themeCultivatesLiteracy]->(target)
-SET r.label = "培育核心素养 / cultivatesLiteracy";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l4"})
-MERGE (source)-[r:literacyGuidesTheme]->(target)
-SET r.label = "统领学习主题 / guidesTheme";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
-MERGE (source)-[r:themeCultivatesLiteracy]->(target)
-SET r.label = "培育核心素养 / cultivatesLiteracy";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l5"})
-MERGE (source)-[r:literacyGuidesTheme]->(target)
-SET r.label = "统领学习主题 / guidesTheme";
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Attitude:l4"})
+MERGE (source)-[r:themeCultivatesAttitude]->(target)
+SET r.label = "学习主题培育重要态度 / cultivatesAttitude";
 
 MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l5"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
-MERGE (source)-[r:themeCultivatesLiteracy]->(target)
-SET r.label = "培育核心素养 / cultivatesLiteracy";
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Attitude:l5"})
+MERGE (source)-[r:themeCultivatesAttitude]->(target)
+SET r.label = "学习主题培育重要态度 / cultivatesAttitude";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
-MERGE (source)-[r:literacyGuidesTheme]->(target)
-SET r.label = "统领学习主题 / guidesTheme";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l1"})
+MERGE (source)-[r:SectionBelongsToChapter]->(target)
+SET r.label = "小节隶属章节 / belongsToChapter";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
-MERGE (source)-[r:themeCultivatesLiteracy]->(target)
-SET r.label = "培育核心素养 / cultivatesLiteracy";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l1"})
+MERGE (source)-[r:ChapterIncludesSection]->(target)
+SET r.label = "章节包含小节 / includesSection";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
-MERGE (source)-[r:literacyGuidesTheme]->(target)
-SET r.label = "统领学习主题 / guidesTheme";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l2"})
+MERGE (source)-[r:SectionBelongsToChapter]->(target)
+SET r.label = "小节隶属章节 / belongsToChapter";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
-MERGE (source)-[r:themeCultivatesLiteracy]->(target)
-SET r.label = "培育核心素养 / cultivatesLiteracy";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l2"})
+MERGE (source)-[r:ChapterIncludesSection]->(target)
+SET r.label = "章节包含小节 / includesSection";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l3"})
-MERGE (source)-[r:literacyGuidesTheme]->(target)
-SET r.label = "统领学习主题 / guidesTheme";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l2"})
+MERGE (source)-[r:SectionBelongsToChapter]->(target)
+SET r.label = "小节隶属章节 / belongsToChapter";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
-MERGE (source)-[r:themeCultivatesLiteracy]->(target)
-SET r.label = "培育核心素养 / cultivatesLiteracy";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l3"})
+MERGE (source)-[r:ChapterIncludesSection]->(target)
+SET r.label = "章节包含小节 / includesSection";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l4"})
-MERGE (source)-[r:literacyGuidesTheme]->(target)
-SET r.label = "统领学习主题 / guidesTheme";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l3"})
+MERGE (source)-[r:SectionBelongsToChapter]->(target)
+SET r.label = "小节隶属章节 / belongsToChapter";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
-MERGE (source)-[r:themeCultivatesLiteracy]->(target)
-SET r.label = "培育核心素养 / cultivatesLiteracy";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l4"})
+MERGE (source)-[r:ChapterIncludesSection]->(target)
+SET r.label = "章节包含小节 / includesSection";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l5"})
-MERGE (source)-[r:literacyGuidesTheme]->(target)
-SET r.label = "统领学习主题 / guidesTheme";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l5"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l3"})
+MERGE (source)-[r:SectionBelongsToChapter]->(target)
+SET r.label = "小节隶属章节 / belongsToChapter";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l5"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
-MERGE (source)-[r:themeCultivatesLiteracy]->(target)
-SET r.label = "培育核心素养 / cultivatesLiteracy";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l5"})
+MERGE (source)-[r:ChapterIncludesSection]->(target)
+SET r.label = "章节包含小节 / includesSection";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
-MERGE (source)-[r:literacyGuidesTheme]->(target)
-SET r.label = "统领学习主题 / guidesTheme";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l6"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l3"})
+MERGE (source)-[r:SectionBelongsToChapter]->(target)
+SET r.label = "小节隶属章节 / belongsToChapter";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
-MERGE (source)-[r:themeCultivatesLiteracy]->(target)
-SET r.label = "培育核心素养 / cultivatesLiteracy";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l6"})
+MERGE (source)-[r:ChapterIncludesSection]->(target)
+SET r.label = "章节包含小节 / includesSection";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
-MERGE (source)-[r:literacyGuidesTheme]->(target)
-SET r.label = "统领学习主题 / guidesTheme";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l7"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l4"})
+MERGE (source)-[r:SectionBelongsToChapter]->(target)
+SET r.label = "小节隶属章节 / belongsToChapter";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
-MERGE (source)-[r:themeCultivatesLiteracy]->(target)
-SET r.label = "培育核心素养 / cultivatesLiteracy";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l7"})
+MERGE (source)-[r:ChapterIncludesSection]->(target)
+SET r.label = "章节包含小节 / includesSection";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l3"})
-MERGE (source)-[r:literacyGuidesTheme]->(target)
-SET r.label = "统领学习主题 / guidesTheme";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l8"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l4"})
+MERGE (source)-[r:SectionBelongsToChapter]->(target)
+SET r.label = "小节隶属章节 / belongsToChapter";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
-MERGE (source)-[r:themeCultivatesLiteracy]->(target)
-SET r.label = "培育核心素养 / cultivatesLiteracy";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l8"})
+MERGE (source)-[r:ChapterIncludesSection]->(target)
+SET r.label = "章节包含小节 / includesSection";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l4"})
-MERGE (source)-[r:literacyGuidesTheme]->(target)
-SET r.label = "统领学习主题 / guidesTheme";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l9"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l4"})
+MERGE (source)-[r:SectionBelongsToChapter]->(target)
+SET r.label = "小节隶属章节 / belongsToChapter";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
-MERGE (source)-[r:themeCultivatesLiteracy]->(target)
-SET r.label = "培育核心素养 / cultivatesLiteracy";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l9"})
+MERGE (source)-[r:ChapterIncludesSection]->(target)
+SET r.label = "章节包含小节 / includesSection";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l5"})
-MERGE (source)-[r:literacyGuidesTheme]->(target)
-SET r.label = "统领学习主题 / guidesTheme";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l10"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l5"})
+MERGE (source)-[r:SectionBelongsToChapter]->(target)
+SET r.label = "小节隶属章节 / belongsToChapter";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l5"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
-MERGE (source)-[r:themeCultivatesLiteracy]->(target)
-SET r.label = "培育核心素养 / cultivatesLiteracy";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l5"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l10"})
+MERGE (source)-[r:ChapterIncludesSection]->(target)
+SET r.label = "章节包含小节 / includesSection";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
-MERGE (source)-[r:literacyGuidesTheme]->(target)
-SET r.label = "统领学习主题 / guidesTheme";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l11"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l5"})
+MERGE (source)-[r:SectionBelongsToChapter]->(target)
+SET r.label = "小节隶属章节 / belongsToChapter";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
-MERGE (source)-[r:themeCultivatesLiteracy]->(target)
-SET r.label = "培育核心素养 / cultivatesLiteracy";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l5"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l11"})
+MERGE (source)-[r:ChapterIncludesSection]->(target)
+SET r.label = "章节包含小节 / includesSection";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
-MERGE (source)-[r:literacyGuidesTheme]->(target)
-SET r.label = "统领学习主题 / guidesTheme";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l12"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l5"})
+MERGE (source)-[r:SectionBelongsToChapter]->(target)
+SET r.label = "小节隶属章节 / belongsToChapter";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
-MERGE (source)-[r:themeCultivatesLiteracy]->(target)
-SET r.label = "培育核心素养 / cultivatesLiteracy";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l5"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l12"})
+MERGE (source)-[r:ChapterIncludesSection]->(target)
+SET r.label = "章节包含小节 / includesSection";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l3"})
-MERGE (source)-[r:literacyGuidesTheme]->(target)
-SET r.label = "统领学习主题 / guidesTheme";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l13"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l6"})
+MERGE (source)-[r:SectionBelongsToChapter]->(target)
+SET r.label = "小节隶属章节 / belongsToChapter";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
-MERGE (source)-[r:themeCultivatesLiteracy]->(target)
-SET r.label = "培育核心素养 / cultivatesLiteracy";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l6"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l13"})
+MERGE (source)-[r:ChapterIncludesSection]->(target)
+SET r.label = "章节包含小节 / includesSection";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l4"})
-MERGE (source)-[r:literacyGuidesTheme]->(target)
-SET r.label = "统领学习主题 / guidesTheme";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l14"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l6"})
+MERGE (source)-[r:SectionBelongsToChapter]->(target)
+SET r.label = "小节隶属章节 / belongsToChapter";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
-MERGE (source)-[r:themeCultivatesLiteracy]->(target)
-SET r.label = "培育核心素养 / cultivatesLiteracy";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l6"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l14"})
+MERGE (source)-[r:ChapterIncludesSection]->(target)
+SET r.label = "章节包含小节 / includesSection";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l5"})
-MERGE (source)-[r:literacyGuidesTheme]->(target)
-SET r.label = "统领学习主题 / guidesTheme";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l15"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l7"})
+MERGE (source)-[r:SectionBelongsToChapter]->(target)
+SET r.label = "小节隶属章节 / belongsToChapter";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:LearningTheme:l5"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
-MERGE (source)-[r:themeCultivatesLiteracy]->(target)
-SET r.label = "培育核心素养 / cultivatesLiteracy";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l7"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l15"})
+MERGE (source)-[r:ChapterIncludesSection]->(target)
+SET r.label = "章节包含小节 / includesSection";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l16"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l7"})
+MERGE (source)-[r:SectionBelongsToChapter]->(target)
+SET r.label = "小节隶属章节 / belongsToChapter";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l7"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l16"})
+MERGE (source)-[r:ChapterIncludesSection]->(target)
+SET r.label = "章节包含小节 / includesSection";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l17"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l7"})
+MERGE (source)-[r:SectionBelongsToChapter]->(target)
+SET r.label = "小节隶属章节 / belongsToChapter";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l7"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l17"})
+MERGE (source)-[r:ChapterIncludesSection]->(target)
+SET r.label = "章节包含小节 / includesSection";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l18"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l8"})
+MERGE (source)-[r:SectionBelongsToChapter]->(target)
+SET r.label = "小节隶属章节 / belongsToChapter";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l8"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l18"})
+MERGE (source)-[r:ChapterIncludesSection]->(target)
+SET r.label = "章节包含小节 / includesSection";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l19"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l8"})
+MERGE (source)-[r:SectionBelongsToChapter]->(target)
+SET r.label = "小节隶属章节 / belongsToChapter";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l8"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l19"})
+MERGE (source)-[r:ChapterIncludesSection]->(target)
+SET r.label = "章节包含小节 / includesSection";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l20"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l9"})
+MERGE (source)-[r:SectionBelongsToChapter]->(target)
+SET r.label = "小节隶属章节 / belongsToChapter";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l9"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l20"})
+MERGE (source)-[r:ChapterIncludesSection]->(target)
+SET r.label = "章节包含小节 / includesSection";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l21"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l9"})
+MERGE (source)-[r:SectionBelongsToChapter]->(target)
+SET r.label = "小节隶属章节 / belongsToChapter";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l9"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l21"})
+MERGE (source)-[r:ChapterIncludesSection]->(target)
+SET r.label = "章节包含小节 / includesSection";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l22"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l9"})
+MERGE (source)-[r:SectionBelongsToChapter]->(target)
+SET r.label = "小节隶属章节 / belongsToChapter";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l9"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l22"})
+MERGE (source)-[r:ChapterIncludesSection]->(target)
+SET r.label = "章节包含小节 / includesSection";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l23"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l10"})
+MERGE (source)-[r:SectionBelongsToChapter]->(target)
+SET r.label = "小节隶属章节 / belongsToChapter";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l10"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l23"})
+MERGE (source)-[r:ChapterIncludesSection]->(target)
+SET r.label = "章节包含小节 / includesSection";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l24"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l10"})
+MERGE (source)-[r:SectionBelongsToChapter]->(target)
+SET r.label = "小节隶属章节 / belongsToChapter";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l10"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l24"})
+MERGE (source)-[r:ChapterIncludesSection]->(target)
+SET r.label = "章节包含小节 / includesSection";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l25"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l10"})
+MERGE (source)-[r:SectionBelongsToChapter]->(target)
+SET r.label = "小节隶属章节 / belongsToChapter";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l10"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l25"})
+MERGE (source)-[r:ChapterIncludesSection]->(target)
+SET r.label = "章节包含小节 / includesSection";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l26"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l11"})
+MERGE (source)-[r:SectionBelongsToChapter]->(target)
+SET r.label = "小节隶属章节 / belongsToChapter";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l11"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l26"})
+MERGE (source)-[r:ChapterIncludesSection]->(target)
+SET r.label = "章节包含小节 / includesSection";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l27"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l11"})
+MERGE (source)-[r:SectionBelongsToChapter]->(target)
+SET r.label = "小节隶属章节 / belongsToChapter";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l11"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l27"})
+MERGE (source)-[r:ChapterIncludesSection]->(target)
+SET r.label = "章节包含小节 / includesSection";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l28"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l12"})
+MERGE (source)-[r:SectionBelongsToChapter]->(target)
+SET r.label = "小节隶属章节 / belongsToChapter";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l12"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l28"})
+MERGE (source)-[r:ChapterIncludesSection]->(target)
+SET r.label = "章节包含小节 / includesSection";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l29"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l12"})
+MERGE (source)-[r:SectionBelongsToChapter]->(target)
+SET r.label = "小节隶属章节 / belongsToChapter";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l12"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l29"})
+MERGE (source)-[r:ChapterIncludesSection]->(target)
+SET r.label = "章节包含小节 / includesSection";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l30"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l13"})
+MERGE (source)-[r:SectionBelongsToChapter]->(target)
+SET r.label = "小节隶属章节 / belongsToChapter";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l13"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l30"})
+MERGE (source)-[r:ChapterIncludesSection]->(target)
+SET r.label = "章节包含小节 / includesSection";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l31"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l13"})
+MERGE (source)-[r:SectionBelongsToChapter]->(target)
+SET r.label = "小节隶属章节 / belongsToChapter";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l13"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l31"})
+MERGE (source)-[r:ChapterIncludesSection]->(target)
+SET r.label = "章节包含小节 / includesSection";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l32"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l13"})
+MERGE (source)-[r:SectionBelongsToChapter]->(target)
+SET r.label = "小节隶属章节 / belongsToChapter";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:Chapter:l13"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Section:l32"})
+MERGE (source)-[r:ChapterIncludesSection]->(target)
+SET r.label = "章节包含小节 / includesSection";
 
 MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l1"})
-MERGE (source)-[r:literacyGuidesQuality]->(target)
-SET r.label = "指导学业质量 / guidesQuality";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
-MERGE (source)-[r:qualityEmbodiesLiteracy]->(target)
-SET r.label = "体现核心素养 / embodiesLiteracy";
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l1"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
 
 MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l2"})
-MERGE (source)-[r:literacyGuidesQuality]->(target)
-SET r.label = "指导学业质量 / guidesQuality";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
-MERGE (source)-[r:qualityEmbodiesLiteracy]->(target)
-SET r.label = "体现核心素养 / embodiesLiteracy";
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l2"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
 
 MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l4"})
-MERGE (source)-[r:literacyGuidesQuality]->(target)
-SET r.label = "指导学业质量 / guidesQuality";
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l3"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
-MERGE (source)-[r:qualityEmbodiesLiteracy]->(target)
-SET r.label = "体现核心素养 / embodiesLiteracy";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l4"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l5"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l6"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l7"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l8"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l9"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l10"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
 
 MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l1"})
-MERGE (source)-[r:literacyGuidesQuality]->(target)
-SET r.label = "指导学业质量 / guidesQuality";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
-MERGE (source)-[r:qualityEmbodiesLiteracy]->(target)
-SET r.label = "体现核心素养 / embodiesLiteracy";
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l1"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
 
 MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l2"})
-MERGE (source)-[r:literacyGuidesQuality]->(target)
-SET r.label = "指导学业质量 / guidesQuality";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
-MERGE (source)-[r:qualityEmbodiesLiteracy]->(target)
-SET r.label = "体现核心素养 / embodiesLiteracy";
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l2"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
 
 MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l3"})
-MERGE (source)-[r:literacyGuidesQuality]->(target)
-SET r.label = "指导学业质量 / guidesQuality";
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l3"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
-MERGE (source)-[r:qualityEmbodiesLiteracy]->(target)
-SET r.label = "体现核心素养 / embodiesLiteracy";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l4"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l5"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l6"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l7"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l8"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l9"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l10"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
 
 MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l3"})
-MERGE (source)-[r:literacyGuidesQuality]->(target)
-SET r.label = "指导学业质量 / guidesQuality";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
-MERGE (source)-[r:qualityEmbodiesLiteracy]->(target)
-SET r.label = "体现核心素养 / embodiesLiteracy";
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l1"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
 
 MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l4"})
-MERGE (source)-[r:literacyGuidesQuality]->(target)
-SET r.label = "指导学业质量 / guidesQuality";
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l2"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
-MERGE (source)-[r:qualityEmbodiesLiteracy]->(target)
-SET r.label = "体现核心素养 / embodiesLiteracy";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l3"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l4"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l5"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l6"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l7"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l8"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l9"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l10"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
 
 MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l4"})
-MERGE (source)-[r:literacyGuidesQuality]->(target)
-SET r.label = "指导学业质量 / guidesQuality";
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l1"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l4"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
-MERGE (source)-[r:qualityEmbodiesLiteracy]->(target)
-SET r.label = "体现核心素养 / embodiesLiteracy";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l2"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l3"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l4"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l5"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l6"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l7"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l8"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l9"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB03:Interdisciplinary:l10"})
+MERGE (source)-[r:literacyGuidesInterdisciplinary]->(target)
+SET r.label = "核心素养引领跨学科实践 / guidesInterdisciplinary";

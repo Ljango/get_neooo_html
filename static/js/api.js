@@ -102,6 +102,9 @@ const api = {
         getSubjects: () => 
             request('/review/subjects'),
         
+        getEntityTypes: (subjectId) =>
+            request(`/review/entity-types/${subjectId}`),
+        
         getEntities: (subjectId, params = {}) => {
             const query = new URLSearchParams(params).toString();
             return request(`/review/entities/${subjectId}?${query}`);
@@ -208,6 +211,9 @@ const api = {
                 body: JSON.stringify({ subject })
             }),
         
+        getSyncStatus: () =>
+            request('/data/sync-status'),
+        
         getVersions: (subjectId) =>
             request(`/data/versions/${subjectId}`),
         
@@ -227,7 +233,80 @@ const api = {
             request('/data/export', {
                 method: 'POST',
                 body: JSON.stringify({ subject })
-            })
+            }),
+        
+        // 快照管理
+        listSnapshots: (subjectId) =>
+            request(`/data/snapshots/${subjectId}`),
+        
+        createSnapshot: (subjectId, version = 'auto', description = '') =>
+            request(`/data/snapshots/create?subject_id=${subjectId}&version=${version}&description=${encodeURIComponent(description)}`, {
+                method: 'POST'
+            }),
+        
+        restoreSnapshot: (subjectId, filename) =>
+            request(`/data/snapshots/restore?subject_id=${subjectId}&filename=${encodeURIComponent(filename)}`, {
+                method: 'POST'
+            }),
+        
+        deleteSnapshot: (subjectId, filename) =>
+            request(`/data/snapshots/${subjectId}/${encodeURIComponent(filename)}`, {
+                method: 'DELETE'
+            }),
+        
+        // 数据包上传
+        getUploadFormatSpec: () =>
+            request('/data/upload/format-spec'),
+        
+        validateUpload: async (file) => {
+            const formData = new FormData();
+            formData.append('file', file);
+            
+            const token = getToken();
+            const response = await fetch(`${API_BASE}/data/upload/validate`, {
+                method: 'POST',
+                headers: token ? { 'Authorization': `Bearer ${token}` } : {},
+                body: formData
+            });
+            
+            if (response.status === 401) {
+                clearToken();
+                window.location.href = '/static/app/login.html';
+                throw new Error('登录已过期，请重新登录');
+            }
+            
+            const data = await response.json();
+            if (!response.ok) {
+                throw new Error(data.detail || data.message || '验证失败');
+            }
+            return data;
+        },
+        
+        uploadDataPackage: async (subjectId, file, backup = true) => {
+            const formData = new FormData();
+            formData.append('subject_id', subjectId);
+            formData.append('file', file);
+            formData.append('backup', backup);
+            
+            const token = getToken();
+            const response = await fetch(`${API_BASE}/data/upload`, {
+                method: 'POST',
+                headers: token ? { 'Authorization': `Bearer ${token}` } : {},
+                body: formData
+            });
+            
+            if (response.status === 401) {
+                clearToken();
+                window.location.href = '/static/app/login.html';
+                throw new Error('登录已过期，请重新登录');
+            }
+            
+            const data = await response.json();
+            if (!response.ok) {
+                throw new Error(data.detail || data.message || '上传失败');
+            }
+            return data;
+        }
     },
     
     // ========== 数据编辑 ==========
@@ -246,6 +325,12 @@ const api = {
         
         deleteRelation: (subjectId, relation) =>
             request(`/edit/relation/delete?subject_id=${subjectId}`, {
+                method: 'POST',
+                body: JSON.stringify(relation)
+            }),
+        
+        updateRelation: (subjectId, relation) =>
+            request(`/edit/relation/update?subject_id=${subjectId}`, {
                 method: 'POST',
                 body: JSON.stringify(relation)
             }),
@@ -272,10 +357,33 @@ function isLoggedIn() {
     return !!getToken();
 }
 
-// 检查用户角色
+// 检查用户角色（支持多角色）
 function hasRole(...roles) {
     const user = getUserInfo();
-    return user && roles.includes(user.role);
+    if (!user) return false;
+    
+    // 支持新的多角色格式 (user.roles 是数组)
+    if (user.roles && Array.isArray(user.roles)) {
+        return roles.some(r => user.roles.includes(r));
+    }
+    
+    // 向后兼容单角色格式
+    return roles.includes(user.role);
+}
+
+// 检查是否有上传数据包权限
+function canUploadData() {
+    return hasRole('root', 'admin', 'engineer');
+}
+
+// 检查是否有审核权限
+function canReview() {
+    return hasRole('root', 'admin', 'teacher', 'engineer');
+}
+
+// 检查是否有用户管理权限
+function canManageUsers() {
+    return hasRole('root', 'admin');
 }
 
 // 退出登录
