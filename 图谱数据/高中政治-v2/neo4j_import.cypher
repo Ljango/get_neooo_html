@@ -1,18 +1,18 @@
 // =====================================================
 // 高中政治课标图谱 - Neo4j导入脚本
-// 生成时间: 2026-01-23T15:48:59.100360
+// 生成时间: 2026-01-23T18:05:05.929963
 // =====================================================
 
 // 创建约束和索引
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:AcademicQuality) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:ThemeL2) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:CourseStructure) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:CourseModule) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:CoreLiteracy) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:Chapter) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:Section) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:CourseStructure) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:Theme) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Section) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:Subsection) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:ThemeL2) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Chapter) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:AcademicQuality) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:CourseModule) REQUIRE n.identifier IS UNIQUE;
 
 // =====================================================
 // 导入实体
@@ -6233,52 +6233,12 @@ MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:1"})
 MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
 SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:1"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:1"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:2"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
 MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
 SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:2"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:2"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:2"})
 MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
 SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
@@ -6293,52 +6253,12 @@ MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:3"})
 MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
 SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:3"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:3"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:4"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
 MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
 SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:4"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:4"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:4"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:4"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:4"})
 MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
 SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
@@ -6353,52 +6273,12 @@ MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:5"})
 MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
 SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:5"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:5"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:5"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:6"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
 MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
 SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:6"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:6"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:6"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:6"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:6"})
 MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
 SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
@@ -6413,52 +6293,12 @@ MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:7"})
 MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
 SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:7"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:7"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:7"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:7"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:8"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
 MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
 SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:8"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:8"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:8"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:8"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:8"})
 MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
 SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
@@ -6473,52 +6313,12 @@ MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:9"})
 MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
 SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:9"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:9"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:9"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:9"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:10"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
 MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
 SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:10"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:10"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:10"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:10"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:10"})
 MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
 SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
@@ -6533,112 +6333,172 @@ MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:11"})
 MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
 SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:11"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:11"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:11"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:11"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:12"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
 MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
 SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:1"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:12"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:12"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:2"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:12"})
-MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
-SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:12"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
-MERGE (source)-[r:academicQualityGuidesCourseStructure]->(target)
-SET r.label = "学业质量指导课程结构 / guidesCourseStructure";
-
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:CourseStructure:3"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:AcademicQuality:12"})
 MERGE (source)-[r:courseStructureAssessedByAcademicQuality]->(target)
 SET r.label = "课程结构以学业质量为依据 / assessedByAcademicQuality";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:1"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:54"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:118"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:54"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:118"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:1"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:1"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:41"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:41"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:1"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:2"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:16"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:53"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:16"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:53"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:2"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:2"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:54"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:54"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:2"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:3"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:16"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:53"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:16"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:53"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:3"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:3"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:54"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:54"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:3"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:3"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:55"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:55"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:3"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:4"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:10"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:53"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:10"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:53"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:4"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:4"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:54"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:54"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:4"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:4"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:55"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:55"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:4"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:5"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:10"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:53"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:10"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:53"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:5"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:5"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:54"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:54"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:5"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:6"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:10"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:49"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:10"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:49"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:6"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:6"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:54"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:54"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:6"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:6"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:53"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:53"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:6"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:6"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:55"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:55"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:6"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
@@ -6646,9 +6506,29 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:7"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:1"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:1"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:7"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:7"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:4"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:4"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:7"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:7"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:3"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:3"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:7"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
@@ -6656,39 +6536,69 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:8"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:1"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:1"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:8"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:9"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:3"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:8"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:2"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:3"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:9"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:2"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:8"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:9"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:4"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:4"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:9"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:9"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:3"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:3"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:9"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:10"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:6"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:6"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:10"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:10"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:5"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:5"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:10"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:10"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:8"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:8"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:10"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
@@ -6696,17 +6606,57 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:11"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:7"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:7"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:11"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:11"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:8"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:8"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:11"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:11"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:5"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:5"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:11"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:11"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:6"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:6"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:11"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:12"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:5"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:5"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:12"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:12"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:6"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:6"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:12"})
@@ -6714,59 +6664,219 @@ MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:12"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:5"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:8"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:5"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:8"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:12"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:12"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:7"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:7"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:12"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:13"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:12"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:12"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:13"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:13"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:11"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:11"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:13"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:13"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:10"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:10"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:13"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:13"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:13"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:13"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:13"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:13"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:14"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:14"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:13"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:13"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:9"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:9"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:13"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:14"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:12"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:12"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:14"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:14"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:11"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:11"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:14"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:14"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:13"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:13"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:14"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:14"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:10"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:10"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:14"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:15"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:10"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:14"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:14"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:10"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:15"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:14"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:14"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:14"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:9"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:9"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:14"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:15"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:13"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:13"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:15"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:15"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:14"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:14"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:15"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:15"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:11"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:11"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:15"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:15"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:12"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:12"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:15"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:15"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:10"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:10"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:15"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:16"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:15"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:15"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:16"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:16"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:16"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:16"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:16"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:16"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:18"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:18"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:16"})
@@ -6774,11 +6884,31 @@ MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:16"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:15"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:17"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:15"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:17"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:16"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:16"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:20"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:20"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:16"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:16"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:21"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:21"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:16"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
@@ -6786,9 +6916,59 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:17"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:19"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:19"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:17"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:17"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:20"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:20"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:17"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:17"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:21"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:21"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:17"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:17"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:18"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:18"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:17"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:17"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:17"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:17"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:17"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:17"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:15"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:15"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:17"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
@@ -6796,7 +6976,7 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:18"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:20"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:20"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:18"})
@@ -6804,31 +6984,101 @@ MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:18"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:15"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:21"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:15"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:21"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:18"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:19"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:15"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:18"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:18"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:15"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:19"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:18"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:18"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:18"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:19"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:19"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:18"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:18"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:17"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:17"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:18"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:19"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:21"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:21"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:19"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:19"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:20"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:20"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:19"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:19"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:18"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:18"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:19"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:19"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:19"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:19"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:19"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:19"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:17"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:17"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:19"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:19"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:15"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:15"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:19"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
@@ -6836,17 +7086,77 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:20"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:23"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:23"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:20"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:20"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:22"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:22"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:20"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:20"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:24"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:24"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:20"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:20"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:27"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:27"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:20"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:20"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:29"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:29"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:20"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:20"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:28"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:28"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:20"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:21"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:30"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:30"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:21"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:21"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:28"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:28"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:21"})
@@ -6856,9 +7166,19 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:21"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:29"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:29"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:21"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:21"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:27"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:27"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:21"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
@@ -6866,9 +7186,59 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:22"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:25"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:25"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:22"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:22"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:24"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:24"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:22"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:22"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:26"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:26"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:22"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:22"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:27"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:27"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:22"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:22"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:29"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:29"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:22"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:22"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:28"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:28"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:22"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
@@ -6876,29 +7246,49 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:23"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:33"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:33"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:23"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:24"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:65"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:23"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:32"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:65"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:32"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:23"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:24"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:34"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:34"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:24"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:24"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:36"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:36"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:24"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:25"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:32"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:35"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:32"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:35"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:25"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
@@ -6906,7 +7296,7 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:25"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:40"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:40"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:25"})
@@ -6914,11 +7304,21 @@ MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:26"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:65"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:36"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:65"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:36"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:26"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:26"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:37"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:37"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:26"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
@@ -6926,7 +7326,7 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:27"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:45"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:45"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:27"})
@@ -6936,19 +7336,109 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:27"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:44"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:44"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:27"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:27"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:46"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:46"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:27"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:27"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:42"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:42"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:27"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:27"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:41"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:41"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:27"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:27"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:43"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:43"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:27"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:28"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:44"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:44"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:28"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:28"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:45"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:45"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:28"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:28"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:46"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:46"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:28"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:28"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:42"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:42"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:28"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:28"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:41"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:41"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:28"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:28"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:43"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:43"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:28"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
@@ -6956,19 +7446,89 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:29"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:49"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:49"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:29"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:30"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:49"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:29"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:48"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:49"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:48"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:29"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:29"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:47"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:47"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:29"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:30"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:51"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:51"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:30"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:30"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:50"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:50"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:30"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:30"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:55"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:55"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:30"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:30"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:47"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:47"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:30"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:30"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:53"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:53"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:30"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:30"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:54"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:54"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:30"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
@@ -6976,7 +7536,7 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:31"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:55"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:55"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:31"})
@@ -6984,51 +7544,131 @@ MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:31"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:49"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:53"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:49"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:53"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:31"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:31"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:54"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:54"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:31"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:31"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:51"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:51"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:31"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:31"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:47"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:47"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:31"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:31"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:48"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:48"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:31"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:32"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:15"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:60"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:15"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:60"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:32"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:32"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:59"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:59"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:32"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:33"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:24"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:60"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:24"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:60"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:33"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:33"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:59"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:59"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:33"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:34"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:17"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:60"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:17"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:60"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:34"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:34"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:59"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:59"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:34"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:35"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:62"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:60"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:62"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:60"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:35"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:35"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:59"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:59"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:35"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
@@ -7036,9 +7676,19 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:36"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:66"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:66"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:36"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:36"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:65"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:65"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:36"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
@@ -7046,29 +7696,39 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:37"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:61"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:61"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:37"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:38"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:6"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:37"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:62"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:6"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:62"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:37"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:38"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:60"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:60"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:38"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:38"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:5"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:62"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:5"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:62"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:38"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
@@ -7076,7 +7736,7 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:39"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:68"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:68"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:39"})
@@ -7086,7 +7746,7 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:39"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:67"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:67"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:39"})
@@ -7096,29 +7756,39 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:40"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:67"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:67"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:40"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:41"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:71"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:40"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:70"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:71"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:70"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:40"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:41"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:72"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:72"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:41"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:41"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:73"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:62"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:73"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:62"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:41"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
@@ -7126,9 +7796,39 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:42"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:73"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:73"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:42"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:42"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:71"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:71"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:42"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:42"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:72"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:72"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:42"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:42"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:75"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:75"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:42"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
@@ -7136,39 +7836,59 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:43"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:76"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:76"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:43"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:44"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:9"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:43"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:77"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:9"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:77"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:43"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:44"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:79"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:79"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:44"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:44"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:76"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:76"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:44"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:45"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:44"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:76"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:44"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:76"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:45"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:45"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:45"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:80"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:45"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:80"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:45"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
@@ -7176,7 +7896,7 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:46"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:82"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:82"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:46"})
@@ -7186,7 +7906,7 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:46"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:83"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:83"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:46"})
@@ -7194,19 +7914,39 @@ MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:47"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:31"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:76"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:31"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:76"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:47"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:47"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:80"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:80"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:47"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:48"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:76"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:76"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:48"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:48"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:86"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:86"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:48"})
@@ -7214,81 +7954,121 @@ MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:49"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:88"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:76"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:88"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:76"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:49"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:49"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:89"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:80"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:89"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:80"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:49"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:50"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:90"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:76"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:90"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:76"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:50"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:50"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:91"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:80"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:91"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:80"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:50"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:51"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:18"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:76"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:18"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:76"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:51"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:51"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:80"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:80"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:51"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:52"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:92"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:76"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:92"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:76"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:52"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:52"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:80"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:80"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:52"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:53"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:31"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:76"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:31"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:76"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:53"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:53"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:80"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:80"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:53"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:54"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:94"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:76"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:94"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:76"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:54"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:54"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:77"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:77"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:54"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
@@ -7296,9 +8076,39 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:55"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:100"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:100"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:55"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:55"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:102"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:102"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:55"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:55"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:101"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:101"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:55"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:55"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:97"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:97"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:55"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
@@ -7306,29 +8116,79 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:56"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:102"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:102"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:56"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:57"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:103"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:56"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:101"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:103"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:101"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:56"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:56"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:100"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:100"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:56"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:56"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:97"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:97"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:56"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:56"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:98"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:98"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:56"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:57"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:102"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:102"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:57"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:57"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:104"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:101"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:104"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:101"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:57"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:57"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:100"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:100"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:57"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
@@ -7336,39 +8196,139 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:58"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:105"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:105"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:58"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:58"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:106"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:106"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:58"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:58"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:107"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:107"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:58"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:58"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:102"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:102"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:58"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:58"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:101"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:101"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:58"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:59"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:111"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:111"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:59"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:59"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:108"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:108"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:59"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:59"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:112"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:112"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:59"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:60"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:36"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:59"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:109"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:36"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:109"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:59"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:59"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:110"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:110"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:59"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:59"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:102"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:102"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:59"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:60"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:102"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:102"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:60"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:60"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:37"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:101"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:37"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:101"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:60"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:60"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:100"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:100"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:60"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
@@ -7376,29 +8336,109 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:61"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:114"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:114"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:61"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:62"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:35"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:61"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:102"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:35"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:102"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:61"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:61"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:101"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:101"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:61"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:61"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:100"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:100"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:61"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:61"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:113"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:113"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:61"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:62"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:116"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:116"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:62"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:62"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:115"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:115"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:62"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:62"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:102"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:102"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:62"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:62"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:101"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:101"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:62"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:63"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:38"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:102"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:38"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:102"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:63"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:63"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:101"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:101"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:63"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
@@ -7406,7 +8446,7 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:64"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:119"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:119"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:64"})
@@ -7414,111 +8454,271 @@ MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:64"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:121"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:121"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:64"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:64"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:123"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:123"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:64"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:64"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:120"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:120"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:64"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:64"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:122"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:122"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:64"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:64"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:124"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:124"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:64"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:65"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:102"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:102"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:65"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:65"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:121"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:121"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:65"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:66"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:9"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:65"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:101"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:9"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:101"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:65"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:65"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:100"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:100"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:65"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:65"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:97"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:97"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:65"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:65"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:123"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:123"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:65"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:66"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:94"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:94"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:66"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:66"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:98"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:98"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:66"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:67"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:9"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:3"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:9"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:3"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:67"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:67"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:122"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:122"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:67"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:68"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:26"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:3"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:26"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:3"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:68"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:68"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:102"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:102"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:68"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:69"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:36"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:7"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:36"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:7"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:69"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:69"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:37"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:8"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:37"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:8"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:69"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:70"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:22"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:93"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:22"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:93"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:70"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:70"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:77"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:77"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:70"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:71"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:25"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:91"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:25"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:91"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:71"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:71"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:102"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:102"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:71"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:72"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:17"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:47"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:17"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:47"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:72"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:72"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:71"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:71"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:72"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:73"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:9"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:100"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:9"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:100"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:73"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:73"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:97"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:97"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:73"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
@@ -7526,49 +8726,79 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:74"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:18"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:18"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:74"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:75"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:9"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:74"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:116"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:9"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:116"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:74"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:75"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:58"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:58"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:75"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:75"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:73"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:73"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:75"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:99"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:44"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:91"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:44"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:91"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:99"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:99"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:45"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:90"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:45"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:90"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:99"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:76"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:49"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:88"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:49"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:88"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:76"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:76"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:89"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:89"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:76"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
@@ -7576,19 +8806,39 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:77"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:77"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:77"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:77"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:78"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:23"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:77"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:76"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:23"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:76"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:77"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:78"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:105"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:105"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:78"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:78"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:103"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:103"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:78"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
@@ -7596,7 +8846,7 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:79"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:44"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:44"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:79"})
@@ -7606,7 +8856,7 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:79"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:45"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:45"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:79"})
@@ -7616,9 +8866,19 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:80"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:95"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:95"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:80"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:80"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:94"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:94"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:80"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
@@ -7626,9 +8886,19 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:81"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:95"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:95"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:81"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:81"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:94"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:94"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:81"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
@@ -7636,9 +8906,19 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:82"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:95"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:95"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:82"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:82"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:94"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:94"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:82"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
@@ -7646,19 +8926,39 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:83"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:76"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:76"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:83"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:84"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:9"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:83"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:82"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:9"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:82"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:83"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:84"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:36"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:36"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:84"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:84"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:37"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:37"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:84"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
@@ -7666,7 +8966,7 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:85"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:44"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:44"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:85"})
@@ -7676,7 +8976,7 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:85"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:45"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:45"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:85"})
@@ -7684,31 +8984,41 @@ MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:86"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:100"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:100"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:86"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:86"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:27"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:27"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:86"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:86"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:29"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:87"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:105"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:29"})
-MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:86"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:105"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:87"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:87"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:9"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:103"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:9"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:103"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:87"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
@@ -7716,9 +9026,19 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:88"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:32"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:32"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:88"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:88"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:33"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:33"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:88"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
@@ -7726,9 +9046,19 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:89"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:32"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:32"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:89"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:89"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:33"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:33"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:89"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
@@ -7736,49 +9066,99 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:90"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:32"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:32"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:90"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
-MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:91"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:17"})
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:90"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:33"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:17"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:33"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:90"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:91"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:32"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:32"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:91"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:91"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:33"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:33"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:91"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:92"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:17"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:32"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:17"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:32"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:92"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:92"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:33"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:33"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:92"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:93"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:42"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:118"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:42"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:118"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:93"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:93"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:22"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:22"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:93"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:94"})
-MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:53"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:102"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
-MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:53"})
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:102"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:94"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:94"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:101"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:101"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:94"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
@@ -7786,9 +9166,19 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:95"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:32"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:32"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:95"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:95"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:33"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:33"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:95"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
@@ -7796,9 +9186,19 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:96"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:38"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:38"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:96"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:96"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:42"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:42"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:96"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
@@ -7806,7 +9206,7 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:97"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:32"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:32"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:97"})
@@ -7816,7 +9216,7 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:97"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:42"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:42"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:97"})
@@ -7826,9 +9226,209 @@ SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
 MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:98"})
 MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:32"})
 MERGE (source)-[r:themeL2CoversSubsection]->(target)
-SET r.label = "二级主题涵盖教材小节 / ThemeL2 covers Subsection";
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
 
 MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:32"})
 MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:98"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:98"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:33"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:33"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:98"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:23"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:31"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:31"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:23"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:28"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:39"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:39"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:28"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:31"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:52"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:52"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:31"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:32"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:56"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:56"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:32"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:32"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:57"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:57"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:32"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:36"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:63"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:63"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:36"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:36"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:64"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:64"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:36"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:39"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:69"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:69"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:39"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:42"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:74"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:74"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:42"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:43"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:78"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:78"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:43"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:43"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:81"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:81"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:43"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:48"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:84"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:84"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:48"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:48"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:85"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:85"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:48"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:48"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:87"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:87"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:48"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:52"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:92"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:92"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:52"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:53"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:96"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:96"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:53"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:56"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:99"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:99"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:56"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:57"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:104"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:104"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:57"})
+MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
+SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";
+
+MATCH (source {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:63"})
+MATCH (target {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:117"})
+MERGE (source)-[r:themeL2CoversSubsection]->(target)
+SET r.label = "二级主题对应教材小节 / ThemeL2 aligns with Subsection";
+
+MATCH (source {identifier: "urn:jy:Politics:SB0310:OB06:Subsection:117"})
+MATCH (target {identifier: "urn:jy:politics:SB0310:OB06:ThemeL2:63"})
 MERGE (source)-[r:subsectionSupportsThemeL2]->(target)
 SET r.label = "教材小节支撑二级主题 / Subsection supports ThemeL2";

@@ -1,0 +1,266 @@
+[
+  {
+    "relationName": "themeL1IncludesExperiment",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / includes",
+    "source": "urn:jy:physics:OB05:ThemeL1:4",
+    "target": "urn:jy:physics:OB05:Experiment:4.1.1"
+  },
+  {
+    "relationName": "experimentBelongsToThemeL1",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / belongsTo",
+    "source": "urn:jy:physics:OB05:Experiment:4.1.1",
+    "target": "urn:jy:physics:OB05:ThemeL1:4"
+  },
+  {
+    "relationName": "themeL1IncludesExperiment",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / includes",
+    "source": "urn:jy:physics:OB05:ThemeL1:4",
+    "target": "urn:jy:physics:OB05:Experiment:4.1.2"
+  },
+  {
+    "relationName": "experimentBelongsToThemeL1",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / belongsTo",
+    "source": "urn:jy:physics:OB05:Experiment:4.1.2",
+    "target": "urn:jy:physics:OB05:ThemeL1:4"
+  },
+  {
+    "relationName": "themeL1IncludesExperiment",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / includes",
+    "source": "urn:jy:physics:OB05:ThemeL1:4",
+    "target": "urn:jy:physics:OB05:Experiment:4.1.3"
+  },
+  {
+    "relationName": "experimentBelongsToThemeL1",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / belongsTo",
+    "source": "urn:jy:physics:OB05:Experiment:4.1.3",
+    "target": "urn:jy:physics:OB05:ThemeL1:4"
+  },
+  {
+    "relationName": "themeL1IncludesExperiment",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / includes",
+    "source": "urn:jy:physics:OB05:ThemeL1:4",
+    "target": "urn:jy:physics:OB05:Experiment:4.1.4"
+  },
+  {
+    "relationName": "experimentBelongsToThemeL1",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / belongsTo",
+    "source": "urn:jy:physics:OB05:Experiment:4.1.4",
+    "target": "urn:jy:physics:OB05:ThemeL1:4"
+  },
+  {
+    "relationName": "themeL1IncludesExperiment",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / includes",
+    "source": "urn:jy:physics:OB05:ThemeL1:4",
+    "target": "urn:jy:physics:OB05:Experiment:4.1.5"
+  },
+  {
+    "relationName": "experimentBelongsToThemeL1",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / belongsTo",
+    "source": "urn:jy:physics:OB05:Experiment:4.1.5",
+    "target": "urn:jy:physics:OB05:ThemeL1:4"
+  },
+  {
+    "relationName": "themeL1IncludesExperiment",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / includes",
+    "source": "urn:jy:physics:OB05:ThemeL1:4",
+    "target": "urn:jy:physics:OB05:Experiment:4.1.6"
+  },
+  {
+    "relationName": "experimentBelongsToThemeL1",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / belongsTo",
+    "source": "urn:jy:physics:OB05:Experiment:4.1.6",
+    "target": "urn:jy:physics:OB05:ThemeL1:4"
+  },
+  {
+    "relationName": "themeL1IncludesExperiment",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / includes",
+    "source": "urn:jy:physics:OB05:ThemeL1:4",
+    "target": "urn:jy:physics:OB05:Experiment:4.1.7"
+  },
+  {
+    "relationName": "experimentBelongsToThemeL1",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / belongsTo",
+    "source": "urn:jy:physics:OB05:Experiment:4.1.7",
+    "target": "urn:jy:physics:OB05:ThemeL1:4"
+  },
+  {
+    "relationName": "themeL1IncludesExperiment",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / includes",
+    "source": "urn:jy:physics:OB05:ThemeL1:4",
+    "target": "urn:jy:physics:OB05:Experiment:4.1.8"
+  },
+  {
+    "relationName": "experimentBelongsToThemeL1",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / belongsTo",
+    "source": "urn:jy:physics:OB05:Experiment:4.1.8",
+    "target": "urn:jy:physics:OB05:ThemeL1:4"
+  },
+  {
+    "relationName": "themeL1IncludesExperiment",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / includes",
+    "source": "urn:jy:physics:OB05:ThemeL1:4",
+    "target": "urn:jy:physics:OB05:Experiment:4.1.9"
+  },
+  {
+    "relationName": "experimentBelongsToThemeL1",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / belongsTo",
+    "source": "urn:jy:physics:OB05:Experiment:4.1.9",
+    "target": "urn:jy:physics:OB05:ThemeL1:4"
+  },
+  {
+    "relationName": "themeL1IncludesExperiment",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / includes",
+    "source": "urn:jy:physics:OB05:ThemeL1:4",
+    "target": "urn:jy:physics:OB05:Experiment:4.2.1"
+  },
+  {
+    "relationName": "experimentBelongsToThemeL1",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / belongsTo",
+    "source": "urn:jy:physics:OB05:Experiment:4.2.1",
+    "target": "urn:jy:physics:OB05:ThemeL1:4"
+  },
+  {
+    "relationName": "themeL1IncludesExperiment",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / includes",
+    "source": "urn:jy:physics:OB05:ThemeL1:4",
+    "target": "urn:jy:physics:OB05:Experiment:4.2.2"
+  },
+  {
+    "relationName": "experimentBelongsToThemeL1",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / belongsTo",
+    "source": "urn:jy:physics:OB05:Experiment:4.2.2",
+    "target": "urn:jy:physics:OB05:ThemeL1:4"
+  },
+  {
+    "relationName": "themeL1IncludesExperiment",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / includes",
+    "source": "urn:jy:physics:OB05:ThemeL1:4",
+    "target": "urn:jy:physics:OB05:Experiment:4.2.3"
+  },
+  {
+    "relationName": "experimentBelongsToThemeL1",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / belongsTo",
+    "source": "urn:jy:physics:OB05:Experiment:4.2.3",
+    "target": "urn:jy:physics:OB05:ThemeL1:4"
+  },
+  {
+    "relationName": "themeL1IncludesExperiment",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / includes",
+    "source": "urn:jy:physics:OB05:ThemeL1:4",
+    "target": "urn:jy:physics:OB05:Experiment:4.2.4"
+  },
+  {
+    "relationName": "experimentBelongsToThemeL1",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / belongsTo",
+    "source": "urn:jy:physics:OB05:Experiment:4.2.4",
+    "target": "urn:jy:physics:OB05:ThemeL1:4"
+  },
+  {
+    "relationName": "themeL1IncludesExperiment",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / includes",
+    "source": "urn:jy:physics:OB05:ThemeL1:4",
+    "target": "urn:jy:physics:OB05:Experiment:4.2.4"
+  },
+  {
+    "relationName": "experimentBelongsToThemeL1",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / belongsTo",
+    "source": "urn:jy:physics:OB05:Experiment:4.2.4",
+    "target": "urn:jy:physics:OB05:ThemeL1:4"
+  },
+  {
+    "relationName": "themeL1IncludesExperiment",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / includes",
+    "source": "urn:jy:physics:OB05:ThemeL1:4",
+    "target": "urn:jy:physics:OB05:Experiment:4.2.5"
+  },
+  {
+    "relationName": "experimentBelongsToThemeL1",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / belongsTo",
+    "source": "urn:jy:physics:OB05:Experiment:4.2.5",
+    "target": "urn:jy:physics:OB05:ThemeL1:4"
+  },
+  {
+    "relationName": "themeL1IncludesExperiment",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / includes",
+    "source": "urn:jy:physics:OB05:ThemeL1:4",
+    "target": "urn:jy:physics:OB05:Experiment:4.2.6"
+  },
+  {
+    "relationName": "experimentBelongsToThemeL1",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / belongsTo",
+    "source": "urn:jy:physics:OB05:Experiment:4.2.6",
+    "target": "urn:jy:physics:OB05:ThemeL1:4"
+  },
+  {
+    "relationName": "themeL1IncludesExperiment",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / includes",
+    "source": "urn:jy:physics:OB05:ThemeL1:4",
+    "target": "urn:jy:physics:OB05:Experiment:4.2.7"
+  },
+  {
+    "relationName": "experimentBelongsToThemeL1",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / belongsTo",
+    "source": "urn:jy:physics:OB05:Experiment:4.2.7",
+    "target": "urn:jy:physics:OB05:ThemeL1:4"
+  },
+  {
+    "relationName": "themeL1IncludesExperiment",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / includes",
+    "source": "urn:jy:physics:OB05:ThemeL1:4",
+    "target": "urn:jy:physics:OB05:Experiment:4.2.8"
+  },
+  {
+    "relationName": "experimentBelongsToThemeL1",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / belongsTo",
+    "source": "urn:jy:physics:OB05:Experiment:4.2.8",
+    "target": "urn:jy:physics:OB05:ThemeL1:4"
+  },
+  {
+    "relationName": "themeL1IncludesExperiment",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / includes",
+    "source": "urn:jy:physics:OB05:ThemeL1:4",
+    "target": "urn:jy:physics:OB05:Experiment:4.2.9"
+  },
+  {
+    "relationName": "experimentBelongsToThemeL1",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / belongsTo",
+    "source": "urn:jy:physics:OB05:Experiment:4.2.9",
+    "target": "urn:jy:physics:OB05:ThemeL1:4"
+  },
+  {
+    "relationName": "themeL1IncludesExperiment",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / includes",
+    "source": "urn:jy:physics:OB05:ThemeL1:4",
+    "target": "urn:jy:physics:OB05:Experiment:4.2.10"
+  },
+  {
+    "relationName": "experimentBelongsToThemeL1",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / belongsTo",
+    "source": "urn:jy:physics:OB05:Experiment:4.2.10",
+    "target": "urn:jy:physics:OB05:ThemeL1:4"
+  },
+  {
+    "relationName": "themeL1IncludesExperiment",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / includes",
+    "source": "urn:jy:physics:OB05:ThemeL1:4",
+    "target": "urn:jy:physics:OB05:Experiment:4.2.11"
+  },
+  {
+    "relationName": "experimentBelongsToThemeL1",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / belongsTo",
+    "source": "urn:jy:physics:OB05:Experiment:4.2.11",
+    "target": "urn:jy:physics:OB05:ThemeL1:4"
+  },
+  {
+    "relationName": "themeL1IncludesExperiment",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / includes",
+    "source": "urn:jy:physics:OB05:ThemeL1:4",
+    "target": "urn:jy:physics:OB05:Experiment:4.2.12"
+  },
+  {
+    "relationName": "experimentBelongsToThemeL1",
+    "label": "一级主题“实验探究”包含测量类和探究类学生必做实验。 / belongsTo",
+    "source": "urn:jy:physics:OB05:Experiment:4.2.12",
+    "target": "urn:jy:physics:OB05:ThemeL1:4"
+  }
+]

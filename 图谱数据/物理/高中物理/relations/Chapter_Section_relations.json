@@ -1,0 +1,1672 @@
+{
+  "relations": [
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:2",
+      "target": "urn:jy:physics:SB0401:OB06:Section:1"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:1",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:2"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:2",
+      "target": "urn:jy:physics:SB0401:OB06:Section:2"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:2",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:2"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:2",
+      "target": "urn:jy:physics:SB0401:OB06:Section:3"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:3",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:2"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:2",
+      "target": "urn:jy:physics:SB0401:OB06:Section:4"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:4",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:2"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:3",
+      "target": "urn:jy:physics:SB0401:OB06:Section:5"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:5",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:3"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:3",
+      "target": "urn:jy:physics:SB0401:OB06:Section:6"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:6",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:3"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:3",
+      "target": "urn:jy:physics:SB0401:OB06:Section:7"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:7",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:3"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:3",
+      "target": "urn:jy:physics:SB0401:OB06:Section:8"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:8",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:3"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:4",
+      "target": "urn:jy:physics:SB0401:OB06:Section:9"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:9",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:4"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:4",
+      "target": "urn:jy:physics:SB0401:OB06:Section:10"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:10",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:4"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:4",
+      "target": "urn:jy:physics:SB0401:OB06:Section:11"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:11",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:4"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:4",
+      "target": "urn:jy:physics:SB0401:OB06:Section:12"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:12",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:4"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:4",
+      "target": "urn:jy:physics:SB0401:OB06:Section:13"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:13",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:4"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:5",
+      "target": "urn:jy:physics:SB0401:OB06:Section:14"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:14",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:5"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:5",
+      "target": "urn:jy:physics:SB0401:OB06:Section:15"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:15",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:5"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:5",
+      "target": "urn:jy:physics:SB0401:OB06:Section:16"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:16",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:5"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:5",
+      "target": "urn:jy:physics:SB0401:OB06:Section:17"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:17",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:5"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:5",
+      "target": "urn:jy:physics:SB0401:OB06:Section:18"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:18",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:5"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:5",
+      "target": "urn:jy:physics:SB0401:OB06:Section:19"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:19",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:5"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:8",
+      "target": "urn:jy:physics:SB0401:OB06:Section:20"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:20",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:8"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:8",
+      "target": "urn:jy:physics:SB0401:OB06:Section:21"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:21",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:8"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:8",
+      "target": "urn:jy:physics:SB0401:OB06:Section:22"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:22",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:8"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:8",
+      "target": "urn:jy:physics:SB0401:OB06:Section:23"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:23",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:8"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:9",
+      "target": "urn:jy:physics:SB0401:OB06:Section:24"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:24",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:9"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:9",
+      "target": "urn:jy:physics:SB0401:OB06:Section:25"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:25",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:9"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:9",
+      "target": "urn:jy:physics:SB0401:OB06:Section:26"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:26",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:9"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:9",
+      "target": "urn:jy:physics:SB0401:OB06:Section:27"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:27",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:9"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:10",
+      "target": "urn:jy:physics:SB0401:OB06:Section:28"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:28",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:10"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:10",
+      "target": "urn:jy:physics:SB0401:OB06:Section:29"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:29",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:10"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:10",
+      "target": "urn:jy:physics:SB0401:OB06:Section:30"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:30",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:10"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:10",
+      "target": "urn:jy:physics:SB0401:OB06:Section:31"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:31",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:10"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:10",
+      "target": "urn:jy:physics:SB0401:OB06:Section:32"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:32",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:10"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:11",
+      "target": "urn:jy:physics:SB0401:OB06:Section:33"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:33",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:11"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:11",
+      "target": "urn:jy:physics:SB0401:OB06:Section:34"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:34",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:11"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:11",
+      "target": "urn:jy:physics:SB0401:OB06:Section:35"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:35",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:11"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:11",
+      "target": "urn:jy:physics:SB0401:OB06:Section:36"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:36",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:11"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:11",
+      "target": "urn:jy:physics:SB0401:OB06:Section:37"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:37",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:11"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:13",
+      "target": "urn:jy:physics:SB0401:OB06:Section:38"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:38",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:13"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:13",
+      "target": "urn:jy:physics:SB0401:OB06:Section:39"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:39",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:13"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:13",
+      "target": "urn:jy:physics:SB0401:OB06:Section:40"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:40",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:13"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:13",
+      "target": "urn:jy:physics:SB0401:OB06:Section:41"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:41",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:13"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:14",
+      "target": "urn:jy:physics:SB0401:OB06:Section:42"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:42",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:14"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:14",
+      "target": "urn:jy:physics:SB0401:OB06:Section:43"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:43",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:14"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:14",
+      "target": "urn:jy:physics:SB0401:OB06:Section:44"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:44",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:14"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:14",
+      "target": "urn:jy:physics:SB0401:OB06:Section:45"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:45",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:14"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:14",
+      "target": "urn:jy:physics:SB0401:OB06:Section:46"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:46",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:14"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:15",
+      "target": "urn:jy:physics:SB0401:OB06:Section:47"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:47",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:15"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:15",
+      "target": "urn:jy:physics:SB0401:OB06:Section:48"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:48",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:15"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:15",
+      "target": "urn:jy:physics:SB0401:OB06:Section:49"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:49",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:15"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:15",
+      "target": "urn:jy:physics:SB0401:OB06:Section:50"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:50",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:15"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:15",
+      "target": "urn:jy:physics:SB0401:OB06:Section:51"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:51",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:15"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:16",
+      "target": "urn:jy:physics:SB0401:OB06:Section:52"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:52",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:16"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:16",
+      "target": "urn:jy:physics:SB0401:OB06:Section:53"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:53",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:16"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:16",
+      "target": "urn:jy:physics:SB0401:OB06:Section:54"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:54",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:16"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:16",
+      "target": "urn:jy:physics:SB0401:OB06:Section:55"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:55",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:16"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:17",
+      "target": "urn:jy:physics:SB0401:OB06:Section:56"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:56",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:17"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:17",
+      "target": "urn:jy:physics:SB0401:OB06:Section:57"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:57",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:17"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:17",
+      "target": "urn:jy:physics:SB0401:OB06:Section:58"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:58",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:17"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:17",
+      "target": "urn:jy:physics:SB0401:OB06:Section:59"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:59",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:17"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:17",
+      "target": "urn:jy:physics:SB0401:OB06:Section:60"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:60",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:17"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:19",
+      "target": "urn:jy:physics:SB0401:OB06:Section:61"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:61",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:19"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:19",
+      "target": "urn:jy:physics:SB0401:OB06:Section:62"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:62",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:19"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:19",
+      "target": "urn:jy:physics:SB0401:OB06:Section:63"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:63",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:19"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:19",
+      "target": "urn:jy:physics:SB0401:OB06:Section:64"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:64",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:19"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:19",
+      "target": "urn:jy:physics:SB0401:OB06:Section:65"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:65",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:19"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:19",
+      "target": "urn:jy:physics:SB0401:OB06:Section:66"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:66",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:19"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:20",
+      "target": "urn:jy:physics:SB0401:OB06:Section:67"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:67",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:20"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:20",
+      "target": "urn:jy:physics:SB0401:OB06:Section:68"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:68",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:20"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:20",
+      "target": "urn:jy:physics:SB0401:OB06:Section:69"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:69",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:20"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:20",
+      "target": "urn:jy:physics:SB0401:OB06:Section:70"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:70",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:20"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:20",
+      "target": "urn:jy:physics:SB0401:OB06:Section:71"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:71",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:20"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:20",
+      "target": "urn:jy:physics:SB0401:OB06:Section:72"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:72",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:20"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:21",
+      "target": "urn:jy:physics:SB0401:OB06:Section:73"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:73",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:21"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:21",
+      "target": "urn:jy:physics:SB0401:OB06:Section:74"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:74",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:21"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:21",
+      "target": "urn:jy:physics:SB0401:OB06:Section:75"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:75",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:21"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:21",
+      "target": "urn:jy:physics:SB0401:OB06:Section:76"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:76",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:21"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:21",
+      "target": "urn:jy:physics:SB0401:OB06:Section:77"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:77",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:21"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:22",
+      "target": "urn:jy:physics:SB0401:OB06:Section:78"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:78",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:22"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:22",
+      "target": "urn:jy:physics:SB0401:OB06:Section:79"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:79",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:22"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:22",
+      "target": "urn:jy:physics:SB0401:OB06:Section:80"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:80",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:22"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:22",
+      "target": "urn:jy:physics:SB0401:OB06:Section:81"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:81",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:22"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:22",
+      "target": "urn:jy:physics:SB0401:OB06:Section:82"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:82",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:22"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:22",
+      "target": "urn:jy:physics:SB0401:OB06:Section:83"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:83",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:22"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:24",
+      "target": "urn:jy:physics:SB0401:OB06:Section:84"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:84",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:24"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:24",
+      "target": "urn:jy:physics:SB0401:OB06:Section:85"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:85",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:24"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:24",
+      "target": "urn:jy:physics:SB0401:OB06:Section:86"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:86",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:24"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:24",
+      "target": "urn:jy:physics:SB0401:OB06:Section:87"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:87",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:24"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:25",
+      "target": "urn:jy:physics:SB0401:OB06:Section:88"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:88",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:25"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:25",
+      "target": "urn:jy:physics:SB0401:OB06:Section:89"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:89",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:25"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:25",
+      "target": "urn:jy:physics:SB0401:OB06:Section:90"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:90",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:25"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:25",
+      "target": "urn:jy:physics:SB0401:OB06:Section:91"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:91",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:25"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:26",
+      "target": "urn:jy:physics:SB0401:OB06:Section:92"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:92",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:26"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:26",
+      "target": "urn:jy:physics:SB0401:OB06:Section:93"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:93",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:26"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:26",
+      "target": "urn:jy:physics:SB0401:OB06:Section:94"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:94",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:26"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:26",
+      "target": "urn:jy:physics:SB0401:OB06:Section:95"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:95",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:26"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:27",
+      "target": "urn:jy:physics:SB0401:OB06:Section:96"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:96",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:27"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:27",
+      "target": "urn:jy:physics:SB0401:OB06:Section:97"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:97",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:27"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:27",
+      "target": "urn:jy:physics:SB0401:OB06:Section:98"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:98",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:27"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:27",
+      "target": "urn:jy:physics:SB0401:OB06:Section:99"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:99",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:27"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:28",
+      "target": "urn:jy:physics:SB0401:OB06:Section:100"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:100",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:28"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:28",
+      "target": "urn:jy:physics:SB0401:OB06:Section:101"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:101",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:28"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:28",
+      "target": "urn:jy:physics:SB0401:OB06:Section:102"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:102",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:28"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:30",
+      "target": "urn:jy:physics:SB0401:OB06:Section:103"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:103",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:30"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:30",
+      "target": "urn:jy:physics:SB0401:OB06:Section:104"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:104",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:30"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:30",
+      "target": "urn:jy:physics:SB0401:OB06:Section:105"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:105",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:30"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:30",
+      "target": "urn:jy:physics:SB0401:OB06:Section:106"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:106",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:30"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:31",
+      "target": "urn:jy:physics:SB0401:OB06:Section:107"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:107",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:31"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:31",
+      "target": "urn:jy:physics:SB0401:OB06:Section:108"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:108",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:31"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:31",
+      "target": "urn:jy:physics:SB0401:OB06:Section:109"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:109",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:31"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:31",
+      "target": "urn:jy:physics:SB0401:OB06:Section:110"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:110",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:31"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:31",
+      "target": "urn:jy:physics:SB0401:OB06:Section:111"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:111",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:31"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:32",
+      "target": "urn:jy:physics:SB0401:OB06:Section:112"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:112",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:32"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:32",
+      "target": "urn:jy:physics:SB0401:OB06:Section:113"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:113",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:32"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:32",
+      "target": "urn:jy:physics:SB0401:OB06:Section:114"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:114",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:32"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:32",
+      "target": "urn:jy:physics:SB0401:OB06:Section:115"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:115",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:32"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:33",
+      "target": "urn:jy:physics:SB0401:OB06:Section:116"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:116",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:33"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:33",
+      "target": "urn:jy:physics:SB0401:OB06:Section:117"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:117",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:33"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:33",
+      "target": "urn:jy:physics:SB0401:OB06:Section:118"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:118",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:33"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:33",
+      "target": "urn:jy:physics:SB0401:OB06:Section:119"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:119",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:33"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:33",
+      "target": "urn:jy:physics:SB0401:OB06:Section:120"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:120",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:33"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:34",
+      "target": "urn:jy:physics:SB0401:OB06:Section:121"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:121",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:34"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:34",
+      "target": "urn:jy:physics:SB0401:OB06:Section:122"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:122",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:34"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:34",
+      "target": "urn:jy:physics:SB0401:OB06:Section:123"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:123",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:34"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:34",
+      "target": "urn:jy:physics:SB0401:OB06:Section:124"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:124",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:34"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:34",
+      "target": "urn:jy:physics:SB0401:OB06:Section:125"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:125",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:34"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:36",
+      "target": "urn:jy:physics:SB0401:OB06:Section:126"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:126",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:36"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:36",
+      "target": "urn:jy:physics:SB0401:OB06:Section:127"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:127",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:36"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:36",
+      "target": "urn:jy:physics:SB0401:OB06:Section:128"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:128",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:36"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:36",
+      "target": "urn:jy:physics:SB0401:OB06:Section:129"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:129",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:36"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:36",
+      "target": "urn:jy:physics:SB0401:OB06:Section:130"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:130",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:36"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:36",
+      "target": "urn:jy:physics:SB0401:OB06:Section:131"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:131",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:36"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:36",
+      "target": "urn:jy:physics:SB0401:OB06:Section:132"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:132",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:36"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:36",
+      "target": "urn:jy:physics:SB0401:OB06:Section:133"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:133",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:36"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:36",
+      "target": "urn:jy:physics:SB0401:OB06:Section:134"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:134",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:36"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:36",
+      "target": "urn:jy:physics:SB0401:OB06:Section:135"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:135",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:36"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:36",
+      "target": "urn:jy:physics:SB0401:OB06:Section:136"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:136",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:36"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:36",
+      "target": "urn:jy:physics:SB0401:OB06:Section:137"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:137",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:36"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:36",
+      "target": "urn:jy:physics:SB0401:OB06:Section:138"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:138",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:36"
+    },
+    {
+      "relationName": "chapterHasSection",
+      "label": "章节包含节 / hasSection",
+      "source": "urn:jy:physics:SB0401:OB06:Chapter:36",
+      "target": "urn:jy:physics:SB0401:OB06:Section:139"
+    },
+    {
+      "relationName": "sectionBelongsToChapter",
+      "label": "节隶属于章节 / belongsToChapter",
+      "source": "urn:jy:physics:SB0401:OB06:Section:139",
+      "target": "urn:jy:physics:SB0401:OB06:Chapter:36"
+    }
+  ]
+}

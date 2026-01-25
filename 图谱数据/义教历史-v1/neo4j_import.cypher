@@ -1,29 +1,29 @@
 // =====================================================
 // 义教历史课标图谱 - Neo4j导入脚本
-// 生成时间: 2026-01-23T15:49:02.130510
+// 生成时间: 2026-01-23T18:05:09.347871
 // =====================================================
 
 // 创建约束和索引
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:AcademicQuality) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:Unknown) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:CoreLiteracy) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:Chapter) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:Section) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:Theme) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:Domain) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Section) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Chapter) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Unknown) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:AcademicQuality) REQUIRE n.identifier IS UNIQUE;
 
 // =====================================================
 // 导入实体
 // =====================================================
 
 MERGE (n:Unknown {identifier: "urn:jy:history:SB0307:OB03:unit:1:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:unit:1:OB03", title: "史前时期", description: "通过了解元谋人、郧县人、蓝田人、北京人等旧石器时代的人类及其文化遗存，知道中国境内原始社会时期的人类活动；通过了解河姆渡、半坡、良渚、陶寺、二里头等新石器时代的文化遗存，知道中国的原始农耕生活；了解私有制、阶级和早期国家的产生；知道考古发现是了解原始社会的重要依据；通过古代文献中记述的黄帝、炎帝等神话传说，了解其中蕴含的历史信息。", subject: "SB0307", applicableLevel: "OB03", Theme: "中国古代史"};
+SET n += {identifier: "urn:jy:history:SB0307:OB03:unit:1:OB03", title: "史前时期", description: "[{\"SpecificPeriod\": \"旧石器时代\", \"HistoricalMaterials\": \"文化遗存：旧石器时代遗址\", \"HistoricalFacts\": \"在一百多万年前，中华大地上就有了人类活动\", \"HistoricalFigures\": \"\", \"institution\": \"\", \"CivilizationalAchievements\": \"\"}, {\"SpecificPeriod\": \"新石器时代\", \"HistoricalMaterials\": \"考古发现\", \"HistoricalFacts\": \"私有制、阶级和早期国家产生\", \"HistoricalFigures\": \"\", \"institution\": \"\", \"CivilizationalAchievements\": \"中国是世界上原始农业产生最早的地区之一\\n中华文明产生\"}, {\"SpecificPeriod\": \"早期国家\", \"HistoricalMaterials\": \"文献\", \"HistoricalFacts\": \"\", \"HistoricalFigures\": \"\", \"institution\": \"\", \"CivilizationalAchievements\": \"\"}, {\"SpecificPeriod\": \"原始社会\", \"HistoricalMaterials\": \"神话传说\", \"HistoricalFacts\": \"\", \"HistoricalFigures\": \"黄帝、炎帝等\", \"institution\": \"\", \"CivilizationalAchievements\": \"\"}]", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"Theme\": \"中国古代史\"}", CJ_Theme: "中国古代史"};
 
 MERGE (n:Unknown {identifier: "urn:jy:history:SB0307:OB03:unit:2:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:unit:2:OB03", title: "夏商西周与春秋战国时期", description: "知道甲骨文是已知最早的汉字；通过了解甲骨文、青铜铭文、其他文献记载和典型器物，知道具有奴隶制特点的夏、商、西周王朝的建立与发展，了解西周分封制等重要制度；知道老子、孔子的生平与思想；通过了解这一时期的生产力水平和社会关系的变化，初步理解春秋时期诸侯争霸局面的形成、战国时期商鞅变法等改革和“百家争鸣”局面的产生；通过《黄帝内经》和名医扁鹊，了解这一时期的医学成就；通过都江堰工程，感受古代劳动人民的智慧和创造力。", subject: "SB0307", applicableLevel: "OB03", Theme: "中国古代史"};
+SET n += {identifier: "urn:jy:history:SB0307:OB03:unit:2:OB03", title: "夏商西周与春秋战国时期", description: "[{\"SpecificPeriod\": \"夏\", \"HistoricalMaterials\": \"甲骨文、青铜铭文、文献、器物\", \"HistoricalFacts\": \"社会分工、都邑和王权的出现\", \"HistoricalFigures\": \"\", \"institution\": \"\", \"CivilizationalAchievements\": \"大约在公元前21世纪，中国历史上第一个王朝——夏朝建立。\"}, {\"SpecificPeriod\": \"商\", \"HistoricalMaterials\": \"\", \"HistoricalFacts\": \"\", \"HistoricalFigures\": \"\", \"institution\": \"\", \"CivilizationalAchievements\": \"商朝的青铜冶炼技术和甲骨文代表了早期中华文明的辉煌成就。\"}, {\"SpecificPeriod\": \"西周\", \"HistoricalMaterials\": \"\", \"HistoricalFacts\": \"\", \"HistoricalFigures\": \"老子、孔子\", \"institution\": \"分封制\", \"CivilizationalAchievements\": \"\"}, {\"SpecificPeriod\": \"东周、春秋、战国\", \"HistoricalMaterials\": \"铁农具和牛耕推广\", \"HistoricalFacts\": \"春秋时期王室衰微、诸侯争霸，分封制渐趋瓦解。\\n各诸侯国的变法推动社会进步。\\n思想文化出现“百家争鸣”。\", \"HistoricalFigures\": \"商鞅、扁鹊\", \"institution\": \"\", \"CivilizationalAchievements\": \"甲骨文是已知最早的汉字。\\n医学成就：《黄帝内经》、名医扁鹊\\n通过都江堰工程感受古代劳动人民的智慧和创造力。\"}]", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"Theme\": \"中国古代史\"}", CJ_Theme: "中国古代史"};
 
 MERGE (n:Unknown {identifier: "urn:jy:history:SB0307:OB03:unit:3:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:unit:3:OB03", title: "秦汉时期", description: "通过了解秦朝统一、陈胜和吴广等领导的秦末农民起义、西汉“削藩”和尊崇儒术，知道统一多民族封建国家建立和早期发展的过程；通过了解休养生息政策、“文景之治”、张骞通西域、“丝绸之路”的开辟、汉武帝的大一统，知道西汉从建立之初的社会残破发展到国力强盛的变化及原因；通过了解西汉末到东汉的政治、社会动荡，了解佛教传入和道教产生的背景；知道这一时期的重要文化和科技成就，如司马迁与《史记》、蔡伦与造纸术、张仲景与《伤寒杂病论》、华佗的故事等。", subject: "SB0307", applicableLevel: "OB03", Theme: "中国古代史"};
+SET n += {identifier: "urn:jy:history:SB0307:OB03:unit:3:OB03", title: "秦汉时期", description: "[{\"SpecificPeriod\": \"秦\", \"HistoricalMaterials\": \"\", \"HistoricalFacts\": \"秦统一\\n秦朝因暴政短命而亡\\n秦末农民起义\", \"HistoricalFigures\": \"秦始皇、陈胜、吴广\", \"institution\": \"专制主义中央集权的国家体制\", \"CivilizationalAchievements\": \"秦始皇建立了我国历史上第一个统一的多民族的封建国家。\\n秦的一些制度对对以后历代王朝具有深远影响。\"}, {\"SpecificPeriod\": \"西汉\", \"HistoricalMaterials\": \"\", \"HistoricalFacts\": \"张骞通西域\\n“丝绸之路”的开辟\\n汉武帝的大一统\", \"HistoricalFigures\": \"汉文帝、汉景帝、汉武帝、张骞、司马迁\", \"institution\": \"削藩、尊崇儒术、休养生息\", \"CivilizationalAchievements\": \"“文景之治”\\n西汉王朝在汉武帝时实现大一统，国力达到鼎盛\\n科技和文化成就\"}, {\"SpecificPeriod\": \"东汉\", \"HistoricalMaterials\": \"\", \"HistoricalFacts\": \"西汉末到东汉初政治、社会动荡\", \"HistoricalFigures\": \"蔡伦、张仲景、华佗\", \"institution\": \"\", \"CivilizationalAchievements\": \"科技和文化成就\"}]", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"Theme\": \"中国古代史\"}", CJ_Theme: "中国古代史"};
 
 MERGE (n:Unknown {identifier: "urn:jy:history:SB0307:OB03:unit:4:OB03"})
 SET n += {identifier: "urn:jy:history:SB0307:OB03:unit:4:OB03", title: "三国两晋南北朝时期", description: "通过了解三国两晋南北朝时期的政权更迭和北魏孝文帝改革、人口迁徙和区域开发，认识这一时期民族交往交流交融的历史特点及其对中华民族发展的意义；通过了解这一时期的科技和艺术成就，如祖冲之的数学成就，认识传统文化的继承与创新。", subject: "SB0307", applicableLevel: "OB03", Theme: "中国古代史"};
@@ -124,452 +124,452 @@ SET n += {identifier: "urn:jy:history:SB0307:OB03:CoreLiteracy:4:OB03", title: "
 MERGE (n:CoreLiteracy {identifier: "urn:jy:history:SB0307:OB03:CoreLiteracy:5:OB03"})
 SET n += {identifier: "urn:jy:history:SB0307:OB03:CoreLiteracy:5:OB03", title: "家国情怀", description: "家国情怀是学习和探究历史应具有的人文追求与社会责任。\n\n学习和探究历史应充满人文情怀并关注现实问题，热爱家乡，热 爱祖国，放眼世界，以服务于国家富强、中华民族伟大复兴和人类命 运共同体的构建。\n\n在义务教育阶段，要求学生形成对家乡、国家和中华民族的认 同，具有国际视野，有理想、有担当。", subject: "SB0307", type: "CoreLiteracy", applicableLevel: "OB03", contentJson: "{}"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:1:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:1:OB03", title: "第1课 远古时期的人类活动", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 史前时期：原始社会与中华文明的起源\"}", CJ_bookunit: "第一单元 史前时期：原始社会与中华文明的起源"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:1:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:1:OB03", title: "第1课 远古时期的人类活动", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 史前时期：原始社会与中华文明的起源\"}", CJ_bookunit: "第一单元 史前时期：原始社会与中华文明的起源"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:2:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:2:OB03", title: "第2课 原始农业与史前社会", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 史前时期：原始社会与中华文明的起源\"}", CJ_bookunit: "第一单元 史前时期：原始社会与中华文明的起源"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:2:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:2:OB03", title: "第2课 原始农业与史前社会", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 史前时期：原始社会与中华文明的起源\"}", CJ_bookunit: "第一单元 史前时期：原始社会与中华文明的起源"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:3:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:3:OB03", title: "第3课 中华文明的起源", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 史前时期：原始社会与中华文明的起源\"}", CJ_bookunit: "第一单元 史前时期：原始社会与中华文明的起源"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:3:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:3:OB03", title: "第3课 中华文明的起源", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 史前时期：原始社会与中华文明的起源\"}", CJ_bookunit: "第一单元 史前时期：原始社会与中华文明的起源"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:4:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:4:OB03", title: "第4课 夏商西周王朝的更替", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 夏商周时期：奴隶制王朝的更替和向封建社会的过渡\"}", CJ_bookunit: "第二单元 夏商周时期：奴隶制王朝的更替和向封建社会的过渡"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:4:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:4:OB03", title: "第4课 夏商西周王朝的更替", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 夏商周时期：奴隶制王朝的更替和向封建社会的过渡\"}", CJ_bookunit: "第二单元 夏商周时期：奴隶制王朝的更替和向封建社会的过渡"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:5:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:5:OB03", title: "第5课 动荡变化中的春秋时期", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 夏商周时期：奴隶制王朝的更替和向封建社会的过渡\"}", CJ_bookunit: "第二单元 夏商周时期：奴隶制王朝的更替和向封建社会的过渡"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:5:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:5:OB03", title: "第5课 动荡变化中的春秋时期", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 夏商周时期：奴隶制王朝的更替和向封建社会的过渡\"}", CJ_bookunit: "第二单元 夏商周时期：奴隶制王朝的更替和向封建社会的过渡"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:6:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:6:OB03", title: "第6课 战国时期的社会变革", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 夏商周时期：奴隶制王朝的更替和向封建社会的过渡\"}", CJ_bookunit: "第二单元 夏商周时期：奴隶制王朝的更替和向封建社会的过渡"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:6:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:6:OB03", title: "第6课 战国时期的社会变革", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 夏商周时期：奴隶制王朝的更替和向封建社会的过渡\"}", CJ_bookunit: "第二单元 夏商周时期：奴隶制王朝的更替和向封建社会的过渡"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:7:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:7:OB03", title: "第7课 百家争鸣", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 夏商周时期：奴隶制王朝的更替和向封建社会的过渡\"}", CJ_bookunit: "第二单元 夏商周时期：奴隶制王朝的更替和向封建社会的过渡"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:7:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:7:OB03", title: "第7课 百家争鸣", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 夏商周时期：奴隶制王朝的更替和向封建社会的过渡\"}", CJ_bookunit: "第二单元 夏商周时期：奴隶制王朝的更替和向封建社会的过渡"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:8:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:8:OB03", title: "第8课 夏商周时期的科技与文化", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 夏商周时期：奴隶制王朝的更替和向封建社会的过渡\"}", CJ_bookunit: "第二单元 夏商周时期：奴隶制王朝的更替和向封建社会的过渡"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:8:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:8:OB03", title: "第8课 夏商周时期的科技与文化", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 夏商周时期：奴隶制王朝的更替和向封建社会的过渡\"}", CJ_bookunit: "第二单元 夏商周时期：奴隶制王朝的更替和向封建社会的过渡"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:9:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:9:OB03", title: "第9课 秦统一中国", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 秦汉时期：统一多民族封建国家的建立和巩固\"}", CJ_bookunit: "第三单元 秦汉时期：统一多民族封建国家的建立和巩固"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:9:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:9:OB03", title: "第9课 秦统一中国", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 秦汉时期：统一多民族封建国家的建立和巩固\"}", CJ_bookunit: "第三单元 秦汉时期：统一多民族封建国家的建立和巩固"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:10:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:10:OB03", title: "第10课 秦末农民大起义", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 秦汉时期：统一多民族封建国家的建立和巩固\"}", CJ_bookunit: "第三单元 秦汉时期：统一多民族封建国家的建立和巩固"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:10:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:10:OB03", title: "第10课 秦末农民大起义", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 秦汉时期：统一多民族封建国家的建立和巩固\"}", CJ_bookunit: "第三单元 秦汉时期：统一多民族封建国家的建立和巩固"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:11:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:11:OB03", title: "第11课 西汉建立和“文景之治”", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 秦汉时期：统一多民族封建国家的建立和巩固\"}", CJ_bookunit: "第三单元 秦汉时期：统一多民族封建国家的建立和巩固"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:11:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:11:OB03", title: "第11课 西汉建立和“文景之治”", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 秦汉时期：统一多民族封建国家的建立和巩固\"}", CJ_bookunit: "第三单元 秦汉时期：统一多民族封建国家的建立和巩固"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:12:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:12:OB03", title: "第12课 大一统王朝的巩固", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 秦汉时期：统一多民族封建国家的建立和巩固\"}", CJ_bookunit: "第三单元 秦汉时期：统一多民族封建国家的建立和巩固"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:12:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:12:OB03", title: "第12课 大一统王朝的巩固", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 秦汉时期：统一多民族封建国家的建立和巩固\"}", CJ_bookunit: "第三单元 秦汉时期：统一多民族封建国家的建立和巩固"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:13:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:13:OB03", title: "第13课 东汉的兴衰", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 秦汉时期：统一多民族封建国家的建立和巩固\"}", CJ_bookunit: "第三单元 秦汉时期：统一多民族封建国家的建立和巩固"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:13:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:13:OB03", title: "第13课 东汉的兴衰", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 秦汉时期：统一多民族封建国家的建立和巩固\"}", CJ_bookunit: "第三单元 秦汉时期：统一多民族封建国家的建立和巩固"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:14:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:14:OB03", title: "第14课 丝绸之路的开通与经营西域", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 秦汉时期：统一多民族封建国家的建立和巩固\"}", CJ_bookunit: "第三单元 秦汉时期：统一多民族封建国家的建立和巩固"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:14:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:14:OB03", title: "第14课 丝绸之路的开通与经营西域", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 秦汉时期：统一多民族封建国家的建立和巩固\"}", CJ_bookunit: "第三单元 秦汉时期：统一多民族封建国家的建立和巩固"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:15:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:15:OB03", title: "第15课 秦汉时期的科技与文化", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 秦汉时期：统一多民族封建国家的建立和巩固\"}", CJ_bookunit: "第三单元 秦汉时期：统一多民族封建国家的建立和巩固"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:15:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:15:OB03", title: "第15课 秦汉时期的科技与文化", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 秦汉时期：统一多民族封建国家的建立和巩固\"}", CJ_bookunit: "第三单元 秦汉时期：统一多民族封建国家的建立和巩固"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:16:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:16:OB03", title: "第16课 三国鼎立", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第四单元 三国两晋南北朝时期：政权分立与民族交融\"}", CJ_bookunit: "第四单元 三国两晋南北朝时期：政权分立与民族交融"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:16:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:16:OB03", title: "第16课 三国鼎立", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第四单元 三国两晋南北朝时期：政权分立与民族交融\"}", CJ_bookunit: "第四单元 三国两晋南北朝时期：政权分立与民族交融"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:17:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:17:OB03", title: "第17课 西晋的短暂统一和北方各族的内迁", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第四单元 三国两晋南北朝时期：政权分立与民族交融\"}", CJ_bookunit: "第四单元 三国两晋南北朝时期：政权分立与民族交融"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:17:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:17:OB03", title: "第17课 西晋的短暂统一和北方各族的内迁", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第四单元 三国两晋南北朝时期：政权分立与民族交融\"}", CJ_bookunit: "第四单元 三国两晋南北朝时期：政权分立与民族交融"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:18:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:18:OB03", title: "第18课 东晋南朝政治和江南地区开发", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第四单元 三国两晋南北朝时期：政权分立与民族交融\"}", CJ_bookunit: "第四单元 三国两晋南北朝时期：政权分立与民族交融"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:18:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:18:OB03", title: "第18课 东晋南朝政治和江南地区开发", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第四单元 三国两晋南北朝时期：政权分立与民族交融\"}", CJ_bookunit: "第四单元 三国两晋南北朝时期：政权分立与民族交融"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:19:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:19:OB03", title: "第19课 北朝政治和北方民族大交融", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第四单元 三国两晋南北朝时期：政权分立与民族交融\"}", CJ_bookunit: "第四单元 三国两晋南北朝时期：政权分立与民族交融"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:19:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:19:OB03", title: "第19课 北朝政治和北方民族大交融", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第四单元 三国两晋南北朝时期：政权分立与民族交融\"}", CJ_bookunit: "第四单元 三国两晋南北朝时期：政权分立与民族交融"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:20:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:20:OB03", title: "第20课 三国两晋南北朝时期的科技与文化", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第四单元 三国两晋南北朝时期：政权分立与民族交融\"}", CJ_bookunit: "第四单元 三国两晋南北朝时期：政权分立与民族交融"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:20:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:20:OB03", title: "第20课 三国两晋南北朝时期的科技与文化", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第四单元 三国两晋南北朝时期：政权分立与民族交融\"}", CJ_bookunit: "第四单元 三国两晋南北朝时期：政权分立与民族交融"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:21:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:21:OB03", title: "第21课 活动课 从考古发现看中华文明的起源", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第四单元 三国两晋南北朝时期：政权分立与民族交融\"}", CJ_bookunit: "第四单元 三国两晋南北朝时期：政权分立与民族交融"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:21:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:21:OB03", title: "第21课 活动课 从考古发现看中华文明的起源", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第四单元 三国两晋南北朝时期：政权分立与民族交融\"}", CJ_bookunit: "第四单元 三国两晋南北朝时期：政权分立与民族交融"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:22:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:22:OB03", title: "第1 课 隋朝统一与灭亡", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 隋唐时期：繁荣与开放的时代\"}", CJ_bookunit: "第一单元 隋唐时期：繁荣与开放的时代"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:22:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:22:OB03", title: "第1 课 隋朝统一与灭亡", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 隋唐时期：繁荣与开放的时代\"}", CJ_bookunit: "第一单元 隋唐时期：繁荣与开放的时代"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:23:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:23:OB03", title: "第2 课 唐朝建立与“贞观之治”", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 隋唐时期：繁荣与开放的时代\"}", CJ_bookunit: "第一单元 隋唐时期：繁荣与开放的时代"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:23:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:23:OB03", title: "第2 课 唐朝建立与“贞观之治”", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 隋唐时期：繁荣与开放的时代\"}", CJ_bookunit: "第一单元 隋唐时期：繁荣与开放的时代"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:24:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:24:OB03", title: "第3 课 “开元盛世”", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 隋唐时期：繁荣与开放的时代\"}", CJ_bookunit: "第一单元 隋唐时期：繁荣与开放的时代"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:24:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:24:OB03", title: "第3 课 “开元盛世”", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 隋唐时期：繁荣与开放的时代\"}", CJ_bookunit: "第一单元 隋唐时期：繁荣与开放的时代"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:25:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:25:OB03", title: "第4 课 安史之乱与唐朝衰亡", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 隋唐时期：繁荣与开放的时代\"}", CJ_bookunit: "第一单元 隋唐时期：繁荣与开放的时代"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:25:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:25:OB03", title: "第4 课 安史之乱与唐朝衰亡", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 隋唐时期：繁荣与开放的时代\"}", CJ_bookunit: "第一单元 隋唐时期：繁荣与开放的时代"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:26:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:26:OB03", title: "第5 课 隋唐时期的民族交往与交融", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 隋唐时期：繁荣与开放的时代\"}", CJ_bookunit: "第一单元 隋唐时期：繁荣与开放的时代"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:26:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:26:OB03", title: "第5 课 隋唐时期的民族交往与交融", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 隋唐时期：繁荣与开放的时代\"}", CJ_bookunit: "第一单元 隋唐时期：繁荣与开放的时代"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:27:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:27:OB03", title: "第6 课 隋唐时期的中外文化交流", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 隋唐时期：繁荣与开放的时代\"}", CJ_bookunit: "第一单元 隋唐时期：繁荣与开放的时代"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:27:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:27:OB03", title: "第6 课 隋唐时期的中外文化交流", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 隋唐时期：繁荣与开放的时代\"}", CJ_bookunit: "第一单元 隋唐时期：繁荣与开放的时代"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:28:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:28:OB03", title: "第7 课 隋唐时期的科技与文化", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 隋唐时期：繁荣与开放的时代\"}", CJ_bookunit: "第一单元 隋唐时期：繁荣与开放的时代"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:28:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:28:OB03", title: "第7 课 隋唐时期的科技与文化", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 隋唐时期：繁荣与开放的时代\"}", CJ_bookunit: "第一单元 隋唐时期：繁荣与开放的时代"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:29:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:29:OB03", title: "第8 课 北宋的政治", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 辽宋夏金元时期：民族关系发展和社会变化\"}", CJ_bookunit: "第二单元 辽宋夏金元时期：民族关系发展和社会变化"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:29:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:29:OB03", title: "第8 课 北宋的政治", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 辽宋夏金元时期：民族关系发展和社会变化\"}", CJ_bookunit: "第二单元 辽宋夏金元时期：民族关系发展和社会变化"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:30:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:30:OB03", title: "第9 课 辽、西夏与北宋并立", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 辽宋夏金元时期：民族关系发展和社会变化\"}", CJ_bookunit: "第二单元 辽宋夏金元时期：民族关系发展和社会变化"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:30:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:30:OB03", title: "第9 课 辽、西夏与北宋并立", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 辽宋夏金元时期：民族关系发展和社会变化\"}", CJ_bookunit: "第二单元 辽宋夏金元时期：民族关系发展和社会变化"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:31:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:31:OB03", title: "第10 课 金与南宋对峙", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 辽宋夏金元时期：民族关系发展和社会变化\"}", CJ_bookunit: "第二单元 辽宋夏金元时期：民族关系发展和社会变化"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:31:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:31:OB03", title: "第10 课 金与南宋对峙", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 辽宋夏金元时期：民族关系发展和社会变化\"}", CJ_bookunit: "第二单元 辽宋夏金元时期：民族关系发展和社会变化"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:32:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:32:OB03", title: "第11 课 元朝的建立与统一", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 辽宋夏金元时期：民族关系发展和社会变化\"}", CJ_bookunit: "第二单元 辽宋夏金元时期：民族关系发展和社会变化"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:32:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:32:OB03", title: "第11 课 元朝的建立与统一", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 辽宋夏金元时期：民族关系发展和社会变化\"}", CJ_bookunit: "第二单元 辽宋夏金元时期：民族关系发展和社会变化"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:33:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:33:OB03", title: "第12 课 辽宋夏金元时期经济的繁荣", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 辽宋夏金元时期：民族关系发展和社会变化\"}", CJ_bookunit: "第二单元 辽宋夏金元时期：民族关系发展和社会变化"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:33:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:33:OB03", title: "第12 课 辽宋夏金元时期经济的繁荣", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 辽宋夏金元时期：民族关系发展和社会变化\"}", CJ_bookunit: "第二单元 辽宋夏金元时期：民族关系发展和社会变化"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:34:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:34:OB03", title: "第13 课 辽宋夏金元时期的对外交流", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 辽宋夏金元时期：民族关系发展和社会变化\"}", CJ_bookunit: "第二单元 辽宋夏金元时期：民族关系发展和社会变化"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:34:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:34:OB03", title: "第13 课 辽宋夏金元时期的对外交流", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 辽宋夏金元时期：民族关系发展和社会变化\"}", CJ_bookunit: "第二单元 辽宋夏金元时期：民族关系发展和社会变化"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:35:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:35:OB03", title: "第14 课 辽宋夏金元时期的科技与文化", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 辽宋夏金元时期：民族关系发展和社会变化\"}", CJ_bookunit: "第二单元 辽宋夏金元时期：民族关系发展和社会变化"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:35:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:35:OB03", title: "第14 课 辽宋夏金元时期的科技与文化", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 辽宋夏金元时期：民族关系发展和社会变化\"}", CJ_bookunit: "第二单元 辽宋夏金元时期：民族关系发展和社会变化"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:36:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:36:OB03", title: "第15 课 明朝的统治", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展\"}", CJ_bookunit: "第三单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:36:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:36:OB03", title: "第15 课 明朝的统治", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展\"}", CJ_bookunit: "第三单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:37:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:37:OB03", title: "第16 课 明朝的对外关系", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展\"}", CJ_bookunit: "第三单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:37:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:37:OB03", title: "第16 课 明朝的对外关系", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展\"}", CJ_bookunit: "第三单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:38:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:38:OB03", title: "第17 课 明朝的灭亡和清朝的建立", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展\"}", CJ_bookunit: "第三单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:38:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:38:OB03", title: "第17 课 明朝的灭亡和清朝的建立", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展\"}", CJ_bookunit: "第三单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:39:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:39:OB03", title: "第18 课 清朝的边疆治理", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展\"}", CJ_bookunit: "第三单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:39:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:39:OB03", title: "第18 课 清朝的边疆治理", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展\"}", CJ_bookunit: "第三单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:40:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:40:OB03", title: "第19 课 清朝君主专制的强化", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展\"}", CJ_bookunit: "第三单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:40:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:40:OB03", title: "第19 课 清朝君主专制的强化", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展\"}", CJ_bookunit: "第三单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:41:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:41:OB03", title: "第20 课 明清时期社会经济的发展", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展\"}", CJ_bookunit: "第三单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:41:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:41:OB03", title: "第20 课 明清时期社会经济的发展", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展\"}", CJ_bookunit: "第三单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:42:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:42:OB03", title: "第21 课 明清时期的科技与文化", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展\"}", CJ_bookunit: "第三单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:42:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:42:OB03", title: "第21 课 明清时期的科技与文化", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展\"}", CJ_bookunit: "第三单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:43:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:43:OB03", title: "第22 课 活动课 我国传统节日的起源与传承", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展\"}", CJ_bookunit: "第三单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:43:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:43:OB03", title: "第22 课 活动课 我国传统节日的起源与传承", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展\"}", CJ_bookunit: "第三单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:44:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:44:OB03", title: "（一）如何读懂文献史料", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"学史方法\"}", CJ_bookunit: "学史方法"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:44:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:44:OB03", title: "（一）如何读懂文献史料", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"学史方法\"}", CJ_bookunit: "学史方法"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:45:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:45:OB03", title: "（二）如何把握史事要素", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"学史方法\"}", CJ_bookunit: "学史方法"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:45:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:45:OB03", title: "（二）如何把握史事要素", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"学史方法\"}", CJ_bookunit: "学史方法"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:46:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:46:OB03", title: "第1课 鸦片战争", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 中国开始沦为半殖民地半封建社会\"}", CJ_bookunit: "第一单元 中国开始沦为半殖民地半封建社会"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:46:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:46:OB03", title: "第1课 鸦片战争", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 中国开始沦为半殖民地半封建社会\"}", CJ_bookunit: "第一单元 中国开始沦为半殖民地半封建社会"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:47:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:47:OB03", title: "第2课 第二次鸦片战争", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 中国开始沦为半殖民地半封建社会\"}", CJ_bookunit: "第一单元 中国开始沦为半殖民地半封建社会"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:47:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:47:OB03", title: "第2课 第二次鸦片战争", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 中国开始沦为半殖民地半封建社会\"}", CJ_bookunit: "第一单元 中国开始沦为半殖民地半封建社会"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:48:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:48:OB03", title: "第3课 太平天国运动", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 中国开始沦为半殖民地半封建社会\"}", CJ_bookunit: "第一单元 中国开始沦为半殖民地半封建社会"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:48:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:48:OB03", title: "第3课 太平天国运动", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 中国开始沦为半殖民地半封建社会\"}", CJ_bookunit: "第一单元 中国开始沦为半殖民地半封建社会"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:49:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:49:OB03", title: "第4课 洋务运动和边疆危机", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 早期现代化的初步探索和民族危机加剧\"}", CJ_bookunit: "第二单元 早期现代化的初步探索和民族危机加剧"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:49:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:49:OB03", title: "第4课 洋务运动和边疆危机", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 早期现代化的初步探索和民族危机加剧\"}", CJ_bookunit: "第二单元 早期现代化的初步探索和民族危机加剧"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:50:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:50:OB03", title: "第5课 甲午中日战争与列强瓜分中国狂潮", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 早期现代化的初步探索和民族危机加剧\"}", CJ_bookunit: "第二单元 早期现代化的初步探索和民族危机加剧"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:50:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:50:OB03", title: "第5课 甲午中日战争与列强瓜分中国狂潮", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 早期现代化的初步探索和民族危机加剧\"}", CJ_bookunit: "第二单元 早期现代化的初步探索和民族危机加剧"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:51:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:51:OB03", title: "第6课 戊戌变法", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 早期现代化的初步探索和民族危机加剧\"}", CJ_bookunit: "第二单元 早期现代化的初步探索和民族危机加剧"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:51:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:51:OB03", title: "第6课 戊戌变法", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 早期现代化的初步探索和民族危机加剧\"}", CJ_bookunit: "第二单元 早期现代化的初步探索和民族危机加剧"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:52:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:52:OB03", title: "第7课 义和团运动和八国联军侵华", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 早期现代化的初步探索和民族危机加剧\"}", CJ_bookunit: "第二单元 早期现代化的初步探索和民族危机加剧"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:52:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:52:OB03", title: "第7课 义和团运动和八国联军侵华", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 早期现代化的初步探索和民族危机加剧\"}", CJ_bookunit: "第二单元 早期现代化的初步探索和民族危机加剧"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:53:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:53:OB03", title: "第8课 中国同盟会", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 资产阶级民主革命与中华民国的建立\"}", CJ_bookunit: "第三单元 资产阶级民主革命与中华民国的建立"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:53:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:53:OB03", title: "第8课 中国同盟会", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 资产阶级民主革命与中华民国的建立\"}", CJ_bookunit: "第三单元 资产阶级民主革命与中华民国的建立"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:54:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:54:OB03", title: "第9课 辛亥革命", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 资产阶级民主革命与中华民国的建立\"}", CJ_bookunit: "第三单元 资产阶级民主革命与中华民国的建立"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:54:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:54:OB03", title: "第9课 辛亥革命", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 资产阶级民主革命与中华民国的建立\"}", CJ_bookunit: "第三单元 资产阶级民主革命与中华民国的建立"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:55:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:55:OB03", title: "第10课 帝制复辟与军阀割据", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 资产阶级民主革命与中华民国的建立\"}", CJ_bookunit: "第三单元 资产阶级民主革命与中华民国的建立"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:55:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:55:OB03", title: "第10课 帝制复辟与军阀割据", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 资产阶级民主革命与中华民国的建立\"}", CJ_bookunit: "第三单元 资产阶级民主革命与中华民国的建立"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:56:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:56:OB03", title: "第11课 五四运动", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第四单元 新民主主义革命的兴起\"}", CJ_bookunit: "第四单元 新民主主义革命的兴起"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:56:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:56:OB03", title: "第11课 五四运动", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第四单元 新民主主义革命的兴起\"}", CJ_bookunit: "第四单元 新民主主义革命的兴起"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:57:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:57:OB03", title: "第12课 中国共产党诞生", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第四单元 新民主主义革命的兴起\"}", CJ_bookunit: "第四单元 新民主主义革命的兴起"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:57:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:57:OB03", title: "第12课 中国共产党诞生", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第四单元 新民主主义革命的兴起\"}", CJ_bookunit: "第四单元 新民主主义革命的兴起"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:58:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:58:OB03", title: "第13课 国共合作与北伐战争", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第五单元 从国共合作到农村革命根据地的建立\"}", CJ_bookunit: "第五单元 从国共合作到农村革命根据地的建立"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:58:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:58:OB03", title: "第13课 国共合作与北伐战争", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第五单元 从国共合作到农村革命根据地的建立\"}", CJ_bookunit: "第五单元 从国共合作到农村革命根据地的建立"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:59:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:59:OB03", title: "第14课 毛泽东开辟井冈山道路", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第五单元 从国共合作到农村革命根据地的建立\"}", CJ_bookunit: "第五单元 从国共合作到农村革命根据地的建立"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:59:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:59:OB03", title: "第14课 毛泽东开辟井冈山道路", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第五单元 从国共合作到农村革命根据地的建立\"}", CJ_bookunit: "第五单元 从国共合作到农村革命根据地的建立"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:60:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:60:OB03", title: "第15课 中国工农红军长征与遵义会议", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第五单元 从国共合作到农村革命根据地的建立\"}", CJ_bookunit: "第五单元 从国共合作到农村革命根据地的建立"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:60:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:60:OB03", title: "第15课 中国工农红军长征与遵义会议", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第五单元 从国共合作到农村革命根据地的建立\"}", CJ_bookunit: "第五单元 从国共合作到农村革命根据地的建立"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:61:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:61:OB03", title: "第16课 从九一八事变到西安事变", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第六单元 中华民族的抗日战争\"}", CJ_bookunit: "第六单元 中华民族的抗日战争"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:61:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:61:OB03", title: "第16课 从九一八事变到西安事变", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第六单元 中华民族的抗日战争\"}", CJ_bookunit: "第六单元 中华民族的抗日战争"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:62:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:62:OB03", title: "第17课 七七事变与全民族抗战", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第六单元 中华民族的抗日战争\"}", CJ_bookunit: "第六单元 中华民族的抗日战争"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:62:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:62:OB03", title: "第17课 七七事变与全民族抗战", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第六单元 中华民族的抗日战争\"}", CJ_bookunit: "第六单元 中华民族的抗日战争"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:63:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:63:OB03", title: "第18课 全民族抗战中的正面战场和敌后战场", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第六单元 中华民族的抗日战争\"}", CJ_bookunit: "第六单元 中华民族的抗日战争"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:63:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:63:OB03", title: "第18课 全民族抗战中的正面战场和敌后战场", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第六单元 中华民族的抗日战争\"}", CJ_bookunit: "第六单元 中华民族的抗日战争"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:64:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:64:OB03", title: "第19课 抗日战争的胜利", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第六单元 中华民族的抗日战争\"}", CJ_bookunit: "第六单元 中华民族的抗日战争"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:64:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:64:OB03", title: "第19课 抗日战争的胜利", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第六单元 中华民族的抗日战争\"}", CJ_bookunit: "第六单元 中华民族的抗日战争"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:65:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:65:OB03", title: "第20课 国民党挑起内战", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第七单元 人民解放战争\"}", CJ_bookunit: "第七单元 人民解放战争"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:65:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:65:OB03", title: "第20课 国民党挑起内战", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第七单元 人民解放战争\"}", CJ_bookunit: "第七单元 人民解放战争"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:66:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:66:OB03", title: "第21课 人民解放战争的胜利", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第七单元 人民解放战争\"}", CJ_bookunit: "第七单元 人民解放战争"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:66:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:66:OB03", title: "第21课 人民解放战争的胜利", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第七单元 人民解放战争\"}", CJ_bookunit: "第七单元 人民解放战争"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:67:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:67:OB03", title: "第22课 活动课 探寻红色文化的历史基因", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第七单元 人民解放战争\"}", CJ_bookunit: "第七单元 人民解放战争"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:67:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:67:OB03", title: "第22课 活动课 探寻红色文化的历史基因", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第七单元 人民解放战争\"}", CJ_bookunit: "第七单元 人民解放战争"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:68:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:68:OB03", title: "第1课 中华人民共和国成立", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 中华人民共和国的成立和巩固\"}", CJ_bookunit: "第一单元 中华人民共和国的成立和巩固"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:68:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:68:OB03", title: "第1课 中华人民共和国成立", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 中华人民共和国的成立和巩固\"}", CJ_bookunit: "第一单元 中华人民共和国的成立和巩固"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:69:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:69:OB03", title: "第2课 抗美援朝", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 中华人民共和国的成立和巩固\"}", CJ_bookunit: "第一单元 中华人民共和国的成立和巩固"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:69:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:69:OB03", title: "第2课 抗美援朝", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 中华人民共和国的成立和巩固\"}", CJ_bookunit: "第一单元 中华人民共和国的成立和巩固"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:70:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:70:OB03", title: "第3课 土地改革", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 中华人民共和国的成立和巩固\"}", CJ_bookunit: "第一单元 中华人民共和国的成立和巩固"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:70:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:70:OB03", title: "第3课 土地改革", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 中华人民共和国的成立和巩固\"}", CJ_bookunit: "第一单元 中华人民共和国的成立和巩固"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:71:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:71:OB03", title: "第4课 新中国工业化的起步和人民代表大会制度的确立", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 社会主义制度的建立与社会主义建设的探索\"}", CJ_bookunit: "第二单元 社会主义制度的建立与社会主义建设的探索"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:71:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:71:OB03", title: "第4课 新中国工业化的起步和人民代表大会制度的确立", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 社会主义制度的建立与社会主义建设的探索\"}", CJ_bookunit: "第二单元 社会主义制度的建立与社会主义建设的探索"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:72:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:72:OB03", title: "第5课 三大改造", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 社会主义制度的建立与社会主义建设的探索\"}", CJ_bookunit: "第二单元 社会主义制度的建立与社会主义建设的探索"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:72:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:72:OB03", title: "第5课 三大改造", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 社会主义制度的建立与社会主义建设的探索\"}", CJ_bookunit: "第二单元 社会主义制度的建立与社会主义建设的探索"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:73:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:73:OB03", title: "第6课 艰辛探索与建设成就", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 社会主义制度的建立与社会主义建设的探索\"}", CJ_bookunit: "第二单元 社会主义制度的建立与社会主义建设的探索"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:73:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:73:OB03", title: "第6课 艰辛探索与建设成就", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 社会主义制度的建立与社会主义建设的探索\"}", CJ_bookunit: "第二单元 社会主义制度的建立与社会主义建设的探索"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:74:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:74:OB03", title: "第7课 伟大的历史转折", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 中国特色社会主义道路\"}", CJ_bookunit: "第三单元 中国特色社会主义道路"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:74:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:74:OB03", title: "第7课 伟大的历史转折", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 中国特色社会主义道路\"}", CJ_bookunit: "第三单元 中国特色社会主义道路"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:75:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:75:OB03", title: "第8课 经济体制改革", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 中国特色社会主义道路\"}", CJ_bookunit: "第三单元 中国特色社会主义道路"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:75:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:75:OB03", title: "第8课 经济体制改革", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 中国特色社会主义道路\"}", CJ_bookunit: "第三单元 中国特色社会主义道路"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:76:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:76:OB03", title: "第9课 对外开放", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 中国特色社会主义道路\"}", CJ_bookunit: "第三单元 中国特色社会主义道路"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:76:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:76:OB03", title: "第9课 对外开放", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 中国特色社会主义道路\"}", CJ_bookunit: "第三单元 中国特色社会主义道路"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:77:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:77:OB03", title: "第10课 建设中国特色社会主义", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 中国特色社会主义道路\"}", CJ_bookunit: "第三单元 中国特色社会主义道路"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:77:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:77:OB03", title: "第10课 建设中国特色社会主义", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 中国特色社会主义道路\"}", CJ_bookunit: "第三单元 中国特色社会主义道路"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:78:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:78:OB03", title: "第11课 为实现中国梦而努力奋斗", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 中国特色社会主义道路\"}", CJ_bookunit: "第三单元 中国特色社会主义道路"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:78:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:78:OB03", title: "第11课 为实现中国梦而努力奋斗", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 中国特色社会主义道路\"}", CJ_bookunit: "第三单元 中国特色社会主义道路"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:79:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:79:OB03", title: "第12课 民族大团结", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第四单元 民族团结与祖国统一\"}", CJ_bookunit: "第四单元 民族团结与祖国统一"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:79:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:79:OB03", title: "第12课 民族大团结", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第四单元 民族团结与祖国统一\"}", CJ_bookunit: "第四单元 民族团结与祖国统一"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:80:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:80:OB03", title: "第13课 香港和澳门回归祖国", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第四单元 民族团结与祖国统一\"}", CJ_bookunit: "第四单元 民族团结与祖国统一"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:80:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:80:OB03", title: "第13课 香港和澳门回归祖国", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第四单元 民族团结与祖国统一\"}", CJ_bookunit: "第四单元 民族团结与祖国统一"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:81:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:81:OB03", title: "第14课 海峡两岸的交往", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第四单元 民族团结与祖国统一\"}", CJ_bookunit: "第四单元 民族团结与祖国统一"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:81:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:81:OB03", title: "第14课 海峡两岸的交往", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第四单元 民族团结与祖国统一\"}", CJ_bookunit: "第四单元 民族团结与祖国统一"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:82:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:82:OB03", title: "第15课 钢铁长城", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第五单元 国防建设与外交成就\"}", CJ_bookunit: "第五单元 国防建设与外交成就"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:82:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:82:OB03", title: "第15课 钢铁长城", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第五单元 国防建设与外交成就\"}", CJ_bookunit: "第五单元 国防建设与外交成就"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:83:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:83:OB03", title: "第16课 独立自主的和平外交", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第五单元 国防建设与外交成就\"}", CJ_bookunit: "第五单元 国防建设与外交成就"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:83:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:83:OB03", title: "第16课 独立自主的和平外交", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第五单元 国防建设与外交成就\"}", CJ_bookunit: "第五单元 国防建设与外交成就"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:84:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:84:OB03", title: "第17课 外交事业的发展", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第五单元 国防建设与外交成就\"}", CJ_bookunit: "第五单元 国防建设与外交成就"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:84:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:84:OB03", title: "第17课 外交事业的发展", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第五单元 国防建设与外交成就\"}", CJ_bookunit: "第五单元 国防建设与外交成就"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:85:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:85:OB03", title: "第18课 科技文化成就", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第六单元 科技文化与社会生活\"}", CJ_bookunit: "第六单元 科技文化与社会生活"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:85:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:85:OB03", title: "第18课 科技文化成就", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第六单元 科技文化与社会生活\"}", CJ_bookunit: "第六单元 科技文化与社会生活"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:86:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:86:OB03", title: "第19课 社会生活的变迁", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第六单元 科技文化与社会生活\"}", CJ_bookunit: "第六单元 科技文化与社会生活"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:86:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:86:OB03", title: "第19课 社会生活的变迁", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第六单元 科技文化与社会生活\"}", CJ_bookunit: "第六单元 科技文化与社会生活"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:87:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:87:OB03", title: "第20课 活动课：生活环境的巨大变化", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第六单元 科技文化与社会生活\"}", CJ_bookunit: "第六单元 科技文化与社会生活"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:87:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:87:OB03", title: "第20课 活动课：生活环境的巨大变化", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第六单元 科技文化与社会生活\"}", CJ_bookunit: "第六单元 科技文化与社会生活"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:88:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:88:OB03", title: "第1课 古代埃及", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 古代亚非文明\"}", CJ_bookunit: "第一单元 古代亚非文明"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:88:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:88:OB03", title: "第1课 古代埃及", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 古代亚非文明\"}", CJ_bookunit: "第一单元 古代亚非文明"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:89:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:89:OB03", title: "第2课 古代两河流域", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 古代亚非文明\"}", CJ_bookunit: "第一单元 古代亚非文明"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:89:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:89:OB03", title: "第2课 古代两河流域", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 古代亚非文明\"}", CJ_bookunit: "第一单元 古代亚非文明"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:90:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:90:OB03", title: "第3课 古代印度", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 古代亚非文明\"}", CJ_bookunit: "第一单元 古代亚非文明"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:90:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:90:OB03", title: "第3课 古代印度", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 古代亚非文明\"}", CJ_bookunit: "第一单元 古代亚非文明"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:91:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:91:OB03", title: "第4课 希腊城邦和亚历山大帝国", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 古代欧洲文明\"}", CJ_bookunit: "第二单元 古代欧洲文明"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:91:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:91:OB03", title: "第4课 希腊城邦和亚历山大帝国", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 古代欧洲文明\"}", CJ_bookunit: "第二单元 古代欧洲文明"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:92:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:92:OB03", title: "第5课 罗马城邦和罗马帝国", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 古代欧洲文明\"}", CJ_bookunit: "第二单元 古代欧洲文明"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:92:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:92:OB03", title: "第5课 罗马城邦和罗马帝国", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 古代欧洲文明\"}", CJ_bookunit: "第二单元 古代欧洲文明"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:93:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:93:OB03", title: "第6课 希腊罗马古典文化", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 古代欧洲文明\"}", CJ_bookunit: "第二单元 古代欧洲文明"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:93:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:93:OB03", title: "第6课 希腊罗马古典文化", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 古代欧洲文明\"}", CJ_bookunit: "第二单元 古代欧洲文明"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:94:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:94:OB03", title: "第7课 基督教的兴起和法兰克王国", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 封建时代的欧洲\"}", CJ_bookunit: "第三单元 封建时代的欧洲"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:94:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:94:OB03", title: "第7课 基督教的兴起和法兰克王国", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 封建时代的欧洲\"}", CJ_bookunit: "第三单元 封建时代的欧洲"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:95:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:95:OB03", title: "第8课 西欧庄园", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 封建时代的欧洲\"}", CJ_bookunit: "第三单元 封建时代的欧洲"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:95:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:95:OB03", title: "第8课 西欧庄园", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 封建时代的欧洲\"}", CJ_bookunit: "第三单元 封建时代的欧洲"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:96:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:96:OB03", title: "第9课 中世纪城市和大学的兴起", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 封建时代的欧洲\"}", CJ_bookunit: "第三单元 封建时代的欧洲"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:96:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:96:OB03", title: "第9课 中世纪城市和大学的兴起", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 封建时代的欧洲\"}", CJ_bookunit: "第三单元 封建时代的欧洲"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:97:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:97:OB03", title: "第10课 拜占庭帝国和《查士丁尼法典》", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 封建时代的欧洲\"}", CJ_bookunit: "第三单元 封建时代的欧洲"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:97:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:97:OB03", title: "第10课 拜占庭帝国和《查士丁尼法典》", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 封建时代的欧洲\"}", CJ_bookunit: "第三单元 封建时代的欧洲"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:98:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:98:OB03", title: "第11课 古代日本", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第四单元 封建时代的亚洲国家\"}", CJ_bookunit: "第四单元 封建时代的亚洲国家"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:98:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:98:OB03", title: "第11课 古代日本", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第四单元 封建时代的亚洲国家\"}", CJ_bookunit: "第四单元 封建时代的亚洲国家"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:99:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:99:OB03", title: "第12课 阿拉伯帝国", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第四单元 封建时代的亚洲国家\"}", CJ_bookunit: "第四单元 封建时代的亚洲国家"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:99:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:99:OB03", title: "第12课 阿拉伯帝国", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第四单元 封建时代的亚洲国家\"}", CJ_bookunit: "第四单元 封建时代的亚洲国家"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:100:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:100:OB03", title: "第13课 西欧经济和社会的发展", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第五单元 走向近代\"}", CJ_bookunit: "第五单元 走向近代"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:100:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:100:OB03", title: "第13课 西欧经济和社会的发展", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第五单元 走向近代\"}", CJ_bookunit: "第五单元 走向近代"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:101:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:101:OB03", title: "第14课 文艺复兴运动", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第五单元 走向近代\"}", CJ_bookunit: "第五单元 走向近代"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:101:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:101:OB03", title: "第14课 文艺复兴运动", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第五单元 走向近代\"}", CJ_bookunit: "第五单元 走向近代"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:102:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:102:OB03", title: "第15课 探寻新航路", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第五单元 走向近代\"}", CJ_bookunit: "第五单元 走向近代"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:102:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:102:OB03", title: "第15课 探寻新航路", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第五单元 走向近代\"}", CJ_bookunit: "第五单元 走向近代"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:103:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:103:OB03", title: "第16课 早期殖民掠夺", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第五单元 走向近代\"}", CJ_bookunit: "第五单元 走向近代"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:103:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:103:OB03", title: "第16课 早期殖民掠夺", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第五单元 走向近代\"}", CJ_bookunit: "第五单元 走向近代"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:104:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:104:OB03", title: "第17课 君主立宪制的英国", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第六单元 资本主义制度的初步确立\"}", CJ_bookunit: "第六单元 资本主义制度的初步确立"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:104:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:104:OB03", title: "第17课 君主立宪制的英国", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第六单元 资本主义制度的初步确立\"}", CJ_bookunit: "第六单元 资本主义制度的初步确立"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:105:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:105:OB03", title: "第18课 美国的独立", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第六单元 资本主义制度的初步确立\"}", CJ_bookunit: "第六单元 资本主义制度的初步确立"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:105:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:105:OB03", title: "第18课 美国的独立", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第六单元 资本主义制度的初步确立\"}", CJ_bookunit: "第六单元 资本主义制度的初步确立"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:106:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:106:OB03", title: "第19课 法国大革命和拿破仑帝国", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第六单元 资本主义制度的初步确立\"}", CJ_bookunit: "第六单元 资本主义制度的初步确立"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:106:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:106:OB03", title: "第19课 法国大革命和拿破仑帝国", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第六单元 资本主义制度的初步确立\"}", CJ_bookunit: "第六单元 资本主义制度的初步确立"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:107:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:107:OB03", title: "第20课 第一次工业革命", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第七单元 工业革命和国际共产主义运动的兴起\"}", CJ_bookunit: "第七单元 工业革命和国际共产主义运动的兴起"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:107:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:107:OB03", title: "第20课 第一次工业革命", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第七单元 工业革命和国际共产主义运动的兴起\"}", CJ_bookunit: "第七单元 工业革命和国际共产主义运动的兴起"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:108:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:108:OB03", title: "第21课 马克思主义的诞生和国际共产主义运动的兴起", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第七单元 工业革命和国际共产主义运动的兴起\"}", CJ_bookunit: "第七单元 工业革命和国际共产主义运动的兴起"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:108:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:108:OB03", title: "第21课 马克思主义的诞生和国际共产主义运动的兴起", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第七单元 工业革命和国际共产主义运动的兴起\"}", CJ_bookunit: "第七单元 工业革命和国际共产主义运动的兴起"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:109:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:109:OB03", title: "第22课 活动课：唱响《国际歌》", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第七单元 工业革命和国际共产主义运动的兴起\"}", CJ_bookunit: "第七单元 工业革命和国际共产主义运动的兴起"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:109:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:109:OB03", title: "第22课 活动课：唱响《国际歌》", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第七单元 工业革命和国际共产主义运动的兴起\"}", CJ_bookunit: "第七单元 工业革命和国际共产主义运动的兴起"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:110:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:110:OB03", title: "世界历史大事年表（上）", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"附录\"}", CJ_bookunit: "附录"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:110:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:110:OB03", title: "世界历史大事年表（上）", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"附录\"}", CJ_bookunit: "附录"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:111:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:111:OB03", title: "中英文译名对照表（上）", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"附录\"}", CJ_bookunit: "附录"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:111:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:111:OB03", title: "中英文译名对照表（上）", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"附录\"}", CJ_bookunit: "附录"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:112:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:112:OB03", title: "第1课 殖民地人民的反抗斗争", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 殖民地人民的反抗与资本主义制度的扩展\"}", CJ_bookunit: "第一单元 殖民地人民的反抗与资本主义制度的扩展"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:112:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:112:OB03", title: "第1课 殖民地人民的反抗斗争", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 殖民地人民的反抗与资本主义制度的扩展\"}", CJ_bookunit: "第一单元 殖民地人民的反抗与资本主义制度的扩展"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:113:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:113:OB03", title: "第2课 俄国的改革", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 殖民地人民的反抗与资本主义制度的扩展\"}", CJ_bookunit: "第一单元 殖民地人民的反抗与资本主义制度的扩展"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:113:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:113:OB03", title: "第2课 俄国的改革", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 殖民地人民的反抗与资本主义制度的扩展\"}", CJ_bookunit: "第一单元 殖民地人民的反抗与资本主义制度的扩展"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:114:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:114:OB03", title: "第3课 美国内战", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 殖民地人民的反抗与资本主义制度的扩展\"}", CJ_bookunit: "第一单元 殖民地人民的反抗与资本主义制度的扩展"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:114:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:114:OB03", title: "第3课 美国内战", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 殖民地人民的反抗与资本主义制度的扩展\"}", CJ_bookunit: "第一单元 殖民地人民的反抗与资本主义制度的扩展"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:115:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:115:OB03", title: "第4课 日本明治维新", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 殖民地人民的反抗与资本主义制度的扩展\"}", CJ_bookunit: "第一单元 殖民地人民的反抗与资本主义制度的扩展"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:115:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:115:OB03", title: "第4课 日本明治维新", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第一单元 殖民地人民的反抗与资本主义制度的扩展\"}", CJ_bookunit: "第一单元 殖民地人民的反抗与资本主义制度的扩展"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:116:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:116:OB03", title: "第5课 第二次工业革命", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 第二次工业革命和近代科学文化\"}", CJ_bookunit: "第二单元 第二次工业革命和近代科学文化"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:116:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:116:OB03", title: "第5课 第二次工业革命", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 第二次工业革命和近代科学文化\"}", CJ_bookunit: "第二单元 第二次工业革命和近代科学文化"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:117:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:117:OB03", title: "第6课 工业化国家的社会变化", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 第二次工业革命和近代科学文化\"}", CJ_bookunit: "第二单元 第二次工业革命和近代科学文化"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:117:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:117:OB03", title: "第6课 工业化国家的社会变化", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 第二次工业革命和近代科学文化\"}", CJ_bookunit: "第二单元 第二次工业革命和近代科学文化"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:118:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:118:OB03", title: "第7课 近代科学与文化", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 第二次工业革命和近代科学文化\"}", CJ_bookunit: "第二单元 第二次工业革命和近代科学文化"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:118:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:118:OB03", title: "第7课 近代科学与文化", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第二单元 第二次工业革命和近代科学文化\"}", CJ_bookunit: "第二单元 第二次工业革命和近代科学文化"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:119:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:119:OB03", title: "第8课 第一次世界大战", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 第一次世界大战和战后初期的世界\"}", CJ_bookunit: "第三单元 第一次世界大战和战后初期的世界"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:119:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:119:OB03", title: "第8课 第一次世界大战", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 第一次世界大战和战后初期的世界\"}", CJ_bookunit: "第三单元 第一次世界大战和战后初期的世界"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:120:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:120:OB03", title: "第9课 列宁与十月革命", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 第一次世界大战和战后初期的世界\"}", CJ_bookunit: "第三单元 第一次世界大战和战后初期的世界"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:120:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:120:OB03", title: "第9课 列宁与十月革命", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 第一次世界大战和战后初期的世界\"}", CJ_bookunit: "第三单元 第一次世界大战和战后初期的世界"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:121:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:121:OB03", title: "第10课 《凡尔赛和约》和《九国公约》", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 第一次世界大战和战后初期的世界\"}", CJ_bookunit: "第三单元 第一次世界大战和战后初期的世界"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:121:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:121:OB03", title: "第10课 《凡尔赛和约》和《九国公约》", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 第一次世界大战和战后初期的世界\"}", CJ_bookunit: "第三单元 第一次世界大战和战后初期的世界"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:122:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:122:OB03", title: "第11课 苏联的社会主义建设", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 第一次世界大战和战后初期的世界\"}", CJ_bookunit: "第三单元 第一次世界大战和战后初期的世界"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:122:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:122:OB03", title: "第11课 苏联的社会主义建设", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 第一次世界大战和战后初期的世界\"}", CJ_bookunit: "第三单元 第一次世界大战和战后初期的世界"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:123:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:123:OB03", title: "第12课 亚非拉民族民主运动的高涨", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 第一次世界大战和战后初期的世界\"}", CJ_bookunit: "第三单元 第一次世界大战和战后初期的世界"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:123:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:123:OB03", title: "第12课 亚非拉民族民主运动的高涨", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第三单元 第一次世界大战和战后初期的世界\"}", CJ_bookunit: "第三单元 第一次世界大战和战后初期的世界"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:124:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:124:OB03", title: "第13课 罗斯福新政", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第四单元 经济大危机和第二次世界大战\"}", CJ_bookunit: "第四单元 经济大危机和第二次世界大战"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:124:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:124:OB03", title: "第13课 罗斯福新政", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第四单元 经济大危机和第二次世界大战\"}", CJ_bookunit: "第四单元 经济大危机和第二次世界大战"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:125:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:125:OB03", title: "第14课 法西斯国家的侵略扩张", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第四单元 经济大危机和第二次世界大战\"}", CJ_bookunit: "第四单元 经济大危机和第二次世界大战"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:125:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:125:OB03", title: "第14课 法西斯国家的侵略扩张", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第四单元 经济大危机和第二次世界大战\"}", CJ_bookunit: "第四单元 经济大危机和第二次世界大战"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:126:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:126:OB03", title: "第15课 第二次世界大战", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第四单元 经济大危机和第二次世界大战\"}", CJ_bookunit: "第四单元 经济大危机和第二次世界大战"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:126:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:126:OB03", title: "第15课 第二次世界大战", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第四单元 经济大危机和第二次世界大战\"}", CJ_bookunit: "第四单元 经济大危机和第二次世界大战"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:127:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:127:OB03", title: "第16课 冷战", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第五单元 二战后的世界变化\"}", CJ_bookunit: "第五单元 二战后的世界变化"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:127:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:127:OB03", title: "第16课 冷战", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第五单元 二战后的世界变化\"}", CJ_bookunit: "第五单元 二战后的世界变化"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:128:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:128:OB03", title: "第17课 二战后资本主义的新变化", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第五单元 二战后的世界变化\"}", CJ_bookunit: "第五单元 二战后的世界变化"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:128:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:128:OB03", title: "第17课 二战后资本主义的新变化", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第五单元 二战后的世界变化\"}", CJ_bookunit: "第五单元 二战后的世界变化"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:129:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:129:OB03", title: "第18课 社会主义的发展与挫折", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第五单元 二战后的世界变化\"}", CJ_bookunit: "第五单元 二战后的世界变化"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:129:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:129:OB03", title: "第18课 社会主义的发展与挫折", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第五单元 二战后的世界变化\"}", CJ_bookunit: "第五单元 二战后的世界变化"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:130:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:130:OB03", title: "第19课 亚非拉国家的新发展", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第五单元 二战后的世界变化\"}", CJ_bookunit: "第五单元 二战后的世界变化"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:130:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:130:OB03", title: "第19课 亚非拉国家的新发展", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第五单元 二战后的世界变化\"}", CJ_bookunit: "第五单元 二战后的世界变化"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:131:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:131:OB03", title: "第20课 联合国与世界贸易组织", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第六单元 走向和平发展的世界\"}", CJ_bookunit: "第六单元 走向和平发展的世界"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:131:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:131:OB03", title: "第20课 联合国与世界贸易组织", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第六单元 走向和平发展的世界\"}", CJ_bookunit: "第六单元 走向和平发展的世界"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:132:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:132:OB03", title: "第21课 冷战后的世界格局", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第六单元 走向和平发展的世界\"}", CJ_bookunit: "第六单元 走向和平发展的世界"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:132:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:132:OB03", title: "第21课 冷战后的世界格局", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第六单元 走向和平发展的世界\"}", CJ_bookunit: "第六单元 走向和平发展的世界"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:133:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:133:OB03", title: "第22课 不断发展的现代社会", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第六单元 走向和平发展的世界\"}", CJ_bookunit: "第六单元 走向和平发展的世界"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:133:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:133:OB03", title: "第22课 不断发展的现代社会", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第六单元 走向和平发展的世界\"}", CJ_bookunit: "第六单元 走向和平发展的世界"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:134:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:134:OB03", title: "第23课 活动课：时事溯源", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第六单元 走向和平发展的世界\"}", CJ_bookunit: "第六单元 走向和平发展的世界"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:134:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:134:OB03", title: "第23课 活动课：时事溯源", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"第六单元 走向和平发展的世界\"}", CJ_bookunit: "第六单元 走向和平发展的世界"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:135:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:135:OB03", title: "提取历史有效信息的主题研究一", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"提取历史有效信息的主题研究\"}", CJ_bookunit: "提取历史有效信息的主题研究"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:135:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:135:OB03", title: "提取历史有效信息的主题研究一", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"提取历史有效信息的主题研究\"}", CJ_bookunit: "提取历史有效信息的主题研究"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:136:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:136:OB03", title: "提取历史有效信息的主题研究二", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"提取历史有效信息的主题研究\"}", CJ_bookunit: "提取历史有效信息的主题研究"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:136:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:136:OB03", title: "提取历史有效信息的主题研究二", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"提取历史有效信息的主题研究\"}", CJ_bookunit: "提取历史有效信息的主题研究"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:137:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:137:OB03", title: "提取历史有效信息的主题研究三", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"提取历史有效信息的主题研究\"}", CJ_bookunit: "提取历史有效信息的主题研究"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:137:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:137:OB03", title: "提取历史有效信息的主题研究三", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"提取历史有效信息的主题研究\"}", CJ_bookunit: "提取历史有效信息的主题研究"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:138:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:138:OB03", title: "提取历史有效信息的主题研究四", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"提取历史有效信息的主题研究\"}", CJ_bookunit: "提取历史有效信息的主题研究"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:138:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:138:OB03", title: "提取历史有效信息的主题研究四", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"提取历史有效信息的主题研究\"}", CJ_bookunit: "提取历史有效信息的主题研究"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:139:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:139:OB03", title: "八年级上册历史统编版第一单元复习", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"单元复习\"}", CJ_bookunit: "单元复习"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:139:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:139:OB03", title: "八年级上册历史统编版第一单元复习", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"单元复习\"}", CJ_bookunit: "单元复习"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:140:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:140:OB03", title: "八年级上册历史统编版第二单元复习", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"单元复习\"}", CJ_bookunit: "单元复习"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:140:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:140:OB03", title: "八年级上册历史统编版第二单元复习", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"单元复习\"}", CJ_bookunit: "单元复习"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:141:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:141:OB03", title: "八年级上册历史第三单元复习", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"单元复习\"}", CJ_bookunit: "单元复习"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:141:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:141:OB03", title: "八年级上册历史第三单元复习", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"单元复习\"}", CJ_bookunit: "单元复习"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:142:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:142:OB03", title: "八年级上册历史第四单元复习", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"单元复习\"}", CJ_bookunit: "单元复习"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:142:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:142:OB03", title: "八年级上册历史第四单元复习", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"单元复习\"}", CJ_bookunit: "单元复习"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:143:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:143:OB03", title: "八年级上册历史第五单元复习", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"单元复习\"}", CJ_bookunit: "单元复习"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:143:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:143:OB03", title: "八年级上册历史第五单元复习", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"单元复习\"}", CJ_bookunit: "单元复习"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:144:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:144:OB03", title: "八年级上册历史第六单元复习", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"单元复习\"}", CJ_bookunit: "单元复习"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:144:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:144:OB03", title: "八年级上册历史第六单元复习", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"单元复习\"}", CJ_bookunit: "单元复习"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:145:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:145:OB03", title: "时空视域下历史知识建构", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"中考复习\"}", CJ_bookunit: "中考复习"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:145:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:145:OB03", title: "时空视域下历史知识建构", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"中考复习\"}", CJ_bookunit: "中考复习"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:146:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:146:OB03", title: "历史阅读方法——以材料解析为例", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"中考复习\"}", CJ_bookunit: "中考复习"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:146:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:146:OB03", title: "历史阅读方法——以材料解析为例", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"中考复习\"}", CJ_bookunit: "中考复习"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:147:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:147:OB03", title: "用专题复习提升综合能力——以中外科技发展为例", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"中考复习\"}", CJ_bookunit: "中考复习"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:147:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:147:OB03", title: "用专题复习提升综合能力——以中外科技发展为例", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"中考复习\"}", CJ_bookunit: "中考复习"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:148:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:148:OB03", title: "用图识史，以图助答—突破世界史的重难点", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"中考复习\"}", CJ_bookunit: "中考复习"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:148:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:148:OB03", title: "用图识史，以图助答—突破世界史的重难点", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"中考复习\"}", CJ_bookunit: "中考复习"};
 
-MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:part:149:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:part:149:OB03", title: "中考历史复习（一）", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"中考复习\"}", CJ_bookunit: "中考复习"};
+MERGE (n:Section {identifier: "urn:jy:history:SB0307:OB03:Section:149:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Section:149:OB03", title: "中考历史复习（一）", description: "", type: "Section", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"bookunit\": \"中考复习\"}", CJ_bookunit: "中考复习"};
 
 MERGE (n:Domain {identifier: "urn:jy:history:SB0307:OB03:Domain:1:OB03"})
 SET n += {identifier: "urn:jy:history:SB0307:OB03:Domain:1:OB03", title: "中国历史", description: "古代：统一多民族国家的形成与发展；近代：争取民族独立、人民解放的历程；现代：社会主义现代化的建设。", subject: "SB0307", type: "Domain", applicableLevel: "OB03", contentJson: "{}"};
@@ -583,125 +583,125 @@ SET n += {identifier: "urn:jy:history:SB0307:OB03:Domain:3:OB03", title: "跨学
 MERGE (n:AcademicQuality {identifier: "urn:jy:history:SB0307:OB03:AcademicQuality:OB0301"})
 SET n += {identifier: "urn:jy:history:SB0307:OB03:AcademicQuality:OB0301", type: "AcademicQuality", title: "学业质量", description: "（一）学业质量内涵\n学业质量是学生在完成课程阶段性学习后的学业成就表现，反映核心素养要求。学业质量标准是以核心素养为主要维度，结合课程内容，对学生学业成就具体表现特征的总体刻画。\n\n（二）学业质量描述\n学业质量标准依据学习内容的不同层次，综合评定学生面对真实情境，在完成相应的学习任务过程中所表现出的解决问题的正确价值观、必备品格和关键能力，由此体现核心素养的发展水平和课程目标的实现程度。历史课程7～9年级的学习为一个学段。", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"standard\": \"7~9年级\", \"standardRequirement\": \"1. 掌握历史发展过程中的重要史事\\n能够运用记录历史年代的基本方式，掌握识读历史地图的基本方法，将重要历史事件、人物、现象置于正确的时间和空间之中。（时空观念）\\n能够准确理解教材和教学活动中所提供的可信史料，如不同历史时期的实物材料、文献材料、图像材料和口述材料等，辨识其中的含义；能够尝试运用这些史料对重要史事进行简要说明，有理有据地表达自己的看法，表现出正确的价值判断和人文情怀。（史料实证、历史解释、家国情怀）\\n能够初步从物质生产活动是人类生存和人类社会发展的基础、生产力与生产关系、人民群众是历史的创造者等方面，理解重要史事的意义，如对中国历史上的江南开发、西欧封建社会的兴衰、活字印刷术的发明等，运用唯物史观作出合理的解释与简要评价。（唯物史观、历史解释、家国情怀）\\n\\n2. 了解历史发展过程中的各种联系\\n能够了解并初步认识四种重要的历史联系：（1）历史发展的古今联系。如以中国的疆域为例，能够从古今联系与变化的角度，对其进行简要论述。（2）不同史事的因果联系。如以工业革命为例，能够从生产力发展的角度，初步分析生产力对政治、经济、文化等方面发展的推动作用；通过历史上治乱兴衰的史事，如以秦统一中国、秦末农民大起义、西汉建立、“文景之治”为例，简要说明在阶级社会中阶级斗争是历史发展的动力。（3）不同领域的横向联系。如以唐太宗和“贞观之治”为例，能够对一定时空条件下的政治、经济、文化等之间的相互关系与相互影响作出合理的解释。（4）中国与世界的联系。如以近代中国为例，能够分析中国成为半殖民地半封建社会的外部原因和内部原因，理解民族独立和人民解放是近代中国的历史任务，认识捍卫国家主权和民族尊严是中华民族的优良传统；能够感悟五四精神、伟大建党精神、抗战精神等。（唯物史观、时空观念、史料实证、历史解释、家国情怀）\\n\\n3. 认识历史发展的基本规律和大趋势\\n能够在了解历史发展的重要史事和各种联系的基础上，简要说明不同历史时期的时代特征，进一步了解人类社会从低级到高级、从分散到整体的发展历程，初步把握中外历史发展的基本线索和规律，并在自己的叙述中加以体现。例如：能够通过了解中国古代历史发展的具体史实，了解统一多民族国家巩固和发展的重要历史意义；能够通过中国近代史上争取民族独立、人民解放的斗争历史，知道民族民主革命的艰巨性，认识没有中国共产党就没有新中国的道理，能够体认仁人志士为救国救民而英勇斗争的精神；能够通过我国改革开放以来特别是中共十八大以来各个领域取得的成就、家乡的巨大变化和综合国力的不断提高，增进爱祖国、爱家乡的情感，铸牢中华民族共同体意识，认同社会主义核心价值观，坚定中国特色社会主义道路自信、理论自信、制度自信、文化自信。（唯物史观、时空观念、史料实证、历史解释、家国情怀）\\n能够通过学习世界历史，了解世界文明的多元性、差异性及其发展的不平衡性，知道资本主义、社会主义和殖民地半殖民地民族解放运动的发展，了解世界历史的形成过程，初步具有国际视野和全球意识，初步理解和平、发展、合作、共赢是不可阻挡的历史潮流，形成构建人类命运共同体的意识。（时空观念、史料实证、唯物史观、历史解释、家国情怀）\"}", CJ_standard: "7~9年级", CJ_standardRequirement: "1. 掌握历史发展过程中的重要史事\n能够运用记录历史年代的基本方式，掌握识读历史地图的基本方法，将重要历史事件、人物、现象置于正确的时间和空间之中。（时空观念）\n能够准确理解教材和教学活动中所提供的可信史料，如不同历史时期的实物材料、文献材料、图像材料和口述材料等，辨识其中的含义；能够尝试运用这些史料对重要史事进行简要说明，有理有据地表达自己的看法，表现出正确的价值判断和人文情怀。（史料实证、历史解释、家国情怀）\n能够初步从物质生产活动是人类生存和人类社会发展的基础、生产力与生产关系、人民群众是历史的创造者等方面，理解重要史事的意义，如对中国历史上的江南开发、西欧封建社会的兴衰、活字印刷术的发明等，运用唯物史观作出合理的解释与简要评价。（唯物史观、历史解释、家国情怀）\n\n2. 了解历史发展过程中的各种联系\n能够了解并初步认识四种重要的历史联系：（1）历史发展的古今联系。如以中国的疆域为例，能够从古今联系与变化的角度，对其进行简要论述。（2）不同史事的因果联系。如以工业革命为例，能够从生产力发展的角度，初步分析生产力对政治、经济、文化等方面发展的推动作用；通过历史上治乱兴衰的史事，如以秦统一中国、秦末农民大起义、西汉建立、“文景之治”为例，简要说明在阶级社会中阶级斗争是历史发展的动力。（3）不同领域的横向联系。如以唐太宗和“贞观之治”为例，能够对一定时空条件下的政治、经济、文化等之间的相互关系与相互影响作出合理的解释。（4）中国与世界的联系。如以近代中国为例，能够分析中国成为半殖民地半封建社会的外部原因和内部原因，理解民族独立和人民解放是近代中国的历史任务，认识捍卫国家主权和民族尊严是中华民族的优良传统；能够感悟五四精神、伟大建党精神、抗战精神等。（唯物史观、时空观念、史料实证、历史解释、家国情怀）\n\n3. 认识历史发展的基本规律和大趋势\n能够在了解历史发展的重要史事和各种联系的基础上，简要说明不同历史时期的时代特征，进一步了解人类社会从低级到高级、从分散到整体的发展历程，初步把握中外历史发展的基本线索和规律，并在自己的叙述中加以体现。例如：能够通过了解中国古代历史发展的具体史实，了解统一多民族国家巩固和发展的重要历史意义；能够通过中国近代史上争取民族独立、人民解放的斗争历史，知道民族民主革命的艰巨性，认识没有中国共产党就没有新中国的道理，能够体认仁人志士为救国救民而英勇斗争的精神；能够通过我国改革开放以来特别是中共十八大以来各个领域取得的成就、家乡的巨大变化和综合国力的不断提高，增进爱祖国、爱家乡的情感，铸牢中华民族共同体意识，认同社会主义核心价值观，坚定中国特色社会主义道路自信、理论自信、制度自信、文化自信。（唯物史观、时空观念、史料实证、历史解释、家国情怀）\n能够通过学习世界历史，了解世界文明的多元性、差异性及其发展的不平衡性，知道资本主义、社会主义和殖民地半殖民地民族解放运动的发展，了解世界历史的形成过程，初步具有国际视野和全球意识，初步理解和平、发展、合作、共赢是不可阻挡的历史潮流，形成构建人类命运共同体的意识。（时空观念、史料实证、唯物史观、历史解释、家国情怀）"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:1:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:1:OB03", title: "第一单元 史前时期：原始社会与中华文明的起源", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"新教材-初中历史统编版七年级上册\"}", CJ_course: "新教材-初中历史统编版七年级上册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:1:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:1:OB03", title: "第一单元 史前时期：原始社会与中华文明的起源", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"新教材-初中历史统编版七年级上册\"}", CJ_course: "新教材-初中历史统编版七年级上册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:2:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:2:OB03", title: "第二单元 夏商周时期：奴隶制王朝的更替和向封建社会的过渡", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"新教材-初中历史统编版七年级上册\"}", CJ_course: "新教材-初中历史统编版七年级上册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:2:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:2:OB03", title: "第二单元 夏商周时期：奴隶制王朝的更替和向封建社会的过渡", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"新教材-初中历史统编版七年级上册\"}", CJ_course: "新教材-初中历史统编版七年级上册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:3:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:3:OB03", title: "第三单元 秦汉时期：统一多民族封建国家的建立和巩固", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"新教材-初中历史统编版七年级上册\"}", CJ_course: "新教材-初中历史统编版七年级上册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:3:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:3:OB03", title: "第三单元 秦汉时期：统一多民族封建国家的建立和巩固", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"新教材-初中历史统编版七年级上册\"}", CJ_course: "新教材-初中历史统编版七年级上册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:4:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:4:OB03", title: "第四单元 三国两晋南北朝时期：政权分立与民族交融", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"新教材-初中历史统编版七年级上册\"}", CJ_course: "新教材-初中历史统编版七年级上册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:4:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:4:OB03", title: "第四单元 三国两晋南北朝时期：政权分立与民族交融", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"新教材-初中历史统编版七年级上册\"}", CJ_course: "新教材-初中历史统编版七年级上册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:5:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:5:OB03", title: "第一单元 隋唐时期：繁荣与开放的时代", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"新教材- 初中历史统编版七年级下册\"}", CJ_course: "新教材- 初中历史统编版七年级下册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:5:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:5:OB03", title: "第一单元 隋唐时期：繁荣与开放的时代", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"新教材- 初中历史统编版七年级下册\"}", CJ_course: "新教材- 初中历史统编版七年级下册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:6:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:6:OB03", title: "第二单元 辽宋夏金元时期：民族关系发展和社会变化", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"新教材- 初中历史统编版七年级下册\"}", CJ_course: "新教材- 初中历史统编版七年级下册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:6:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:6:OB03", title: "第二单元 辽宋夏金元时期：民族关系发展和社会变化", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"新教材- 初中历史统编版七年级下册\"}", CJ_course: "新教材- 初中历史统编版七年级下册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:7:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:7:OB03", title: "第三单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"新教材- 初中历史统编版七年级下册\"}", CJ_course: "新教材- 初中历史统编版七年级下册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:7:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:7:OB03", title: "第三单元 明清时期（至鸦片战争前）：统一多民族封建国家的巩固与发展", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"新教材- 初中历史统编版七年级下册\"}", CJ_course: "新教材- 初中历史统编版七年级下册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:8:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:8:OB03", title: "学史方法", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"新教材- 初中历史统编版七年级下册\"}", CJ_course: "新教材- 初中历史统编版七年级下册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:8:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:8:OB03", title: "学史方法", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"新教材- 初中历史统编版七年级下册\"}", CJ_course: "新教材- 初中历史统编版七年级下册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:9:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:9:OB03", title: "附录 中国古代史大事年表（下）", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"新教材- 初中历史统编版七年级下册\"}", CJ_course: "新教材- 初中历史统编版七年级下册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:9:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:9:OB03", title: "附录 中国古代史大事年表（下）", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"新教材- 初中历史统编版七年级下册\"}", CJ_course: "新教材- 初中历史统编版七年级下册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:10:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:10:OB03", title: "第一单元 中国开始沦为半殖民地半封建社会", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"新教材-初中历史统编版八年级上册\"}", CJ_course: "新教材-初中历史统编版八年级上册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:10:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:10:OB03", title: "第一单元 中国开始沦为半殖民地半封建社会", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"新教材-初中历史统编版八年级上册\"}", CJ_course: "新教材-初中历史统编版八年级上册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:11:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:11:OB03", title: "第二单元 早期现代化的初步探索和民族危机加剧", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"新教材-初中历史统编版八年级上册\"}", CJ_course: "新教材-初中历史统编版八年级上册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:11:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:11:OB03", title: "第二单元 早期现代化的初步探索和民族危机加剧", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"新教材-初中历史统编版八年级上册\"}", CJ_course: "新教材-初中历史统编版八年级上册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:12:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:12:OB03", title: "第三单元 资产阶级民主革命与中华民国的建立", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"新教材-初中历史统编版八年级上册\"}", CJ_course: "新教材-初中历史统编版八年级上册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:12:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:12:OB03", title: "第三单元 资产阶级民主革命与中华民国的建立", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"新教材-初中历史统编版八年级上册\"}", CJ_course: "新教材-初中历史统编版八年级上册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:13:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:13:OB03", title: "第四单元 新民主主义革命的兴起", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"新教材-初中历史统编版八年级上册\"}", CJ_course: "新教材-初中历史统编版八年级上册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:13:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:13:OB03", title: "第四单元 新民主主义革命的兴起", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"新教材-初中历史统编版八年级上册\"}", CJ_course: "新教材-初中历史统编版八年级上册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:14:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:14:OB03", title: "第五单元 从国共合作到农村革命根据地的建立", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"新教材-初中历史统编版八年级上册\"}", CJ_course: "新教材-初中历史统编版八年级上册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:14:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:14:OB03", title: "第五单元 从国共合作到农村革命根据地的建立", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"新教材-初中历史统编版八年级上册\"}", CJ_course: "新教材-初中历史统编版八年级上册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:15:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:15:OB03", title: "第六单元 中华民族的抗日战争", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"新教材-初中历史统编版八年级上册\"}", CJ_course: "新教材-初中历史统编版八年级上册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:15:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:15:OB03", title: "第六单元 中华民族的抗日战争", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"新教材-初中历史统编版八年级上册\"}", CJ_course: "新教材-初中历史统编版八年级上册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:16:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:16:OB03", title: "第七单元 人民解放战争", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"新教材-初中历史统编版八年级上册\"}", CJ_course: "新教材-初中历史统编版八年级上册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:16:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:16:OB03", title: "第七单元 人民解放战争", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"新教材-初中历史统编版八年级上册\"}", CJ_course: "新教材-初中历史统编版八年级上册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:17:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:17:OB03", title: "第一单元 中华人民共和国的成立和巩固", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版八年级下册\"}", CJ_course: "初中历史统编版八年级下册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:17:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:17:OB03", title: "第一单元 中华人民共和国的成立和巩固", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版八年级下册\"}", CJ_course: "初中历史统编版八年级下册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:18:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:18:OB03", title: "第二单元 社会主义制度的建立与社会主义建设的探索", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版八年级下册\"}", CJ_course: "初中历史统编版八年级下册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:18:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:18:OB03", title: "第二单元 社会主义制度的建立与社会主义建设的探索", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版八年级下册\"}", CJ_course: "初中历史统编版八年级下册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:19:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:19:OB03", title: "第三单元 中国特色社会主义道路", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版八年级下册\"}", CJ_course: "初中历史统编版八年级下册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:19:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:19:OB03", title: "第三单元 中国特色社会主义道路", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版八年级下册\"}", CJ_course: "初中历史统编版八年级下册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:20:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:20:OB03", title: "第四单元 民族团结与祖国统一", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版八年级下册\"}", CJ_course: "初中历史统编版八年级下册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:20:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:20:OB03", title: "第四单元 民族团结与祖国统一", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版八年级下册\"}", CJ_course: "初中历史统编版八年级下册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:21:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:21:OB03", title: "第五单元 国防建设与外交成就", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版八年级下册\"}", CJ_course: "初中历史统编版八年级下册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:21:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:21:OB03", title: "第五单元 国防建设与外交成就", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版八年级下册\"}", CJ_course: "初中历史统编版八年级下册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:22:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:22:OB03", title: "第六单元 科技文化与社会生活", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版八年级下册\"}", CJ_course: "初中历史统编版八年级下册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:22:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:22:OB03", title: "第六单元 科技文化与社会生活", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版八年级下册\"}", CJ_course: "初中历史统编版八年级下册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:23:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:23:OB03", title: "附录 中国近现代史大事年表（下）", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版八年级下册\"}", CJ_course: "初中历史统编版八年级下册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:23:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:23:OB03", title: "附录 中国近现代史大事年表（下）", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版八年级下册\"}", CJ_course: "初中历史统编版八年级下册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:24:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:24:OB03", title: "第一单元 古代亚非文明", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版九年级上册\"}", CJ_course: "初中历史统编版九年级上册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:24:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:24:OB03", title: "第一单元 古代亚非文明", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版九年级上册\"}", CJ_course: "初中历史统编版九年级上册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:25:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:25:OB03", title: "第二单元 古代欧洲文明", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版九年级上册\"}", CJ_course: "初中历史统编版九年级上册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:25:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:25:OB03", title: "第二单元 古代欧洲文明", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版九年级上册\"}", CJ_course: "初中历史统编版九年级上册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:26:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:26:OB03", title: "第三单元 封建时代的欧洲", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版九年级上册\"}", CJ_course: "初中历史统编版九年级上册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:26:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:26:OB03", title: "第三单元 封建时代的欧洲", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版九年级上册\"}", CJ_course: "初中历史统编版九年级上册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:27:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:27:OB03", title: "第四单元 封建时代的亚洲国家", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版九年级上册\"}", CJ_course: "初中历史统编版九年级上册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:27:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:27:OB03", title: "第四单元 封建时代的亚洲国家", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版九年级上册\"}", CJ_course: "初中历史统编版九年级上册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:28:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:28:OB03", title: "第五单元 走向近代", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版九年级上册\"}", CJ_course: "初中历史统编版九年级上册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:28:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:28:OB03", title: "第五单元 走向近代", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版九年级上册\"}", CJ_course: "初中历史统编版九年级上册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:29:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:29:OB03", title: "第六单元 资本主义制度的初步确立", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版九年级上册\"}", CJ_course: "初中历史统编版九年级上册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:29:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:29:OB03", title: "第六单元 资本主义制度的初步确立", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版九年级上册\"}", CJ_course: "初中历史统编版九年级上册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:30:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:30:OB03", title: "第七单元 工业革命和国际共产主义运动的兴起", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版九年级上册\"}", CJ_course: "初中历史统编版九年级上册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:30:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:30:OB03", title: "第七单元 工业革命和国际共产主义运动的兴起", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版九年级上册\"}", CJ_course: "初中历史统编版九年级上册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:31:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:31:OB03", title: "附录", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版九年级上册\"}", CJ_course: "初中历史统编版九年级上册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:31:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:31:OB03", title: "附录", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版九年级上册\"}", CJ_course: "初中历史统编版九年级上册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:32:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:32:OB03", title: "第一单元 殖民地人民的反抗与资本主义制度的扩展", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版九年级下册\"}", CJ_course: "初中历史统编版九年级下册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:32:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:32:OB03", title: "第一单元 殖民地人民的反抗与资本主义制度的扩展", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版九年级下册\"}", CJ_course: "初中历史统编版九年级下册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:33:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:33:OB03", title: "第二单元 第二次工业革命和近代科学文化", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版九年级下册\"}", CJ_course: "初中历史统编版九年级下册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:33:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:33:OB03", title: "第二单元 第二次工业革命和近代科学文化", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版九年级下册\"}", CJ_course: "初中历史统编版九年级下册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:34:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:34:OB03", title: "第三单元 第一次世界大战和战后初期的世界", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版九年级下册\"}", CJ_course: "初中历史统编版九年级下册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:34:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:34:OB03", title: "第三单元 第一次世界大战和战后初期的世界", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版九年级下册\"}", CJ_course: "初中历史统编版九年级下册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:35:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:35:OB03", title: "第四单元 经济大危机和第二次世界大战", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版九年级下册\"}", CJ_course: "初中历史统编版九年级下册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:35:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:35:OB03", title: "第四单元 经济大危机和第二次世界大战", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版九年级下册\"}", CJ_course: "初中历史统编版九年级下册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:36:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:36:OB03", title: "第五单元 二战后的世界变化", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版九年级下册\"}", CJ_course: "初中历史统编版九年级下册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:36:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:36:OB03", title: "第五单元 二战后的世界变化", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版九年级下册\"}", CJ_course: "初中历史统编版九年级下册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:37:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:37:OB03", title: "第六单元 走向和平发展的世界", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版九年级下册\"}", CJ_course: "初中历史统编版九年级下册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:37:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:37:OB03", title: "第六单元 走向和平发展的世界", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版九年级下册\"}", CJ_course: "初中历史统编版九年级下册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:38:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:38:OB03", title: "提取历史有效信息的主题研究", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版九年级下册\"}", CJ_course: "初中历史统编版九年级下册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:38:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:38:OB03", title: "提取历史有效信息的主题研究", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版九年级下册\"}", CJ_course: "初中历史统编版九年级下册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:39:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:39:OB03", title: "单元复习", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版九年级下册\"}", CJ_course: "初中历史统编版九年级下册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:39:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:39:OB03", title: "单元复习", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版九年级下册\"}", CJ_course: "初中历史统编版九年级下册"};
 
-MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:bookunit:40:OB03"})
-SET n += {identifier: "urn:jy:history:SB0307:OB03:bookunit:40:OB03", title: "中考复习", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版九年级下册\"}", CJ_course: "初中历史统编版九年级下册"};
+MERGE (n:Chapter {identifier: "urn:jy:history:SB0307:OB03:Chapter:40:OB03"})
+SET n += {identifier: "urn:jy:history:SB0307:OB03:Chapter:40:OB03", title: "中考复习", description: "", type: "Chapter", subject: "SB0307", applicableLevel: "OB03", contentJson: "{\"course\": \"初中历史统编版九年级下册\"}", CJ_course: "初中历史统编版九年级下册"};
 
 MERGE (n:Theme {identifier: "urn:jy:history:SB0307:OB03:Theme:1:OB03"})
 SET n += {identifier: "urn:jy:history:SB0307:OB03:Theme:1:OB03", title: "中国古代史", description: "中国古代史始于中国境内早期人类活动，止于1840 年鸦片战争，重点叙述 5000 多年中华文明的演进，以及统一多民族国家的起源、建立、巩固和发展的历程。", subject: "SB0307", type: "Theme", applicableLevel: "OB03", contentJson: "{\"ContentRequirements\": \"1.1 史前时期\\n通过了解元谋人、郧县人、蓝田人、北京人等旧石器时代的人类及其文化遗存，知道中国境内原始社会时期的人类活动；通过了解河姆渡、半坡、良渚、陶寺、二里头等新石器时代的文化遗存，知道中国的原始农耕生活；了解私有制、阶级和早期国家的产生；知道考古发现是了解原始社会的重要依据；通过古代文献中记述的黄帝、炎帝等神话传说，了解其中蕴含的历史信息。\\n1.2 夏商西周与春秋战国时期\\n知道甲骨文是已知最早的汉字；通过了解甲骨文、青铜铭文、其他文献记载和典型器物，知道具有奴隶制特点的夏、商、西周王朝的建立与发展，了解西周分封制等重要制度；知道老子、孔子的生平与思想；通过了解这一时期的生产力水平和社会关系的变化，初步理解春秋时期诸侯争霸局面的形成、战国时期商鞅变法等改革和“百家争鸣”局面的产生；通过《黄帝内经》和名医扁鹊，了解这一时期的医学成就；通过都江堰工程，感受古代劳动人民的智慧和创造力。\\n1.3 秦汉时期\\n通过了解秦朝统一、陈胜和吴广等领导的秦末农民起义、西汉“削藩”和尊崇儒术，知道统一多民族封建国家建立和早期发展的过程；通过了解休养生息政策、“文景之治”、张骞通西域、“丝绸之路”的开辟、汉武帝的大一统，知道西汉从建立之初的社会残破发展到国力强盛的变化及原因；通过了解西汉末到东汉的政治、社会动荡，了解佛教传入和道教产生的背景；知道这一时期的重要文化和科技成就，如司马迁与《史记》、蔡伦与造纸术、张仲景与《伤寒杂病论》、华佗的故事等。\\n1.4 三国两晋南北朝时期\\n通过了解三国两晋南北朝时期的政权更迭和北魏孝文帝改革、人口迁徙和区域开发，认识这一时期民族交往交流交融的历史特点及其对中华民族发展的意义；通过了解这一时期的科技和艺术成就，如祖冲之的数学成就，认识传统文化的继承与创新。\\n1.5 隋唐五代十国时期\\n通过了解隋朝的兴亡、“贞观之治”与“开元盛世”，知道隋朝速亡和唐朝兴盛的原因；了解科举制度创建、大运河开通、文成公主入藏、鉴真东渡、玄奘西行等史事，从制度、经济、文学艺术、民族交往、中外文化交流等方面认识隋唐王朝在世界历史上的重要地位；通过了解“安史之乱”后藩镇割据和五代十国的局面，认识唐末五代的社会危机。\\n1.6 辽宋夏金元时期\\n认识北宋面临的新形势，了解辽、宋、西夏的并立与北宋强化中央集权和重文轻武的政策；通过了解宋金之战、南宋偏安和南方地区的经济繁荣，知道中国古代经济重心的进一步南移；通过了解蒙古兴起和元朝统一，设立行省、宣政院等制度，知道西藏在元代正式纳入中国版图，理解元朝统一对中华民族进一步交融的重要意义；通过了解这一时期的城市和商业发展、科技创新、文学艺术成就和对外交流，认识宋元时期繁荣的经济、文化在中国历史上的重要地位；通过了解岳飞、文天祥等人的英雄事迹，体会中华民族英勇不屈的精神；通过印刷术、指南针、火药的应用和外传，认识中国古代的重要发明对世界文明发展的贡献。\\n1.7 明清时期（至鸦片战争前）\\n通过了解明清时期加强皇权的举措，初步认识君主专制带来的社会弊端；通过了解明清时期的经济改革和全球性经济互动，初步认识这一阶段中国经济发展的内因和外因；通过郑和下西洋、戚继光抗倭等史事，了解明朝的对外关系；通过了解郑成功收复台湾、清朝在台湾的建制、册封达赖和班禅以及设置驻藏大臣等中央政权在边疆地区的各种举措，认识西藏地区、新疆地区、南海诸岛、台湾及其包括钓鱼岛在内的附属岛屿是中国的领土，理解统一多民族国家版图奠定的重要意义；通过了解《本草纲目》《天工开物》《农政全书》，认识明朝的科技成就及其影响；通过了解小说、戏曲的繁荣，知道明清时期文学艺术的特色；通过了解明末李自成起义、清中叶以来的政治腐败、故步自封和 19 世纪的国际局势史实，认识当时中国社会面临的严重危机。\", \"achievementRequirement\": \"2.1 能够了解中国古代历史的基本线索和重要的事件、人物、现象，知道重大史事发生的时间和地点、原因和结果，初步养成历史时序意识和历史空间感。（唯物史观、时空观念）\\n2.2 能够知道中国古代遗留至今的各类史料是了解和认识中国古代历史的证据，能结合语文、地理、艺术等课程的学习，初步理解古代史料的含义，尝试运用史料说明历史问题。（史料实证、历史解释）\\n2.3 能够对中国古代历史上的重要事件、人物、现象等形成合理想象，进行初步分析，认识其意义和影响。（唯物史观、历史解释、家国情怀）\\n2.4 能够通过中国古代的经济、科技成就，了解生产力发展对政治、社会、文化变革的推动作用；通过古代历史上治乱兴衰的史事，认识阶级社会中阶级斗争在历史发展中的作用。（唯物史观、历史解释、家国情怀）\\n2.5 能够通过了解中国古代历史发展的总体趋势，认识统一多民族国家形成、巩固和发展的重要历史意义；通过中国古代历史上各民族的交往交流交融，认识中华民族共同体的形成是中国历史发展的必然结果，树立正确的中华民族历史观；通过了解中国古代文明的辉煌成就，认识中华优秀传统文化的独特价值和突出优势，提高民族自尊心、自信心和自豪感，增强民族凝聚力。（唯物史观、家国情怀）\", \"teachingTip\": \"学生初学历史，需要培养兴趣，调动学习积极性。在教学过程中，教师要通过情境再现、问题引领、故事讲述和多样化的资源运用等方式，激发学生的求知欲，促进学生积极、主动地学习历史。\\n要注重对学生历史学习方法的指导，从帮助学生学会阅读、理解教材，概括所学内容入手，进而指导学生解读史料，使学生逐步学会对史事进行分析。\\n中国古代史的教学，要通过把握中国古代历史发展的基本线索及相关重要史事，围绕统一多民族国家形成、巩固和发展的过程展开。教师要把历代政权的分立与统一、中华民族的发展演变，理解为从区域到整体、从碰撞到交融的过程，引导学生初步学会分析重要史事间的因果关系，初步学会对史事进行评判。\\n中国古代史是学生学习历史最先接触的内容。因此，教师要尽可能以感性的、易于理解的、多种多样的呈现方式开展教学。教师不仅应在课堂上尝试创设帮助学生感同身受的历史情境，还应充分利用博物馆、档案馆、图书馆、历史遗址、古代建筑、古村落，以及爱国主义教育基地、历史文化名城等，尽量发掘乡土历史资源，合理利用网络资源。\", \"Domain\": \"urn:jy:history:SB0307:OB03:Domain:1:OB03\"}", CJ_ContentRequirements: "1.1 史前时期\n通过了解元谋人、郧县人、蓝田人、北京人等旧石器时代的人类及其文化遗存，知道中国境内原始社会时期的人类活动；通过了解河姆渡、半坡、良渚、陶寺、二里头等新石器时代的文化遗存，知道中国的原始农耕生活；了解私有制、阶级和早期国家的产生；知道考古发现是了解原始社会的重要依据；通过古代文献中记述的黄帝、炎帝等神话传说，了解其中蕴含的历史信息。\n1.2 夏商西周与春秋战国时期\n知道甲骨文是已知最早的汉字；通过了解甲骨文、青铜铭文、其他文献记载和典型器物，知道具有奴隶制特点的夏、商、西周王朝的建立与发展，了解西周分封制等重要制度；知道老子、孔子的生平与思想；通过了解这一时期的生产力水平和社会关系的变化，初步理解春秋时期诸侯争霸局面的形成、战国时期商鞅变法等改革和“百家争鸣”局面的产生；通过《黄帝内经》和名医扁鹊，了解这一时期的医学成就；通过都江堰工程，感受古代劳动人民的智慧和创造力。\n1.3 秦汉时期\n通过了解秦朝统一、陈胜和吴广等领导的秦末农民起义、西汉“削藩”和尊崇儒术，知道统一多民族封建国家建立和早期发展的过程；通过了解休养生息政策、“文景之治”、张骞通西域、“丝绸之路”的开辟、汉武帝的大一统，知道西汉从建立之初的社会残破发展到国力强盛的变化及原因；通过了解西汉末到东汉的政治、社会动荡，了解佛教传入和道教产生的背景；知道这一时期的重要文化和科技成就，如司马迁与《史记》、蔡伦与造纸术、张仲景与《伤寒杂病论》、华佗的故事等。\n1.4 三国两晋南北朝时期\n通过了解三国两晋南北朝时期的政权更迭和北魏孝文帝改革、人口迁徙和区域开发，认识这一时期民族交往交流交融的历史特点及其对中华民族发展的意义；通过了解这一时期的科技和艺术成就，如祖冲之的数学成就，认识传统文化的继承与创新。\n1.5 隋唐五代十国时期\n通过了解隋朝的兴亡、“贞观之治”与“开元盛世”，知道隋朝速亡和唐朝兴盛的原因；了解科举制度创建、大运河开通、文成公主入藏、鉴真东渡、玄奘西行等史事，从制度、经济、文学艺术、民族交往、中外文化交流等方面认识隋唐王朝在世界历史上的重要地位；通过了解“安史之乱”后藩镇割据和五代十国的局面，认识唐末五代的社会危机。\n1.6 辽宋夏金元时期\n认识北宋面临的新形势，了解辽、宋、西夏的并立与北宋强化中央集权和重文轻武的政策；通过了解宋金之战、南宋偏安和南方地区的经济繁荣，知道中国古代经济重心的进一步南移；通过了解蒙古兴起和元朝统一，设立行省、宣政院等制度，知道西藏在元代正式纳入中国版图，理解元朝统一对中华民族进一步交融的重要意义；通过了解这一时期的城市和商业发展、科技创新、文学艺术成就和对外交流，认识宋元时期繁荣的经济、文化在中国历史上的重要地位；通过了解岳飞、文天祥等人的英雄事迹，体会中华民族英勇不屈的精神；通过印刷术、指南针、火药的应用和外传，认识中国古代的重要发明对世界文明发展的贡献。\n1.7 明清时期（至鸦片战争前）\n通过了解明清时期加强皇权的举措，初步认识君主专制带来的社会弊端；通过了解明清时期的经济改革和全球性经济互动，初步认识这一阶段中国经济发展的内因和外因；通过郑和下西洋、戚继光抗倭等史事，了解明朝的对外关系；通过了解郑成功收复台湾、清朝在台湾的建制、册封达赖和班禅以及设置驻藏大臣等中央政权在边疆地区的各种举措，认识西藏地区、新疆地区、南海诸岛、台湾及其包括钓鱼岛在内的附属岛屿是中国的领土，理解统一多民族国家版图奠定的重要意义；通过了解《本草纲目》《天工开物》《农政全书》，认识明朝的科技成就及其影响；通过了解小说、戏曲的繁荣，知道明清时期文学艺术的特色；通过了解明末李自成起义、清中叶以来的政治腐败、故步自封和 19 世纪的国际局势史实，认识当时中国社会面临的严重危机。", CJ_achievementRequirement: "2.1 能够了解中国古代历史的基本线索和重要的事件、人物、现象，知道重大史事发生的时间和地点、原因和结果，初步养成历史时序意识和历史空间感。（唯物史观、时空观念）\n2.2 能够知道中国古代遗留至今的各类史料是了解和认识中国古代历史的证据，能结合语文、地理、艺术等课程的学习，初步理解古代史料的含义，尝试运用史料说明历史问题。（史料实证、历史解释）\n2.3 能够对中国古代历史上的重要事件、人物、现象等形成合理想象，进行初步分析，认识其意义和影响。（唯物史观、历史解释、家国情怀）\n2.4 能够通过中国古代的经济、科技成就，了解生产力发展对政治、社会、文化变革的推动作用；通过古代历史上治乱兴衰的史事，认识阶级社会中阶级斗争在历史发展中的作用。（唯物史观、历史解释、家国情怀）\n2.5 能够通过了解中国古代历史发展的总体趋势，认识统一多民族国家形成、巩固和发展的重要历史意义；通过中国古代历史上各民族的交往交流交融，认识中华民族共同体的形成是中国历史发展的必然结果，树立正确的中华民族历史观；通过了解中国古代文明的辉煌成就，认识中华优秀传统文化的独特价值和突出优势，提高民族自尊心、自信心和自豪感，增强民族凝聚力。（唯物史观、家国情怀）", CJ_teachingTip: "学生初学历史，需要培养兴趣，调动学习积极性。在教学过程中，教师要通过情境再现、问题引领、故事讲述和多样化的资源运用等方式，激发学生的求知欲，促进学生积极、主动地学习历史。\n要注重对学生历史学习方法的指导，从帮助学生学会阅读、理解教材，概括所学内容入手，进而指导学生解读史料，使学生逐步学会对史事进行分析。\n中国古代史的教学，要通过把握中国古代历史发展的基本线索及相关重要史事，围绕统一多民族国家形成、巩固和发展的过程展开。教师要把历代政权的分立与统一、中华民族的发展演变，理解为从区域到整体、从碰撞到交融的过程，引导学生初步学会分析重要史事间的因果关系，初步学会对史事进行评判。\n中国古代史是学生学习历史最先接触的内容。因此，教师要尽可能以感性的、易于理解的、多种多样的呈现方式开展教学。教师不仅应在课堂上尝试创设帮助学生感同身受的历史情境，还应充分利用博物馆、档案馆、图书馆、历史遗址、古代建筑、古村落，以及爱国主义教育基地、历史文化名城等，尽量发掘乡土历史资源，合理利用网络资源。", CJ_Domain: "urn:jy:history:SB0307:OB03:Domain:1:OB03"};

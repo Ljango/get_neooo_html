@@ -394,7 +394,7 @@
     },
     {
       "identifier": "urn:jy:math:SB0201:OB06:KeyPoint:kp00030",
-      "title": "",
+      "title": "复数的三角表示",
       "description": "",
       "subject": "SB0201",
       "type": "KeyPoint",
@@ -404,7 +404,14 @@
         "contentRequirement": [
           "复数的三角表示\n通过复数的几何意义，了解复数的三角表示，了解复数的代数表示\n与三角表示之间的关系，了解复数乘、除运算的三角表示及其几何\n意义。"
         ]
-      }
+      },
+      "content_json": {
+        "unit": "urn:jy:math:SB0201:OB06:unit:un0010",
+        "contentRequirement": [
+          "复数的三角表示\n通过复数的几何意义，了解复数的三角表示，了解复数的代数表示\n与三角表示之间的关系，了解复数乘、除运算的三角表示及其几何\n意义。"
+        ]
+      },
+      "applicable_level": "0B06"
     },
     {
       "identifier": "urn:jy:math:SB0201:OB06:KeyPoint:kp00031",
@@ -917,6 +924,5 @@
         ]
       }
     }
-    
   ]
 }

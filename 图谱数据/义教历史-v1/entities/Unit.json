@@ -2,26 +2,123 @@
   {
     "identifier": "urn:jy:history:SB0307:OB03:unit:1:OB03",
     "title": "史前时期",
-    "description": "通过了解元谋人、郧县人、蓝田人、北京人等旧石器时代的人类及其文化遗存，知道中国境内原始社会时期的人类活动；通过了解河姆渡、半坡、良渚、陶寺、二里头等新石器时代的文化遗存，知道中国的原始农耕生活；了解私有制、阶级和早期国家的产生；知道考古发现是了解原始社会的重要依据；通过古代文献中记述的黄帝、炎帝等神话传说，了解其中蕴含的历史信息。",
+    "description": [
+      {
+        "SpecificPeriod": "旧石器时代",
+        "HistoricalMaterials": "文化遗存：旧石器时代遗址",
+        "HistoricalFacts": "在一百多万年前，中华大地上就有了人类活动",
+        "HistoricalFigures": "",
+        "institution": "",
+        "CivilizationalAchievements": ""
+      },
+      {
+        "SpecificPeriod": "新石器时代",
+        "HistoricalMaterials": "考古发现",
+        "HistoricalFacts": "私有制、阶级和早期国家产生",
+        "HistoricalFigures": "",
+        "institution": "",
+        "CivilizationalAchievements": "中国是世界上原始农业产生最早的地区之一\n中华文明产生"
+      },
+      {
+        "SpecificPeriod": "早期国家",
+        "HistoricalMaterials": "文献",
+        "HistoricalFacts": "",
+        "HistoricalFigures": "",
+        "institution": "",
+        "CivilizationalAchievements": ""
+      },
+      {
+        "SpecificPeriod": "原始社会",
+        "HistoricalMaterials": "神话传说",
+        "HistoricalFacts": "",
+        "HistoricalFigures": "黄帝、炎帝等",
+        "institution": "",
+        "CivilizationalAchievements": ""
+      }
+    ],
     "subject": "SB0307",
     "applicableLevel": "OB03",
-    "Theme": "中国古代史"
+    "contentJson": {
+      "Theme": "中国古代史"
+    }
   },
   {
     "identifier": "urn:jy:history:SB0307:OB03:unit:2:OB03",
     "title": "夏商西周与春秋战国时期",
-    "description": "知道甲骨文是已知最早的汉字；通过了解甲骨文、青铜铭文、其他文献记载和典型器物，知道具有奴隶制特点的夏、商、西周王朝的建立与发展，了解西周分封制等重要制度；知道老子、孔子的生平与思想；通过了解这一时期的生产力水平和社会关系的变化，初步理解春秋时期诸侯争霸局面的形成、战国时期商鞅变法等改革和“百家争鸣”局面的产生；通过《黄帝内经》和名医扁鹊，了解这一时期的医学成就；通过都江堰工程，感受古代劳动人民的智慧和创造力。",
+    "description": [
+      {
+        "SpecificPeriod": "夏",
+        "HistoricalMaterials": "甲骨文、青铜铭文、文献、器物",
+        "HistoricalFacts": "社会分工、都邑和王权的出现",
+        "HistoricalFigures": "",
+        "institution": "",
+        "CivilizationalAchievements": "大约在公元前21世纪，中国历史上第一个王朝——夏朝建立。"
+      },
+      {
+        "SpecificPeriod": "商",
+        "HistoricalMaterials": "",
+        "HistoricalFacts": "",
+        "HistoricalFigures": "",
+        "institution": "",
+        "CivilizationalAchievements": "商朝的青铜冶炼技术和甲骨文代表了早期中华文明的辉煌成就。"
+      },
+      {
+        "SpecificPeriod": "西周",
+        "HistoricalMaterials": "",
+        "HistoricalFacts": "",
+        "HistoricalFigures": "老子、孔子",
+        "institution": "分封制",
+        "CivilizationalAchievements": ""
+      },
+      {
+        "SpecificPeriod": "东周、春秋、战国",
+        "HistoricalMaterials": "铁农具和牛耕推广",
+        "HistoricalFacts": "春秋时期王室衰微、诸侯争霸，分封制渐趋瓦解。\n各诸侯国的变法推动社会进步。\n思想文化出现“百家争鸣”。",
+        "HistoricalFigures": "商鞅、扁鹊",
+        "institution": "",
+        "CivilizationalAchievements": "甲骨文是已知最早的汉字。\n医学成就：《黄帝内经》、名医扁鹊\n通过都江堰工程感受古代劳动人民的智慧和创造力。"
+      }
+    ],
     "subject": "SB0307",
     "applicableLevel": "OB03",
-    "Theme": "中国古代史"
+    "contentJson": {
+      "Theme": "中国古代史"
+    }
   },
   {
     "identifier": "urn:jy:history:SB0307:OB03:unit:3:OB03",
     "title": "秦汉时期",
-    "description": "通过了解秦朝统一、陈胜和吴广等领导的秦末农民起义、西汉“削藩”和尊崇儒术，知道统一多民族封建国家建立和早期发展的过程；通过了解休养生息政策、“文景之治”、张骞通西域、“丝绸之路”的开辟、汉武帝的大一统，知道西汉从建立之初的社会残破发展到国力强盛的变化及原因；通过了解西汉末到东汉的政治、社会动荡，了解佛教传入和道教产生的背景；知道这一时期的重要文化和科技成就，如司马迁与《史记》、蔡伦与造纸术、张仲景与《伤寒杂病论》、华佗的故事等。",
+    "description": [
+      {
+        "SpecificPeriod": "秦",
+        "HistoricalMaterials": "",
+        "HistoricalFacts": "秦统一\n秦朝因暴政短命而亡\n秦末农民起义",
+        "HistoricalFigures": "秦始皇、陈胜、吴广",
+        "institution": "专制主义中央集权的国家体制",
+        "CivilizationalAchievements": "秦始皇建立了我国历史上第一个统一的多民族的封建国家。\n秦的一些制度对对以后历代王朝具有深远影响。"
+      },
+      {
+        "SpecificPeriod": "西汉",
+        "HistoricalMaterials": "",
+        "HistoricalFacts": "张骞通西域\n“丝绸之路”的开辟\n汉武帝的大一统",
+        "HistoricalFigures": "汉文帝、汉景帝、汉武帝、张骞、司马迁",
+        "institution": "削藩、尊崇儒术、休养生息",
+        "CivilizationalAchievements": "“文景之治”\n西汉王朝在汉武帝时实现大一统，国力达到鼎盛\n科技和文化成就"
+      },
+      {
+        "SpecificPeriod": "东汉",
+        "HistoricalMaterials": "",
+        "HistoricalFacts": "西汉末到东汉初政治、社会动荡",
+        "HistoricalFigures": "蔡伦、张仲景、华佗",
+        "institution": "",
+        "CivilizationalAchievements": "科技和文化成就"
+      }
+    ],
     "subject": "SB0307",
     "applicableLevel": "OB03",
-    "Theme": "中国古代史"
+    "contentJson": {
+      "Theme": "中国古代史"
+    }
   },
   {
     "identifier": "urn:jy:history:SB0307:OB03:unit:4:OB03",

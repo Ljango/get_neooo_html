@@ -1,0 +1,738 @@
+[
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:1_1:01",
+    "title": "节水方案设计",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:1",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:1",
+      "themeCode": "1.1",
+      "itemNo": 1,
+      "activityText": "调查学校或家庭的用水状况，设计一个用于学校或家庭的节水方案。",
+      "sourceImage": "page_012.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:1_1:02",
+    "title": "水资源利用与保护调查",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:1",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:1",
+      "themeCode": "1.1",
+      "itemNo": 2,
+      "activityText": "调查当地水资源的利用和保护状况，并对当地水资源的利用和保护提出自己的见解。",
+      "sourceImage": "page_012.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:1_1:03",
+    "title": "节水灌溉技术调查",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:1",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:1",
+      "themeCode": "1.1",
+      "itemNo": 3,
+      "activityText": "调查当地农田或城市绿化灌溉的主要方式，了解节水灌溉技术。",
+      "sourceImage": "page_012.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:1_2:01",
+    "title": "锅具导热性能比较实验设计",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:1",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:2",
+      "themeCode": "1.2",
+      "itemNo": 1,
+      "activityText": "设计实验方案，比较砂锅、铁锅的导热性能。",
+      "sourceImage": "page_013.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:1_2:02",
+    "title": "日用品物理属性调查",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:1",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:2",
+      "themeCode": "1.2",
+      "itemNo": 2,
+      "activityText": "观察生活中的一些日常用品，了解它们分别应用了物质的哪些物理属性。",
+      "sourceImage": "page_013.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:1_2:03",
+    "title": "古代青铜器铁器制造技术查阅",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:1",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:2",
+      "themeCode": "1.2",
+      "itemNo": 3,
+      "activityText": "查阅资料，了解我国古代青铜器、铁器的制造技术及其对社会进步的推动作用。",
+      "sourceImage": "page_013.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:1_3:01",
+    "title": "东方红一号研制与发射历程查阅",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:1",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:3",
+      "themeCode": "1.3",
+      "itemNo": 1,
+      "activityText": "查阅资料，了解我国第一颗人造地球卫星“东方红一号”从研制到成功发射的历程，体会这一历史性突破对我国航天技术发展的重要意义。",
+      "sourceImage": "page_014.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:1_3:02",
+    "title": "中国天眼作用与建造成就查阅",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:1",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:3",
+      "themeCode": "1.3",
+      "itemNo": 2,
+      "activityText": "查阅资料，了解“中国天眼”在人类探索宇宙中的作用及我国科学家在建造“中国天眼”过程中的卓越贡献。",
+      "sourceImage": "page_014.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:1_3:03",
+    "title": "天问一号火星探测进展查阅",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:1",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:3",
+      "themeCode": "1.3",
+      "itemNo": 3,
+      "activityText": "查阅资料，了解“天问一号”在探索火星方面的进展及我国航天事业对人类探索宇宙的贡献。",
+      "sourceImage": "page_014.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:2_1:01",
+    "title": "机械运动相对性观察",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:2",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:4",
+      "themeCode": "2.1",
+      "itemNo": 1,
+      "activityText": "观察生活中的机械运动现象，说明机械运动的相对性。",
+      "sourceImage": "page_017.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:2_1:02",
+    "title": "微粒持续运动实验方案设计",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:2",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:4",
+      "themeCode": "2.1",
+      "itemNo": 2,
+      "activityText": "利用常见物品设计实验方案，说明组成物质的微粒在不停地运动。",
+      "sourceImage": "page_017.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:2_1:03",
+    "title": "神舟九号与天宫一号交会对接案例讨论",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:2",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:4",
+      "themeCode": "2.1",
+      "itemNo": 3,
+      "activityText": "以神舟九号载人飞船与天宫一号目标飞行器成功交会对接为例，讨论机械运动的相对性。",
+      "sourceImage": "page_018.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:2_2:01",
+    "title": "高速列车速度与铁路发展查阅",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:2",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:5",
+      "themeCode": "2.2",
+      "itemNo": 1,
+      "activityText": "查阅资料，了解我国高速列车的运行速度，以及铁路交通的发展进程。",
+      "sourceImage": "page_019.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:2_2:02",
+    "title": "中国空间站飞行速度查阅",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:2",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:5",
+      "themeCode": "2.2",
+      "itemNo": 2,
+      "activityText": "查阅资料，了解中国空间站在太空中飞行的速度大小。",
+      "sourceImage": "page_019.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:2_2:03",
+    "title": "奋斗者号深潜与压强浮力因素讨论",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:2",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:5",
+      "themeCode": "2.2",
+      "itemNo": 3,
+      "activityText": "查阅资料，了解我国“奋斗者”号载人潜水器的深潜信息，讨论影响其所受液体压强和浮力大小的因素。",
+      "sourceImage": "page_019.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:2_2:04",
+    "title": "三峡船闸连通器原理查阅",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:2",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:5",
+      "themeCode": "2.2",
+      "itemNo": 4,
+      "activityText": "查阅资料，了解我国长江三峡水利枢纽工程中船闸是怎样利用连通器特点让轮船通行的。",
+      "sourceImage": "page_019.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:2_3:01",
+    "title": "古建筑声学应用案例查阅",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:2",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:6",
+      "themeCode": "2.3",
+      "itemNo": 1,
+      "activityText": "查阅资料，了解我国古建筑应用声学知识的案例。",
+      "sourceImage": "page_020.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:2_3:02",
+    "title": "噪声污染调查与控制建议",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:2",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:6",
+      "themeCode": "2.3",
+      "itemNo": 2,
+      "activityText": "调查社区或工地噪声污染的情况和已采取的控制措施，提出进一步控制噪声的建议。",
+      "sourceImage": "page_020.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:2_3:03",
+    "title": "简易望远镜制作与观察",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:2",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:6",
+      "themeCode": "2.3",
+      "itemNo": 3,
+      "activityText": "用凸透镜制作简易望远镜，用其观察远处的景物。",
+      "sourceImage": "page_020.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:2_3:04",
+    "title": "光污染调查与改进建议",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:2",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:6",
+      "themeCode": "2.3",
+      "itemNo": 4,
+      "activityText": "调查社区或城市光污染的情况，提出改进建议。",
+      "sourceImage": "page_020.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:2_4:01",
+    "title": "简易指南针制作与磁极作用验证",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:2",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:7",
+      "themeCode": "2.4",
+      "itemNo": 1,
+      "activityText": "利用磁体和缝衣针制作指南针，验证同名磁极相互排斥、异名磁极相互吸引。",
+      "sourceImage": "page_021.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:2_4:02",
+    "title": "北斗卫星导航系统与卫星通信电磁波应用查阅",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:2",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:7",
+      "themeCode": "2.4",
+      "itemNo": 2,
+      "activityText": "查阅资料，了解我国北斗卫星导航系统的作用和优势，讨论电磁波在卫星通信技术中的应用。",
+      "sourceImage": "page_022.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:2_4:03",
+    "title": "磁悬浮列车发展与电磁技术应用查阅",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:2",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:7",
+      "themeCode": "2.4",
+      "itemNo": 3,
+      "activityText": "查阅资料，了解我国磁悬浮列车的发展状况，讨论电磁技术在其中的应用。",
+      "sourceImage": "page_022.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:3_1:01",
+    "title": "太阳能转化实例列举",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:3",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:8",
+      "themeCode": "3.1",
+      "itemNo": 1,
+      "activityText": "列举太阳能在地球上转化为其他形式能量的实例。",
+      "sourceImage": "page_025.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:3_1:02",
+    "title": "滑滑梯能量转化讨论",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:3",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:8",
+      "themeCode": "3.1",
+      "itemNo": 2,
+      "activityText": "讨论人在滑滑梯过程中能量转化的情况。",
+      "sourceImage": "page_025.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:3_2:01",
+    "title": "人类利用机械历程查阅交流",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:3",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:9",
+      "themeCode": "3.2",
+      "itemNo": 1,
+      "activityText": "查阅资料，了解人类利用机械的大致历程，并与同学进行交流。",
+      "sourceImage": "page_026.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:3_2:02",
+    "title": "古代水磨水碓调查报告",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:3",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:9",
+      "themeCode": "3.2",
+      "itemNo": 2,
+      "activityText": "查阅资料，了解我国古代水磨、水碓等机械，写一篇弘扬中华优秀传统文化的调查报告。",
+      "sourceImage": "page_026.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:3_3:01",
+    "title": "燃料结构变化调查讨论",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:3",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:10",
+      "themeCode": "3.3",
+      "itemNo": 1,
+      "activityText": "调查当地近年采矿、取暖、交通等方面燃料结构的变化，从经济与环保的角度开展讨论。",
+      "sourceImage": "page_026.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:3_3:02",
+    "title": "不同燃料放热量比较查阅",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:3",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:10",
+      "themeCode": "3.3",
+      "itemNo": 2,
+      "activityText": "燃料的种类很多，如木柴、煤、汽油、酒精、天然气等，查阅资料并比较相同质量的不同燃料完全燃烧时放出热量的多少。",
+      "sourceImage": "page_026.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:3_4:01",
+    "title": "家用电能表读数与用电量计算",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:3",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:11",
+      "themeCode": "3.4",
+      "itemNo": 1,
+      "activityText": "学读家用电能表，根据读数计算用电量。",
+      "sourceImage": "page_027.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:3_4:02",
+    "title": "人均用电量变化与经济发展调查",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:3",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:11",
+      "themeCode": "3.4",
+      "itemNo": 2,
+      "activityText": "调查当地人均用电量的变化，讨论它与当地经济发展的关系。",
+      "sourceImage": "page_027.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:3_5:01",
+    "title": "内燃机热量去向与效率提升讨论",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:3",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:12",
+      "themeCode": "3.5",
+      "itemNo": 1,
+      "activityText": "查阅资料或访问农机、汽车维修等专业人员，了解内燃机中燃料燃烧所释放热量的去向，讨论提高效率的可能途径。",
+      "sourceImage": "page_028.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:3_5:02",
+    "title": "炉灶能量利用效率调查报告",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:3",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:12",
+      "themeCode": "3.5",
+      "itemNo": 2,
+      "activityText": "调查当地主要炉灶的能量利用效率，写出调查报告。",
+      "sourceImage": "page_028.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:3_6:01",
+    "title": "能源利用环境影响研讨与对策探讨",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:3",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:13",
+      "themeCode": "3.6",
+      "itemNo": 1,
+      "activityText": "查阅资料，举办小型研讨会，讨论能源利用带来的环境影响，如大气污染、酸雨、温室效应等，探讨可采取的应对措施。",
+      "sourceImage": "page_028.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:3_6:02",
+    "title": "新能源汽车发展概况查阅",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:3",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:13",
+      "themeCode": "3.6",
+      "itemNo": 2,
+      "activityText": "查阅资料，了解我国新能源汽车的发展概况。",
+      "sourceImage": "page_028.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:3_6:03",
+    "title": "低碳生活信息了解与能源调查建议",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:3",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:13",
+      "themeCode": "3.6",
+      "itemNo": 3,
+      "activityText": "了解有关提倡低碳生活的信息，调查当地使用的主要能源及其对当地经济和环境的影响，提出开发当地可再生能源的建议。",
+      "sourceImage": "page_028.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:3_6:04",
+    "title": "受控核聚变研究进展查阅",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:3",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:13",
+      "themeCode": "3.6",
+      "itemNo": 4,
+      "activityText": "查阅资料，了解受控核聚变（人造太阳）的研究进展，了解我国在这方面的研究成就。",
+      "sourceImage": "page_028.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:5_1:01",
+    "title": "自行车中的跨学科知识分析小论文",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:5",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:16",
+      "themeCode": "5.1",
+      "itemNo": 1,
+      "activityText": "通过资料查阅、商店咨询和实物考察，分析自行车中涉及的不同学科知识，选择感兴趣的主题撰写一篇小论文。",
+      "sourceImage": "page_037.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:5_1:02",
+    "title": "家庭用电安全跨学科调查报告",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:5",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:16",
+      "themeCode": "5.1",
+      "itemNo": 2,
+      "activityText": "通过资料查阅和实物考察，探索家庭用电的安全问题，从跨学科视角撰写简单的调查报告。",
+      "sourceImage": "page_037.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:5_1:03",
+    "title": "机动车尾气排放与空气污染调查报告",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:5",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:16",
+      "themeCode": "5.1",
+      "itemNo": 3,
+      "activityText": "通过资料查阅和实物考察，了解机动车的尾气排放情况，撰写关于城市空气污染和汽车尾气排放的调查报告。",
+      "sourceImage": "page_037.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:5_2:01",
+    "title": "小型风力发电机制作交流",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:5",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:17",
+      "themeCode": "5.2",
+      "itemNo": 1,
+      "activityText": "制作一台小型风力发电机，从跨学科视角与同学交流制作过程与作品。",
+      "sourceImage": "page_038.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:5_2:02",
+    "title": "物理学对信息技术发展贡献查阅",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:5",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:17",
+      "themeCode": "5.2",
+      "itemNo": 2,
+      "activityText": "查阅资料，了解物理学对信息技术发展的贡献。",
+      "sourceImage": "page_038.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:5_2:03",
+    "title": "量子计算机信息查阅与畅想交流",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:5",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:17",
+      "themeCode": "5.2",
+      "itemNo": 3,
+      "activityText": "查阅资料，了解量子计算机相关信息，与同学交流对计算机未来发展的畅想。",
+      "sourceImage": "page_038.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:5_3:01",
+    "title": "深海太空开发利用意义小论文",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:5",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:18",
+      "themeCode": "5.3",
+      "itemNo": 1,
+      "activityText": "查阅资料，了解深海、太空等的开发与利用对人类社会发展的意义，撰写一篇小论文。",
+      "sourceImage": "page_039.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:5_3:02",
+    "title": "环境污染治理成功案例调查报告",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:5",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:18",
+      "themeCode": "5.3",
+      "itemNo": 2,
+      "activityText": "查阅资料，了解环境污染治理比较成功的案例，撰写一篇调查报告。",
+      "sourceImage": "page_039.png"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:OB05:ActivitySuggestion:5_3:03",
+    "title": "手机改进历程典型案例查阅",
+    "description": "",
+    "subject": "SB0401",
+    "type": "ActivitySuggestion",
+    "applicableLevel": "OB05",
+    "contentJson": {
+      "ThemeL1": "urn:jy:physics:OB05:ThemeL1:5",
+      "ThemeL2": "urn:jy:physics:OB05:ThemeL2:18",
+      "themeCode": "5.3",
+      "itemNo": 3,
+      "activityText": "查阅资料，了解手机改进历程中的典型案例，体会通信技术的进步对社会发展的影响。",
+      "sourceImage": "page_039.png"
+    }
+  }
+]

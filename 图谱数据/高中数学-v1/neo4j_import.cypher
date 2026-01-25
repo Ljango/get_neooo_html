@@ -1,20 +1,20 @@
 // =====================================================
 // 高中数学课标图谱 - Neo4j导入脚本
-// 生成时间: 2026-01-23T15:48:57.691870
+// 生成时间: 2026-01-23T18:05:04.465479
 // =====================================================
 
 // 创建约束和索引
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:AcademicQuality) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:Topic) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:CourseModule) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:CoreLiteracy) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:Unit) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:Section) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:Chapter) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:Theme) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:KeyPoint) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:SubSection) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:CoreLiteracy) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Theme) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Unit) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:Domain) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Section) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:SubSection) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Chapter) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Topic) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:AcademicQuality) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:CourseModule) REQUIRE n.identifier IS UNIQUE;
 
 // =====================================================
 // 导入实体
@@ -1032,7 +1032,7 @@ MERGE (n:KeyPoint {identifier: "urn:jy:math:SB0201:OB06:KeyPoint:kp00029"})
 SET n += {identifier: "urn:jy:math:SB0201:OB06:KeyPoint:kp00029", title: "复数的运算", description: "", subject: "SB0201", type: "KeyPoint", applicableLevel: "0B06", contentJson: "{\"unit\": \"urn:jy:math:SB0201:OB06:unit:un0010\", \"contentRequirement\": [\"掌握复数代数表示式的四则运算，了解复数加、减运算的几何\\n意义。\"]}", CJ_unit: "urn:jy:math:SB0201:OB06:unit:un0010", CJ_contentRequirement: "[\"掌握复数代数表示式的四则运算，了解复数加、减运算的几何\\n意义。\"]"};
 
 MERGE (n:KeyPoint {identifier: "urn:jy:math:SB0201:OB06:KeyPoint:kp00030"})
-SET n += {identifier: "urn:jy:math:SB0201:OB06:KeyPoint:kp00030", title: "", description: "", subject: "SB0201", type: "KeyPoint", applicableLevel: "0B06", contentJson: "{\"unit\": \"urn:jy:math:SB0201:OB06:unit:un0010\", \"contentRequirement\": [\"复数的三角表示\\n通过复数的几何意义，了解复数的三角表示，了解复数的代数表示\\n与三角表示之间的关系，了解复数乘、除运算的三角表示及其几何\\n意义。\"]}", CJ_unit: "urn:jy:math:SB0201:OB06:unit:un0010", CJ_contentRequirement: "[\"复数的三角表示\\n通过复数的几何意义，了解复数的三角表示，了解复数的代数表示\\n与三角表示之间的关系，了解复数乘、除运算的三角表示及其几何\\n意义。\"]"};
+SET n += {identifier: "urn:jy:math:SB0201:OB06:KeyPoint:kp00030", title: "复数的三角表示", description: "", subject: "SB0201", type: "KeyPoint", applicableLevel: "0B06", contentJson: "{\"unit\": \"urn:jy:math:SB0201:OB06:unit:un0010\", \"contentRequirement\": [\"复数的三角表示\\n通过复数的几何意义，了解复数的三角表示，了解复数的代数表示\\n与三角表示之间的关系，了解复数乘、除运算的三角表示及其几何\\n意义。\"]}", content_json: "{\"unit\": \"urn:jy:math:SB0201:OB06:unit:un0010\", \"contentRequirement\": [\"复数的三角表示\\n通过复数的几何意义，了解复数的三角表示，了解复数的代数表示\\n与三角表示之间的关系，了解复数乘、除运算的三角表示及其几何\\n意义。\"]}", applicable_level: "0B06", CJ_unit: "urn:jy:math:SB0201:OB06:unit:un0010", CJ_contentRequirement: "[\"复数的三角表示\\n通过复数的几何意义，了解复数的三角表示，了解复数的代数表示\\n与三角表示之间的关系，了解复数乘、除运算的三角表示及其几何\\n意义。\"]"};
 
 MERGE (n:KeyPoint {identifier: "urn:jy:math:SB0201:OB06:KeyPoint:kp00031"})
 SET n += {identifier: "urn:jy:math:SB0201:OB06:KeyPoint:kp00031", title: "基本立体图形", description: "", subject: "SB0201", type: "KeyPoint", applicableLevel: "0B06", contentJson: "{\"unit\": \"urn:jy:math:SB0201:OB06:unit:un0011\", \"contentRequirement\": [\"①利用实物、计算机软件等观察空间图形，掌握柱、锥、台、球及 简单组合体的结构特征，能运用这些特征描述现实生活中简单物体的 结构。\", \"②知道棱柱、棱锥、棱台、球的表面积和体积的计算公式，能用公 式解决简单的实际问题。\", \"③能用斜二测法画出简单空间图形 （长方体、球、圆柱、圆锥、棱 柱及其简单组合体）的直观图。\"]}", CJ_unit: "urn:jy:math:SB0201:OB06:unit:un0011", CJ_contentRequirement: "[\"①利用实物、计算机软件等观察空间图形，掌握柱、锥、台、球及 简单组合体的结构特征，能运用这些特征描述现实生活中简单物体的 结构。\", \"②知道棱柱、棱锥、棱台、球的表面积和体积的计算公式，能用公 式解决简单的实际问题。\", \"③能用斜二测法画出简单空间图形 （长方体、球、圆柱、圆锥、棱 柱及其简单组合体）的直观图。\"]"};

@@ -1,0 +1,2972 @@
+[
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:1-1-1",
+    "target": "urn:jy:physics:SB0401:OB06:Section:72",
+    "evidence": {
+      "matchScore": 0.1387,
+      "fromThemeL3": {
+        "code": "1.1.1",
+        "title": "1.1.1",
+        "contentRequirement": "能描述固态、液态和气态三种物态的基本特征，并列举自然界和日常生活中不同物态的物质及其应用。"
+      },
+      "fromSection": {
+        "sectionTitle": "第三节 生活中的透镜",
+        "chapterTitle": "第五章 透镜及其应用",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "物质的结构和物质世界的尺度”三个二级主题。“物质”主题的课程内容与日常生活、自然现象及科技发展前沿密切相关。这部分内容的设计旨在引导学生从物理学的视角认识物质世界，了解身边物质的形态和变化，了解物质的属性、结构与物质世界的尺度，初步形成物质观念；引导学生学习科学研究方法，提升科学探究能力，体会科学、技  术、社会、环境之间的关系，形成辩证唯物主义世界观和关心环境、保护环境的责任感。  # 【内容要求】  # 1.1 物质的形态和变化  1.1.1 能描述固态、液态和气态三种物态的基本特征，并列举自然界和日常生活中不同物态的物质及其应用。   1.1.2 了解液体温度计的工作原理。会用常见温度计测量温度。能说出生活环境中常见的温度值，尝试对环境温度问题发表自己的见解。  例1 尝试对温室效应、热岛效应等发表自己的见解。  1.1.3 经历物态变化的实验探究过程，知道物质的熔点、凝固点和沸点，了解物态变化过程中的吸热和放热现象。能运用物态变化知识说明自然界和生活中的有关现"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:72",
+    "target": "urn:jy:physics:OB05:ThemeL3:1-1-1",
+    "evidence": {
+      "matchScore": 0.1387,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:1-1-3",
+    "target": "urn:jy:physics:SB0401:OB06:Section:47",
+    "evidence": {
+      "matchScore": 0.2572,
+      "fromThemeL3": {
+        "code": "1.1.3",
+        "title": "1.1.3",
+        "contentRequirement": "经历物态变化的实验探究过程，知道物质的熔点、凝固点和沸点，了解物态变化过程中的吸热和放热现象。能运用物态变化知识说明自然界和生活中的有关现象。"
+      },
+      "fromSection": {
+        "sectionTitle": "第一节 物态变化 温度",
+        "chapterTitle": "第一章 物态及其变化",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "体会科学、技  术、社会、环境之间的关系，形成辩证唯物主义世界观和关心环境、保护环境的责任感。  # 【内容要求】  # 1.1 物质的形态和变化  1.1.1 能描述固态、液态和气态三种物态的基本特征，并列举自然界和日常生活中不同物态的物质及其应用。   1.1.2 了解液体温度计的工作原理。会用常见温度计测量温度。能说出生活环境中常见的温度值，尝试对环境温度问题发表自己的见解。  例1 尝试对温室效应、热岛效应等发表自己的见解。  1.1.3 经历物态变化的实验探究过程，知道物质的熔点、凝固点和沸点，了解物态变化过程中的吸热和放热现象。能运用物态变化知识说明自然界和生活中的有关现象。  例2 能运用物态变化知识，说明冰熔化、水沸腾等现象。  例3 了解我国古代的铸造技术，并尝试运用物态变化知识进行解释。  1.1.4 能运用物态变化知识，说明自然界中的水循环现象。了解我国和当地的水资源状况，有节约用水和保护环境的意识。  # 活动建议：  (1) 调查学校或家庭的"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:47",
+    "target": "urn:jy:physics:OB05:ThemeL3:1-1-3",
+    "evidence": {
+      "matchScore": 0.2572,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:1-1-4",
+    "target": "urn:jy:physics:SB0401:OB06:Section:47",
+    "evidence": {
+      "matchScore": 0.1127,
+      "fromThemeL3": {
+        "code": "1.1.4",
+        "title": "1.1.4",
+        "contentRequirement": "能运用物态变化知识，说明自然界中的水循环现象。了解我国和当地的水资源状况，有节约用水和保护环境的意识。"
+      },
+      "fromSection": {
+        "sectionTitle": "第一节 物态变化 温度",
+        "chapterTitle": "第一章 物态及其变化",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "度计的工作原理。会用常见温度计测量温度。能说出生活环境中常见的温度值，尝试对环境温度问题发表自己的见解。  例1 尝试对温室效应、热岛效应等发表自己的见解。  1.1.3 经历物态变化的实验探究过程，知道物质的熔点、凝固点和沸点，了解物态变化过程中的吸热和放热现象。能运用物态变化知识说明自然界和生活中的有关现象。  例2 能运用物态变化知识，说明冰熔化、水沸腾等现象。  例3 了解我国古代的铸造技术，并尝试运用物态变化知识进行解释。  1.1.4 能运用物态变化知识，说明自然界中的水循环现象。了解我国和当地的水资源状况，有节约用水和保护环境的意识。  # 活动建议：  (1) 调查学校或家庭的用水状况，设计一个用于学校或家庭的节水方案。   (2) 调查当地水资源的利用和保护状况，并对当地水资源的利用和保护提出自己的见解。   (3) 调查当地农田或城市绿化灌溉的主要方式, 了解节水灌溉技术。  # 1.2 物质的属性  1.2.1 通过实验，了解物质的一些物理属性，"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:47",
+    "target": "urn:jy:physics:OB05:ThemeL3:1-1-4",
+    "evidence": {
+      "matchScore": 0.1127,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:1-2-1",
+    "target": "urn:jy:physics:SB0401:OB06:Section:3",
+    "evidence": {
+      "matchScore": 0.1534,
+      "fromThemeL3": {
+        "code": "1.2.1",
+        "title": "1.2.1",
+        "contentRequirement": "通过实验，了解物质的一些物理属性，如弹性、磁性、导电性和导热性等，能用语言、文字或图表描述物质的物理属性。"
+      },
+      "fromSection": {
+        "sectionTitle": "三、不同物质的导电性能",
+        "chapterTitle": "第九章 简单电路",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "铸造技术，并尝试运用物态变化知识进行解释。  1.1.4 能运用物态变化知识，说明自然界中的水循环现象。了解我国和当地的水资源状况，有节约用水和保护环境的意识。  # 活动建议：  (1) 调查学校或家庭的用水状况，设计一个用于学校或家庭的节水方案。   (2) 调查当地水资源的利用和保护状况，并对当地水资源的利用和保护提出自己的见解。   (3) 调查当地农田或城市绿化灌溉的主要方式, 了解节水灌溉技术。  # 1.2 物质的属性  1.2.1 通过实验，了解物质的一些物理属性，如弹性、磁性、导电性和导热性等，能用语言、文字或图表描述物质的物理属性。  例1 通过实验，了解橡胶的弹性。列举弹性在生活中的应用实例。  例2 通过实验，了解物质的磁性和磁化现象。调查磁性材料在生活中的应用。  例 3 通过实验, 了解物质的导电性, 比较导体、半导体、绝缘体导电性能的差异。  例4 通过实验，了解金属与木材导热性能的差异。  1.2.2 知道质量的含义。会测量固体和液体的"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:3",
+    "target": "urn:jy:physics:OB05:ThemeL3:1-2-1",
+    "evidence": {
+      "matchScore": 0.1534,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:1-2-2",
+    "target": "urn:jy:physics:SB0401:OB06:Section:75",
+    "evidence": {
+      "matchScore": 0.2251,
+      "fromThemeL3": {
+        "code": "1.2.2",
+        "title": "1.2.2",
+        "contentRequirement": "知道质量的含义。会测量固体和液体的质量。"
+      },
+      "fromSection": {
+        "sectionTitle": "第一节 物体的质量及其测量",
+        "chapterTitle": "第六章 质量和密度",
+        "grade": "八年级",
+        "volume": "下册"
+      },
+      "fromMd": {
+        "snippet": "解节水灌溉技术。  # 1.2 物质的属性  1.2.1 通过实验，了解物质的一些物理属性，如弹性、磁性、导电性和导热性等，能用语言、文字或图表描述物质的物理属性。  例1 通过实验，了解橡胶的弹性。列举弹性在生活中的应用实例。  例2 通过实验，了解物质的磁性和磁化现象。调查磁性材料在生活中的应用。  例 3 通过实验, 了解物质的导电性, 比较导体、半导体、绝缘体导电性能的差异。  例4 通过实验，了解金属与木材导热性能的差异。  1.2.2 知道质量的含义。会测量固体和液体的质量。  例5列举质量为几克、几十克、几百克和几千克的一些物品，能估测常见物体的质量。  1.2.3 通过实验，理解密度。会测量固体和液体的密度。能解释生活中与密度有关的一些物理现象。  1.2.4 了解关于物质属性的研究对生产生活和科技进步的影响。  # 活动建议：  （1）设计实验方案，比较砂锅、铁锅的导热性能。   (2) 观察生活中的一些日常用品，了解它们分别应用了物质的哪些物理属性"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:75",
+    "target": "urn:jy:physics:OB05:ThemeL3:1-2-2",
+    "evidence": {
+      "matchScore": 0.2251,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:1-2-3",
+    "target": "urn:jy:physics:SB0401:OB06:Section:76",
+    "evidence": {
+      "matchScore": 0.1577,
+      "fromThemeL3": {
+        "code": "1.2.3",
+        "title": "1.2.3",
+        "contentRequirement": "通过实验，理解密度。会测量固体和液体的密度。能解释生活中与密度有关的一些物理现象。"
+      },
+      "fromSection": {
+        "sectionTitle": "第二节 物质的密度",
+        "chapterTitle": "第六章 质量和密度",
+        "grade": "八年级",
+        "volume": "下册"
+      },
+      "fromMd": {
+        "snippet": "字或图表描述物质的物理属性。  例1 通过实验，了解橡胶的弹性。列举弹性在生活中的应用实例。  例2 通过实验，了解物质的磁性和磁化现象。调查磁性材料在生活中的应用。  例 3 通过实验, 了解物质的导电性, 比较导体、半导体、绝缘体导电性能的差异。  例4 通过实验，了解金属与木材导热性能的差异。  1.2.2 知道质量的含义。会测量固体和液体的质量。  例5列举质量为几克、几十克、几百克和几千克的一些物品，能估测常见物体的质量。  1.2.3 通过实验，理解密度。会测量固体和液体的密度。能解释生活中与密度有关的一些物理现象。  1.2.4 了解关于物质属性的研究对生产生活和科技进步的影响。  # 活动建议：  （1）设计实验方案，比较砂锅、铁锅的导热性能。   (2) 观察生活中的一些日常用品，了解它们分别应用了物质的哪些物理属性。   (3) 查阅资料, 了解我国古代青铜器、铁器的制造技术及其对社会进步的推动作用。  # 1.3 物质的结构和物质世界的尺度  1"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:76",
+    "target": "urn:jy:physics:OB05:ThemeL3:1-2-3",
+    "evidence": {
+      "matchScore": 0.1577,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:1-2-3",
+    "target": "urn:jy:physics:SB0401:OB06:Section:77",
+    "evidence": {
+      "matchScore": 0.1263,
+      "fromThemeL3": {
+        "code": "1.2.3",
+        "title": "1.2.3",
+        "contentRequirement": "通过实验，理解密度。会测量固体和液体的密度。能解释生活中与密度有关的一些物理现象。"
+      },
+      "fromSection": {
+        "sectionTitle": "第三节 密度的测量与应用",
+        "chapterTitle": "第六章 质量和密度",
+        "grade": "八年级",
+        "volume": "下册"
+      },
+      "fromMd": {
+        "snippet": "字或图表描述物质的物理属性。  例1 通过实验，了解橡胶的弹性。列举弹性在生活中的应用实例。  例2 通过实验，了解物质的磁性和磁化现象。调查磁性材料在生活中的应用。  例 3 通过实验, 了解物质的导电性, 比较导体、半导体、绝缘体导电性能的差异。  例4 通过实验，了解金属与木材导热性能的差异。  1.2.2 知道质量的含义。会测量固体和液体的质量。  例5列举质量为几克、几十克、几百克和几千克的一些物品，能估测常见物体的质量。  1.2.3 通过实验，理解密度。会测量固体和液体的密度。能解释生活中与密度有关的一些物理现象。  1.2.4 了解关于物质属性的研究对生产生活和科技进步的影响。  # 活动建议：  （1）设计实验方案，比较砂锅、铁锅的导热性能。   (2) 观察生活中的一些日常用品，了解它们分别应用了物质的哪些物理属性。   (3) 查阅资料, 了解我国古代青铜器、铁器的制造技术及其对社会进步的推动作用。  # 1.3 物质的结构和物质世界的尺度  1"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:77",
+    "target": "urn:jy:physics:OB05:ThemeL3:1-2-3",
+    "evidence": {
+      "matchScore": 0.1263,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:1-3-2",
+    "target": "urn:jy:physics:SB0401:OB06:Section:33",
+    "evidence": {
+      "matchScore": 0.3033,
+      "fromThemeL3": {
+        "code": "1.3.2",
+        "title": "1.3.2",
+        "contentRequirement": "知道原子是由原子核和电子构成的，了解原子的核式结构模型。了解人类探索微观世界的大致历程，关注人类探索微观世界的新进展。"
+      },
+      "fromSection": {
+        "sectionTitle": "二、微观世界的结构",
+        "chapterTitle": "第十四章 宇宙和微观世界",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "度。能解释生活中与密度有关的一些物理现象。  1.2.4 了解关于物质属性的研究对生产生活和科技进步的影响。  # 活动建议：  （1）设计实验方案，比较砂锅、铁锅的导热性能。   (2) 观察生活中的一些日常用品，了解它们分别应用了物质的哪些物理属性。   (3) 查阅资料, 了解我国古代青铜器、铁器的制造技术及其对社会进步的推动作用。  # 1.3 物质的结构和物质世界的尺度  1.3.1 知道常见的物质是由分子、原子构成的。   1.3.2 知道原子是由原子核和电子构成的，了解原子的核式结构  构模型。了解人类探索微观世界的大致历程，关注人类探索微观世界的新进展。  例1 用图形、文字或语言描述原子的核式结构模型。  1.3.3 了解人类探索太阳系及宇宙的大致历程，知道人类对宇宙的探索将不断深入，关注人类探索宇宙的一些重大活动。  例 2 了解我国在载人航天及其他航天科技方面的新成就，体会我国航天人热爱祖国、为国争光的坚定信念和勇于登攀、敢于超越的进取精神。"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:33",
+    "target": "urn:jy:physics:OB05:ThemeL3:1-3-2",
+    "evidence": {
+      "matchScore": 0.3033,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:1-3-2",
+    "target": "urn:jy:physics:SB0401:OB06:Section:32",
+    "evidence": {
+      "matchScore": 0.1417,
+      "fromThemeL3": {
+        "code": "1.3.2",
+        "title": "1.3.2",
+        "contentRequirement": "知道原子是由原子核和电子构成的，了解原子的核式结构模型。了解人类探索微观世界的大致历程，关注人类探索微观世界的新进展。"
+      },
+      "fromSection": {
+        "sectionTitle": "一、浩瀚的宇宙",
+        "chapterTitle": "第十四章 宇宙和微观世界",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "度。能解释生活中与密度有关的一些物理现象。  1.2.4 了解关于物质属性的研究对生产生活和科技进步的影响。  # 活动建议：  （1）设计实验方案，比较砂锅、铁锅的导热性能。   (2) 观察生活中的一些日常用品，了解它们分别应用了物质的哪些物理属性。   (3) 查阅资料, 了解我国古代青铜器、铁器的制造技术及其对社会进步的推动作用。  # 1.3 物质的结构和物质世界的尺度  1.3.1 知道常见的物质是由分子、原子构成的。   1.3.2 知道原子是由原子核和电子构成的，了解原子的核式结构  构模型。了解人类探索微观世界的大致历程，关注人类探索微观世界的新进展。  例1 用图形、文字或语言描述原子的核式结构模型。  1.3.3 了解人类探索太阳系及宇宙的大致历程，知道人类对宇宙的探索将不断深入，关注人类探索宇宙的一些重大活动。  例 2 了解我国在载人航天及其他航天科技方面的新成就，体会我国航天人热爱祖国、为国争光的坚定信念和勇于登攀、敢于超越的进取精神。"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:32",
+    "target": "urn:jy:physics:OB05:ThemeL3:1-3-2",
+    "evidence": {
+      "matchScore": 0.1417,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:1-3-3",
+    "target": "urn:jy:physics:SB0401:OB06:Section:32",
+    "evidence": {
+      "matchScore": 0.0906,
+      "fromThemeL3": {
+        "code": "1.3.3",
+        "title": "1.3.3",
+        "contentRequirement": "了解人类探索太阳系及宇宙的大致历程，知道人类对宇宙的探索将不断深入，关注人类探索宇宙的一些重大活动。"
+      },
+      "fromSection": {
+        "sectionTitle": "一、浩瀚的宇宙",
+        "chapterTitle": "第十四章 宇宙和微观世界",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "察生活中的一些日常用品，了解它们分别应用了物质的哪些物理属性。   (3) 查阅资料, 了解我国古代青铜器、铁器的制造技术及其对社会进步的推动作用。  # 1.3 物质的结构和物质世界的尺度  1.3.1 知道常见的物质是由分子、原子构成的。   1.3.2 知道原子是由原子核和电子构成的，了解原子的核式结构  构模型。了解人类探索微观世界的大致历程，关注人类探索微观世界的新进展。  例1 用图形、文字或语言描述原子的核式结构模型。  1.3.3 了解人类探索太阳系及宇宙的大致历程，知道人类对宇宙的探索将不断深入，关注人类探索宇宙的一些重大活动。  例 2 了解我国在载人航天及其他航天科技方面的新成就，体会我国航天人热爱祖国、为国争光的坚定信念和勇于登攀、敢于超越的进取精神。  1.3.4 了解物质世界的大致尺度。  例 3 设计表格, 按空间尺度大小的顺序排列一些从宏观到微观有代表性的物体 (如银河系、太阳系、地球、人、原子、原子核、夸克等)。  例4 了解一些典型"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:32",
+    "target": "urn:jy:physics:OB05:ThemeL3:1-3-3",
+    "evidence": {
+      "matchScore": 0.0906,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:1-3-4",
+    "target": "urn:jy:physics:SB0401:OB06:Section:33",
+    "evidence": {
+      "matchScore": 0.1193,
+      "fromThemeL3": {
+        "code": "1.3.4",
+        "title": "1.3.4",
+        "contentRequirement": "了解物质世界的大致尺度。"
+      },
+      "fromSection": {
+        "sectionTitle": "二、微观世界的结构",
+        "chapterTitle": "第十四章 宇宙和微观世界",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "1.3.2 知道原子是由原子核和电子构成的，了解原子的核式结构  构模型。了解人类探索微观世界的大致历程，关注人类探索微观世界的新进展。  例1 用图形、文字或语言描述原子的核式结构模型。  1.3.3 了解人类探索太阳系及宇宙的大致历程，知道人类对宇宙的探索将不断深入，关注人类探索宇宙的一些重大活动。  例 2 了解我国在载人航天及其他航天科技方面的新成就，体会我国航天人热爱祖国、为国争光的坚定信念和勇于登攀、敢于超越的进取精神。  1.3.4 了解物质世界的大致尺度。  例 3 设计表格, 按空间尺度大小的顺序排列一些从宏观到微观有代表性的物体 (如银河系、太阳系、地球、人、原子、原子核、夸克等)。  例4 了解一些典型天体、粒子寿命的时间尺度。  # 活动建议：  (1) 查阅资料, 了解我国第一颗人造地球卫星 “东方红一号” 从研制到成功发射的历程, 体会这一历史性突破对我国航天技术发展的重要意义。   (2) 查阅资料, 了解 “中国天眼” 在人类探索宇宙中"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:33",
+    "target": "urn:jy:physics:OB05:ThemeL3:1-3-4",
+    "evidence": {
+      "matchScore": 0.1193,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:2-1-1",
+    "target": "urn:jy:physics:SB0401:OB06:Section:55",
+    "evidence": {
+      "matchScore": 0.3288,
+      "fromThemeL3": {
+        "code": "2.1.1",
+        "title": "2.1.1",
+        "contentRequirement": "知道机械运动，举例说明机械运动的相对性。"
+      },
+      "fromSection": {
+        "sectionTitle": "第三节 比较物体运动的快慢",
+        "chapterTitle": "第二章 机械运动",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "。“运动和相互作用”主题的课程内容包含较多的物理概念和规律，与生产生活密切相关。这部分内容的设计旨在引导学生从物理学视角认识运动和相互作用，了解身边的运动形式及相互作用，了解声、光、电、磁的含义，初步形成运动和相互作用观念；发展学生的推理论证能力及交流合作能力，引导学生了解我国古代和现代的相关科技成就，体会中华民族的智慧，培养学生的科学态度和实现中华民族伟大复兴的责任感与使命感。  # 【内容要求】  # 2.1 多种多样的运动形式  2.1.1 知道机械运动，举例说明机械运动的相对性。  2.1.2 知道自然界和生活中简单的热现象。了解分子热运动的主要特点，知道分子动理论的基本观点。  例 观察扩散现象，能用分子动理论的观点加以说明。  2.1.3 举例说明自然界存在多种多样的运动形式。知道物质在不停地运动。  # 活动建议：  （1）观察生活中的机械运动现象，说明机械运动的相对性。   (2) 利用常见物品设计实验方案，说明组成物质的微粒在不停地运动。  （3）以"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:55",
+    "target": "urn:jy:physics:OB05:ThemeL3:2-1-1",
+    "evidence": {
+      "matchScore": 0.3288,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:2-1-1",
+    "target": "urn:jy:physics:SB0401:OB06:Section:53",
+    "evidence": {
+      "matchScore": 0.3183,
+      "fromThemeL3": {
+        "code": "2.1.1",
+        "title": "2.1.1",
+        "contentRequirement": "知道机械运动，举例说明机械运动的相对性。"
+      },
+      "fromSection": {
+        "sectionTitle": "第一节 运动与静止",
+        "chapterTitle": "第二章 机械运动",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "。“运动和相互作用”主题的课程内容包含较多的物理概念和规律，与生产生活密切相关。这部分内容的设计旨在引导学生从物理学视角认识运动和相互作用，了解身边的运动形式及相互作用，了解声、光、电、磁的含义，初步形成运动和相互作用观念；发展学生的推理论证能力及交流合作能力，引导学生了解我国古代和现代的相关科技成就，体会中华民族的智慧，培养学生的科学态度和实现中华民族伟大复兴的责任感与使命感。  # 【内容要求】  # 2.1 多种多样的运动形式  2.1.1 知道机械运动，举例说明机械运动的相对性。  2.1.2 知道自然界和生活中简单的热现象。了解分子热运动的主要特点，知道分子动理论的基本观点。  例 观察扩散现象，能用分子动理论的观点加以说明。  2.1.3 举例说明自然界存在多种多样的运动形式。知道物质在不停地运动。  # 活动建议：  （1）观察生活中的机械运动现象，说明机械运动的相对性。   (2) 利用常见物品设计实验方案，说明组成物质的微粒在不停地运动。  （3）以"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:53",
+    "target": "urn:jy:physics:OB05:ThemeL3:2-1-1",
+    "evidence": {
+      "matchScore": 0.3183,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:2-1-1",
+    "target": "urn:jy:physics:SB0401:OB06:Section:58",
+    "evidence": {
+      "matchScore": 0.3117,
+      "fromThemeL3": {
+        "code": "2.1.1",
+        "title": "2.1.1",
+        "contentRequirement": "知道机械运动，举例说明机械运动的相对性。"
+      },
+      "fromSection": {
+        "sectionTitle": "整理与复习",
+        "chapterTitle": "第二章 机械运动",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "。“运动和相互作用”主题的课程内容包含较多的物理概念和规律，与生产生活密切相关。这部分内容的设计旨在引导学生从物理学视角认识运动和相互作用，了解身边的运动形式及相互作用，了解声、光、电、磁的含义，初步形成运动和相互作用观念；发展学生的推理论证能力及交流合作能力，引导学生了解我国古代和现代的相关科技成就，体会中华民族的智慧，培养学生的科学态度和实现中华民族伟大复兴的责任感与使命感。  # 【内容要求】  # 2.1 多种多样的运动形式  2.1.1 知道机械运动，举例说明机械运动的相对性。  2.1.2 知道自然界和生活中简单的热现象。了解分子热运动的主要特点，知道分子动理论的基本观点。  例 观察扩散现象，能用分子动理论的观点加以说明。  2.1.3 举例说明自然界存在多种多样的运动形式。知道物质在不停地运动。  # 活动建议：  （1）观察生活中的机械运动现象，说明机械运动的相对性。   (2) 利用常见物品设计实验方案，说明组成物质的微粒在不停地运动。  （3）以"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:58",
+    "target": "urn:jy:physics:OB05:ThemeL3:2-1-1",
+    "evidence": {
+      "matchScore": 0.3117,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:2-1-1",
+    "target": "urn:jy:physics:SB0401:OB06:Section:56",
+    "evidence": {
+      "matchScore": 0.2857,
+      "fromThemeL3": {
+        "code": "2.1.1",
+        "title": "2.1.1",
+        "contentRequirement": "知道机械运动，举例说明机械运动的相对性。"
+      },
+      "fromSection": {
+        "sectionTitle": "第四节 平均速度",
+        "chapterTitle": "第二章 机械运动",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "。“运动和相互作用”主题的课程内容包含较多的物理概念和规律，与生产生活密切相关。这部分内容的设计旨在引导学生从物理学视角认识运动和相互作用，了解身边的运动形式及相互作用，了解声、光、电、磁的含义，初步形成运动和相互作用观念；发展学生的推理论证能力及交流合作能力，引导学生了解我国古代和现代的相关科技成就，体会中华民族的智慧，培养学生的科学态度和实现中华民族伟大复兴的责任感与使命感。  # 【内容要求】  # 2.1 多种多样的运动形式  2.1.1 知道机械运动，举例说明机械运动的相对性。  2.1.2 知道自然界和生活中简单的热现象。了解分子热运动的主要特点，知道分子动理论的基本观点。  例 观察扩散现象，能用分子动理论的观点加以说明。  2.1.3 举例说明自然界存在多种多样的运动形式。知道物质在不停地运动。  # 活动建议：  （1）观察生活中的机械运动现象，说明机械运动的相对性。   (2) 利用常见物品设计实验方案，说明组成物质的微粒在不停地运动。  （3）以"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:56",
+    "target": "urn:jy:physics:OB05:ThemeL3:2-1-1",
+    "evidence": {
+      "matchScore": 0.2857,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:2-1-1",
+    "target": "urn:jy:physics:SB0401:OB06:Section:54",
+    "evidence": {
+      "matchScore": 0.2566,
+      "fromThemeL3": {
+        "code": "2.1.1",
+        "title": "2.1.1",
+        "contentRequirement": "知道机械运动，举例说明机械运动的相对性。"
+      },
+      "fromSection": {
+        "sectionTitle": "第二节 长度及其测量",
+        "chapterTitle": "第二章 机械运动",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "。“运动和相互作用”主题的课程内容包含较多的物理概念和规律，与生产生活密切相关。这部分内容的设计旨在引导学生从物理学视角认识运动和相互作用，了解身边的运动形式及相互作用，了解声、光、电、磁的含义，初步形成运动和相互作用观念；发展学生的推理论证能力及交流合作能力，引导学生了解我国古代和现代的相关科技成就，体会中华民族的智慧，培养学生的科学态度和实现中华民族伟大复兴的责任感与使命感。  # 【内容要求】  # 2.1 多种多样的运动形式  2.1.1 知道机械运动，举例说明机械运动的相对性。  2.1.2 知道自然界和生活中简单的热现象。了解分子热运动的主要特点，知道分子动理论的基本观点。  例 观察扩散现象，能用分子动理论的观点加以说明。  2.1.3 举例说明自然界存在多种多样的运动形式。知道物质在不停地运动。  # 活动建议：  （1）观察生活中的机械运动现象，说明机械运动的相对性。   (2) 利用常见物品设计实验方案，说明组成物质的微粒在不停地运动。  （3）以"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:54",
+    "target": "urn:jy:physics:OB05:ThemeL3:2-1-1",
+    "evidence": {
+      "matchScore": 0.2566,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:2-1-3",
+    "target": "urn:jy:physics:SB0401:OB06:Section:53",
+    "evidence": {
+      "matchScore": 0.0951,
+      "fromThemeL3": {
+        "code": "2.1.3",
+        "title": "2.1.3",
+        "contentRequirement": "举例说明自然界存在多种多样的运动形式。知道物质在不停地运动。"
+      },
+      "fromSection": {
+        "sectionTitle": "第一节 运动与静止",
+        "chapterTitle": "第二章 机械运动",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "和相互作用观念；发展学生的推理论证能力及交流合作能力，引导学生了解我国古代和现代的相关科技成就，体会中华民族的智慧，培养学生的科学态度和实现中华民族伟大复兴的责任感与使命感。  # 【内容要求】  # 2.1 多种多样的运动形式  2.1.1 知道机械运动，举例说明机械运动的相对性。  2.1.2 知道自然界和生活中简单的热现象。了解分子热运动的主要特点，知道分子动理论的基本观点。  例 观察扩散现象，能用分子动理论的观点加以说明。  2.1.3 举例说明自然界存在多种多样的运动形式。知道物质在不停地运动。  # 活动建议：  （1）观察生活中的机械运动现象，说明机械运动的相对性。   (2) 利用常见物品设计实验方案，说明组成物质的微粒在不停地运动。  （3）以神舟九号载人飞船与天宫一号目标飞行器成功交会对接为例，讨论机械运动的相对性。  # 2.2 机械运动和力  2.2.1 会选用适当的工具测量长度和时间，会根据生活经验估测长度和时间。  例1会利用自身的尺度（"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:53",
+    "target": "urn:jy:physics:OB05:ThemeL3:2-1-3",
+    "evidence": {
+      "matchScore": 0.0951,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:2-2-2",
+    "target": "urn:jy:physics:SB0401:OB06:Section:55",
+    "evidence": {
+      "matchScore": 0.3609,
+      "fromThemeL3": {
+        "code": "2.2.2",
+        "title": "2.2.2",
+        "contentRequirement": "能用速度描述物体运动的快慢，并能进行简单计算。会测量物体运动的速度。"
+      },
+      "fromSection": {
+        "sectionTitle": "第三节 比较物体运动的快慢",
+        "chapterTitle": "第二章 机械运动",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "观察生活中的机械运动现象，说明机械运动的相对性。   (2) 利用常见物品设计实验方案，说明组成物质的微粒在不停地运动。  （3）以神舟九号载人飞船与天宫一号目标飞行器成功交会对接为例，讨论机械运动的相对性。  # 2.2 机械运动和力  2.2.1 会选用适当的工具测量长度和时间，会根据生活经验估测长度和时间。  例1会利用自身的尺度（如步长）估测教室的长度。  例 2 了解我国古代测量长度和时间的工具, 体会古人解决问题的智慧。  2.2.2 能用速度描述物体运动的快慢，并能进行简单计算。会测量物体运动的速度。  2.2.3 通过常见事例或实验，了解重力、弹力和摩擦力，认识力的作用效果。探究并了解滑动摩擦力的大小与哪些因素有关。  例3 通过实验，认识力的作用是相互的。  例4 通过实验，认识力可以改变物体运动的方向和快慢，也可以改变物体的形状。  2.2.4 能用示意图描述力。会测量力的大小。了解同一直线上的二力合成。知道二力平衡条件。  例5 分析静止在水平桌"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:55",
+    "target": "urn:jy:physics:OB05:ThemeL3:2-2-2",
+    "evidence": {
+      "matchScore": 0.3609,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:2-2-3",
+    "target": "urn:jy:physics:SB0401:OB06:Section:84",
+    "evidence": {
+      "matchScore": 0.1209,
+      "fromThemeL3": {
+        "code": "2.2.3",
+        "title": "2.2.3",
+        "contentRequirement": "通过常见事物或实验，了解重力、弹力和摩擦力，认识力的作用效果。探究并了解滑动摩擦力的大小与哪些因素有关。"
+      },
+      "fromSection": {
+        "sectionTitle": "第六节 摩擦力",
+        "chapterTitle": "第七章 运动和力",
+        "grade": "八年级",
+        "volume": "下册"
+      },
+      "fromMd": {
+        "snippet": "案，说明组成物质的微粒在不停地运动。  （3）以神舟九号载人飞船与天宫一号目标飞行器成功交会对接为例，讨论机械运动的相对性。  # 2.2 机械运动和力  2.2.1 会选用适当的工具测量长度和时间，会根据生活经验估测长度和时间。  例1会利用自身的尺度（如步长）估测教室的长度。  例 2 了解我国古代测量长度和时间的工具, 体会古人解决问题的智慧。  2.2.2 能用速度描述物体运动的快慢，并能进行简单计算。会测量物体运动的速度。  2.2.3 通过常见事例或实验，了解重力、弹力和摩擦力，认识力的作用效果。探究并了解滑动摩擦力的大小与哪些因素有关。  例3 通过实验，认识力的作用是相互的。  例4 通过实验，认识力可以改变物体运动的方向和快慢，也可以改变物体的形状。  2.2.4 能用示意图描述力。会测量力的大小。了解同一直线上的二力合成。知道二力平衡条件。  例5 分析静止在水平桌面上杯子的受力情况。  2.2.5 通过实验和科学推理，认识牛顿第一定律。能运用物体"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:84",
+    "target": "urn:jy:physics:OB05:ThemeL3:2-2-3",
+    "evidence": {
+      "matchScore": 0.1209,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:2-2-4",
+    "target": "urn:jy:physics:SB0401:OB06:Section:82",
+    "evidence": {
+      "matchScore": 0.2088,
+      "fromThemeL3": {
+        "code": "2.2.4",
+        "title": "2.2.4",
+        "contentRequirement": "能用示意图描述力。会测量力的大小。了解同一直线上的二力合成。知道二力平衡条件。"
+      },
+      "fromSection": {
+        "sectionTitle": "第四节 同一直线上二力的合成",
+        "chapterTitle": "第七章 运动和力",
+        "grade": "八年级",
+        "volume": "下册"
+      },
+      "fromMd": {
+        "snippet": "利用自身的尺度（如步长）估测教室的长度。  例 2 了解我国古代测量长度和时间的工具, 体会古人解决问题的智慧。  2.2.2 能用速度描述物体运动的快慢，并能进行简单计算。会测量物体运动的速度。  2.2.3 通过常见事例或实验，了解重力、弹力和摩擦力，认识力的作用效果。探究并了解滑动摩擦力的大小与哪些因素有关。  例3 通过实验，认识力的作用是相互的。  例4 通过实验，认识力可以改变物体运动的方向和快慢，也可以改变物体的形状。  2.2.4 能用示意图描述力。会测量力的大小。了解同一直线上的二力合成。知道二力平衡条件。  例5 分析静止在水平桌面上杯子的受力情况。  2.2.5 通过实验和科学推理，认识牛顿第一定律。能运用物体的惯性解释自然界和生活中的有关现象。  例6 了解伽利略在探究与物体惯性有关问题时采用的思想实验，体会科学推理在科学研究中的作用。  例7 能运用惯性，解释当汽车急刹车、转弯时，车内可能发生的现象，讨论系安全带等保护措施的必要性。  2.2"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:82",
+    "target": "urn:jy:physics:OB05:ThemeL3:2-2-4",
+    "evidence": {
+      "matchScore": 0.2088,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:2-2-4",
+    "target": "urn:jy:physics:SB0401:OB06:Section:83",
+    "evidence": {
+      "matchScore": 0.1386,
+      "fromThemeL3": {
+        "code": "2.2.4",
+        "title": "2.2.4",
+        "contentRequirement": "能用示意图描述力。会测量力的大小。了解同一直线上的二力合成。知道二力平衡条件。"
+      },
+      "fromSection": {
+        "sectionTitle": "第五节 二力平衡",
+        "chapterTitle": "第七章 运动和力",
+        "grade": "八年级",
+        "volume": "下册"
+      },
+      "fromMd": {
+        "snippet": "利用自身的尺度（如步长）估测教室的长度。  例 2 了解我国古代测量长度和时间的工具, 体会古人解决问题的智慧。  2.2.2 能用速度描述物体运动的快慢，并能进行简单计算。会测量物体运动的速度。  2.2.3 通过常见事例或实验，了解重力、弹力和摩擦力，认识力的作用效果。探究并了解滑动摩擦力的大小与哪些因素有关。  例3 通过实验，认识力的作用是相互的。  例4 通过实验，认识力可以改变物体运动的方向和快慢，也可以改变物体的形状。  2.2.4 能用示意图描述力。会测量力的大小。了解同一直线上的二力合成。知道二力平衡条件。  例5 分析静止在水平桌面上杯子的受力情况。  2.2.5 通过实验和科学推理，认识牛顿第一定律。能运用物体的惯性解释自然界和生活中的有关现象。  例6 了解伽利略在探究与物体惯性有关问题时采用的思想实验，体会科学推理在科学研究中的作用。  例7 能运用惯性，解释当汽车急刹车、转弯时，车内可能发生的现象，讨论系安全带等保护措施的必要性。  2.2"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:83",
+    "target": "urn:jy:physics:OB05:ThemeL3:2-2-4",
+    "evidence": {
+      "matchScore": 0.1386,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:2-2-5",
+    "target": "urn:jy:physics:SB0401:OB06:Section:85",
+    "evidence": {
+      "matchScore": 0.1796,
+      "fromThemeL3": {
+        "code": "2.2.5",
+        "title": "2.2.5",
+        "contentRequirement": "通过实验和科学推理，认识牛顿第一定律。能运用物体的惯性解释自然界和生活中的有关现象。"
+      },
+      "fromSection": {
+        "sectionTitle": "第七节 牛顿第一定律",
+        "chapterTitle": "第七章 运动和力",
+        "grade": "八年级",
+        "volume": "下册"
+      },
+      "fromMd": {
+        "snippet": "物体运动的快慢，并能进行简单计算。会测量物体运动的速度。  2.2.3 通过常见事例或实验，了解重力、弹力和摩擦力，认识力的作用效果。探究并了解滑动摩擦力的大小与哪些因素有关。  例3 通过实验，认识力的作用是相互的。  例4 通过实验，认识力可以改变物体运动的方向和快慢，也可以改变物体的形状。  2.2.4 能用示意图描述力。会测量力的大小。了解同一直线上的二力合成。知道二力平衡条件。  例5 分析静止在水平桌面上杯子的受力情况。  2.2.5 通过实验和科学推理，认识牛顿第一定律。能运用物体的惯性解释自然界和生活中的有关现象。  例6 了解伽利略在探究与物体惯性有关问题时采用的思想实验，体会科学推理在科学研究中的作用。  例7 能运用惯性，解释当汽车急刹车、转弯时，车内可能发生的现象，讨论系安全带等保护措施的必要性。  2.2.6 知道简单机械。探究并了解杠杆的平衡条件。  2.2.7 通过实验，理解压强。知道增大和减小压强的方法，并  了解其在生产生活中的应用。"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:85",
+    "target": "urn:jy:physics:OB05:ThemeL3:2-2-5",
+    "evidence": {
+      "matchScore": 0.1796,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:2-2-7",
+    "target": "urn:jy:physics:SB0401:OB06:Section:72",
+    "evidence": {
+      "matchScore": 0.1204,
+      "fromThemeL3": {
+        "code": "2.2.7",
+        "title": "2.2.7",
+        "contentRequirement": "通过实验，理解压强。知道增大和减小压强的方法，并了解其在生产生活中的应用。"
+      },
+      "fromSection": {
+        "sectionTitle": "第三节 生活中的透镜",
+        "chapterTitle": "第五章 透镜及其应用",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "同一直线上的二力合成。知道二力平衡条件。  例5 分析静止在水平桌面上杯子的受力情况。  2.2.5 通过实验和科学推理，认识牛顿第一定律。能运用物体的惯性解释自然界和生活中的有关现象。  例6 了解伽利略在探究与物体惯性有关问题时采用的思想实验，体会科学推理在科学研究中的作用。  例7 能运用惯性，解释当汽车急刹车、转弯时，车内可能发生的现象，讨论系安全带等保护措施的必要性。  2.2.6 知道简单机械。探究并了解杠杆的平衡条件。  2.2.7 通过实验，理解压强。知道增大和减小压强的方法，并  了解其在生产生活中的应用。  例8 估测自己站立时对地面的压强。  2.2.8 探究并了解液体压强与哪些因素有关。知道大气压强及其与人类生活的关系。了解流体压强与流速的关系及其在生产生活中的应用。  例9 了解铁路站台上设置安全线的必要性。  2.2.9 通过实验，认识浮力。探究并了解浮力大小与哪些因素有关。知道阿基米德原理，能运用物体的浮沉条件说明生产生活中的有关现象。"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:72",
+    "target": "urn:jy:physics:OB05:ThemeL3:2-2-7",
+    "evidence": {
+      "matchScore": 0.1204,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:2-2-8",
+    "target": "urn:jy:physics:SB0401:OB06:Section:90",
+    "evidence": {
+      "matchScore": 0.3841,
+      "fromThemeL3": {
+        "code": "2.2.8",
+        "title": "2.2.8",
+        "contentRequirement": "探究并了解液体压强与哪些因素有关。知道大气压强及其与人类生活的关系。了解流体压强与流速的关系及其在生产生活中的应用。"
+      },
+      "fromSection": {
+        "sectionTitle": "第五节 流体压强与流速的关系",
+        "chapterTitle": "第八章 压强和浮力",
+        "grade": "八年级",
+        "volume": "下册"
+      },
+      "fromMd": {
+        "snippet": "一定律。能运用物体的惯性解释自然界和生活中的有关现象。  例6 了解伽利略在探究与物体惯性有关问题时采用的思想实验，体会科学推理在科学研究中的作用。  例7 能运用惯性，解释当汽车急刹车、转弯时，车内可能发生的现象，讨论系安全带等保护措施的必要性。  2.2.6 知道简单机械。探究并了解杠杆的平衡条件。  2.2.7 通过实验，理解压强。知道增大和减小压强的方法，并  了解其在生产生活中的应用。  例8 估测自己站立时对地面的压强。  2.2.8 探究并了解液体压强与哪些因素有关。知道大气压强及其与人类生活的关系。了解流体压强与流速的关系及其在生产生活中的应用。  例9 了解铁路站台上设置安全线的必要性。  2.2.9 通过实验，认识浮力。探究并了解浮力大小与哪些因素有关。知道阿基米德原理，能运用物体的浮沉条件说明生产生活中的有关现象。  例10 了解潜水艇的浮沉原理。  # 活动建议：  (1) 查阅资料, 了解我国高速列车的运行速度, 以及铁路交通的发展进程。"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:90",
+    "target": "urn:jy:physics:OB05:ThemeL3:2-2-8",
+    "evidence": {
+      "matchScore": 0.3841,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:2-2-8",
+    "target": "urn:jy:physics:SB0401:OB06:Section:87",
+    "evidence": {
+      "matchScore": 0.189,
+      "fromThemeL3": {
+        "code": "2.2.8",
+        "title": "2.2.8",
+        "contentRequirement": "探究并了解液体压强与哪些因素有关。知道大气压强及其与人类生活的关系。了解流体压强与流速的关系及其在生产生活中的应用。"
+      },
+      "fromSection": {
+        "sectionTitle": "第二节 液体压强",
+        "chapterTitle": "第八章 压强和浮力",
+        "grade": "八年级",
+        "volume": "下册"
+      },
+      "fromMd": {
+        "snippet": "一定律。能运用物体的惯性解释自然界和生活中的有关现象。  例6 了解伽利略在探究与物体惯性有关问题时采用的思想实验，体会科学推理在科学研究中的作用。  例7 能运用惯性，解释当汽车急刹车、转弯时，车内可能发生的现象，讨论系安全带等保护措施的必要性。  2.2.6 知道简单机械。探究并了解杠杆的平衡条件。  2.2.7 通过实验，理解压强。知道增大和减小压强的方法，并  了解其在生产生活中的应用。  例8 估测自己站立时对地面的压强。  2.2.8 探究并了解液体压强与哪些因素有关。知道大气压强及其与人类生活的关系。了解流体压强与流速的关系及其在生产生活中的应用。  例9 了解铁路站台上设置安全线的必要性。  2.2.9 通过实验，认识浮力。探究并了解浮力大小与哪些因素有关。知道阿基米德原理，能运用物体的浮沉条件说明生产生活中的有关现象。  例10 了解潜水艇的浮沉原理。  # 活动建议：  (1) 查阅资料, 了解我国高速列车的运行速度, 以及铁路交通的发展进程。"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:87",
+    "target": "urn:jy:physics:OB05:ThemeL3:2-2-8",
+    "evidence": {
+      "matchScore": 0.189,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:2-2-8",
+    "target": "urn:jy:physics:SB0401:OB06:Section:89",
+    "evidence": {
+      "matchScore": 0.1575,
+      "fromThemeL3": {
+        "code": "2.2.8",
+        "title": "2.2.8",
+        "contentRequirement": "探究并了解液体压强与哪些因素有关。知道大气压强及其与人类生活的关系。了解流体压强与流速的关系及其在生产生活中的应用。"
+      },
+      "fromSection": {
+        "sectionTitle": "第四节 大气压强",
+        "chapterTitle": "第八章 压强和浮力",
+        "grade": "八年级",
+        "volume": "下册"
+      },
+      "fromMd": {
+        "snippet": "一定律。能运用物体的惯性解释自然界和生活中的有关现象。  例6 了解伽利略在探究与物体惯性有关问题时采用的思想实验，体会科学推理在科学研究中的作用。  例7 能运用惯性，解释当汽车急刹车、转弯时，车内可能发生的现象，讨论系安全带等保护措施的必要性。  2.2.6 知道简单机械。探究并了解杠杆的平衡条件。  2.2.7 通过实验，理解压强。知道增大和减小压强的方法，并  了解其在生产生活中的应用。  例8 估测自己站立时对地面的压强。  2.2.8 探究并了解液体压强与哪些因素有关。知道大气压强及其与人类生活的关系。了解流体压强与流速的关系及其在生产生活中的应用。  例9 了解铁路站台上设置安全线的必要性。  2.2.9 通过实验，认识浮力。探究并了解浮力大小与哪些因素有关。知道阿基米德原理，能运用物体的浮沉条件说明生产生活中的有关现象。  例10 了解潜水艇的浮沉原理。  # 活动建议：  (1) 查阅资料, 了解我国高速列车的运行速度, 以及铁路交通的发展进程。"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:89",
+    "target": "urn:jy:physics:OB05:ThemeL3:2-2-8",
+    "evidence": {
+      "matchScore": 0.1575,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:2-2-8",
+    "target": "urn:jy:physics:SB0401:OB06:Section:72",
+    "evidence": {
+      "matchScore": 0.129,
+      "fromThemeL3": {
+        "code": "2.2.8",
+        "title": "2.2.8",
+        "contentRequirement": "探究并了解液体压强与哪些因素有关。知道大气压强及其与人类生活的关系。了解流体压强与流速的关系及其在生产生活中的应用。"
+      },
+      "fromSection": {
+        "sectionTitle": "第三节 生活中的透镜",
+        "chapterTitle": "第五章 透镜及其应用",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "一定律。能运用物体的惯性解释自然界和生活中的有关现象。  例6 了解伽利略在探究与物体惯性有关问题时采用的思想实验，体会科学推理在科学研究中的作用。  例7 能运用惯性，解释当汽车急刹车、转弯时，车内可能发生的现象，讨论系安全带等保护措施的必要性。  2.2.6 知道简单机械。探究并了解杠杆的平衡条件。  2.2.7 通过实验，理解压强。知道增大和减小压强的方法，并  了解其在生产生活中的应用。  例8 估测自己站立时对地面的压强。  2.2.8 探究并了解液体压强与哪些因素有关。知道大气压强及其与人类生活的关系。了解流体压强与流速的关系及其在生产生活中的应用。  例9 了解铁路站台上设置安全线的必要性。  2.2.9 通过实验，认识浮力。探究并了解浮力大小与哪些因素有关。知道阿基米德原理，能运用物体的浮沉条件说明生产生活中的有关现象。  例10 了解潜水艇的浮沉原理。  # 活动建议：  (1) 查阅资料, 了解我国高速列车的运行速度, 以及铁路交通的发展进程。"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:72",
+    "target": "urn:jy:physics:OB05:ThemeL3:2-2-8",
+    "evidence": {
+      "matchScore": 0.129,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:2-2-9",
+    "target": "urn:jy:physics:SB0401:OB06:Section:92",
+    "evidence": {
+      "matchScore": 0.1893,
+      "fromThemeL3": {
+        "code": "2.2.9",
+        "title": "2.2.9",
+        "contentRequirement": "通过实验，认识浮力。探究并了解浮力大小与哪些因素有关。知道阿基米德原理，能运用物体的浮沉条件说明生产生活中的有关现象。"
+      },
+      "fromSection": {
+        "sectionTitle": "第七节 物体的浮沉条件及其应用",
+        "chapterTitle": "第八章 压强和浮力",
+        "grade": "八年级",
+        "volume": "下册"
+      },
+      "fromMd": {
+        "snippet": "汽车急刹车、转弯时，车内可能发生的现象，讨论系安全带等保护措施的必要性。  2.2.6 知道简单机械。探究并了解杠杆的平衡条件。  2.2.7 通过实验，理解压强。知道增大和减小压强的方法，并  了解其在生产生活中的应用。  例8 估测自己站立时对地面的压强。  2.2.8 探究并了解液体压强与哪些因素有关。知道大气压强及其与人类生活的关系。了解流体压强与流速的关系及其在生产生活中的应用。  例9 了解铁路站台上设置安全线的必要性。  2.2.9 通过实验，认识浮力。探究并了解浮力大小与哪些因素有关。知道阿基米德原理，能运用物体的浮沉条件说明生产生活中的有关现象。  例10 了解潜水艇的浮沉原理。  # 活动建议：  (1) 查阅资料, 了解我国高速列车的运行速度, 以及铁路交通的发展进程。   (2) 查阅资料, 了解中国空间站在太空中飞行的速度大小。   (3) 查阅资料, 了解我国 “奋斗者” 号载人潜水器的深潜信息, 讨论影响其所受液体压强和浮力大小的因素。"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:92",
+    "target": "urn:jy:physics:OB05:ThemeL3:2-2-9",
+    "evidence": {
+      "matchScore": 0.1893,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:2-3-1",
+    "target": "urn:jy:physics:SB0401:OB06:Section:59",
+    "evidence": {
+      "matchScore": 0.1251,
+      "fromThemeL3": {
+        "code": "2.3.1",
+        "title": "2.3.1",
+        "contentRequirement": "通过实验，认识声的产生和传播条件。"
+      },
+      "fromSection": {
+        "sectionTitle": "第一节 声音的产生与传播",
+        "chapterTitle": "第三章 声现象",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "的有关现象。  例10 了解潜水艇的浮沉原理。  # 活动建议：  (1) 查阅资料, 了解我国高速列车的运行速度, 以及铁路交通的发展进程。   (2) 查阅资料, 了解中国空间站在太空中飞行的速度大小。   (3) 查阅资料, 了解我国 “奋斗者” 号载人潜水器的深潜信息, 讨论影响其所受液体压强和浮力大小的因素。   (4) 查阅资料, 了解我国长江三峡水利枢纽工程中船闸是怎样利用连通器特点让轮船通行的。  # 2.3 声和光  2.3.1 通过实验，认识声的产生和传播条件。  例1 在鼓面上放碎纸屑，敲击鼓面，观察纸屑的运动；敲击音叉，观察与其接触的物体的运动。了解实验中将微小变化放大的方法。  例2 将发声器放入玻璃罩中，逐渐抽出罩内空气，会听到发声器发出的声音逐渐变小，分析导致该现象的原因。  2.3.2 了解声音的特性。了解现代技术中声学知识的一些应用。知道噪声的危害及控制方法。  例3 了解超声波在生产生活和科学研究等方面的应用，如超声雷达、金属探伤、"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:59",
+    "target": "urn:jy:physics:OB05:ThemeL3:2-3-1",
+    "evidence": {
+      "matchScore": 0.1251,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:2-3-2",
+    "target": "urn:jy:physics:SB0401:OB06:Section:60",
+    "evidence": {
+      "matchScore": 0.1617,
+      "fromThemeL3": {
+        "code": "2.3.2",
+        "title": "2.3.2",
+        "contentRequirement": "了解声音的特性。了解现代技术中声学知识的一些应用。知道噪声的危害及控制方法。"
+      },
+      "fromSection": {
+        "sectionTitle": "第二节 声音的特性",
+        "chapterTitle": "第三章 声现象",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": ", 讨论影响其所受液体压强和浮力大小的因素。   (4) 查阅资料, 了解我国长江三峡水利枢纽工程中船闸是怎样利用连通器特点让轮船通行的。  # 2.3 声和光  2.3.1 通过实验，认识声的产生和传播条件。  例1 在鼓面上放碎纸屑，敲击鼓面，观察纸屑的运动；敲击音叉，观察与其接触的物体的运动。了解实验中将微小变化放大的方法。  例2 将发声器放入玻璃罩中，逐渐抽出罩内空气，会听到发声器发出的声音逐渐变小，分析导致该现象的原因。  2.3.2 了解声音的特性。了解现代技术中声学知识的一些应用。知道噪声的危害及控制方法。  例3 了解超声波在生产生活和科学研究等方面的应用，如超声雷达、金属探伤、医学检查等。  例4 举例说明如何减弱生活环境中的噪声，具有保护自己、关心他人的意识。  2.3.3 探究并了解光的反射定律。通过实验，了解光的折射现象及其特点。  例5探究并了解光束在平面镜上反射时，反射角与入射角的关系。  例 6 通过光束从空气射入水（或玻璃）中的实验，"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:60",
+    "target": "urn:jy:physics:OB05:ThemeL3:2-3-2",
+    "evidence": {
+      "matchScore": 0.1617,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:2-3-3",
+    "target": "urn:jy:physics:SB0401:OB06:Section:65",
+    "evidence": {
+      "matchScore": 0.1783,
+      "fromThemeL3": {
+        "code": "2.3.3",
+        "title": "2.3.3",
+        "contentRequirement": "探究并了解光的反射定律。通过实验，了解光的折射现象及其特点。"
+      },
+      "fromSection": {
+        "sectionTitle": "第二节 光的反射",
+        "chapterTitle": "第四章 光现象",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "屑的运动；敲击音叉，观察与其接触的物体的运动。了解实验中将微小变化放大的方法。  例2 将发声器放入玻璃罩中，逐渐抽出罩内空气，会听到发声器发出的声音逐渐变小，分析导致该现象的原因。  2.3.2 了解声音的特性。了解现代技术中声学知识的一些应用。知道噪声的危害及控制方法。  例3 了解超声波在生产生活和科学研究等方面的应用，如超声雷达、金属探伤、医学检查等。  例4 举例说明如何减弱生活环境中的噪声，具有保护自己、关心他人的意识。  2.3.3 探究并了解光的反射定律。通过实验，了解光的折射现象及其特点。  例5探究并了解光束在平面镜上反射时，反射角与入射角的关系。  例 6 通过光束从空气射入水（或玻璃）中的实验，了解光的折射现象及其特点。  2.3.4 探究并了解平面镜成像时像与物的关系。知道平面镜成像的特点及应用。  2.3.5 了解凸透镜对光的会聚作用和凹透镜对光的发散作用。探究并了解凸透镜成像的规律。了解凸透镜成像规律的应用。  例7 了解凸透镜成像规律在"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:65",
+    "target": "urn:jy:physics:OB05:ThemeL3:2-3-3",
+    "evidence": {
+      "matchScore": 0.1783,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:2-3-3",
+    "target": "urn:jy:physics:SB0401:OB06:Section:67",
+    "evidence": {
+      "matchScore": 0.171,
+      "fromThemeL3": {
+        "code": "2.3.3",
+        "title": "2.3.3",
+        "contentRequirement": "探究并了解光的反射定律。通过实验，了解光的折射现象及其特点。"
+      },
+      "fromSection": {
+        "sectionTitle": "第四节 光的折射",
+        "chapterTitle": "第四章 光现象",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "屑的运动；敲击音叉，观察与其接触的物体的运动。了解实验中将微小变化放大的方法。  例2 将发声器放入玻璃罩中，逐渐抽出罩内空气，会听到发声器发出的声音逐渐变小，分析导致该现象的原因。  2.3.2 了解声音的特性。了解现代技术中声学知识的一些应用。知道噪声的危害及控制方法。  例3 了解超声波在生产生活和科学研究等方面的应用，如超声雷达、金属探伤、医学检查等。  例4 举例说明如何减弱生活环境中的噪声，具有保护自己、关心他人的意识。  2.3.3 探究并了解光的反射定律。通过实验，了解光的折射现象及其特点。  例5探究并了解光束在平面镜上反射时，反射角与入射角的关系。  例 6 通过光束从空气射入水（或玻璃）中的实验，了解光的折射现象及其特点。  2.3.4 探究并了解平面镜成像时像与物的关系。知道平面镜成像的特点及应用。  2.3.5 了解凸透镜对光的会聚作用和凹透镜对光的发散作用。探究并了解凸透镜成像的规律。了解凸透镜成像规律的应用。  例7 了解凸透镜成像规律在"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:67",
+    "target": "urn:jy:physics:OB05:ThemeL3:2-3-3",
+    "evidence": {
+      "matchScore": 0.171,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:2-3-4",
+    "target": "urn:jy:physics:SB0401:OB06:Section:66",
+    "evidence": {
+      "matchScore": 0.4094,
+      "fromThemeL3": {
+        "code": "2.3.4",
+        "title": "2.3.4",
+        "contentRequirement": "探究并了解平面镜成像时像与物的关系。知道平面镜成像的特点及应用。"
+      },
+      "fromSection": {
+        "sectionTitle": "第三节 平面镜成像的特点",
+        "chapterTitle": "第四章 光现象",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "解现代技术中声学知识的一些应用。知道噪声的危害及控制方法。  例3 了解超声波在生产生活和科学研究等方面的应用，如超声雷达、金属探伤、医学检查等。  例4 举例说明如何减弱生活环境中的噪声，具有保护自己、关心他人的意识。  2.3.3 探究并了解光的反射定律。通过实验，了解光的折射现象及其特点。  例5探究并了解光束在平面镜上反射时，反射角与入射角的关系。  例 6 通过光束从空气射入水（或玻璃）中的实验，了解光的折射现象及其特点。  2.3.4 探究并了解平面镜成像时像与物的关系。知道平面镜成像的特点及应用。  2.3.5 了解凸透镜对光的会聚作用和凹透镜对光的发散作用。探究并了解凸透镜成像的规律。了解凸透镜成像规律的应用。  例7 了解凸透镜成像规律在放大镜、照相机中的应用。  例8 了解人眼成像的原理，了解近视眼和远视眼的成因与矫正方法。具有保护视力的意识。  2.3.6 通过实验，了解白光的组成和不同色光混合的现象。  例9 观察红、绿、蓝三束光照射在白墙上重"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:66",
+    "target": "urn:jy:physics:OB05:ThemeL3:2-3-4",
+    "evidence": {
+      "matchScore": 0.4094,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:2-3-4",
+    "target": "urn:jy:physics:SB0401:OB06:Section:71",
+    "evidence": {
+      "matchScore": 0.1642,
+      "fromThemeL3": {
+        "code": "2.3.4",
+        "title": "2.3.4",
+        "contentRequirement": "探究并了解平面镜成像时像与物的关系。知道平面镜成像的特点及应用。"
+      },
+      "fromSection": {
+        "sectionTitle": "第二节 凸透镜成像的规律",
+        "chapterTitle": "第五章 透镜及其应用",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "解现代技术中声学知识的一些应用。知道噪声的危害及控制方法。  例3 了解超声波在生产生活和科学研究等方面的应用，如超声雷达、金属探伤、医学检查等。  例4 举例说明如何减弱生活环境中的噪声，具有保护自己、关心他人的意识。  2.3.3 探究并了解光的反射定律。通过实验，了解光的折射现象及其特点。  例5探究并了解光束在平面镜上反射时，反射角与入射角的关系。  例 6 通过光束从空气射入水（或玻璃）中的实验，了解光的折射现象及其特点。  2.3.4 探究并了解平面镜成像时像与物的关系。知道平面镜成像的特点及应用。  2.3.5 了解凸透镜对光的会聚作用和凹透镜对光的发散作用。探究并了解凸透镜成像的规律。了解凸透镜成像规律的应用。  例7 了解凸透镜成像规律在放大镜、照相机中的应用。  例8 了解人眼成像的原理，了解近视眼和远视眼的成因与矫正方法。具有保护视力的意识。  2.3.6 通过实验，了解白光的组成和不同色光混合的现象。  例9 观察红、绿、蓝三束光照射在白墙上重"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:71",
+    "target": "urn:jy:physics:OB05:ThemeL3:2-3-4",
+    "evidence": {
+      "matchScore": 0.1642,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:2-3-5",
+    "target": "urn:jy:physics:SB0401:OB06:Section:71",
+    "evidence": {
+      "matchScore": 0.3674,
+      "fromThemeL3": {
+        "code": "2.3.5",
+        "title": "2.3.5",
+        "contentRequirement": "了解凸透镜对光的会聚作用和凹透镜对光的发散作用。探究并了解凸透镜成像的规律。了解凸透镜成像规律的应用。"
+      },
+      "fromSection": {
+        "sectionTitle": "第二节 凸透镜成像的规律",
+        "chapterTitle": "第五章 透镜及其应用",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "生产生活和科学研究等方面的应用，如超声雷达、金属探伤、医学检查等。  例4 举例说明如何减弱生活环境中的噪声，具有保护自己、关心他人的意识。  2.3.3 探究并了解光的反射定律。通过实验，了解光的折射现象及其特点。  例5探究并了解光束在平面镜上反射时，反射角与入射角的关系。  例 6 通过光束从空气射入水（或玻璃）中的实验，了解光的折射现象及其特点。  2.3.4 探究并了解平面镜成像时像与物的关系。知道平面镜成像的特点及应用。  2.3.5 了解凸透镜对光的会聚作用和凹透镜对光的发散作用。探究并了解凸透镜成像的规律。了解凸透镜成像规律的应用。  例7 了解凸透镜成像规律在放大镜、照相机中的应用。  例8 了解人眼成像的原理，了解近视眼和远视眼的成因与矫正方法。具有保护视力的意识。  2.3.6 通过实验，了解白光的组成和不同色光混合的现象。  例9 观察红、绿、蓝三束光照射在白墙上重叠部分的颜色。  # 活动建议：  （1）查阅资料，了解我国古建筑应用声学知识的"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:71",
+    "target": "urn:jy:physics:OB05:ThemeL3:2-3-5",
+    "evidence": {
+      "matchScore": 0.3674,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:2-3-5",
+    "target": "urn:jy:physics:SB0401:OB06:Section:70",
+    "evidence": {
+      "matchScore": 0.1325,
+      "fromThemeL3": {
+        "code": "2.3.5",
+        "title": "2.3.5",
+        "contentRequirement": "了解凸透镜对光的会聚作用和凹透镜对光的发散作用。探究并了解凸透镜成像的规律。了解凸透镜成像规律的应用。"
+      },
+      "fromSection": {
+        "sectionTitle": "第一节 透镜",
+        "chapterTitle": "第五章 透镜及其应用",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "生产生活和科学研究等方面的应用，如超声雷达、金属探伤、医学检查等。  例4 举例说明如何减弱生活环境中的噪声，具有保护自己、关心他人的意识。  2.3.3 探究并了解光的反射定律。通过实验，了解光的折射现象及其特点。  例5探究并了解光束在平面镜上反射时，反射角与入射角的关系。  例 6 通过光束从空气射入水（或玻璃）中的实验，了解光的折射现象及其特点。  2.3.4 探究并了解平面镜成像时像与物的关系。知道平面镜成像的特点及应用。  2.3.5 了解凸透镜对光的会聚作用和凹透镜对光的发散作用。探究并了解凸透镜成像的规律。了解凸透镜成像规律的应用。  例7 了解凸透镜成像规律在放大镜、照相机中的应用。  例8 了解人眼成像的原理，了解近视眼和远视眼的成因与矫正方法。具有保护视力的意识。  2.3.6 通过实验，了解白光的组成和不同色光混合的现象。  例9 观察红、绿、蓝三束光照射在白墙上重叠部分的颜色。  # 活动建议：  （1）查阅资料，了解我国古建筑应用声学知识的"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:70",
+    "target": "urn:jy:physics:OB05:ThemeL3:2-3-5",
+    "evidence": {
+      "matchScore": 0.1325,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:2-4-1",
+    "target": "urn:jy:physics:SB0401:OB06:Section:1",
+    "evidence": {
+      "matchScore": 0.1208,
+      "fromThemeL3": {
+        "code": "2.4.1",
+        "title": "2.4.1",
+        "contentRequirement": "观察摩擦起电现象，了解静电现象。了解生产生活中关于静电防止和利用的技术。"
+      },
+      "fromSection": {
+        "sectionTitle": "一、简单电现象",
+        "chapterTitle": "第九章 简单电路",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "法。具有保护视力的意识。  2.3.6 通过实验，了解白光的组成和不同色光混合的现象。  例9 观察红、绿、蓝三束光照射在白墙上重叠部分的颜色。  # 活动建议：  （1）查阅资料，了解我国古建筑应用声学知识的案例。   (2) 调查社区或工地噪声污染的情况和已采取的控制措施，提出进一步控制噪声的建议。   （3）用凸透镜制作简易望远镜，用其观察远处的景物。   （4）调查社区或城市光污染的情况，提出改进建议。  # 2.4 电和磁  2.4.1 观察摩擦起电现象，了解静电现象。了解生产生活中关于静电防止和利用的技术。  例1 举例说明生活中的静电现象。  例2 查阅资料，了解静电防止和利用的常用方法。  2.4.2 通过实验，认识磁场。知道地磁场。  例3 查阅资料，了解我国古代指南针的发明对人类社会发展的贡献。  2.4.3 通过实验，了解电流周围存在磁场。探究并了解通电螺线管外部磁场的方向。了解电磁铁在生产生活中的应用。  2.4.4 通过实验，了解通电导线在磁"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:1",
+    "target": "urn:jy:physics:OB05:ThemeL3:2-4-1",
+    "evidence": {
+      "matchScore": 0.1208,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:2-4-2",
+    "target": "urn:jy:physics:SB0401:OB06:Section:20",
+    "evidence": {
+      "matchScore": 0.0871,
+      "fromThemeL3": {
+        "code": "2.4.2",
+        "title": "2.4.2",
+        "contentRequirement": "通过实验，认识磁场。知道地磁场。"
+      },
+      "fromSection": {
+        "sectionTitle": "二、磁场",
+        "chapterTitle": "第十二章 磁现象",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "阅资料，了解我国古建筑应用声学知识的案例。   (2) 调查社区或工地噪声污染的情况和已采取的控制措施，提出进一步控制噪声的建议。   （3）用凸透镜制作简易望远镜，用其观察远处的景物。   （4）调查社区或城市光污染的情况，提出改进建议。  # 2.4 电和磁  2.4.1 观察摩擦起电现象，了解静电现象。了解生产生活中关于静电防止和利用的技术。  例1 举例说明生活中的静电现象。  例2 查阅资料，了解静电防止和利用的常用方法。  2.4.2 通过实验，认识磁场。知道地磁场。  例3 查阅资料，了解我国古代指南针的发明对人类社会发展的贡献。  2.4.3 通过实验，了解电流周围存在磁场。探究并了解通电螺线管外部磁场的方向。了解电磁铁在生产生活中的应用。  2.4.4 通过实验，了解通电导线在磁场中会受到力的作用，并知道力的方向与哪些因素有关。  例4 了解动圈式扬声器的结构和原理。  例5 了解直流电动机的工作原理。  2.4.5 探究并了解导体在磁场中运动时产生"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:20",
+    "target": "urn:jy:physics:OB05:ThemeL3:2-4-2",
+    "evidence": {
+      "matchScore": 0.0871,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:2-4-3",
+    "target": "urn:jy:physics:SB0401:OB06:Section:21",
+    "evidence": {
+      "matchScore": 0.1631,
+      "fromThemeL3": {
+        "code": "2.4.3",
+        "title": "2.4.3",
+        "contentRequirement": "通过实验，了解电流周围存在磁场。探究并了解通电螺线管外部磁场的方向。了解电磁铁在生产生活中的应用。"
+      },
+      "fromSection": {
+        "sectionTitle": "三、通电螺线管的磁场",
+        "chapterTitle": "第十二章 磁现象",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "控制噪声的建议。   （3）用凸透镜制作简易望远镜，用其观察远处的景物。   （4）调查社区或城市光污染的情况，提出改进建议。  # 2.4 电和磁  2.4.1 观察摩擦起电现象，了解静电现象。了解生产生活中关于静电防止和利用的技术。  例1 举例说明生活中的静电现象。  例2 查阅资料，了解静电防止和利用的常用方法。  2.4.2 通过实验，认识磁场。知道地磁场。  例3 查阅资料，了解我国古代指南针的发明对人类社会发展的贡献。  2.4.3 通过实验，了解电流周围存在磁场。探究并了解通电螺线管外部磁场的方向。了解电磁铁在生产生活中的应用。  2.4.4 通过实验，了解通电导线在磁场中会受到力的作用，并知道力的方向与哪些因素有关。  例4 了解动圈式扬声器的结构和原理。  例5 了解直流电动机的工作原理。  2.4.5 探究并了解导体在磁场中运动时产生感应电流的条件。了解电磁感应在生产生活中的应用。  例6 了解发电机的工作原理。  2.4.6 知道电磁波。知道电"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:21",
+    "target": "urn:jy:physics:OB05:ThemeL3:2-4-3",
+    "evidence": {
+      "matchScore": 0.1631,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:2-4-4",
+    "target": "urn:jy:physics:SB0401:OB06:Section:23",
+    "evidence": {
+      "matchScore": 0.1407,
+      "fromThemeL3": {
+        "code": "2.4.4",
+        "title": "2.4.4",
+        "contentRequirement": "通过实验，了解通电导线在磁场中会受到力的作用，并知道力的方向与哪些因素有关。"
+      },
+      "fromSection": {
+        "sectionTitle": "五、磁场对通电导体的作用",
+        "chapterTitle": "第十二章 磁现象",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "出改进建议。  # 2.4 电和磁  2.4.1 观察摩擦起电现象，了解静电现象。了解生产生活中关于静电防止和利用的技术。  例1 举例说明生活中的静电现象。  例2 查阅资料，了解静电防止和利用的常用方法。  2.4.2 通过实验，认识磁场。知道地磁场。  例3 查阅资料，了解我国古代指南针的发明对人类社会发展的贡献。  2.4.3 通过实验，了解电流周围存在磁场。探究并了解通电螺线管外部磁场的方向。了解电磁铁在生产生活中的应用。  2.4.4 通过实验，了解通电导线在磁场中会受到力的作用，并知道力的方向与哪些因素有关。  例4 了解动圈式扬声器的结构和原理。  例5 了解直流电动机的工作原理。  2.4.5 探究并了解导体在磁场中运动时产生感应电流的条件。了解电磁感应在生产生活中的应用。  例6 了解发电机的工作原理。  2.4.6 知道电磁波。知道电磁波在真空中的传播速度。知道波长、频率和波速。了解电磁波的应用及其对人类生活和社会发展的影响。  例7 举例说明电"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:23",
+    "target": "urn:jy:physics:OB05:ThemeL3:2-4-4",
+    "evidence": {
+      "matchScore": 0.1407,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:2-4-5",
+    "target": "urn:jy:physics:SB0401:OB06:Section:25",
+    "evidence": {
+      "matchScore": 0.141,
+      "fromThemeL3": {
+        "code": "2.4.5",
+        "title": "2.4.5",
+        "contentRequirement": "探究并了解导体在磁场中运动时产生感应电流的条件。了解电磁感应在生产生活中的应用。"
+      },
+      "fromSection": {
+        "sectionTitle": "七、电磁感应及其应用",
+        "chapterTitle": "第十二章 磁现象",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "查阅资料，了解静电防止和利用的常用方法。  2.4.2 通过实验，认识磁场。知道地磁场。  例3 查阅资料，了解我国古代指南针的发明对人类社会发展的贡献。  2.4.3 通过实验，了解电流周围存在磁场。探究并了解通电螺线管外部磁场的方向。了解电磁铁在生产生活中的应用。  2.4.4 通过实验，了解通电导线在磁场中会受到力的作用，并知道力的方向与哪些因素有关。  例4 了解动圈式扬声器的结构和原理。  例5 了解直流电动机的工作原理。  2.4.5 探究并了解导体在磁场中运动时产生感应电流的条件。了解电磁感应在生产生活中的应用。  例6 了解发电机的工作原理。  2.4.6 知道电磁波。知道电磁波在真空中的传播速度。知道波长、频率和波速。了解电磁波的应用及其对人类生活和社会发展的影响。  例7 举例说明电磁波的存在。  例8 了解广播电台节目的发射频率和波长。  例9知道移动通信和卫星通信等都应用了电磁波。  # 活动建议：  (1) 利用磁体和缝衣针制作指南针, 验证"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:25",
+    "target": "urn:jy:physics:OB05:ThemeL3:2-4-5",
+    "evidence": {
+      "matchScore": 0.141,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:2-4-6",
+    "target": "urn:jy:physics:SB0401:OB06:Section:28",
+    "evidence": {
+      "matchScore": 0.1549,
+      "fromThemeL3": {
+        "code": "2.4.6",
+        "title": "2.4.6",
+        "contentRequirement": "知道电磁波。知道电磁波在真空中的传播速度。知道波长、频率和波速。了解电磁波的应用及其对人类生活和社会发展的影响。"
+      },
+      "fromSection": {
+        "sectionTitle": "二、电磁波",
+        "chapterTitle": "第十三章 通信技术简介",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "发明对人类社会发展的贡献。  2.4.3 通过实验，了解电流周围存在磁场。探究并了解通电螺线管外部磁场的方向。了解电磁铁在生产生活中的应用。  2.4.4 通过实验，了解通电导线在磁场中会受到力的作用，并知道力的方向与哪些因素有关。  例4 了解动圈式扬声器的结构和原理。  例5 了解直流电动机的工作原理。  2.4.5 探究并了解导体在磁场中运动时产生感应电流的条件。了解电磁感应在生产生活中的应用。  例6 了解发电机的工作原理。  2.4.6 知道电磁波。知道电磁波在真空中的传播速度。知道波长、频率和波速。了解电磁波的应用及其对人类生活和社会发展的影响。  例7 举例说明电磁波的存在。  例8 了解广播电台节目的发射频率和波长。  例9知道移动通信和卫星通信等都应用了电磁波。  # 活动建议：  (1) 利用磁体和缝衣针制作指南针, 验证同名磁极相互排斥、异名磁极相互吸引。  (2) 查阅资料, 了解我国北斗卫星导航系统的作用和优势, 讨论电磁波在卫星通信技术中的"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:28",
+    "target": "urn:jy:physics:OB05:ThemeL3:2-4-6",
+    "evidence": {
+      "matchScore": 0.1549,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:3-1-3",
+    "target": "urn:jy:physics:SB0401:OB06:Section:96",
+    "evidence": {
+      "matchScore": 0.0865,
+      "fromThemeL3": {
+        "code": "3.1.3",
+        "title": "3.1.3",
+        "contentRequirement": "结合实例，认识功的概念。知道做功的过程就是能量转化或转移的过程。"
+      },
+      "fromSection": {
+        "sectionTitle": "第四节 比较做功的快慢",
+        "chapterTitle": "第九章 机械和功",
+        "grade": "八年级",
+        "volume": "下册"
+      },
+      "fromMd": {
+        "snippet": "续发展的重要性，初步形成能量观念；发展学生综合分析问题和解决问题的能力，培养学生为可持续发展作贡献、将科学服务于人类的使命感。  # 【内容要求】  # 3.1 能量、能量的转化和转移  3.1.1 了解能量及其存在的不同形式。能描述不同形式的能量和生产生活的联系。  例1列举几种与生活密切相关的能量。  3.1.2 通过实验，认识能量可以从一个物体转移到其他物体，不同形式的能量可以相互转化。  例2列举生活中能量转移和转化的实例。  3.1.3 结合实例，认识功的概念。知道做功的过程就是能量转化或转移的过程。  # 活动建议：  （1）列举太阳能在地球上转化为其他形式能量的实例。   (2) 讨论人在滑滑梯过程中能量转化的情况。  # 3.2 机械能  3.2.1 知道动能、势能和机械能。通过实验，了解动能和势能的相互转化。举例说明机械能和其他形式能量的相互转化。  例1 定性说明荡秋千过程中动能和势能的相互转化。  例2分析《天工开物》中汲水装置工作时能量的相互转"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:96",
+    "target": "urn:jy:physics:OB05:ThemeL3:3-1-3",
+    "evidence": {
+      "matchScore": 0.0865,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:3-2-2",
+    "target": "urn:jy:physics:SB0401:OB06:Section:15",
+    "evidence": {
+      "matchScore": 0.1187,
+      "fromThemeL3": {
+        "code": "3.2.2",
+        "title": "3.2.2",
+        "contentRequirement": "知道机械功和功率。用生活中的实例说明机械功和功率的含义。"
+      },
+      "fromSection": {
+        "sectionTitle": "二、电功率",
+        "chapterTitle": "第十一章 电功和电功率",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "3 结合实例，认识功的概念。知道做功的过程就是能量转化或转移的过程。  # 活动建议：  （1）列举太阳能在地球上转化为其他形式能量的实例。   (2) 讨论人在滑滑梯过程中能量转化的情况。  # 3.2 机械能  3.2.1 知道动能、势能和机械能。通过实验，了解动能和势能的相互转化。举例说明机械能和其他形式能量的相互转化。  例1 定性说明荡秋千过程中动能和势能的相互转化。  例2分析《天工开物》中汲水装置工作时能量的相互转化。  3.2.2 知道机械功和功率。用生活中的实例说明机械功和功率的含义。   3.2.3 知道机械效率。了解提高机械效率的意义和途径。  例3 测量某种简单机械的机械效率。  3.2.4 能说出人类使用的一些机械。了解机械的使用对社会发展的作用。  # 活动建议：  (1) 查阅资料, 了解人类利用机械的大致历程, 并与同学进行交流。   (2) 查阅资料, 了解我国古代水磨、水碓等机械, 写一篇弘扬中华优秀传统文化的调查报告。  # 3."
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:15",
+    "target": "urn:jy:physics:OB05:ThemeL3:3-2-2",
+    "evidence": {
+      "matchScore": 0.1187,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:3-2-3",
+    "target": "urn:jy:physics:SB0401:OB06:Section:97",
+    "evidence": {
+      "matchScore": 0.088,
+      "fromThemeL3": {
+        "code": "3.2.3",
+        "title": "3.2.3",
+        "contentRequirement": "知道机械效率。了解提高机械效率的意义和途径。"
+      },
+      "fromSection": {
+        "sectionTitle": "第五节 探究使用机械是否省功",
+        "chapterTitle": "第九章 机械和功",
+        "grade": "八年级",
+        "volume": "下册"
+      },
+      "fromMd": {
+        "snippet": "活动建议：  （1）列举太阳能在地球上转化为其他形式能量的实例。   (2) 讨论人在滑滑梯过程中能量转化的情况。  # 3.2 机械能  3.2.1 知道动能、势能和机械能。通过实验，了解动能和势能的相互转化。举例说明机械能和其他形式能量的相互转化。  例1 定性说明荡秋千过程中动能和势能的相互转化。  例2分析《天工开物》中汲水装置工作时能量的相互转化。  3.2.2 知道机械功和功率。用生活中的实例说明机械功和功率的含义。   3.2.3 知道机械效率。了解提高机械效率的意义和途径。  例3 测量某种简单机械的机械效率。  3.2.4 能说出人类使用的一些机械。了解机械的使用对社会发展的作用。  # 活动建议：  (1) 查阅资料, 了解人类利用机械的大致历程, 并与同学进行交流。   (2) 查阅资料, 了解我国古代水磨、水碓等机械, 写一篇弘扬中华优秀传统文化的调查报告。  # 3.3 内能  3.3.1 了解内能和热量。从能量转化的角度认识燃料的热值。"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:97",
+    "target": "urn:jy:physics:OB05:ThemeL3:3-2-3",
+    "evidence": {
+      "matchScore": 0.088,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:3-2-4",
+    "target": "urn:jy:physics:SB0401:OB06:Section:97",
+    "evidence": {
+      "matchScore": 0.123,
+      "fromThemeL3": {
+        "code": "3.2.4",
+        "title": "3.2.4",
+        "contentRequirement": "能说出人类使用的一些机械。了解机械的使用对社会发展的作用。"
+      },
+      "fromSection": {
+        "sectionTitle": "第五节 探究使用机械是否省功",
+        "chapterTitle": "第九章 机械和功",
+        "grade": "八年级",
+        "volume": "下册"
+      },
+      "fromMd": {
+        "snippet": "中能量转化的情况。  # 3.2 机械能  3.2.1 知道动能、势能和机械能。通过实验，了解动能和势能的相互转化。举例说明机械能和其他形式能量的相互转化。  例1 定性说明荡秋千过程中动能和势能的相互转化。  例2分析《天工开物》中汲水装置工作时能量的相互转化。  3.2.2 知道机械功和功率。用生活中的实例说明机械功和功率的含义。   3.2.3 知道机械效率。了解提高机械效率的意义和途径。  例3 测量某种简单机械的机械效率。  3.2.4 能说出人类使用的一些机械。了解机械的使用对社会发展的作用。  # 活动建议：  (1) 查阅资料, 了解人类利用机械的大致历程, 并与同学进行交流。   (2) 查阅资料, 了解我国古代水磨、水碓等机械, 写一篇弘扬中华优秀传统文化的调查报告。  # 3.3 内能  3.3.1 了解内能和热量。从能量转化的角度认识燃料的热值。   3.3.2 通过实验，了解比热容。能运用比热容说明简单的自然现象。  例1 能运用比热容说明为"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:97",
+    "target": "urn:jy:physics:OB05:ThemeL3:3-2-4",
+    "evidence": {
+      "matchScore": 0.123,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:3-4-1",
+    "target": "urn:jy:physics:SB0401:OB06:Section:2",
+    "evidence": {
+      "matchScore": 0.0977,
+      "fromThemeL3": {
+        "code": "3.4.1",
+        "title": "3.4.1",
+        "contentRequirement": "从能量转化的角度认识电源和用电器的作用。"
+      },
+      "fromSection": {
+        "sectionTitle": "二、认识电路",
+        "chapterTitle": "第九章 简单电路",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "热容说明为什么沙漠中的昼夜温差比海边的大。  3.3.3 了解热机的工作原理。知道内能的利用在人类社会发展史中的重要意义。  例2 了解热机对社会发展所起的作用和对环境的影响。  # 活动建议：  （1）调查当地近年来炊事、取暖、交通等方面燃料结构的变化，从经济与环保的角度开展讨论。   (2) 燃料的种类很多, 如木柴、煤、汽油、酒精、天然气等, 查  阅资料并比较相同质量的不同燃料完全燃烧时放出热量的多少。  # 3.4 电磁能  3.4.1 从能量转化的角度认识电源和用电器的作用。  例1 定性说明发电机、电热水壶、电风扇工作过程中能量转化的情况。   3.4.2 知道电压、电流和电阻。探究电流与电压、电阻的关系，理解欧姆定律。   3.4.3 会使用电流表和电压表。   3.4.4 会看、会画简单的电路图。会连接简单的串联电路和并联电路。能说出生产生活中采用简单串联电路或并联电路的实例。探究并了解串联电路和并联电路中电流、电压的特点。   3.4.5 结合实例"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:2",
+    "target": "urn:jy:physics:OB05:ThemeL3:3-4-1",
+    "evidence": {
+      "matchScore": 0.0977,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:3-4-2",
+    "target": "urn:jy:physics:SB0401:OB06:Section:12",
+    "evidence": {
+      "matchScore": 0.0932,
+      "fromThemeL3": {
+        "code": "3.4.2",
+        "title": "3.4.2",
+        "contentRequirement": "知道电压、电流和电阻。探究电流与电压、电阻的关系，理解欧姆定律。"
+      },
+      "fromSection": {
+        "sectionTitle": "四、欧姆定律的应用",
+        "chapterTitle": "第十章 串联电路和并联电路",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "例2 了解热机对社会发展所起的作用和对环境的影响。  # 活动建议：  （1）调查当地近年来炊事、取暖、交通等方面燃料结构的变化，从经济与环保的角度开展讨论。   (2) 燃料的种类很多, 如木柴、煤、汽油、酒精、天然气等, 查  阅资料并比较相同质量的不同燃料完全燃烧时放出热量的多少。  # 3.4 电磁能  3.4.1 从能量转化的角度认识电源和用电器的作用。  例1 定性说明发电机、电热水壶、电风扇工作过程中能量转化的情况。   3.4.2 知道电压、电流和电阻。探究电流与电压、电阻的关系，理解欧姆定律。   3.4.3 会使用电流表和电压表。   3.4.4 会看、会画简单的电路图。会连接简单的串联电路和并联电路。能说出生产生活中采用简单串联电路或并联电路的实例。探究并了解串联电路和并联电路中电流、电压的特点。   3.4.5 结合实例，了解电功和电功率。知道用电器的额定功率和实际功率。  例2 调查常见用电器的铭牌，比较它们的电功率。  3.4.6 通过实验"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:12",
+    "target": "urn:jy:physics:OB05:ThemeL3:3-4-2",
+    "evidence": {
+      "matchScore": 0.0932,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:3-4-4",
+    "target": "urn:jy:physics:SB0401:OB06:Section:10",
+    "evidence": {
+      "matchScore": 0.6755,
+      "fromThemeL3": {
+        "code": "3.4.4",
+        "title": "3.4.4",
+        "contentRequirement": "会看、会画简单的电路图。会连接简单的串联电路和并联电路。能说出生产生活中采用简单串联电路或并联电路的实例。探究并了解串联电路和并联电路中电流、电压的特点。"
+      },
+      "fromSection": {
+        "sectionTitle": "二、串、并联电路的特点",
+        "chapterTitle": "第十章 串联电路和并联电路",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "的变化，从经济与环保的角度开展讨论。   (2) 燃料的种类很多, 如木柴、煤、汽油、酒精、天然气等, 查  阅资料并比较相同质量的不同燃料完全燃烧时放出热量的多少。  # 3.4 电磁能  3.4.1 从能量转化的角度认识电源和用电器的作用。  例1 定性说明发电机、电热水壶、电风扇工作过程中能量转化的情况。   3.4.2 知道电压、电流和电阻。探究电流与电压、电阻的关系，理解欧姆定律。   3.4.3 会使用电流表和电压表。   3.4.4 会看、会画简单的电路图。会连接简单的串联电路和并联电路。能说出生产生活中采用简单串联电路或并联电路的实例。探究并了解串联电路和并联电路中电流、电压的特点。   3.4.5 结合实例，了解电功和电功率。知道用电器的额定功率和实际功率。  例2 调查常见用电器的铭牌，比较它们的电功率。  3.4.6 通过实验，了解焦耳定律。能用焦耳定律说明生产生活中的有关现象。   3.4.7 了解家庭电路的组成。有安全用电和节约用电的意识。"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:10",
+    "target": "urn:jy:physics:OB05:ThemeL3:3-4-4",
+    "evidence": {
+      "matchScore": 0.6755,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:3-4-4",
+    "target": "urn:jy:physics:SB0401:OB06:Section:9",
+    "evidence": {
+      "matchScore": 0.6159,
+      "fromThemeL3": {
+        "code": "3.4.4",
+        "title": "3.4.4",
+        "contentRequirement": "会看、会画简单的电路图。会连接简单的串联电路和并联电路。能说出生产生活中采用简单串联电路或并联电路的实例。探究并了解串联电路和并联电路中电流、电压的特点。"
+      },
+      "fromSection": {
+        "sectionTitle": "一、学生实验：连接串、并联电路",
+        "chapterTitle": "第十章 串联电路和并联电路",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "的变化，从经济与环保的角度开展讨论。   (2) 燃料的种类很多, 如木柴、煤、汽油、酒精、天然气等, 查  阅资料并比较相同质量的不同燃料完全燃烧时放出热量的多少。  # 3.4 电磁能  3.4.1 从能量转化的角度认识电源和用电器的作用。  例1 定性说明发电机、电热水壶、电风扇工作过程中能量转化的情况。   3.4.2 知道电压、电流和电阻。探究电流与电压、电阻的关系，理解欧姆定律。   3.4.3 会使用电流表和电压表。   3.4.4 会看、会画简单的电路图。会连接简单的串联电路和并联电路。能说出生产生活中采用简单串联电路或并联电路的实例。探究并了解串联电路和并联电路中电流、电压的特点。   3.4.5 结合实例，了解电功和电功率。知道用电器的额定功率和实际功率。  例2 调查常见用电器的铭牌，比较它们的电功率。  3.4.6 通过实验，了解焦耳定律。能用焦耳定律说明生产生活中的有关现象。   3.4.7 了解家庭电路的组成。有安全用电和节约用电的意识。"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:9",
+    "target": "urn:jy:physics:OB05:ThemeL3:3-4-4",
+    "evidence": {
+      "matchScore": 0.6159,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:3-4-4",
+    "target": "urn:jy:physics:SB0401:OB06:Section:13",
+    "evidence": {
+      "matchScore": 0.5453,
+      "fromThemeL3": {
+        "code": "3.4.4",
+        "title": "3.4.4",
+        "contentRequirement": "会看、会画简单的电路图。会连接简单的串联电路和并联电路。能说出生产生活中采用简单串联电路或并联电路的实例。探究并了解串联电路和并联电路中电流、电压的特点。"
+      },
+      "fromSection": {
+        "sectionTitle": "五、测量导体的电阻",
+        "chapterTitle": "第十章 串联电路和并联电路",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "的变化，从经济与环保的角度开展讨论。   (2) 燃料的种类很多, 如木柴、煤、汽油、酒精、天然气等, 查  阅资料并比较相同质量的不同燃料完全燃烧时放出热量的多少。  # 3.4 电磁能  3.4.1 从能量转化的角度认识电源和用电器的作用。  例1 定性说明发电机、电热水壶、电风扇工作过程中能量转化的情况。   3.4.2 知道电压、电流和电阻。探究电流与电压、电阻的关系，理解欧姆定律。   3.4.3 会使用电流表和电压表。   3.4.4 会看、会画简单的电路图。会连接简单的串联电路和并联电路。能说出生产生活中采用简单串联电路或并联电路的实例。探究并了解串联电路和并联电路中电流、电压的特点。   3.4.5 结合实例，了解电功和电功率。知道用电器的额定功率和实际功率。  例2 调查常见用电器的铭牌，比较它们的电功率。  3.4.6 通过实验，了解焦耳定律。能用焦耳定律说明生产生活中的有关现象。   3.4.7 了解家庭电路的组成。有安全用电和节约用电的意识。"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:13",
+    "target": "urn:jy:physics:OB05:ThemeL3:3-4-4",
+    "evidence": {
+      "matchScore": 0.5453,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:3-4-4",
+    "target": "urn:jy:physics:SB0401:OB06:Section:12",
+    "evidence": {
+      "matchScore": 0.5364,
+      "fromThemeL3": {
+        "code": "3.4.4",
+        "title": "3.4.4",
+        "contentRequirement": "会看、会画简单的电路图。会连接简单的串联电路和并联电路。能说出生产生活中采用简单串联电路或并联电路的实例。探究并了解串联电路和并联电路中电流、电压的特点。"
+      },
+      "fromSection": {
+        "sectionTitle": "四、欧姆定律的应用",
+        "chapterTitle": "第十章 串联电路和并联电路",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "的变化，从经济与环保的角度开展讨论。   (2) 燃料的种类很多, 如木柴、煤、汽油、酒精、天然气等, 查  阅资料并比较相同质量的不同燃料完全燃烧时放出热量的多少。  # 3.4 电磁能  3.4.1 从能量转化的角度认识电源和用电器的作用。  例1 定性说明发电机、电热水壶、电风扇工作过程中能量转化的情况。   3.4.2 知道电压、电流和电阻。探究电流与电压、电阻的关系，理解欧姆定律。   3.4.3 会使用电流表和电压表。   3.4.4 会看、会画简单的电路图。会连接简单的串联电路和并联电路。能说出生产生活中采用简单串联电路或并联电路的实例。探究并了解串联电路和并联电路中电流、电压的特点。   3.4.5 结合实例，了解电功和电功率。知道用电器的额定功率和实际功率。  例2 调查常见用电器的铭牌，比较它们的电功率。  3.4.6 通过实验，了解焦耳定律。能用焦耳定律说明生产生活中的有关现象。   3.4.7 了解家庭电路的组成。有安全用电和节约用电的意识。"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:12",
+    "target": "urn:jy:physics:OB05:ThemeL3:3-4-4",
+    "evidence": {
+      "matchScore": 0.5364,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:3-4-4",
+    "target": "urn:jy:physics:SB0401:OB06:Section:11",
+    "evidence": {
+      "matchScore": 0.4901,
+      "fromThemeL3": {
+        "code": "3.4.4",
+        "title": "3.4.4",
+        "contentRequirement": "会看、会画简单的电路图。会连接简单的串联电路和并联电路。能说出生产生活中采用简单串联电路或并联电路的实例。探究并了解串联电路和并联电路中电流、电压的特点。"
+      },
+      "fromSection": {
+        "sectionTitle": "三、学生实验：探究影响电流的因素",
+        "chapterTitle": "第十章 串联电路和并联电路",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "的变化，从经济与环保的角度开展讨论。   (2) 燃料的种类很多, 如木柴、煤、汽油、酒精、天然气等, 查  阅资料并比较相同质量的不同燃料完全燃烧时放出热量的多少。  # 3.4 电磁能  3.4.1 从能量转化的角度认识电源和用电器的作用。  例1 定性说明发电机、电热水壶、电风扇工作过程中能量转化的情况。   3.4.2 知道电压、电流和电阻。探究电流与电压、电阻的关系，理解欧姆定律。   3.4.3 会使用电流表和电压表。   3.4.4 会看、会画简单的电路图。会连接简单的串联电路和并联电路。能说出生产生活中采用简单串联电路或并联电路的实例。探究并了解串联电路和并联电路中电流、电压的特点。   3.4.5 结合实例，了解电功和电功率。知道用电器的额定功率和实际功率。  例2 调查常见用电器的铭牌，比较它们的电功率。  3.4.6 通过实验，了解焦耳定律。能用焦耳定律说明生产生活中的有关现象。   3.4.7 了解家庭电路的组成。有安全用电和节约用电的意识。"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:11",
+    "target": "urn:jy:physics:OB05:ThemeL3:3-4-4",
+    "evidence": {
+      "matchScore": 0.4901,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:3-4-5",
+    "target": "urn:jy:physics:SB0401:OB06:Section:15",
+    "evidence": {
+      "matchScore": 0.3983,
+      "fromThemeL3": {
+        "code": "3.4.5",
+        "title": "3.4.5",
+        "contentRequirement": "结合实例，了解电功和电功率。知道用电器的额定功率和实际功率。"
+      },
+      "fromSection": {
+        "sectionTitle": "二、电功率",
+        "chapterTitle": "第十一章 电功和电功率",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "3.4 电磁能  3.4.1 从能量转化的角度认识电源和用电器的作用。  例1 定性说明发电机、电热水壶、电风扇工作过程中能量转化的情况。   3.4.2 知道电压、电流和电阻。探究电流与电压、电阻的关系，理解欧姆定律。   3.4.3 会使用电流表和电压表。   3.4.4 会看、会画简单的电路图。会连接简单的串联电路和并联电路。能说出生产生活中采用简单串联电路或并联电路的实例。探究并了解串联电路和并联电路中电流、电压的特点。   3.4.5 结合实例，了解电功和电功率。知道用电器的额定功率和实际功率。  例2 调查常见用电器的铭牌，比较它们的电功率。  3.4.6 通过实验，了解焦耳定律。能用焦耳定律说明生产生活中的有关现象。   3.4.7 了解家庭电路的组成。有安全用电和节约用电的意识。  例3 了解我国家庭用电的电压和频率，在家庭用电中有保护自己和他人的安全意识。  # 活动建议：  (1) 学读家用电能表, 根据读数计算用电量。   (2) 调查当地人均"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:15",
+    "target": "urn:jy:physics:OB05:ThemeL3:3-4-5",
+    "evidence": {
+      "matchScore": 0.3983,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:3-4-5",
+    "target": "urn:jy:physics:SB0401:OB06:Section:14",
+    "evidence": {
+      "matchScore": 0.3594,
+      "fromThemeL3": {
+        "code": "3.4.5",
+        "title": "3.4.5",
+        "contentRequirement": "结合实例，了解电功和电功率。知道用电器的额定功率和实际功率。"
+      },
+      "fromSection": {
+        "sectionTitle": "一、电功和电能",
+        "chapterTitle": "第十一章 电功和电功率",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "3.4 电磁能  3.4.1 从能量转化的角度认识电源和用电器的作用。  例1 定性说明发电机、电热水壶、电风扇工作过程中能量转化的情况。   3.4.2 知道电压、电流和电阻。探究电流与电压、电阻的关系，理解欧姆定律。   3.4.3 会使用电流表和电压表。   3.4.4 会看、会画简单的电路图。会连接简单的串联电路和并联电路。能说出生产生活中采用简单串联电路或并联电路的实例。探究并了解串联电路和并联电路中电流、电压的特点。   3.4.5 结合实例，了解电功和电功率。知道用电器的额定功率和实际功率。  例2 调查常见用电器的铭牌，比较它们的电功率。  3.4.6 通过实验，了解焦耳定律。能用焦耳定律说明生产生活中的有关现象。   3.4.7 了解家庭电路的组成。有安全用电和节约用电的意识。  例3 了解我国家庭用电的电压和频率，在家庭用电中有保护自己和他人的安全意识。  # 活动建议：  (1) 学读家用电能表, 根据读数计算用电量。   (2) 调查当地人均"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:14",
+    "target": "urn:jy:physics:OB05:ThemeL3:3-4-5",
+    "evidence": {
+      "matchScore": 0.3594,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:3-4-5",
+    "target": "urn:jy:physics:SB0401:OB06:Section:16",
+    "evidence": {
+      "matchScore": 0.3178,
+      "fromThemeL3": {
+        "code": "3.4.5",
+        "title": "3.4.5",
+        "contentRequirement": "结合实例，了解电功和电功率。知道用电器的额定功率和实际功率。"
+      },
+      "fromSection": {
+        "sectionTitle": "三、学生实验：测量小灯泡的电功率",
+        "chapterTitle": "第十一章 电功和电功率",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "3.4 电磁能  3.4.1 从能量转化的角度认识电源和用电器的作用。  例1 定性说明发电机、电热水壶、电风扇工作过程中能量转化的情况。   3.4.2 知道电压、电流和电阻。探究电流与电压、电阻的关系，理解欧姆定律。   3.4.3 会使用电流表和电压表。   3.4.4 会看、会画简单的电路图。会连接简单的串联电路和并联电路。能说出生产生活中采用简单串联电路或并联电路的实例。探究并了解串联电路和并联电路中电流、电压的特点。   3.4.5 结合实例，了解电功和电功率。知道用电器的额定功率和实际功率。  例2 调查常见用电器的铭牌，比较它们的电功率。  3.4.6 通过实验，了解焦耳定律。能用焦耳定律说明生产生活中的有关现象。   3.4.7 了解家庭电路的组成。有安全用电和节约用电的意识。  例3 了解我国家庭用电的电压和频率，在家庭用电中有保护自己和他人的安全意识。  # 活动建议：  (1) 学读家用电能表, 根据读数计算用电量。   (2) 调查当地人均"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:16",
+    "target": "urn:jy:physics:OB05:ThemeL3:3-4-5",
+    "evidence": {
+      "matchScore": 0.3178,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:3-4-5",
+    "target": "urn:jy:physics:SB0401:OB06:Section:18",
+    "evidence": {
+      "matchScore": 0.2994,
+      "fromThemeL3": {
+        "code": "3.4.5",
+        "title": "3.4.5",
+        "contentRequirement": "结合实例，了解电功和电功率。知道用电器的额定功率和实际功率。"
+      },
+      "fromSection": {
+        "sectionTitle": "五、家庭电路",
+        "chapterTitle": "第十一章 电功和电功率",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "3.4 电磁能  3.4.1 从能量转化的角度认识电源和用电器的作用。  例1 定性说明发电机、电热水壶、电风扇工作过程中能量转化的情况。   3.4.2 知道电压、电流和电阻。探究电流与电压、电阻的关系，理解欧姆定律。   3.4.3 会使用电流表和电压表。   3.4.4 会看、会画简单的电路图。会连接简单的串联电路和并联电路。能说出生产生活中采用简单串联电路或并联电路的实例。探究并了解串联电路和并联电路中电流、电压的特点。   3.4.5 结合实例，了解电功和电功率。知道用电器的额定功率和实际功率。  例2 调查常见用电器的铭牌，比较它们的电功率。  3.4.6 通过实验，了解焦耳定律。能用焦耳定律说明生产生活中的有关现象。   3.4.7 了解家庭电路的组成。有安全用电和节约用电的意识。  例3 了解我国家庭用电的电压和频率，在家庭用电中有保护自己和他人的安全意识。  # 活动建议：  (1) 学读家用电能表, 根据读数计算用电量。   (2) 调查当地人均"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:18",
+    "target": "urn:jy:physics:OB05:ThemeL3:3-4-5",
+    "evidence": {
+      "matchScore": 0.2994,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:3-4-5",
+    "target": "urn:jy:physics:SB0401:OB06:Section:17",
+    "evidence": {
+      "matchScore": 0.2807,
+      "fromThemeL3": {
+        "code": "3.4.5",
+        "title": "3.4.5",
+        "contentRequirement": "结合实例，了解电功和电功率。知道用电器的额定功率和实际功率。"
+      },
+      "fromSection": {
+        "sectionTitle": "四、电流的热效应",
+        "chapterTitle": "第十一章 电功和电功率",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "3.4 电磁能  3.4.1 从能量转化的角度认识电源和用电器的作用。  例1 定性说明发电机、电热水壶、电风扇工作过程中能量转化的情况。   3.4.2 知道电压、电流和电阻。探究电流与电压、电阻的关系，理解欧姆定律。   3.4.3 会使用电流表和电压表。   3.4.4 会看、会画简单的电路图。会连接简单的串联电路和并联电路。能说出生产生活中采用简单串联电路或并联电路的实例。探究并了解串联电路和并联电路中电流、电压的特点。   3.4.5 结合实例，了解电功和电功率。知道用电器的额定功率和实际功率。  例2 调查常见用电器的铭牌，比较它们的电功率。  3.4.6 通过实验，了解焦耳定律。能用焦耳定律说明生产生活中的有关现象。   3.4.7 了解家庭电路的组成。有安全用电和节约用电的意识。  例3 了解我国家庭用电的电压和频率，在家庭用电中有保护自己和他人的安全意识。  # 活动建议：  (1) 学读家用电能表, 根据读数计算用电量。   (2) 调查当地人均"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:17",
+    "target": "urn:jy:physics:OB05:ThemeL3:3-4-5",
+    "evidence": {
+      "matchScore": 0.2807,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:3-4-6",
+    "target": "urn:jy:physics:SB0401:OB06:Section:72",
+    "evidence": {
+      "matchScore": 0.1017,
+      "fromThemeL3": {
+        "code": "3.4.6",
+        "title": "3.4.6",
+        "contentRequirement": "通过实验，了解焦耳定律。能用焦耳定律说明生产生活中的有关现象。"
+      },
+      "fromSection": {
+        "sectionTitle": "第三节 生活中的透镜",
+        "chapterTitle": "第五章 透镜及其应用",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "量转化的情况。   3.4.2 知道电压、电流和电阻。探究电流与电压、电阻的关系，理解欧姆定律。   3.4.3 会使用电流表和电压表。   3.4.4 会看、会画简单的电路图。会连接简单的串联电路和并联电路。能说出生产生活中采用简单串联电路或并联电路的实例。探究并了解串联电路和并联电路中电流、电压的特点。   3.4.5 结合实例，了解电功和电功率。知道用电器的额定功率和实际功率。  例2 调查常见用电器的铭牌，比较它们的电功率。  3.4.6 通过实验，了解焦耳定律。能用焦耳定律说明生产生活中的有关现象。   3.4.7 了解家庭电路的组成。有安全用电和节约用电的意识。  例3 了解我国家庭用电的电压和频率，在家庭用电中有保护自己和他人的安全意识。  # 活动建议：  (1) 学读家用电能表, 根据读数计算用电量。   (2) 调查当地人均用电量的变化，讨论它与当地经济发展的关系。  # 3.5 能量守恒  3.5.1 知道能量守恒定律。列举日常生活中能量守恒的实"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:72",
+    "target": "urn:jy:physics:OB05:ThemeL3:3-4-6",
+    "evidence": {
+      "matchScore": 0.1017,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:3-4-7",
+    "target": "urn:jy:physics:SB0401:OB06:Section:18",
+    "evidence": {
+      "matchScore": 0.1326,
+      "fromThemeL3": {
+        "code": "3.4.7",
+        "title": "3.4.7",
+        "contentRequirement": "了解家庭电路的组成。有安全用电和节约用电的意识。"
+      },
+      "fromSection": {
+        "sectionTitle": "五、家庭电路",
+        "chapterTitle": "第十一章 电功和电功率",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "，理解欧姆定律。   3.4.3 会使用电流表和电压表。   3.4.4 会看、会画简单的电路图。会连接简单的串联电路和并联电路。能说出生产生活中采用简单串联电路或并联电路的实例。探究并了解串联电路和并联电路中电流、电压的特点。   3.4.5 结合实例，了解电功和电功率。知道用电器的额定功率和实际功率。  例2 调查常见用电器的铭牌，比较它们的电功率。  3.4.6 通过实验，了解焦耳定律。能用焦耳定律说明生产生活中的有关现象。   3.4.7 了解家庭电路的组成。有安全用电和节约用电的意识。  例3 了解我国家庭用电的电压和频率，在家庭用电中有保护自己和他人的安全意识。  # 活动建议：  (1) 学读家用电能表, 根据读数计算用电量。   (2) 调查当地人均用电量的变化，讨论它与当地经济发展的关系。  # 3.5 能量守恒  3.5.1 知道能量守恒定律。列举日常生活中能量守恒的实例。  有用能量转化与守恒的观点分析问题的意识。  3.5.2 从能量转化和转移"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:18",
+    "target": "urn:jy:physics:OB05:ThemeL3:3-4-7",
+    "evidence": {
+      "matchScore": 0.1326,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:3-6-2",
+    "target": "urn:jy:physics:SB0401:OB06:Section:66",
+    "evidence": {
+      "matchScore": 0.0822,
+      "fromThemeL3": {
+        "code": "3.6.2",
+        "title": "3.6.2",
+        "contentRequirement": "知道核能的特点和核能利用可能带来的问题。"
+      },
+      "fromSection": {
+        "sectionTitle": "第三节 平面镜成像的特点",
+        "chapterTitle": "第四章 光现象",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "例。  有用能量转化与守恒的观点分析问题的意识。  3.5.2 从能量转化和转移的角度认识效率。   3.5.3 列举能量转化和转移具有方向性的常见实例。  # 活动建议：  (1) 查阅资料或访问农机、汽车维修等专业人员, 了解内燃机中燃料燃烧所释放热量的去向, 讨论提高效率的可能途径。   (2) 调查当地主要炉灶的能量利用效率，写出调查报告。  # 3.6 能源与可持续发展  3.6.1 列举常见的不可再生能源和可再生能源。   3.6.2 知道核能的特点和核能利用可能带来的问题。  例1 了解处理核废料的常用方法。  3.6.3 从能源开发与利用的角度体会可持续发展的重要性。  例2 了解太阳能、风能、氢能等能源的开发对可持续发展的意义。  # 活动建议：  (1) 查阅资料, 举办小型研讨会, 讨论能源利用带来的环境影响, 如大气污染、酸雨、温室效应等, 探讨可采取的应对措施。   （2）查阅资料，了解我国新能源汽车的发展概况。   (3) 了解有关提倡低碳"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:66",
+    "target": "urn:jy:physics:OB05:ThemeL3:3-6-2",
+    "evidence": {
+      "matchScore": 0.0822,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:4-1-1",
+    "target": "urn:jy:physics:SB0401:OB06:Section:75",
+    "evidence": {
+      "matchScore": 0.2774,
+      "fromThemeL3": {
+        "code": "4.1.1",
+        "title": "4.1.1",
+        "contentRequirement": "用托盘天平测量物体的质量。"
+      },
+      "fromSection": {
+        "sectionTitle": "第一节 物体的质量及其测量",
+        "chapterTitle": "第六章 质量和密度",
+        "grade": "八年级",
+        "volume": "下册"
+      },
+      "fromMd": {
+        "snippet": "国古代的一些机械，列举不同历史时期人类利用的主要能源。  # （四）实验探究  一级主题“实验探究”包含测量类和探究类学生必做实验。这两类学生必做实验相互关联，各有侧重，旨在体现物理课程实践性的特点，培养学生发现问题和提出问题的能力、动手操作和收集数据的能力、分析和处理数据的能力、解释数据的能力、表达和交流的能力，引导学生学会学习、学会合作，培养学生严谨认真、实事求是的科学态度。  # 【内容要求】  # 4.1 测量类学生必做实验  4.1.1 用托盘天平测量物体的质量。  例1 用托盘天平测量小木块和杯中水的质量。  4.1.2 测量固体和液体的密度。  例2 用天平、量筒等测量小石块和盐水的密度。  4.1.3 用常见温度计测量温度。  例3 用实验室温度计测量水的温度，用体温计测量自己的体温。  4.1.4 用刻度尺测量长度，用表测量时间。  例4 用刻度尺测量物理教科书的长和宽，利用具有秒表功能的  设备测量自己脉搏跳动30次所用的时间。  4.1.5 测量"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:75",
+    "target": "urn:jy:physics:OB05:ThemeL3:4-1-1",
+    "evidence": {
+      "matchScore": 0.2774,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:4-1-2",
+    "target": "urn:jy:physics:SB0401:OB06:Section:76",
+    "evidence": {
+      "matchScore": 0.1498,
+      "fromThemeL3": {
+        "code": "4.1.2",
+        "title": "4.1.2",
+        "contentRequirement": "测量固体和液体的密度。"
+      },
+      "fromSection": {
+        "sectionTitle": "第二节 物质的密度",
+        "chapterTitle": "第六章 质量和密度",
+        "grade": "八年级",
+        "volume": "下册"
+      },
+      "fromMd": {
+        "snippet": "“实验探究”包含测量类和探究类学生必做实验。这两类学生必做实验相互关联，各有侧重，旨在体现物理课程实践性的特点，培养学生发现问题和提出问题的能力、动手操作和收集数据的能力、分析和处理数据的能力、解释数据的能力、表达和交流的能力，引导学生学会学习、学会合作，培养学生严谨认真、实事求是的科学态度。  # 【内容要求】  # 4.1 测量类学生必做实验  4.1.1 用托盘天平测量物体的质量。  例1 用托盘天平测量小木块和杯中水的质量。  4.1.2 测量固体和液体的密度。  例2 用天平、量筒等测量小石块和盐水的密度。  4.1.3 用常见温度计测量温度。  例3 用实验室温度计测量水的温度，用体温计测量自己的体温。  4.1.4 用刻度尺测量长度，用表测量时间。  例4 用刻度尺测量物理教科书的长和宽，利用具有秒表功能的  设备测量自己脉搏跳动30次所用的时间。  4.1.5 测量物体运动的速度。  例5 用秒表和刻度尺，测量小球通过某段距离的速度。  4.1.6 用"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:76",
+    "target": "urn:jy:physics:OB05:ThemeL3:4-1-2",
+    "evidence": {
+      "matchScore": 0.1498,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:4-1-4",
+    "target": "urn:jy:physics:SB0401:OB06:Section:54",
+    "evidence": {
+      "matchScore": 0.0938,
+      "fromThemeL3": {
+        "code": "4.1.4",
+        "title": "4.1.4",
+        "contentRequirement": "用刻度尺测量长度，用表测量时间。"
+      },
+      "fromSection": {
+        "sectionTitle": "第二节 长度及其测量",
+        "chapterTitle": "第二章 机械运动",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "的能力、解释数据的能力、表达和交流的能力，引导学生学会学习、学会合作，培养学生严谨认真、实事求是的科学态度。  # 【内容要求】  # 4.1 测量类学生必做实验  4.1.1 用托盘天平测量物体的质量。  例1 用托盘天平测量小木块和杯中水的质量。  4.1.2 测量固体和液体的密度。  例2 用天平、量筒等测量小石块和盐水的密度。  4.1.3 用常见温度计测量温度。  例3 用实验室温度计测量水的温度，用体温计测量自己的体温。  4.1.4 用刻度尺测量长度，用表测量时间。  例4 用刻度尺测量物理教科书的长和宽，利用具有秒表功能的  设备测量自己脉搏跳动30次所用的时间。  4.1.5 测量物体运动的速度。  例5 用秒表和刻度尺，测量小球通过某段距离的速度。  4.1.6 用弹簧测力计测量力。  例6 用手拉动弹簧测力计体验  $1 \\mathrm{~N} 、 2 \\mathrm{~N} 、 4 \\mathrm{~N}$  力的大小，测量一本物理教科书所受的"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:54",
+    "target": "urn:jy:physics:OB05:ThemeL3:4-1-4",
+    "evidence": {
+      "matchScore": 0.0938,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:4-1-5",
+    "target": "urn:jy:physics:SB0401:OB06:Section:55",
+    "evidence": {
+      "matchScore": 0.287,
+      "fromThemeL3": {
+        "code": "4.1.5",
+        "title": "4.1.5",
+        "contentRequirement": "测量物体运动的速度。"
+      },
+      "fromSection": {
+        "sectionTitle": "第三节 比较物体运动的快慢",
+        "chapterTitle": "第二章 机械运动",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "学生必做实验  4.1.1 用托盘天平测量物体的质量。  例1 用托盘天平测量小木块和杯中水的质量。  4.1.2 测量固体和液体的密度。  例2 用天平、量筒等测量小石块和盐水的密度。  4.1.3 用常见温度计测量温度。  例3 用实验室温度计测量水的温度，用体温计测量自己的体温。  4.1.4 用刻度尺测量长度，用表测量时间。  例4 用刻度尺测量物理教科书的长和宽，利用具有秒表功能的  设备测量自己脉搏跳动30次所用的时间。  4.1.5 测量物体运动的速度。  例5 用秒表和刻度尺，测量小球通过某段距离的速度。  4.1.6 用弹簧测力计测量力。  例6 用手拉动弹簧测力计体验  $1 \\mathrm{~N} 、 2 \\mathrm{~N} 、 4 \\mathrm{~N}$  力的大小，测量一本物理教科书所受的重力。  4.1.7 用电流表测量电流。  例7 用实验室指针式电流表，测量直流电路中的电流。  4.1.8 用电压表测量电压。  例8 用实验室指针"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:55",
+    "target": "urn:jy:physics:OB05:ThemeL3:4-1-5",
+    "evidence": {
+      "matchScore": 0.287,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:4-1-7",
+    "target": "urn:jy:physics:SB0401:OB06:Section:4",
+    "evidence": {
+      "matchScore": 0.1309,
+      "fromThemeL3": {
+        "code": "4.1.7",
+        "title": "4.1.7",
+        "contentRequirement": "用电流表测量电流。"
+      },
+      "fromSection": {
+        "sectionTitle": "四、电流及其测量",
+        "chapterTitle": "第九章 简单电路",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "用刻度尺测量长度，用表测量时间。  例4 用刻度尺测量物理教科书的长和宽，利用具有秒表功能的  设备测量自己脉搏跳动30次所用的时间。  4.1.5 测量物体运动的速度。  例5 用秒表和刻度尺，测量小球通过某段距离的速度。  4.1.6 用弹簧测力计测量力。  例6 用手拉动弹簧测力计体验  $1 \\mathrm{~N} 、 2 \\mathrm{~N} 、 4 \\mathrm{~N}$  力的大小，测量一本物理教科书所受的重力。  4.1.7 用电流表测量电流。  例7 用实验室指针式电流表，测量直流电路中的电流。  4.1.8 用电压表测量电压。  例8 用实验室指针式电压表，测量直流电路中的电压。  4.1.9 用电流表和电压表测量电阻。  例9用电流表、电压表、滑动变阻器等，测量小灯泡正常发光时的电阻。  # 活动建议：  (1) 蜡块会漂浮在水面上, 尝试用天平和量筒测量蜡块的密度。  (2) 用电子天平测量一些家用物品的质量, 感受电子天平在操作上的优点"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:4",
+    "target": "urn:jy:physics:OB05:ThemeL3:4-1-7",
+    "evidence": {
+      "matchScore": 0.1309,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:4-1-8",
+    "target": "urn:jy:physics:SB0401:OB06:Section:5",
+    "evidence": {
+      "matchScore": 0.1309,
+      "fromThemeL3": {
+        "code": "4.1.8",
+        "title": "4.1.8",
+        "contentRequirement": "用电压表测量电压。"
+      },
+      "fromSection": {
+        "sectionTitle": "五、电压及其测量",
+        "chapterTitle": "第九章 简单电路",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "功能的  设备测量自己脉搏跳动30次所用的时间。  4.1.5 测量物体运动的速度。  例5 用秒表和刻度尺，测量小球通过某段距离的速度。  4.1.6 用弹簧测力计测量力。  例6 用手拉动弹簧测力计体验  $1 \\mathrm{~N} 、 2 \\mathrm{~N} 、 4 \\mathrm{~N}$  力的大小，测量一本物理教科书所受的重力。  4.1.7 用电流表测量电流。  例7 用实验室指针式电流表，测量直流电路中的电流。  4.1.8 用电压表测量电压。  例8 用实验室指针式电压表，测量直流电路中的电压。  4.1.9 用电流表和电压表测量电阻。  例9用电流表、电压表、滑动变阻器等，测量小灯泡正常发光时的电阻。  # 活动建议：  (1) 蜡块会漂浮在水面上, 尝试用天平和量筒测量蜡块的密度。  (2) 用电子天平测量一些家用物品的质量, 感受电子天平在操作上的优点, 体会科技进步给人类生活带来的影响。  # 4.2 探究类学生必做实验  4.2.1"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:5",
+    "target": "urn:jy:physics:OB05:ThemeL3:4-1-8",
+    "evidence": {
+      "matchScore": 0.1309,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:4-2-1",
+    "target": "urn:jy:physics:SB0401:OB06:Section:66",
+    "evidence": {
+      "matchScore": 0.0938,
+      "fromThemeL3": {
+        "code": "4.2.1",
+        "title": "4.2.1",
+        "contentRequirement": "探究水在沸腾前后温度变化的特点。"
+      },
+      "fromSection": {
+        "sectionTitle": "第三节 平面镜成像的特点",
+        "chapterTitle": "第四章 光现象",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "的电流。  4.1.8 用电压表测量电压。  例8 用实验室指针式电压表，测量直流电路中的电压。  4.1.9 用电流表和电压表测量电阻。  例9用电流表、电压表、滑动变阻器等，测量小灯泡正常发光时的电阻。  # 活动建议：  (1) 蜡块会漂浮在水面上, 尝试用天平和量筒测量蜡块的密度。  (2) 用电子天平测量一些家用物品的质量, 感受电子天平在操作上的优点, 体会科技进步给人类生活带来的影响。  # 4.2 探究类学生必做实验  4.2.1 探究水在沸腾前后温度变化的特点。  例1 用酒精灯、烧杯、温度计等，探究水在沸腾前后温度变化的特点。  4.2.2 探究滑动摩擦力大小与哪些因素有关。  例 2 用弹簧测力计、平板、细绳、长方体物块、棉布、毛巾等,探究滑动摩擦力大小与哪些因素有关。  4.2.3 探究液体压强与哪些因素有关。  例3 用水、盐水、压强计等，探究液体压强与哪些因素有关。  4.2.4 探究浮力大小与哪些因素有关。  例4 用水、盐水、金属块、弹"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:66",
+    "target": "urn:jy:physics:OB05:ThemeL3:4-2-1",
+    "evidence": {
+      "matchScore": 0.0938,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:4-2-2",
+    "target": "urn:jy:physics:SB0401:OB06:Section:84",
+    "evidence": {
+      "matchScore": 0.1057,
+      "fromThemeL3": {
+        "code": "4.2.2",
+        "title": "4.2.2",
+        "contentRequirement": "探究滑动摩擦力大小与哪些因素有关。"
+      },
+      "fromSection": {
+        "sectionTitle": "第六节 摩擦力",
+        "chapterTitle": "第七章 运动和力",
+        "grade": "八年级",
+        "volume": "下册"
+      },
+      "fromMd": {
+        "snippet": "流表和电压表测量电阻。  例9用电流表、电压表、滑动变阻器等，测量小灯泡正常发光时的电阻。  # 活动建议：  (1) 蜡块会漂浮在水面上, 尝试用天平和量筒测量蜡块的密度。  (2) 用电子天平测量一些家用物品的质量, 感受电子天平在操作上的优点, 体会科技进步给人类生活带来的影响。  # 4.2 探究类学生必做实验  4.2.1 探究水在沸腾前后温度变化的特点。  例1 用酒精灯、烧杯、温度计等，探究水在沸腾前后温度变化的特点。  4.2.2 探究滑动摩擦力大小与哪些因素有关。  例 2 用弹簧测力计、平板、细绳、长方体物块、棉布、毛巾等,探究滑动摩擦力大小与哪些因素有关。  4.2.3 探究液体压强与哪些因素有关。  例3 用水、盐水、压强计等，探究液体压强与哪些因素有关。  4.2.4 探究浮力大小与哪些因素有关。  例4 用水、盐水、金属块、弹簧测力计等，探究金属块所受浮力与哪些因素有关。  4.2.5 探究杠杆的平衡条件。  例5 用杠杆、铁架台、钩码和弹"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:84",
+    "target": "urn:jy:physics:OB05:ThemeL3:4-2-2",
+    "evidence": {
+      "matchScore": 0.1057,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:4-2-3",
+    "target": "urn:jy:physics:SB0401:OB06:Section:87",
+    "evidence": {
+      "matchScore": 0.2069,
+      "fromThemeL3": {
+        "code": "4.2.3",
+        "title": "4.2.3",
+        "contentRequirement": "探究液体压强与哪些因素有关。"
+      },
+      "fromSection": {
+        "sectionTitle": "第二节 液体压强",
+        "chapterTitle": "第八章 压强和浮力",
+        "grade": "八年级",
+        "volume": "下册"
+      },
+      "fromMd": {
+        "snippet": "天平和量筒测量蜡块的密度。  (2) 用电子天平测量一些家用物品的质量, 感受电子天平在操作上的优点, 体会科技进步给人类生活带来的影响。  # 4.2 探究类学生必做实验  4.2.1 探究水在沸腾前后温度变化的特点。  例1 用酒精灯、烧杯、温度计等，探究水在沸腾前后温度变化的特点。  4.2.2 探究滑动摩擦力大小与哪些因素有关。  例 2 用弹簧测力计、平板、细绳、长方体物块、棉布、毛巾等,探究滑动摩擦力大小与哪些因素有关。  4.2.3 探究液体压强与哪些因素有关。  例3 用水、盐水、压强计等，探究液体压强与哪些因素有关。  4.2.4 探究浮力大小与哪些因素有关。  例4 用水、盐水、金属块、弹簧测力计等，探究金属块所受浮力与哪些因素有关。  4.2.5 探究杠杆的平衡条件。  例5 用杠杆、铁架台、钩码和弹簧测力计，探究杠杆平衡时动力、动力臂与阻力、阻力臂之间的定量关系。  4.2.6 探究光的反射定律。  例6 用激光笔、平面镜、光屏及量角器等探究光"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:87",
+    "target": "urn:jy:physics:OB05:ThemeL3:4-2-3",
+    "evidence": {
+      "matchScore": 0.2069,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:4-2-3",
+    "target": "urn:jy:physics:SB0401:OB06:Section:90",
+    "evidence": {
+      "matchScore": 0.174,
+      "fromThemeL3": {
+        "code": "4.2.3",
+        "title": "4.2.3",
+        "contentRequirement": "探究液体压强与哪些因素有关。"
+      },
+      "fromSection": {
+        "sectionTitle": "第五节 流体压强与流速的关系",
+        "chapterTitle": "第八章 压强和浮力",
+        "grade": "八年级",
+        "volume": "下册"
+      },
+      "fromMd": {
+        "snippet": "天平和量筒测量蜡块的密度。  (2) 用电子天平测量一些家用物品的质量, 感受电子天平在操作上的优点, 体会科技进步给人类生活带来的影响。  # 4.2 探究类学生必做实验  4.2.1 探究水在沸腾前后温度变化的特点。  例1 用酒精灯、烧杯、温度计等，探究水在沸腾前后温度变化的特点。  4.2.2 探究滑动摩擦力大小与哪些因素有关。  例 2 用弹簧测力计、平板、细绳、长方体物块、棉布、毛巾等,探究滑动摩擦力大小与哪些因素有关。  4.2.3 探究液体压强与哪些因素有关。  例3 用水、盐水、压强计等，探究液体压强与哪些因素有关。  4.2.4 探究浮力大小与哪些因素有关。  例4 用水、盐水、金属块、弹簧测力计等，探究金属块所受浮力与哪些因素有关。  4.2.5 探究杠杆的平衡条件。  例5 用杠杆、铁架台、钩码和弹簧测力计，探究杠杆平衡时动力、动力臂与阻力、阻力臂之间的定量关系。  4.2.6 探究光的反射定律。  例6 用激光笔、平面镜、光屏及量角器等探究光"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:90",
+    "target": "urn:jy:physics:OB05:ThemeL3:4-2-3",
+    "evidence": {
+      "matchScore": 0.174,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:4-2-5",
+    "target": "urn:jy:physics:SB0401:OB06:Section:39",
+    "evidence": {
+      "matchScore": 0.0852,
+      "fromThemeL3": {
+        "code": "4.2.5",
+        "title": "4.2.5",
+        "contentRequirement": "探究杠杆的平衡条件。"
+      },
+      "fromSection": {
+        "sectionTitle": "在科学探究中怎样提出可探究的科学问题",
+        "chapterTitle": "科学探究",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "1 用酒精灯、烧杯、温度计等，探究水在沸腾前后温度变化的特点。  4.2.2 探究滑动摩擦力大小与哪些因素有关。  例 2 用弹簧测力计、平板、细绳、长方体物块、棉布、毛巾等,探究滑动摩擦力大小与哪些因素有关。  4.2.3 探究液体压强与哪些因素有关。  例3 用水、盐水、压强计等，探究液体压强与哪些因素有关。  4.2.4 探究浮力大小与哪些因素有关。  例4 用水、盐水、金属块、弹簧测力计等，探究金属块所受浮力与哪些因素有关。  4.2.5 探究杠杆的平衡条件。  例5 用杠杆、铁架台、钩码和弹簧测力计，探究杠杆平衡时动力、动力臂与阻力、阻力臂之间的定量关系。  4.2.6 探究光的反射定律。  例6 用激光笔、平面镜、光屏及量角器等探究光的反射定律。  4.2.7 探究平面镜成像的特点。  例 7 用蜡烛 (或其他物品)、平板玻璃、刻度尺、白纸等, 探究平面镜成像时, 像的大小、位置、虚实等有什么特点。  4.2.8 探究凸透镜成像的规律。  例 8 用蜡烛"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:39",
+    "target": "urn:jy:physics:OB05:ThemeL3:4-2-5",
+    "evidence": {
+      "matchScore": 0.0852,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:4-2-6",
+    "target": "urn:jy:physics:SB0401:OB06:Section:65",
+    "evidence": {
+      "matchScore": 0.2392,
+      "fromThemeL3": {
+        "code": "4.2.6",
+        "title": "4.2.6",
+        "contentRequirement": "探究光的反射定律。"
+      },
+      "fromSection": {
+        "sectionTitle": "第二节 光的反射",
+        "chapterTitle": "第四章 光现象",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "、平板、细绳、长方体物块、棉布、毛巾等,探究滑动摩擦力大小与哪些因素有关。  4.2.3 探究液体压强与哪些因素有关。  例3 用水、盐水、压强计等，探究液体压强与哪些因素有关。  4.2.4 探究浮力大小与哪些因素有关。  例4 用水、盐水、金属块、弹簧测力计等，探究金属块所受浮力与哪些因素有关。  4.2.5 探究杠杆的平衡条件。  例5 用杠杆、铁架台、钩码和弹簧测力计，探究杠杆平衡时动力、动力臂与阻力、阻力臂之间的定量关系。  4.2.6 探究光的反射定律。  例6 用激光笔、平面镜、光屏及量角器等探究光的反射定律。  4.2.7 探究平面镜成像的特点。  例 7 用蜡烛 (或其他物品)、平板玻璃、刻度尺、白纸等, 探究平面镜成像时, 像的大小、位置、虚实等有什么特点。  4.2.8 探究凸透镜成像的规律。  例 8 用蜡烛 (或 F 形光源)、凸透镜、光具座、光屏等, 探究凸透镜成像时, 像的正倒、大小、位置、虚实等与物距的关系。  4.2.9 探究通电螺线"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:65",
+    "target": "urn:jy:physics:OB05:ThemeL3:4-2-6",
+    "evidence": {
+      "matchScore": 0.2392,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:4-2-7",
+    "target": "urn:jy:physics:SB0401:OB06:Section:66",
+    "evidence": {
+      "matchScore": 0.4869,
+      "fromThemeL3": {
+        "code": "4.2.7",
+        "title": "4.2.7",
+        "contentRequirement": "探究平面镜成像的特点。"
+      },
+      "fromSection": {
+        "sectionTitle": "第三节 平面镜成像的特点",
+        "chapterTitle": "第四章 光现象",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "液体压强与哪些因素有关。  例3 用水、盐水、压强计等，探究液体压强与哪些因素有关。  4.2.4 探究浮力大小与哪些因素有关。  例4 用水、盐水、金属块、弹簧测力计等，探究金属块所受浮力与哪些因素有关。  4.2.5 探究杠杆的平衡条件。  例5 用杠杆、铁架台、钩码和弹簧测力计，探究杠杆平衡时动力、动力臂与阻力、阻力臂之间的定量关系。  4.2.6 探究光的反射定律。  例6 用激光笔、平面镜、光屏及量角器等探究光的反射定律。  4.2.7 探究平面镜成像的特点。  例 7 用蜡烛 (或其他物品)、平板玻璃、刻度尺、白纸等, 探究平面镜成像时, 像的大小、位置、虚实等有什么特点。  4.2.8 探究凸透镜成像的规律。  例 8 用蜡烛 (或 F 形光源)、凸透镜、光具座、光屏等, 探究凸透镜成像时, 像的正倒、大小、位置、虚实等与物距的关系。  4.2.9 探究通电螺线管外部磁场的方向。  例9 用小磁针、通电螺线管等，探究通电螺线管外部磁场的方向。  4.2."
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:66",
+    "target": "urn:jy:physics:OB05:ThemeL3:4-2-7",
+    "evidence": {
+      "matchScore": 0.4869,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:4-2-7",
+    "target": "urn:jy:physics:SB0401:OB06:Section:71",
+    "evidence": {
+      "matchScore": 0.1669,
+      "fromThemeL3": {
+        "code": "4.2.7",
+        "title": "4.2.7",
+        "contentRequirement": "探究平面镜成像的特点。"
+      },
+      "fromSection": {
+        "sectionTitle": "第二节 凸透镜成像的规律",
+        "chapterTitle": "第五章 透镜及其应用",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "液体压强与哪些因素有关。  例3 用水、盐水、压强计等，探究液体压强与哪些因素有关。  4.2.4 探究浮力大小与哪些因素有关。  例4 用水、盐水、金属块、弹簧测力计等，探究金属块所受浮力与哪些因素有关。  4.2.5 探究杠杆的平衡条件。  例5 用杠杆、铁架台、钩码和弹簧测力计，探究杠杆平衡时动力、动力臂与阻力、阻力臂之间的定量关系。  4.2.6 探究光的反射定律。  例6 用激光笔、平面镜、光屏及量角器等探究光的反射定律。  4.2.7 探究平面镜成像的特点。  例 7 用蜡烛 (或其他物品)、平板玻璃、刻度尺、白纸等, 探究平面镜成像时, 像的大小、位置、虚实等有什么特点。  4.2.8 探究凸透镜成像的规律。  例 8 用蜡烛 (或 F 形光源)、凸透镜、光具座、光屏等, 探究凸透镜成像时, 像的正倒、大小、位置、虚实等与物距的关系。  4.2.9 探究通电螺线管外部磁场的方向。  例9 用小磁针、通电螺线管等，探究通电螺线管外部磁场的方向。  4.2."
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:71",
+    "target": "urn:jy:physics:OB05:ThemeL3:4-2-7",
+    "evidence": {
+      "matchScore": 0.1669,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:4-2-8",
+    "target": "urn:jy:physics:SB0401:OB06:Section:71",
+    "evidence": {
+      "matchScore": 0.4674,
+      "fromThemeL3": {
+        "code": "4.2.8",
+        "title": "4.2.8",
+        "contentRequirement": "探究凸透镜成像的规律。"
+      },
+      "fromSection": {
+        "sectionTitle": "第二节 凸透镜成像的规律",
+        "chapterTitle": "第五章 透镜及其应用",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "、弹簧测力计等，探究金属块所受浮力与哪些因素有关。  4.2.5 探究杠杆的平衡条件。  例5 用杠杆、铁架台、钩码和弹簧测力计，探究杠杆平衡时动力、动力臂与阻力、阻力臂之间的定量关系。  4.2.6 探究光的反射定律。  例6 用激光笔、平面镜、光屏及量角器等探究光的反射定律。  4.2.7 探究平面镜成像的特点。  例 7 用蜡烛 (或其他物品)、平板玻璃、刻度尺、白纸等, 探究平面镜成像时, 像的大小、位置、虚实等有什么特点。  4.2.8 探究凸透镜成像的规律。  例 8 用蜡烛 (或 F 形光源)、凸透镜、光具座、光屏等, 探究凸透镜成像时, 像的正倒、大小、位置、虚实等与物距的关系。  4.2.9 探究通电螺线管外部磁场的方向。  例9 用小磁针、通电螺线管等，探究通电螺线管外部磁场的方向。  4.2.10 探究导体在磁场中运动时产生感应电流的条件。  例10 用矩形线圈或单根导线、磁体、灵敏电流计等探究产生感应电流的条件。  4.2.11 探究串联电路和"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:71",
+    "target": "urn:jy:physics:OB05:ThemeL3:4-2-8",
+    "evidence": {
+      "matchScore": 0.4674,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:4-2-8",
+    "target": "urn:jy:physics:SB0401:OB06:Section:66",
+    "evidence": {
+      "matchScore": 0.1873,
+      "fromThemeL3": {
+        "code": "4.2.8",
+        "title": "4.2.8",
+        "contentRequirement": "探究凸透镜成像的规律。"
+      },
+      "fromSection": {
+        "sectionTitle": "第三节 平面镜成像的特点",
+        "chapterTitle": "第四章 光现象",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "、弹簧测力计等，探究金属块所受浮力与哪些因素有关。  4.2.5 探究杠杆的平衡条件。  例5 用杠杆、铁架台、钩码和弹簧测力计，探究杠杆平衡时动力、动力臂与阻力、阻力臂之间的定量关系。  4.2.6 探究光的反射定律。  例6 用激光笔、平面镜、光屏及量角器等探究光的反射定律。  4.2.7 探究平面镜成像的特点。  例 7 用蜡烛 (或其他物品)、平板玻璃、刻度尺、白纸等, 探究平面镜成像时, 像的大小、位置、虚实等有什么特点。  4.2.8 探究凸透镜成像的规律。  例 8 用蜡烛 (或 F 形光源)、凸透镜、光具座、光屏等, 探究凸透镜成像时, 像的正倒、大小、位置、虚实等与物距的关系。  4.2.9 探究通电螺线管外部磁场的方向。  例9 用小磁针、通电螺线管等，探究通电螺线管外部磁场的方向。  4.2.10 探究导体在磁场中运动时产生感应电流的条件。  例10 用矩形线圈或单根导线、磁体、灵敏电流计等探究产生感应电流的条件。  4.2.11 探究串联电路和"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:66",
+    "target": "urn:jy:physics:OB05:ThemeL3:4-2-8",
+    "evidence": {
+      "matchScore": 0.1873,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:4-2-9",
+    "target": "urn:jy:physics:SB0401:OB06:Section:21",
+    "evidence": {
+      "matchScore": 0.2668,
+      "fromThemeL3": {
+        "code": "4.2.9",
+        "title": "4.2.9",
+        "contentRequirement": "探究通电螺线管外部磁场的方向。"
+      },
+      "fromSection": {
+        "sectionTitle": "三、通电螺线管的磁场",
+        "chapterTitle": "第十二章 磁现象",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "力臂之间的定量关系。  4.2.6 探究光的反射定律。  例6 用激光笔、平面镜、光屏及量角器等探究光的反射定律。  4.2.7 探究平面镜成像的特点。  例 7 用蜡烛 (或其他物品)、平板玻璃、刻度尺、白纸等, 探究平面镜成像时, 像的大小、位置、虚实等有什么特点。  4.2.8 探究凸透镜成像的规律。  例 8 用蜡烛 (或 F 形光源)、凸透镜、光具座、光屏等, 探究凸透镜成像时, 像的正倒、大小、位置、虚实等与物距的关系。  4.2.9 探究通电螺线管外部磁场的方向。  例9 用小磁针、通电螺线管等，探究通电螺线管外部磁场的方向。  4.2.10 探究导体在磁场中运动时产生感应电流的条件。  例10 用矩形线圈或单根导线、磁体、灵敏电流计等探究产生感应电流的条件。  4.2.11 探究串联电路和并联电路中电流、电压的特点。  例11用电流表和电压表，分别探究串联电路和并联电路中电流、电压的特点。  4.2.12 探究电流与电压、电阻的关系。  例12 用定值"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:21",
+    "target": "urn:jy:physics:OB05:ThemeL3:4-2-9",
+    "evidence": {
+      "matchScore": 0.2668,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:4-2-10",
+    "target": "urn:jy:physics:SB0401:OB06:Section:11",
+    "evidence": {
+      "matchScore": 0.0804,
+      "fromThemeL3": {
+        "code": "4.2.10",
+        "title": "4.2.10",
+        "contentRequirement": "探究导体在磁场中运动时产生感应电流的条件。"
+      },
+      "fromSection": {
+        "sectionTitle": "三、学生实验：探究影响电流的因素",
+        "chapterTitle": "第十章 串联电路和并联电路",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "律。  4.2.7 探究平面镜成像的特点。  例 7 用蜡烛 (或其他物品)、平板玻璃、刻度尺、白纸等, 探究平面镜成像时, 像的大小、位置、虚实等有什么特点。  4.2.8 探究凸透镜成像的规律。  例 8 用蜡烛 (或 F 形光源)、凸透镜、光具座、光屏等, 探究凸透镜成像时, 像的正倒、大小、位置、虚实等与物距的关系。  4.2.9 探究通电螺线管外部磁场的方向。  例9 用小磁针、通电螺线管等，探究通电螺线管外部磁场的方向。  4.2.10 探究导体在磁场中运动时产生感应电流的条件。  例10 用矩形线圈或单根导线、磁体、灵敏电流计等探究产生感应电流的条件。  4.2.11 探究串联电路和并联电路中电流、电压的特点。  例11用电流表和电压表，分别探究串联电路和并联电路中电流、电压的特点。  4.2.12 探究电流与电压、电阻的关系。  例12 用定值电阻、滑动变阻器、电流表、电压表等，探究电流与电压、电阻的关系。  # 活动建议：  （1）用可变焦距的眼睛模"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:11",
+    "target": "urn:jy:physics:OB05:ThemeL3:4-2-10",
+    "evidence": {
+      "matchScore": 0.0804,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:4-2-11",
+    "target": "urn:jy:physics:SB0401:OB06:Section:10",
+    "evidence": {
+      "matchScore": 0.5853,
+      "fromThemeL3": {
+        "code": "4.2.11",
+        "title": "4.2.11",
+        "contentRequirement": "探究串联电路和并联电路中电流、电压的特点。"
+      },
+      "fromSection": {
+        "sectionTitle": "二、串、并联电路的特点",
+        "chapterTitle": "第十章 串联电路和并联电路",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "位置、虚实等有什么特点。  4.2.8 探究凸透镜成像的规律。  例 8 用蜡烛 (或 F 形光源)、凸透镜、光具座、光屏等, 探究凸透镜成像时, 像的正倒、大小、位置、虚实等与物距的关系。  4.2.9 探究通电螺线管外部磁场的方向。  例9 用小磁针、通电螺线管等，探究通电螺线管外部磁场的方向。  4.2.10 探究导体在磁场中运动时产生感应电流的条件。  例10 用矩形线圈或单根导线、磁体、灵敏电流计等探究产生感应电流的条件。  4.2.11 探究串联电路和并联电路中电流、电压的特点。  例11用电流表和电压表，分别探究串联电路和并联电路中电流、电压的特点。  4.2.12 探究电流与电压、电阻的关系。  例12 用定值电阻、滑动变阻器、电流表、电压表等，探究电流与电压、电阻的关系。  # 活动建议：  （1）用可变焦距的眼睛模型，演示并说明近视眼、远视眼看不清物体的原因。   (2) 尝试用力传感器探究影响浮力大小的因素或杠杆的平衡条件。  # 【学业要求】"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:10",
+    "target": "urn:jy:physics:OB05:ThemeL3:4-2-11",
+    "evidence": {
+      "matchScore": 0.5853,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:4-2-11",
+    "target": "urn:jy:physics:SB0401:OB06:Section:9",
+    "evidence": {
+      "matchScore": 0.5061,
+      "fromThemeL3": {
+        "code": "4.2.11",
+        "title": "4.2.11",
+        "contentRequirement": "探究串联电路和并联电路中电流、电压的特点。"
+      },
+      "fromSection": {
+        "sectionTitle": "一、学生实验：连接串、并联电路",
+        "chapterTitle": "第十章 串联电路和并联电路",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "位置、虚实等有什么特点。  4.2.8 探究凸透镜成像的规律。  例 8 用蜡烛 (或 F 形光源)、凸透镜、光具座、光屏等, 探究凸透镜成像时, 像的正倒、大小、位置、虚实等与物距的关系。  4.2.9 探究通电螺线管外部磁场的方向。  例9 用小磁针、通电螺线管等，探究通电螺线管外部磁场的方向。  4.2.10 探究导体在磁场中运动时产生感应电流的条件。  例10 用矩形线圈或单根导线、磁体、灵敏电流计等探究产生感应电流的条件。  4.2.11 探究串联电路和并联电路中电流、电压的特点。  例11用电流表和电压表，分别探究串联电路和并联电路中电流、电压的特点。  4.2.12 探究电流与电压、电阻的关系。  例12 用定值电阻、滑动变阻器、电流表、电压表等，探究电流与电压、电阻的关系。  # 活动建议：  （1）用可变焦距的眼睛模型，演示并说明近视眼、远视眼看不清物体的原因。   (2) 尝试用力传感器探究影响浮力大小的因素或杠杆的平衡条件。  # 【学业要求】"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:9",
+    "target": "urn:jy:physics:OB05:ThemeL3:4-2-11",
+    "evidence": {
+      "matchScore": 0.5061,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:4-2-11",
+    "target": "urn:jy:physics:SB0401:OB06:Section:12",
+    "evidence": {
+      "matchScore": 0.4575,
+      "fromThemeL3": {
+        "code": "4.2.11",
+        "title": "4.2.11",
+        "contentRequirement": "探究串联电路和并联电路中电流、电压的特点。"
+      },
+      "fromSection": {
+        "sectionTitle": "四、欧姆定律的应用",
+        "chapterTitle": "第十章 串联电路和并联电路",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "位置、虚实等有什么特点。  4.2.8 探究凸透镜成像的规律。  例 8 用蜡烛 (或 F 形光源)、凸透镜、光具座、光屏等, 探究凸透镜成像时, 像的正倒、大小、位置、虚实等与物距的关系。  4.2.9 探究通电螺线管外部磁场的方向。  例9 用小磁针、通电螺线管等，探究通电螺线管外部磁场的方向。  4.2.10 探究导体在磁场中运动时产生感应电流的条件。  例10 用矩形线圈或单根导线、磁体、灵敏电流计等探究产生感应电流的条件。  4.2.11 探究串联电路和并联电路中电流、电压的特点。  例11用电流表和电压表，分别探究串联电路和并联电路中电流、电压的特点。  4.2.12 探究电流与电压、电阻的关系。  例12 用定值电阻、滑动变阻器、电流表、电压表等，探究电流与电压、电阻的关系。  # 活动建议：  （1）用可变焦距的眼睛模型，演示并说明近视眼、远视眼看不清物体的原因。   (2) 尝试用力传感器探究影响浮力大小的因素或杠杆的平衡条件。  # 【学业要求】"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:12",
+    "target": "urn:jy:physics:OB05:ThemeL3:4-2-11",
+    "evidence": {
+      "matchScore": 0.4575,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:4-2-11",
+    "target": "urn:jy:physics:SB0401:OB06:Section:13",
+    "evidence": {
+      "matchScore": 0.4575,
+      "fromThemeL3": {
+        "code": "4.2.11",
+        "title": "4.2.11",
+        "contentRequirement": "探究串联电路和并联电路中电流、电压的特点。"
+      },
+      "fromSection": {
+        "sectionTitle": "五、测量导体的电阻",
+        "chapterTitle": "第十章 串联电路和并联电路",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "位置、虚实等有什么特点。  4.2.8 探究凸透镜成像的规律。  例 8 用蜡烛 (或 F 形光源)、凸透镜、光具座、光屏等, 探究凸透镜成像时, 像的正倒、大小、位置、虚实等与物距的关系。  4.2.9 探究通电螺线管外部磁场的方向。  例9 用小磁针、通电螺线管等，探究通电螺线管外部磁场的方向。  4.2.10 探究导体在磁场中运动时产生感应电流的条件。  例10 用矩形线圈或单根导线、磁体、灵敏电流计等探究产生感应电流的条件。  4.2.11 探究串联电路和并联电路中电流、电压的特点。  例11用电流表和电压表，分别探究串联电路和并联电路中电流、电压的特点。  4.2.12 探究电流与电压、电阻的关系。  例12 用定值电阻、滑动变阻器、电流表、电压表等，探究电流与电压、电阻的关系。  # 活动建议：  （1）用可变焦距的眼睛模型，演示并说明近视眼、远视眼看不清物体的原因。   (2) 尝试用力传感器探究影响浮力大小的因素或杠杆的平衡条件。  # 【学业要求】"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:13",
+    "target": "urn:jy:physics:OB05:ThemeL3:4-2-11",
+    "evidence": {
+      "matchScore": 0.4575,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:4-2-11",
+    "target": "urn:jy:physics:SB0401:OB06:Section:11",
+    "evidence": {
+      "matchScore": 0.443,
+      "fromThemeL3": {
+        "code": "4.2.11",
+        "title": "4.2.11",
+        "contentRequirement": "探究串联电路和并联电路中电流、电压的特点。"
+      },
+      "fromSection": {
+        "sectionTitle": "三、学生实验：探究影响电流的因素",
+        "chapterTitle": "第十章 串联电路和并联电路",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "位置、虚实等有什么特点。  4.2.8 探究凸透镜成像的规律。  例 8 用蜡烛 (或 F 形光源)、凸透镜、光具座、光屏等, 探究凸透镜成像时, 像的正倒、大小、位置、虚实等与物距的关系。  4.2.9 探究通电螺线管外部磁场的方向。  例9 用小磁针、通电螺线管等，探究通电螺线管外部磁场的方向。  4.2.10 探究导体在磁场中运动时产生感应电流的条件。  例10 用矩形线圈或单根导线、磁体、灵敏电流计等探究产生感应电流的条件。  4.2.11 探究串联电路和并联电路中电流、电压的特点。  例11用电流表和电压表，分别探究串联电路和并联电路中电流、电压的特点。  4.2.12 探究电流与电压、电阻的关系。  例12 用定值电阻、滑动变阻器、电流表、电压表等，探究电流与电压、电阻的关系。  # 活动建议：  （1）用可变焦距的眼睛模型，演示并说明近视眼、远视眼看不清物体的原因。   (2) 尝试用力传感器探究影响浮力大小的因素或杠杆的平衡条件。  # 【学业要求】"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:11",
+    "target": "urn:jy:physics:OB05:ThemeL3:4-2-11",
+    "evidence": {
+      "matchScore": 0.443,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:4-2-12",
+    "target": "urn:jy:physics:SB0401:OB06:Section:90",
+    "evidence": {
+      "matchScore": 0.087,
+      "fromThemeL3": {
+        "code": "4.2.12",
+        "title": "4.2.12",
+        "contentRequirement": "探究电流与电压、电阻的关系。"
+      },
+      "fromSection": {
+        "sectionTitle": "第五节 流体压强与流速的关系",
+        "chapterTitle": "第八章 压强和浮力",
+        "grade": "八年级",
+        "volume": "下册"
+      },
+      "fromMd": {
+        "snippet": "透镜成像时, 像的正倒、大小、位置、虚实等与物距的关系。  4.2.9 探究通电螺线管外部磁场的方向。  例9 用小磁针、通电螺线管等，探究通电螺线管外部磁场的方向。  4.2.10 探究导体在磁场中运动时产生感应电流的条件。  例10 用矩形线圈或单根导线、磁体、灵敏电流计等探究产生感应电流的条件。  4.2.11 探究串联电路和并联电路中电流、电压的特点。  例11用电流表和电压表，分别探究串联电路和并联电路中电流、电压的特点。  4.2.12 探究电流与电压、电阻的关系。  例12 用定值电阻、滑动变阻器、电流表、电压表等，探究电流与电压、电阻的关系。  # 活动建议：  （1）用可变焦距的眼睛模型，演示并说明近视眼、远视眼看不清物体的原因。   (2) 尝试用力传感器探究影响浮力大小的因素或杠杆的平衡条件。  # 【学业要求】  （1）能通过物理实验建构物理概念，深化对物理规律的认识，领悟其内涵及相互联系；有将实验探究方法及安全操作规范等运用于解决日常问题的意"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:90",
+    "target": "urn:jy:physics:OB05:ThemeL3:4-2-12",
+    "evidence": {
+      "matchScore": 0.087,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:5-1-2",
+    "target": "urn:jy:physics:SB0401:OB06:Section:72",
+    "evidence": {
+      "matchScore": 0.1171,
+      "fromThemeL3": {
+        "code": "5.1.2",
+        "title": "5.1.2",
+        "contentRequirement": "能运用所学知识分析日常生活中的安全问题，提出解决方案，践行安全与健康生活。"
+      },
+      "fromSection": {
+        "sectionTitle": "第三节 生活中的透镜",
+        "chapterTitle": "第五章 透镜及其应用",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "践性特点，与日常生活、工程实践及社会热点问题密切相关。这部分内容的设计旨在发展学生跨学科运用知识的能力、分析和解决问题的综合能力、动手操作的实践能力，培养学生积极认真的学习态度和乐于实践、敢于创新的精神。  # 【内容要求】  # 5.1 物理学与日常生活  5.1.1 能发现日常生活中与物理学有关的问题，提出解决方案。  例 1 调查日常生活用品（如厨房用品）使用中的问题，并提出改进建议，能运用所学的知识论证自己所提建议的合理性。  5.1.2 能运用所学知识分析日常生活中的安全问题，提出解决方案，践行安全与健康生活。  例2 调查生活中（如用电、乘车、住高楼等）存在的安全隐患，提出安全与健康生活的建议。  5.1.3 能运用所学知识指导和规范个人行为，践行低碳生活，具有节能环保意识。  例3 了解当地空气质量状况，并调查相关原因。  例4 拟订《个人低碳生活行为指南》，对个人节能环保行为提出具体要求。  # 活动建议：  (1) 通过资料查阅、商店咨询和实物考察，"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:72",
+    "target": "urn:jy:physics:OB05:ThemeL3:5-1-2",
+    "evidence": {
+      "matchScore": 0.1171,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:5-2-3",
+    "target": "urn:jy:physics:SB0401:OB06:Section:62",
+    "evidence": {
+      "matchScore": 0.1078,
+      "fromThemeL3": {
+        "code": "5.2.3",
+        "title": "5.2.3",
+        "contentRequirement": "了解物理学在信息技术中的应用。"
+      },
+      "fromSection": {
+        "sectionTitle": "第四节 声波的应用",
+        "chapterTitle": "第三章 声现象",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "物考察, 了解机动车的尾气排放情况, 撰  写关于城市空气污染和汽车尾气排放的调查报告。  # 5.2 物理学与工程实践  5.2.1 了解我国古代的技术应用案例，体会我国古代科技对人类文明发展的促进作用。  例1 了解我国古代“龙骨水车”的工作原理，尝试设计相关装置。  5.2.2 调查物理学应用于工程技术的案例，体会物理学对工程技术发展的促进作用。  例2 调查物理学在桥梁建筑技术方面的应用案例，体会物理学对桥梁发展的促进作用。  5.2.3 了解物理学在信息技术中的应用。  例3 了解物理学在信息记录或传播中的应用。  # 活动建议：  (1) 制作一台小型风力发电机, 从跨学科视角与同学交流制作过程与作品。   (2) 查阅资料，了解物理学对信息技术发展的贡献。   (3) 查阅资料, 了解量子计算机相关信息, 与同学交流对计算机未来发展的畅想。  # 5.3 物理学与社会发展  5.3.1 结合实例，尝试分析能源的开发与利用对社会发展的影响。  例 1 查阅"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:62",
+    "target": "urn:jy:physics:OB05:ThemeL3:5-2-3",
+    "evidence": {
+      "matchScore": 0.1078,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:5-3-2",
+    "target": "urn:jy:physics:SB0401:OB06:Section:74",
+    "evidence": {
+      "matchScore": 0.1258,
+      "fromThemeL3": {
+        "code": "5.3.2",
+        "title": "5.3.2",
+        "contentRequirement": "结合实例，了解一些新材料的特点及其应用。了解新材料的研发与应用对社会发展的影响。"
+      },
+      "fromSection": {
+        "sectionTitle": "整理与复习",
+        "chapterTitle": "第五章 透镜及其应用",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "# 活动建议：  (1) 制作一台小型风力发电机, 从跨学科视角与同学交流制作过程与作品。   (2) 查阅资料，了解物理学对信息技术发展的贡献。   (3) 查阅资料, 了解量子计算机相关信息, 与同学交流对计算机未来发展的畅想。  # 5.3 物理学与社会发展  5.3.1 结合实例，尝试分析能源的开发与利用对社会发展的影响。  例 1 查阅资料并举办报告会，讨论能源利用对环境的影响，结合对当地能源利用现状的调查，提出改进建议。  5.3.2 结合实例，了解一些新材料的特点及其应用。了解新材  料的研发与应用对社会发展的影响。  例2 了解半导体、超导体的主要特点，展望超导体应用对社会发展的影响。  例 3 了解纳米材料等新型材料的主要特点, 以及这些新材料技术的应用对社会发展的影响。  5.3.3 了解我国科技发展的成就，增强科技强国的责任感和使命感。  例 4 了解我国“两弹一星”的成就，体会科技作为国家发展战略支撑的重大意义，树立科技自立自强的信念；知道赵忠"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:74",
+    "target": "urn:jy:physics:OB05:ThemeL3:5-3-2",
+    "evidence": {
+      "matchScore": 0.1258,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:5-3-2",
+    "target": "urn:jy:physics:SB0401:OB06:Section:22",
+    "evidence": {
+      "matchScore": 0.121,
+      "fromThemeL3": {
+        "code": "5.3.2",
+        "title": "5.3.2",
+        "contentRequirement": "结合实例，了解一些新材料的特点及其应用。了解新材料的研发与应用对社会发展的影响。"
+      },
+      "fromSection": {
+        "sectionTitle": "四、电磁铁及其应用",
+        "chapterTitle": "第十二章 磁现象",
+        "grade": "九年级",
+        "volume": "全一册"
+      },
+      "fromMd": {
+        "snippet": "# 活动建议：  (1) 制作一台小型风力发电机, 从跨学科视角与同学交流制作过程与作品。   (2) 查阅资料，了解物理学对信息技术发展的贡献。   (3) 查阅资料, 了解量子计算机相关信息, 与同学交流对计算机未来发展的畅想。  # 5.3 物理学与社会发展  5.3.1 结合实例，尝试分析能源的开发与利用对社会发展的影响。  例 1 查阅资料并举办报告会，讨论能源利用对环境的影响，结合对当地能源利用现状的调查，提出改进建议。  5.3.2 结合实例，了解一些新材料的特点及其应用。了解新材  料的研发与应用对社会发展的影响。  例2 了解半导体、超导体的主要特点，展望超导体应用对社会发展的影响。  例 3 了解纳米材料等新型材料的主要特点, 以及这些新材料技术的应用对社会发展的影响。  5.3.3 了解我国科技发展的成就，增强科技强国的责任感和使命感。  例 4 了解我国“两弹一星”的成就，体会科技作为国家发展战略支撑的重大意义，树立科技自立自强的信念；知道赵忠"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:22",
+    "target": "urn:jy:physics:OB05:ThemeL3:5-3-2",
+    "evidence": {
+      "matchScore": 0.121,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  },
+  {
+    "relationName": "themeL3RequiresSection",
+    "label": "解决三级主题所需知识点 / requiresKnowledgeFromSection",
+    "source": "urn:jy:physics:OB05:ThemeL3:5-3-2",
+    "target": "urn:jy:physics:SB0401:OB06:Section:70",
+    "evidence": {
+      "matchScore": 0.121,
+      "fromThemeL3": {
+        "code": "5.3.2",
+        "title": "5.3.2",
+        "contentRequirement": "结合实例，了解一些新材料的特点及其应用。了解新材料的研发与应用对社会发展的影响。"
+      },
+      "fromSection": {
+        "sectionTitle": "第一节 透镜",
+        "chapterTitle": "第五章 透镜及其应用",
+        "grade": "八年级",
+        "volume": "上册"
+      },
+      "fromMd": {
+        "snippet": "# 活动建议：  (1) 制作一台小型风力发电机, 从跨学科视角与同学交流制作过程与作品。   (2) 查阅资料，了解物理学对信息技术发展的贡献。   (3) 查阅资料, 了解量子计算机相关信息, 与同学交流对计算机未来发展的畅想。  # 5.3 物理学与社会发展  5.3.1 结合实例，尝试分析能源的开发与利用对社会发展的影响。  例 1 查阅资料并举办报告会，讨论能源利用对环境的影响，结合对当地能源利用现状的调查，提出改进建议。  5.3.2 结合实例，了解一些新材料的特点及其应用。了解新材  料的研发与应用对社会发展的影响。  例2 了解半导体、超导体的主要特点，展望超导体应用对社会发展的影响。  例 3 了解纳米材料等新型材料的主要特点, 以及这些新材料技术的应用对社会发展的影响。  5.3.3 了解我国科技发展的成就，增强科技强国的责任感和使命感。  例 4 了解我国“两弹一星”的成就，体会科技作为国家发展战略支撑的重大意义，树立科技自立自强的信念；知道赵忠"
+      }
+    }
+  },
+  {
+    "relationName": "sectionSupportsThemeL3",
+    "label": "节支撑三级主题 / supportsThemeL3",
+    "source": "urn:jy:physics:SB0401:OB06:Section:70",
+    "target": "urn:jy:physics:OB05:ThemeL3:5-3-2",
+    "evidence": {
+      "matchScore": 0.121,
+      "reason": "基于三级主题内容要求与教材节/章标题的字符n-gram相似度匹配"
+    }
+  }
+]

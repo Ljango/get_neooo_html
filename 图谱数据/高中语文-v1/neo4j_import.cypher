@@ -1,14 +1,14 @@
 // =====================================================
 // 高中语文课标图谱 - Neo4j导入脚本
-// 生成时间: 2026-01-23T15:49:03.095943
+// 生成时间: 2026-01-23T18:05:10.464952
 // =====================================================
 
 // 创建约束和索引
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:LearningTasks) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:AcademicQuality) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:CourseTarget) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:AcademicRequirements) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:CoreLiteracy) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:AcademicRequirements) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:CourseTarget) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:AcademicQuality) REQUIRE n.identifier IS UNIQUE;
 
 // =====================================================
 // 导入实体
