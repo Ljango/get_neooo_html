@@ -110,11 +110,27 @@
         .entity-item .title {
             font-weight: 500;
             margin-bottom: 4px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
         }
         
         .entity-item .meta {
             font-size: 12px;
             color: var(--text-muted);
+        }
+        
+        /* 水平/等级标签样式 */
+        .level-badge {
+            display: inline-block;
+            padding: 2px 6px;
+            font-size: 11px;
+            font-weight: 500;
+            border-radius: 3px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            white-space: nowrap;
         }
         
         .detail-content {
@@ -533,6 +549,9 @@
                         </div>
                         
                         <div class="filter-bar">
+                            <input type="text" id="searchInput" placeholder="搜索标题/标识符..." 
+                                   style="flex: 1; min-width: 150px;" 
+                                   onkeyup="handleSearchInput(event)">
                             <select id="statusFilter" onchange="loadList()">
                                 <option value="">全部状态</option>
                                 <option value="pending">待审核</option>
@@ -832,11 +851,34 @@
             clearDetail();
         }
         
+        // 搜索防抖处理
+        let searchTimeout = null;
+        function handleSearchInput(event) {
+            // 清除之前的超时
+            if (searchTimeout) {
+                clearTimeout(searchTimeout);
+            }
+            
+            // 如果按下回车，立即搜索
+            if (event.key === 'Enter') {
+                currentPage = 1;
+                loadList();
+                return;
+            }
+            
+            // 否则延迟300ms后搜索（防抖）
+            searchTimeout = setTimeout(() => {
+                currentPage = 1;
+                loadList();
+            }, 300);
+        }
+        
         async function loadList() {
             if (!currentSubject) return;
             
             const statusFilter = document.getElementById('statusFilter').value;
             const typeFilter = document.getElementById('typeFilter').value;
+            const searchValue = document.getElementById('searchInput').value.trim();
             const listContainer = document.getElementById('itemList');
             
             listContainer.innerHTML = '<div class="loading">加载中...</div>';
@@ -847,7 +889,8 @@
                     page: currentPage,
                     page_size: pageSize,
                     status_filter: statusFilter || undefined,
-                    entity_type: typeFilter || undefined
+                    entity_type: typeFilter || undefined,
+                    search: searchValue || undefined
                 };
                 
                 // 清理undefined参数
@@ -877,7 +920,10 @@
             
             container.innerHTML = entities.map(e => `
                 <div class="entity-item" onclick="selectEntity('${encodeURIComponent(e.identifier)}')" data-id="${e.identifier}">
-                    <div class="title">${e.title || e.identifier}</div>
+                    <div class="title">
+                        ${e.title || e.identifier}
+                        ${e.level ? `<span class="level-badge">${e.level}</span>` : ''}
+                    </div>
                     <div class="meta">
                         <span>${e.type}</span>
                         ${e.review_status ? `<span class="badge badge-${e.review_status}">${getStatusText(e.review_status)}</span>` : ''}
@@ -1058,6 +1104,12 @@
                             <span class="label">描述</span>
                             <span class="value">${entity.description || '-'}</span>
                         </div>
+                        ${entity.content_json && entity.content_json.standard ? `
+                        <div class="property-item">
+                            <span class="label">水平/等级</span>
+                            <span class="value"><span class="level-badge" style="font-size: 13px; padding: 4px 10px;">${entity.content_json.standard}</span></span>
+                        </div>
+                        ` : ''}
                         ${entity.subject ? `
                         <div class="property-item">
                             <span class="label">学科</span>

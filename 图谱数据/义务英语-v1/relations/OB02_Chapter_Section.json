@@ -1,0 +1,2680 @@
+{
+  "relations": [
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:001",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:01"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:001"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:002",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:01"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:002"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:003",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:01"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:003"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:004",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:01"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:004"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:005",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:02"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:005"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:006",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:02"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:006"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:007",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:02"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:007"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:008",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:02"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:008"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:009",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:03"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:03",
+      "target": "urn:jy:English:SB0102:OB02:Section:009"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:010",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:03"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:03",
+      "target": "urn:jy:English:SB0102:OB02:Section:010"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:011",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:03"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:03",
+      "target": "urn:jy:English:SB0102:OB02:Section:011"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:012",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:03"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:03",
+      "target": "urn:jy:English:SB0102:OB02:Section:012"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:013",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:04"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:04",
+      "target": "urn:jy:English:SB0102:OB02:Section:013"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:014",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:04"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:04",
+      "target": "urn:jy:English:SB0102:OB02:Section:014"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:015",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:04"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:04",
+      "target": "urn:jy:English:SB0102:OB02:Section:015"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:016",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:04"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:04",
+      "target": "urn:jy:English:SB0102:OB02:Section:016"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:017",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:05"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:05",
+      "target": "urn:jy:English:SB0102:OB02:Section:017"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:018",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:05"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:05",
+      "target": "urn:jy:English:SB0102:OB02:Section:018"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:019",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:05"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:05",
+      "target": "urn:jy:English:SB0102:OB02:Section:019"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:020",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:05"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:05",
+      "target": "urn:jy:English:SB0102:OB02:Section:020"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:021",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:06"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:06",
+      "target": "urn:jy:English:SB0102:OB02:Section:021"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:022",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:06"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:06",
+      "target": "urn:jy:English:SB0102:OB02:Section:022"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:023",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:06"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:06",
+      "target": "urn:jy:English:SB0102:OB02:Section:023"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:024",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:06"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:06",
+      "target": "urn:jy:English:SB0102:OB02:Section:024"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:025",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:08"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:08",
+      "target": "urn:jy:English:SB0102:OB02:Section:025"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:026",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:08"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:08",
+      "target": "urn:jy:English:SB0102:OB02:Section:026"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:027",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:08"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:08",
+      "target": "urn:jy:English:SB0102:OB02:Section:027"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:028",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:08"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:08",
+      "target": "urn:jy:English:SB0102:OB02:Section:028"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:029",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:09"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:09",
+      "target": "urn:jy:English:SB0102:OB02:Section:029"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:030",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:09"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:09",
+      "target": "urn:jy:English:SB0102:OB02:Section:030"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:031",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:09"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:09",
+      "target": "urn:jy:English:SB0102:OB02:Section:031"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:032",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:09"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:09",
+      "target": "urn:jy:English:SB0102:OB02:Section:032"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:033",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:10"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:10",
+      "target": "urn:jy:English:SB0102:OB02:Section:033"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:034",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:10"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:10",
+      "target": "urn:jy:English:SB0102:OB02:Section:034"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:035",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:10"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:10",
+      "target": "urn:jy:English:SB0102:OB02:Section:035"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:036",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:10"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:10",
+      "target": "urn:jy:English:SB0102:OB02:Section:036"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:037",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:11"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:11",
+      "target": "urn:jy:English:SB0102:OB02:Section:037"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:038",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:11"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:11",
+      "target": "urn:jy:English:SB0102:OB02:Section:038"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:039",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:11"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:11",
+      "target": "urn:jy:English:SB0102:OB02:Section:039"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:040",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:11"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:11",
+      "target": "urn:jy:English:SB0102:OB02:Section:040"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:041",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:12"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:12",
+      "target": "urn:jy:English:SB0102:OB02:Section:041"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:042",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:12"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:12",
+      "target": "urn:jy:English:SB0102:OB02:Section:042"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:043",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:12"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:12",
+      "target": "urn:jy:English:SB0102:OB02:Section:043"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:044",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:12"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:12",
+      "target": "urn:jy:English:SB0102:OB02:Section:044"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:045",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:13"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:13",
+      "target": "urn:jy:English:SB0102:OB02:Section:045"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:046",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:13"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:13",
+      "target": "urn:jy:English:SB0102:OB02:Section:046"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:047",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:13"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:13",
+      "target": "urn:jy:English:SB0102:OB02:Section:047"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:048",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:13"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:13",
+      "target": "urn:jy:English:SB0102:OB02:Section:048"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:049",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:15"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:15",
+      "target": "urn:jy:English:SB0102:OB02:Section:049"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:050",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:15"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:15",
+      "target": "urn:jy:English:SB0102:OB02:Section:050"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:051",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:15"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:15",
+      "target": "urn:jy:English:SB0102:OB02:Section:051"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:052",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:15"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:15",
+      "target": "urn:jy:English:SB0102:OB02:Section:052"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:053",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:16"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:16",
+      "target": "urn:jy:English:SB0102:OB02:Section:053"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:054",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:16"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:16",
+      "target": "urn:jy:English:SB0102:OB02:Section:054"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:055",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:16"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:16",
+      "target": "urn:jy:English:SB0102:OB02:Section:055"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:056",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:16"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:16",
+      "target": "urn:jy:English:SB0102:OB02:Section:056"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:057",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:17"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:17",
+      "target": "urn:jy:English:SB0102:OB02:Section:057"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:058",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:17"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:17",
+      "target": "urn:jy:English:SB0102:OB02:Section:058"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:059",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:17"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:17",
+      "target": "urn:jy:English:SB0102:OB02:Section:059"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:060",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:17"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:17",
+      "target": "urn:jy:English:SB0102:OB02:Section:060"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:061",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:18"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:18",
+      "target": "urn:jy:English:SB0102:OB02:Section:061"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:062",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:18"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:18",
+      "target": "urn:jy:English:SB0102:OB02:Section:062"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:063",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:18"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:18",
+      "target": "urn:jy:English:SB0102:OB02:Section:063"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:064",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:18"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:18",
+      "target": "urn:jy:English:SB0102:OB02:Section:064"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:065",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:19"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:19",
+      "target": "urn:jy:English:SB0102:OB02:Section:065"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:066",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:19"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:19",
+      "target": "urn:jy:English:SB0102:OB02:Section:066"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:067",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:19"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:19",
+      "target": "urn:jy:English:SB0102:OB02:Section:067"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:068",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:19"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:19",
+      "target": "urn:jy:English:SB0102:OB02:Section:068"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:069",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:20"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:20",
+      "target": "urn:jy:English:SB0102:OB02:Section:069"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:070",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:20"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:20",
+      "target": "urn:jy:English:SB0102:OB02:Section:070"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:071",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:20"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:20",
+      "target": "urn:jy:English:SB0102:OB02:Section:071"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:072",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:20"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:20",
+      "target": "urn:jy:English:SB0102:OB02:Section:072"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:073",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:26"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:26",
+      "target": "urn:jy:English:SB0102:OB02:Section:073"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:074",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:26"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:26",
+      "target": "urn:jy:English:SB0102:OB02:Section:074"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:075",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:26"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:26",
+      "target": "urn:jy:English:SB0102:OB02:Section:075"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:076",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:27"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:27",
+      "target": "urn:jy:English:SB0102:OB02:Section:076"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:077",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:27"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:27",
+      "target": "urn:jy:English:SB0102:OB02:Section:077"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:078",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:27"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:27",
+      "target": "urn:jy:English:SB0102:OB02:Section:078"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:079",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:28"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:28",
+      "target": "urn:jy:English:SB0102:OB02:Section:079"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:080",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:28"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:28",
+      "target": "urn:jy:English:SB0102:OB02:Section:080"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:081",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:28"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:28",
+      "target": "urn:jy:English:SB0102:OB02:Section:081"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:082",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:30"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:30",
+      "target": "urn:jy:English:SB0102:OB02:Section:082"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:083",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:30"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:30",
+      "target": "urn:jy:English:SB0102:OB02:Section:083"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:084",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:30"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:30",
+      "target": "urn:jy:English:SB0102:OB02:Section:084"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:085",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:31"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:31",
+      "target": "urn:jy:English:SB0102:OB02:Section:085"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:086",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:31"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:31",
+      "target": "urn:jy:English:SB0102:OB02:Section:086"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:087",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:31"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:31",
+      "target": "urn:jy:English:SB0102:OB02:Section:087"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:088",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:32"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:32",
+      "target": "urn:jy:English:SB0102:OB02:Section:088"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:089",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:32"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:32",
+      "target": "urn:jy:English:SB0102:OB02:Section:089"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:090",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:32"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:32",
+      "target": "urn:jy:English:SB0102:OB02:Section:090"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:091",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:34"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:34",
+      "target": "urn:jy:English:SB0102:OB02:Section:091"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:092",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:34"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:34",
+      "target": "urn:jy:English:SB0102:OB02:Section:092"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:093",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:34"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:34",
+      "target": "urn:jy:English:SB0102:OB02:Section:093"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:094",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:35"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:35",
+      "target": "urn:jy:English:SB0102:OB02:Section:094"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:095",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:35"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:35",
+      "target": "urn:jy:English:SB0102:OB02:Section:095"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:096",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:35"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:35",
+      "target": "urn:jy:English:SB0102:OB02:Section:096"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:097",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:36"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:36",
+      "target": "urn:jy:English:SB0102:OB02:Section:097"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:098",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:36"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:36",
+      "target": "urn:jy:English:SB0102:OB02:Section:098"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:099",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:36"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:36",
+      "target": "urn:jy:English:SB0102:OB02:Section:099"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:100",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:38"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:38",
+      "target": "urn:jy:English:SB0102:OB02:Section:100"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:101",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:38"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:38",
+      "target": "urn:jy:English:SB0102:OB02:Section:101"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:102",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:38"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:38",
+      "target": "urn:jy:English:SB0102:OB02:Section:102"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:103",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:39"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:39",
+      "target": "urn:jy:English:SB0102:OB02:Section:103"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:104",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:39"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:39",
+      "target": "urn:jy:English:SB0102:OB02:Section:104"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:105",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:39"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:39",
+      "target": "urn:jy:English:SB0102:OB02:Section:105"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:106",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:40"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:40",
+      "target": "urn:jy:English:SB0102:OB02:Section:106"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:107",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:40"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:40",
+      "target": "urn:jy:English:SB0102:OB02:Section:107"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:108",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:40"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:40",
+      "target": "urn:jy:English:SB0102:OB02:Section:108"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:109",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:42"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:42",
+      "target": "urn:jy:English:SB0102:OB02:Section:109"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:110",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:42"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:42",
+      "target": "urn:jy:English:SB0102:OB02:Section:110"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:111",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:42"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:42",
+      "target": "urn:jy:English:SB0102:OB02:Section:111"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:112",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:43"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:43",
+      "target": "urn:jy:English:SB0102:OB02:Section:112"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:113",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:43"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:43",
+      "target": "urn:jy:English:SB0102:OB02:Section:113"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:114",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:43"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:43",
+      "target": "urn:jy:English:SB0102:OB02:Section:114"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:115",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:44"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:44",
+      "target": "urn:jy:English:SB0102:OB02:Section:115"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:116",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:44"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:44",
+      "target": "urn:jy:English:SB0102:OB02:Section:116"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:117",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:44"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:44",
+      "target": "urn:jy:English:SB0102:OB02:Section:117"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:118",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:46"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:46",
+      "target": "urn:jy:English:SB0102:OB02:Section:118"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:119",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:46"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:46",
+      "target": "urn:jy:English:SB0102:OB02:Section:119"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:120",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:46"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:46",
+      "target": "urn:jy:English:SB0102:OB02:Section:120"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:121",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:47"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:47",
+      "target": "urn:jy:English:SB0102:OB02:Section:121"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:122",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:47"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:47",
+      "target": "urn:jy:English:SB0102:OB02:Section:122"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:123",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:47"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:47",
+      "target": "urn:jy:English:SB0102:OB02:Section:123"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:124",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:48"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:48",
+      "target": "urn:jy:English:SB0102:OB02:Section:124"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:125",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:48"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:48",
+      "target": "urn:jy:English:SB0102:OB02:Section:125"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:126",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:48"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:48",
+      "target": "urn:jy:English:SB0102:OB02:Section:126"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:127",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:50"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:50",
+      "target": "urn:jy:English:SB0102:OB02:Section:127"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:128",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:51"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:51",
+      "target": "urn:jy:English:SB0102:OB02:Section:128"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:129",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:51"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:51",
+      "target": "urn:jy:English:SB0102:OB02:Section:129"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:130",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:51"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:51",
+      "target": "urn:jy:English:SB0102:OB02:Section:130"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:131",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:51"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:51",
+      "target": "urn:jy:English:SB0102:OB02:Section:131"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:132",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:51"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:51",
+      "target": "urn:jy:English:SB0102:OB02:Section:132"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:133",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:51"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:51",
+      "target": "urn:jy:English:SB0102:OB02:Section:133"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:134",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:51"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:51",
+      "target": "urn:jy:English:SB0102:OB02:Section:134"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:135",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:51"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:51",
+      "target": "urn:jy:English:SB0102:OB02:Section:135"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:136",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:52"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:52",
+      "target": "urn:jy:English:SB0102:OB02:Section:136"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:137",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:52"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:52",
+      "target": "urn:jy:English:SB0102:OB02:Section:137"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:138",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:52"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:52",
+      "target": "urn:jy:English:SB0102:OB02:Section:138"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:139",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:52"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:52",
+      "target": "urn:jy:English:SB0102:OB02:Section:139"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:140",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:52"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:52",
+      "target": "urn:jy:English:SB0102:OB02:Section:140"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:141",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:52"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:52",
+      "target": "urn:jy:English:SB0102:OB02:Section:141"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:142",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:52"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:52",
+      "target": "urn:jy:English:SB0102:OB02:Section:142"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:143",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:52"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:52",
+      "target": "urn:jy:English:SB0102:OB02:Section:143"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:144",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:53"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:53",
+      "target": "urn:jy:English:SB0102:OB02:Section:144"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:145",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:53"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:53",
+      "target": "urn:jy:English:SB0102:OB02:Section:145"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:146",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:53"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:53",
+      "target": "urn:jy:English:SB0102:OB02:Section:146"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:147",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:53"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:53",
+      "target": "urn:jy:English:SB0102:OB02:Section:147"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:148",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:53"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:53",
+      "target": "urn:jy:English:SB0102:OB02:Section:148"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:149",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:53"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:53",
+      "target": "urn:jy:English:SB0102:OB02:Section:149"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:150",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:53"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:53",
+      "target": "urn:jy:English:SB0102:OB02:Section:150"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:151",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:53"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:53",
+      "target": "urn:jy:English:SB0102:OB02:Section:151"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:152",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:54"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:54",
+      "target": "urn:jy:English:SB0102:OB02:Section:152"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:153",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:54"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:54",
+      "target": "urn:jy:English:SB0102:OB02:Section:153"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:154",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:54"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:54",
+      "target": "urn:jy:English:SB0102:OB02:Section:154"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:155",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:55"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:55",
+      "target": "urn:jy:English:SB0102:OB02:Section:155"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:156",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:55"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:55",
+      "target": "urn:jy:English:SB0102:OB02:Section:156"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:157",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:55"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:55",
+      "target": "urn:jy:English:SB0102:OB02:Section:157"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:158",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:55"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:55",
+      "target": "urn:jy:English:SB0102:OB02:Section:158"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:159",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:55"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:55",
+      "target": "urn:jy:English:SB0102:OB02:Section:159"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:160",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:55"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:55",
+      "target": "urn:jy:English:SB0102:OB02:Section:160"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:161",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:55"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:55",
+      "target": "urn:jy:English:SB0102:OB02:Section:161"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:162",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:55"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:55",
+      "target": "urn:jy:English:SB0102:OB02:Section:162"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:163",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:56"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:56",
+      "target": "urn:jy:English:SB0102:OB02:Section:163"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:164",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:56"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:56",
+      "target": "urn:jy:English:SB0102:OB02:Section:164"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:165",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:56"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:56",
+      "target": "urn:jy:English:SB0102:OB02:Section:165"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:166",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:56"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:56",
+      "target": "urn:jy:English:SB0102:OB02:Section:166"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:167",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:56"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:56",
+      "target": "urn:jy:English:SB0102:OB02:Section:167"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:168",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:56"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:56",
+      "target": "urn:jy:English:SB0102:OB02:Section:168"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:169",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:56"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:56",
+      "target": "urn:jy:English:SB0102:OB02:Section:169"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:170",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:56"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:56",
+      "target": "urn:jy:English:SB0102:OB02:Section:170"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:171",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:57"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:57",
+      "target": "urn:jy:English:SB0102:OB02:Section:171"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:172",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:57"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:57",
+      "target": "urn:jy:English:SB0102:OB02:Section:172"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:173",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:57"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:57",
+      "target": "urn:jy:English:SB0102:OB02:Section:173"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:174",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:57"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:57",
+      "target": "urn:jy:English:SB0102:OB02:Section:174"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:175",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:57"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:57",
+      "target": "urn:jy:English:SB0102:OB02:Section:175"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:176",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:57"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:57",
+      "target": "urn:jy:English:SB0102:OB02:Section:176"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:177",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:57"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:57",
+      "target": "urn:jy:English:SB0102:OB02:Section:177"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:178",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:57"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:57",
+      "target": "urn:jy:English:SB0102:OB02:Section:178"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:179",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:58"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:58",
+      "target": "urn:jy:English:SB0102:OB02:Section:179"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:180",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:58"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:58",
+      "target": "urn:jy:English:SB0102:OB02:Section:180"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:181",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:58"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:58",
+      "target": "urn:jy:English:SB0102:OB02:Section:181"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:182",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:63"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:63",
+      "target": "urn:jy:English:SB0102:OB02:Section:182"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:183",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:63"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:63",
+      "target": "urn:jy:English:SB0102:OB02:Section:183"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:184",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:63"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:63",
+      "target": "urn:jy:English:SB0102:OB02:Section:184"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:185",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:63"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:63",
+      "target": "urn:jy:English:SB0102:OB02:Section:185"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:186",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:63"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:63",
+      "target": "urn:jy:English:SB0102:OB02:Section:186"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:187",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:63"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:63",
+      "target": "urn:jy:English:SB0102:OB02:Section:187"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:188",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:64"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:64",
+      "target": "urn:jy:English:SB0102:OB02:Section:188"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:189",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:64"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:64",
+      "target": "urn:jy:English:SB0102:OB02:Section:189"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:190",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:64"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:64",
+      "target": "urn:jy:English:SB0102:OB02:Section:190"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:191",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:64"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:64",
+      "target": "urn:jy:English:SB0102:OB02:Section:191"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:192",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:64"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:64",
+      "target": "urn:jy:English:SB0102:OB02:Section:192"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:193",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:64"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:64",
+      "target": "urn:jy:English:SB0102:OB02:Section:193"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:194",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:65"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:65",
+      "target": "urn:jy:English:SB0102:OB02:Section:194"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:195",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:65"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:65",
+      "target": "urn:jy:English:SB0102:OB02:Section:195"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:196",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:65"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:65",
+      "target": "urn:jy:English:SB0102:OB02:Section:196"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:197",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:65"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:65",
+      "target": "urn:jy:English:SB0102:OB02:Section:197"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:198",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:65"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:65",
+      "target": "urn:jy:English:SB0102:OB02:Section:198"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:199",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:65"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:65",
+      "target": "urn:jy:English:SB0102:OB02:Section:199"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:200",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:66"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:66",
+      "target": "urn:jy:English:SB0102:OB02:Section:200"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:201",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:66"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:66",
+      "target": "urn:jy:English:SB0102:OB02:Section:201"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:202",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:66"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:66",
+      "target": "urn:jy:English:SB0102:OB02:Section:202"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:203",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:66"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:66",
+      "target": "urn:jy:English:SB0102:OB02:Section:203"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:204",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:66"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:66",
+      "target": "urn:jy:English:SB0102:OB02:Section:204"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:205",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:66"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:66",
+      "target": "urn:jy:English:SB0102:OB02:Section:205"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:206",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:67"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:67",
+      "target": "urn:jy:English:SB0102:OB02:Section:206"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:207",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:67"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:67",
+      "target": "urn:jy:English:SB0102:OB02:Section:207"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:208",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:67"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:67",
+      "target": "urn:jy:English:SB0102:OB02:Section:208"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:209",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:67"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:67",
+      "target": "urn:jy:English:SB0102:OB02:Section:209"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:210",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:67"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:67",
+      "target": "urn:jy:English:SB0102:OB02:Section:210"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:211",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:67"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:67",
+      "target": "urn:jy:English:SB0102:OB02:Section:211"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:212",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:68"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:68",
+      "target": "urn:jy:English:SB0102:OB02:Section:212"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:213",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:68"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:68",
+      "target": "urn:jy:English:SB0102:OB02:Section:213"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:214",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:68"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:68",
+      "target": "urn:jy:English:SB0102:OB02:Section:214"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:215",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:68"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:68",
+      "target": "urn:jy:English:SB0102:OB02:Section:215"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:216",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:68"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:68",
+      "target": "urn:jy:English:SB0102:OB02:Section:216"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:217",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:68"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:68",
+      "target": "urn:jy:English:SB0102:OB02:Section:217"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:218",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:69"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:69",
+      "target": "urn:jy:English:SB0102:OB02:Section:218"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:219",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:69"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:69",
+      "target": "urn:jy:English:SB0102:OB02:Section:219"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:220",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:69"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:69",
+      "target": "urn:jy:English:SB0102:OB02:Section:220"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:221",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:69"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:69",
+      "target": "urn:jy:English:SB0102:OB02:Section:221"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:222",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:69"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:69",
+      "target": "urn:jy:English:SB0102:OB02:Section:222"
+    },
+    {
+      "relationName": "SectionBelongsToChapter",
+      "label": "小节隶属章节 / belongsToChapter",
+      "source": "urn:jy:English:SB0102:OB02:Section:223",
+      "target": "urn:jy:English:SB0102:OB02:Chapter:69"
+    },
+    {
+      "relationName": "ChapterHasSection",
+      "label": "章节包含小节 / hasSection",
+      "source": "urn:jy:English:SB0102:OB02:Chapter:69",
+      "target": "urn:jy:English:SB0102:OB02:Section:223"
+    }
+  ]
+}

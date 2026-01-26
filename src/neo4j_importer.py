@@ -270,12 +270,22 @@ class Neo4jImporter:
         uri = self._get_uri()
         
         try:
-            driver = GraphDatabase.driver(uri, auth=(self.db_user, self.db_password))
+            # 如果用户名和密码为空或None，尝试无认证连接
+            if self.db_user and self.db_password:
+                driver = GraphDatabase.driver(uri, auth=(self.db_user, self.db_password))
+            else:
+                driver = GraphDatabase.driver(uri)
             driver.verify_connectivity()
             print(f"\n✓ 成功连接到 Neo4j: {uri}")
         except Exception as e:
-            print(f"✗ 连接失败: {e}")
-            return False
+            # 如果认证失败，尝试无认证连接
+            try:
+                driver = GraphDatabase.driver(uri)
+                driver.verify_connectivity()
+                print(f"\n✓ 成功连接到 Neo4j (无认证): {uri}")
+            except Exception as e2:
+                print(f"✗ 连接失败: {e}")
+                return False
         
         if not self._ensure_database_exists(driver):
             driver.close()
@@ -424,8 +434,17 @@ class Neo4jImporter:
         uri = self._get_uri()
         
         try:
-            driver = GraphDatabase.driver(uri, auth=(self.db_user, self.db_password))
-            driver.verify_connectivity()
+            # 如果用户名和密码为空或None，尝试无认证连接
+            if self.db_user and self.db_password:
+                driver = GraphDatabase.driver(uri, auth=(self.db_user, self.db_password))
+            else:
+                driver = GraphDatabase.driver(uri)
+            try:
+                driver.verify_connectivity()
+            except:
+                # 如果认证失败，尝试无认证连接
+                driver = GraphDatabase.driver(uri)
+                driver.verify_connectivity()
             
             with driver.session(database=self.db_name) as session:
                 # 删除该学科的所有节点和关系

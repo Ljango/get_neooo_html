@@ -1,0 +1,70 @@
+{
+  "relations": [
+    {
+      "relationName": "courseTargetRelatesTheme",
+      "label": "获得生物体的结构层次、生物的多样性、生物与环境、植物的生活、人体生理与健康、遗传与进化等方面的基础知识",
+      "source": "urn:jy:biology:SB0403:OB03:CourseTarget:l1",
+      "target": "urn:jy:biology:SB0403:OB03:LearningTheme:l1"
+    },
+    {
+      "relationName": "courseTargetRelatesTheme",
+      "label": "获得生物体的结构层次、生物的多样性、生物与环境、植物的生活、人体生理与健康、遗传与进化等方面的基础知识",
+      "source": "urn:jy:biology:SB0403:OB03:CourseTarget:l1",
+      "target": "urn:jy:biology:SB0403:OB03:LearningTheme:l2"
+    },
+    {
+      "relationName": "courseTargetRelatesTheme",
+      "label": "初步形成生物学的结构与功能观、物质与能量观、进化与适应观、生态观等生命观念",
+      "source": "urn:jy:biology:SB0403:OB03:CourseTarget:l1",
+      "target": "urn:jy:biology:SB0403:OB03:LearningTheme:l3"
+    },
+    {
+      "relationName": "courseTargetRelatesTheme",
+      "label": "应用生命观念探讨和阐释生命现象及规律，认识生物界的多样性和统一性",
+      "source": "urn:jy:biology:SB0403:OB03:CourseTarget:l1",
+      "target": "urn:jy:biology:SB0403:OB03:LearningTheme:l3"
+    },
+    {
+      "relationName": "courseTargetRelatesTheme",
+      "label": "能够应用生命观念分析生活中遇到的一些与生物学相关的实际问题",
+      "source": "urn:jy:biology:SB0403:OB03:CourseTarget:l1",
+      "target": "urn:jy:biology:SB0403:OB03:LearningTheme:l1"
+    },
+    {
+      "relationName": "courseTargetRelatesTheme",
+      "label": "初步掌握科学思维方法，具备一定的科学思维习惯和能力",
+      "source": "urn:jy:biology:SB0403:OB03:CourseTarget:l2",
+      "target": "urn:jy:biology:SB0403:OB03:LearningTheme:l4"
+    },
+    {
+      "relationName": "courseTargetRelatesTheme",
+      "label": "运用科学思维探讨真实情境中的生物学问题，参与社会性科学议题的讨论",
+      "source": "urn:jy:biology:SB0403:OB03:CourseTarget:l2",
+      "target": "urn:jy:biology:SB0403:OB03:LearningTheme:l7"
+    },
+    {
+      "relationName": "courseTargetRelatesTheme",
+      "label": "能够分析解决真实情境中的生物学问题，逐步形成团队合作意识和实践创新意识",
+      "source": "urn:jy:biology:SB0403:OB03:CourseTarget:l3",
+      "target": "urn:jy:biology:SB0403:OB03:LearningTheme:l7"
+    },
+    {
+      "relationName": "courseTargetRelatesTheme",
+      "label": "初步理解科学的本质，乐于探索自然界的奥秘",
+      "source": "urn:jy:biology:SB0403:OB03:CourseTarget:l4",
+      "target": "urn:jy:biology:SB0403:OB03:LearningTheme:l4"
+    },
+    {
+      "relationName": "courseTargetRelatesTheme",
+      "label": "关注身体内外各种因素对健康的影响，形成健康生活的态度和行为习惯",
+      "source": "urn:jy:biology:SB0403:OB03:CourseTarget:l5",
+      "target": "urn:jy:biology:SB0403:OB03:LearningTheme:l5"
+    },
+    {
+      "relationName": "courseTargetRelatesTheme",
+      "label": "树立健康意识和社会责任感，能够强身健体和服务社会",
+      "source": "urn:jy:biology:SB0403:OB03:CourseTarget:l5",
+      "target": "urn:jy:biology:SB0403:OB03:LearningTheme:l6"
+    }
+  ]
+}

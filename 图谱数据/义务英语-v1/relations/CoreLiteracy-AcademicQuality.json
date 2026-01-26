@@ -1,0 +1,436 @@
+{
+  "relations": [
+    {
+      "relationName": "academicQualityReflectsLiteracy",
+      "label": "反映核心素养要求 / reflect core literacy requirements",
+      "source": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01"
+    },
+    {
+      "relationName": "literacyIsReflectedByAcademicQuality",
+      "label": "反映核心素养要求 / reflect core literacy requirements",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:01"
+    },
+    {
+      "relationName": "academicQualityReflectsLiteracy",
+      "label": "反映核心素养要求 / reflect core literacy requirements",
+      "source": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02"
+    },
+    {
+      "relationName": "literacyIsReflectedByAcademicQuality",
+      "label": "反映核心素养要求 / reflect core literacy requirements",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:01"
+    },
+    {
+      "relationName": "academicQualityReflectsLiteracy",
+      "label": "反映核心素养要求 / reflect core literacy requirements",
+      "source": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03"
+    },
+    {
+      "relationName": "literacyIsReflectedByAcademicQuality",
+      "label": "反映核心素养要求 / reflect core literacy requirements",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:01"
+    },
+    {
+      "relationName": "academicQualityReflectsLiteracy",
+      "label": "反映核心素养要求 / reflect core literacy requirements",
+      "source": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04"
+    },
+    {
+      "relationName": "literacyIsReflectedByAcademicQuality",
+      "label": "反映核心素养要求 / reflect core literacy requirements",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04",
+      "target": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:01"
+    },
+    {
+      "relationName": "academicQualityReflectsLiteracy",
+      "label": "反映核心素养要求 / reflect core literacy requirements",
+      "source": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01"
+    },
+    {
+      "relationName": "literacyIsReflectedByAcademicQuality",
+      "label": "反映核心素养要求 / reflect core literacy requirements",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:02"
+    },
+    {
+      "relationName": "academicQualityReflectsLiteracy",
+      "label": "反映核心素养要求 / reflect core literacy requirements",
+      "source": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02"
+    },
+    {
+      "relationName": "literacyIsReflectedByAcademicQuality",
+      "label": "反映核心素养要求 / reflect core literacy requirements",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:02"
+    },
+    {
+      "relationName": "academicQualityReflectsLiteracy",
+      "label": "反映核心素养要求 / reflect core literacy requirements",
+      "source": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03"
+    },
+    {
+      "relationName": "literacyIsReflectedByAcademicQuality",
+      "label": "反映核心素养要求 / reflect core literacy requirements",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:02"
+    },
+    {
+      "relationName": "academicQualityReflectsLiteracy",
+      "label": "反映核心素养要求 / reflect core literacy requirements",
+      "source": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04"
+    },
+    {
+      "relationName": "literacyIsReflectedByAcademicQuality",
+      "label": "反映核心素养要求 / reflect core literacy requirements",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04",
+      "target": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:02"
+    },
+    {
+      "relationName": "academicQualityReflectsLiteracy",
+      "label": "反映核心素养要求 / reflect core literacy requirements",
+      "source": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01"
+    },
+    {
+      "relationName": "literacyIsReflectedByAcademicQuality",
+      "label": "反映核心素养要求 / reflect core literacy requirements",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:03"
+    },
+    {
+      "relationName": "academicQualityReflectsLiteracy",
+      "label": "反映核心素养要求 / reflect core literacy requirements",
+      "source": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02"
+    },
+    {
+      "relationName": "literacyIsReflectedByAcademicQuality",
+      "label": "反映核心素养要求 / reflect core literacy requirements",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:03"
+    },
+    {
+      "relationName": "academicQualityReflectsLiteracy",
+      "label": "反映核心素养要求 / reflect core literacy requirements",
+      "source": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03"
+    },
+    {
+      "relationName": "literacyIsReflectedByAcademicQuality",
+      "label": "反映核心素养要求 / reflect core literacy requirements",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:03"
+    },
+    {
+      "relationName": "academicQualityReflectsLiteracy",
+      "label": "反映核心素养要求 / reflect core literacy requirements",
+      "source": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04"
+    },
+    {
+      "relationName": "literacyIsReflectedByAcademicQuality",
+      "label": "反映核心素养要求 / reflect core literacy requirements",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04",
+      "target": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:03"
+    },
+    {
+      "relationName": "academicQualityIsBasedOnLiteracy",
+      "label": "英语学业质量标准以学生在语言能力、文化意识、思维品质和学习能力等方面的核心素养及其学段目标为基础 / based on students’ core literacy (language competence, cultural awareness, thinking quality, and learning ability) and their stage-specific targets",
+      "source": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01"
+    },
+    {
+      "relationName": "literacyIsBasisForAcademicQuality",
+      "label": "英语学业质量标准以学生在语言能力、文化意识、思维品质和学习能力等方面的核心素养及其学段目标为基础 / based on students’ core literacy (language competence, cultural awareness, thinking quality, and learning ability) and their stage-specific targets",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:01"
+    },
+    {
+      "relationName": "academicQualityIsBasedOnLiteracy",
+      "label": "英语学业质量标准以学生在语言能力、文化意识、思维品质和学习能力等方面的核心素养及其学段目标为基础 / based on students’ core literacy (language competence, cultural awareness, thinking quality, and learning ability) and their stage-specific targets",
+      "source": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02"
+    },
+    {
+      "relationName": "literacyIsBasisForAcademicQuality",
+      "label": "英语学业质量标准以学生在语言能力、文化意识、思维品质和学习能力等方面的核心素养及其学段目标为基础 / based on students’ core literacy (language competence, cultural awareness, thinking quality, and learning ability) and their stage-specific targets",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:01"
+    },
+    {
+      "relationName": "academicQualityIsBasedOnLiteracy",
+      "label": "英语学业质量标准以学生在语言能力、文化意识、思维品质和学习能力等方面的核心素养及其学段目标为基础 / based on students’ core literacy (language competence, cultural awareness, thinking quality, and learning ability) and their stage-specific targets",
+      "source": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03"
+    },
+    {
+      "relationName": "literacyIsBasisForAcademicQuality",
+      "label": "英语学业质量标准以学生在语言能力、文化意识、思维品质和学习能力等方面的核心素养及其学段目标为基础 / based on students’ core literacy (language competence, cultural awareness, thinking quality, and learning ability) and their stage-specific targets",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:01"
+    },
+    {
+      "relationName": "academicQualityIsBasedOnLiteracy",
+      "label": "英语学业质量标准以学生在语言能力、文化意识、思维品质和学习能力等方面的核心素养及其学段目标为基础 / based on students’ core literacy (language competence, cultural awareness, thinking quality, and learning ability) and their stage-specific targets",
+      "source": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04"
+    },
+    {
+      "relationName": "literacyIsBasisForAcademicQuality",
+      "label": "英语学业质量标准以学生在语言能力、文化意识、思维品质和学习能力等方面的核心素养及其学段目标为基础 / based on students’ core literacy (language competence, cultural awareness, thinking quality, and learning ability) and their stage-specific targets",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04",
+      "target": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:01"
+    },
+    {
+      "relationName": "academicQualityIsBasedOnLiteracy",
+      "label": "英语学业质量标准以学生在语言能力、文化意识、思维品质和学习能力等方面的核心素养及其学段目标为基础 / based on students’ core literacy (language competence, cultural awareness, thinking quality, and learning ability) and their stage-specific targets",
+      "source": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01"
+    },
+    {
+      "relationName": "literacyIsBasisForAcademicQuality",
+      "label": "英语学业质量标准以学生在语言能力、文化意识、思维品质和学习能力等方面的核心素养及其学段目标为基础 / based on students’ core literacy (language competence, cultural awareness, thinking quality, and learning ability) and their stage-specific targets",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:02"
+    },
+    {
+      "relationName": "academicQualityIsBasedOnLiteracy",
+      "label": "英语学业质量标准以学生在语言能力、文化意识、思维品质和学习能力等方面的核心素养及其学段目标为基础 / based on students’ core literacy (language competence, cultural awareness, thinking quality, and learning ability) and their stage-specific targets",
+      "source": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02"
+    },
+    {
+      "relationName": "literacyIsBasisForAcademicQuality",
+      "label": "英语学业质量标准以学生在语言能力、文化意识、思维品质和学习能力等方面的核心素养及其学段目标为基础 / based on students’ core literacy (language competence, cultural awareness, thinking quality, and learning ability) and their stage-specific targets",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:02"
+    },
+    {
+      "relationName": "academicQualityIsBasedOnLiteracy",
+      "label": "英语学业质量标准以学生在语言能力、文化意识、思维品质和学习能力等方面的核心素养及其学段目标为基础 / based on students’ core literacy (language competence, cultural awareness, thinking quality, and learning ability) and their stage-specific targets",
+      "source": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03"
+    },
+    {
+      "relationName": "literacyIsBasisForAcademicQuality",
+      "label": "英语学业质量标准以学生在语言能力、文化意识、思维品质和学习能力等方面的核心素养及其学段目标为基础 / based on students’ core literacy (language competence, cultural awareness, thinking quality, and learning ability) and their stage-specific targets",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:02"
+    },
+    {
+      "relationName": "academicQualityIsBasedOnLiteracy",
+      "label": "英语学业质量标准以学生在语言能力、文化意识、思维品质和学习能力等方面的核心素养及其学段目标为基础 / based on students’ core literacy (language competence, cultural awareness, thinking quality, and learning ability) and their stage-specific targets",
+      "source": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04"
+    },
+    {
+      "relationName": "literacyIsBasisForAcademicQuality",
+      "label": "英语学业质量标准以学生在语言能力、文化意识、思维品质和学习能力等方面的核心素养及其学段目标为基础 / based on students’ core literacy (language competence, cultural awareness, thinking quality, and learning ability) and their stage-specific targets",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04",
+      "target": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:02"
+    },
+    {
+      "relationName": "academicQualityIsBasedOnLiteracy",
+      "label": "英语学业质量标准以学生在语言能力、文化意识、思维品质和学习能力等方面的核心素养及其学段目标为基础 / based on students’ core literacy (language competence, cultural awareness, thinking quality, and learning ability) and their stage-specific targets",
+      "source": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01"
+    },
+    {
+      "relationName": "literacyIsBasisForAcademicQuality",
+      "label": "英语学业质量标准以学生在语言能力、文化意识、思维品质和学习能力等方面的核心素养及其学段目标为基础 / based on students’ core literacy (language competence, cultural awareness, thinking quality, and learning ability) and their stage-specific targets",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:03"
+    },
+    {
+      "relationName": "academicQualityIsBasedOnLiteracy",
+      "label": "英语学业质量标准以学生在语言能力、文化意识、思维品质和学习能力等方面的核心素养及其学段目标为基础 / based on students’ core literacy (language competence, cultural awareness, thinking quality, and learning ability) and their stage-specific targets",
+      "source": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02"
+    },
+    {
+      "relationName": "literacyIsBasisForAcademicQuality",
+      "label": "英语学业质量标准以学生在语言能力、文化意识、思维品质和学习能力等方面的核心素养及其学段目标为基础 / based on students’ core literacy (language competence, cultural awareness, thinking quality, and learning ability) and their stage-specific targets",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:03"
+    },
+    {
+      "relationName": "academicQualityIsBasedOnLiteracy",
+      "label": "英语学业质量标准以学生在语言能力、文化意识、思维品质和学习能力等方面的核心素养及其学段目标为基础 / based on students’ core literacy (language competence, cultural awareness, thinking quality, and learning ability) and their stage-specific targets",
+      "source": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03"
+    },
+    {
+      "relationName": "literacyIsBasisForAcademicQuality",
+      "label": "英语学业质量标准以学生在语言能力、文化意识、思维品质和学习能力等方面的核心素养及其学段目标为基础 / based on students’ core literacy (language competence, cultural awareness, thinking quality, and learning ability) and their stage-specific targets",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:03"
+    },
+    {
+      "relationName": "academicQualityIsBasedOnLiteracy",
+      "label": "英语学业质量标准以学生在语言能力、文化意识、思维品质和学习能力等方面的核心素养及其学段目标为基础 / based on students’ core literacy (language competence, cultural awareness, thinking quality, and learning ability) and their stage-specific targets",
+      "source": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04"
+    },
+    {
+      "relationName": "literacyIsBasisForAcademicQuality",
+      "label": "英语学业质量标准以学生在语言能力、文化意识、思维品质和学习能力等方面的核心素养及其学段目标为基础 / based on students’ core literacy (language competence, cultural awareness, thinking quality, and learning ability) and their stage-specific targets",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04",
+      "target": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:03"
+    },
+    {
+      "relationName": "academicQualityTakesLiteracyAsMainDimension",
+      "label": "以核心素养为主要维度 / take core literacy as the main dimension",
+      "source": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01"
+    },
+    {
+      "relationName": "literacyIsMainDimensionOfAcademicQuality",
+      "label": "以核心素养为主要维度 / take core literacy as the main dimension",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:01"
+    },
+    {
+      "relationName": "academicQualityTakesLiteracyAsMainDimension",
+      "label": "以核心素养为主要维度 / take core literacy as the main dimension",
+      "source": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02"
+    },
+    {
+      "relationName": "literacyIsMainDimensionOfAcademicQuality",
+      "label": "以核心素养为主要维度 / take core literacy as the main dimension",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:01"
+    },
+    {
+      "relationName": "academicQualityTakesLiteracyAsMainDimension",
+      "label": "以核心素养为主要维度 / take core literacy as the main dimension",
+      "source": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03"
+    },
+    {
+      "relationName": "literacyIsMainDimensionOfAcademicQuality",
+      "label": "以核心素养为主要维度 / take core literacy as the main dimension",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:01"
+    },
+    {
+      "relationName": "academicQualityTakesLiteracyAsMainDimension",
+      "label": "以核心素养为主要维度 / take core literacy as the main dimension",
+      "source": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04"
+    },
+    {
+      "relationName": "literacyIsMainDimensionOfAcademicQuality",
+      "label": "以核心素养为主要维度 / take core literacy as the main dimension",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04",
+      "target": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:01"
+    },
+    {
+      "relationName": "academicQualityTakesLiteracyAsMainDimension",
+      "label": "以核心素养为主要维度 / take core literacy as the main dimension",
+      "source": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01"
+    },
+    {
+      "relationName": "literacyIsMainDimensionOfAcademicQuality",
+      "label": "以核心素养为主要维度 / take core literacy as the main dimension",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:02"
+    },
+    {
+      "relationName": "academicQualityTakesLiteracyAsMainDimension",
+      "label": "以核心素养为主要维度 / take core literacy as the main dimension",
+      "source": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02"
+    },
+    {
+      "relationName": "literacyIsMainDimensionOfAcademicQuality",
+      "label": "以核心素养为主要维度 / take core literacy as the main dimension",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:02"
+    },
+    {
+      "relationName": "academicQualityTakesLiteracyAsMainDimension",
+      "label": "以核心素养为主要维度 / take core literacy as the main dimension",
+      "source": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03"
+    },
+    {
+      "relationName": "literacyIsMainDimensionOfAcademicQuality",
+      "label": "以核心素养为主要维度 / take core literacy as the main dimension",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:02"
+    },
+    {
+      "relationName": "academicQualityTakesLiteracyAsMainDimension",
+      "label": "以核心素养为主要维度 / take core literacy as the main dimension",
+      "source": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04"
+    },
+    {
+      "relationName": "literacyIsMainDimensionOfAcademicQuality",
+      "label": "以核心素养为主要维度 / take core literacy as the main dimension",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04",
+      "target": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:02"
+    },
+    {
+      "relationName": "academicQualityTakesLiteracyAsMainDimension",
+      "label": "以核心素养为主要维度 / take core literacy as the main dimension",
+      "source": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01"
+    },
+    {
+      "relationName": "literacyIsMainDimensionOfAcademicQuality",
+      "label": "以核心素养为主要维度 / take core literacy as the main dimension",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:03"
+    },
+    {
+      "relationName": "academicQualityTakesLiteracyAsMainDimension",
+      "label": "以核心素养为主要维度 / take core literacy as the main dimension",
+      "source": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02"
+    },
+    {
+      "relationName": "literacyIsMainDimensionOfAcademicQuality",
+      "label": "以核心素养为主要维度 / take core literacy as the main dimension",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:03"
+    },
+    {
+      "relationName": "academicQualityTakesLiteracyAsMainDimension",
+      "label": "以核心素养为主要维度 / take core literacy as the main dimension",
+      "source": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03"
+    },
+    {
+      "relationName": "literacyIsMainDimensionOfAcademicQuality",
+      "label": "以核心素养为主要维度 / take core literacy as the main dimension",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:03"
+    },
+    {
+      "relationName": "academicQualityTakesLiteracyAsMainDimension",
+      "label": "以核心素养为主要维度 / take core literacy as the main dimension",
+      "source": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04"
+    },
+    {
+      "relationName": "literacyIsMainDimensionOfAcademicQuality",
+      "label": "以核心素养为主要维度 / take core literacy as the main dimension",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04",
+      "target": "urn:jy:English:SB0102:OB02,OB03:AcademicQuality:03"
+    }
+  ]
+}

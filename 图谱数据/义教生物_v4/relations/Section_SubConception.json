@@ -1,0 +1,850 @@
+{
+    "relations": [
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物体的结构层次",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l1",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l1"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物体的结构层次",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l2",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l1"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物体的结构层次",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l3",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l1"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物体的结构层次",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l4",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l1"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物体的结构层次",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l5",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l1"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物体的结构层次",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l6",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l1"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物体的结构层次",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l7",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l2"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物体的结构层次",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l8",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l2"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物体的结构层次",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l9",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l2"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物体的结构层次",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l10",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l2"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物体的结构层次",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l11",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l1"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物的多样性",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l12",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l4"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物的多样性",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l13",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l4"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物的多样性",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l14",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l4"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物的多样性",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l15",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l4"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物的多样性",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l16",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l5"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物的多样性",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l17",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l5"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物的多样性",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l18",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l5"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物的多样性",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l19",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l5"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物的多样性",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l20",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l5"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物的多样性",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l21",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l3"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物的多样性",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l22",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l3"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "植物的生活",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l23",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l9"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "植物的生活",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l24",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l9"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "植物的生活",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l25",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l9"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "植物的生活",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l26",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l10"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "植物的生活",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l27",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l11"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "植物的生活",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l28",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l11"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "植物的生活",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l29",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l11"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l30",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l16"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l31",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l16"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l32",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l12"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l33",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l12"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l34",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l12"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l35",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l14"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l36",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l14"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l37",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l13"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l38",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l13"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l39",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l13"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物的多样性",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l40",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l4"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物的多样性",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l41",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l4"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物的多样性",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l42",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l4"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物的多样性",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l43",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l4"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物的多样性",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l44",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l4"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物的多样性",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l45",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l4"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物的多样性",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l46",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l4"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物的多样性",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l47",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l4"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物的多样性",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l48",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l4"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物的多样性",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l49",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l4"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l50",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l16"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l51",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l16"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l52",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l16"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l53",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l16"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l54",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l16"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l55",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l16"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物与环境",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l56",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l7"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物与环境",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l57",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l7"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物的多样性",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l58",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l5"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物的多样性",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l59",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l5"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物的多样性",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l60",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l5"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物的多样性",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l61",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l5"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物的多样性",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l62",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l5"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物的多样性",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l63",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l5"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物的多样性",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l64",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l5"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物的多样性",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l65",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l5"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物的多样性",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l66",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l5"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物的多样性",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l67",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l3"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物的多样性",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l68",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l3"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物的多样性",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l69",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l3"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "遗传与进化",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l70",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l19"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "遗传与进化",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l71",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l19"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "遗传与进化",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l72",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l19"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "遗传与进化",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l73",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l19"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "遗传与进化",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l74",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l19"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "遗传与进化",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l75",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l19"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "遗传与进化",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l76",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l19"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "遗传与进化",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l77",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l20"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "遗传与进化",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l78",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l20"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "遗传与进化",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l79",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l20"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "遗传与进化",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l80",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l20"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "遗传与进化",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l81",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l20"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "遗传与进化",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l82",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l20"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "遗传与进化",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l83",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l20"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "遗传与进化",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l84",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l21"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "遗传与进化",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l85",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l21"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "遗传与进化",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l86",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l22"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "遗传与进化",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l87",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l22"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "遗传与进化",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l88",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l22"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l89",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l17"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l90",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l17"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l91",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l17"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l92",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l18"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l93",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l18"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l94",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l18"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l95",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l18"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l96",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l18"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l97",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l18"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l98",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l18"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物学与社会·跨学科实践",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l11",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l23"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物学与社会·跨学科实践",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l20",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l25"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "植物的生活",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l23",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l9"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "植物的生活",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l24",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l9"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "植物的生活",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l25",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l9"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "植物的生活",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l26",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l10"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "植物的生活",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l27",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l11"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "植物的生活",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l28",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l11"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "植物的生活",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l29",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l11"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l30",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l16"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l31",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l16"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l32",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l12"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l33",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l12"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l34",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l12"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l35",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l14"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l36",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l14"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l37",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l13"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l38",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l13"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l39",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l13"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物多样性",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l23",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l6"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物多样性",
+            "source": "urn:jy:biology:SB0403:OB03:Chapter:l24",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l6"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物与环境",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l99",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l7"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物体的结构层次",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l100",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l1"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物体的结构层次",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l101",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l2"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "植物的生活",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l102",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l9"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "植物的生活",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l103",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l10"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "植物的生活",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l104",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l11"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "植物的生活",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l105",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l11"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l106",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l12"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l107",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l14"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l108",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l13"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l109",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l15"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l110",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l16"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物的多样性",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l111",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l4"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l112",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l16"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物的多样性",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l113",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l5"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "生物的多样性",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l114",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l6"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "遗传与进化",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l115",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l19"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "遗传与进化",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l116",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l20"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "遗传与进化",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l117",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l22"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "人体生理与健康",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l118",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l17"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "跨学科概念",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l119",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l23"
+        },
+        {
+            "relationName": "SectionSupportsSubConception",
+            "label": "跨学科概念",
+            "source": "urn:jy:biology:SB0403:OB03:Section:l120",
+            "target": "urn:jy:biology:SB0403:OB03:SubConception:l23"
+        }
+    ]
+}

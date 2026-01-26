@@ -18,7 +18,7 @@ from .schemas import (
     ReviewRecordInfo, ReviewProgress, ResponseBase, SubjectStats
 )
 from .deps import get_current_user, require_teacher, log_operation
-from config import SUBJECT_CONFIG, DATA_ROOT
+from config import SUBJECT_CONFIG, DATA_ROOT, ENTITY_TYPE_ORDER
 
 router = APIRouter()
 
@@ -150,7 +150,7 @@ async def get_entity_types(
     subject_id: str,
     current_user: User = Depends(get_current_user)
 ):
-    """获取学科的所有实体类型列表（从文件名推断）"""
+    """获取学科的所有实体类型列表（从文件名推断，按配置排序）"""
     # 查找学科配置
     subject_config = SUBJECT_CONFIG.get(subject_id)
     if not subject_config:
@@ -174,7 +174,7 @@ async def get_entity_types(
     
     # 从JSON文件名获取实体类型
     types = []
-    for json_file in sorted(entities_dir.glob("*.json")):
+    for json_file in entities_dir.glob("*.json"):
         type_name = json_file.stem
         # 获取该类型的实体数量
         try:
@@ -185,10 +185,17 @@ async def get_entity_types(
         except Exception:
             count = 0
         
+        # 获取排序优先级
+        order = ENTITY_TYPE_ORDER.get(type_name, ENTITY_TYPE_ORDER.get('_default', 100))
+        
         types.append({
             "type": type_name,
-            "count": count
+            "count": count,
+            "order": order
         })
+    
+    # 按配置的优先级排序，相同优先级按字母排序
+    types.sort(key=lambda x: (x['order'], x['type']))
     
     return {"success": True, "types": types}
 
@@ -200,12 +207,21 @@ async def get_entities(
     page: int = Query(1, ge=1),
     page_size: int = Query(50, ge=1, le=200),
     status_filter: Optional[str] = None,
+    search: Optional[str] = None,
     current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db)
 ):
-    """获取学科的实体列表"""
+    """获取学科的实体列表，支持搜索和筛选"""
     # 加载实体
     entities = load_entities_from_json(subject_id, entity_type)
+    
+    # 搜索过滤（在其他过滤之前）
+    if search:
+        search_lower = search.lower().strip()
+        entities = [e for e in entities if 
+            search_lower in e.get('title', '').lower() or 
+            search_lower in e.get('identifier', '').lower() or
+            search_lower in e.get('description', '').lower()]
     
     # 获取审核状态
     review_map = {}
@@ -226,11 +242,25 @@ async def get_entities(
         identifier = e.get('identifier', '')
         review_info = review_map.get(identifier, {})
         
+        # 提取水平/等级信息
+        level_info = None
+        content_json = e.get('contentJson', {})
+        if content_json and isinstance(content_json, dict):
+            level_info = content_json.get('standard')
+        if not level_info:
+            # 从标题中提取水平信息
+            title = e.get('title', '')
+            import re
+            match = re.search(r'水平[一二三123]|[Ll]evel\s*[123]', title)
+            if match:
+                level_info = match.group(0)
+        
         entity_info = {
             "identifier": identifier,
             "type": e.get('type', e.get('_entity_type', '')),
             "title": e.get('title', ''),
             "description": e.get('description', ''),
+            "level": level_info,
             "review_status": review_info.get('status'),
             "review_comment": review_info.get('comment')
         }
@@ -265,16 +295,20 @@ async def get_relations(
     page: int = Query(1, ge=1),
     page_size: int = Query(50, ge=1, le=200),
     status_filter: Optional[str] = None,
+    search: Optional[str] = None,
     current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db)
 ):
-    """获取学科的关系列表"""
+    """获取学科的关系列表，支持搜索和筛选"""
     # 加载关系
     relations = load_relations_from_json(subject_id)
     
     # 加载实体用于显示标题
     entities = load_entities_from_json(subject_id)
     entity_titles = {e.get('identifier', ''): e.get('title', '') for e in entities}
+    
+    # 搜索过滤（在组装结果时应用，因为需要entity_titles）
+    search_lower = search.lower().strip() if search else None
     
     # 获取审核状态
     review_map = {}
@@ -294,17 +328,30 @@ async def get_relations(
     for r in relations:
         source = r.get('source', '')
         target = r.get('target', '')
+        source_title = entity_titles.get(source, source)
+        target_title = entity_titles.get(target, target)
+        relation_name = r.get('relationName', '')
+        
+        # 搜索过滤
+        if search_lower:
+            if not (search_lower in source_title.lower() or 
+                    search_lower in target_title.lower() or
+                    search_lower in source.lower() or
+                    search_lower in target.lower() or
+                    search_lower in relation_name.lower()):
+                continue
+        
         # 用source+target作为关系ID
-        relation_id = f"{source}|{target}|{r.get('relationName', '')}"
+        relation_id = f"{source}|{target}|{relation_name}"
         review_info = review_map.get(relation_id, {})
         
         relation_info = {
             "source": source,
             "target": target,
-            "relation_name": r.get('relationName', ''),
+            "relation_name": relation_name,
             "label": r.get('label', ''),
-            "source_title": entity_titles.get(source, source),
-            "target_title": entity_titles.get(target, target),
+            "source_title": source_title,
+            "target_title": target_title,
             "review_status": review_info.get('status'),
             "review_comment": review_info.get('comment')
         }

@@ -85,6 +85,76 @@ ENTITY_TYPE_CONFIG = {
     "GoalPoint": {"label": "目标要点", "color": "#e74c3c", "size": 14},
 }
 
+# ========== 实体类型排序配置 ==========
+# 用于审核页面类型下拉框的排序，数字越小越靠前
+ENTITY_TYPE_ORDER = {
+    # 课程结构（最高优先级）
+    "CourseModule": 1,
+    "CourseMoudle": 1,  # 兼容拼写
+    "CourseStructure": 2,
+    "CourseSeries": 3,
+    "CourseType": 4,
+    "CourseTarget": 5,
+    "CourseGoal": 5,
+    "CourseContent": 6,
+    
+    # 主题/领域结构
+    "Theme": 10,
+    "ThemeL1": 10,
+    "Domain": 11,
+    "LearningDomain": 11,
+    "ThemeL2": 12,
+    "LearningTheme": 12,
+    "LearningThemeL1": 12,
+    "ThemeL3": 13,
+    "LearningThemeL2": 13,
+    "Topic": 14,
+    "LearningThemeL3": 14,
+    
+    # 教材结构
+    "Module": 20,
+    "Stage": 21,
+    "Chapter": 22,
+    "Unit": 23,
+    "Section": 24,
+    "SubSection": 25,
+    
+    # 知识点/概念
+    "KeyPoint": 30,
+    "CoreKnowledge": 31,
+    "Conception": 32,
+    "SubConception": 33,
+    
+    # 核心素养/学业质量
+    "CoreLiteracy": 40,
+    "CoreLiteracyAspect": 41,
+    "CoreLiteracyPerformance": 42,
+    "AcademicQuality": 43,
+    
+    # 其他内容类型
+    "Experiment": 50,
+    "Experiments": 50,
+    "Example": 51,
+    "ExampleProblem": 51,
+    "Problems": 52,
+    "ActivitySuggestion": 53,
+    "Method": 54,
+    "Attitude": 55,
+    "Interdisciplinary": 56,
+    
+    # 英语特有
+    "LanguageSkills": 60,
+    "LinguisticKnowledge": 61,
+    "CulturalKnowledge": 62,
+    "LearningStrategy": 63,
+    "Discourse": 64,
+    "GoalPoint": 65,
+    
+    # 默认排序值（未列出的类型）
+    "_default": 100
+}
+
+
 # ========== 学科配置 ==========
 # neo4j_label: 导入Neo4j时的学科分类标签（用于区分不同学科的数据）
 SUBJECT_CONFIG = {
@@ -100,7 +170,7 @@ SUBJECT_CONFIG = {
     "高中物理": {
         "icon": "⚛️",
         "display_name": "高中物理",
-        "data_dir": "高中物理-v2",
+        "data_dir": "高中物理-v3",
         "files": ["高中物理_课标.html"],
         "color": "#3498db",
         "neo4j_label": "GaoZhongWuLi"  # 高中物理
@@ -116,7 +186,7 @@ SUBJECT_CONFIG = {
     "高中生物": {
         "icon": "🧬",
         "display_name": "高中生物",
-        "data_dir": "高中生物-v1",
+        "data_dir": "高中生物_v2",
         "files": ["高中生物_课标.html"],
         "color": "#27ae60",
         "neo4j_label": "GaoZhongShengWu"  # 高中生物
@@ -149,7 +219,7 @@ SUBJECT_CONFIG = {
     "义教物理89全册": {
         "icon": "⚡",
         "display_name": "义教物理（8、9全一册）",
-        "data_dir": "义教物理89全册-v2",
+        "data_dir": "义教物理89全册-v3",
         "files": ["义教物理_89全一册.html"],
         "color": "#e74c3c",
         "neo4j_label": "YiJiaoWuLi89"  # 义教物理89全册
@@ -157,7 +227,7 @@ SUBJECT_CONFIG = {
     "义教物理8上下9全册": {
         "icon": "⚡",
         "display_name": "义教物理（8上下、9全一册）",
-        "data_dir": "义教物理8上下9全册-v2",
+        "data_dir": "义教物理8上下9全册-v3",
         "files": ["义教物理_课标.html"],
         "color": "#e74c3c",
         "neo4j_label": "YiJiaoWuLi"  # 义教物理
@@ -181,7 +251,7 @@ SUBJECT_CONFIG = {
     "义教生物": {
         "icon": "🌱",
         "display_name": "义教生物",
-        "data_dir": "义教生物-v2",
+        "data_dir": "义教生物_v4",
         "files": ["义教生物_课标.html"],
         "color": "#16a085",
         "neo4j_label": "YiJiaoShengWu"  # 义教生物
@@ -233,6 +303,14 @@ SUBJECT_CONFIG = {
         "files": ["义教语文_课标.html"],
         "color": "#ff7675",
         "neo4j_label": "YiJiaoYuWen"  # 义教语文
+    },
+    "义务英语": {
+        "icon": "🔤",
+        "display_name": "义务英语",
+        "data_dir": "义务英语-v1",
+        "files": ["义务英语_课标.html"],
+        "color": "#00b894",
+        "neo4j_label": "YiWuYingYu"  # 义务英语
     }
 }
 

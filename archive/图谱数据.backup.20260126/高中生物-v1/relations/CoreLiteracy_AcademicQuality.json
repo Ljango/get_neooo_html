@@ -1,0 +1,77 @@
+{
+    "relations": [
+      {
+        "relationName": "coreLiteracyRelatesToAcademicQuality",
+        "label": "核心素养 '生命观念' 与学业质量水平1相关",
+        "source": "urn:jy:biology:SB0403:OB06:CoreLiteracy:l1",
+        "target": "urn:jy:biology:SB0403:OB06:AcademicQuality:l1"
+      },
+      {
+        "relationName": "coreLiteracyRelatesToAcademicQuality",
+        "label": "核心素养 '生命观念' 与学业质量水平2相关",
+        "source": "urn:jy:biology:SB0403:OB06:CoreLiteracy:l2",
+        "target": "urn:jy:biology:SB0403:OB06:AcademicQuality:l2"
+      },
+      {
+        "relationName": "coreLiteracyRelatesToAcademicQuality",
+        "label": "核心素养 '生命观念' 与学业质量水平3相关",
+        "source": "urn:jy:biology:SB0403:OB06:CoreLiteracy:l3",
+        "target": "urn:jy:biology:SB0403:OB06:AcademicQuality:l3"
+      },
+      {
+        "relationName": "coreLiteracyRelatesToAcademicQuality",
+        "label": "核心素养 '科学思维' 与学业质量水平1相关",
+        "source": "urn:jy:biology:SB0403:OB06:CoreLiteracy:l4",
+        "target": "urn:jy:biology:SB0403:OB06:AcademicQuality:l1"
+      },
+      {
+        "relationName": "coreLiteracyRelatesToAcademicQuality",
+        "label": "核心素养 '科学思维' 与学业质量水平2相关",
+        "source": "urn:jy:biology:SB0403:OB06:CoreLiteracy:l5",
+        "target": "urn:jy:biology:SB0403:OB06:AcademicQuality:l2"
+      },
+      {
+        "relationName": "coreLiteracyRelatesToAcademicQuality",
+        "label": "核心素养 '科学思维' 与学业质量水平3相关",
+        "source": "urn:jy:biology:SB0403:OB06:CoreLiteracy:l6",
+        "target": "urn:jy:biology:SB0403:OB06:AcademicQuality:l3"
+      },
+      {
+        "relationName": "coreLiteracyRelatesToAcademicQuality",
+        "label": "核心素养 '科学探究' 与学业质量水平1相关",
+        "source": "urn:jy:biology:SB0403:OB06:CoreLiteracy:l7",
+        "target": "urn:jy:biology:SB0403:OB06:AcademicQuality:l1"
+      },
+      {
+        "relationName": "coreLiteracyRelatesToAcademicQuality",
+        "label": "核心素养 '科学探究' 与学业质量水平2相关",
+        "source": "urn:jy:biology:SB0403:OB06:CoreLiteracy:l8",
+        "target": "urn:jy:biology:SB0403:OB06:AcademicQuality:l2"
+      },
+      {
+        "relationName": "coreLiteracyRelatesToAcademicQuality",
+        "label": "核心素养 '科学探究' 与学业质量水平3相关",
+        "source": "urn:jy:biology:SB0403:OB06:CoreLiteracy:l9",
+        "target": "urn:jy:biology:SB0403:OB06:AcademicQuality:l3"
+      },
+      {
+        "relationName": "coreLiteracyRelatesToAcademicQuality",
+        "label": "核心素养 '社会责任' 与学业质量水平1相关",
+        "source": "urn:jy:biology:SB0403:OB06:CoreLiteracy:l10",
+        "target": "urn:jy:biology:SB0403:OB06:AcademicQuality:l1"
+      },
+      {
+        "relationName": "coreLiteracyRelatesToAcademicQuality",
+        "label": "核心素养 '社会责任' 与学业质量水平2相关",
+        "source": "urn:jy:biology:SB0403:OB06:CoreLiteracy:l11",
+        "target": "urn:jy:biology:SB0403:OB06:AcademicQuality:l2"
+      },
+      {
+        "relationName": "coreLiteracyRelatesToAcademicQuality",
+        "label": "核心素养 '社会责任' 与学业质量水平3相关",
+        "source": "urn:jy:biology:SB0403:OB06:CoreLiteracy:l12",
+        "target": "urn:jy:biology:SB0403:OB06:AcademicQuality:l3"
+      }
+    ]
+  }
+  
