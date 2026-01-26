@@ -514,7 +514,7 @@ async def get_review_progress(
     current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db)
 ):
-    """获取审核进度"""
+    """获取审核进度（百分比基于实体审核数量）"""
     # 加载数据统计
     entities = load_entities_from_json(subject_id)
     relations = load_relations_from_json(subject_id)
@@ -522,25 +522,47 @@ async def get_review_progress(
     total_entities = len(entities)
     total_relations = len(relations)
     
-    # 统计审核状态
-    stats = db.query(
+    # 分别统计实体和关系的审核状态
+    entity_stats = db.query(
         ReviewRecord.status,
         func.count(ReviewRecord.id)
     ).filter(
-        ReviewRecord.subject_id == subject_id
+        ReviewRecord.subject_id == subject_id,
+        ReviewRecord.target_type == "entity"
     ).group_by(ReviewRecord.status).all()
     
-    status_counts = {s.value: 0 for s in ReviewStatus}
-    for status, count in stats:
-        status_counts[status.value] = count
+    relation_stats = db.query(
+        ReviewRecord.status,
+        func.count(ReviewRecord.id)
+    ).filter(
+        ReviewRecord.subject_id == subject_id,
+        ReviewRecord.target_type == "relation"
+    ).group_by(ReviewRecord.status).all()
     
-    reviewed_count = sum(status_counts.values())
-    approved_count = status_counts.get('approved', 0)
-    needs_fix_count = status_counts.get('needs_fix', 0)
-    pending_count = total_entities + total_relations - reviewed_count
+    # 实体审核统计
+    entity_status_counts = {s.value: 0 for s in ReviewStatus}
+    for status, count in entity_stats:
+        entity_status_counts[status.value] = count
     
-    total = total_entities + total_relations
-    progress = (reviewed_count / total * 100) if total > 0 else 0
+    # 关系审核统计
+    relation_status_counts = {s.value: 0 for s in ReviewStatus}
+    for status, count in relation_stats:
+        relation_status_counts[status.value] = count
+    
+    # 总审核数（实体+关系）
+    entity_reviewed_count = sum(entity_status_counts.values())
+    relation_reviewed_count = sum(relation_status_counts.values())
+    reviewed_count = entity_reviewed_count + relation_reviewed_count
+    
+    # 通过和需修改的总数
+    approved_count = entity_status_counts.get('approved', 0) + relation_status_counts.get('approved', 0)
+    needs_fix_count = entity_status_counts.get('needs_fix', 0) + relation_status_counts.get('needs_fix', 0)
+    
+    # 待审核数
+    pending_count = (total_entities - entity_reviewed_count) + (total_relations - relation_reviewed_count)
+    
+    # 进度百分比：只基于实体审核数量
+    progress = (entity_reviewed_count / total_entities * 100) if total_entities > 0 else 0
     
     return ReviewProgress(
         subject_id=subject_id,
