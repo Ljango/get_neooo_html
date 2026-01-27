@@ -1,0 +1,2680 @@
+{
+  "relations": [
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:001",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:001"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:002",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:002"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:003",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:003"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:004",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:004"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:005",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:005"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:006",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:006"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:007",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:007"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:008",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:008"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:009",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:009"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:010",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:010"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:011",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:011"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:012",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:012"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:013",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:013"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:014",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:014"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:015",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:015"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:016",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:016"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:017",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:017"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:018",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:018"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:019",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:019"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:020",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:020"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:021",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:021"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:022",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:022"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:023",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:023"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:024",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:024"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:025",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:025"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:026",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:026"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:027",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:027"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:028",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:028"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:029",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:029"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:030",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:030"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:031",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:031"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:032",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:032"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:033",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:033"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:034",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:034"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:035",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:035"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:036",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:036"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:037",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:037"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:038",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:038"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:039",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:039"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:040",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:040"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:041",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:041"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:042",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:042"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:043",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:043"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:044",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:044"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:045",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:045"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:046",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:046"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:047",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:047"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:048",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:048"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:049",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:049"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:050",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:050"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:051",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:051"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:052",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:052"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:053",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:053"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:054",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:054"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:055",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:055"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:056",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:056"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:057",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:057"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:058",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:058"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:059",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:059"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:060",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:060"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:061",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:061"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:062",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:062"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:063",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:063"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:064",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:064"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:065",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:065"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:066",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:066"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:067",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:067"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:068",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:068"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:069",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:069"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:070",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:070"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:071",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:071"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:072",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:072"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:073",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:073"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:074",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:074"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:075",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:075"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:076",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:076"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:077",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:077"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:078",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:078"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:079",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:079"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:080",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:080"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:081",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:081"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:082",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:082"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:083",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:083"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:084",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:084"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:085",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:085"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:086",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:086"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:087",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:087"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:088",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:088"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:089",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:089"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:090",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02:Section:090"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:091",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:091"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:092",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:092"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:093",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:093"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:094",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:094"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:095",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:095"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:096",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:096"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:097",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:097"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:098",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:098"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:099",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:099"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:100",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:100"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:101",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:101"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:102",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:102"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:103",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:103"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:104",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:104"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:105",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:105"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:106",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:106"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:107",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:107"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:108",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:108"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:109",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:109"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:110",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:110"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:111",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:111"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:112",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:112"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:113",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:113"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:114",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:114"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:115",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:115"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:116",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:116"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:117",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:117"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:118",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:118"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:119",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:119"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:120",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:120"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:121",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:121"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:122",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:122"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:123",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:123"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:124",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:124"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:125",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:125"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:126",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:126"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:127",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:127"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:128",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:128"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:129",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:129"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:130",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:130"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:131",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:131"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:132",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:132"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:133",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:133"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:134",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:134"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:135",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:135"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:136",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:136"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:137",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:137"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:138",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:138"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:139",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:139"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:140",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:140"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:141",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:141"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:142",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:142"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:143",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:143"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:144",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:144"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:145",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:145"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:146",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:146"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:147",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:147"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:148",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:148"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:149",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:149"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:150",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:150"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:151",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:151"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:152",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:152"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:153",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:153"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:154",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:154"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:155",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:155"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:156",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:156"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:157",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:157"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:158",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:158"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:159",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:159"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:160",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:160"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:161",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:161"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:162",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:162"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:163",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:163"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:164",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:164"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:165",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:165"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:166",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:166"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:167",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:167"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:168",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:168"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:169",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:169"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:170",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:170"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:171",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:171"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:172",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:172"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:173",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:173"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:174",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:174"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:175",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:175"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:176",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:176"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:177",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:177"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:178",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:178"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:179",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:179"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:180",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:180"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:181",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:181"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:182",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:182"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:183",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:183"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:184",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:184"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:185",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:185"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:186",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:186"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:187",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:187"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:188",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:188"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:189",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:189"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:190",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:190"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:191",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:191"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:192",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:192"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:193",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:193"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:194",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:194"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:195",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:195"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:196",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:196"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:197",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:197"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:198",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:198"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:199",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:199"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:200",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:200"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:201",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:201"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:202",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:202"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:203",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:203"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:204",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:204"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:205",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:205"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:206",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:206"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:207",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:207"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:208",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:208"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:209",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:209"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:210",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:210"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:211",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:211"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:212",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:212"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:213",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:213"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:214",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:214"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:215",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:215"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:216",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:216"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:217",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:217"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:218",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:218"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:219",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:219"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:220",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:220"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:221",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:221"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:222",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:222"
+    },
+    {
+      "relationName": "SectionAlignsWithDiscourse",
+      "label": "小节对齐语篇要求 / alignsWithDiscourse",
+      "source": "urn:jy:English:SB0102:OB02:Section:223",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "DiscourseCoversSection",
+      "label": "语篇要求覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02:Section:223"
+    }
+  ]
+}

@@ -1,0 +1,2788 @@
+{
+  "relations": [
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:001",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:001"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:002",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:002"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:003",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:003"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:004",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:004"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:005",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:005"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:006",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB03:Section:006"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:007",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:007"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:008",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:008"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:009",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:009"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:010",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:010"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:011",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:011"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:012",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:012"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:013",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:013"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:014",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:014"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:015",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:015"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:016",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:016"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:017",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:017"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:018",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:018"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:019",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:019"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:020",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:020"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:021",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB03:Section:021"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:022",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB03:Section:022"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:023",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB03:Section:023"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:024",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:024"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:025",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:025"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:026",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:026"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:027",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:027"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:028",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:028"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:029",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:029"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:030",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:030"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:031",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:031"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:032",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:032"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:033",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:033"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:034",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:034"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:035",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:035"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:036",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB03:Section:036"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:037",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB03:Section:037"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:038",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB03:Section:038"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:039",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:039"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:040",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:040"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:041",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:041"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:042",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:042"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:043",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:043"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:044",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:044"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:045",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:045"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:046",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:046"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:047",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:047"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:048",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:048"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:049",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:049"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:050",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:050"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:051",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:051"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:052",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:052"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:053",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:053"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:054",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB03:Section:054"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:055",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB03:Section:055"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:056",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB03:Section:056"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:057",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:057"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:058",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:058"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:059",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:059"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:060",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:060"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:061",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:061"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:062",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:062"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:063",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:063"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:064",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:064"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:065",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:065"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:066",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:066"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:067",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:067"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:068",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:068"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:069",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:069"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:070",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:070"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:071",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:071"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:072",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:072"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:073",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:073"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:074",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:074"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:075",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:075"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:076",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:076"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:077",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:077"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:078",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:078"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:079",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:079"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:080",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:080"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:081",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:081"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:082",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:082"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:083",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:083"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:084",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:084"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:085",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:085"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:086",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:086"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:087",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:087"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:088",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:088"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:089",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:089"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:090",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:090"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:091",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:091"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:092",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB03:Section:092"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:093",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB03:Section:093"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:094",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB03:Section:094"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:095",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB03:Section:095"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:096",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB03:Section:096"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:097",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB03:Section:097"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:098",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB03:Section:098"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:099",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB03:Section:099"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:100",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB03:Section:100"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:101",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB03:Section:101"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:102",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB03:Section:102"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:103",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB03:Section:103"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:104",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB03:Section:104"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:105",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB03:Section:105"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:106",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB03:Section:106"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:107",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB03:Section:107"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:108",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:108"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:109",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:109"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:110",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:110"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:111",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:111"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:112",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:112"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:113",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:113"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:114",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:114"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:115",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:115"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:116",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:116"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:117",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:117"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:118",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:118"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:119",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:119"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:120",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:120"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:121",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:121"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:122",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:122"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:123",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:123"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:124",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:124"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:125",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:125"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:126",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:126"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:127",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:127"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:128",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:128"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:129",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:129"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:130",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:130"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:131",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:131"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:132",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:132"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:133",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:133"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:134",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:134"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:135",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:135"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:136",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:136"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:137",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:137"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:138",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:138"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:139",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:139"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:140",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:140"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:141",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:141"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:142",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:142"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:143",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:143"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:144",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:144"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:145",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:145"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:146",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:146"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:147",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:147"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:148",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:148"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:149",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:149"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:150",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:150"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:151",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:151"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:152",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:152"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:153",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:153"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:154",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:154"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:155",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:155"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:156",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:156"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:157",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:157"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:158",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:158"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:159",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:159"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:160",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:160"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:161",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:161"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:162",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:162"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:163",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:163"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:164",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:164"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:165",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:165"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:166",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:166"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:167",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:167"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:168",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:168"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:169",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:169"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:170",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:170"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:171",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:171"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:172",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:172"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:173",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:173"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:174",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:174"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:175",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:175"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:176",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:176"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:177",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:177"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:178",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:178"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:179",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:179"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:180",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:180"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:181",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:181"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:182",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:182"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:183",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:183"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:184",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:184"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:185",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:185"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:186",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:186"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:187",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:187"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:188",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:188"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:189",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:189"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:190",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:190"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:191",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:191"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:192",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:192"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:193",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:193"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:194",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:194"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:195",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:195"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:196",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:196"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:197",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:197"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:198",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:198"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:199",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:199"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:200",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:200"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:201",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:201"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:202",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:202"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:203",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB03:Section:203"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:204",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:204"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:205",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:205"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:206",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:206"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:207",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:207"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:208",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:208"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:209",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:209"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:210",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:210"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:211",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB03:Section:211"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:212",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB03:Section:212"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:213",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB03:Section:213"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:214",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB03:Section:214"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:215",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB03:Section:215"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:216",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB03:Section:216"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:217",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB03:Section:217"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:218",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB03:Section:218"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:219",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:219"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:220",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:220"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:221",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:221"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:222",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:222"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:223",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:223"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:224",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:224"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:225",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:225"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:226",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:226"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:227",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:227"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:228",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:228"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:229",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:229"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:230",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:230"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:231",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:231"
+    },
+    {
+      "relationName": "SectionAlignsWithTheme",
+      "label": "小节对齐主题 / alignsWithTheme",
+      "source": "urn:jy:English:SB0102:OB03:Section:232",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "ThemeCoversSection",
+      "label": "主题覆盖小节 / coversSection",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB03:Section:232"
+    }
+  ]
+}

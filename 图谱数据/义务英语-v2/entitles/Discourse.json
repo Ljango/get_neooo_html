@@ -1,0 +1,46 @@
+[
+  {
+    "identifier": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+    "type": "Discourse",
+    "title": "语篇内容要求（一级）",
+    "description": "",
+    "subject": "SB0102",
+    "applicableLevel": ["OB02", "OB03"],
+    "contentJson": {
+      "contentRequirement": "1. 歌谣、歌曲、韵文；\n2. 日常简短对话、独白；\n3. 配图故事、叙事性日记等；\n4. 人物介绍、物品介绍、地点介绍等；\n5. 书信、活动通知、操作指令、生日及新年贺卡、邀请卡等；\n6. 其他语篇类型，如提示牌、告示牌、菜单、购物单、简单图表、图片、视频等。"
+    }
+  },
+  {
+    "identifier": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+    "type": "Discourse",
+    "title": "语篇内容要求（二级）",
+    "description": "",
+    "subject": "SB0102",
+    "applicableLevel": ["OB02", "OB03"],
+    "contentJson": {
+      "contentRequirement": "1. 日常简单对话、独白；\n2. 记叙文，如配图故事、叙事性日记、人物故事、寓言、幽默故事、童话等；\n3. 说明文，如介绍类短文、科普类短文、简短书面指令、操作程序等；\n4. 应用文，如贺卡、邀请卡、书信、活动通知、启事、活动安排与计划、宣传海报、规则、问卷等；\n5. 工具书，如配图词典、简版语法书等；\n6. 新媒体语篇，如简单社交媒体信息、网页、电子邮件等；\n7. 其他语篇类型，如歌曲、韵文、剧本、图表、图示、图片、视频等。"
+    }
+  },
+  {
+    "identifier": "urn:jy:English:SB0102:OB02,OB03:Discourse:03",
+    "type": "Discourse",
+    "title": "语篇内容要求（三级）",
+    "description": "",
+    "subject": "SB0102",
+    "applicableLevel": ["OB02", "OB03"],
+    "contentJson": {
+      "contentRequirement": "1. 日常对话、独白；\n2. 记叙文，如故事、简版小说、人物传记、童话等；\n3. 说明文，如介绍类短文、程序或现象说明、事理阐释、书面指令、操作指南、使用手册等；\n4. 应用文，如日记、私人信件、宣传海报、宣传册、通知、活动安排与计划、规则、问卷等；\n5. 新闻报道，如简讯、专题报道等；\n6. 工具书，如词典、语法书等；\n7. 新媒体语篇，如常见网络媒体语篇、电子邮件、社交媒体信息等；\n8. 其他语篇类型，如歌曲、诗歌、剧本、广告、图片、表格（图表）与图示、天气预报，以及广播、电视、网络节目等。"
+    }
+  },
+  {
+    "identifier": "urn:jy:English:SB0102:OB02,OB03:Discourse:04",
+    "type": "Discourse",
+    "title": "语篇内容要求（三级+）",
+    "description": "",
+    "subject": "SB0102",
+    "applicableLevel": ["OB02", "OB03"],
+    "contentJson": {
+      "contentRequirement": "简单的说理类文章。"
+    }
+  }
+]

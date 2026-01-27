@@ -1,0 +1,484 @@
+{
+  "relations": [
+    {
+      "relationName": "discourseCarriesLanguageKnowledge",
+      "label": "语篇承载语言知识 / carriesLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01"
+    },
+    {
+      "relationName": "languageKnowledgeIsCarriedByDiscourse",
+      "label": "语言知识由语篇承载 / isCarriedByDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "languageKnowledgeProvidesElementsForDiscourse",
+      "label": "语言知识为语篇的构成和意义的表达提供语言要素 / providesElementsForDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "discourseIsConstructedAndMeaningExpressedByLanguageKnowledge",
+      "label": "语篇的构成和意义表达依托语言知识 / isConstructedAndMeaningExpressedByLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01"
+    },
+    {
+      "relationName": "discourseCarriesLanguageKnowledge",
+      "label": "语篇承载语言知识 / carriesLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01"
+    },
+    {
+      "relationName": "languageKnowledgeIsCarriedByDiscourse",
+      "label": "语言知识由语篇承载 / isCarriedByDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "languageKnowledgeProvidesElementsForDiscourse",
+      "label": "语言知识为语篇的构成和意义的表达提供语言要素 / providesElementsForDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "discourseIsConstructedAndMeaningExpressedByLanguageKnowledge",
+      "label": "语篇的构成和意义表达依托语言知识 / isConstructedAndMeaningExpressedByLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01"
+    },
+    {
+      "relationName": "discourseCarriesLanguageKnowledge",
+      "label": "语篇承载语言知识 / carriesLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01"
+    },
+    {
+      "relationName": "languageKnowledgeIsCarriedByDiscourse",
+      "label": "语言知识由语篇承载 / isCarriedByDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:03"
+    },
+    {
+      "relationName": "languageKnowledgeProvidesElementsForDiscourse",
+      "label": "语言知识为语篇的构成和意义的表达提供语言要素 / providesElementsForDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:03"
+    },
+    {
+      "relationName": "discourseIsConstructedAndMeaningExpressedByLanguageKnowledge",
+      "label": "语篇的构成和意义表达依托语言知识 / isConstructedAndMeaningExpressedByLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01"
+    },
+    {
+      "relationName": "discourseCarriesLanguageKnowledge",
+      "label": "语篇承载语言知识 / carriesLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:04",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01"
+    },
+    {
+      "relationName": "languageKnowledgeIsCarriedByDiscourse",
+      "label": "语言知识由语篇承载 / isCarriedByDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:04"
+    },
+    {
+      "relationName": "languageKnowledgeProvidesElementsForDiscourse",
+      "label": "语言知识为语篇的构成和意义的表达提供语言要素 / providesElementsForDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:04"
+    },
+    {
+      "relationName": "discourseIsConstructedAndMeaningExpressedByLanguageKnowledge",
+      "label": "语篇的构成和意义表达依托语言知识 / isConstructedAndMeaningExpressedByLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:04",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01"
+    },
+    {
+      "relationName": "discourseCarriesLanguageKnowledge",
+      "label": "语篇承载语言知识 / carriesLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02"
+    },
+    {
+      "relationName": "languageKnowledgeIsCarriedByDiscourse",
+      "label": "语言知识由语篇承载 / isCarriedByDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "languageKnowledgeProvidesElementsForDiscourse",
+      "label": "语言知识为语篇的构成和意义的表达提供语言要素 / providesElementsForDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "discourseIsConstructedAndMeaningExpressedByLanguageKnowledge",
+      "label": "语篇的构成和意义表达依托语言知识 / isConstructedAndMeaningExpressedByLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02"
+    },
+    {
+      "relationName": "discourseCarriesLanguageKnowledge",
+      "label": "语篇承载语言知识 / carriesLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02"
+    },
+    {
+      "relationName": "languageKnowledgeIsCarriedByDiscourse",
+      "label": "语言知识由语篇承载 / isCarriedByDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "languageKnowledgeProvidesElementsForDiscourse",
+      "label": "语言知识为语篇的构成和意义的表达提供语言要素 / providesElementsForDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "discourseIsConstructedAndMeaningExpressedByLanguageKnowledge",
+      "label": "语篇的构成和意义表达依托语言知识 / isConstructedAndMeaningExpressedByLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02"
+    },
+    {
+      "relationName": "discourseCarriesLanguageKnowledge",
+      "label": "语篇承载语言知识 / carriesLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02"
+    },
+    {
+      "relationName": "languageKnowledgeIsCarriedByDiscourse",
+      "label": "语言知识由语篇承载 / isCarriedByDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:03"
+    },
+    {
+      "relationName": "languageKnowledgeProvidesElementsForDiscourse",
+      "label": "语言知识为语篇的构成和意义的表达提供语言要素 / providesElementsForDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:03"
+    },
+    {
+      "relationName": "discourseIsConstructedAndMeaningExpressedByLanguageKnowledge",
+      "label": "语篇的构成和意义表达依托语言知识 / isConstructedAndMeaningExpressedByLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02"
+    },
+    {
+      "relationName": "discourseCarriesLanguageKnowledge",
+      "label": "语篇承载语言知识 / carriesLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:04",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02"
+    },
+    {
+      "relationName": "languageKnowledgeIsCarriedByDiscourse",
+      "label": "语言知识由语篇承载 / isCarriedByDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:04"
+    },
+    {
+      "relationName": "languageKnowledgeProvidesElementsForDiscourse",
+      "label": "语言知识为语篇的构成和意义的表达提供语言要素 / providesElementsForDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:04"
+    },
+    {
+      "relationName": "discourseIsConstructedAndMeaningExpressedByLanguageKnowledge",
+      "label": "语篇的构成和意义表达依托语言知识 / isConstructedAndMeaningExpressedByLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:04",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02"
+    },
+    {
+      "relationName": "discourseCarriesLanguageKnowledge",
+      "label": "语篇承载语言知识 / carriesLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03"
+    },
+    {
+      "relationName": "languageKnowledgeIsCarriedByDiscourse",
+      "label": "语言知识由语篇承载 / isCarriedByDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "languageKnowledgeProvidesElementsForDiscourse",
+      "label": "语言知识为语篇的构成和意义的表达提供语言要素 / providesElementsForDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "discourseIsConstructedAndMeaningExpressedByLanguageKnowledge",
+      "label": "语篇的构成和意义表达依托语言知识 / isConstructedAndMeaningExpressedByLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03"
+    },
+    {
+      "relationName": "discourseCarriesLanguageKnowledge",
+      "label": "语篇承载语言知识 / carriesLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03"
+    },
+    {
+      "relationName": "languageKnowledgeIsCarriedByDiscourse",
+      "label": "语言知识由语篇承载 / isCarriedByDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "languageKnowledgeProvidesElementsForDiscourse",
+      "label": "语言知识为语篇的构成和意义的表达提供语言要素 / providesElementsForDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "discourseIsConstructedAndMeaningExpressedByLanguageKnowledge",
+      "label": "语篇的构成和意义表达依托语言知识 / isConstructedAndMeaningExpressedByLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03"
+    },
+    {
+      "relationName": "discourseCarriesLanguageKnowledge",
+      "label": "语篇承载语言知识 / carriesLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03"
+    },
+    {
+      "relationName": "languageKnowledgeIsCarriedByDiscourse",
+      "label": "语言知识由语篇承载 / isCarriedByDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:03"
+    },
+    {
+      "relationName": "languageKnowledgeProvidesElementsForDiscourse",
+      "label": "语言知识为语篇的构成和意义的表达提供语言要素 / providesElementsForDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:03"
+    },
+    {
+      "relationName": "discourseIsConstructedAndMeaningExpressedByLanguageKnowledge",
+      "label": "语篇的构成和意义表达依托语言知识 / isConstructedAndMeaningExpressedByLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03"
+    },
+    {
+      "relationName": "discourseCarriesLanguageKnowledge",
+      "label": "语篇承载语言知识 / carriesLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:04",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03"
+    },
+    {
+      "relationName": "languageKnowledgeIsCarriedByDiscourse",
+      "label": "语言知识由语篇承载 / isCarriedByDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:04"
+    },
+    {
+      "relationName": "languageKnowledgeProvidesElementsForDiscourse",
+      "label": "语言知识为语篇的构成和意义的表达提供语言要素 / providesElementsForDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:04"
+    },
+    {
+      "relationName": "discourseIsConstructedAndMeaningExpressedByLanguageKnowledge",
+      "label": "语篇的构成和意义表达依托语言知识 / isConstructedAndMeaningExpressedByLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:04",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03"
+    },
+    {
+      "relationName": "discourseCarriesLanguageKnowledge",
+      "label": "语篇承载语言知识 / carriesLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04"
+    },
+    {
+      "relationName": "languageKnowledgeIsCarriedByDiscourse",
+      "label": "语言知识由语篇承载 / isCarriedByDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "languageKnowledgeProvidesElementsForDiscourse",
+      "label": "语言知识为语篇的构成和意义的表达提供语言要素 / providesElementsForDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "discourseIsConstructedAndMeaningExpressedByLanguageKnowledge",
+      "label": "语篇的构成和意义表达依托语言知识 / isConstructedAndMeaningExpressedByLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04"
+    },
+    {
+      "relationName": "discourseCarriesLanguageKnowledge",
+      "label": "语篇承载语言知识 / carriesLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04"
+    },
+    {
+      "relationName": "languageKnowledgeIsCarriedByDiscourse",
+      "label": "语言知识由语篇承载 / isCarriedByDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "languageKnowledgeProvidesElementsForDiscourse",
+      "label": "语言知识为语篇的构成和意义的表达提供语言要素 / providesElementsForDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "discourseIsConstructedAndMeaningExpressedByLanguageKnowledge",
+      "label": "语篇的构成和意义表达依托语言知识 / isConstructedAndMeaningExpressedByLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04"
+    },
+    {
+      "relationName": "discourseCarriesLanguageKnowledge",
+      "label": "语篇承载语言知识 / carriesLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04"
+    },
+    {
+      "relationName": "languageKnowledgeIsCarriedByDiscourse",
+      "label": "语言知识由语篇承载 / isCarriedByDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:03"
+    },
+    {
+      "relationName": "languageKnowledgeProvidesElementsForDiscourse",
+      "label": "语言知识为语篇的构成和意义的表达提供语言要素 / providesElementsForDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:03"
+    },
+    {
+      "relationName": "discourseIsConstructedAndMeaningExpressedByLanguageKnowledge",
+      "label": "语篇的构成和意义表达依托语言知识 / isConstructedAndMeaningExpressedByLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04"
+    },
+    {
+      "relationName": "discourseCarriesLanguageKnowledge",
+      "label": "语篇承载语言知识 / carriesLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:04",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04"
+    },
+    {
+      "relationName": "languageKnowledgeIsCarriedByDiscourse",
+      "label": "语言知识由语篇承载 / isCarriedByDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:04"
+    },
+    {
+      "relationName": "languageKnowledgeProvidesElementsForDiscourse",
+      "label": "语言知识为语篇的构成和意义的表达提供语言要素 / providesElementsForDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:04"
+    },
+    {
+      "relationName": "discourseIsConstructedAndMeaningExpressedByLanguageKnowledge",
+      "label": "语篇的构成和意义表达依托语言知识 / isConstructedAndMeaningExpressedByLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:04",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04"
+    },
+    {
+      "relationName": "discourseCarriesLanguageKnowledge",
+      "label": "语篇承载语言知识 / carriesLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05"
+    },
+    {
+      "relationName": "languageKnowledgeIsCarriedByDiscourse",
+      "label": "语言知识由语篇承载 / isCarriedByDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "languageKnowledgeProvidesElementsForDiscourse",
+      "label": "语言知识为语篇的构成和意义的表达提供语言要素 / providesElementsForDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "discourseIsConstructedAndMeaningExpressedByLanguageKnowledge",
+      "label": "语篇的构成和意义表达依托语言知识 / isConstructedAndMeaningExpressedByLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05"
+    },
+    {
+      "relationName": "discourseCarriesLanguageKnowledge",
+      "label": "语篇承载语言知识 / carriesLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05"
+    },
+    {
+      "relationName": "languageKnowledgeIsCarriedByDiscourse",
+      "label": "语言知识由语篇承载 / isCarriedByDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "languageKnowledgeProvidesElementsForDiscourse",
+      "label": "语言知识为语篇的构成和意义的表达提供语言要素 / providesElementsForDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "discourseIsConstructedAndMeaningExpressedByLanguageKnowledge",
+      "label": "语篇的构成和意义表达依托语言知识 / isConstructedAndMeaningExpressedByLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05"
+    },
+    {
+      "relationName": "discourseCarriesLanguageKnowledge",
+      "label": "语篇承载语言知识 / carriesLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05"
+    },
+    {
+      "relationName": "languageKnowledgeIsCarriedByDiscourse",
+      "label": "语言知识由语篇承载 / isCarriedByDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:03"
+    },
+    {
+      "relationName": "languageKnowledgeProvidesElementsForDiscourse",
+      "label": "语言知识为语篇的构成和意义的表达提供语言要素 / providesElementsForDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:03"
+    },
+    {
+      "relationName": "discourseIsConstructedAndMeaningExpressedByLanguageKnowledge",
+      "label": "语篇的构成和意义表达依托语言知识 / isConstructedAndMeaningExpressedByLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05"
+    },
+    {
+      "relationName": "discourseCarriesLanguageKnowledge",
+      "label": "语篇承载语言知识 / carriesLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:04",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05"
+    },
+    {
+      "relationName": "languageKnowledgeIsCarriedByDiscourse",
+      "label": "语言知识由语篇承载 / isCarriedByDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:04"
+    },
+    {
+      "relationName": "languageKnowledgeProvidesElementsForDiscourse",
+      "label": "语言知识为语篇的构成和意义的表达提供语言要素 / providesElementsForDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:04"
+    },
+    {
+      "relationName": "discourseIsConstructedAndMeaningExpressedByLanguageKnowledge",
+      "label": "语篇的构成和意义表达依托语言知识 / isConstructedAndMeaningExpressedByLanguageKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:04",
+      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05"
+    }
+  ]
+}
