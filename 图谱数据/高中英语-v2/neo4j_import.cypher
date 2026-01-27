@@ -1,24 +1,24 @@
 // =====================================================
 // 高中英语课标图谱 - Neo4j导入脚本
-// 生成时间: 2026-01-23T18:05:10.129387
+// 生成时间: 2026-01-26T21:15:06.479613
 // =====================================================
 
 // 创建约束和索引
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:CoreLiteracy) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:Section（必修）) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:Chapter（选必修）) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:Theme) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:Discourse) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:LanguageSkills) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:Chapter（必修）) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:LinguisticKnowledge) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:LearningStrategy) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:GoalPoint) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:CourseContent) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:AcademicQuality) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:Section（选必修）) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:CoreLiteracy) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Chapter（选必修）) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:Subsection（必修）) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Section（选必修）) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:GoalPoint) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Chapter（必修）) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:LanguageSkills) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Section（必修）) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:CourseContent) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:LinguisticKnowledge) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:AcademicQuality) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:LearningStrategy) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:CulturalKnowledge) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Discourse) REQUIRE n.identifier IS UNIQUE;
 
 // =====================================================
 // 导入实体
