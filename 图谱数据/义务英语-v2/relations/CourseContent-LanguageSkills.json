@@ -1,304 +1,302 @@
-{
-  "relations": [
-    {
-      "relationName": "courseContentSpecifiesLanguageSkills",
-      "label": "课程内容规定语言技能要求 / specifiesLanguageSkills",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:05",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:01"
-    },
-    {
-      "relationName": "languageSkillsAreSpecifiedByCourseContent",
-      "label": "语言技能要求由课程内容规定 / areSpecifiedByCourseContent",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:01",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:05"
-    },
-    {
-      "relationName": "courseContentSpecifiesLanguageSkills",
-      "label": "课程内容规定语言技能要求 / specifiesLanguageSkills",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:05",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:02"
-    },
-    {
-      "relationName": "languageSkillsAreSpecifiedByCourseContent",
-      "label": "语言技能要求由课程内容规定 / areSpecifiedByCourseContent",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:02",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:05"
-    },
-    {
-      "relationName": "courseContentSpecifiesLanguageSkills",
-      "label": "课程内容规定语言技能要求 / specifiesLanguageSkills",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:05",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:03"
-    },
-    {
-      "relationName": "languageSkillsAreSpecifiedByCourseContent",
-      "label": "语言技能要求由课程内容规定 / areSpecifiedByCourseContent",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:03",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:05"
-    },
-    {
-      "relationName": "courseContentSpecifiesLanguageSkills",
-      "label": "课程内容规定语言技能要求 / specifiesLanguageSkills",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:05",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:04"
-    },
-    {
-      "relationName": "languageSkillsAreSpecifiedByCourseContent",
-      "label": "语言技能要求由课程内容规定 / areSpecifiedByCourseContent",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:04",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:05"
-    },
-    {
-      "relationName": "courseContentSpecifiesLanguageSkills",
-      "label": "课程内容规定语言技能要求 / specifiesLanguageSkills",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:05",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:05"
-    },
-    {
-      "relationName": "languageSkillsAreSpecifiedByCourseContent",
-      "label": "语言技能要求由课程内容规定 / areSpecifiedByCourseContent",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:05",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:05"
-    },
-    {
-      "relationName": "teachingTipsDevelopLanguageSkills",
-      "label": "教学提示促进语言技能发展 / developsLanguageSkills",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:01"
-    },
-    {
-      "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
-      "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:01",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
-    },
-    {
-      "relationName": "teachingTipsDevelopLanguageSkills",
-      "label": "教学提示促进语言技能发展 / developsLanguageSkills",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:02"
-    },
-    {
-      "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
-      "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:02",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
-    },
-    {
-      "relationName": "teachingTipsDevelopLanguageSkills",
-      "label": "教学提示促进语言技能发展 / developsLanguageSkills",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:03"
-    },
-    {
-      "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
-      "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:03",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
-    },
-    {
-      "relationName": "teachingTipsDevelopLanguageSkills",
-      "label": "教学提示促进语言技能发展 / developsLanguageSkills",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:04"
-    },
-    {
-      "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
-      "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:04",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
-    },
-    {
-      "relationName": "teachingTipsDevelopLanguageSkills",
-      "label": "教学提示促进语言技能发展 / developsLanguageSkills",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:05"
-    },
-    {
-      "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
-      "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:05",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
-    },
-    {
-      "relationName": "teachingTipsDevelopLanguageSkills",
-      "label": "教学提示促进语言技能发展 / developsLanguageSkills",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:01"
-    },
-    {
-      "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
-      "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:01",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
-    },
-    {
-      "relationName": "teachingTipsDevelopLanguageSkills",
-      "label": "教学提示促进语言技能发展 / developsLanguageSkills",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:02"
-    },
-    {
-      "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
-      "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:02",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
-    },
-    {
-      "relationName": "teachingTipsDevelopLanguageSkills",
-      "label": "教学提示促进语言技能发展 / developsLanguageSkills",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:03"
-    },
-    {
-      "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
-      "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:03",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
-    },
-    {
-      "relationName": "teachingTipsDevelopLanguageSkills",
-      "label": "教学提示促进语言技能发展 / developsLanguageSkills",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:04"
-    },
-    {
-      "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
-      "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:04",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
-    },
-    {
-      "relationName": "teachingTipsDevelopLanguageSkills",
-      "label": "教学提示促进语言技能发展 / developsLanguageSkills",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:05"
-    },
-    {
-      "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
-      "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:05",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
-    },
-    {
-      "relationName": "teachingTipsDevelopLanguageSkills",
-      "label": "教学提示促进语言技能发展 / developsLanguageSkills",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:01"
-    },
-    {
-      "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
-      "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:01",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
-    },
-    {
-      "relationName": "teachingTipsDevelopLanguageSkills",
-      "label": "教学提示促进语言技能发展 / developsLanguageSkills",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:02"
-    },
-    {
-      "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
-      "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:02",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
-    },
-    {
-      "relationName": "teachingTipsDevelopLanguageSkills",
-      "label": "教学提示促进语言技能发展 / developsLanguageSkills",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:03"
-    },
-    {
-      "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
-      "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:03",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
-    },
-    {
-      "relationName": "teachingTipsDevelopLanguageSkills",
-      "label": "教学提示促进语言技能发展 / developsLanguageSkills",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:04"
-    },
-    {
-      "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
-      "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:04",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
-    },
-    {
-      "relationName": "teachingTipsDevelopLanguageSkills",
-      "label": "教学提示促进语言技能发展 / developsLanguageSkills",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:05"
-    },
-    {
-      "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
-      "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:05",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
-    },
-    {
-      "relationName": "teachingTipsDevelopLanguageSkills",
-      "label": "教学提示促进语言技能发展 / developsLanguageSkills",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:01"
-    },
-    {
-      "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
-      "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:01",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
-    },
-    {
-      "relationName": "teachingTipsDevelopLanguageSkills",
-      "label": "教学提示促进语言技能发展 / developsLanguageSkills",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:02"
-    },
-    {
-      "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
-      "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:02",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
-    },
-    {
-      "relationName": "teachingTipsDevelopLanguageSkills",
-      "label": "教学提示促进语言技能发展 / developsLanguageSkills",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:03"
-    },
-    {
-      "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
-      "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:03",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
-    },
-    {
-      "relationName": "teachingTipsDevelopLanguageSkills",
-      "label": "教学提示促进语言技能发展 / developsLanguageSkills",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:04"
-    },
-    {
-      "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
-      "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:04",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
-    },
-    {
-      "relationName": "teachingTipsDevelopLanguageSkills",
-      "label": "教学提示促进语言技能发展 / developsLanguageSkills",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:05"
-    },
-    {
-      "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
-      "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:05",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
-    }
-  ]
-}
+[
+  {
+    "relationName": "courseContentSpecifiesLanguageSkills",
+    "label": "课程内容规定语言技能要求 / specifiesLanguageSkills",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:01"
+  },
+  {
+    "relationName": "languageSkillsAreSpecifiedByCourseContent",
+    "label": "语言技能要求由课程内容规定 / areSpecifiedByCourseContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:05"
+  },
+  {
+    "relationName": "courseContentSpecifiesLanguageSkills",
+    "label": "课程内容规定语言技能要求 / specifiesLanguageSkills",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:02"
+  },
+  {
+    "relationName": "languageSkillsAreSpecifiedByCourseContent",
+    "label": "语言技能要求由课程内容规定 / areSpecifiedByCourseContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:05"
+  },
+  {
+    "relationName": "courseContentSpecifiesLanguageSkills",
+    "label": "课程内容规定语言技能要求 / specifiesLanguageSkills",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:03"
+  },
+  {
+    "relationName": "languageSkillsAreSpecifiedByCourseContent",
+    "label": "语言技能要求由课程内容规定 / areSpecifiedByCourseContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:05"
+  },
+  {
+    "relationName": "courseContentSpecifiesLanguageSkills",
+    "label": "课程内容规定语言技能要求 / specifiesLanguageSkills",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:04"
+  },
+  {
+    "relationName": "languageSkillsAreSpecifiedByCourseContent",
+    "label": "语言技能要求由课程内容规定 / areSpecifiedByCourseContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:05"
+  },
+  {
+    "relationName": "courseContentSpecifiesLanguageSkills",
+    "label": "课程内容规定语言技能要求 / specifiesLanguageSkills",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:05"
+  },
+  {
+    "relationName": "languageSkillsAreSpecifiedByCourseContent",
+    "label": "语言技能要求由课程内容规定 / areSpecifiedByCourseContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:05"
+  },
+  {
+    "relationName": "teachingTipsDevelopLanguageSkills",
+    "label": "教学提示促进语言技能发展 / developsLanguageSkills",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:01"
+  },
+  {
+    "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
+    "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+  },
+  {
+    "relationName": "teachingTipsDevelopLanguageSkills",
+    "label": "教学提示促进语言技能发展 / developsLanguageSkills",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:02"
+  },
+  {
+    "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
+    "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+  },
+  {
+    "relationName": "teachingTipsDevelopLanguageSkills",
+    "label": "教学提示促进语言技能发展 / developsLanguageSkills",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:03"
+  },
+  {
+    "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
+    "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+  },
+  {
+    "relationName": "teachingTipsDevelopLanguageSkills",
+    "label": "教学提示促进语言技能发展 / developsLanguageSkills",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:04"
+  },
+  {
+    "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
+    "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+  },
+  {
+    "relationName": "teachingTipsDevelopLanguageSkills",
+    "label": "教学提示促进语言技能发展 / developsLanguageSkills",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:05"
+  },
+  {
+    "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
+    "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+  },
+  {
+    "relationName": "teachingTipsDevelopLanguageSkills",
+    "label": "教学提示促进语言技能发展 / developsLanguageSkills",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:01"
+  },
+  {
+    "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
+    "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+  },
+  {
+    "relationName": "teachingTipsDevelopLanguageSkills",
+    "label": "教学提示促进语言技能发展 / developsLanguageSkills",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:02"
+  },
+  {
+    "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
+    "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+  },
+  {
+    "relationName": "teachingTipsDevelopLanguageSkills",
+    "label": "教学提示促进语言技能发展 / developsLanguageSkills",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:03"
+  },
+  {
+    "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
+    "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+  },
+  {
+    "relationName": "teachingTipsDevelopLanguageSkills",
+    "label": "教学提示促进语言技能发展 / developsLanguageSkills",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:04"
+  },
+  {
+    "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
+    "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+  },
+  {
+    "relationName": "teachingTipsDevelopLanguageSkills",
+    "label": "教学提示促进语言技能发展 / developsLanguageSkills",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:05"
+  },
+  {
+    "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
+    "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+  },
+  {
+    "relationName": "teachingTipsDevelopLanguageSkills",
+    "label": "教学提示促进语言技能发展 / developsLanguageSkills",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:01"
+  },
+  {
+    "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
+    "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+  },
+  {
+    "relationName": "teachingTipsDevelopLanguageSkills",
+    "label": "教学提示促进语言技能发展 / developsLanguageSkills",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:02"
+  },
+  {
+    "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
+    "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+  },
+  {
+    "relationName": "teachingTipsDevelopLanguageSkills",
+    "label": "教学提示促进语言技能发展 / developsLanguageSkills",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:03"
+  },
+  {
+    "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
+    "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+  },
+  {
+    "relationName": "teachingTipsDevelopLanguageSkills",
+    "label": "教学提示促进语言技能发展 / developsLanguageSkills",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:04"
+  },
+  {
+    "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
+    "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+  },
+  {
+    "relationName": "teachingTipsDevelopLanguageSkills",
+    "label": "教学提示促进语言技能发展 / developsLanguageSkills",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:05"
+  },
+  {
+    "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
+    "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+  },
+  {
+    "relationName": "teachingTipsDevelopLanguageSkills",
+    "label": "教学提示促进语言技能发展 / developsLanguageSkills",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:01"
+  },
+  {
+    "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
+    "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+  },
+  {
+    "relationName": "teachingTipsDevelopLanguageSkills",
+    "label": "教学提示促进语言技能发展 / developsLanguageSkills",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:02"
+  },
+  {
+    "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
+    "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+  },
+  {
+    "relationName": "teachingTipsDevelopLanguageSkills",
+    "label": "教学提示促进语言技能发展 / developsLanguageSkills",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:03"
+  },
+  {
+    "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
+    "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+  },
+  {
+    "relationName": "teachingTipsDevelopLanguageSkills",
+    "label": "教学提示促进语言技能发展 / developsLanguageSkills",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:04"
+  },
+  {
+    "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
+    "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+  },
+  {
+    "relationName": "teachingTipsDevelopLanguageSkills",
+    "label": "教学提示促进语言技能发展 / developsLanguageSkills",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:05"
+  },
+  {
+    "relationName": "languageSkillsAreDevelopedThroughTeachingTips",
+    "label": "语言技能在教学提示中发展 / areDevelopedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageSkills:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+  }
+]

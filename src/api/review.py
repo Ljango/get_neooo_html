@@ -3,14 +3,23 @@
 审核API - 实体/关系审核功能
 """
 
+# 标准库
 import json
+import re
 from datetime import datetime
 from pathlib import Path
 from typing import List, Optional
+
+# 第三方库
 from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy.orm import Session
 from sqlalchemy import func
 
+# 本地配置
+import config
+from config import DATA_ROOT
+
+# 本地模块
 from .database import get_db
 from .models import User, UserSubject, ReviewRecord, ReviewStatus, UserRole
 from .schemas import (
@@ -18,93 +27,26 @@ from .schemas import (
     ReviewRecordInfo, ReviewProgress, ResponseBase, SubjectStats
 )
 from .deps import get_current_user, require_teacher, log_operation
-from config import SUBJECT_CONFIG, DATA_ROOT, ENTITY_TYPE_ORDER
+from .utils import (
+    get_subject_config, get_entities_dir, get_relations_dir,
+    load_json_file, paginate, get_review_statistics,
+    build_entity_title_map
+)
 
 router = APIRouter()
 
 
+# 保留原函数签名以保持向后兼容，内部使用utils模块
 def load_entities_from_json(subject_id: str, entity_type: str = None) -> List[dict]:
     """从JSON文件加载实体"""
-    # 查找学科目录
-    subject_config = None
-    for name, config in SUBJECT_CONFIG.items():
-        if name == subject_id or config.get('data_dir') == subject_id:
-            subject_config = config
-            subject_id = name
-            break
-    
-    if not subject_config:
-        return []
-    
-    data_dir = DATA_ROOT / subject_config['data_dir']
-    entities_dir = data_dir / "entities"
-    
-    if not entities_dir.exists():
-        entities_dir = data_dir / "实体"
-    
-    if not entities_dir.exists():
-        return []
-    
-    entities = []
-    
-    for json_file in entities_dir.glob("*.json"):
-        # 如果指定了类型，只加载该类型
-        if entity_type and json_file.stem != entity_type:
-            continue
-        
-        try:
-            with open(json_file, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-            
-            items = data if isinstance(data, list) else data.get('entities', [])
-            for item in items:
-                item['_entity_type'] = json_file.stem
-            entities.extend(items)
-        except Exception:
-            pass
-    
-    return entities
+    from .utils import load_entities_from_json as _load_entities
+    return _load_entities(subject_id, entity_type)
 
 
 def load_relations_from_json(subject_id: str) -> List[dict]:
     """从JSON文件加载关系"""
-    subject_config = None
-    for name, config in SUBJECT_CONFIG.items():
-        if name == subject_id or config.get('data_dir') == subject_id:
-            subject_config = config
-            break
-    
-    if not subject_config:
-        return []
-    
-    data_dir = DATA_ROOT / subject_config['data_dir']
-    relations_dir = data_dir / "relations"
-    
-    if not relations_dir.exists():
-        relations_dir = data_dir / "relation"
-    if not relations_dir.exists():
-        relations_dir = data_dir / "关系"
-    
-    if not relations_dir.exists():
-        return []
-    
-    relations = []
-    
-    for json_file in relations_dir.glob("*.json"):
-        try:
-            with open(json_file, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-            
-            items = data if isinstance(data, list) else data.get(
-                'relations', data.get('relation', data.get('relationships', []))
-            )
-            for item in items:
-                item['_source_file'] = json_file.name
-            relations.extend(items)
-        except Exception:
-            pass
-    
-    return relations
+    from .utils import load_relations_from_json as _load_relations
+    return _load_relations(subject_id)
 
 
 @router.get("/subjects")
@@ -116,12 +58,12 @@ async def get_my_subjects(
     # root、admin和engineer可以看到所有学科
     if current_user.has_any_role("root", "admin", "engineer"):
         subjects = []
-        for name, config in SUBJECT_CONFIG.items():
+        for name, subject_config in config.SUBJECT_CONFIG.items():
             subjects.append({
                 "subject_id": name,
-                "display_name": config.get('display_name', name),
-                "icon": config.get('icon', '📚'),
-                "data_dir": config.get('data_dir'),
+                "display_name": subject_config.get('display_name', name),
+                "icon": subject_config.get('icon', '📚'),
+                "data_dir": subject_config.get('data_dir'),
                 "entity_types": None  # 全部类型
             })
         return {"success": True, "subjects": subjects}
@@ -133,12 +75,12 @@ async def get_my_subjects(
     
     subjects = []
     for us in user_subjects:
-        config = SUBJECT_CONFIG.get(us.subject_id, {})
+        subject_config = config.SUBJECT_CONFIG.get(us.subject_id, {})
         subjects.append({
             "subject_id": us.subject_id,
-            "display_name": config.get('display_name', us.subject_id),
-            "icon": config.get('icon', '📚'),
-            "data_dir": config.get('data_dir'),
+            "display_name": subject_config.get('display_name', us.subject_id),
+            "icon": subject_config.get('icon', '📚'),
+            "data_dir": subject_config.get('data_dir'),
             "entity_types": us.entity_types
         })
     
@@ -152,12 +94,12 @@ async def get_entity_types(
 ):
     """获取学科的所有实体类型列表（从文件名推断，按配置排序）"""
     # 查找学科配置
-    subject_config = SUBJECT_CONFIG.get(subject_id)
+    subject_config = config.SUBJECT_CONFIG.get(subject_id)
     if not subject_config:
         # 尝试通过data_dir匹配
-        for name, config in SUBJECT_CONFIG.items():
-            if config.get('data_dir') == subject_id:
-                subject_config = config
+        for name, cfg in config.SUBJECT_CONFIG.items():
+            if cfg.get('data_dir') == subject_id:
+                subject_config = cfg
                 break
     
     if not subject_config:
@@ -186,7 +128,7 @@ async def get_entity_types(
             count = 0
         
         # 获取排序优先级
-        order = ENTITY_TYPE_ORDER.get(type_name, ENTITY_TYPE_ORDER.get('_default', 100))
+        order = config.ENTITY_TYPE_ORDER.get(type_name, config.ENTITY_TYPE_ORDER.get('_default', 100))
         
         types.append({
             "type": type_name,

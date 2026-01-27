@@ -1,1544 +1,1542 @@
-{
-  "entities": [
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:1",
-      "title": "第一课 我国的生产资料所有制",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "统编版",
-        "volume": "必修2 经济与社会",
-        "chapter": "第一单元 生产资料所有制与经济体制",
-        "sourceBook": "高中思想政治统编版高一必修2 经济与社会",
-        "index": {
-          "unitIndex": 1,
-          "sectionIndex": 1
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:2",
-      "title": "第二课 我国的社会主义市场经济体制",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "统编版",
-        "volume": "必修2 经济与社会",
-        "chapter": "第一单元 生产资料所有制与经济体制",
-        "sourceBook": "高中思想政治统编版高一必修2 经济与社会",
-        "index": {
-          "unitIndex": 1,
-          "sectionIndex": 2
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:3",
-      "title": "第三课 我国的经济发展",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "统编版",
-        "volume": "必修2 经济与社会",
-        "chapter": "第二单元 经济发展与社会进步",
-        "sourceBook": "高中思想政治统编版高一必修2 经济与社会",
-        "index": {
-          "unitIndex": 2,
-          "sectionIndex": 1
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:4",
-      "title": "第四课 我国的个人收入分配与社会保障",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "统编版",
-        "volume": "必修2 经济与社会",
-        "chapter": "第二单元 经济发展与社会进步",
-        "sourceBook": "高中思想政治统编版高一必修2 经济与社会",
-        "index": {
-          "unitIndex": 2,
-          "sectionIndex": 2
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:5",
-      "title": "综合探究 践行社会责任 促进社会进步",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "统编版",
-        "volume": "必修2 经济与社会",
-        "chapter": "第二单元 经济发展与社会进步",
-        "sourceBook": "高中思想政治统编版高一必修2 经济与社会",
-        "index": {
-          "unitIndex": 2,
-          "sectionIndex": 3
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:6",
-      "title": "使市场在资源配置中起决定性作用",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "统编版",
-        "volume": "必修2 经济与社会",
-        "chapter": "其他",
-        "sourceBook": "高中思想政治统编版高一必修2 经济与社会",
-        "index": {
-          "unitIndex": 3,
-          "sectionIndex": 1
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:7",
-      "title": "坚持新发展理念",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "统编版",
-        "volume": "必修2 经济与社会",
-        "chapter": "其他",
-        "sourceBook": "高中思想政治统编版高一必修2 经济与社会",
-        "index": {
-          "unitIndex": 3,
-          "sectionIndex": 2
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:8",
-      "title": "建设现代化经济体系",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "统编版",
-        "volume": "必修2 经济与社会",
-        "chapter": "其他",
-        "sourceBook": "高中思想政治统编版高一必修2 经济与社会",
-        "index": {
-          "unitIndex": 3,
-          "sectionIndex": 3
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:9",
-      "title": "综合探究 加快完善社会主义市场经济体制",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "统编版",
-        "volume": "必修2 经济与社会",
-        "chapter": "其他",
-        "sourceBook": "高中思想政治统编版高一必修2 经济与社会",
-        "index": {
-          "unitIndex": 3,
-          "sectionIndex": 4
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:10",
-      "title": "第一课 历史和人民的选择",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "统编版",
-        "volume": "必修3 政治与法治",
-        "chapter": "第一单元 中国共产党的领导",
-        "sourceBook": "高中思想政治统编版高一必修3 政治与法治",
-        "index": {
-          "unitIndex": 1,
-          "sectionIndex": 1
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:11",
-      "title": "第二课 中国共产党的先进性",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "统编版",
-        "volume": "必修3 政治与法治",
-        "chapter": "第一单元 中国共产党的领导",
-        "sourceBook": "高中思想政治统编版高一必修3 政治与法治",
-        "index": {
-          "unitIndex": 1,
-          "sectionIndex": 2
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:12",
-      "title": "第三课 坚持和加强党的全面领导",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "统编版",
-        "volume": "必修3 政治与法治",
-        "chapter": "第一单元 中国共产党的领导",
-        "sourceBook": "高中思想政治统编版高一必修3 政治与法治",
-        "index": {
-          "unitIndex": 1,
-          "sectionIndex": 3
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:13",
-      "title": "综合探究 始终走在时代前列的中国共产党",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "统编版",
-        "volume": "必修3 政治与法治",
-        "chapter": "第一单元 中国共产党的领导",
-        "sourceBook": "高中思想政治统编版高一必修3 政治与法治",
-        "index": {
-          "unitIndex": 1,
-          "sectionIndex": 4
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:14",
-      "title": "第四课 人民民主专政的社会主义国家",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "统编版",
-        "volume": "必修3 政治与法治",
-        "chapter": "第二单元 人民当家作主",
-        "sourceBook": "高中思想政治统编版高一必修3 政治与法治",
-        "index": {
-          "unitIndex": 2,
-          "sectionIndex": 1
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:15",
-      "title": "第五课 我国的根本政治制度",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "统编版",
-        "volume": "必修3 政治与法治",
-        "chapter": "第二单元 人民当家作主",
-        "sourceBook": "高中思想政治统编版高一必修3 政治与法治",
-        "index": {
-          "unitIndex": 2,
-          "sectionIndex": 2
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:16",
-      "title": "第六课 我国的基本政治制度",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "统编版",
-        "volume": "必修3 政治与法治",
-        "chapter": "第二单元 人民当家作主",
-        "sourceBook": "高中思想政治统编版高一必修3 政治与法治",
-        "index": {
-          "unitIndex": 2,
-          "sectionIndex": 3
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:17",
-      "title": "综合探究 在党的领导下实现人民当家作主",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "统编版",
-        "volume": "必修3 政治与法治",
-        "chapter": "第二单元 人民当家作主",
-        "sourceBook": "高中思想政治统编版高一必修3 政治与法治",
-        "index": {
-          "unitIndex": 2,
-          "sectionIndex": 4
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:18",
-      "title": "第七课 治国理政的基本方式",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "统编版",
-        "volume": "必修3 政治与法治",
-        "chapter": "第三单元 全面依法治国",
-        "sourceBook": "高中思想政治统编版高一必修3 政治与法治",
-        "index": {
-          "unitIndex": 3,
-          "sectionIndex": 1
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:19",
-      "title": "第八课 法治中国建设",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "统编版",
-        "volume": "必修3 政治与法治",
-        "chapter": "第三单元 全面依法治国",
-        "sourceBook": "高中思想政治统编版高一必修3 政治与法治",
-        "index": {
-          "unitIndex": 3,
-          "sectionIndex": 2
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:20",
-      "title": "第九课 全面依法治国的基本要求",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "统编版",
-        "volume": "必修3 政治与法治",
-        "chapter": "第三单元 全面依法治国",
-        "sourceBook": "高中思想政治统编版高一必修3 政治与法治",
-        "index": {
-          "unitIndex": 3,
-          "sectionIndex": 3
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:21",
-      "title": "综合探究 坚持党的领导、人民当家做主、依法治国有机统一",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "统编版",
-        "volume": "必修3 政治与法治",
-        "chapter": "第三单元 全面依法治国",
-        "sourceBook": "高中思想政治统编版高一必修3 政治与法治",
-        "index": {
-          "unitIndex": 3,
-          "sectionIndex": 4
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:22",
-      "title": "第一课 时代精神的精华",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高二",
-        "edition": "统编版",
-        "volume": "必修4 哲学与文化",
-        "chapter": "第一单元 探索世界与把握规律",
-        "sourceBook": "高中思想政治统编版高二必修4 哲学与文化",
-        "index": {
-          "unitIndex": 1,
-          "sectionIndex": 1
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:23",
-      "title": "第二课 探究世界的本质",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高二",
-        "edition": "统编版",
-        "volume": "必修4 哲学与文化",
-        "chapter": "第一单元 探索世界与把握规律",
-        "sourceBook": "高中思想政治统编版高二必修4 哲学与文化",
-        "index": {
-          "unitIndex": 1,
-          "sectionIndex": 2
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:24",
-      "title": "第三课 把握世界的规律",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高二",
-        "edition": "统编版",
-        "volume": "必修4 哲学与文化",
-        "chapter": "第一单元 探索世界与把握规律",
-        "sourceBook": "高中思想政治统编版高二必修4 哲学与文化",
-        "index": {
-          "unitIndex": 1,
-          "sectionIndex": 3
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:25",
-      "title": "综合探究 坚持唯物辩证法 反对形而上学",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高二",
-        "edition": "统编版",
-        "volume": "必修4 哲学与文化",
-        "chapter": "第一单元 探索世界与把握规律",
-        "sourceBook": "高中思想政治统编版高二必修4 哲学与文化",
-        "index": {
-          "unitIndex": 1,
-          "sectionIndex": 4
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:26",
-      "title": "第四课 探索认识的奥秘",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高二",
-        "edition": "统编版",
-        "volume": "必修4 哲学与文化",
-        "chapter": "第二单元 认识社会与价值选择",
-        "sourceBook": "高中思想政治统编版高二必修4 哲学与文化",
-        "index": {
-          "unitIndex": 2,
-          "sectionIndex": 1
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:27",
-      "title": "第五课 寻觅社会的真谛",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高二",
-        "edition": "统编版",
-        "volume": "必修4 哲学与文化",
-        "chapter": "第二单元 认识社会与价值选择",
-        "sourceBook": "高中思想政治统编版高二必修4 哲学与文化",
-        "index": {
-          "unitIndex": 2,
-          "sectionIndex": 2
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:28",
-      "title": "第六课 实现人生的价值",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高二",
-        "edition": "统编版",
-        "volume": "必修4 哲学与文化",
-        "chapter": "第二单元 认识社会与价值选择",
-        "sourceBook": "高中思想政治统编版高二必修4 哲学与文化",
-        "index": {
-          "unitIndex": 2,
-          "sectionIndex": 3
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:29",
-      "title": "综合探究 坚持历史唯物主义 反对历史虚无主义",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高二",
-        "edition": "统编版",
-        "volume": "必修4 哲学与文化",
-        "chapter": "第二单元 认识社会与价值选择",
-        "sourceBook": "高中思想政治统编版高二必修4 哲学与文化",
-        "index": {
-          "unitIndex": 2,
-          "sectionIndex": 4
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:30",
-      "title": "第七课 继承发展中华优秀传统文化",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高二",
-        "edition": "统编版",
-        "volume": "必修4 哲学与文化",
-        "chapter": "第三单元 文化传承与文化创新",
-        "sourceBook": "高中思想政治统编版高二必修4 哲学与文化",
-        "index": {
-          "unitIndex": 3,
-          "sectionIndex": 1
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:31",
-      "title": "第八课 学习借鉴外来文化的有益成果",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高二",
-        "edition": "统编版",
-        "volume": "必修4 哲学与文化",
-        "chapter": "第三单元 文化传承与文化创新",
-        "sourceBook": "高中思想政治统编版高二必修4 哲学与文化",
-        "index": {
-          "unitIndex": 3,
-          "sectionIndex": 2
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:32",
-      "title": "第九课 发展中国特色社会主义文化",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高二",
-        "edition": "统编版",
-        "volume": "必修4 哲学与文化",
-        "chapter": "第三单元 文化传承与文化创新",
-        "sourceBook": "高中思想政治统编版高二必修4 哲学与文化",
-        "index": {
-          "unitIndex": 3,
-          "sectionIndex": 3
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:33",
-      "title": "综合探究 坚持以马克思主义为指导 发展中国特色社会主义文化",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高二",
-        "edition": "统编版",
-        "volume": "必修4 哲学与文化",
-        "chapter": "第三单元 文化传承与文化创新",
-        "sourceBook": "高中思想政治统编版高二必修4 哲学与文化",
-        "index": {
-          "unitIndex": 3,
-          "sectionIndex": 4
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:34",
-      "title": "第一课 国体与政体",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修1 当代国际政治与经济",
-        "chapter": "第一单元 各具特色的国家",
-        "sourceBook": "高中思想政治统编版选择性必修1 当代国际政治与经济",
-        "index": {
-          "unitIndex": 1,
-          "sectionIndex": 1
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:35",
-      "title": "第二课 国家的结构形式",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修1 当代国际政治与经济",
-        "chapter": "第一单元 各具特色的国家",
-        "sourceBook": "高中思想政治统编版选择性必修1 当代国际政治与经济",
-        "index": {
-          "unitIndex": 1,
-          "sectionIndex": 2
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:36",
-      "title": "综合探究 国家安全与核心利益",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修1 当代国际政治与经济",
-        "chapter": "第一单元 各具特色的国家",
-        "sourceBook": "高中思想政治统编版选择性必修1 当代国际政治与经济",
-        "index": {
-          "unitIndex": 1,
-          "sectionIndex": 3
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:37",
-      "title": "第三课 多极化趋势",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修1 当代国际政治与经济",
-        "chapter": "第二单元 世界多极化",
-        "sourceBook": "高中思想政治统编版选择性必修1 当代国际政治与经济",
-        "index": {
-          "unitIndex": 2,
-          "sectionIndex": 1
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:38",
-      "title": "第四课 和平与发展",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修1 当代国际政治与经济",
-        "chapter": "第二单元 世界多极化",
-        "sourceBook": "高中思想政治统编版选择性必修1 当代国际政治与经济",
-        "index": {
-          "unitIndex": 2,
-          "sectionIndex": 2
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:39",
-      "title": "第五课 中国的外交",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修1 当代国际政治与经济",
-        "chapter": "第二单元 世界多极化",
-        "sourceBook": "高中思想政治统编版选择性必修1 当代国际政治与经济",
-        "index": {
-          "unitIndex": 2,
-          "sectionIndex": 3
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:40",
-      "title": "综合探究 贡献中国智慧",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修1 当代国际政治与经济",
-        "chapter": "第二单元 世界多极化",
-        "sourceBook": "高中思想政治统编版选择性必修1 当代国际政治与经济",
-        "index": {
-          "unitIndex": 2,
-          "sectionIndex": 4
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:41",
-      "title": "第六课 走进经济全球化",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修1 当代国际政治与经济",
-        "chapter": "第三单元 经济全球化",
-        "sourceBook": "高中思想政治统编版选择性必修1 当代国际政治与经济",
-        "index": {
-          "unitIndex": 3,
-          "sectionIndex": 1
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:42",
-      "title": "第七课 经济全球化与中国",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修1 当代国际政治与经济",
-        "chapter": "第三单元 经济全球化",
-        "sourceBook": "高中思想政治统编版选择性必修1 当代国际政治与经济",
-        "index": {
-          "unitIndex": 3,
-          "sectionIndex": 2
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:43",
-      "title": "综合探究 发展更高层次开放型经济 完善全球治理",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修1 当代国际政治与经济",
-        "chapter": "第三单元 经济全球化",
-        "sourceBook": "高中思想政治统编版选择性必修1 当代国际政治与经济",
-        "index": {
-          "unitIndex": 3,
-          "sectionIndex": 3
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:44",
-      "title": "第八课 主要的国际组织",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修1 当代国际政治与经济",
-        "chapter": "第四单元 国际组织",
-        "sourceBook": "高中思想政治统编版选择性必修1 当代国际政治与经济",
-        "index": {
-          "unitIndex": 4,
-          "sectionIndex": 1
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:45",
-      "title": "第九课 中国与国际组织",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修1 当代国际政治与经济",
-        "chapter": "第四单元 国际组织",
-        "sourceBook": "高中思想政治统编版选择性必修1 当代国际政治与经济",
-        "index": {
-          "unitIndex": 4,
-          "sectionIndex": 2
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:46",
-      "title": "综合探究 国际视野及国际人才",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修1 当代国际政治与经济",
-        "chapter": "第四单元 国际组织",
-        "sourceBook": "高中思想政治统编版选择性必修1 当代国际政治与经济",
-        "index": {
-          "unitIndex": 4,
-          "sectionIndex": 3
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:47",
-      "title": "第一课 在生活中学民法用民法",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修2 法律与生活",
-        "chapter": "第一单元 民事权利与义务",
-        "sourceBook": "高中思想政治统编版选择性必修2 法律与生活",
-        "index": {
-          "unitIndex": 1,
-          "sectionIndex": 1
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:48",
-      "title": "第二课 依法有效保护财产权",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修2 法律与生活",
-        "chapter": "第一单元 民事权利与义务",
-        "sourceBook": "高中思想政治统编版选择性必修2 法律与生活",
-        "index": {
-          "unitIndex": 1,
-          "sectionIndex": 2
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:49",
-      "title": "第三课 订约履约 诚信为本",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修2 法律与生活",
-        "chapter": "第一单元 民事权利与义务",
-        "sourceBook": "高中思想政治统编版选择性必修2 法律与生活",
-        "index": {
-          "unitIndex": 1,
-          "sectionIndex": 3
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:50",
-      "title": "第四课 侵权责任与权利界限",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修2 法律与生活",
-        "chapter": "第一单元 民事权利与义务",
-        "sourceBook": "高中思想政治统编版选择性必修2 法律与生活",
-        "index": {
-          "unitIndex": 1,
-          "sectionIndex": 4
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:51",
-      "title": "综合探究 财产制度助力经济社会发展",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修2 法律与生活",
-        "chapter": "第一单元 民事权利与义务",
-        "sourceBook": "高中思想政治统编版选择性必修2 法律与生活",
-        "index": {
-          "unitIndex": 1,
-          "sectionIndex": 5
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:52",
-      "title": "第五课 在和睦家庭中成长",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修2 法律与生活",
-        "chapter": "第二单元 家庭与婚姻",
-        "sourceBook": "高中思想政治统编版选择性必修2 法律与生活",
-        "index": {
-          "unitIndex": 2,
-          "sectionIndex": 1
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:53",
-      "title": "第六课 珍惜婚姻关系",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修2 法律与生活",
-        "chapter": "第二单元 家庭与婚姻",
-        "sourceBook": "高中思想政治统编版选择性必修2 法律与生活",
-        "index": {
-          "unitIndex": 2,
-          "sectionIndex": 2
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:54",
-      "title": "综合探究 家庭生活 法律守护",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修2 法律与生活",
-        "chapter": "第二单元 家庭与婚姻",
-        "sourceBook": "高中思想政治统编版选择性必修2 法律与生活",
-        "index": {
-          "unitIndex": 2,
-          "sectionIndex": 3
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:55",
-      "title": "第七课 做个明白的劳动者",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修2 法律与生活",
-        "chapter": "第三单元 就业与创业",
-        "sourceBook": "高中思想政治统编版选择性必修2 法律与生活",
-        "index": {
-          "unitIndex": 3,
-          "sectionIndex": 1
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:56",
-      "title": "第八课 自主创业与诚信经营",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修2 法律与生活",
-        "chapter": "第三单元 就业与创业",
-        "sourceBook": "高中思想政治统编版选择性必修2 法律与生活",
-        "index": {
-          "unitIndex": 3,
-          "sectionIndex": 2
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:57",
-      "title": "综合探究 企业创办之旅",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修2 法律与生活",
-        "chapter": "第三单元 就业与创业",
-        "sourceBook": "高中思想政治统编版选择性必修2 法律与生活",
-        "index": {
-          "unitIndex": 3,
-          "sectionIndex": 3
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:58",
-      "title": "第九课 纠纷的多元解决方式",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修2 法律与生活",
-        "chapter": "第四单元 社会争议解决",
-        "sourceBook": "高中思想政治统编版选择性必修2 法律与生活",
-        "index": {
-          "unitIndex": 4,
-          "sectionIndex": 1
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:59",
-      "title": "第十课 诉讼实现公平正义",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修2 法律与生活",
-        "chapter": "第四单元 社会争议解决",
-        "sourceBook": "高中思想政治统编版选择性必修2 法律与生活",
-        "index": {
-          "unitIndex": 4,
-          "sectionIndex": 2
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:60",
-      "title": "综合探究 感受司法公正",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修2 法律与生活",
-        "chapter": "第四单元 社会争议解决",
-        "sourceBook": "高中思想政治统编版选择性必修2 法律与生活",
-        "index": {
-          "unitIndex": 4,
-          "sectionIndex": 3
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:61",
-      "title": "第一课 走进思维世界",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修3 逻辑与思维",
-        "chapter": "第一单元 树立科学思维观念",
-        "sourceBook": "高中思想政治统编版选择性必修3 逻辑与思维",
-        "index": {
-          "unitIndex": 1,
-          "sectionIndex": 1
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:62",
-      "title": "第二课 把握逻辑要义",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修3 逻辑与思维",
-        "chapter": "第一单元 树立科学思维观念",
-        "sourceBook": "高中思想政治统编版选择性必修3 逻辑与思维",
-        "index": {
-          "unitIndex": 1,
-          "sectionIndex": 2
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:63",
-      "title": "第三课 领会科学思维",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修3 逻辑与思维",
-        "chapter": "第一单元 树立科学思维观念",
-        "sourceBook": "高中思想政治统编版选择性必修3 逻辑与思维",
-        "index": {
-          "unitIndex": 1,
-          "sectionIndex": 3
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:64",
-      "title": "综合探究 学会科学思维 提升思维品质",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修3 逻辑与思维",
-        "chapter": "第一单元 树立科学思维观念",
-        "sourceBook": "高中思想政治统编版选择性必修3 逻辑与思维",
-        "index": {
-          "unitIndex": 1,
-          "sectionIndex": 4
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:65",
-      "title": "第四课 准确把握概念",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修3 逻辑与思维",
-        "chapter": "第二单元 遵循逻辑思维规则",
-        "sourceBook": "高中思想政治统编版选择性必修3 逻辑与思维",
-        "index": {
-          "unitIndex": 2,
-          "sectionIndex": 1
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:66",
-      "title": "第五课 正确运用判断",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修3 逻辑与思维",
-        "chapter": "第二单元 遵循逻辑思维规则",
-        "sourceBook": "高中思想政治统编版选择性必修3 逻辑与思维",
-        "index": {
-          "unitIndex": 2,
-          "sectionIndex": 2
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:67",
-      "title": "第六课 掌握演绎推理方法",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修3 逻辑与思维",
-        "chapter": "第二单元 遵循逻辑思维规则",
-        "sourceBook": "高中思想政治统编版选择性必修3 逻辑与思维",
-        "index": {
-          "unitIndex": 2,
-          "sectionIndex": 3
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:68",
-      "title": "第七课 学会归纳与类比推理",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修3 逻辑与思维",
-        "chapter": "第二单元 遵循逻辑思维规则",
-        "sourceBook": "高中思想政治统编版选择性必修3 逻辑与思维",
-        "index": {
-          "unitIndex": 2,
-          "sectionIndex": 4
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:69",
-      "title": "综合探究 把握逻辑规则 纠正逻辑错误",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修3 逻辑与思维",
-        "chapter": "第二单元 遵循逻辑思维规则",
-        "sourceBook": "高中思想政治统编版选择性必修3 逻辑与思维",
-        "index": {
-          "unitIndex": 2,
-          "sectionIndex": 5
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:70",
-      "title": "第八课 把握辩证分合",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修3 逻辑与思维",
-        "chapter": "第三单元 运用辩证思维方法",
-        "sourceBook": "高中思想政治统编版选择性必修3 逻辑与思维",
-        "index": {
-          "unitIndex": 3,
-          "sectionIndex": 1
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:71",
-      "title": "第九课 理解质量互变",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修3 逻辑与思维",
-        "chapter": "第三单元 运用辩证思维方法",
-        "sourceBook": "高中思想政治统编版选择性必修3 逻辑与思维",
-        "index": {
-          "unitIndex": 3,
-          "sectionIndex": 2
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:72",
-      "title": "第十课 推动认识发展",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修3 逻辑与思维",
-        "chapter": "第三单元 运用辩证思维方法",
-        "sourceBook": "高中思想政治统编版选择性必修3 逻辑与思维",
-        "index": {
-          "unitIndex": 3,
-          "sectionIndex": 3
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:73",
-      "title": "综合探究 领悟辩证精髓 处理复杂问题",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修3 逻辑与思维",
-        "chapter": "第三单元 运用辩证思维方法",
-        "sourceBook": "高中思想政治统编版选择性必修3 逻辑与思维",
-        "index": {
-          "unitIndex": 3,
-          "sectionIndex": 4
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:74",
-      "title": "第十一课 创新思维要善于联想",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修3 逻辑与思维",
-        "chapter": "第四单元 提高创新思维能力",
-        "sourceBook": "高中思想政治统编版选择性必修3 逻辑与思维",
-        "index": {
-          "unitIndex": 4,
-          "sectionIndex": 1
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:75",
-      "title": "第十二课 创新思维要多路探索",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修3 逻辑与思维",
-        "chapter": "第四单元 提高创新思维能力",
-        "sourceBook": "高中思想政治统编版选择性必修3 逻辑与思维",
-        "index": {
-          "unitIndex": 4,
-          "sectionIndex": 2
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:76",
-      "title": "第十三课 创新思维要力求超前",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修3 逻辑与思维",
-        "chapter": "第四单元 提高创新思维能力",
-        "sourceBook": "高中思想政治统编版选择性必修3 逻辑与思维",
-        "index": {
-          "unitIndex": 4,
-          "sectionIndex": 3
-        }
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:77",
-      "title": "综合探究 结合社会实践 勇于开拓创新",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "统编版",
-        "volume": "选择性必修3 逻辑与思维",
-        "chapter": "第四单元 提高创新思维能力",
-        "sourceBook": "高中思想政治统编版选择性必修3 逻辑与思维",
-        "index": {
-          "unitIndex": 4,
-          "sectionIndex": 4
-        }
+[
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:1",
+    "title": "第一课 我国的生产资料所有制",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "统编版",
+      "volume": "必修2 经济与社会",
+      "chapter": "第一单元 生产资料所有制与经济体制",
+      "sourceBook": "高中思想政治统编版高一必修2 经济与社会",
+      "index": {
+        "unitIndex": 1,
+        "sectionIndex": 1
       }
     }
-  ]
-}
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:2",
+    "title": "第二课 我国的社会主义市场经济体制",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "统编版",
+      "volume": "必修2 经济与社会",
+      "chapter": "第一单元 生产资料所有制与经济体制",
+      "sourceBook": "高中思想政治统编版高一必修2 经济与社会",
+      "index": {
+        "unitIndex": 1,
+        "sectionIndex": 2
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:3",
+    "title": "第三课 我国的经济发展",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "统编版",
+      "volume": "必修2 经济与社会",
+      "chapter": "第二单元 经济发展与社会进步",
+      "sourceBook": "高中思想政治统编版高一必修2 经济与社会",
+      "index": {
+        "unitIndex": 2,
+        "sectionIndex": 1
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:4",
+    "title": "第四课 我国的个人收入分配与社会保障",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "统编版",
+      "volume": "必修2 经济与社会",
+      "chapter": "第二单元 经济发展与社会进步",
+      "sourceBook": "高中思想政治统编版高一必修2 经济与社会",
+      "index": {
+        "unitIndex": 2,
+        "sectionIndex": 2
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:5",
+    "title": "综合探究 践行社会责任 促进社会进步",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "统编版",
+      "volume": "必修2 经济与社会",
+      "chapter": "第二单元 经济发展与社会进步",
+      "sourceBook": "高中思想政治统编版高一必修2 经济与社会",
+      "index": {
+        "unitIndex": 2,
+        "sectionIndex": 3
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:6",
+    "title": "使市场在资源配置中起决定性作用",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "统编版",
+      "volume": "必修2 经济与社会",
+      "chapter": "其他",
+      "sourceBook": "高中思想政治统编版高一必修2 经济与社会",
+      "index": {
+        "unitIndex": 3,
+        "sectionIndex": 1
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:7",
+    "title": "坚持新发展理念",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "统编版",
+      "volume": "必修2 经济与社会",
+      "chapter": "其他",
+      "sourceBook": "高中思想政治统编版高一必修2 经济与社会",
+      "index": {
+        "unitIndex": 3,
+        "sectionIndex": 2
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:8",
+    "title": "建设现代化经济体系",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "统编版",
+      "volume": "必修2 经济与社会",
+      "chapter": "其他",
+      "sourceBook": "高中思想政治统编版高一必修2 经济与社会",
+      "index": {
+        "unitIndex": 3,
+        "sectionIndex": 3
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:9",
+    "title": "综合探究 加快完善社会主义市场经济体制",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "统编版",
+      "volume": "必修2 经济与社会",
+      "chapter": "其他",
+      "sourceBook": "高中思想政治统编版高一必修2 经济与社会",
+      "index": {
+        "unitIndex": 3,
+        "sectionIndex": 4
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:10",
+    "title": "第一课 历史和人民的选择",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "统编版",
+      "volume": "必修3 政治与法治",
+      "chapter": "第一单元 中国共产党的领导",
+      "sourceBook": "高中思想政治统编版高一必修3 政治与法治",
+      "index": {
+        "unitIndex": 1,
+        "sectionIndex": 1
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:11",
+    "title": "第二课 中国共产党的先进性",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "统编版",
+      "volume": "必修3 政治与法治",
+      "chapter": "第一单元 中国共产党的领导",
+      "sourceBook": "高中思想政治统编版高一必修3 政治与法治",
+      "index": {
+        "unitIndex": 1,
+        "sectionIndex": 2
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:12",
+    "title": "第三课 坚持和加强党的全面领导",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "统编版",
+      "volume": "必修3 政治与法治",
+      "chapter": "第一单元 中国共产党的领导",
+      "sourceBook": "高中思想政治统编版高一必修3 政治与法治",
+      "index": {
+        "unitIndex": 1,
+        "sectionIndex": 3
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:13",
+    "title": "综合探究 始终走在时代前列的中国共产党",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "统编版",
+      "volume": "必修3 政治与法治",
+      "chapter": "第一单元 中国共产党的领导",
+      "sourceBook": "高中思想政治统编版高一必修3 政治与法治",
+      "index": {
+        "unitIndex": 1,
+        "sectionIndex": 4
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:14",
+    "title": "第四课 人民民主专政的社会主义国家",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "统编版",
+      "volume": "必修3 政治与法治",
+      "chapter": "第二单元 人民当家作主",
+      "sourceBook": "高中思想政治统编版高一必修3 政治与法治",
+      "index": {
+        "unitIndex": 2,
+        "sectionIndex": 1
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:15",
+    "title": "第五课 我国的根本政治制度",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "统编版",
+      "volume": "必修3 政治与法治",
+      "chapter": "第二单元 人民当家作主",
+      "sourceBook": "高中思想政治统编版高一必修3 政治与法治",
+      "index": {
+        "unitIndex": 2,
+        "sectionIndex": 2
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:16",
+    "title": "第六课 我国的基本政治制度",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "统编版",
+      "volume": "必修3 政治与法治",
+      "chapter": "第二单元 人民当家作主",
+      "sourceBook": "高中思想政治统编版高一必修3 政治与法治",
+      "index": {
+        "unitIndex": 2,
+        "sectionIndex": 3
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:17",
+    "title": "综合探究 在党的领导下实现人民当家作主",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "统编版",
+      "volume": "必修3 政治与法治",
+      "chapter": "第二单元 人民当家作主",
+      "sourceBook": "高中思想政治统编版高一必修3 政治与法治",
+      "index": {
+        "unitIndex": 2,
+        "sectionIndex": 4
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:18",
+    "title": "第七课 治国理政的基本方式",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "统编版",
+      "volume": "必修3 政治与法治",
+      "chapter": "第三单元 全面依法治国",
+      "sourceBook": "高中思想政治统编版高一必修3 政治与法治",
+      "index": {
+        "unitIndex": 3,
+        "sectionIndex": 1
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:19",
+    "title": "第八课 法治中国建设",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "统编版",
+      "volume": "必修3 政治与法治",
+      "chapter": "第三单元 全面依法治国",
+      "sourceBook": "高中思想政治统编版高一必修3 政治与法治",
+      "index": {
+        "unitIndex": 3,
+        "sectionIndex": 2
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:20",
+    "title": "第九课 全面依法治国的基本要求",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "统编版",
+      "volume": "必修3 政治与法治",
+      "chapter": "第三单元 全面依法治国",
+      "sourceBook": "高中思想政治统编版高一必修3 政治与法治",
+      "index": {
+        "unitIndex": 3,
+        "sectionIndex": 3
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:21",
+    "title": "综合探究 坚持党的领导、人民当家做主、依法治国有机统一",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "统编版",
+      "volume": "必修3 政治与法治",
+      "chapter": "第三单元 全面依法治国",
+      "sourceBook": "高中思想政治统编版高一必修3 政治与法治",
+      "index": {
+        "unitIndex": 3,
+        "sectionIndex": 4
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:22",
+    "title": "第一课 时代精神的精华",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高二",
+      "edition": "统编版",
+      "volume": "必修4 哲学与文化",
+      "chapter": "第一单元 探索世界与把握规律",
+      "sourceBook": "高中思想政治统编版高二必修4 哲学与文化",
+      "index": {
+        "unitIndex": 1,
+        "sectionIndex": 1
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:23",
+    "title": "第二课 探究世界的本质",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高二",
+      "edition": "统编版",
+      "volume": "必修4 哲学与文化",
+      "chapter": "第一单元 探索世界与把握规律",
+      "sourceBook": "高中思想政治统编版高二必修4 哲学与文化",
+      "index": {
+        "unitIndex": 1,
+        "sectionIndex": 2
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:24",
+    "title": "第三课 把握世界的规律",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高二",
+      "edition": "统编版",
+      "volume": "必修4 哲学与文化",
+      "chapter": "第一单元 探索世界与把握规律",
+      "sourceBook": "高中思想政治统编版高二必修4 哲学与文化",
+      "index": {
+        "unitIndex": 1,
+        "sectionIndex": 3
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:25",
+    "title": "综合探究 坚持唯物辩证法 反对形而上学",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高二",
+      "edition": "统编版",
+      "volume": "必修4 哲学与文化",
+      "chapter": "第一单元 探索世界与把握规律",
+      "sourceBook": "高中思想政治统编版高二必修4 哲学与文化",
+      "index": {
+        "unitIndex": 1,
+        "sectionIndex": 4
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:26",
+    "title": "第四课 探索认识的奥秘",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高二",
+      "edition": "统编版",
+      "volume": "必修4 哲学与文化",
+      "chapter": "第二单元 认识社会与价值选择",
+      "sourceBook": "高中思想政治统编版高二必修4 哲学与文化",
+      "index": {
+        "unitIndex": 2,
+        "sectionIndex": 1
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:27",
+    "title": "第五课 寻觅社会的真谛",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高二",
+      "edition": "统编版",
+      "volume": "必修4 哲学与文化",
+      "chapter": "第二单元 认识社会与价值选择",
+      "sourceBook": "高中思想政治统编版高二必修4 哲学与文化",
+      "index": {
+        "unitIndex": 2,
+        "sectionIndex": 2
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:28",
+    "title": "第六课 实现人生的价值",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高二",
+      "edition": "统编版",
+      "volume": "必修4 哲学与文化",
+      "chapter": "第二单元 认识社会与价值选择",
+      "sourceBook": "高中思想政治统编版高二必修4 哲学与文化",
+      "index": {
+        "unitIndex": 2,
+        "sectionIndex": 3
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:29",
+    "title": "综合探究 坚持历史唯物主义 反对历史虚无主义",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高二",
+      "edition": "统编版",
+      "volume": "必修4 哲学与文化",
+      "chapter": "第二单元 认识社会与价值选择",
+      "sourceBook": "高中思想政治统编版高二必修4 哲学与文化",
+      "index": {
+        "unitIndex": 2,
+        "sectionIndex": 4
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:30",
+    "title": "第七课 继承发展中华优秀传统文化",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高二",
+      "edition": "统编版",
+      "volume": "必修4 哲学与文化",
+      "chapter": "第三单元 文化传承与文化创新",
+      "sourceBook": "高中思想政治统编版高二必修4 哲学与文化",
+      "index": {
+        "unitIndex": 3,
+        "sectionIndex": 1
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:31",
+    "title": "第八课 学习借鉴外来文化的有益成果",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高二",
+      "edition": "统编版",
+      "volume": "必修4 哲学与文化",
+      "chapter": "第三单元 文化传承与文化创新",
+      "sourceBook": "高中思想政治统编版高二必修4 哲学与文化",
+      "index": {
+        "unitIndex": 3,
+        "sectionIndex": 2
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:32",
+    "title": "第九课 发展中国特色社会主义文化",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高二",
+      "edition": "统编版",
+      "volume": "必修4 哲学与文化",
+      "chapter": "第三单元 文化传承与文化创新",
+      "sourceBook": "高中思想政治统编版高二必修4 哲学与文化",
+      "index": {
+        "unitIndex": 3,
+        "sectionIndex": 3
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:33",
+    "title": "综合探究 坚持以马克思主义为指导 发展中国特色社会主义文化",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高二",
+      "edition": "统编版",
+      "volume": "必修4 哲学与文化",
+      "chapter": "第三单元 文化传承与文化创新",
+      "sourceBook": "高中思想政治统编版高二必修4 哲学与文化",
+      "index": {
+        "unitIndex": 3,
+        "sectionIndex": 4
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:34",
+    "title": "第一课 国体与政体",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修1 当代国际政治与经济",
+      "chapter": "第一单元 各具特色的国家",
+      "sourceBook": "高中思想政治统编版选择性必修1 当代国际政治与经济",
+      "index": {
+        "unitIndex": 1,
+        "sectionIndex": 1
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:35",
+    "title": "第二课 国家的结构形式",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修1 当代国际政治与经济",
+      "chapter": "第一单元 各具特色的国家",
+      "sourceBook": "高中思想政治统编版选择性必修1 当代国际政治与经济",
+      "index": {
+        "unitIndex": 1,
+        "sectionIndex": 2
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:36",
+    "title": "综合探究 国家安全与核心利益",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修1 当代国际政治与经济",
+      "chapter": "第一单元 各具特色的国家",
+      "sourceBook": "高中思想政治统编版选择性必修1 当代国际政治与经济",
+      "index": {
+        "unitIndex": 1,
+        "sectionIndex": 3
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:37",
+    "title": "第三课 多极化趋势",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修1 当代国际政治与经济",
+      "chapter": "第二单元 世界多极化",
+      "sourceBook": "高中思想政治统编版选择性必修1 当代国际政治与经济",
+      "index": {
+        "unitIndex": 2,
+        "sectionIndex": 1
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:38",
+    "title": "第四课 和平与发展",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修1 当代国际政治与经济",
+      "chapter": "第二单元 世界多极化",
+      "sourceBook": "高中思想政治统编版选择性必修1 当代国际政治与经济",
+      "index": {
+        "unitIndex": 2,
+        "sectionIndex": 2
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:39",
+    "title": "第五课 中国的外交",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修1 当代国际政治与经济",
+      "chapter": "第二单元 世界多极化",
+      "sourceBook": "高中思想政治统编版选择性必修1 当代国际政治与经济",
+      "index": {
+        "unitIndex": 2,
+        "sectionIndex": 3
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:40",
+    "title": "综合探究 贡献中国智慧",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修1 当代国际政治与经济",
+      "chapter": "第二单元 世界多极化",
+      "sourceBook": "高中思想政治统编版选择性必修1 当代国际政治与经济",
+      "index": {
+        "unitIndex": 2,
+        "sectionIndex": 4
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:41",
+    "title": "第六课 走进经济全球化",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修1 当代国际政治与经济",
+      "chapter": "第三单元 经济全球化",
+      "sourceBook": "高中思想政治统编版选择性必修1 当代国际政治与经济",
+      "index": {
+        "unitIndex": 3,
+        "sectionIndex": 1
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:42",
+    "title": "第七课 经济全球化与中国",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修1 当代国际政治与经济",
+      "chapter": "第三单元 经济全球化",
+      "sourceBook": "高中思想政治统编版选择性必修1 当代国际政治与经济",
+      "index": {
+        "unitIndex": 3,
+        "sectionIndex": 2
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:43",
+    "title": "综合探究 发展更高层次开放型经济 完善全球治理",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修1 当代国际政治与经济",
+      "chapter": "第三单元 经济全球化",
+      "sourceBook": "高中思想政治统编版选择性必修1 当代国际政治与经济",
+      "index": {
+        "unitIndex": 3,
+        "sectionIndex": 3
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:44",
+    "title": "第八课 主要的国际组织",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修1 当代国际政治与经济",
+      "chapter": "第四单元 国际组织",
+      "sourceBook": "高中思想政治统编版选择性必修1 当代国际政治与经济",
+      "index": {
+        "unitIndex": 4,
+        "sectionIndex": 1
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:45",
+    "title": "第九课 中国与国际组织",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修1 当代国际政治与经济",
+      "chapter": "第四单元 国际组织",
+      "sourceBook": "高中思想政治统编版选择性必修1 当代国际政治与经济",
+      "index": {
+        "unitIndex": 4,
+        "sectionIndex": 2
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:46",
+    "title": "综合探究 国际视野及国际人才",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修1 当代国际政治与经济",
+      "chapter": "第四单元 国际组织",
+      "sourceBook": "高中思想政治统编版选择性必修1 当代国际政治与经济",
+      "index": {
+        "unitIndex": 4,
+        "sectionIndex": 3
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:47",
+    "title": "第一课 在生活中学民法用民法",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修2 法律与生活",
+      "chapter": "第一单元 民事权利与义务",
+      "sourceBook": "高中思想政治统编版选择性必修2 法律与生活",
+      "index": {
+        "unitIndex": 1,
+        "sectionIndex": 1
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:48",
+    "title": "第二课 依法有效保护财产权",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修2 法律与生活",
+      "chapter": "第一单元 民事权利与义务",
+      "sourceBook": "高中思想政治统编版选择性必修2 法律与生活",
+      "index": {
+        "unitIndex": 1,
+        "sectionIndex": 2
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:49",
+    "title": "第三课 订约履约 诚信为本",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修2 法律与生活",
+      "chapter": "第一单元 民事权利与义务",
+      "sourceBook": "高中思想政治统编版选择性必修2 法律与生活",
+      "index": {
+        "unitIndex": 1,
+        "sectionIndex": 3
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:50",
+    "title": "第四课 侵权责任与权利界限",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修2 法律与生活",
+      "chapter": "第一单元 民事权利与义务",
+      "sourceBook": "高中思想政治统编版选择性必修2 法律与生活",
+      "index": {
+        "unitIndex": 1,
+        "sectionIndex": 4
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:51",
+    "title": "综合探究 财产制度助力经济社会发展",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修2 法律与生活",
+      "chapter": "第一单元 民事权利与义务",
+      "sourceBook": "高中思想政治统编版选择性必修2 法律与生活",
+      "index": {
+        "unitIndex": 1,
+        "sectionIndex": 5
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:52",
+    "title": "第五课 在和睦家庭中成长",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修2 法律与生活",
+      "chapter": "第二单元 家庭与婚姻",
+      "sourceBook": "高中思想政治统编版选择性必修2 法律与生活",
+      "index": {
+        "unitIndex": 2,
+        "sectionIndex": 1
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:53",
+    "title": "第六课 珍惜婚姻关系",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修2 法律与生活",
+      "chapter": "第二单元 家庭与婚姻",
+      "sourceBook": "高中思想政治统编版选择性必修2 法律与生活",
+      "index": {
+        "unitIndex": 2,
+        "sectionIndex": 2
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:54",
+    "title": "综合探究 家庭生活 法律守护",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修2 法律与生活",
+      "chapter": "第二单元 家庭与婚姻",
+      "sourceBook": "高中思想政治统编版选择性必修2 法律与生活",
+      "index": {
+        "unitIndex": 2,
+        "sectionIndex": 3
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:55",
+    "title": "第七课 做个明白的劳动者",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修2 法律与生活",
+      "chapter": "第三单元 就业与创业",
+      "sourceBook": "高中思想政治统编版选择性必修2 法律与生活",
+      "index": {
+        "unitIndex": 3,
+        "sectionIndex": 1
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:56",
+    "title": "第八课 自主创业与诚信经营",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修2 法律与生活",
+      "chapter": "第三单元 就业与创业",
+      "sourceBook": "高中思想政治统编版选择性必修2 法律与生活",
+      "index": {
+        "unitIndex": 3,
+        "sectionIndex": 2
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:57",
+    "title": "综合探究 企业创办之旅",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修2 法律与生活",
+      "chapter": "第三单元 就业与创业",
+      "sourceBook": "高中思想政治统编版选择性必修2 法律与生活",
+      "index": {
+        "unitIndex": 3,
+        "sectionIndex": 3
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:58",
+    "title": "第九课 纠纷的多元解决方式",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修2 法律与生活",
+      "chapter": "第四单元 社会争议解决",
+      "sourceBook": "高中思想政治统编版选择性必修2 法律与生活",
+      "index": {
+        "unitIndex": 4,
+        "sectionIndex": 1
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:59",
+    "title": "第十课 诉讼实现公平正义",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修2 法律与生活",
+      "chapter": "第四单元 社会争议解决",
+      "sourceBook": "高中思想政治统编版选择性必修2 法律与生活",
+      "index": {
+        "unitIndex": 4,
+        "sectionIndex": 2
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:60",
+    "title": "综合探究 感受司法公正",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修2 法律与生活",
+      "chapter": "第四单元 社会争议解决",
+      "sourceBook": "高中思想政治统编版选择性必修2 法律与生活",
+      "index": {
+        "unitIndex": 4,
+        "sectionIndex": 3
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:61",
+    "title": "第一课 走进思维世界",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修3 逻辑与思维",
+      "chapter": "第一单元 树立科学思维观念",
+      "sourceBook": "高中思想政治统编版选择性必修3 逻辑与思维",
+      "index": {
+        "unitIndex": 1,
+        "sectionIndex": 1
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:62",
+    "title": "第二课 把握逻辑要义",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修3 逻辑与思维",
+      "chapter": "第一单元 树立科学思维观念",
+      "sourceBook": "高中思想政治统编版选择性必修3 逻辑与思维",
+      "index": {
+        "unitIndex": 1,
+        "sectionIndex": 2
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:63",
+    "title": "第三课 领会科学思维",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修3 逻辑与思维",
+      "chapter": "第一单元 树立科学思维观念",
+      "sourceBook": "高中思想政治统编版选择性必修3 逻辑与思维",
+      "index": {
+        "unitIndex": 1,
+        "sectionIndex": 3
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:64",
+    "title": "综合探究 学会科学思维 提升思维品质",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修3 逻辑与思维",
+      "chapter": "第一单元 树立科学思维观念",
+      "sourceBook": "高中思想政治统编版选择性必修3 逻辑与思维",
+      "index": {
+        "unitIndex": 1,
+        "sectionIndex": 4
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:65",
+    "title": "第四课 准确把握概念",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修3 逻辑与思维",
+      "chapter": "第二单元 遵循逻辑思维规则",
+      "sourceBook": "高中思想政治统编版选择性必修3 逻辑与思维",
+      "index": {
+        "unitIndex": 2,
+        "sectionIndex": 1
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:66",
+    "title": "第五课 正确运用判断",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修3 逻辑与思维",
+      "chapter": "第二单元 遵循逻辑思维规则",
+      "sourceBook": "高中思想政治统编版选择性必修3 逻辑与思维",
+      "index": {
+        "unitIndex": 2,
+        "sectionIndex": 2
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:67",
+    "title": "第六课 掌握演绎推理方法",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修3 逻辑与思维",
+      "chapter": "第二单元 遵循逻辑思维规则",
+      "sourceBook": "高中思想政治统编版选择性必修3 逻辑与思维",
+      "index": {
+        "unitIndex": 2,
+        "sectionIndex": 3
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:68",
+    "title": "第七课 学会归纳与类比推理",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修3 逻辑与思维",
+      "chapter": "第二单元 遵循逻辑思维规则",
+      "sourceBook": "高中思想政治统编版选择性必修3 逻辑与思维",
+      "index": {
+        "unitIndex": 2,
+        "sectionIndex": 4
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:69",
+    "title": "综合探究 把握逻辑规则 纠正逻辑错误",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修3 逻辑与思维",
+      "chapter": "第二单元 遵循逻辑思维规则",
+      "sourceBook": "高中思想政治统编版选择性必修3 逻辑与思维",
+      "index": {
+        "unitIndex": 2,
+        "sectionIndex": 5
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:70",
+    "title": "第八课 把握辩证分合",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修3 逻辑与思维",
+      "chapter": "第三单元 运用辩证思维方法",
+      "sourceBook": "高中思想政治统编版选择性必修3 逻辑与思维",
+      "index": {
+        "unitIndex": 3,
+        "sectionIndex": 1
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:71",
+    "title": "第九课 理解质量互变",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修3 逻辑与思维",
+      "chapter": "第三单元 运用辩证思维方法",
+      "sourceBook": "高中思想政治统编版选择性必修3 逻辑与思维",
+      "index": {
+        "unitIndex": 3,
+        "sectionIndex": 2
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:72",
+    "title": "第十课 推动认识发展",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修3 逻辑与思维",
+      "chapter": "第三单元 运用辩证思维方法",
+      "sourceBook": "高中思想政治统编版选择性必修3 逻辑与思维",
+      "index": {
+        "unitIndex": 3,
+        "sectionIndex": 3
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:73",
+    "title": "综合探究 领悟辩证精髓 处理复杂问题",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修3 逻辑与思维",
+      "chapter": "第三单元 运用辩证思维方法",
+      "sourceBook": "高中思想政治统编版选择性必修3 逻辑与思维",
+      "index": {
+        "unitIndex": 3,
+        "sectionIndex": 4
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:74",
+    "title": "第十一课 创新思维要善于联想",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修3 逻辑与思维",
+      "chapter": "第四单元 提高创新思维能力",
+      "sourceBook": "高中思想政治统编版选择性必修3 逻辑与思维",
+      "index": {
+        "unitIndex": 4,
+        "sectionIndex": 1
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:75",
+    "title": "第十二课 创新思维要多路探索",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修3 逻辑与思维",
+      "chapter": "第四单元 提高创新思维能力",
+      "sourceBook": "高中思想政治统编版选择性必修3 逻辑与思维",
+      "index": {
+        "unitIndex": 4,
+        "sectionIndex": 2
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:76",
+    "title": "第十三课 创新思维要力求超前",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修3 逻辑与思维",
+      "chapter": "第四单元 提高创新思维能力",
+      "sourceBook": "高中思想政治统编版选择性必修3 逻辑与思维",
+      "index": {
+        "unitIndex": 4,
+        "sectionIndex": 3
+      }
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_other:77",
+    "title": "综合探究 结合社会实践 勇于开拓创新",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "统编版",
+      "volume": "选择性必修3 逻辑与思维",
+      "chapter": "第四单元 提高创新思维能力",
+      "sourceBook": "高中思想政治统编版选择性必修3 逻辑与思维",
+      "index": {
+        "unitIndex": 4,
+        "sectionIndex": 4
+      }
+    }
+  }
+]

@@ -1,724 +1,722 @@
-{
-  "relations": [
-    {
-      "relationName": "courseContentSpecifiesLearningStrategies",
-      "label": "课程内容规定学习策略要求 / specifiesLearningStrategies",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:01"
-    },
-    {
-      "relationName": "learningStrategiesAreSpecifiedByCourseContent",
-      "label": "学习策略要求由课程内容规定 / areSpecifiedByCourseContent",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:01",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06"
-    },
-    {
-      "relationName": "courseContentSpecifiesLearningStrategies",
-      "label": "课程内容规定学习策略要求 / specifiesLearningStrategies",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:02"
-    },
-    {
-      "relationName": "learningStrategiesAreSpecifiedByCourseContent",
-      "label": "学习策略要求由课程内容规定 / areSpecifiedByCourseContent",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:02",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06"
-    },
-    {
-      "relationName": "courseContentSpecifiesLearningStrategies",
-      "label": "课程内容规定学习策略要求 / specifiesLearningStrategies",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:03"
-    },
-    {
-      "relationName": "learningStrategiesAreSpecifiedByCourseContent",
-      "label": "学习策略要求由课程内容规定 / areSpecifiedByCourseContent",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:03",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06"
-    },
-    {
-      "relationName": "courseContentSpecifiesLearningStrategies",
-      "label": "课程内容规定学习策略要求 / specifiesLearningStrategies",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:04"
-    },
-    {
-      "relationName": "learningStrategiesAreSpecifiedByCourseContent",
-      "label": "学习策略要求由课程内容规定 / areSpecifiedByCourseContent",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:04",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06"
-    },
-    {
-      "relationName": "courseContentSpecifiesLearningStrategies",
-      "label": "课程内容规定学习策略要求 / specifiesLearningStrategies",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:05"
-    },
-    {
-      "relationName": "learningStrategiesAreSpecifiedByCourseContent",
-      "label": "学习策略要求由课程内容规定 / areSpecifiedByCourseContent",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:05",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06"
-    },
-    {
-      "relationName": "courseContentSpecifiesLearningStrategies",
-      "label": "课程内容规定学习策略要求 / specifiesLearningStrategies",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:06"
-    },
-    {
-      "relationName": "learningStrategiesAreSpecifiedByCourseContent",
-      "label": "学习策略要求由课程内容规定 / areSpecifiedByCourseContent",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:06",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06"
-    },
-    {
-      "relationName": "courseContentSpecifiesLearningStrategies",
-      "label": "课程内容规定学习策略要求 / specifiesLearningStrategies",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:07"
-    },
-    {
-      "relationName": "learningStrategiesAreSpecifiedByCourseContent",
-      "label": "学习策略要求由课程内容规定 / areSpecifiedByCourseContent",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:07",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06"
-    },
-    {
-      "relationName": "courseContentSpecifiesLearningStrategies",
-      "label": "课程内容规定学习策略要求 / specifiesLearningStrategies",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:08"
-    },
-    {
-      "relationName": "learningStrategiesAreSpecifiedByCourseContent",
-      "label": "学习策略要求由课程内容规定 / areSpecifiedByCourseContent",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:08",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06"
-    },
-    {
-      "relationName": "courseContentSpecifiesLearningStrategies",
-      "label": "课程内容规定学习策略要求 / specifiesLearningStrategies",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:09"
-    },
-    {
-      "relationName": "learningStrategiesAreSpecifiedByCourseContent",
-      "label": "学习策略要求由课程内容规定 / areSpecifiedByCourseContent",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:09",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06"
-    },
-    {
-      "relationName": "courseContentSpecifiesLearningStrategies",
-      "label": "课程内容规定学习策略要求 / specifiesLearningStrategies",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:10"
-    },
-    {
-      "relationName": "learningStrategiesAreSpecifiedByCourseContent",
-      "label": "学习策略要求由课程内容规定 / areSpecifiedByCourseContent",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:10",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06"
-    },
-    {
-      "relationName": "courseContentSpecifiesLearningStrategies",
-      "label": "课程内容规定学习策略要求 / specifiesLearningStrategies",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:11"
-    },
-    {
-      "relationName": "learningStrategiesAreSpecifiedByCourseContent",
-      "label": "学习策略要求由课程内容规定 / areSpecifiedByCourseContent",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:11",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06"
-    },
-    {
-      "relationName": "courseContentSpecifiesLearningStrategies",
-      "label": "课程内容规定学习策略要求 / specifiesLearningStrategies",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:12"
-    },
-    {
-      "relationName": "learningStrategiesAreSpecifiedByCourseContent",
-      "label": "学习策略要求由课程内容规定 / areSpecifiedByCourseContent",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:12",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:01"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:01",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:02"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:02",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:03"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:03",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:04"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:04",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:05"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:05",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:06"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:06",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:07"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:07",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:08"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:08",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:09"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:09",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:10"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:10",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:11"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:11",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:12"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:12",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:01"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:01",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:02"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:02",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:03"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:03",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:04"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:04",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:05"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:05",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:06"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:06",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:07"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:07",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:08"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:08",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:09"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:09",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:10"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:10",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:11"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:11",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:12"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:12",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:01"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:01",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:02"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:02",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:03"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:03",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:04"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:04",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:05"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:05",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:06"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:06",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:07"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:07",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:08"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:08",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:09"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:09",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:10"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:10",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:11"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:11",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:12"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:12",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:01"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:01",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:02"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:02",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:03"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:03",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:04"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:04",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:05"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:05",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:06"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:06",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:07"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:07",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:08"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:08",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:09"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:09",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:10"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:10",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:11"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:11",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
-    },
-    {
-      "relationName": "teachingTipsCultivateStrategyUse",
-      "label": "教学提示培养策略运用 / cultivatesStrategyUse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
-      "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:12"
-    },
-    {
-      "relationName": "strategyUseIsCultivatedThroughTeachingTips",
-      "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
-      "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:12",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
-    }
-  ]
-}
+[
+  {
+    "relationName": "courseContentSpecifiesLearningStrategies",
+    "label": "课程内容规定学习策略要求 / specifiesLearningStrategies",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:01"
+  },
+  {
+    "relationName": "learningStrategiesAreSpecifiedByCourseContent",
+    "label": "学习策略要求由课程内容规定 / areSpecifiedByCourseContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06"
+  },
+  {
+    "relationName": "courseContentSpecifiesLearningStrategies",
+    "label": "课程内容规定学习策略要求 / specifiesLearningStrategies",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:02"
+  },
+  {
+    "relationName": "learningStrategiesAreSpecifiedByCourseContent",
+    "label": "学习策略要求由课程内容规定 / areSpecifiedByCourseContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06"
+  },
+  {
+    "relationName": "courseContentSpecifiesLearningStrategies",
+    "label": "课程内容规定学习策略要求 / specifiesLearningStrategies",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:03"
+  },
+  {
+    "relationName": "learningStrategiesAreSpecifiedByCourseContent",
+    "label": "学习策略要求由课程内容规定 / areSpecifiedByCourseContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06"
+  },
+  {
+    "relationName": "courseContentSpecifiesLearningStrategies",
+    "label": "课程内容规定学习策略要求 / specifiesLearningStrategies",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:04"
+  },
+  {
+    "relationName": "learningStrategiesAreSpecifiedByCourseContent",
+    "label": "学习策略要求由课程内容规定 / areSpecifiedByCourseContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06"
+  },
+  {
+    "relationName": "courseContentSpecifiesLearningStrategies",
+    "label": "课程内容规定学习策略要求 / specifiesLearningStrategies",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:05"
+  },
+  {
+    "relationName": "learningStrategiesAreSpecifiedByCourseContent",
+    "label": "学习策略要求由课程内容规定 / areSpecifiedByCourseContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06"
+  },
+  {
+    "relationName": "courseContentSpecifiesLearningStrategies",
+    "label": "课程内容规定学习策略要求 / specifiesLearningStrategies",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:06"
+  },
+  {
+    "relationName": "learningStrategiesAreSpecifiedByCourseContent",
+    "label": "学习策略要求由课程内容规定 / areSpecifiedByCourseContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:06",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06"
+  },
+  {
+    "relationName": "courseContentSpecifiesLearningStrategies",
+    "label": "课程内容规定学习策略要求 / specifiesLearningStrategies",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:07"
+  },
+  {
+    "relationName": "learningStrategiesAreSpecifiedByCourseContent",
+    "label": "学习策略要求由课程内容规定 / areSpecifiedByCourseContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06"
+  },
+  {
+    "relationName": "courseContentSpecifiesLearningStrategies",
+    "label": "课程内容规定学习策略要求 / specifiesLearningStrategies",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:08"
+  },
+  {
+    "relationName": "learningStrategiesAreSpecifiedByCourseContent",
+    "label": "学习策略要求由课程内容规定 / areSpecifiedByCourseContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06"
+  },
+  {
+    "relationName": "courseContentSpecifiesLearningStrategies",
+    "label": "课程内容规定学习策略要求 / specifiesLearningStrategies",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:09"
+  },
+  {
+    "relationName": "learningStrategiesAreSpecifiedByCourseContent",
+    "label": "学习策略要求由课程内容规定 / areSpecifiedByCourseContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06"
+  },
+  {
+    "relationName": "courseContentSpecifiesLearningStrategies",
+    "label": "课程内容规定学习策略要求 / specifiesLearningStrategies",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:10"
+  },
+  {
+    "relationName": "learningStrategiesAreSpecifiedByCourseContent",
+    "label": "学习策略要求由课程内容规定 / areSpecifiedByCourseContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06"
+  },
+  {
+    "relationName": "courseContentSpecifiesLearningStrategies",
+    "label": "课程内容规定学习策略要求 / specifiesLearningStrategies",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:11"
+  },
+  {
+    "relationName": "learningStrategiesAreSpecifiedByCourseContent",
+    "label": "学习策略要求由课程内容规定 / areSpecifiedByCourseContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:11",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06"
+  },
+  {
+    "relationName": "courseContentSpecifiesLearningStrategies",
+    "label": "课程内容规定学习策略要求 / specifiesLearningStrategies",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:12"
+  },
+  {
+    "relationName": "learningStrategiesAreSpecifiedByCourseContent",
+    "label": "学习策略要求由课程内容规定 / areSpecifiedByCourseContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:12",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:01"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:02"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:03"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:04"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:05"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:06"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:06",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:07"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:08"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:09"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:10"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:11"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:11",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:12"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:12",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:01"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:02"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:03"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:04"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:05"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:06"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:06",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:07"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:08"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:09"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:10"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:11"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:11",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:12"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:12",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:01"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:02"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:03"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:04"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:05"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:06"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:06",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:07"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:08"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:09"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:10"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:11"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:11",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:12"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:12",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:01"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:02"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:03"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:04"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:05"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:06"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:06",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:07"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:08"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:09"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:10"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:11"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:11",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+  },
+  {
+    "relationName": "teachingTipsCultivateStrategyUse",
+    "label": "教学提示培养策略运用 / cultivatesStrategyUse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:12"
+  },
+  {
+    "relationName": "strategyUseIsCultivatedThroughTeachingTips",
+    "label": "策略运用在教学提示中培养 / isCultivatedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LearningStrategy:12",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+  }
+]

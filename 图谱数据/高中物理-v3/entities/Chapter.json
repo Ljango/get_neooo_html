@@ -1,508 +1,506 @@
-{
-  "entities": [
-    {
-      "identifier": "urn:jy:physics:SB0401:OB06:Chapter:1",
-      "title": "序言 物理学：研究物质及其运动规律的科学",
-      "description": "",
-      "subject": "SB0401",
-      "type": "Chapter",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "人教版",
-        "volume": "必修 第一册"
-      }
-    },
-    {
-      "identifier": "urn:jy:physics:SB0401:OB06:Chapter:2",
-      "title": "第一章 运动的描述",
-      "description": "",
-      "subject": "SB0401",
-      "type": "Chapter",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "人教版",
-        "volume": "必修 第一册"
-      }
-    },
-    {
-      "identifier": "urn:jy:physics:SB0401:OB06:Chapter:3",
-      "title": "第二章 匀变速直线运动的研究",
-      "description": "",
-      "subject": "SB0401",
-      "type": "Chapter",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "人教版",
-        "volume": "必修 第一册"
-      }
-    },
-    {
-      "identifier": "urn:jy:physics:SB0401:OB06:Chapter:4",
-      "title": "第三章 相互作用——力",
-      "description": "",
-      "subject": "SB0401",
-      "type": "Chapter",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "人教版",
-        "volume": "必修 第一册"
-      }
-    },
-    {
-      "identifier": "urn:jy:physics:SB0401:OB06:Chapter:5",
-      "title": "第四章 运动和力的关系",
-      "description": "",
-      "subject": "SB0401",
-      "type": "Chapter",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "人教版",
-        "volume": "必修 第一册"
-      }
-    },
-    {
-      "identifier": "urn:jy:physics:SB0401:OB06:Chapter:6",
-      "title": "课题研究",
-      "description": "",
-      "subject": "SB0401",
-      "type": "Chapter",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "人教版",
-        "volume": "必修 第一册"
-      }
-    },
-    {
-      "identifier": "urn:jy:physics:SB0401:OB06:Chapter:7",
-      "title": "学生实验",
-      "description": "",
-      "subject": "SB0401",
-      "type": "Chapter",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "人教版",
-        "volume": "必修 第一册"
-      }
-    },
-    {
-      "identifier": "urn:jy:physics:SB0401:OB06:Chapter:8",
-      "title": "第五章 抛体运动",
-      "description": "",
-      "subject": "SB0401",
-      "type": "Chapter",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "人教版",
-        "volume": "必修 第二册"
-      }
-    },
-    {
-      "identifier": "urn:jy:physics:SB0401:OB06:Chapter:9",
-      "title": "第六章 圆周运动",
-      "description": "",
-      "subject": "SB0401",
-      "type": "Chapter",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "人教版",
-        "volume": "必修 第二册"
-      }
-    },
-    {
-      "identifier": "urn:jy:physics:SB0401:OB06:Chapter:10",
-      "title": "第七章 万有引力与宇宙航行",
-      "description": "",
-      "subject": "SB0401",
-      "type": "Chapter",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "人教版",
-        "volume": "必修 第二册"
-      }
-    },
-    {
-      "identifier": "urn:jy:physics:SB0401:OB06:Chapter:11",
-      "title": "第八章 机械能守恒定律",
-      "description": "",
-      "subject": "SB0401",
-      "type": "Chapter",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "人教版",
-        "volume": "必修 第二册"
-      }
-    },
-    {
-      "identifier": "urn:jy:physics:SB0401:OB06:Chapter:12",
-      "title": "课题研究",
-      "description": "",
-      "subject": "SB0401",
-      "type": "Chapter",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "人教版",
-        "volume": "必修 第二册"
-      }
-    },
-    {
-      "identifier": "urn:jy:physics:SB0401:OB06:Chapter:13",
-      "title": "第九章 静电场及其应用",
-      "description": "",
-      "subject": "SB0401",
-      "type": "Chapter",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高二",
-        "edition": "人教版",
-        "volume": "必修 第三册"
-      }
-    },
-    {
-      "identifier": "urn:jy:physics:SB0401:OB06:Chapter:14",
-      "title": "第十章 静电场中的能量",
-      "description": "",
-      "subject": "SB0401",
-      "type": "Chapter",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高二",
-        "edition": "人教版",
-        "volume": "必修 第三册"
-      }
-    },
-    {
-      "identifier": "urn:jy:physics:SB0401:OB06:Chapter:15",
-      "title": "第十一章 电路及其应用",
-      "description": "",
-      "subject": "SB0401",
-      "type": "Chapter",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高二",
-        "edition": "人教版",
-        "volume": "必修 第三册"
-      }
-    },
-    {
-      "identifier": "urn:jy:physics:SB0401:OB06:Chapter:16",
-      "title": "第十二章 电能 能量守恒定律",
-      "description": "",
-      "subject": "SB0401",
-      "type": "Chapter",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高二",
-        "edition": "人教版",
-        "volume": "必修 第三册"
-      }
-    },
-    {
-      "identifier": "urn:jy:physics:SB0401:OB06:Chapter:17",
-      "title": "第十三章 电磁感应与电磁波初步",
-      "description": "",
-      "subject": "SB0401",
-      "type": "Chapter",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高二",
-        "edition": "人教版",
-        "volume": "必修 第三册"
-      }
-    },
-    {
-      "identifier": "urn:jy:physics:SB0401:OB06:Chapter:18",
-      "title": "课题研究",
-      "description": "",
-      "subject": "SB0401",
-      "type": "Chapter",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高二",
-        "edition": "人教版",
-        "volume": "必修 第三册"
-      }
-    },
-    {
-      "identifier": "urn:jy:physics:SB0401:OB06:Chapter:19",
-      "title": "第一章 动量守恒定律",
-      "description": "",
-      "subject": "SB0401",
-      "type": "Chapter",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "人教版",
-        "volume": "选择性必修 第一册"
-      }
-    },
-    {
-      "identifier": "urn:jy:physics:SB0401:OB06:Chapter:20",
-      "title": "第二章 机械振动",
-      "description": "",
-      "subject": "SB0401",
-      "type": "Chapter",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "人教版",
-        "volume": "选择性必修 第一册"
-      }
-    },
-    {
-      "identifier": "urn:jy:physics:SB0401:OB06:Chapter:21",
-      "title": "第三章 机械波",
-      "description": "",
-      "subject": "SB0401",
-      "type": "Chapter",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "人教版",
-        "volume": "选择性必修 第一册"
-      }
-    },
-    {
-      "identifier": "urn:jy:physics:SB0401:OB06:Chapter:22",
-      "title": "第四章 光",
-      "description": "",
-      "subject": "SB0401",
-      "type": "Chapter",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "人教版",
-        "volume": "选择性必修 第一册"
-      }
-    },
-    {
-      "identifier": "urn:jy:physics:SB0401:OB06:Chapter:23",
-      "title": "课题研究",
-      "description": "",
-      "subject": "SB0401",
-      "type": "Chapter",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "人教版",
-        "volume": "选择性必修 第一册"
-      }
-    },
-    {
-      "identifier": "urn:jy:physics:SB0401:OB06:Chapter:24",
-      "title": "第一章 安培力与洛伦兹力",
-      "description": "",
-      "subject": "SB0401",
-      "type": "Chapter",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高二",
-        "edition": "人教版",
-        "volume": "选择性必修 第二册"
-      }
-    },
-    {
-      "identifier": "urn:jy:physics:SB0401:OB06:Chapter:25",
-      "title": "第二章 电磁感应",
-      "description": "",
-      "subject": "SB0401",
-      "type": "Chapter",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高二",
-        "edition": "人教版",
-        "volume": "选择性必修 第二册"
-      }
-    },
-    {
-      "identifier": "urn:jy:physics:SB0401:OB06:Chapter:26",
-      "title": "第三章 交变电流",
-      "description": "",
-      "subject": "SB0401",
-      "type": "Chapter",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高二",
-        "edition": "人教版",
-        "volume": "选择性必修 第二册"
-      }
-    },
-    {
-      "identifier": "urn:jy:physics:SB0401:OB06:Chapter:27",
-      "title": "第四章 电磁振荡与电磁波",
-      "description": "",
-      "subject": "SB0401",
-      "type": "Chapter",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高二",
-        "edition": "人教版",
-        "volume": "选择性必修 第二册"
-      }
-    },
-    {
-      "identifier": "urn:jy:physics:SB0401:OB06:Chapter:28",
-      "title": "第五章 传感器",
-      "description": "",
-      "subject": "SB0401",
-      "type": "Chapter",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高二",
-        "edition": "人教版",
-        "volume": "选择性必修 第二册"
-      }
-    },
-    {
-      "identifier": "urn:jy:physics:SB0401:OB06:Chapter:29",
-      "title": "课题研究",
-      "description": "",
-      "subject": "SB0401",
-      "type": "Chapter",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高二",
-        "edition": "人教版",
-        "volume": "选择性必修 第二册"
-      }
-    },
-    {
-      "identifier": "urn:jy:physics:SB0401:OB06:Chapter:30",
-      "title": "第一章 分子动理论",
-      "description": "",
-      "subject": "SB0401",
-      "type": "Chapter",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "人教版",
-        "volume": "选择性必修 第三册"
-      }
-    },
-    {
-      "identifier": "urn:jy:physics:SB0401:OB06:Chapter:31",
-      "title": "第二章 气体、固体和液体",
-      "description": "",
-      "subject": "SB0401",
-      "type": "Chapter",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "人教版",
-        "volume": "选择性必修 第三册"
-      }
-    },
-    {
-      "identifier": "urn:jy:physics:SB0401:OB06:Chapter:32",
-      "title": "第三章 热力学定律",
-      "description": "",
-      "subject": "SB0401",
-      "type": "Chapter",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "人教版",
-        "volume": "选择性必修 第三册"
-      }
-    },
-    {
-      "identifier": "urn:jy:physics:SB0401:OB06:Chapter:33",
-      "title": "第四章 原子结构和波粒二象性",
-      "description": "",
-      "subject": "SB0401",
-      "type": "Chapter",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "人教版",
-        "volume": "选择性必修 第三册"
-      }
-    },
-    {
-      "identifier": "urn:jy:physics:SB0401:OB06:Chapter:34",
-      "title": "第五章 原子核",
-      "description": "",
-      "subject": "SB0401",
-      "type": "Chapter",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "人教版",
-        "volume": "选择性必修 第三册"
-      }
-    },
-    {
-      "identifier": "urn:jy:physics:SB0401:OB06:Chapter:35",
-      "title": "课题研究",
-      "description": "",
-      "subject": "SB0401",
-      "type": "Chapter",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "人教版",
-        "volume": "选择性必修 第三册"
-      }
-    },
-    {
-      "identifier": "urn:jy:physics:SB0401:OB06:Chapter:36",
-      "title": "高考复习",
-      "description": "",
-      "subject": "SB0401",
-      "type": "Chapter",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "",
-        "edition": "人教版",
-        "volume": "选择性必修 第三册"
-      }
+[
+  {
+    "identifier": "urn:jy:physics:SB0401:OB06:Chapter:1",
+    "title": "序言 物理学：研究物质及其运动规律的科学",
+    "description": "",
+    "subject": "SB0401",
+    "type": "Chapter",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "人教版",
+      "volume": "必修 第一册"
     }
-  ]
-}
+  },
+  {
+    "identifier": "urn:jy:physics:SB0401:OB06:Chapter:2",
+    "title": "第一章 运动的描述",
+    "description": "",
+    "subject": "SB0401",
+    "type": "Chapter",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "人教版",
+      "volume": "必修 第一册"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:SB0401:OB06:Chapter:3",
+    "title": "第二章 匀变速直线运动的研究",
+    "description": "",
+    "subject": "SB0401",
+    "type": "Chapter",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "人教版",
+      "volume": "必修 第一册"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:SB0401:OB06:Chapter:4",
+    "title": "第三章 相互作用——力",
+    "description": "",
+    "subject": "SB0401",
+    "type": "Chapter",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "人教版",
+      "volume": "必修 第一册"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:SB0401:OB06:Chapter:5",
+    "title": "第四章 运动和力的关系",
+    "description": "",
+    "subject": "SB0401",
+    "type": "Chapter",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "人教版",
+      "volume": "必修 第一册"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:SB0401:OB06:Chapter:6",
+    "title": "课题研究",
+    "description": "",
+    "subject": "SB0401",
+    "type": "Chapter",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "人教版",
+      "volume": "必修 第一册"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:SB0401:OB06:Chapter:7",
+    "title": "学生实验",
+    "description": "",
+    "subject": "SB0401",
+    "type": "Chapter",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "人教版",
+      "volume": "必修 第一册"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:SB0401:OB06:Chapter:8",
+    "title": "第五章 抛体运动",
+    "description": "",
+    "subject": "SB0401",
+    "type": "Chapter",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "人教版",
+      "volume": "必修 第二册"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:SB0401:OB06:Chapter:9",
+    "title": "第六章 圆周运动",
+    "description": "",
+    "subject": "SB0401",
+    "type": "Chapter",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "人教版",
+      "volume": "必修 第二册"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:SB0401:OB06:Chapter:10",
+    "title": "第七章 万有引力与宇宙航行",
+    "description": "",
+    "subject": "SB0401",
+    "type": "Chapter",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "人教版",
+      "volume": "必修 第二册"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:SB0401:OB06:Chapter:11",
+    "title": "第八章 机械能守恒定律",
+    "description": "",
+    "subject": "SB0401",
+    "type": "Chapter",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "人教版",
+      "volume": "必修 第二册"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:SB0401:OB06:Chapter:12",
+    "title": "课题研究",
+    "description": "",
+    "subject": "SB0401",
+    "type": "Chapter",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "人教版",
+      "volume": "必修 第二册"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:SB0401:OB06:Chapter:13",
+    "title": "第九章 静电场及其应用",
+    "description": "",
+    "subject": "SB0401",
+    "type": "Chapter",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高二",
+      "edition": "人教版",
+      "volume": "必修 第三册"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:SB0401:OB06:Chapter:14",
+    "title": "第十章 静电场中的能量",
+    "description": "",
+    "subject": "SB0401",
+    "type": "Chapter",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高二",
+      "edition": "人教版",
+      "volume": "必修 第三册"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:SB0401:OB06:Chapter:15",
+    "title": "第十一章 电路及其应用",
+    "description": "",
+    "subject": "SB0401",
+    "type": "Chapter",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高二",
+      "edition": "人教版",
+      "volume": "必修 第三册"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:SB0401:OB06:Chapter:16",
+    "title": "第十二章 电能 能量守恒定律",
+    "description": "",
+    "subject": "SB0401",
+    "type": "Chapter",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高二",
+      "edition": "人教版",
+      "volume": "必修 第三册"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:SB0401:OB06:Chapter:17",
+    "title": "第十三章 电磁感应与电磁波初步",
+    "description": "",
+    "subject": "SB0401",
+    "type": "Chapter",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高二",
+      "edition": "人教版",
+      "volume": "必修 第三册"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:SB0401:OB06:Chapter:18",
+    "title": "课题研究",
+    "description": "",
+    "subject": "SB0401",
+    "type": "Chapter",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高二",
+      "edition": "人教版",
+      "volume": "必修 第三册"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:SB0401:OB06:Chapter:19",
+    "title": "第一章 动量守恒定律",
+    "description": "",
+    "subject": "SB0401",
+    "type": "Chapter",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "人教版",
+      "volume": "选择性必修 第一册"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:SB0401:OB06:Chapter:20",
+    "title": "第二章 机械振动",
+    "description": "",
+    "subject": "SB0401",
+    "type": "Chapter",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "人教版",
+      "volume": "选择性必修 第一册"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:SB0401:OB06:Chapter:21",
+    "title": "第三章 机械波",
+    "description": "",
+    "subject": "SB0401",
+    "type": "Chapter",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "人教版",
+      "volume": "选择性必修 第一册"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:SB0401:OB06:Chapter:22",
+    "title": "第四章 光",
+    "description": "",
+    "subject": "SB0401",
+    "type": "Chapter",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "人教版",
+      "volume": "选择性必修 第一册"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:SB0401:OB06:Chapter:23",
+    "title": "课题研究",
+    "description": "",
+    "subject": "SB0401",
+    "type": "Chapter",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "人教版",
+      "volume": "选择性必修 第一册"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:SB0401:OB06:Chapter:24",
+    "title": "第一章 安培力与洛伦兹力",
+    "description": "",
+    "subject": "SB0401",
+    "type": "Chapter",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高二",
+      "edition": "人教版",
+      "volume": "选择性必修 第二册"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:SB0401:OB06:Chapter:25",
+    "title": "第二章 电磁感应",
+    "description": "",
+    "subject": "SB0401",
+    "type": "Chapter",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高二",
+      "edition": "人教版",
+      "volume": "选择性必修 第二册"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:SB0401:OB06:Chapter:26",
+    "title": "第三章 交变电流",
+    "description": "",
+    "subject": "SB0401",
+    "type": "Chapter",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高二",
+      "edition": "人教版",
+      "volume": "选择性必修 第二册"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:SB0401:OB06:Chapter:27",
+    "title": "第四章 电磁振荡与电磁波",
+    "description": "",
+    "subject": "SB0401",
+    "type": "Chapter",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高二",
+      "edition": "人教版",
+      "volume": "选择性必修 第二册"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:SB0401:OB06:Chapter:28",
+    "title": "第五章 传感器",
+    "description": "",
+    "subject": "SB0401",
+    "type": "Chapter",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高二",
+      "edition": "人教版",
+      "volume": "选择性必修 第二册"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:SB0401:OB06:Chapter:29",
+    "title": "课题研究",
+    "description": "",
+    "subject": "SB0401",
+    "type": "Chapter",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高二",
+      "edition": "人教版",
+      "volume": "选择性必修 第二册"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:SB0401:OB06:Chapter:30",
+    "title": "第一章 分子动理论",
+    "description": "",
+    "subject": "SB0401",
+    "type": "Chapter",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "人教版",
+      "volume": "选择性必修 第三册"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:SB0401:OB06:Chapter:31",
+    "title": "第二章 气体、固体和液体",
+    "description": "",
+    "subject": "SB0401",
+    "type": "Chapter",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "人教版",
+      "volume": "选择性必修 第三册"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:SB0401:OB06:Chapter:32",
+    "title": "第三章 热力学定律",
+    "description": "",
+    "subject": "SB0401",
+    "type": "Chapter",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "人教版",
+      "volume": "选择性必修 第三册"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:SB0401:OB06:Chapter:33",
+    "title": "第四章 原子结构和波粒二象性",
+    "description": "",
+    "subject": "SB0401",
+    "type": "Chapter",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "人教版",
+      "volume": "选择性必修 第三册"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:SB0401:OB06:Chapter:34",
+    "title": "第五章 原子核",
+    "description": "",
+    "subject": "SB0401",
+    "type": "Chapter",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "人教版",
+      "volume": "选择性必修 第三册"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:SB0401:OB06:Chapter:35",
+    "title": "课题研究",
+    "description": "",
+    "subject": "SB0401",
+    "type": "Chapter",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "人教版",
+      "volume": "选择性必修 第三册"
+    }
+  },
+  {
+    "identifier": "urn:jy:physics:SB0401:OB06:Chapter:36",
+    "title": "高考复习",
+    "description": "",
+    "subject": "SB0401",
+    "type": "Chapter",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "",
+      "edition": "人教版",
+      "volume": "选择性必修 第三册"
+    }
+  }
+]

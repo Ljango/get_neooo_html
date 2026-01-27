@@ -1,172 +1,170 @@
-{
-    "relations": [
-        {
-            "relationName": "courseModuleIncludesBook",
-            "label": "包括 / includesBook",
-            "source": "urn:jy:Geography:SB0308:OB06:CourseModule:01",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:01"
-        },
-        {
-            "relationName": "bookBelongsToCourseModule",
-            "label": "是必修课程的一部分 / belongsToCourseModule",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:01",
-            "target": "urn:jy:Geography:SB0308:OB06:CourseModule:01"
-        },
-        {
-            "relationName": "courseModuleIncludesBook",
-            "label": "包括 / includesBook",
-            "source": "urn:jy:Geography:SB0308:OB06:CourseModule:01",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:02"
-        },
-        {
-            "relationName": "bookBelongsToCourseModule",
-            "label": "是必修课程的一部分 / belongsToCourseModule",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:02",
-            "target": "urn:jy:Geography:SB0308:OB06:CourseModule:01"
-        },
-        {
-            "relationName": "courseModuleIncludesBook",
-            "label": "包括三个模块，即自然地理基础，区域发展，资源、环境与国家安全 / includesBook",
-            "source": "urn:jy:Geography:SB0308:OB06:CourseModule:02",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:03"
-        },
-        {
-            "relationName": "bookBelongsToCourseModule",
-            "label": "是选择性必修课程的一部分 / belongsToCourseModule",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:03",
-            "target": "urn:jy:Geography:SB0308:OB06:CourseModule:02"
-        },
-        {
-            "relationName": "courseModuleIncludesBook",
-            "label": "包括三个模块，即自然地理基础，区域发展，资源、环境与国家安全 / includesBook",
-            "source": "urn:jy:Geography:SB0308:OB06:CourseModule:02",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:04"
-        },
-        {
-            "relationName": "bookBelongsToCourseModule",
-            "label": "是选择性必修课程的一部分 / belongsToCourseModule",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:04",
-            "target": "urn:jy:Geography:SB0308:OB06:CourseModule:02"
-        },
-        {
-            "relationName": "courseModuleIncludesBook",
-            "label": "包括三个模块，即自然地理基础，区域发展，资源、环境与国家安全 / includesBook",
-            "source": "urn:jy:Geography:SB0308:OB06:CourseModule:02",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:05"
-        },
-        {
-            "relationName": "bookBelongsToCourseModule",
-            "label": "是选择性必修课程的一部分 / belongsToCourseModule",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:05",
-            "target": "urn:jy:Geography:SB0308:OB06:CourseModule:02"
-        },
-        {
-            "relationName": "courseModuleIncludesBook",
-            "label": "包括九个模块，分别侧重自然领域、人文领域、技术与实践领域 / includesBook",
-            "source": "urn:jy:Geography:SB0308:OB06:CourseModule:03",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:06"
-        },
-        {
-            "relationName": "bookBelongsToCourseModule",
-            "label": "是选修课程的一部分 / belongsToCourseModule",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:06",
-            "target": "urn:jy:Geography:SB0308:OB06:CourseModule:03"
-        },
-        {
-            "relationName": "courseModuleIncludesBook",
-            "label": "包括九个模块，分别侧重自然领域、人文领域、技术与实践领域 / includesBook",
-            "source": "urn:jy:Geography:SB0308:OB06:CourseModule:03",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:07"
-        },
-        {
-            "relationName": "bookBelongsToCourseModule",
-            "label": "是选修课程的一部分 / belongsToCourseModule",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:07",
-            "target": "urn:jy:Geography:SB0308:OB06:CourseModule:03"
-        },
-        {
-            "relationName": "courseModuleIncludesBook",
-            "label": "包括九个模块，分别侧重自然领域、人文领域、技术与实践领域 / includesBook",
-            "source": "urn:jy:Geography:SB0308:OB06:CourseModule:03",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:08"
-        },
-        {
-            "relationName": "bookBelongsToCourseModule",
-            "label": "是选修课程的一部分 / belongsToCourseModule",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:08",
-            "target": "urn:jy:Geography:SB0308:OB06:CourseModule:03"
-        },
-        {
-            "relationName": "courseModuleIncludesBook",
-            "label": "包括九个模块，分别侧重自然领域、人文领域、技术与实践领域 / includesBook",
-            "source": "urn:jy:Geography:SB0308:OB06:CourseModule:03",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:09"
-        },
-        {
-            "relationName": "bookBelongsToCourseModule",
-            "label": "是选修课程的一部分 / belongsToCourseModule",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:09",
-            "target": "urn:jy:Geography:SB0308:OB06:CourseModule:03"
-        },
-        {
-            "relationName": "courseModuleIncludesBook",
-            "label": "包括九个模块，分别侧重自然领域、人文领域、技术与实践领域 / includesBook",
-            "source": "urn:jy:Geography:SB0308:OB06:CourseModule:03",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:10"
-        },
-        {
-            "relationName": "bookBelongsToCourseModule",
-            "label": "是选修课程的一部分 / belongsToCourseModule",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:10",
-            "target": "urn:jy:Geography:SB0308:OB06:CourseModule:03"
-        },
-        {
-            "relationName": "courseModuleIncludesBook",
-            "label": "包括九个模块，分别侧重自然领域、人文领域、技术与实践领域 / includesBook",
-            "source": "urn:jy:Geography:SB0308:OB06:CourseModule:03",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:11"
-        },
-        {
-            "relationName": "bookBelongsToCourseModule",
-            "label": "是选修课程的一部分 / belongsToCourseModule",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:11",
-            "target": "urn:jy:Geography:SB0308:OB06:CourseModule:03"
-        },
-        {
-            "relationName": "courseModuleIncludesBook",
-            "label": "包括九个模块，分别侧重自然领域、人文领域、技术与实践领域 / includesBook",
-            "source": "urn:jy:Geography:SB0308:OB06:CourseModule:03",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:12"
-        },
-        {
-            "relationName": "bookBelongsToCourseModule",
-            "label": "是选修课程的一部分 / belongsToCourseModule",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:12",
-            "target": "urn:jy:Geography:SB0308:OB06:CourseModule:03"
-        },
-        {
-            "relationName": "courseModuleIncludesBook",
-            "label": "包括九个模块，分别侧重自然领域、人文领域、技术与实践领域 / includesBook",
-            "source": "urn:jy:Geography:SB0308:OB06:CourseModule:03",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:13"
-        },
-        {
-            "relationName": "bookBelongsToCourseModule",
-            "label": "是选修课程的一部分 / belongsToCourseModule",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:13",
-            "target": "urn:jy:Geography:SB0308:OB06:CourseModule:03"
-        },
-        {
-            "relationName": "courseModuleIncludesBook",
-            "label": "包括九个模块，分别侧重自然领域、人文领域、技术与实践领域 / includesBook",
-            "source": "urn:jy:Geography:SB0308:OB06:CourseModule:03",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:14"
-        },
-        {
-            "relationName": "bookBelongsToCourseModule",
-            "label": "是选修课程的一部分 / belongsToCourseModule",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:14",
-            "target": "urn:jy:Geography:SB0308:OB06:CourseModule:03"
-        }
-    ]
-}
+[
+  {
+    "relationName": "courseModuleIncludesBook",
+    "label": "包括 / includesBook",
+    "source": "urn:jy:Geography:SB0308:OB06:CourseModule:01",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:01"
+  },
+  {
+    "relationName": "bookBelongsToCourseModule",
+    "label": "是必修课程的一部分 / belongsToCourseModule",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:01",
+    "target": "urn:jy:Geography:SB0308:OB06:CourseModule:01"
+  },
+  {
+    "relationName": "courseModuleIncludesBook",
+    "label": "包括 / includesBook",
+    "source": "urn:jy:Geography:SB0308:OB06:CourseModule:01",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:02"
+  },
+  {
+    "relationName": "bookBelongsToCourseModule",
+    "label": "是必修课程的一部分 / belongsToCourseModule",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:02",
+    "target": "urn:jy:Geography:SB0308:OB06:CourseModule:01"
+  },
+  {
+    "relationName": "courseModuleIncludesBook",
+    "label": "包括三个模块，即自然地理基础，区域发展，资源、环境与国家安全 / includesBook",
+    "source": "urn:jy:Geography:SB0308:OB06:CourseModule:02",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:03"
+  },
+  {
+    "relationName": "bookBelongsToCourseModule",
+    "label": "是选择性必修课程的一部分 / belongsToCourseModule",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:03",
+    "target": "urn:jy:Geography:SB0308:OB06:CourseModule:02"
+  },
+  {
+    "relationName": "courseModuleIncludesBook",
+    "label": "包括三个模块，即自然地理基础，区域发展，资源、环境与国家安全 / includesBook",
+    "source": "urn:jy:Geography:SB0308:OB06:CourseModule:02",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:04"
+  },
+  {
+    "relationName": "bookBelongsToCourseModule",
+    "label": "是选择性必修课程的一部分 / belongsToCourseModule",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:04",
+    "target": "urn:jy:Geography:SB0308:OB06:CourseModule:02"
+  },
+  {
+    "relationName": "courseModuleIncludesBook",
+    "label": "包括三个模块，即自然地理基础，区域发展，资源、环境与国家安全 / includesBook",
+    "source": "urn:jy:Geography:SB0308:OB06:CourseModule:02",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:05"
+  },
+  {
+    "relationName": "bookBelongsToCourseModule",
+    "label": "是选择性必修课程的一部分 / belongsToCourseModule",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:05",
+    "target": "urn:jy:Geography:SB0308:OB06:CourseModule:02"
+  },
+  {
+    "relationName": "courseModuleIncludesBook",
+    "label": "包括九个模块，分别侧重自然领域、人文领域、技术与实践领域 / includesBook",
+    "source": "urn:jy:Geography:SB0308:OB06:CourseModule:03",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:06"
+  },
+  {
+    "relationName": "bookBelongsToCourseModule",
+    "label": "是选修课程的一部分 / belongsToCourseModule",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:06",
+    "target": "urn:jy:Geography:SB0308:OB06:CourseModule:03"
+  },
+  {
+    "relationName": "courseModuleIncludesBook",
+    "label": "包括九个模块，分别侧重自然领域、人文领域、技术与实践领域 / includesBook",
+    "source": "urn:jy:Geography:SB0308:OB06:CourseModule:03",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:07"
+  },
+  {
+    "relationName": "bookBelongsToCourseModule",
+    "label": "是选修课程的一部分 / belongsToCourseModule",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:07",
+    "target": "urn:jy:Geography:SB0308:OB06:CourseModule:03"
+  },
+  {
+    "relationName": "courseModuleIncludesBook",
+    "label": "包括九个模块，分别侧重自然领域、人文领域、技术与实践领域 / includesBook",
+    "source": "urn:jy:Geography:SB0308:OB06:CourseModule:03",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:08"
+  },
+  {
+    "relationName": "bookBelongsToCourseModule",
+    "label": "是选修课程的一部分 / belongsToCourseModule",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:08",
+    "target": "urn:jy:Geography:SB0308:OB06:CourseModule:03"
+  },
+  {
+    "relationName": "courseModuleIncludesBook",
+    "label": "包括九个模块，分别侧重自然领域、人文领域、技术与实践领域 / includesBook",
+    "source": "urn:jy:Geography:SB0308:OB06:CourseModule:03",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:09"
+  },
+  {
+    "relationName": "bookBelongsToCourseModule",
+    "label": "是选修课程的一部分 / belongsToCourseModule",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:09",
+    "target": "urn:jy:Geography:SB0308:OB06:CourseModule:03"
+  },
+  {
+    "relationName": "courseModuleIncludesBook",
+    "label": "包括九个模块，分别侧重自然领域、人文领域、技术与实践领域 / includesBook",
+    "source": "urn:jy:Geography:SB0308:OB06:CourseModule:03",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:10"
+  },
+  {
+    "relationName": "bookBelongsToCourseModule",
+    "label": "是选修课程的一部分 / belongsToCourseModule",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:10",
+    "target": "urn:jy:Geography:SB0308:OB06:CourseModule:03"
+  },
+  {
+    "relationName": "courseModuleIncludesBook",
+    "label": "包括九个模块，分别侧重自然领域、人文领域、技术与实践领域 / includesBook",
+    "source": "urn:jy:Geography:SB0308:OB06:CourseModule:03",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:11"
+  },
+  {
+    "relationName": "bookBelongsToCourseModule",
+    "label": "是选修课程的一部分 / belongsToCourseModule",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:11",
+    "target": "urn:jy:Geography:SB0308:OB06:CourseModule:03"
+  },
+  {
+    "relationName": "courseModuleIncludesBook",
+    "label": "包括九个模块，分别侧重自然领域、人文领域、技术与实践领域 / includesBook",
+    "source": "urn:jy:Geography:SB0308:OB06:CourseModule:03",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:12"
+  },
+  {
+    "relationName": "bookBelongsToCourseModule",
+    "label": "是选修课程的一部分 / belongsToCourseModule",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:12",
+    "target": "urn:jy:Geography:SB0308:OB06:CourseModule:03"
+  },
+  {
+    "relationName": "courseModuleIncludesBook",
+    "label": "包括九个模块，分别侧重自然领域、人文领域、技术与实践领域 / includesBook",
+    "source": "urn:jy:Geography:SB0308:OB06:CourseModule:03",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:13"
+  },
+  {
+    "relationName": "bookBelongsToCourseModule",
+    "label": "是选修课程的一部分 / belongsToCourseModule",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:13",
+    "target": "urn:jy:Geography:SB0308:OB06:CourseModule:03"
+  },
+  {
+    "relationName": "courseModuleIncludesBook",
+    "label": "包括九个模块，分别侧重自然领域、人文领域、技术与实践领域 / includesBook",
+    "source": "urn:jy:Geography:SB0308:OB06:CourseModule:03",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:14"
+  },
+  {
+    "relationName": "bookBelongsToCourseModule",
+    "label": "是选修课程的一部分 / belongsToCourseModule",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:14",
+    "target": "urn:jy:Geography:SB0308:OB06:CourseModule:03"
+  }
+]

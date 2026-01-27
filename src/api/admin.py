@@ -3,11 +3,19 @@
 管理API - 用户管理、学科分配、统计
 """
 
+# 标准库
 from typing import List, Optional
+
+# 第三方库
 from fastapi import APIRouter, Depends, HTTPException, status, Query
 from sqlalchemy.orm import Session
 from sqlalchemy import func
 
+# 本地配置
+import config
+from config import DATA_ROOT, refresh_subject_config, list_available_subjects
+
+# 本地模块
 from .database import get_db
 from .models import User, UserSubject, ReviewRecord, UserRole, ReviewStatus
 from .schemas import (
@@ -19,8 +27,7 @@ from .deps import (
     get_current_user, require_admin, require_root,
     get_password_hash, log_operation
 )
-from config import SUBJECT_CONFIG, DATA_ROOT
-from .review import load_entities_from_json, load_relations_from_json
+from .utils import load_entities_from_json, load_relations_from_json, get_review_statistics
 
 router = APIRouter()
 
@@ -260,7 +267,7 @@ async def assign_subject(
         raise HTTPException(status_code=404, detail="用户不存在")
     
     # 检查学科是否存在
-    if assign_data.subject_id not in SUBJECT_CONFIG:
+    if assign_data.subject_id not in config.SUBJECT_CONFIG:
         raise HTTPException(status_code=400, detail="学科不存在")
     
     # 检查是否已分配
@@ -333,7 +340,7 @@ async def get_global_statistics(
     total_approved = 0
     total_needs_fix = 0
     
-    for subject_id, config in SUBJECT_CONFIG.items():
+    for subject_id, subject_cfg in config.SUBJECT_CONFIG.items():
         entities = load_entities_from_json(subject_id)
         relations = load_relations_from_json(subject_id)
         
@@ -358,7 +365,7 @@ async def get_global_statistics(
         
         subjects_stats.append(SubjectStats(
             subject_id=subject_id,
-            display_name=config.get('display_name', subject_id),
+            display_name=subject_cfg.get('display_name', subject_id),
             entity_count=entity_count,
             relation_count=relation_count,
             reviewed_count=reviewed,
@@ -373,7 +380,7 @@ async def get_global_statistics(
         total_needs_fix += needs_fix
     
     return GlobalStats(
-        total_subjects=len(SUBJECT_CONFIG),
+        total_subjects=len(config.SUBJECT_CONFIG),
         total_entities=total_entities,
         total_relations=total_relations,
         total_reviewed=total_reviewed,
@@ -428,3 +435,82 @@ async def get_operation_logs(
         "page": page,
         "page_size": page_size
     }
+
+
+# ========== 配置管理 ==========
+
+@router.post("/config/refresh")
+async def refresh_config(
+    current_user: User = Depends(require_admin),
+    db: Session = Depends(get_db)
+):
+    """
+    刷新配置（热更新）
+    重新检测所有学科的最新数据目录版本
+    无需重启服务
+    """
+    try:
+        # 记录旧配置（在刷新前保存完整的配置信息）
+        old_config = {
+            subject_id: subject_cfg.get('data_dir', 'N/A') 
+            for subject_id, subject_cfg in config.SUBJECT_CONFIG.items()
+        }
+        
+        # 刷新配置
+        new_config = refresh_subject_config()
+        
+        # 统计变化
+        changes = []
+        for subject_id in new_config:
+            old_dir = old_config.get(subject_id, 'N/A')
+            new_dir = new_config[subject_id]['data_dir']
+            if old_dir != new_dir:
+                changes.append({
+                    "subject": subject_id,
+                    "old_version": old_dir,
+                    "new_version": new_dir
+                })
+        
+        log_operation(
+            db, current_user, "refresh_config", "system", "config",
+            details={"changes": changes, "total_subjects": len(new_config)}
+        )
+        
+        message = f"配置已刷新，共{len(new_config)}个学科"
+        if changes:
+            message += f"，{len(changes)}个学科版本有更新"
+        
+        return {
+            "success": True,
+            "message": message,
+            "data": {
+                "changes": changes,
+                "subjects_count": len(new_config)
+            }
+        }
+    except Exception as e:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"配置刷新失败: {str(e)}"
+        )
+
+
+@router.get("/config/subjects")
+async def list_subjects(
+    current_user: User = Depends(require_admin)
+):
+    """
+    列出所有学科配置及其数据目录
+    """
+    try:
+        subjects_info = list_available_subjects()
+        return {
+            "success": True,
+            "subjects": subjects_info,
+            "total": len(subjects_info)
+        }
+    except Exception as e:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"获取学科列表失败: {str(e)}"
+        )

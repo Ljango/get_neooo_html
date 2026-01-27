@@ -132,6 +132,26 @@
                     <span style="color: var(--text-muted); font-size: 13px;">（留空表示操作所有学科）</span>
                 </div>
                 
+                <!-- 系统配置 -->
+                <div class="operation-section">
+                    <h3>⚙️ 系统配置</h3>
+                    <p style="color: var(--text-muted); margin-bottom: 15px; font-size: 13px;">
+                        当更新数据目录版本后（如义务英语-v1→v2），点击"刷新配置"可自动检测最新版本，无需重启服务。
+                    </p>
+                    <div class="operation-grid">
+                        <div class="operation-btn" onclick="refreshConfig()">
+                            <i>🔄</i>
+                            <div class="title">刷新配置（热更新）</div>
+                            <div class="desc">重新检测数据目录版本</div>
+                        </div>
+                        <div class="operation-btn" onclick="viewSubjectsConfig()">
+                            <i>📋</i>
+                            <div class="title">查看学科配置</div>
+                            <div class="desc">显示所有学科数据目录</div>
+                        </div>
+                    </div>
+                </div>
+                
                 <!-- 数据检查与修复 -->
                 <div class="operation-section">
                     <h3>📋 数据检查与修复</h3>
@@ -881,6 +901,107 @@
         function toggleFormatSpec() {
             const spec = document.getElementById('formatSpec');
             spec.style.display = spec.style.display === 'none' ? 'block' : 'none';
+        }
+        
+        // ========== 配置管理功能 ==========
+        
+        async function refreshConfig() {
+            const panel = document.getElementById('outputPanel');
+            
+            if (!confirm('确定要刷新配置吗？\n\n系统将重新检测所有学科的最新数据目录版本，无需重启服务。')) {
+                return;
+            }
+            
+            panel.textContent = '正在刷新配置...\n';
+            panel.classList.add('loading');
+            
+            try {
+                const result = await api.admin.refreshConfig();
+                
+                if (result.success) {
+                    let output = `✅ ${result.message}\n\n`;
+                    
+                    // 检查是否有详细的变更信息
+                    if (result.data && result.data.changes && result.data.changes.length > 0) {
+                        output += '📋 版本更新:\n';
+                        result.data.changes.forEach(change => {
+                            output += `  • ${change.subject}: ${change.old_version} → ${change.new_version}\n`;
+                        });
+                        output += `\n共 ${result.data.changes.length} 个学科有更新\n`;
+                    } else {
+                        output += '✨ 所有学科均为最新版本\n';
+                    }
+                    
+                    // 显示学科总数（如果有）
+                    if (result.data && result.data.subjects_count) {
+                        output += `\n总计 ${result.data.subjects_count} 个学科配置已加载\n`;
+                    }
+                    
+                    output += `\n💡 提示: 配置已热更新，无需重启服务`;
+                    output += `\n💡 如果数据有更新，记得同步HTML页面`;
+                    
+                    panel.textContent = output;
+                    showToast('配置刷新成功', 'success');
+                    
+                    // 刷新学科下拉列表
+                    document.getElementById('subjectSelect').innerHTML = '<option value="">全部学科</option>';
+                    loadSubjects();
+                } else {
+                    panel.textContent = '刷新失败: ' + (result.message || '未知错误');
+                    showToast('刷新失败', 'error');
+                }
+                
+                loadLogs();
+                
+            } catch (error) {
+                panel.textContent = '错误: ' + error.message;
+                showToast('刷新失败: ' + error.message, 'error');
+            } finally {
+                panel.classList.remove('loading');
+            }
+        }
+        
+        async function viewSubjectsConfig() {
+            const panel = document.getElementById('outputPanel');
+            
+            panel.textContent = '正在加载学科配置...\n';
+            panel.classList.add('loading');
+            
+            try {
+                const result = await api.admin.listSubjectsConfig();
+                
+                if (result.success) {
+                    let output = '📋 学科配置列表\n';
+                    output += '='.repeat(60) + '\n\n';
+                    
+                    result.subjects.forEach((subject, index) => {
+                        output += `${index + 1}. ${subject.display_name}\n`;
+                        output += `   学科ID: ${subject.subject_id}\n`;
+                        output += `   数据目录: ${subject.data_dir}\n`;
+                        output += `   目录状态: ${subject.exists ? '✅ 存在' : '❌ 不存在'}\n`;
+                        
+                        if (subject.exists) {
+                            output += `   实体文件: ${subject.entity_files || 0} 个\n`;
+                            output += `   关系文件: ${subject.relation_files || 0} 个\n`;
+                        }
+                        
+                        output += '\n';
+                    });
+                    
+                    output += `总计: ${result.total} 个学科\n`;
+                    
+                    panel.textContent = output;
+                } else {
+                    panel.textContent = '加载失败: ' + (result.message || '未知错误');
+                    showToast('加载失败', 'error');
+                }
+                
+            } catch (error) {
+                panel.textContent = '错误: ' + error.message;
+                showToast('加载失败: ' + error.message, 'error');
+            } finally {
+                panel.classList.remove('loading');
+            }
         }
     </script>
 </body>

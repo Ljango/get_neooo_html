@@ -1,292 +1,290 @@
-{
-  "relations": [
-    {
-      "relationName": "discourseCarriesCulturalKnowledge",
-      "label": "语篇承载文化知识 / carriesCulturalKnowledge",
-      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
-    },
-    {
-      "relationName": "culturalKnowledgeIsCarriedByDiscourse",
-      "label": "文化知识由语篇承载 / isCarriedByDiscourse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
-      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
-    },
-    {
-      "relationName": "culturalKnowledgeEnrichesDiscourseMeaning",
-      "label": "文化知识丰富语篇意义 / enrichesDiscourseMeaning",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
-      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
-    },
-    {
-      "relationName": "discourseExpressesCulturalKnowledge",
-      "label": "语篇表达文化知识 / expressesCulturalKnowledge",
-      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
-    },
-    {
-      "relationName": "discourseCarriesCulturalKnowledge",
-      "label": "语篇承载文化知识 / carriesCulturalKnowledge",
-      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
-    },
-    {
-      "relationName": "culturalKnowledgeIsCarriedByDiscourse",
-      "label": "文化知识由语篇承载 / isCarriedByDiscourse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
-      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
-    },
-    {
-      "relationName": "culturalKnowledgeEnrichesDiscourseMeaning",
-      "label": "文化知识丰富语篇意义 / enrichesDiscourseMeaning",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
-      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
-    },
-    {
-      "relationName": "discourseExpressesCulturalKnowledge",
-      "label": "语篇表达文化知识 / expressesCulturalKnowledge",
-      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
-    },
-    {
-      "relationName": "discourseCarriesCulturalKnowledge",
-      "label": "语篇承载文化知识 / carriesCulturalKnowledge",
-      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:03",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
-    },
-    {
-      "relationName": "culturalKnowledgeIsCarriedByDiscourse",
-      "label": "文化知识由语篇承载 / isCarriedByDiscourse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
-      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:03"
-    },
-    {
-      "relationName": "culturalKnowledgeEnrichesDiscourseMeaning",
-      "label": "文化知识丰富语篇意义 / enrichesDiscourseMeaning",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
-      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:03"
-    },
-    {
-      "relationName": "discourseExpressesCulturalKnowledge",
-      "label": "语篇表达文化知识 / expressesCulturalKnowledge",
-      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:03",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
-    },
-    {
-      "relationName": "discourseCarriesCulturalKnowledge",
-      "label": "语篇承载文化知识 / carriesCulturalKnowledge",
-      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:04",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
-    },
-    {
-      "relationName": "culturalKnowledgeIsCarriedByDiscourse",
-      "label": "文化知识由语篇承载 / isCarriedByDiscourse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
-      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:04"
-    },
-    {
-      "relationName": "culturalKnowledgeEnrichesDiscourseMeaning",
-      "label": "文化知识丰富语篇意义 / enrichesDiscourseMeaning",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
-      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:04"
-    },
-    {
-      "relationName": "discourseExpressesCulturalKnowledge",
-      "label": "语篇表达文化知识 / expressesCulturalKnowledge",
-      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:04",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
-    },
-    {
-      "relationName": "discourseCarriesCulturalKnowledge",
-      "label": "语篇承载文化知识 / carriesCulturalKnowledge",
-      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
-    },
-    {
-      "relationName": "culturalKnowledgeIsCarriedByDiscourse",
-      "label": "文化知识由语篇承载 / isCarriedByDiscourse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
-      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
-    },
-    {
-      "relationName": "culturalKnowledgeEnrichesDiscourseMeaning",
-      "label": "文化知识丰富语篇意义 / enrichesDiscourseMeaning",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
-      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
-    },
-    {
-      "relationName": "discourseExpressesCulturalKnowledge",
-      "label": "语篇表达文化知识 / expressesCulturalKnowledge",
-      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
-    },
-    {
-      "relationName": "discourseCarriesCulturalKnowledge",
-      "label": "语篇承载文化知识 / carriesCulturalKnowledge",
-      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
-    },
-    {
-      "relationName": "culturalKnowledgeIsCarriedByDiscourse",
-      "label": "文化知识由语篇承载 / isCarriedByDiscourse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
-      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
-    },
-    {
-      "relationName": "culturalKnowledgeEnrichesDiscourseMeaning",
-      "label": "文化知识丰富语篇意义 / enrichesDiscourseMeaning",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
-      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
-    },
-    {
-      "relationName": "discourseExpressesCulturalKnowledge",
-      "label": "语篇表达文化知识 / expressesCulturalKnowledge",
-      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
-    },
-    {
-      "relationName": "discourseCarriesCulturalKnowledge",
-      "label": "语篇承载文化知识 / carriesCulturalKnowledge",
-      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:03",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
-    },
-    {
-      "relationName": "culturalKnowledgeIsCarriedByDiscourse",
-      "label": "文化知识由语篇承载 / isCarriedByDiscourse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
-      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:03"
-    },
-    {
-      "relationName": "culturalKnowledgeEnrichesDiscourseMeaning",
-      "label": "文化知识丰富语篇意义 / enrichesDiscourseMeaning",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
-      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:03"
-    },
-    {
-      "relationName": "discourseExpressesCulturalKnowledge",
-      "label": "语篇表达文化知识 / expressesCulturalKnowledge",
-      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:03",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
-    },
-    {
-      "relationName": "discourseCarriesCulturalKnowledge",
-      "label": "语篇承载文化知识 / carriesCulturalKnowledge",
-      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:04",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
-    },
-    {
-      "relationName": "culturalKnowledgeIsCarriedByDiscourse",
-      "label": "文化知识由语篇承载 / isCarriedByDiscourse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
-      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:04"
-    },
-    {
-      "relationName": "culturalKnowledgeEnrichesDiscourseMeaning",
-      "label": "文化知识丰富语篇意义 / enrichesDiscourseMeaning",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
-      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:04"
-    },
-    {
-      "relationName": "discourseExpressesCulturalKnowledge",
-      "label": "语篇表达文化知识 / expressesCulturalKnowledge",
-      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:04",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
-    },
-    {
-      "relationName": "discourseCarriesCulturalKnowledge",
-      "label": "语篇承载文化知识 / carriesCulturalKnowledge",
-      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
-    },
-    {
-      "relationName": "culturalKnowledgeIsCarriedByDiscourse",
-      "label": "文化知识由语篇承载 / isCarriedByDiscourse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
-      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
-    },
-    {
-      "relationName": "culturalKnowledgeEnrichesDiscourseMeaning",
-      "label": "文化知识丰富语篇意义 / enrichesDiscourseMeaning",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
-      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
-    },
-    {
-      "relationName": "discourseExpressesCulturalKnowledge",
-      "label": "语篇表达文化知识 / expressesCulturalKnowledge",
-      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
-    },
-    {
-      "relationName": "discourseCarriesCulturalKnowledge",
-      "label": "语篇承载文化知识 / carriesCulturalKnowledge",
-      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
-    },
-    {
-      "relationName": "culturalKnowledgeIsCarriedByDiscourse",
-      "label": "文化知识由语篇承载 / isCarriedByDiscourse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
-      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
-    },
-    {
-      "relationName": "culturalKnowledgeEnrichesDiscourseMeaning",
-      "label": "文化知识丰富语篇意义 / enrichesDiscourseMeaning",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
-      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
-    },
-    {
-      "relationName": "discourseExpressesCulturalKnowledge",
-      "label": "语篇表达文化知识 / expressesCulturalKnowledge",
-      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
-    },
-    {
-      "relationName": "discourseCarriesCulturalKnowledge",
-      "label": "语篇承载文化知识 / carriesCulturalKnowledge",
-      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:03",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
-    },
-    {
-      "relationName": "culturalKnowledgeIsCarriedByDiscourse",
-      "label": "文化知识由语篇承载 / isCarriedByDiscourse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
-      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:03"
-    },
-    {
-      "relationName": "culturalKnowledgeEnrichesDiscourseMeaning",
-      "label": "文化知识丰富语篇意义 / enrichesDiscourseMeaning",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
-      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:03"
-    },
-    {
-      "relationName": "discourseExpressesCulturalKnowledge",
-      "label": "语篇表达文化知识 / expressesCulturalKnowledge",
-      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:03",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
-    },
-    {
-      "relationName": "discourseCarriesCulturalKnowledge",
-      "label": "语篇承载文化知识 / carriesCulturalKnowledge",
-      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:04",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
-    },
-    {
-      "relationName": "culturalKnowledgeIsCarriedByDiscourse",
-      "label": "文化知识由语篇承载 / isCarriedByDiscourse",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
-      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:04"
-    },
-    {
-      "relationName": "culturalKnowledgeEnrichesDiscourseMeaning",
-      "label": "文化知识丰富语篇意义 / enrichesDiscourseMeaning",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
-      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:04"
-    },
-    {
-      "relationName": "discourseExpressesCulturalKnowledge",
-      "label": "语篇表达文化知识 / expressesCulturalKnowledge",
-      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:04",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
-    }
-  ]
-}
+[
+  {
+    "relationName": "discourseCarriesCulturalKnowledge",
+    "label": "语篇承载文化知识 / carriesCulturalKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
+  },
+  {
+    "relationName": "culturalKnowledgeIsCarriedByDiscourse",
+    "label": "文化知识由语篇承载 / isCarriedByDiscourse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+  },
+  {
+    "relationName": "culturalKnowledgeEnrichesDiscourseMeaning",
+    "label": "文化知识丰富语篇意义 / enrichesDiscourseMeaning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+  },
+  {
+    "relationName": "discourseExpressesCulturalKnowledge",
+    "label": "语篇表达文化知识 / expressesCulturalKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
+  },
+  {
+    "relationName": "discourseCarriesCulturalKnowledge",
+    "label": "语篇承载文化知识 / carriesCulturalKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
+  },
+  {
+    "relationName": "culturalKnowledgeIsCarriedByDiscourse",
+    "label": "文化知识由语篇承载 / isCarriedByDiscourse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+  },
+  {
+    "relationName": "culturalKnowledgeEnrichesDiscourseMeaning",
+    "label": "文化知识丰富语篇意义 / enrichesDiscourseMeaning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+  },
+  {
+    "relationName": "discourseExpressesCulturalKnowledge",
+    "label": "语篇表达文化知识 / expressesCulturalKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
+  },
+  {
+    "relationName": "discourseCarriesCulturalKnowledge",
+    "label": "语篇承载文化知识 / carriesCulturalKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
+  },
+  {
+    "relationName": "culturalKnowledgeIsCarriedByDiscourse",
+    "label": "文化知识由语篇承载 / isCarriedByDiscourse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:03"
+  },
+  {
+    "relationName": "culturalKnowledgeEnrichesDiscourseMeaning",
+    "label": "文化知识丰富语篇意义 / enrichesDiscourseMeaning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:03"
+  },
+  {
+    "relationName": "discourseExpressesCulturalKnowledge",
+    "label": "语篇表达文化知识 / expressesCulturalKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
+  },
+  {
+    "relationName": "discourseCarriesCulturalKnowledge",
+    "label": "语篇承载文化知识 / carriesCulturalKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
+  },
+  {
+    "relationName": "culturalKnowledgeIsCarriedByDiscourse",
+    "label": "文化知识由语篇承载 / isCarriedByDiscourse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:04"
+  },
+  {
+    "relationName": "culturalKnowledgeEnrichesDiscourseMeaning",
+    "label": "文化知识丰富语篇意义 / enrichesDiscourseMeaning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:04"
+  },
+  {
+    "relationName": "discourseExpressesCulturalKnowledge",
+    "label": "语篇表达文化知识 / expressesCulturalKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
+  },
+  {
+    "relationName": "discourseCarriesCulturalKnowledge",
+    "label": "语篇承载文化知识 / carriesCulturalKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
+  },
+  {
+    "relationName": "culturalKnowledgeIsCarriedByDiscourse",
+    "label": "文化知识由语篇承载 / isCarriedByDiscourse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+  },
+  {
+    "relationName": "culturalKnowledgeEnrichesDiscourseMeaning",
+    "label": "文化知识丰富语篇意义 / enrichesDiscourseMeaning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+  },
+  {
+    "relationName": "discourseExpressesCulturalKnowledge",
+    "label": "语篇表达文化知识 / expressesCulturalKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
+  },
+  {
+    "relationName": "discourseCarriesCulturalKnowledge",
+    "label": "语篇承载文化知识 / carriesCulturalKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
+  },
+  {
+    "relationName": "culturalKnowledgeIsCarriedByDiscourse",
+    "label": "文化知识由语篇承载 / isCarriedByDiscourse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+  },
+  {
+    "relationName": "culturalKnowledgeEnrichesDiscourseMeaning",
+    "label": "文化知识丰富语篇意义 / enrichesDiscourseMeaning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+  },
+  {
+    "relationName": "discourseExpressesCulturalKnowledge",
+    "label": "语篇表达文化知识 / expressesCulturalKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
+  },
+  {
+    "relationName": "discourseCarriesCulturalKnowledge",
+    "label": "语篇承载文化知识 / carriesCulturalKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
+  },
+  {
+    "relationName": "culturalKnowledgeIsCarriedByDiscourse",
+    "label": "文化知识由语篇承载 / isCarriedByDiscourse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:03"
+  },
+  {
+    "relationName": "culturalKnowledgeEnrichesDiscourseMeaning",
+    "label": "文化知识丰富语篇意义 / enrichesDiscourseMeaning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:03"
+  },
+  {
+    "relationName": "discourseExpressesCulturalKnowledge",
+    "label": "语篇表达文化知识 / expressesCulturalKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
+  },
+  {
+    "relationName": "discourseCarriesCulturalKnowledge",
+    "label": "语篇承载文化知识 / carriesCulturalKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
+  },
+  {
+    "relationName": "culturalKnowledgeIsCarriedByDiscourse",
+    "label": "文化知识由语篇承载 / isCarriedByDiscourse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:04"
+  },
+  {
+    "relationName": "culturalKnowledgeEnrichesDiscourseMeaning",
+    "label": "文化知识丰富语篇意义 / enrichesDiscourseMeaning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:04"
+  },
+  {
+    "relationName": "discourseExpressesCulturalKnowledge",
+    "label": "语篇表达文化知识 / expressesCulturalKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
+  },
+  {
+    "relationName": "discourseCarriesCulturalKnowledge",
+    "label": "语篇承载文化知识 / carriesCulturalKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
+  },
+  {
+    "relationName": "culturalKnowledgeIsCarriedByDiscourse",
+    "label": "文化知识由语篇承载 / isCarriedByDiscourse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+  },
+  {
+    "relationName": "culturalKnowledgeEnrichesDiscourseMeaning",
+    "label": "文化知识丰富语篇意义 / enrichesDiscourseMeaning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+  },
+  {
+    "relationName": "discourseExpressesCulturalKnowledge",
+    "label": "语篇表达文化知识 / expressesCulturalKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
+  },
+  {
+    "relationName": "discourseCarriesCulturalKnowledge",
+    "label": "语篇承载文化知识 / carriesCulturalKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
+  },
+  {
+    "relationName": "culturalKnowledgeIsCarriedByDiscourse",
+    "label": "文化知识由语篇承载 / isCarriedByDiscourse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+  },
+  {
+    "relationName": "culturalKnowledgeEnrichesDiscourseMeaning",
+    "label": "文化知识丰富语篇意义 / enrichesDiscourseMeaning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+  },
+  {
+    "relationName": "discourseExpressesCulturalKnowledge",
+    "label": "语篇表达文化知识 / expressesCulturalKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
+  },
+  {
+    "relationName": "discourseCarriesCulturalKnowledge",
+    "label": "语篇承载文化知识 / carriesCulturalKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
+  },
+  {
+    "relationName": "culturalKnowledgeIsCarriedByDiscourse",
+    "label": "文化知识由语篇承载 / isCarriedByDiscourse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:03"
+  },
+  {
+    "relationName": "culturalKnowledgeEnrichesDiscourseMeaning",
+    "label": "文化知识丰富语篇意义 / enrichesDiscourseMeaning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:03"
+  },
+  {
+    "relationName": "discourseExpressesCulturalKnowledge",
+    "label": "语篇表达文化知识 / expressesCulturalKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
+  },
+  {
+    "relationName": "discourseCarriesCulturalKnowledge",
+    "label": "语篇承载文化知识 / carriesCulturalKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
+  },
+  {
+    "relationName": "culturalKnowledgeIsCarriedByDiscourse",
+    "label": "文化知识由语篇承载 / isCarriedByDiscourse",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:04"
+  },
+  {
+    "relationName": "culturalKnowledgeEnrichesDiscourseMeaning",
+    "label": "文化知识丰富语篇意义 / enrichesDiscourseMeaning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:04"
+  },
+  {
+    "relationName": "discourseExpressesCulturalKnowledge",
+    "label": "语篇表达文化知识 / expressesCulturalKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
+  }
+]

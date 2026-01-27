@@ -1,79 +1,74 @@
-{
-  "relations": [
-    {
-      "relationName": "CoreLiteracyLevelMeetsCourseTarget",
-      "label": "是“人地协调观-水平1”的目标要求 / isTargetRequirementForLiteracylevel",
-      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:01",
-      "target": "urn:jy:Geography:SB0308:OB06:CourseTarget:01"
-    },
-    {
-      "relationName": "CoreLiteracyLevelMeetsCourseTarget",
-      "label": "是“人地协调观-水平2”的目标要求 / isTargetRequirementForLiteracylevel",
-      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:02",
-      "target": "urn:jy:Geography:SB0308:OB06:CourseTarget:01"
-    },
-    {
-      "relationName": "CoreLiteracyLevelMeetsCourseTarget",
-      "label": "是“人地协调观-水平3”的目标要求 / isTargetRequirementForLiteracylevel",
-      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:03",
-      "target": "urn:jy:Geography:SB0308:OB06:CourseTarget:01"
-    },
-
-    {
-      "relationName": "CoreLiteracyLevelMeetsCourseTarget",
-      "label": "是“综合思维-水平1”的目标要求 / isTargetRequirementForLiteracylevel",
-      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:04",
-      "target": "urn:jy:Geography:SB0308:OB06:CourseTarget:02"
-    },
-    {
-      "relationName": "CoreLiteracyLevelMeetsCourseTarget",
-      "label": "是“综合思维-水平2”的目标要求 / isTargetRequirementForLiteracylevel",
-      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:05",
-      "target": "urn:jy:Geography:SB0308:OB06:CourseTarget:02"
-    },
-    {
-      "relationName": "CoreLiteracyLevelMeetsCourseTarget",
-      "label": "是“综合思维-水平3”的目标要求 / isTargetRequirementForLiteracylevel",
-      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:06",
-      "target": "urn:jy:Geography:SB0308:OB06:CourseTarget:02"
-    },
-
-    {
-      "relationName": "CoreLiteracyLevelMeetsCourseTarget",
-      "label": "是“区域认知-水平1”的目标要求 / isTargetRequirementForLiteracylevel",
-      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:07",
-      "target": "urn:jy:Geography:SB0308:OB06:CourseTarget:03"
-    },
-    {
-      "relationName": "CoreLiteracyLevelMeetsCourseTarget",
-      "label": "是“区域认知-水平2”的目标要求 / isTargetRequirementForLiteracylevel",
-      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:08",
-      "target": "urn:jy:Geography:SB0308:OB06:CourseTarget:03"
-    },
-    {
-      "relationName": "CoreLiteracyLevelMeetsCourseTarget",
-      "label": "是“区域认知-水平3”的目标要求 / isTargetRequirementForLiteracylevel",
-      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:09",
-      "target": "urn:jy:Geography:SB0308:OB06:CourseTarget:03"
-    },
-
-    {
-      "relationName": "CoreLiteracyLevelMeetsCourseTarget",
-      "label": "是“地理实践力-水平1”的目标要求 / isTargetRequirementForLiteracylevel",
-      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10",
-      "target": "urn:jy:Geography:SB0308:OB06:CourseTarget:04"
-    },
-    {
-      "relationName": "CoreLiteracyLevelMeetsCourseTarget",
-      "label": "是“地理实践力-水平2”的目标要求 / isTargetRequirementForLiteracylevel",
-      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:11",
-      "target": "urn:jy:Geography:SB0308:OB06:CourseTarget:04"
-    },
-    {
-      "relationName": "CoreLiteracyLevelMeetsCourseTarget",
-      "label": "是“地理实践力-水平3”的目标要求 / isTargetRequirementForLiteracylevel",
-      "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:12",
-      "target": "urn:jy:Geography:SB0308:OB06:CourseTarget:04"
-    }
-  ]
-}
+[
+  {
+    "relationName": "CoreLiteracyLevelMeetsCourseTarget",
+    "label": "是“人地协调观-水平1”的目标要求 / isTargetRequirementForLiteracylevel",
+    "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:01",
+    "target": "urn:jy:Geography:SB0308:OB06:CourseTarget:01"
+  },
+  {
+    "relationName": "CoreLiteracyLevelMeetsCourseTarget",
+    "label": "是“人地协调观-水平2”的目标要求 / isTargetRequirementForLiteracylevel",
+    "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:02",
+    "target": "urn:jy:Geography:SB0308:OB06:CourseTarget:01"
+  },
+  {
+    "relationName": "CoreLiteracyLevelMeetsCourseTarget",
+    "label": "是“人地协调观-水平3”的目标要求 / isTargetRequirementForLiteracylevel",
+    "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:03",
+    "target": "urn:jy:Geography:SB0308:OB06:CourseTarget:01"
+  },
+  {
+    "relationName": "CoreLiteracyLevelMeetsCourseTarget",
+    "label": "是“综合思维-水平1”的目标要求 / isTargetRequirementForLiteracylevel",
+    "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:04",
+    "target": "urn:jy:Geography:SB0308:OB06:CourseTarget:02"
+  },
+  {
+    "relationName": "CoreLiteracyLevelMeetsCourseTarget",
+    "label": "是“综合思维-水平2”的目标要求 / isTargetRequirementForLiteracylevel",
+    "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:05",
+    "target": "urn:jy:Geography:SB0308:OB06:CourseTarget:02"
+  },
+  {
+    "relationName": "CoreLiteracyLevelMeetsCourseTarget",
+    "label": "是“综合思维-水平3”的目标要求 / isTargetRequirementForLiteracylevel",
+    "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:06",
+    "target": "urn:jy:Geography:SB0308:OB06:CourseTarget:02"
+  },
+  {
+    "relationName": "CoreLiteracyLevelMeetsCourseTarget",
+    "label": "是“区域认知-水平1”的目标要求 / isTargetRequirementForLiteracylevel",
+    "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:07",
+    "target": "urn:jy:Geography:SB0308:OB06:CourseTarget:03"
+  },
+  {
+    "relationName": "CoreLiteracyLevelMeetsCourseTarget",
+    "label": "是“区域认知-水平2”的目标要求 / isTargetRequirementForLiteracylevel",
+    "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:08",
+    "target": "urn:jy:Geography:SB0308:OB06:CourseTarget:03"
+  },
+  {
+    "relationName": "CoreLiteracyLevelMeetsCourseTarget",
+    "label": "是“区域认知-水平3”的目标要求 / isTargetRequirementForLiteracylevel",
+    "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:09",
+    "target": "urn:jy:Geography:SB0308:OB06:CourseTarget:03"
+  },
+  {
+    "relationName": "CoreLiteracyLevelMeetsCourseTarget",
+    "label": "是“地理实践力-水平1”的目标要求 / isTargetRequirementForLiteracylevel",
+    "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:10",
+    "target": "urn:jy:Geography:SB0308:OB06:CourseTarget:04"
+  },
+  {
+    "relationName": "CoreLiteracyLevelMeetsCourseTarget",
+    "label": "是“地理实践力-水平2”的目标要求 / isTargetRequirementForLiteracylevel",
+    "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:11",
+    "target": "urn:jy:Geography:SB0308:OB06:CourseTarget:04"
+  },
+  {
+    "relationName": "CoreLiteracyLevelMeetsCourseTarget",
+    "label": "是“地理实践力-水平3”的目标要求 / isTargetRequirementForLiteracylevel",
+    "source": "urn:jy:Geography:SB0308:OB06:CoreLiteracy:12",
+    "target": "urn:jy:Geography:SB0308:OB06:CourseTarget:04"
+  }
+]

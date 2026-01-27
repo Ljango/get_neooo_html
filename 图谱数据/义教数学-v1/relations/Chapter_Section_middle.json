@@ -1,790 +1,788 @@
-{
-  "relations":[
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch1",
-      "target": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch1:sec1-1"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch1",
-      "target": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch1:sec1-2"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch1",
-      "target": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch1:sec1-3"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch1",
-      "target": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch1:sec1-4"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch2",
-      "target": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch2:sec2-1"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch2",
-      "target": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch2:sec2-2"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch2",
-      "target": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch2:sec2-3"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch2",
-      "target": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch2:sec2-4"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch2",
-      "target": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch2:sec2-5"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch3",
-      "target": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch3:sec3-1"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch3",
-      "target": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch3:sec3-2"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch4",
-      "target": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch4:sec4-1"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch4",
-      "target": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch4:sec4-2"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:equations-inequalities:G7A:ch5",
-      "target": "urn:jy:math:2022:section:s4:na:equations-inequalities:G7A:ch5:sec5-1"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:equations-inequalities:G7A:ch5",
-      "target": "urn:jy:math:2022:section:s4:na:equations-inequalities:G7A:ch5:sec5-2"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:equations-inequalities:G7A:ch5",
-      "target": "urn:jy:math:2022:section:s4:na:equations-inequalities:G7A:ch5:sec5-3"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G7A:ch6",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G7A:ch6:sec6-1"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G7A:ch6",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G7A:ch6:sec6-2"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G7A:ch6",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G7A:ch6:sec6-3"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G7B:ch7",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G7B:ch7:sec7-1"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G7B:ch7",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G7B:ch7:sec7-2"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G7B:ch7",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G7B:ch7:sec7-3"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G7B:ch7",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G7B:ch7:sec7-4"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:expressions:G7B:ch8",
-      "target": "urn:jy:math:2022:section:s4:na:expressions:G7B:ch8:sec8-1"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:expressions:G7B:ch8",
-      "target": "urn:jy:math:2022:section:s4:na:expressions:G7B:ch8:sec8-2"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:expressions:G7B:ch8",
-      "target": "urn:jy:math:2022:section:s4:na:expressions:G7B:ch8:sec8-3"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:coordinates:G7B:ch9",
-      "target": "urn:jy:math:2022:section:s4:sg:coordinates:G7B:ch9:sec9-1"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:coordinates:G7B:ch9",
-      "target": "urn:jy:math:2022:section:s4:sg:coordinates:G7B:ch9:sec9-2"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:equations-inequalities:G7B:ch10",
-      "target": "urn:jy:math:2022:section:s4:na:equations-inequalities:G7B:ch10:sec10-1"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:equations-inequalities:G7B:ch10",
-      "target": "urn:jy:math:2022:section:s4:na:equations-inequalities:G7B:ch10:sec10-2"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:equations-inequalities:G7B:ch10",
-      "target": "urn:jy:math:2022:section:s4:na:equations-inequalities:G7B:ch10:sec10-3"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:equations-inequalities:G7B:ch10",
-      "target": "urn:jy:math:2022:section:s4:na:equations-inequalities:G7B:ch10:sec10-4"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:equations-inequalities:G7B:ch11",
-      "target": "urn:jy:math:2022:section:s4:na:equations-inequalities:G7B:ch11:sec11-1"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:equations-inequalities:G7B:ch11",
-      "target": "urn:jy:math:2022:section:s4:na:equations-inequalities:G7B:ch11:sec11-2"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:equations-inequalities:G7B:ch11",
-      "target": "urn:jy:math:2022:section:s4:na:equations-inequalities:G7B:ch11:sec11-3"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sp:sampling-data-analysis:G7B:ch12",
-      "target": "urn:jy:math:2022:section:s4:sp:sampling-data-analysis:G7B:ch12:sec12-1"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sp:sampling-data-analysis:G7B:ch12",
-      "target": "urn:jy:math:2022:section:s4:sp:sampling-data-analysis:G7B:ch12:sec12-2"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G8A:ch13",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G8A:ch13:sec13-1"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G8A:ch13",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G8A:ch13:sec13-2"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G8A:ch13",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G8A:ch13:sec13-3"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G8A:ch14",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G8A:ch14:sec14-1"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G8A:ch14",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G8A:ch14:sec14-2"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G8A:ch14",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G8A:ch14:sec14-3"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:transformations:G8A:ch15",
-      "target": "urn:jy:math:2022:section:s4:sg:transformations:G8A:ch15:sec15-1"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:transformations:G8A:ch15",
-      "target": "urn:jy:math:2022:section:s4:sg:transformations:G8A:ch15:sec15-2"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:transformations:G8A:ch15",
-      "target": "urn:jy:math:2022:section:s4:sg:transformations:G8A:ch15:sec15-3"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:expressions:G8A:ch16",
-      "target": "urn:jy:math:2022:section:s4:na:expressions:G8A:ch16:sec16-1"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:expressions:G8A:ch16",
-      "target": "urn:jy:math:2022:section:s4:na:expressions:G8A:ch16:sec16-2"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:expressions:G8A:ch16",
-      "target": "urn:jy:math:2022:section:s4:na:expressions:G8A:ch16:sec16-3"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:expressions:G8A:ch17",
-      "target": "urn:jy:math:2022:section:s4:na:expressions:G8A:ch17:sec17-1"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:expressions:G8A:ch17",
-      "target": "urn:jy:math:2022:section:s4:na:expressions:G8A:ch17:sec17-2"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:expressions:G8A:ch18",
-      "target": "urn:jy:math:2022:section:s4:na:expressions:G8A:ch18:sec18-1"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:expressions:G8A:ch18",
-      "target": "urn:jy:math:2022:section:s4:na:expressions:G8A:ch18:sec18-2"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:expressions:G8A:ch18",
-      "target": "urn:jy:math:2022:section:s4:na:expressions:G8A:ch18:sec18-3"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:expressions:G8A:ch18",
-      "target": "urn:jy:math:2022:section:s4:na:expressions:G8A:ch18:sec18-4"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:expressions:G8A:ch18",
-      "target": "urn:jy:math:2022:section:s4:na:expressions:G8A:ch18:sec18-5"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G8B:ch17",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G8B:ch17:sec17-1"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G8B:ch17",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G8B:ch17:sec17-2"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G8B:ch17",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G8B:ch17:sec17-3"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G8B:ch17",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G8B:ch17:sec17-4"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G8B:ch17",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G8B:ch17:sec17-5"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G8B:ch18",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G8B:ch18:sec18-1"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G8B:ch18",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G8B:ch18:sec18-2"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G8B:ch18",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G8B:ch18:sec18-3"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G8B:ch18",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G8B:ch18:sec18-4"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G8B:ch18",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G8B:ch18:sec18-5"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:functions:G8B:ch19",
-      "target": "urn:jy:math:2022:section:s4:na:functions:G8B:ch19:sec19-1"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:functions:G8B:ch19",
-      "target": "urn:jy:math:2022:section:s4:na:functions:G8B:ch19:sec19-2"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:functions:G8B:ch19",
-      "target": "urn:jy:math:2022:section:s4:na:functions:G8B:ch19:sec19-3"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:functions:G8B:ch19",
-      "target": "urn:jy:math:2022:section:s4:na:functions:G8B:ch19:sec19-4"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:functions:G8B:ch19",
-      "target": "urn:jy:math:2022:section:s4:na:functions:G8B:ch19:sec19-5"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:functions:G8B:ch19",
-      "target": "urn:jy:math:2022:section:s4:na:functions:G8B:ch19:sec19-6"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sp:sampling-data-analysis:G8B:ch20",
-      "target": "urn:jy:math:2022:section:s4:sp:sampling-data-analysis:G8B:ch20:sec20-1"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sp:sampling-data-analysis:G8B:ch20",
-      "target": "urn:jy:math:2022:section:s4:sp:sampling-data-analysis:G8B:ch20:sec20-2"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sp:sampling-data-analysis:G8B:ch20",
-      "target": "urn:jy:math:2022:section:s4:sp:sampling-data-analysis:G8B:ch20:sec20-3"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sp:sampling-data-analysis:G8B:ch20",
-      "target": "urn:jy:math:2022:section:s4:sp:sampling-data-analysis:G8B:ch20:sec20-4"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sp:sampling-data-analysis:G8B:ch20",
-      "target": "urn:jy:math:2022:section:s4:sp:sampling-data-analysis:G8B:ch20:sec20-5"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sp:sampling-data-analysis:G8B:ch20",
-      "target": "urn:jy:math:2022:section:s4:sp:sampling-data-analysis:G8B:ch20:sec20-6"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:equations-inequalities:G9A:ch21",
-      "target": "urn:jy:math:2022:section:s4:na:equations-inequalities:G9A:ch21:sec21-1"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:equations-inequalities:G9A:ch21",
-      "target": "urn:jy:math:2022:section:s4:na:equations-inequalities:G9A:ch21:sec21-2"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:equations-inequalities:G9A:ch21",
-      "target": "urn:jy:math:2022:section:s4:na:equations-inequalities:G9A:ch21:sec21-3"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:equations-inequalities:G9A:ch21",
-      "target": "urn:jy:math:2022:section:s4:na:equations-inequalities:G9A:ch21:sec21-4"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:equations-inequalities:G9A:ch21",
-      "target": "urn:jy:math:2022:section:s4:na:equations-inequalities:G9A:ch21:sec21-5"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:equations-inequalities:G9A:ch21",
-      "target": "urn:jy:math:2022:section:s4:na:equations-inequalities:G9A:ch21:sec21-6"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:functions:G9A:ch22",
-      "target": "urn:jy:math:2022:section:s4:na:functions:G9A:ch22:sec22-1"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:functions:G9A:ch22",
-      "target": "urn:jy:math:2022:section:s4:na:functions:G9A:ch22:sec22-2"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:functions:G9A:ch22",
-      "target": "urn:jy:math:2022:section:s4:na:functions:G9A:ch22:sec22-3"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:functions:G9A:ch22",
-      "target": "urn:jy:math:2022:section:s4:na:functions:G9A:ch22:sec22-4"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:functions:G9A:ch22",
-      "target": "urn:jy:math:2022:section:s4:na:functions:G9A:ch22:sec22-5"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:functions:G9A:ch22",
-      "target": "urn:jy:math:2022:section:s4:na:functions:G9A:ch22:sec22-6"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:transformations:G9A:ch23",
-      "target": "urn:jy:math:2022:section:s4:sg:transformations:G9A:ch23:sec23-1"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:transformations:G9A:ch23",
-      "target": "urn:jy:math:2022:section:s4:sg:transformations:G9A:ch23:sec23-2"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:transformations:G9A:ch23",
-      "target": "urn:jy:math:2022:section:s4:sg:transformations:G9A:ch23:sec23-3"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:transformations:G9A:ch23",
-      "target": "urn:jy:math:2022:section:s4:sg:transformations:G9A:ch23:sec23-4"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:transformations:G9A:ch23",
-      "target": "urn:jy:math:2022:section:s4:sg:transformations:G9A:ch23:sec23-5"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:transformations:G9A:ch23",
-      "target": "urn:jy:math:2022:section:s4:sg:transformations:G9A:ch23:sec23-6"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G9A:ch24",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G9A:ch24:sec24-1"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G9A:ch24",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G9A:ch24:sec24-2"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G9A:ch24",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G9A:ch24:sec24-3"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G9A:ch24",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G9A:ch24:sec24-4"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G9A:ch24",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G9A:ch24:sec24-5"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G9A:ch24",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G9A:ch24:sec24-6"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G9A:ch24",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G9A:ch24:sec24-7"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sp:probability:G9A:ch25",
-      "target": "urn:jy:math:2022:section:s4:sp:probability:G9A:ch25:sec25-1"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sp:probability:G9A:ch25",
-      "target": "urn:jy:math:2022:section:s4:sp:probability:G9A:ch25:sec25-2"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sp:probability:G9A:ch25",
-      "target": "urn:jy:math:2022:section:s4:sp:probability:G9A:ch25:sec25-3"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sp:probability:G9A:ch25",
-      "target": "urn:jy:math:2022:section:s4:sp:probability:G9A:ch25:sec25-4"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sp:probability:G9A:ch25",
-      "target": "urn:jy:math:2022:section:s4:sp:probability:G9A:ch25:sec25-5"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sp:probability:G9A:ch25",
-      "target": "urn:jy:math:2022:section:s4:sp:probability:G9A:ch25:sec25-6"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:functions:G9B:ch26",
-      "target": "urn:jy:math:2022:section:s4:na:functions:G9B:ch26:sec26-1"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:functions:G9B:ch26",
-      "target": "urn:jy:math:2022:section:s4:na:functions:G9B:ch26:sec26-2"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:functions:G9B:ch26",
-      "target": "urn:jy:math:2022:section:s4:na:functions:G9B:ch26:sec26-3"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:functions:G9B:ch26",
-      "target": "urn:jy:math:2022:section:s4:na:functions:G9B:ch26:sec26-4"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:functions:G9B:ch26",
-      "target": "urn:jy:math:2022:section:s4:na:functions:G9B:ch26:sec26-5"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G9B:ch27",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G9B:ch27:sec27-1"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G9B:ch27",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G9B:ch27:sec27-2"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G9B:ch27",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G9B:ch27:sec27-3"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G9B:ch27",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G9B:ch27:sec27-4"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G9B:ch27",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G9B:ch27:sec27-5"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G9B:ch27",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G9B:ch27:sec27-6"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:functions:G9B:ch28",
-      "target": "urn:jy:math:2022:section:s4:na:functions:G9B:ch28:sec28-1"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:functions:G9B:ch28",
-      "target": "urn:jy:math:2022:section:s4:na:functions:G9B:ch28:sec28-2"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:functions:G9B:ch28",
-      "target": "urn:jy:math:2022:section:s4:na:functions:G9B:ch28:sec28-3"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:functions:G9B:ch28",
-      "target": "urn:jy:math:2022:section:s4:na:functions:G9B:ch28:sec28-4"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:na:functions:G9B:ch28",
-      "target": "urn:jy:math:2022:section:s4:na:functions:G9B:ch28:sec28-5"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G9B:ch29",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G9B:ch29:sec29-1"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G9B:ch29",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G9B:ch29:sec29-2"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G9B:ch29",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G9B:ch29:sec29-3"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G9B:ch29",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G9B:ch29:sec29-4"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G9B:ch29",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G9B:ch29:sec29-5"
-    },
-    {
-      "relationName": "chapterHasSection",
-      "label": "/hasSection",
-      "source": "urn:jy:math:2022:chapter:s4:sg:properties:G9B:ch29",
-      "target": "urn:jy:math:2022:section:s4:sg:properties:G9B:ch29:sec29-6"
-    }
-  ]
-}
+[
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch1",
+    "target": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch1:sec1-1"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch1",
+    "target": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch1:sec1-2"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch1",
+    "target": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch1:sec1-3"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch1",
+    "target": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch1:sec1-4"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch2",
+    "target": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch2:sec2-1"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch2",
+    "target": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch2:sec2-2"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch2",
+    "target": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch2:sec2-3"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch2",
+    "target": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch2:sec2-4"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch2",
+    "target": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch2:sec2-5"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch3",
+    "target": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch3:sec3-1"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch3",
+    "target": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch3:sec3-2"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch4",
+    "target": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch4:sec4-1"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch4",
+    "target": "urn:jy:math:2022:section:s4:na:expressions:G7A:ch4:sec4-2"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:equations-inequalities:G7A:ch5",
+    "target": "urn:jy:math:2022:section:s4:na:equations-inequalities:G7A:ch5:sec5-1"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:equations-inequalities:G7A:ch5",
+    "target": "urn:jy:math:2022:section:s4:na:equations-inequalities:G7A:ch5:sec5-2"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:equations-inequalities:G7A:ch5",
+    "target": "urn:jy:math:2022:section:s4:na:equations-inequalities:G7A:ch5:sec5-3"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G7A:ch6",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G7A:ch6:sec6-1"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G7A:ch6",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G7A:ch6:sec6-2"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G7A:ch6",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G7A:ch6:sec6-3"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G7B:ch7",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G7B:ch7:sec7-1"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G7B:ch7",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G7B:ch7:sec7-2"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G7B:ch7",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G7B:ch7:sec7-3"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G7B:ch7",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G7B:ch7:sec7-4"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:expressions:G7B:ch8",
+    "target": "urn:jy:math:2022:section:s4:na:expressions:G7B:ch8:sec8-1"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:expressions:G7B:ch8",
+    "target": "urn:jy:math:2022:section:s4:na:expressions:G7B:ch8:sec8-2"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:expressions:G7B:ch8",
+    "target": "urn:jy:math:2022:section:s4:na:expressions:G7B:ch8:sec8-3"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:coordinates:G7B:ch9",
+    "target": "urn:jy:math:2022:section:s4:sg:coordinates:G7B:ch9:sec9-1"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:coordinates:G7B:ch9",
+    "target": "urn:jy:math:2022:section:s4:sg:coordinates:G7B:ch9:sec9-2"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:equations-inequalities:G7B:ch10",
+    "target": "urn:jy:math:2022:section:s4:na:equations-inequalities:G7B:ch10:sec10-1"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:equations-inequalities:G7B:ch10",
+    "target": "urn:jy:math:2022:section:s4:na:equations-inequalities:G7B:ch10:sec10-2"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:equations-inequalities:G7B:ch10",
+    "target": "urn:jy:math:2022:section:s4:na:equations-inequalities:G7B:ch10:sec10-3"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:equations-inequalities:G7B:ch10",
+    "target": "urn:jy:math:2022:section:s4:na:equations-inequalities:G7B:ch10:sec10-4"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:equations-inequalities:G7B:ch11",
+    "target": "urn:jy:math:2022:section:s4:na:equations-inequalities:G7B:ch11:sec11-1"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:equations-inequalities:G7B:ch11",
+    "target": "urn:jy:math:2022:section:s4:na:equations-inequalities:G7B:ch11:sec11-2"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:equations-inequalities:G7B:ch11",
+    "target": "urn:jy:math:2022:section:s4:na:equations-inequalities:G7B:ch11:sec11-3"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sp:sampling-data-analysis:G7B:ch12",
+    "target": "urn:jy:math:2022:section:s4:sp:sampling-data-analysis:G7B:ch12:sec12-1"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sp:sampling-data-analysis:G7B:ch12",
+    "target": "urn:jy:math:2022:section:s4:sp:sampling-data-analysis:G7B:ch12:sec12-2"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G8A:ch13",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G8A:ch13:sec13-1"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G8A:ch13",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G8A:ch13:sec13-2"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G8A:ch13",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G8A:ch13:sec13-3"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G8A:ch14",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G8A:ch14:sec14-1"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G8A:ch14",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G8A:ch14:sec14-2"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G8A:ch14",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G8A:ch14:sec14-3"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:transformations:G8A:ch15",
+    "target": "urn:jy:math:2022:section:s4:sg:transformations:G8A:ch15:sec15-1"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:transformations:G8A:ch15",
+    "target": "urn:jy:math:2022:section:s4:sg:transformations:G8A:ch15:sec15-2"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:transformations:G8A:ch15",
+    "target": "urn:jy:math:2022:section:s4:sg:transformations:G8A:ch15:sec15-3"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:expressions:G8A:ch16",
+    "target": "urn:jy:math:2022:section:s4:na:expressions:G8A:ch16:sec16-1"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:expressions:G8A:ch16",
+    "target": "urn:jy:math:2022:section:s4:na:expressions:G8A:ch16:sec16-2"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:expressions:G8A:ch16",
+    "target": "urn:jy:math:2022:section:s4:na:expressions:G8A:ch16:sec16-3"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:expressions:G8A:ch17",
+    "target": "urn:jy:math:2022:section:s4:na:expressions:G8A:ch17:sec17-1"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:expressions:G8A:ch17",
+    "target": "urn:jy:math:2022:section:s4:na:expressions:G8A:ch17:sec17-2"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:expressions:G8A:ch18",
+    "target": "urn:jy:math:2022:section:s4:na:expressions:G8A:ch18:sec18-1"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:expressions:G8A:ch18",
+    "target": "urn:jy:math:2022:section:s4:na:expressions:G8A:ch18:sec18-2"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:expressions:G8A:ch18",
+    "target": "urn:jy:math:2022:section:s4:na:expressions:G8A:ch18:sec18-3"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:expressions:G8A:ch18",
+    "target": "urn:jy:math:2022:section:s4:na:expressions:G8A:ch18:sec18-4"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:expressions:G8A:ch18",
+    "target": "urn:jy:math:2022:section:s4:na:expressions:G8A:ch18:sec18-5"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G8B:ch17",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G8B:ch17:sec17-1"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G8B:ch17",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G8B:ch17:sec17-2"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G8B:ch17",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G8B:ch17:sec17-3"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G8B:ch17",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G8B:ch17:sec17-4"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G8B:ch17",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G8B:ch17:sec17-5"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G8B:ch18",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G8B:ch18:sec18-1"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G8B:ch18",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G8B:ch18:sec18-2"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G8B:ch18",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G8B:ch18:sec18-3"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G8B:ch18",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G8B:ch18:sec18-4"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G8B:ch18",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G8B:ch18:sec18-5"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:functions:G8B:ch19",
+    "target": "urn:jy:math:2022:section:s4:na:functions:G8B:ch19:sec19-1"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:functions:G8B:ch19",
+    "target": "urn:jy:math:2022:section:s4:na:functions:G8B:ch19:sec19-2"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:functions:G8B:ch19",
+    "target": "urn:jy:math:2022:section:s4:na:functions:G8B:ch19:sec19-3"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:functions:G8B:ch19",
+    "target": "urn:jy:math:2022:section:s4:na:functions:G8B:ch19:sec19-4"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:functions:G8B:ch19",
+    "target": "urn:jy:math:2022:section:s4:na:functions:G8B:ch19:sec19-5"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:functions:G8B:ch19",
+    "target": "urn:jy:math:2022:section:s4:na:functions:G8B:ch19:sec19-6"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sp:sampling-data-analysis:G8B:ch20",
+    "target": "urn:jy:math:2022:section:s4:sp:sampling-data-analysis:G8B:ch20:sec20-1"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sp:sampling-data-analysis:G8B:ch20",
+    "target": "urn:jy:math:2022:section:s4:sp:sampling-data-analysis:G8B:ch20:sec20-2"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sp:sampling-data-analysis:G8B:ch20",
+    "target": "urn:jy:math:2022:section:s4:sp:sampling-data-analysis:G8B:ch20:sec20-3"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sp:sampling-data-analysis:G8B:ch20",
+    "target": "urn:jy:math:2022:section:s4:sp:sampling-data-analysis:G8B:ch20:sec20-4"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sp:sampling-data-analysis:G8B:ch20",
+    "target": "urn:jy:math:2022:section:s4:sp:sampling-data-analysis:G8B:ch20:sec20-5"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sp:sampling-data-analysis:G8B:ch20",
+    "target": "urn:jy:math:2022:section:s4:sp:sampling-data-analysis:G8B:ch20:sec20-6"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:equations-inequalities:G9A:ch21",
+    "target": "urn:jy:math:2022:section:s4:na:equations-inequalities:G9A:ch21:sec21-1"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:equations-inequalities:G9A:ch21",
+    "target": "urn:jy:math:2022:section:s4:na:equations-inequalities:G9A:ch21:sec21-2"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:equations-inequalities:G9A:ch21",
+    "target": "urn:jy:math:2022:section:s4:na:equations-inequalities:G9A:ch21:sec21-3"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:equations-inequalities:G9A:ch21",
+    "target": "urn:jy:math:2022:section:s4:na:equations-inequalities:G9A:ch21:sec21-4"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:equations-inequalities:G9A:ch21",
+    "target": "urn:jy:math:2022:section:s4:na:equations-inequalities:G9A:ch21:sec21-5"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:equations-inequalities:G9A:ch21",
+    "target": "urn:jy:math:2022:section:s4:na:equations-inequalities:G9A:ch21:sec21-6"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:functions:G9A:ch22",
+    "target": "urn:jy:math:2022:section:s4:na:functions:G9A:ch22:sec22-1"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:functions:G9A:ch22",
+    "target": "urn:jy:math:2022:section:s4:na:functions:G9A:ch22:sec22-2"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:functions:G9A:ch22",
+    "target": "urn:jy:math:2022:section:s4:na:functions:G9A:ch22:sec22-3"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:functions:G9A:ch22",
+    "target": "urn:jy:math:2022:section:s4:na:functions:G9A:ch22:sec22-4"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:functions:G9A:ch22",
+    "target": "urn:jy:math:2022:section:s4:na:functions:G9A:ch22:sec22-5"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:functions:G9A:ch22",
+    "target": "urn:jy:math:2022:section:s4:na:functions:G9A:ch22:sec22-6"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:transformations:G9A:ch23",
+    "target": "urn:jy:math:2022:section:s4:sg:transformations:G9A:ch23:sec23-1"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:transformations:G9A:ch23",
+    "target": "urn:jy:math:2022:section:s4:sg:transformations:G9A:ch23:sec23-2"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:transformations:G9A:ch23",
+    "target": "urn:jy:math:2022:section:s4:sg:transformations:G9A:ch23:sec23-3"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:transformations:G9A:ch23",
+    "target": "urn:jy:math:2022:section:s4:sg:transformations:G9A:ch23:sec23-4"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:transformations:G9A:ch23",
+    "target": "urn:jy:math:2022:section:s4:sg:transformations:G9A:ch23:sec23-5"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:transformations:G9A:ch23",
+    "target": "urn:jy:math:2022:section:s4:sg:transformations:G9A:ch23:sec23-6"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G9A:ch24",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G9A:ch24:sec24-1"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G9A:ch24",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G9A:ch24:sec24-2"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G9A:ch24",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G9A:ch24:sec24-3"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G9A:ch24",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G9A:ch24:sec24-4"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G9A:ch24",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G9A:ch24:sec24-5"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G9A:ch24",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G9A:ch24:sec24-6"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G9A:ch24",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G9A:ch24:sec24-7"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sp:probability:G9A:ch25",
+    "target": "urn:jy:math:2022:section:s4:sp:probability:G9A:ch25:sec25-1"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sp:probability:G9A:ch25",
+    "target": "urn:jy:math:2022:section:s4:sp:probability:G9A:ch25:sec25-2"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sp:probability:G9A:ch25",
+    "target": "urn:jy:math:2022:section:s4:sp:probability:G9A:ch25:sec25-3"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sp:probability:G9A:ch25",
+    "target": "urn:jy:math:2022:section:s4:sp:probability:G9A:ch25:sec25-4"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sp:probability:G9A:ch25",
+    "target": "urn:jy:math:2022:section:s4:sp:probability:G9A:ch25:sec25-5"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sp:probability:G9A:ch25",
+    "target": "urn:jy:math:2022:section:s4:sp:probability:G9A:ch25:sec25-6"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:functions:G9B:ch26",
+    "target": "urn:jy:math:2022:section:s4:na:functions:G9B:ch26:sec26-1"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:functions:G9B:ch26",
+    "target": "urn:jy:math:2022:section:s4:na:functions:G9B:ch26:sec26-2"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:functions:G9B:ch26",
+    "target": "urn:jy:math:2022:section:s4:na:functions:G9B:ch26:sec26-3"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:functions:G9B:ch26",
+    "target": "urn:jy:math:2022:section:s4:na:functions:G9B:ch26:sec26-4"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:functions:G9B:ch26",
+    "target": "urn:jy:math:2022:section:s4:na:functions:G9B:ch26:sec26-5"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G9B:ch27",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G9B:ch27:sec27-1"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G9B:ch27",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G9B:ch27:sec27-2"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G9B:ch27",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G9B:ch27:sec27-3"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G9B:ch27",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G9B:ch27:sec27-4"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G9B:ch27",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G9B:ch27:sec27-5"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G9B:ch27",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G9B:ch27:sec27-6"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:functions:G9B:ch28",
+    "target": "urn:jy:math:2022:section:s4:na:functions:G9B:ch28:sec28-1"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:functions:G9B:ch28",
+    "target": "urn:jy:math:2022:section:s4:na:functions:G9B:ch28:sec28-2"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:functions:G9B:ch28",
+    "target": "urn:jy:math:2022:section:s4:na:functions:G9B:ch28:sec28-3"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:functions:G9B:ch28",
+    "target": "urn:jy:math:2022:section:s4:na:functions:G9B:ch28:sec28-4"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:na:functions:G9B:ch28",
+    "target": "urn:jy:math:2022:section:s4:na:functions:G9B:ch28:sec28-5"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G9B:ch29",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G9B:ch29:sec29-1"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G9B:ch29",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G9B:ch29:sec29-2"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G9B:ch29",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G9B:ch29:sec29-3"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G9B:ch29",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G9B:ch29:sec29-4"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G9B:ch29",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G9B:ch29:sec29-5"
+  },
+  {
+    "relationName": "chapterHasSection",
+    "label": "/hasSection",
+    "source": "urn:jy:math:2022:chapter:s4:sg:properties:G9B:ch29",
+    "target": "urn:jy:math:2022:section:s4:sg:properties:G9B:ch29:sec29-6"
+  }
+]

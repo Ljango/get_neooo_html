@@ -1,424 +1,422 @@
-{
-  "relations": [
-    {
-      "relationName": "ExperimentSupportsSubsection",
-      "label": "实验支撑小节 / supportsSubsection",
-      "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l1",
-      "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l7"
-    },
-    {
-      "relationName": "SubsectionIncludesExperiment",
-      "label": "小节包含实验 / includesExperiment",
-      "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l7",
-      "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l1"
-    },
-    {
-      "relationName": "ExperimentSupportsSubsection",
-      "label": "实验支撑小节 / supportsSubsection",
-      "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l2",
-      "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l17"
-    },
-    {
-      "relationName": "SubsectionIncludesExperiment",
-      "label": "小节包含实验 / includesExperiment",
-      "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l17",
-      "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l2"
-    },
-    {
-      "relationName": "ExperimentSupportsSubsection",
-      "label": "实验支撑小节 / supportsSubsection",
-      "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l2",
-      "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l18"
-    },
-    {
-      "relationName": "SubsectionIncludesExperiment",
-      "label": "小节包含实验 / includesExperiment",
-      "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l18",
-      "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l2"
-    },
-    {
-      "relationName": "ExperimentSupportsSubsection",
-      "label": "实验支撑小节 / supportsSubsection",
-      "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l2",
-      "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l19"
-    },
-    {
-      "relationName": "SubsectionIncludesExperiment",
-      "label": "小节包含实验 / includesExperiment",
-      "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l19",
-      "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l2"
-    },
-    {
-      "relationName": "ExperimentSupportsSubsection",
-      "label": "实验支撑小节 / supportsSubsection",
-      "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l3",
-      "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l21"
-    },
-    {
-      "relationName": "SubsectionIncludesExperiment",
-      "label": "小节包含实验 / includesExperiment",
-      "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l21",
-      "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l3"
-    },
-    {
-      "relationName": "ExperimentSupportsSubsection",
-      "label": "实验支撑小节 / supportsSubsection",
-      "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l4",
-      "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l12"
-    },
-    {
-      "relationName": "SubsectionIncludesExperiment",
-      "label": "小节包含实验 / includesExperiment",
-      "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l12",
-      "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l4"
-    },
-    {
-      "relationName": "ExperimentSupportsSubsection",
-      "label": "实验支撑小节 / supportsSubsection",
-      "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l4",
-      "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l13"
-    },
-    {
-      "relationName": "SubsectionIncludesExperiment",
-      "label": "小节包含实验 / includesExperiment",
-      "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l13",
-      "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l4"
-    },
-    {
-      "relationName": "ExperimentSupportsSubsection",
-      "label": "实验支撑小节 / supportsSubsection",
-      "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l5",
-      "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l79"
-    },
-    {
-      "relationName": "SubsectionIncludesExperiment",
-      "label": "小节包含实验 / includesExperiment",
-      "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l79",
-      "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l5"
-    },
-    {
-      "relationName": "ExperimentSupportsSubsection",
-      "label": "实验支撑小节 / supportsSubsection",
-      "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l5",
-      "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l80"
-    },
-    {
-      "relationName": "SubsectionIncludesExperiment",
-      "label": "小节包含实验 / includesExperiment",
-      "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l80",
-      "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l5"
-    },
-    {
-      "relationName": "ExperimentSupportsSubsection",
-      "label": "实验支撑小节 / supportsSubsection",
-      "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l5",
-      "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l81"
-    },
-    {
-      "relationName": "SubsectionIncludesExperiment",
-      "label": "小节包含实验 / includesExperiment",
-      "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l81",
-      "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l5"
-    },
-    {
-      "relationName": "ExperimentSupportsSubsection",
-      "label": "实验支撑小节 / supportsSubsection",
-      "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l6",
-      "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l64"
-    },
-    {
-      "relationName": "SubsectionIncludesExperiment",
-      "label": "小节包含实验 / includesExperiment",
-      "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l64",
-      "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l6"
-    },
-    {
-      "relationName": "ExperimentSupportsSubsection",
-      "label": "实验支撑小节 / supportsSubsection",
-      "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l6",
-      "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l63"
-    },
-    {
-      "relationName": "SubsectionIncludesExperiment",
-      "label": "小节包含实验 / includesExperiment",
-      "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l63",
-      "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l6"
-    },
-    {
-      "relationName": "ExperimentSupportsSubsection",
-      "label": "实验支撑小节 / supportsSubsection",
-      "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l7",
-      "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l51"
-    },
-    {
-      "relationName": "SubsectionIncludesExperiment",
-      "label": "小节包含实验 / includesExperiment",
-      "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l51",
-      "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l7"
-    },
-    {
-      "relationName": "ExperimentSupportsSubsection",
-      "label": "实验支撑小节 / supportsSubsection",
-      "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l7",
-      "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l37"
-    },
-    {
-      "relationName": "SubsectionIncludesExperiment",
-      "label": "小节包含实验 / includesExperiment",
-      "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l37",
-      "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l7"
-    },
-    {
-      "relationName": "ExperimentSupportsSubsection",
-      "label": "实验支撑小节 / supportsSubsection",
-      "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l8",
-      "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l41"
-    },
-    {
-      "relationName": "SubsectionIncludesExperiment",
-      "label": "小节包含实验 / includesExperiment",
-      "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l41",
-      "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l8"
-    },
-    {
-      "relationName": "ExperimentSupportsSubsection",
-      "label": "实验支撑小节 / supportsSubsection",
-      "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l8",
-      "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l42"
-    },
-    {
-      "relationName": "SubsectionIncludesExperiment",
-      "label": "小节包含实验 / includesExperiment",
-      "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l42",
-      "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l8"
-    },
-    {
-      "relationName": "ExperimentSupportsSubsection",
-      "label": "实验支撑小节 / supportsSubsection",
-      "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l9",
-      "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l46"
-    },
-    {
-      "relationName": "SubsectionIncludesExperiment",
-      "label": "小节包含实验 / includesExperiment",
-      "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l46",
-      "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l9"
-    },
-    {
-      "relationName": "ExperimentSupportsSubsection",
-      "label": "实验支撑小节 / supportsSubsection",
-      "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l9",
-      "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l47"
-    },
-    {
-      "relationName": "SubsectionIncludesExperiment",
-      "label": "小节包含实验 / includesExperiment",
-      "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l47",
-      "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l9"
-    },
-    {
-      "relationName": "ExperimentSupportsSubsection",
-      "label": "实验支撑小节 / supportsSubsection",
-      "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l10",
-      "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l54"
-    },
-    {
-      "relationName": "SubsectionIncludesExperiment",
-      "label": "小节包含实验 / includesExperiment",
-      "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l54",
-      "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l10"
-    },
-    {
-      "relationName": "ExperimentSupportsSubsection",
-      "label": "实验支撑小节 / supportsSubsection",
-      "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l10",
-      "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l53"
-    },
-    {
-      "relationName": "SubsectionIncludesExperiment",
-      "label": "小节包含实验 / includesExperiment",
-      "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l53",
-      "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l10"
-    },
-    {
-      "relationName": "ExperimentSupportsSubsection",
-      "label": "实验支撑小节 / supportsSubsection",
-      "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l11",
-      "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l51"
-    },
-    {
-      "relationName": "SubsectionIncludesExperiment",
-      "label": "小节包含实验 / includesExperiment",
-      "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l51",
-      "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l11"
-    },
-    {
-      "relationName": "ExperimentSupportsSubsection",
-      "label": "实验支撑小节 / supportsSubsection",
-      "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l12",
-      "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l62"
-    },
-    {
-      "relationName": "SubsectionIncludesExperiment",
-      "label": "小节包含实验 / includesExperiment",
-      "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l62",
-      "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l12"
-    },
-    {
-      "relationName": "ExperimentSupportsSubsection",
-      "label": "实验支撑小节 / supportsSubsection",
-      "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l12",
-      "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l60"
-    },
-    {
-      "relationName": "SubsectionIncludesExperiment",
-      "label": "小节包含实验 / includesExperiment",
-      "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l60",
-      "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l12"
-    },
-    {
-      "relationName": "ExperimentSupportsSubsection",
-      "label": "实验支撑小节 / supportsSubsection",
-      "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l12",
-      "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l61"
-    },
-    {
-      "relationName": "SubsectionIncludesExperiment",
-      "label": "小节包含实验 / includesExperiment",
-      "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l61",
-      "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l12"
-    },
-    {
-      "relationName": "ExperimentSupportsSubsection",
-      "label": "实验支撑小节 / supportsSubsection",
-      "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l13",
-      "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l66"
-    },
-    {
-      "relationName": "SubsectionIncludesExperiment",
-      "label": "小节包含实验 / includesExperiment",
-      "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l66",
-      "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l13"
-    },
-    {
-      "relationName": "ExperimentSupportsSubsection",
-      "label": "实验支撑小节 / supportsSubsection",
-      "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l14",
-      "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l69"
-    },
-    {
-      "relationName": "SubsectionIncludesExperiment",
-      "label": "小节包含实验 / includesExperiment",
-      "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l69",
-      "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l14"
-    },
-    {
-      "relationName": "ExperimentSupportsSubsection",
-      "label": "实验支撑小节 / supportsSubsection",
-      "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l15",
-      "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l88"
-    },
-    {
-      "relationName": "SubsectionIncludesExperiment",
-      "label": "小节包含实验 / includesExperiment",
-      "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l88",
-      "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l15"
-    },
-    {
-      "relationName": "ExperimentSupportsSubsection",
-      "label": "实验支撑小节 / supportsSubsection",
-      "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l16",
-      "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l117"
-    },
-    {
-      "relationName": "SubsectionIncludesExperiment",
-      "label": "小节包含实验 / includesExperiment",
-      "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l117",
-      "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l16"
-    },
-    {
-      "relationName": "ExperimentSupportsSubsection",
-      "label": "实验支撑小节 / supportsSubsection",
-      "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l16",
-      "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l116"
-    },
-    {
-      "relationName": "SubsectionIncludesExperiment",
-      "label": "小节包含实验 / includesExperiment",
-      "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l116",
-      "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l16"
-    },
-    {
-      "relationName": "ExperimentSupportsSubsection",
-      "label": "实验支撑小节 / supportsSubsection",
-      "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l17",
-      "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l42"
-    },
-    {
-      "relationName": "SubsectionIncludesExperiment",
-      "label": "小节包含实验 / includesExperiment",
-      "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l42",
-      "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l17"
-    },
-    {
-      "relationName": "ExperimentSupportsSubsection",
-      "label": "实验支撑小节 / supportsSubsection",
-      "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l17",
-      "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l108"
-    },
-    {
-      "relationName": "SubsectionIncludesExperiment",
-      "label": "小节包含实验 / includesExperiment",
-      "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l108",
-      "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l17"
-    },
-    {
-      "relationName": "ExperimentSupportsSubsection",
-      "label": "实验支撑小节 / supportsSubsection",
-      "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l17",
-      "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l114"
-    },
-    {
-      "relationName": "SubsectionIncludesExperiment",
-      "label": "小节包含实验 / includesExperiment",
-      "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l114",
-      "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l17"
-    },
-    {
-      "relationName": "ExperimentSupportsSubsection",
-      "label": "实验支撑小节 / supportsSubsection",
-      "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l17",
-      "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l111"
-    },
-    {
-      "relationName": "SubsectionIncludesExperiment",
-      "label": "小节包含实验 / includesExperiment",
-      "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l111",
-      "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l17"
-    },
-    {
-      "relationName": "ExperimentSupportsSubsection",
-      "label": "实验支撑小节 / supportsSubsection",
-      "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l17",
-      "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l116"
-    },
-    {
-      "relationName": "SubsectionIncludesExperiment",
-      "label": "小节包含实验 / includesExperiment",
-      "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l116",
-      "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l17"
-    },
-    {
-      "relationName": "ExperimentSupportsSubsection",
-      "label": "实验支撑小节 / supportsSubsection",
-      "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l18",
-      "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l115"
-    },
-    {
-      "relationName": "SubsectionIncludesExperiment",
-      "label": "小节包含实验 / includesExperiment",
-      "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l115",
-      "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l18"
-    }
-  ]
-}
+[
+  {
+    "relationName": "ExperimentSupportsSubsection",
+    "label": "实验支撑小节 / supportsSubsection",
+    "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l1",
+    "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l7"
+  },
+  {
+    "relationName": "SubsectionIncludesExperiment",
+    "label": "小节包含实验 / includesExperiment",
+    "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l7",
+    "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l1"
+  },
+  {
+    "relationName": "ExperimentSupportsSubsection",
+    "label": "实验支撑小节 / supportsSubsection",
+    "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l2",
+    "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l17"
+  },
+  {
+    "relationName": "SubsectionIncludesExperiment",
+    "label": "小节包含实验 / includesExperiment",
+    "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l17",
+    "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l2"
+  },
+  {
+    "relationName": "ExperimentSupportsSubsection",
+    "label": "实验支撑小节 / supportsSubsection",
+    "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l2",
+    "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l18"
+  },
+  {
+    "relationName": "SubsectionIncludesExperiment",
+    "label": "小节包含实验 / includesExperiment",
+    "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l18",
+    "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l2"
+  },
+  {
+    "relationName": "ExperimentSupportsSubsection",
+    "label": "实验支撑小节 / supportsSubsection",
+    "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l2",
+    "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l19"
+  },
+  {
+    "relationName": "SubsectionIncludesExperiment",
+    "label": "小节包含实验 / includesExperiment",
+    "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l19",
+    "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l2"
+  },
+  {
+    "relationName": "ExperimentSupportsSubsection",
+    "label": "实验支撑小节 / supportsSubsection",
+    "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l3",
+    "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l21"
+  },
+  {
+    "relationName": "SubsectionIncludesExperiment",
+    "label": "小节包含实验 / includesExperiment",
+    "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l21",
+    "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l3"
+  },
+  {
+    "relationName": "ExperimentSupportsSubsection",
+    "label": "实验支撑小节 / supportsSubsection",
+    "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l4",
+    "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l12"
+  },
+  {
+    "relationName": "SubsectionIncludesExperiment",
+    "label": "小节包含实验 / includesExperiment",
+    "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l12",
+    "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l4"
+  },
+  {
+    "relationName": "ExperimentSupportsSubsection",
+    "label": "实验支撑小节 / supportsSubsection",
+    "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l4",
+    "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l13"
+  },
+  {
+    "relationName": "SubsectionIncludesExperiment",
+    "label": "小节包含实验 / includesExperiment",
+    "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l13",
+    "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l4"
+  },
+  {
+    "relationName": "ExperimentSupportsSubsection",
+    "label": "实验支撑小节 / supportsSubsection",
+    "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l5",
+    "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l79"
+  },
+  {
+    "relationName": "SubsectionIncludesExperiment",
+    "label": "小节包含实验 / includesExperiment",
+    "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l79",
+    "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l5"
+  },
+  {
+    "relationName": "ExperimentSupportsSubsection",
+    "label": "实验支撑小节 / supportsSubsection",
+    "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l5",
+    "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l80"
+  },
+  {
+    "relationName": "SubsectionIncludesExperiment",
+    "label": "小节包含实验 / includesExperiment",
+    "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l80",
+    "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l5"
+  },
+  {
+    "relationName": "ExperimentSupportsSubsection",
+    "label": "实验支撑小节 / supportsSubsection",
+    "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l5",
+    "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l81"
+  },
+  {
+    "relationName": "SubsectionIncludesExperiment",
+    "label": "小节包含实验 / includesExperiment",
+    "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l81",
+    "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l5"
+  },
+  {
+    "relationName": "ExperimentSupportsSubsection",
+    "label": "实验支撑小节 / supportsSubsection",
+    "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l6",
+    "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l64"
+  },
+  {
+    "relationName": "SubsectionIncludesExperiment",
+    "label": "小节包含实验 / includesExperiment",
+    "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l64",
+    "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l6"
+  },
+  {
+    "relationName": "ExperimentSupportsSubsection",
+    "label": "实验支撑小节 / supportsSubsection",
+    "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l6",
+    "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l63"
+  },
+  {
+    "relationName": "SubsectionIncludesExperiment",
+    "label": "小节包含实验 / includesExperiment",
+    "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l63",
+    "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l6"
+  },
+  {
+    "relationName": "ExperimentSupportsSubsection",
+    "label": "实验支撑小节 / supportsSubsection",
+    "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l7",
+    "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l51"
+  },
+  {
+    "relationName": "SubsectionIncludesExperiment",
+    "label": "小节包含实验 / includesExperiment",
+    "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l51",
+    "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l7"
+  },
+  {
+    "relationName": "ExperimentSupportsSubsection",
+    "label": "实验支撑小节 / supportsSubsection",
+    "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l7",
+    "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l37"
+  },
+  {
+    "relationName": "SubsectionIncludesExperiment",
+    "label": "小节包含实验 / includesExperiment",
+    "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l37",
+    "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l7"
+  },
+  {
+    "relationName": "ExperimentSupportsSubsection",
+    "label": "实验支撑小节 / supportsSubsection",
+    "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l8",
+    "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l41"
+  },
+  {
+    "relationName": "SubsectionIncludesExperiment",
+    "label": "小节包含实验 / includesExperiment",
+    "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l41",
+    "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l8"
+  },
+  {
+    "relationName": "ExperimentSupportsSubsection",
+    "label": "实验支撑小节 / supportsSubsection",
+    "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l8",
+    "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l42"
+  },
+  {
+    "relationName": "SubsectionIncludesExperiment",
+    "label": "小节包含实验 / includesExperiment",
+    "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l42",
+    "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l8"
+  },
+  {
+    "relationName": "ExperimentSupportsSubsection",
+    "label": "实验支撑小节 / supportsSubsection",
+    "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l9",
+    "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l46"
+  },
+  {
+    "relationName": "SubsectionIncludesExperiment",
+    "label": "小节包含实验 / includesExperiment",
+    "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l46",
+    "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l9"
+  },
+  {
+    "relationName": "ExperimentSupportsSubsection",
+    "label": "实验支撑小节 / supportsSubsection",
+    "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l9",
+    "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l47"
+  },
+  {
+    "relationName": "SubsectionIncludesExperiment",
+    "label": "小节包含实验 / includesExperiment",
+    "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l47",
+    "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l9"
+  },
+  {
+    "relationName": "ExperimentSupportsSubsection",
+    "label": "实验支撑小节 / supportsSubsection",
+    "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l10",
+    "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l54"
+  },
+  {
+    "relationName": "SubsectionIncludesExperiment",
+    "label": "小节包含实验 / includesExperiment",
+    "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l54",
+    "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l10"
+  },
+  {
+    "relationName": "ExperimentSupportsSubsection",
+    "label": "实验支撑小节 / supportsSubsection",
+    "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l10",
+    "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l53"
+  },
+  {
+    "relationName": "SubsectionIncludesExperiment",
+    "label": "小节包含实验 / includesExperiment",
+    "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l53",
+    "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l10"
+  },
+  {
+    "relationName": "ExperimentSupportsSubsection",
+    "label": "实验支撑小节 / supportsSubsection",
+    "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l11",
+    "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l51"
+  },
+  {
+    "relationName": "SubsectionIncludesExperiment",
+    "label": "小节包含实验 / includesExperiment",
+    "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l51",
+    "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l11"
+  },
+  {
+    "relationName": "ExperimentSupportsSubsection",
+    "label": "实验支撑小节 / supportsSubsection",
+    "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l12",
+    "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l62"
+  },
+  {
+    "relationName": "SubsectionIncludesExperiment",
+    "label": "小节包含实验 / includesExperiment",
+    "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l62",
+    "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l12"
+  },
+  {
+    "relationName": "ExperimentSupportsSubsection",
+    "label": "实验支撑小节 / supportsSubsection",
+    "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l12",
+    "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l60"
+  },
+  {
+    "relationName": "SubsectionIncludesExperiment",
+    "label": "小节包含实验 / includesExperiment",
+    "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l60",
+    "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l12"
+  },
+  {
+    "relationName": "ExperimentSupportsSubsection",
+    "label": "实验支撑小节 / supportsSubsection",
+    "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l12",
+    "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l61"
+  },
+  {
+    "relationName": "SubsectionIncludesExperiment",
+    "label": "小节包含实验 / includesExperiment",
+    "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l61",
+    "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l12"
+  },
+  {
+    "relationName": "ExperimentSupportsSubsection",
+    "label": "实验支撑小节 / supportsSubsection",
+    "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l13",
+    "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l66"
+  },
+  {
+    "relationName": "SubsectionIncludesExperiment",
+    "label": "小节包含实验 / includesExperiment",
+    "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l66",
+    "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l13"
+  },
+  {
+    "relationName": "ExperimentSupportsSubsection",
+    "label": "实验支撑小节 / supportsSubsection",
+    "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l14",
+    "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l69"
+  },
+  {
+    "relationName": "SubsectionIncludesExperiment",
+    "label": "小节包含实验 / includesExperiment",
+    "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l69",
+    "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l14"
+  },
+  {
+    "relationName": "ExperimentSupportsSubsection",
+    "label": "实验支撑小节 / supportsSubsection",
+    "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l15",
+    "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l88"
+  },
+  {
+    "relationName": "SubsectionIncludesExperiment",
+    "label": "小节包含实验 / includesExperiment",
+    "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l88",
+    "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l15"
+  },
+  {
+    "relationName": "ExperimentSupportsSubsection",
+    "label": "实验支撑小节 / supportsSubsection",
+    "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l16",
+    "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l117"
+  },
+  {
+    "relationName": "SubsectionIncludesExperiment",
+    "label": "小节包含实验 / includesExperiment",
+    "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l117",
+    "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l16"
+  },
+  {
+    "relationName": "ExperimentSupportsSubsection",
+    "label": "实验支撑小节 / supportsSubsection",
+    "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l16",
+    "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l116"
+  },
+  {
+    "relationName": "SubsectionIncludesExperiment",
+    "label": "小节包含实验 / includesExperiment",
+    "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l116",
+    "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l16"
+  },
+  {
+    "relationName": "ExperimentSupportsSubsection",
+    "label": "实验支撑小节 / supportsSubsection",
+    "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l17",
+    "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l42"
+  },
+  {
+    "relationName": "SubsectionIncludesExperiment",
+    "label": "小节包含实验 / includesExperiment",
+    "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l42",
+    "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l17"
+  },
+  {
+    "relationName": "ExperimentSupportsSubsection",
+    "label": "实验支撑小节 / supportsSubsection",
+    "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l17",
+    "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l108"
+  },
+  {
+    "relationName": "SubsectionIncludesExperiment",
+    "label": "小节包含实验 / includesExperiment",
+    "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l108",
+    "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l17"
+  },
+  {
+    "relationName": "ExperimentSupportsSubsection",
+    "label": "实验支撑小节 / supportsSubsection",
+    "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l17",
+    "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l114"
+  },
+  {
+    "relationName": "SubsectionIncludesExperiment",
+    "label": "小节包含实验 / includesExperiment",
+    "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l114",
+    "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l17"
+  },
+  {
+    "relationName": "ExperimentSupportsSubsection",
+    "label": "实验支撑小节 / supportsSubsection",
+    "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l17",
+    "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l111"
+  },
+  {
+    "relationName": "SubsectionIncludesExperiment",
+    "label": "小节包含实验 / includesExperiment",
+    "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l111",
+    "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l17"
+  },
+  {
+    "relationName": "ExperimentSupportsSubsection",
+    "label": "实验支撑小节 / supportsSubsection",
+    "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l17",
+    "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l116"
+  },
+  {
+    "relationName": "SubsectionIncludesExperiment",
+    "label": "小节包含实验 / includesExperiment",
+    "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l116",
+    "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l17"
+  },
+  {
+    "relationName": "ExperimentSupportsSubsection",
+    "label": "实验支撑小节 / supportsSubsection",
+    "source": "urn:jy:chemistry:SB0402:OB06:Experiment:l18",
+    "target": "urn:jy:chemistry:SB0402:OB06:Subsection:l115"
+  },
+  {
+    "relationName": "SubsectionIncludesExperiment",
+    "label": "小节包含实验 / includesExperiment",
+    "source": "urn:jy:chemistry:SB0402:OB06:Subsection:l115",
+    "target": "urn:jy:chemistry:SB0402:OB06:Experiment:l18"
+  }
+]

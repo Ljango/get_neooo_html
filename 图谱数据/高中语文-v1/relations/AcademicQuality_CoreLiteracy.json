@@ -1,580 +1,578 @@
-{
-  "relations": [
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l1"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l1",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l1"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l1",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l1"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l1",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l1"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l1",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l2"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l2",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l2"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l2",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l2"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l2",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l2"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l2",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l3"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l3",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l3"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l3",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l3"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l3",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l3"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l3",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l4"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l4",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l4"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l4",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l4"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l4",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l4"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l4",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l5"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l5",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l5"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l5",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l5"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l5",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l5"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l5",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l6"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l6",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l6"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l6",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l6"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l6",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l6"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l6",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l7"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l7",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l7"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l7",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l7"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l7",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l7"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l7",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l8"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l8",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l8"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l8",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l8"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l8",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l8"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l8",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l9"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l9",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l9"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l9",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l9"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l9",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l9"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l9",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l10"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l10",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l10"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l10",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l10"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l10",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l10"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l10",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l11"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l11",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l11"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l11",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l11"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l11",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l11"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l11",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l12"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l12",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l12"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l12",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l12"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l12",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3"
-    },
-    {
-      "relationName": "coreLiteracyDefinesAcademicQuality",
-      "label": "核心素养界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l12"
-    },
-    {
-      "relationName": "academicQualityReflectsCoreLiteracy",
-      "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l12",
-      "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4"
-    }
-  ]
-}
+[
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l1"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l1",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l1"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l1",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l1"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l1",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l1"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l1",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l2"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l2",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l2"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l2",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l2"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l2",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l2"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l2",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l3"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l3",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l3"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l3",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l3"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l3",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l3"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l3",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l4"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l4",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l4"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l4",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l4"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l4",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l4"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l4",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l5"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l5",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l5"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l5",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l5"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l5",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l5"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l5",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l6"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l6",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l6"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l6",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l6"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l6",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l6"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l6",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l7"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l7",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l7"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l7",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l7"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l7",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l7"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l7",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l8"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l8",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l8"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l8",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l8"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l8",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l8"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l8",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l9"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l9",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l9"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l9",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l9"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l9",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l9"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l9",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l10"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l10",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l10"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l10",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l10"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l10",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l10"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l10",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l11"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l11",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l11"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l11",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l11"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l11",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l11"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l11",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l12"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l12",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l1"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l12"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l12",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l2"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l12"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l12",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l3"
+  },
+  {
+    "relationName": "coreLiteracyDefinesAcademicQuality",
+    "label": "核心素养界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l12"
+  },
+  {
+    "relationName": "academicQualityReflectsCoreLiteracy",
+    "label": "学业质量反映核心素养发展水平 / reflectsCoreLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicQuality:l12",
+    "target": "urn:jy:chinese:SB0101:OB06:CoreLiteracy:l4"
+  }
+]

@@ -1,116 +1,110 @@
-{
-    "relations": [
-      {
-        "relationName": "literacyGuidesQuality",
-        "label": "指导学业质量 / guidesQuality",
-        "source": "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1",
-        "target": "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l1"
-      },
-      {
-        "relationName": "qualityEmbodiesLiteracy",
-        "label": "体现核心素养 / embodiesLiteracy",
-        "source": "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l1",
-        "target": "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"
-      },
-      {
-        "relationName": "literacyGuidesQuality",
-        "label": "指导学业质量 / guidesQuality",
-        "source": "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1",
-        "target": "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l2"
-      },
-      {
-        "relationName": "qualityEmbodiesLiteracy",
-        "label": "体现核心素养 / embodiesLiteracy",
-        "source": "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l2",
-        "target": "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"
-      },
-      {
-        "relationName": "literacyGuidesQuality",
-        "label": "指导学业质量 / guidesQuality",
-        "source": "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1",
-        "target": "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l4"
-      },
-      {
-        "relationName": "qualityEmbodiesLiteracy",
-        "label": "体现核心素养 / embodiesLiteracy",
-        "source": "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l4",
-        "target": "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"
-      },
-  
-      {
-        "relationName": "literacyGuidesQuality",
-        "label": "指导学业质量 / guidesQuality",
-        "source": "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2",
-        "target": "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l1"
-      },
-      {
-        "relationName": "qualityEmbodiesLiteracy",
-        "label": "体现核心素养 / embodiesLiteracy",
-        "source": "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l1",
-        "target": "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"
-      },
-      {
-        "relationName": "literacyGuidesQuality",
-        "label": "指导学业质量 / guidesQuality",
-        "source": "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2",
-        "target": "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l2"
-      },
-      {
-        "relationName": "qualityEmbodiesLiteracy",
-        "label": "体现核心素养 / embodiesLiteracy",
-        "source": "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l2",
-        "target": "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"
-      },
-      {
-        "relationName": "literacyGuidesQuality",
-        "label": "指导学业质量 / guidesQuality",
-        "source": "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2",
-        "target": "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l3"
-      },
-      {
-        "relationName": "qualityEmbodiesLiteracy",
-        "label": "体现核心素养 / embodiesLiteracy",
-        "source": "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l3",
-        "target": "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"
-      },
-  
-      {
-        "relationName": "literacyGuidesQuality",
-        "label": "指导学业质量 / guidesQuality",
-        "source": "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3",
-        "target": "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l3"
-      },
-      {
-        "relationName": "qualityEmbodiesLiteracy",
-        "label": "体现核心素养 / embodiesLiteracy",
-        "source": "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l3",
-        "target": "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"
-      },
-      {
-        "relationName": "literacyGuidesQuality",
-        "label": "指导学业质量 / guidesQuality",
-        "source": "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3",
-        "target": "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l4"
-      },
-      {
-        "relationName": "qualityEmbodiesLiteracy",
-        "label": "体现核心素养 / embodiesLiteracy",
-        "source": "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l4",
-        "target": "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"
-      },
-  
-      {
-        "relationName": "literacyGuidesQuality",
-        "label": "指导学业质量 / guidesQuality",
-        "source": "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4",
-        "target": "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l4"
-      },
-      {
-        "relationName": "qualityEmbodiesLiteracy",
-        "label": "体现核心素养 / embodiesLiteracy",
-        "source": "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l4",
-        "target": "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"
-      }
-    ]
+[
+  {
+    "relationName": "literacyGuidesQuality",
+    "label": "指导学业质量 / guidesQuality",
+    "source": "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1",
+    "target": "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l1"
+  },
+  {
+    "relationName": "qualityEmbodiesLiteracy",
+    "label": "体现核心素养 / embodiesLiteracy",
+    "source": "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l1",
+    "target": "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"
+  },
+  {
+    "relationName": "literacyGuidesQuality",
+    "label": "指导学业质量 / guidesQuality",
+    "source": "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1",
+    "target": "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l2"
+  },
+  {
+    "relationName": "qualityEmbodiesLiteracy",
+    "label": "体现核心素养 / embodiesLiteracy",
+    "source": "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l2",
+    "target": "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"
+  },
+  {
+    "relationName": "literacyGuidesQuality",
+    "label": "指导学业质量 / guidesQuality",
+    "source": "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1",
+    "target": "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l4"
+  },
+  {
+    "relationName": "qualityEmbodiesLiteracy",
+    "label": "体现核心素养 / embodiesLiteracy",
+    "source": "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l4",
+    "target": "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l1"
+  },
+  {
+    "relationName": "literacyGuidesQuality",
+    "label": "指导学业质量 / guidesQuality",
+    "source": "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2",
+    "target": "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l1"
+  },
+  {
+    "relationName": "qualityEmbodiesLiteracy",
+    "label": "体现核心素养 / embodiesLiteracy",
+    "source": "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l1",
+    "target": "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"
+  },
+  {
+    "relationName": "literacyGuidesQuality",
+    "label": "指导学业质量 / guidesQuality",
+    "source": "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2",
+    "target": "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l2"
+  },
+  {
+    "relationName": "qualityEmbodiesLiteracy",
+    "label": "体现核心素养 / embodiesLiteracy",
+    "source": "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l2",
+    "target": "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"
+  },
+  {
+    "relationName": "literacyGuidesQuality",
+    "label": "指导学业质量 / guidesQuality",
+    "source": "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2",
+    "target": "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l3"
+  },
+  {
+    "relationName": "qualityEmbodiesLiteracy",
+    "label": "体现核心素养 / embodiesLiteracy",
+    "source": "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l3",
+    "target": "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l2"
+  },
+  {
+    "relationName": "literacyGuidesQuality",
+    "label": "指导学业质量 / guidesQuality",
+    "source": "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3",
+    "target": "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l3"
+  },
+  {
+    "relationName": "qualityEmbodiesLiteracy",
+    "label": "体现核心素养 / embodiesLiteracy",
+    "source": "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l3",
+    "target": "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"
+  },
+  {
+    "relationName": "literacyGuidesQuality",
+    "label": "指导学业质量 / guidesQuality",
+    "source": "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3",
+    "target": "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l4"
+  },
+  {
+    "relationName": "qualityEmbodiesLiteracy",
+    "label": "体现核心素养 / embodiesLiteracy",
+    "source": "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l4",
+    "target": "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l3"
+  },
+  {
+    "relationName": "literacyGuidesQuality",
+    "label": "指导学业质量 / guidesQuality",
+    "source": "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4",
+    "target": "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l4"
+  },
+  {
+    "relationName": "qualityEmbodiesLiteracy",
+    "label": "体现核心素养 / embodiesLiteracy",
+    "source": "urn:jy:chemistry:SB0402:OB03:AcademicQuality:l4",
+    "target": "urn:jy:chemistry:SB0402:OB03:CoreLiteracy:l4"
   }
-  
+]

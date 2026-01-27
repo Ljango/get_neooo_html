@@ -1,52 +1,50 @@
-{
-  "relations": [
-    {
-      "relationName": "educationalStageDefinesAcademicQuality",
-      "label": "学段界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB0201,OB0202:EducationalStage:l1",
-      "target": "urn:jy:chinese:SB0101:OB0201,OB0202:AcademicQuality:l1"
-    },
-    {
-      "relationName": "academicQualityReflectsStageAchievement",
-      "label": "学业质量表征学段达成 / reflectsStageAchievement",
-      "source": "urn:jy:chinese:SB0101:OB0201,OB0202:AcademicQuality:l1",
-      "target": "urn:jy:chinese:SB0101:OB0201,OB0202:EducationalStage:l1"
-    },
-    {
-      "relationName": "educationalStageDefinesAcademicQuality",
-      "label": "学段界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB0203,OB0204:EducationalStage:l2",
-      "target": "urn:jy:chinese:SB0101:OB0203,OB0204:AcademicQuality:l2"
-    },
-    {
-      "relationName": "academicQualityReflectsStageAchievement",
-      "label": "学业质量表征学段达成 / reflectsStageAchievement",
-      "source": "urn:jy:chinese:SB0101:OB0203,OB0204:AcademicQuality:l2",
-      "target": "urn:jy:chinese:SB0101:OB0203,OB0204:EducationalStage:l2"
-    },
-    {
-      "relationName": "educationalStageDefinesAcademicQuality",
-      "label": "学段界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB0205,OB0206:EducationalStage:l3",
-      "target": "urn:jy:chinese:SB0101:OB0205,OB0206:AcademicQuality:l3"
-    },
-    {
-      "relationName": "academicQualityReflectsStageAchievement",
-      "label": "学业质量表征学段达成 / reflectsStageAchievement",
-      "source": "urn:jy:chinese:SB0101:OB0205,OB0206:AcademicQuality:l3",
-      "target": "urn:jy:chinese:SB0101:OB0205,OB0206:EducationalStage:l3"
-    },
-    {
-      "relationName": "educationalStageDefinesAcademicQuality",
-      "label": "学段界定学业质量标准 / definesAcademicQuality",
-      "source": "urn:jy:chinese:SB0101:OB03:EducationalStage:l4",
-      "target": "urn:jy:chinese:SB0101:OB03:AcademicQuality:l4"
-    },
-    {
-      "relationName": "academicQualityReflectsStageAchievement",
-      "label": "学业质量表征学段达成 / reflectsStageAchievement",
-      "source": "urn:jy:chinese:SB0101:OB03:AcademicQuality:l4",
-      "target": "urn:jy:chinese:SB0101:OB03:EducationalStage:l4"
-    }
-  ]
-}
+[
+  {
+    "relationName": "educationalStageDefinesAcademicQuality",
+    "label": "学段界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB0201,OB0202:EducationalStage:l1",
+    "target": "urn:jy:chinese:SB0101:OB0201,OB0202:AcademicQuality:l1"
+  },
+  {
+    "relationName": "academicQualityReflectsStageAchievement",
+    "label": "学业质量表征学段达成 / reflectsStageAchievement",
+    "source": "urn:jy:chinese:SB0101:OB0201,OB0202:AcademicQuality:l1",
+    "target": "urn:jy:chinese:SB0101:OB0201,OB0202:EducationalStage:l1"
+  },
+  {
+    "relationName": "educationalStageDefinesAcademicQuality",
+    "label": "学段界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB0203,OB0204:EducationalStage:l2",
+    "target": "urn:jy:chinese:SB0101:OB0203,OB0204:AcademicQuality:l2"
+  },
+  {
+    "relationName": "academicQualityReflectsStageAchievement",
+    "label": "学业质量表征学段达成 / reflectsStageAchievement",
+    "source": "urn:jy:chinese:SB0101:OB0203,OB0204:AcademicQuality:l2",
+    "target": "urn:jy:chinese:SB0101:OB0203,OB0204:EducationalStage:l2"
+  },
+  {
+    "relationName": "educationalStageDefinesAcademicQuality",
+    "label": "学段界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB0205,OB0206:EducationalStage:l3",
+    "target": "urn:jy:chinese:SB0101:OB0205,OB0206:AcademicQuality:l3"
+  },
+  {
+    "relationName": "academicQualityReflectsStageAchievement",
+    "label": "学业质量表征学段达成 / reflectsStageAchievement",
+    "source": "urn:jy:chinese:SB0101:OB0205,OB0206:AcademicQuality:l3",
+    "target": "urn:jy:chinese:SB0101:OB0205,OB0206:EducationalStage:l3"
+  },
+  {
+    "relationName": "educationalStageDefinesAcademicQuality",
+    "label": "学段界定学业质量标准 / definesAcademicQuality",
+    "source": "urn:jy:chinese:SB0101:OB03:EducationalStage:l4",
+    "target": "urn:jy:chinese:SB0101:OB03:AcademicQuality:l4"
+  },
+  {
+    "relationName": "academicQualityReflectsStageAchievement",
+    "label": "学业质量表征学段达成 / reflectsStageAchievement",
+    "source": "urn:jy:chinese:SB0101:OB03:AcademicQuality:l4",
+    "target": "urn:jy:chinese:SB0101:OB03:EducationalStage:l4"
+  }
+]

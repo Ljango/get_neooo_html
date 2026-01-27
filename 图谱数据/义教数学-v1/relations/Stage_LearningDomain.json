@@ -1,100 +1,98 @@
-{
-  "relations": [
-    {
-      "relationName": "stageHasDomain",
-      "label": "包含领域 / hasDomain",
-      "source": "urn:jy:math:2022:stage:1-2",
-      "target": "urn:jy:math:2022:domain:number-algebra:s1"
-    },
-    {
-      "relationName": "stageHasDomain",
-      "label": "包含领域 / hasDomain",
-      "source": "urn:jy:math:2022:stage:1-2",
-      "target": "urn:jy:math:2022:domain:shape-geometry:s1"
-    },
-    {
-      "relationName": "stageHasDomain",
-      "label": "包含领域 / hasDomain",
-      "source": "urn:jy:math:2022:stage:1-2",
-      "target": "urn:jy:math:2022:domain:statistics-probability:s1"
-    },
-    {
-      "relationName": "stageHasDomain",
-      "label": "包含领域 / hasDomain",
-      "source": "urn:jy:math:2022:stage:1-2",
-      "target": "urn:jy:math:2022:domain:integration-practice:s1"
-    },
-    {
-      "relationName": "stageHasDomain",
-      "label": "包含领域 / hasDomain",
-      "source": "urn:jy:math:2022:stage:3-4",
-      "target": "urn:jy:math:2022:domain:number-algebra:s2"
-    },
-    {
-      "relationName": "stageHasDomain",
-      "label": "包含领域 / hasDomain",
-      "source": "urn:jy:math:2022:stage:3-4",
-      "target": "urn:jy:math:2022:domain:shape-geometry:s2"
-    },
-    {
-      "relationName": "stageHasDomain",
-      "label": "包含领域 / hasDomain",
-      "source": "urn:jy:math:2022:stage:3-4",
-      "target": "urn:jy:math:2022:domain:statistics-probability:s2"
-    },
-    {
-      "relationName": "stageHasDomain",
-      "label": "包含领域 / hasDomain",
-      "source": "urn:jy:math:2022:stage:3-4",
-      "target": "urn:jy:math:2022:domain:integration-practice:s2"
-    },
-    {
-      "relationName": "stageHasDomain",
-      "label": "包含领域 / hasDomain",
-      "source": "urn:jy:math:2022:stage:5-6",
-      "target": "urn:jy:math:2022:domain:number-algebra:s3"
-    },
-    {
-      "relationName": "stageHasDomain",
-      "label": "包含领域 / hasDomain",
-      "source": "urn:jy:math:2022:stage:5-6",
-      "target": "urn:jy:math:2022:domain:shape-geometry:s3"
-    },
-    {
-      "relationName": "stageHasDomain",
-      "label": "包含领域 / hasDomain",
-      "source": "urn:jy:math:2022:stage:5-6",
-      "target": "urn:jy:math:2022:domain:statistics-probability:s3"
-    },
-    {
-      "relationName": "stageHasDomain",
-      "label": "包含领域 / hasDomain",
-      "source": "urn:jy:math:2022:stage:5-6",
-      "target": "urn:jy:math:2022:domain:integration-practice:s3"
-    },
-    {
-      "relationName": "stageHasDomain",
-      "label": "包含领域 / hasDomain",
-      "source": "urn:jy:math:2022:stage:7-9",
-      "target": "urn:jy:math:2022:domain:number-algebra:s4"
-    },
-    {
-      "relationName": "stageHasDomain",
-      "label": "包含领域 / hasDomain",
-      "source": "urn:jy:math:2022:stage:7-9",
-      "target": "urn:jy:math:2022:domain:shape-geometry:s4"
-    },
-    {
-      "relationName": "stageHasDomain",
-      "label": "包含领域 / hasDomain",
-      "source": "urn:jy:math:2022:stage:7-9",
-      "target": "urn:jy:math:2022:domain:statistics-probability:s4"
-    },
-    {
-      "relationName": "stageHasDomain",
-      "label": "包含领域 / hasDomain",
-      "source": "urn:jy:math:2022:stage:7-9",
-      "target": "urn:jy:math:2022:domain:integration-practice:s4"
-    }
-  ]
-}
+[
+  {
+    "relationName": "stageHasDomain",
+    "label": "包含领域 / hasDomain",
+    "source": "urn:jy:math:2022:stage:1-2",
+    "target": "urn:jy:math:2022:domain:number-algebra:s1"
+  },
+  {
+    "relationName": "stageHasDomain",
+    "label": "包含领域 / hasDomain",
+    "source": "urn:jy:math:2022:stage:1-2",
+    "target": "urn:jy:math:2022:domain:shape-geometry:s1"
+  },
+  {
+    "relationName": "stageHasDomain",
+    "label": "包含领域 / hasDomain",
+    "source": "urn:jy:math:2022:stage:1-2",
+    "target": "urn:jy:math:2022:domain:statistics-probability:s1"
+  },
+  {
+    "relationName": "stageHasDomain",
+    "label": "包含领域 / hasDomain",
+    "source": "urn:jy:math:2022:stage:1-2",
+    "target": "urn:jy:math:2022:domain:integration-practice:s1"
+  },
+  {
+    "relationName": "stageHasDomain",
+    "label": "包含领域 / hasDomain",
+    "source": "urn:jy:math:2022:stage:3-4",
+    "target": "urn:jy:math:2022:domain:number-algebra:s2"
+  },
+  {
+    "relationName": "stageHasDomain",
+    "label": "包含领域 / hasDomain",
+    "source": "urn:jy:math:2022:stage:3-4",
+    "target": "urn:jy:math:2022:domain:shape-geometry:s2"
+  },
+  {
+    "relationName": "stageHasDomain",
+    "label": "包含领域 / hasDomain",
+    "source": "urn:jy:math:2022:stage:3-4",
+    "target": "urn:jy:math:2022:domain:statistics-probability:s2"
+  },
+  {
+    "relationName": "stageHasDomain",
+    "label": "包含领域 / hasDomain",
+    "source": "urn:jy:math:2022:stage:3-4",
+    "target": "urn:jy:math:2022:domain:integration-practice:s2"
+  },
+  {
+    "relationName": "stageHasDomain",
+    "label": "包含领域 / hasDomain",
+    "source": "urn:jy:math:2022:stage:5-6",
+    "target": "urn:jy:math:2022:domain:number-algebra:s3"
+  },
+  {
+    "relationName": "stageHasDomain",
+    "label": "包含领域 / hasDomain",
+    "source": "urn:jy:math:2022:stage:5-6",
+    "target": "urn:jy:math:2022:domain:shape-geometry:s3"
+  },
+  {
+    "relationName": "stageHasDomain",
+    "label": "包含领域 / hasDomain",
+    "source": "urn:jy:math:2022:stage:5-6",
+    "target": "urn:jy:math:2022:domain:statistics-probability:s3"
+  },
+  {
+    "relationName": "stageHasDomain",
+    "label": "包含领域 / hasDomain",
+    "source": "urn:jy:math:2022:stage:5-6",
+    "target": "urn:jy:math:2022:domain:integration-practice:s3"
+  },
+  {
+    "relationName": "stageHasDomain",
+    "label": "包含领域 / hasDomain",
+    "source": "urn:jy:math:2022:stage:7-9",
+    "target": "urn:jy:math:2022:domain:number-algebra:s4"
+  },
+  {
+    "relationName": "stageHasDomain",
+    "label": "包含领域 / hasDomain",
+    "source": "urn:jy:math:2022:stage:7-9",
+    "target": "urn:jy:math:2022:domain:shape-geometry:s4"
+  },
+  {
+    "relationName": "stageHasDomain",
+    "label": "包含领域 / hasDomain",
+    "source": "urn:jy:math:2022:stage:7-9",
+    "target": "urn:jy:math:2022:domain:statistics-probability:s4"
+  },
+  {
+    "relationName": "stageHasDomain",
+    "label": "包含领域 / hasDomain",
+    "source": "urn:jy:math:2022:stage:7-9",
+    "target": "urn:jy:math:2022:domain:integration-practice:s4"
+  }
+]

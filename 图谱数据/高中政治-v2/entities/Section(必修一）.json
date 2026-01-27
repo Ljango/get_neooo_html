@@ -1,139 +1,137 @@
-{
-  "entities": [
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_bixiu1:1",
-      "title": "原始社会的解体和阶级社会的演进",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "统编版",
-        "volume": "必修1 中国特色社会主义",
-        "chapter": "第一课 社会主义从空想到科学、从理论到实践的发展"
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_bixiu1:2",
-      "title": "科学社会主义的理论与实践",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "统编版",
-        "volume": "必修1 中国特色社会主义",
-        "chapter": "第一课 社会主义从空想到科学、从理论到实践的发展"
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_bixiu1:3",
-      "title": "新民主主义革命的胜利",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "统编版",
-        "volume": "必修1 中国特色社会主义",
-        "chapter": "第二课 只有社会主义才能救中国"
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_bixiu1:4",
-      "title": "社会主义制度在中国的确立",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "统编版",
-        "volume": "必修1 中国特色社会主义",
-        "chapter": "第二课 只有社会主义才能救中国"
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_bixiu1:5",
-      "title": "伟大的改革开放",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "统编版",
-        "volume": "必修1 中国特色社会主义",
-        "chapter": "第三课 只有中国特色社会主义才能发展中国"
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_bixiu1:6",
-      "title": "中国特色社会主义的创立、发展和完善",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "统编版",
-        "volume": "必修1 中国特色社会主义",
-        "chapter": "第三课 只有中国特色社会主义才能发展中国"
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_bixiu1:7",
-      "title": "中国特色社会主义进入新时代",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "统编版",
-        "volume": "必修1 中国特色社会主义",
-        "chapter": "第四课 只有坚持和发展中国特色社会主义才能实现中华民族伟大复兴"
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_bixiu1:8",
-      "title": "实现中华民族伟大复兴的中国梦",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "统编版",
-        "volume": "必修1 中国特色社会主义",
-        "chapter": "第四课 只有坚持和发展中国特色社会主义才能实现中华民族伟大复兴"
-      }
-    },
-    {
-      "identifier": "urn:jy:Politics:SB0310:OB06:Section_bixiu1:9",
-      "title": "习近平新时代中国特色社会主义思想",
-      "description": "",
-      "subject": "SB0310",
-      "type": "Section",
-      "applicableLevel": "OB06",
-      "contentJson": {
-        "academicTerm": "高中",
-        "grade": "高一",
-        "edition": "统编版",
-        "volume": "必修1 中国特色社会主义",
-        "chapter": "第四课 只有坚持和发展中国特色社会主义才能实现中华民族伟大复兴"
-      }
+[
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_bixiu1:1",
+    "title": "原始社会的解体和阶级社会的演进",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "统编版",
+      "volume": "必修1 中国特色社会主义",
+      "chapter": "第一课 社会主义从空想到科学、从理论到实践的发展"
     }
-  ]
-}
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_bixiu1:2",
+    "title": "科学社会主义的理论与实践",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "统编版",
+      "volume": "必修1 中国特色社会主义",
+      "chapter": "第一课 社会主义从空想到科学、从理论到实践的发展"
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_bixiu1:3",
+    "title": "新民主主义革命的胜利",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "统编版",
+      "volume": "必修1 中国特色社会主义",
+      "chapter": "第二课 只有社会主义才能救中国"
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_bixiu1:4",
+    "title": "社会主义制度在中国的确立",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "统编版",
+      "volume": "必修1 中国特色社会主义",
+      "chapter": "第二课 只有社会主义才能救中国"
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_bixiu1:5",
+    "title": "伟大的改革开放",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "统编版",
+      "volume": "必修1 中国特色社会主义",
+      "chapter": "第三课 只有中国特色社会主义才能发展中国"
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_bixiu1:6",
+    "title": "中国特色社会主义的创立、发展和完善",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "统编版",
+      "volume": "必修1 中国特色社会主义",
+      "chapter": "第三课 只有中国特色社会主义才能发展中国"
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_bixiu1:7",
+    "title": "中国特色社会主义进入新时代",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "统编版",
+      "volume": "必修1 中国特色社会主义",
+      "chapter": "第四课 只有坚持和发展中国特色社会主义才能实现中华民族伟大复兴"
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_bixiu1:8",
+    "title": "实现中华民族伟大复兴的中国梦",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "统编版",
+      "volume": "必修1 中国特色社会主义",
+      "chapter": "第四课 只有坚持和发展中国特色社会主义才能实现中华民族伟大复兴"
+    }
+  },
+  {
+    "identifier": "urn:jy:Politics:SB0310:OB06:Section_bixiu1:9",
+    "title": "习近平新时代中国特色社会主义思想",
+    "description": "",
+    "subject": "SB0310",
+    "type": "Section",
+    "applicableLevel": "OB06",
+    "contentJson": {
+      "academicTerm": "高中",
+      "grade": "高一",
+      "edition": "统编版",
+      "volume": "必修1 中国特色社会主义",
+      "chapter": "第四课 只有坚持和发展中国特色社会主义才能实现中华民族伟大复兴"
+    }
+  }
+]

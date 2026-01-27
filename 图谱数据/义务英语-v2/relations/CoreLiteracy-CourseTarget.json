@@ -1,52 +1,50 @@
-{
-  "relations": [
-    {
-      "relationName": "targetIsRequirementForLiteracy",
-      "label": "发展语言能力 / develop language competence",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseTarget:01"
-    },
-    {
-      "relationName": "literacyIsCultivatedByTarget",
-      "label": "发展语言能力 / develop language competence",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseTarget:01",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01"
-    },
-    {
-      "relationName": "targetIsRequirementForLiteracy",
-      "label": "培育文化意识 / cultivate cultural awareness",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseTarget:02"
-    },
-    {
-      "relationName": "literacyIsCultivatedByTarget",
-      "label": "培育文化意识 / cultivate cultural awareness",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseTarget:02",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02"
-    },
-    {
-      "relationName": "targetIsRequirementForLiteracy",
-      "label": "提升思维品质 / enhance thinking quality",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseTarget:03"
-    },
-    {
-      "relationName": "literacyIsCultivatedByTarget",
-      "label": "提升思维品质 / enhance thinking quality",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseTarget:03",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03"
-    },
-    {
-      "relationName": "targetIsRequirementForLiteracy",
-      "label": "提高学习能力 / improve learning ability",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CourseTarget:04"
-    },
-    {
-      "relationName": "literacyIsCultivatedByTarget",
-      "label": "提高学习能力 / improve learning ability",
-      "source": "urn:jy:English:SB0102:OB02,OB03:CourseTarget:04",
-      "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04"
-    }
-  ]
-}
+[
+  {
+    "relationName": "targetIsRequirementForLiteracy",
+    "label": "发展语言能力 / develop language competence",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseTarget:01"
+  },
+  {
+    "relationName": "literacyIsCultivatedByTarget",
+    "label": "发展语言能力 / develop language competence",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseTarget:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01"
+  },
+  {
+    "relationName": "targetIsRequirementForLiteracy",
+    "label": "培育文化意识 / cultivate cultural awareness",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseTarget:02"
+  },
+  {
+    "relationName": "literacyIsCultivatedByTarget",
+    "label": "培育文化意识 / cultivate cultural awareness",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseTarget:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02"
+  },
+  {
+    "relationName": "targetIsRequirementForLiteracy",
+    "label": "提升思维品质 / enhance thinking quality",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseTarget:03"
+  },
+  {
+    "relationName": "literacyIsCultivatedByTarget",
+    "label": "提升思维品质 / enhance thinking quality",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseTarget:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03"
+  },
+  {
+    "relationName": "targetIsRequirementForLiteracy",
+    "label": "提高学习能力 / improve learning ability",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseTarget:04"
+  },
+  {
+    "relationName": "literacyIsCultivatedByTarget",
+    "label": "提高学习能力 / improve learning ability",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseTarget:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04"
+  }
+]

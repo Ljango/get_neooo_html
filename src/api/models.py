@@ -4,7 +4,7 @@
 """
 
 from datetime import datetime
-from sqlalchemy import Column, Integer, String, Text, Boolean, DateTime, Enum, ForeignKey, JSON
+from sqlalchemy import Column, Integer, String, Text, Boolean, DateTime, Enum, ForeignKey, JSON, Index, UniqueConstraint
 from sqlalchemy.orm import relationship
 from .database import Base
 import enum
@@ -113,13 +113,19 @@ class UserSubject(Base):
     __tablename__ = "user_subjects"
     
     id = Column(Integer, primary_key=True, autoincrement=True)
-    user_id = Column(Integer, ForeignKey("users.id"), nullable=False)
+    user_id = Column(Integer, ForeignKey("users.id"), nullable=False, index=True)
     subject_id = Column(String(50), nullable=False, index=True)
     entity_types = Column(JSON)  # 分配的实体类型列表
     assigned_at = Column(DateTime, default=datetime.utcnow)
     
     # 关系
     user = relationship("User", back_populates="subjects")
+    
+    # 约束和索引
+    __table_args__ = (
+        UniqueConstraint('user_id', 'subject_id', name='uk_user_subject'),
+        {"mysql_charset": "utf8mb4"},
+    )
 
 
 class ReviewRecord(Base):
@@ -129,20 +135,28 @@ class ReviewRecord(Base):
     id = Column(Integer, primary_key=True, autoincrement=True)
     subject_id = Column(String(50), nullable=False, index=True)
     target_type = Column(String(20), nullable=False)  # entity 或 relation
-    target_id = Column(String(255), nullable=False)
+    target_id = Column(String(255), nullable=False, index=True)
     target_title = Column(String(500))
-    entity_type = Column(String(100))  # 实体类型，如 Chapter, Section
+    entity_type = Column(String(100), index=True)  # 实体类型，如 Chapter, Section
     field_name = Column(String(100))
     original_value = Column(Text)
     suggested_value = Column(Text)
     status = Column(Enum(ReviewStatus), default=ReviewStatus.pending, index=True)
-    reviewer_id = Column(Integer, ForeignKey("users.id"))
+    reviewer_id = Column(Integer, ForeignKey("users.id"), index=True)
     comment = Column(Text)
-    created_at = Column(DateTime, default=datetime.utcnow)
+    created_at = Column(DateTime, default=datetime.utcnow, index=True)
     resolved_at = Column(DateTime)
     
     # 关系
     reviewer = relationship("User", back_populates="reviews")
+    
+    # 复合索引
+    __table_args__ = (
+        Index('idx_subject_status', 'subject_id', 'status'),
+        Index('idx_target', 'target_type', 'target_id'),
+        Index('idx_subject_type', 'subject_id', 'entity_type'),
+        {"mysql_charset": "utf8mb4"},
+    )
 
 
 class DataVersion(Base):
@@ -153,16 +167,18 @@ class DataVersion(Base):
     subject_id = Column(String(50), nullable=False, index=True)
     version = Column(String(20), nullable=False)
     base_version = Column(String(20))
-    status = Column(Enum(VersionStatus), default=VersionStatus.draft)
+    status = Column(Enum(VersionStatus), default=VersionStatus.draft, index=True)
     entity_count = Column(Integer, default=0)
     relation_count = Column(Integer, default=0)
     description = Column(Text)
-    created_by = Column(Integer, ForeignKey("users.id"))
-    created_at = Column(DateTime, default=datetime.utcnow)
+    created_by = Column(Integer, ForeignKey("users.id"), index=True)
+    created_at = Column(DateTime, default=datetime.utcnow, index=True)
     published_at = Column(DateTime)
     
-    # 联合唯一索引
+    # 约束和索引
     __table_args__ = (
+        UniqueConstraint('subject_id', 'version', name='uk_subject_version'),
+        Index('idx_subject_status', 'subject_id', 'status'),
         {"mysql_charset": "utf8mb4"},
     )
 
@@ -172,9 +188,9 @@ class OperationLog(Base):
     __tablename__ = "operation_logs"
     
     id = Column(Integer, primary_key=True, autoincrement=True)
-    user_id = Column(Integer, ForeignKey("users.id"))
-    action = Column(String(100), nullable=False)
-    target_type = Column(String(50))
+    user_id = Column(Integer, ForeignKey("users.id"), index=True)
+    action = Column(String(100), nullable=False, index=True)
+    target_type = Column(String(50), index=True)
     target_id = Column(String(255))
     details = Column(JSON)
     ip_address = Column(String(45))
@@ -182,6 +198,13 @@ class OperationLog(Base):
     
     # 关系
     user = relationship("User", back_populates="logs")
+    
+    # 复合索引
+    __table_args__ = (
+        Index('idx_user_time', 'user_id', 'created_at'),
+        Index('idx_action_time', 'action', 'created_at'),
+        {"mysql_charset": "utf8mb4"},
+    )
 
 
 class SyncQueue(Base):

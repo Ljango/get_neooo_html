@@ -1,604 +1,602 @@
-{
-    "relations": [
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:01",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:01"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:01",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:01"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:01",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:02"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:02",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:01"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:01",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:03"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:03",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:01"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:02",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:04"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:04",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:02"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:02",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:05"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:05",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:02"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:02",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:06"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:06",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:02"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:02",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:07"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:07",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:02"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:03",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:08"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:08",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:03"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:03",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:09"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:09",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:03"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:03",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:10"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:10",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:03"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:04",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:11"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:11",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:04"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:04",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:12"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:12",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:04"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:04",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:13"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:13",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:04"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:05",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:14"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:14",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:05"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:05",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:15"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:15",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:05"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:05",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:16"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:16",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:05"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:06",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:17"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:17",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:06"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:06",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:18"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:18",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:06"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:06",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:19"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:19",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:06"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:06",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:20"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:20",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:06"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:07",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:21"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:21",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:07"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:07",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:22"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:22",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:07"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:07",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:23"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:23",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:07"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:07",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:24"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:24",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:07"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:08",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:25"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:25",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:08"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:08",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:26"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:26",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:08"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:08",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:27"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:27",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:08"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:08",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:28"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:28",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:08"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:09",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:29"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:29",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:09"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:09",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:30"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:30",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:09"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:09",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:31"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:31",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:09"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:09",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:32"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:32",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:09"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:09",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:33"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:33",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:09"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:10",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:34"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:34",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:10"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:10",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:35"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:35",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:10"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:10",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:36"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:36",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:10"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:11",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:37"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:37",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:11"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:11",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:38"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:38",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:11"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:11",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:39"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:39",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:11"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:12",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:40"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:40",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:12"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:12",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:41"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:41",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:12"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:12",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:42"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:42",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:12"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:13",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:43"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:43",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:13"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:13",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:44"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:44",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:13"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:13",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:45"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:45",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:13"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:13",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:46"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:46",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:13"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:14",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:47"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:47",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:14"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:14",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:48"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:48",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:14"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:14",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:49"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:49",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:14"
-        },
-        {
-            "relationName": "moduleIncludesAspect",
-            "label": "主要包括方面 / includesAspect",
-            "source": "urn:jy:Geography:SB0308:OB06:BookModule:14",
-            "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:50"
-        },
-        {
-            "relationName": "aspectIncludedInModule",
-            "label": "属于模块 / isIncludedInModule",
-            "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:50",
-            "target": "urn:jy:Geography:SB0308:OB06:BookModule:14"
-        }
-    ]
-}
+[
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:01",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:01"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:01",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:01"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:01",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:02"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:02",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:01"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:01",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:03"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:03",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:01"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:02",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:04"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:04",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:02"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:02",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:05"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:05",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:02"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:02",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:06"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:06",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:02"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:02",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:07"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:07",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:02"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:03",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:08"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:08",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:03"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:03",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:09"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:09",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:03"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:03",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:10"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:10",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:03"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:04",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:11"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:11",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:04"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:04",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:12"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:12",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:04"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:04",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:13"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:13",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:04"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:05",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:14"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:14",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:05"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:05",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:15"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:15",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:05"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:05",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:16"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:16",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:05"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:06",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:17"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:17",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:06"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:06",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:18"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:18",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:06"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:06",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:19"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:19",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:06"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:06",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:20"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:20",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:06"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:07",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:21"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:21",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:07"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:07",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:22"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:22",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:07"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:07",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:23"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:23",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:07"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:07",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:24"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:24",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:07"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:08",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:25"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:25",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:08"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:08",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:26"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:26",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:08"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:08",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:27"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:27",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:08"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:08",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:28"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:28",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:08"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:09",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:29"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:29",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:09"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:09",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:30"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:30",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:09"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:09",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:31"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:31",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:09"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:09",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:32"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:32",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:09"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:09",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:33"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:33",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:09"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:10",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:34"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:34",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:10"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:10",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:35"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:35",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:10"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:10",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:36"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:36",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:10"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:11",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:37"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:37",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:11"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:11",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:38"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:38",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:11"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:11",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:39"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:39",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:11"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:12",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:40"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:40",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:12"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:12",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:41"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:41",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:12"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:12",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:42"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:42",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:12"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:13",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:43"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:43",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:13"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:13",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:44"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:44",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:13"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:13",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:45"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:45",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:13"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:13",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:46"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:46",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:13"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:14",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:47"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:47",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:14"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:14",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:48"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:48",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:14"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:14",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:49"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:49",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:14"
+  },
+  {
+    "relationName": "moduleIncludesAspect",
+    "label": "主要包括方面 / includesAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:BookModule:14",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:50"
+  },
+  {
+    "relationName": "aspectIncludedInModule",
+    "label": "属于模块 / isIncludedInModule",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:50",
+    "target": "urn:jy:Geography:SB0308:OB06:BookModule:14"
+  }
+]

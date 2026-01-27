@@ -1,562 +1,560 @@
-{
-  "relations": [
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:01",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:01"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:02",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:01"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:03",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:01"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:04",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:01"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:05",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:01"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:06",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:02"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:07",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:02"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:08",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:02"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:09",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:02"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:10",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:03"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:11",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:03"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:12",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:03"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:13",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:04"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:14",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:04"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:15",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:04"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:16",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:05"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:17",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:05"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:18",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:05"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:19",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:06"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:20",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:06"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:21",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:06"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:22",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:06"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:23",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:06"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:24",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:07"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:25",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:07"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:26",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:07"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:27",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:07"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:28",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:08"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:29",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:08"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:30",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:08"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:31",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:08"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:32",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:09"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:33",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:09"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:34",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:09"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:35",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:09"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:36",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:10"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:37",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:10"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:38",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:10"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:39",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:11"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:40",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:11"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:41",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:11"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:42",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:11"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:43",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:12"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:44",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:12"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:45",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:12"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:46",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:13"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:47",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:13"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:48",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:13"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:49",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:14"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:50",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:14"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:51",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:14"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:52",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:14"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:53",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:15"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:54",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:15"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:55",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:15"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:56",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:15"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:57",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:16"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:58",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:16"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:59",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:16"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:60",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:17"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:61",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:17"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:62",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:17"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:63",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:18"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:64",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:18"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:65",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:18"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:66",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:19"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:67",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:19"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:68",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:19"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:69",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:20"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:70",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:20"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:71",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:20"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:72",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:21"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:73",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:21"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:74",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:21"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:88",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:21"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:75",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:22"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:76",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:22"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:77",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:22"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:78",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:22"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:87",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:22"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:92",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:22"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:79",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:23"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:80",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:23"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:81",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:23"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:82",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:23"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:86",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:23"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:90",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:23"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:83",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:24"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:84",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:24"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:85",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:24"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:89",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:24"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:91",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:24"
-    },
-    {
-      "relationName": "SectionBelongsToChapter",
-      "label": "小节隶属章节 / belongsToChapter",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:93",
-      "target": "urn:jy:Geography:SB0308:OB06:Chapter:24"
-    }
-  ]
-}
+[
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:01",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:01"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:02",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:01"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:03",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:01"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:04",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:01"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:05",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:01"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:06",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:02"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:07",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:02"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:08",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:02"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:09",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:02"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:10",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:03"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:11",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:03"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:12",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:03"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:13",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:04"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:14",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:04"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:15",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:04"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:16",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:05"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:17",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:05"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:18",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:05"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:19",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:06"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:20",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:06"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:21",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:06"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:22",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:06"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:23",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:06"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:24",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:07"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:25",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:07"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:26",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:07"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:27",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:07"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:28",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:08"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:29",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:08"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:30",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:08"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:31",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:08"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:32",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:09"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:33",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:09"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:34",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:09"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:35",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:09"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:36",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:10"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:37",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:10"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:38",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:10"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:39",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:11"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:40",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:11"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:41",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:11"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:42",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:11"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:43",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:12"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:44",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:12"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:45",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:12"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:46",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:13"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:47",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:13"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:48",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:13"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:49",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:14"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:50",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:14"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:51",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:14"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:52",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:14"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:53",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:15"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:54",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:15"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:55",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:15"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:56",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:15"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:57",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:16"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:58",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:16"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:59",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:16"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:60",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:17"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:61",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:17"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:62",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:17"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:63",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:18"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:64",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:18"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:65",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:18"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:66",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:19"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:67",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:19"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:68",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:19"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:69",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:20"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:70",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:20"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:71",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:20"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:72",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:21"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:73",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:21"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:74",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:21"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:88",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:21"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:75",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:22"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:76",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:22"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:77",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:22"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:78",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:22"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:87",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:22"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:92",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:22"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:79",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:23"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:80",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:23"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:81",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:23"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:82",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:23"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:86",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:23"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:90",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:23"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:83",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:24"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:84",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:24"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:85",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:24"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:89",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:24"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:91",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:24"
+  },
+  {
+    "relationName": "SectionBelongsToChapter",
+    "label": "小节隶属章节 / belongsToChapter",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:93",
+    "target": "urn:jy:Geography:SB0308:OB06:Chapter:24"
+  }
+]

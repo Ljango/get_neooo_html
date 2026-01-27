@@ -1,760 +1,758 @@
-{
-  "relations": [
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s1:na:number-operations",
-      "target": "urn:jy:math:2022:perf:s1:number-sense"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s1:na:number-operations",
-      "target": "urn:jy:math:2022:perf:s1:symbol-awareness"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s1:na:number-operations",
-      "target": "urn:jy:math:2022:perf:all:operation-ability"
-    },
-    {
-      "relationName": "themeSupports",
-      "label": "支持 / supports",
-      "strength": "medium",
-      "source": "urn:jy:math:2022:theme:s1:na:number-operations",
-      "target": "urn:jy:math:2022:perf:s1:reasoning-awareness"
-    },
-    {
-      "relationName": "themeSupports",
-      "label": "支持 / supports",
-      "strength": "medium",
-      "source": "urn:jy:math:2022:theme:s1:na:number-operations",
-      "target": "urn:jy:math:2022:perf:all:application-awareness"
-    },
-    {
-      "relationName": "themeWeaklyRelates",
-      "label": "弱关联 / weaklyRelates",
-      "strength": "weak",
-      "source": "urn:jy:math:2022:theme:s1:na:number-operations",
-      "target": "urn:jy:math:2022:perf:s1:quantity-sense"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s1:na:quantitative-relations",
-      "target": "urn:jy:math:2022:perf:s1:model-awareness"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s1:na:quantitative-relations",
-      "target": "urn:jy:math:2022:perf:all:application-awareness"
-    },
-    {
-      "relationName": "themeSupports",
-      "label": "支持 / supports",
-      "strength": "medium",
-      "source": "urn:jy:math:2022:theme:s1:na:quantitative-relations",
-      "target": "urn:jy:math:2022:perf:all:geometric-intuition"
-    },
-    {
-      "relationName": "themeSupports",
-      "label": "支持 / supports",
-      "strength": "medium",
-      "source": "urn:jy:math:2022:theme:s1:na:quantitative-relations",
-      "target": "urn:jy:math:2022:perf:s1:symbol-awareness"
-    },
-    {
-      "relationName": "themeWeaklyRelates",
-      "label": "弱关联 / weaklyRelates",
-      "strength": "weak",
-      "source": "urn:jy:math:2022:theme:s1:na:quantitative-relations",
-      "target": "urn:jy:math:2022:perf:s1:reasoning-awareness"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s1:sg:recognition-measurement",
-      "target": "urn:jy:math:2022:perf:all:spatial-sense"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s1:sg:recognition-measurement",
-      "target": "urn:jy:math:2022:perf:s1:quantity-sense"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s1:sg:recognition-measurement",
-      "target": "urn:jy:math:2022:perf:all:geometric-intuition"
-    },
-    {
-      "relationName": "themeWeaklyRelates",
-      "label": "弱关联 / weaklyRelates",
-      "strength": "weak",
-      "source": "urn:jy:math:2022:theme:s1:sg:recognition-measurement",
-      "target": "urn:jy:math:2022:perf:all:application-awareness"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s1:sp:data-categorization",
-      "target": "urn:jy:math:2022:perf:s1:data-awareness"
-    },
-    {
-      "relationName": "themeSupports",
-      "label": "支持 / supports",
-      "strength": "medium",
-      "source": "urn:jy:math:2022:theme:s1:sp:data-categorization",
-      "target": "urn:jy:math:2022:perf:s1:symbol-awareness"
-    },
-    {
-      "relationName": "themeWeaklyRelates",
-      "label": "弱关联 / weaklyRelates",
-      "strength": "weak",
-      "source": "urn:jy:math:2022:theme:s1:sp:data-categorization",
-      "target": "urn:jy:math:2022:perf:s1:model-awareness"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s2:na:number-operations",
-      "target": "urn:jy:math:2022:perf:s1:number-sense"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s2:na:number-operations",
-      "target": "urn:jy:math:2022:perf:s1:symbol-awareness"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s2:na:number-operations",
-      "target": "urn:jy:math:2022:perf:all:operation-ability"
-    },
-    {
-      "relationName": "themeSupports",
-      "label": "支持 / supports",
-      "strength": "medium",
-      "source": "urn:jy:math:2022:theme:s2:na:number-operations",
-      "target": "urn:jy:math:2022:perf:s1:reasoning-awareness"
-    },
-    {
-      "relationName": "themeWeaklyRelates",
-      "label": "弱关联 / weaklyRelates",
-      "strength": "weak",
-      "source": "urn:jy:math:2022:theme:s2:na:number-operations",
-      "target": "urn:jy:math:2022:perf:all:application-awareness"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s2:na:quantitative-relations",
-      "target": "urn:jy:math:2022:perf:s1:model-awareness"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s2:na:quantitative-relations",
-      "target": "urn:jy:math:2022:perf:all:application-awareness"
-    },
-    {
-      "relationName": "themeSupports",
-      "label": "支持 / supports",
-      "strength": "medium",
-      "source": "urn:jy:math:2022:theme:s2:na:quantitative-relations",
-      "target": "urn:jy:math:2022:perf:all:geometric-intuition"
-    },
-    {
-      "relationName": "themeSupports",
-      "label": "支持 / supports",
-      "strength": "medium",
-      "source": "urn:jy:math:2022:theme:s2:na:quantitative-relations",
-      "target": "urn:jy:math:2022:perf:s1:reasoning-awareness"
-    },
-    {
-      "relationName": "themeWeaklyRelates",
-      "label": "弱关联 / weaklyRelates",
-      "strength": "weak",
-      "source": "urn:jy:math:2022:theme:s2:na:quantitative-relations",
-      "target": "urn:jy:math:2022:perf:s1:number-sense"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s2:sg:recognition-measurement",
-      "target": "urn:jy:math:2022:perf:all:spatial-sense"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s2:sg:recognition-measurement",
-      "target": "urn:jy:math:2022:perf:all:geometric-intuition"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s2:sg:recognition-measurement",
-      "target": "urn:jy:math:2022:perf:s1:quantity-sense"
-    },
-    {
-      "relationName": "themeWeaklyRelates",
-      "label": "弱关联 / weaklyRelates",
-      "strength": "weak",
-      "source": "urn:jy:math:2022:theme:s2:sg:recognition-measurement",
-      "target": "urn:jy:math:2022:perf:s1:reasoning-awareness"
-    },
-    {
-      "relationName": "themeWeaklyRelates",
-      "label": "弱关联 / weaklyRelates",
-      "strength": "weak",
-      "source": "urn:jy:math:2022:theme:s2:sg:recognition-measurement",
-      "target": "urn:jy:math:2022:perf:all:application-awareness"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s2:sg:position-motion",
-      "target": "urn:jy:math:2022:perf:all:spatial-sense"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s2:sg:position-motion",
-      "target": "urn:jy:math:2022:perf:all:geometric-intuition"
-    },
-    {
-      "relationName": "themeSupports",
-      "label": "支持 / supports",
-      "strength": "medium",
-      "source": "urn:jy:math:2022:theme:s2:sg:position-motion",
-      "target": "urn:jy:math:2022:perf:all:innovation-awareness"
-    },
-    {
-      "relationName": "themeWeaklyRelates",
-      "label": "弱关联 / weaklyRelates",
-      "strength": "weak",
-      "source": "urn:jy:math:2022:theme:s2:sg:position-motion",
-      "target": "urn:jy:math:2022:perf:all:application-awareness"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s2:sp:collect-organize-express",
-      "target": "urn:jy:math:2022:perf:s1:data-awareness"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s2:sp:collect-organize-express",
-      "target": "urn:jy:math:2022:perf:all:application-awareness"
-    },
-    {
-      "relationName": "themeSupports",
-      "label": "支持 / supports",
-      "strength": "medium",
-      "source": "urn:jy:math:2022:theme:s2:sp:collect-organize-express",
-      "target": "urn:jy:math:2022:perf:s1:model-awareness"
-    },
-    {
-      "relationName": "themeWeaklyRelates",
-      "label": "弱关联 / weaklyRelates",
-      "strength": "weak",
-      "source": "urn:jy:math:2022:theme:s2:sp:collect-organize-express",
-      "target": "urn:jy:math:2022:perf:s1:number-sense"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s3:na:number-operations",
-      "target": "urn:jy:math:2022:perf:s1:number-sense"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s3:na:number-operations",
-      "target": "urn:jy:math:2022:perf:s1:symbol-awareness"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s3:na:number-operations",
-      "target": "urn:jy:math:2022:perf:all:operation-ability"
-    },
-    {
-      "relationName": "themeSupports",
-      "label": "支持 / supports",
-      "strength": "medium",
-      "source": "urn:jy:math:2022:theme:s3:na:number-operations",
-      "target": "urn:jy:math:2022:perf:s1:reasoning-awareness"
-    },
-    {
-      "relationName": "themeWeaklyRelates",
-      "label": "弱关联 / weaklyRelates",
-      "strength": "weak",
-      "source": "urn:jy:math:2022:theme:s3:na:number-operations",
-      "target": "urn:jy:math:2022:perf:all:application-awareness"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s3:na:quantitative-relations",
-      "target": "urn:jy:math:2022:perf:s1:symbol-awareness"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s3:na:quantitative-relations",
-      "target": "urn:jy:math:2022:perf:s1:model-awareness"
-    },
-    {
-      "relationName": "themeSupports",
-      "label": "支持 / supports",
-      "strength": "medium",
-      "source": "urn:jy:math:2022:theme:s3:na:quantitative-relations",
-      "target": "urn:jy:math:2022:perf:all:geometric-intuition"
-    },
-    {
-      "relationName": "themeSupports",
-      "label": "支持 / supports",
-      "strength": "medium",
-      "source": "urn:jy:math:2022:theme:s3:na:quantitative-relations",
-      "target": "urn:jy:math:2022:perf:s1:reasoning-awareness"
-    },
-    {
-      "relationName": "themeWeaklyRelates",
-      "label": "弱关联 / weaklyRelates",
-      "strength": "weak",
-      "source": "urn:jy:math:2022:theme:s3:na:quantitative-relations",
-      "target": "urn:jy:math:2022:perf:s1:number-sense"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s3:sg:recognition-measurement",
-      "target": "urn:jy:math:2022:perf:all:spatial-sense"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s3:sg:recognition-measurement",
-      "target": "urn:jy:math:2022:perf:all:geometric-intuition"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s3:sg:recognition-measurement",
-      "target": "urn:jy:math:2022:perf:s1:quantity-sense"
-    },
-    {
-      "relationName": "themeSupports",
-      "label": "支持 / supports",
-      "strength": "medium",
-      "source": "urn:jy:math:2022:theme:s3:sg:recognition-measurement",
-      "target": "urn:jy:math:2022:perf:all:application-awareness"
-    },
-    {
-      "relationName": "themeWeaklyRelates",
-      "label": "弱关联 / weaklyRelates",
-      "strength": "weak",
-      "source": "urn:jy:math:2022:theme:s3:sg:recognition-measurement",
-      "target": "urn:jy:math:2022:perf:s1:reasoning-awareness"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s3:sg:position-motion",
-      "target": "urn:jy:math:2022:perf:all:spatial-sense"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s3:sg:position-motion",
-      "target": "urn:jy:math:2022:perf:all:geometric-intuition"
-    },
-    {
-      "relationName": "themeSupports",
-      "label": "支持 / supports",
-      "strength": "medium",
-      "source": "urn:jy:math:2022:theme:s3:sg:position-motion",
-      "target": "urn:jy:math:2022:perf:s1:reasoning-awareness"
-    },
-    {
-      "relationName": "themeSupports",
-      "label": "支持 / supports",
-      "strength": "medium",
-      "source": "urn:jy:math:2022:theme:s3:sg:position-motion",
-      "target": "urn:jy:math:2022:perf:all:innovation-awareness"
-    },
-    {
-      "relationName": "themeWeaklyRelates",
-      "label": "弱关联 / weaklyRelates",
-      "strength": "weak",
-      "source": "urn:jy:math:2022:theme:s3:sg:position-motion",
-      "target": "urn:jy:math:2022:perf:all:application-awareness"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s3:sp:collect-organize-express",
-      "target": "urn:jy:math:2022:perf:s1:data-awareness"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s3:sp:collect-organize-express",
-      "target": "urn:jy:math:2022:perf:all:application-awareness"
-    },
-    {
-      "relationName": "themeSupports",
-      "label": "支持 / supports",
-      "strength": "medium",
-      "source": "urn:jy:math:2022:theme:s3:sp:collect-organize-express",
-      "target": "urn:jy:math:2022:perf:s1:model-awareness"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s3:sp:random-possibility",
-      "target": "urn:jy:math:2022:perf:s1:data-awareness"
-    },
-    {
-      "relationName": "themeSupports",
-      "label": "支持 / supports",
-      "strength": "medium",
-      "source": "urn:jy:math:2022:theme:s3:sp:random-possibility",
-      "target": "urn:jy:math:2022:perf:s1:reasoning-awareness"
-    },
-    {
-      "relationName": "themeWeaklyRelates",
-      "label": "弱关联 / weaklyRelates",
-      "strength": "weak",
-      "source": "urn:jy:math:2022:theme:s3:sp:random-possibility",
-      "target": "urn:jy:math:2022:perf:s1:model-awareness"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s4:na:expressions",
-      "target": "urn:jy:math:2022:perf:s4:abstract"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s4:na:expressions",
-      "target": "urn:jy:math:2022:perf:s1:symbol-awareness"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s4:na:expressions",
-      "target": "urn:jy:math:2022:perf:s4:reasoning"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s4:na:expressions",
-      "target": "urn:jy:math:2022:perf:all:operation-ability"
-    },
-    {
-      "relationName": "themeSupports",
-      "label": "支持 / supports",
-      "strength": "medium",
-      "source": "urn:jy:math:2022:theme:s4:na:expressions",
-      "target": "urn:jy:math:2022:perf:s4:model-conception"
-    },
-    {
-      "relationName": "themeWeaklyRelates",
-      "label": "弱关联 / weaklyRelates",
-      "strength": "weak",
-      "source": "urn:jy:math:2022:theme:s4:na:expressions",
-      "target": "urn:jy:math:2022:perf:all:application-awareness"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s4:na:equations-inequalities",
-      "target": "urn:jy:math:2022:perf:s4:abstract"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s4:na:equations-inequalities",
-      "target": "urn:jy:math:2022:perf:s4:reasoning"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s4:na:equations-inequalities",
-      "target": "urn:jy:math:2022:perf:s4:model-conception"
-    },
-    {
-      "relationName": "themeSupports",
-      "label": "支持 / supports",
-      "strength": "medium",
-      "source": "urn:jy:math:2022:theme:s4:na:equations-inequalities",
-      "target": "urn:jy:math:2022:perf:s1:symbol-awareness"
-    },
-    {
-      "relationName": "themeWeaklyRelates",
-      "label": "弱关联 / weaklyRelates",
-      "strength": "weak",
-      "source": "urn:jy:math:2022:theme:s4:na:equations-inequalities",
-      "target": "urn:jy:math:2022:perf:all:application-awareness"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s4:na:functions",
-      "target": "urn:jy:math:2022:perf:s4:abstract"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s4:na:functions",
-      "target": "urn:jy:math:2022:perf:s4:model-conception"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s4:na:functions",
-      "target": "urn:jy:math:2022:perf:all:geometric-intuition"
-    },
-    {
-      "relationName": "themeSupports",
-      "label": "支持 / supports",
-      "strength": "medium",
-      "source": "urn:jy:math:2022:theme:s4:na:functions",
-      "target": "urn:jy:math:2022:perf:s4:reasoning"
-    },
-    {
-      "relationName": "themeWeaklyRelates",
-      "label": "弱关联 / weaklyRelates",
-      "strength": "weak",
-      "source": "urn:jy:math:2022:theme:s4:na:functions",
-      "target": "urn:jy:math:2022:perf:all:application-awareness"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s4:sg:properties",
-      "target": "urn:jy:math:2022:perf:all:geometric-intuition"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s4:sg:properties",
-      "target": "urn:jy:math:2022:perf:all:spatial-sense"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s4:sg:properties",
-      "target": "urn:jy:math:2022:perf:s4:abstract"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s4:sg:properties",
-      "target": "urn:jy:math:2022:perf:s4:reasoning"
-    },
-    {
-      "relationName": "themeSupports",
-      "label": "支持 / supports",
-      "strength": "medium",
-      "source": "urn:jy:math:2022:theme:s4:sg:properties",
-      "target": "urn:jy:math:2022:perf:all:operation-ability"
-    },
-    {
-      "relationName": "themeSupports",
-      "label": "支持 / supports",
-      "strength": "medium",
-      "source": "urn:jy:math:2022:theme:s4:sg:properties",
-      "target": "urn:jy:math:2022:perf:all:application-awareness"
-    },
-    {
-      "relationName": "themeSupports",
-      "label": "支持 / supports",
-      "strength": "medium",
-      "source": "urn:jy:math:2022:theme:s4:sg:properties",
-      "target": "urn:jy:math:2022:perf:all:innovation-awareness"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s4:sg:transformations",
-      "target": "urn:jy:math:2022:perf:all:spatial-sense"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s4:sg:transformations",
-      "target": "urn:jy:math:2022:perf:all:geometric-intuition"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s4:sg:transformations",
-      "target": "urn:jy:math:2022:perf:s4:reasoning"
-    },
-    {
-      "relationName": "themeSupports",
-      "label": "支持 / supports",
-      "strength": "medium",
-      "source": "urn:jy:math:2022:theme:s4:sg:transformations",
-      "target": "urn:jy:math:2022:perf:all:innovation-awareness"
-    },
-    {
-      "relationName": "themeWeaklyRelates",
-      "label": "弱关联 / weaklyRelates",
-      "strength": "weak",
-      "source": "urn:jy:math:2022:theme:s4:sg:transformations",
-      "target": "urn:jy:math:2022:perf:all:application-awareness"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s4:sg:coordinates",
-      "target": "urn:jy:math:2022:perf:s4:abstract"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s4:sg:coordinates",
-      "target": "urn:jy:math:2022:perf:all:spatial-sense"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s4:sg:coordinates",
-      "target": "urn:jy:math:2022:perf:all:geometric-intuition"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s4:sg:coordinates",
-      "target": "urn:jy:math:2022:perf:s4:reasoning"
-    },
-    {
-      "relationName": "themeSupports",
-      "label": "支持 / supports",
-      "strength": "medium",
-      "source": "urn:jy:math:2022:theme:s4:sg:coordinates",
-      "target": "urn:jy:math:2022:perf:all:application-awareness"
-    },
-    {
-      "relationName": "themeSupports",
-      "label": "支持 / supports",
-      "strength": "medium",
-      "source": "urn:jy:math:2022:theme:s4:sg:coordinates",
-      "target": "urn:jy:math:2022:perf:all:innovation-awareness"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s4:sp:sampling-data-analysis",
-      "target": "urn:jy:math:2022:perf:s4:data-conception"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s4:sp:sampling-data-analysis",
-      "target": "urn:jy:math:2022:perf:s4:model-conception"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s4:sp:sampling-data-analysis",
-      "target": "urn:jy:math:2022:perf:all:application-awareness"
-    },
-    {
-      "relationName": "themeSupports",
-      "label": "支持 / supports",
-      "strength": "medium",
-      "source": "urn:jy:math:2022:theme:s4:sp:sampling-data-analysis",
-      "target": "urn:jy:math:2022:perf:s4:reasoning"
-    },
-    {
-      "relationName": "themePromotes",
-      "label": "促进发展 / promotes",
-      "strength": "strong",
-      "source": "urn:jy:math:2022:theme:s4:sp:probability",
-      "target": "urn:jy:math:2022:perf:s4:data-conception"
-    },
-    {
-      "relationName": "themeSupports",
-      "label": "支持 / supports",
-      "strength": "medium",
-      "source": "urn:jy:math:2022:theme:s4:sp:probability",
-      "target": "urn:jy:math:2022:perf:s4:reasoning"
-    },
-    {
-      "relationName": "themeWeaklyRelates",
-      "label": "弱关联 / weaklyRelates",
-      "strength": "weak",
-      "source": "urn:jy:math:2022:theme:s4:sp:probability",
-      "target": "urn:jy:math:2022:perf:s4:model-conception"
-    }
-  ]
-}
+[
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s1:na:number-operations",
+    "target": "urn:jy:math:2022:perf:s1:number-sense"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s1:na:number-operations",
+    "target": "urn:jy:math:2022:perf:s1:symbol-awareness"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s1:na:number-operations",
+    "target": "urn:jy:math:2022:perf:all:operation-ability"
+  },
+  {
+    "relationName": "themeSupports",
+    "label": "支持 / supports",
+    "strength": "medium",
+    "source": "urn:jy:math:2022:theme:s1:na:number-operations",
+    "target": "urn:jy:math:2022:perf:s1:reasoning-awareness"
+  },
+  {
+    "relationName": "themeSupports",
+    "label": "支持 / supports",
+    "strength": "medium",
+    "source": "urn:jy:math:2022:theme:s1:na:number-operations",
+    "target": "urn:jy:math:2022:perf:all:application-awareness"
+  },
+  {
+    "relationName": "themeWeaklyRelates",
+    "label": "弱关联 / weaklyRelates",
+    "strength": "weak",
+    "source": "urn:jy:math:2022:theme:s1:na:number-operations",
+    "target": "urn:jy:math:2022:perf:s1:quantity-sense"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s1:na:quantitative-relations",
+    "target": "urn:jy:math:2022:perf:s1:model-awareness"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s1:na:quantitative-relations",
+    "target": "urn:jy:math:2022:perf:all:application-awareness"
+  },
+  {
+    "relationName": "themeSupports",
+    "label": "支持 / supports",
+    "strength": "medium",
+    "source": "urn:jy:math:2022:theme:s1:na:quantitative-relations",
+    "target": "urn:jy:math:2022:perf:all:geometric-intuition"
+  },
+  {
+    "relationName": "themeSupports",
+    "label": "支持 / supports",
+    "strength": "medium",
+    "source": "urn:jy:math:2022:theme:s1:na:quantitative-relations",
+    "target": "urn:jy:math:2022:perf:s1:symbol-awareness"
+  },
+  {
+    "relationName": "themeWeaklyRelates",
+    "label": "弱关联 / weaklyRelates",
+    "strength": "weak",
+    "source": "urn:jy:math:2022:theme:s1:na:quantitative-relations",
+    "target": "urn:jy:math:2022:perf:s1:reasoning-awareness"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s1:sg:recognition-measurement",
+    "target": "urn:jy:math:2022:perf:all:spatial-sense"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s1:sg:recognition-measurement",
+    "target": "urn:jy:math:2022:perf:s1:quantity-sense"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s1:sg:recognition-measurement",
+    "target": "urn:jy:math:2022:perf:all:geometric-intuition"
+  },
+  {
+    "relationName": "themeWeaklyRelates",
+    "label": "弱关联 / weaklyRelates",
+    "strength": "weak",
+    "source": "urn:jy:math:2022:theme:s1:sg:recognition-measurement",
+    "target": "urn:jy:math:2022:perf:all:application-awareness"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s1:sp:data-categorization",
+    "target": "urn:jy:math:2022:perf:s1:data-awareness"
+  },
+  {
+    "relationName": "themeSupports",
+    "label": "支持 / supports",
+    "strength": "medium",
+    "source": "urn:jy:math:2022:theme:s1:sp:data-categorization",
+    "target": "urn:jy:math:2022:perf:s1:symbol-awareness"
+  },
+  {
+    "relationName": "themeWeaklyRelates",
+    "label": "弱关联 / weaklyRelates",
+    "strength": "weak",
+    "source": "urn:jy:math:2022:theme:s1:sp:data-categorization",
+    "target": "urn:jy:math:2022:perf:s1:model-awareness"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s2:na:number-operations",
+    "target": "urn:jy:math:2022:perf:s1:number-sense"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s2:na:number-operations",
+    "target": "urn:jy:math:2022:perf:s1:symbol-awareness"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s2:na:number-operations",
+    "target": "urn:jy:math:2022:perf:all:operation-ability"
+  },
+  {
+    "relationName": "themeSupports",
+    "label": "支持 / supports",
+    "strength": "medium",
+    "source": "urn:jy:math:2022:theme:s2:na:number-operations",
+    "target": "urn:jy:math:2022:perf:s1:reasoning-awareness"
+  },
+  {
+    "relationName": "themeWeaklyRelates",
+    "label": "弱关联 / weaklyRelates",
+    "strength": "weak",
+    "source": "urn:jy:math:2022:theme:s2:na:number-operations",
+    "target": "urn:jy:math:2022:perf:all:application-awareness"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s2:na:quantitative-relations",
+    "target": "urn:jy:math:2022:perf:s1:model-awareness"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s2:na:quantitative-relations",
+    "target": "urn:jy:math:2022:perf:all:application-awareness"
+  },
+  {
+    "relationName": "themeSupports",
+    "label": "支持 / supports",
+    "strength": "medium",
+    "source": "urn:jy:math:2022:theme:s2:na:quantitative-relations",
+    "target": "urn:jy:math:2022:perf:all:geometric-intuition"
+  },
+  {
+    "relationName": "themeSupports",
+    "label": "支持 / supports",
+    "strength": "medium",
+    "source": "urn:jy:math:2022:theme:s2:na:quantitative-relations",
+    "target": "urn:jy:math:2022:perf:s1:reasoning-awareness"
+  },
+  {
+    "relationName": "themeWeaklyRelates",
+    "label": "弱关联 / weaklyRelates",
+    "strength": "weak",
+    "source": "urn:jy:math:2022:theme:s2:na:quantitative-relations",
+    "target": "urn:jy:math:2022:perf:s1:number-sense"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s2:sg:recognition-measurement",
+    "target": "urn:jy:math:2022:perf:all:spatial-sense"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s2:sg:recognition-measurement",
+    "target": "urn:jy:math:2022:perf:all:geometric-intuition"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s2:sg:recognition-measurement",
+    "target": "urn:jy:math:2022:perf:s1:quantity-sense"
+  },
+  {
+    "relationName": "themeWeaklyRelates",
+    "label": "弱关联 / weaklyRelates",
+    "strength": "weak",
+    "source": "urn:jy:math:2022:theme:s2:sg:recognition-measurement",
+    "target": "urn:jy:math:2022:perf:s1:reasoning-awareness"
+  },
+  {
+    "relationName": "themeWeaklyRelates",
+    "label": "弱关联 / weaklyRelates",
+    "strength": "weak",
+    "source": "urn:jy:math:2022:theme:s2:sg:recognition-measurement",
+    "target": "urn:jy:math:2022:perf:all:application-awareness"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s2:sg:position-motion",
+    "target": "urn:jy:math:2022:perf:all:spatial-sense"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s2:sg:position-motion",
+    "target": "urn:jy:math:2022:perf:all:geometric-intuition"
+  },
+  {
+    "relationName": "themeSupports",
+    "label": "支持 / supports",
+    "strength": "medium",
+    "source": "urn:jy:math:2022:theme:s2:sg:position-motion",
+    "target": "urn:jy:math:2022:perf:all:innovation-awareness"
+  },
+  {
+    "relationName": "themeWeaklyRelates",
+    "label": "弱关联 / weaklyRelates",
+    "strength": "weak",
+    "source": "urn:jy:math:2022:theme:s2:sg:position-motion",
+    "target": "urn:jy:math:2022:perf:all:application-awareness"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s2:sp:collect-organize-express",
+    "target": "urn:jy:math:2022:perf:s1:data-awareness"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s2:sp:collect-organize-express",
+    "target": "urn:jy:math:2022:perf:all:application-awareness"
+  },
+  {
+    "relationName": "themeSupports",
+    "label": "支持 / supports",
+    "strength": "medium",
+    "source": "urn:jy:math:2022:theme:s2:sp:collect-organize-express",
+    "target": "urn:jy:math:2022:perf:s1:model-awareness"
+  },
+  {
+    "relationName": "themeWeaklyRelates",
+    "label": "弱关联 / weaklyRelates",
+    "strength": "weak",
+    "source": "urn:jy:math:2022:theme:s2:sp:collect-organize-express",
+    "target": "urn:jy:math:2022:perf:s1:number-sense"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s3:na:number-operations",
+    "target": "urn:jy:math:2022:perf:s1:number-sense"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s3:na:number-operations",
+    "target": "urn:jy:math:2022:perf:s1:symbol-awareness"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s3:na:number-operations",
+    "target": "urn:jy:math:2022:perf:all:operation-ability"
+  },
+  {
+    "relationName": "themeSupports",
+    "label": "支持 / supports",
+    "strength": "medium",
+    "source": "urn:jy:math:2022:theme:s3:na:number-operations",
+    "target": "urn:jy:math:2022:perf:s1:reasoning-awareness"
+  },
+  {
+    "relationName": "themeWeaklyRelates",
+    "label": "弱关联 / weaklyRelates",
+    "strength": "weak",
+    "source": "urn:jy:math:2022:theme:s3:na:number-operations",
+    "target": "urn:jy:math:2022:perf:all:application-awareness"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s3:na:quantitative-relations",
+    "target": "urn:jy:math:2022:perf:s1:symbol-awareness"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s3:na:quantitative-relations",
+    "target": "urn:jy:math:2022:perf:s1:model-awareness"
+  },
+  {
+    "relationName": "themeSupports",
+    "label": "支持 / supports",
+    "strength": "medium",
+    "source": "urn:jy:math:2022:theme:s3:na:quantitative-relations",
+    "target": "urn:jy:math:2022:perf:all:geometric-intuition"
+  },
+  {
+    "relationName": "themeSupports",
+    "label": "支持 / supports",
+    "strength": "medium",
+    "source": "urn:jy:math:2022:theme:s3:na:quantitative-relations",
+    "target": "urn:jy:math:2022:perf:s1:reasoning-awareness"
+  },
+  {
+    "relationName": "themeWeaklyRelates",
+    "label": "弱关联 / weaklyRelates",
+    "strength": "weak",
+    "source": "urn:jy:math:2022:theme:s3:na:quantitative-relations",
+    "target": "urn:jy:math:2022:perf:s1:number-sense"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s3:sg:recognition-measurement",
+    "target": "urn:jy:math:2022:perf:all:spatial-sense"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s3:sg:recognition-measurement",
+    "target": "urn:jy:math:2022:perf:all:geometric-intuition"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s3:sg:recognition-measurement",
+    "target": "urn:jy:math:2022:perf:s1:quantity-sense"
+  },
+  {
+    "relationName": "themeSupports",
+    "label": "支持 / supports",
+    "strength": "medium",
+    "source": "urn:jy:math:2022:theme:s3:sg:recognition-measurement",
+    "target": "urn:jy:math:2022:perf:all:application-awareness"
+  },
+  {
+    "relationName": "themeWeaklyRelates",
+    "label": "弱关联 / weaklyRelates",
+    "strength": "weak",
+    "source": "urn:jy:math:2022:theme:s3:sg:recognition-measurement",
+    "target": "urn:jy:math:2022:perf:s1:reasoning-awareness"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s3:sg:position-motion",
+    "target": "urn:jy:math:2022:perf:all:spatial-sense"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s3:sg:position-motion",
+    "target": "urn:jy:math:2022:perf:all:geometric-intuition"
+  },
+  {
+    "relationName": "themeSupports",
+    "label": "支持 / supports",
+    "strength": "medium",
+    "source": "urn:jy:math:2022:theme:s3:sg:position-motion",
+    "target": "urn:jy:math:2022:perf:s1:reasoning-awareness"
+  },
+  {
+    "relationName": "themeSupports",
+    "label": "支持 / supports",
+    "strength": "medium",
+    "source": "urn:jy:math:2022:theme:s3:sg:position-motion",
+    "target": "urn:jy:math:2022:perf:all:innovation-awareness"
+  },
+  {
+    "relationName": "themeWeaklyRelates",
+    "label": "弱关联 / weaklyRelates",
+    "strength": "weak",
+    "source": "urn:jy:math:2022:theme:s3:sg:position-motion",
+    "target": "urn:jy:math:2022:perf:all:application-awareness"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s3:sp:collect-organize-express",
+    "target": "urn:jy:math:2022:perf:s1:data-awareness"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s3:sp:collect-organize-express",
+    "target": "urn:jy:math:2022:perf:all:application-awareness"
+  },
+  {
+    "relationName": "themeSupports",
+    "label": "支持 / supports",
+    "strength": "medium",
+    "source": "urn:jy:math:2022:theme:s3:sp:collect-organize-express",
+    "target": "urn:jy:math:2022:perf:s1:model-awareness"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s3:sp:random-possibility",
+    "target": "urn:jy:math:2022:perf:s1:data-awareness"
+  },
+  {
+    "relationName": "themeSupports",
+    "label": "支持 / supports",
+    "strength": "medium",
+    "source": "urn:jy:math:2022:theme:s3:sp:random-possibility",
+    "target": "urn:jy:math:2022:perf:s1:reasoning-awareness"
+  },
+  {
+    "relationName": "themeWeaklyRelates",
+    "label": "弱关联 / weaklyRelates",
+    "strength": "weak",
+    "source": "urn:jy:math:2022:theme:s3:sp:random-possibility",
+    "target": "urn:jy:math:2022:perf:s1:model-awareness"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s4:na:expressions",
+    "target": "urn:jy:math:2022:perf:s4:abstract"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s4:na:expressions",
+    "target": "urn:jy:math:2022:perf:s1:symbol-awareness"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s4:na:expressions",
+    "target": "urn:jy:math:2022:perf:s4:reasoning"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s4:na:expressions",
+    "target": "urn:jy:math:2022:perf:all:operation-ability"
+  },
+  {
+    "relationName": "themeSupports",
+    "label": "支持 / supports",
+    "strength": "medium",
+    "source": "urn:jy:math:2022:theme:s4:na:expressions",
+    "target": "urn:jy:math:2022:perf:s4:model-conception"
+  },
+  {
+    "relationName": "themeWeaklyRelates",
+    "label": "弱关联 / weaklyRelates",
+    "strength": "weak",
+    "source": "urn:jy:math:2022:theme:s4:na:expressions",
+    "target": "urn:jy:math:2022:perf:all:application-awareness"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s4:na:equations-inequalities",
+    "target": "urn:jy:math:2022:perf:s4:abstract"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s4:na:equations-inequalities",
+    "target": "urn:jy:math:2022:perf:s4:reasoning"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s4:na:equations-inequalities",
+    "target": "urn:jy:math:2022:perf:s4:model-conception"
+  },
+  {
+    "relationName": "themeSupports",
+    "label": "支持 / supports",
+    "strength": "medium",
+    "source": "urn:jy:math:2022:theme:s4:na:equations-inequalities",
+    "target": "urn:jy:math:2022:perf:s1:symbol-awareness"
+  },
+  {
+    "relationName": "themeWeaklyRelates",
+    "label": "弱关联 / weaklyRelates",
+    "strength": "weak",
+    "source": "urn:jy:math:2022:theme:s4:na:equations-inequalities",
+    "target": "urn:jy:math:2022:perf:all:application-awareness"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s4:na:functions",
+    "target": "urn:jy:math:2022:perf:s4:abstract"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s4:na:functions",
+    "target": "urn:jy:math:2022:perf:s4:model-conception"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s4:na:functions",
+    "target": "urn:jy:math:2022:perf:all:geometric-intuition"
+  },
+  {
+    "relationName": "themeSupports",
+    "label": "支持 / supports",
+    "strength": "medium",
+    "source": "urn:jy:math:2022:theme:s4:na:functions",
+    "target": "urn:jy:math:2022:perf:s4:reasoning"
+  },
+  {
+    "relationName": "themeWeaklyRelates",
+    "label": "弱关联 / weaklyRelates",
+    "strength": "weak",
+    "source": "urn:jy:math:2022:theme:s4:na:functions",
+    "target": "urn:jy:math:2022:perf:all:application-awareness"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s4:sg:properties",
+    "target": "urn:jy:math:2022:perf:all:geometric-intuition"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s4:sg:properties",
+    "target": "urn:jy:math:2022:perf:all:spatial-sense"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s4:sg:properties",
+    "target": "urn:jy:math:2022:perf:s4:abstract"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s4:sg:properties",
+    "target": "urn:jy:math:2022:perf:s4:reasoning"
+  },
+  {
+    "relationName": "themeSupports",
+    "label": "支持 / supports",
+    "strength": "medium",
+    "source": "urn:jy:math:2022:theme:s4:sg:properties",
+    "target": "urn:jy:math:2022:perf:all:operation-ability"
+  },
+  {
+    "relationName": "themeSupports",
+    "label": "支持 / supports",
+    "strength": "medium",
+    "source": "urn:jy:math:2022:theme:s4:sg:properties",
+    "target": "urn:jy:math:2022:perf:all:application-awareness"
+  },
+  {
+    "relationName": "themeSupports",
+    "label": "支持 / supports",
+    "strength": "medium",
+    "source": "urn:jy:math:2022:theme:s4:sg:properties",
+    "target": "urn:jy:math:2022:perf:all:innovation-awareness"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s4:sg:transformations",
+    "target": "urn:jy:math:2022:perf:all:spatial-sense"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s4:sg:transformations",
+    "target": "urn:jy:math:2022:perf:all:geometric-intuition"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s4:sg:transformations",
+    "target": "urn:jy:math:2022:perf:s4:reasoning"
+  },
+  {
+    "relationName": "themeSupports",
+    "label": "支持 / supports",
+    "strength": "medium",
+    "source": "urn:jy:math:2022:theme:s4:sg:transformations",
+    "target": "urn:jy:math:2022:perf:all:innovation-awareness"
+  },
+  {
+    "relationName": "themeWeaklyRelates",
+    "label": "弱关联 / weaklyRelates",
+    "strength": "weak",
+    "source": "urn:jy:math:2022:theme:s4:sg:transformations",
+    "target": "urn:jy:math:2022:perf:all:application-awareness"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s4:sg:coordinates",
+    "target": "urn:jy:math:2022:perf:s4:abstract"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s4:sg:coordinates",
+    "target": "urn:jy:math:2022:perf:all:spatial-sense"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s4:sg:coordinates",
+    "target": "urn:jy:math:2022:perf:all:geometric-intuition"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s4:sg:coordinates",
+    "target": "urn:jy:math:2022:perf:s4:reasoning"
+  },
+  {
+    "relationName": "themeSupports",
+    "label": "支持 / supports",
+    "strength": "medium",
+    "source": "urn:jy:math:2022:theme:s4:sg:coordinates",
+    "target": "urn:jy:math:2022:perf:all:application-awareness"
+  },
+  {
+    "relationName": "themeSupports",
+    "label": "支持 / supports",
+    "strength": "medium",
+    "source": "urn:jy:math:2022:theme:s4:sg:coordinates",
+    "target": "urn:jy:math:2022:perf:all:innovation-awareness"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s4:sp:sampling-data-analysis",
+    "target": "urn:jy:math:2022:perf:s4:data-conception"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s4:sp:sampling-data-analysis",
+    "target": "urn:jy:math:2022:perf:s4:model-conception"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s4:sp:sampling-data-analysis",
+    "target": "urn:jy:math:2022:perf:all:application-awareness"
+  },
+  {
+    "relationName": "themeSupports",
+    "label": "支持 / supports",
+    "strength": "medium",
+    "source": "urn:jy:math:2022:theme:s4:sp:sampling-data-analysis",
+    "target": "urn:jy:math:2022:perf:s4:reasoning"
+  },
+  {
+    "relationName": "themePromotes",
+    "label": "促进发展 / promotes",
+    "strength": "strong",
+    "source": "urn:jy:math:2022:theme:s4:sp:probability",
+    "target": "urn:jy:math:2022:perf:s4:data-conception"
+  },
+  {
+    "relationName": "themeSupports",
+    "label": "支持 / supports",
+    "strength": "medium",
+    "source": "urn:jy:math:2022:theme:s4:sp:probability",
+    "target": "urn:jy:math:2022:perf:s4:reasoning"
+  },
+  {
+    "relationName": "themeWeaklyRelates",
+    "label": "弱关联 / weaklyRelates",
+    "strength": "weak",
+    "source": "urn:jy:math:2022:theme:s4:sp:probability",
+    "target": "urn:jy:math:2022:perf:s4:model-conception"
+  }
+]

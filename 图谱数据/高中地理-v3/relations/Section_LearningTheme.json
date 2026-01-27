@@ -1,1516 +1,1514 @@
-{
-  "relations": [
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:01",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:001"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:001",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:01"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:02",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:001"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:001",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:02"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:04",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:002"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:002",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:04"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:03",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:003"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:003",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:03"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:13",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:004"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:004",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:13"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:14",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:004"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:004",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:14"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:15",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:004"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:004",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:15"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:06",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:005"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:005",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:06"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:07",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:006"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:006",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:07"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:08",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:006"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:006",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:08"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:10",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:007"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:007",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:10"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:11",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:008"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:008",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:11"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:12",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:008"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:008",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:12"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:17",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:009"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:009",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:17"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:16",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:010"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:010",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:16"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:18",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:010"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:010",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:18"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:19",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:011"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:011",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:19"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:20",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:011"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:011",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:20"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:21",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:011"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:011",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:21"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:22",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:011"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:011",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:22"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:23",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:011"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:011",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:23"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:22",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:012"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:012",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:22"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:23",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:012"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:012",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:23"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:24",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:013"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:013",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:24"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:25",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:013"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:013",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:25"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:26",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:013"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:013",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:26"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:27",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:013"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:013",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:27"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:28",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:014"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:014",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:28"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:29",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:014"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:014",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:29"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:30",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:014"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:014",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:30"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:31",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:014"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:014",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:31"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:28",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:015"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:015",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:28"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:29",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:015"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:015",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:29"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:31",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:015"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:015",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:31"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:29",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:016"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:016",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:29"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:30",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:016"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:016",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:30"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:31",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:016"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:016",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:31"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:32",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:017"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:017",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:32"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:33",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:017"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:017",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:33"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:34",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:017"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:017",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:34"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:35",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:017"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:017",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:35"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:36",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:018"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:018",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:36"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:37",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:018"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:018",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:37"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:38",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:018"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:018",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:38"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:39",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:019"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:019",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:39"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:40",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:019"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:019",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:40"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:41",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:019"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:019",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:41"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:41",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:020"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:020",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:41"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:41",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:021"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:021",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:41"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:39",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:022"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:022",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:39"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:40",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:022"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:022",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:40"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:22",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:023"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:023",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:22"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:23",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:023"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:023",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:23"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:43",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:024"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:024",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:43"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:44",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:024"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:024",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:44"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:46",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:025"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:025",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:46"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:47",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:025"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:025",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:47"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:48",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:025"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:025",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:48"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:46",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:026"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:026",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:46"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:47",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:026"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:026",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:47"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:48",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:026"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:026",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:48"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:49",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:027"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:027",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:49"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:50",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:027"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:027",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:50"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:51",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:027"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:027",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:51"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:49",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:028"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:028",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:49"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:50",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:028"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:028",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:50"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:51",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:028"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:028",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:51"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:53",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:029"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:029",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:53"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:55",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:029"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:029",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:55"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:56",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:029"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:029",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:56"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:54",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:030"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:030",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:54"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:55",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:030"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:030",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:55"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:55",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:031"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:031",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:55"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:56",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:031"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:031",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:56"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:57",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:032"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:032",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:57"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:58",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:032"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:032",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:58"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:59",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:032"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:032",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:59"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:60",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:033"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:033",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:60"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:61",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:033"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:033",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:61"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:62",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:033"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:033",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:62"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:60",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:034"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:034",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:60"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:61",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:034"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:034",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:61"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:60",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:035"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:035",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:60"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:61",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:035"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:035",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:61"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:66",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:035"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:035",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:66"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:63",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:036"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:036",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:63"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:64",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:036"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:036",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:64"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:67",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:036"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:036",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:67"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:63",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:037"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:037",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:63"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:64",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:037"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:037",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:64"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:67",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:037"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:037",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:67"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:64",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:038"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:038",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:64"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:65",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:038"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:038",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:65"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:63",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:039"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:039",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:63"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:67",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:039"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:039",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:67"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:69",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:039"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:039",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:69"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:70",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:039"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:039",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:70"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:65",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:040"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:040",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:65"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:69",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:040"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:040",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:69"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:70",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:040"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:040",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:70"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:71",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:041"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:041",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:71"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:72",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:042"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:042",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:72"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:75",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:042"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:042",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:75"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:76",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:042"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:042",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:76"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:77",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:042"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:042",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:77"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:75",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:043"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:043",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:75"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:83",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:043"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:043",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:83"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:77",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:044"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:044",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:77"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:83",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:044"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:044",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:83"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:75",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:045"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:045",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:75"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:83",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:045"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:045",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:83"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:79",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:046"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:046",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:79"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:80",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:046"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:046",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:80"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:81",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:046"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:046",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:81"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:84",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:046"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:046",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:84"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:85",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:046"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:046",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:85"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:89",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:046"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:046",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:89"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:72",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:047"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:047",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:72"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:81",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:047"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:047",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:81"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:79",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:048"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:048",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:79"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:80",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:048"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:048",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:80"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:82",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:048"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:048",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:82"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:81",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:049"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:049",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:81"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:84",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:049"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:049",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:84"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:85",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:049"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:049",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:85"
-    },
-    {
-      "relationName": "SectionCoversLearningThemeL2",
-      "label": "小节涵盖二级主题 / coversLearningThemeL2",
-      "source": "urn:jy:Geography:SB0308:OB06:Section:91",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:049"
-    },
-    {
-      "relationName": "LearningThemeL2GovernsSection",
-      "label": "二级主题统领小节 / governsSection",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:049",
-      "target": "urn:jy:Geography:SB0308:OB06:Section:91"
-    }
-  ]
-}
+[
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:01",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:001"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:001",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:01"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:02",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:001"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:001",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:02"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:04",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:002"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:002",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:04"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:03",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:003"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:003",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:03"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:13",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:004"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:004",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:13"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:14",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:004"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:004",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:14"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:15",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:004"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:004",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:15"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:06",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:005"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:005",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:06"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:07",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:006"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:006",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:07"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:08",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:006"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:006",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:08"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:10",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:007"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:007",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:10"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:11",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:008"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:008",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:11"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:12",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:008"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:008",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:12"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:17",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:009"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:009",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:17"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:16",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:010"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:010",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:16"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:18",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:010"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:010",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:18"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:19",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:011"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:011",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:19"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:20",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:011"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:011",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:20"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:21",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:011"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:011",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:21"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:22",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:011"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:011",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:22"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:23",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:011"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:011",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:23"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:22",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:012"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:012",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:22"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:23",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:012"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:012",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:23"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:24",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:013"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:013",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:24"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:25",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:013"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:013",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:25"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:26",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:013"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:013",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:26"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:27",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:013"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:013",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:27"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:28",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:014"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:014",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:28"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:29",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:014"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:014",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:29"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:30",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:014"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:014",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:30"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:31",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:014"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:014",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:31"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:28",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:015"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:015",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:28"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:29",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:015"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:015",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:29"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:31",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:015"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:015",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:31"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:29",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:016"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:016",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:29"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:30",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:016"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:016",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:30"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:31",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:016"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:016",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:31"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:32",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:017"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:017",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:32"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:33",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:017"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:017",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:33"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:34",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:017"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:017",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:34"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:35",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:017"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:017",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:35"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:36",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:018"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:018",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:36"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:37",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:018"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:018",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:37"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:38",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:018"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:018",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:38"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:39",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:019"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:019",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:39"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:40",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:019"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:019",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:40"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:41",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:019"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:019",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:41"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:41",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:020"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:020",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:41"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:41",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:021"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:021",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:41"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:39",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:022"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:022",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:39"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:40",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:022"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:022",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:40"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:22",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:023"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:023",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:22"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:23",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:023"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:023",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:23"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:43",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:024"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:024",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:43"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:44",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:024"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:024",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:44"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:46",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:025"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:025",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:46"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:47",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:025"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:025",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:47"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:48",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:025"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:025",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:48"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:46",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:026"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:026",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:46"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:47",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:026"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:026",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:47"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:48",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:026"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:026",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:48"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:49",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:027"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:027",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:49"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:50",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:027"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:027",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:50"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:51",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:027"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:027",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:51"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:49",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:028"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:028",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:49"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:50",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:028"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:028",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:50"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:51",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:028"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:028",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:51"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:53",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:029"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:029",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:53"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:55",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:029"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:029",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:55"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:56",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:029"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:029",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:56"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:54",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:030"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:030",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:54"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:55",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:030"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:030",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:55"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:55",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:031"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:031",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:55"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:56",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:031"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:031",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:56"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:57",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:032"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:032",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:57"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:58",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:032"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:032",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:58"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:59",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:032"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:032",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:59"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:60",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:033"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:033",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:60"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:61",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:033"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:033",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:61"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:62",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:033"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:033",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:62"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:60",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:034"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:034",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:60"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:61",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:034"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:034",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:61"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:60",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:035"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:035",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:60"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:61",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:035"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:035",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:61"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:66",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:035"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:035",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:66"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:63",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:036"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:036",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:63"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:64",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:036"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:036",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:64"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:67",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:036"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:036",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:67"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:63",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:037"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:037",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:63"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:64",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:037"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:037",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:64"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:67",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:037"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:037",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:67"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:64",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:038"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:038",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:64"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:65",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:038"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:038",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:65"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:63",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:039"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:039",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:63"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:67",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:039"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:039",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:67"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:69",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:039"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:039",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:69"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:70",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:039"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:039",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:70"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:65",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:040"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:040",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:65"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:69",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:040"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:040",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:69"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:70",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:040"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:040",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:70"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:71",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:041"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:041",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:71"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:72",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:042"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:042",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:72"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:75",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:042"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:042",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:75"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:76",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:042"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:042",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:76"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:77",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:042"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:042",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:77"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:75",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:043"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:043",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:75"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:83",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:043"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:043",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:83"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:77",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:044"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:044",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:77"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:83",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:044"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:044",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:83"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:75",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:045"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:045",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:75"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:83",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:045"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:045",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:83"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:79",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:046"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:046",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:79"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:80",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:046"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:046",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:80"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:81",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:046"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:046",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:81"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:84",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:046"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:046",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:84"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:85",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:046"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:046",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:85"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:89",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:046"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:046",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:89"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:72",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:047"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:047",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:72"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:81",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:047"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:047",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:81"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:79",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:048"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:048",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:79"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:80",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:048"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:048",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:80"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:82",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:048"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:048",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:82"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:81",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:049"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:049",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:81"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:84",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:049"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:049",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:84"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:85",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:049"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:049",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:85"
+  },
+  {
+    "relationName": "SectionCoversLearningThemeL2",
+    "label": "小节涵盖二级主题 / coversLearningThemeL2",
+    "source": "urn:jy:Geography:SB0308:OB06:Section:91",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:049"
+  },
+  {
+    "relationName": "LearningThemeL2GovernsSection",
+    "label": "二级主题统领小节 / governsSection",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:049",
+    "target": "urn:jy:Geography:SB0308:OB06:Section:91"
+  }
+]

@@ -9,7 +9,7 @@ import json
 from pathlib import Path
 from collections import defaultdict
 
-from config import PROJECT_ROOT, STATIC_ROOT, INDEX_FILE, SUBJECT_CONFIG
+from config import PROJECT_ROOT, STATIC_ROOT, INDEX_FILE, SUBJECT_CONFIG, SUBJECT_GROUPING, SUBJECT_CATEGORIES
 
 
 # 文件到学科的映射
@@ -94,66 +94,11 @@ def scan_static_files():
 
 
 def generate_index_html(subject_files, unknown_files):
-    """生成index.html内容 - 按学科分组，高中和义教并排显示"""
+    """生成index.html内容 - 按学科分组，高中和义教并排显示
     
-    # 学科映射配置（学科名 -> (高中配置, 义教配置)）
-    SUBJECT_GROUPING = {
-        "数学": {
-            "icon": "📐",
-            "highschool": ("高中数学", "#2ecc71"),
-            "yijiao": ("义教数学", "#f39c12"),
-            "color": "#2ecc71"
-        },
-        "物理": {
-            "icon": "⚡",
-            "highschool": ("高中物理", "#3498db"),
-            "yijiao": [("义教物理8上下9全册", "#e74c3c"), ("义教物理89全册", "#e74c3c")],
-            "color": "#3498db"
-        },
-        "化学": {
-            "icon": "⚗️",
-            "highschool": ("高中化学", "#8e44ad"),
-            "yijiao": ("义教化学", "#f39c12"),
-            "color": "#8e44ad"
-        },
-        "生物": {
-            "icon": "🧬",
-            "highschool": ("高中生物", "#27ae60"),
-            "yijiao": ("义教生物", "#16a085"),
-            "color": "#27ae60"
-        },
-        "地理": {
-            "icon": "🌍",
-            "highschool": ("高中地理", "#3498db"),
-            "yijiao": ("义教地理", "#1abc9c"),
-            "chuzhong": ("初中地理", "#16a085"),  # 初中地理
-            "color": "#1abc9c"
-        },
-        "政治": {
-            "icon": "🏛️",
-            "highschool": ("高中政治", "#c0392b"),
-            "yijiao": ("义教道法", "#d63031"),
-            "color": "#c0392b"
-        },
-        "历史": {
-            "icon": "📜",
-            "highschool": ("高中历史", "#6c5ce7"),
-            "yijiao": ("义教历史", "#8e44ad"),
-            "color": "#6c5ce7"
-        },
-        "英语": {
-            "icon": "🔤",
-            "highschool": ("高中英语", "#e84393"),
-            "yijiao": None,
-            "color": "#e84393"
-        },
-        "语文": {
-            "icon": "📖",
-            "highschool": ("高中语文", "#ff6b6b"),
-            "yijiao": ("义教语文", "#ff7675"),
-            "color": "#ff6b6b"
-        }
-    }
+    使用从 config.py 导入的 SUBJECT_GROUPING 配置，无需手动维护。
+    """
+    # SUBJECT_GROUPING 已从 config.py 导入
     
     html_parts = []
     
@@ -667,32 +612,28 @@ def generate_index_html(subject_files, unknown_files):
     
     # 按学科分组生成
     for subject_name, grouping in SUBJECT_GROUPING.items():
-        hs_key, hs_color = grouping["highschool"] if grouping["highschool"] else (None, None)
+        # 新格式：highschool 和 yijiao 都是列表
+        hs_list = grouping.get("highschool", [])
+        yj_list = grouping.get("yijiao", [])
         
-        # 支持yijiao为列表或元组
-        yj_config = grouping.get("yijiao")
-        if isinstance(yj_config, list):
-            # 多个义教版本
-            yj_keys = [item[0] for item in yj_config]
-            yj_colors = [item[1] for item in yj_config]
-            yj_key = None
-            yj_color = None
-        elif yj_config:
-            # 单个义教版本
-            yj_key, yj_color = yj_config
-            yj_keys = [yj_key]
-            yj_colors = [yj_color]
-        else:
-            yj_key = None
-            yj_color = None
-            yj_keys = []
-            yj_colors = []
+        # 提取高中配置（取第一个）
+        hs_key, hs_color = hs_list[0] if hs_list else (None, None)
         
-        cz_key, cz_color = grouping.get("chuzhong", (None, None)) if isinstance(grouping.get("chuzhong"), tuple) else (None, None)
+        # 提取义教配置
+        yj_keys = [item[0] for item in yj_list] if yj_list else []
+        yj_colors = [item[1] for item in yj_list] if yj_list else []
+        yj_key = yj_keys[0] if len(yj_keys) == 1 else None
+        yj_color = yj_colors[0] if len(yj_colors) == 1 else None
+        
+        # 初中配置（如有）
+        cz_list = grouping.get("chuzhong", [])
+        cz_key, cz_color = cz_list[0] if cz_list else (None, None)
         
         # 如果高中、义教或初中有数据，才显示这个学科组
+        has_hs_data = hs_key and hs_key in subject_files
         has_yijiao_data = any(k and k in subject_files for k in yj_keys)
-        has_data = (hs_key and hs_key in subject_files) or has_yijiao_data or (cz_key and cz_key in subject_files)
+        has_cz_data = cz_key and cz_key in subject_files
+        has_data = has_hs_data or has_yijiao_data or has_cz_data
         
         if has_data:
             html_parts.append(f"""
@@ -705,21 +646,21 @@ def generate_index_html(subject_files, unknown_files):
             <div class="subject-group">""")
             
             # 高中列
-            if hs_key and hs_key in subject_files:
+            if has_hs_data:
                 html_parts.append(generate_subject_column(hs_key, f"高中{subject_name}", hs_color, grouping['icon']))
             else:
                 html_parts.append('<div class="subject-column"></div>')
             
             # 义教/初中列
-            # 如果yijiao是列表（多个版本），为每个版本生成列
             if len(yj_keys) > 1 and has_yijiao_data:
                 # 多个义教版本，每个生成一列
                 for yj_k, yj_c in zip(yj_keys, yj_colors):
                     if yj_k and yj_k in subject_files:
-                        html_parts.append(generate_subject_column(yj_k, f"义教{subject_name}", yj_c, grouping['icon']))
+                        html_parts.append(generate_subject_column(yj_k, SUBJECT_CONFIG.get(yj_k, {}).get('display_name', f"义教{subject_name}"), yj_c, grouping['icon']))
             elif yj_key and yj_key in subject_files:
-                # 如果同时有初中地理，合并显示
-                if subject_name == "地理" and cz_key and cz_key in subject_files:
+                # 单个义教版本
+                display_name = SUBJECT_CONFIG.get(yj_key, {}).get('display_name', f"义教{subject_name}")
+                if subject_name == "地理" and has_cz_data:
                     # 合并显示义教和初中地理
                     yj_files = subject_files[yj_key]
                     cz_files = subject_files[cz_key]
@@ -728,8 +669,8 @@ def generate_index_html(subject_files, unknown_files):
                         yj_key, cz_key, "义教/初中地理", yj_color, grouping['icon'], all_files
                     ))
                 else:
-                    html_parts.append(generate_subject_column(yj_key, f"义教{subject_name}", yj_color, grouping['icon']))
-            elif cz_key and cz_key in subject_files:
+                    html_parts.append(generate_subject_column(yj_key, display_name, yj_color, grouping['icon']))
+            elif has_cz_data:
                 html_parts.append(generate_subject_column(cz_key, f"初中{subject_name}", cz_color, grouping['icon']))
             else:
                 html_parts.append('<div class="subject-column"></div>')

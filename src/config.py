@@ -207,145 +207,235 @@ ENTITY_TYPE_ORDER = {
 }
 
 
+# ========== 学科分类配置 ==========
+# 定义学科大类的图标和主色（用于index.html分组显示）
+SUBJECT_CATEGORIES = {
+    "语文": {"icon": "📖", "color": "#ff6b6b"},
+    "数学": {"icon": "📐", "color": "#2ecc71"},
+    "英语": {"icon": "🔤", "color": "#e84393"},
+    "物理": {"icon": "⚡", "color": "#3498db"},
+    "化学": {"icon": "⚗️", "color": "#8e44ad"},
+    "生物": {"icon": "🧬", "color": "#27ae60"},
+    "政治": {"icon": "🏛️", "color": "#c0392b"},
+    "历史": {"icon": "📜", "color": "#6c5ce7"},
+    "地理": {"icon": "🌍", "color": "#1abc9c"},
+}
+
 # ========== 学科基础配置 ==========
 # 定义学科的固定属性（不包括data_dir，data_dir会自动检测最新版本）
+# category: 学科大类，用于index.html分组
+# level: 学段，highschool=高中, yijiao=义教
 _SUBJECT_BASE_CONFIG = {
-    # 高中学科
+    # ===== 高中学科 =====
     "高中语文": {
         "icon": "📖",
         "display_name": "高中语文",
         "files": ["高中语文_课标.html"],
         "color": "#ff6b6b",
-        "neo4j_label": "GaoZhongYuWen"
+        "neo4j_label": "GaoZhongYuWen",
+        "category": "语文",
+        "level": "highschool"
     },
     "高中数学": {
         "icon": "📐",
         "display_name": "高中数学",
         "files": ["高中数学_课标.html", "高中数学_人教B版_v2.html"],
         "color": "#2ecc71",
-        "neo4j_label": "GaoZhongShuXue"
+        "neo4j_label": "GaoZhongShuXue",
+        "category": "数学",
+        "level": "highschool"
     },
     "高中英语": {
         "icon": "🔤",
         "display_name": "高中英语",
         "files": ["高中英语_课标.html"],
         "color": "#e84393",
-        "neo4j_label": "GaoZhongYingYu"
+        "neo4j_label": "GaoZhongYingYu",
+        "category": "英语",
+        "level": "highschool"
     },
     "高中物理": {
         "icon": "⚛️",
         "display_name": "高中物理",
         "files": ["高中物理_课标.html"],
         "color": "#3498db",
-        "neo4j_label": "GaoZhongWuLi"
+        "neo4j_label": "GaoZhongWuLi",
+        "category": "物理",
+        "level": "highschool"
     },
     "高中化学": {
         "icon": "⚗️",
         "display_name": "高中化学",
         "files": ["高中化学_课标.html"],
         "color": "#8e44ad",
-        "neo4j_label": "GaoZhongHuaXue"
+        "neo4j_label": "GaoZhongHuaXue",
+        "category": "化学",
+        "level": "highschool"
     },
     "高中生物": {
         "icon": "🧬",
         "display_name": "高中生物",
         "files": ["高中生物_课标.html"],
         "color": "#27ae60",
-        "neo4j_label": "GaoZhongShengWu"
+        "neo4j_label": "GaoZhongShengWu",
+        "category": "生物",
+        "level": "highschool"
     },
     "高中政治": {
         "icon": "🏛️",
         "display_name": "高中政治",
         "files": ["高中政治_课标.html"],
         "color": "#c0392b",
-        "neo4j_label": "GaoZhongZhengZhi"
+        "neo4j_label": "GaoZhongZhengZhi",
+        "category": "政治",
+        "level": "highschool"
     },
     "高中历史": {
         "icon": "🏛️",
         "display_name": "高中历史",
         "files": ["高中历史_课标.html"],
         "color": "#6c5ce7",
-        "neo4j_label": "GaoZhongLiShi"
+        "neo4j_label": "GaoZhongLiShi",
+        "category": "历史",
+        "level": "highschool"
     },
     "高中地理": {
         "icon": "🗺️",
         "display_name": "高中地理",
         "files": ["高中地理_课标.html"],
         "color": "#3498db",
-        "neo4j_label": "GaoZhongDiLi"
+        "neo4j_label": "GaoZhongDiLi",
+        "category": "地理",
+        "level": "highschool"
     },
-    # 义教学科
+    # ===== 义教学科 =====
     "义教语文": {
         "icon": "📚",
         "display_name": "义教语文",
         "files": ["义教语文_课标.html"],
         "color": "#ff7675",
-        "neo4j_label": "YiJiaoYuWen"
+        "neo4j_label": "YiJiaoYuWen",
+        "category": "语文",
+        "level": "yijiao"
     },
     "义教数学": {
         "icon": "📐",
         "display_name": "义教数学",
         "files": ["义教数学_课标.html"],
         "color": "#f39c12",
-        "neo4j_label": "YiJiaoShuXue"
+        "neo4j_label": "YiJiaoShuXue",
+        "category": "数学",
+        "level": "yijiao"
     },
     "义务英语": {
         "icon": "🔤",
         "display_name": "义务英语",
         "files": ["义务英语_课标.html"],
         "color": "#00b894",
-        "neo4j_label": "YiWuYingYu"
+        "neo4j_label": "YiWuYingYu",
+        "category": "英语",
+        "level": "yijiao"
     },
     "义教物理89全册": {
         "icon": "⚡",
         "display_name": "义教物理（8、9全一册）",
         "files": ["义教物理_89全一册.html"],
         "color": "#e74c3c",
-        "neo4j_label": "YiJiaoWuLi89"
+        "neo4j_label": "YiJiaoWuLi89",
+        "category": "物理",
+        "level": "yijiao"
     },
     "义教物理8上下9全册": {
         "icon": "⚡",
         "display_name": "义教物理（8上下、9全一册）",
         "files": ["义教物理_课标.html"],
         "color": "#e74c3c",
-        "neo4j_label": "YiJiaoWuLi"
+        "neo4j_label": "YiJiaoWuLi",
+        "category": "物理",
+        "level": "yijiao"
     },
     "义教化学": {
         "icon": "🧪",
         "display_name": "义教化学",
         "files": ["义教化学_课标.html"],
         "color": "#9b59b6",
-        "neo4j_label": "YiJiaoHuaXue"
+        "neo4j_label": "YiJiaoHuaXue",
+        "category": "化学",
+        "level": "yijiao"
     },
     "义教生物": {
         "icon": "🌱",
         "display_name": "义教生物",
         "files": ["义教生物_课标.html"],
         "color": "#16a085",
-        "neo4j_label": "YiJiaoShengWu"
+        "neo4j_label": "YiJiaoShengWu",
+        "category": "生物",
+        "level": "yijiao"
     },
     "义教道法": {
         "icon": "⚖️",
         "display_name": "义教道法",
         "files": ["义教道法_课标.html"],
         "color": "#d63031",
-        "neo4j_label": "YiJiaoDaoFa"
+        "neo4j_label": "YiJiaoDaoFa",
+        "category": "政治",
+        "level": "yijiao"
     },
     "义教历史": {
         "icon": "📜",
         "display_name": "义教历史",
         "files": ["义教历史_课标.html"],
         "color": "#8e44ad",
-        "neo4j_label": "YiJiaoLiShi"
+        "neo4j_label": "YiJiaoLiShi",
+        "category": "历史",
+        "level": "yijiao"
     },
     "义教地理": {
         "icon": "🌍",
         "display_name": "义教地理",
         "files": ["义教地理_课标.html"],
         "color": "#1abc9c",
-        "neo4j_label": "YiJiaoDiLi"
+        "neo4j_label": "YiJiaoDiLi",
+        "category": "地理",
+        "level": "yijiao"
     },
 }
+
+
+def build_subject_grouping():
+    """
+    从 _SUBJECT_BASE_CONFIG 自动构建学科分组配置
+    用于 update_index.py 生成 index.html
+    
+    Returns:
+        dict: 学科分组配置，格式如 {"数学": {"icon": "📐", "highschool": [...], "yijiao": [...]}}
+    """
+    grouping = {}
+    
+    for subject_name, cfg in _SUBJECT_BASE_CONFIG.items():
+        category = cfg.get('category')
+        level = cfg.get('level')
+        
+        if not category or not level:
+            continue
+        
+        if category not in grouping:
+            cat_cfg = SUBJECT_CATEGORIES.get(category, {})
+            grouping[category] = {
+                "icon": cat_cfg.get("icon", "📚"),
+                "color": cat_cfg.get("color", "#666"),
+                "highschool": [],
+                "yijiao": []
+            }
+        
+        # 添加到对应学段
+        grouping[category][level].append((subject_name, cfg.get('color', '#666')))
+    
+    return grouping
+
+
+# 导出学科分组配置（供 update_index.py 使用）
+SUBJECT_GROUPING = build_subject_grouping()
 
 
 def build_subject_config():
@@ -403,3 +493,53 @@ SUBJECT_CONFIG = build_subject_config()
 # ========== 服务器配置 ==========
 DEFAULT_PORT = 8888
 DEFAULT_HOST = '0.0.0.0'
+
+
+# ========== 配置验证 ==========
+def validate_config():
+    """
+    验证配置完整性
+    
+    Returns:
+        (is_valid, errors) 元组
+    """
+    errors = []
+    
+    # 检查关键路径
+    if not PROJECT_ROOT.exists():
+        errors.append(f"项目根目录不存在: {PROJECT_ROOT}")
+    
+    if not DATA_ROOT.exists():
+        errors.append(f"数据目录不存在: {DATA_ROOT}")
+    
+    # 检查学科配置
+    for name, cfg in SUBJECT_CONFIG.items():
+        required_keys = ['data_dir', 'display_name', 'icon']
+        for key in required_keys:
+            if key not in cfg:
+                errors.append(f"学科 {name} 缺少必要配置: {key}")
+        
+        # 检查数据目录是否存在
+        data_path = DATA_ROOT / cfg.get('data_dir', '')
+        if not data_path.exists():
+            errors.append(f"学科 {name} 的数据目录不存在: {data_path}")
+    
+    return (len(errors) == 0, errors)
+
+
+def print_config_status():
+    """打印配置状态（用于调试）"""
+    print("=" * 60)
+    print("配置状态")
+    print("=" * 60)
+    print(f"项目根目录: {PROJECT_ROOT} ({'存在' if PROJECT_ROOT.exists() else '不存在'})")
+    print(f"数据目录: {DATA_ROOT} ({'存在' if DATA_ROOT.exists() else '不存在'})")
+    print(f"学科数量: {len(SUBJECT_CONFIG)}")
+    
+    is_valid, errors = validate_config()
+    if is_valid:
+        print("配置验证: 通过")
+    else:
+        print("配置验证: 失败")
+        for err in errors:
+            print(f"  - {err}")

@@ -1,0 +1,56 @@
+[
+  {
+    "relationName": "moduleAchievesAcademicQuality",
+    "label": "必修课程达到学业质量水平1",
+    "source": "urn:jy:biology:SB0403:OB06:CourseModule:l1",
+    "target": "urn:jy:biology:SB0403:OB06:AcademicQuality:l1"
+  },
+  {
+    "relationName": "moduleAchievesAcademicQuality",
+    "label": "必修课程达到学业质量水平2",
+    "source": "urn:jy:biology:SB0403:OB06:CourseModule:l1",
+    "target": "urn:jy:biology:SB0403:OB06:AcademicQuality:l2"
+  },
+  {
+    "relationName": "moduleAchievesAcademicQuality",
+    "label": "必修课程达到学业质量水平3",
+    "source": "urn:jy:biology:SB0403:OB06:CourseModule:l1",
+    "target": "urn:jy:biology:SB0403:OB06:AcademicQuality:l3"
+  },
+  {
+    "relationName": "moduleAchievesAcademicQuality",
+    "label": "选择性必修课程达到学业质量水平1",
+    "source": "urn:jy:biology:SB0403:OB06:CourseModule:l2",
+    "target": "urn:jy:biology:SB0403:OB06:AcademicQuality:l1"
+  },
+  {
+    "relationName": "moduleAchievesAcademicQuality",
+    "label": "选择性必修课程达到学业质量水平2",
+    "source": "urn:jy:biology:SB0403:OB06:CourseModule:l2",
+    "target": "urn:jy:biology:SB0403:OB06:AcademicQuality:l2"
+  },
+  {
+    "relationName": "moduleAchievesAcademicQuality",
+    "label": "选择性必修课程达到学业质量水平3",
+    "source": "urn:jy:biology:SB0403:OB06:CourseModule:l2",
+    "target": "urn:jy:biology:SB0403:OB06:AcademicQuality:l3"
+  },
+  {
+    "relationName": "moduleAchievesAcademicQuality",
+    "label": "选修课程达到学业质量水平1",
+    "source": "urn:jy:biology:SB0403:OB06:CourseModule:l3",
+    "target": "urn:jy:biology:SB0403:OB06:AcademicQuality:l1"
+  },
+  {
+    "relationName": "moduleAchievesAcademicQuality",
+    "label": "选修课程达到学业质量水平2",
+    "source": "urn:jy:biology:SB0403:OB06:CourseModule:l3",
+    "target": "urn:jy:biology:SB0403:OB06:AcademicQuality:l2"
+  },
+  {
+    "relationName": "moduleAchievesAcademicQuality",
+    "label": "选修课程达到学业质量水平3",
+    "source": "urn:jy:biology:SB0403:OB06:CourseModule:l3",
+    "target": "urn:jy:biology:SB0403:OB06:AcademicQuality:l3"
+  }
+]

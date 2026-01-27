@@ -1,5 +1,4 @@
-{
-  "relations":[
+[
   {
     "relationName": "problemInTheme",
     "label": "题目在主题中/problem_in_theme",
@@ -449,5 +448,5 @@
     "label": "题目在主题中/problem_in_theme",
     "source": "urn:jy:math:2022:problem:s4:d44c5a653d44",
     "target": "urn:jy:math:2022:theme:s4:sp:probability"
-  }]
-}
+  }
+]

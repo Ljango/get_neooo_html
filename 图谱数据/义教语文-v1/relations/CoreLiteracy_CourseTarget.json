@@ -1,52 +1,50 @@
-{
-  "relations": [
-    {
-      "relationName": "literacyGuidesCourseTarget",
-      "label": "统领课程目标 / guidesCourseTarget",
-      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1",
-      "target": "urn:jy:chinese:SB0101:OB02,OB03:CourseTarget:l1"
-    },
-    {
-      "relationName": "courseTargetCultivatesLiteracy",
-      "label": "培育核心素养 / cultivatesLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB02,OB03:CourseTarget:l1",
-      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1"
-    },
-    {
-      "relationName": "literacyGuidesCourseTarget",
-      "label": "统领课程目标 / guidesCourseTarget",
-      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2",
-      "target": "urn:jy:chinese:SB0101:OB02,OB03:CourseTarget:l1"
-    },
-    {
-      "relationName": "courseTargetCultivatesLiteracy",
-      "label": "培育核心素养 / cultivatesLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB02,OB03:CourseTarget:l1",
-      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2"
-    },
-    {
-      "relationName": "literacyGuidesCourseTarget",
-      "label": "统领课程目标 / guidesCourseTarget",
-      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3",
-      "target": "urn:jy:chinese:SB0101:OB02,OB03:CourseTarget:l1"
-    },
-    {
-      "relationName": "courseTargetCultivatesLiteracy",
-      "label": "培育核心素养 / cultivatesLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB02,OB03:CourseTarget:l1",
-      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3"
-    },
-    {
-      "relationName": "literacyGuidesCourseTarget",
-      "label": "统领课程目标 / guidesCourseTarget",
-      "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4",
-      "target": "urn:jy:chinese:SB0101:OB02,OB03:CourseTarget:l1"
-    },
-    {
-      "relationName": "courseTargetCultivatesLiteracy",
-      "label": "培育核心素养 / cultivatesLiteracy",
-      "source": "urn:jy:chinese:SB0101:OB02,OB03:CourseTarget:l1",
-      "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4"
-    }
-  ]
-}
+[
+  {
+    "relationName": "literacyGuidesCourseTarget",
+    "label": "统领课程目标 / guidesCourseTarget",
+    "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1",
+    "target": "urn:jy:chinese:SB0101:OB02,OB03:CourseTarget:l1"
+  },
+  {
+    "relationName": "courseTargetCultivatesLiteracy",
+    "label": "培育核心素养 / cultivatesLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB02,OB03:CourseTarget:l1",
+    "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l1"
+  },
+  {
+    "relationName": "literacyGuidesCourseTarget",
+    "label": "统领课程目标 / guidesCourseTarget",
+    "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2",
+    "target": "urn:jy:chinese:SB0101:OB02,OB03:CourseTarget:l1"
+  },
+  {
+    "relationName": "courseTargetCultivatesLiteracy",
+    "label": "培育核心素养 / cultivatesLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB02,OB03:CourseTarget:l1",
+    "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l2"
+  },
+  {
+    "relationName": "literacyGuidesCourseTarget",
+    "label": "统领课程目标 / guidesCourseTarget",
+    "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3",
+    "target": "urn:jy:chinese:SB0101:OB02,OB03:CourseTarget:l1"
+  },
+  {
+    "relationName": "courseTargetCultivatesLiteracy",
+    "label": "培育核心素养 / cultivatesLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB02,OB03:CourseTarget:l1",
+    "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l3"
+  },
+  {
+    "relationName": "literacyGuidesCourseTarget",
+    "label": "统领课程目标 / guidesCourseTarget",
+    "source": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4",
+    "target": "urn:jy:chinese:SB0101:OB02,OB03:CourseTarget:l1"
+  },
+  {
+    "relationName": "courseTargetCultivatesLiteracy",
+    "label": "培育核心素养 / cultivatesLiteracy",
+    "source": "urn:jy:chinese:SB0101:OB02,OB03:CourseTarget:l1",
+    "target": "urn:jy:chinese:SB0101:OB02,OB03:CoreLiteracy:l4"
+  }
+]

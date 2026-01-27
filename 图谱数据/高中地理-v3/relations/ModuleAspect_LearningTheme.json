@@ -1,1924 +1,1922 @@
-{
-  "relations": [
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:001",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:01"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:01",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:001"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:002",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:01"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:01",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:002"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:003",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:01"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:01",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:003"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:004",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:02"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:02",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:004"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:009",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:02"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:02",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:009"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:010",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:02"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:02",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:010"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:005",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:03"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:03",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:005"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:006",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:03"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:03",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:006"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:007",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:03"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:03",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:007"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:008",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:03"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:03",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:008"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:011",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:03"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:03",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:011"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:012",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:03"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:03",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:012"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:013",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:04"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:04",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:013"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:014",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:05"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:05",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:014"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:015",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:05"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:05",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:015"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:016",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:05"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:05",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:016"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:017",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:06"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:06",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:017"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:018",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:06"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:06",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:018"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:019",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:07"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:07",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:019"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:020",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:07"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:07",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:020"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:021",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:07"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:07",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:021"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:022",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:07"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:07",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:022"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:023",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:07"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:07",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:023"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:024",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:08"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:08",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:024"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:025",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:09"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:09",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:025"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:026",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:09"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:09",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:026"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:027",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:09"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:09",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:027"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:028",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:09"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:09",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:028"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:029",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:09"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:09",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:029"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:030",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:09"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:09",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:030"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:031",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:09"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:09",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:031"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:032",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:10"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:10",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:032"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:033",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:11"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:11",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:033"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:034",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:12"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:12",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:034"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:035",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:12"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:12",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:035"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:036",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:12"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:12",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:036"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:037",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:12"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:12",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:037"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:038",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:12"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:12",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:038"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:039",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:13"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:13",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:039"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:040",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:13"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:13",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:040"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:041",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:13"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:13",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:041"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:042",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:14"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:14",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:042"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:043",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:14"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:14",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:043"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:044",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:14"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:14",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:044"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:045",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:14"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:14",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:045"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:046",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:15"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:15",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:046"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:047",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:15"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:15",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:047"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:048",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:15"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:15",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:048"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:049",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:16"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:16",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:049"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:050",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:17"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:17",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:050"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:051",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:17"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:17",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:051"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:052",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:18"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:18",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:052"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:053",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:18"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:18",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:053"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:054",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:18"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:18",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:054"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:055",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:18"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:18",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:055"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:056",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:19"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:19",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:056"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:057",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:19"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:19",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:057"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:058",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:19"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:19",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:058"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:059",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:20"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:20",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:059"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:060",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:21"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:21",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:060"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:061",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:21"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:21",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:061"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:062",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:21"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:21",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:062"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:063",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:22"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:22",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:063"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:064",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:22"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:22",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:064"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:065",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:22"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:22",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:065"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:066",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:23"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:23",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:066"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:067",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:23"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:23",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:067"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:068",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:24"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:24",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:068"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:069",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:24"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:24",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:069"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:070",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:24"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:24",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:070"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:071",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:25"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:25",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:071"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:072",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:26"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:26",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:072"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:073",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:26"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:26",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:073"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:074",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:26"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:26",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:074"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:075",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:26"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:26",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:075"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:076",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:27"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:27",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:076"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:077",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:27"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:27",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:077"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:078",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:28"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:28",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:078"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:079",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:28"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:28",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:079"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:080",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:28"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:28",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:080"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:083",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:30"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:30",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:083"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:084",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:30"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:30",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:084"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:085",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:30"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:30",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:085"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:087",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:31"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:31",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:087"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:088",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:31"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:31",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:088"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:090",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:32"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:32",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:090"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:091",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:32"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:32",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:091"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:092",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:33"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:33",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:092"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:081",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:29"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:29",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:081"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:082",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:29"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:29",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:082"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:086",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:29"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:29",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:086"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:089",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:29"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:29",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:089"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:093",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:34"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:34",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:093"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:094",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:34"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:34",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:094"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:096",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:34"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:34",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:096"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:097",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:35"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:35",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:097"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:098",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:35"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:35",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:098"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:100",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:35"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:35",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:100"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:095",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:36"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:36",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:095"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:099",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:36"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:36",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:099"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:101",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:36"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:36",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:101"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:102",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:37"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:37",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:102"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:103",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:37"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:37",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:103"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:104",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:37"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:37",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:104"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:105",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:38"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:38",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:105"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:106",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:38"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:38",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:106"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:107",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:38"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:38",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:107"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:108",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:39"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:39",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:108"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:109",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:39"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:39",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:109"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:110",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:39"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:39",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:110"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:111",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:39"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:39",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:111"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:093",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:34"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:34",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:093"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:094",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:34"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:34",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:094"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:096",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:34"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:34",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:096"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:097",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:35"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:35",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:097"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:098",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:35"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:35",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:098"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:100",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:35"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:35",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:100"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:095",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:36"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:36",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:095"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:099",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:36"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:36",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:099"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:101",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:36"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:36",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:101"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:102",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:37"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:37",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:102"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:103",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:37"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:37",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:103"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:104",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:37"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:37",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:104"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:105",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:38"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:38",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:105"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:106",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:38"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:38",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:106"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:107",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:38"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:38",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:107"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:108",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:39"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:39",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:108"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:109",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:39"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:39",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:109"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:110",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:39"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:39",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:110"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:111",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:39"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:39",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:111"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:112",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:40"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:40",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:112"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:113",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:40"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:40",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:113"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:114",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:40"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:40",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:114"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:115",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:40"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:40",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:115"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:116",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:41"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:41",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:116"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:117",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:41"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:41",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:117"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:118",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:42"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:42",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:118"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:119",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:42"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:42",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:119"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:120",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:42"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:42",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:120"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:121",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:42"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:42",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:121"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:122",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:43"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:43",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:122"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:123",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:43"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:43",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:123"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:124",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:43"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:43",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:124"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:125",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:43"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:43",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:125"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:126",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:43"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:43",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:126"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:127",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:43"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:43",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:127"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:128",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:44"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:44",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:128"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:129",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:44"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:44",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:129"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:130",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:45"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:45",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:130"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:131",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:45"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:45",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:131"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:132",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:47"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:47",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:132"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:133",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:47"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:47",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:133"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:134",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:48"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:48",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:134"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:135",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:48"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:48",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:135"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:136",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:48"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:48",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:136"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:137",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:48"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:48",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:137"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:138",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:48"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:48",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:138"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:139",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:48"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:48",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:139"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:140",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:49"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:49",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:140"
-    },
-    {
-      "relationName": "themeBelongsToAspect",
-      "label": "属于方面 / belongsToAspect",
-      "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:141",
-      "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:50"
-    },
-    {
-      "relationName": "aspectManifestsAsTheme",
-      "label": "表现为学习主题 / manifestsAsTheme",
-      "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:50",
-      "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:141"
-    }
-  ]
-}
+[
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:001",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:01"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:01",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:001"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:002",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:01"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:01",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:002"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:003",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:01"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:01",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:003"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:004",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:02"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:02",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:004"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:009",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:02"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:02",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:009"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:010",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:02"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:02",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:010"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:005",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:03"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:03",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:005"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:006",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:03"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:03",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:006"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:007",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:03"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:03",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:007"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:008",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:03"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:03",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:008"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:011",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:03"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:03",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:011"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:012",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:03"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:03",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:012"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:013",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:04"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:04",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:013"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:014",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:05"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:05",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:014"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:015",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:05"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:05",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:015"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:016",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:05"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:05",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:016"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:017",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:06"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:06",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:017"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:018",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:06"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:06",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:018"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:019",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:07"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:07",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:019"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:020",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:07"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:07",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:020"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:021",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:07"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:07",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:021"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:022",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:07"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:07",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:022"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:023",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:07"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:07",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:023"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:024",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:08"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:08",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:024"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:025",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:09"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:09",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:025"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:026",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:09"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:09",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:026"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:027",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:09"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:09",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:027"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:028",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:09"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:09",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:028"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:029",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:09"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:09",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:029"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:030",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:09"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:09",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:030"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:031",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:09"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:09",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:031"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:032",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:10"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:10",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:032"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:033",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:11"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:11",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:033"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:034",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:12"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:12",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:034"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:035",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:12"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:12",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:035"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:036",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:12"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:12",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:036"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:037",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:12"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:12",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:037"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:038",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:12"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:12",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:038"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:039",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:13"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:13",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:039"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:040",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:13"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:13",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:040"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:041",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:13"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:13",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:041"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:042",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:14"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:14",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:042"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:043",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:14"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:14",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:043"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:044",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:14"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:14",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:044"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:045",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:14"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:14",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:045"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:046",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:15"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:15",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:046"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:047",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:15"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:15",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:047"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:048",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:15"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:15",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:048"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:049",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:16"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:16",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:049"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:050",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:17"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:17",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:050"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:051",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:17"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:17",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:051"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:052",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:18"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:18",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:052"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:053",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:18"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:18",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:053"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:054",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:18"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:18",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:054"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:055",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:18"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:18",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:055"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:056",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:19"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:19",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:056"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:057",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:19"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:19",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:057"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:058",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:19"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:19",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:058"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:059",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:20"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:20",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:059"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:060",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:21"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:21",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:060"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:061",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:21"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:21",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:061"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:062",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:21"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:21",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:062"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:063",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:22"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:22",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:063"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:064",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:22"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:22",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:064"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:065",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:22"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:22",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:065"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:066",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:23"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:23",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:066"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:067",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:23"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:23",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:067"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:068",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:24"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:24",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:068"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:069",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:24"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:24",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:069"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:070",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:24"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:24",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:070"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:071",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:25"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:25",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:071"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:072",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:26"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:26",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:072"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:073",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:26"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:26",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:073"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:074",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:26"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:26",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:074"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:075",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:26"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:26",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:075"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:076",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:27"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:27",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:076"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:077",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:27"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:27",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:077"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:078",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:28"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:28",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:078"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:079",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:28"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:28",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:079"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:080",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:28"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:28",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:080"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:083",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:30"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:30",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:083"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:084",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:30"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:30",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:084"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:085",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:30"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:30",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:085"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:087",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:31"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:31",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:087"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:088",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:31"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:31",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:088"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:090",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:32"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:32",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:090"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:091",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:32"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:32",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:091"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:092",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:33"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:33",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:092"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:081",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:29"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:29",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:081"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:082",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:29"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:29",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:082"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:086",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:29"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:29",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:086"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:089",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:29"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:29",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:089"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:093",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:34"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:34",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:093"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:094",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:34"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:34",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:094"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:096",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:34"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:34",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:096"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:097",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:35"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:35",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:097"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:098",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:35"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:35",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:098"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:100",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:35"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:35",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:100"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:095",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:36"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:36",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:095"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:099",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:36"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:36",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:099"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:101",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:36"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:36",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:101"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:102",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:37"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:37",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:102"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:103",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:37"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:37",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:103"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:104",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:37"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:37",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:104"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:105",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:38"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:38",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:105"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:106",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:38"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:38",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:106"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:107",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:38"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:38",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:107"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:108",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:39"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:39",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:108"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:109",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:39"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:39",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:109"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:110",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:39"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:39",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:110"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:111",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:39"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:39",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:111"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:093",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:34"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:34",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:093"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:094",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:34"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:34",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:094"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:096",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:34"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:34",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:096"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:097",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:35"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:35",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:097"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:098",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:35"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:35",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:098"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:100",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:35"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:35",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:100"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:095",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:36"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:36",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:095"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:099",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:36"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:36",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:099"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:101",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:36"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:36",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:101"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:102",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:37"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:37",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:102"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:103",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:37"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:37",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:103"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:104",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:37"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:37",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:104"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:105",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:38"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:38",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:105"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:106",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:38"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:38",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:106"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:107",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:38"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:38",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:107"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:108",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:39"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:39",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:108"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:109",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:39"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:39",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:109"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:110",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:39"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:39",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:110"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:111",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:39"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:39",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:111"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:112",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:40"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:40",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:112"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:113",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:40"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:40",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:113"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:114",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:40"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:40",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:114"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:115",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:40"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:40",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:115"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:116",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:41"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:41",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:116"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:117",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:41"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:41",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:117"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:118",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:42"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:42",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:118"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:119",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:42"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:42",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:119"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:120",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:42"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:42",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:120"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:121",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:42"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:42",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:121"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:122",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:43"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:43",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:122"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:123",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:43"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:43",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:123"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:124",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:43"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:43",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:124"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:125",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:43"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:43",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:125"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:126",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:43"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:43",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:126"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:127",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:43"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:43",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:127"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:128",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:44"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:44",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:128"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:129",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:44"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:44",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:129"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:130",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:45"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:45",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:130"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:131",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:45"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:45",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:131"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:132",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:47"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:47",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:132"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:133",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:47"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:47",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:133"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:134",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:48"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:48",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:134"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:135",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:48"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:48",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:135"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:136",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:48"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:48",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:136"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:137",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:48"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:48",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:137"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:138",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:48"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:48",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:138"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:139",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:48"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:48",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:139"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:140",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:49"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:49",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:140"
+  },
+  {
+    "relationName": "themeBelongsToAspect",
+    "label": "属于方面 / belongsToAspect",
+    "source": "urn:jy:Geography:SB0308:OB06:LearningTheme:141",
+    "target": "urn:jy:Geography:SB0308:OB06:ModuleAspect:50"
+  },
+  {
+    "relationName": "aspectManifestsAsTheme",
+    "label": "表现为学习主题 / manifestsAsTheme",
+    "source": "urn:jy:Geography:SB0308:OB06:ModuleAspect:50",
+    "target": "urn:jy:Geography:SB0308:OB06:LearningTheme:141"
+  }
+]
