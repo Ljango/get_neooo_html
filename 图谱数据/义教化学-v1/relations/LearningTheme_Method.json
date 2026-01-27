@@ -1,35 +1,32 @@
-{
-    "relations": [
-      {
-        "relationName": "themeImplementsMethod",
-        "label": "学习主题落实思路与方法 / implementsMethod",
-        "source": "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1",
-        "target": "urn:jy:chemistry:SB0402:OB03:Method:l1"
-      },
-      {
-        "relationName": "themeImplementsMethod",
-        "label": "学习主题落实思路与方法 / implementsMethod",
-        "source": "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2",
-        "target": "urn:jy:chemistry:SB0402:OB03:Method:l2"
-      },
-      {
-        "relationName": "themeImplementsMethod",
-        "label": "学习主题落实思路与方法 / implementsMethod",
-        "source": "urn:jy:chemistry:SB0402:OB03:LearningTheme:l3",
-        "target": "urn:jy:chemistry:SB0402:OB03:Method:l3"
-      },
-      {
-        "relationName": "themeImplementsMethod",
-        "label": "学习主题落实思路与方法 / implementsMethod",
-        "source": "urn:jy:chemistry:SB0402:OB03:LearningTheme:l4",
-        "target": "urn:jy:chemistry:SB0402:OB03:Method:l4"
-      },
-      {
-        "relationName": "themeImplementsMethod",
-        "label": "学习主题落实思路与方法 / implementsMethod",
-        "source": "urn:jy:chemistry:SB0402:OB03:LearningTheme:l5",
-        "target": "urn:jy:chemistry:SB0402:OB03:Method:l5"
-      }
-    ]
+[
+  {
+    "relationName": "themeImplementsMethod",
+    "label": "学习主题落实思路与方法 / implementsMethod",
+    "source": "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1",
+    "target": "urn:jy:chemistry:SB0402:OB03:Method:l1"
+  },
+  {
+    "relationName": "themeImplementsMethod",
+    "label": "学习主题落实思路与方法 / implementsMethod",
+    "source": "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2",
+    "target": "urn:jy:chemistry:SB0402:OB03:Method:l2"
+  },
+  {
+    "relationName": "themeImplementsMethod",
+    "label": "学习主题落实思路与方法 / implementsMethod",
+    "source": "urn:jy:chemistry:SB0402:OB03:LearningTheme:l3",
+    "target": "urn:jy:chemistry:SB0402:OB03:Method:l3"
+  },
+  {
+    "relationName": "themeImplementsMethod",
+    "label": "学习主题落实思路与方法 / implementsMethod",
+    "source": "urn:jy:chemistry:SB0402:OB03:LearningTheme:l4",
+    "target": "urn:jy:chemistry:SB0402:OB03:Method:l4"
+  },
+  {
+    "relationName": "themeImplementsMethod",
+    "label": "学习主题落实思路与方法 / implementsMethod",
+    "source": "urn:jy:chemistry:SB0402:OB03:LearningTheme:l5",
+    "target": "urn:jy:chemistry:SB0402:OB03:Method:l5"
   }
-  
+]

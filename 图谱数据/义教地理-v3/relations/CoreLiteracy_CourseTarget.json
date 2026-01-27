@@ -1,53 +1,50 @@
-{
-  "relations": [
-    {
-      "relationName": "targetIsRequirementForLiteracy",
-      "label": "是“人地协调观”的目标要求 / isTargetRequirementForLiteracy",
-      "source": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:01",
-      "target": "urn:jy:Geography:SB0308:OB03:CourseTarget:01"
-    },
-    {
-      "relationName": "targetIsRequirementForLiteracy",
-      "label": "是“综合思维”的目标要求 / isTargetRequirementForLiteracy",
-      "source": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:02",
-      "target": "urn:jy:Geography:SB0308:OB03:CourseTarget:02"
-    },
-    {
-      "relationName": "targetIsRequirementForLiteracy",
-      "label": "是“区域认知”的目标要求 / isTargetRequirementForLiteracy",
-      "source": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:03",
-      "target": "urn:jy:Geography:SB0308:OB03:CourseTarget:03"
-    },
-    {
-      "relationName": "targetIsRequirementForLiteracy",
-      "label": "是“地理实践力”的目标要求 / isTargetRequirementForLiteracy",
-      "source": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:04",
-      "target": "urn:jy:Geography:SB0308:OB03:CourseTargete:04"
-    },
-
-    {
-      "relationName": "isSpecificTargetOfCoreLiteracy",
-      "label": "是地理学科核心素养的具体目标 / isSpecificTargetOfCoreLiteracy",
-      "source": "urn:jy:Geography:SB0308:OB03:CourseTarget:01",
-      "target": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:01"
-    },
-    {
-      "relationName": "isSpecificTargetOfCoreLiteracy",
-      "label": "是地理学科核心素养的具体目标 / isSpecificTargetOfCoreLiteracy",
-      "source": "urn:jy:Geography:SB0308:OB03:CourseTarget:02",
-      "target": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:02"
-    },
-    {
-      "relationName": "isSpecificTargetOfCoreLiteracy",
-      "label": "是地理学科核心素养的具体目标 / isSpecificTargetOfCoreLiteracy",
-      "source": "urn:jy:Geography:SB0308:OB03:CourseTarget:03",
-      "target": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:03"
-    },
-    {
-      "relationName": "isSpecificTargetOfCoreLiteracy",
-      "label": "是地理学科核心素养的具体目标 / isSpecificTargetOfCoreLiteracy",
-      "source": "urn:jy:Geography:SB0308:OB03:CourseTargete:04",
-      "target": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:04"
-    }
-  ]
-}
+[
+  {
+    "relationName": "targetIsRequirementForLiteracy",
+    "label": "是“人地协调观”的目标要求 / isTargetRequirementForLiteracy",
+    "source": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:01",
+    "target": "urn:jy:Geography:SB0308:OB03:CourseTarget:01"
+  },
+  {
+    "relationName": "targetIsRequirementForLiteracy",
+    "label": "是“综合思维”的目标要求 / isTargetRequirementForLiteracy",
+    "source": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:02",
+    "target": "urn:jy:Geography:SB0308:OB03:CourseTarget:02"
+  },
+  {
+    "relationName": "targetIsRequirementForLiteracy",
+    "label": "是“区域认知”的目标要求 / isTargetRequirementForLiteracy",
+    "source": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:03",
+    "target": "urn:jy:Geography:SB0308:OB03:CourseTarget:03"
+  },
+  {
+    "relationName": "targetIsRequirementForLiteracy",
+    "label": "是“地理实践力”的目标要求 / isTargetRequirementForLiteracy",
+    "source": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:04",
+    "target": "urn:jy:Geography:SB0308:OB03:CourseTargete:04"
+  },
+  {
+    "relationName": "isSpecificTargetOfCoreLiteracy",
+    "label": "是地理学科核心素养的具体目标 / isSpecificTargetOfCoreLiteracy",
+    "source": "urn:jy:Geography:SB0308:OB03:CourseTarget:01",
+    "target": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:01"
+  },
+  {
+    "relationName": "isSpecificTargetOfCoreLiteracy",
+    "label": "是地理学科核心素养的具体目标 / isSpecificTargetOfCoreLiteracy",
+    "source": "urn:jy:Geography:SB0308:OB03:CourseTarget:02",
+    "target": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:02"
+  },
+  {
+    "relationName": "isSpecificTargetOfCoreLiteracy",
+    "label": "是地理学科核心素养的具体目标 / isSpecificTargetOfCoreLiteracy",
+    "source": "urn:jy:Geography:SB0308:OB03:CourseTarget:03",
+    "target": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:03"
+  },
+  {
+    "relationName": "isSpecificTargetOfCoreLiteracy",
+    "label": "是地理学科核心素养的具体目标 / isSpecificTargetOfCoreLiteracy",
+    "source": "urn:jy:Geography:SB0308:OB03:CourseTargete:04",
+    "target": "urn:jy:Geography:SB0308:OB03:CoreLiteracy:04"
+  }
+]

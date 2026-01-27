@@ -1,292 +1,290 @@
-{
-  "relations": [
-    {
-      "relationName": "courseTypeIncludesTheme",
-      "label": "包含学习主题 / includesTheme",
-      "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l1",
-      "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l1"
-    },
-    {
-      "relationName": "themeBelongsToCourseType",
-      "label": "隶属于课程类型 / belongsToCourseType",
-      "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l1",
-      "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l1"
-    },
-    {
-      "relationName": "courseTypeIncludesTheme",
-      "label": "包含学习主题 / includesTheme",
-      "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l1",
-      "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l2"
-    },
-    {
-      "relationName": "themeBelongsToCourseType",
-      "label": "隶属于课程类型 / belongsToCourseType",
-      "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l2",
-      "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l1"
-    },
-    {
-      "relationName": "courseTypeIncludesTheme",
-      "label": "包含学习主题 / includesTheme",
-      "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l1",
-      "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l3"
-    },
-    {
-      "relationName": "themeBelongsToCourseType",
-      "label": "隶属于课程类型 / belongsToCourseType",
-      "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l3",
-      "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l1"
-    },
-    {
-      "relationName": "courseTypeIncludesTheme",
-      "label": "包含学习主题 / includesTheme",
-      "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l1",
-      "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l4"
-    },
-    {
-      "relationName": "themeBelongsToCourseType",
-      "label": "隶属于课程类型 / belongsToCourseType",
-      "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l4",
-      "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l1"
-    },
-    {
-      "relationName": "courseTypeIncludesTheme",
-      "label": "包含学习主题 / includesTheme",
-      "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l1",
-      "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l5"
-    },
-    {
-      "relationName": "themeBelongsToCourseType",
-      "label": "隶属于课程类型 / belongsToCourseType",
-      "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l5",
-      "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l1"
-    },
-    {
-      "relationName": "courseTypeIncludesTheme",
-      "label": "包含学习主题 / includesTheme",
-      "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l2",
-      "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l6"
-    },
-    {
-      "relationName": "themeBelongsToCourseType",
-      "label": "隶属于课程类型 / belongsToCourseType",
-      "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l6",
-      "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l2"
-    },
-    {
-      "relationName": "courseTypeIncludesTheme",
-      "label": "包含学习主题 / includesTheme",
-      "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l2",
-      "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l7"
-    },
-    {
-      "relationName": "themeBelongsToCourseType",
-      "label": "隶属于课程类型 / belongsToCourseType",
-      "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l7",
-      "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l2"
-    },
-    {
-      "relationName": "courseTypeIncludesTheme",
-      "label": "包含学习主题 / includesTheme",
-      "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l2",
-      "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l8"
-    },
-    {
-      "relationName": "themeBelongsToCourseType",
-      "label": "隶属于课程类型 / belongsToCourseType",
-      "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l8",
-      "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l2"
-    },
-    {
-      "relationName": "courseTypeIncludesTheme",
-      "label": "包含学习主题 / includesTheme",
-      "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l2",
-      "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l9"
-    },
-    {
-      "relationName": "themeBelongsToCourseType",
-      "label": "隶属于课程类型 / belongsToCourseType",
-      "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l9",
-      "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l2"
-    },
-    {
-      "relationName": "courseTypeIncludesTheme",
-      "label": "包含学习主题 / includesTheme",
-      "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l2",
-      "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l10"
-    },
-    {
-      "relationName": "themeBelongsToCourseType",
-      "label": "隶属于课程类型 / belongsToCourseType",
-      "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l10",
-      "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l2"
-    },
-    {
-      "relationName": "courseTypeIncludesTheme",
-      "label": "包含学习主题 / includesTheme",
-      "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l2",
-      "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l11"
-    },
-    {
-      "relationName": "themeBelongsToCourseType",
-      "label": "隶属于课程类型 / belongsToCourseType",
-      "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l11",
-      "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l2"
-    },
-    {
-      "relationName": "courseTypeIncludesTheme",
-      "label": "包含学习主题 / includesTheme",
-      "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l2",
-      "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l12"
-    },
-    {
-      "relationName": "themeBelongsToCourseType",
-      "label": "隶属于课程类型 / belongsToCourseType",
-      "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l12",
-      "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l2"
-    },
-    {
-      "relationName": "courseTypeIncludesTheme",
-      "label": "包含学习主题 / includesTheme",
-      "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l2",
-      "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l13"
-    },
-    {
-      "relationName": "themeBelongsToCourseType",
-      "label": "隶属于课程类型 / belongsToCourseType",
-      "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l13",
-      "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l2"
-    },
-    {
-      "relationName": "courseTypeIncludesTheme",
-      "label": "包含学习主题 / includesTheme",
-      "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l2",
-      "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l14"
-    },
-    {
-      "relationName": "themeBelongsToCourseType",
-      "label": "隶属于课程类型 / belongsToCourseType",
-      "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l14",
-      "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l2"
-    },
-    {
-      "relationName": "courseTypeIncludesTheme",
-      "label": "包含学习主题 / includesTheme",
-      "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l3",
-      "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l15"
-    },
-    {
-      "relationName": "themeBelongsToCourseType",
-      "label": "隶属于课程类型 / belongsToCourseType",
-      "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l15",
-      "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l3"
-    },
-    {
-      "relationName": "courseTypeIncludesTheme",
-      "label": "包含学习主题 / includesTheme",
-      "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l3",
-      "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l16"
-    },
-    {
-      "relationName": "themeBelongsToCourseType",
-      "label": "隶属于课程类型 / belongsToCourseType",
-      "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l16",
-      "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l3"
-    },
-    {
-      "relationName": "courseTypeIncludesTheme",
-      "label": "包含学习主题 / includesTheme",
-      "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l3",
-      "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l17"
-    },
-    {
-      "relationName": "themeBelongsToCourseType",
-      "label": "隶属于课程类型 / belongsToCourseType",
-      "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l17",
-      "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l3"
-    },
-    {
-      "relationName": "courseTypeIncludesTheme",
-      "label": "包含学习主题 / includesTheme",
-      "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l3",
-      "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l18"
-    },
-    {
-      "relationName": "themeBelongsToCourseType",
-      "label": "隶属于课程类型 / belongsToCourseType",
-      "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l18",
-      "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l3"
-    },
-    {
-      "relationName": "courseTypeIncludesTheme",
-      "label": "包含学习主题 / includesTheme",
-      "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l3",
-      "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l19"
-    },
-    {
-      "relationName": "themeBelongsToCourseType",
-      "label": "隶属于课程类型 / belongsToCourseType",
-      "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l19",
-      "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l3"
-    },
-    {
-      "relationName": "courseTypeIncludesTheme",
-      "label": "包含学习主题 / includesTheme",
-      "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l3",
-      "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l20"
-    },
-    {
-      "relationName": "themeBelongsToCourseType",
-      "label": "隶属于课程类型 / belongsToCourseType",
-      "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l20",
-      "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l3"
-    },
-    {
-      "relationName": "courseTypeIncludesTheme",
-      "label": "包含学习主题 / includesTheme",
-      "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l3",
-      "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l21"
-    },
-    {
-      "relationName": "themeBelongsToCourseType",
-      "label": "隶属于课程类型 / belongsToCourseType",
-      "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l21",
-      "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l3"
-    },
-    {
-      "relationName": "courseTypeIncludesTheme",
-      "label": "包含学习主题 / includesTheme",
-      "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l3",
-      "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l22"
-    },
-    {
-      "relationName": "themeBelongsToCourseType",
-      "label": "隶属于课程类型 / belongsToCourseType",
-      "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l22",
-      "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l3"
-    },
-    {
-      "relationName": "courseTypeIncludesTheme",
-      "label": "包含学习主题 / includesTheme",
-      "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l3",
-      "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l23"
-    },
-    {
-      "relationName": "themeBelongsToCourseType",
-      "label": "隶属于课程类型 / belongsToCourseType",
-      "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l23",
-      "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l3"
-    },
-    {
-      "relationName": "courseTypeIncludesTheme",
-      "label": "包含学习主题 / includesTheme",
-      "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l3",
-      "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l24"
-    },
-    {
-      "relationName": "themeBelongsToCourseType",
-      "label": "隶属于课程类型 / belongsToCourseType",
-      "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l24",
-      "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l3"
-    }
-  ]
-}
+[
+  {
+    "relationName": "courseTypeIncludesTheme",
+    "label": "包含学习主题 / includesTheme",
+    "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l1",
+    "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l1"
+  },
+  {
+    "relationName": "themeBelongsToCourseType",
+    "label": "隶属于课程类型 / belongsToCourseType",
+    "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l1",
+    "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l1"
+  },
+  {
+    "relationName": "courseTypeIncludesTheme",
+    "label": "包含学习主题 / includesTheme",
+    "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l1",
+    "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l2"
+  },
+  {
+    "relationName": "themeBelongsToCourseType",
+    "label": "隶属于课程类型 / belongsToCourseType",
+    "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l2",
+    "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l1"
+  },
+  {
+    "relationName": "courseTypeIncludesTheme",
+    "label": "包含学习主题 / includesTheme",
+    "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l1",
+    "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l3"
+  },
+  {
+    "relationName": "themeBelongsToCourseType",
+    "label": "隶属于课程类型 / belongsToCourseType",
+    "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l3",
+    "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l1"
+  },
+  {
+    "relationName": "courseTypeIncludesTheme",
+    "label": "包含学习主题 / includesTheme",
+    "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l1",
+    "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l4"
+  },
+  {
+    "relationName": "themeBelongsToCourseType",
+    "label": "隶属于课程类型 / belongsToCourseType",
+    "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l4",
+    "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l1"
+  },
+  {
+    "relationName": "courseTypeIncludesTheme",
+    "label": "包含学习主题 / includesTheme",
+    "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l1",
+    "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l5"
+  },
+  {
+    "relationName": "themeBelongsToCourseType",
+    "label": "隶属于课程类型 / belongsToCourseType",
+    "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l5",
+    "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l1"
+  },
+  {
+    "relationName": "courseTypeIncludesTheme",
+    "label": "包含学习主题 / includesTheme",
+    "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l2",
+    "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l6"
+  },
+  {
+    "relationName": "themeBelongsToCourseType",
+    "label": "隶属于课程类型 / belongsToCourseType",
+    "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l6",
+    "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l2"
+  },
+  {
+    "relationName": "courseTypeIncludesTheme",
+    "label": "包含学习主题 / includesTheme",
+    "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l2",
+    "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l7"
+  },
+  {
+    "relationName": "themeBelongsToCourseType",
+    "label": "隶属于课程类型 / belongsToCourseType",
+    "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l7",
+    "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l2"
+  },
+  {
+    "relationName": "courseTypeIncludesTheme",
+    "label": "包含学习主题 / includesTheme",
+    "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l2",
+    "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l8"
+  },
+  {
+    "relationName": "themeBelongsToCourseType",
+    "label": "隶属于课程类型 / belongsToCourseType",
+    "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l8",
+    "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l2"
+  },
+  {
+    "relationName": "courseTypeIncludesTheme",
+    "label": "包含学习主题 / includesTheme",
+    "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l2",
+    "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l9"
+  },
+  {
+    "relationName": "themeBelongsToCourseType",
+    "label": "隶属于课程类型 / belongsToCourseType",
+    "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l9",
+    "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l2"
+  },
+  {
+    "relationName": "courseTypeIncludesTheme",
+    "label": "包含学习主题 / includesTheme",
+    "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l2",
+    "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l10"
+  },
+  {
+    "relationName": "themeBelongsToCourseType",
+    "label": "隶属于课程类型 / belongsToCourseType",
+    "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l10",
+    "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l2"
+  },
+  {
+    "relationName": "courseTypeIncludesTheme",
+    "label": "包含学习主题 / includesTheme",
+    "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l2",
+    "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l11"
+  },
+  {
+    "relationName": "themeBelongsToCourseType",
+    "label": "隶属于课程类型 / belongsToCourseType",
+    "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l11",
+    "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l2"
+  },
+  {
+    "relationName": "courseTypeIncludesTheme",
+    "label": "包含学习主题 / includesTheme",
+    "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l2",
+    "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l12"
+  },
+  {
+    "relationName": "themeBelongsToCourseType",
+    "label": "隶属于课程类型 / belongsToCourseType",
+    "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l12",
+    "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l2"
+  },
+  {
+    "relationName": "courseTypeIncludesTheme",
+    "label": "包含学习主题 / includesTheme",
+    "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l2",
+    "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l13"
+  },
+  {
+    "relationName": "themeBelongsToCourseType",
+    "label": "隶属于课程类型 / belongsToCourseType",
+    "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l13",
+    "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l2"
+  },
+  {
+    "relationName": "courseTypeIncludesTheme",
+    "label": "包含学习主题 / includesTheme",
+    "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l2",
+    "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l14"
+  },
+  {
+    "relationName": "themeBelongsToCourseType",
+    "label": "隶属于课程类型 / belongsToCourseType",
+    "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l14",
+    "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l2"
+  },
+  {
+    "relationName": "courseTypeIncludesTheme",
+    "label": "包含学习主题 / includesTheme",
+    "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l3",
+    "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l15"
+  },
+  {
+    "relationName": "themeBelongsToCourseType",
+    "label": "隶属于课程类型 / belongsToCourseType",
+    "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l15",
+    "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l3"
+  },
+  {
+    "relationName": "courseTypeIncludesTheme",
+    "label": "包含学习主题 / includesTheme",
+    "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l3",
+    "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l16"
+  },
+  {
+    "relationName": "themeBelongsToCourseType",
+    "label": "隶属于课程类型 / belongsToCourseType",
+    "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l16",
+    "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l3"
+  },
+  {
+    "relationName": "courseTypeIncludesTheme",
+    "label": "包含学习主题 / includesTheme",
+    "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l3",
+    "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l17"
+  },
+  {
+    "relationName": "themeBelongsToCourseType",
+    "label": "隶属于课程类型 / belongsToCourseType",
+    "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l17",
+    "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l3"
+  },
+  {
+    "relationName": "courseTypeIncludesTheme",
+    "label": "包含学习主题 / includesTheme",
+    "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l3",
+    "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l18"
+  },
+  {
+    "relationName": "themeBelongsToCourseType",
+    "label": "隶属于课程类型 / belongsToCourseType",
+    "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l18",
+    "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l3"
+  },
+  {
+    "relationName": "courseTypeIncludesTheme",
+    "label": "包含学习主题 / includesTheme",
+    "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l3",
+    "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l19"
+  },
+  {
+    "relationName": "themeBelongsToCourseType",
+    "label": "隶属于课程类型 / belongsToCourseType",
+    "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l19",
+    "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l3"
+  },
+  {
+    "relationName": "courseTypeIncludesTheme",
+    "label": "包含学习主题 / includesTheme",
+    "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l3",
+    "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l20"
+  },
+  {
+    "relationName": "themeBelongsToCourseType",
+    "label": "隶属于课程类型 / belongsToCourseType",
+    "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l20",
+    "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l3"
+  },
+  {
+    "relationName": "courseTypeIncludesTheme",
+    "label": "包含学习主题 / includesTheme",
+    "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l3",
+    "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l21"
+  },
+  {
+    "relationName": "themeBelongsToCourseType",
+    "label": "隶属于课程类型 / belongsToCourseType",
+    "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l21",
+    "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l3"
+  },
+  {
+    "relationName": "courseTypeIncludesTheme",
+    "label": "包含学习主题 / includesTheme",
+    "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l3",
+    "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l22"
+  },
+  {
+    "relationName": "themeBelongsToCourseType",
+    "label": "隶属于课程类型 / belongsToCourseType",
+    "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l22",
+    "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l3"
+  },
+  {
+    "relationName": "courseTypeIncludesTheme",
+    "label": "包含学习主题 / includesTheme",
+    "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l3",
+    "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l23"
+  },
+  {
+    "relationName": "themeBelongsToCourseType",
+    "label": "隶属于课程类型 / belongsToCourseType",
+    "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l23",
+    "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l3"
+  },
+  {
+    "relationName": "courseTypeIncludesTheme",
+    "label": "包含学习主题 / includesTheme",
+    "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l3",
+    "target": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l24"
+  },
+  {
+    "relationName": "themeBelongsToCourseType",
+    "label": "隶属于课程类型 / belongsToCourseType",
+    "source": "urn:jy:chemistry:SB0402:OB06:LearningTheme:l24",
+    "target": "urn:jy:chemistry:SB0402:OB06:CourseType:l3"
+  }
+]

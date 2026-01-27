@@ -1,268 +1,266 @@
-{
-  "relations": [
-    {
-      "relationName": "academicRequirementsGuideLearningTasks",
-      "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l1",
-      "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l1"
-    },
-    {
-      "relationName": "learningTasksImplementAcademicRequirements",
-      "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
-      "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l1",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l1"
-    },
-    {
-      "relationName": "academicRequirementsGuideLearningTasks",
-      "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2",
-      "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l1"
-    },
-    {
-      "relationName": "learningTasksImplementAcademicRequirements",
-      "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
-      "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l1",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2"
-    },
-    {
-      "relationName": "academicRequirementsGuideLearningTasks",
-      "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l1",
-      "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l2"
-    },
-    {
-      "relationName": "learningTasksImplementAcademicRequirements",
-      "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
-      "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l2",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l1"
-    },
-    {
-      "relationName": "academicRequirementsGuideLearningTasks",
-      "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2",
-      "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l2"
-    },
-    {
-      "relationName": "learningTasksImplementAcademicRequirements",
-      "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
-      "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l2",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2"
-    },
-    {
-      "relationName": "academicRequirementsGuideLearningTasks",
-      "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l1",
-      "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l3"
-    },
-    {
-      "relationName": "learningTasksImplementAcademicRequirements",
-      "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
-      "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l3",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l1"
-    },
-    {
-      "relationName": "academicRequirementsGuideLearningTasks",
-      "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2",
-      "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l3"
-    },
-    {
-      "relationName": "learningTasksImplementAcademicRequirements",
-      "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
-      "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l3",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2"
-    },
-    {
-      "relationName": "academicRequirementsGuideLearningTasks",
-      "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l1",
-      "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l4"
-    },
-    {
-      "relationName": "learningTasksImplementAcademicRequirements",
-      "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
-      "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l4",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l1"
-    },
-    {
-      "relationName": "academicRequirementsGuideLearningTasks",
-      "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2",
-      "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l4"
-    },
-    {
-      "relationName": "learningTasksImplementAcademicRequirements",
-      "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
-      "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l4",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2"
-    },
-    {
-      "relationName": "academicRequirementsGuideLearningTasks",
-      "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l1",
-      "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l5"
-    },
-    {
-      "relationName": "learningTasksImplementAcademicRequirements",
-      "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
-      "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l5",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l1"
-    },
-    {
-      "relationName": "academicRequirementsGuideLearningTasks",
-      "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l1",
-      "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l6"
-    },
-    {
-      "relationName": "learningTasksImplementAcademicRequirements",
-      "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
-      "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l6",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l1"
-    },
-    {
-      "relationName": "academicRequirementsGuideLearningTasks",
-      "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l1",
-      "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l7"
-    },
-    {
-      "relationName": "learningTasksImplementAcademicRequirements",
-      "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
-      "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l7",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l1"
-    },
-    {
-      "relationName": "academicRequirementsGuideLearningTasks",
-      "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2",
-      "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l8"
-    },
-    {
-      "relationName": "learningTasksImplementAcademicRequirements",
-      "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
-      "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l8",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2"
-    },
-    {
-      "relationName": "academicRequirementsGuideLearningTasks",
-      "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2",
-      "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l9"
-    },
-    {
-      "relationName": "learningTasksImplementAcademicRequirements",
-      "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
-      "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l9",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2"
-    },
-    {
-      "relationName": "academicRequirementsGuideLearningTasks",
-      "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2",
-      "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l10"
-    },
-    {
-      "relationName": "learningTasksImplementAcademicRequirements",
-      "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
-      "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l10",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2"
-    },
-    {
-      "relationName": "academicRequirementsGuideLearningTasks",
-      "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2",
-      "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l11"
-    },
-    {
-      "relationName": "learningTasksImplementAcademicRequirements",
-      "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
-      "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l11",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2"
-    },
-    {
-      "relationName": "academicRequirementsGuideLearningTasks",
-      "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2",
-      "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l12"
-    },
-    {
-      "relationName": "learningTasksImplementAcademicRequirements",
-      "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
-      "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l12",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2"
-    },
-    {
-      "relationName": "academicRequirementsGuideLearningTasks",
-      "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2",
-      "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l13"
-    },
-    {
-      "relationName": "learningTasksImplementAcademicRequirements",
-      "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
-      "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l13",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2"
-    },
-    {
-      "relationName": "academicRequirementsGuideLearningTasks",
-      "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2",
-      "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l14"
-    },
-    {
-      "relationName": "learningTasksImplementAcademicRequirements",
-      "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
-      "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l14",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2"
-    },
-    {
-      "relationName": "academicRequirementsGuideLearningTasks",
-      "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2",
-      "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l15"
-    },
-    {
-      "relationName": "learningTasksImplementAcademicRequirements",
-      "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
-      "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l15",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2"
-    },
-    {
-      "relationName": "academicRequirementsGuideLearningTasks",
-      "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2",
-      "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l16"
-    },
-    {
-      "relationName": "learningTasksImplementAcademicRequirements",
-      "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
-      "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l16",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2"
-    },
-    {
-      "relationName": "academicRequirementsGuideLearningTasks",
-      "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2",
-      "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l17"
-    },
-    {
-      "relationName": "learningTasksImplementAcademicRequirements",
-      "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
-      "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l17",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2"
-    },
-    {
-      "relationName": "academicRequirementsGuideLearningTasks",
-      "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
-      "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2",
-      "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l18"
-    },
-    {
-      "relationName": "learningTasksImplementAcademicRequirements",
-      "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
-      "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l18",
-      "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2"
-    }
-  ]
-}
+[
+  {
+    "relationName": "academicRequirementsGuideLearningTasks",
+    "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l1",
+    "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l1"
+  },
+  {
+    "relationName": "learningTasksImplementAcademicRequirements",
+    "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
+    "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l1",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l1"
+  },
+  {
+    "relationName": "academicRequirementsGuideLearningTasks",
+    "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2",
+    "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l1"
+  },
+  {
+    "relationName": "learningTasksImplementAcademicRequirements",
+    "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
+    "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l1",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2"
+  },
+  {
+    "relationName": "academicRequirementsGuideLearningTasks",
+    "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l1",
+    "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l2"
+  },
+  {
+    "relationName": "learningTasksImplementAcademicRequirements",
+    "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
+    "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l2",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l1"
+  },
+  {
+    "relationName": "academicRequirementsGuideLearningTasks",
+    "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2",
+    "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l2"
+  },
+  {
+    "relationName": "learningTasksImplementAcademicRequirements",
+    "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
+    "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l2",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2"
+  },
+  {
+    "relationName": "academicRequirementsGuideLearningTasks",
+    "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l1",
+    "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l3"
+  },
+  {
+    "relationName": "learningTasksImplementAcademicRequirements",
+    "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
+    "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l3",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l1"
+  },
+  {
+    "relationName": "academicRequirementsGuideLearningTasks",
+    "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2",
+    "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l3"
+  },
+  {
+    "relationName": "learningTasksImplementAcademicRequirements",
+    "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
+    "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l3",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2"
+  },
+  {
+    "relationName": "academicRequirementsGuideLearningTasks",
+    "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l1",
+    "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l4"
+  },
+  {
+    "relationName": "learningTasksImplementAcademicRequirements",
+    "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
+    "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l4",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l1"
+  },
+  {
+    "relationName": "academicRequirementsGuideLearningTasks",
+    "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2",
+    "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l4"
+  },
+  {
+    "relationName": "learningTasksImplementAcademicRequirements",
+    "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
+    "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l4",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2"
+  },
+  {
+    "relationName": "academicRequirementsGuideLearningTasks",
+    "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l1",
+    "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l5"
+  },
+  {
+    "relationName": "learningTasksImplementAcademicRequirements",
+    "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
+    "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l5",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l1"
+  },
+  {
+    "relationName": "academicRequirementsGuideLearningTasks",
+    "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l1",
+    "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l6"
+  },
+  {
+    "relationName": "learningTasksImplementAcademicRequirements",
+    "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
+    "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l6",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l1"
+  },
+  {
+    "relationName": "academicRequirementsGuideLearningTasks",
+    "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l1",
+    "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l7"
+  },
+  {
+    "relationName": "learningTasksImplementAcademicRequirements",
+    "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
+    "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l7",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l1"
+  },
+  {
+    "relationName": "academicRequirementsGuideLearningTasks",
+    "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2",
+    "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l8"
+  },
+  {
+    "relationName": "learningTasksImplementAcademicRequirements",
+    "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
+    "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l8",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2"
+  },
+  {
+    "relationName": "academicRequirementsGuideLearningTasks",
+    "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2",
+    "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l9"
+  },
+  {
+    "relationName": "learningTasksImplementAcademicRequirements",
+    "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
+    "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l9",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2"
+  },
+  {
+    "relationName": "academicRequirementsGuideLearningTasks",
+    "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2",
+    "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l10"
+  },
+  {
+    "relationName": "learningTasksImplementAcademicRequirements",
+    "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
+    "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l10",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2"
+  },
+  {
+    "relationName": "academicRequirementsGuideLearningTasks",
+    "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2",
+    "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l11"
+  },
+  {
+    "relationName": "learningTasksImplementAcademicRequirements",
+    "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
+    "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l11",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2"
+  },
+  {
+    "relationName": "academicRequirementsGuideLearningTasks",
+    "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2",
+    "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l12"
+  },
+  {
+    "relationName": "learningTasksImplementAcademicRequirements",
+    "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
+    "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l12",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2"
+  },
+  {
+    "relationName": "academicRequirementsGuideLearningTasks",
+    "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2",
+    "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l13"
+  },
+  {
+    "relationName": "learningTasksImplementAcademicRequirements",
+    "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
+    "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l13",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2"
+  },
+  {
+    "relationName": "academicRequirementsGuideLearningTasks",
+    "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2",
+    "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l14"
+  },
+  {
+    "relationName": "learningTasksImplementAcademicRequirements",
+    "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
+    "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l14",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2"
+  },
+  {
+    "relationName": "academicRequirementsGuideLearningTasks",
+    "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2",
+    "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l15"
+  },
+  {
+    "relationName": "learningTasksImplementAcademicRequirements",
+    "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
+    "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l15",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2"
+  },
+  {
+    "relationName": "academicRequirementsGuideLearningTasks",
+    "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2",
+    "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l16"
+  },
+  {
+    "relationName": "learningTasksImplementAcademicRequirements",
+    "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
+    "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l16",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2"
+  },
+  {
+    "relationName": "academicRequirementsGuideLearningTasks",
+    "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2",
+    "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l17"
+  },
+  {
+    "relationName": "learningTasksImplementAcademicRequirements",
+    "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
+    "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l17",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2"
+  },
+  {
+    "relationName": "academicRequirementsGuideLearningTasks",
+    "label": "学业要求指导学习任务群设计 / guidesLearningTasks",
+    "source": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2",
+    "target": "urn:jy:chinese:SB0101:OB06:LearningTasks:l18"
+  },
+  {
+    "relationName": "learningTasksImplementAcademicRequirements",
+    "label": "学习任务群落实学业要求 / implementsAcademicRequirements",
+    "source": "urn:jy:chinese:SB0101:OB06:LearningTasks:l18",
+    "target": "urn:jy:chinese:SB0101:OB06:AcademicRequirements:l2"
+  }
+]

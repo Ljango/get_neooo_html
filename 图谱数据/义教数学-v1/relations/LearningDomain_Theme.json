@@ -1,280 +1,278 @@
-{
-  "relations": [
-    {
-      "relationName": "domainHasTheme",
-      "label": "包含主题 / hasTheme",
-      "source": "urn:jy:math:2022:domain:number-algebra:s1",
-      "target": "urn:jy:math:2022:theme:s1:na:number-operations"
-    },
-    {
-      "relationName": "themeBelongsToDomain",
-      "label": "归属领域 / belongsToDomain",
-      "source": "urn:jy:math:2022:theme:s1:na:number-operations",
-      "target": "urn:jy:math:2022:domain:number-algebra:s1"
-    },
-    {
-      "relationName": "domainHasTheme",
-      "label": "包含主题 / hasTheme",
-      "source": "urn:jy:math:2022:domain:number-algebra:s1",
-      "target": "urn:jy:math:2022:theme:s1:na:quantitative-relations"
-    },
-    {
-      "relationName": "themeBelongsToDomain",
-      "label": "归属领域 / belongsToDomain",
-      "source": "urn:jy:math:2022:theme:s1:na:quantitative-relations",
-      "target": "urn:jy:math:2022:domain:number-algebra:s1"
-    },
-    {
-      "relationName": "domainHasTheme",
-      "label": "包含主题 / hasTheme",
-      "source": "urn:jy:math:2022:domain:number-algebra:s2",
-      "target": "urn:jy:math:2022:theme:s2:na:number-operations"
-    },
-    {
-      "relationName": "themeBelongsToDomain",
-      "label": "归属领域 / belongsToDomain",
-      "source": "urn:jy:math:2022:theme:s2:na:number-operations",
-      "target": "urn:jy:math:2022:domain:number-algebra:s2"
-    },
-    {
-      "relationName": "domainHasTheme",
-      "label": "包含主题 / hasTheme",
-      "source": "urn:jy:math:2022:domain:number-algebra:s2",
-      "target": "urn:jy:math:2022:theme:s2:na:quantitative-relations"
-    },
-    {
-      "relationName": "themeBelongsToDomain",
-      "label": "归属领域 / belongsToDomain",
-      "source": "urn:jy:math:2022:theme:s2:na:quantitative-relations",
-      "target": "urn:jy:math:2022:domain:number-algebra:s2"
-    },
-    {
-      "relationName": "domainHasTheme",
-      "label": "包含主题 / hasTheme",
-      "source": "urn:jy:math:2022:domain:number-algebra:s3",
-      "target": "urn:jy:math:2022:theme:s3:na:number-operations"
-    },
-    {
-      "relationName": "themeBelongsToDomain",
-      "label": "归属领域 / belongsToDomain",
-      "source": "urn:jy:math:2022:theme:s3:na:number-operations",
-      "target": "urn:jy:math:2022:domain:number-algebra:s3"
-    },
-    {
-      "relationName": "domainHasTheme",
-      "label": "包含主题 / hasTheme",
-      "source": "urn:jy:math:2022:domain:number-algebra:s3",
-      "target": "urn:jy:math:2022:theme:s3:na:quantitative-relations"
-    },
-    {
-      "relationName": "themeBelongsToDomain",
-      "label": "归属领域 / belongsToDomain",
-      "source": "urn:jy:math:2022:theme:s3:na:quantitative-relations",
-      "target": "urn:jy:math:2022:domain:number-algebra:s3"
-    },
-    {
-      "relationName": "domainHasTheme",
-      "label": "包含主题 / hasTheme",
-      "source": "urn:jy:math:2022:domain:number-algebra:s4",
-      "target": "urn:jy:math:2022:theme:s4:na:expressions"
-    },
-    {
-      "relationName": "themeBelongsToDomain",
-      "label": "归属领域 / belongsToDomain",
-      "source": "urn:jy:math:2022:theme:s4:na:expressions",
-      "target": "urn:jy:math:2022:domain:number-algebra:s4"
-    },
-    {
-      "relationName": "domainHasTheme",
-      "label": "包含主题 / hasTheme",
-      "source": "urn:jy:math:2022:domain:number-algebra:s4",
-      "target": "urn:jy:math:2022:theme:s4:na:equations-inequalities"
-    },
-    {
-      "relationName": "themeBelongsToDomain",
-      "label": "归属领域 / belongsToDomain",
-      "source": "urn:jy:math:2022:theme:s4:na:equations-inequalities",
-      "target": "urn:jy:math:2022:domain:number-algebra:s4"
-    },
-    {
-      "relationName": "domainHasTheme",
-      "label": "包含主题 / hasTheme",
-      "source": "urn:jy:math:2022:domain:number-algebra:s4",
-      "target": "urn:jy:math:2022:theme:s4:na:functions"
-    },
-    {
-      "relationName": "themeBelongsToDomain",
-      "label": "归属领域 / belongsToDomain",
-      "source": "urn:jy:math:2022:theme:s4:na:functions",
-      "target": "urn:jy:math:2022:domain:number-algebra:s4"
-    },
-    {
-      "relationName": "domainHasTheme",
-      "label": "包含主题 / hasTheme",
-      "source": "urn:jy:math:2022:domain:shape-geometry:s1",
-      "target": "urn:jy:math:2022:theme:s1:sg:recognition-measurement"
-    },
-    {
-      "relationName": "themeBelongsToDomain",
-      "label": "归属领域 / belongsToDomain",
-      "source": "urn:jy:math:2022:theme:s1:sg:recognition-measurement",
-      "target": "urn:jy:math:2022:domain:shape-geometry:s1"
-    },
-    {
-      "relationName": "domainHasTheme",
-      "label": "包含主题 / hasTheme",
-      "source": "urn:jy:math:2022:domain:shape-geometry:s2",
-      "target": "urn:jy:math:2022:theme:s2:sg:recognition-measurement"
-    },
-    {
-      "relationName": "themeBelongsToDomain",
-      "label": "归属领域 / belongsToDomain",
-      "source": "urn:jy:math:2022:theme:s2:sg:recognition-measurement",
-      "target": "urn:jy:math:2022:domain:shape-geometry:s2"
-    },
-    {
-      "relationName": "domainHasTheme",
-      "label": "包含主题 / hasTheme",
-      "source": "urn:jy:math:2022:domain:shape-geometry:s2",
-      "target": "urn:jy:math:2022:theme:s2:sg:position-motion"
-    },
-    {
-      "relationName": "themeBelongsToDomain",
-      "label": "归属领域 / belongsToDomain",
-      "source": "urn:jy:math:2022:theme:s2:sg:position-motion",
-      "target": "urn:jy:math:2022:domain:shape-geometry:s2"
-    },
-    {
-      "relationName": "domainHasTheme",
-      "label": "包含主题 / hasTheme",
-      "source": "urn:jy:math:2022:domain:shape-geometry:s3",
-      "target": "urn:jy:math:2022:theme:s3:sg:recognition-measurement"
-    },
-    {
-      "relationName": "themeBelongsToDomain",
-      "label": "归属领域 / belongsToDomain",
-      "source": "urn:jy:math:2022:theme:s3:sg:recognition-measurement",
-      "target": "urn:jy:math:2022:domain:shape-geometry:s3"
-    },
-    {
-      "relationName": "domainHasTheme",
-      "label": "包含主题 / hasTheme",
-      "source": "urn:jy:math:2022:domain:shape-geometry:s3",
-      "target": "urn:jy:math:2022:theme:s3:sg:position-motion"
-    },
-    {
-      "relationName": "themeBelongsToDomain",
-      "label": "归属领域 / belongsToDomain",
-      "source": "urn:jy:math:2022:theme:s3:sg:position-motion",
-      "target": "urn:jy:math:2022:domain:shape-geometry:s3"
-    },
-    {
-      "relationName": "domainHasTheme",
-      "label": "包含主题 / hasTheme",
-      "source": "urn:jy:math:2022:domain:shape-geometry:s4",
-      "target": "urn:jy:math:2022:theme:s4:sg:properties"
-    },
-    {
-      "relationName": "themeBelongsToDomain",
-      "label": "归属领域 / belongsToDomain",
-      "source": "urn:jy:math:2022:theme:s4:sg:properties",
-      "target": "urn:jy:math:2022:domain:shape-geometry:s4"
-    },
-    {
-      "relationName": "domainHasTheme",
-      "label": "包含主题 / hasTheme",
-      "source": "urn:jy:math:2022:domain:shape-geometry:s4",
-      "target": "urn:jy:math:2022:theme:s4:sg:transformations"
-    },
-    {
-      "relationName": "themeBelongsToDomain",
-      "label": "归属领域 / belongsToDomain",
-      "source": "urn:jy:math:2022:theme:s4:sg:transformations",
-      "target": "urn:jy:math:2022:domain:shape-geometry:s4"
-    },
-    {
-      "relationName": "domainHasTheme",
-      "label": "包含主题 / hasTheme",
-      "source": "urn:jy:math:2022:domain:shape-geometry:s4",
-      "target": "urn:jy:math:2022:theme:s4:sg:coordinates"
-    },
-    {
-      "relationName": "themeBelongsToDomain",
-      "label": "归属领域 / belongsToDomain",
-      "source": "urn:jy:math:2022:theme:s4:sg:coordinates",
-      "target": "urn:jy:math:2022:domain:shape-geometry:s4"
-    },
-    {
-      "relationName": "domainHasTheme",
-      "label": "包含主题 / hasTheme",
-      "source": "urn:jy:math:2022:domain:statistics-probability:s1",
-      "target": "urn:jy:math:2022:theme:s1:sp:data-categorization"
-    },
-    {
-      "relationName": "themeBelongsToDomain",
-      "label": "归属领域 / belongsToDomain",
-      "source": "urn:jy:math:2022:theme:s1:sp:data-categorization",
-      "target": "urn:jy:math:2022:domain:statistics-probability:s1"
-    },
-    {
-      "relationName": "domainHasTheme",
-      "label": "包含主题 / hasTheme",
-      "source": "urn:jy:math:2022:domain:statistics-probability:s2",
-      "target": "urn:jy:math:2022:theme:s2:sp:collect-organize-express"
-    },
-    {
-      "relationName": "themeBelongsToDomain",
-      "label": "归属领域 / belongsToDomain",
-      "source": "urn:jy:math:2022:theme:s2:sp:collect-organize-express",
-      "target": "urn:jy:math:2022:domain:statistics-probability:s2"
-    },
-    {
-      "relationName": "domainHasTheme",
-      "label": "包含主题 / hasTheme",
-      "source": "urn:jy:math:2022:domain:statistics-probability:s3",
-      "target": "urn:jy:math:2022:theme:s3:sp:collect-organize-express"
-    },
-    {
-      "relationName": "themeBelongsToDomain",
-      "label": "归属领域 / belongsToDomain",
-      "source": "urn:jy:math:2022:theme:s3:sp:collect-organize-express",
-      "target": "urn:jy:math:2022:domain:statistics-probability:s3"
-    },
-    {
-      "relationName": "domainHasTheme",
-      "label": "包含主题 / hasTheme",
-      "source": "urn:jy:math:2022:domain:statistics-probability:s3",
-      "target": "urn:jy:math:2022:theme:s3:sp:random-possibility"
-    },
-    {
-      "relationName": "themeBelongsToDomain",
-      "label": "归属领域 / belongsToDomain",
-      "source": "urn:jy:math:2022:theme:s3:sp:random-possibility",
-      "target": "urn:jy:math:2022:domain:statistics-probability:s3"
-    },
-    {
-      "relationName": "domainHasTheme",
-      "label": "包含主题 / hasTheme",
-      "source": "urn:jy:math:2022:domain:statistics-probability:s4",
-      "target": "urn:jy:math:2022:theme:s4:sp:sampling-data-analysis"
-    },
-    {
-      "relationName": "themeBelongsToDomain",
-      "label": "归属领域 / belongsToDomain",
-      "source": "urn:jy:math:2022:theme:s4:sp:sampling-data-analysis",
-      "target": "urn:jy:math:2022:domain:statistics-probability:s4"
-    },
-    {
-      "relationName": "domainHasTheme",
-      "label": "包含主题 / hasTheme",
-      "source": "urn:jy:math:2022:domain:statistics-probability:s4",
-      "target": "urn:jy:math:2022:theme:s4:sp:probability"
-    },
-    {
-      "relationName": "themeBelongsToDomain",
-      "label": "归属领域 / belongsToDomain",
-      "source": "urn:jy:math:2022:theme:s4:sp:probability",
-      "target": "urn:jy:math:2022:domain:statistics-probability:s4"
-    }
-  ]
-}
+[
+  {
+    "relationName": "domainHasTheme",
+    "label": "包含主题 / hasTheme",
+    "source": "urn:jy:math:2022:domain:number-algebra:s1",
+    "target": "urn:jy:math:2022:theme:s1:na:number-operations"
+  },
+  {
+    "relationName": "themeBelongsToDomain",
+    "label": "归属领域 / belongsToDomain",
+    "source": "urn:jy:math:2022:theme:s1:na:number-operations",
+    "target": "urn:jy:math:2022:domain:number-algebra:s1"
+  },
+  {
+    "relationName": "domainHasTheme",
+    "label": "包含主题 / hasTheme",
+    "source": "urn:jy:math:2022:domain:number-algebra:s1",
+    "target": "urn:jy:math:2022:theme:s1:na:quantitative-relations"
+  },
+  {
+    "relationName": "themeBelongsToDomain",
+    "label": "归属领域 / belongsToDomain",
+    "source": "urn:jy:math:2022:theme:s1:na:quantitative-relations",
+    "target": "urn:jy:math:2022:domain:number-algebra:s1"
+  },
+  {
+    "relationName": "domainHasTheme",
+    "label": "包含主题 / hasTheme",
+    "source": "urn:jy:math:2022:domain:number-algebra:s2",
+    "target": "urn:jy:math:2022:theme:s2:na:number-operations"
+  },
+  {
+    "relationName": "themeBelongsToDomain",
+    "label": "归属领域 / belongsToDomain",
+    "source": "urn:jy:math:2022:theme:s2:na:number-operations",
+    "target": "urn:jy:math:2022:domain:number-algebra:s2"
+  },
+  {
+    "relationName": "domainHasTheme",
+    "label": "包含主题 / hasTheme",
+    "source": "urn:jy:math:2022:domain:number-algebra:s2",
+    "target": "urn:jy:math:2022:theme:s2:na:quantitative-relations"
+  },
+  {
+    "relationName": "themeBelongsToDomain",
+    "label": "归属领域 / belongsToDomain",
+    "source": "urn:jy:math:2022:theme:s2:na:quantitative-relations",
+    "target": "urn:jy:math:2022:domain:number-algebra:s2"
+  },
+  {
+    "relationName": "domainHasTheme",
+    "label": "包含主题 / hasTheme",
+    "source": "urn:jy:math:2022:domain:number-algebra:s3",
+    "target": "urn:jy:math:2022:theme:s3:na:number-operations"
+  },
+  {
+    "relationName": "themeBelongsToDomain",
+    "label": "归属领域 / belongsToDomain",
+    "source": "urn:jy:math:2022:theme:s3:na:number-operations",
+    "target": "urn:jy:math:2022:domain:number-algebra:s3"
+  },
+  {
+    "relationName": "domainHasTheme",
+    "label": "包含主题 / hasTheme",
+    "source": "urn:jy:math:2022:domain:number-algebra:s3",
+    "target": "urn:jy:math:2022:theme:s3:na:quantitative-relations"
+  },
+  {
+    "relationName": "themeBelongsToDomain",
+    "label": "归属领域 / belongsToDomain",
+    "source": "urn:jy:math:2022:theme:s3:na:quantitative-relations",
+    "target": "urn:jy:math:2022:domain:number-algebra:s3"
+  },
+  {
+    "relationName": "domainHasTheme",
+    "label": "包含主题 / hasTheme",
+    "source": "urn:jy:math:2022:domain:number-algebra:s4",
+    "target": "urn:jy:math:2022:theme:s4:na:expressions"
+  },
+  {
+    "relationName": "themeBelongsToDomain",
+    "label": "归属领域 / belongsToDomain",
+    "source": "urn:jy:math:2022:theme:s4:na:expressions",
+    "target": "urn:jy:math:2022:domain:number-algebra:s4"
+  },
+  {
+    "relationName": "domainHasTheme",
+    "label": "包含主题 / hasTheme",
+    "source": "urn:jy:math:2022:domain:number-algebra:s4",
+    "target": "urn:jy:math:2022:theme:s4:na:equations-inequalities"
+  },
+  {
+    "relationName": "themeBelongsToDomain",
+    "label": "归属领域 / belongsToDomain",
+    "source": "urn:jy:math:2022:theme:s4:na:equations-inequalities",
+    "target": "urn:jy:math:2022:domain:number-algebra:s4"
+  },
+  {
+    "relationName": "domainHasTheme",
+    "label": "包含主题 / hasTheme",
+    "source": "urn:jy:math:2022:domain:number-algebra:s4",
+    "target": "urn:jy:math:2022:theme:s4:na:functions"
+  },
+  {
+    "relationName": "themeBelongsToDomain",
+    "label": "归属领域 / belongsToDomain",
+    "source": "urn:jy:math:2022:theme:s4:na:functions",
+    "target": "urn:jy:math:2022:domain:number-algebra:s4"
+  },
+  {
+    "relationName": "domainHasTheme",
+    "label": "包含主题 / hasTheme",
+    "source": "urn:jy:math:2022:domain:shape-geometry:s1",
+    "target": "urn:jy:math:2022:theme:s1:sg:recognition-measurement"
+  },
+  {
+    "relationName": "themeBelongsToDomain",
+    "label": "归属领域 / belongsToDomain",
+    "source": "urn:jy:math:2022:theme:s1:sg:recognition-measurement",
+    "target": "urn:jy:math:2022:domain:shape-geometry:s1"
+  },
+  {
+    "relationName": "domainHasTheme",
+    "label": "包含主题 / hasTheme",
+    "source": "urn:jy:math:2022:domain:shape-geometry:s2",
+    "target": "urn:jy:math:2022:theme:s2:sg:recognition-measurement"
+  },
+  {
+    "relationName": "themeBelongsToDomain",
+    "label": "归属领域 / belongsToDomain",
+    "source": "urn:jy:math:2022:theme:s2:sg:recognition-measurement",
+    "target": "urn:jy:math:2022:domain:shape-geometry:s2"
+  },
+  {
+    "relationName": "domainHasTheme",
+    "label": "包含主题 / hasTheme",
+    "source": "urn:jy:math:2022:domain:shape-geometry:s2",
+    "target": "urn:jy:math:2022:theme:s2:sg:position-motion"
+  },
+  {
+    "relationName": "themeBelongsToDomain",
+    "label": "归属领域 / belongsToDomain",
+    "source": "urn:jy:math:2022:theme:s2:sg:position-motion",
+    "target": "urn:jy:math:2022:domain:shape-geometry:s2"
+  },
+  {
+    "relationName": "domainHasTheme",
+    "label": "包含主题 / hasTheme",
+    "source": "urn:jy:math:2022:domain:shape-geometry:s3",
+    "target": "urn:jy:math:2022:theme:s3:sg:recognition-measurement"
+  },
+  {
+    "relationName": "themeBelongsToDomain",
+    "label": "归属领域 / belongsToDomain",
+    "source": "urn:jy:math:2022:theme:s3:sg:recognition-measurement",
+    "target": "urn:jy:math:2022:domain:shape-geometry:s3"
+  },
+  {
+    "relationName": "domainHasTheme",
+    "label": "包含主题 / hasTheme",
+    "source": "urn:jy:math:2022:domain:shape-geometry:s3",
+    "target": "urn:jy:math:2022:theme:s3:sg:position-motion"
+  },
+  {
+    "relationName": "themeBelongsToDomain",
+    "label": "归属领域 / belongsToDomain",
+    "source": "urn:jy:math:2022:theme:s3:sg:position-motion",
+    "target": "urn:jy:math:2022:domain:shape-geometry:s3"
+  },
+  {
+    "relationName": "domainHasTheme",
+    "label": "包含主题 / hasTheme",
+    "source": "urn:jy:math:2022:domain:shape-geometry:s4",
+    "target": "urn:jy:math:2022:theme:s4:sg:properties"
+  },
+  {
+    "relationName": "themeBelongsToDomain",
+    "label": "归属领域 / belongsToDomain",
+    "source": "urn:jy:math:2022:theme:s4:sg:properties",
+    "target": "urn:jy:math:2022:domain:shape-geometry:s4"
+  },
+  {
+    "relationName": "domainHasTheme",
+    "label": "包含主题 / hasTheme",
+    "source": "urn:jy:math:2022:domain:shape-geometry:s4",
+    "target": "urn:jy:math:2022:theme:s4:sg:transformations"
+  },
+  {
+    "relationName": "themeBelongsToDomain",
+    "label": "归属领域 / belongsToDomain",
+    "source": "urn:jy:math:2022:theme:s4:sg:transformations",
+    "target": "urn:jy:math:2022:domain:shape-geometry:s4"
+  },
+  {
+    "relationName": "domainHasTheme",
+    "label": "包含主题 / hasTheme",
+    "source": "urn:jy:math:2022:domain:shape-geometry:s4",
+    "target": "urn:jy:math:2022:theme:s4:sg:coordinates"
+  },
+  {
+    "relationName": "themeBelongsToDomain",
+    "label": "归属领域 / belongsToDomain",
+    "source": "urn:jy:math:2022:theme:s4:sg:coordinates",
+    "target": "urn:jy:math:2022:domain:shape-geometry:s4"
+  },
+  {
+    "relationName": "domainHasTheme",
+    "label": "包含主题 / hasTheme",
+    "source": "urn:jy:math:2022:domain:statistics-probability:s1",
+    "target": "urn:jy:math:2022:theme:s1:sp:data-categorization"
+  },
+  {
+    "relationName": "themeBelongsToDomain",
+    "label": "归属领域 / belongsToDomain",
+    "source": "urn:jy:math:2022:theme:s1:sp:data-categorization",
+    "target": "urn:jy:math:2022:domain:statistics-probability:s1"
+  },
+  {
+    "relationName": "domainHasTheme",
+    "label": "包含主题 / hasTheme",
+    "source": "urn:jy:math:2022:domain:statistics-probability:s2",
+    "target": "urn:jy:math:2022:theme:s2:sp:collect-organize-express"
+  },
+  {
+    "relationName": "themeBelongsToDomain",
+    "label": "归属领域 / belongsToDomain",
+    "source": "urn:jy:math:2022:theme:s2:sp:collect-organize-express",
+    "target": "urn:jy:math:2022:domain:statistics-probability:s2"
+  },
+  {
+    "relationName": "domainHasTheme",
+    "label": "包含主题 / hasTheme",
+    "source": "urn:jy:math:2022:domain:statistics-probability:s3",
+    "target": "urn:jy:math:2022:theme:s3:sp:collect-organize-express"
+  },
+  {
+    "relationName": "themeBelongsToDomain",
+    "label": "归属领域 / belongsToDomain",
+    "source": "urn:jy:math:2022:theme:s3:sp:collect-organize-express",
+    "target": "urn:jy:math:2022:domain:statistics-probability:s3"
+  },
+  {
+    "relationName": "domainHasTheme",
+    "label": "包含主题 / hasTheme",
+    "source": "urn:jy:math:2022:domain:statistics-probability:s3",
+    "target": "urn:jy:math:2022:theme:s3:sp:random-possibility"
+  },
+  {
+    "relationName": "themeBelongsToDomain",
+    "label": "归属领域 / belongsToDomain",
+    "source": "urn:jy:math:2022:theme:s3:sp:random-possibility",
+    "target": "urn:jy:math:2022:domain:statistics-probability:s3"
+  },
+  {
+    "relationName": "domainHasTheme",
+    "label": "包含主题 / hasTheme",
+    "source": "urn:jy:math:2022:domain:statistics-probability:s4",
+    "target": "urn:jy:math:2022:theme:s4:sp:sampling-data-analysis"
+  },
+  {
+    "relationName": "themeBelongsToDomain",
+    "label": "归属领域 / belongsToDomain",
+    "source": "urn:jy:math:2022:theme:s4:sp:sampling-data-analysis",
+    "target": "urn:jy:math:2022:domain:statistics-probability:s4"
+  },
+  {
+    "relationName": "domainHasTheme",
+    "label": "包含主题 / hasTheme",
+    "source": "urn:jy:math:2022:domain:statistics-probability:s4",
+    "target": "urn:jy:math:2022:theme:s4:sp:probability"
+  },
+  {
+    "relationName": "themeBelongsToDomain",
+    "label": "归属领域 / belongsToDomain",
+    "source": "urn:jy:math:2022:theme:s4:sp:probability",
+    "target": "urn:jy:math:2022:domain:statistics-probability:s4"
+  }
+]

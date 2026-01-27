@@ -1,1460 +1,1458 @@
-{
-  "entities": [
-    {
-      "type": "Chapter_primary",
-      "title": "位置与方向（一）",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_三年级_数学_人教版_下册",
-        "Grade": "三下",
-        "chapter_num": 1
-      },
-      "identifier": "urn:jy:math:2022:chapter:e1cb490e0368"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "除数是一位数的除法",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_三年级_数学_人教版_下册",
-        "Grade": "三下",
-        "chapter_num": 2
-      },
-      "identifier": "urn:jy:math:2022:chapter:616e73e78c01"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "复式统计表",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_三年级_数学_人教版_下册",
-        "Grade": "三下",
-        "chapter_num": 3
-      },
-      "identifier": "urn:jy:math:2022:chapter:d9d576f0323b"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "两位数乘两位数",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_三年级_数学_人教版_下册",
-        "Grade": "三下",
-        "chapter_num": 4
-      },
-      "identifier": "urn:jy:math:2022:chapter:f3f8284dd0fc"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "面积",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_三年级_数学_人教版_下册",
-        "Grade": "三下",
-        "chapter_num": 5
-      },
-      "identifier": "urn:jy:math:2022:chapter:9890f65af8e1"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "年、月、日",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_三年级_数学_人教版_下册",
-        "Grade": "三下",
-        "chapter_num": 6
-      },
-      "identifier": "urn:jy:math:2022:chapter:c4fc088684e9"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "制作活动日历",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_三年级_数学_人教版_下册",
-        "Grade": "三下",
-        "chapter_num": 7
-      },
-      "identifier": "urn:jy:math:2022:chapter:8606134b1dc6"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "小数的初步认识",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_三年级_数学_人教版_下册",
-        "Grade": "三下",
-        "chapter_num": 8
-      },
-      "identifier": "urn:jy:math:2022:chapter:39ea2d1cd3e7"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "数学广角——搭配（二）",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_三年级_数学_人教版_下册",
-        "Grade": "三下",
-        "chapter_num": 9
-      },
-      "identifier": "urn:jy:math:2022:chapter:260c8404f2f5"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "我们的校园",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_三年级_数学_人教版_下册",
-        "Grade": "三下",
-        "chapter_num": 10
-      },
-      "identifier": "urn:jy:math:2022:chapter:1daf2d5eeb96"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "总复习",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_三年级_数学_人教版_下册",
-        "Grade": "三下",
-        "chapter_num": 11
-      },
-      "identifier": "urn:jy:math:2022:chapter:05b4790aa86a"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "数据收集和整理",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S1",
-      "contentJson": {
-        "textVersion": "小学_二年级_数学_人教版_下册",
-        "Grade": "二下",
-        "chapter_num": 1
-      },
-      "identifier": "urn:jy:math:2022:chapter:704477bbf47c"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "表内除法（一）",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S1",
-      "contentJson": {
-        "textVersion": "小学_二年级_数学_人教版_下册",
-        "Grade": "二下",
-        "chapter_num": 2
-      },
-      "identifier": "urn:jy:math:2022:chapter:78cb8d301886"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "图形的运动（一）",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S1",
-      "contentJson": {
-        "textVersion": "小学_二年级_数学_人教版_下册",
-        "Grade": "二下",
-        "chapter_num": 3
-      },
-      "identifier": "urn:jy:math:2022:chapter:c1e54e413da3"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "表内除法（二）",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S1",
-      "contentJson": {
-        "textVersion": "小学_二年级_数学_人教版_下册",
-        "Grade": "二下",
-        "chapter_num": 4
-      },
-      "identifier": "urn:jy:math:2022:chapter:ca6fa2cc1a52"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "混合运算",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S1",
-      "contentJson": {
-        "textVersion": "小学_二年级_数学_人教版_下册",
-        "Grade": "二下",
-        "chapter_num": 5
-      },
-      "identifier": "urn:jy:math:2022:chapter:3c97d46c638a"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "有余数的除法",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S1",
-      "contentJson": {
-        "textVersion": "小学_二年级_数学_人教版_下册",
-        "Grade": "二下",
-        "chapter_num": 6
-      },
-      "identifier": "urn:jy:math:2022:chapter:a50c2f4bca8f"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "小小设计师",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S1",
-      "contentJson": {
-        "textVersion": "小学_二年级_数学_人教版_下册",
-        "Grade": "二下",
-        "chapter_num": 7
-      },
-      "identifier": "urn:jy:math:2022:chapter:b00c49d2076c"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "万以内数的认识",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S1",
-      "contentJson": {
-        "textVersion": "小学_二年级_数学_人教版_下册",
-        "Grade": "二下",
-        "chapter_num": 8
-      },
-      "identifier": "urn:jy:math:2022:chapter:f78e25b7f211"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "克和千克",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S1",
-      "contentJson": {
-        "textVersion": "小学_二年级_数学_人教版_下册",
-        "Grade": "二下",
-        "chapter_num": 9
-      },
-      "identifier": "urn:jy:math:2022:chapter:cbd79c82700d"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "数学广角——推理",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S1",
-      "contentJson": {
-        "textVersion": "小学_二年级_数学_人教版_下册",
-        "Grade": "二下",
-        "chapter_num": 10
-      },
-      "identifier": "urn:jy:math:2022:chapter:626a43ec0f15"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "总复习",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S1",
-      "contentJson": {
-        "textVersion": "小学_二年级_数学_人教版_下册",
-        "Grade": "二下",
-        "chapter_num": 11
-      },
-      "identifier": "urn:jy:math:2022:chapter:9ae8cbb3c416"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "观察物体",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_三年级_数学_人教版_上册",
-        "Grade": "三上",
-        "chapter_num": 1
-      },
-      "identifier": "urn:jy:math:2022:chapter:9b707c4d07cf"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "混合运算",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_三年级_数学_人教版_上册",
-        "Grade": "三上",
-        "chapter_num": 2
-      },
-      "identifier": "urn:jy:math:2022:chapter:bbabbbd8e0b7"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "毫米、分米和千米",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_三年级_数学_人教版_上册",
-        "Grade": "三上",
-        "chapter_num": 3
-      },
-      "identifier": "urn:jy:math:2022:chapter:aba6e75dd203"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "曹冲称象的故事",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_三年级_数学_人教版_上册",
-        "Grade": "三上",
-        "chapter_num": -3
-      },
-      "identifier": "urn:jy:math:2022:chapter:c0e127e24bca"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "多位数乘一位数",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_三年级_数学_人教版_上册",
-        "Grade": "三上",
-        "chapter_num": 4
-      },
-      "identifier": "urn:jy:math:2022:chapter:610990b045e1"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "数字编码",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_三年级_数学_人教版_上册",
-        "Grade": "三上",
-        "chapter_num": -4
-      },
-      "identifier": "urn:jy:math:2022:chapter:858b75207be3"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "线和角",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_三年级_数学_人教版_上册",
-        "Grade": "三上",
-        "chapter_num": 5
-      },
-      "identifier": "urn:jy:math:2022:chapter:9237f22c3bb7"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "分数的初步认识",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_三年级_数学_人教版_上册",
-        "Grade": "三上",
-        "chapter_num": 6
-      },
-      "identifier": "urn:jy:math:2022:chapter:5c275c387d7d"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "复习与关联",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_三年级_数学_人教版_上册",
-        "Grade": "三上",
-        "chapter_num": 7
-      },
-      "identifier": "urn:jy:math:2022:chapter:d3609bae9d9a"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "分类与整理",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S1",
-      "contentJson": {
-        "textVersion": "小学_二年级_数学_人教版_上册",
-        "Grade": "二上",
-        "chapter_num": 1
-      },
-      "identifier": "urn:jy:math:2022:chapter:db428639cd37"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "1～6的表内乘法",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S1",
-      "contentJson": {
-        "textVersion": "小学_二年级_数学_人教版_上册",
-        "Grade": "二上",
-        "chapter_num": 2
-      },
-      "identifier": "urn:jy:math:2022:chapter:55e2da6f1f7d"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "1～6的表内除法",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S1",
-      "contentJson": {
-        "textVersion": "小学_二年级_数学_人教版_上册",
-        "Grade": "二上",
-        "chapter_num": 3
-      },
-      "identifier": "urn:jy:math:2022:chapter:3c4887753f8b"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": " 校园小导游",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S1",
-      "contentJson": {
-        "textVersion": "小学_二年级_数学_人教版_上册",
-        "Grade": "二上",
-        "chapter_num": -3
-      },
-      "identifier": "urn:jy:math:2022:chapter:4b7055a49f0b"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "厘米与米",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S1",
-      "contentJson": {
-        "textVersion": "小学_二年级_数学_人教版_上册",
-        "Grade": "二上",
-        "chapter_num": 4
-      },
-      "identifier": "urn:jy:math:2022:chapter:1d5669abec40"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "认识时间",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S1",
-      "contentJson": {
-        "textVersion": "小学_二年级_数学_人教版_上册",
-        "Grade": "二上",
-        "chapter_num": 5
-      },
-      "identifier": "urn:jy:math:2022:chapter:8b04fe1f6d3a"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "数学广角——推理",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S1",
-      "contentJson": {
-        "textVersion": "小学_二年级_数学_人教版_上册",
-        "Grade": "二上",
-        "chapter_num": 6
-      },
-      "identifier": "urn:jy:math:2022:chapter:f7d8918c0dd6"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "复习与关联",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S1",
-      "contentJson": {
-        "textVersion": "小学_二年级_数学_人教版_上册",
-        "Grade": "二上",
-        "chapter_num": 7
-      },
-      "identifier": "urn:jy:math:2022:chapter:df3b8285690e"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "负数",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_六年级_数学_人教版_下册",
-        "Grade": "六下",
-        "chapter_num": 1
-      },
-      "identifier": "urn:jy:math:2022:chapter:027a813e5ec5"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "百分数（二）",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_六年级_数学_人教版_下册",
-        "Grade": "六下",
-        "chapter_num": 2
-      },
-      "identifier": "urn:jy:math:2022:chapter:6f2f7c55ffc5"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "生活与百分数",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_六年级_数学_人教版_下册",
-        "Grade": "六下",
-        "chapter_num": 3
-      },
-      "identifier": "urn:jy:math:2022:chapter:906a693d27ff"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "圆柱与圆锥",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_六年级_数学_人教版_下册",
-        "Grade": "六下",
-        "chapter_num": 4
-      },
-      "identifier": "urn:jy:math:2022:chapter:3fc6c40d2521"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "整理和复习",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_六年级_数学_人教版_下册",
-        "Grade": "六下",
-        "chapter_num": -4
-      },
-      "identifier": "urn:jy:math:2022:chapter:50b5929d63d8"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "比例",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_六年级_数学_人教版_下册",
-        "Grade": "六下",
-        "chapter_num": 5
-      },
-      "identifier": "urn:jy:math:2022:chapter:9faba01f239e"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "自行车里的数学",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_六年级_数学_人教版_下册",
-        "Grade": "六下",
-        "chapter_num": 6
-      },
-      "identifier": "urn:jy:math:2022:chapter:54e46f938a54"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "数学广角——鸽巢问题",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_六年级_数学_人教版_下册",
-        "Grade": "六下",
-        "chapter_num": 7
-      },
-      "identifier": "urn:jy:math:2022:chapter:fa82adc8c729"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "分数乘法",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_六年级_数学_人教版_上册",
-        "Grade": "六上",
-        "chapter_num": 1
-      },
-      "identifier": "urn:jy:math:2022:chapter:1a3a3aa81668"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "位置与方向（二）",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_六年级_数学_人教版_上册",
-        "Grade": "六上",
-        "chapter_num": 2
-      },
-      "identifier": "urn:jy:math:2022:chapter:1816b882108b"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "分数除法",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_六年级_数学_人教版_上册",
-        "Grade": "六上",
-        "chapter_num": 3
-      },
-      "identifier": "urn:jy:math:2022:chapter:a3332f949e06"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "比",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_六年级_数学_人教版_上册",
-        "Grade": "六上",
-        "chapter_num": 4
-      },
-      "identifier": "urn:jy:math:2022:chapter:85dae5498cfb"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "圆",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_六年级_数学_人教版_上册",
-        "Grade": "六上",
-        "chapter_num": 5
-      },
-      "identifier": "urn:jy:math:2022:chapter:1a1517678706"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "确定起跑线",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_六年级_数学_人教版_上册",
-        "Grade": "六上",
-        "chapter_num": -5
-      },
-      "identifier": "urn:jy:math:2022:chapter:b0a58c6b2014"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "百分数（一）",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_六年级_数学_人教版_上册",
-        "Grade": "六上",
-        "chapter_num": 6
-      },
-      "identifier": "urn:jy:math:2022:chapter:f528bc637a8d"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "扇形统计图",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_六年级_数学_人教版_上册",
-        "Grade": "六上",
-        "chapter_num": 7
-      },
-      "identifier": "urn:jy:math:2022:chapter:0ee8f1b692b3"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "节约用水",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_六年级_数学_人教版_上册",
-        "Grade": "六上",
-        "chapter_num": -7
-      },
-      "identifier": "urn:jy:math:2022:chapter:60f1b1c9b1d6"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "数学广角——数与形",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_六年级_数学_人教版_上册",
-        "Grade": "六上",
-        "chapter_num": 8
-      },
-      "identifier": "urn:jy:math:2022:chapter:cbf2d587e830"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "总复习",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_六年级_数学_人教版_上册",
-        "Grade": "六上",
-        "chapter_num": 9
-      },
-      "identifier": "urn:jy:math:2022:chapter:8dae31588712"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "观察物体（三）",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_五年级_数学_人教版_下册",
-        "Grade": "五下",
-        "chapter_num": 1
-      },
-      "identifier": "urn:jy:math:2022:chapter:64befad179b7"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "因数和倍数",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_五年级_数学_人教版_下册",
-        "Grade": "五下",
-        "chapter_num": 2
-      },
-      "identifier": "urn:jy:math:2022:chapter:cd3e734d0ec8"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "长方体和正方体",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_五年级_数学_人教版_下册",
-        "Grade": "五下",
-        "chapter_num": 3
-      },
-      "identifier": "urn:jy:math:2022:chapter:45a83415f3e6"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "探索图形",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_五年级_数学_人教版_下册",
-        "Grade": "五下",
-        "chapter_num": 4
-      },
-      "identifier": "urn:jy:math:2022:chapter:017b4a875edd"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "分数的意义和性质",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_五年级_数学_人教版_下册",
-        "Grade": "五下",
-        "chapter_num": 5
-      },
-      "identifier": "urn:jy:math:2022:chapter:72b2fcaa999e"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "图形的运动（三）",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_五年级_数学_人教版_下册",
-        "Grade": "五下",
-        "chapter_num": 6
-      },
-      "identifier": "urn:jy:math:2022:chapter:e3126ef5699a"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "分数的加法和减法",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_五年级_数学_人教版_下册",
-        "Grade": "五下",
-        "chapter_num": 7
-      },
-      "identifier": "urn:jy:math:2022:chapter:ac5f9854579d"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "怎样通知最快",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_五年级_数学_人教版_下册",
-        "Grade": "五下",
-        "chapter_num": -7
-      },
-      "identifier": "urn:jy:math:2022:chapter:fc2002253fba"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "折线统计图",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_五年级_数学_人教版_下册",
-        "Grade": "五下",
-        "chapter_num": 8
-      },
-      "identifier": "urn:jy:math:2022:chapter:ff471917df32"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "数学广角——找次品",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_五年级_数学_人教版_下册",
-        "Grade": "五下",
-        "chapter_num": 9
-      },
-      "identifier": "urn:jy:math:2022:chapter:6b32be1c9ec5"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "总复习",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_五年级_数学_人教版_下册",
-        "Grade": "五下",
-        "chapter_num": 10
-      },
-      "identifier": "urn:jy:math:2022:chapter:04d8e02922a9"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "5以内数的认识和加减法",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S1",
-      "contentJson": {
-        "textVersion": "小学_一年级_数学_人教版_上册",
-        "Grade": "一上",
-        "chapter_num": 1
-      },
-      "identifier": "urn:jy:math:2022:chapter:57747f4941d4"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "6~10的认识和加减法",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S1",
-      "contentJson": {
-        "textVersion": "小学_一年级_数学_人教版_上册",
-        "Grade": "一上",
-        "chapter_num": 2
-      },
-      "identifier": "urn:jy:math:2022:chapter:c387af552b1b"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "认识立体图形",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S1",
-      "contentJson": {
-        "textVersion": "小学_一年级_数学_人教版_上册",
-        "Grade": "一上",
-        "chapter_num": 3
-      },
-      "identifier": "urn:jy:math:2022:chapter:b74a343630de"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "11~20的认识",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S1",
-      "contentJson": {
-        "textVersion": "小学_一年级_数学_人教版_上册",
-        "Grade": "一上",
-        "chapter_num": 4
-      },
-      "identifier": "urn:jy:math:2022:chapter:b75c96426cce"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "20以内的进位加法",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S1",
-      "contentJson": {
-        "textVersion": "小学_一年级_数学_人教版_上册",
-        "Grade": "一上",
-        "chapter_num": 5
-      },
-      "identifier": "urn:jy:math:2022:chapter:5f9ee3fa5d5e"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "复习与关联",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S1",
-      "contentJson": {
-        "textVersion": "小学_一年级_数学_人教版_上册",
-        "Grade": "一上",
-        "chapter_num": 6
-      },
-      "identifier": "urn:jy:math:2022:chapter:a0c8f32bcfd5"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "认识平面图形",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S1",
-      "contentJson": {
-        "textVersion": "小学_一年级_数学_人教版_下册",
-        "Grade": "一下",
-        "chapter_num": 1
-      },
-      "identifier": "urn:jy:math:2022:chapter:d71f82f59fb4"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "20以内的退位减法",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S1",
-      "contentJson": {
-        "textVersion": "小学_一年级_数学_人教版_下册",
-        "Grade": "一下",
-        "chapter_num": 2
-      },
-      "identifier": "urn:jy:math:2022:chapter:1f682dd4655e"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "100以内数的认识",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S1",
-      "contentJson": {
-        "textVersion": "小学_一年级_数学_人教版_下册",
-        "Grade": "一下",
-        "chapter_num": 3
-      },
-      "identifier": "urn:jy:math:2022:chapter:d1498aebf369"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "100以内的口算加减法",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S1",
-      "contentJson": {
-        "textVersion": "小学_一年级_数学_人教版_下册",
-        "Grade": "一下",
-        "chapter_num": 4
-      },
-      "identifier": "urn:jy:math:2022:chapter:94d21aec03c9"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "100以内的笔算加减法",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S1",
-      "contentJson": {
-        "textVersion": "小学_一年级_数学_人教版_下册",
-        "Grade": "一下",
-        "chapter_num": 5
-      },
-      "identifier": "urn:jy:math:2022:chapter:60ccb51a541a"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "数量间的加减关系",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S1",
-      "contentJson": {
-        "textVersion": "小学_一年级_数学_人教版_下册",
-        "Grade": "一下",
-        "chapter_num": 6
-      },
-      "identifier": "urn:jy:math:2022:chapter:f702c3a2e925"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "复习与关联",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S1",
-      "contentJson": {
-        "textVersion": "小学_一年级_数学_人教版_下册",
-        "Grade": "一下",
-        "chapter_num": 7
-      },
-      "identifier": "urn:jy:math:2022:chapter:1adba890f479"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "小数乘法",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_五年级_数学_人教版_上册",
-        "Grade": "五上",
-        "chapter_num": 1
-      },
-      "identifier": "urn:jy:math:2022:chapter:a91ebfbe8405"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "位置",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_五年级_数学_人教版_上册",
-        "Grade": "五上",
-        "chapter_num": 2
-      },
-      "identifier": "urn:jy:math:2022:chapter:7c1fdde85b16"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "小数除法",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_五年级_数学_人教版_上册",
-        "Grade": "五上",
-        "chapter_num": 3
-      },
-      "identifier": "urn:jy:math:2022:chapter:f83d6bfafc31"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "可能性",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_五年级_数学_人教版_上册",
-        "Grade": "五上",
-        "chapter_num": 4
-      },
-      "identifier": "urn:jy:math:2022:chapter:f272c4913532"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "掷一掷",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_五年级_数学_人教版_上册",
-        "Grade": "五上",
-        "chapter_num": -4
-      },
-      "identifier": "urn:jy:math:2022:chapter:0044f7398e98"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "简易方程",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_五年级_数学_人教版_上册",
-        "Grade": "五上",
-        "chapter_num": 5
-      },
-      "identifier": "urn:jy:math:2022:chapter:f14f89e86792"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "多边形的面积",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_五年级_数学_人教版_上册",
-        "Grade": "五上",
-        "chapter_num": 6
-      },
-      "identifier": "urn:jy:math:2022:chapter:dd0953182c32"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "数学广角——植树问题",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_五年级_数学_人教版_上册",
-        "Grade": "五上",
-        "chapter_num": 7
-      },
-      "identifier": "urn:jy:math:2022:chapter:59355a32155e"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "总复习",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S3",
-      "contentJson": {
-        "textVersion": "小学_五年级_数学_人教版_上册",
-        "Grade": "五上",
-        "chapter_num": 8
-      },
-      "identifier": "urn:jy:math:2022:chapter:23a4746fea7f"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "四则运算",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_四年级_数学_人教版_下册",
-        "Grade": "四下",
-        "chapter_num": 1
-      },
-      "identifier": "urn:jy:math:2022:chapter:24f85e03d78a"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "观察物体（二）",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_四年级_数学_人教版_下册",
-        "Grade": "四下",
-        "chapter_num": 2
-      },
-      "identifier": "urn:jy:math:2022:chapter:9786b24aa3f0"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "运算律",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_四年级_数学_人教版_下册",
-        "Grade": "四下",
-        "chapter_num": 3
-      },
-      "identifier": "urn:jy:math:2022:chapter:d7d448770b87"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "小数的意义和性质",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_四年级_数学_人教版_下册",
-        "Grade": "四下",
-        "chapter_num": 4
-      },
-      "identifier": "urn:jy:math:2022:chapter:4ebd066fe3d6"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "三角形",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_四年级_数学_人教版_下册",
-        "Grade": "四下",
-        "chapter_num": 5
-      },
-      "identifier": "urn:jy:math:2022:chapter:ba2a99d56165"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "小数的加法和减法",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_四年级_数学_人教版_下册",
-        "Grade": "四下",
-        "chapter_num": 6
-      },
-      "identifier": "urn:jy:math:2022:chapter:a941a7ed70d5"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "图形的运动（二）",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_四年级_数学_人教版_下册",
-        "Grade": "四下",
-        "chapter_num": 7
-      },
-      "identifier": "urn:jy:math:2022:chapter:8a45a9b9ba89"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "平均数与条形统计图",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_四年级_数学_人教版_下册",
-        "Grade": "四下",
-        "chapter_num": 8
-      },
-      "identifier": "urn:jy:math:2022:chapter:d24e1aa0b0c2"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "营养午餐",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_四年级_数学_人教版_下册",
-        "Grade": "四下",
-        "chapter_num": -8
-      },
-      "identifier": "urn:jy:math:2022:chapter:0ab993960138"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "数学广角——鸡兔同笼",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_四年级_数学_人教版_下册",
-        "Grade": "四下",
-        "chapter_num": 9
-      },
-      "identifier": "urn:jy:math:2022:chapter:306cac342df4"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "总复习",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_四年级_数学_人教版_下册",
-        "Grade": "四下",
-        "chapter_num": 10
-      },
-      "identifier": "urn:jy:math:2022:chapter:b82e6b0c5db6"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "大数的认识",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_四年级_数学_人教版_上册",
-        "Grade": "四上",
-        "chapter_num": 1
-      },
-      "identifier": "urn:jy:math:2022:chapter:366bcc2b0e67"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "1亿有多大",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_四年级_数学_人教版_上册",
-        "Grade": "四上",
-        "chapter_num": 2
-      },
-      "identifier": "urn:jy:math:2022:chapter:a310ed524dfb"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "公顷和平方千米",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_四年级_数学_人教版_上册",
-        "Grade": "四上",
-        "chapter_num": 3
-      },
-      "identifier": "urn:jy:math:2022:chapter:ad5e6f195593"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "角的度量",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_四年级_数学_人教版_上册",
-        "Grade": "四上",
-        "chapter_num": 4
-      },
-      "identifier": "urn:jy:math:2022:chapter:f9aa2d35b35f"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "三位数乘两位数",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_四年级_数学_人教版_上册",
-        "Grade": "四上",
-        "chapter_num": 5
-      },
-      "identifier": "urn:jy:math:2022:chapter:a85bfd9b1830"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "平行四边形和梯形",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_四年级_数学_人教版_上册",
-        "Grade": "四上",
-        "chapter_num": 6
-      },
-      "identifier": "urn:jy:math:2022:chapter:4028f78132c1"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "除数是两位数的除法",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_四年级_数学_人教版_上册",
-        "Grade": "四上",
-        "chapter_num": 7
-      },
-      "identifier": "urn:jy:math:2022:chapter:edb25ec96575"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "条形统计图",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_四年级_数学_人教版_上册",
-        "Grade": "四上",
-        "chapter_num": 8
-      },
-      "identifier": "urn:jy:math:2022:chapter:382bdfe7a728"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "数学广角——优化",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_四年级_数学_人教版_上册",
-        "Grade": "四上",
-        "chapter_num": 9
-      },
-      "identifier": "urn:jy:math:2022:chapter:654be99abb97"
-    },
-    {
-      "type": "Chapter_primary",
-      "title": "总复习",
-      "description": "",
-      "subject": "SX0301",
-      "applicableLevel": "S2",
-      "contentJson": {
-        "textVersion": "小学_四年级_数学_人教版_上册",
-        "Grade": "四上",
-        "chapter_num": 10
-      },
-      "identifier": "urn:jy:math:2022:chapter:a9f4f74fd1fe"
-    }
-  ]
-}
+[
+  {
+    "type": "Chapter_primary",
+    "title": "位置与方向（一）",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_三年级_数学_人教版_下册",
+      "Grade": "三下",
+      "chapter_num": 1
+    },
+    "identifier": "urn:jy:math:2022:chapter:e1cb490e0368"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "除数是一位数的除法",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_三年级_数学_人教版_下册",
+      "Grade": "三下",
+      "chapter_num": 2
+    },
+    "identifier": "urn:jy:math:2022:chapter:616e73e78c01"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "复式统计表",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_三年级_数学_人教版_下册",
+      "Grade": "三下",
+      "chapter_num": 3
+    },
+    "identifier": "urn:jy:math:2022:chapter:d9d576f0323b"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "两位数乘两位数",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_三年级_数学_人教版_下册",
+      "Grade": "三下",
+      "chapter_num": 4
+    },
+    "identifier": "urn:jy:math:2022:chapter:f3f8284dd0fc"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "面积",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_三年级_数学_人教版_下册",
+      "Grade": "三下",
+      "chapter_num": 5
+    },
+    "identifier": "urn:jy:math:2022:chapter:9890f65af8e1"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "年、月、日",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_三年级_数学_人教版_下册",
+      "Grade": "三下",
+      "chapter_num": 6
+    },
+    "identifier": "urn:jy:math:2022:chapter:c4fc088684e9"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "制作活动日历",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_三年级_数学_人教版_下册",
+      "Grade": "三下",
+      "chapter_num": 7
+    },
+    "identifier": "urn:jy:math:2022:chapter:8606134b1dc6"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "小数的初步认识",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_三年级_数学_人教版_下册",
+      "Grade": "三下",
+      "chapter_num": 8
+    },
+    "identifier": "urn:jy:math:2022:chapter:39ea2d1cd3e7"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "数学广角——搭配（二）",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_三年级_数学_人教版_下册",
+      "Grade": "三下",
+      "chapter_num": 9
+    },
+    "identifier": "urn:jy:math:2022:chapter:260c8404f2f5"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "我们的校园",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_三年级_数学_人教版_下册",
+      "Grade": "三下",
+      "chapter_num": 10
+    },
+    "identifier": "urn:jy:math:2022:chapter:1daf2d5eeb96"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "总复习",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_三年级_数学_人教版_下册",
+      "Grade": "三下",
+      "chapter_num": 11
+    },
+    "identifier": "urn:jy:math:2022:chapter:05b4790aa86a"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "数据收集和整理",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S1",
+    "contentJson": {
+      "textVersion": "小学_二年级_数学_人教版_下册",
+      "Grade": "二下",
+      "chapter_num": 1
+    },
+    "identifier": "urn:jy:math:2022:chapter:704477bbf47c"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "表内除法（一）",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S1",
+    "contentJson": {
+      "textVersion": "小学_二年级_数学_人教版_下册",
+      "Grade": "二下",
+      "chapter_num": 2
+    },
+    "identifier": "urn:jy:math:2022:chapter:78cb8d301886"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "图形的运动（一）",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S1",
+    "contentJson": {
+      "textVersion": "小学_二年级_数学_人教版_下册",
+      "Grade": "二下",
+      "chapter_num": 3
+    },
+    "identifier": "urn:jy:math:2022:chapter:c1e54e413da3"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "表内除法（二）",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S1",
+    "contentJson": {
+      "textVersion": "小学_二年级_数学_人教版_下册",
+      "Grade": "二下",
+      "chapter_num": 4
+    },
+    "identifier": "urn:jy:math:2022:chapter:ca6fa2cc1a52"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "混合运算",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S1",
+    "contentJson": {
+      "textVersion": "小学_二年级_数学_人教版_下册",
+      "Grade": "二下",
+      "chapter_num": 5
+    },
+    "identifier": "urn:jy:math:2022:chapter:3c97d46c638a"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "有余数的除法",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S1",
+    "contentJson": {
+      "textVersion": "小学_二年级_数学_人教版_下册",
+      "Grade": "二下",
+      "chapter_num": 6
+    },
+    "identifier": "urn:jy:math:2022:chapter:a50c2f4bca8f"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "小小设计师",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S1",
+    "contentJson": {
+      "textVersion": "小学_二年级_数学_人教版_下册",
+      "Grade": "二下",
+      "chapter_num": 7
+    },
+    "identifier": "urn:jy:math:2022:chapter:b00c49d2076c"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "万以内数的认识",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S1",
+    "contentJson": {
+      "textVersion": "小学_二年级_数学_人教版_下册",
+      "Grade": "二下",
+      "chapter_num": 8
+    },
+    "identifier": "urn:jy:math:2022:chapter:f78e25b7f211"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "克和千克",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S1",
+    "contentJson": {
+      "textVersion": "小学_二年级_数学_人教版_下册",
+      "Grade": "二下",
+      "chapter_num": 9
+    },
+    "identifier": "urn:jy:math:2022:chapter:cbd79c82700d"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "数学广角——推理",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S1",
+    "contentJson": {
+      "textVersion": "小学_二年级_数学_人教版_下册",
+      "Grade": "二下",
+      "chapter_num": 10
+    },
+    "identifier": "urn:jy:math:2022:chapter:626a43ec0f15"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "总复习",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S1",
+    "contentJson": {
+      "textVersion": "小学_二年级_数学_人教版_下册",
+      "Grade": "二下",
+      "chapter_num": 11
+    },
+    "identifier": "urn:jy:math:2022:chapter:9ae8cbb3c416"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "观察物体",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_三年级_数学_人教版_上册",
+      "Grade": "三上",
+      "chapter_num": 1
+    },
+    "identifier": "urn:jy:math:2022:chapter:9b707c4d07cf"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "混合运算",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_三年级_数学_人教版_上册",
+      "Grade": "三上",
+      "chapter_num": 2
+    },
+    "identifier": "urn:jy:math:2022:chapter:bbabbbd8e0b7"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "毫米、分米和千米",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_三年级_数学_人教版_上册",
+      "Grade": "三上",
+      "chapter_num": 3
+    },
+    "identifier": "urn:jy:math:2022:chapter:aba6e75dd203"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "曹冲称象的故事",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_三年级_数学_人教版_上册",
+      "Grade": "三上",
+      "chapter_num": -3
+    },
+    "identifier": "urn:jy:math:2022:chapter:c0e127e24bca"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "多位数乘一位数",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_三年级_数学_人教版_上册",
+      "Grade": "三上",
+      "chapter_num": 4
+    },
+    "identifier": "urn:jy:math:2022:chapter:610990b045e1"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "数字编码",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_三年级_数学_人教版_上册",
+      "Grade": "三上",
+      "chapter_num": -4
+    },
+    "identifier": "urn:jy:math:2022:chapter:858b75207be3"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "线和角",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_三年级_数学_人教版_上册",
+      "Grade": "三上",
+      "chapter_num": 5
+    },
+    "identifier": "urn:jy:math:2022:chapter:9237f22c3bb7"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "分数的初步认识",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_三年级_数学_人教版_上册",
+      "Grade": "三上",
+      "chapter_num": 6
+    },
+    "identifier": "urn:jy:math:2022:chapter:5c275c387d7d"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "复习与关联",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_三年级_数学_人教版_上册",
+      "Grade": "三上",
+      "chapter_num": 7
+    },
+    "identifier": "urn:jy:math:2022:chapter:d3609bae9d9a"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "分类与整理",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S1",
+    "contentJson": {
+      "textVersion": "小学_二年级_数学_人教版_上册",
+      "Grade": "二上",
+      "chapter_num": 1
+    },
+    "identifier": "urn:jy:math:2022:chapter:db428639cd37"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "1～6的表内乘法",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S1",
+    "contentJson": {
+      "textVersion": "小学_二年级_数学_人教版_上册",
+      "Grade": "二上",
+      "chapter_num": 2
+    },
+    "identifier": "urn:jy:math:2022:chapter:55e2da6f1f7d"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "1～6的表内除法",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S1",
+    "contentJson": {
+      "textVersion": "小学_二年级_数学_人教版_上册",
+      "Grade": "二上",
+      "chapter_num": 3
+    },
+    "identifier": "urn:jy:math:2022:chapter:3c4887753f8b"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": " 校园小导游",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S1",
+    "contentJson": {
+      "textVersion": "小学_二年级_数学_人教版_上册",
+      "Grade": "二上",
+      "chapter_num": -3
+    },
+    "identifier": "urn:jy:math:2022:chapter:4b7055a49f0b"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "厘米与米",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S1",
+    "contentJson": {
+      "textVersion": "小学_二年级_数学_人教版_上册",
+      "Grade": "二上",
+      "chapter_num": 4
+    },
+    "identifier": "urn:jy:math:2022:chapter:1d5669abec40"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "认识时间",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S1",
+    "contentJson": {
+      "textVersion": "小学_二年级_数学_人教版_上册",
+      "Grade": "二上",
+      "chapter_num": 5
+    },
+    "identifier": "urn:jy:math:2022:chapter:8b04fe1f6d3a"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "数学广角——推理",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S1",
+    "contentJson": {
+      "textVersion": "小学_二年级_数学_人教版_上册",
+      "Grade": "二上",
+      "chapter_num": 6
+    },
+    "identifier": "urn:jy:math:2022:chapter:f7d8918c0dd6"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "复习与关联",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S1",
+    "contentJson": {
+      "textVersion": "小学_二年级_数学_人教版_上册",
+      "Grade": "二上",
+      "chapter_num": 7
+    },
+    "identifier": "urn:jy:math:2022:chapter:df3b8285690e"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "负数",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_六年级_数学_人教版_下册",
+      "Grade": "六下",
+      "chapter_num": 1
+    },
+    "identifier": "urn:jy:math:2022:chapter:027a813e5ec5"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "百分数（二）",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_六年级_数学_人教版_下册",
+      "Grade": "六下",
+      "chapter_num": 2
+    },
+    "identifier": "urn:jy:math:2022:chapter:6f2f7c55ffc5"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "生活与百分数",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_六年级_数学_人教版_下册",
+      "Grade": "六下",
+      "chapter_num": 3
+    },
+    "identifier": "urn:jy:math:2022:chapter:906a693d27ff"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "圆柱与圆锥",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_六年级_数学_人教版_下册",
+      "Grade": "六下",
+      "chapter_num": 4
+    },
+    "identifier": "urn:jy:math:2022:chapter:3fc6c40d2521"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "整理和复习",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_六年级_数学_人教版_下册",
+      "Grade": "六下",
+      "chapter_num": -4
+    },
+    "identifier": "urn:jy:math:2022:chapter:50b5929d63d8"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "比例",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_六年级_数学_人教版_下册",
+      "Grade": "六下",
+      "chapter_num": 5
+    },
+    "identifier": "urn:jy:math:2022:chapter:9faba01f239e"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "自行车里的数学",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_六年级_数学_人教版_下册",
+      "Grade": "六下",
+      "chapter_num": 6
+    },
+    "identifier": "urn:jy:math:2022:chapter:54e46f938a54"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "数学广角——鸽巢问题",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_六年级_数学_人教版_下册",
+      "Grade": "六下",
+      "chapter_num": 7
+    },
+    "identifier": "urn:jy:math:2022:chapter:fa82adc8c729"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "分数乘法",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_六年级_数学_人教版_上册",
+      "Grade": "六上",
+      "chapter_num": 1
+    },
+    "identifier": "urn:jy:math:2022:chapter:1a3a3aa81668"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "位置与方向（二）",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_六年级_数学_人教版_上册",
+      "Grade": "六上",
+      "chapter_num": 2
+    },
+    "identifier": "urn:jy:math:2022:chapter:1816b882108b"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "分数除法",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_六年级_数学_人教版_上册",
+      "Grade": "六上",
+      "chapter_num": 3
+    },
+    "identifier": "urn:jy:math:2022:chapter:a3332f949e06"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "比",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_六年级_数学_人教版_上册",
+      "Grade": "六上",
+      "chapter_num": 4
+    },
+    "identifier": "urn:jy:math:2022:chapter:85dae5498cfb"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "圆",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_六年级_数学_人教版_上册",
+      "Grade": "六上",
+      "chapter_num": 5
+    },
+    "identifier": "urn:jy:math:2022:chapter:1a1517678706"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "确定起跑线",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_六年级_数学_人教版_上册",
+      "Grade": "六上",
+      "chapter_num": -5
+    },
+    "identifier": "urn:jy:math:2022:chapter:b0a58c6b2014"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "百分数（一）",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_六年级_数学_人教版_上册",
+      "Grade": "六上",
+      "chapter_num": 6
+    },
+    "identifier": "urn:jy:math:2022:chapter:f528bc637a8d"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "扇形统计图",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_六年级_数学_人教版_上册",
+      "Grade": "六上",
+      "chapter_num": 7
+    },
+    "identifier": "urn:jy:math:2022:chapter:0ee8f1b692b3"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "节约用水",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_六年级_数学_人教版_上册",
+      "Grade": "六上",
+      "chapter_num": -7
+    },
+    "identifier": "urn:jy:math:2022:chapter:60f1b1c9b1d6"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "数学广角——数与形",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_六年级_数学_人教版_上册",
+      "Grade": "六上",
+      "chapter_num": 8
+    },
+    "identifier": "urn:jy:math:2022:chapter:cbf2d587e830"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "总复习",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_六年级_数学_人教版_上册",
+      "Grade": "六上",
+      "chapter_num": 9
+    },
+    "identifier": "urn:jy:math:2022:chapter:8dae31588712"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "观察物体（三）",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_五年级_数学_人教版_下册",
+      "Grade": "五下",
+      "chapter_num": 1
+    },
+    "identifier": "urn:jy:math:2022:chapter:64befad179b7"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "因数和倍数",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_五年级_数学_人教版_下册",
+      "Grade": "五下",
+      "chapter_num": 2
+    },
+    "identifier": "urn:jy:math:2022:chapter:cd3e734d0ec8"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "长方体和正方体",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_五年级_数学_人教版_下册",
+      "Grade": "五下",
+      "chapter_num": 3
+    },
+    "identifier": "urn:jy:math:2022:chapter:45a83415f3e6"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "探索图形",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_五年级_数学_人教版_下册",
+      "Grade": "五下",
+      "chapter_num": 4
+    },
+    "identifier": "urn:jy:math:2022:chapter:017b4a875edd"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "分数的意义和性质",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_五年级_数学_人教版_下册",
+      "Grade": "五下",
+      "chapter_num": 5
+    },
+    "identifier": "urn:jy:math:2022:chapter:72b2fcaa999e"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "图形的运动（三）",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_五年级_数学_人教版_下册",
+      "Grade": "五下",
+      "chapter_num": 6
+    },
+    "identifier": "urn:jy:math:2022:chapter:e3126ef5699a"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "分数的加法和减法",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_五年级_数学_人教版_下册",
+      "Grade": "五下",
+      "chapter_num": 7
+    },
+    "identifier": "urn:jy:math:2022:chapter:ac5f9854579d"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "怎样通知最快",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_五年级_数学_人教版_下册",
+      "Grade": "五下",
+      "chapter_num": -7
+    },
+    "identifier": "urn:jy:math:2022:chapter:fc2002253fba"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "折线统计图",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_五年级_数学_人教版_下册",
+      "Grade": "五下",
+      "chapter_num": 8
+    },
+    "identifier": "urn:jy:math:2022:chapter:ff471917df32"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "数学广角——找次品",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_五年级_数学_人教版_下册",
+      "Grade": "五下",
+      "chapter_num": 9
+    },
+    "identifier": "urn:jy:math:2022:chapter:6b32be1c9ec5"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "总复习",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_五年级_数学_人教版_下册",
+      "Grade": "五下",
+      "chapter_num": 10
+    },
+    "identifier": "urn:jy:math:2022:chapter:04d8e02922a9"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "5以内数的认识和加减法",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S1",
+    "contentJson": {
+      "textVersion": "小学_一年级_数学_人教版_上册",
+      "Grade": "一上",
+      "chapter_num": 1
+    },
+    "identifier": "urn:jy:math:2022:chapter:57747f4941d4"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "6~10的认识和加减法",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S1",
+    "contentJson": {
+      "textVersion": "小学_一年级_数学_人教版_上册",
+      "Grade": "一上",
+      "chapter_num": 2
+    },
+    "identifier": "urn:jy:math:2022:chapter:c387af552b1b"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "认识立体图形",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S1",
+    "contentJson": {
+      "textVersion": "小学_一年级_数学_人教版_上册",
+      "Grade": "一上",
+      "chapter_num": 3
+    },
+    "identifier": "urn:jy:math:2022:chapter:b74a343630de"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "11~20的认识",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S1",
+    "contentJson": {
+      "textVersion": "小学_一年级_数学_人教版_上册",
+      "Grade": "一上",
+      "chapter_num": 4
+    },
+    "identifier": "urn:jy:math:2022:chapter:b75c96426cce"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "20以内的进位加法",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S1",
+    "contentJson": {
+      "textVersion": "小学_一年级_数学_人教版_上册",
+      "Grade": "一上",
+      "chapter_num": 5
+    },
+    "identifier": "urn:jy:math:2022:chapter:5f9ee3fa5d5e"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "复习与关联",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S1",
+    "contentJson": {
+      "textVersion": "小学_一年级_数学_人教版_上册",
+      "Grade": "一上",
+      "chapter_num": 6
+    },
+    "identifier": "urn:jy:math:2022:chapter:a0c8f32bcfd5"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "认识平面图形",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S1",
+    "contentJson": {
+      "textVersion": "小学_一年级_数学_人教版_下册",
+      "Grade": "一下",
+      "chapter_num": 1
+    },
+    "identifier": "urn:jy:math:2022:chapter:d71f82f59fb4"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "20以内的退位减法",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S1",
+    "contentJson": {
+      "textVersion": "小学_一年级_数学_人教版_下册",
+      "Grade": "一下",
+      "chapter_num": 2
+    },
+    "identifier": "urn:jy:math:2022:chapter:1f682dd4655e"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "100以内数的认识",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S1",
+    "contentJson": {
+      "textVersion": "小学_一年级_数学_人教版_下册",
+      "Grade": "一下",
+      "chapter_num": 3
+    },
+    "identifier": "urn:jy:math:2022:chapter:d1498aebf369"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "100以内的口算加减法",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S1",
+    "contentJson": {
+      "textVersion": "小学_一年级_数学_人教版_下册",
+      "Grade": "一下",
+      "chapter_num": 4
+    },
+    "identifier": "urn:jy:math:2022:chapter:94d21aec03c9"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "100以内的笔算加减法",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S1",
+    "contentJson": {
+      "textVersion": "小学_一年级_数学_人教版_下册",
+      "Grade": "一下",
+      "chapter_num": 5
+    },
+    "identifier": "urn:jy:math:2022:chapter:60ccb51a541a"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "数量间的加减关系",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S1",
+    "contentJson": {
+      "textVersion": "小学_一年级_数学_人教版_下册",
+      "Grade": "一下",
+      "chapter_num": 6
+    },
+    "identifier": "urn:jy:math:2022:chapter:f702c3a2e925"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "复习与关联",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S1",
+    "contentJson": {
+      "textVersion": "小学_一年级_数学_人教版_下册",
+      "Grade": "一下",
+      "chapter_num": 7
+    },
+    "identifier": "urn:jy:math:2022:chapter:1adba890f479"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "小数乘法",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_五年级_数学_人教版_上册",
+      "Grade": "五上",
+      "chapter_num": 1
+    },
+    "identifier": "urn:jy:math:2022:chapter:a91ebfbe8405"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "位置",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_五年级_数学_人教版_上册",
+      "Grade": "五上",
+      "chapter_num": 2
+    },
+    "identifier": "urn:jy:math:2022:chapter:7c1fdde85b16"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "小数除法",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_五年级_数学_人教版_上册",
+      "Grade": "五上",
+      "chapter_num": 3
+    },
+    "identifier": "urn:jy:math:2022:chapter:f83d6bfafc31"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "可能性",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_五年级_数学_人教版_上册",
+      "Grade": "五上",
+      "chapter_num": 4
+    },
+    "identifier": "urn:jy:math:2022:chapter:f272c4913532"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "掷一掷",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_五年级_数学_人教版_上册",
+      "Grade": "五上",
+      "chapter_num": -4
+    },
+    "identifier": "urn:jy:math:2022:chapter:0044f7398e98"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "简易方程",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_五年级_数学_人教版_上册",
+      "Grade": "五上",
+      "chapter_num": 5
+    },
+    "identifier": "urn:jy:math:2022:chapter:f14f89e86792"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "多边形的面积",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_五年级_数学_人教版_上册",
+      "Grade": "五上",
+      "chapter_num": 6
+    },
+    "identifier": "urn:jy:math:2022:chapter:dd0953182c32"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "数学广角——植树问题",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_五年级_数学_人教版_上册",
+      "Grade": "五上",
+      "chapter_num": 7
+    },
+    "identifier": "urn:jy:math:2022:chapter:59355a32155e"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "总复习",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S3",
+    "contentJson": {
+      "textVersion": "小学_五年级_数学_人教版_上册",
+      "Grade": "五上",
+      "chapter_num": 8
+    },
+    "identifier": "urn:jy:math:2022:chapter:23a4746fea7f"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "四则运算",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_四年级_数学_人教版_下册",
+      "Grade": "四下",
+      "chapter_num": 1
+    },
+    "identifier": "urn:jy:math:2022:chapter:24f85e03d78a"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "观察物体（二）",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_四年级_数学_人教版_下册",
+      "Grade": "四下",
+      "chapter_num": 2
+    },
+    "identifier": "urn:jy:math:2022:chapter:9786b24aa3f0"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "运算律",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_四年级_数学_人教版_下册",
+      "Grade": "四下",
+      "chapter_num": 3
+    },
+    "identifier": "urn:jy:math:2022:chapter:d7d448770b87"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "小数的意义和性质",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_四年级_数学_人教版_下册",
+      "Grade": "四下",
+      "chapter_num": 4
+    },
+    "identifier": "urn:jy:math:2022:chapter:4ebd066fe3d6"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "三角形",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_四年级_数学_人教版_下册",
+      "Grade": "四下",
+      "chapter_num": 5
+    },
+    "identifier": "urn:jy:math:2022:chapter:ba2a99d56165"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "小数的加法和减法",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_四年级_数学_人教版_下册",
+      "Grade": "四下",
+      "chapter_num": 6
+    },
+    "identifier": "urn:jy:math:2022:chapter:a941a7ed70d5"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "图形的运动（二）",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_四年级_数学_人教版_下册",
+      "Grade": "四下",
+      "chapter_num": 7
+    },
+    "identifier": "urn:jy:math:2022:chapter:8a45a9b9ba89"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "平均数与条形统计图",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_四年级_数学_人教版_下册",
+      "Grade": "四下",
+      "chapter_num": 8
+    },
+    "identifier": "urn:jy:math:2022:chapter:d24e1aa0b0c2"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "营养午餐",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_四年级_数学_人教版_下册",
+      "Grade": "四下",
+      "chapter_num": -8
+    },
+    "identifier": "urn:jy:math:2022:chapter:0ab993960138"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "数学广角——鸡兔同笼",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_四年级_数学_人教版_下册",
+      "Grade": "四下",
+      "chapter_num": 9
+    },
+    "identifier": "urn:jy:math:2022:chapter:306cac342df4"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "总复习",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_四年级_数学_人教版_下册",
+      "Grade": "四下",
+      "chapter_num": 10
+    },
+    "identifier": "urn:jy:math:2022:chapter:b82e6b0c5db6"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "大数的认识",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_四年级_数学_人教版_上册",
+      "Grade": "四上",
+      "chapter_num": 1
+    },
+    "identifier": "urn:jy:math:2022:chapter:366bcc2b0e67"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "1亿有多大",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_四年级_数学_人教版_上册",
+      "Grade": "四上",
+      "chapter_num": 2
+    },
+    "identifier": "urn:jy:math:2022:chapter:a310ed524dfb"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "公顷和平方千米",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_四年级_数学_人教版_上册",
+      "Grade": "四上",
+      "chapter_num": 3
+    },
+    "identifier": "urn:jy:math:2022:chapter:ad5e6f195593"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "角的度量",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_四年级_数学_人教版_上册",
+      "Grade": "四上",
+      "chapter_num": 4
+    },
+    "identifier": "urn:jy:math:2022:chapter:f9aa2d35b35f"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "三位数乘两位数",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_四年级_数学_人教版_上册",
+      "Grade": "四上",
+      "chapter_num": 5
+    },
+    "identifier": "urn:jy:math:2022:chapter:a85bfd9b1830"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "平行四边形和梯形",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_四年级_数学_人教版_上册",
+      "Grade": "四上",
+      "chapter_num": 6
+    },
+    "identifier": "urn:jy:math:2022:chapter:4028f78132c1"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "除数是两位数的除法",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_四年级_数学_人教版_上册",
+      "Grade": "四上",
+      "chapter_num": 7
+    },
+    "identifier": "urn:jy:math:2022:chapter:edb25ec96575"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "条形统计图",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_四年级_数学_人教版_上册",
+      "Grade": "四上",
+      "chapter_num": 8
+    },
+    "identifier": "urn:jy:math:2022:chapter:382bdfe7a728"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "数学广角——优化",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_四年级_数学_人教版_上册",
+      "Grade": "四上",
+      "chapter_num": 9
+    },
+    "identifier": "urn:jy:math:2022:chapter:654be99abb97"
+  },
+  {
+    "type": "Chapter_primary",
+    "title": "总复习",
+    "description": "",
+    "subject": "SX0301",
+    "applicableLevel": "S2",
+    "contentJson": {
+      "textVersion": "小学_四年级_数学_人教版_上册",
+      "Grade": "四上",
+      "chapter_num": 10
+    },
+    "identifier": "urn:jy:math:2022:chapter:a9f4f74fd1fe"
+  }
+]

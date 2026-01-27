@@ -4,6 +4,7 @@
 支持文件锁机制，防止多用户并发编辑冲突
 """
 
+# 标准库
 import json
 import shutil
 import fcntl
@@ -13,14 +14,23 @@ from datetime import datetime
 from pathlib import Path
 from typing import List, Optional, Dict, Any
 from contextlib import contextmanager
+
+# 第三方库
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from pydantic import BaseModel
 
+# 本地配置
+import config
+from config import DATA_ROOT
+
+# 本地模块
 from .database import get_db
 from .models import User, OperationLog, SyncQueue
 from .deps import require_teacher, log_operation
-from config import SUBJECT_CONFIG, DATA_ROOT
+from .utils import (
+    get_subject_config, get_entities_dir, get_relations_dir, load_json_file
+)
 
 
 def mark_needs_sync(db: Session, subject_id: str):
@@ -159,18 +169,14 @@ class BatchEditRequest(BaseModel):
 
 # ========== 辅助函数 ==========
 
-def find_entity_file(subject_id: str, identifier: str) -> Optional[Path]:
+def find_entity_file_by_id(subject_id: str, identifier: str) -> Optional[Path]:
     """查找实体所在的JSON文件"""
-    config = SUBJECT_CONFIG.get(subject_id)
-    if not config:
+    _, subject_cfg = get_subject_config(subject_id)
+    if not subject_cfg:
         return None
     
-    data_dir = DATA_ROOT / config['data_dir']
-    entities_dir = data_dir / "entities"
-    if not entities_dir.exists():
-        entities_dir = data_dir / "实体"
-    
-    if not entities_dir.exists():
+    entities_dir = get_entities_dir(subject_id)
+    if not entities_dir or not entities_dir.exists():
         return None
     
     # 遍历所有JSON文件查找实体
@@ -208,22 +214,42 @@ def create_backup(file_path: Path) -> Path:
 
 def get_relations_file(subject_id: str) -> Optional[Path]:
     """获取关系文件路径"""
-    config = SUBJECT_CONFIG.get(subject_id)
-    if not config:
+    relations_dir = get_relations_dir(subject_id)
+    if not relations_dir or not relations_dir.exists():
         return None
     
-    data_dir = DATA_ROOT / config['data_dir']
+    # 返回第一个JSON文件或创建新文件
+    json_files = list(relations_dir.glob("*.json"))
+    if json_files:
+        return json_files[0]
+    else:
+        return relations_dir / "relations.json"
+
+
+def find_relation_file_by_content(subject_id: str, source: str, target: str, relation_name: str) -> Optional[Path]:
+    """
+    查找包含指定关系的文件
     
-    # 尝试多个可能的关系文件名
-    for dir_name in ['relations', 'relation', '关系']:
-        relations_dir = data_dir / dir_name
-        if relations_dir.exists():
-            # 返回第一个JSON文件或创建新文件
-            json_files = list(relations_dir.glob("*.json"))
-            if json_files:
-                return json_files[0]
-            else:
-                return relations_dir / "relations.json"
+    遍历所有关系文件，找到包含指定source/target/relationName的文件
+    解决了多关系文件场景下删除失败的问题
+    """
+    relations_dir = get_relations_dir(subject_id)
+    if not relations_dir or not relations_dir.exists():
+        return None
+    
+    # 遍历目录下的所有JSON文件
+    for json_file in relations_dir.glob("*.json"):
+        try:
+            relations = load_json_file(json_file)
+            
+            # 检查是否包含目标关系
+            for r in relations:
+                if (r.get('source') == source and 
+                    r.get('target') == target and 
+                    r.get('relationName') == relation_name):
+                    return json_file
+        except Exception:
+            continue
     
     return None
 
@@ -239,7 +265,7 @@ async def update_entity(
 ):
     """更新实体属性（支持文件锁）"""
     # 查找实体文件
-    entity_file = find_entity_file(subject_id, entity_update.identifier)
+    entity_file = find_entity_file_by_id(subject_id, entity_update.identifier)
     if not entity_file:
         raise HTTPException(status_code=404, detail="实体不存在")
     
@@ -399,10 +425,16 @@ async def delete_relation(
     current_user: User = Depends(require_teacher),
     db: Session = Depends(get_db)
 ):
-    """删除关系（支持文件锁）"""
-    relations_file = get_relations_file(subject_id)
+    """删除关系（支持文件锁，支持多文件搜索）"""
+    # 精确定位包含目标关系的文件
+    relations_file = find_relation_file_by_content(
+        subject_id, 
+        relation.source, 
+        relation.target, 
+        relation.relation_name
+    )
     if not relations_file or not relations_file.exists():
-        raise HTTPException(status_code=404, detail="关系文件不存在")
+        raise HTTPException(status_code=404, detail="关系不存在或关系文件不存在")
     
     try:
         # 使用文件锁保护编辑操作
@@ -477,10 +509,16 @@ async def update_relation(
     current_user: User = Depends(require_teacher),
     db: Session = Depends(get_db)
 ):
-    """更新关系标签（支持文件锁）"""
-    relations_file = get_relations_file(subject_id)
+    """更新关系标签（支持文件锁，支持多文件搜索）"""
+    # 精确定位包含目标关系的文件
+    relations_file = find_relation_file_by_content(
+        subject_id,
+        relation.source,
+        relation.target,
+        relation.relation_name
+    )
     if not relations_file or not relations_file.exists():
-        raise HTTPException(status_code=404, detail="关系文件不存在")
+        raise HTTPException(status_code=404, detail="关系不存在或关系文件不存在")
     
     try:
         # 使用文件锁保护编辑操作
@@ -611,11 +649,11 @@ async def list_backups(
     current_user: User = Depends(require_teacher)
 ):
     """列出备份文件"""
-    config = SUBJECT_CONFIG.get(subject_id)
-    if not config:
+    _, subject_cfg = get_subject_config(subject_id)
+    if not subject_cfg:
         raise HTTPException(status_code=404, detail="学科不存在")
     
-    data_dir = DATA_ROOT / config['data_dir']
+    data_dir = DATA_ROOT / subject_cfg['data_dir']
     backup_dir = data_dir / "backups"
     
     if not backup_dir.exists():
@@ -631,3 +669,175 @@ async def list_backups(
         })
     
     return {"success": True, "backups": backups[:50]}  # 最多返回50个
+
+
+# ========== 撤销功能 ==========
+
+class UndoRequest(BaseModel):
+    """撤销请求模型"""
+    backup_file: str  # 备份文件名
+
+
+@router.get("/undo-history/{subject_id}")
+async def get_undo_history(
+    subject_id: str,
+    limit: int = 10,
+    current_user: User = Depends(require_teacher)
+):
+    """获取可撤销的操作历史（最近的备份文件列表）"""
+    _, subject_cfg = get_subject_config(subject_id)
+    if not subject_cfg:
+        raise HTTPException(status_code=404, detail="学科不存在")
+    
+    data_dir = DATA_ROOT / subject_cfg['data_dir']
+    backup_dir = data_dir / "backups"
+    
+    if not backup_dir.exists():
+        return {
+            "success": True,
+            "subject_id": subject_id,
+            "undo_history": [],
+            "message": "没有可撤销的操作"
+        }
+    
+    backup_files = sorted(
+        backup_dir.glob("*.bak"), 
+        key=lambda f: f.stat().st_mtime, 
+        reverse=True
+    )
+    
+    undo_history = []
+    for bf in backup_files[:limit]:
+        stat = bf.stat()
+        parts = bf.stem.rsplit('_', 2)
+        original_name = parts[0] if len(parts) >= 3 else bf.stem
+        
+        backup_type = "unknown"
+        if "relation" in original_name.lower():
+            backup_type = "relation"
+        elif any(x in original_name.lower() for x in ['entity', 'chapter', 'section']):
+            backup_type = "entity"
+        
+        undo_history.append({
+            "backup_file": bf.name,
+            "original_file": original_name + ".json",
+            "backup_type": backup_type,
+            "size": stat.st_size,
+            "created_at": datetime.fromtimestamp(stat.st_mtime).isoformat(),
+            "created_at_human": datetime.fromtimestamp(stat.st_mtime).strftime("%Y-%m-%d %H:%M:%S")
+        })
+    
+    return {
+        "success": True,
+        "subject_id": subject_id,
+        "undo_history": undo_history,
+        "total": len(undo_history)
+    }
+
+
+@router.post("/undo/{subject_id}")
+async def undo_operation(
+    subject_id: str,
+    undo_request: UndoRequest,
+    current_user: User = Depends(require_teacher),
+    db: Session = Depends(get_db)
+):
+    """
+    执行撤销操作 - 从备份恢复文件
+    
+    将指定的备份文件恢复到原始位置，实现撤销效果
+    """
+    _, subject_cfg = get_subject_config(subject_id)
+    if not subject_cfg:
+        raise HTTPException(status_code=404, detail="学科不存在")
+    
+    data_dir = DATA_ROOT / subject_cfg['data_dir']
+    backup_dir = data_dir / "backups"
+    backup_file = backup_dir / undo_request.backup_file
+    
+    if not backup_file.exists():
+        raise HTTPException(status_code=404, detail="备份文件不存在")
+    
+    # 从备份文件名解析原始文件名
+    # 格式: originalname_YYYYMMDD_HHMMSS.bak
+    parts = backup_file.stem.rsplit('_', 2)
+    if len(parts) < 3:
+        raise HTTPException(status_code=400, detail="无法解析备份文件名")
+    
+    original_name = parts[0] + ".json"
+    
+    # 确定原始文件的目录（实体或关系）
+    original_file = None
+    for dir_name in ['entities', 'relations', '实体', '关系', 'entity', 'relation']:
+        potential_path = data_dir / dir_name / original_name
+        if potential_path.exists():
+            original_file = potential_path
+            break
+    
+    # 如果原始文件不存在，尝试根据备份内容判断目录
+    if not original_file:
+        try:
+            with open(backup_file, 'r', encoding='utf-8') as f:
+                backup_data = json.load(f)
+            
+            # 判断是实体还是关系
+            if isinstance(backup_data, list):
+                if backup_data and isinstance(backup_data[0], dict):
+                    if 'source' in backup_data[0] and 'target' in backup_data[0]:
+                        target_dir = data_dir / "relations"
+                    else:
+                        target_dir = data_dir / "entities"
+                else:
+                    target_dir = data_dir / "entities"
+            elif isinstance(backup_data, dict):
+                if 'relations' in backup_data:
+                    target_dir = data_dir / "relations"
+                else:
+                    target_dir = data_dir / "entities"
+            else:
+                raise HTTPException(status_code=400, detail="无法确定备份文件类型")
+            
+            target_dir.mkdir(parents=True, exist_ok=True)
+            original_file = target_dir / original_name
+        except json.JSONDecodeError:
+            raise HTTPException(status_code=400, detail="备份文件格式无效")
+    
+    try:
+        # 在恢复前，先备份当前文件（防止误操作）
+        if original_file.exists():
+            pre_undo_backup = create_backup(original_file)
+        else:
+            pre_undo_backup = None
+        
+        # 使用文件锁保护恢复操作
+        with file_lock(original_file, timeout=30.0):
+            shutil.copy2(backup_file, original_file)
+        
+        # 记录操作日志
+        log_operation(
+            db, current_user, "undo_operation",
+            "file", original_name,
+            details={
+                "subject": subject_id,
+                "backup_file": undo_request.backup_file,
+                "restored_to": str(original_file),
+                "pre_undo_backup": str(pre_undo_backup) if pre_undo_backup else None
+            }
+        )
+        
+        # 标记需要同步
+        mark_needs_sync(db, subject_id)
+        
+        return {
+            "success": True,
+            "message": "撤销成功",
+            "restored_file": original_name,
+            "backup_used": undo_request.backup_file,
+            "pre_undo_backup": str(pre_undo_backup) if pre_undo_backup else None,
+            "needs_sync": True
+        }
+    
+    except FileLockTimeout as e:
+        raise HTTPException(status_code=423, detail=str(e))
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"撤销失败: {str(e)}")

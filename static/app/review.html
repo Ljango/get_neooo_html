@@ -110,11 +110,27 @@
         .entity-item .title {
             font-weight: 500;
             margin-bottom: 4px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
         }
         
         .entity-item .meta {
             font-size: 12px;
             color: var(--text-muted);
+        }
+        
+        /* 水平/等级标签样式 */
+        .level-badge {
+            display: inline-block;
+            padding: 2px 6px;
+            font-size: 11px;
+            font-weight: 500;
+            border-radius: 3px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            white-space: nowrap;
         }
         
         .detail-content {
@@ -339,6 +355,16 @@
             background: #9254de;
         }
         
+        .btn-undo {
+            background: #fa8c16;
+            color: white;
+            border: none;
+        }
+        
+        .btn-undo:hover {
+            background: #ffa940;
+        }
+        
         .relation-item {
             position: relative;
             padding-right: 40px;
@@ -523,6 +549,9 @@
                         </div>
                         
                         <div class="filter-bar">
+                            <input type="text" id="searchInput" placeholder="搜索标题/标识符..." 
+                                   style="flex: 1; min-width: 150px;" 
+                                   onkeyup="handleSearchInput(event)">
                             <select id="statusFilter" onchange="loadList()">
                                 <option value="">全部状态</option>
                                 <option value="pending">待审核</option>
@@ -704,6 +733,25 @@
         </div>
     </div>
     
+    <!-- 撤销操作模态框 -->
+    <div class="modal" id="undoModal">
+        <div class="modal-content" style="max-width: 700px;">
+            <div class="modal-header">
+                <h3>撤销操作</h3>
+                <button class="modal-close" onclick="closeModal('undoModal')">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p style="color: #666; margin-bottom: 15px;">选择要恢复的备份版本。每次编辑操作都会自动创建备份，可以恢复到之前的状态。</p>
+                <div id="undoHistoryList" style="max-height: 400px; overflow-y: auto;">
+                    <div class="empty-state">加载中...</div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" onclick="closeModal('undoModal')">关闭</button>
+            </div>
+        </div>
+    </div>
+    
     <script src="/static/js/api.js"></script>
     <script src="/static/js/auth.js"></script>
     <script>
@@ -803,11 +851,34 @@
             clearDetail();
         }
         
+        // 搜索防抖处理
+        let searchTimeout = null;
+        function handleSearchInput(event) {
+            // 清除之前的超时
+            if (searchTimeout) {
+                clearTimeout(searchTimeout);
+            }
+            
+            // 如果按下回车，立即搜索
+            if (event.key === 'Enter') {
+                currentPage = 1;
+                loadList();
+                return;
+            }
+            
+            // 否则延迟300ms后搜索（防抖）
+            searchTimeout = setTimeout(() => {
+                currentPage = 1;
+                loadList();
+            }, 300);
+        }
+        
         async function loadList() {
             if (!currentSubject) return;
             
             const statusFilter = document.getElementById('statusFilter').value;
             const typeFilter = document.getElementById('typeFilter').value;
+            const searchValue = document.getElementById('searchInput').value.trim();
             const listContainer = document.getElementById('itemList');
             
             listContainer.innerHTML = '<div class="loading">加载中...</div>';
@@ -818,7 +889,8 @@
                     page: currentPage,
                     page_size: pageSize,
                     status_filter: statusFilter || undefined,
-                    entity_type: typeFilter || undefined
+                    entity_type: typeFilter || undefined,
+                    search: searchValue || undefined
                 };
                 
                 // 清理undefined参数
@@ -848,7 +920,10 @@
             
             container.innerHTML = entities.map(e => `
                 <div class="entity-item" onclick="selectEntity('${encodeURIComponent(e.identifier)}')" data-id="${e.identifier}">
-                    <div class="title">${e.title || e.identifier}</div>
+                    <div class="title">
+                        ${e.title || e.identifier}
+                        ${e.level ? `<span class="level-badge">${e.level}</span>` : ''}
+                    </div>
                     <div class="meta">
                         <span>${e.type}</span>
                         ${e.review_status ? `<span class="badge badge-${e.review_status}">${getStatusText(e.review_status)}</span>` : ''}
@@ -1005,6 +1080,9 @@
                     <button class="btn btn-graph" onclick="openGraphModal()">
                         🔗 查看图谱
                     </button>
+                    <button class="btn btn-undo" onclick="openUndoModal()">
+                        ↩️ 撤销操作
+                    </button>
                 </div>
                 
                 <div class="detail-section">
@@ -1026,6 +1104,12 @@
                             <span class="label">描述</span>
                             <span class="value">${entity.description || '-'}</span>
                         </div>
+                        ${entity.content_json && entity.content_json.standard ? `
+                        <div class="property-item">
+                            <span class="label">水平/等级</span>
+                            <span class="value"><span class="level-badge" style="font-size: 13px; padding: 4px 10px;">${entity.content_json.standard}</span></span>
+                        </div>
+                        ` : ''}
                         ${entity.subject ? `
                         <div class="property-item">
                             <span class="label">学科</span>
@@ -1094,6 +1178,9 @@
                 <div class="edit-toolbar">
                     <button class="btn btn-edit" onclick="openEditRelationModal()">
                         ✏️ 编辑标签
+                    </button>
+                    <button class="btn btn-undo" onclick="openUndoModal()">
+                        ↩️ 撤销操作
                     </button>
                 </div>
                 
@@ -1454,13 +1541,13 @@
             const relation = pendingDeleteRelation;
             
             try {
-                await api.edit.deleteRelation(currentSubject, {
+                const result = await api.edit.deleteRelation(currentSubject, {
                     source: relation.source,
                     target: relation.target,
                     relation_name: relation.relation_name
                 });
                 
-                showToast('关系删除成功', 'success');
+                showToast('关系删除成功，可点击"撤销操作"恢复', 'success');
                 closeModal('confirmDeleteModal');
                 pendingDeleteRelation = null;
                 
@@ -1469,6 +1556,70 @@
                 await selectEntity(encodeURIComponent(identifier));
             } catch (error) {
                 showToast('删除失败: ' + error.message, 'error');
+            }
+        }
+        
+        // ========== 撤销功能 ==========
+        
+        async function openUndoModal() {
+            if (!currentSubject) {
+                showToast('请先选择学科', 'error');
+                return;
+            }
+            
+            const listContainer = document.getElementById('undoHistoryList');
+            listContainer.innerHTML = '<div class="empty-state">加载中...</div>';
+            
+            openModal('undoModal');
+            
+            try {
+                const result = await api.edit.getUndoHistory(currentSubject, 20);
+                
+                if (!result.undo_history || result.undo_history.length === 0) {
+                    listContainer.innerHTML = '<div class="empty-state">暂无可撤销的操作</div>';
+                    return;
+                }
+                
+                listContainer.innerHTML = result.undo_history.map(item => `
+                    <div class="undo-item" style="padding: 12px; border: 1px solid #e8e8e8; border-radius: 6px; margin-bottom: 10px; background: #fafafa;">
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <div>
+                                <div style="font-weight: 500; color: #333;">${item.original_file}</div>
+                                <div style="font-size: 12px; color: #888; margin-top: 4px;">
+                                    类型: ${item.backup_type === 'relation' ? '关系' : item.backup_type === 'entity' ? '实体' : '未知'} | 
+                                    备份时间: ${item.created_at_human}
+                                </div>
+                            </div>
+                            <button class="btn btn-primary" onclick="executeUndo('${item.backup_file}')" style="padding: 6px 16px;">
+                                恢复此版本
+                            </button>
+                        </div>
+                    </div>
+                `).join('');
+            } catch (error) {
+                listContainer.innerHTML = `<div class="empty-state" style="color: red;">加载失败: ${error.message}</div>`;
+            }
+        }
+        
+        async function executeUndo(backupFile) {
+            if (!confirm('确定要恢复到此版本吗？当前数据将被覆盖（但会先备份当前数据）。')) {
+                return;
+            }
+            
+            try {
+                const result = await api.edit.undo(currentSubject, backupFile);
+                
+                showToast(result.message || '撤销成功', 'success');
+                closeModal('undoModal');
+                
+                // 刷新当前视图
+                if (currentTab === 'entity' && currentEntityData) {
+                    await selectEntity(encodeURIComponent(currentEntityData.entity.identifier));
+                } else {
+                    await loadList();
+                }
+            } catch (error) {
+                showToast('撤销失败: ' + error.message, 'error');
             }
         }
         

@@ -1,0 +1,244 @@
+{
+  "relations": [
+    {
+      "relationName": "courseContentSpecifiesDiscourseTypes",
+      "label": "课程内容规定语篇类型与要求 / specifiesDiscourseTypes",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "discourseTypesAreSpecifiedByCourseContent",
+      "label": "语篇类型由课程内容规定 / areSpecifiedByCourseContent",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:02"
+    },
+    {
+      "relationName": "courseContentSpecifiesDiscourseTypes",
+      "label": "课程内容规定语篇类型与要求 / specifiesDiscourseTypes",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "discourseTypesAreSpecifiedByCourseContent",
+      "label": "语篇类型由课程内容规定 / areSpecifiedByCourseContent",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:02"
+    },
+    {
+      "relationName": "courseContentSpecifiesDiscourseTypes",
+      "label": "课程内容规定语篇类型与要求 / specifiesDiscourseTypes",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:03"
+    },
+    {
+      "relationName": "discourseTypesAreSpecifiedByCourseContent",
+      "label": "语篇类型由课程内容规定 / areSpecifiedByCourseContent",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:02"
+    },
+    {
+      "relationName": "courseContentSpecifiesDiscourseTypes",
+      "label": "课程内容规定语篇类型与要求 / specifiesDiscourseTypes",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:04"
+    },
+    {
+      "relationName": "discourseTypesAreSpecifiedByCourseContent",
+      "label": "语篇类型由课程内容规定 / areSpecifiedByCourseContent",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:04",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:02"
+    },
+    {
+      "relationName": "teachingTipsRelyOnDiscourse",
+      "label": "教学提示以语篇为依托 / reliesOnDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "discourseIsUsedInTeachingTips",
+      "label": "语篇用于教学提示实施 / isUsedInTeachingTips",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+    },
+    {
+      "relationName": "teachingTipsRelyOnDiscourse",
+      "label": "教学提示以语篇为依托 / reliesOnDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "discourseIsUsedInTeachingTips",
+      "label": "语篇用于教学提示实施 / isUsedInTeachingTips",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+    },
+    {
+      "relationName": "teachingTipsRelyOnDiscourse",
+      "label": "教学提示以语篇为依托 / reliesOnDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:03"
+    },
+    {
+      "relationName": "discourseIsUsedInTeachingTips",
+      "label": "语篇用于教学提示实施 / isUsedInTeachingTips",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+    },
+    {
+      "relationName": "teachingTipsRelyOnDiscourse",
+      "label": "教学提示以语篇为依托 / reliesOnDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:04"
+    },
+    {
+      "relationName": "discourseIsUsedInTeachingTips",
+      "label": "语篇用于教学提示实施 / isUsedInTeachingTips",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:04",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+    },
+    {
+      "relationName": "teachingTipsRelyOnDiscourse",
+      "label": "教学提示以语篇为依托 / reliesOnDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "discourseIsUsedInTeachingTips",
+      "label": "语篇用于教学提示实施 / isUsedInTeachingTips",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+    },
+    {
+      "relationName": "teachingTipsRelyOnDiscourse",
+      "label": "教学提示以语篇为依托 / reliesOnDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "discourseIsUsedInTeachingTips",
+      "label": "语篇用于教学提示实施 / isUsedInTeachingTips",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+    },
+    {
+      "relationName": "teachingTipsRelyOnDiscourse",
+      "label": "教学提示以语篇为依托 / reliesOnDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:03"
+    },
+    {
+      "relationName": "discourseIsUsedInTeachingTips",
+      "label": "语篇用于教学提示实施 / isUsedInTeachingTips",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+    },
+    {
+      "relationName": "teachingTipsRelyOnDiscourse",
+      "label": "教学提示以语篇为依托 / reliesOnDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:04"
+    },
+    {
+      "relationName": "discourseIsUsedInTeachingTips",
+      "label": "语篇用于教学提示实施 / isUsedInTeachingTips",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:04",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+    },
+    {
+      "relationName": "teachingTipsRelyOnDiscourse",
+      "label": "教学提示以语篇为依托 / reliesOnDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "discourseIsUsedInTeachingTips",
+      "label": "语篇用于教学提示实施 / isUsedInTeachingTips",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+    },
+    {
+      "relationName": "teachingTipsRelyOnDiscourse",
+      "label": "教学提示以语篇为依托 / reliesOnDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "discourseIsUsedInTeachingTips",
+      "label": "语篇用于教学提示实施 / isUsedInTeachingTips",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+    },
+    {
+      "relationName": "teachingTipsRelyOnDiscourse",
+      "label": "教学提示以语篇为依托 / reliesOnDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:03"
+    },
+    {
+      "relationName": "discourseIsUsedInTeachingTips",
+      "label": "语篇用于教学提示实施 / isUsedInTeachingTips",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+    },
+    {
+      "relationName": "teachingTipsRelyOnDiscourse",
+      "label": "教学提示以语篇为依托 / reliesOnDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:04"
+    },
+    {
+      "relationName": "discourseIsUsedInTeachingTips",
+      "label": "语篇用于教学提示实施 / isUsedInTeachingTips",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:04",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+    },
+    {
+      "relationName": "teachingTipsRelyOnDiscourse",
+      "label": "教学提示以语篇为依托 / reliesOnDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:01"
+    },
+    {
+      "relationName": "discourseIsUsedInTeachingTips",
+      "label": "语篇用于教学提示实施 / isUsedInTeachingTips",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+    },
+    {
+      "relationName": "teachingTipsRelyOnDiscourse",
+      "label": "教学提示以语篇为依托 / reliesOnDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:02"
+    },
+    {
+      "relationName": "discourseIsUsedInTeachingTips",
+      "label": "语篇用于教学提示实施 / isUsedInTeachingTips",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+    },
+    {
+      "relationName": "teachingTipsRelyOnDiscourse",
+      "label": "教学提示以语篇为依托 / reliesOnDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:03"
+    },
+    {
+      "relationName": "discourseIsUsedInTeachingTips",
+      "label": "语篇用于教学提示实施 / isUsedInTeachingTips",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+    },
+    {
+      "relationName": "teachingTipsRelyOnDiscourse",
+      "label": "教学提示以语篇为依托 / reliesOnDiscourse",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Discourse:04"
+    },
+    {
+      "relationName": "discourseIsUsedInTeachingTips",
+      "label": "语篇用于教学提示实施 / isUsedInTeachingTips",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Discourse:04",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+    }
+  ]
+}

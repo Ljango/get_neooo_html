@@ -1,148 +1,146 @@
-{
-    "relations": [
-        {
-            "relationName": "themeL1OrganizesL2",
-            "label": "以自然环境系统及其要素发展、演变过程对人类活动的影响为线索组织 / organizesL2",
-            "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:01",
-            "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:01"
-        },
-        {
-            "relationName": "themeL2BelongsToL1",
-            "label": "描述地球的宇宙环境 / belongsToL1",
-            "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:01",
-            "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:01"
-        },
-        {
-            "relationName": "themeL1OrganizesL2",
-            "label": "以自然环境系统及其要素发展、演变过程对人类活动的影响为线索组织 / organizesL2",
-            "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:01",
-            "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:02"
-        },
-        {
-            "relationName": "themeL2BelongsToL1",
-            "label": "描述探月工程、火星探测以及空间站建设等人类太空探索的进展与意义 / belongsToL1",
-            "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:02",
-            "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:01"
-        },
-        {
-            "relationName": "themeL1OrganizesL2",
-            "label": "以自然环境系统及其要素发展、演变过程对人类活动的影响为线索组织 / organizesL2",
-            "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:02",
-            "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:03"
-        },
-        {
-            "relationName": "themeL2BelongsToL1",
-            "label": "演示地球的自转运动 / belongsToL1",
-            "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:03",
-            "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:02"
-        },
-        {
-            "relationName": "themeL1OrganizesL2",
-            "label": "以自然环境系统及其要素发展、演变过程对人类活动的影响为线索组织 / organizesL2",
-            "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:02",
-            "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:04"
-        },
-        {
-            "relationName": "themeL2BelongsToL1",
-            "label": "演示地球的公转运动 / belongsToL1",
-            "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:04",
-            "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:02"
-        },
-        {
-            "relationName": "themeL1OrganizesL2",
-            "label": "以认识自然地理要素及其与人类活动的关系为线索组织 / organizesL2",
-            "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:03",
-            "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:05"
-        },
-        {
-            "relationName": "themeL2BelongsToL1",
-            "label": "描述世界海陆分布状况 / belongsToL1",
-            "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:05",
-            "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:03"
-        },
-        {
-            "relationName": "themeL1OrganizesL2",
-            "label": "以基本社会经济活动的空间特点为线索组织 / organizesL2",
-            "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:03",
-            "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:06"
-        },
-        {
-            "relationName": "themeL2BelongsToL1",
-            "label": "描述并简要归纳世界人口数量变化和人口空间分布特点 / belongsToL1",
-            "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:06",
-            "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:03"
-        },
-        {
-            "relationName": "themeL1OrganizesL2",
-            "label": "以认识区域地理条件、区域特征和发展方向为线索组织 / organizesL2",
-            "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:04",
-            "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:07"
-        },
-        {
-            "relationName": "themeL2BelongsToL1",
-            "label": "描述某大洲的地理位置 / belongsToL1",
-            "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:07",
-            "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:04"
-        },
-        {
-            "relationName": "themeL1OrganizesL2",
-            "label": "以认识区域地理条件、区域特征和发展方向为线索组织 / organizesL2",
-            "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:04",
-            "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:08"
-        },
-        {
-            "relationName": "themeL2BelongsToL1",
-            "label": "描述某地区的地理位置 / belongsToL1",
-            "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:08",
-            "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:04"
-        },
-        {
-            "relationName": "themeL1OrganizesL2",
-            "label": "以认识区域地理条件、区域特征和发展方向为线索组织 / organizesL2",
-            "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:04",
-            "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:09"
-        },
-        {
-            "relationName": "themeL2BelongsToL1",
-            "label": "说出某国家的地理位置 / belongsToL1",
-            "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:09",
-            "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:04"
-        },
-        {
-            "relationName": "themeL1OrganizesL2",
-            "label": "以认识区域地理条件、区域特征和发展方向为线索组织 / organizesL2",
-            "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:05",
-            "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:10"
-        },
-        {
-            "relationName": "themeL2BelongsToL1",
-            "label": "描述中国的地理位置与疆域特征 / belongsToL1",
-            "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:10",
-            "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:05"
-        },
-        {
-            "relationName": "themeL1OrganizesL2",
-            "label": "以认识区域地理条件、区域特征和发展方向为线索组织 / organizesL2",
-            "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:05",
-            "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:11"
-        },
-        {
-            "relationName": "themeL2BelongsToL1",
-            "label": "说出某区域的地理位置和自然地理特征 / belongsToL1",
-            "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:11",
-            "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:05"
-        },
-        {
-            "relationName": "themeL1OrganizesL2",
-            "label": "以认识区域地理条件、区域特征和发展方向为线索组织 / organizesL2",
-            "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:05",
-            "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:12"
-        },
-        {
-            "relationName": "themeL2BelongsToL1",
-            "label": "描述家乡典型的自然与人文地理事物和现象 / belongsToL1",
-            "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:12",
-            "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:05"
-        }
-    ]
-}
+[
+  {
+    "relationName": "themeL1OrganizesL2",
+    "label": "以自然环境系统及其要素发展、演变过程对人类活动的影响为线索组织 / organizesL2",
+    "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:01",
+    "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:01"
+  },
+  {
+    "relationName": "themeL2BelongsToL1",
+    "label": "描述地球的宇宙环境 / belongsToL1",
+    "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:01",
+    "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:01"
+  },
+  {
+    "relationName": "themeL1OrganizesL2",
+    "label": "以自然环境系统及其要素发展、演变过程对人类活动的影响为线索组织 / organizesL2",
+    "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:01",
+    "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:02"
+  },
+  {
+    "relationName": "themeL2BelongsToL1",
+    "label": "描述探月工程、火星探测以及空间站建设等人类太空探索的进展与意义 / belongsToL1",
+    "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:02",
+    "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:01"
+  },
+  {
+    "relationName": "themeL1OrganizesL2",
+    "label": "以自然环境系统及其要素发展、演变过程对人类活动的影响为线索组织 / organizesL2",
+    "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:02",
+    "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:03"
+  },
+  {
+    "relationName": "themeL2BelongsToL1",
+    "label": "演示地球的自转运动 / belongsToL1",
+    "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:03",
+    "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:02"
+  },
+  {
+    "relationName": "themeL1OrganizesL2",
+    "label": "以自然环境系统及其要素发展、演变过程对人类活动的影响为线索组织 / organizesL2",
+    "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:02",
+    "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:04"
+  },
+  {
+    "relationName": "themeL2BelongsToL1",
+    "label": "演示地球的公转运动 / belongsToL1",
+    "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:04",
+    "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:02"
+  },
+  {
+    "relationName": "themeL1OrganizesL2",
+    "label": "以认识自然地理要素及其与人类活动的关系为线索组织 / organizesL2",
+    "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:03",
+    "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:05"
+  },
+  {
+    "relationName": "themeL2BelongsToL1",
+    "label": "描述世界海陆分布状况 / belongsToL1",
+    "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:05",
+    "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:03"
+  },
+  {
+    "relationName": "themeL1OrganizesL2",
+    "label": "以基本社会经济活动的空间特点为线索组织 / organizesL2",
+    "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:03",
+    "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:06"
+  },
+  {
+    "relationName": "themeL2BelongsToL1",
+    "label": "描述并简要归纳世界人口数量变化和人口空间分布特点 / belongsToL1",
+    "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:06",
+    "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:03"
+  },
+  {
+    "relationName": "themeL1OrganizesL2",
+    "label": "以认识区域地理条件、区域特征和发展方向为线索组织 / organizesL2",
+    "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:04",
+    "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:07"
+  },
+  {
+    "relationName": "themeL2BelongsToL1",
+    "label": "描述某大洲的地理位置 / belongsToL1",
+    "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:07",
+    "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:04"
+  },
+  {
+    "relationName": "themeL1OrganizesL2",
+    "label": "以认识区域地理条件、区域特征和发展方向为线索组织 / organizesL2",
+    "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:04",
+    "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:08"
+  },
+  {
+    "relationName": "themeL2BelongsToL1",
+    "label": "描述某地区的地理位置 / belongsToL1",
+    "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:08",
+    "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:04"
+  },
+  {
+    "relationName": "themeL1OrganizesL2",
+    "label": "以认识区域地理条件、区域特征和发展方向为线索组织 / organizesL2",
+    "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:04",
+    "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:09"
+  },
+  {
+    "relationName": "themeL2BelongsToL1",
+    "label": "说出某国家的地理位置 / belongsToL1",
+    "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:09",
+    "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:04"
+  },
+  {
+    "relationName": "themeL1OrganizesL2",
+    "label": "以认识区域地理条件、区域特征和发展方向为线索组织 / organizesL2",
+    "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:05",
+    "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:10"
+  },
+  {
+    "relationName": "themeL2BelongsToL1",
+    "label": "描述中国的地理位置与疆域特征 / belongsToL1",
+    "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:10",
+    "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:05"
+  },
+  {
+    "relationName": "themeL1OrganizesL2",
+    "label": "以认识区域地理条件、区域特征和发展方向为线索组织 / organizesL2",
+    "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:05",
+    "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:11"
+  },
+  {
+    "relationName": "themeL2BelongsToL1",
+    "label": "说出某区域的地理位置和自然地理特征 / belongsToL1",
+    "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:11",
+    "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:05"
+  },
+  {
+    "relationName": "themeL1OrganizesL2",
+    "label": "以认识区域地理条件、区域特征和发展方向为线索组织 / organizesL2",
+    "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:05",
+    "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:12"
+  },
+  {
+    "relationName": "themeL2BelongsToL1",
+    "label": "描述家乡典型的自然与人文地理事物和现象 / belongsToL1",
+    "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:12",
+    "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL1:05"
+  }
+]

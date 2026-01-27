@@ -1,0 +1,652 @@
+{
+  "relations": [
+    {
+      "relationName": "themeProvidesCulturalContext",
+      "label": "主题为文化知识学习提供情境与范畴 / providesCulturalContext",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
+    },
+    {
+      "relationName": "culturalKnowledgeIsDevelopedUnderTheme",
+      "label": "文化知识在主题引领下建构 / isDevelopedUnderTheme",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:01"
+    },
+    {
+      "relationName": "culturalKnowledgeEnrichesThemeMeaning",
+      "label": "文化知识丰富主题内涵 / enrichesThemeMeaning",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:01"
+    },
+    {
+      "relationName": "themeIsDeepenedByCulturalKnowledge",
+      "label": "主题内涵由文化知识深化 / isDeepenedByCulturalKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
+    },
+    {
+      "relationName": "themeProvidesCulturalContext",
+      "label": "主题为文化知识学习提供情境与范畴 / providesCulturalContext",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
+    },
+    {
+      "relationName": "culturalKnowledgeIsDevelopedUnderTheme",
+      "label": "文化知识在主题引领下建构 / isDevelopedUnderTheme",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:02"
+    },
+    {
+      "relationName": "culturalKnowledgeEnrichesThemeMeaning",
+      "label": "文化知识丰富主题内涵 / enrichesThemeMeaning",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:02"
+    },
+    {
+      "relationName": "themeIsDeepenedByCulturalKnowledge",
+      "label": "主题内涵由文化知识深化 / isDeepenedByCulturalKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
+    },
+    {
+      "relationName": "themeProvidesCulturalContext",
+      "label": "主题为文化知识学习提供情境与范畴 / providesCulturalContext",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
+    },
+    {
+      "relationName": "culturalKnowledgeIsDevelopedUnderTheme",
+      "label": "文化知识在主题引领下建构 / isDevelopedUnderTheme",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:03"
+    },
+    {
+      "relationName": "culturalKnowledgeEnrichesThemeMeaning",
+      "label": "文化知识丰富主题内涵 / enrichesThemeMeaning",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:03"
+    },
+    {
+      "relationName": "themeIsDeepenedByCulturalKnowledge",
+      "label": "主题内涵由文化知识深化 / isDeepenedByCulturalKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
+    },
+    {
+      "relationName": "themeProvidesCulturalContext",
+      "label": "主题为文化知识学习提供情境与范畴 / providesCulturalContext",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:04",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
+    },
+    {
+      "relationName": "culturalKnowledgeIsDevelopedUnderTheme",
+      "label": "文化知识在主题引领下建构 / isDevelopedUnderTheme",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:04"
+    },
+    {
+      "relationName": "culturalKnowledgeEnrichesThemeMeaning",
+      "label": "文化知识丰富主题内涵 / enrichesThemeMeaning",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:04"
+    },
+    {
+      "relationName": "themeIsDeepenedByCulturalKnowledge",
+      "label": "主题内涵由文化知识深化 / isDeepenedByCulturalKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:04",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
+    },
+    {
+      "relationName": "themeProvidesCulturalContext",
+      "label": "主题为文化知识学习提供情境与范畴 / providesCulturalContext",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:05",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
+    },
+    {
+      "relationName": "culturalKnowledgeIsDevelopedUnderTheme",
+      "label": "文化知识在主题引领下建构 / isDevelopedUnderTheme",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:05"
+    },
+    {
+      "relationName": "culturalKnowledgeEnrichesThemeMeaning",
+      "label": "文化知识丰富主题内涵 / enrichesThemeMeaning",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:05"
+    },
+    {
+      "relationName": "themeIsDeepenedByCulturalKnowledge",
+      "label": "主题内涵由文化知识深化 / isDeepenedByCulturalKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:05",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
+    },
+    {
+      "relationName": "themeProvidesCulturalContext",
+      "label": "主题为文化知识学习提供情境与范畴 / providesCulturalContext",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:06",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
+    },
+    {
+      "relationName": "culturalKnowledgeIsDevelopedUnderTheme",
+      "label": "文化知识在主题引领下建构 / isDevelopedUnderTheme",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:06"
+    },
+    {
+      "relationName": "culturalKnowledgeEnrichesThemeMeaning",
+      "label": "文化知识丰富主题内涵 / enrichesThemeMeaning",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:06"
+    },
+    {
+      "relationName": "themeIsDeepenedByCulturalKnowledge",
+      "label": "主题内涵由文化知识深化 / isDeepenedByCulturalKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:06",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
+    },
+    {
+      "relationName": "themeProvidesCulturalContext",
+      "label": "主题为文化知识学习提供情境与范畴 / providesCulturalContext",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
+    },
+    {
+      "relationName": "culturalKnowledgeIsDevelopedUnderTheme",
+      "label": "文化知识在主题引领下建构 / isDevelopedUnderTheme",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "culturalKnowledgeEnrichesThemeMeaning",
+      "label": "文化知识丰富主题内涵 / enrichesThemeMeaning",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "themeIsDeepenedByCulturalKnowledge",
+      "label": "主题内涵由文化知识深化 / isDeepenedByCulturalKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
+    },
+    {
+      "relationName": "themeProvidesCulturalContext",
+      "label": "主题为文化知识学习提供情境与范畴 / providesCulturalContext",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
+    },
+    {
+      "relationName": "culturalKnowledgeIsDevelopedUnderTheme",
+      "label": "文化知识在主题引领下建构 / isDevelopedUnderTheme",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "culturalKnowledgeEnrichesThemeMeaning",
+      "label": "文化知识丰富主题内涵 / enrichesThemeMeaning",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "themeIsDeepenedByCulturalKnowledge",
+      "label": "主题内涵由文化知识深化 / isDeepenedByCulturalKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
+    },
+    {
+      "relationName": "themeProvidesCulturalContext",
+      "label": "主题为文化知识学习提供情境与范畴 / providesCulturalContext",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
+    },
+    {
+      "relationName": "culturalKnowledgeIsDevelopedUnderTheme",
+      "label": "文化知识在主题引领下建构 / isDevelopedUnderTheme",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "culturalKnowledgeEnrichesThemeMeaning",
+      "label": "文化知识丰富主题内涵 / enrichesThemeMeaning",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "themeIsDeepenedByCulturalKnowledge",
+      "label": "主题内涵由文化知识深化 / isDeepenedByCulturalKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
+    },
+    {
+      "relationName": "themeProvidesCulturalContext",
+      "label": "主题为文化知识学习提供情境与范畴 / providesCulturalContext",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
+    },
+    {
+      "relationName": "culturalKnowledgeIsDevelopedUnderTheme",
+      "label": "文化知识在主题引领下建构 / isDevelopedUnderTheme",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:01"
+    },
+    {
+      "relationName": "culturalKnowledgeEnrichesThemeMeaning",
+      "label": "文化知识丰富主题内涵 / enrichesThemeMeaning",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:01"
+    },
+    {
+      "relationName": "themeIsDeepenedByCulturalKnowledge",
+      "label": "主题内涵由文化知识深化 / isDeepenedByCulturalKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
+    },
+    {
+      "relationName": "themeProvidesCulturalContext",
+      "label": "主题为文化知识学习提供情境与范畴 / providesCulturalContext",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
+    },
+    {
+      "relationName": "culturalKnowledgeIsDevelopedUnderTheme",
+      "label": "文化知识在主题引领下建构 / isDevelopedUnderTheme",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:02"
+    },
+    {
+      "relationName": "culturalKnowledgeEnrichesThemeMeaning",
+      "label": "文化知识丰富主题内涵 / enrichesThemeMeaning",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:02"
+    },
+    {
+      "relationName": "themeIsDeepenedByCulturalKnowledge",
+      "label": "主题内涵由文化知识深化 / isDeepenedByCulturalKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
+    },
+    {
+      "relationName": "themeProvidesCulturalContext",
+      "label": "主题为文化知识学习提供情境与范畴 / providesCulturalContext",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
+    },
+    {
+      "relationName": "culturalKnowledgeIsDevelopedUnderTheme",
+      "label": "文化知识在主题引领下建构 / isDevelopedUnderTheme",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:03"
+    },
+    {
+      "relationName": "culturalKnowledgeEnrichesThemeMeaning",
+      "label": "文化知识丰富主题内涵 / enrichesThemeMeaning",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:03"
+    },
+    {
+      "relationName": "themeIsDeepenedByCulturalKnowledge",
+      "label": "主题内涵由文化知识深化 / isDeepenedByCulturalKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
+    },
+    {
+      "relationName": "themeProvidesCulturalContext",
+      "label": "主题为文化知识学习提供情境与范畴 / providesCulturalContext",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:04",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
+    },
+    {
+      "relationName": "culturalKnowledgeIsDevelopedUnderTheme",
+      "label": "文化知识在主题引领下建构 / isDevelopedUnderTheme",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:04"
+    },
+    {
+      "relationName": "culturalKnowledgeEnrichesThemeMeaning",
+      "label": "文化知识丰富主题内涵 / enrichesThemeMeaning",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:04"
+    },
+    {
+      "relationName": "themeIsDeepenedByCulturalKnowledge",
+      "label": "主题内涵由文化知识深化 / isDeepenedByCulturalKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:04",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
+    },
+    {
+      "relationName": "themeProvidesCulturalContext",
+      "label": "主题为文化知识学习提供情境与范畴 / providesCulturalContext",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:05",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
+    },
+    {
+      "relationName": "culturalKnowledgeIsDevelopedUnderTheme",
+      "label": "文化知识在主题引领下建构 / isDevelopedUnderTheme",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:05"
+    },
+    {
+      "relationName": "culturalKnowledgeEnrichesThemeMeaning",
+      "label": "文化知识丰富主题内涵 / enrichesThemeMeaning",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:05"
+    },
+    {
+      "relationName": "themeIsDeepenedByCulturalKnowledge",
+      "label": "主题内涵由文化知识深化 / isDeepenedByCulturalKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:05",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
+    },
+    {
+      "relationName": "themeProvidesCulturalContext",
+      "label": "主题为文化知识学习提供情境与范畴 / providesCulturalContext",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:06",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
+    },
+    {
+      "relationName": "culturalKnowledgeIsDevelopedUnderTheme",
+      "label": "文化知识在主题引领下建构 / isDevelopedUnderTheme",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:06"
+    },
+    {
+      "relationName": "culturalKnowledgeEnrichesThemeMeaning",
+      "label": "文化知识丰富主题内涵 / enrichesThemeMeaning",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:06"
+    },
+    {
+      "relationName": "themeIsDeepenedByCulturalKnowledge",
+      "label": "主题内涵由文化知识深化 / isDeepenedByCulturalKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:06",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
+    },
+    {
+      "relationName": "themeProvidesCulturalContext",
+      "label": "主题为文化知识学习提供情境与范畴 / providesCulturalContext",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
+    },
+    {
+      "relationName": "culturalKnowledgeIsDevelopedUnderTheme",
+      "label": "文化知识在主题引领下建构 / isDevelopedUnderTheme",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "culturalKnowledgeEnrichesThemeMeaning",
+      "label": "文化知识丰富主题内涵 / enrichesThemeMeaning",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "themeIsDeepenedByCulturalKnowledge",
+      "label": "主题内涵由文化知识深化 / isDeepenedByCulturalKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
+    },
+    {
+      "relationName": "themeProvidesCulturalContext",
+      "label": "主题为文化知识学习提供情境与范畴 / providesCulturalContext",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
+    },
+    {
+      "relationName": "culturalKnowledgeIsDevelopedUnderTheme",
+      "label": "文化知识在主题引领下建构 / isDevelopedUnderTheme",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "culturalKnowledgeEnrichesThemeMeaning",
+      "label": "文化知识丰富主题内涵 / enrichesThemeMeaning",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "themeIsDeepenedByCulturalKnowledge",
+      "label": "主题内涵由文化知识深化 / isDeepenedByCulturalKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
+    },
+    {
+      "relationName": "themeProvidesCulturalContext",
+      "label": "主题为文化知识学习提供情境与范畴 / providesCulturalContext",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
+    },
+    {
+      "relationName": "culturalKnowledgeIsDevelopedUnderTheme",
+      "label": "文化知识在主题引领下建构 / isDevelopedUnderTheme",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "culturalKnowledgeEnrichesThemeMeaning",
+      "label": "文化知识丰富主题内涵 / enrichesThemeMeaning",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "themeIsDeepenedByCulturalKnowledge",
+      "label": "主题内涵由文化知识深化 / isDeepenedByCulturalKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
+    },
+    {
+      "relationName": "themeProvidesCulturalContext",
+      "label": "主题为文化知识学习提供情境与范畴 / providesCulturalContext",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
+    },
+    {
+      "relationName": "culturalKnowledgeIsDevelopedUnderTheme",
+      "label": "文化知识在主题引领下建构 / isDevelopedUnderTheme",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:01"
+    },
+    {
+      "relationName": "culturalKnowledgeEnrichesThemeMeaning",
+      "label": "文化知识丰富主题内涵 / enrichesThemeMeaning",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:01"
+    },
+    {
+      "relationName": "themeIsDeepenedByCulturalKnowledge",
+      "label": "主题内涵由文化知识深化 / isDeepenedByCulturalKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:01",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
+    },
+    {
+      "relationName": "themeProvidesCulturalContext",
+      "label": "主题为文化知识学习提供情境与范畴 / providesCulturalContext",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
+    },
+    {
+      "relationName": "culturalKnowledgeIsDevelopedUnderTheme",
+      "label": "文化知识在主题引领下建构 / isDevelopedUnderTheme",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:02"
+    },
+    {
+      "relationName": "culturalKnowledgeEnrichesThemeMeaning",
+      "label": "文化知识丰富主题内涵 / enrichesThemeMeaning",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:02"
+    },
+    {
+      "relationName": "themeIsDeepenedByCulturalKnowledge",
+      "label": "主题内涵由文化知识深化 / isDeepenedByCulturalKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:02",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
+    },
+    {
+      "relationName": "themeProvidesCulturalContext",
+      "label": "主题为文化知识学习提供情境与范畴 / providesCulturalContext",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
+    },
+    {
+      "relationName": "culturalKnowledgeIsDevelopedUnderTheme",
+      "label": "文化知识在主题引领下建构 / isDevelopedUnderTheme",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:03"
+    },
+    {
+      "relationName": "culturalKnowledgeEnrichesThemeMeaning",
+      "label": "文化知识丰富主题内涵 / enrichesThemeMeaning",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:03"
+    },
+    {
+      "relationName": "themeIsDeepenedByCulturalKnowledge",
+      "label": "主题内涵由文化知识深化 / isDeepenedByCulturalKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
+    },
+    {
+      "relationName": "themeProvidesCulturalContext",
+      "label": "主题为文化知识学习提供情境与范畴 / providesCulturalContext",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:04",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
+    },
+    {
+      "relationName": "culturalKnowledgeIsDevelopedUnderTheme",
+      "label": "文化知识在主题引领下建构 / isDevelopedUnderTheme",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:04"
+    },
+    {
+      "relationName": "culturalKnowledgeEnrichesThemeMeaning",
+      "label": "文化知识丰富主题内涵 / enrichesThemeMeaning",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:04"
+    },
+    {
+      "relationName": "themeIsDeepenedByCulturalKnowledge",
+      "label": "主题内涵由文化知识深化 / isDeepenedByCulturalKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:04",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
+    },
+    {
+      "relationName": "themeProvidesCulturalContext",
+      "label": "主题为文化知识学习提供情境与范畴 / providesCulturalContext",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:05",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
+    },
+    {
+      "relationName": "culturalKnowledgeIsDevelopedUnderTheme",
+      "label": "文化知识在主题引领下建构 / isDevelopedUnderTheme",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:05"
+    },
+    {
+      "relationName": "culturalKnowledgeEnrichesThemeMeaning",
+      "label": "文化知识丰富主题内涵 / enrichesThemeMeaning",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:05"
+    },
+    {
+      "relationName": "themeIsDeepenedByCulturalKnowledge",
+      "label": "主题内涵由文化知识深化 / isDeepenedByCulturalKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:05",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
+    },
+    {
+      "relationName": "themeProvidesCulturalContext",
+      "label": "主题为文化知识学习提供情境与范畴 / providesCulturalContext",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:06",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
+    },
+    {
+      "relationName": "culturalKnowledgeIsDevelopedUnderTheme",
+      "label": "文化知识在主题引领下建构 / isDevelopedUnderTheme",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:06"
+    },
+    {
+      "relationName": "culturalKnowledgeEnrichesThemeMeaning",
+      "label": "文化知识丰富主题内涵 / enrichesThemeMeaning",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:06"
+    },
+    {
+      "relationName": "themeIsDeepenedByCulturalKnowledge",
+      "label": "主题内涵由文化知识深化 / isDeepenedByCulturalKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:06",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
+    },
+    {
+      "relationName": "themeProvidesCulturalContext",
+      "label": "主题为文化知识学习提供情境与范畴 / providesCulturalContext",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
+    },
+    {
+      "relationName": "culturalKnowledgeIsDevelopedUnderTheme",
+      "label": "文化知识在主题引领下建构 / isDevelopedUnderTheme",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "culturalKnowledgeEnrichesThemeMeaning",
+      "label": "文化知识丰富主题内涵 / enrichesThemeMeaning",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+    },
+    {
+      "relationName": "themeIsDeepenedByCulturalKnowledge",
+      "label": "主题内涵由文化知识深化 / isDeepenedByCulturalKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
+    },
+    {
+      "relationName": "themeProvidesCulturalContext",
+      "label": "主题为文化知识学习提供情境与范畴 / providesCulturalContext",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
+    },
+    {
+      "relationName": "culturalKnowledgeIsDevelopedUnderTheme",
+      "label": "文化知识在主题引领下建构 / isDevelopedUnderTheme",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "culturalKnowledgeEnrichesThemeMeaning",
+      "label": "文化知识丰富主题内涵 / enrichesThemeMeaning",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+    },
+    {
+      "relationName": "themeIsDeepenedByCulturalKnowledge",
+      "label": "主题内涵由文化知识深化 / isDeepenedByCulturalKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
+    },
+    {
+      "relationName": "themeProvidesCulturalContext",
+      "label": "主题为文化知识学习提供情境与范畴 / providesCulturalContext",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
+    },
+    {
+      "relationName": "culturalKnowledgeIsDevelopedUnderTheme",
+      "label": "文化知识在主题引领下建构 / isDevelopedUnderTheme",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "culturalKnowledgeEnrichesThemeMeaning",
+      "label": "文化知识丰富主题内涵 / enrichesThemeMeaning",
+      "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
+      "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+    },
+    {
+      "relationName": "themeIsDeepenedByCulturalKnowledge",
+      "label": "主题内涵由文化知识深化 / isDeepenedByCulturalKnowledge",
+      "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+      "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
+    }
+  ]
+}

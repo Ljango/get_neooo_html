@@ -594,7 +594,7 @@
                         <p class="description">知识图谱可视化</p>
                         <div class="stats">
                             <span class="stat-item">📊 288个实体</span>
-                            <span class="stat-item">🔗 531条关系</span>
+                            <span class="stat-item">🔗 462条关系</span>
                         </div>
                         <span class="arrow">→</span>
                     </a>
@@ -613,8 +613,8 @@
                         <h3>义教生物课标</h3>
                         <p class="description">知识图谱可视化</p>
                         <div class="stats">
-                            <span class="stat-item">📊 201个实体</span>
-                            <span class="stat-item">🔗 309条关系</span>
+                            <span class="stat-item">📊 223个实体</span>
+                            <span class="stat-item">🔗 405条关系</span>
                         </div>
                         <span class="arrow">→</span>
                     </a>
@@ -716,7 +716,7 @@
                         <p class="description">知识图谱可视化</p>
                         <div class="stats">
                             <span class="stat-item">📊 497个实体</span>
-                            <span class="stat-item">🔗 1634条关系</span>
+                            <span class="stat-item">🔗 952条关系</span>
                         </div>
                         <span class="arrow">→</span>
                     </a>
@@ -804,7 +804,26 @@
                     </a>
                 </div>
             </div>
-<div class="subject-column"></div>
+
+            <div class="subject-column">
+                <div class="subject-column-header">
+                    <span class="icon">🔤</span>
+                    <h3>义务英语</h3>
+                    <span class="count">1 个</span>
+                </div>
+                <div class="graph-grid">
+                    <a href="义务英语_课标.html" class="graph-card" style="--accent-color: #00b894">
+                        <span class="type-badge curriculum">课程标准</span>
+                        <h3>义务英语课标</h3>
+                        <p class="description">知识图谱可视化</p>
+                        <div class="stats">
+                            <span class="stat-item">📊 673个实体</span>
+                            <span class="stat-item">🔗 3817条关系</span>
+                        </div>
+                        <span class="arrow">→</span>
+                    </a>
+                </div>
+            </div>
 
             </div>
         </section>

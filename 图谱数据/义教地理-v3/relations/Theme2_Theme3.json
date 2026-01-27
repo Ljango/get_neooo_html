@@ -1,52 +1,50 @@
-{
-    "relations": [
-        {
-            "relationName": "themeL2OrganizesL3",
-            "label": "以认识自然地理要素及其与人类活动的关系为线索组织 / organizesL3",
-            "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:05",
-            "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL3:01"
-        },
-        {
-            "relationName": "themeL3BelongsToL2",
-            "label": "是自然环境的学习内容 / belongsToL2",
-            "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL3:01",
-            "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:05"
-        },
-        {
-            "relationName": "themeL2OrganizesL3",
-            "label": "以认识自然地理要素及其与人类活动的关系为线索组织 / organizesL3",
-            "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:05",
-            "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL3:02"
-        },
-        {
-            "relationName": "themeL3BelongsToL2",
-            "label": "是自然环境的学习内容 / belongsToL2",
-            "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL3:02",
-            "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:05"
-        },
-        {
-            "relationName": "themeL2OrganizesL3",
-            "label": "以基本社会经济活动的空间特点为线索组织 / organizesL3",
-            "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:06",
-            "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL3:03"
-        },
-        {
-            "relationName": "themeL3BelongsToL2",
-            "label": "是人文环境的学习内容 / belongsToL2",
-            "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL3:03",
-            "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:06"
-        },
-        {
-            "relationName": "themeL2OrganizesL3",
-            "label": "以基本社会经济活动的空间特点为线索组织 / organizesL3",
-            "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:06",
-            "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL3:04"
-        },
-        {
-            "relationName": "themeL3BelongsToL2",
-            "label": "是人文环境的学习内容 / belongsToL2",
-            "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL3:04",
-            "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:06"
-        }
-    ]
-}
+[
+  {
+    "relationName": "themeL2OrganizesL3",
+    "label": "以认识自然地理要素及其与人类活动的关系为线索组织 / organizesL3",
+    "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:05",
+    "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL3:01"
+  },
+  {
+    "relationName": "themeL3BelongsToL2",
+    "label": "是自然环境的学习内容 / belongsToL2",
+    "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL3:01",
+    "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:05"
+  },
+  {
+    "relationName": "themeL2OrganizesL3",
+    "label": "以认识自然地理要素及其与人类活动的关系为线索组织 / organizesL3",
+    "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:05",
+    "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL3:02"
+  },
+  {
+    "relationName": "themeL3BelongsToL2",
+    "label": "是自然环境的学习内容 / belongsToL2",
+    "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL3:02",
+    "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:05"
+  },
+  {
+    "relationName": "themeL2OrganizesL3",
+    "label": "以基本社会经济活动的空间特点为线索组织 / organizesL3",
+    "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:06",
+    "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL3:03"
+  },
+  {
+    "relationName": "themeL3BelongsToL2",
+    "label": "是人文环境的学习内容 / belongsToL2",
+    "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL3:03",
+    "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:06"
+  },
+  {
+    "relationName": "themeL2OrganizesL3",
+    "label": "以基本社会经济活动的空间特点为线索组织 / organizesL3",
+    "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:06",
+    "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL3:04"
+  },
+  {
+    "relationName": "themeL3BelongsToL2",
+    "label": "是人文环境的学习内容 / belongsToL2",
+    "source": "urn:jy:Geography:SB0308:OB03:LearningThemeL3:04",
+    "target": "urn:jy:Geography:SB0308:OB03:LearningThemeL2:06"
+  }
+]

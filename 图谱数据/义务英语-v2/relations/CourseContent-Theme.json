@@ -1,0 +1,542 @@
+[
+  {
+    "relationName": "courseContentIncludesThemes",
+    "label": "课程内容包含主题体系 / includesThemes",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:01"
+  },
+  {
+    "relationName": "themeIsPartOfCourseContent",
+    "label": "是课程内容的组成部分 / isPartOfCourseContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:01"
+  },
+  {
+    "relationName": "courseContentIncludesThemes",
+    "label": "课程内容包含主题体系 / includesThemes",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:02"
+  },
+  {
+    "relationName": "themeIsPartOfCourseContent",
+    "label": "是课程内容的组成部分 / isPartOfCourseContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:01"
+  },
+  {
+    "relationName": "courseContentIncludesThemes",
+    "label": "课程内容包含主题体系 / includesThemes",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:03"
+  },
+  {
+    "relationName": "themeIsPartOfCourseContent",
+    "label": "是课程内容的组成部分 / isPartOfCourseContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:01"
+  },
+  {
+    "relationName": "courseContentIncludesThemes",
+    "label": "课程内容包含主题体系 / includesThemes",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:04"
+  },
+  {
+    "relationName": "themeIsPartOfCourseContent",
+    "label": "是课程内容的组成部分 / isPartOfCourseContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:01"
+  },
+  {
+    "relationName": "courseContentIncludesThemes",
+    "label": "课程内容包含主题体系 / includesThemes",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:05"
+  },
+  {
+    "relationName": "themeIsPartOfCourseContent",
+    "label": "是课程内容的组成部分 / isPartOfCourseContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:01"
+  },
+  {
+    "relationName": "courseContentIncludesThemes",
+    "label": "课程内容包含主题体系 / includesThemes",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:06"
+  },
+  {
+    "relationName": "themeIsPartOfCourseContent",
+    "label": "是课程内容的组成部分 / isPartOfCourseContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:06",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:01"
+  },
+  {
+    "relationName": "courseContentIncludesThemes",
+    "label": "课程内容包含主题体系 / includesThemes",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+  },
+  {
+    "relationName": "themeIsPartOfCourseContent",
+    "label": "是课程内容的组成部分 / isPartOfCourseContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:01"
+  },
+  {
+    "relationName": "courseContentIncludesThemes",
+    "label": "课程内容包含主题体系 / includesThemes",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+  },
+  {
+    "relationName": "themeIsPartOfCourseContent",
+    "label": "是课程内容的组成部分 / isPartOfCourseContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:01"
+  },
+  {
+    "relationName": "courseContentIncludesThemes",
+    "label": "课程内容包含主题体系 / includesThemes",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+  },
+  {
+    "relationName": "themeIsPartOfCourseContent",
+    "label": "是课程内容的组成部分 / isPartOfCourseContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:01"
+  },
+  {
+    "relationName": "teachingTipsGuideThemeLearning",
+    "label": "教学提示以主题为引领 / guidesThemeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:01"
+  },
+  {
+    "relationName": "themeIsImplementedThroughTeachingTips",
+    "label": "主题通过教学提示落实 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+  },
+  {
+    "relationName": "teachingTipsGuideThemeLearning",
+    "label": "教学提示以主题为引领 / guidesThemeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:02"
+  },
+  {
+    "relationName": "themeIsImplementedThroughTeachingTips",
+    "label": "主题通过教学提示落实 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+  },
+  {
+    "relationName": "teachingTipsGuideThemeLearning",
+    "label": "教学提示以主题为引领 / guidesThemeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:03"
+  },
+  {
+    "relationName": "themeIsImplementedThroughTeachingTips",
+    "label": "主题通过教学提示落实 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+  },
+  {
+    "relationName": "teachingTipsGuideThemeLearning",
+    "label": "教学提示以主题为引领 / guidesThemeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:04"
+  },
+  {
+    "relationName": "themeIsImplementedThroughTeachingTips",
+    "label": "主题通过教学提示落实 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+  },
+  {
+    "relationName": "teachingTipsGuideThemeLearning",
+    "label": "教学提示以主题为引领 / guidesThemeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:05"
+  },
+  {
+    "relationName": "themeIsImplementedThroughTeachingTips",
+    "label": "主题通过教学提示落实 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+  },
+  {
+    "relationName": "teachingTipsGuideThemeLearning",
+    "label": "教学提示以主题为引领 / guidesThemeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:06"
+  },
+  {
+    "relationName": "themeIsImplementedThroughTeachingTips",
+    "label": "主题通过教学提示落实 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:06",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+  },
+  {
+    "relationName": "teachingTipsGuideThemeLearning",
+    "label": "教学提示以主题为引领 / guidesThemeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+  },
+  {
+    "relationName": "themeIsImplementedThroughTeachingTips",
+    "label": "主题通过教学提示落实 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+  },
+  {
+    "relationName": "teachingTipsGuideThemeLearning",
+    "label": "教学提示以主题为引领 / guidesThemeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+  },
+  {
+    "relationName": "themeIsImplementedThroughTeachingTips",
+    "label": "主题通过教学提示落实 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+  },
+  {
+    "relationName": "teachingTipsGuideThemeLearning",
+    "label": "教学提示以主题为引领 / guidesThemeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+  },
+  {
+    "relationName": "themeIsImplementedThroughTeachingTips",
+    "label": "主题通过教学提示落实 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+  },
+  {
+    "relationName": "teachingTipsGuideThemeLearning",
+    "label": "教学提示以主题为引领 / guidesThemeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:01"
+  },
+  {
+    "relationName": "themeIsImplementedThroughTeachingTips",
+    "label": "主题通过教学提示落实 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+  },
+  {
+    "relationName": "teachingTipsGuideThemeLearning",
+    "label": "教学提示以主题为引领 / guidesThemeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:02"
+  },
+  {
+    "relationName": "themeIsImplementedThroughTeachingTips",
+    "label": "主题通过教学提示落实 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+  },
+  {
+    "relationName": "teachingTipsGuideThemeLearning",
+    "label": "教学提示以主题为引领 / guidesThemeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:03"
+  },
+  {
+    "relationName": "themeIsImplementedThroughTeachingTips",
+    "label": "主题通过教学提示落实 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+  },
+  {
+    "relationName": "teachingTipsGuideThemeLearning",
+    "label": "教学提示以主题为引领 / guidesThemeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:04"
+  },
+  {
+    "relationName": "themeIsImplementedThroughTeachingTips",
+    "label": "主题通过教学提示落实 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+  },
+  {
+    "relationName": "teachingTipsGuideThemeLearning",
+    "label": "教学提示以主题为引领 / guidesThemeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:05"
+  },
+  {
+    "relationName": "themeIsImplementedThroughTeachingTips",
+    "label": "主题通过教学提示落实 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+  },
+  {
+    "relationName": "teachingTipsGuideThemeLearning",
+    "label": "教学提示以主题为引领 / guidesThemeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:06"
+  },
+  {
+    "relationName": "themeIsImplementedThroughTeachingTips",
+    "label": "主题通过教学提示落实 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:06",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+  },
+  {
+    "relationName": "teachingTipsGuideThemeLearning",
+    "label": "教学提示以主题为引领 / guidesThemeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+  },
+  {
+    "relationName": "themeIsImplementedThroughTeachingTips",
+    "label": "主题通过教学提示落实 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+  },
+  {
+    "relationName": "teachingTipsGuideThemeLearning",
+    "label": "教学提示以主题为引领 / guidesThemeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+  },
+  {
+    "relationName": "themeIsImplementedThroughTeachingTips",
+    "label": "主题通过教学提示落实 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+  },
+  {
+    "relationName": "teachingTipsGuideThemeLearning",
+    "label": "教学提示以主题为引领 / guidesThemeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+  },
+  {
+    "relationName": "themeIsImplementedThroughTeachingTips",
+    "label": "主题通过教学提示落实 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+  },
+  {
+    "relationName": "teachingTipsGuideThemeLearning",
+    "label": "教学提示以主题为引领 / guidesThemeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:01"
+  },
+  {
+    "relationName": "themeIsImplementedThroughTeachingTips",
+    "label": "主题通过教学提示落实 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+  },
+  {
+    "relationName": "teachingTipsGuideThemeLearning",
+    "label": "教学提示以主题为引领 / guidesThemeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:02"
+  },
+  {
+    "relationName": "themeIsImplementedThroughTeachingTips",
+    "label": "主题通过教学提示落实 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+  },
+  {
+    "relationName": "teachingTipsGuideThemeLearning",
+    "label": "教学提示以主题为引领 / guidesThemeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:03"
+  },
+  {
+    "relationName": "themeIsImplementedThroughTeachingTips",
+    "label": "主题通过教学提示落实 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+  },
+  {
+    "relationName": "teachingTipsGuideThemeLearning",
+    "label": "教学提示以主题为引领 / guidesThemeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:04"
+  },
+  {
+    "relationName": "themeIsImplementedThroughTeachingTips",
+    "label": "主题通过教学提示落实 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+  },
+  {
+    "relationName": "teachingTipsGuideThemeLearning",
+    "label": "教学提示以主题为引领 / guidesThemeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:05"
+  },
+  {
+    "relationName": "themeIsImplementedThroughTeachingTips",
+    "label": "主题通过教学提示落实 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+  },
+  {
+    "relationName": "teachingTipsGuideThemeLearning",
+    "label": "教学提示以主题为引领 / guidesThemeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:06"
+  },
+  {
+    "relationName": "themeIsImplementedThroughTeachingTips",
+    "label": "主题通过教学提示落实 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:06",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+  },
+  {
+    "relationName": "teachingTipsGuideThemeLearning",
+    "label": "教学提示以主题为引领 / guidesThemeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+  },
+  {
+    "relationName": "themeIsImplementedThroughTeachingTips",
+    "label": "主题通过教学提示落实 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+  },
+  {
+    "relationName": "teachingTipsGuideThemeLearning",
+    "label": "教学提示以主题为引领 / guidesThemeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+  },
+  {
+    "relationName": "themeIsImplementedThroughTeachingTips",
+    "label": "主题通过教学提示落实 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+  },
+  {
+    "relationName": "teachingTipsGuideThemeLearning",
+    "label": "教学提示以主题为引领 / guidesThemeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+  },
+  {
+    "relationName": "themeIsImplementedThroughTeachingTips",
+    "label": "主题通过教学提示落实 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+  },
+  {
+    "relationName": "teachingTipsGuideThemeLearning",
+    "label": "教学提示以主题为引领 / guidesThemeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:01"
+  },
+  {
+    "relationName": "themeIsImplementedThroughTeachingTips",
+    "label": "主题通过教学提示落实 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+  },
+  {
+    "relationName": "teachingTipsGuideThemeLearning",
+    "label": "教学提示以主题为引领 / guidesThemeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:02"
+  },
+  {
+    "relationName": "themeIsImplementedThroughTeachingTips",
+    "label": "主题通过教学提示落实 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+  },
+  {
+    "relationName": "teachingTipsGuideThemeLearning",
+    "label": "教学提示以主题为引领 / guidesThemeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:03"
+  },
+  {
+    "relationName": "themeIsImplementedThroughTeachingTips",
+    "label": "主题通过教学提示落实 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+  },
+  {
+    "relationName": "teachingTipsGuideThemeLearning",
+    "label": "教学提示以主题为引领 / guidesThemeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:04"
+  },
+  {
+    "relationName": "themeIsImplementedThroughTeachingTips",
+    "label": "主题通过教学提示落实 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+  },
+  {
+    "relationName": "teachingTipsGuideThemeLearning",
+    "label": "教学提示以主题为引领 / guidesThemeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:05"
+  },
+  {
+    "relationName": "themeIsImplementedThroughTeachingTips",
+    "label": "主题通过教学提示落实 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+  },
+  {
+    "relationName": "teachingTipsGuideThemeLearning",
+    "label": "教学提示以主题为引领 / guidesThemeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:06"
+  },
+  {
+    "relationName": "themeIsImplementedThroughTeachingTips",
+    "label": "主题通过教学提示落实 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:06",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+  },
+  {
+    "relationName": "teachingTipsGuideThemeLearning",
+    "label": "教学提示以主题为引领 / guidesThemeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+  },
+  {
+    "relationName": "themeIsImplementedThroughTeachingTips",
+    "label": "主题通过教学提示落实 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+  },
+  {
+    "relationName": "teachingTipsGuideThemeLearning",
+    "label": "教学提示以主题为引领 / guidesThemeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+  },
+  {
+    "relationName": "themeIsImplementedThroughTeachingTips",
+    "label": "主题通过教学提示落实 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+  },
+  {
+    "relationName": "teachingTipsGuideThemeLearning",
+    "label": "教学提示以主题为引领 / guidesThemeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+  },
+  {
+    "relationName": "themeIsImplementedThroughTeachingTips",
+    "label": "主题通过教学提示落实 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+  }
+]

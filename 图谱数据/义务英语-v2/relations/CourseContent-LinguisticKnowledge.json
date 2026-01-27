@@ -1,0 +1,302 @@
+[
+  {
+    "relationName": "courseContentSpecifiesLinguisticKnowledge",
+    "label": "课程内容规定语言知识学习要求 / specifiesLinguisticKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01"
+  },
+  {
+    "relationName": "linguisticKnowledgeIsSpecifiedByCourseContent",
+    "label": "语言知识要求由课程内容规定 / isSpecifiedByCourseContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:03"
+  },
+  {
+    "relationName": "courseContentSpecifiesLinguisticKnowledge",
+    "label": "课程内容规定语言知识学习要求 / specifiesLinguisticKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02"
+  },
+  {
+    "relationName": "linguisticKnowledgeIsSpecifiedByCourseContent",
+    "label": "语言知识要求由课程内容规定 / isSpecifiedByCourseContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:03"
+  },
+  {
+    "relationName": "courseContentSpecifiesLinguisticKnowledge",
+    "label": "课程内容规定语言知识学习要求 / specifiesLinguisticKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03"
+  },
+  {
+    "relationName": "linguisticKnowledgeIsSpecifiedByCourseContent",
+    "label": "语言知识要求由课程内容规定 / isSpecifiedByCourseContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:03"
+  },
+  {
+    "relationName": "courseContentSpecifiesLinguisticKnowledge",
+    "label": "课程内容规定语言知识学习要求 / specifiesLinguisticKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04"
+  },
+  {
+    "relationName": "linguisticKnowledgeIsSpecifiedByCourseContent",
+    "label": "语言知识要求由课程内容规定 / isSpecifiedByCourseContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:03"
+  },
+  {
+    "relationName": "courseContentSpecifiesLinguisticKnowledge",
+    "label": "课程内容规定语言知识学习要求 / specifiesLinguisticKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05"
+  },
+  {
+    "relationName": "linguisticKnowledgeIsSpecifiedByCourseContent",
+    "label": "语言知识要求由课程内容规定 / isSpecifiedByCourseContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:03"
+  },
+  {
+    "relationName": "teachingTipsIntegrateLinguisticKnowledge",
+    "label": "教学提示整合性指导语言知识学习 / integratesLinguisticKnowledgeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01"
+  },
+  {
+    "relationName": "linguisticKnowledgeIsLearnedThroughTeachingTips",
+    "label": "语言知识通过教学提示学习与落实 / isLearnedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+  },
+  {
+    "relationName": "teachingTipsIntegrateLinguisticKnowledge",
+    "label": "教学提示整合性指导语言知识学习 / integratesLinguisticKnowledgeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02"
+  },
+  {
+    "relationName": "linguisticKnowledgeIsLearnedThroughTeachingTips",
+    "label": "语言知识通过教学提示学习与落实 / isLearnedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+  },
+  {
+    "relationName": "teachingTipsIntegrateLinguisticKnowledge",
+    "label": "教学提示整合性指导语言知识学习 / integratesLinguisticKnowledgeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03"
+  },
+  {
+    "relationName": "linguisticKnowledgeIsLearnedThroughTeachingTips",
+    "label": "语言知识通过教学提示学习与落实 / isLearnedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+  },
+  {
+    "relationName": "teachingTipsIntegrateLinguisticKnowledge",
+    "label": "教学提示整合性指导语言知识学习 / integratesLinguisticKnowledgeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04"
+  },
+  {
+    "relationName": "linguisticKnowledgeIsLearnedThroughTeachingTips",
+    "label": "语言知识通过教学提示学习与落实 / isLearnedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+  },
+  {
+    "relationName": "teachingTipsIntegrateLinguisticKnowledge",
+    "label": "教学提示整合性指导语言知识学习 / integratesLinguisticKnowledgeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05"
+  },
+  {
+    "relationName": "linguisticKnowledgeIsLearnedThroughTeachingTips",
+    "label": "语言知识通过教学提示学习与落实 / isLearnedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+  },
+  {
+    "relationName": "teachingTipsIntegrateLinguisticKnowledge",
+    "label": "教学提示整合性指导语言知识学习 / integratesLinguisticKnowledgeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01"
+  },
+  {
+    "relationName": "linguisticKnowledgeIsLearnedThroughTeachingTips",
+    "label": "语言知识通过教学提示学习与落实 / isLearnedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+  },
+  {
+    "relationName": "teachingTipsIntegrateLinguisticKnowledge",
+    "label": "教学提示整合性指导语言知识学习 / integratesLinguisticKnowledgeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02"
+  },
+  {
+    "relationName": "linguisticKnowledgeIsLearnedThroughTeachingTips",
+    "label": "语言知识通过教学提示学习与落实 / isLearnedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+  },
+  {
+    "relationName": "teachingTipsIntegrateLinguisticKnowledge",
+    "label": "教学提示整合性指导语言知识学习 / integratesLinguisticKnowledgeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03"
+  },
+  {
+    "relationName": "linguisticKnowledgeIsLearnedThroughTeachingTips",
+    "label": "语言知识通过教学提示学习与落实 / isLearnedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+  },
+  {
+    "relationName": "teachingTipsIntegrateLinguisticKnowledge",
+    "label": "教学提示整合性指导语言知识学习 / integratesLinguisticKnowledgeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04"
+  },
+  {
+    "relationName": "linguisticKnowledgeIsLearnedThroughTeachingTips",
+    "label": "语言知识通过教学提示学习与落实 / isLearnedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+  },
+  {
+    "relationName": "teachingTipsIntegrateLinguisticKnowledge",
+    "label": "教学提示整合性指导语言知识学习 / integratesLinguisticKnowledgeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05"
+  },
+  {
+    "relationName": "linguisticKnowledgeIsLearnedThroughTeachingTips",
+    "label": "语言知识通过教学提示学习与落实 / isLearnedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+  },
+  {
+    "relationName": "teachingTipsIntegrateLinguisticKnowledge",
+    "label": "教学提示整合性指导语言知识学习 / integratesLinguisticKnowledgeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01"
+  },
+  {
+    "relationName": "linguisticKnowledgeIsLearnedThroughTeachingTips",
+    "label": "语言知识通过教学提示学习与落实 / isLearnedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+  },
+  {
+    "relationName": "teachingTipsIntegrateLinguisticKnowledge",
+    "label": "教学提示整合性指导语言知识学习 / integratesLinguisticKnowledgeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02"
+  },
+  {
+    "relationName": "linguisticKnowledgeIsLearnedThroughTeachingTips",
+    "label": "语言知识通过教学提示学习与落实 / isLearnedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+  },
+  {
+    "relationName": "teachingTipsIntegrateLinguisticKnowledge",
+    "label": "教学提示整合性指导语言知识学习 / integratesLinguisticKnowledgeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03"
+  },
+  {
+    "relationName": "linguisticKnowledgeIsLearnedThroughTeachingTips",
+    "label": "语言知识通过教学提示学习与落实 / isLearnedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+  },
+  {
+    "relationName": "teachingTipsIntegrateLinguisticKnowledge",
+    "label": "教学提示整合性指导语言知识学习 / integratesLinguisticKnowledgeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04"
+  },
+  {
+    "relationName": "linguisticKnowledgeIsLearnedThroughTeachingTips",
+    "label": "语言知识通过教学提示学习与落实 / isLearnedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+  },
+  {
+    "relationName": "teachingTipsIntegrateLinguisticKnowledge",
+    "label": "教学提示整合性指导语言知识学习 / integratesLinguisticKnowledgeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05"
+  },
+  {
+    "relationName": "linguisticKnowledgeIsLearnedThroughTeachingTips",
+    "label": "语言知识通过教学提示学习与落实 / isLearnedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+  },
+  {
+    "relationName": "teachingTipsIntegrateLinguisticKnowledge",
+    "label": "教学提示整合性指导语言知识学习 / integratesLinguisticKnowledgeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01"
+  },
+  {
+    "relationName": "linguisticKnowledgeIsLearnedThroughTeachingTips",
+    "label": "语言知识通过教学提示学习与落实 / isLearnedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+  },
+  {
+    "relationName": "teachingTipsIntegrateLinguisticKnowledge",
+    "label": "教学提示整合性指导语言知识学习 / integratesLinguisticKnowledgeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02"
+  },
+  {
+    "relationName": "linguisticKnowledgeIsLearnedThroughTeachingTips",
+    "label": "语言知识通过教学提示学习与落实 / isLearnedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+  },
+  {
+    "relationName": "teachingTipsIntegrateLinguisticKnowledge",
+    "label": "教学提示整合性指导语言知识学习 / integratesLinguisticKnowledgeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03"
+  },
+  {
+    "relationName": "linguisticKnowledgeIsLearnedThroughTeachingTips",
+    "label": "语言知识通过教学提示学习与落实 / isLearnedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+  },
+  {
+    "relationName": "teachingTipsIntegrateLinguisticKnowledge",
+    "label": "教学提示整合性指导语言知识学习 / integratesLinguisticKnowledgeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04"
+  },
+  {
+    "relationName": "linguisticKnowledgeIsLearnedThroughTeachingTips",
+    "label": "语言知识通过教学提示学习与落实 / isLearnedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+  },
+  {
+    "relationName": "teachingTipsIntegrateLinguisticKnowledge",
+    "label": "教学提示整合性指导语言知识学习 / integratesLinguisticKnowledgeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05"
+  },
+  {
+    "relationName": "linguisticKnowledgeIsLearnedThroughTeachingTips",
+    "label": "语言知识通过教学提示学习与落实 / isLearnedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+  }
+]

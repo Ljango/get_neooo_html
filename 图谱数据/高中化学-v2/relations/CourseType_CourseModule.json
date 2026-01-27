@@ -1,0 +1,20 @@
+[
+  {
+    "relationName": "courseTypeIncludesModule",
+    "label": "包含课程模块 / includesModule",
+    "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l2",
+    "target": "urn:jy:chemistry:SB0402:OB06:CourseMoudle:l1"
+  },
+  {
+    "relationName": "courseTypeIncludesModule",
+    "label": "包含课程模块 / includesModule",
+    "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l2",
+    "target": "urn:jy:chemistry:SB0402:OB06:CourseMoudle:l2"
+  },
+  {
+    "relationName": "courseTypeIncludesModule",
+    "label": "包含课程模块 / includesModule",
+    "source": "urn:jy:chemistry:SB0402:OB06:CourseType:l2",
+    "target": "urn:jy:chemistry:SB0402:OB06:CourseMoudle:l3"
+  }
+]

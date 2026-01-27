@@ -1,0 +1,482 @@
+[
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:01"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:01"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:01"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:01"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:02"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:02"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:02"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:02"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:03"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:03"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:03"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:03"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:04"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:04"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:04"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:04"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:05"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:05"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:05"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:05"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:06"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+  },
+  {
+    "relationName": "contentSupportsLiteracyDevelopment",
+    "label": "支撑核心素养发展 / supportsLiteracyDevelopment",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04"
+  },
+  {
+    "relationName": "literacyDevelopedByContent",
+    "label": "通过课程内容发展 / developedByContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CoreLiteracy:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+  }
+]

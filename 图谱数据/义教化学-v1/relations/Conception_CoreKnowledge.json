@@ -1,79 +1,74 @@
-{
-    "relations": [
-      {
-        "relationName": "ConceptionStructuresCoreKnowledge",
-        "label": "大概念统摄核心知识 / structuresCoreKnowledge",
-        "source": "urn:jy:chemistry:SB0402:OB03:Conception:l1",
-        "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l1"
-      },
-      {
-        "relationName": "ConceptionStructuresCoreKnowledge",
-        "label": "大概念统摄核心知识 / structuresCoreKnowledge",
-        "source": "urn:jy:chemistry:SB0402:OB03:Conception:l1",
-        "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l2"
-      },  
-      {
-        "relationName": "ConceptionStructuresCoreKnowledge",
-        "label": "大概念统摄核心知识 / structuresCoreKnowledge",
-        "source": "urn:jy:chemistry:SB0402:OB03:Conception:l2",
-        "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l3"
-      },
-      {
-        "relationName": "ConceptionStructuresCoreKnowledge",
-        "label": "大概念统摄核心知识 / structuresCoreKnowledge",
-        "source": "urn:jy:chemistry:SB0402:OB03:Conception:l2",
-        "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l4"
-      },
-      {
-        "relationName": "ConceptionStructuresCoreKnowledge",
-        "label": "大概念统摄核心知识 / structuresCoreKnowledge",
-        "source": "urn:jy:chemistry:SB0402:OB03:Conception:l2",
-        "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l5"
-      },
-      {
-        "relationName": "ConceptionStructuresCoreKnowledge",
-        "label": "大概念统摄核心知识 / structuresCoreKnowledge",
-        "source": "urn:jy:chemistry:SB0402:OB03:Conception:l2",
-        "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l6"
-      },
-  
-      {
-        "relationName": "ConceptionStructuresCoreKnowledge",
-        "label": "大概念统摄核心知识 / structuresCoreKnowledge",
-        "source": "urn:jy:chemistry:SB0402:OB03:Conception:l3",
-        "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l7"
-      },
-      {
-        "relationName": "ConceptionStructuresCoreKnowledge",
-        "label": "大概念统摄核心知识 / structuresCoreKnowledge",
-        "source": "urn:jy:chemistry:SB0402:OB03:Conception:l3",
-        "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l8"
-      },
-      {
-        "relationName": "ConceptionStructuresCoreKnowledge",
-        "label": "大概念统摄核心知识 / structuresCoreKnowledge",
-        "source": "urn:jy:chemistry:SB0402:OB03:Conception:l3",
-        "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l9"
-      },
-  
-      {
-        "relationName": "ConceptionStructuresCoreKnowledge",
-        "label": "大概念统摄核心知识 / structuresCoreKnowledge",
-        "source": "urn:jy:chemistry:SB0402:OB03:Conception:l4",
-        "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l10"
-      },
-      {
-        "relationName": "ConceptionStructuresCoreKnowledge",
-        "label": "大概念统摄核心知识 / structuresCoreKnowledge",
-        "source": "urn:jy:chemistry:SB0402:OB03:Conception:l4",
-        "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l11"
-      },
-      {
-        "relationName": "ConceptionStructuresCoreKnowledge",
-        "label": "大概念统摄核心知识 / structuresCoreKnowledge",
-        "source": "urn:jy:chemistry:SB0402:OB03:Conception:l5",
-        "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l12"
-      }
-    ]
+[
+  {
+    "relationName": "ConceptionStructuresCoreKnowledge",
+    "label": "大概念统摄核心知识 / structuresCoreKnowledge",
+    "source": "urn:jy:chemistry:SB0402:OB03:Conception:l1",
+    "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l1"
+  },
+  {
+    "relationName": "ConceptionStructuresCoreKnowledge",
+    "label": "大概念统摄核心知识 / structuresCoreKnowledge",
+    "source": "urn:jy:chemistry:SB0402:OB03:Conception:l1",
+    "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l2"
+  },
+  {
+    "relationName": "ConceptionStructuresCoreKnowledge",
+    "label": "大概念统摄核心知识 / structuresCoreKnowledge",
+    "source": "urn:jy:chemistry:SB0402:OB03:Conception:l2",
+    "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l3"
+  },
+  {
+    "relationName": "ConceptionStructuresCoreKnowledge",
+    "label": "大概念统摄核心知识 / structuresCoreKnowledge",
+    "source": "urn:jy:chemistry:SB0402:OB03:Conception:l2",
+    "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l4"
+  },
+  {
+    "relationName": "ConceptionStructuresCoreKnowledge",
+    "label": "大概念统摄核心知识 / structuresCoreKnowledge",
+    "source": "urn:jy:chemistry:SB0402:OB03:Conception:l2",
+    "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l5"
+  },
+  {
+    "relationName": "ConceptionStructuresCoreKnowledge",
+    "label": "大概念统摄核心知识 / structuresCoreKnowledge",
+    "source": "urn:jy:chemistry:SB0402:OB03:Conception:l2",
+    "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l6"
+  },
+  {
+    "relationName": "ConceptionStructuresCoreKnowledge",
+    "label": "大概念统摄核心知识 / structuresCoreKnowledge",
+    "source": "urn:jy:chemistry:SB0402:OB03:Conception:l3",
+    "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l7"
+  },
+  {
+    "relationName": "ConceptionStructuresCoreKnowledge",
+    "label": "大概念统摄核心知识 / structuresCoreKnowledge",
+    "source": "urn:jy:chemistry:SB0402:OB03:Conception:l3",
+    "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l8"
+  },
+  {
+    "relationName": "ConceptionStructuresCoreKnowledge",
+    "label": "大概念统摄核心知识 / structuresCoreKnowledge",
+    "source": "urn:jy:chemistry:SB0402:OB03:Conception:l3",
+    "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l9"
+  },
+  {
+    "relationName": "ConceptionStructuresCoreKnowledge",
+    "label": "大概念统摄核心知识 / structuresCoreKnowledge",
+    "source": "urn:jy:chemistry:SB0402:OB03:Conception:l4",
+    "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l10"
+  },
+  {
+    "relationName": "ConceptionStructuresCoreKnowledge",
+    "label": "大概念统摄核心知识 / structuresCoreKnowledge",
+    "source": "urn:jy:chemistry:SB0402:OB03:Conception:l4",
+    "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l11"
+  },
+  {
+    "relationName": "ConceptionStructuresCoreKnowledge",
+    "label": "大概念统摄核心知识 / structuresCoreKnowledge",
+    "source": "urn:jy:chemistry:SB0402:OB03:Conception:l5",
+    "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l12"
   }
-  
+]

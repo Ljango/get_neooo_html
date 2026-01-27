@@ -1,0 +1,542 @@
+[
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:01"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:02"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:03"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:04"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:05"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:06",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:06"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:01"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:02"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:03"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:04"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:05"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:06",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:06"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:01"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:02"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:03"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:04"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:05"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:06",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:06"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:01"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:02"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:03"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:04"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:05"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:06",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:06"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:01"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:02"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:03"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:04"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:05"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:06",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:06"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:07"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:08"
+  },
+  {
+    "relationName": "themeProvidesContextForLanguageKnowledge",
+    "label": "主题为语言知识学习提供语境范畴 / providesContextForLanguageKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:Theme:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05"
+  },
+  {
+    "relationName": "languageKnowledgeIsLearnedUnderThemeGuidance",
+    "label": "语言知识学习以主题为引领 / isLearnedUnderThemeGuidance",
+    "source": "urn:jy:English:SB0102:OB02,OB03:LanguageKnowledge:05",
+    "target": "urn:jy:English:SB0102:OB02,OB03:Theme:09"
+  }
+]

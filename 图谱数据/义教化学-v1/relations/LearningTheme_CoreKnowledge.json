@@ -1,79 +1,74 @@
-{
-    "relations": [
-      {
-        "relationName": "themeCoversCoreKnowledge",
-        "label": "学习主题统摄核心知识点 / coversCoreKnowledge",
-        "source": "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1",
-        "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l1"
-      },
-      {
-        "relationName": "themeCoversCoreKnowledge",
-        "label": "学习主题统摄核心知识点 / coversCoreKnowledge",
-        "source": "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1",
-        "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l2"
-      },
-      {
-        "relationName": "themeCoversCoreKnowledge",
-        "label": "学习主题统摄核心知识点 / coversCoreKnowledge",
-        "source": "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2",
-        "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l3"
-      },
-      {
-        "relationName": "themeCoversCoreKnowledge",
-        "label": "学习主题统摄核心知识点 / coversCoreKnowledge",
-        "source": "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2",
-        "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l4"
-      },
-      {
-        "relationName": "themeCoversCoreKnowledge",
-        "label": "学习主题统摄核心知识点 / coversCoreKnowledge",
-        "source": "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2",
-        "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l5"
-      },
-      {
-        "relationName": "themeCoversCoreKnowledge",
-        "label": "学习主题统摄核心知识点 / coversCoreKnowledge",
-        "source": "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2",
-        "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l6"
-      },
-  
-      {
-        "relationName": "themeCoversCoreKnowledge",
-        "label": "学习主题统摄核心知识点 / coversCoreKnowledge",
-        "source": "urn:jy:chemistry:SB0402:OB03:LearningTheme:l3",
-        "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l7"
-      },
-      {
-        "relationName": "themeCoversCoreKnowledge",
-        "label": "学习主题统摄核心知识点 / coversCoreKnowledge",
-        "source": "urn:jy:chemistry:SB0402:OB03:LearningTheme:l3",
-        "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l8"
-      },
-      {
-        "relationName": "themeCoversCoreKnowledge",
-        "label": "学习主题统摄核心知识点 / coversCoreKnowledge",
-        "source": "urn:jy:chemistry:SB0402:OB03:LearningTheme:l3",
-        "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l9"
-      },
-  
-      {
-        "relationName": "themeCoversCoreKnowledge",
-        "label": "学习主题统摄核心知识点 / coversCoreKnowledge",
-        "source": "urn:jy:chemistry:SB0402:OB03:LearningTheme:l4",
-        "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l10"
-      },
-      {
-        "relationName": "themeCoversCoreKnowledge",
-        "label": "学习主题统摄核心知识点 / coversCoreKnowledge",
-        "source": "urn:jy:chemistry:SB0402:OB03:LearningTheme:l4",
-        "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l11"
-      },
-      {
-        "relationName": "themeCoversCoreKnowledge",
-        "label": "学习主题统摄核心知识点 / coversCoreKnowledge",
-        "source": "urn:jy:chemistry:SB0402:OB03:LearningTheme:l5",
-        "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l12"
-      }
-    ]
+[
+  {
+    "relationName": "themeCoversCoreKnowledge",
+    "label": "学习主题统摄核心知识点 / coversCoreKnowledge",
+    "source": "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1",
+    "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l1"
+  },
+  {
+    "relationName": "themeCoversCoreKnowledge",
+    "label": "学习主题统摄核心知识点 / coversCoreKnowledge",
+    "source": "urn:jy:chemistry:SB0402:OB03:LearningTheme:l1",
+    "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l2"
+  },
+  {
+    "relationName": "themeCoversCoreKnowledge",
+    "label": "学习主题统摄核心知识点 / coversCoreKnowledge",
+    "source": "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2",
+    "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l3"
+  },
+  {
+    "relationName": "themeCoversCoreKnowledge",
+    "label": "学习主题统摄核心知识点 / coversCoreKnowledge",
+    "source": "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2",
+    "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l4"
+  },
+  {
+    "relationName": "themeCoversCoreKnowledge",
+    "label": "学习主题统摄核心知识点 / coversCoreKnowledge",
+    "source": "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2",
+    "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l5"
+  },
+  {
+    "relationName": "themeCoversCoreKnowledge",
+    "label": "学习主题统摄核心知识点 / coversCoreKnowledge",
+    "source": "urn:jy:chemistry:SB0402:OB03:LearningTheme:l2",
+    "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l6"
+  },
+  {
+    "relationName": "themeCoversCoreKnowledge",
+    "label": "学习主题统摄核心知识点 / coversCoreKnowledge",
+    "source": "urn:jy:chemistry:SB0402:OB03:LearningTheme:l3",
+    "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l7"
+  },
+  {
+    "relationName": "themeCoversCoreKnowledge",
+    "label": "学习主题统摄核心知识点 / coversCoreKnowledge",
+    "source": "urn:jy:chemistry:SB0402:OB03:LearningTheme:l3",
+    "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l8"
+  },
+  {
+    "relationName": "themeCoversCoreKnowledge",
+    "label": "学习主题统摄核心知识点 / coversCoreKnowledge",
+    "source": "urn:jy:chemistry:SB0402:OB03:LearningTheme:l3",
+    "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l9"
+  },
+  {
+    "relationName": "themeCoversCoreKnowledge",
+    "label": "学习主题统摄核心知识点 / coversCoreKnowledge",
+    "source": "urn:jy:chemistry:SB0402:OB03:LearningTheme:l4",
+    "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l10"
+  },
+  {
+    "relationName": "themeCoversCoreKnowledge",
+    "label": "学习主题统摄核心知识点 / coversCoreKnowledge",
+    "source": "urn:jy:chemistry:SB0402:OB03:LearningTheme:l4",
+    "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l11"
+  },
+  {
+    "relationName": "themeCoversCoreKnowledge",
+    "label": "学习主题统摄核心知识点 / coversCoreKnowledge",
+    "source": "urn:jy:chemistry:SB0402:OB03:LearningTheme:l5",
+    "target": "urn:jy:chemistry:SB0402:OB03:CoreKnowledge:l12"
   }
-  
+]

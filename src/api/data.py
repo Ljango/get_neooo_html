@@ -3,6 +3,7 @@
 数据操作API - 数据管理功能（root和engineer可用）
 """
 
+# 标准库
 import subprocess
 import sys
 import shutil
@@ -14,16 +15,23 @@ import tempfile
 from datetime import datetime
 from typing import Optional, List, Dict, Any
 from pathlib import Path
+
+# 第三方库
 from fastapi import APIRouter, Depends, HTTPException, BackgroundTasks, UploadFile, File, Form
 from sqlalchemy.orm import Session
 
+# 本地配置
+import config
+from config import PROJECT_ROOT, DATA_ROOT
+
+# 本地模块
 from .database import get_db
 from .models import User, DataVersion, VersionStatus, SyncQueue
 from .schemas import (
     TaskResponse, ResponseBase, VersionInfo, CreateVersionRequest
 )
 from .deps import require_root, require_engineer, log_operation
-from config import SUBJECT_CONFIG, PROJECT_ROOT, DATA_ROOT
+from .utils import get_subject_config, get_data_dir, load_json_file
 
 # 快照存储目录
 SNAPSHOT_DIR = PROJECT_ROOT / "archive" / "snapshots"
@@ -257,7 +265,7 @@ async def get_sync_status(
     subjects_need_sync = [
         {
             "subject_id": r.subject_id,
-            "display_name": SUBJECT_CONFIG.get(r.subject_id, {}).get('display_name', r.subject_id),
+            "display_name": config.SUBJECT_CONFIG.get(r.subject_id, {}).get('display_name', r.subject_id),
             "edit_count": r.edit_count,
             "last_edit_at": r.last_edit_at.isoformat() if r.last_edit_at else None
         }
@@ -365,7 +373,7 @@ async def list_all_subjects(
 ):
     """获取所有学科列表（root）"""
     subjects = []
-    for name, config in SUBJECT_CONFIG.items():
+    for name, config in config.SUBJECT_CONFIG.items():
         subjects.append({
             "subject_id": name,
             "display_name": config.get('display_name', name),
@@ -417,7 +425,7 @@ async def list_snapshots(
     current_user: User = Depends(require_root)
 ):
     """获取学科的所有快照列表"""
-    subject_config = SUBJECT_CONFIG.get(subject_id)
+    subject_config = config.SUBJECT_CONFIG.get(subject_id)
     if not subject_config:
         raise HTTPException(status_code=404, detail="学科不存在")
     
@@ -460,7 +468,7 @@ async def create_snapshot(
     db: Session = Depends(get_db)
 ):
     """创建学科数据快照"""
-    subject_config = SUBJECT_CONFIG.get(subject_id)
+    subject_config = config.SUBJECT_CONFIG.get(subject_id)
     if not subject_config:
         raise HTTPException(status_code=404, detail="学科不存在")
     
@@ -577,7 +585,7 @@ async def restore_snapshot(
     db: Session = Depends(get_db)
 ):
     """从快照恢复学科数据"""
-    subject_config = SUBJECT_CONFIG.get(subject_id)
+    subject_config = config.SUBJECT_CONFIG.get(subject_id)
     if not subject_config:
         raise HTTPException(status_code=404, detail="学科不存在")
     
@@ -683,7 +691,7 @@ async def delete_snapshot(
     db: Session = Depends(get_db)
 ):
     """删除快照"""
-    subject_config = SUBJECT_CONFIG.get(subject_id)
+    subject_config = config.SUBJECT_CONFIG.get(subject_id)
     if not subject_config:
         raise HTTPException(status_code=404, detail="学科不存在")
     
@@ -1175,7 +1183,7 @@ async def upload_data_package(
         raise HTTPException(status_code=400, detail="只支持ZIP格式文件")
     
     # 检查学科是否存在
-    subject_config = SUBJECT_CONFIG.get(subject_id)
+    subject_config = config.SUBJECT_CONFIG.get(subject_id)
     if not subject_config:
         raise HTTPException(status_code=404, detail=f"学科不存在: {subject_id}")
     
@@ -1356,7 +1364,7 @@ async def get_upload_format_spec(
             },
             "available_subjects": [
                 {"id": k, "name": v.get("display_name", k)}
-                for k, v in SUBJECT_CONFIG.items()
+                for k, v in config.SUBJECT_CONFIG.items()
             ]
         }
     }

@@ -176,7 +176,15 @@ const api = {
         getLogs: (params = {}) => {
             const query = new URLSearchParams(params).toString();
             return request(`/admin/logs?${query}`);
-        }
+        },
+        
+        // 刷新配置（热更新）
+        refreshConfig: () =>
+            request('/admin/config/refresh', { method: 'POST' }),
+        
+        // 查看学科配置列表
+        listSubjectsConfig: () =>
+            request('/admin/config/subjects')
     },
     
     // ========== 数据操作 ==========
@@ -342,7 +350,17 @@ const api = {
             }),
         
         listBackups: (subjectId) =>
-            request(`/edit/backups/${subjectId}`)
+            request(`/edit/backups/${subjectId}`),
+        
+        // 撤销功能
+        getUndoHistory: (subjectId, limit = 10) =>
+            request(`/edit/undo-history/${subjectId}?limit=${limit}`),
+        
+        undo: (subjectId, backupFile) =>
+            request(`/edit/undo/${subjectId}`, {
+                method: 'POST',
+                body: JSON.stringify({ backup_file: backupFile })
+            })
     },
     
     // ========== 图谱可视化 ==========

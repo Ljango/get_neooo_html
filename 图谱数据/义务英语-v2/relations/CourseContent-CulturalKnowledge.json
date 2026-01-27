@@ -1,0 +1,182 @@
+[
+  {
+    "relationName": "courseContentIncludesCulturalKnowledge",
+    "label": "课程内容包含文化知识要素 / includesCulturalKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
+  },
+  {
+    "relationName": "culturalKnowledgeIsElementOfCourseContent",
+    "label": "是课程内容的组成要素 / isElementOfCourseContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:04"
+  },
+  {
+    "relationName": "courseContentIncludesCulturalKnowledge",
+    "label": "课程内容包含文化知识要素 / includesCulturalKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
+  },
+  {
+    "relationName": "culturalKnowledgeIsElementOfCourseContent",
+    "label": "是课程内容的组成要素 / isElementOfCourseContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:04"
+  },
+  {
+    "relationName": "courseContentIncludesCulturalKnowledge",
+    "label": "课程内容包含文化知识要素 / includesCulturalKnowledge",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:04",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
+  },
+  {
+    "relationName": "culturalKnowledgeIsElementOfCourseContent",
+    "label": "是课程内容的组成要素 / isElementOfCourseContent",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:04"
+  },
+  {
+    "relationName": "teachingTipsGuideCulturalKnowledgeLearning",
+    "label": "教学提示指导文化知识学习 / guidesCulturalKnowledgeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
+  },
+  {
+    "relationName": "culturalKnowledgeIsImplementedThroughTeachingTips",
+    "label": "文化知识通过教学提示实施 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+  },
+  {
+    "relationName": "teachingTipsGuideCulturalKnowledgeLearning",
+    "label": "教学提示指导文化知识学习 / guidesCulturalKnowledgeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
+  },
+  {
+    "relationName": "culturalKnowledgeIsImplementedThroughTeachingTips",
+    "label": "文化知识通过教学提示实施 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+  },
+  {
+    "relationName": "teachingTipsGuideCulturalKnowledgeLearning",
+    "label": "教学提示指导文化知识学习 / guidesCulturalKnowledgeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
+  },
+  {
+    "relationName": "culturalKnowledgeIsImplementedThroughTeachingTips",
+    "label": "文化知识通过教学提示实施 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:07"
+  },
+  {
+    "relationName": "teachingTipsGuideCulturalKnowledgeLearning",
+    "label": "教学提示指导文化知识学习 / guidesCulturalKnowledgeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
+  },
+  {
+    "relationName": "culturalKnowledgeIsImplementedThroughTeachingTips",
+    "label": "文化知识通过教学提示实施 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+  },
+  {
+    "relationName": "teachingTipsGuideCulturalKnowledgeLearning",
+    "label": "教学提示指导文化知识学习 / guidesCulturalKnowledgeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
+  },
+  {
+    "relationName": "culturalKnowledgeIsImplementedThroughTeachingTips",
+    "label": "文化知识通过教学提示实施 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+  },
+  {
+    "relationName": "teachingTipsGuideCulturalKnowledgeLearning",
+    "label": "教学提示指导文化知识学习 / guidesCulturalKnowledgeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
+  },
+  {
+    "relationName": "culturalKnowledgeIsImplementedThroughTeachingTips",
+    "label": "文化知识通过教学提示实施 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:08"
+  },
+  {
+    "relationName": "teachingTipsGuideCulturalKnowledgeLearning",
+    "label": "教学提示指导文化知识学习 / guidesCulturalKnowledgeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
+  },
+  {
+    "relationName": "culturalKnowledgeIsImplementedThroughTeachingTips",
+    "label": "文化知识通过教学提示实施 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+  },
+  {
+    "relationName": "teachingTipsGuideCulturalKnowledgeLearning",
+    "label": "教学提示指导文化知识学习 / guidesCulturalKnowledgeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
+  },
+  {
+    "relationName": "culturalKnowledgeIsImplementedThroughTeachingTips",
+    "label": "文化知识通过教学提示实施 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+  },
+  {
+    "relationName": "teachingTipsGuideCulturalKnowledgeLearning",
+    "label": "教学提示指导文化知识学习 / guidesCulturalKnowledgeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
+  },
+  {
+    "relationName": "culturalKnowledgeIsImplementedThroughTeachingTips",
+    "label": "文化知识通过教学提示实施 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:09"
+  },
+  {
+    "relationName": "teachingTipsGuideCulturalKnowledgeLearning",
+    "label": "教学提示指导文化知识学习 / guidesCulturalKnowledgeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01"
+  },
+  {
+    "relationName": "culturalKnowledgeIsImplementedThroughTeachingTips",
+    "label": "文化知识通过教学提示实施 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:01",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+  },
+  {
+    "relationName": "teachingTipsGuideCulturalKnowledgeLearning",
+    "label": "教学提示指导文化知识学习 / guidesCulturalKnowledgeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02"
+  },
+  {
+    "relationName": "culturalKnowledgeIsImplementedThroughTeachingTips",
+    "label": "文化知识通过教学提示实施 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:02",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+  },
+  {
+    "relationName": "teachingTipsGuideCulturalKnowledgeLearning",
+    "label": "教学提示指导文化知识学习 / guidesCulturalKnowledgeLearning",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03"
+  },
+  {
+    "relationName": "culturalKnowledgeIsImplementedThroughTeachingTips",
+    "label": "文化知识通过教学提示实施 / isImplementedThroughTeachingTips",
+    "source": "urn:jy:English:SB0102:OB02,OB03:CulturalKnowledge:03",
+    "target": "urn:jy:English:SB0102:OB02,OB03:CourseContent:10"
+  }
+]

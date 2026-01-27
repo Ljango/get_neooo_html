@@ -11,12 +11,21 @@ function requireAuth() {
     return true;
 }
 
-// 检查角色权限
+// 检查角色权限（支持多角色用户）
 function requireRole(...roles) {
     if (!requireAuth()) return false;
     
     const user = getUserInfo();
-    if (!user || !roles.includes(user.role)) {
+    if (!user) {
+        window.location.href = '/static/app/dashboard.html';
+        return false;
+    }
+    
+    // 支持单角色字符串或角色数组
+    const userRoles = Array.isArray(user.role) ? user.role : [user.role];
+    const hasRequiredRole = roles.some(r => userRoles.includes(r));
+    
+    if (!hasRequiredRole) {
         window.location.href = '/static/app/dashboard.html';
         return false;
     }
