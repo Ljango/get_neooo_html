@@ -390,6 +390,57 @@
     
     <main>
 
+        <!-- 语文学科 -->
+        <section class="subject-section" data-subject="语文">
+            <div class="subject-header">
+                <span class="icon">📖</span>
+                <h2>语文</h2>
+            </div>
+            <div class="subject-group">
+
+            <div class="subject-column">
+                <div class="subject-column-header">
+                    <span class="icon">📖</span>
+                    <h3>高中语文</h3>
+                    <span class="count">1 个</span>
+                </div>
+                <div class="graph-grid">
+                    <a href="高中语文_课标.html" class="graph-card" style="--accent-color: #ff6b6b">
+                        <span class="type-badge curriculum">课程标准</span>
+                        <h3>高中语文课标</h3>
+                        <p class="description">知识图谱可视化</p>
+                        <div class="stats">
+                            <span class="stat-item">📊 48个实体</span>
+                            <span class="stat-item">🔗 380条关系</span>
+                        </div>
+                        <span class="arrow">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="subject-column">
+                <div class="subject-column-header">
+                    <span class="icon">📖</span>
+                    <h3>义教语文</h3>
+                    <span class="count">1 个</span>
+                </div>
+                <div class="graph-grid">
+                    <a href="义教语文_课标.html" class="graph-card" style="--accent-color: #ff7675">
+                        <span class="type-badge curriculum">课程标准</span>
+                        <h3>义教语文课标</h3>
+                        <p class="description">知识图谱可视化</p>
+                        <div class="stats">
+                            <span class="stat-item">📊 40个实体</span>
+                            <span class="stat-item">🔗 400条关系</span>
+                        </div>
+                        <span class="arrow">→</span>
+                    </a>
+                </div>
+            </div>
+
+            </div>
+        </section>
+
         <!-- 数学学科 -->
         <section class="subject-section" data-subject="数学">
             <div class="subject-header">
@@ -451,6 +502,57 @@
             </div>
         </section>
 
+        <!-- 英语学科 -->
+        <section class="subject-section" data-subject="英语">
+            <div class="subject-header">
+                <span class="icon">🔤</span>
+                <h2>英语</h2>
+            </div>
+            <div class="subject-group">
+
+            <div class="subject-column">
+                <div class="subject-column-header">
+                    <span class="icon">🔤</span>
+                    <h3>高中英语</h3>
+                    <span class="count">1 个</span>
+                </div>
+                <div class="graph-grid">
+                    <a href="高中英语_课标.html" class="graph-card" style="--accent-color: #e84393">
+                        <span class="type-badge curriculum">课程标准</span>
+                        <h3>高中英语课标</h3>
+                        <p class="description">知识图谱可视化</p>
+                        <div class="stats">
+                            <span class="stat-item">📊 296个实体</span>
+                            <span class="stat-item">🔗 3910条关系</span>
+                        </div>
+                        <span class="arrow">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="subject-column">
+                <div class="subject-column-header">
+                    <span class="icon">🔤</span>
+                    <h3>义务英语</h3>
+                    <span class="count">1 个</span>
+                </div>
+                <div class="graph-grid">
+                    <a href="义务英语_课标.html" class="graph-card" style="--accent-color: #00b894">
+                        <span class="type-badge curriculum">课程标准</span>
+                        <h3>义务英语课标</h3>
+                        <p class="description">知识图谱可视化</p>
+                        <div class="stats">
+                            <span class="stat-item">📊 673个实体</span>
+                            <span class="stat-item">🔗 3817条关系</span>
+                        </div>
+                        <span class="arrow">→</span>
+                    </a>
+                </div>
+            </div>
+
+            </div>
+        </section>
+
         <!-- 物理学科 -->
         <section class="subject-section" data-subject="物理">
             <div class="subject-header">
@@ -482,26 +584,6 @@
             <div class="subject-column">
                 <div class="subject-column-header">
                     <span class="icon">⚡</span>
-                    <h3>义教物理（8上下、9全一册）</h3>
-                    <span class="count">1 个</span>
-                </div>
-                <div class="graph-grid">
-                    <a href="义教物理_课标.html" class="graph-card" style="--accent-color: #e74c3c">
-                        <span class="type-badge curriculum">课程标准</span>
-                        <h3>义教物理8上下9全册课标</h3>
-                        <p class="description">知识图谱可视化</p>
-                        <div class="stats">
-                            <span class="stat-item">📊 371个实体</span>
-                            <span class="stat-item">🔗 1128条关系</span>
-                        </div>
-                        <span class="arrow">→</span>
-                    </a>
-                </div>
-            </div>
-
-            <div class="subject-column">
-                <div class="subject-column-header">
-                    <span class="icon">⚡</span>
                     <h3>义教物理（8、9全一册）</h3>
                     <span class="count">1 个</span>
                 </div>
@@ -511,8 +593,28 @@
                         <h3>义教物理89全册课标</h3>
                         <p class="description">知识图谱可视化</p>
                         <div class="stats">
-                            <span class="stat-item">📊 374个实体</span>
-                            <span class="stat-item">🔗 1200条关系</span>
+                            <span class="stat-item">📊 395个实体</span>
+                            <span class="stat-item">🔗 1332条关系</span>
+                        </div>
+                        <span class="arrow">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="subject-column">
+                <div class="subject-column-header">
+                    <span class="icon">⚡</span>
+                    <h3>义教物理（8上下、9全一册）</h3>
+                    <span class="count">1 个</span>
+                </div>
+                <div class="graph-grid">
+                    <a href="义教物理_课标.html" class="graph-card" style="--accent-color: #e74c3c">
+                        <span class="type-badge curriculum">课程标准</span>
+                        <h3>义教物理8上下9全册课标</h3>
+                        <p class="description">知识图谱可视化</p>
+                        <div class="stats">
+                            <span class="stat-item">📊 392个实体</span>
+                            <span class="stat-item">🔗 1260条关系</span>
                         </div>
                         <span class="arrow">→</span>
                     </a>
@@ -557,7 +659,7 @@
                     <span class="count">1 个</span>
                 </div>
                 <div class="graph-grid">
-                    <a href="义教化学_课标.html" class="graph-card" style="--accent-color: #f39c12">
+                    <a href="义教化学_课标.html" class="graph-card" style="--accent-color: #9b59b6">
                         <span class="type-badge curriculum">课程标准</span>
                         <h3>义教化学课标</h3>
                         <p class="description">知识图谱可视化</p>
@@ -615,57 +717,6 @@
                         <div class="stats">
                             <span class="stat-item">📊 223个实体</span>
                             <span class="stat-item">🔗 405条关系</span>
-                        </div>
-                        <span class="arrow">→</span>
-                    </a>
-                </div>
-            </div>
-
-            </div>
-        </section>
-
-        <!-- 地理学科 -->
-        <section class="subject-section" data-subject="地理">
-            <div class="subject-header">
-                <span class="icon">🌍</span>
-                <h2>地理</h2>
-            </div>
-            <div class="subject-group">
-
-            <div class="subject-column">
-                <div class="subject-column-header">
-                    <span class="icon">🌍</span>
-                    <h3>高中地理</h3>
-                    <span class="count">1 个</span>
-                </div>
-                <div class="graph-grid">
-                    <a href="高中地理_课标.html" class="graph-card" style="--accent-color: #3498db">
-                        <span class="type-badge curriculum">课程标准</span>
-                        <h3>高中地理课标</h3>
-                        <p class="description">知识图谱可视化</p>
-                        <div class="stats">
-                            <span class="stat-item">📊 350个实体</span>
-                            <span class="stat-item">🔗 1363条关系</span>
-                        </div>
-                        <span class="arrow">→</span>
-                    </a>
-                </div>
-            </div>
-
-            <div class="subject-column">
-                <div class="subject-column-header">
-                    <span class="icon">🌍</span>
-                    <h3>义教地理</h3>
-                    <span class="count">1 个</span>
-                </div>
-                <div class="graph-grid">
-                    <a href="义教地理_课标.html" class="graph-card" style="--accent-color: #1abc9c">
-                        <span class="type-badge curriculum">课程标准</span>
-                        <h3>义教地理课标</h3>
-                        <p class="description">知识图谱可视化</p>
-                        <div class="stats">
-                            <span class="stat-item">📊 124个实体</span>
-                            <span class="stat-item">🔗 626条关系</span>
                         </div>
                         <span class="arrow">→</span>
                     </a>
@@ -777,28 +828,28 @@
             </div>
         </section>
 
-        <!-- 英语学科 -->
-        <section class="subject-section" data-subject="英语">
+        <!-- 地理学科 -->
+        <section class="subject-section" data-subject="地理">
             <div class="subject-header">
-                <span class="icon">🔤</span>
-                <h2>英语</h2>
+                <span class="icon">🌍</span>
+                <h2>地理</h2>
             </div>
             <div class="subject-group">
 
             <div class="subject-column">
                 <div class="subject-column-header">
-                    <span class="icon">🔤</span>
-                    <h3>高中英语</h3>
+                    <span class="icon">🌍</span>
+                    <h3>高中地理</h3>
                     <span class="count">1 个</span>
                 </div>
                 <div class="graph-grid">
-                    <a href="高中英语_课标.html" class="graph-card" style="--accent-color: #e84393">
+                    <a href="高中地理_课标.html" class="graph-card" style="--accent-color: #3498db">
                         <span class="type-badge curriculum">课程标准</span>
-                        <h3>高中英语课标</h3>
+                        <h3>高中地理课标</h3>
                         <p class="description">知识图谱可视化</p>
                         <div class="stats">
-                            <span class="stat-item">📊 296个实体</span>
-                            <span class="stat-item">🔗 3910条关系</span>
+                            <span class="stat-item">📊 350个实体</span>
+                            <span class="stat-item">🔗 1363条关系</span>
                         </div>
                         <span class="arrow">→</span>
                     </a>
@@ -807,69 +858,18 @@
 
             <div class="subject-column">
                 <div class="subject-column-header">
-                    <span class="icon">🔤</span>
-                    <h3>义务英语</h3>
+                    <span class="icon">🌍</span>
+                    <h3>义教地理</h3>
                     <span class="count">1 个</span>
                 </div>
                 <div class="graph-grid">
-                    <a href="义务英语_课标.html" class="graph-card" style="--accent-color: #00b894">
+                    <a href="义教地理_课标.html" class="graph-card" style="--accent-color: #1abc9c">
                         <span class="type-badge curriculum">课程标准</span>
-                        <h3>义务英语课标</h3>
+                        <h3>义教地理课标</h3>
                         <p class="description">知识图谱可视化</p>
                         <div class="stats">
-                            <span class="stat-item">📊 673个实体</span>
-                            <span class="stat-item">🔗 3817条关系</span>
-                        </div>
-                        <span class="arrow">→</span>
-                    </a>
-                </div>
-            </div>
-
-            </div>
-        </section>
-
-        <!-- 语文学科 -->
-        <section class="subject-section" data-subject="语文">
-            <div class="subject-header">
-                <span class="icon">📖</span>
-                <h2>语文</h2>
-            </div>
-            <div class="subject-group">
-
-            <div class="subject-column">
-                <div class="subject-column-header">
-                    <span class="icon">📖</span>
-                    <h3>高中语文</h3>
-                    <span class="count">1 个</span>
-                </div>
-                <div class="graph-grid">
-                    <a href="高中语文_课标.html" class="graph-card" style="--accent-color: #ff6b6b">
-                        <span class="type-badge curriculum">课程标准</span>
-                        <h3>高中语文课标</h3>
-                        <p class="description">知识图谱可视化</p>
-                        <div class="stats">
-                            <span class="stat-item">📊 48个实体</span>
-                            <span class="stat-item">🔗 380条关系</span>
-                        </div>
-                        <span class="arrow">→</span>
-                    </a>
-                </div>
-            </div>
-
-            <div class="subject-column">
-                <div class="subject-column-header">
-                    <span class="icon">📖</span>
-                    <h3>义教语文</h3>
-                    <span class="count">1 个</span>
-                </div>
-                <div class="graph-grid">
-                    <a href="义教语文_课标.html" class="graph-card" style="--accent-color: #ff7675">
-                        <span class="type-badge curriculum">课程标准</span>
-                        <h3>义教语文课标</h3>
-                        <p class="description">知识图谱可视化</p>
-                        <div class="stats">
-                            <span class="stat-item">📊 40个实体</span>
-                            <span class="stat-item">🔗 400条关系</span>
+                            <span class="stat-item">📊 124个实体</span>
+                            <span class="stat-item">🔗 626条关系</span>
                         </div>
                         <span class="arrow">→</span>
                     </a>

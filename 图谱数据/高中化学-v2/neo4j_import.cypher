@@ -1,20 +1,20 @@
 // =====================================================
 // 高中化学课标图谱 - Neo4j导入脚本
-// 生成时间: 2026-01-26T21:15:07.377953
+// 生成时间: 2026-01-27T18:20:10.564197
 // =====================================================
 
 // 创建约束和索引
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:Chapter) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:Experiment) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:CoreLiteracy) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:LearningTheme) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:ThemeL2) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:Subsection) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:AcademicQuality) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:CourseModule) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:CourseSeries) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:Section) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Experiment) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:CourseType) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:CoreLiteracy) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Section) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Subsection) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:ThemeL2) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:AcademicQuality) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:CourseSeries) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Chapter) REQUIRE n.identifier IS UNIQUE;
 
 // =====================================================
 // 导入实体
@@ -7416,20 +7416,50 @@ MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB06:ThemeL2:l51"})
 MERGE (source)-[r:SubsectionIncludesThemeL2]->(target)
 SET r.label = "小节包含二级主题 / includesThemeL2";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB06:CourseType:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB06:CourseMoudle:l1"})
-MERGE (source)-[r:courseTypeIncludesModule]->(target)
-SET r.label = "包含课程模块 / includesModule";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB06:CourseMoudle:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB06:LearningTheme:l6"})
+MERGE (source)-[r:moduleIncludesTheme]->(target)
+SET r.label = "包含学习主题 / includesTheme";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB06:CourseType:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB06:CourseMoudle:l2"})
-MERGE (source)-[r:courseTypeIncludesModule]->(target)
-SET r.label = "包含课程模块 / includesModule";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB06:CourseMoudle:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB06:LearningTheme:l7"})
+MERGE (source)-[r:moduleIncludesTheme]->(target)
+SET r.label = "包含学习主题 / includesTheme";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB06:CourseType:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB06:CourseMoudle:l3"})
-MERGE (source)-[r:courseTypeIncludesModule]->(target)
-SET r.label = "包含课程模块 / includesModule";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB06:CourseMoudle:l1"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB06:LearningTheme:l8"})
+MERGE (source)-[r:moduleIncludesTheme]->(target)
+SET r.label = "包含学习主题 / includesTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB06:CourseMoudle:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB06:LearningTheme:l9"})
+MERGE (source)-[r:moduleIncludesTheme]->(target)
+SET r.label = "包含学习主题 / includesTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB06:CourseMoudle:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB06:LearningTheme:l10"})
+MERGE (source)-[r:moduleIncludesTheme]->(target)
+SET r.label = "包含学习主题 / includesTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB06:CourseMoudle:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB06:LearningTheme:l11"})
+MERGE (source)-[r:moduleIncludesTheme]->(target)
+SET r.label = "包含学习主题 / includesTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB06:CourseMoudle:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB06:LearningTheme:l12"})
+MERGE (source)-[r:moduleIncludesTheme]->(target)
+SET r.label = "包含学习主题 / includesTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB06:CourseMoudle:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB06:LearningTheme:l13"})
+MERGE (source)-[r:moduleIncludesTheme]->(target)
+SET r.label = "包含学习主题 / includesTheme";
+
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB06:CourseMoudle:l3"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB06:LearningTheme:l14"})
+MERGE (source)-[r:moduleIncludesTheme]->(target)
+SET r.label = "包含学习主题 / includesTheme";
 
 MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB06:Experiment:l1"})
 MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB06:Subsection:l7"})
@@ -10576,50 +10606,20 @@ MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB06:Section:l50"})
 MERGE (source)-[r:ChapterIncludesSection]->(target)
 SET r.label = "章节包含节 / includesSection";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB06:CourseMoudle:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB06:LearningTheme:l6"})
-MERGE (source)-[r:moduleIncludesTheme]->(target)
-SET r.label = "包含学习主题 / includesTheme";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB06:CourseType:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB06:CourseMoudle:l1"})
+MERGE (source)-[r:courseTypeIncludesModule]->(target)
+SET r.label = "包含课程模块 / includesModule";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB06:CourseMoudle:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB06:LearningTheme:l7"})
-MERGE (source)-[r:moduleIncludesTheme]->(target)
-SET r.label = "包含学习主题 / includesTheme";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB06:CourseType:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB06:CourseMoudle:l2"})
+MERGE (source)-[r:courseTypeIncludesModule]->(target)
+SET r.label = "包含课程模块 / includesModule";
 
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB06:CourseMoudle:l1"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB06:LearningTheme:l8"})
-MERGE (source)-[r:moduleIncludesTheme]->(target)
-SET r.label = "包含学习主题 / includesTheme";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB06:CourseMoudle:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB06:LearningTheme:l9"})
-MERGE (source)-[r:moduleIncludesTheme]->(target)
-SET r.label = "包含学习主题 / includesTheme";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB06:CourseMoudle:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB06:LearningTheme:l10"})
-MERGE (source)-[r:moduleIncludesTheme]->(target)
-SET r.label = "包含学习主题 / includesTheme";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB06:CourseMoudle:l2"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB06:LearningTheme:l11"})
-MERGE (source)-[r:moduleIncludesTheme]->(target)
-SET r.label = "包含学习主题 / includesTheme";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB06:CourseMoudle:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB06:LearningTheme:l12"})
-MERGE (source)-[r:moduleIncludesTheme]->(target)
-SET r.label = "包含学习主题 / includesTheme";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB06:CourseMoudle:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB06:LearningTheme:l13"})
-MERGE (source)-[r:moduleIncludesTheme]->(target)
-SET r.label = "包含学习主题 / includesTheme";
-
-MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB06:CourseMoudle:l3"})
-MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB06:LearningTheme:l14"})
-MERGE (source)-[r:moduleIncludesTheme]->(target)
-SET r.label = "包含学习主题 / includesTheme";
+MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB06:CourseType:l2"})
+MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB06:CourseMoudle:l3"})
+MERGE (source)-[r:courseTypeIncludesModule]->(target)
+SET r.label = "包含课程模块 / includesModule";
 
 MATCH (source {identifier: "urn:jy:chemistry:SB0402:OB06:LearningTheme:l1"})
 MATCH (target {identifier: "urn:jy:chemistry:SB0402:OB06:Experiment:l1"})

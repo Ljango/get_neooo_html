@@ -1,21 +1,21 @@
 // =====================================================
 // 义教数学课标图谱 - Neo4j导入脚本
-// 生成时间: 2026-01-26T21:15:09.350019
+// 生成时间: 2026-01-27T18:20:12.896632
 // =====================================================
 
 // 创建约束和索引
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:Theme) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:Chapter_middle) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:Chapter_primary) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:LearningDomain) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:KeyPoint) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:Problems) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:CoreLiteracyAspect) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:KeyPoint) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:Stage_with_theme) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:Section_middle) REQUIRE n.identifier IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS FOR (n:CoreLiteracyPerformance) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:Stage) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Theme) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Section_middle) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Chapter_middle) REQUIRE n.identifier IS UNIQUE;
 CREATE CONSTRAINT IF NOT EXISTS FOR (n:CourseGoal) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Chapter_primary) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:Stage_with_theme) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:CoreLiteracyPerformance) REQUIRE n.identifier IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:LearningDomain) REQUIRE n.identifier IS UNIQUE;
 
 // =====================================================
 // 导入实体
@@ -19562,481 +19562,6 @@ MATCH (target {identifier: "urn:jy:math:2022:chapter:s4:sg:properties:G9B:ch29"}
 MERGE (source)-[r:themeHasChapter]->(target)
 SET r.label = "/hasChapter";
 
-MATCH (source {identifier: "urn:jy:math:2022:course-goal"})
-MATCH (target {identifier: "urn:jy:math:2022:stage:1-2"})
-MERGE (source)-[r:coursegoalCoversStage]->(target)
-SET r.label = "覆盖学段 / coversStage";
-
-MATCH (source {identifier: "urn:jy:math:2022:course-goal"})
-MATCH (target {identifier: "urn:jy:math:2022:stage:3-4"})
-MERGE (source)-[r:coursegoalCoversStage]->(target)
-SET r.label = "覆盖学段 / coversStage";
-
-MATCH (source {identifier: "urn:jy:math:2022:course-goal"})
-MATCH (target {identifier: "urn:jy:math:2022:stage:5-6"})
-MERGE (source)-[r:coursegoalCoversStage]->(target)
-SET r.label = "覆盖学段 / coversStage";
-
-MATCH (source {identifier: "urn:jy:math:2022:course-goal"})
-MATCH (target {identifier: "urn:jy:math:2022:stage:7-9"})
-MERGE (source)-[r:coursegoalCoversStage]->(target)
-SET r.label = "覆盖学段 / coversStage";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s1:a2e5ebacb2b6"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s1:na:number-operations"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s1:c18219d64335"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s1:na:number-operations"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s1:13922f93c7b8"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s1:na:number-operations"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s1:0995924b9098"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s1:na:number-operations"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s1:98884d65f00e"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s1:na:quantitative-relations"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s1:d42938e27cbc"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s1:na:quantitative-relations"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s1:d7989dfa8d3d"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s1:sg:recognition-measurement"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s1:68672dbf526c"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s1:sg:recognition-measurement"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s1:762418ade1b2"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s1:sp:data-categorization"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s2:f5c1bd00e09b"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s2:na:number-operations"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s2:2d725b131692"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s2:na:number-operations"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s2:23e63bfd19ab"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s2:na:number-operations"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s2:668d93f63207"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s2:na:quantitative-relations"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s2:f372f27b5855"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s2:na:quantitative-relations"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s2:745e0c0a85b4"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s2:na:quantitative-relations"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s2:2cad0bcc97af"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s2:na:quantitative-relations"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s2:b508cee513c7"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s2:na:quantitative-relations"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s2:725d5a7695da"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s2:sg:recognition-measurement"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s2:4a5cec4bd496"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s2:sg:recognition-measurement"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s2:6bcdd1171128"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s2:sg:recognition-measurement"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s2:3077a850e651"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s2:sg:position-motion"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s2:fc96e8a3f3cf"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s2:sp:collect-organize-express"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s2:2ca5642ea120"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s2:sp:collect-organize-express"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s2:1e65a98d0bce"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s2:sp:collect-organize-express"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s2:c7de177520f3"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s2:sp:collect-organize-express"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s3:9b9879b3e266"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s3:na:number-operations"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s3:3ffadd37abf1"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s3:na:number-operations"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s3:e0a2a09c2cd2"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s3:na:quantitative-relations"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s3:e9ea68e7199d"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s3:na:quantitative-relations"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s3:3ffadd37abf1"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s3:na:quantitative-relations"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s3:8cf2541d6e3a"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s3:na:quantitative-relations"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s3:562167e4bf71"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s3:na:quantitative-relations"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s3:e0a2a09c2cd2"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s3:na:quantitative-relations"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s3:806f30a4fb9d"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s3:sg:recognition-measurement"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s3:818002e2dd5f"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s3:sg:recognition-measurement"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s3:90ab73250f5d"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s3:sg:recognition-measurement"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s3:8cf2541d6e3a"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s3:sg:recognition-measurement"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s3:562167e4bf71"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s3:sg:recognition-measurement"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s3:5741f0e46023"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s3:sg:recognition-measurement"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s3:6683a7bfa969"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s3:sg:position-motion"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s3:b96ce8eb88e9"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s3:sg:position-motion"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s3:6683a7bfa969"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s3:sg:position-motion"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s3:b96ce8eb88e9"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s3:sg:position-motion"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s3:520a2ab4ff4f"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s3:sg:position-motion"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s3:ad18f7c18b57"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s3:sp:collect-organize-express"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s3:cfe6f95a017f"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s3:sp:collect-organize-express"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s4:6c9ce1cc8258"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s4:na:expressions"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s4:709c05d94500"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s4:na:expressions"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s4:24a99d0ef0f3"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s4:na:expressions"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s4:24a99d0ef0f3"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s4:na:expressions"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s4:4f23b8ccc2db"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s4:na:equations-inequalities"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s4:96a9ec3584df"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s4:na:functions"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s4:d83e5c90b0eb"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s4:na:functions"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s4:e97e3a0bdc20"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s4:na:functions"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s4:93bd6b82df77"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s4:na:functions"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s4:93bd6b82df77"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s4:na:functions"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s4:93bd6b82df77"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s4:na:functions"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s4:950caf125022"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s4:na:functions"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s4:d83e5c90b0eb"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s4:na:functions"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s4:e97e3a0bdc20"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s4:na:functions"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s4:93bd6b82df77"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s4:na:functions"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s4:950caf125022"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s4:na:functions"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s4:3656a5b8ad98"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s4:sg:properties"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s4:722c6b301a60"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s4:sg:properties"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s4:9161fa53c2e4"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s4:sg:transformations"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s4:b24ec676f8ed"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s4:sg:transformations"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s4:5cf37d53082d"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s4:sg:transformations"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s4:5cf37d53082d"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s4:sg:transformations"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s4:5cf37d53082d"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s4:sg:transformations"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s4:5cf37d53082d"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s4:sg:transformations"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s4:8daa51a7ad9a"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s4:sg:coordinates"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s4:29103cab6af6"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s4:sp:sampling-data-analysis"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s4:3543a41230cc"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s4:sp:sampling-data-analysis"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s4:d25ddbc7b261"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s4:sp:sampling-data-analysis"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:problem:s4:d44c5a653d44"})
-MATCH (target {identifier: "urn:jy:math:2022:theme:s4:sp:probability"})
-MERGE (source)-[r:problemInTheme]->(target)
-SET r.label = "题目在主题中/problem_in_theme";
-
-MATCH (source {identifier: "urn:jy:math:2022:stage:1-2"})
-MATCH (target {identifier: "urn:jy:math:2022:domain:number-algebra:s1"})
-MERGE (source)-[r:stageHasDomain]->(target)
-SET r.label = "包含领域 / hasDomain";
-
-MATCH (source {identifier: "urn:jy:math:2022:stage:1-2"})
-MATCH (target {identifier: "urn:jy:math:2022:domain:shape-geometry:s1"})
-MERGE (source)-[r:stageHasDomain]->(target)
-SET r.label = "包含领域 / hasDomain";
-
-MATCH (source {identifier: "urn:jy:math:2022:stage:1-2"})
-MATCH (target {identifier: "urn:jy:math:2022:domain:statistics-probability:s1"})
-MERGE (source)-[r:stageHasDomain]->(target)
-SET r.label = "包含领域 / hasDomain";
-
-MATCH (source {identifier: "urn:jy:math:2022:stage:1-2"})
-MATCH (target {identifier: "urn:jy:math:2022:domain:integration-practice:s1"})
-MERGE (source)-[r:stageHasDomain]->(target)
-SET r.label = "包含领域 / hasDomain";
-
-MATCH (source {identifier: "urn:jy:math:2022:stage:3-4"})
-MATCH (target {identifier: "urn:jy:math:2022:domain:number-algebra:s2"})
-MERGE (source)-[r:stageHasDomain]->(target)
-SET r.label = "包含领域 / hasDomain";
-
-MATCH (source {identifier: "urn:jy:math:2022:stage:3-4"})
-MATCH (target {identifier: "urn:jy:math:2022:domain:shape-geometry:s2"})
-MERGE (source)-[r:stageHasDomain]->(target)
-SET r.label = "包含领域 / hasDomain";
-
-MATCH (source {identifier: "urn:jy:math:2022:stage:3-4"})
-MATCH (target {identifier: "urn:jy:math:2022:domain:statistics-probability:s2"})
-MERGE (source)-[r:stageHasDomain]->(target)
-SET r.label = "包含领域 / hasDomain";
-
-MATCH (source {identifier: "urn:jy:math:2022:stage:3-4"})
-MATCH (target {identifier: "urn:jy:math:2022:domain:integration-practice:s2"})
-MERGE (source)-[r:stageHasDomain]->(target)
-SET r.label = "包含领域 / hasDomain";
-
-MATCH (source {identifier: "urn:jy:math:2022:stage:5-6"})
-MATCH (target {identifier: "urn:jy:math:2022:domain:number-algebra:s3"})
-MERGE (source)-[r:stageHasDomain]->(target)
-SET r.label = "包含领域 / hasDomain";
-
-MATCH (source {identifier: "urn:jy:math:2022:stage:5-6"})
-MATCH (target {identifier: "urn:jy:math:2022:domain:shape-geometry:s3"})
-MERGE (source)-[r:stageHasDomain]->(target)
-SET r.label = "包含领域 / hasDomain";
-
-MATCH (source {identifier: "urn:jy:math:2022:stage:5-6"})
-MATCH (target {identifier: "urn:jy:math:2022:domain:statistics-probability:s3"})
-MERGE (source)-[r:stageHasDomain]->(target)
-SET r.label = "包含领域 / hasDomain";
-
-MATCH (source {identifier: "urn:jy:math:2022:stage:5-6"})
-MATCH (target {identifier: "urn:jy:math:2022:domain:integration-practice:s3"})
-MERGE (source)-[r:stageHasDomain]->(target)
-SET r.label = "包含领域 / hasDomain";
-
-MATCH (source {identifier: "urn:jy:math:2022:stage:7-9"})
-MATCH (target {identifier: "urn:jy:math:2022:domain:number-algebra:s4"})
-MERGE (source)-[r:stageHasDomain]->(target)
-SET r.label = "包含领域 / hasDomain";
-
-MATCH (source {identifier: "urn:jy:math:2022:stage:7-9"})
-MATCH (target {identifier: "urn:jy:math:2022:domain:shape-geometry:s4"})
-MERGE (source)-[r:stageHasDomain]->(target)
-SET r.label = "包含领域 / hasDomain";
-
-MATCH (source {identifier: "urn:jy:math:2022:stage:7-9"})
-MATCH (target {identifier: "urn:jy:math:2022:domain:statistics-probability:s4"})
-MERGE (source)-[r:stageHasDomain]->(target)
-SET r.label = "包含领域 / hasDomain";
-
-MATCH (source {identifier: "urn:jy:math:2022:stage:7-9"})
-MATCH (target {identifier: "urn:jy:math:2022:domain:integration-practice:s4"})
-MERGE (source)-[r:stageHasDomain]->(target)
-SET r.label = "包含领域 / hasDomain";
-
 MATCH (source {identifier: "urn:jy:math:2022:knowledge_point:s1:99639b66fc69"})
 MATCH (target {identifier: "urn:jy:math:2022:problem:s1:a2e5ebacb2b6"})
 MERGE (source)-[r:knowledgePointInProblem]->(target)
@@ -20921,6 +20446,481 @@ MATCH (source {identifier: "urn:jy:math:2022:knowledge_point:s4:594c70e0350f"})
 MATCH (target {identifier: "urn:jy:math:2022:problem:s4:d44c5a653d44"})
 MERGE (source)-[r:knowledgePointInProblem]->(target)
 SET r.label = "知识点在题目中/knowledge_point_in_problem";
+
+MATCH (source {identifier: "urn:jy:math:2022:course-goal"})
+MATCH (target {identifier: "urn:jy:math:2022:stage:1-2"})
+MERGE (source)-[r:coursegoalCoversStage]->(target)
+SET r.label = "覆盖学段 / coversStage";
+
+MATCH (source {identifier: "urn:jy:math:2022:course-goal"})
+MATCH (target {identifier: "urn:jy:math:2022:stage:3-4"})
+MERGE (source)-[r:coursegoalCoversStage]->(target)
+SET r.label = "覆盖学段 / coversStage";
+
+MATCH (source {identifier: "urn:jy:math:2022:course-goal"})
+MATCH (target {identifier: "urn:jy:math:2022:stage:5-6"})
+MERGE (source)-[r:coursegoalCoversStage]->(target)
+SET r.label = "覆盖学段 / coversStage";
+
+MATCH (source {identifier: "urn:jy:math:2022:course-goal"})
+MATCH (target {identifier: "urn:jy:math:2022:stage:7-9"})
+MERGE (source)-[r:coursegoalCoversStage]->(target)
+SET r.label = "覆盖学段 / coversStage";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s1:a2e5ebacb2b6"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s1:na:number-operations"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s1:c18219d64335"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s1:na:number-operations"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s1:13922f93c7b8"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s1:na:number-operations"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s1:0995924b9098"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s1:na:number-operations"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s1:98884d65f00e"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s1:na:quantitative-relations"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s1:d42938e27cbc"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s1:na:quantitative-relations"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s1:d7989dfa8d3d"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s1:sg:recognition-measurement"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s1:68672dbf526c"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s1:sg:recognition-measurement"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s1:762418ade1b2"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s1:sp:data-categorization"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s2:f5c1bd00e09b"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s2:na:number-operations"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s2:2d725b131692"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s2:na:number-operations"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s2:23e63bfd19ab"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s2:na:number-operations"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s2:668d93f63207"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s2:na:quantitative-relations"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s2:f372f27b5855"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s2:na:quantitative-relations"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s2:745e0c0a85b4"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s2:na:quantitative-relations"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s2:2cad0bcc97af"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s2:na:quantitative-relations"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s2:b508cee513c7"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s2:na:quantitative-relations"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s2:725d5a7695da"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s2:sg:recognition-measurement"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s2:4a5cec4bd496"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s2:sg:recognition-measurement"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s2:6bcdd1171128"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s2:sg:recognition-measurement"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s2:3077a850e651"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s2:sg:position-motion"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s2:fc96e8a3f3cf"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s2:sp:collect-organize-express"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s2:2ca5642ea120"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s2:sp:collect-organize-express"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s2:1e65a98d0bce"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s2:sp:collect-organize-express"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s2:c7de177520f3"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s2:sp:collect-organize-express"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s3:9b9879b3e266"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s3:na:number-operations"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s3:3ffadd37abf1"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s3:na:number-operations"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s3:e0a2a09c2cd2"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s3:na:quantitative-relations"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s3:e9ea68e7199d"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s3:na:quantitative-relations"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s3:3ffadd37abf1"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s3:na:quantitative-relations"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s3:8cf2541d6e3a"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s3:na:quantitative-relations"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s3:562167e4bf71"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s3:na:quantitative-relations"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s3:e0a2a09c2cd2"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s3:na:quantitative-relations"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s3:806f30a4fb9d"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s3:sg:recognition-measurement"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s3:818002e2dd5f"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s3:sg:recognition-measurement"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s3:90ab73250f5d"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s3:sg:recognition-measurement"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s3:8cf2541d6e3a"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s3:sg:recognition-measurement"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s3:562167e4bf71"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s3:sg:recognition-measurement"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s3:5741f0e46023"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s3:sg:recognition-measurement"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s3:6683a7bfa969"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s3:sg:position-motion"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s3:b96ce8eb88e9"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s3:sg:position-motion"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s3:6683a7bfa969"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s3:sg:position-motion"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s3:b96ce8eb88e9"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s3:sg:position-motion"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s3:520a2ab4ff4f"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s3:sg:position-motion"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s3:ad18f7c18b57"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s3:sp:collect-organize-express"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s3:cfe6f95a017f"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s3:sp:collect-organize-express"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s4:6c9ce1cc8258"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s4:na:expressions"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s4:709c05d94500"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s4:na:expressions"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s4:24a99d0ef0f3"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s4:na:expressions"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s4:24a99d0ef0f3"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s4:na:expressions"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s4:4f23b8ccc2db"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s4:na:equations-inequalities"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s4:96a9ec3584df"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s4:na:functions"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s4:d83e5c90b0eb"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s4:na:functions"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s4:e97e3a0bdc20"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s4:na:functions"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s4:93bd6b82df77"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s4:na:functions"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s4:93bd6b82df77"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s4:na:functions"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s4:93bd6b82df77"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s4:na:functions"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s4:950caf125022"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s4:na:functions"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s4:d83e5c90b0eb"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s4:na:functions"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s4:e97e3a0bdc20"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s4:na:functions"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s4:93bd6b82df77"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s4:na:functions"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s4:950caf125022"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s4:na:functions"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s4:3656a5b8ad98"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s4:sg:properties"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s4:722c6b301a60"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s4:sg:properties"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s4:9161fa53c2e4"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s4:sg:transformations"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s4:b24ec676f8ed"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s4:sg:transformations"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s4:5cf37d53082d"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s4:sg:transformations"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s4:5cf37d53082d"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s4:sg:transformations"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s4:5cf37d53082d"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s4:sg:transformations"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s4:5cf37d53082d"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s4:sg:transformations"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s4:8daa51a7ad9a"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s4:sg:coordinates"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s4:29103cab6af6"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s4:sp:sampling-data-analysis"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s4:3543a41230cc"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s4:sp:sampling-data-analysis"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s4:d25ddbc7b261"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s4:sp:sampling-data-analysis"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:problem:s4:d44c5a653d44"})
+MATCH (target {identifier: "urn:jy:math:2022:theme:s4:sp:probability"})
+MERGE (source)-[r:problemInTheme]->(target)
+SET r.label = "题目在主题中/problem_in_theme";
+
+MATCH (source {identifier: "urn:jy:math:2022:stage:1-2"})
+MATCH (target {identifier: "urn:jy:math:2022:domain:number-algebra:s1"})
+MERGE (source)-[r:stageHasDomain]->(target)
+SET r.label = "包含领域 / hasDomain";
+
+MATCH (source {identifier: "urn:jy:math:2022:stage:1-2"})
+MATCH (target {identifier: "urn:jy:math:2022:domain:shape-geometry:s1"})
+MERGE (source)-[r:stageHasDomain]->(target)
+SET r.label = "包含领域 / hasDomain";
+
+MATCH (source {identifier: "urn:jy:math:2022:stage:1-2"})
+MATCH (target {identifier: "urn:jy:math:2022:domain:statistics-probability:s1"})
+MERGE (source)-[r:stageHasDomain]->(target)
+SET r.label = "包含领域 / hasDomain";
+
+MATCH (source {identifier: "urn:jy:math:2022:stage:1-2"})
+MATCH (target {identifier: "urn:jy:math:2022:domain:integration-practice:s1"})
+MERGE (source)-[r:stageHasDomain]->(target)
+SET r.label = "包含领域 / hasDomain";
+
+MATCH (source {identifier: "urn:jy:math:2022:stage:3-4"})
+MATCH (target {identifier: "urn:jy:math:2022:domain:number-algebra:s2"})
+MERGE (source)-[r:stageHasDomain]->(target)
+SET r.label = "包含领域 / hasDomain";
+
+MATCH (source {identifier: "urn:jy:math:2022:stage:3-4"})
+MATCH (target {identifier: "urn:jy:math:2022:domain:shape-geometry:s2"})
+MERGE (source)-[r:stageHasDomain]->(target)
+SET r.label = "包含领域 / hasDomain";
+
+MATCH (source {identifier: "urn:jy:math:2022:stage:3-4"})
+MATCH (target {identifier: "urn:jy:math:2022:domain:statistics-probability:s2"})
+MERGE (source)-[r:stageHasDomain]->(target)
+SET r.label = "包含领域 / hasDomain";
+
+MATCH (source {identifier: "urn:jy:math:2022:stage:3-4"})
+MATCH (target {identifier: "urn:jy:math:2022:domain:integration-practice:s2"})
+MERGE (source)-[r:stageHasDomain]->(target)
+SET r.label = "包含领域 / hasDomain";
+
+MATCH (source {identifier: "urn:jy:math:2022:stage:5-6"})
+MATCH (target {identifier: "urn:jy:math:2022:domain:number-algebra:s3"})
+MERGE (source)-[r:stageHasDomain]->(target)
+SET r.label = "包含领域 / hasDomain";
+
+MATCH (source {identifier: "urn:jy:math:2022:stage:5-6"})
+MATCH (target {identifier: "urn:jy:math:2022:domain:shape-geometry:s3"})
+MERGE (source)-[r:stageHasDomain]->(target)
+SET r.label = "包含领域 / hasDomain";
+
+MATCH (source {identifier: "urn:jy:math:2022:stage:5-6"})
+MATCH (target {identifier: "urn:jy:math:2022:domain:statistics-probability:s3"})
+MERGE (source)-[r:stageHasDomain]->(target)
+SET r.label = "包含领域 / hasDomain";
+
+MATCH (source {identifier: "urn:jy:math:2022:stage:5-6"})
+MATCH (target {identifier: "urn:jy:math:2022:domain:integration-practice:s3"})
+MERGE (source)-[r:stageHasDomain]->(target)
+SET r.label = "包含领域 / hasDomain";
+
+MATCH (source {identifier: "urn:jy:math:2022:stage:7-9"})
+MATCH (target {identifier: "urn:jy:math:2022:domain:number-algebra:s4"})
+MERGE (source)-[r:stageHasDomain]->(target)
+SET r.label = "包含领域 / hasDomain";
+
+MATCH (source {identifier: "urn:jy:math:2022:stage:7-9"})
+MATCH (target {identifier: "urn:jy:math:2022:domain:shape-geometry:s4"})
+MERGE (source)-[r:stageHasDomain]->(target)
+SET r.label = "包含领域 / hasDomain";
+
+MATCH (source {identifier: "urn:jy:math:2022:stage:7-9"})
+MATCH (target {identifier: "urn:jy:math:2022:domain:statistics-probability:s4"})
+MERGE (source)-[r:stageHasDomain]->(target)
+SET r.label = "包含领域 / hasDomain";
+
+MATCH (source {identifier: "urn:jy:math:2022:stage:7-9"})
+MATCH (target {identifier: "urn:jy:math:2022:domain:integration-practice:s4"})
+MERGE (source)-[r:stageHasDomain]->(target)
+SET r.label = "包含领域 / hasDomain";
 
 MATCH (source {identifier: "urn:jy:math:2022:chapter:s4:na:expressions:G7A:ch1"})
 MATCH (target {identifier: "urn:jy:math:2022:section:s4:na:expressions:G7A:ch1:sec1-1"})
