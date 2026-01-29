@@ -104,7 +104,7 @@ ENTITY_TYPE_CONFIG = {
     "LearningThemeL1": {"label": "一级学习主题", "color": "#e67e22", "size": 22},
     "LearningThemeL2": {"label": "二级学习主题", "color": "#f39c12", "size": 18},
     "LearningThemeL3": {"label": "三级学习主题", "color": "#f1c40f", "size": 16},
-    "CoreLiteracy-level": {"label": "核心素养水平", "color": "#16a085", "size": 16},
+    # CoreLiteracy-level 已废弃，使用 CoreLiteracyLevel
     "BookModule": {"label": "书模块", "color": "#3498db", "size": 18},
     "ModuleAspect": {"label": "模块表现", "color": "#9b59b6", "size": 16},
     "CourseModel": {"label": "课程模式", "color": "#e74c3c", "size": 20},
@@ -139,6 +139,19 @@ ENTITY_TYPE_CONFIG = {
     "LearningStrategy": {"label": "学习策略", "color": "#9b59b6", "size": 14},
     "Discourse": {"label": "语篇类型", "color": "#1abc9c", "size": 14},
     "GoalPoint": {"label": "目标要点", "color": "#e74c3c", "size": 14},
+    
+    # 高中英语（必修/选必修）
+    "ChapterBixiu": {"label": "章（必修）", "color": "#ff7675", "size": 16},
+    "ChapterXuanbixiu": {"label": "章（选必修）", "color": "#ff7675", "size": 16},
+    "SectionBixiu": {"label": "节（必修）", "color": "#74b9ff", "size": 14},
+    "SectionXuanbixiu": {"label": "节（选必修）", "color": "#74b9ff", "size": 14},
+    "SubsectionBixiu": {"label": "小节（必修）", "color": "#a29bfe", "size": 12},
+    
+    # 高中地理（核心素养水平）
+    "CoreLiteracyLevel": {"label": "核心素养水平", "color": "#16a085", "size": 16},
+    
+    # 高中政治
+    "AcademicProficiencyTestSuggestions": {"label": "学业水平考试建议", "color": "#9b59b6", "size": 14},
 }
 
 # ========== 实体类型排序配置 ==========
