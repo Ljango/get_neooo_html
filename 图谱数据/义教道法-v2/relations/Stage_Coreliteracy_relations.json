@@ -1,0 +1,242 @@
+ [
+    {
+      "relationName": "StageHasCoreliteracy",
+      "label": "包含核心素养 / HasCoreliteracy",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST01",
+      "target": "urn:jy:dwfz:SB0309:Coreliteracy:CL01"
+    },
+    {
+      "relationName": "CoreliteracyBelongsToStage",
+      "label": "属于学段 / BelongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Coreliteracy:CL01",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST01"
+    },
+    {
+      "relationName": "StageHasCoreliteracy",
+      "label": "包含核心素养 / HasCoreliteracy",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST01",
+      "target": "urn:jy:dwfz:SB0309:Coreliteracy:CL02"
+    },
+    {
+      "relationName": "CoreliteracyBelongsToStage",
+      "label": "属于学段 / BelongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Coreliteracy:CL02",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST01"
+    },
+    {
+      "relationName": "StageHasCoreliteracy",
+      "label": "包含核心素养 / HasCoreliteracy",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST01",
+      "target": "urn:jy:dwfz:SB0309:Coreliteracy:CL03"
+    },
+    {
+      "relationName": "CoreliteracyBelongsToStage",
+      "label": "属于学段 / BelongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Coreliteracy:CL03",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST01"
+    },
+    {
+      "relationName": "StageHasCoreliteracy",
+      "label": "包含核心素养 / HasCoreliteracy",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST01",
+      "target": "urn:jy:dwfz:SB0309:Coreliteracy:CL04"
+    },
+    {
+      "relationName": "CoreliteracyBelongsToStage",
+      "label": "属于学段 / BelongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Coreliteracy:CL04",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST01"
+    },
+    {
+      "relationName": "StageHasCoreliteracy",
+      "label": "包含核心素养 / HasCoreliteracy",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST01",
+      "target": "urn:jy:dwfz:SB0309:Coreliteracy:CL05"
+    },
+    {
+      "relationName": "CoreliteracyBelongsToStage",
+      "label": "属于学段 / BelongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Coreliteracy:CL05",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST01"
+    },
+    {
+      "relationName": "StageHasCoreliteracy",
+      "label": "包含核心素养 / HasCoreliteracy",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST02",
+      "target": "urn:jy:dwfz:SB0309:Coreliteracy:CL01"
+    },
+    {
+      "relationName": "CoreliteracyBelongsToStage",
+      "label": "属于学段 / BelongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Coreliteracy:CL01",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST02"
+    },
+    {
+      "relationName": "StageHasCoreliteracy",
+      "label": "包含核心素养 / HasCoreliteracy",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST02",
+      "target": "urn:jy:dwfz:SB0309:Coreliteracy:CL02"
+    },
+    {
+      "relationName": "CoreliteracyBelongsToStage",
+      "label": "属于学段 / BelongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Coreliteracy:CL02",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST02"
+    },
+    {
+      "relationName": "StageHasCoreliteracy",
+      "label": "包含核心素养 / HasCoreliteracy",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST02",
+      "target": "urn:jy:dwfz:SB0309:Coreliteracy:CL03"
+    },
+    {
+      "relationName": "CoreliteracyBelongsToStage",
+      "label": "属于学段 / BelongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Coreliteracy:CL03",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST02"
+    },
+    {
+      "relationName": "StageHasCoreliteracy",
+      "label": "包含核心素养 / HasCoreliteracy",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST02",
+      "target": "urn:jy:dwfz:SB0309:Coreliteracy:CL04"
+    },
+    {
+      "relationName": "CoreliteracyBelongsToStage",
+      "label": "属于学段 / BelongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Coreliteracy:CL04",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST02"
+    },
+    {
+      "relationName": "StageHasCoreliteracy",
+      "label": "包含核心素养 / HasCoreliteracy",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST02",
+      "target": "urn:jy:dwfz:SB0309:Coreliteracy:CL05"
+    },
+    {
+      "relationName": "CoreliteracyBelongsToStage",
+      "label": "属于学段 / BelongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Coreliteracy:CL05",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST02"
+    },
+    {
+      "relationName": "StageHasCoreliteracy",
+      "label": "包含核心素养 / HasCoreliteracy",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST03",
+      "target": "urn:jy:dwfz:SB0309:Coreliteracy:CL01"
+    },
+    {
+      "relationName": "CoreliteracyBelongsToStage",
+      "label": "属于学段 / BelongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Coreliteracy:CL01",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST03"
+    },
+    {
+      "relationName": "StageHasCoreliteracy",
+      "label": "包含核心素养 / HasCoreliteracy",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST03",
+      "target": "urn:jy:dwfz:SB0309:Coreliteracy:CL02"
+    },
+    {
+      "relationName": "CoreliteracyBelongsToStage",
+      "label": "属于学段 / BelongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Coreliteracy:CL02",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST03"
+    },
+    {
+      "relationName": "StageHasCoreliteracy",
+      "label": "包含核心素养 / HasCoreliteracy",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST03",
+      "target": "urn:jy:dwfz:SB0309:Coreliteracy:CL03"
+    },
+    {
+      "relationName": "CoreliteracyBelongsToStage",
+      "label": "属于学段 / BelongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Coreliteracy:CL03",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST03"
+    },
+    {
+      "relationName": "StageHasCoreliteracy",
+      "label": "包含核心素养 / HasCoreliteracy",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST03",
+      "target": "urn:jy:dwfz:SB0309:Coreliteracy:CL04"
+    },
+    {
+      "relationName": "CoreliteracyBelongsToStage",
+      "label": "属于学段 / BelongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Coreliteracy:CL04",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST03"
+    },
+    {
+      "relationName": "StageHasCoreliteracy",
+      "label": "包含核心素养 / HasCoreliteracy",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST03",
+      "target": "urn:jy:dwfz:SB0309:Coreliteracy:CL05"
+    },
+    {
+      "relationName": "CoreliteracyBelongsToStage",
+      "label": "属于学段 / BelongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Coreliteracy:CL05",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST03"
+    },
+    {
+      "relationName": "StageHasCoreliteracy",
+      "label": "包含核心素养 / HasCoreliteracy",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST04",
+      "target": "urn:jy:dwfz:SB0309:Coreliteracy:CL01"
+    },
+    {
+      "relationName": "CoreliteracyBelongsToStage",
+      "label": "属于学段 / BelongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Coreliteracy:CL01",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST04"
+    },
+    {
+      "relationName": "StageHasCoreliteracy",
+      "label": "包含核心素养 / HasCoreliteracy",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST04",
+      "target": "urn:jy:dwfz:SB0309:Coreliteracy:CL02"
+    },
+    {
+      "relationName": "CoreliteracyBelongsToStage",
+      "label": "属于学段 / BelongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Coreliteracy:CL02",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST04"
+    },
+    {
+      "relationName": "StageHasCoreliteracy",
+      "label": "包含核心素养 / HasCoreliteracy",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST04",
+      "target": "urn:jy:dwfz:SB0309:Coreliteracy:CL03"
+    },
+    {
+      "relationName": "CoreliteracyBelongsToStage",
+      "label": "属于学段 / BelongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Coreliteracy:CL03",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST04"
+    },
+    {
+      "relationName": "StageHasCoreliteracy",
+      "label": "包含核心素养 / HasCoreliteracy",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST04",
+      "target": "urn:jy:dwfz:SB0309:Coreliteracy:CL04"
+    },
+    {
+      "relationName": "CoreliteracyBelongsToStage",
+      "label": "属于学段 / BelongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Coreliteracy:CL04",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST04"
+    },
+    {
+      "relationName": "StageHasCoreliteracy",
+      "label": "包含核心素养 / HasCoreliteracy",
+      "source": "urn:jy:dwfz:SB0309:Stage:ST04",
+      "target": "urn:jy:dwfz:SB0309:Coreliteracy:CL05"
+    },
+    {
+      "relationName": "CoreliteracyBelongsToStage",
+      "label": "属于学段 / BelongsToStage",
+      "source": "urn:jy:dwfz:SB0309:Coreliteracy:CL05",
+      "target": "urn:jy:dwfz:SB0309:Stage:ST04"
+    }
+  ]
