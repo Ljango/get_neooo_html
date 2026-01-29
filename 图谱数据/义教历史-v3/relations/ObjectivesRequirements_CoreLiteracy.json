@@ -1,0 +1,57 @@
+[
+  {
+    "relationName": "rel_objective_implements_literacy",
+    "label": "目标要求_落实_唯物史观",
+    "source": "urn:jy:history:SB0307:OB03:ObjectivesRequirements:1:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:1:OB03",
+    "evidence": {
+      "ObjectivesRequirements": "能够认识劳动在人类社会发展中的重要作用...能够将唯物史观运用于历史学习...",
+      "CoreLiteracy": "唯物史观是揭示人类社会历史客观基础及发展规律的科学的历史观和方法论...",
+      "note": "课程目标要求学生'初步学会在唯物史观的指导下看待历史'，这是'唯物史观'核心素养在义务教育阶段的具体化要求，二者是目标与素养本体的关系。"
+    }
+  },
+  {
+    "relationName": "rel_objective_implements_literacy",
+    "label": "目标要求_落实_时空观念",
+    "source": "urn:jy:history:SB0307:OB03:ObjectivesRequirements:2:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:2:OB03",
+    "evidence": {
+      "ObjectivesRequirements": "了解历史发展的时间顺序和空间要素...",
+      "CoreLiteracy": "时空观念是在特定的时间联系和空间联系中对事物进行观察、分析的意识和思维方式...",
+      "note": "课程目标要求'学会在具体的时空条件下考察历史'，直接对应'时空观念'这一核心素养，要求学生掌握历史时序和空间要素。"
+    }
+  },
+  {
+    "relationName": "rel_objective_implements_literacy",
+    "label": "目标要求_落实_史料实证",
+    "source": "urn:jy:history:SB0307:OB03:ObjectivesRequirements:3:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:3:OB03",
+    "evidence": {
+      "ObjectivesRequirements": "了解史料的主要类型，初步学会从多种渠道获取历史信息...",
+      "CoreLiteracy": "史料实证是指对获取的史料进行辨析...",
+      "note": "课程目标要求'初步学会依靠可信史料了解和认识历史'，这是'史料实证'素养（辨析史料、重现历史真实）在教学目标中的具体体现。"
+    }
+  },
+  {
+    "relationName": "rel_objective_implements_literacy",
+    "label": "目标要求_落实_历史解释",
+    "source": "urn:jy:history:SB0307:OB03:ObjectivesRequirements:4:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:4:OB03",
+    "evidence": {
+      "ObjectivesRequirements": "能够初步区分历史叙述中的史实与解释...",
+      "CoreLiteracy": "历史解释是指以史料为依据，客观地认识和评判历史的态度和方法...",
+      "note": "课程目标要求'初步学会有理有据地表达自己对历史的看法'，这正是'历史解释'素养（以史料为依据，客观认识和评判历史）的实践要求。"
+    }
+  },
+  {
+    "relationName": "rel_objective_implements_literacy",
+    "label": "目标要求_落实_家国情怀",
+    "source": "urn:jy:history:SB0307:OB03:ObjectivesRequirements:5:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:5:OB03",
+    "evidence": {
+      "ObjectivesRequirements": "能够从历史的角度认识中华文明突出的连续性...增强热爱家乡、热爱祖国的情感...",
+      "CoreLiteracy": "家国情怀是学习和探究历史应具有的人文追求与社会责任...",
+      "note": "课程目标要求'形成对国家和中华民族的认同...有理想、有担当'，完全涵盖了'家国情怀'素养中关于人文追求与社会责任的内涵。"
+    }
+  }
+]

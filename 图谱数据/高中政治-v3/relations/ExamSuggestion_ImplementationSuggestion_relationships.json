@@ -1,0 +1,74 @@
+[
+  {
+    "relationName": "examSuggestionAlignsWithImplementationSuggestion",
+    "label": "学业水平考试建议与教学与评价建议的关联 / ExamSuggestion↔TeachingAndEvaluationSuggestion：1. 考试理念 对应 1. 强化价值引领，把道理讲深、讲透、讲活（证据：考试建议“$ 坚持正确的政治方向和价值导向。命题要全面贯彻党的教育方 针，落实立德树人根本任务，以社会主义核心价值观铸魂育人，引导学生坚定中国特色社会主义道路自信、理论自信、制度自信、文化自信，树立正确的世界观、人生观、价值观。 $\\spadesuit$ 坚持核心素养立意。整体考查政治认同、科学精神、法治观念和公共参与等学科核心”；教学与评价建议“思想政治课的本质是讲道理。本课程的教学与评价，必须凸显价值引领的意义，注重方式方法。教师需要用支撑思想政治学科核心素养的基本观点统筹、整合学科知识。可通过范例分析展示观点，在价值冲突中深化理解，在比较、鉴别中提高认识，在探究活动中拓展视野，引导 学生思考和行动，用社会主义核心价值观铸魂育人，促进知行合一。 思想政治学科”）",
+    "source": "urn:jy:politics:SB0310:OB06:Academic ProficiencyTestSuggestions:5",
+    "target": "urn:jy:politics:SB0310:OB06:ImplementationSuggestion:1"
+  },
+  {
+    "relationName": "implementationSuggestionInformsExamSuggestion",
+    "label": "学业水平考试建议与教学与评价建议的关联 / ExamSuggestion↔TeachingAndEvaluationSuggestion：1. 考试理念 对应 1. 强化价值引领，把道理讲深、讲透、讲活（证据：考试建议“$ 坚持正确的政治方向和价值导向。命题要全面贯彻党的教育方 针，落实立德树人根本任务，以社会主义核心价值观铸魂育人，引导学生坚定中国特色社会主义道路自信、理论自信、制度自信、文化自信，树立正确的世界观、人生观、价值观。 $\\spadesuit$ 坚持核心素养立意。整体考查政治认同、科学精神、法治观念和公共参与等学科核心”；教学与评价建议“思想政治课的本质是讲道理。本课程的教学与评价，必须凸显价值引领的意义，注重方式方法。教师需要用支撑思想政治学科核心素养的基本观点统筹、整合学科知识。可通过范例分析展示观点，在价值冲突中深化理解，在比较、鉴别中提高认识，在探究活动中拓展视野，引导 学生思考和行动，用社会主义核心价值观铸魂育人，促进知行合一。 思想政治学科”）",
+    "source": "urn:jy:politics:SB0310:OB06:ImplementationSuggestion:1",
+    "target": "urn:jy:politics:SB0310:OB06:Academic ProficiencyTestSuggestions:5"
+  },
+  {
+    "relationName": "examSuggestionAlignsWithImplementationSuggestion",
+    "label": "学业水平考试建议与教学与评价建议的关联 / ExamSuggestion↔TeachingAndEvaluationSuggestion：1. 考试理念 对应 4. 走出教室，把“思政小课堂”同“社会大课堂”结合起来（证据：考试建议“$ 坚持正确的政治方向和价值导向。命题要全面贯彻党的教育方 针，落实立德树人根本任务，以社会主义核心价值观铸魂育人，引导学生坚定中国特色社会主义道路自信、理论自信、制度自信、文化自信，树立正确的世界观、人生观、价值观。 $\\spadesuit$ 坚持核心素养立意。整体考查政治认同、科学精神、法治观念和公共参与等学科核心”；教学与评价建议“要坚持理论性和实践性相统一，用科学理论培养人，重视课程的实践性，善用“社会大课堂”，引导学生走出教室、走向社会，将中国特色社会主义伟大实践及时融入教育教学，推动思想政治课教学与学生社会实践活动有机结合。 社会实践活动包括志愿服务、社会调查、专题访谈、参观访问以及各种职业体验等。校外社会实践活动为教学提供了更广阔的空间、”）",
+    "source": "urn:jy:politics:SB0310:OB06:Academic ProficiencyTestSuggestions:5",
+    "target": "urn:jy:politics:SB0310:OB06:ImplementationSuggestion:4"
+  },
+  {
+    "relationName": "implementationSuggestionInformsExamSuggestion",
+    "label": "学业水平考试建议与教学与评价建议的关联 / ExamSuggestion↔TeachingAndEvaluationSuggestion：1. 考试理念 对应 4. 走出教室，把“思政小课堂”同“社会大课堂”结合起来（证据：考试建议“$ 坚持正确的政治方向和价值导向。命题要全面贯彻党的教育方 针，落实立德树人根本任务，以社会主义核心价值观铸魂育人，引导学生坚定中国特色社会主义道路自信、理论自信、制度自信、文化自信，树立正确的世界观、人生观、价值观。 $\\spadesuit$ 坚持核心素养立意。整体考查政治认同、科学精神、法治观念和公共参与等学科核心”；教学与评价建议“要坚持理论性和实践性相统一，用科学理论培养人，重视课程的实践性，善用“社会大课堂”，引导学生走出教室、走向社会，将中国特色社会主义伟大实践及时融入教育教学，推动思想政治课教学与学生社会实践活动有机结合。 社会实践活动包括志愿服务、社会调查、专题访谈、参观访问以及各种职业体验等。校外社会实践活动为教学提供了更广阔的空间、”）",
+    "source": "urn:jy:politics:SB0310:OB06:ImplementationSuggestion:4",
+    "target": "urn:jy:politics:SB0310:OB06:Academic ProficiencyTestSuggestions:5"
+  },
+  {
+    "relationName": "examSuggestionAlignsWithImplementationSuggestion",
+    "label": "学业水平考试建议与教学与评价建议的关联 / ExamSuggestion↔TeachingAndEvaluationSuggestion：2. 考试要素 对应 1. 强化价值引领，把道理讲深、讲透、讲活（证据：考试建议“# （1）考试目标 考试目标主要是考查学科核心素养发展状况。确定具体考试目标，要立意鲜明，凸显思想政治学科的育人价值；全面反映学科核心素养，内容清晰、结构合理；符合学业质量标准要求。 # (2)考试范围 学业水平合格性考试的范围是必修内容，学业水平等级性考试的范围是必修和选择性必修内容。 # （3）考试形式 考试形式指”；教学与评价建议“思想政治课的本质是讲道理。本课程的教学与评价，必须凸显价值引领的意义，注重方式方法。教师需要用支撑思想政治学科核心素养的基本观点统筹、整合学科知识。可通过范例分析展示观点，在价值冲突中深化理解，在比较、鉴别中提高认识，在探究活动中拓展视野，引导 学生思考和行动，用社会主义核心价值观铸魂育人，促进知行合一。 思想政治学科”）",
+    "source": "urn:jy:politics:SB0310:OB06:Academic ProficiencyTestSuggestions:6",
+    "target": "urn:jy:politics:SB0310:OB06:ImplementationSuggestion:1"
+  },
+  {
+    "relationName": "implementationSuggestionInformsExamSuggestion",
+    "label": "学业水平考试建议与教学与评价建议的关联 / ExamSuggestion↔TeachingAndEvaluationSuggestion：2. 考试要素 对应 1. 强化价值引领，把道理讲深、讲透、讲活（证据：考试建议“# （1）考试目标 考试目标主要是考查学科核心素养发展状况。确定具体考试目标，要立意鲜明，凸显思想政治学科的育人价值；全面反映学科核心素养，内容清晰、结构合理；符合学业质量标准要求。 # (2)考试范围 学业水平合格性考试的范围是必修内容，学业水平等级性考试的范围是必修和选择性必修内容。 # （3）考试形式 考试形式指”；教学与评价建议“思想政治课的本质是讲道理。本课程的教学与评价，必须凸显价值引领的意义，注重方式方法。教师需要用支撑思想政治学科核心素养的基本观点统筹、整合学科知识。可通过范例分析展示观点，在价值冲突中深化理解，在比较、鉴别中提高认识，在探究活动中拓展视野，引导 学生思考和行动，用社会主义核心价值观铸魂育人，促进知行合一。 思想政治学科”）",
+    "source": "urn:jy:politics:SB0310:OB06:ImplementationSuggestion:1",
+    "target": "urn:jy:politics:SB0310:OB06:Academic ProficiencyTestSuggestions:6"
+  },
+  {
+    "relationName": "examSuggestionAlignsWithImplementationSuggestion",
+    "label": "学业水平考试建议与教学与评价建议的关联 / ExamSuggestion↔TeachingAndEvaluationSuggestion：3. 测试结构 对应 2. 围绕议题，实施活动型学科课程的教学（证据：考试建议“# （1）内容结构 内容比例原则上与各模块课程内容所占学分比例大体相当，可根据实际情况适当调整不同模块所占比例，及时反映马克思主义中国化时代化最新成果。 # （2）题型结构 纸笔测试题型为选择题和非选择题两类，选择题采用结合材料的组合型和非组合型单选题，非选择题可采用结合材料的简答题、论述题、小论文、辨析题等。要根据考”；教学与评价建议“活动型学科课程的实施要使活动设计成为教学设计和承载学科内容的重要形式。一方面，要对应结构化的学科内容，力求提供序列化的活动设计，并贯穿教学全过程；另一方面，要针对相关活动，设计可操作的测评。 教学设计能否反映活动型学科课程实施的思路，关键在于确定开展活动的议题。活动型学科课程的议题，既包含学科课程的具体内容，又 展示价”）",
+    "source": "urn:jy:politics:SB0310:OB06:Academic ProficiencyTestSuggestions:7",
+    "target": "urn:jy:politics:SB0310:OB06:ImplementationSuggestion:2"
+  },
+  {
+    "relationName": "implementationSuggestionInformsExamSuggestion",
+    "label": "学业水平考试建议与教学与评价建议的关联 / ExamSuggestion↔TeachingAndEvaluationSuggestion：3. 测试结构 对应 2. 围绕议题，实施活动型学科课程的教学（证据：考试建议“# （1）内容结构 内容比例原则上与各模块课程内容所占学分比例大体相当，可根据实际情况适当调整不同模块所占比例，及时反映马克思主义中国化时代化最新成果。 # （2）题型结构 纸笔测试题型为选择题和非选择题两类，选择题采用结合材料的组合型和非组合型单选题，非选择题可采用结合材料的简答题、论述题、小论文、辨析题等。要根据考”；教学与评价建议“活动型学科课程的实施要使活动设计成为教学设计和承载学科内容的重要形式。一方面，要对应结构化的学科内容，力求提供序列化的活动设计，并贯穿教学全过程；另一方面，要针对相关活动，设计可操作的测评。 教学设计能否反映活动型学科课程实施的思路，关键在于确定开展活动的议题。活动型学科课程的议题，既包含学科课程的具体内容，又 展示价”）",
+    "source": "urn:jy:politics:SB0310:OB06:ImplementationSuggestion:2",
+    "target": "urn:jy:politics:SB0310:OB06:Academic ProficiencyTestSuggestions:7"
+  },
+  {
+    "relationName": "examSuggestionAlignsWithImplementationSuggestion",
+    "label": "学业水平考试建议与教学与评价建议的关联 / ExamSuggestion↔TeachingAndEvaluationSuggestion：4. 命题蓝图 对应 3. 优化案例，采用情境创设的综合性教学形式（证据：考试建议“制定命题蓝图要遵循考试设计要求，具体化试卷结构，整体规划命题，明确每道试题的测试功能和命制要求。命题蓝图旨在落实核心素养命题立意，确保考查内容的代表性和命题的科学性。 命题蓝图要综合考虑试题考查目标、试题特征等因素以及年度考试命题工作新要求，主要包括学科核心素养、学科任务、试题情境、学科 内容、学业质量水平等，综合考虑”；教学与评价建议“本课程内容涉及哲学、经济学、政治学、法学等学科，具有综合性。教学与评价既要体现内容的广泛性，又要关注问题的复杂性；既要多维度观察对象，又要多途径进行探究。应力求凭借相关情境的创设，提供综合的视点，提升综合能力。 根据权威资料，精选和优化案例进行综合性教学，既要着眼于同一课程模块的内容，综合不同的学科核心素养方面，又要着”）",
+    "source": "urn:jy:politics:SB0310:OB06:Academic ProficiencyTestSuggestions:8",
+    "target": "urn:jy:politics:SB0310:OB06:ImplementationSuggestion:3"
+  },
+  {
+    "relationName": "implementationSuggestionInformsExamSuggestion",
+    "label": "学业水平考试建议与教学与评价建议的关联 / ExamSuggestion↔TeachingAndEvaluationSuggestion：4. 命题蓝图 对应 3. 优化案例，采用情境创设的综合性教学形式（证据：考试建议“制定命题蓝图要遵循考试设计要求，具体化试卷结构，整体规划命题，明确每道试题的测试功能和命制要求。命题蓝图旨在落实核心素养命题立意，确保考查内容的代表性和命题的科学性。 命题蓝图要综合考虑试题考查目标、试题特征等因素以及年度考试命题工作新要求，主要包括学科核心素养、学科任务、试题情境、学科 内容、学业质量水平等，综合考虑”；教学与评价建议“本课程内容涉及哲学、经济学、政治学、法学等学科，具有综合性。教学与评价既要体现内容的广泛性，又要关注问题的复杂性；既要多维度观察对象，又要多途径进行探究。应力求凭借相关情境的创设，提供综合的视点，提升综合能力。 根据权威资料，精选和优化案例进行综合性教学，既要着眼于同一课程模块的内容，综合不同的学科核心素养方面，又要着”）",
+    "source": "urn:jy:politics:SB0310:OB06:ImplementationSuggestion:3",
+    "target": "urn:jy:politics:SB0310:OB06:Academic ProficiencyTestSuggestions:8"
+  },
+  {
+    "relationName": "examSuggestionAlignsWithImplementationSuggestion",
+    "label": "学业水平考试建议与教学与评价建议的关联 / ExamSuggestion↔TeachingAndEvaluationSuggestion：5. 试题命制 对应 3. 优化案例，采用情境创设的综合性教学形式（证据：考试建议“试题命制要准确把握学科核心素养内涵和学生学业成就表现关键特征，创设真实情境，设置有助于展现学生不同素养水平的、符合思想政治学科性质的典型学科任务，结合学生真实表现研制评分参考。 # （1）命题指向 遵循考试设计思路，落实命题蓝图要求，明确每道试题所要考查的学科核心素养及其发展水平。一方面，要准确把握学科核心素养与学科任”；教学与评价建议“本课程内容涉及哲学、经济学、政治学、法学等学科，具有综合性。教学与评价既要体现内容的广泛性，又要关注问题的复杂性；既要多维度观察对象，又要多途径进行探究。应力求凭借相关情境的创设，提供综合的视点，提升综合能力。 根据权威资料，精选和优化案例进行综合性教学，既要着眼于同一课程模块的内容，综合不同的学科核心素养方面，又要着”）",
+    "source": "urn:jy:politics:SB0310:OB06:Academic ProficiencyTestSuggestions:9",
+    "target": "urn:jy:politics:SB0310:OB06:ImplementationSuggestion:3"
+  },
+  {
+    "relationName": "implementationSuggestionInformsExamSuggestion",
+    "label": "学业水平考试建议与教学与评价建议的关联 / ExamSuggestion↔TeachingAndEvaluationSuggestion：5. 试题命制 对应 3. 优化案例，采用情境创设的综合性教学形式（证据：考试建议“试题命制要准确把握学科核心素养内涵和学生学业成就表现关键特征，创设真实情境，设置有助于展现学生不同素养水平的、符合思想政治学科性质的典型学科任务，结合学生真实表现研制评分参考。 # （1）命题指向 遵循考试设计思路，落实命题蓝图要求，明确每道试题所要考查的学科核心素养及其发展水平。一方面，要准确把握学科核心素养与学科任”；教学与评价建议“本课程内容涉及哲学、经济学、政治学、法学等学科，具有综合性。教学与评价既要体现内容的广泛性，又要关注问题的复杂性；既要多维度观察对象，又要多途径进行探究。应力求凭借相关情境的创设，提供综合的视点，提升综合能力。 根据权威资料，精选和优化案例进行综合性教学，既要着眼于同一课程模块的内容，综合不同的学科核心素养方面，又要着”）",
+    "source": "urn:jy:politics:SB0310:OB06:ImplementationSuggestion:3",
+    "target": "urn:jy:politics:SB0310:OB06:Academic ProficiencyTestSuggestions:9"
+  }
+]

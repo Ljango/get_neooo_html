@@ -1,1144 +1,1142 @@
-{
-    "relations": [
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l2",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l1"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l2",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l2"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l3",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l3"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l4",
-            "target": ""
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l5",
-            "target": ""
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l6",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l4"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l7",
-            "target": ""
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l8",
-            "target": ""
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l9",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l5"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l10",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l6"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l10",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l7"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l11",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l8"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l11",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l9"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l12",
-            "target": ""
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l13",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l10"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l13",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l11"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l14",
-            "target": ""
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l15",
-            "target": ""
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l16",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l12"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l16",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l13"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l17",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l14"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l18",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l15"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l19",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l16"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l19",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l17"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l20",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l18"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l21",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l19"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l22",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l20"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l22",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l21"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l23",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l22"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l24",
-            "target": ""
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l25",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l23"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l26",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l24"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l26",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l25"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l27",
-            "target": ""
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l28",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l26"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l28",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l27"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l29",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l28"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l30",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l29"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l31",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l30"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l31",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l31"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l32",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l32"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l33",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l33"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l33",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l34"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l34",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l35"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l34",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l36"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l35",
-            "target": ""
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l36",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l37"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l36",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l38"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l37",
-            "target": ""
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l38",
-            "target": ""
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l39",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l39"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l40",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l40"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l41",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l41"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l42",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l42"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l43",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l43"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l44",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l44"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l45",
-            "target": ""
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l46",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l45"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l47",
-            "target": ""
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l48",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l46"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l49",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l47"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l49",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l48"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l50",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l49"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l51",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l50"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l52",
-            "target": ""
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l53",
-            "target": ""
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l54",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l51"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l55",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l52"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l56",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l53"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l56",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l54"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l57",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l55"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l57",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l56"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l58",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l57"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l59",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l58"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l59",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l59"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l60",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l60"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l61",
-            "target": ""
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l62",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l61"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l63",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l62"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l64",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l63"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l64",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l64"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l65",
-            "target": ""
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l66",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l65"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l67",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l66"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l67",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l67"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l68",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l68"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l68",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l69"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l69",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l70"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l69",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l71"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l70",
-            "target": ""
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l71",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l72"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l72",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l73"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l72",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l74"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l73",
-            "target": ""
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l74",
-            "target": ""
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l75",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l75"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l75",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l76"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l76",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l77"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l76",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l78"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l76",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l79"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l77",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l80"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l77",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l81"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l78",
-            "target": ""
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l79",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l82"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l80",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l83"
-        },
-        {
-            "relationName": "CONTAINS",
-            "label": "包含",
-            "source": "urn:jy:biology:SB0403:OB06:Section:l80",
-            "target": "urn:jy:biology:SB0403:OB06:SubSection:l84"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l1",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l2"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l2",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l2"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l3",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l3"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l4",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l6"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l5",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l9"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l6",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l10"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l7",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l10"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l8",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l11"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l9",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l11"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l10",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l13"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l11",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l13"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l12",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l16"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l13",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l16"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l14",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l17"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l15",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l18"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l16",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l19"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l17",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l19"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l18",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l20"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l19",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l21"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l20",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l22"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l21",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l22"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l22",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l23"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l23",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l25"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l24",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l26"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l25",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l26"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l26",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l28"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l27",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l28"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l28",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l29"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l29",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l30"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l30",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l31"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l31",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l31"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l32",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l32"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l33",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l33"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l34",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l33"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l35",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l34"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l36",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l34"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l37",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l36"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l38",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l36"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l39",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l39"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l40",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l40"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l41",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l41"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l42",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l42"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l43",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l43"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l44",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l44"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l45",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l46"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l46",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l48"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l47",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l49"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l48",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l49"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l49",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l50"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l50",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l51"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l51",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l54"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l52",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l55"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l53",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l56"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l54",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l56"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l55",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l57"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l56",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l57"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l57",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l58"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l58",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l59"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l59",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l59"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l60",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l60"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l61",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l62"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l62",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l63"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l63",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l64"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l64",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l64"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l65",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l66"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l66",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l67"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l67",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l67"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l68",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l68"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l69",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l68"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l70",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l69"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l71",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l69"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l72",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l71"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l73",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l72"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l74",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l72"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l75",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l75"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l76",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l75"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l77",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l76"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l78",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l76"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l79",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l76"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l80",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l77"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l81",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l77"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l82",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l79"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l83",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l80"
-        },
-        {
-            "relationName": "BELONGS_TO",
-            "label": "属于",
-            "source": "urn:jy:biology:SB0403:OB06:SubSection:l84",
-            "target": "urn:jy:biology:SB0403:OB06:Section:l80"
-        }
-    ]
-}
+[
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l2",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l1"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l2",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l2"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l3",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l3"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l4",
+    "target": ""
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l5",
+    "target": ""
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l6",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l4"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l7",
+    "target": ""
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l8",
+    "target": ""
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l9",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l5"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l10",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l6"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l10",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l7"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l11",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l8"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l11",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l9"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l12",
+    "target": ""
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l13",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l10"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l13",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l11"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l14",
+    "target": ""
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l15",
+    "target": ""
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l16",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l12"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l16",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l13"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l17",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l14"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l18",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l15"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l19",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l16"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l19",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l17"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l20",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l18"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l21",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l19"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l22",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l20"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l22",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l21"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l23",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l22"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l24",
+    "target": ""
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l25",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l23"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l26",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l24"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l26",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l25"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l27",
+    "target": ""
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l28",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l26"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l28",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l27"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l29",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l28"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l30",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l29"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l31",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l30"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l31",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l31"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l32",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l32"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l33",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l33"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l33",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l34"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l34",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l35"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l34",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l36"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l35",
+    "target": ""
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l36",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l37"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l36",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l38"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l37",
+    "target": ""
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l38",
+    "target": ""
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l39",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l39"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l40",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l40"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l41",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l41"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l42",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l42"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l43",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l43"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l44",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l44"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l45",
+    "target": ""
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l46",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l45"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l47",
+    "target": ""
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l48",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l46"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l49",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l47"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l49",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l48"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l50",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l49"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l51",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l50"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l52",
+    "target": ""
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l53",
+    "target": ""
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l54",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l51"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l55",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l52"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l56",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l53"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l56",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l54"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l57",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l55"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l57",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l56"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l58",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l57"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l59",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l58"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l59",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l59"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l60",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l60"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l61",
+    "target": ""
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l62",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l61"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l63",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l62"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l64",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l63"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l64",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l64"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l65",
+    "target": ""
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l66",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l65"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l67",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l66"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l67",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l67"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l68",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l68"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l68",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l69"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l69",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l70"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l69",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l71"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l70",
+    "target": ""
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l71",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l72"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l72",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l73"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l72",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l74"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l73",
+    "target": ""
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l74",
+    "target": ""
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l75",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l75"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l75",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l76"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l76",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l77"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l76",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l78"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l76",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l79"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l77",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l80"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l77",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l81"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l78",
+    "target": ""
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l79",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l82"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l80",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l83"
+  },
+  {
+    "relationName": "CONTAINS",
+    "label": "包含",
+    "source": "urn:jy:biology:SB0403:OB06:Section:l80",
+    "target": "urn:jy:biology:SB0403:OB06:SubSection:l84"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l1",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l2"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l2",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l2"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l3",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l3"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l4",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l6"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l5",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l9"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l6",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l10"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l7",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l10"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l8",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l11"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l9",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l11"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l10",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l13"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l11",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l13"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l12",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l16"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l13",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l16"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l14",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l17"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l15",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l18"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l16",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l19"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l17",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l19"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l18",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l20"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l19",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l21"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l20",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l22"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l21",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l22"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l22",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l23"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l23",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l25"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l24",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l26"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l25",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l26"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l26",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l28"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l27",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l28"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l28",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l29"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l29",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l30"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l30",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l31"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l31",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l31"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l32",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l32"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l33",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l33"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l34",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l33"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l35",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l34"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l36",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l34"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l37",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l36"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l38",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l36"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l39",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l39"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l40",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l40"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l41",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l41"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l42",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l42"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l43",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l43"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l44",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l44"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l45",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l46"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l46",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l48"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l47",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l49"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l48",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l49"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l49",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l50"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l50",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l51"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l51",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l54"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l52",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l55"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l53",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l56"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l54",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l56"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l55",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l57"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l56",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l57"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l57",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l58"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l58",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l59"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l59",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l59"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l60",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l60"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l61",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l62"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l62",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l63"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l63",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l64"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l64",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l64"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l65",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l66"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l66",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l67"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l67",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l67"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l68",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l68"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l69",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l68"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l70",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l69"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l71",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l69"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l72",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l71"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l73",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l72"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l74",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l72"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l75",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l75"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l76",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l75"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l77",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l76"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l78",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l76"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l79",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l76"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l80",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l77"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l81",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l77"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l82",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l79"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l83",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l80"
+  },
+  {
+    "relationName": "BELONGS_TO",
+    "label": "属于",
+    "source": "urn:jy:biology:SB0403:OB06:SubSection:l84",
+    "target": "urn:jy:biology:SB0403:OB06:Section:l80"
+  }
+]

@@ -1,0 +1,332 @@
+[
+  {
+    "relationName": "cultivates",
+    "label": "中国古代史 培养 唯物史观",
+    "source": "urn:jy:history:SB0307:OB03:module:1:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:1:OB03",
+    "evidence": {
+      "module": "中国古代史",
+      "CoreLiteracy": "唯物史观",
+      "note": "内容要求/导言：...要的事件、人物、现象，知道重大史事发生的时间和地点、原因和结果，初步养成历史时序意识和历史空间感。（唯物史观、时空观念）"
+    }
+  },
+  {
+    "relationName": "cultivates",
+    "label": "中国古代史 培养 时空观念",
+    "source": "urn:jy:history:SB0307:OB03:module:1:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:2:OB03",
+    "evidence": {
+      "module": "中国古代史",
+      "CoreLiteracy": "时空观念",
+      "note": "内容要求/导言：...人物、现象，知道重大史事发生的时间和地点、原因和结果，初步养成历史时序意识和历史空间感。（唯物史观、时空观念）"
+    }
+  },
+  {
+    "relationName": "cultivates",
+    "label": "中国古代史 培养 史料实证",
+    "source": "urn:jy:history:SB0307:OB03:module:1:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:3:OB03",
+    "evidence": {
+      "module": "中国古代史",
+      "CoreLiteracy": "史料实证",
+      "note": "内容要求/导言：...历史的证据，能结合语文、地理、艺术等课程的学习，初步理解古代史料的含义，尝试运用史料说明历史问题。（史料实证、历史解释）"
+    }
+  },
+  {
+    "relationName": "cultivates",
+    "label": "中国古代史 培养 历史解释",
+    "source": "urn:jy:history:SB0307:OB03:module:1:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:4:OB03",
+    "evidence": {
+      "module": "中国古代史",
+      "CoreLiteracy": "历史解释",
+      "note": "内容要求/导言：...，能结合语文、地理、艺术等课程的学习，初步理解古代史料的含义，尝试运用史料说明历史问题。（史料实证、历史解释）"
+    }
+  },
+  {
+    "relationName": "cultivates",
+    "label": "中国古代史 培养 家国情怀",
+    "source": "urn:jy:history:SB0307:OB03:module:1:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:5:OB03",
+    "evidence": {
+      "module": "中国古代史",
+      "CoreLiteracy": "家国情怀",
+      "note": "内容要求/导言：...代历史上的重要事件、人物、现象等形成合理想象，进行初步分析，认识其意义和影响。（唯物史观、历史解释、家国情怀）"
+    }
+  },
+  {
+    "relationName": "cultivates",
+    "label": "中国近代史 培养 唯物史观",
+    "source": "urn:jy:history:SB0307:OB03:module:2:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:1:OB03",
+    "evidence": {
+      "module": "中国近代史",
+      "CoreLiteracy": "唯物史观",
+      "note": "内容要求/导言：...的事件、人物、现象等，知道这些史事发生的时间和地点、原因和结果，初步养成历史时序意识和历史空间感。（唯物史观、时空观念）"
+    }
+  },
+  {
+    "relationName": "cultivates",
+    "label": "中国近代史 培养 时空观念",
+    "source": "urn:jy:history:SB0307:OB03:module:2:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:2:OB03",
+    "evidence": {
+      "module": "中国近代史",
+      "CoreLiteracy": "时空观念",
+      "note": "内容要求/导言：...物、现象等，知道这些史事发生的时间和地点、原因和结果，初步养成历史时序意识和历史空间感。（唯物史观、时空观念）"
+    }
+  },
+  {
+    "relationName": "cultivates",
+    "label": "中国近代史 培养 史料实证",
+    "source": "urn:jy:history:SB0307:OB03:module:2:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:3:OB03",
+    "evidence": {
+      "module": "中国近代史",
+      "CoreLiteracy": "史料实证",
+      "note": "内容要求/导言：...抗列强侵略、对内反对封建专制统治的历史；知道争取民族独立和人民解放是近代中国的历史任务。（唯物史观、史料实证、历史解释）"
+    }
+  },
+  {
+    "relationName": "cultivates",
+    "label": "中国近代史 培养 历史解释",
+    "source": "urn:jy:history:SB0307:OB03:module:2:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:4:OB03",
+    "evidence": {
+      "module": "中国近代史",
+      "CoreLiteracy": "历史解释",
+      "note": "内容要求/导言：...、对内反对封建专制统治的历史；知道争取民族独立和人民解放是近代中国的历史任务。（唯物史观、史料实证、历史解释）"
+    }
+  },
+  {
+    "relationName": "cultivates",
+    "label": "中国近代史 培养 家国情怀",
+    "source": "urn:jy:history:SB0307:OB03:module:2:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:5:OB03",
+    "evidence": {
+      "module": "中国近代史",
+      "CoreLiteracy": "家国情怀",
+      "note": "内容要求/导言：...统；认识和感悟五四精神、伟大建党精神、长征精神、抗战精神等，继承革命传统，培养优良作风。（历史解释、家国情怀）"
+    }
+  },
+  {
+    "relationName": "cultivates",
+    "label": "中国现代史 培养 唯物史观",
+    "source": "urn:jy:history:SB0307:OB03:module:3:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:1:OB03",
+    "evidence": {
+      "module": "中国现代史",
+      "CoreLiteracy": "唯物史观",
+      "note": "内容要求/导言：...线索和重要事件、人物、现象；能够理解中国走社会主义道路的历史必然性和探索这条道路的艰巨性和曲折性。（唯物史观、时空观念、历史解释）"
+    }
+  },
+  {
+    "relationName": "cultivates",
+    "label": "中国现代史 培养 时空观念",
+    "source": "urn:jy:history:SB0307:OB03:module:3:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:2:OB03",
+    "evidence": {
+      "module": "中国现代史",
+      "CoreLiteracy": "时空观念",
+      "note": "内容要求/导言：...事件、人物、现象；能够理解中国走社会主义道路的历史必然性和探索这条道路的艰巨性和曲折性。（唯物史观、时空观念、历史解释）"
+    }
+  },
+  {
+    "relationName": "cultivates",
+    "label": "中国现代史 培养 史料实证",
+    "source": "urn:jy:history:SB0307:OB03:module:3:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:3:OB03",
+    "evidence": {
+      "module": "中国现代史",
+      "CoreLiteracy": "史料实证",
+      "note": "内容要求/导言：...  2.2 能够搜集、分析重要的历史文献资料，初步学会社会调查的方法，加强对所学内容的理解与解释。（史料实证、历史解释）"
+    }
+  },
+  {
+    "relationName": "cultivates",
+    "label": "中国现代史 培养 历史解释",
+    "source": "urn:jy:history:SB0307:OB03:module:3:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:4:OB03",
+    "evidence": {
+      "module": "中国现代史",
+      "CoreLiteracy": "历史解释",
+      "note": "内容要求/导言：...、现象；能够理解中国走社会主义道路的历史必然性和探索这条道路的艰巨性和曲折性。（唯物史观、时空观念、历史解释）"
+    }
+  },
+  {
+    "relationName": "cultivates",
+    "label": "中国现代史 培养 家国情怀",
+    "source": "urn:jy:history:SB0307:OB03:module:3:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:5:OB03",
+    "evidence": {
+      "module": "中国现代史",
+      "CoreLiteracy": "家国情怀",
+      "note": "内容要求/导言：...中国特色社会主义思想对社会主义现代化建设和实现中华民族伟大复兴的重要指导意义。（唯物史观、历史解释、家国情怀）"
+    }
+  },
+  {
+    "relationName": "cultivates",
+    "label": "世界古代史 培养 唯物史观",
+    "source": "urn:jy:history:SB0307:OB03:module:4:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:1:OB03",
+    "evidence": {
+      "module": "世界古代史",
+      "CoreLiteracy": "唯物史观",
+      "note": "内容要求/导言：...的看法。（史料实证、历史解释）  2.3 能够认识劳动人民的生产实践在古代、中古文明发展中的作用。（唯物史观）"
+    }
+  },
+  {
+    "relationName": "cultivates",
+    "label": "世界古代史 培养 时空观念",
+    "source": "urn:jy:history:SB0307:OB03:module:4:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:2:OB03",
+    "evidence": {
+      "module": "世界古代史",
+      "CoreLiteracy": "时空观念",
+      "note": "教学提示：...阿拉伯帝国等统治范围的示意图，并与今天的世界地图进行对比，了解古代大帝国在今天的地理位置和范围，加强时空观念。"
+    }
+  },
+  {
+    "relationName": "cultivates",
+    "label": "世界古代史 培养 史料实证",
+    "source": "urn:jy:history:SB0307:OB03:module:4:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:3:OB03",
+    "evidence": {
+      "module": "世界古代史",
+      "CoreLiteracy": "史料实证",
+      "note": "内容要求/导言：...释）  2.2能够梳理教材的叙述，了解史事发生的背景和意义，对世界古代史的一些问题提出自己的看法。（史料实证、历史解释）"
+    }
+  },
+  {
+    "relationName": "cultivates",
+    "label": "世界古代史 培养 历史解释",
+    "source": "urn:jy:history:SB0307:OB03:module:4:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:4:OB03",
+    "evidence": {
+      "module": "世界古代史",
+      "CoreLiteracy": "历史解释",
+      "note": "内容要求/导言：...代世界文明的多元特点；能够在具体的时空条件下认识古代世界各个文明的发展状况和代表性成果。（时空观念、历史解释）"
+    }
+  },
+  {
+    "relationName": "cultivates",
+    "label": "世界古代史 培养 家国情怀",
+    "source": "urn:jy:history:SB0307:OB03:module:4:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:5:OB03",
+    "evidence": {
+      "module": "世界古代史",
+      "CoreLiteracy": "家国情怀",
+      "note": "内容要求/导言：...能够了解古代文明之间的交流、互动；初步理解、尊重各个文明之间的差异。（唯物史观、时空观念、历史解释、家国情怀）"
+    }
+  },
+  {
+    "relationName": "cultivates",
+    "label": "世界近代史 培养 唯物史观",
+    "source": "urn:jy:history:SB0307:OB03:module:5:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:1:OB03",
+    "evidence": {
+      "module": "世界近代史",
+      "CoreLiteracy": "唯物史观",
+      "note": "教学提示：...教学提示  世界近代史的教学，要注重引导学生运用唯物史观认识世界近代历史发展的规律；引导学生从全球视角把握近代以来世界整体发展的脉络和重要的历史发展..."
+    }
+  },
+  {
+    "relationName": "cultivates",
+    "label": "世界近代史 培养 时空观念",
+    "source": "urn:jy:history:SB0307:OB03:module:5:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:2:OB03",
+    "evidence": {
+      "module": "世界近代史",
+      "CoreLiteracy": "时空观念",
+      "note": "内容要求/导言：...了解世界近代史上的重要事件、人物和现象，找出重要史事之间的关联，以及历史发展的基本线索。（唯物史观、时空观念、历史解释）"
+    }
+  },
+  {
+    "relationName": "cultivates",
+    "label": "世界近代史 培养 史料实证",
+    "source": "urn:jy:history:SB0307:OB03:module:5:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:3:OB03",
+    "evidence": {
+      "module": "世界近代史",
+      "CoreLiteracy": "史料实证",
+      "note": "内容要求/导言：...释）  2.2 能够利用并分析可信史料，初步理解近代世界政治、经济和思想文化之间的关系。（唯物史观、史料实证、历史解释）"
+    }
+  },
+  {
+    "relationName": "cultivates",
+    "label": "世界近代史 培养 历史解释",
+    "source": "urn:jy:history:SB0307:OB03:module:5:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:4:OB03",
+    "evidence": {
+      "module": "世界近代史",
+      "CoreLiteracy": "历史解释",
+      "note": "内容要求/导言：...代史上的重要事件、人物和现象，找出重要史事之间的关联，以及历史发展的基本线索。（唯物史观、时空观念、历史解释）"
+    }
+  },
+  {
+    "relationName": "cultivates",
+    "label": "世界近代史 培养 家国情怀",
+    "source": "urn:jy:history:SB0307:OB03:module:5:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:5:OB03",
+    "evidence": {
+      "module": "世界近代史",
+      "CoreLiteracy": "家国情怀",
+      "note": "内容要求/导言：...民地半殖民地人民反抗斗争的曲折、艰苦过程，理解其正义性，并树立正义必胜的信心。（唯物史观、历史解释、家国情怀）"
+    }
+  },
+  {
+    "relationName": "cultivates",
+    "label": "世界现代史 培养 唯物史观",
+    "source": "urn:jy:history:SB0307:OB03:module:6:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:1:OB03",
+    "evidence": {
+      "module": "世界现代史",
+      "CoreLiteracy": "唯物史观",
+      "note": "内容要求/导言：... 学业要求  2.1 能够了解世界现代史上重要的事件、人物、现象，了解世界现代历史发展的基本进程。（唯物史观、时空观念、历史解释）"
+    }
+  },
+  {
+    "relationName": "cultivates",
+    "label": "世界现代史 培养 时空观念",
+    "source": "urn:jy:history:SB0307:OB03:module:6:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:2:OB03",
+    "evidence": {
+      "module": "世界现代史",
+      "CoreLiteracy": "时空观念",
+      "note": "教学提示：...二次世界大战前后的世界历史地图，概括说明其中显示的国际关系的变化，进一步提高运用历史地图的能力，提升时空观念。"
+    }
+  },
+  {
+    "relationName": "cultivates",
+    "label": "世界现代史 培养 史料实证",
+    "source": "urn:jy:history:SB0307:OB03:module:6:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:3:OB03",
+    "evidence": {
+      "module": "世界现代史",
+      "CoreLiteracy": "史料实证",
+      "note": "内容要求/导言：...义；能够通过多种途径搜集史料，运用史料进行论证，以实事求是的态度分析历史问题和现实问题。（唯物史观、史料实证、历史解释）"
+    }
+  },
+  {
+    "relationName": "cultivates",
+    "label": "世界现代史 培养 历史解释",
+    "source": "urn:jy:history:SB0307:OB03:module:6:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:4:OB03",
+    "evidence": {
+      "module": "世界现代史",
+      "CoreLiteracy": "历史解释",
+      "note": "内容要求/导言：... 能够了解世界现代史上重要的事件、人物、现象，了解世界现代历史发展的基本进程。（唯物史观、时空观念、历史解释）"
+    }
+  },
+  {
+    "relationName": "cultivates",
+    "label": "世界现代史 培养 家国情怀",
+    "source": "urn:jy:history:SB0307:OB03:module:6:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:5:OB03",
+    "evidence": {
+      "module": "世界现代史",
+      "CoreLiteracy": "家国情怀",
+      "note": "内容要求/导言：...识保护生态环境的重要性；增强社会责任感和历史使命感，为构建人类命运共同体贡献自己的力量。（历史解释、家国情怀）"
+    }
+  }
+]

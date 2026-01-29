@@ -1,0 +1,50 @@
+[
+  {
+    "relationName": "courseNatureLinkedToCourseConcept",
+    "label": "课程性质与课程理念的关联（课程性质强调“确立正确政治方向、用党的创新理论铸魂育人” → 对应理念1“坚持正确思想政治方向、马克思主义基本理论教育”） / CourseNature-ConceptLink (课程理念1)",
+    "source": "urn:jy:politics:SB0310:OB06:Coursenature:1",
+    "target": "urn:jy:politics:SB0310:OB06:Courseconcept:1"
+  },
+  {
+    "relationName": "courseConceptLinkedToCourseNature",
+    "label": "课程性质与课程理念的关联（课程性质强调“确立正确政治方向、用党的创新理论铸魂育人” → 对应理念1“坚持正确思想政治方向、马克思主义基本理论教育”） / CourseNature-ConceptLink (课程理念1)",
+    "source": "urn:jy:politics:SB0310:OB06:Courseconcept:1",
+    "target": "urn:jy:politics:SB0310:OB06:Coursenature:1"
+  },
+  {
+    "relationName": "courseNatureLinkedToCourseConcept",
+    "label": "课程性质与课程理念的关联（课程性质强调“综合性、活动型学科课程、紧密结合社会实践” → 对应理念2“以核心素养为主导的活动型学科课程、理论与实践结合”） / CourseNature-ConceptLink (课程理念2)",
+    "source": "urn:jy:politics:SB0310:OB06:Coursenature:1",
+    "target": "urn:jy:politics:SB0310:OB06:Courseconcept:2"
+  },
+  {
+    "relationName": "courseConceptLinkedToCourseNature",
+    "label": "课程性质与课程理念的关联（课程性质强调“综合性、活动型学科课程、紧密结合社会实践” → 对应理念2“以核心素养为主导的活动型学科课程、理论与实践结合”） / CourseNature-ConceptLink (课程理念2)",
+    "source": "urn:jy:politics:SB0310:OB06:Courseconcept:2",
+    "target": "urn:jy:politics:SB0310:OB06:Coursenature:1"
+  },
+  {
+    "relationName": "courseNatureLinkedToCourseConcept",
+    "label": "课程性质与课程理念的关联（课程性质强调“引导自主思考、合作探究，提升学科核心素养” → 对应理念3“把道理讲深讲透讲活、改进教与学方式”） / CourseNature-ConceptLink (课程理念3)",
+    "source": "urn:jy:politics:SB0310:OB06:Coursenature:1",
+    "target": "urn:jy:politics:SB0310:OB06:Courseconcept:3"
+  },
+  {
+    "relationName": "courseConceptLinkedToCourseNature",
+    "label": "课程性质与课程理念的关联（课程性质强调“引导自主思考、合作探究，提升学科核心素养” → 对应理念3“把道理讲深讲透讲活、改进教与学方式”） / CourseNature-ConceptLink (课程理念3)",
+    "source": "urn:jy:politics:SB0310:OB06:Courseconcept:3",
+    "target": "urn:jy:politics:SB0310:OB06:Coursenature:1"
+  },
+  {
+    "relationName": "courseNatureLinkedToCourseConcept",
+    "label": "课程性质与课程理念的关联（课程性质强调“培育政治认同、科学精神、法治观念、公共参与等核心素养” → 对应理念4“建立知行合一的综合评价方式，评价核心素养发展”） / CourseNature-ConceptLink (课程理念4)",
+    "source": "urn:jy:politics:SB0310:OB06:Coursenature:1",
+    "target": "urn:jy:politics:SB0310:OB06:Courseconcept:4"
+  },
+  {
+    "relationName": "courseConceptLinkedToCourseNature",
+    "label": "课程性质与课程理念的关联（课程性质强调“培育政治认同、科学精神、法治观念、公共参与等核心素养” → 对应理念4“建立知行合一的综合评价方式，评价核心素养发展”） / CourseNature-ConceptLink (课程理念4)",
+    "source": "urn:jy:politics:SB0310:OB06:Courseconcept:4",
+    "target": "urn:jy:politics:SB0310:OB06:Coursenature:1"
+  }
+]

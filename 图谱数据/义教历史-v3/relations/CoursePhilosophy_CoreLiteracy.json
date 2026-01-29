@@ -1,0 +1,68 @@
+[
+  {
+    "relationName": "rel_philosophy_aims_at_literacy",
+    "label": "课程理念_旨在_培育核心素养",
+    "source": "urn:jy:history:SB0307:OB03:CoursePhilosophy:1:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:1:OB03",
+    "evidence": {
+      "CoursePhilosophy": "历史课程是落实立德树人根本任务的重要课程，注重培育学生核心素养。",
+      "CoreLiteracy": "核心素养是学生通过课程学习逐步形成的正确价值观...主要包括唯物史观...",
+      "note": "课程理念1明确提出“立足学生核心素养发展”，确立了核心素养（如唯物史观）在课程中的核心育人目标地位。"
+    }
+  },
+  {
+    "relationName": "rel_philosophy_requires_literacy",
+    "label": "课程理念_要求_时空观念",
+    "source": "urn:jy:history:SB0307:OB03:CoursePhilosophy:02:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:2:OB03",
+    "evidence": {
+      "CoursePhilosophy": "使课程内容依照人类历史发展的时序，循序渐进地展开叙述...把握历史发展的阶段性特征。",
+      "CoreLiteracy": "时空观念...只有在特定的时空框架中，才可能对史事有准确的理解。",
+      "note": "课程理念2强调“点一线”结合和“时序”，这直接要求并支撑了“时空观念”这一核心素养的构建。"
+    }
+  },
+  {
+    "relationName": "rel_philosophy_requires_literacy",
+    "label": "课程理念_基于_唯物史观",
+    "source": "urn:jy:history:SB0307:OB03:CoursePhilosophy:02:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:1:OB03",
+    "evidence": {
+      "CoursePhilosophy": "以中外历史进程及其规律为基本线索...加强学生对...规律的...认识。",
+      "CoreLiteracy": "唯物史观是揭示人类社会历史客观基础及发展规律的科学的历史观...",
+      "note": "课程理念2强调以“历史规律”为线索，而“唯物史观”正是揭示这些规律的理论基础。"
+    }
+  },
+  {
+    "relationName": "rel_philosophy_fosters_literacy",
+    "label": "课程理念_涵养_家国情怀",
+    "source": "urn:jy:history:SB0307:OB03:CoursePhilosophy:03:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:5:OB03",
+    "evidence": {
+      "CoursePhilosophy": "充分反映人类文明的灿烂成就...中华优秀传统文化...增强责任意识和社会担当。",
+      "CoreLiteracy": "家国情怀...要求学生形成对家乡、国家和中华民族的认同...有理想、有担当。",
+      "note": "课程理念3通过精选“中华优秀传统文化”等内容，直接服务于“家国情怀”这一素养的培育。"
+    }
+  },
+  {
+    "relationName": "rel_philosophy_promotes_literacy",
+    "label": "课程理念_促进_史料实证",
+    "source": "urn:jy:history:SB0307:OB03:CoursePhilosophy:04:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:3:OB03",
+    "evidence": {
+      "CoursePhilosophy": "注重学生自主探究的学习活动...培养学生...发现和解决问题的能力。",
+      "CoreLiteracy": "史料实证...重视史料的搜集和解读，并在学习和探究活动中加以运用。",
+      "note": "课程理念4倡导的“自主探究”学习方式，必须依赖“史料实证”的能力来实现对历史问题的解决。"
+    }
+  },
+  {
+    "relationName": "rel_philosophy_evaluates_literacy",
+    "label": "课程理念_评价_核心素养",
+    "source": "urn:jy:history:SB0307:OB03:CoursePhilosophy:05:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoreLiteracy:4:OB03",
+    "evidence": {
+      "CoursePhilosophy": "历史课程评价以考查学生核心素养的发展状况为目标。",
+      "CoreLiteracy": "核心素养...是课程育人价值的集中体现。",
+      "note": "课程理念5确立了评价的根本标准是“核心素养”的达成度，评价体系完全围绕核心素养构建。"
+    }
+  }
+]

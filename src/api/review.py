@@ -114,27 +114,33 @@ async def get_entity_types(
     if not entities_dir.exists():
         return {"success": True, "types": []}
     
-    # 从JSON文件名获取实体类型
-    types = []
+    # 从JSON文件名获取实体类型（使用字典去重）
+    types_dict = {}
     for json_file in entities_dir.glob("*.json"):
         type_name = json_file.stem
+        
+        # 跳过已处理的类型（去重）
+        if type_name in types_dict:
+            continue
+        
         # 获取该类型的实体数量
         try:
             with open(json_file, 'r', encoding='utf-8') as f:
-                import json
-                data = json.load(f)
-                count = len(data) if isinstance(data, list) else len(data.get('entities', []))
+                file_data = json.load(f)
+                count = len(file_data) if isinstance(file_data, list) else len(file_data.get('entities', []))
         except Exception:
             count = 0
         
         # 获取排序优先级
         order = config.ENTITY_TYPE_ORDER.get(type_name, config.ENTITY_TYPE_ORDER.get('_default', 100))
         
-        types.append({
+        types_dict[type_name] = {
             "type": type_name,
             "count": count,
             "order": order
-        })
+        }
+    
+    types = list(types_dict.values())
     
     # 按配置的优先级排序，相同优先级按字母排序
     types.sort(key=lambda x: (x['order'], x['type']))

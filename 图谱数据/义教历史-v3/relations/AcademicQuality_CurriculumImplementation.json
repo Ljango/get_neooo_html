@@ -1,0 +1,57 @@
+[
+  {
+    "relationName": "rel_implementation_based_on_academic_quality",
+    "label": "课程实施_依据_学业质量",
+    "source": "urn:jy:history:SB0307:OB03:curriculumimplementation:1:OB03",
+    "target": "urn:jy:history:SB0307:OB03:AcademicQuality:1:OB03",
+    "evidence": {
+      "CurriculumImplementation": "教学目标的制订要以课程目标、学业要求和学业质量标准为依据，聚焦问题解决的实际程度...",
+      "AcademicQuality": "学业质量标准依据学习内容的不同层次，综合评定学生...所表现出的解决问题的正确价值观、必备品格和关键能力...",
+      "note": "课程实施中的教学目标制定必须依据学业质量标准，以确保教学方向与国家规定的学生学业成就表现一致。"
+    }
+  },
+  {
+    "relationName": "rel_implementation_based_on_academic_quality",
+    "label": "课程实施_依据_学业质量",
+    "source": "urn:jy:history:SB0307:OB03:curriculumimplementation:1:OB03",
+    "target": "urn:jy:history:SB0307:OB03:AcademicQuality:1:OB03",
+    "evidence": {
+      "CurriculumImplementation": "学习任务的确定应以课程标准中的内容要求、学业要求和学业质量标准为依据...",
+      "AcademicQuality": "学业质量标准...体现核心素养的发展水平和课程目标的实现程度。",
+      "note": "在设计教学过程明确学习任务时，必须依据学业质量标准，以引领学生认识历史和解决探究问题。"
+    }
+  },
+  {
+    "relationName": "rel_implementation_based_on_academic_quality",
+    "label": "课程实施_依据_学业质量",
+    "source": "urn:jy:history:SB0307:OB03:curriculumimplementation:1:OB03",
+    "target": "urn:jy:history:SB0307:OB03:AcademicQuality:1:OB03",
+    "evidence": {
+      "CurriculumImplementation": "历史课程的评价要以...学业质量为依据... 确定符合学业质量标准的评价目标。",
+      "AcademicQuality": "学业质量标准...对学生学业成就具体表现特征的总体刻画。",
+      "note": "课程评价体系（包括原则和目标）建立在学业质量标准之上，用以准确判断学生核心素养的达成度。"
+    }
+  },
+  {
+    "relationName": "rel_implementation_based_on_academic_quality",
+    "label": "课程实施_依据_学业质量",
+    "source": "urn:jy:history:SB0307:OB03:curriculumimplementation:1:OB03",
+    "target": "urn:jy:history:SB0307:OB03:AcademicQuality:1:OB03",
+    "evidence": {
+      "CurriculumImplementation": "历史课程学业水平考试，是依据...学业质量标准，对学生...课程目标达成度进行终结性评价的考试... 命题要体现...学业质量标准的要求。",
+      "AcademicQuality": "学业质量标准...综合评定学生面对真实情境...所表现出的...能力...",
+      "note": "学业水平考试作为终结性评价，其命题原则、框架研制及评分标准（如赋分值对应关系）均直接依据学业质量标准。"
+    }
+  },
+  {
+    "relationName": "rel_academic_quality_guides_implementation",
+    "label": "学业质量_引领_课程实施",
+    "source": "urn:jy:history:SB0307:OB03:AcademicQuality:1:OB03",
+    "target": "urn:jy:history:SB0307:OB03:curriculumimplementation:1:OB03",
+    "evidence": {
+      "AcademicQuality": "学业质量标准...体现核心素养的发展水平和课程目标的实现程度...是对学生学业成就具体表现特征的总体刻画。",
+      "CurriculumImplementation": "评价结果是衡量学生是否达到毕业标准...的重要依据，也可以为...改进教学提供指导。",
+      "note": "学业质量作为衡量核心素养发展水平的标尺，为课程实施中的教学改进、考试命题和评价反馈提供了根本遵循和导向。"
+    }
+  }
+]

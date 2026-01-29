@@ -1,0 +1,1598 @@
+[
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:1",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:1"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:1",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:1"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:2",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:1"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:1",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:2"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:3",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:2"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:2",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:3"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:4",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:2"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:2",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:4"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:5",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:3"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:3",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:5"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:6",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:3"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:3",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:6"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:7",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:4"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:4",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:7"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:8",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:4"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:4",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:8"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:9",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:4"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:4",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:9"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:10",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:7"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:7",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:10"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:11",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:7"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:7",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:11"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:12",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:8"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:8",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:12"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:13",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:8"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:8",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:13"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:14",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:9"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:9",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:14"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:15",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:9"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:9",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:15"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:16",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:10"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:10",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:16"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:17",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:10"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:10",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:17"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:18",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:16"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:16",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:18"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:19",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:16"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:16",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:19"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:20",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:17"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:17",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:20"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:21",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:17"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:17",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:21"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:22",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:18"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:18",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:22"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:23",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:18"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:18",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:23"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:24",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:20"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:20",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:24"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:25",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:20"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:20",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:25"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:26",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:21"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:21",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:26"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:27",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:21"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:21",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:27"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:28",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:22"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:22",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:28"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:29",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:22"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:22",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:29"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:30",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:22"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:22",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:30"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:31",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:24"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:24",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:31"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:32",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:24"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:24",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:32"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:33",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:25"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:25",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:33"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:34",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:25"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:25",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:34"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:35",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:25"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:25",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:35"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:36",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:26"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:26",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:36"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:37",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:26"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:26",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:37"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:38",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:26"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:26",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:38"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:39",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:26"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:26",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:39"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:40",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:28"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:28",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:40"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:41",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:28"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:28",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:41"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:42",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:28"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:28",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:42"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:43",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:29"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:29",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:43"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:44",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:29"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:29",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:44"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:45",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:30"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:30",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:45"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:46",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:30"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:30",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:46"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:47",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:30"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:30",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:47"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:48",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:32"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:32",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:48"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:49",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:32"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:32",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:49"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:50",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:33"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:33",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:50"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:51",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:33"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:33",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:51"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:52",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:33"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:33",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:52"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:53",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:34"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:34",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:53"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:54",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:34"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:34",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:54"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:55",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:34"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:34",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:55"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:56",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:36"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:36",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:56"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:57",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:36"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:36",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:57"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:58",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:36"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:36",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:58"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:59",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:37"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:37",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:59"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:60",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:37"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:37",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:60"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:61",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:37"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:37",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:61"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:62",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:38"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:38",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:62"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:63",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:38"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:38",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:63"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:64",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:38"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:38",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:64"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:65",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:40"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:40",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:65"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:66",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:40"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:40",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:66"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:67",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:40"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:40",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:67"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:68",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:41"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:41",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:68"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:69",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:41"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:41",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:69"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:70",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:43"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:43",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:70"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:71",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:43"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:43",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:71"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:72",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:44"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:44",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:72"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:73",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:44"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:44",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:73"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:74",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:45"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:45",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:74"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:75",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:45"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:45",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:75"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:76",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:47"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:47",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:76"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:77",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:47"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:47",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:77"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:78",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:48"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:48",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:78"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:79",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:48"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:48",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:79"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:80",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:50"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:50",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:80"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:81",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:50"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:50",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:81"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:82",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:50"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:50",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:82"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:83",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:51"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:51",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:83"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:84",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:51"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:51",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:84"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:85",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:53"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:53",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:85"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:86",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:53"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:53",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:86"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:87",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:54"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:54",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:87"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:88",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:54"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:54",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:88"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:89",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:55"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:55",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:89"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:90",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:55"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:55",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:90"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:91",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:56"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:56",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:91"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:92",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:56"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:56",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:92"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:93",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:58"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:58",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:93"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:94",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:58"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:58",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:94"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:95",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:59"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:59",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:95"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:96",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:59"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:59",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:96"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:97",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:61"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:61",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:97"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:98",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:61"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:61",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:98"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:99",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:62"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:62",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:99"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:100",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:62"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:62",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:100"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:101",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:64"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:64",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:101"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:102",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:64"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:64",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:102"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:103",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:65"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:65",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:103"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:104",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:65"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:65",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:104"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:105",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:65"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:65",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:105"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:106",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:67"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:67",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:106"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:107",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:67"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:67",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:107"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:108",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:68"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:68",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:108"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:109",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:68"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:68",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:109"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:110",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:69"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:69",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:110"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:111",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:69"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:69",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:111"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:112",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:71"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:71",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:112"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:113",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:71"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:71",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:113"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:114",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:72"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:72",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:114"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:115",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:72"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:72",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:115"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:116",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:72"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:72",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:116"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:117",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:73"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:73",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:117"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:118",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:73"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:73",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:118"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:119",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:73"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:73",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:119"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:120",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:74"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:74",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:120"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:121",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:74"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:74",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:121"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:122",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:76"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:76",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:122"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:123",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:76"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:76",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:123"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:124",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:77"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:77",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:124"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:125",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:77"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:77",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:125"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:126",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:78"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:78",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:126"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:127",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:78"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:78",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:127"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:128",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:80"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:80",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:128"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:129",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:80"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:80",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:129"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:130",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:81"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:81",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:130"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:131",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:81"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:81",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:131"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:132",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:82"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:82",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:132"
+  },
+  {
+    "relationName": "subsectionBelongsToSection",
+    "label": "小节归属节 / Subsection belongs to Section",
+    "source": "urn:jy:Politics:SB0310:OB06:Subsection:133",
+    "target": "urn:jy:Politics:SB0310:OB06:Section:82"
+  },
+  {
+    "relationName": "sectionContainsSubsection",
+    "label": "节包含小节 / Section contains Subsection",
+    "source": "urn:jy:Politics:SB0310:OB06:Section:82",
+    "target": "urn:jy:Politics:SB0310:OB06:Subsection:133"
+  }
+]

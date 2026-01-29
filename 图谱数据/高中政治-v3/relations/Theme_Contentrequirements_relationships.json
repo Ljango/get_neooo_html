@@ -1,0 +1,1190 @@
+[
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《1.人类社会发展的进程与趋势》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:1",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:1"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《1.人类社会发展的进程与趋势》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:1",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:1"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《1.人类社会发展的进程与趋势》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:2",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:1"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《1.人类社会发展的进程与趋势》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:1",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:2"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《2. 中国特色社会主义的探索、开创与发展》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:3",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:2"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《2. 中国特色社会主义的探索、开创与发展》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:2",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:3"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《2. 中国特色社会主义的探索、开创与发展》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:4",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:2"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《2. 中国特色社会主义的探索、开创与发展》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:2",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:4"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《2. 中国特色社会主义的探索、开创与发展》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:5",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:2"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《2. 中国特色社会主义的探索、开创与发展》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:2",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:5"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《2. 中国特色社会主义的探索、开创与发展》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:6",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:2"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《2. 中国特色社会主义的探索、开创与发展》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:2",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:6"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《1.经济制度与经济体制》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:7",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:3"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《1.经济制度与经济体制》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:3",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:7"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《1.经济制度与经济体制》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:8",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:3"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《1.经济制度与经济体制》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:3",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:8"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《1.经济制度与经济体制》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:9",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:3"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《1.经济制度与经济体制》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:3",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:9"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《2.经济发展与社会进步》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:10",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:4"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《2.经济发展与社会进步》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:4",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:10"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《2.经济发展与社会进步》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:11",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:4"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《2.经济发展与社会进步》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:4",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:11"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《2.经济发展与社会进步》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:12",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:4"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《2.经济发展与社会进步》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:4",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:12"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《1.中国共产党的领导》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:13",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:5"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《1.中国共产党的领导》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:5",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:13"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《1.中国共产党的领导》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:14",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:5"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《1.中国共产党的领导》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:5",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:14"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《1.中国共产党的领导》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:15",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:5"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《1.中国共产党的领导》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:5",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:15"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《2.人民当家作主》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:16",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:6"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《2.人民当家作主》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:6",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:16"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《2.人民当家作主》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:17",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:6"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《2.人民当家作主》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:6",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:17"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《2.人民当家作主》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:18",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:6"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《2.人民当家作主》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:6",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:18"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《2.人民当家作主》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:19",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:6"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《2.人民当家作主》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:6",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:19"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《3.依法治国》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:20",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:7"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《3.依法治国》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:7",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:20"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《3.依法治国》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:21",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:7"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《3.依法治国》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:7",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:21"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《3.依法治国》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:22",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:7"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《3.依法治国》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:7",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:22"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《1.探索世界与追求真理》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:23",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:8"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《1.探索世界与追求真理》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:8",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:23"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《1.探索世界与追求真理》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:24",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:8"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《1.探索世界与追求真理》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:8",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:24"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《1.探索世界与追求真理》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:25",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:8"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《1.探索世界与追求真理》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:8",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:25"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《1.探索世界与追求真理》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:26",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:8"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《1.探索世界与追求真理》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:8",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:26"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《2.认识社会与价值选择》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:27",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:9"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《2.认识社会与价值选择》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:9",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:27"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《2.认识社会与价值选择》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:28",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:9"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《2.认识社会与价值选择》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:9",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:28"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《3.文化传承与文化创新》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:29",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:10"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《3.文化传承与文化创新》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:10",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:29"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《3.文化传承与文化创新》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:30",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:10"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《3.文化传承与文化创新》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:10",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:30"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《3.文化传承与文化创新》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:31",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:10"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《3.文化传承与文化创新》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:10",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:31"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《1. 各具特色的国家》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:32",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:11"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《1. 各具特色的国家》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:11",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:32"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《1. 各具特色的国家》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:33",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:11"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《1. 各具特色的国家》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:11",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:33"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《1. 各具特色的国家》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:34",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:11"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《1. 各具特色的国家》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:11",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:34"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《2. 世界多极化》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:35",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:12"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《2. 世界多极化》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:12",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:35"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《2. 世界多极化》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:36",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:12"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《2. 世界多极化》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:12",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:36"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《2. 世界多极化》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:37",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:12"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《2. 世界多极化》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:12",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:37"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《3. 经济全球化》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:38",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:13"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《3. 经济全球化》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:13",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:38"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《3. 经济全球化》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:39",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:13"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《3. 经济全球化》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:13",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:39"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《3. 经济全球化》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:40",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:13"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《3. 经济全球化》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:13",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:40"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《4. 国际组织》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:41",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:14"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《4. 国际组织》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:14",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:41"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《4. 国际组织》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:42",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:14"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《4. 国际组织》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:14",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:42"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《1. 民事权利与义务》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:43",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:15"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《1. 民事权利与义务》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:15",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:43"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《1. 民事权利与义务》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:44",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:15"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《1. 民事权利与义务》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:15",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:44"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《1. 民事权利与义务》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:45",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:15"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《1. 民事权利与义务》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:15",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:45"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《1. 民事权利与义务》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:46",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:15"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《1. 民事权利与义务》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:15",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:46"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《2. 家庭与婚姻》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:47",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:16"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《2. 家庭与婚姻》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:16",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:47"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《2. 家庭与婚姻》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:48",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:16"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《2. 家庭与婚姻》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:16",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:48"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《3.就业与创业》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:49",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:17"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《3.就业与创业》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:17",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:49"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《3.就业与创业》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:50",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:17"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《3.就业与创业》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:17",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:50"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《4. 社会争议解决》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:51",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:18"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《4. 社会争议解决》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:18",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:51"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《4. 社会争议解决》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:52",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:18"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《4. 社会争议解决》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:18",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:52"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《4. 社会争议解决》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:53",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:18"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《4. 社会争议解决》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:18",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:53"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《4. 社会争议解决》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:54",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:18"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《4. 社会争议解决》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:18",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:54"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《1.学会科学思维》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:55",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:19"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《1.学会科学思维》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:19",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:55"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《1.学会科学思维》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:56",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:19"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《1.学会科学思维》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:19",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:56"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《2. 遵循逻辑思维要求》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:57",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:20"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《2. 遵循逻辑思维要求》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:20",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:57"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《2. 遵循逻辑思维要求》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:58",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:20"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《2. 遵循逻辑思维要求》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:20",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:58"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《2. 遵循逻辑思维要求》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:59",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:20"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《2. 遵循逻辑思维要求》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:20",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:59"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《2. 遵循逻辑思维要求》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:60",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:20"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《2. 遵循逻辑思维要求》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:20",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:60"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《3. 运用辩证思维方法》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:61",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:21"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《3. 运用辩证思维方法》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:21",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:61"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《3. 运用辩证思维方法》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:62",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:21"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《3. 运用辩证思维方法》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:21",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:62"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《3. 运用辩证思维方法》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:63",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:21"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《3. 运用辩证思维方法》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:21",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:63"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《4. 提高创新思维能力》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:64",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:22"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《4. 提高创新思维能力》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:22",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:64"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《4. 提高创新思维能力》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:65",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:22"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《4. 提高创新思维能力》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:22",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:65"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《1. 货币与市场》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:66",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:23"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《1. 货币与市场》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:23",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:66"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《1. 货币与市场》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:67",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:23"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《1. 货币与市场》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:23",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:67"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《1. 货币与市场》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:68",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:23"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《1. 货币与市场》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:23",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:68"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《2. 收入与支出》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:69",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:24"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《2. 收入与支出》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:24",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:69"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《2. 收入与支出》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:70",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:24"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《2. 收入与支出》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:24",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:70"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《2. 收入与支出》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:71",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:24"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《2. 收入与支出》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:24",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:71"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《3. 投资与理财》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:72",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:25"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《3. 投资与理财》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:25",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:72"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《3. 投资与理财》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:73",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:25"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《3. 投资与理财》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:25",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:73"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《3. 投资与理财》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:74",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:25"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《3. 投资与理财》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:25",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:74"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《4. 企业与就业》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:75",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:26"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《4. 企业与就业》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:26",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:75"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《4. 企业与就业》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:99",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:26"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《4. 企业与就业》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:26",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:99"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《4. 企业与就业》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:76",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:26"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《4. 企业与就业》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:26",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:76"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《1. 法官的职责》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:77",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:27"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《1. 法官的职责》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:27",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:77"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《1. 法官的职责》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:78",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:27"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《1. 法官的职责》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:27",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:78"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《1. 法官的职责》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:79",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:27"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《1. 法官的职责》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:27",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:79"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《2.审判程序》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:80",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:28"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《2.审判程序》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:28",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:80"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《2.审判程序》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:81",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:28"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《2.审判程序》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:28",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:81"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《2.审判程序》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:82",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:28"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《2.审判程序》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:28",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:82"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《3. 律师的职责》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:83",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:29"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《3. 律师的职责》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:29",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:83"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《3. 律师的职责》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:84",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:29"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《3. 律师的职责》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:29",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:84"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《3. 律师的职责》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:85",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:29"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《3. 律师的职责》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:29",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:85"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《4. 辩护和代理》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:86",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:30"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《4. 辩护和代理》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:30",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:86"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《4. 辩护和代理》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:87",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:30"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《4. 辩护和代理》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:30",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:87"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《1. 百家争鸣的时代》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:88",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:31"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《1. 百家争鸣的时代》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:31",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:88"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《1. 百家争鸣的时代》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:89",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:31"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《1. 百家争鸣的时代》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:31",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:89"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《1. 百家争鸣的时代》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:90",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:31"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《1. 百家争鸣的时代》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:31",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:90"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《2. 理学与心学的演变》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:91",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:32"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《2. 理学与心学的演变》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:32",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:91"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《2. 理学与心学的演变》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:92",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:32"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《2. 理学与心学的演变》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:32",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:92"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《3. 西方哲学的起源》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:93",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:33"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《3. 西方哲学的起源》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:33",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:93"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《3. 西方哲学的起源》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:94",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:33"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《3. 西方哲学的起源》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:33",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:94"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《4. 西方哲学的发展》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:95",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:34"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《4. 西方哲学的发展》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:34",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:95"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《4. 西方哲学的发展》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:96",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:34"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《4. 西方哲学的发展》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:34",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:96"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《4. 西方哲学的发展》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:97",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:34"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《4. 西方哲学的发展》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:34",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:97"
+  },
+  {
+    "relationName": "contentRequirementSupportsTheme",
+    "label": "内容要求支撑一级主题《4. 西方哲学的发展》 / supportsTheme",
+    "source": "urn:jy:politics:SB0310:OB06:Contentrequirements:98",
+    "target": "urn:jy:politics:SB0310:OB06:Theme:34"
+  },
+  {
+    "relationName": "themeIncludesContentRequirement",
+    "label": "一级主题《4. 西方哲学的发展》包含内容要求 / includesContentRequirement",
+    "source": "urn:jy:politics:SB0310:OB06:Theme:34",
+    "target": "urn:jy:politics:SB0310:OB06:Contentrequirements:98"
+  }
+]

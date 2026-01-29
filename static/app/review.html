@@ -815,25 +815,44 @@
             clearDetail();
         }
         
+        // 防止并发调用
+        let loadTypeFilterPromise = null;
+        
         async function loadTypeFilter() {
+            // 如果已有请求在进行中，等待它完成
+            if (loadTypeFilterPromise) {
+                await loadTypeFilterPromise;
+                return;
+            }
+            
             // 加载实体类型用于筛选（使用专用API获取所有类型）
             const typeSelect = document.getElementById('typeFilter');
             typeSelect.innerHTML = '<option value="">全部类型</option>';
             
             if (currentTab === 'entity' && currentSubject) {
-                try {
-                    const result = await api.review.getEntityTypes(currentSubject);
-                    if (result.success && result.types) {
-                        result.types.forEach(item => {
-                            const option = document.createElement('option');
-                            option.value = item.type;
-                            option.textContent = `${item.type} (${item.count})`;
-                            typeSelect.appendChild(option);
-                        });
+                loadTypeFilterPromise = (async () => {
+                    try {
+                        const result = await api.review.getEntityTypes(currentSubject);
+                        if (result.success && result.types) {
+                            // 使用Set去重
+                            const addedTypes = new Set();
+                            result.types.forEach(item => {
+                                if (!addedTypes.has(item.type)) {
+                                    addedTypes.add(item.type);
+                                    const option = document.createElement('option');
+                                    option.value = item.type;
+                                    option.textContent = `${item.type} (${item.count})`;
+                                    typeSelect.appendChild(option);
+                                }
+                            });
+                        }
+                    } catch (e) {
+                        console.error('加载实体类型失败:', e);
+                    } finally {
+                        loadTypeFilterPromise = null;
                     }
-                } catch (e) {
-                    console.error('加载实体类型失败:', e);
-                }
+                })();
+                await loadTypeFilterPromise;
             }
         }
         

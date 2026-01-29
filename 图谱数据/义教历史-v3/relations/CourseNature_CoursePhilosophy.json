@@ -1,0 +1,57 @@
+[
+  {
+    "relationName": "rel_nature_determines_philosophy_goal",
+    "label": "课程性质_决定_育人导向",
+    "source": "urn:jy:history:SB0307:OB03:CourseNature:1:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoursePhilosophy:1:OB03",
+    "evidence": {
+      "CourseNature": "义务教育历史课程是...提高人文素养的课程...具有引导学生...坚定历史自信、涵养家国情怀...的重要作用。",
+      "CoursePhilosophy": "历史课程是落实立德树人根本任务的重要课程，注重培育学生核心素养...使学生树立正确的历史观...",
+      "note": "逻辑关系：【课程性质】中关于“提高人文素养”和“引导学生树立正确价值观”的根本定位，决定了【课程理念】必须把“立足学生核心素养发展”和“发挥育人功能”放在首位，二者是目标与落实的关系。"
+    }
+  },
+  {
+    "relationName": "rel_nature_shapes_philosophy_structure",
+    "label": "课程性质_规定_内容构建方式",
+    "source": "urn:jy:history:SB0307:OB03:CourseNature:1:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoursePhilosophy:02:OB03",
+    "evidence": {
+      "CourseNature": "历史学是在一定的历史观指导下叙述和阐释人类历史进程的学科...以...认识历史规律...为其重要功能。义务教育历史课程是...了解中外历史发展进程...的课程。",
+      "CoursePhilosophy": "以中外历史进程及其规律为基本线索...采用“点一线”结合的方式呈现...使课程内容依照人类历史发展的时序...展开叙述。",
+      "note": "逻辑关系：【课程性质】强调历史学是“阐释人类历史进程”和“认识历史规律”的学科，这一学科本质要求【课程理念】在构建课程时必须“以中外历史进程及其规律为基本线索”，采用“点一线”结合的方式来呈现历史的时序性和阶段性。"
+    }
+  },
+  {
+    "relationName": "rel_nature_dictates_philosophy_selection",
+    "label": "课程性质_要求_内容精选标准",
+    "source": "urn:jy:history:SB0307:OB03:CourseNature:1:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoursePhilosophy:03:OB03",
+    "evidence": {
+      "CourseNature": "具有思想性、人文性、综合性、基础性特点。",
+      "CoursePhilosophy": "精选和优化课程内容，突出思想性、基础性...历史课程内容的选择坚持正确的思想导向...",
+      "note": "逻辑关系：【课程性质】明确界定了课程具有“思想性”和“基础性”等特点，直接指导了【课程理念】在“精选和优化课程内容”时必须突出这些特定属性，确保内容选择符合课程本质。"
+    }
+  },
+  {
+    "relationName": "rel_nature_guides_philosophy_teaching",
+    "label": "课程性质_引领_教学方式变革",
+    "source": "urn:jy:history:SB0307:OB03:CourseNature:1:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoursePhilosophy:04:OB03",
+    "evidence": {
+      "CourseNature": "义务教育历史课程是...提高人文素养的课程...具有引导学生...拓宽国际视野的重要作用。",
+      "CoursePhilosophy": "树立以学生为主体的教学观念...通过学生自主探究的学习活动...实现历史课程育人方式的变革...培养学生学会学习。",
+      "note": "逻辑关系：【课程性质】旨在“提高人文素养”和“引导学生认识”，为了实现这一内化过程，【课程理念】必须倡导“以学生为主体”和“自主探究”的教学方式，只有通过学生的主动参与，才能真正达成性质中规定的育人作用。"
+    }
+  },
+  {
+    "relationName": "rel_nature_underpins_philosophy_evaluation",
+    "label": "课程性质_确立_评价体系目标",
+    "source": "urn:jy:history:SB0307:OB03:CourseNature:1:OB03",
+    "target": "urn:jy:history:SB0307:OB03:CoursePhilosophy:05:OB03",
+    "evidence": {
+      "CourseNature": "义务教育历史课程是...传承人类文明、提高人文素养的课程...具有引导学生...的重要作用。",
+      "CoursePhilosophy": "历史课程评价以考查学生核心素养的发展状况为目标...综合运用多种评价方式...发挥评价促进学习...的功能。",
+      "note": "逻辑关系：【课程性质】所规定的“提高人文素养”等目标，为【课程理念】中的评价体系提供了根本标准，即评价不仅仅是考查知识，更要考查“核心素养的发展状况”，以保证课程性质的实现。"
+    }
+  }
+]

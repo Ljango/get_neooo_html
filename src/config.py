@@ -100,10 +100,14 @@ ENTITY_TYPE_CONFIG = {
     "Attitude": {"label": "态度", "color": "#1abc9c", "size": 14},
     "Interdisciplinary": {"label": "跨学科", "color": "#e74c3c", "size": 14},
     
-    # 义教地理
+    # 地理（义教/高中）
     "LearningThemeL1": {"label": "一级学习主题", "color": "#e67e22", "size": 22},
     "LearningThemeL2": {"label": "二级学习主题", "color": "#f39c12", "size": 18},
     "LearningThemeL3": {"label": "三级学习主题", "color": "#f1c40f", "size": 16},
+    "CoreLiteracy-level": {"label": "核心素养水平", "color": "#16a085", "size": 16},
+    "BookModule": {"label": "书模块", "color": "#3498db", "size": 18},
+    "ModuleAspect": {"label": "模块表现", "color": "#9b59b6", "size": 16},
+    "CourseModel": {"label": "课程模式", "color": "#e74c3c", "size": 20},
     
     # 义教数学
     "CoreLiteracyAspect": {"label": "核心素养方面", "color": "#16a085", "size": 16},

@@ -1,0 +1,57 @@
+[
+  {
+    "relationName": "rel_implementation_guarantees_objective",
+    "label": "课程实施_保障_唯物史观目标",
+    "source": "urn:jy:history:SB0307:OB03:curriculumimplementation:1:OB03",
+    "target": "urn:jy:history:SB0307:OB03:ObjectivesRequirements:1:OB03",
+    "evidence": {
+      "CurriculumImplementation": "历史教学要坚持以唯物史观为指导，引导学生正确认识人类历史的发展... 落实立德树人根本任务。",
+      "ObjectivesRequirements": "能够认识劳动在人类社会发展中的重要作用...能够将唯物史观运用于历史学习...",
+      "note": "课程实施建议中明确要求‘以正确的思想统领历史课程的教学’，坚持唯物史观指导，这是达成‘初步学会在唯物史观的指导下看待历史’这一目标的根本教学保障。"
+    }
+  },
+  {
+    "relationName": "rel_implementation_supports_objective",
+    "label": "课程实施_支撑_时空观念目标",
+    "source": "urn:jy:history:SB0307:OB03:curriculumimplementation:1:OB03",
+    "target": "urn:jy:history:SB0307:OB03:ObjectivesRequirements:2:OB03",
+    "evidence": {
+      "CurriculumImplementation": "创设历史情境... 具体的、形象的、动态的、多维度的历史情境；(考试命题) 具体包括考查学生... 在时空条件下考察历史... 等能力。",
+      "ObjectivesRequirements": "了解历史发展的时间顺序和空间要素...",
+      "note": "课程实施中的‘创设历史情境’教学策略以及学业水平考试中关于‘在时空条件下考察历史’的命题要求，直接服务于学生‘学会在具体的时空条件下考察历史’这一目标的达成与检测。"
+    }
+  },
+  {
+    "relationName": "rel_implementation_supports_objective",
+    "label": "课程实施_支撑_史料实证目标",
+    "source": "urn:jy:history:SB0307:OB03:curriculumimplementation:1:OB03",
+    "target": "urn:jy:history:SB0307:OB03:ObjectivesRequirements:3:OB03",
+    "evidence": {
+      "CurriculumImplementation": "开展史料研习... 要求教师引导学生学会搜集、整理、辨析史料，运用史料解释历史... 依靠可信史料认识历史。",
+      "ObjectivesRequirements": "了解史料的主要类型，初步学会从多种渠道获取历史信息...",
+      "note": "课程实施建议专门提出‘开展史料研习’的教学过程设计，这是培养学生‘初步学会依靠可信史料了解和认识历史’这一目标的主要教学路径。"
+    }
+  },
+  {
+    "relationName": "rel_implementation_supports_objective",
+    "label": "课程实施_支撑_历史解释目标",
+    "source": "urn:jy:history:SB0307:OB03:curriculumimplementation:1:OB03",
+    "target": "urn:jy:history:SB0307:OB03:ObjectivesRequirements:4:OB03",
+    "evidence": {
+      "CurriculumImplementation": "组织历史论证... 引导学生对史料进行分析、比较、综合、概括等，形成自己的看法... 有根据地评述史事。",
+      "ObjectivesRequirements": "能够初步区分历史叙述中的史实与解释...",
+      "note": "课程实施中‘组织历史论证’的环节设计，旨在引导学生形成看法并评述史事，直接对应‘初步学会有理有据地表达自己对历史的看法’这一目标要求。"
+    }
+  },
+  {
+    "relationName": "rel_implementation_fosters_objective",
+    "label": "课程实施_涵养_家国情怀目标",
+    "source": "urn:jy:history:SB0307:OB03:curriculumimplementation:1:OB03",
+    "target": "urn:jy:history:SB0307:OB03:ObjectivesRequirements:5:OB03",
+    "evidence": {
+      "CurriculumImplementation": "坚持正确的价值引领，使学生逐步树立正确的历史观、民族观、国家观、文化观；(命题) 注重考查学生的家国情怀。",
+      "ObjectivesRequirements": "能够从历史的角度认识中华文明突出的连续性...增强热爱家乡、热爱祖国的情感...",
+      "note": "课程实施强调在叙述和评价史事时的‘价值引领’，以及考试中对‘家国情怀’的侧重考查，共同致力于‘形成对国家和中华民族的认同’这一情感态度价值观目标的实现。"
+    }
+  }
+]
